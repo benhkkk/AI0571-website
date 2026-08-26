@@ -403,30 +403,30 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   'use strict';
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry']};
   const NEWS = [
-    {c:'HOT', d:'2026-08-26T15:10', t:'离开剪映后创业，她想把一支设计团队装进 AI 工作台', s:'头图来源：OJO 官网 极客公园获悉，前剪映中国负责人张琪智已离职创业，创办 AI 产品原型设计工作台 OJO，并于近日…（来源：极客公园）'},
-    {c:'MODEL', d:'2026-08-26T14:08', t:'占 16 字节：曝微软 Win11 画图 / 照片向 AI 生图嵌入 128-bit 隐藏标识符', s:'科技媒体 NeoWin 昨日（8 月 25 日）发布博文，报道称安全研究员 Xusheng Li 通过逆向分析，发现微软…（来源：IT之家）'},
-    {c:'MODEL', d:'2026-08-26T13:52', t:'宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底', s:'宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底（来源：量子位）'},
-    {c:'MODEL', d:'2026-08-26T13:48', t:'24 个调试补丁、18 次内核启动：Linux 之父托瓦兹借助 AI 定位 Intel Xe 黑屏故障', s:'科技媒体 Linuxiac 昨日（8 月 25 日）发布博文，报道称 Linux 创始人林纳斯 · 托瓦兹（Linus …（来源：IT之家）'},
-    {c:'FUNDING', d:'2026-08-26T10:57', t:'Stability AI 完成 7600 万美元 B 轮融资：EA 与三大音乐娱乐企业均参投', s:'Stability AI 美国加州当地时间 25 日宣布完成总额 7,600 万美元（IT之家注：现汇率约合 5.12 …（来源：IT之家）'},
-    {c:'FUNDING', d:'2026-08-25T12:41', t:'越疆2026中报：营收翻倍、具身收入激增20倍，Physical AI进入商业化兑现期', s:'当机器人行业的大量叙事还停留在融资轮次与概念发布时，越疆科技已经交出了一份由产线验收单写成的中期答卷。8月24日，越疆科…（来源：雷锋网）'},
-    {c:'FUNDING', d:'2026-08-25T08:25', t:'TRAE、扣子并入豆包，字节将推「豆包工作」；拓竹回应 2027 年 IPO 传闻：消息不实；要钱还是使命，Anthropic 面试流程曝光｜极客早知道', s:'TRAE、扣子并入豆包，字节将推统一办公品牌 "豆包工作" 8 月 24 日消息，字节跳动对旗下的办公 AI 产品完成了…（来源：极客公园）'},
-    {c:'INDUSTRY', d:'2026-08-26T10:51', t:'汤道生内部发文回应腾讯 AI 慢了：AI 竞争不是短跑，熬得久比起得早更重要', s:'据鞭牛士今日报道，腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生 8 月 25 日晚在腾讯内部刊物《知点》年…（来源：IT之家）'},
-    {c:'INDUSTRY', d:'2026-08-25T14:42', t:'突破具身智能物理死角：IJCAI 2026 具身智能泛化与控制突破', s:'告别理想仿真，中国学术团队用物理工程方案回应落地挑战。 作者丨张璐 编辑丨岑峰 过去一年多里，具身智能似乎按下了快进键…（来源：雷锋网）'},
-    {c:'HOT', d:'2026-08-26T14:09', t:'299 美元：高通 Arduino VENTUNO Q 边缘 AI 平台开放预购', s:'Qualcomm（高通）子公司 Arduino 意大利当地时间昨日宣布，其边缘 AI 平台 VENTUNO Q 现已开放…（来源：IT之家）'},
-    {c:'HOT', d:'2026-08-26T13:56', t:'刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》', s:'刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》（来源：量子位）'},
-    {c:'HOT', d:'2026-08-26T11:58', t:'大厂AI To B大战，这回战场为什么是办公？', s:'大厂AI To B商业化的战火，已经烧到AI办公。内部赛马、业务整合、资源重配，过去一个多月，腾讯、阿里、字节三家大厂几…（来源：雷锋网）'},
-    {c:'MODEL', d:'2026-08-26T12:25', t:'多亲 J36 AI 按键智能手机发布：红外遥控、微信支付宝、一句话生成文案，659 元', s:'多亲今日发布了一款多亲 J36 AI 按键智能手机，定价 659 元。多亲 J36 搭载 2.8 英寸 480*640 …（来源：IT之家）'},
-    {c:'MODEL', d:'2026-08-26T12:03', t:'扎心：Anthropic 最贵的模型，企业几乎不用', s:'《金融时报》拿到了一份数据，然后提了一个让 Anthropic 在 IPO 之前很难堪的问题：你的最强模型到底有没有人用…（来源：OSCHINA）'},
-    {c:'HOT', d:'2026-08-26T11:50', t:'具身智能走进千行百业，浙江人形 WRC2026 诠释 "具身在场"', s:'2026 WRC 现场，三台机器人默契配合，正完成工业制造拆垛、分拣、搬运的全流程工作；几步之外，观众在零售舱前下单，等…（来源：雷锋网）'},
-    {c:'MODEL', d:'2026-08-26T11:25', t:'Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用', s:'蚂蚁国际日前正式发布自研时序AI预测大模型“鹰序TST”2.0版。（来源：量子位）'},
+    {c:'MODEL', d:'2026-08-26T16:02', t:'从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？', s:'AI to B，要真的能「救火」。 去年年底的一个深夜，古茗科技集团运维负责人刘星光再次被手机震动惊醒——屏幕上跳动着上…（来源：极客公园）', u:'http://www.geekpark.net/news/369401'},
+    {c:'MODEL', d:'2026-08-26T15:56', t:'OpenAI ChatGPT 云端浏览器新增登录功能：账号密码不保存，但 Cookie 会持续到会话过期', s:'OpenAI 于当地时间 8 月 25 日为 ChatGPT Work 中的云端浏览器增加了重磅更新，现已支持在需要登录…（来源：IT之家）', u:'https://www.ithome.com/0/994/581.htm'},
+    {c:'MODEL', d:'2026-08-26T15:47', t:'消息称 DeepSeek 今年前 7 个月营收近 4.75 亿元，达去年全年水平 10 倍', s:'北京时间今天（25 日）下午，据 The Information 援引两名了解 DeepSeek 财务数据的人士消息称…（来源：IT之家）', u:'https://www.ithome.com/0/994/574.htm'},
+    {c:'MODEL', d:'2026-08-26T15:41', t:'Cloudflare 称 AI 智能体已占 60% 互联网流量，同比激增 1700%', s:'韩媒 chosun 昨日（8 月 25 日）发布博文，报道称 Cloudflare 亚太区执行副总裁兼董事总经理 Gor…（来源：IT之家）', u:'https://www.ithome.com/0/994/571.htm'},
+    {c:'FUNDING', d:'2026-08-25T12:41', t:'越疆2026中报：营收翻倍、具身收入激增20倍，Physical AI进入商业化兑现期', s:'当机器人行业的大量叙事还停留在融资轮次与概念发布时，越疆科技已经交出了一份由产线验收单写成的中期答卷。8月24日，越疆科…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/dKNT8oYzmw5hsVgL.html'},
+    {c:'FUNDING', d:'2026-08-25T08:25', t:'TRAE、扣子并入豆包，字节将推「豆包工作」；拓竹回应 2027 年 IPO 传闻：消息不实；要钱还是使命，Anthropic 面试流程曝光｜极客早知道', s:'TRAE、扣子并入豆包，字节将推统一办公品牌 "豆包工作" 8 月 24 日消息，字节跳动对旗下的办公 AI 产品完成了…（来源：极客公园）', u:'http://www.geekpark.net/news/369303'},
+    {c:'INDUSTRY', d:'2026-08-26T15:27', t:'九成美企高管称过去三年 AI 未影响公司就业情况，且“完全未影响”生产力', s:'现如今，AI 一直被包装成提高生产力的利器，理论上可以帮助企业降本增效。而据外媒 Futurism 当地时间 25 日报…（来源：IT之家）', u:'https://www.ithome.com/0/994/560.htm'},
+    {c:'INDUSTRY', d:'2026-08-25T14:42', t:'突破具身智能物理死角：IJCAI 2026 具身智能泛化与控制突破', s:'告别理想仿真，中国学术团队用物理工程方案回应落地挑战。 作者丨张璐 编辑丨岑峰 过去一年多里，具身智能似乎按下了快进键…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/5YB9zkA19rHTGz0o.html'},
+    {c:'HOT', d:'2026-08-26T15:10', t:'离开剪映后创业，她想把一支设计团队装进 AI 工作台', s:'头图来源：OJO 官网 极客公园获悉，前剪映中国负责人张琪智已离职创业，创办 AI 产品原型设计工作台 OJO，并于近日…（来源：极客公园）', u:'http://www.geekpark.net/news/369395'},
+    {c:'HOT', d:'2026-08-26T14:09', t:'299 美元：高通 Arduino VENTUNO Q 边缘 AI 平台开放预购', s:'Qualcomm（高通）子公司 Arduino 意大利当地时间昨日宣布，其边缘 AI 平台 VENTUNO Q 现已开放…（来源：IT之家）', u:'https://www.ithome.com/0/994/519.htm'},
+    {c:'HOT', d:'2026-08-26T13:56', t:'刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》', s:'刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》（来源：量子位）', u:'https://www.qbitai.com/2026/08/479670.html'},
+    {c:'MODEL', d:'2026-08-26T15:32', t:'从导航工具到AI基础设施，上海开源大赛百度地图命题公布', s:'2026 年的 AI 正在吞噬一切，在线地图也在经历身份转变。 过去地图只是导航工具，现在已然成为 AI 时代的基础设施…（来源：OSCHINA）', u:'https://www.oschina.net/news/502131'},
+    {c:'MODEL', d:'2026-08-26T15:12', t:'Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名', s:'Artificial Analysis 于 8 月 24 日发布博文，宣布携手 Liquid AI，发布面向手机端的 A…（来源：IT之家）', u:'https://www.ithome.com/0/994/550.htm'},
+    {c:'MODEL', d:'2026-08-26T14:08', t:'占 16 字节：曝微软 Win11 画图 / 照片向 AI 生图嵌入 128-bit 隐藏标识符', s:'科技媒体 NeoWin 昨日（8 月 25 日）发布博文，报道称安全研究员 Xusheng Li 通过逆向分析，发现微软…（来源：IT之家）', u:'https://www.ithome.com/0/994/517.htm'},
+    {c:'MODEL', d:'2026-08-26T13:52', t:'宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底', s:'宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底（来源：量子位）', u:'https://www.qbitai.com/2026/08/479634.html'},
+    {c:'MODEL', d:'2026-08-26T13:48', t:'24 个调试补丁、18 次内核启动：Linux 之父托瓦兹借助 AI 定位 Intel Xe 黑屏故障', s:'科技媒体 Linuxiac 昨日（8 月 25 日）发布博文，报道称 Linux 创始人林纳斯 · 托瓦兹（Linus …（来源：IT之家）', u:'https://www.ithome.com/0/994/499.htm'},
   ];
   const TIMELINE = [
-    ['08-26 15:10','离开剪映后创业，她想把一支设计团队装进 AI 工作台'],
-    ['08-26 14:09','299 美元：高通 Arduino VENTUNO Q 边缘 AI 平台开放预购'],
-    ['08-26 14:08','占 16 字节：曝微软 Win11 画图 / 照片向 AI 生图嵌入 128-bit 隐藏标识符'],
-    ['08-26 13:56','刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》'],
-    ['08-26 13:52','宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底'],
-    ['08-26 13:48','24 个调试补丁、18 次内核启动：Linux 之父托瓦兹借助 AI 定位 Intel Xe 黑屏故障'],
+    ['08-26 16:02','从「告警找人」到「Agent 先接手」，「古茗」如何用 AI Agent 重构万店运维？'],
+    ['08-26 15:56','OpenAI ChatGPT 云端浏览器新增登录功能：账号密码不保存，但 Cookie 会持续到会话过期'],
+    ['08-26 15:47','消息称 DeepSeek 今年前 7 个月营收近 4.75 亿元，达去年全年水平 10 倍'],
+    ['08-26 15:41','Cloudflare 称 AI 智能体已占 60% 互联网流量，同比激增 1700%'],
+    ['08-26 15:32','从导航工具到AI基础设施，上海开源大赛百度地图命题公布'],
+    ['08-26 15:27','九成美企高管称过去三年 AI 未影响公司就业情况，且“完全未影响”生产力'],
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
@@ -440,8 +440,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     return iso.slice(5, 16).replace('T', ' ');
   };
   const tag = n => `<span class="pill" style="--c:var(${CAT[n.c][1]})"><i></i>${CAT[n.c][0]}</span>`;
-  const card = n => `<article class="card"><div class="card-tagrow">${tag(n)}<time class="mono">${rel(n.d)}</time></div><h3>${n.t}</h3><p>${n.s}</p><a class="more">阅读全文 →</a></article>`;
-  const head = n => `<article class="card headline"><div class="head-glow"></div><div class="card-tagrow">${tag(n)}<time class="mono">${rel(n.d)}</time></div><h3>${n.t}</h3><p>${n.s}</p><a class="more">阅读全文 →</a></article>`;
+  const card = n => `<article class="card"><div class="card-tagrow">${tag(n)}<time class="mono">${rel(n.d)}</time></div><h3>${n.t}</h3><p>${n.s}</p><a class="more"${n.u ? ` href="${n.u}" target="_blank" rel="noopener"` : ""}>阅读全文 →</a></article>`;
+  const head = n => `<article class="card headline"><div class="head-glow"></div><div class="card-tagrow">${tag(n)}<time class="mono">${rel(n.d)}</time></div><h3>${n.t}</h3><p>${n.s}</p><a class="more"${n.u ? ` href="${n.u}" target="_blank" rel="noopener"` : ""}>阅读全文 →</a></article>`;
   let cat = 'ALL', shown = 9;
   const list = () => NEWS.filter(n => cat === 'ALL' || n.c === cat);
   const render = () => {

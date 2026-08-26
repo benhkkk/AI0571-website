@@ -351,6 +351,7 @@ def make_entry(it: dict) -> dict:
         "d": it["iso"],
         "t": it["title"],
         "s": summary,
+        "u": it.get("link", ""),   # 原文链接，供“阅读全文”跳转
     }
 
 
@@ -367,8 +368,8 @@ def render_news(news: list) -> str:
     lines = ["  const NEWS = ["]
     for it in news:
         lines.append(
-            "    {c:'%s', d:'%s', t:'%s', s:'%s'},"
-            % (it["c"], js_str(it["d"]), js_str(it["t"]), js_str(it["s"]))
+            "    {c:'%s', d:'%s', t:'%s', s:'%s', u:'%s'},"
+            % (it["c"], js_str(it["d"]), js_str(it["t"]), js_str(it["s"]), js_str(it.get("u", "")))
         )
     lines.append("  ];")
     return "\n".join(lines)
