@@ -1,0 +1,69 @@
+# ============================================================
+# AI0571 每日资讯自动更新
+# ------------------------------------------------------------
+# 触发方式：
+#   1) 定时触发：每天北京时间 08:00（GitHub Actions 使用 UTC，
+#      08:00 北京时间 = 00:00 UTC，故 cron 写 '0 0 * * *'）
+#   2) 手动触发：仓库 Actions 页面 → 本工作流 → Run workflow
+#
+# 执行流程：
+#   checkout → 安装依赖 → 运行 fetch_news.py（抓取 RSS 并改写
+#   index.html）→ 有变更则 git commit + push → Cloudflare Pages
+#   检测到 push 后自动重新部署（在 Cloudflare 侧配置，无需本文件处理）
+# ============================================================
+name: daily-update
+
+on:
+  schedule:
+    # 每天 00:00 UTC = 08:00 北京时间（AI0571 每日更新时刻）
+    - cron: '0 0 * * *'
+  workflow_dispatch:        # 手动触发按钮，方便测试
+
+# 赋予工作流对仓库的写入权限（用于 push 更新后的 index.html）
+permissions:
+  contents: write
+
+# 防止上一次运行未结束时重复触发
+concurrency:
+  group: daily-update
+  cancel-in-progress: false
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # 1) 拉取仓库代码（含 index.html、fetch_news.py）
+      - name: 检出代码
+        uses: actions/checkout@v4
+
+      # 2) 安装 Python 3.12（脚本仅用标准库 + requests/feedparser）
+      - name: 配置 Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # 3) 安装依赖
+      - name: 安装依赖
+        run: pip install -r requirements.txt
+
+      # 4) 抓取 RSS 并改写 index.html
+      #    脚本容错：单源失败自动跳过；全部失败则保留旧数据（退出码 1）
+      - name: 抓取并更新资讯
+        run: python fetch_news.py
+
+      # 5) 若 index.html 有变更，则提交并推送
+      #    使用默认 GITHUB_TOKEN（权限已在 permissions 中声明）
+      #    推送后 Cloudflare Pages 会自动触发重新部署
+      - name: 提交并推送更新
+        run: |
+          if git diff --quiet; then
+            echo "今日数据无变化，无需提交。"
+            exit 0
+          fi
+          git config user.name  "ai0571-bot"
+          git config user.email "ai0571-bot@users.noreply.github.com"
+          git add index.html
+          git commit -m "chore: 每日资讯自动更新 $(date +'%Y-%m-%d')"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
+          echo "已推送更新，等待 Cloudflare Pages 重新部署。"

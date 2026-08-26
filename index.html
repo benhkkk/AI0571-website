@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="AI0571 · 从杭州出发、洞见全球 AI 的资讯灯塔。杭州视角 · 全球 AI 资讯速递。">
+<title>AI0571 · 洞见 AI 的每一天 — 杭州视角全球 AI 资讯</title>
+<style>
+/* ============ Design Tokens ============ */
+:root{
+  /* 深空配色 */
+  --bg:#070B14;
+  --layer:#0A0F1E;
+  --card:#0E1526;
+  --border:#1F2937;
+  /* 品牌 */
+  --primary:#22D3EE;
+  --secondary:#8B5CF6;
+  --accent:linear-gradient(45deg,#22D3EE 0%,#8B5CF6 100%);
+  /* 文字 */
+  --text-1:#E5EAF3;
+  --text-2:#94A3B8;
+  --text-3:#64748B;
+  --border-hi:rgba(226,232,240,.2);
+  /* 语义标签 */
+  --hot:#F43F5E;
+  --model:#34D399;
+  --funding:#FBBF24;
+  --industry:#38BDF8;
+  /* 字体 */
+  --font-zh:-apple-system,BlinkMacSystemFont,"PingFang SC","HarmonicOS Sans SC","Microsoft YaHei","Noto Sans SC",sans-serif;
+  --font-en:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;
+  --font-mono:"JetBrains Mono","SF Mono",Consolas,"Courier New",monospace;
+}
+
+/* ============ Reset / Base ============ */
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{color-scheme:dark}
+html{scroll-behavior:smooth}
+body{
+  background:var(--bg);
+  color:var(--text-1);
+  font-family:var(--font-zh);
+  font-size:15px;
+  line-height:1.7;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+::selection{background:rgba(34,211,238,.3);color:#fff}
+::-webkit-scrollbar{width:10px;height:10px}
+::-webkit-scrollbar-track{background:var(--bg)}
+::-webkit-scrollbar-thumb{background:#1F2937;border-radius:999px;border:2px solid var(--bg)}
+::-webkit-scrollbar-thumb:hover{background:#334155}
+a{color:inherit;text-decoration:none}
+button{font-family:inherit}
+.mono{font-family:var(--font-mono)}
+.container{max-width:1200px;margin:0 auto;padding:0 24px}
+section[id],footer[id]{scroll-margin-top:72px}
+
+/* ============ Top Nav (sticky glass) ============ */
+.nav{
+  position:sticky;top:0;z-index:100;
+  background:rgba(7,11,20,.72);
+  backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);
+  border-bottom:1px solid rgba(31,41,55,.7);
+}
+.nav-inner{display:flex;align-items:center;gap:16px;height:64px}
+.logo{
+  font-size:20px;font-weight:700;letter-spacing:.5px;font-family:var(--font-en);
+  background:var(--accent);
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  white-space:nowrap;
+}
+.live{display:none;align-items:center;gap:6px;font-size:12px;color:var(--text-2)}
+.live-dot{
+  width:8px;height:8px;border-radius:50%;background:var(--primary);
+  box-shadow:0 0 8px var(--primary);
+  animation:live 2s ease-in-out infinite;
+}
+@keyframes live{0%,100%{opacity:1}50%{opacity:.3}}
+/* mobile-first: menu is a dropdown panel */
+.menu{
+  position:fixed;inset:64px 0 auto 0;z-index:99;
+  flex-direction:column;align-items:stretch;gap:6px;
+  background:rgba(10,15,30,.97);
+  backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);
+  padding:16px 24px 24px;
+  border-bottom:1px solid var(--border);
+  transform:translateY(-8px);opacity:0;visibility:hidden;transition:.25s;
+}
+.menu.open{transform:none;opacity:1;visibility:visible}
+.menu a{display:block;padding:14px 12px;font-size:16px;color:var(--text-2);border-radius:8px;transition:color .2s}
+.menu a:hover{color:var(--text-1)}
+.menu a.active{color:var(--primary)}
+.menu .cta{margin-left:0;margin-top:8px;text-align:center;color:#041018;background:var(--accent);font-weight:600;border-radius:999px}
+.menu .cta:hover{color:#041018;filter:brightness(1.08)}
+.hamburger{
+  display:flex;margin-left:auto;width:44px;height:44px;min-height:44px;min-width:44px;
+  background:none;border:1px solid var(--border);border-radius:8px;cursor:pointer;
+  flex-direction:column;align-items:center;justify-content:center;gap:5px;
+}
+.hamburger span{display:block;width:18px;height:2px;background:var(--text-1);border-radius:2px;transition:.25s}
+.hamburger.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.hamburger.open span:nth-child(2){opacity:0}
+.hamburger.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ============ Hero ============ */
+.hero{position:relative;overflow:hidden;background:linear-gradient(180deg,var(--bg) 0%,var(--layer) 100%)}
+/* CSS 网格线 */
+.hero::before{
+  content:"";position:absolute;inset:0;
+  background-image:
+    linear-gradient(rgba(34,211,238,.05) 1px,transparent 1px),
+    linear-gradient(90deg,rgba(34,211,238,.05) 1px,transparent 1px);
+  background-size:56px 56px;
+  -webkit-mask-image:radial-gradient(ellipse at 50% 42%,#000 18%,transparent 72%);
+  mask-image:radial-gradient(ellipse at 50% 42%,#000 18%,transparent 72%);
+}
+/* 粒子光点：多层 radial-gradient + background-position 动画 */
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:
+    radial-gradient(circle at 18% 32%,rgba(34,211,238,.5) 1.6px,transparent 2px),
+    radial-gradient(circle at 72% 18%,rgba(139,92,246,.5) 1.6px,transparent 2px),
+    radial-gradient(circle at 42% 62%,rgba(34,211,238,.4) 1px,transparent 1.6px),
+    radial-gradient(circle at 86% 68%,rgba(139,92,246,.45) 1.5px,transparent 2px),
+    radial-gradient(circle at 8% 76%,rgba(226,232,240,.3) 1px,transparent 1.6px),
+    radial-gradient(circle at 58% 40%,rgba(34,211,238,.3) 1px,transparent 1.6px);
+  background-size:420px 420px;
+  animation:drift 26s linear infinite;
+}
+@keyframes drift{to{background-position:420px 420px}}
+.hero-inner{position:relative;z-index:1;padding:96px 24px 84px;text-align:center}
+.badge{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:6px 14px;margin-bottom:28px;
+  border:1px solid var(--border);border-radius:999px;
+  background:rgba(14,21,38,.6);color:var(--text-2);font-size:13px;
+}
+.badge b{color:var(--primary);font-weight:600}
+.hero-title{
+  font-size:44px;font-weight:600;line-height:1.25;letter-spacing:1px;
+  background:linear-gradient(90deg,var(--primary),var(--secondary),var(--primary));
+  background-size:200% auto;
+  -webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:flow 6s linear infinite;
+}
+@keyframes flow{to{background-position:200% center}}
+.hero-sub{margin-top:18px;font-size:18px;color:var(--text-2);letter-spacing:2px}
+.hero-cta{display:flex;gap:16px;justify-content:center;margin-top:36px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;
+  min-height:44px;height:48px;padding:0 26px;border-radius:12px;
+  font-size:15px;font-weight:600;cursor:pointer;border:none;
+  transition:transform .25s,box-shadow .25s,background .25s,filter .25s;
+}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{color:#041018;background:var(--accent);box-shadow:0 8px 28px rgba(34,211,238,.28)}
+.btn-primary:hover{box-shadow:0 12px 36px rgba(34,211,238,.4)}
+.btn-ghost{color:var(--primary);border:1px solid rgba(34,211,238,.45);background:rgba(34,211,238,.06)}
+.btn-ghost:hover{background:rgba(34,211,238,.12);box-shadow:0 0 24px rgba(34,211,238,.15)}
+.hero-stats{display:flex;gap:64px;justify-content:center;margin-top:52px;flex-wrap:wrap}
+.stat{display:flex;flex-direction:column;align-items:center;gap:2px}
+.stat-num{font-family:var(--font-mono);font-size:28px;font-weight:600;color:var(--text-1)}
+.stat-label{font-size:13px;color:var(--text-3)}
+
+/* ============ Section head + Tabs ============ */
+section{padding:64px 0}
+.section-head{display:flex;align-items:flex-end;justify-content:space-between;gap:20px;margin-bottom:32px;flex-wrap:wrap}
+.section-head h2{font-size:28px;font-weight:600;letter-spacing:.5px}
+.section-desc{margin-top:6px;font-size:13px;color:var(--text-3)}
+.tabs{display:flex;gap:8px}
+.tab{
+  min-height:44px;min-width:44px;padding:0 18px;border-radius:999px;
+  border:1px solid var(--border);background:var(--card);color:var(--text-2);
+  font-size:13px;font-weight:500;cursor:pointer;white-space:nowrap;transition:.25s;
+}
+.tab:hover{color:var(--text-1);border-color:rgba(34,211,238,.4)}
+.tab.active{color:#041018;background:var(--accent);border-color:transparent;font-weight:600}
+
+/* ============ News cards ============ */
+.feature-row{display:grid;grid-template-columns:1fr;gap:20px;margin-bottom:20px}
+.card{
+  position:relative;display:flex;flex-direction:column;gap:10px;overflow:hidden;
+  padding:20px;border-radius:12px;border:1px solid var(--border);
+  background:rgba(14,21,38,.72);
+  backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  transition:transform .25s,box-shadow .25s,border-color .25s;
+}
+.card:hover{
+  transform:translateY(-4px);
+  border-color:rgba(34,211,238,.2);
+  box-shadow:0 0 24px rgba(34,211,238,.15);
+}
+.card-tagrow{display:flex;align-items:center;gap:10px;justify-content:space-between}
+.pill{
+  display:inline-flex;align-items:center;gap:6px;
+  padding:6px 12px;border-radius:999px;
+  font-size:12px;font-weight:500;color:#fff;background:var(--c);
+}
+.pill i{width:4px;height:4px;border-radius:50%;background:#fff}
+.card time{font-family:var(--font-mono);font-size:12px;color:var(--text-3);white-space:nowrap}
+.card h3{font-size:18px;font-weight:600;line-height:1.45;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card p{font-size:13px;color:var(--text-2);
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.card .more{margin-top:auto;padding-top:4px;font-size:13px;font-weight:600;color:var(--primary);cursor:pointer}
+.card .more:hover{text-decoration:underline}
+/* 头条卡：渐变色块占位 + 大标题 */
+.headline{min-height:300px;justify-content:flex-end;border-color:rgba(34,211,238,.22)}
+.head-glow{
+  position:absolute;left:0;top:0;right:0;height:96px;
+  background:linear-gradient(120deg,rgba(34,211,238,.22),rgba(139,92,246,.2) 55%,transparent);
+  pointer-events:none;
+}
+.headline h3{font-size:24px;-webkit-line-clamp:2}
+.headline p{font-size:14px}
+.grid{display:grid;grid-template-columns:1fr;gap:20px}
+.more-wrap{display:flex;justify-content:center;margin-top:36px}
+.empty{padding:48px;text-align:center;color:var(--text-3);border:1px dashed var(--border);border-radius:12px;grid-column:1/-1}
+
+/* ============ Timeline ============ */
+.timeline-section{background:var(--layer)}
+.timeline{position:relative;max-width:760px;margin:0 auto;padding-left:8px}
+.timeline::before{
+  content:"";position:absolute;left:4px;top:6px;bottom:6px;width:2px;
+  background:linear-gradient(180deg,var(--primary),var(--secondary));opacity:.5;
+}
+.tl-item{position:relative;padding:0 0 28px 34px}
+.tl-item:last-child{padding-bottom:0}
+.tl-node{
+  position:absolute;left:0;top:6px;width:10px;height:10px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--primary);box-shadow:0 0 10px rgba(34,211,238,.6);
+}
+.tl-time{font-family:var(--font-mono);font-size:13px;color:var(--primary);font-weight:600}
+.tl-text{margin-top:4px;font-size:14px;color:var(--text-2)}
+
+/* ============ Footer ============ */
+footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56px}
+.footer-inner{display:grid;grid-template-columns:1fr;gap:32px;padding-bottom:40px}
+.f-col h4{font-size:15px;font-weight:600;margin-bottom:12px}
+.f-col a{display:block;font-size:14px;color:var(--text-2);padding:5px 0;transition:color .2s}
+.f-col a:hover{color:var(--primary)}
+.f-about p{font-size:13px;color:var(--text-3);margin-top:12px;max-width:300px}
+.subscribe{display:flex;gap:10px;margin-top:12px}
+.subscribe input{
+  flex:1;min-width:0;height:44px;min-height:44px;padding:0 14px;
+  border-radius:10px;border:1px solid var(--border);background:var(--card);
+  color:var(--text-1);font-size:14px;outline:none;transition:border-color .2s;
+}
+.subscribe input:focus{border-color:var(--primary)}
+.subscribe button{
+  height:44px;min-height:44px;padding:0 18px;border:none;border-radius:10px;
+  color:#041018;background:var(--accent);font-size:14px;font-weight:600;cursor:pointer;transition:filter .2s;
+}
+.subscribe button:hover{filter:brightness(1.08)}
+.footer-bottom{border-top:1px solid var(--border);padding:20px 24px;text-align:center;font-size:13px;color:var(--text-3)}
+
+/* ============ Responsive ============ */
+@media (min-width:640px){
+  .live{display:inline-flex}
+  .menu{
+    position:static;flex-direction:row;align-items:center;gap:2px;
+    background:none;backdrop-filter:none;padding:0;border:none;
+    transform:none;opacity:1;visibility:visible;margin-left:auto;
+  }
+  .menu a{display:inline-flex;padding:8px 10px;font-size:13px}
+  .menu .cta{margin:0 0 0 6px;padding:9px 14px}
+  .hamburger{display:none}
+  .grid{grid-template-columns:repeat(2,1fr)}
+  .footer-inner{grid-template-columns:1fr 1fr}
+}
+@media (min-width:1024px){
+  .menu a{padding:8px 12px;font-size:14px}
+  .grid{grid-template-columns:repeat(3,1fr)}
+  .feature-row{grid-template-columns:2fr 1fr}
+  .footer-inner{grid-template-columns:1.2fr 1fr 1.4fr}
+}
+@media (max-width:639px){
+  .container{padding:0 16px}
+  .hero-inner{padding:72px 16px 64px}
+  .hero-title{font-size:32px}
+  .hero-stats{gap:32px}
+  .tabs{flex-wrap:nowrap;overflow-x:auto;-webkit-overflow-scrolling:touch;padding-bottom:4px;max-width:100%}
+  .tab{flex-shrink:0}
+  .section-head{flex-direction:column;align-items:flex-start}
+  .hero-cta .btn{width:100%}
+  section{padding:48px 0}
+  .headline h3{font-size:20px}
+}
+
+/* ============ Reduced Motion ============ */
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  html{scroll-behavior:auto}
+}
+</style>
+</head>
+<body>
+
+<!-- ===== A. Top Nav ===== -->
+<header class="nav" id="top">
+  <div class="container nav-inner">
+    <a class="logo" href="#top">AI0571</a>
+    <span class="live"><span class="live-dot"></span>每日更新</span>
+    <button class="hamburger" id="hamburger" aria-label="菜单" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="menu" id="menu">
+      <a href="#top" class="active">首页</a>
+      <a href="#news">最新资讯</a>
+      <a href="#news" data-action="tab:MODEL">AI 大模型</a>
+      <a href="#news" data-action="tab:INDUSTRY">行业动态</a>
+      <a href="#about">关于我们</a>
+      <a href="#subscribe" class="cta">订阅日报</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== B. Hero ===== -->
+<section class="hero">
+  <div class="container hero-inner">
+    <span class="badge mono">2026-08-26 · 今日已更新 <b id="todayCount">0</b> 条</span>
+    <h1 class="hero-title">洞见 AI 的每一天</h1>
+    <p class="hero-sub">杭州视角 · 全球 AI 资讯速递</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="#news">浏览今日资讯</a>
+      <a class="btn btn-ghost" href="#subscribe">订阅 AI 日报</a>
+    </div>
+    <div class="hero-stats">
+      <div class="stat"><span class="stat-num mono" id="statToday">16</span><span class="stat-label">今日更新</span></div>
+      <div class="stat"><span class="stat-num mono">128</span><span class="stat-label">跟踪模型</span></div>
+      <div class="stat"><span class="stat-num mono">260</span><span class="stat-label">收录厂商</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== C. News Cards ===== -->
+<main>
+<section class="news container" id="news">
+  <div class="section-head">
+    <div>
+      <h2>最新资讯</h2>
+      <p class="section-desc">来自全球前沿实验室与行业一线的最新动态</p>
+    </div>
+    <div class="tabs" id="tabs" role="tablist" aria-label="资讯分类">
+      <button class="tab active" data-cat="ALL">全部</button>
+      <button class="tab" data-cat="HOT">热点</button>
+      <button class="tab" data-cat="MODEL">新模型</button>
+      <button class="tab" data-cat="FUNDING">融资</button>
+      <button class="tab" data-cat="INDUSTRY">行业动态</button>
+    </div>
+  </div>
+  <div class="feature-row" id="featureRow"></div>
+  <div class="grid" id="grid"></div>
+  <div class="more-wrap">
+    <button class="btn btn-ghost" id="loadMore" type="button">加载更多</button>
+  </div>
+</section>
+
+<!-- ===== D. Timeline ===== -->
+<section class="timeline-section" id="express">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>今日速递</h2>
+        <p class="section-desc">按时间线快速回顾关键节点</p>
+      </div>
+    </div>
+    <div class="timeline" id="timeline"></div>
+  </div>
+</section>
+</main>
+
+<!-- ===== E. Footer ===== -->
+<footer id="about">
+  <div class="container footer-inner">
+    <div class="f-col f-about">
+      <a class="logo" href="#top">AI0571</a>
+      <p>从杭州出发，洞见全球 AI。以 0571 区号为名，做 AI 时代的资讯灯塔——每一条动态，都值得被看见。</p>
+    </div>
+    <div class="f-col">
+      <h4>常用栏目</h4>
+      <a href="#news">最新资讯</a>
+      <a href="#news" data-action="tab:MODEL">AI 大模型</a>
+      <a href="#news" data-action="tab:INDUSTRY">行业动态</a>
+      <a href="#express">今日速递</a>
+    </div>
+    <div class="f-col" id="subscribe">
+      <h4>订阅 AI 日报</h4>
+      <p style="font-size:13px;color:var(--text-3)">每个工作日早晨，一封邮件掌握全球 AI 动态。</p>
+      <form class="subscribe" id="subForm" novalidate>
+        <input type="email" required placeholder="your@email.com" aria-label="邮箱地址">
+        <button type="submit">订阅</button>
+      </form>
+    </div>
+  </div>
+  <div class="footer-bottom container">© 2026 AI0571.com · 杭州视角 · 全球 AI 资讯速递</div>
+</footer>
+
+<script>
+(() => {
+  'use strict';
+  const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry']};
+  const NEWS = [
+    {c:'HOT', d:'2026-08-26T15:10', t:'离开剪映后创业，她想把一支设计团队装进 AI 工作台', s:'头图来源：OJO 官网 极客公园获悉，前剪映中国负责人张琪智已离职创业，创办 AI 产品原型设计工作台 OJO，并于近日…（来源：极客公园）'},
+    {c:'MODEL', d:'2026-08-26T14:08', t:'占 16 字节：曝微软 Win11 画图 / 照片向 AI 生图嵌入 128-bit 隐藏标识符', s:'科技媒体 NeoWin 昨日（8 月 25 日）发布博文，报道称安全研究员 Xusheng Li 通过逆向分析，发现微软…（来源：IT之家）'},
+    {c:'MODEL', d:'2026-08-26T13:52', t:'宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底', s:'宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底（来源：量子位）'},
+    {c:'MODEL', d:'2026-08-26T13:48', t:'24 个调试补丁、18 次内核启动：Linux 之父托瓦兹借助 AI 定位 Intel Xe 黑屏故障', s:'科技媒体 Linuxiac 昨日（8 月 25 日）发布博文，报道称 Linux 创始人林纳斯 · 托瓦兹（Linus …（来源：IT之家）'},
+    {c:'FUNDING', d:'2026-08-26T10:57', t:'Stability AI 完成 7600 万美元 B 轮融资：EA 与三大音乐娱乐企业均参投', s:'Stability AI 美国加州当地时间 25 日宣布完成总额 7,600 万美元（IT之家注：现汇率约合 5.12 …（来源：IT之家）'},
+    {c:'FUNDING', d:'2026-08-25T12:41', t:'越疆2026中报：营收翻倍、具身收入激增20倍，Physical AI进入商业化兑现期', s:'当机器人行业的大量叙事还停留在融资轮次与概念发布时，越疆科技已经交出了一份由产线验收单写成的中期答卷。8月24日，越疆科…（来源：雷锋网）'},
+    {c:'FUNDING', d:'2026-08-25T08:25', t:'TRAE、扣子并入豆包，字节将推「豆包工作」；拓竹回应 2027 年 IPO 传闻：消息不实；要钱还是使命，Anthropic 面试流程曝光｜极客早知道', s:'TRAE、扣子并入豆包，字节将推统一办公品牌 "豆包工作" 8 月 24 日消息，字节跳动对旗下的办公 AI 产品完成了…（来源：极客公园）'},
+    {c:'INDUSTRY', d:'2026-08-26T10:51', t:'汤道生内部发文回应腾讯 AI 慢了：AI 竞争不是短跑，熬得久比起得早更重要', s:'据鞭牛士今日报道，腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生 8 月 25 日晚在腾讯内部刊物《知点》年…（来源：IT之家）'},
+    {c:'INDUSTRY', d:'2026-08-25T14:42', t:'突破具身智能物理死角：IJCAI 2026 具身智能泛化与控制突破', s:'告别理想仿真，中国学术团队用物理工程方案回应落地挑战。 作者丨张璐 编辑丨岑峰 过去一年多里，具身智能似乎按下了快进键…（来源：雷锋网）'},
+    {c:'HOT', d:'2026-08-26T14:09', t:'299 美元：高通 Arduino VENTUNO Q 边缘 AI 平台开放预购', s:'Qualcomm（高通）子公司 Arduino 意大利当地时间昨日宣布，其边缘 AI 平台 VENTUNO Q 现已开放…（来源：IT之家）'},
+    {c:'HOT', d:'2026-08-26T13:56', t:'刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》', s:'刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》（来源：量子位）'},
+    {c:'HOT', d:'2026-08-26T11:58', t:'大厂AI To B大战，这回战场为什么是办公？', s:'大厂AI To B商业化的战火，已经烧到AI办公。内部赛马、业务整合、资源重配，过去一个多月，腾讯、阿里、字节三家大厂几…（来源：雷锋网）'},
+    {c:'MODEL', d:'2026-08-26T12:25', t:'多亲 J36 AI 按键智能手机发布：红外遥控、微信支付宝、一句话生成文案，659 元', s:'多亲今日发布了一款多亲 J36 AI 按键智能手机，定价 659 元。多亲 J36 搭载 2.8 英寸 480*640 …（来源：IT之家）'},
+    {c:'MODEL', d:'2026-08-26T12:03', t:'扎心：Anthropic 最贵的模型，企业几乎不用', s:'《金融时报》拿到了一份数据，然后提了一个让 Anthropic 在 IPO 之前很难堪的问题：你的最强模型到底有没有人用…（来源：OSCHINA）'},
+    {c:'HOT', d:'2026-08-26T11:50', t:'具身智能走进千行百业，浙江人形 WRC2026 诠释 "具身在场"', s:'2026 WRC 现场，三台机器人默契配合，正完成工业制造拆垛、分拣、搬运的全流程工作；几步之外，观众在零售舱前下单，等…（来源：雷锋网）'},
+    {c:'MODEL', d:'2026-08-26T11:25', t:'Falcon TST 2.0获世界权威测评第一名，推动时间序列基础模型从通用预测走向金融应用', s:'蚂蚁国际日前正式发布自研时序AI预测大模型“鹰序TST”2.0版。（来源：量子位）'},
+  ];
+  const TIMELINE = [
+    ['08-26 15:10','离开剪映后创业，她想把一支设计团队装进 AI 工作台'],
+    ['08-26 14:09','299 美元：高通 Arduino VENTUNO Q 边缘 AI 平台开放预购'],
+    ['08-26 14:08','占 16 字节：曝微软 Win11 画图 / 照片向 AI 生图嵌入 128-bit 隐藏标识符'],
+    ['08-26 13:56','刚刚，Top级的视频AI免费了！我反手做了个精致版《牛来》'],
+    ['08-26 13:52','宇树智元共用一个大脑！神秘模型Demo炸场，10分钟一镜到底'],
+    ['08-26 13:48','24 个调试补丁、18 次内核启动：Linux 之父托瓦兹借助 AI 定位 Intel Xe 黑屏故障'],
+  ];
+  const rel = iso => {
+    const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
+    if (m < 1) return '刚刚';
+    if (m < 60) return m + ' 分钟前';
+    const h = Math.floor(m / 60);
+    if (h < 24) return h + ' 小时前';
+    const dd = Math.floor(h / 24);
+    if (dd === 1) return '昨天';
+    if (dd < 7) return dd + ' 天前';
+    return iso.slice(5, 16).replace('T', ' ');
+  };
+  const tag = n => `<span class="pill" style="--c:var(${CAT[n.c][1]})"><i></i>${CAT[n.c][0]}</span>`;
+  const card = n => `<article class="card"><div class="card-tagrow">${tag(n)}<time class="mono">${rel(n.d)}</time></div><h3>${n.t}</h3><p>${n.s}</p><a class="more">阅读全文 →</a></article>`;
+  const head = n => `<article class="card headline"><div class="head-glow"></div><div class="card-tagrow">${tag(n)}<time class="mono">${rel(n.d)}</time></div><h3>${n.t}</h3><p>${n.s}</p><a class="more">阅读全文 →</a></article>`;
+  let cat = 'ALL', shown = 9;
+  const list = () => NEWS.filter(n => cat === 'ALL' || n.c === cat);
+  const render = () => {
+    const arr = list().slice(0, shown);
+    document.getElementById('featureRow').innerHTML = arr.length ? head(arr[0]) + (arr[1] ? card(arr[1]) : '') : '<div class="empty">该分类暂无资讯</div>';
+    document.getElementById('grid').innerHTML = arr.slice(2).map(card).join('');
+    document.getElementById('loadMore').style.display = shown >= list().length ? 'none' : '';
+  };
+  document.getElementById('todayCount').textContent = NEWS.length;
+  document.getElementById('timeline').innerHTML = TIMELINE.map(x => `<div class="tl-item"><div class="tl-node"></div><time class="tl-time mono">${x[0]}</time><p class="tl-text">${x[1]}</p></div>`).join('');
+  document.getElementById('tabs').addEventListener('click', e => {
+    const b = e.target.closest('.tab'); if (!b) return;
+    cat = b.dataset.cat; shown = 9;
+    document.querySelectorAll('.tab').forEach(x => x.classList.toggle('active', x === b));
+    render();
+  });
+  document.getElementById('loadMore').addEventListener('click', () => { shown += 6; render(); });
+  const menu = document.getElementById('menu'), burger = document.getElementById('hamburger');
+  burger.addEventListener('click', () => { menu.classList.toggle('open'); burger.classList.toggle('open'); burger.setAttribute('aria-expanded', menu.classList.contains('open')); });
+  menu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => { menu.classList.remove('open'); burger.classList.remove('open'); burger.setAttribute('aria-expanded', 'false'); }));
+  document.querySelectorAll('[data-action]').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault();
+    const t = [...document.querySelectorAll('.tab')].find(b => b.dataset.cat === a.dataset.action.split(':')[1]);
+    if (t) t.click();
+    document.getElementById('news').scrollIntoView({ behavior: 'smooth' });
+  }));
+  document.getElementById('subForm').addEventListener('submit', e => {
+    e.preventDefault();
+    const b = e.target.querySelector('button');
+    b.textContent = '已订阅 ✓';
+    setTimeout(() => b.textContent = '订阅', 2200);
+  });
+  render();
+})();
+</script>
+</body>
+</html>

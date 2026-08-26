@@ -1,0 +1,4 @@
+# AI0571 每日资讯自动更新依赖
+# 安装：pip install -r requirements.txt
+requests>=2.31.0
+feedparser>=6.0.10
