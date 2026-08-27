@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-27T18:16:08",
+  "updated": "2026-08-27T18:21:12",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-27T18:16",
+      "d": "2026-08-27T18:21",
       "t": "#机器人赛道26年数据盘点",
       "s": "#机器人赛道26年数据盘点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-836.html"
@@ -59,7 +59,7 @@
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-27T18:16",
+      "d": "2026-08-27T18:21",
       "t": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”",
       "s": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260624/925608.shtml"
@@ -87,10 +87,24 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T18:16",
+      "d": "2026-08-27T18:21",
       "t": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点",
       "s": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260622/923670.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-27T18:17",
+      "t": "6001 米：吉利银河战舰 700“AI 全地形硬核 SUV”打破量产车最高海拔爬坡纪录",
+      "s": "吉利汽车集团今日宣布，银河战舰 700 打破量产车最高海拔爬坡纪录，成绩定格在 6001 米。据介绍，此次挑战中，吉利银…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/220.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-27T18:15",
+      "t": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
+      "s": "算力飞奔，内存掉队#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
       "c": "HOT",
@@ -126,46 +140,32 @@
       "t": "比尔 · 盖茨：我好像是第一个站出来说“AI 太疯狂了”的人，为此感到震惊",
       "s": "比尔 · 盖茨通过个人网站 Gates Notes 发表了一篇新的博客文章，同时密集接受媒体采访。在多年对 AI 保持近…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/125.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-27T16:21",
-      "t": "Beyond the Filter: Inside Meitu’s High-Stakes Shift from Photo Retouching to AI Productivity",
-      "s": "Beyond the Filter: Inside Meitu’s High-Stakes Shif…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119121.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T16:03",
-      "t": "小鹏第二代 VLA 全新版本 9 月推送，面向所有 Ultra / Ultra SE 车型",
-      "s": "在今天（27 日）的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布，小鹏第二代 VLA 的全新…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/109.htm"
     }
   ],
   "timeline": [
     [
-      "08-27 18:16",
+      "08-27 18:21",
       "#机器人赛道26年数据盘点"
     ],
     [
-      "08-27 18:16",
+      "08-27 18:21",
       "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”"
     ],
     [
-      "08-27 18:16",
+      "08-27 18:21",
       "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点"
+    ],
+    [
+      "08-27 18:17",
+      "6001 米：吉利银河战舰 700“AI 全地形硬核 SUV”打破量产车最高海拔爬坡纪录"
+    ],
+    [
+      "08-27 18:15",
+      "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志"
     ],
     [
       "08-27 18:05",
       "Agent 协作工作空间 Lody 开源：共享、隔离与持久化"
-    ],
-    [
-      "08-27 17:38",
-      "9亿美元刷新机器人融资纪录，资本开始抢注“物理AI”门票"
-    ],
-    [
-      "08-27 17:20",
-      "OpenAI CEO 奥尔特曼承认民众讨厌数据中心：大家态度都很消极"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278352,
+      "s": 278353,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238466,
+      "s": 238469,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207878,
+      "s": 207879,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171959,
+      "s": 171960,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111243,
+      "s": 111246,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101299,
+      "s": 101300,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
