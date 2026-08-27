@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-27T22:16:09",
+  "updated": "2026-08-27T22:21:18",
   "news": [
     {
       "c": "FUNDING",
-      "d": "2026-08-27T22:16",
+      "d": "2026-08-27T22:21",
       "t": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会",
       "s": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-717.html"
@@ -17,17 +17,17 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T19:42",
-      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
-      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678675311265710642/"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-08-27T19:13",
       "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
       "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/255.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:02",
+      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
+      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678664948725187110/"
     },
     {
       "c": "MEDDEVICE",
@@ -80,7 +80,7 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T22:16",
+      "d": "2026-08-27T22:21",
       "t": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕",
       "s": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250831/833853.shtml"
@@ -114,13 +114,6 @@
       "u": "https://www.qbitai.com/2026/08/480092.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:02",
-      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
-      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678664948725187110/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-27T19:01",
       "t": "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口",
@@ -140,15 +133,22 @@
       "t": "Day-0 支持：摩尔线程官宣完成智谱 GLM-5.3-Flash 极速适配",
       "s": "智谱近日上线并开源 GLM-5.3-Flash (320B-A18B)。摩尔线程官方今日宣布，基于 AI 训推一体智算卡…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/237.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-27T18:20",
+      "t": "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构",
+      "s": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8118691.html"
     }
   ],
   "timeline": [
     [
-      "08-27 22:16",
+      "08-27 22:21",
       "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会"
     ],
     [
-      "08-27 22:16",
+      "08-27 22:21",
       "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278456,
+      "s": 278457,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243649,
+      "s": 243650,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238660,
+      "s": 238666,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207943,
+      "s": 207944,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171998,
+      "s": 172002,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111361,
+      "s": 111364,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
