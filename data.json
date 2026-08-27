@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T10:21:12",
+  "updated": "2026-08-27T10:31:11",
   "news": [
     {
       "c": "MODEL",
@@ -101,17 +101,17 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T08:26",
+      "t": "吃瓜！苹果为库克举办告别派对：罕见公开同性伴侣；DeepSeek前7个月营收达去年10倍，竟还亏损超7亿；腾讯高管回应「腾讯做AI慢了」质疑",
+      "s": "要闻提示1.9月1日卸任！苹果为库克举办告别派对，罕见公开同性伴侣2.没想到！DeepSeek前7个月营收达去年10倍…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/zaobao/5ofNaBQ6uGCe1odA.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T00:48",
       "t": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
       "s": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/479919.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-26T20:07",
-      "t": "AI 开始给自己造芯了，OpenAI 只用了九个月",
-      "s": "造芯片，是大模型公司的必备素养#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1676824?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
@@ -145,7 +145,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278151,
+      "s": 278155,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -161,7 +161,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238026,
+      "s": 238032,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -169,7 +169,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207747,
+      "s": 207748,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -177,7 +177,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171854,
+      "s": 171855,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -185,7 +185,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143097,
+      "s": 143099,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -193,7 +193,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134611,
+      "s": 134613,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -201,7 +201,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111103,
+      "s": 111104,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -217,7 +217,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90068,
+      "s": 90069,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
