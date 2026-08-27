@@ -57,6 +57,13 @@ jobs:
       - name: 抓取并更新资讯
         run: python fetch_news.py
 
+      # 4b) 抓取 GitHub 每周热 Skill 榜单（使用内置 GITHUB_TOKEN 认证，避开匿名限额）
+      #     搜索失败时脚本保留旧数据并正常退出，不影响本步骤
+      - name: 抓取技能包榜单
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch_skills.py
+
       # 5) 若 index.html / data.json 有变更，则提交并推送
       #    使用默认 GITHUB_TOKEN（权限已在 permissions 中声明）
       #    推送后 Cloudflare Pages 会自动触发重新部署
@@ -68,7 +75,7 @@ jobs:
           fi
           git config user.name  "ai0571-bot"
           git config user.email "ai0571-bot@users.noreply.github.com"
-          git add index.html data.json
+          git add index.html data.json fetch_skills.py
           git commit -m "chore: 资讯自动更新 $(date -u +'%Y-%m-%dT%H:%M'Z)"
           git push origin "HEAD:${GITHUB_REF_NAME}"
           echo "已推送更新，等待 Cloudflare Pages 重新部署。"
