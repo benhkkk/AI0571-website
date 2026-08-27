@@ -1,13 +1,6 @@
 {
-  "updated": "2026-08-27T19:51:14",
+  "updated": "2026-08-27T19:56:04",
   "news": [
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:42",
-      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
-      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678675311265710642/"
-    },
     {
       "c": "MEDPHARMA",
       "d": "2026-08-27T19:13",
@@ -28,6 +21,13 @@
       "t": "人工智能制药，攻向最难的两端",
       "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678550018579513875/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T11:12",
+      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
+      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678543924890780203/"
     },
     {
       "c": "MEDDEVICE",
@@ -144,10 +144,6 @@
   ],
   "timeline": [
     [
-      "08-27 19:42",
-      "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?"
-    ],
-    [
       "08-27 19:13",
       "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
     ],
@@ -166,6 +162,10 @@
     [
       "08-27 18:20",
       "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构"
+    ],
+    [
+      "08-27 18:20",
+      "营收暴涨106%，却先跌3%：英伟达的超预期，为什么不及格？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278391,
+      "s": 278394,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243625,
+      "s": 243626,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238534,
+      "s": 238535,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111277,
+      "s": 111280,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90172,
+      "s": 90173,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
