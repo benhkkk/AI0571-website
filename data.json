@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-27T14:26:13",
+  "updated": "2026-08-27T14:31:27",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T14:26",
+      "d": "2026-08-27T14:31",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
@@ -24,10 +24,10 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-26T18:45",
-      "t": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?",
-      "s": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678289569770422824/"
+      "d": "2026-08-26T17:54",
+      "t": "剂泰科技押注“编程生命”能否打开AI制药下半场?",
+      "s": "剂泰科技押注“编程生命”能否打开AI制药下半场?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678276469465809462/"
     },
     {
       "c": "MEDDEVICE",
@@ -107,6 +107,13 @@
       "u": "https://www.tmtpost.com/8118214.html"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-08-27T13:43",
+      "t": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
+      "s": "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480079.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-27T13:21",
       "t": "微软 Microsoft 365 路线图更名为 AI at Work Roadmap",
@@ -133,18 +140,11 @@
       "t": "从数字化到AI：企业数智跃迁的路径、实践与挑战 | 2026 ITValue Summit前瞻：AI系统落地系列直播②",
       "s": "对企业来说，下一阶段更值得关注的，是如何找到真正有价值的场景，在可控范围内不断试验，并让技术、业务和人的角色在实践中重新…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118639.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T11:52",
-      "t": "DeepSeek一张涨价单，繁荣了一条产业链？",
-      "s": "涨价，是缺货的证词（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8118103.html"
     }
   ],
   "timeline": [
     [
-      "08-27 14:26",
+      "08-27 14:31",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278235,
+      "s": 278236,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243574,
+      "s": 243575,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238212,
+      "s": 238217,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207805,
+      "s": 207806,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171907,
+      "s": 171909,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143121,
+      "s": 143122,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111157,
+      "s": 111160,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90109,
+      "s": 90110,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
