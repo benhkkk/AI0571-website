@@ -1,19 +1,12 @@
 {
-  "updated": "2026-08-27T11:36:21",
+  "updated": "2026-08-27T11:41:16",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T11:36",
+      "d": "2026-08-27T11:41",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T11:12",
-      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
-      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678543924890780203/"
     },
     {
       "c": "MEDPHARMA",
@@ -28,6 +21,13 @@
       "t": "剂泰科技押注“编程生命”能否打开AI制药下半场?",
       "s": "剂泰科技押注“编程生命”能否打开AI制药下半场?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678276469465809462/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-26T16:28",
+      "t": "AI制药:一个被问错了的问题",
+      "s": "AI制药:一个被问错了的问题（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678254464633029156/"
     },
     {
       "c": "MEDDEVICE",
@@ -52,17 +52,17 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-27T11:17",
-      "t": "首款专为苹果 iPhone 用户打造的 Agent 耳机：网易有道 OpenPods 预售，到手价 1499 元",
-      "s": "今日网易有道将正式发布 OpenPods 有道 AI 耳机，即首款专为 iPhone 用户打造的 Agent 耳机，并同…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/911.htm"
+      "d": "2026-08-27T11:39",
+      "t": "Qwen3.8-Flash 发布：125B MoE，激活 6B，训练成本仅前代的 1/9",
+      "s": "阿里通义千问团队正式发布 Qwen3.8-Flash。 发布公告有一组让人需要停下来看两眼的数据： 125B 总参数 +…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502145/qwen3-8-flash-next"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-27T11:06",
-      "t": "智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40",
-      "s": "「前沿智能」这四个字长期以来只跟一个词绑定在一起：贵。 不是没有便宜的大模型。但便宜往往意味着降级——参数小一号、能力差…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502144"
+      "d": "2026-08-27T11:34",
+      "t": "DeepSeek调价之后，谁走出了斩杀线？",
+      "s": "一次调价，重新划定了大模型的竞争边界（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8118102.html"
     },
     {
       "c": "FUNDING",
@@ -94,7 +94,7 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T11:36",
+      "d": "2026-08-27T11:41",
       "t": "国家能源局将成立“人工智能+能源”工作组",
       "s": "国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260826/965638.shtml"
@@ -105,6 +105,20 @@
       "t": "「点头」：一旦执行可以交给AI，人还剩下什么",
       "s": "一家路边餐车用了十几年时间，从一辆挤不开身的拖车，变成能同时容纳两位厨师的大卡车。生意越做越大，厨房的朝向却把人和顾客隔…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8116759.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T11:17",
+      "t": "首款专为苹果 iPhone 用户打造的 Agent 耳机：网易有道 OpenPods 预售，到手价 1499 元",
+      "s": "今日网易有道将正式发布 OpenPods 有道 AI 耳机，即首款专为 iPhone 用户打造的 Agent 耳机，并同…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/911.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T11:06",
+      "t": "智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40",
+      "s": "「前沿智能」这四个字长期以来只跟一个词绑定在一起：贵。 不是没有便宜的大模型。但便宜往往意味着降级——参数小一号、能力差…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502144"
     },
     {
       "c": "MODEL",
@@ -126,46 +140,32 @@
       "t": "MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的",
       "s": "8 亿美元 ARR 背后，MiniMax 的 Agent 基建与效率暗战.#欢迎关注爱范儿官方微信公众号：爱范儿（微信号…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1676874?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T10:48",
-      "t": "JeecgBoot V3.9.5 重磅发布：AI Flow、Online 全面升级，安全与性能再进阶",
-      "s": "前言 JeecgBoot V3.9.3 刚刚完成 Spring Boot 4 架构大升级，不到一周，V3.9.5 又接踵…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502143"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T10:46",
-      "t": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
-      "s": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是…（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480005.html"
     }
   ],
   "timeline": [
     [
-      "08-27 11:36",
+      "08-27 11:41",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
     ],
     [
-      "08-27 11:36",
+      "08-27 11:41",
       "国家能源局将成立“人工智能+能源”工作组"
+    ],
+    [
+      "08-27 11:39",
+      "Qwen3.8-Flash 发布：125B MoE，激活 6B，训练成本仅前代的 1/9"
+    ],
+    [
+      "08-27 11:34",
+      "DeepSeek调价之后，谁走出了斩杀线？"
     ],
     [
       "08-27 11:17",
       "首款专为苹果 iPhone 用户打造的 Agent 耳机：网易有道 OpenPods 预售，到手价 1499 元"
     ],
     [
-      "08-27 11:12",
-      "上海加码AI制药!创新药概念再爆发，千金药业强势涨停"
-    ],
-    [
       "08-27 11:06",
       "智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40"
-    ],
-    [
-      "08-27 11:02",
-      "「点头」：一旦执行可以交给AI，人还剩下什么"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278181,
+      "s": 278185,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238098,
+      "s": 238100,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111121,
+      "s": 111122,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101231,
+      "s": 101235,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90083,
+      "s": 90084,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
