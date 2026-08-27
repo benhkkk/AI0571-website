@@ -1,19 +1,26 @@
 {
-  "updated": "2026-08-27T11:31:28",
+  "updated": "2026-08-27T11:36:21",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T11:31",
+      "d": "2026-08-27T11:36",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-26T18:36",
-      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?",
-      "s": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678287450476773926/"
+      "d": "2026-08-27T11:12",
+      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
+      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678543924890780203/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-26T18:45",
+      "t": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?",
+      "s": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678289569770422824/"
     },
     {
       "c": "MEDPHARMA",
@@ -21,13 +28,6 @@
       "t": "剂泰科技押注“编程生命”能否打开AI制药下半场?",
       "s": "剂泰科技押注“编程生命”能否打开AI制药下半场?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678276469465809462/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-26T16:28",
-      "t": "AI制药:一个被问错了的问题",
-      "s": "AI制药:一个被问错了的问题（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678254464633029156/"
     },
     {
       "c": "MEDDEVICE",
@@ -94,7 +94,7 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T11:31",
+      "d": "2026-08-27T11:36",
       "t": "国家能源局将成立“人工智能+能源”工作组",
       "s": "国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260826/965638.shtml"
@@ -136,24 +136,28 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-27T10:36",
-      "t": "Perplexity AI 推出 Portable Computer 本地智能体应用",
-      "s": "Perplexity AI 当地时间 25 日宣布推出 Portable Computer。这是其 Perplexity…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/885.htm"
+      "d": "2026-08-27T10:46",
+      "t": "工业Agent不是“套壳”大模型！西门子百年经验灌进工业AI",
+      "s": "西门子Xcelerator与普通软件货架最本质的区别。货架解决的是「把产品卖出去」，西门子Xcelerator要解决的是…（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480005.html"
     }
   ],
   "timeline": [
     [
-      "08-27 11:31",
+      "08-27 11:36",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
     ],
     [
-      "08-27 11:31",
+      "08-27 11:36",
       "国家能源局将成立“人工智能+能源”工作组"
     ],
     [
       "08-27 11:17",
       "首款专为苹果 iPhone 用户打造的 Agent 耳机：网易有道 OpenPods 预售，到手价 1499 元"
+    ],
+    [
+      "08-27 11:12",
+      "上海加码AI制药!创新药概念再爆发，千金药业强势涨停"
     ],
     [
       "08-27 11:06",
@@ -162,10 +166,6 @@
     [
       "08-27 11:02",
       "「点头」：一旦执行可以交给AI，人还剩下什么"
-    ],
-    [
-      "08-27 10:57",
-      "黄仁勋回应 OpenAI 首款自研 AI 芯片挑战：英伟达提供“截然不同”服务"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238094,
+      "s": 238098,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143103,
+      "s": 143104,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134620,
+      "s": 134619,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111119,
+      "s": 111121,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90082,
+      "s": 90083,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
