@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T19:56:04",
+  "updated": "2026-08-27T20:01:39",
   "news": [
     {
       "c": "MEDPHARMA",
@@ -7,13 +7,6 @@
       "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
       "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/255.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:02",
-      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
-      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678664948725187110/"
     },
     {
       "c": "MEDPHARMA",
@@ -28,6 +21,13 @@
       "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
       "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678543924890780203/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-26T18:45",
+      "t": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?",
+      "s": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678289569770422824/"
     },
     {
       "c": "MEDDEVICE",
@@ -129,27 +129,23 @@
     },
     {
       "c": "HOT",
+      "d": "2026-08-27T17:58",
+      "t": "00后跨境卖家自救，做了一款AI放大镜",
+      "s": "没毕业的在校生，拿着5000万估值杀进AI硬件赛道。作者丨陈玘凡编辑丨吴优两岁半的小宝宝攥着圆乎乎的放大镜，凑到地面的蚂…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/weiwu/L0uTNvgh6p0tIHZR.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-08-27T17:20",
       "t": "China's Tech Giants Pour Billions in AI Infrastructure in Q2",
       "s": "China's Tech Giants Pour Billions in AI Infrastruc…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8119172.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T17:05",
-      "t": "我国日均词元调用量突破 500 万亿，中国大模型稳居全球第一梯队",
-      "s": "据央视今日报道，随着人工智能应用加速落地，截至 2026 年 6 月，我国日均词元调用量已突破 500 万亿。词元规模快…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/136.htm"
     }
   ],
   "timeline": [
     [
       "08-27 19:13",
       "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
-    ],
-    [
-      "08-27 19:02",
-      "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态"
     ],
     [
       "08-27 18:34",
@@ -166,6 +162,10 @@
     [
       "08-27 18:20",
       "营收暴涨106%，却先跌3%：英伟达的超预期，为什么不及格？"
+    ],
+    [
+      "08-27 18:20",
+      "AI开小号骗人，被大学生抓包了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278394,
+      "s": 278397,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238535,
+      "s": 238539,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171972,
+      "s": 171973,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143155,
+      "s": 143156,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111280,
+      "s": 111281,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90173,
+      "s": 90174,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
