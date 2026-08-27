@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T04:21:00",
+  "updated": "2026-08-28T04:26:15",
   "news": [
     {
       "c": "INDUSTRY",
@@ -115,13 +115,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-27T20:16",
-      "t": "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧",
-      "s": "好能增长，好能商业化啊！（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480092.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-08-27T19:01",
       "t": "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口",
       "s": "国产大模型内卷到算子底层。 作者丨高允毅 编辑丨岑 峰 昨晚，智谱 AI 认领了最近一周在 OpenRouter 盲测榜…（来源：雷锋网）",
@@ -140,6 +133,13 @@
       "t": "AI开小号骗人，被大学生抓包了",
       "s": "你是说跟我吵架的“同行”竟然是AI？！（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118757.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T18:20",
+      "t": "874亿，全球最大AI开源社区要卖了",
+      "s": "AI圈的“GitHub”要卖了（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8118864.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278593,
+      "s": 278595,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238964,
+      "s": 238969,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172053,
+      "s": 172055,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143189,
+      "s": 143191,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111562,
+      "s": 111567,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101409,
+      "s": 101410,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
