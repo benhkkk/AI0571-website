@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-27T12:36:23",
+  "updated": "2026-08-27T12:41:20",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T12:36",
+      "d": "2026-08-27T12:41",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
@@ -52,17 +52,17 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T12:38",
+      "t": "谷歌发布 Gemini 3.5 Transcribe 语音转文本模型，能自动删除口头禅",
+      "s": "在外界仍等待 Gemini 3.5 Pro 发布之际，谷歌先推出了 3.5 系列中的另一款模型。该公司今日发布了 Gem…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/960.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T11:52",
       "t": "DeepSeek一张涨价单，繁荣了一条产业链？",
       "s": "涨价，是缺货的证词（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118103.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T11:47",
-      "t": "被盗 iPhone 黑产 AnonyMousKIT 披露：AI 语音钓鱼套取苹果手机密码",
-      "s": "网络安全公司 SOCRadar 于 8 月 25 日发布博文，披露名为 AnonyMousKIT 的网络钓鱼即服务（Ph…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/942.htm"
     },
     {
       "c": "FUNDING",
@@ -94,7 +94,7 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T12:36",
+      "d": "2026-08-27T12:41",
       "t": "国家能源局将成立“人工智能+能源”工作组",
       "s": "国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260826/965638.shtml"
@@ -105,6 +105,13 @@
       "t": "AI的账单，不只由科技公司买单",
       "s": "AI正在从一个技术变量，变成社会的资源配置变量（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118214.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T11:47",
+      "t": "被盗 iPhone 黑产 AnonyMousKIT 披露：AI 语音钓鱼套取苹果手机密码",
+      "s": "网络安全公司 SOCRadar 于 8 月 25 日发布博文，披露名为 AnonyMousKIT 的网络钓鱼即服务（Ph…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/942.htm"
     },
     {
       "c": "MODEL",
@@ -133,23 +140,20 @@
       "t": "智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40",
       "s": "「前沿智能」这四个字长期以来只跟一个词绑定在一起：贵。 不是没有便宜的大模型。但便宜往往意味着降级——参数小一号、能力差…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502144"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-27T11:02",
-      "t": "「点头」：一旦执行可以交给AI，人还剩下什么",
-      "s": "一家路边餐车用了十几年时间，从一辆挤不开身的拖车，变成能同时容纳两位厨师的大卡车。生意越做越大，厨房的朝向却把人和顾客隔…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8116759.html"
     }
   ],
   "timeline": [
     [
-      "08-27 12:36",
+      "08-27 12:41",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
     ],
     [
-      "08-27 12:36",
+      "08-27 12:41",
       "国家能源局将成立“人工智能+能源”工作组"
+    ],
+    [
+      "08-27 12:38",
+      "谷歌发布 Gemini 3.5 Transcribe 语音转文本模型，能自动删除口头禅"
     ],
     [
       "08-27 12:08",
@@ -162,10 +166,6 @@
     [
       "08-27 11:52",
       "AI的账单，不只由科技公司买单"
-    ],
-    [
-      "08-27 11:47",
-      "黄仁勋驳斥“循环融资”质疑：AI 行业需要巨额资金，英伟达投资风险很低"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238126,
+      "s": 238129,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207770,
+      "s": 207771,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171884,
+      "s": 171885,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111127,
+      "s": 111129,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90087,
+      "s": 90089,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
