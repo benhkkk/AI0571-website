@@ -442,10 +442,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   'use strict';
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-08-27T13:16', t:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训', s:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260827/965909.shtml'},
+    {c:'MODEL', d:'2026-08-27T13:21', t:'微软 Microsoft 365 路线图更名为 AI at Work Roadmap', s:'科技媒体 Windows Latest 今天（8 月 27 日）发布博文，报道称微软已将 Microsoft 365 R…（来源：IT之家）', u:'https://www.ithome.com/0/994/965.htm'},
+    {c:'MEDPHARMA', d:'2026-08-27T13:21', t:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训', s:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260827/965909.shtml'},
     {c:'MEDPHARMA', d:'2026-08-27T11:35', t:'人工智能制药，攻向最难的两端', s:'人工智能制药，攻向最难的两端（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678550018579513875/'},
     {c:'MEDPHARMA', d:'2026-08-27T11:12', t:'上海加码AI制药!创新药概念再爆发，千金药业强势涨停', s:'上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678543924890780203/'},
-    {c:'MEDPHARMA', d:'2026-08-26T18:45', t:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?', s:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678289569770422824/'},
     {c:'MEDDEVICE', d:'2026-08-26T20:53', t:'库克医疗首席医疗官分享AI对医疗器械机遇与挑战', s:'库克医疗首席医疗官分享AI对医疗器械机遇与挑战（来源：头条设备AI）', u:'https://www.toutiao.com/article/7678322531438330403/'},
     {c:'MEDDEVICE', d:'2026-08-26T10:47', t:'美国FDA启动生成式AI医疗器械监管框架讨论', s:'美国FDA启动生成式AI医疗器械监管框架讨论（来源：头条设备AI）', u:'https://www.toutiao.com/article/7678166302510318086/'},
     {c:'MEDDEVICE', d:'2026-08-24T15:32', t:'怎么提高AI医疗器械产品注册效率?', s:'怎么提高AI医疗器械产品注册效率?（来源：头条设备AI）', u:'https://www.toutiao.com/article/7677497615684092456/'},
@@ -455,7 +455,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-08-26T17:54', t:'DeepSeek 今年前七个月营收约 4.75 亿元', s:'5000 亿。 这是 DeepSeek 第二轮融资的投前估值。按当前汇率，约合 740 亿美元。一家成立不到三年的公司…（来源：OSCHINA）', u:'https://www.oschina.net/news/502134'},
     {c:'INDUSTRY', d:'2026-08-27T12:08', t:'从数字化到AI：企业数智跃迁的路径、实践与挑战 | 2026 ITValue Summit前瞻：AI系统落地系列直播②', s:'对企业来说，下一阶段更值得关注的，是如何找到真正有价值的场景，在可控范围内不断试验，并让技术、业务和人的角色在实践中重新…（来源：钛媒体）', u:'https://www.tmtpost.com/8118639.html'},
     {c:'INDUSTRY', d:'2026-08-26T17:19', t:'达卯科技与福建智算方舟达成合作，全栈式算电协同服务在闽落子', s:'近日，达卯科技与福建智算方舟科技有限公司达成深度合作，为长乐机场综保区人工智能智算中心（一期）提供全栈式算电协同服务，覆…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/9f46BNXl0tsxlS0F.html'},
-    {c:'HOT', d:'2026-08-27T13:16', t:'国家能源局将成立“人工智能+能源”工作组', s:'国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260826/965638.shtml'},
+    {c:'HOT', d:'2026-08-27T13:21', t:'国家能源局将成立“人工智能+能源”工作组', s:'国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260826/965638.shtml'},
     {c:'HOT', d:'2026-08-27T11:52', t:'AI的账单，不只由科技公司买单', s:'AI正在从一个技术变量，变成社会的资源配置变量（来源：钛媒体）', u:'https://www.tmtpost.com/8118214.html'},
     {c:'MODEL', d:'2026-08-27T11:52', t:'DeepSeek一张涨价单，繁荣了一条产业链？', s:'涨价，是缺货的证词（来源：钛媒体）', u:'https://www.tmtpost.com/8118103.html'},
     {c:'MODEL', d:'2026-08-27T11:47', t:'被盗 iPhone 黑产 AnonyMousKIT 披露：AI 语音钓鱼套取苹果手机密码', s:'网络安全公司 SOCRadar 于 8 月 25 日发布博文，披露名为 AnonyMousKIT 的网络钓鱼即服务（Ph…（来源：IT之家）', u:'https://www.ithome.com/0/994/942.htm'},
@@ -464,23 +464,23 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-08-27T11:17', t:'首款专为苹果 iPhone 用户打造的 Agent 耳机：网易有道 OpenPods 预售，到手价 1499 元', s:'今日网易有道将正式发布 OpenPods 有道 AI 耳机，即首款专为 iPhone 用户打造的 Agent 耳机，并同…（来源：IT之家）', u:'https://www.ithome.com/0/994/911.htm'},
   ];
   const TIMELINE = [
-    ['08-27 13:16','江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训'],
-    ['08-27 13:16','国家能源局将成立“人工智能+能源”工作组'],
+    ['08-27 13:21','微软 Microsoft 365 路线图更名为 AI at Work Roadmap'],
+    ['08-27 13:21','江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训'],
+    ['08-27 13:21','国家能源局将成立“人工智能+能源”工作组'],
     ['08-27 12:51','阿里云：下调百炼平台 Qwen3.8-Flash 大模型计费单价'],
     ['08-27 12:38','谷歌发布 Gemini 3.5 Transcribe 语音转文本模型，能自动删除口头禅'],
     ['08-27 12:08','从数字化到AI：企业数智跃迁的路径、实践与挑战 | 2026 ITValue Summit前瞻：AI系统落地系列直播②'],
-    ['08-27 11:52','DeepSeek一张涨价单，繁荣了一条产业链？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278211, u:'https://github.com/obra/superpowers', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278213, u:'https://github.com/obra/superpowers', new:false},
     {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243564, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238157, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207779, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171889, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143112, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238161, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207781, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171890, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143113, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134630, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111140, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101246, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111141, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101248, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90094, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
