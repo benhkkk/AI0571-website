@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T21:31:25",
+  "updated": "2026-08-27T21:36:14",
   "news": [
     {
       "c": "MODEL",
@@ -17,17 +17,17 @@
     },
     {
       "c": "MEDPHARMA",
+      "d": "2026-08-27T19:02",
+      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
+      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678664948725187110/"
+    },
+    {
+      "c": "MEDPHARMA",
       "d": "2026-08-27T11:35",
       "t": "人工智能制药，攻向最难的两端",
       "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678550018579513875/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T11:12",
-      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
-      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678543924890780203/"
     },
     {
       "c": "MEDDEVICE",
@@ -164,8 +164,8 @@
       "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
     ],
     [
-      "08-27 19:01",
-      "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口"
+      "08-27 19:02",
+      "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278439,
+      "s": 278441,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243639,
+      "s": 243641,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238623,
+      "s": 238630,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207919,
+      "s": 207921,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111325,
+      "s": 111328,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101341,
+      "s": 101343,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
