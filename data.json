@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-27T22:46:12",
+  "updated": "2026-08-27T22:51:16",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-27T22:46",
+      "t": "谷歌出手应对 AI“吃内存”，将为安卓 App 内存占用等指标设立新门槛",
+      "s": "AI 数据中心快速扩张正引发内存芯片供应紧张，为此，谷歌将着手调整安卓应用的质量标准。本周公布的新要求中，有一项专门针对…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/320.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-08-27T22:06",
@@ -21,13 +28,6 @@
       "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
       "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/255.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:02",
-      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
-      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678664948725187110/"
     },
     {
       "c": "MEDDEVICE",
@@ -114,6 +114,13 @@
       "u": "https://www.qbitai.com/2026/08/480092.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:02",
+      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
+      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678664948725187110/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-27T19:01",
       "t": "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口",
@@ -133,16 +140,13 @@
       "t": "AI开小号骗人，被大学生抓包了",
       "s": "你是说跟我吵架的“同行”竟然是AI？！（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118757.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T18:20",
-      "t": "874亿，全球最大AI开源社区要卖了",
-      "s": "AI圈的“GitHub”要卖了（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8118864.html"
     }
   ],
   "timeline": [
+    [
+      "08-27 22:46",
+      "谷歌出手应对 AI“吃内存”，将为安卓 App 内存占用等指标设立新门槛"
+    ],
     [
       "08-27 22:06",
       "“全球AI药物递送第一股”的半年考：134倍营收，成色几何"
@@ -162,10 +166,6 @@
     [
       "08-27 21:15",
       "高通 Anshuman Saxena：基于我们的 SoC 平台，可构建 L3 级解决方案"
-    ],
-    [
-      "08-27 21:01",
-      "谷歌推出全球首个双盲 AI 评估技术，基于加密环境保障基准测试公正性"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278469,
+      "s": 278471,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243656,
+      "s": 243659,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238692,
+      "s": 238700,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207949,
+      "s": 207950,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134683,
+      "s": 134684,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111385,
+      "s": 111387,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101355,
+      "s": 101356,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
