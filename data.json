@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-27T19:11:17",
+  "updated": "2026-08-27T19:16:11",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-27T19:11",
+      "d": "2026-08-27T19:16",
       "t": "#人工智能&科学仪器",
       "s": "#人工智能&科学仪器（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-658.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:13",
+      "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
+      "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/255.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -21,13 +28,6 @@
       "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
       "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678543924890780203/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-26T18:45",
-      "t": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?",
-      "s": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678289569770422824/"
     },
     {
       "c": "MEDDEVICE",
@@ -87,14 +87,14 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T19:11",
+      "d": "2026-08-27T19:16",
       "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
       "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T19:11",
+      "d": "2026-08-27T19:16",
       "t": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知",
       "s": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250221/768744.shtml"
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-27 19:11",
+      "08-27 19:16",
       "#人工智能&科学仪器"
     ],
     [
-      "08-27 19:11",
+      "08-27 19:16",
       "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
     ],
     [
-      "08-27 19:11",
+      "08-27 19:16",
       "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知"
+    ],
+    [
+      "08-27 19:13",
+      "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
     ],
     [
       "08-27 18:34",
@@ -162,10 +166,6 @@
     [
       "08-27 18:26",
       "Day-0 支持：摩尔线程官宣完成智谱 GLM-5.3-Flash 极速适配"
-    ],
-    [
-      "08-27 18:20",
-      "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243617,
+      "s": 243618,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238502,
+      "s": 238505,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143150,
+      "s": 143151,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134669,
+      "s": 134668,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111258,
+      "s": 111261,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
