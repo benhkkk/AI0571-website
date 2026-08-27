@@ -1,0 +1,5 @@
+name = "ai0571-update-trigger"
+main = "worker.js"
+compatibility_date = "2026-08-01"
+
+# AI0571 定时更新触发器：从仓库 worker.js 构建，Cron Triggers 在 Cloudflare 控制台 Triggers 里设置
