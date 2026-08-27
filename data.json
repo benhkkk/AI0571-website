@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T17:26:14",
+  "updated": "2026-08-27T17:31:06",
   "news": [
     {
       "c": "INDUSTRY",
@@ -24,10 +24,10 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-26T17:54",
-      "t": "剂泰科技押注“编程生命”能否打开AI制药下半场?",
-      "s": "剂泰科技押注“编程生命”能否打开AI制药下半场?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678276469465809462/"
+      "d": "2026-08-26T18:45",
+      "t": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?",
+      "s": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678289569770422824/"
     },
     {
       "c": "MEDDEVICE",
@@ -87,6 +87,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-08-27T17:20",
+      "t": "China's Tech Giants Pour Billions in AI Infrastructure in Q2",
+      "s": "China's Tech Giants Pour Billions in AI Infrastruc…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119172.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-08-27T16:56",
       "t": "NASA 局长艾萨克曼力挺太空数据中心：缓解 AI 能源短缺，将带来巨大好处",
       "s": "据美国《国会山报》报道，当地时间周三，美国国家航空航天局（NASA）局长贾里德 · 艾萨克曼提出，可以把数据中心搬到太空…（来源：IT之家）",
@@ -133,19 +140,16 @@
       "t": "OpenAI 的中场战事",
       "s": "当领先者不易，当追赶者更不易#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1676929?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-27T15:18",
-      "t": "以旧换新2.0：1875亿背后，钱流向了哪些新赛道",
-      "s": "从手机家电到AI眼镜、适老化产品，补贴清单的扩容藏着怎样的产业风向？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8117306.html"
     }
   ],
   "timeline": [
     [
       "08-27 17:20",
       "OpenAI CEO 奥尔特曼承认民众讨厌数据中心：大家态度都很消极"
+    ],
+    [
+      "08-27 17:20",
+      "China's Tech Giants Pour Billions in AI Infrastructure in Q2"
     ],
     [
       "08-27 17:05",
@@ -162,10 +166,6 @@
     [
       "08-27 16:48",
       "智元机器人「奥运」首秀封神，戴着工牌狂揽 18 枚金牌"
-    ],
-    [
-      "08-27 16:39",
-      "比尔 · 盖茨：我好像是第一个站出来说“AI 太疯狂了”的人，为此感到震惊"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278340,
+      "s": 278341,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243599,
+      "s": 243601,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238417,
+      "s": 238422,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207865,
+      "s": 207866,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111220,
+      "s": 111223,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101290,
+      "s": 101291,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
