@@ -66,14 +66,16 @@ SOURCES = [
     {"name": "爱范儿",    "url": "https://www.ifanr.com/feed",           "ai_only": False},
     {"name": "OSCHINA",   "url": "https://www.oschina.net/news/rss",     "ai_only": False},
     {"name": "钛媒体",    "url": "https://www.tmtpost.com/rss",          "ai_only": False},
-    # 医药/设备 AI 专项源（今日头条搜索，国内可达，原文链接可直接打开；
-    #  queries 为搜索词列表，逐个搜索后合并去重）
+    # 医药/设备 AI 专项源一：今日头条搜索（国内可达，原文链接可直接打开）
     {"name": "头条医药AI", "type": "toutiao",
      "queries": ["AI制药", "医药AI 大模型", "AI 药物研发"],
      "force_cat": "MEDPHARMA"},
     {"name": "头条设备AI", "type": "toutiao",
      "queries": ["医疗器械 人工智能", "手术机器人 AI", "医学影像 AI"],
      "force_cat": "MEDDEVICE"},
+    # 医药/设备 AI 专项源二：专业垂直站新闻列表页（HTML 直接爬，增加数据源多样性）
+    {"name": "药智新闻",  "type": "html_list", "url": "https://news.yaozh.com/", "filter": "ai"},
+    {"name": "仪器信息网", "type": "html_list", "url": "https://www.instrument.com.cn/news/", "filter": "ai"},
 ]
 
 # 判定“是否属于 AI 资讯”的关键词（用于综合科技源过滤），分强弱两档：
@@ -250,13 +252,16 @@ def to_beijing(entry):
 def fetch_source(src: dict) -> list:
     """
     抓取单个源并解析为条目列表。
-    支持两种类型：
+    支持三种类型：
       - 普通 RSS/Atom（url 字段）
       - toutiao：今日头条搜索（type='toutiao'，queries + force_cat 字段）
+      - html_list：新闻列表页直接爬（type='html_list'，url + 可选 filter='ai'）
     任一步失败都抛异常，由调用方捕获跳过。
     """
     if src.get("type") == "toutiao":
         return fetch_toutiao(src)
+    if src.get("type") == "html_list":
+        return fetch_html_list(src)
 
     resp = requests.get(src["url"], headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
@@ -361,6 +366,53 @@ def fetch_toutiao(src: dict) -> list:
         seen.add(it["link"])
         out.append(it)
     return out[:MAX_PER_SOURCE]
+
+
+def fetch_html_list(src: dict) -> list:
+    """
+    新闻列表页直接爬取（HTML）。
+    提取 `<a href="...">标题</a>` 形式的条目；可选按 AI 关键词过滤（filter='ai'）。
+    时间无来源信息时用当前时间兜底（列表页本身多为新近内容）。
+    分类交给 classify()（如药智命中医药关键词 → MEDPHARMA，仪器网命中设备关键词 → MEDDEVICE）。
+    """
+    import urllib.parse as up
+    resp = requests.get(src["url"], headers=HEADERS, timeout=TIMEOUT)
+    resp.raise_for_status()
+    text = resp.text
+
+    items, seen = [], set()
+    for m in re.finditer(r'<a[^>]*href="([^"]*)"[^>]*>([^<]{8,80})</a>', text):
+        href, title = m.group(1), clean_html(m.group(2)).strip()
+        if not title or len(title) < 8:
+            continue
+        if href.startswith(("javascript", "mailto", "#", "tel:")):
+            continue
+        # 排除明显的导航/功能链接
+        if re.match(r"^(首页|登录|注册|更多|关于|联系|版权|english|menu|top|返回|上一页|下一页)", title, re.I):
+            continue
+        link = up.urljoin(src["url"], href)
+        if link in seen:
+            continue
+        if src.get("filter") == "ai" and not is_ai_related(title, ""):
+            continue
+        seen.add(link)
+
+        dt = datetime.datetime.now(BEIJING_TZ)
+        iso = dt.strftime("%Y-%m-%dT%H:%M")
+        items.append({
+            "title": title,
+            "summary": truncate(title, 60),
+            "iso": iso,
+            "mmdd": dt.strftime("%m-%d %H:%M"),
+            "dt": dt,
+            "age": 0.0,
+            "source": src["name"],
+            "link": link,
+            "c": classify(title, ""),
+        })
+        if len(items) >= MAX_PER_SOURCE * 2:
+            break
+    return items
 
 
 def filter_recent(items: list) -> list:
