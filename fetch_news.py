@@ -24,6 +24,7 @@ fetch_news.py —— AI0571 每日资讯自动抓取与页面数据改写脚本
 
 import re
 import sys
+import json
 import html as html_lib
 import difflib
 import datetime
@@ -107,6 +108,8 @@ TIMEOUT = 15
 
 # index.html 路径（与脚本同目录）
 INDEX_PATH = "index.html"
+# 前端轮询用数据文件（含更新时间戳 + 资讯数据，仅在内容变化时改写）
+DATA_PATH = "data.json"
 
 
 # --------------------------------------------------------------------------
@@ -396,13 +399,14 @@ def rewrite_index(news: list, timeline: list) -> dict:
 
     original = content
     stats = {"news_replaced": False, "timeline_replaced": False,
-             "date_replaced": False, "count_replaced": False}
+             "date_replaced": False, "count_replaced": False,
+             "content_changed": False}
 
     # 1) 替换 NEWS
     #    注意：匹配时把行首缩进一并吞掉，替换为标准 2 空格缩进，保证重复运行不漂移
     new_news_block = render_news(news)
     content, n_news = re.subn(
-        r"^[ \t]*const NEWS = \[.*?\];", new_news_block, content, count=1,
+        r"^[ \t]*(?:const|let) NEWS = \[.*?\];", new_news_block, content, count=1,
         flags=re.M | re.S
     )
     stats["news_replaced"] = n_news > 0
@@ -410,7 +414,7 @@ def rewrite_index(news: list, timeline: list) -> dict:
     # 2) 替换 TIMELINE
     new_tl_block = render_timeline(timeline)
     content, n_tl = re.subn(
-        r"^[ \t]*const TIMELINE = \[.*?\];", new_tl_block, content, count=1,
+        r"^[ \t]*(?:const|let) TIMELINE = \[.*?\];", new_tl_block, content, count=1,
         flags=re.M | re.S
     )
     stats["timeline_replaced"] = n_tl > 0
@@ -429,11 +433,28 @@ def rewrite_index(news: list, timeline: list) -> dict:
     )
     stats["count_replaced"] = n_cnt > 0
 
-    if content != original:
+    changed = content != original
+    stats["content_changed"] = changed
+    if changed:
         with open(INDEX_PATH, "w", encoding="utf-8", newline="") as f:
             f.write(content)
 
     return stats
+
+
+def write_data_json(news: list, timeline: list) -> None:
+    """
+    生成 data.json，供前端轮询检测更新。
+    仅在内容有变化时调用（由调用方判断），避免产生无意义 commit。
+    结构：{updated: 'YYYY-MM-DDTHH:MM:SS', news: [...], timeline: [...]}
+    """
+    payload = {
+        "updated": datetime.datetime.now(BEIJING_TZ).strftime("%Y-%m-%dT%H:%M:%S"),
+        "news": news,
+        "timeline": timeline,
+    }
+    with open(DATA_PATH, "w", encoding="utf-8", newline="") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
 
 # --------------------------------------------------------------------------
@@ -473,6 +494,13 @@ def main():
     if not stats["news_replaced"] or not stats["timeline_replaced"]:
         print("\n[错误] 未能定位 index.html 中的 NEWS/TIMELINE 数组，文件未改写。")
         sys.exit(2)
+
+    # 内容有变化时同步写 data.json；无变化保持旧文件（避免无效提交与部署）
+    if stats["content_changed"]:
+        write_data_json(news, timeline)
+        print("  data.json 已同步写入 ✓")
+    else:
+        print("  data.json 内容无变化，未改写（避免无效提交）")
 
     print("\n更新摘要：")
     print("  抓取来源：%d 个（%s）" % (len(ok_sources), "、".join(ok_sources)))
