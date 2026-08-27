@@ -1,6 +1,20 @@
 {
-  "updated": "2026-08-27T08:48:45",
+  "updated": "2026-08-27T08:50:58",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-27T08:44",
+      "t": "英伟达：AI 算力供给短缺格局至少延续至 2028 财年末，晶圆产能、HBM 存储、机房电力均处于全面紧缺状态",
+      "s": "美东时间周三盘后，全球 AI 芯片龙头英伟达公布了强劲的 2027 财年第二季度财报。据财联社报道，英伟达在财报电话会上…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/813.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T08:41",
+      "t": "早报｜苹果新iPhone 9月10日见/特斯拉中国辟谣上海数据中心撤离/工信部:严禁未经充分测试验证的汽车产品进入市场",
+      "s": "· ChatGPT Business 开放 Premium 席位，用量提高至 5 倍 · 顺丰回应薪酬结构调整：15% …（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1676848?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MODEL",
       "d": "2026-08-27T08:27",
@@ -14,20 +28,6 @@
       "t": "OpenAI 发布 Hugging Face 安全事件官方报告，还原 AI 模型沙箱逃逸全过程",
       "s": "OpenAI 当地时间周三发布了关于 Hugging Face 遭入侵事件的官方报告，首次较为完整地还原了这起事件的经过…（来源：IT之家）",
       "u": "https://www.ithome.com/0/994/797.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T06:36",
-      "t": "英伟达黄仁勋：AI 已迈过商业化拐点，全球产业进入 AI 变现时代",
-      "s": "雅虎财经今天（8 月 27 日）发布博文，报道称在英伟达最新财报电话会议上，公司首席执行官黄仁勋明确指出，人工智能（AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/795.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T00:48",
-      "t": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡",
-      "s": "神秘「牛来」模型果然是智谱！GLM首个原生多模态，还用的国产卡（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/479919.html"
     },
     {
       "c": "FUNDING",
@@ -100,11 +100,11 @@
       "u": "https://www.ithome.com/0/994/796.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-26T23:50",
-      "t": "Waymo：我们的无人驾驶出租车严重事故发生率仅有人驾的 1/16",
-      "s": "在把自动驾驶 Robotaxi 带到伦敦复杂的城市道路几个月后，Waymo 又把欧洲扩张的下一站选在了德国慕尼黑。慕尼黑…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/784.htm"
+      "c": "MODEL",
+      "d": "2026-08-27T06:36",
+      "t": "英伟达黄仁勋：AI 已迈过商业化拐点，全球产业进入 AI 变现时代",
+      "s": "雅虎财经今天（8 月 27 日）发布博文，报道称在英伟达最新财报电话会议上，公司首席执行官黄仁勋明确指出，人工智能（AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/795.htm"
     },
     {
       "c": "MODEL",
@@ -115,6 +115,14 @@
     }
   ],
   "timeline": [
+    [
+      "08-27 08:44",
+      "英伟达：AI 算力供给短缺格局至少延续至 2028 财年末，晶圆产能、HBM 存储、机房电力均处于全面紧缺状态"
+    ],
+    [
+      "08-27 08:41",
+      "早报｜苹果新iPhone 9月10日见/特斯拉中国辟谣上海数据中心撤离/工信部:严禁未经充分测试验证的汽车产品进入市场"
+    ],
     [
       "08-27 08:27",
       "Ox Alpha「牛来」 身份揭晓；黄仁勋：AI 已迈过商业化拐点；世界人形机器人运动会闭幕：天工 Ultra 百米跑出 8 秒 64｜极客早知道"
@@ -130,14 +138,6 @@
     [
       "08-27 07:40",
       "现代汽车经销商未来不只卖车，还要卖机器人"
-    ],
-    [
-      "08-27 07:31",
-      "比尔 · 盖茨发长文谈 AI，建议征收机器人税、设置人类专属岗位"
-    ],
-    [
-      "08-27 07:21",
-      "OpenAI 发布 Hugging Face 安全事件官方报告，还原 AI 模型沙箱逃逸全过程"
     ]
   ],
   "skills": [
@@ -161,7 +161,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 237949,
+      "s": 237951,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -185,7 +185,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143092,
+      "s": 143093,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -201,7 +201,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111082,
+      "s": 111084,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -217,7 +217,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90047,
+      "s": 90048,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
