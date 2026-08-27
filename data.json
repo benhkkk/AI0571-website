@@ -1,19 +1,26 @@
 {
-  "updated": "2026-08-27T11:41:16",
+  "updated": "2026-08-27T11:46:14",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T11:41",
+      "d": "2026-08-27T11:46",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-26T18:45",
-      "t": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?",
-      "s": "浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678289569770422824/"
+      "d": "2026-08-27T11:35",
+      "t": "人工智能制药，攻向最难的两端",
+      "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678550018579513875/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T11:12",
+      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
+      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678543924890780203/"
     },
     {
       "c": "MEDPHARMA",
@@ -21,13 +28,6 @@
       "t": "剂泰科技押注“编程生命”能否打开AI制药下半场?",
       "s": "剂泰科技押注“编程生命”能否打开AI制药下半场?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678276469465809462/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-26T16:28",
-      "t": "AI制药:一个被问错了的问题",
-      "s": "AI制药:一个被问错了的问题（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678254464633029156/"
     },
     {
       "c": "MEDDEVICE",
@@ -94,7 +94,7 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T11:41",
+      "d": "2026-08-27T11:46",
       "t": "国家能源局将成立“人工智能+能源”工作组",
       "s": "国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260826/965638.shtml"
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-27 11:41",
+      "08-27 11:46",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
     ],
     [
-      "08-27 11:41",
+      "08-27 11:46",
       "国家能源局将成立“人工智能+能源”工作组"
     ],
     [
       "08-27 11:39",
       "Qwen3.8-Flash 发布：125B MoE，激活 6B，训练成本仅前代的 1/9"
+    ],
+    [
+      "08-27 11:35",
+      "人工智能制药，攻向最难的两端"
     ],
     [
       "08-27 11:34",
@@ -162,10 +166,6 @@
     [
       "08-27 11:17",
       "首款专为苹果 iPhone 用户打造的 Agent 耳机：网易有道 OpenPods 预售，到手价 1499 元"
-    ],
-    [
-      "08-27 11:06",
-      "智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278185,
+      "s": 278187,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243554,
+      "s": 243555,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238100,
+      "s": 238105,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143104,
+      "s": 143105,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134619,
+      "s": 134620,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111122,
+      "s": 111123,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
