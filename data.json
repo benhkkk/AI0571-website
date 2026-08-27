@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-27T16:26:14",
+  "updated": "2026-08-27T16:31:23",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-27T16:03",
-      "t": "小鹏第二代 VLA 全新版本 9 月推送，面向所有 Ultra / Ultra SE 车型",
-      "s": "在今天（27 日）的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布，小鹏第二代 VLA 的全新…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/109.htm"
+      "c": "HOT",
+      "d": "2026-08-27T16:21",
+      "t": "Beyond the Filter: Inside Meitu’s High-Stakes Shift from Photo Retouching to AI Productivity",
+      "s": "Beyond the Filter: Inside Meitu’s High-Stakes Shif…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119121.html"
     },
     {
       "c": "MEDPHARMA",
@@ -45,17 +45,17 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T16:03",
+      "t": "小鹏第二代 VLA 全新版本 9 月推送，面向所有 Ultra / Ultra SE 车型",
+      "s": "在今天（27 日）的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布，小鹏第二代 VLA 的全新…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/109.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T16:00",
       "t": "小鹏第二代 VLA Lite 蒸馏版 9 月面向单图灵芯片 Max 车型推送，G9L Max 版首发搭载",
       "s": "在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布第二代 VLA Lite 蒸馏版将于 9…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/108.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T15:45",
-      "t": "小鹏汽车宣布进入主驾无人的关键道路验证阶段，第二代 VLA 已实现 L2 至 L4 能力贯通",
-      "s": "在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布搭载第二代 VLA 的 Robotaxi…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/062.htm"
     },
     {
       "c": "FUNDING",
@@ -101,6 +101,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T15:45",
+      "t": "小鹏汽车宣布进入主驾无人的关键道路验证阶段，第二代 VLA 已实现 L2 至 L4 能力贯通",
+      "s": "在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布搭载第二代 VLA 的 Robotaxi…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/062.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T15:39",
       "t": "小鹏 Master Agent 超级智能体上车：第二代 VLA 全新版本升级，可语音控制靠边停车",
       "s": "在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏第二代 VLA 全新版本模型能力全面增强。据小鹏…（来源：IT之家）",
@@ -133,16 +140,13 @@
       "t": "单季1200亿资本开支，中国互联网的AI千亿豪赌",
       "s": "当中国云厂商的ROIC只有13%-20%，而大洋彼岸的美国同行却能赚到25%-50%时，中美AI算力投资的回报差距，最终…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8117891.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-27T13:43",
-      "t": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
-      "s": "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480079.html"
     }
   ],
   "timeline": [
+    [
+      "08-27 16:21",
+      "Beyond the Filter: Inside Meitu’s High-Stakes Shift from Photo Retouching to AI …"
+    ],
     [
       "08-27 16:03",
       "小鹏第二代 VLA 全新版本 9 月推送，面向所有 Ultra / Ultra SE 车型"
@@ -162,10 +166,6 @@
     [
       "08-27 15:39",
       "小鹏 Master Agent 超级智能体上车：第二代 VLA 全新版本升级，可语音控制靠边停车"
-    ],
-    [
-      "08-27 15:32",
-      "小鹏 X-Foresight 预测世界模型首次上车，可预判未来 6 秒会发生什么"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278314,
+      "s": 278315,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243589,
+      "s": 243590,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238348,
+      "s": 238355,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207848,
+      "s": 207853,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171932,
+      "s": 171933,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111199,
+      "s": 111201,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101280,
+      "s": 101281,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90129,
+      "s": 90132,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
