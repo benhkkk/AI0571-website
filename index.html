@@ -442,7 +442,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   'use strict';
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MODEL', d:'2026-08-27T16:56', t:'#当我问DeepSeek', s:'#当我问DeepSeek（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/topic-639.html'},
+    {c:'HOT', d:'2026-08-27T16:56', t:'NASA 局长艾萨克曼力挺太空数据中心：缓解 AI 能源短缺，将带来巨大好处', s:'据美国《国会山报》报道，当地时间周三，美国国家航空航天局（NASA）局长贾里德 · 艾萨克曼提出，可以把数据中心搬到太空…（来源：IT之家）', u:'https://www.ithome.com/0/995/132.htm'},
     {c:'MEDPHARMA', d:'2026-08-27T11:35', t:'人工智能制药，攻向最难的两端', s:'人工智能制药，攻向最难的两端（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678550018579513875/'},
     {c:'MEDPHARMA', d:'2026-08-27T11:12', t:'上海加码AI制药!创新药概念再爆发，千金药业强势涨停', s:'上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678543924890780203/'},
     {c:'MEDPHARMA', d:'2026-08-26T18:45', t:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?', s:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678289569770422824/'},
@@ -460,11 +460,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-08-27T16:00', t:'小鹏第二代 VLA Lite 蒸馏版 9 月面向单图灵芯片 Max 车型推送，G9L Max 版首发搭载', s:'在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布第二代 VLA Lite 蒸馏版将于 9…（来源：IT之家）', u:'https://www.ithome.com/0/995/108.htm'},
     {c:'MODEL', d:'2026-08-27T15:45', t:'小鹏汽车宣布进入主驾无人的关键道路验证阶段，第二代 VLA 已实现 L2 至 L4 能力贯通', s:'在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏汽车宣布搭载第二代 VLA 的 Robotaxi…（来源：IT之家）', u:'https://www.ithome.com/0/995/062.htm'},
     {c:'MODEL', d:'2026-08-27T15:39', t:'小鹏 Master Agent 超级智能体上车：第二代 VLA 全新版本升级，可语音控制靠边停车', s:'在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏第二代 VLA 全新版本模型能力全面增强。据小鹏…（来源：IT之家）', u:'https://www.ithome.com/0/995/040.htm'},
-    {c:'MODEL', d:'2026-08-27T15:32', t:'小鹏 X-Foresight 预测世界模型首次上车，可预判未来 6 秒会发生什么', s:'在今日的小鹏物理 AI 分享暨第二代 VLA 全新版本体验日活动中，小鹏第二代 VLA 全新版本模型能力全面增强。小鹏宣…（来源：IT之家）', u:'https://www.ithome.com/0/995/033.htm'},
     {c:'HOT', d:'2026-08-27T15:24', t:'OpenAI 的中场战事', s:'当领先者不易，当追赶者更不易#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1676929?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'HOT', d:'2026-08-27T15:18', t:'以旧换新2.0：1875亿背后，钱流向了哪些新赛道', s:'从手机家电到AI眼镜、适老化产品，补贴清单的扩容藏着怎样的产业风向？（来源：钛媒体）', u:'https://www.tmtpost.com/8117306.html'},
   ];
   const TIMELINE = [
-    ['08-27 16:56','#当我问DeepSeek'],
+    ['08-27 16:56','NASA 局长艾萨克曼力挺太空数据中心：缓解 AI 能源短缺，将带来巨大好处'],
     ['08-27 16:51','央视曝光 AI 相亲骗局，虚假婚介专针对中老年女性下手'],
     ['08-27 16:48','智元机器人「奥运」首秀封神，戴着工牌狂揽 18 枚金牌'],
     ['08-27 16:39','比尔 · 盖茨：我好像是第一个站出来说“AI 太疯狂了”的人，为此感到震惊'],
@@ -473,15 +473,15 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278327, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243595, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238386, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243594, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238394, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207860, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171938, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143135, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134654, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171940, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143134, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134655, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111214, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101286, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90139, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90140, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
