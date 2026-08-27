@@ -235,6 +235,27 @@ section{padding:64px 0}
 .tl-time{font-family:var(--font-mono);font-size:13px;color:var(--primary);font-weight:600}
 .tl-text{margin-top:4px;font-size:14px;color:var(--text-2)}
 
+/* ============ Weekly Skills ============ */
+.skills-section{background:var(--layer)}
+.skills-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;max-width:920px;margin:0 auto}
+.skill-item{
+  display:flex;align-items:flex-start;gap:14px;padding:16px 18px;border-radius:12px;
+  background:rgba(14,21,38,.72);border:1px solid var(--border);backdrop-filter:blur(12px);
+  transition:transform .25s ease,border-color .25s ease,box-shadow .25s ease;
+}
+.skill-item:hover{transform:translateY(-4px);border-color:rgba(34,211,238,.25);box-shadow:0 0 24px rgba(34,211,238,.15)}
+.skill-rank{font-family:var(--font-mono);font-size:20px;font-weight:700;line-height:1.2;min-width:32px;color:var(--text-3)}
+.skill-rank.rank-1{color:#FBBF24;text-shadow:0 0 12px rgba(251,191,36,.5)}
+.skill-rank.rank-2{color:#94A3B8}
+.skill-rank.rank-3{color:#D97706}
+.skill-body{min-width:0;flex:1}
+.skill-name{font-size:15px;font-weight:600;color:var(--text-1);word-break:break-all}
+.skill-desc{font-size:13px;color:var(--text-2);line-height:1.5;margin-top:4px;
+  display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.skill-meta{display:flex;align-items:center;gap:10px;margin-top:8px}
+.skill-star{font-size:12px;color:#FBBF24;font-weight:600}
+.skill-new{font-size:11px;color:#fff;background:rgba(52,211,153,.85);border-radius:999px;padding:2px 8px}
+
 /* ============ Footer ============ */
 footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56px}
 .footer-inner{display:grid;grid-template-columns:1fr;gap:32px;padding-bottom:40px}
@@ -370,6 +391,19 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     <div class="timeline" id="timeline"></div>
   </div>
 </section>
+
+<!-- ===== F. Weekly Skills ===== -->
+<section class="skills-section" id="skills">
+  <div class="container">
+    <div class="section-head">
+      <div>
+        <h2>每周热 Skill</h2>
+        <p class="section-desc">GitHub 上最热最新的 AI Agent 技能包 · 周榜自动更新</p>
+      </div>
+    </div>
+    <div class="skills-grid" id="skillsGrid"></div>
+  </div>
+</section>
 </main>
 
 <!-- ===== E. Footer ===== -->
@@ -428,6 +462,18 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     ['08-27 07:31','比尔 · 盖茨发长文谈 AI，建议征收机器人税、设置人类专属岗位'],
     ['08-27 07:21','OpenAI 发布 Hugging Face 安全事件官方报告，还原 AI 模型沙箱逃逸全过程'],
   ];
+  const SKILLS = [
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278118, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243525, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:237949, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207709, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171833, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143092, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134608, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111082, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101201, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90047, u:'https://github.com/addyosmani/agent-skills', new:false},
+  ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
     if (m < 1) return '刚刚';
@@ -451,6 +497,22 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     document.getElementById('loadMore').style.display = shown >= list().length ? 'none' : '';
   };
   const renderTimeline = () => document.getElementById('timeline').innerHTML = TIMELINE.map(x => `<div class="tl-item"><div class="tl-node"></div><time class="tl-time mono">${x[0]}</time><p class="tl-text">${x[1]}</p></div>`).join('');
+  const skillItem = it => `
+    <a class="skill-item" href="${it.u}" target="_blank" rel="noopener">
+      <div class="skill-rank${it.n <= 3 ? ' rank-' + it.n : ''}">${String(it.n).padStart(2, '0')}</div>
+      <div class="skill-body">
+        <div class="skill-name">${it.r}</div>
+        <p class="skill-desc">${it.d}</p>
+        <div class="skill-meta">
+          <span class="skill-star">★ ${Number(it.s).toLocaleString()}</span>
+          ${it.new ? '<span class="skill-new">本周新</span>' : ''}
+        </div>
+      </div>
+    </a>`;
+  const renderSkills = () => {
+    const el = document.getElementById('skillsGrid');
+    if (el && SKILLS.length) el.innerHTML = SKILLS.map(skillItem).join('');
+  };
   const updateCounts = () => {
     document.getElementById('todayCount').textContent = NEWS.length;
     const st = document.getElementById('statToday');
@@ -458,6 +520,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   };
   updateCounts();
   renderTimeline();
+  renderSkills();
   document.getElementById('tabs').addEventListener('click', e => {
     const b = e.target.closest('.tab'); if (!b) return;
     cat = b.dataset.cat; shown = 9;
@@ -483,12 +546,13 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   render();
   // ---------- 前端轮询：每 5 分钟检查 data.json，有更新自动重渲染（无需刷新） ----------
   let lastUpdated = '', pollReady = false;
-  const applyData = (newsArr, tlArr) => {
+  const applyData = (newsArr, tlArr, skillsArr) => {
     NEWS.length = 0; NEWS.push(...newsArr);
     TIMELINE.length = 0; TIMELINE.push(...tlArr);
+    if (skillsArr && skillsArr.length) { SKILLS.length = 0; SKILLS.push(...skillsArr); }
     shown = 9; cat = 'ALL';
     document.querySelectorAll('.tab').forEach(x => x.classList.toggle('active', x.dataset.cat === 'ALL'));
-    render(); renderTimeline(); updateCounts();
+    render(); renderTimeline(); renderSkills(); updateCounts();
     const badge = document.querySelector('.badge.mono');
     if (badge) badge.innerHTML = badge.innerHTML.replace(/\d{4}-\d{2}-\d{2}/, new Date(Date.now() + 8 * 3600e3).toISOString().slice(0, 10));
   };
@@ -499,7 +563,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
       const d = await r.json();
       if (!d || !Array.isArray(d.news) || !d.news.length) return;
       if (!pollReady) { pollReady = true; lastUpdated = d.updated || ''; return; } // 首次仅记录基线，不重渲染
-      if (d.updated && d.updated !== lastUpdated) { lastUpdated = d.updated; applyData(d.news, d.timeline || []); }
+      if (d.updated && d.updated !== lastUpdated) { lastUpdated = d.updated; applyData(d.news, d.timeline || [], d.skills || []); }
     } catch (e) { /* 网络异常静默，下轮重试 */ }
   };
   setInterval(poll, 5 * 60 * 1000);
