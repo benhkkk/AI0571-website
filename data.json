@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-27T10:11:17",
+  "updated": "2026-08-27T10:21:12",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-27T10:03",
-      "t": "小米米家扫拖机器人 7C 开售：滚筒活水增压拖地，国补价 2068 元",
-      "s": "今日，小米米家扫拖机器人 7C 现已开售，京东平台新品上市价 2704 元，叠加 9 折店铺优惠 + 8.5 折国补，到…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/855.htm"
+      "c": "MODEL",
+      "d": "2026-08-27T10:18",
+      "t": "OpenAI 前研究员巴雷特 · 佐夫重返谷歌，助力 Gemini 研发",
+      "s": "巴雷特 · 佐夫（Barret Zoph）今年曾因与 Thinking Machines Lab 首席执行官米拉 · 穆…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/859.htm"
     },
     {
       "c": "MODEL",
@@ -73,6 +73,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-08-27T10:03",
+      "t": "小米米家扫拖机器人 7C 开售：滚筒活水增压拖地，国补价 2068 元",
+      "s": "今日，小米米家扫拖机器人 7C 现已开售，京东平台新品上市价 2704 元，叠加 9 折店铺优惠 + 8.5 折国补，到…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/855.htm"
+    },
+    {
+      "c": "HOT",
       "d": "2026-08-27T09:36",
       "t": "亚马逊 AWS 宣布 2027~2028 年额外部署 200 万块 NVIDIA GPU",
       "s": "Amazon AWS（亚马逊云科技）在与 NVIDIA 的联合新闻稿中宣布，计划在 2027~2028 年期间向其全球基…（来源：IT之家）",
@@ -84,13 +91,6 @@
       "t": "0day同步！商汤小浣熊 Linux 版首发支持 openKylin",
       "s": "2026年8月26日，OpenAtom openKylin（简称“openKylin”）社区完成商汤科技旗下AI办公助手…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502139"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-27T07:46",
-      "t": "专访高通马德嘉：6G 是 AI 原生系统，多次点名赞赏豆包手机",
-      "s": "今天（8 月 27 日）在美国圣地亚哥举办的高通全球 6G 分析师与媒体日上，高通执行副总裁、边缘解决方案与数据中心业务…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/802.htm"
     },
     {
       "c": "MODEL",
@@ -116,6 +116,10 @@
   ],
   "timeline": [
     [
+      "08-27 10:18",
+      "OpenAI 前研究员巴雷特 · 佐夫重返谷歌，助力 Gemini 研发"
+    ],
+    [
       "08-27 10:03",
       "小米米家扫拖机器人 7C 开售：滚筒活水增压拖地，国补价 2068 元"
     ],
@@ -134,10 +138,6 @@
     [
       "08-27 09:23",
       "豆包输入法新增超级互传，可在设备间互传复制的文本和图片"
-    ],
-    [
-      "08-27 09:15",
-      "0day同步！商汤小浣熊 Linux 版首发支持 openKylin"
     ]
   ],
   "skills": [
@@ -145,7 +145,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278147,
+      "s": 278151,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -153,7 +153,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243542,
+      "s": 243543,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -161,7 +161,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238014,
+      "s": 238026,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -169,7 +169,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207744,
+      "s": 207747,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -177,7 +177,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171852,
+      "s": 171854,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -201,7 +201,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111101,
+      "s": 111103,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -209,7 +209,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101211,
+      "s": 101214,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -217,7 +217,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90064,
+      "s": 90068,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
