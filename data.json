@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T10:41:03",
+  "updated": "2026-08-27T10:46:37",
   "news": [
     {
       "c": "MEDPHARMA",
@@ -115,6 +115,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T09:45",
+      "t": "千问办公首发上线Qwen3.8-Flash，生成速度提升100%，Token消耗减少75%",
+      "s": "8月26日晚，千问办公首发上线刚刚发布的Qwen3.8-Flash模型，同时推出标准模式。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480001.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T09:38",
       "t": "小鹏图灵 AI 第三颗芯片点亮，超级智能体上车",
       "s": "小鹏汽车宣布图灵 AI 第三颗芯片正式点亮，超级智能体上车。今天 15:00，小鹏将举行物理 AI 分享暨第二代 VLA…（来源：IT之家）",
@@ -133,13 +140,6 @@
       "t": "亚马逊 AWS 宣布 2027~2028 年额外部署 200 万块 NVIDIA GPU",
       "s": "Amazon AWS（亚马逊云科技）在与 NVIDIA 的联合新闻稿中宣布，计划在 2027~2028 年期间向其全球基…（来源：IT之家）",
       "u": "https://www.ithome.com/0/994/836.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-27T09:34",
-      "t": "轮到豆包工作了",
-      "s": "AI办公系统进入系统化对决（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8117958.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278159,
+      "s": 278162,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238041,
+      "s": 238049,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207750,
+      "s": 207751,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171857,
+      "s": 171860,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143098,
+      "s": 143099,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134614,
+      "s": 134615,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101216,
+      "s": 101219,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90071,
+      "s": 90073,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
