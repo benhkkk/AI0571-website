@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-27T10:46:37",
+  "updated": "2026-08-27T10:50:59",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T10:48",
+      "t": "MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的",
+      "s": "8 亿美元 ARR 背后，MiniMax 的 Agent 基建与效率暗战.#欢迎关注爱范儿官方微信公众号：爱范儿（微信号…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1676874?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-08-27T10:37",
@@ -21,13 +28,6 @@
       "t": "华兰股份：二季度业绩环比显著改善，AI制药版图加速进入收获期 - 东方财富",
       "s": "华兰股份：二季度业绩环比显著改善，AI制药版图加速进入收获期 东方财富（来源：医药AI）",
       "u": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5TOExsemRfM3dNVkRGYmpsY3I2VmFVR3FrOFlKZTAxcC1BREVjZU9McGlpUzk0Z0M1S0FxN3NYNlV1R0pyOHN2cm9iRVRVX3Y2MzRuMWhremhWeFFEN3JEQVBzUHU?oc=5"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-26T06:17",
-      "t": "AI制药卡在验证环节？这家公司试图用“人类数据工厂”破局 - finance.sina.com.cn",
-      "s": "AI制药卡在验证环节？这家公司试图用“人类数据工厂”破局 finance.sina.com.cn（来源：医药AI）",
-      "u": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQZk5oeExBcTNRdnlEOE9LNFZSX3k5WHZUSjBCVktJUTdoYW8weTJzbnFRYXN2Skl6YWQtQUg0dk5YZ2VUdWlydGpEeUw2R3gwM1JIakttNWlyTkVROFJpUHZKSHJOTTdWVzZ1LUZZMHQzamc2R1VhZktDajE5R1g3Zkl5VklXZlR0a2NiRUxCMjI5QQ?oc=5"
     },
     {
       "c": "MEDDEVICE",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "08-27 10:48",
+      "MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的"
+    ],
+    [
       "08-27 10:37",
       "浙商证券：AI制药重塑科学研究范式 长期关注能够持续迭代研发平台 - video.sina.com.cn"
     ],
@@ -162,10 +166,6 @@
     [
       "08-27 10:07",
       "OpenAI自研芯片将击穿英伟达CUDA护城河？"
-    ],
-    [
-      "08-27 10:03",
-      "小米米家扫拖机器人 7C 开售：滚筒活水增压拖地，国补价 2068 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278162,
+      "s": 278167,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243543,
+      "s": 243542,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238049,
+      "s": 238051,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207751,
+      "s": 207752,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171860,
+      "s": 171861,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111106,
+      "s": 111107,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101219,
+      "s": 101220,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90073,
+      "s": 90074,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
