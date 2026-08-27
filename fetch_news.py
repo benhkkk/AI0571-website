@@ -400,7 +400,7 @@ def rewrite_index(news: list, timeline: list) -> dict:
     original = content
     stats = {"news_replaced": False, "timeline_replaced": False,
              "date_replaced": False, "count_replaced": False,
-             "content_changed": False}
+             "week_replaced": False, "content_changed": False}
 
     # 1) 替换 NEWS
     #    注意：匹配时把行首缩进一并吞掉，替换为标准 2 空格缩进，保证重复运行不漂移
@@ -432,6 +432,17 @@ def rewrite_index(news: list, timeline: list) -> dict:
         r'(id="statToday">)\d+(</span>)', r"\g<1>%d\g<2>" % len(news), content, count=1
     )
     stats["count_replaced"] = n_cnt > 0
+
+    # 5) 更新 hero「本周新增」条数（本周一 00:00 至今的资讯数）
+    now = datetime.datetime.now(BEIJING_TZ)
+    monday = (now - datetime.timedelta(days=now.weekday())).replace(
+        hour=0, minute=0, second=0, microsecond=0)
+    week_start_iso = monday.strftime("%Y-%m-%dT%H:%M")
+    week_new = sum(1 for it in news if it["d"] >= week_start_iso)
+    content, n_week = re.subn(
+        r'(id="statWeek">)\d+(</span>)', r"\g<1>%d\g<2>" % week_new, content, count=1
+    )
+    stats["week_replaced"] = n_week > 0
 
     changed = content != original
     stats["content_changed"] = changed
