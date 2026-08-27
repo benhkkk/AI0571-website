@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T21:26:18",
+  "updated": "2026-08-27T21:31:25",
   "news": [
     {
       "c": "MODEL",
@@ -10,13 +10,6 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T19:42",
-      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
-      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678675311265710642/"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-08-27T19:13",
       "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
       "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
@@ -24,10 +17,17 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T19:02",
-      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
-      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678664948725187110/"
+      "d": "2026-08-27T11:35",
+      "t": "人工智能制药，攻向最难的两端",
+      "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678550018579513875/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T11:12",
+      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
+      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678543924890780203/"
     },
     {
       "c": "MEDDEVICE",
@@ -160,12 +160,12 @@
       "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧"
     ],
     [
-      "08-27 19:42",
-      "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?"
-    ],
-    [
       "08-27 19:13",
       "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
+    ],
+    [
+      "08-27 19:01",
+      "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278435,
+      "s": 278439,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238614,
+      "s": 238623,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207917,
+      "s": 207919,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111322,
+      "s": 111325,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101339,
+      "s": 101341,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90189,
+      "s": 90193,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
