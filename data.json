@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-28T06:11:42",
+  "updated": "2026-08-28T06:16:42",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-08-27T22:46",
-      "t": "谷歌出手应对 AI“吃内存”，将为安卓 App 内存占用等指标设立新门槛",
-      "s": "AI 数据中心快速扩张正引发内存芯片供应紧张，为此，谷歌将着手调整安卓应用的质量标准。本周公布的新要求中，有一项专门针对…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/320.htm"
+      "c": "HOT",
+      "d": "2026-08-28T06:16",
+      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
+      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
     },
     {
       "c": "MEDPHARMA",
@@ -17,17 +17,17 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T19:42",
-      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
-      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678675311265710642/"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-08-27T19:13",
       "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
       "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/255.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:02",
+      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
+      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678664948725187110/"
     },
     {
       "c": "MEDDEVICE",
@@ -70,6 +70,13 @@
       "t": "英伟达 130 亿美元虎视 Hugging Face，开源 AI 的“中立社区”要沦陷了？",
       "s": "根据 Business Insider 的独家报道，英伟达正与 Hugging Face 就收购进行谈判，估值超过 13…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502149/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-27T22:46",
+      "t": "谷歌出手应对 AI“吃内存”，将为安卓 App 内存占用等指标设立新门槛",
+      "s": "AI 数据中心快速扩张正引发内存芯片供应紧张，为此，谷歌将着手调整安卓应用的质量标准。本周公布的新要求中，有一项专门针对…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/320.htm"
     },
     {
       "c": "INDUSTRY",
@@ -121,13 +128,6 @@
       "u": "https://www.qbitai.com/2026/08/480092.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:02",
-      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
-      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678664948725187110/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-27T19:01",
       "t": "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口",
@@ -143,6 +143,10 @@
     }
   ],
   "timeline": [
+    [
+      "08-28 06:16",
+      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
+    ],
     [
       "08-27 22:46",
       "谷歌出手应对 AI“吃内存”，将为安卓 App 内存占用等指标设立新门槛"
@@ -162,10 +166,6 @@
     [
       "08-27 21:19",
       "OpenAI 将向印度 ChatGPT 免费及 Go 套餐用户投放广告"
-    ],
-    [
-      "08-27 21:15",
-      "高通 Anshuman Saxena：基于我们的 SoC 平台，可构建 L3 级解决方案"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278624,
+      "s": 278628,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243735,
+      "s": 243737,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239026,
+      "s": 239027,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172064,
+      "s": 172065,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90274,
+      "s": 90275,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
