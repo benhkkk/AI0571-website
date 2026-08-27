@@ -230,6 +230,11 @@ def rewrite_index(skills: list) -> bool:
             return False
         content = content[:m.end()] + "\n" + block + content[m.end():]
 
+    # 更新 hero「Skill 榜单」数字
+    content, n_sk = re.subn(
+        r'(id="statSkills">)\d+(</span>)', r"\g<1>%d\g<2>" % len(skills), content, count=1
+    )
+
     if content != original:
         with open(INDEX_PATH, "w", encoding="utf-8", newline="") as f:
             f.write(content)
