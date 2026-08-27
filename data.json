@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-27T22:21:18",
+  "updated": "2026-08-27T22:26:24",
   "news": [
-    {
-      "c": "FUNDING",
-      "d": "2026-08-27T22:21",
-      "t": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会",
-      "s": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-717.html"
-    },
     {
       "c": "MEDPHARMA",
       "d": "2026-08-27T22:06",
       "t": "“全球AI药物递送第一股”的半年考：134倍营收，成色几何",
       "s": "美国市场贡献1.379亿元，占总收入89.35%，单一最大客户占比同样高达89.35%。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8119542.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:42",
+      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
+      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678675311265710642/"
     },
     {
       "c": "MEDPHARMA",
@@ -80,17 +80,17 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-27T22:21",
-      "t": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕",
-      "s": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250831/833853.shtml"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-27T21:15",
       "t": "高通 Anshuman Saxena：基于我们的 SoC 平台，可构建 L3 级解决方案",
       "s": "高通技术公司副总裁兼 ADAS（高级驾驶辅助系统）和机器人业务总经理 Anshuman Saxena 日前接受了IT之家…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/295.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-27T18:20",
+      "t": "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构",
+      "s": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8118691.html"
     },
     {
       "c": "MODEL",
@@ -137,20 +137,12 @@
     {
       "c": "HOT",
       "d": "2026-08-27T18:20",
-      "t": "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构",
-      "s": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8118691.html"
+      "t": "AI开小号骗人，被大学生抓包了",
+      "s": "你是说跟我吵架的“同行”竟然是AI？！（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8118757.html"
     }
   ],
   "timeline": [
-    [
-      "08-27 22:21",
-      "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会"
-    ],
-    [
-      "08-27 22:21",
-      "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕"
-    ],
     [
       "08-27 22:06",
       "“全球AI药物递送第一股”的半年考：134倍营收，成色几何"
@@ -166,6 +158,14 @@
     [
       "08-27 21:19",
       "OpenAI 将向印度 ChatGPT 免费及 Go 套餐用户投放广告"
+    ],
+    [
+      "08-27 21:15",
+      "高通 Anshuman Saxena：基于我们的 SoC 平台，可构建 L3 级解决方案"
+    ],
+    [
+      "08-27 21:01",
+      "谷歌推出全球首个双盲 AI 评估技术，基于加密环境保障基准测试公正性"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278457,
+      "s": 278462,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243650,
+      "s": 243652,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238666,
+      "s": 238669,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207944,
+      "s": 207946,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172002,
+      "s": 172003,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143164,
+      "s": 143165,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111364,
+      "s": 111368,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101351,
+      "s": 101352,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90201,
+      "s": 90204,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
