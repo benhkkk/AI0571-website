@@ -40,8 +40,8 @@ import feedparser
 # 北京时间
 BEIJING_TZ = timezone(timedelta(hours=8))
 
-# 每次写入 NEWS 的目标条数（原页面 16 条，保持“左右”）
-TARGET_NEWS = 16
+# 每次写入 NEWS 的目标条数（原页面 16 条，保持“左右”；医药两个 Tab 各需保底，故增至 20）
+TARGET_NEWS = 20
 # 每次写入 TIMELINE 的目标条数（原页面 6 条）
 TARGET_TIMELINE = 6
 # 单个源最多贡献条数（防止某源刷屏，保证多源均衡；取 8 条使分类分布更均衡）
@@ -65,6 +65,15 @@ SOURCES = [
     {"name": "IT之家",    "url": "https://www.ithome.com/rss/",          "ai_only": False},
     {"name": "爱范儿",    "url": "https://www.ifanr.com/feed",           "ai_only": False},
     {"name": "OSCHINA",   "url": "https://www.oschina.net/news/rss",     "ai_only": False},
+    {"name": "钛媒体",    "url": "https://www.tmtpost.com/rss",          "ai_only": False},
+    # 医药/设备 AI 专项源（Google News 关键词搜索，云端 Actions 海外可达；
+    #  本地网络若被墙会打印 [跳过] 自动容错，不影响其它源）
+    {"name": "医药AI",    "type": "gnews",
+     "query": '"AI制药" OR "医药AI" OR "医疗大模型" OR "AI药物" OR "人工智能制药" OR "AI新药"',
+     "force_cat": "MEDPHARMA"},
+    {"name": "设备AI",    "type": "gnews",
+     "query": '"医疗器械" AI OR "手术机器人" OR "医学影像" AI OR "AI诊断" OR "智能医疗设备" OR "医疗设备" 人工智能',
+     "force_cat": "MEDDEVICE"},
 ]
 
 # 判定“是否属于 AI 资讯”的关键词（用于综合科技源过滤），分强弱两档：
@@ -100,6 +109,25 @@ INDUSTRY_KEYWORDS = [
     "营收", "利润", "合作", "落地", "生态", "标准", "峰会", "大会",
     "调查", "统计", "商用", "就业", "版权", "财报", "裁员",
     "竞争", "格局", "趋势", "白皮书",
+]
+
+# 医药行业 AI 关键词（优先级最高，命中即归入“医药AI”Tab）
+MED_PHARMA_KEYWORDS = [
+    "医药", "制药", "药物", "新药", "药品", "疫苗", "药企", "药厂",
+    "临床", "医院", "诊疗", "病理", "靶点", "基因", "细胞", "抗体",
+    "生物制药", "仿制药", "临床试验", "精准医疗", "肿瘤", "癌症",
+    "GLP-1", "CRO", "医药研发", "大分子", "小分子", "蛋白", "DNA", "RNA",
+    "中药", "医疗器械临床", "医学研究", "药物研发",
+]
+
+# 医疗设备/仪器 AI 关键词（命中即归入“设备AI”Tab）
+MED_DEVICE_KEYWORDS = [
+    "医疗器械", "医疗设备", "医学影像", "超声", "内镜", "手术机器人",
+    "康复机器人", "监护仪", "IVD", "体外诊断", "检测仪器", "质谱",
+    "色谱", "实验室自动化", "医疗硬件", "可穿戴医疗", "影像诊断",
+    "核磁", "CT", "心电图", "血糖", "助听", "义肢", "脑机接口",
+    "化验", "生化分析", "基因测序仪", "诊断设备", "医疗机器人",
+    "智能医疗设备", "POCT",
 ]
 
 # 抓取请求头与超时
@@ -174,12 +202,17 @@ def is_ai_related(title: str, summary: str) -> bool:
 def classify(title: str, summary: str) -> str:
     """
     按标题/摘要关键词分类（优先级从高到低）：
-      融资/收购/投资/上市…  -> FUNDING
-      发布/开源/模型…      -> MODEL
-      行业/政策/市场…      -> INDUSTRY
-      默认                  -> HOT
+      医药AI / 设备AI（行业特征最明确，优先）
+      融资/收购/投资/上市…
+      发布/开源/模型…
+      行业/政策/市场…
+      默认 HOT
     """
     blob = title + " " + summary
+    if any(k in blob for k in MED_PHARMA_KEYWORDS):
+        return "MEDPHARMA"
+    if any(k in blob for k in MED_DEVICE_KEYWORDS):
+        return "MEDDEVICE"
     if any(k in blob for k in FUNDING_STRONG):
         return "FUNDING"
     if any(k in title for k in FUNDING_TITLE_ONLY):
@@ -217,8 +250,14 @@ def to_beijing(entry):
 def fetch_source(src: dict) -> list:
     """
     抓取单个源并解析为条目列表。
+    支持两种类型：
+      - 普通 RSS/Atom（url 字段）
+      - gnews：Google News 关键词搜索（type='gnews'，query + force_cat 字段）
     任一步失败都抛异常，由调用方捕获跳过。
     """
+    if src.get("type") == "gnews":
+        return fetch_gnews(src)
+
     resp = requests.get(src["url"], headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
     feed = feedparser.parse(resp.content)
@@ -261,13 +300,62 @@ def fetch_source(src: dict) -> list:
     return items
 
 
+def fetch_gnews(src: dict) -> list:
+    """
+    Google News RSS 关键词搜索源（医药/设备 AI 专项）。
+    结果直接打上 src['force_cat'] 分类，不做 AI 二次过滤（搜索词已限定主题）。
+    适用于 GitHub Actions 云端环境（海外节点可达 Google）；本地网络被墙时抛异常由调用方跳过。
+    """
+    import urllib.parse
+    url = ("https://news.google.com/rss/search?q="
+           + urllib.parse.quote(src["query"]) + "&hl=zh-CN&gl=CN&ceid=CN:zh-Hans")
+    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+    resp.raise_for_status()
+    feed = feedparser.parse(resp.content)
+    if not feed.entries:
+        raise ValueError("gnews 无条目")
+
+    items = []
+    for e in feed.entries[:MAX_PER_SOURCE]:
+        title = clean_html(e.get("title", "")).strip()
+        if not title:
+            continue
+        summary = clean_html(e.get("summary", "") or e.get("description", ""))
+        if not summary or not re.search(r"[\u4e00-\u9fff]", summary):
+            summary = truncate(title, 50)
+        summary = truncate(summary, 60)
+
+        dt, iso, mmdd = to_beijing(e)
+        now = datetime.datetime.now(BEIJING_TZ)
+        age = max(0.0, (now - dt).total_seconds() / 3600.0)
+        items.append({
+            "title": title,
+            "summary": summary,
+            "iso": iso,
+            "mmdd": mmdd,
+            "dt": dt,
+            "age": age,
+            "source": src["name"],
+            "link": e.get("link", "").strip(),
+            "c": src["force_cat"],
+        })
+    return items
+
+
 def filter_recent(items: list) -> list:
     """
     时效过滤：优先 3 天内，不足目标条数时放宽到 14 天。
     超过 14 天的旧闻一律丢弃，避免旧闻混入“每日资讯”。
+    医药/设备 AI 内容量少，若 3 天内不足 3 条，额外放宽到 14 天保底。
     """
     fresh = [it for it in items if it["age"] <= FRESH_HOURS]
     if len(fresh) >= TARGET_NEWS:
+        med_fresh = [it for it in fresh if it["c"] in ("MEDPHARMA", "MEDDEVICE")]
+        if len(med_fresh) < 3:
+            med_extra = [it for it in items
+                         if FRESH_HOURS < it["age"] <= MAX_HOURS
+                         and it["c"] in ("MEDPHARMA", "MEDDEVICE")]
+            return fresh + med_extra
         return fresh
     recent = [it for it in items if it["age"] <= MAX_HOURS]
     return recent
@@ -312,13 +400,15 @@ def build_news(items: list) -> list:
     headline = items[0]                       # 头条卡：最新一条
     rest = items[1:]
 
-    # 分类均衡：每个分类优先保留 3 条，避免某分类刷屏、tab 无内容
+    # 分类均衡：医药/设备两类各保底 3 条（内容少需保护），通用四类各 2 条，
+    # 避免某分类刷屏、tab 无内容
     by_cat = {}
     for it in rest:
         by_cat.setdefault(it["c"], []).append(it)
     balanced = []
-    for cat in ("MODEL", "FUNDING", "INDUSTRY", "HOT"):
-        balanced.extend(by_cat.get(cat, [])[:3])
+    for cat, cap in (("MEDPHARMA", 3), ("MEDDEVICE", 3),
+                     ("MODEL", 2), ("FUNDING", 2), ("INDUSTRY", 2), ("HOT", 2)):
+        balanced.extend(by_cat.get(cat, [])[:cap])
     # 剩余名额用最新条目补齐
     selected = balanced
     selected_ids = {id(x) for x in selected}
@@ -520,7 +610,7 @@ def main():
     print("  写入 TIMELINE：%d 条" % len(timeline))
     print("  分类分布：%s" % ", ".join(
         "%s=%d" % (c, sum(1 for it in news if it["c"] == c))
-        for c in ("MODEL", "FUNDING", "INDUSTRY", "HOT")
+        for c in ("MEDPHARMA", "MEDDEVICE", "MODEL", "FUNDING", "INDUSTRY", "HOT")
     ))
     print("  徽标日期已更新为：%s" % datetime.datetime.now(BEIJING_TZ).strftime("%Y-%m-%d"))
     print("  index.html 改写完成 ✓")
