@@ -442,17 +442,17 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   'use strict';
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-08-27T14:21', t:'共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”', s:'共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260202/874153.shtml'},
-    {c:'MEDPHARMA', d:'2026-08-27T14:21', t:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训', s:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260827/965909.shtml'},
+    {c:'MEDPHARMA', d:'2026-08-27T14:26', t:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训', s:'江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260827/965909.shtml'},
     {c:'MEDPHARMA', d:'2026-08-27T11:35', t:'人工智能制药，攻向最难的两端', s:'人工智能制药，攻向最难的两端（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678550018579513875/'},
     {c:'MEDPHARMA', d:'2026-08-27T11:12', t:'上海加码AI制药!创新药概念再爆发，千金药业强势涨停', s:'上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678543924890780203/'},
+    {c:'MEDPHARMA', d:'2026-08-26T18:45', t:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?', s:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678289569770422824/'},
     {c:'MEDDEVICE', d:'2026-08-26T20:53', t:'库克医疗首席医疗官分享AI对医疗器械机遇与挑战', s:'库克医疗首席医疗官分享AI对医疗器械机遇与挑战（来源：头条设备AI）', u:'https://www.toutiao.com/article/7678322531438330403/'},
     {c:'MEDDEVICE', d:'2026-08-26T10:47', t:'美国FDA启动生成式AI医疗器械监管框架讨论', s:'美国FDA启动生成式AI医疗器械监管框架讨论（来源：头条设备AI）', u:'https://www.toutiao.com/article/7678166302510318086/'},
     {c:'MEDDEVICE', d:'2026-08-24T15:32', t:'怎么提高AI医疗器械产品注册效率?', s:'怎么提高AI医疗器械产品注册效率?（来源：头条设备AI）', u:'https://www.toutiao.com/article/7677497615684092456/'},
     {c:'MODEL', d:'2026-08-27T14:14', t:'开源办公套件 LibreOffice 26.8 发布：不含 AI 元素，Writer 自研排版算法', s:'文档基金会昨日（8 月 26 日）发布博文，更新其开源办公套件 LibreOffice 至 26.8 版本，并承诺新版不…（来源：IT之家）', u:'https://www.ithome.com/0/994/980.htm'},
     {c:'MODEL', d:'2026-08-27T13:57', t:'阿里发布全新 Qoder，从 AI 编程工具升级为智能体工作台', s:'阿里今日发布了全新 Qoder，这是一个以 Coding 能力为核心底座，面向所有人打造的智能体工作台。官方介绍称，告诉…（来源：IT之家）', u:'https://www.ithome.com/0/994/977.htm'},
+    {c:'FUNDING', d:'2026-08-27T14:18', t:'英伟达 130 亿美元虎视 Hugging Face，开源 AI 的“中立社区”要沦陷了？', s:'根据 Business Insider 的独家报道，英伟达正与 Hugging Face 就收购进行谈判，估值超过 13…（来源：OSCHINA）', u:'https://www.oschina.net/news/502149/nvidia-in-talks-to-buy-hugging-face-13-billion-dollars'},
     {c:'FUNDING', d:'2026-08-27T14:14', t:'单季1200亿资本开支，中国互联网的AI千亿豪赌', s:'当中国云厂商的ROIC只有13%-20%，而大洋彼岸的美国同行却能赚到25%-50%时，中美AI算力投资的回报差距，最终…（来源：钛媒体）', u:'https://www.tmtpost.com/8117891.html'},
-    {c:'FUNDING', d:'2026-08-27T11:47', t:'黄仁勋驳斥“循环融资”质疑：AI 行业需要巨额资金，英伟达投资风险很低', s:'英伟达 CEO 黄仁勋当地时间周三为公司日益深入参与人工智能行业融资进行了辩护。他反驳了外界关于英伟达向其他 AI 公司…（来源：IT之家）', u:'https://www.ithome.com/0/994/943.htm'},
     {c:'INDUSTRY', d:'2026-08-27T14:16', t:'英伟达 CEO 黄仁勋：在很多任务上我们已实现 AGI，该里程碑已无意义', s:'能够匹配甚至超越人类智能的 AI，仍是科技行业追逐的重要目标。但在英伟达 CEO 黄仁勋看来，通用人工智能（AGI）这个…（来源：IT之家）', u:'https://www.ithome.com/0/994/982.htm'},
     {c:'INDUSTRY', d:'2026-08-27T13:29', t:'拷走 AI 软件去创业，北京首例 AIGC 商业秘密行政处罚案开出 10 万元罚单', s:'北京市市场监督管理局今日发文，全市首例 AIGC 领域商业秘密行政处罚案开出 10 万元罚单。近日，北京市朝阳区市场监管…（来源：IT之家）', u:'https://www.ithome.com/0/994/968.htm'},
     {c:'HOT', d:'2026-08-27T13:30', t:'工单系统 WGCAT v1.3.0 支持 AI 派单', s:'WGCAT 是 WGCLOUD 团队精心开发的一款工单管理系统，设计一如既往的的简单实用，具有部署方便，上手容易，性能优…（来源：OSCHINA）', u:'https://www.oschina.net/news/502147'},
@@ -464,8 +464,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-08-27T11:52', t:'DeepSeek一张涨价单，繁荣了一条产业链？', s:'涨价，是缺货的证词（来源：钛媒体）', u:'https://www.tmtpost.com/8118103.html'},
   ];
   const TIMELINE = [
-    ['08-27 14:21','共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”'],
-    ['08-27 14:21','江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训'],
+    ['08-27 14:26','江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训'],
+    ['08-27 14:18','英伟达 130 亿美元虎视 Hugging Face，开源 AI 的“中立社区”要沦陷了？'],
     ['08-27 14:16','英伟达 CEO 黄仁勋：在很多任务上我们已实现 AGI，该里程碑已无意义'],
     ['08-27 14:14','开源办公套件 LibreOffice 26.8 发布：不含 AI 元素，Writer 自研排版算法'],
     ['08-27 14:14','单季1200亿资本开支，中国互联网的AI千亿豪赌'],
@@ -474,14 +474,14 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278235, u:'https://github.com/obra/superpowers', new:false},
     {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243574, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238207, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207803, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171906, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143120, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238212, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207805, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171907, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143121, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134640, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111156, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101254, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90106, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111157, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101256, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90109, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
