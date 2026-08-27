@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-27T21:41:23",
+  "updated": "2026-08-27T21:46:13",
   "news": [
     {
       "c": "MODEL",
@@ -7,6 +7,13 @@
       "t": "OpenAI 将向印度 ChatGPT 免费及 Go 套餐用户投放广告",
       "s": "OpenAI 宣布，即日起将在印度向 ChatGPT Free 和 Go 套餐用户投放广告。本月早些时候，OpenAI …（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/296.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:42",
+      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
+      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678675311265710642/"
     },
     {
       "c": "MEDPHARMA",
@@ -21,13 +28,6 @@
       "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
       "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678664948725187110/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T11:35",
-      "t": "人工智能制药，攻向最难的两端",
-      "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678550018579513875/"
     },
     {
       "c": "MEDDEVICE",
@@ -160,12 +160,12 @@
       "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧"
     ],
     [
-      "08-27 19:13",
-      "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
+      "08-27 19:42",
+      "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?"
     ],
     [
-      "08-27 19:02",
-      "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态"
+      "08-27 19:13",
+      "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278443,
+      "s": 278447,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238633,
+      "s": 238634,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207924,
+      "s": 207928,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171992,
+      "s": 171993,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143159,
+      "s": 143160,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134676,
+      "s": 134677,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111330,
+      "s": 111333,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
