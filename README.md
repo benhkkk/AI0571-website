@@ -193,10 +193,23 @@ const card = n => `<article class="card">
 ```
 ai0571-website/
 ├── index.html                  # 网站本体（单文件，数据由脚本改写，含前端轮询）
-├── data.json                   # 前端轮询用数据（更新时间戳 + 资讯/时间线）
-├── fetch_news.py               # 抓取 + 分类 + 去重 + 改写页面与 data.json
+├── data.json                   # 前端轮询用数据（更新时间戳 + 资讯/时间线/技能包榜单）
+├── fetch_news.py               # 抓取 AI 资讯 RSS + 分类 + 去重 + 改写页面与 data.json
+├── fetch_skills.py             # 抓取 GitHub 每周热 Skill 榜单（Search API + 白名单）
 ├── requirements.txt            # Python 依赖（requests, feedparser）
 ├── README.md                   # 本指南
 └── .github/workflows/
     └── daily-update.yml        # 每 10 分钟自动运行的 GitHub Actions 工作流
 ```
+
+## 每周热 Skill 板块说明
+
+首页「每周热 Skill」板块展示 GitHub 上最热最新的 AI Agent 技能包仓库（周榜 TOP 10）：
+
+- **数据来源**：GitHub Search API（`skills agent` / `claude skills` 等关键词，按 star 排名）
+  + 官方知名技能包白名单（anthropics/skills、openai/skills 等）
+- **排名**：按 star 数降序；最近 7 天新建的仓库标记「本周新」
+- **更新频率**：随工作流每 10 分钟自动刷新（GitHub API 限额足够，无额外成本）
+- **调整榜单**：改 `fetch_skills.py` 顶部的 `WHITELIST` / `SEARCH_QUERIES` / `TARGET_SKILLS` 即可
+- **容错**：搜索失败时保留旧榜单，不会用空数据覆盖页面
+
