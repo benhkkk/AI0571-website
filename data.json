@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-27T14:31:27",
+  "updated": "2026-08-27T14:36:07",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T14:31",
+      "d": "2026-08-27T14:36",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
@@ -107,13 +107,6 @@
       "u": "https://www.tmtpost.com/8118214.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-08-27T13:43",
-      "t": "基元律动累计融资数千万美元，推出“中国版OpenRouter”",
-      "s": "近日，AI基础设施公司基元律动（TokenRhythm）宣布完成新一轮融资，融资额达数千万美元。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480079.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-27T13:21",
       "t": "微软 Microsoft 365 路线图更名为 AI at Work Roadmap",
@@ -140,11 +133,18 @@
       "t": "从数字化到AI：企业数智跃迁的路径、实践与挑战 | 2026 ITValue Summit前瞻：AI系统落地系列直播②",
       "s": "对企业来说，下一阶段更值得关注的，是如何找到真正有价值的场景，在可控范围内不断试验，并让技术、业务和人的角色在实践中重新…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118639.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T11:52",
+      "t": "DeepSeek一张涨价单，繁荣了一条产业链？",
+      "s": "涨价，是缺货的证词（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8118103.html"
     }
   ],
   "timeline": [
     [
-      "08-27 14:31",
+      "08-27 14:36",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278236,
+      "s": 278238,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238217,
+      "s": 238222,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207806,
+      "s": 207807,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143122,
+      "s": 143123,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111160,
+      "s": 111162,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101256,
+      "s": 101257,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
