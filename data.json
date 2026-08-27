@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-27T14:11:14",
+  "updated": "2026-08-27T14:16:14",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-08-27T14:11",
+      "d": "2026-08-27T14:16",
       "t": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”",
       "s": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260202/874153.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T14:11",
+      "d": "2026-08-27T14:16",
       "t": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训",
       "s": "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/965909.shtml"
@@ -52,17 +52,17 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T14:14",
+      "t": "开源办公套件 LibreOffice 26.8 发布：不含 AI 元素，Writer 自研排版算法",
+      "s": "文档基金会昨日（8 月 26 日）发布博文，更新其开源办公套件 LibreOffice 至 26.8 版本，并承诺新版不…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/980.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T13:57",
       "t": "阿里发布全新 Qoder，从 AI 编程工具升级为智能体工作台",
       "s": "阿里今日发布了全新 Qoder，这是一个以 Coding 能力为核心底座，面向所有人打造的智能体工作台。官方介绍称，告诉…（来源：IT之家）",
       "u": "https://www.ithome.com/0/994/977.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T13:21",
-      "t": "微软 Microsoft 365 路线图更名为 AI at Work Roadmap",
-      "s": "科技媒体 Windows Latest 今天（8 月 27 日）发布博文，报道称微软已将 Microsoft 365 R…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/994/965.htm"
     },
     {
       "c": "FUNDING",
@@ -108,6 +108,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-27T13:21",
+      "t": "微软 Microsoft 365 路线图更名为 AI at Work Roadmap",
+      "s": "科技媒体 Windows Latest 今天（8 月 27 日）发布博文，报道称微软已将 Microsoft 365 R…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/994/965.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-27T12:51",
       "t": "阿里云：下调百炼平台 Qwen3.8-Flash 大模型计费单价",
       "s": "阿里云公告，大模型服务平台百炼将于北京时间 2026 年 8 月 27 日 12:00:00 起，对 Qwen3.8-F…（来源：IT之家）",
@@ -133,23 +140,20 @@
       "t": "被盗 iPhone 黑产 AnonyMousKIT 披露：AI 语音钓鱼套取苹果手机密码",
       "s": "网络安全公司 SOCRadar 于 8 月 25 日发布博文，披露名为 AnonyMousKIT 的网络钓鱼即服务（Ph…（来源：IT之家）",
       "u": "https://www.ithome.com/0/994/942.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T11:39",
-      "t": "Qwen3.8-Flash 发布：125B MoE，激活 6B，训练成本仅前代的 1/9",
-      "s": "阿里通义千问团队正式发布 Qwen3.8-Flash。 发布公告有一组让人需要停下来看两眼的数据： 125B 总参数 +…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502145/qwen3-8-flash-next"
     }
   ],
   "timeline": [
     [
-      "08-27 14:11",
+      "08-27 14:16",
       "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”"
     ],
     [
-      "08-27 14:11",
+      "08-27 14:16",
       "江西中医药大学承办2026年“人工智能赋能中药新产品研发和产业发展”高级研修班圆满结训"
+    ],
+    [
+      "08-27 14:14",
+      "开源办公套件 LibreOffice 26.8 发布：不含 AI 元素，Writer 自研排版算法"
     ],
     [
       "08-27 13:57",
@@ -162,10 +166,6 @@
     [
       "08-27 13:29",
       "拷走 AI 软件去创业，北京首例 AIGC 商业秘密行政处罚案开出 10 万元罚单"
-    ],
-    [
-      "08-27 13:21",
-      "微软 Microsoft 365 路线图更名为 AI at Work Roadmap"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278229,
+      "s": 278231,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243573,
+      "s": 243574,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 238190,
+      "s": 238197,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 207800,
+      "s": 207802,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 171904,
+      "s": 171905,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143117,
+      "s": 143118,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134638,
+      "s": 134639,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101252,
+      "s": 101254,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90105,
+      "s": 90106,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
