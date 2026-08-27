@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T07:01:49",
+  "updated": "2026-08-28T07:06:40",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-28T07:01",
+      "d": "2026-08-28T07:06",
       "t": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注",
       "s": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250224/768984.shtml"
@@ -17,17 +17,17 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T19:13",
-      "t": "英国实施全球首例 AI 实时辅助脑外科手术，成功切除脑部肿瘤",
-      "s": "据英国 BBC 今天（27 日）报道，英国贝德福德郡 48 岁的里斯 · 希伯特成为全球首位在 AI 实时辅助下接受脑部…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/255.htm"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-08-27T11:35",
       "t": "人工智能制药，攻向最难的两端",
       "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678550018579513875/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T11:12",
+      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
+      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678543924890780203/"
     },
     {
       "c": "MEDDEVICE",
@@ -87,7 +87,7 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T07:01",
+      "d": "2026-08-28T07:06",
       "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
       "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
@@ -144,11 +144,11 @@
   ],
   "timeline": [
     [
-      "08-28 07:01",
+      "08-28 07:06",
       "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注"
     ],
     [
-      "08-28 07:01",
+      "08-28 07:06",
       "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278637,
+      "s": 278639,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243745,
+      "s": 243747,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239043,
+      "s": 239044,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208058,
+      "s": 208060,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143199,
+      "s": 143200,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101427,
+      "s": 101429,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90283,
+      "s": 90284,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
