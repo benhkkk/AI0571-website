@@ -66,13 +66,13 @@ SOURCES = [
     {"name": "爱范儿",    "url": "https://www.ifanr.com/feed",           "ai_only": False},
     {"name": "OSCHINA",   "url": "https://www.oschina.net/news/rss",     "ai_only": False},
     {"name": "钛媒体",    "url": "https://www.tmtpost.com/rss",          "ai_only": False},
-    # 医药/设备 AI 专项源（Google News 关键词搜索，云端 Actions 海外可达；
-    #  本地网络若被墙会打印 [跳过] 自动容错，不影响其它源）
-    {"name": "医药AI",    "type": "gnews",
-     "query": '"AI制药" OR "医药AI" OR "医疗大模型" OR "AI药物" OR "人工智能制药" OR "AI新药"',
+    # 医药/设备 AI 专项源（今日头条搜索，国内可达，原文链接可直接打开；
+    #  queries 为搜索词列表，逐个搜索后合并去重）
+    {"name": "头条医药AI", "type": "toutiao",
+     "queries": ["AI制药", "医药AI 大模型", "AI 药物研发"],
      "force_cat": "MEDPHARMA"},
-    {"name": "设备AI",    "type": "gnews",
-     "query": '"医疗器械" AI OR "手术机器人" OR "医学影像" AI OR "AI诊断" OR "智能医疗设备" OR "医疗设备" 人工智能',
+    {"name": "头条设备AI", "type": "toutiao",
+     "queries": ["医疗器械 人工智能", "手术机器人 AI", "医学影像 AI"],
      "force_cat": "MEDDEVICE"},
 ]
 
@@ -252,11 +252,11 @@ def fetch_source(src: dict) -> list:
     抓取单个源并解析为条目列表。
     支持两种类型：
       - 普通 RSS/Atom（url 字段）
-      - gnews：Google News 关键词搜索（type='gnews'，query + force_cat 字段）
+      - toutiao：今日头条搜索（type='toutiao'，queries + force_cat 字段）
     任一步失败都抛异常，由调用方捕获跳过。
     """
-    if src.get("type") == "gnews":
-        return fetch_gnews(src)
+    if src.get("type") == "toutiao":
+        return fetch_toutiao(src)
 
     resp = requests.get(src["url"], headers=HEADERS, timeout=TIMEOUT)
     resp.raise_for_status()
@@ -300,46 +300,67 @@ def fetch_source(src: dict) -> list:
     return items
 
 
-def fetch_gnews(src: dict) -> list:
+def fetch_toutiao(src: dict) -> list:
     """
-    Google News RSS 关键词搜索源（医药/设备 AI 专项）。
-    结果直接打上 src['force_cat'] 分类，不做 AI 二次过滤（搜索词已限定主题）。
-    适用于 GitHub Actions 云端环境（海外节点可达 Google）；本地网络被墙时抛异常由调用方跳过。
+    今日头条搜索源（医药/设备 AI 专项）。
+    从 so.toutiao.com 搜索页解码 HTML，提取标题 + group_id（构造原文链接）。
+    国内网络可直接访问，原文链接直接可打开（解决 Google News 链接打不开的问题）。
+    结果直接打上 src['force_cat'] 分类。
     """
-    import urllib.parse
-    url = ("https://news.google.com/rss/search?q="
-           + urllib.parse.quote(src["query"]) + "&hl=zh-CN&gl=CN&ceid=CN:zh-Hans")
-    resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
-    resp.raise_for_status()
-    feed = feedparser.parse(resp.content)
-    if not feed.entries:
-        raise ValueError("gnews 无条目")
-
+    import urllib.parse as up
+    queries = src.get("queries") or [src["query"]]
+    times_pool = []
     items = []
-    for e in feed.entries[:MAX_PER_SOURCE]:
-        title = clean_html(e.get("title", "")).strip()
-        if not title:
+    for q in queries:
+        url = "https://so.toutiao.com/search?keyword=" + up.quote(q) + "&pd=information"
+        resp = requests.get(url, headers=HEADERS, timeout=TIMEOUT)
+        resp.raise_for_status()
+        decoded = up.unquote(resp.text)
+        if not times_pool:
+            times_pool = re.findall(r'"publish_time":"(\d+)"', decoded)
+        blocks = re.findall(
+            r'<a href="([^"]*?)"[^>]*?class="[^"]*?l-card-title[^"]*?"[^>]*?>(.*?)</a>',
+            decoded)
+        for idx, (href, t) in enumerate(blocks):
+            t = clean_html(t).strip()
+            if not t:
+                continue
+            h2 = up.unquote(href)
+            m = re.search(r'group/(\d+)/', h2)
+            if not m:
+                continue
+            gid = m.group(1)
+            # 时间：publish_time 序列按顺序近似配对（仅取合理范围）
+            dt = datetime.datetime.now(BEIJING_TZ)
+            if idx < len(times_pool) and times_pool[idx].isdigit():
+                try:
+                    ts = int(times_pool[idx])
+                    if 1577808000 <= ts <= 2208988800:   # 2020-01-01 ~ 2039-12-31
+                        dt = datetime.datetime.fromtimestamp(ts, tz=BEIJING_TZ)
+                except (ValueError, OSError, OverflowError):
+                    pass
+            iso = dt.strftime("%Y-%m-%dT%H:%M")
+            now = datetime.datetime.now(BEIJING_TZ)
+            age = max(0.0, (now - dt).total_seconds() / 3600.0)
+            items.append({
+                "title": t,
+                "summary": truncate(t, 60),
+                "iso": iso,
+                "mmdd": dt.strftime("%m-%d %H:%M"),
+                "dt": dt,
+                "age": age,
+                "source": src["name"],
+                "link": "https://www.toutiao.com/article/%s/" % gid,
+                "c": src["force_cat"],
+            })
+    # 按链接去重 + 限制条数
+    seen, out = set(), []
+    for it in items:
+        if it["link"] in seen:
             continue
-        summary = clean_html(e.get("summary", "") or e.get("description", ""))
-        if not summary or not re.search(r"[\u4e00-\u9fff]", summary):
-            summary = truncate(title, 50)
-        summary = truncate(summary, 60)
-
-        dt, iso, mmdd = to_beijing(e)
-        now = datetime.datetime.now(BEIJING_TZ)
-        age = max(0.0, (now - dt).total_seconds() / 3600.0)
-        items.append({
-            "title": title,
-            "summary": summary,
-            "iso": iso,
-            "mmdd": mmdd,
-            "dt": dt,
-            "age": age,
-            "source": src["name"],
-            "link": e.get("link", "").strip(),
-            "c": src["force_cat"],
-        })
-    return items
+        seen.add(it["link"])
+        out.append(it)
+    return out[:MAX_PER_SOURCE]
 
 
 def filter_recent(items: list) -> list:
