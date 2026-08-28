@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-28T17:21:41",
+  "updated": "2026-08-28T17:26:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T17:21",
+      "d": "2026-08-28T17:26",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T17:21",
+      "d": "2026-08-28T17:26",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -33,7 +33,7 @@
       "c": "MODEL",
       "d": "2026-08-28T17:03",
       "t": "AMD 发布 ROCm 10.0.0，重点关注 AI 推理、开发者工具、性能分析",
-      "s": "AMD 本周发布了 GPU 加速计算开放软件堆栈 ROCm 的 10.0.0 版本。这一新版本重点关注 Instinct…（来源：IT之家）",
+      "s": "AMD 本周发布了 GPU 加速计算开放软件堆栈 ROCm 的 10.0.0 版本，这一版本号旨在纪念其诞生 10 周年…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/683.htm"
     },
     {
@@ -128,27 +128,27 @@
       "u": "https://www.ithome.com/0/995/602.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-28T15:20",
-      "t": "e生涯斩获浙江一等奖，同蚂蚁、浙大一道晋级数据要素国赛",
-      "s": "8月26日，2026年“数据要素×”大赛浙江赛区决赛落下帷幕。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480591.html"
+      "c": "MODEL",
+      "d": "2026-08-28T15:23",
+      "t": "Claude Code 额度回落：Agent 正在制造新的「祖传代码屎山」？",
+      "s": "代码确实是 Agent 写的，只是后来的 Agent 已经不知道前面的 Agent 为什么这么写了。 作者丨郑佳美 编辑…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/5weAutjetefMob2a.html"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-28T15:17",
-      "t": "大晓联合香港大学发布StreamPI，让 VLA 真正理解时间，迈向连续物理智能",
-      "s": "当 VLA 模型理解语言、感知环境并直接生成机器人动作，一个更基础的问题开始浮现：机器人如何理解一个持续变化的物理世界？…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/ncVQF4d9AckBMZwP.html"
+      "d": "2026-08-28T15:21",
+      "t": "Cursor Origin 上线，GitHub 的老玩法还够用吗？",
+      "s": "代码仓库的主人，正在从人变成 Agent。 作者丨郑佳美 编辑丨岑 峰 8 月 17 日，GitHub 出现大范围服务异…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/BkzW0yPibWRl8D7U.html"
     }
   ],
   "timeline": [
     [
-      "08-28 17:21",
+      "08-28 17:26",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 17:21",
+      "08-28 17:26",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278801,
+      "s": 278804,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239582,
+      "s": 239586,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208255,
+      "s": 208256,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143245,
+      "s": 143246,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111737,
+      "s": 111738,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90382,
+      "s": 90383,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
