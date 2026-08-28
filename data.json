@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T12:32:12",
+  "updated": "2026-08-28T12:36:58",
   "news": [
     {
       "c": "MODEL",
@@ -44,18 +44,18 @@
       "u": "https://www.qbitai.com/2026/08/480083.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T10:34",
+      "t": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...",
+      "s": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678905217072529955/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-28T09:40",
       "t": "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄",
       "s": "Hugging Face这把是真全员财富自由了啊o(╥﹏╥)o（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480186.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T09:37",
-      "t": "Salesforce 证实企业级 AI 已变现：AI 收入年增 210%，每股收益超预期 80%",
-      "s": "客户在为工作流层的 AI 代理大幅分配预算。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8120000.html"
     },
     {
       "c": "MODEL",
@@ -108,6 +108,13 @@
     },
     {
       "c": "MEDPHARMA",
+      "d": "2026-08-27T19:42",
+      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
+      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678675311265710642/"
+    },
+    {
+      "c": "MEDPHARMA",
       "d": "2026-08-27T19:02",
       "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
       "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
@@ -133,13 +140,6 @@
       "t": "为什么苹果、小米的 AI 电脑，都在死磕「内存墙」｜AI 器物志",
       "s": "算力飞奔，内存掉队#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1676852?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T18:08",
-      "t": "具身新贵昆仑行斩获 WorldArena单项冠军全球亚军，世界模型全面领先",
-      "s": "2026具身智能黑马玩家昆仑行机器人，全面领先全球权威榜单 WorldArena。据媒体报道，具身智能领域的权威评测Wo…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/gAKPpkpq87I5Oo3d.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278715,
+      "s": 278717,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239290,
+      "s": 239292,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208164,
+      "s": 208165,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90319,
+      "s": 90320,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
