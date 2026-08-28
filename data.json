@@ -1,19 +1,33 @@
 {
-  "updated": "2026-08-28T16:31:44",
+  "updated": "2026-08-28T16:36:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T16:31",
+      "d": "2026-08-28T16:36",
       "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
       "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T16:31",
+      "d": "2026-08-28T16:36",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:25",
+      "t": "哦，原来家庭机器人，就是给音箱插几条腿",
+      "s": "颇为滑稽的一幕是，机器人只能向更困难的场景出逃。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120420.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:25",
+      "t": "美图渴望重返青春",
+      "s": "AI对成熟互联网公司的意义，是重新把一种创业公司的工作方式带回了大组织里。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120412.html"
     },
     {
       "c": "INDUSTRY",
@@ -126,30 +140,24 @@
       "t": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...",
       "s": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678962853377884713/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T14:15",
-      "t": "稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型",
-      "s": "腾讯官方今日发布了 Hy4 preview，总参数 770 B，激活参数 49 B，上下文长度 1M。官方表示，Hy4 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/570.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T14:13",
-      "t": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
-      "s": "Claude觉醒超体（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480487.html"
     }
   ],
   "timeline": [
     [
-      "08-28 16:31",
+      "08-28 16:36",
       "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
     ],
     [
-      "08-28 16:31",
+      "08-28 16:36",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "08-28 16:25",
+      "哦，原来家庭机器人，就是给音箱插几条腿"
+    ],
+    [
+      "08-28 16:25",
+      "美图渴望重返青春"
     ],
     [
       "08-28 16:13",
@@ -158,14 +166,6 @@
     [
       "08-28 16:12",
       "禾赛、速腾卷向机器人，赚到钱了吗？"
-    ],
-    [
-      "08-28 16:08",
-      "越用AI，游戏开发者越焦虑：54%担心被替代，37%称工作流没变快"
-    ],
-    [
-      "08-28 16:07",
-      "造得出一万台机器人，却喂不饱一个大脑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278776,
+      "s": 278779,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243823,
+      "s": 243825,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239521,
+      "s": 239525,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208242,
+      "s": 208246,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111720,
+      "s": 111723,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101510,
+      "s": 101511,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90363,
+      "s": 90364,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
