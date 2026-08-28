@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T16:16:48",
+  "updated": "2026-08-28T16:21:37",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T16:16",
+      "d": "2026-08-28T16:21",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -107,6 +107,13 @@
       "u": "https://www.qbitai.com/2026/08/480482.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-08-28T14:18",
+      "t": "腾讯混元 Hy4 preview发布，稳居开源模型第一梯队",
+      "s": "腾讯混元 Hy4 preview 发布并开源，在真实生产力任务上展现卓越能力8 月 28 日，腾讯混元发布并开源新一代大…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/r1n2DqDnYM9CiY9L.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-08-28T14:17",
       "t": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...",
@@ -133,18 +140,11 @@
       "t": "开源电子书工具 Calibre 9.14 发布：首次引入 AI 生成封面",
       "s": "科技媒体 Linuxiac 今天（8 月 28 日）发布博文，报道称开源电子书管理器 Calibre 推出 9.14 版…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/569.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-28T13:49",
-      "t": "被高估的视触觉：容易复制的生意，有多大投资价值？",
-      "s": "重新审视触视觉（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480236.html"
     }
   ],
   "timeline": [
     [
-      "08-28 16:16",
+      "08-28 16:21",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243820,
+      "s": 243822,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239506,
+      "s": 239515,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208232,
+      "s": 208236,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172146,
+      "s": 172147,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143237,
+      "s": 143238,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134768,
+      "s": 134769,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111715,
+      "s": 111719,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101505,
+      "s": 101507,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
