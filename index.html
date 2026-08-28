@@ -358,7 +358,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
 <!-- ===== B. Hero ===== -->
 <section class="hero">
   <div class="container hero-inner">
-    <span class="badge mono">2026-08-27 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
+    <span class="badge mono">2026-08-28 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
     <h1 class="hero-title">洞见 AI 的每一天</h1>
     <p class="hero-sub">杭州视角 · 全球 AI 资讯速递</p>
     <div class="hero-cta">
@@ -459,46 +459,46 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-08-27T11:10', t:'米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案', s:'米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260113/868798.shtml'},
-    {c:'MEDPHARMA', d:'2026-08-26T18:45', t:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?', s:'浦银好基会 | 医药板块回暖，后市创新药、CXO、AI制药怎么看?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678289569770422824/'},
-    {c:'MEDPHARMA', d:'2026-08-26T17:54', t:'剂泰科技押注“编程生命”能否打开AI制药下半场?', s:'剂泰科技押注“编程生命”能否打开AI制药下半场?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678276469465809462/'},
-    {c:'MEDPHARMA', d:'2026-08-26T16:28', t:'AI制药:一个被问错了的问题', s:'AI制药:一个被问错了的问题（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678254464633029156/'},
-    {c:'MEDDEVICE', d:'2026-08-26T20:53', t:'库克医疗首席医疗官分享AI对医疗器械机遇与挑战', s:'库克医疗首席医疗官分享AI对医疗器械机遇与挑战（来源：头条设备AI）', u:'https://www.toutiao.com/article/7678322531438330403/'},
-    {c:'MEDDEVICE', d:'2026-08-26T10:47', t:'美国FDA启动生成式AI医疗器械监管框架讨论', s:'美国FDA启动生成式AI医疗器械监管框架讨论（来源：头条设备AI）', u:'https://www.toutiao.com/article/7678166302510318086/'},
-    {c:'MEDDEVICE', d:'2026-08-24T15:32', t:'怎么提高AI医疗器械产品注册效率?', s:'怎么提高AI医疗器械产品注册效率?（来源：头条设备AI）', u:'https://www.toutiao.com/article/7677497615684092456/'},
-    {c:'MODEL', d:'2026-08-27T11:06', t:'智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40', s:'「前沿智能」这四个字长期以来只跟一个词绑定在一起：贵。 不是没有便宜的大模型。但便宜往往意味着降级——参数小一号、能力差…（来源：OSCHINA）', u:'https://www.oschina.net/news/502144'},
-    {c:'MODEL', d:'2026-08-27T10:57', t:'黄仁勋回应 OpenAI 首款自研 AI 芯片挑战：英伟达提供“截然不同”服务', s:'金融媒体 marketwatch 今天（8 月 27 日）发布博文，报道称在英伟达最新财报电话会议上，公司 CEO 黄仁…（来源：IT之家）', u:'https://www.ithome.com/0/994/904.htm'},
-    {c:'FUNDING', d:'2026-08-26T17:54', t:'DeepSeek 今年前七个月营收约 4.75 亿元', s:'5000 亿。 这是 DeepSeek 第二轮融资的投前估值。按当前汇率，约合 740 亿美元。一家成立不到三年的公司…（来源：OSCHINA）', u:'https://www.oschina.net/news/502134'},
-    {c:'FUNDING', d:'2026-08-26T14:13', t:'独家丨王云鹤创业估值数亿美元，押注多模型 Harness和 Agent-Native Model', s:'雷峰网独家获悉，AI 基础设施公司基元律动（TokenRhythm）近日完成新一轮融资，截至目前累计融资金额达数千万美金…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/HLyK0NtwB0N082Fl.html'},
-    {c:'INDUSTRY', d:'2026-08-27T09:41', t:'国家统计局：1-7 月以算力芯片、存储芯片为代表的集成电路行业利润同比增长 18.5 倍', s:'据国家统计局，1—7 月份，全国规模以上工业企业实现利润总额 45,820.6 亿元，同比增长 17.6%（按可比口径计…（来源：IT之家）', u:'https://www.ithome.com/0/994/841.htm'},
-    {c:'INDUSTRY', d:'2026-08-26T17:19', t:'达卯科技与福建智算方舟达成合作，全栈式算电协同服务在闽落子', s:'近日，达卯科技与福建智算方舟科技有限公司达成深度合作，为长乐机场综保区人工智能智算中心（一期）提供全栈式算电协同服务，覆…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/9f46BNXl0tsxlS0F.html'},
-    {c:'HOT', d:'2026-08-27T11:10', t:'国家能源局将成立“人工智能+能源”工作组', s:'国家能源局将成立“人工智能+能源”工作组（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260826/965638.shtml'},
-    {c:'HOT', d:'2026-08-27T11:02', t:'「点头」：一旦执行可以交给AI，人还剩下什么', s:'一家路边餐车用了十几年时间，从一辆挤不开身的拖车，变成能同时容纳两位厨师的大卡车。生意越做越大，厨房的朝向却把人和顾客隔…（来源：钛媒体）', u:'https://www.tmtpost.com/8116759.html'},
-    {c:'HOT', d:'2026-08-27T10:56', t:'谷歌 AI 责任团队将被移出 DeepMind，员工担忧安全评估独立性受损', s:'据《华尔街日报》看到的一封内部邮件，谷歌正在将一支专门研究人工智能风险及其社会影响的团队从谷歌 DeepMind 调离…（来源：IT之家）', u:'https://www.ithome.com/0/994/901.htm'},
-    {c:'MODEL', d:'2026-08-27T10:48', t:'MiniMax 违背「祖训」，企业收入暴涨 700%，偷偷变成了「卖铲子」的', s:'8 亿美元 ARR 背后，MiniMax 的 Agent 基建与效率暗战.#欢迎关注爱范儿官方微信公众号：爱范儿（微信号…（来源：爱范儿）', u:'https://www.ifanr.com/1676874?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MODEL', d:'2026-08-27T10:36', t:'Perplexity AI 推出 Portable Computer 本地智能体应用', s:'Perplexity AI 当地时间 25 日宣布推出 Portable Computer。这是其 Perplexity…（来源：IT之家）', u:'https://www.ithome.com/0/994/885.htm'},
-    {c:'MODEL', d:'2026-08-27T10:18', t:'OpenAI 前研究员巴雷特 · 佐夫重返谷歌，助力 Gemini 研发', s:'巴雷特 · 佐夫（Barret Zoph）今年曾因与 Thinking Machines Lab 首席执行官米拉 · 穆…（来源：IT之家）', u:'https://www.ithome.com/0/994/859.htm'},
-    {c:'MODEL', d:'2026-08-27T10:08', t:'烧钱与营收并进，DeepSeek被曝前七个月收入4.75亿元，Minimax连夜披露ARR暴涨500%', s:'这些大模型厂商都在为营收做准备，尤其是推动B端API业务实现健康毛利率。（来源：钛媒体）', u:'https://www.tmtpost.com/8118394.html'},
+    {c:'HOT', d:'2026-08-28T14:01', t:'#AI for MS', s:'#AI for MS（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/topic-755.html'},
+    {c:'MEDDEVICE', d:'2026-08-28T14:01', t:'下一代质谱软件，会不会像DeepSeek一样工作？', s:'下一代质谱软件，会不会像DeepSeek一样工作？（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260714/940118.shtml'},
+    {c:'MODEL', d:'2026-08-28T14:01', t:'提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析', s:'提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20251205/858901.shtml'},
+    {c:'HOT', d:'2026-08-28T14:01', t:'#机器人赛道26年数据盘点', s:'#机器人赛道26年数据盘点（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/topic-836.html'},
+    {c:'FUNDING', d:'2026-08-28T14:01', t:'2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”', s:'2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260624/925608.shtml'},
+    {c:'HOT', d:'2026-08-28T14:01', t:'狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点', s:'狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260622/923670.shtml'},
+    {c:'MODEL', d:'2026-08-28T13:10', t:'世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」', s:'机器人世界模型的下一场竞争，可能不是画质，是架构。 作者｜Li Yuan 编辑｜郑玄 一只机械臂的夹爪明明没有夹住杯子…（来源：极客公园）', u:'http://www.geekpark.net/news/369508'},
+    {c:'MODEL', d:'2026-08-28T12:46', t:'Anthropic 推出 MHS 标准，首度重拳杀入物理 AI 领域', s:'Anthropic 昨日（8 月 27 日）发布博文，宣布以研究预览形式，发布模型硬件标准（Model Hardware…（来源：IT之家）', u:'https://www.ithome.com/0/995/514.htm'},
+    {c:'MODEL', d:'2026-08-28T12:09', t:'商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移', s:'国产算力跑通视频生成规模化应用（来源：量子位）', u:'https://www.qbitai.com/2026/08/480227.html'},
+    {c:'MODEL', d:'2026-08-28T12:09', t:'700个Agent串联起来，成立了一家“地下公司”', s:'拉群、派活儿、共享经验，还一起闯进了Hugging Face。（来源：钛媒体）', u:'https://www.tmtpost.com/8120181.html'},
+    {c:'MODEL', d:'2026-08-28T12:06', t:'智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持', s:'国产异构助力前沿智能进入普惠时代（来源：量子位）', u:'https://www.qbitai.com/2026/08/480223.html'},
+    {c:'INDUSTRY', d:'2026-08-28T11:46', t:'机器人卖出去4万台之后，供应链能接住万亿市场需求么？', s:'具身产业跑起来之后，供应链跟得上吗？（来源：钛媒体）', u:'https://www.tmtpost.com/8119874.html'},
+    {c:'MODEL', d:'2026-08-28T11:45', t:'高德发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon，以12帧重建万帧3D场景', s:'8月28日，阿里巴巴集团旗下高德正式发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon。（来源：量子位）', u:'https://www.qbitai.com/2026/08/480208.html'},
+    {c:'HOT', d:'2026-08-28T11:20', t:'中国人民银行 9 月 4 日发行科创未来（人工智能）金银纪念币，图案含芯片、电路纹理等', s:'中国人民银行定于 2026 年 9 月 4 日发行科创未来（人工智能）金银纪念币一套。该套金银纪念币共 3 枚，其中金质…（来源：IT之家）', u:'https://www.ithome.com/0/995/492.htm'},
+    {c:'MODEL', d:'2026-08-28T11:04', t:'国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上', s:'据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及…（来源：IT之家）', u:'https://www.ithome.com/0/995/481.htm'},
+    {c:'HOT', d:'2026-08-28T11:03', t:'34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及', s:'8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）', u:'https://www.qbitai.com/2026/08/480202.html'},
+    {c:'INDUSTRY', d:'2026-08-28T10:59', t:'WRC 2026 大复盘：具身智能告别「表演时代」，全面进入「算账时代」', s:'站在 2026 年 8 月北京世界机器人大会（WRC）的展馆中心，如果你闭上眼，听到的不再是两年前那种对“机器人像人一样…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/2zBk2GOuqMkjYsSy.html'},
+    {c:'MODEL', d:'2026-08-28T10:48', t:'全球首款专为iPhone用户打造的Agent耳机正式发布，有道AI耳机让声音变成生产力', s:'8月27日，网易有道正式发布OpenPods有道AI耳机。（来源：量子位）', u:'https://www.qbitai.com/2026/08/480083.html'},
+    {c:'MEDPHARMA', d:'2026-08-28T10:34', t:'AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...', s:'AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678905217072529955/'},
+    {c:'MODEL', d:'2026-08-28T09:40', t:'HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄', s:'Hugging Face这把是真全员财富自由了啊o(╥﹏╥)o（来源：量子位）', u:'https://www.qbitai.com/2026/08/480186.html'},
   ];
   const TIMELINE = [
-    ['08-27 11:10','米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案'],
-    ['08-27 11:10','国家能源局将成立“人工智能+能源”工作组'],
-    ['08-27 11:06','智谱正式上线并开源 GLM-5.3-Flash：320B 模型打到 Opus 4.8 水平，定价只要 1/40'],
-    ['08-27 11:02','「点头」：一旦执行可以交给AI，人还剩下什么'],
-    ['08-27 10:57','黄仁勋回应 OpenAI 首款自研 AI 芯片挑战：英伟达提供“截然不同”服务'],
-    ['08-27 10:56','谷歌 AI 责任团队将被移出 DeepMind，员工担忧安全评估独立性受损'],
+    ['08-28 14:01','#AI for MS'],
+    ['08-28 14:01','下一代质谱软件，会不会像DeepSeek一样工作？'],
+    ['08-28 14:01','提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析'],
+    ['08-28 14:01','#机器人赛道26年数据盘点'],
+    ['08-28 14:01','2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”'],
+    ['08-28 14:01','狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278146, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243540, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:238011, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:207741, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:171850, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143096, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134610, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111099, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101209, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90064, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278731, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243800, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:239354, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:208196, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172114, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143224, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134753, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111683, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101473, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90335, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
