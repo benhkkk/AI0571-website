@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-28T21:16:55",
+  "updated": "2026-08-28T21:21:44",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-08-28T21:16",
+      "d": "2026-08-28T21:21",
       "t": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”",
       "s": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260202/874153.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T21:16",
+      "d": "2026-08-28T21:21",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -28,6 +28,13 @@
       "t": "豆包工作的办公棋局：飞书与豆包的合流",
       "s": "豆包工作要打造一种AI时代的生产关系。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121252.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T19:17",
+      "t": "新云厂商发现，最赚钱的可能不是卖GPU",
+      "s": "一年前，AI云服务商Nebius创始人兼CEO Arkady Volozh还在回答一个问题：谁会买那么多GPU？一年后…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/3WOuErnlJ5cLepP7.html"
     },
     {
       "c": "HOT",
@@ -133,22 +140,15 @@
       "t": "Cheaper AI Inference Drives Record Infrastructure Spending",
       "s": "Cheaper AI Inference Drives Record Infrastructure …（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8120746.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T16:25",
-      "t": "哦，原来家庭机器人，就是给音箱插几条腿",
-      "s": "颇为滑稽的一幕是，机器人只能向更困难的场景出逃。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8120420.html"
     }
   ],
   "timeline": [
     [
-      "08-28 21:16",
+      "08-28 21:21",
       "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”"
     ],
     [
-      "08-28 21:16",
+      "08-28 21:21",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -160,12 +160,12 @@
       "豆包工作的办公棋局：飞书与豆包的合流"
     ],
     [
-      "08-28 19:13",
-      "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板"
+      "08-28 19:17",
+      "新云厂商发现，最赚钱的可能不是卖GPU"
     ],
     [
-      "08-28 18:47",
-      "真香：《我的世界》创始人佩尔松承认自己早期拒绝 AI 编程“可能错了”"
+      "08-28 19:13",
+      "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278876,
+      "s": 278877,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243870,
+      "s": 243874,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239804,
+      "s": 239809,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208303,
+      "s": 208305,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101549,
+      "s": 101550,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
