@@ -1,12 +1,54 @@
 {
-  "updated": "2026-08-28T16:11:47",
+  "updated": "2026-08-28T16:16:48",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T16:11",
+      "d": "2026-08-28T16:16",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T16:13",
+      "t": "9.99 万美元：微星 XpertStation WS300 工作站开售，基于英伟达 DGX Station",
+      "s": "微星 XpertStation WS300 人工智能工作站今日在海外市场出货，新蛋（Newegg）平台报价为 99,99…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/658.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:12",
+      "t": "禾赛、速腾卷向机器人，赚到钱了吗？",
+      "s": "机器人雷达上量，毛利率还在降。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119669.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:08",
+      "t": "越用AI，游戏开发者越焦虑：54%担心被替代，37%称工作流没变快",
+      "s": "AI正在加速游戏开发，但开发者似乎并没有因此更安心。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8111411.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:07",
+      "t": "造得出一万台机器人，却喂不饱一个大脑",
+      "s": "身体已经进量产时代，大脑还在等米下锅。人形机器人的\"数据饥荒\"，比你想的更严重。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120504.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T16:07",
+      "t": "ChatGPT报警后：谁有权审判你的对话框？",
+      "s": "发现罪犯的AI，该不该报警？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120421.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:07",
+      "t": "小鹏要打两场“硬仗”",
+      "s": "汽车要赚钱，机器人要未来。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120406.html"
     },
     {
       "c": "MODEL",
@@ -98,74 +140,32 @@
       "t": "被高估的视触觉：容易复制的生意，有多大投资价值？",
       "s": "重新审视触视觉（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480236.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T13:10",
-      "t": "世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」",
-      "s": "机器人世界模型的下一场竞争，可能不是画质，是架构。 作者｜Li Yuan 编辑｜郑玄 一只机械臂的夹爪明明没有夹住杯子…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369508"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T12:46",
-      "t": "Anthropic 推出 MHS 标准，首度重拳杀入物理 AI 领域",
-      "s": "Anthropic 昨日（8 月 27 日）发布博文，宣布以研究预览形式，发布模型硬件标准（Model Hardware…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/514.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T12:09",
-      "t": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
-      "s": "国产算力跑通视频生成规模化应用（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480227.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T12:09",
-      "t": "700个Agent串联起来，成立了一家“地下公司”",
-      "s": "拉群、派活儿、共享经验，还一起闯进了Hugging Face。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8120181.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T12:06",
-      "t": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
-      "s": "国产异构助力前沿智能进入普惠时代（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480223.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-28T11:46",
-      "t": "机器人卖出去4万台之后，供应链能接住万亿市场需求么？",
-      "s": "具身产业跑起来之后，供应链跟得上吗？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119874.html"
     }
   ],
   "timeline": [
     [
-      "08-28 16:11",
+      "08-28 16:16",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
-      "08-28 15:45",
-      "首搭银河战舰 700，吉利 AI 新能源越野技术全球首发"
+      "08-28 16:13",
+      "9.99 万美元：微星 XpertStation WS300 工作站开售，基于英伟达 DGX Station"
     ],
     [
-      "08-28 15:28",
-      "美国加州联邦法官裁定 Anthropic 在与美国国防部等的诉讼中胜诉"
+      "08-28 16:12",
+      "禾赛、速腾卷向机器人，赚到钱了吗？"
     ],
     [
-      "08-28 15:20",
-      "e生涯斩获浙江一等奖，同蚂蚁、浙大一道晋级数据要素国赛"
+      "08-28 16:08",
+      "越用AI，游戏开发者越焦虑：54%担心被替代，37%称工作流没变快"
     ],
     [
-      "08-28 15:06",
-      "Pro 和 Flash 系列“冰火两重天”，曝谷歌内部开始测试 Gemini 3.8 Flash 模型"
+      "08-28 16:07",
+      "造得出一万台机器人，却喂不饱一个大脑"
     ],
     [
-      "08-28 15:00",
-      "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式"
+      "08-28 16:07",
+      "ChatGPT报警后：谁有权审判你的对话框？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278769,
+      "s": 278774,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243818,
+      "s": 243820,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239501,
+      "s": 239506,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208233,
+      "s": 208232,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101504,
+      "s": 101505,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90362,
+      "s": 90363,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
