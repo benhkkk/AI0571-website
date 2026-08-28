@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-28T17:36:47",
+  "updated": "2026-08-28T17:41:48",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T17:36",
+      "d": "2026-08-28T17:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T17:36",
+      "d": "2026-08-28T17:41",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -121,6 +121,13 @@
       "u": "https://www.ithome.com/0/995/638.htm"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T15:35",
+      "t": "首家“碰一下”机器人租赁体验店落地上海徐家汇！支付宝“碰一下”解锁机器人互动与租赁新体验",
+      "s": "只需手机“碰一下”，就能租借机器人，甚至让它跳舞表演？8月28日，全国首家“碰一下”机器人租赁体验店在上海徐汇区新六百Y…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/gE5Am1JMBQG2AjNJ.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-08-28T15:28",
       "t": "美国加州联邦法官裁定 Anthropic 在与美国国防部等的诉讼中胜诉",
@@ -133,22 +140,15 @@
       "t": "Jalapeño 跑分炸场，GPU 推理路线开始分裂？",
       "s": "Token 成本成为大模型硬件竞争的新坐标。 作者丨郑佳美 编辑丨岑 峰 今天，OpenAI 的自研推理芯片 Jalap…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/ai/B0TkvWHMs5AJIym6.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T15:25",
-      "t": "Sora 为什么输给 Codex？",
-      "s": "GPU 时间能否被复用，开始决定产品的扩张速度。 作者丨郑佳美 编辑丨岑 峰 8 月 23 日，奥特曼在 David S…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/aolA6aSnqLoYTm3d.html"
     }
   ],
   "timeline": [
     [
-      "08-28 17:36",
+      "08-28 17:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 17:36",
+      "08-28 17:41",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278804,
+      "s": 278807,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243840,
+      "s": 243841,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239597,
+      "s": 239598,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172165,
+      "s": 172166,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134781,
+      "s": 134782,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111743,
+      "s": 111747,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101524,
+      "s": 101526,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90384,
+      "s": 90385,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
