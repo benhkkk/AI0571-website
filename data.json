@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-28T23:51:47",
+  "updated": "2026-08-28T23:56:42",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T23:51",
+      "d": "2026-08-28T23:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T23:53",
+      "t": "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
+      "s": "当地时间 27 日，据《连线》杂志报道，OpenAI 在开发一种更主动、能够长时间持续工作的 Codex，希望让旗舰 A…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/818.htm"
     },
     {
       "c": "HOT",
@@ -56,13 +63,6 @@
       "t": "试图摆脱“变态眼镜”之名，Meta AI 眼镜升级后挡住指示灯就立即停止拍摄",
       "s": "据外媒 The Verge 今天（28 日）报道，Meta 为旗下 AI 智能眼镜推出了一项更新，旨在修补一个与拍摄指示…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/795.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-28T21:09",
-      "t": "灵掌机器人完成数千万元天使轮融资",
-      "s": "据《科创板日报》今天报道，工业具身机器人技术企业灵掌机器人近日完成数千万元天使轮融资，投资方包括凯龙高科、遨博智能、锡创…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/790.htm"
     },
     {
       "c": "HOT",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-28 23:51",
+      "08-28 23:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-28 23:53",
+      "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活"
     ],
     [
       "08-28 23:25",
@@ -162,10 +166,6 @@
     [
       "08-28 23:08",
       "美团 CEO 王兴：AI 模型和产品将用于支持主业发展，我们不会成为“Token 工厂”"
-    ],
-    [
-      "08-28 23:00",
-      "前推特法律顾问创立“Twitter.now”，马斯克显然不太高兴"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278948,
+      "s": 278950,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243902,
+      "s": 243903,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239941,
+      "s": 239946,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208343,
+      "s": 208344,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134871,
+      "s": 134873,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111872,
+      "s": 111875,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
