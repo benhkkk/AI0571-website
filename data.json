@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-28T19:46:46",
+  "updated": "2026-08-28T19:51:58",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T19:46",
+      "d": "2026-08-28T19:51",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T19:13",
+      "t": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
+      "s": "久久不愿来到台前的智元掌舵人（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480666.html"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "禾赛、速腾卷向机器人，赚到钱了吗？",
       "s": "机器人雷达上量，毛利率还在降。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8119669.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T16:10",
-      "t": "【AI 智能运维平台】本周更新：APM应用性能监测功能正式发布，性能瓶颈一目了然",
-      "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502170"
     }
   ],
   "timeline": [
     [
-      "08-28 19:46",
+      "08-28 19:51",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-28 19:13",
+      "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板"
     ],
     [
       "08-28 18:47",
@@ -162,10 +166,6 @@
     [
       "08-28 18:18",
       "华硕成立物理 AI 事业群，人形机器人计划 9 月上路"
-    ],
-    [
-      "08-28 18:18",
-      "宇树、拓斯达、越疆的上半年，藏着具身智能商业化的真实进度条"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278844,
+      "s": 278845,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239713,
+      "s": 239719,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208280,
+      "s": 208283,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172173,
+      "s": 172175,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143260,
+      "s": 143261,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134803,
+      "s": 134804,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111782,
+      "s": 111784,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90410,
+      "s": 90413,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
