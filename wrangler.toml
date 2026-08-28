@@ -14,4 +14,8 @@ id = "03d445998a424254978a56bdb98c5dc7"
 crons = ["*/10 * * * *", "0 0 * * 1-5"]
 
 # AI0571 统一 Worker：定时触发抓取 + 邮件订阅/日报。
-# 部署后还需在 Cloudflare 控制台给本 Worker 添加 Route：www.AI0571.com/api/*
+
+# Route：将 www.AI0571.com/api/* 指向本 Worker（同域，无需 CORS）
+routes = [
+  { pattern = "www.AI0571.com/api/*", custom_domain = true }
+]
