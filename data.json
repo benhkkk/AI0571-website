@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T15:56:45",
+  "updated": "2026-08-28T16:01:45",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T15:56",
+      "d": "2026-08-28T16:01",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -45,6 +45,13 @@
     },
     {
       "c": "MEDPHARMA",
+      "d": "2026-08-28T14:41",
+      "t": "英矽智能管理层回应AI制药商业化可持续性",
+      "s": "英矽智能管理层回应AI制药商业化可持续性（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678969046309585434/"
+    },
+    {
+      "c": "MEDPHARMA",
       "d": "2026-08-28T14:22",
       "t": "首款癌症疫苗，一针300万？？？",
       "s": "别让顶级治疗方法称为富人专属（来源：量子位）",
@@ -56,6 +63,13 @@
       "t": "Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣",
       "s": "11 月 20 -21 日，由奇点智能研究院与 CSDN 联合主办的「奇点智能大会北京站」正式举行（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480482.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T14:17",
+      "t": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...",
+      "s": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678962853377884713/"
     },
     {
       "c": "MODEL",
@@ -126,25 +140,11 @@
       "t": "机器人卖出去4万台之后，供应链能接住万亿市场需求么？",
       "s": "具身产业跑起来之后，供应链跟得上吗？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8119874.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T11:45",
-      "t": "高德发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon，以12帧重建万帧3D场景",
-      "s": "8月28日，阿里巴巴集团旗下高德正式发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480208.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-28T10:59",
-      "t": "WRC 2026 大复盘：具身智能告别「表演时代」，全面进入「算账时代」",
-      "s": "站在 2026 年 8 月北京世界机器人大会（WRC）的展馆中心，如果你闭上眼，听到的不再是两年前那种对“机器人像人一样…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/private/2zBk2GOuqMkjYsSy.html"
     }
   ],
   "timeline": [
     [
-      "08-28 15:56",
+      "08-28 16:01",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278765,
+      "s": 278766,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243816,
+      "s": 243818,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239481,
+      "s": 239485,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101501,
+      "s": 101502,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90358,
+      "s": 90359,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
