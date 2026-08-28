@@ -3,7 +3,14 @@ export async function onRequestGet({ request, env }) {
   const url = new URL(request.url);
   const email = String(url.searchParams.get('email') || '').trim().toLowerCase();
   const valid = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
-  const ok = valid ? await env.SUBS.delete(email) : false;
+  let ok = false;
+  if (valid) {
+    const exists = await env.SUBS.get(email);
+    if (exists !== null) {
+      await env.SUBS.delete(email);
+      ok = true;
+    }
+  }
   const html = `<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;text-align:center;padding:60px 20px;color:#333;">
     <h2>${ok ? '已退订 ✓' : '退订失败'}</h2>
     <p>${ok ? email + ' 已成功退订每日 AI 日报。' : '邮箱无效或不存在。'}</p>
