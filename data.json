@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-28T10:51:43",
+  "updated": "2026-08-28T10:56:47",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-28T10:51",
-      "t": "免费VS付费仪信通AI会员对比，看这篇就够了",
-      "s": "免费VS付费仪信通AI会员对比，看这篇就够了（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260827/966240.shtml"
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T10:34",
+      "t": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...",
+      "s": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678905217072529955/"
     },
     {
       "c": "MODEL",
@@ -107,13 +107,6 @@
       "u": "https://www.ithome.com/0/995/346.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-08-28T06:57",
-      "t": "规避反垄断审查，消息称英伟达暂停与多家 AI 公司的收益分成协议",
-      "s": "据华尔街日报消息，知情人士透露，英伟达暂停了一项新融资计划中的部分交易。该计划原本旨在向人工智能云服务商提供信用支持，以…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/341.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-27T20:50",
       "t": "商汤大装置支撑智谱 GLM-5.3-Flash上线，国产异构助力前沿智能进入普惠时代",
@@ -126,6 +119,13 @@
       "t": "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧",
       "s": "好能增长，好能商业化啊！（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480092.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:42",
+      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
+      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678675311265710642/"
     },
     {
       "c": "MEDPHARMA",
@@ -144,8 +144,8 @@
   ],
   "timeline": [
     [
-      "08-28 10:51",
-      "免费VS付费仪信通AI会员对比，看这篇就够了"
+      "08-28 10:34",
+      "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)..."
     ],
     [
       "08-28 09:40",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278692,
+      "s": 278696,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243781,
+      "s": 243780,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239210,
+      "s": 239217,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208131,
+      "s": 208133,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172095,
+      "s": 172096,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134731,
+      "s": 134733,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111633,
+      "s": 111636,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
