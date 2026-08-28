@@ -1,19 +1,26 @@
 {
-  "updated": "2026-08-28T18:41:43",
+  "updated": "2026-08-28T18:46:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T18:41",
+      "d": "2026-08-28T18:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T18:41",
+      "d": "2026-08-28T18:46",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T18:41",
+      "t": "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌",
+      "s": "据《韩民族日报》今天报道，SK 海力士首席执行官郭鲁正接受采访时表示，人工智能带动的内存半导体供应短缺，将持续到 203…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/767.htm"
     },
     {
       "c": "HOT",
@@ -35,6 +42,13 @@
       "t": "宇树、拓斯达、越疆的上半年，藏着具身智能商业化的真实进度条",
       "s": "具身智能的商业化路径越来越清晰了。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118715.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T17:46",
+      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?",
+      "s": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679016704273302043/"
     },
     {
       "c": "MODEL",
@@ -126,30 +140,20 @@
       "t": "【AI 智能运维平台】本周更新：APM应用性能监测功能正式发布，性能瓶颈一目了然",
       "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502170"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T15:51",
-      "t": "威科集团与蚂蚁健康达成战略合作，JCO等28本医学顶刊上线阿福医生版",
-      "s": "从海外到中国，全球临床医生正加速将AI工具融入日常工作流。为切实帮医生减负提效、辅助诊疗，8月28日，蚂蚁健康宣布与全球…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/aihealth/KTUmk96pCdHsO4R5.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-28T15:51",
-      "t": "老黄把CPU机柜搬上台，一场五年混战开始了",
-      "s": "作者｜包永刚编辑｜林觉民 英伟达GTC，聚光灯总属于最新一代GPU，但中国芯片投资人李华今年却盯上了CPU。黄仁勋在台上…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/HXcJQubeLhbCrXOL.html"
     }
   ],
   "timeline": [
     [
-      "08-28 18:41",
+      "08-28 18:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 18:41",
+      "08-28 18:46",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "08-28 18:41",
+      "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌"
     ],
     [
       "08-28 18:26",
@@ -162,10 +166,6 @@
     [
       "08-28 18:18",
       "宇树、拓斯达、越疆的上半年，藏着具身智能商业化的真实进度条"
-    ],
-    [
-      "08-28 17:45",
-      "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278827,
+      "s": 278830,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239653,
+      "s": 239656,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208271,
+      "s": 208272,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172168,
+      "s": 172167,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143254,
+      "s": 143255,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111769,
+      "s": 111771,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90397,
+      "s": 90398,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
