@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-28T09:31:53",
+  "updated": "2026-08-28T09:36:46",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-28T09:19",
-      "t": "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM",
-      "s": "SK 海力士 (SK hynix) 当地时间 27 日在美国印第安纳州西拉斐特举行了面向 AI 的存储器先进封装生产基地…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/386.htm"
+      "c": "MODEL",
+      "d": "2026-08-28T09:32",
+      "t": "《时代》杂志公布 2026 年全球 AI 百大人物榜：OpenAI 奥尔特曼、马斯克、阿里吴泳铭等登上封面",
+      "s": "《时代》杂志 8 月 27 日公布了 2026 年全球 AI 领域最具影响力的百大人物，这是该杂志第四年发布这一榜单。O…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/389.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -87,6 +87,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-08-28T09:19",
+      "t": "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM",
+      "s": "SK 海力士 (SK hynix) 当地时间 27 日在美国印第安纳州西拉斐特举行了面向 AI 的存储器先进封装生产基地…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/386.htm"
+    },
+    {
+      "c": "HOT",
       "d": "2026-08-28T08:49",
       "t": "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好",
       "s": "AI 的终点可能是丰裕，但“丰裕社会”和现在之间，并不存在一条自动平滑的道路。（来源：钛媒体）",
@@ -133,16 +140,13 @@
       "t": "OpenAI、微软、谷歌等 116 家公司发联名信，呼吁高度重视 AI 时代的网络安全",
       "s": "当地时间 8 月 27 日，包括 OpenAI、Anthropic、微软、谷歌母公司 Alphabet 和亚马逊在内的 …（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/346.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T22:01",
-      "t": "Hugging Face 推出新款鸭形机器人：能捡东西、拥有独特音色，399 美元",
-      "s": "北京时间今天（27 日）晚间，Hugging Face 旗下 Pollen Robotics 推出了可爱的新款 AI 机…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/306.htm"
     }
   ],
   "timeline": [
+    [
+      "08-28 09:32",
+      "《时代》杂志公布 2026 年全球 AI 百大人物榜：OpenAI 奥尔特曼、马斯克、阿里吴泳铭等登上封面"
+    ],
     [
       "08-28 09:19",
       "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM"
@@ -162,10 +166,6 @@
     [
       "08-28 08:22",
       "一篇文章撬动450亿，25岁“AI股神”崩塌记"
-    ],
-    [
-      "08-28 08:17",
-      "OpenAI的“亲儿子”，想要用中国开源模型拿回自主权"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278674,
+      "s": 278673,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239128,
+      "s": 239134,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208099,
+      "s": 208098,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143204,
+      "s": 143205,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134724,
+      "s": 134725,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101443,
+      "s": 101442,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
