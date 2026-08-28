@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T14:36:46",
+  "updated": "2026-08-28T14:41:47",
   "news": [
     {
       "c": "MEDPHARMA",
@@ -107,6 +107,13 @@
       "u": "https://www.qbitai.com/2026/08/480083.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T10:34",
+      "t": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...",
+      "s": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678905217072529955/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-28T09:40",
       "t": "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄",
@@ -133,13 +140,6 @@
       "t": "早报｜iPhone 17登顶Q2最畅销智能手机/《GTA6》公布26分钟实机演示/追觅咖啡回应多店闭店",
       "s": "· 小鹏 Robotaxi 获广州全无人道路测试资质 · Anthropic 与 Nscale 签下 450 亿美元算力…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677210?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T20:50",
-      "t": "商汤大装置支撑智谱 GLM-5.3-Flash上线，国产异构助力前沿智能进入普惠时代",
-      "s": "8月26日晚，智谱正式上线并开源GLM-5.3-Flash(320B-A18B），这是GLM-5系列的首个原生多模态模型…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/W9ofyn3UJRYRVMC0.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278736,
+      "s": 278735,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239387,
+      "s": 239393,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208211,
+      "s": 208215,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143227,
+      "s": 143229,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101479,
+      "s": 101480,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90340,
+      "s": 90342,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
