@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-29T00:41:45",
+  "updated": "2026-08-29T00:46:57",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T00:41",
+      "d": "2026-08-29T00:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -94,13 +94,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T19:13",
-      "t": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
-      "s": "久久不愿来到台前的智元掌舵人（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480666.html"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-28T18:26",
       "t": "机器人运动会：智元、天工、银河通用赢麻了",
       "s": "跑赢人类后，人形机器人的上半场结束了。（来源：钛媒体）",
@@ -112,13 +105,6 @@
       "t": "宇树、拓斯达、越疆的上半年，藏着具身智能商业化的真实进度条",
       "s": "具身智能的商业化路径越来越清晰了。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118715.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T17:45",
-      "t": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
-      "s": "企业智能化服务撑起基本盘，第二增长曲线冒头（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480600.html"
     },
     {
       "c": "MODEL",
@@ -140,11 +126,25 @@
       "t": "给 AI 以“情感”，魔珐科技寻找有活人感的 Agent 作品",
       "s": "大模型技术普及到今天，AI 应用的交互形态反而显得有点缺少“人情味”。大部分 AI 产品停留在文本对话框或单向语音播报…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502174"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T16:47",
+      "t": "运动会大赢家智元，能复刻宇树4千亿神话吗？",
+      "s": "智元机器人在第二届世界人形机器人运动会斩获18金，验证其量产机型在运动与作业场景的硬实力。公司正冲刺港股IPO，三年营收…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120094.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:44",
+      "t": "Cheaper AI Inference Drives Record Infrastructure Spending",
+      "s": "Cheaper AI Inference Drives Record Infrastructure …（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120746.html"
     }
   ],
   "timeline": [
     [
-      "08-29 00:41",
+      "08-29 00:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239979,
+      "s": 239980,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208356,
+      "s": 208357,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143280,
+      "s": 143281,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134888,
+      "s": 134890,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111890,
+      "s": 111892,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90462,
+      "s": 90463,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
