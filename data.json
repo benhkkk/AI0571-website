@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-28T16:41:46",
+  "updated": "2026-08-28T16:46:43",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-28T16:41",
-      "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
-      "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
-    },
-    {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T16:41",
+      "d": "2026-08-28T16:46",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -42,6 +35,13 @@
       "t": "禾赛、速腾卷向机器人，赚到钱了吗？",
       "s": "机器人雷达上量，毛利率还在降。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8119669.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T16:10",
+      "t": "【AI 智能运维平台】本周更新：APM应用性能监测功能正式发布，性能瓶颈一目了然",
+      "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502170"
     },
     {
       "c": "HOT",
@@ -144,11 +144,7 @@
   ],
   "timeline": [
     [
-      "08-28 16:41",
-      "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
-    ],
-    [
-      "08-28 16:41",
+      "08-28 16:46",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-28 16:12",
       "禾赛、速腾卷向机器人，赚到钱了吗？"
+    ],
+    [
+      "08-28 16:10",
+      "【AI 智能运维平台】本周更新：APM应用性能监测功能正式发布，性能瓶颈一目了然"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278780,
+      "s": 278781,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243827,
+      "s": 243828,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239533,
+      "s": 239537,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208248,
+      "s": 208251,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172150,
+      "s": 172151,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143241,
+      "s": 143242,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134770,
+      "s": 134771,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111725,
+      "s": 111726,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101512,
+      "s": 101516,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90367,
+      "s": 90369,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
