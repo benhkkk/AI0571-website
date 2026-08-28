@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-28T11:01:50",
+  "updated": "2026-08-28T11:06:51",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T11:04",
+      "t": "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上",
+      "s": "据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/481.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-08-28T09:40",
@@ -72,13 +79,6 @@
       "u": "https://www.tmtpost.com/8119225.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-08-28T08:17",
-      "t": "走向场景落地，具身智能企业的下一步是什么",
-      "s": "企业真正要跨出的一步，是把一次场景落地变成可复制的生产力。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119590.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-28T08:09",
       "t": "早报｜iPhone 17登顶Q2最畅销智能手机/《GTA6》公布26分钟实机演示/追觅咖啡回应多店闭店",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "08-28 11:04",
+      "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上"
+    ],
+    [
       "08-28 09:40",
       "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄"
     ],
@@ -162,10 +166,6 @@
     [
       "08-28 08:53",
       "清华系资本，投了一家深圳AI制药"
-    ],
-    [
-      "08-28 08:49",
-      "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239220,
+      "s": 239223,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208135,
+      "s": 208136,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172096,
+      "s": 172097,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143213,
+      "s": 143214,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
