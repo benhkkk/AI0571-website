@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T11:11:50",
+  "updated": "2026-08-28T11:16:49",
   "news": [
     {
       "c": "MODEL",
@@ -7,6 +7,13 @@
       "t": "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上",
       "s": "据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/481.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T10:34",
+      "t": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...",
+      "s": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678905217072529955/"
     },
     {
       "c": "MODEL",
@@ -79,13 +86,6 @@
       "u": "https://www.tmtpost.com/8119225.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-08-28T08:17",
-      "t": "走向场景落地，具身智能企业的下一步是什么",
-      "s": "企业真正要跨出的一步，是把一次场景落地变成可复制的生产力。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119590.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-28T08:09",
       "t": "早报｜iPhone 17登顶Q2最畅销智能手机/《GTA6》公布26分钟实机演示/追觅咖啡回应多店闭店",
@@ -100,13 +100,6 @@
       "u": "https://www.ithome.com/0/995/352.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-28T07:23",
-      "t": "OpenAI、微软、谷歌等 116 家公司发联名信，呼吁高度重视 AI 时代的网络安全",
-      "s": "当地时间 8 月 27 日，包括 OpenAI、Anthropic、微软、谷歌母公司 Alphabet 和亚马逊在内的 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/346.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-27T20:50",
       "t": "商汤大装置支撑智谱 GLM-5.3-Flash上线，国产异构助力前沿智能进入普惠时代",
@@ -119,6 +112,13 @@
       "t": "MiniMax ARR暴涨500%，token暴涨2000%！这就是Agent红利吧",
       "s": "好能增长，好能商业化啊！（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480092.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-27T19:42",
+      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
+      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678675311265710642/"
     },
     {
       "c": "MEDPHARMA",
@@ -148,6 +148,10 @@
       "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上"
     ],
     [
+      "08-28 10:34",
+      "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)..."
+    ],
+    [
       "08-28 09:40",
       "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄"
     ],
@@ -162,10 +166,6 @@
     [
       "08-28 09:19",
       "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM"
-    ],
-    [
-      "08-28 08:53",
-      "清华系资本，投了一家深圳AI制药"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278698,
+      "s": 278699,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239226,
+      "s": 239233,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208138,
+      "s": 208142,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172098,
+      "s": 172097,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143214,
+      "s": 143209,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134734,
+      "s": 134733,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111637,
+      "s": 111638,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101448,
+      "s": 101449,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
