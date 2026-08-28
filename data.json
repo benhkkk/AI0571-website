@@ -1,19 +1,26 @@
 {
-  "updated": "2026-08-28T17:41:48",
+  "updated": "2026-08-28T17:46:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T17:41",
+      "d": "2026-08-28T17:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T17:41",
+      "d": "2026-08-28T17:46",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T17:37",
+      "t": "机器人运动会落幕后，回看智元的冠军之路",
+      "s": "8月26日，第二届世界机器人运动会正式闭幕，奖牌榜第一的位置变成了首次参与此项赛事的智元——18金16银12铜，金牌数和…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120500.html"
     },
     {
       "c": "HOT",
@@ -108,13 +115,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-28T16:07",
-      "t": "ChatGPT报警后：谁有权审判你的对话框？",
-      "s": "发现罪犯的AI，该不该报警？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8120421.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-08-28T15:45",
       "t": "首搭银河战舰 700，吉利 AI 新能源越野技术全球首发",
       "s": "今天（28 日）下午，吉利汽车集团正式发布 AI 新能源越野技术。该技术汇集 GTA 原生新能源越野架构、全驱 AI 电…（来源：IT之家）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "08-28 17:41",
+      "08-28 17:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 17:41",
+      "08-28 17:46",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "08-28 17:37",
+      "机器人运动会落幕后，回看智元的冠军之路"
     ],
     [
       "08-28 17:17",
@@ -162,10 +166,6 @@
     [
       "08-28 17:03",
       "AMD 发布 ROCm 10.0.0，重点关注 AI 推理、开发者工具、性能分析"
-    ],
-    [
-      "08-28 16:57",
-      "给 AI 以“情感”，魔珐科技寻找有活人感的 Agent 作品"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278807,
+      "s": 278811,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239598,
+      "s": 239600,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208258,
+      "s": 208259,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172166,
+      "s": 172167,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143246,
+      "s": 143248,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111747,
+      "s": 111749,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90385,
+      "s": 90387,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
