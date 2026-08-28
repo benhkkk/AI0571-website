@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-28T20:11:52",
+  "updated": "2026-08-28T20:16:48",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T20:11",
-      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
-      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T20:11",
+      "d": "2026-08-28T20:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "9.99 万美元：微星 XpertStation WS300 工作站开售，基于英伟达 DGX Station",
       "s": "微星 XpertStation WS300 人工智能工作站今日在海外市场出货，新蛋（Newegg）平台报价为 99,99…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/658.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T16:12",
+      "t": "禾赛、速腾卷向机器人，赚到钱了吗？",
+      "s": "机器人雷达上量，毛利率还在降。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119669.html"
     }
   ],
   "timeline": [
     [
-      "08-28 20:11",
-      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
-    ],
-    [
-      "08-28 20:11",
+      "08-28 20:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-28 18:26",
       "机器人运动会：智元、天工、银河通用赢麻了"
+    ],
+    [
+      "08-28 18:18",
+      "华硕成立物理 AI 事业群，人形机器人计划 9 月上路"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278851,
+      "s": 278854,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243859,
+      "s": 243860,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239734,
+      "s": 239738,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208286,
+      "s": 208288,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172180,
+      "s": 172181,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134805,
+      "s": 134806,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
