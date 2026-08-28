@@ -1,24 +1,27 @@
 /**
- * AI0571 统一 Worker（定时更新触发 + 邮件订阅/日报）
- * ===================================================
+ * AI0571 定时任务 Worker（仅 Cron 触发，不处理 HTTP 请求）
+ * ------------------------------------------------------------
  * 职责：
- *  1) 每10分钟触发 GitHub Actions 重新抓取资讯
- *  2) 工作日 UTC 00:00（北京 08:00）发送 AI 日报邮件
- *  3) POST /api/subscribe       -> 收集订阅邮箱（写入 KV）
- *  4) GET  /api/unsubscribe     -> 退订（从 KV 删除）
- *  5) GET  /api/send-test       -> 手动触发一次发送（调试用，?to=邮箱 仅发一人）
+ *  1) Cron */10 * * * *        -> 触发 GitHub Actions 重新抓取资讯
+ *  2) Cron 0 0 * * 1-5 (UTC)  -> 每个工作日北京 08:00 发送 AI 日报邮件
  *
- * 部署（详见《邮件订阅-部署手册.md》）：
- *  - Route：www.AI0571.com/api/* -> 本 Worker（同域，无需 CORS）
- *  - KV：绑定 SUBS（订阅者邮箱命名空间）
- *  - Secrets：GH_PAT（原有）、RESEND_API_KEY（Resend 密钥）
- *  - Cron Triggers：每10分钟抓取 + 工作日早8点发送
+ * HTTP 端点（订阅/退订/发送测试）已迁移到 Cloudflare Pages Functions
+ * （仓库 /functions/api/*）。站点由 Pages 托管，Functions 是同域原生后端，
+ * 无需配置 Worker Route，因此本文件只保留 cron 逻辑。
+ *
+ * 部署：wrangler.toml 已配置 KV(SUBS) + 两个 Cron；本文件由 Cloudflare
+ *       Git 集成自动部署。
  */
 
 const CAT = { HOT: '热门', MODEL: '大模型', FUNDING: '融资', INDUSTRY: '行业', MEDPHARMA: '医药AI', MEDDEVICE: '设备AI' };
 const CATCOLOR = { HOT: '#F472B6', MODEL: '#8B5CF6', FUNDING: '#10B981', INDUSTRY: '#3B82F6', MEDPHARMA: '#EC4899', MEDDEVICE: '#14B8A6' };
 
-/* ---------- 原有：触发 GitHub Actions 抓取 ---------- */
+function validEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); }
+function esc(s) {
+  return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+}
+
+/* ---------- 触发 GitHub Actions 抓取 ---------- */
 async function triggerGithub(env) {
   const token = env.GH_PAT;
   if (!token) return { ok: false, status: 500, body: 'missing GH_PAT secret' };
@@ -43,39 +46,7 @@ async function triggerGithub(env) {
   }
 }
 
-/* ---------- 工具 ---------- */
-function cors(resp) {
-  resp.headers.set('Access-Control-Allow-Origin', 'https://www.AI0571.com');
-  resp.headers.set('Access-Control-Allow-Methods', 'POST, GET, OPTIONS');
-  resp.headers.set('Access-Control-Allow-Headers', 'Content-Type');
-  return resp;
-}
-function json(data, status = 200) {
-  return cors(new Response(JSON.stringify(data), {
-    status,
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-  }));
-}
-function validEmail(e) { return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e); }
-function esc(s) {
-  return String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
-}
-
-/* ---------- 订阅 / 退订（KV） ---------- */
-async function addSubscriber(env, email) {
-  email = (email || '').trim().toLowerCase();
-  if (!validEmail(email)) return { ok: false, error: '邮箱格式不正确' };
-  const exist = await env.SUBS.get(email);
-  if (exist) return { ok: true, duplicate: true, message: '您已订阅，无需重复' };
-  await env.SUBS.put(email, JSON.stringify({ email, ts: Date.now() }));
-  return { ok: true, message: '订阅成功' };
-}
-async function removeSubscriber(env, email) {
-  email = (email || '').trim().toLowerCase();
-  if (!validEmail(email)) return false;
-  await env.SUBS.delete(email);
-  return true;
-}
+/* ---------- 订阅者列表（KV）---------- */
 async function listSubscribers(env) {
   const emails = [];
   let cursor;
@@ -159,7 +130,6 @@ async function sendDailyDigest(env, onlyTo) {
   const from = 'AI日报 <noreply@ai0571.com>';
   let sent = 0, failed = 0;
 
-  // 逐封发送，使每封退订链接带本人邮箱（合规/BCC 不可个性化）
   for (const email of emails) {
     const html = buildDigestHTML(data, email);
     try {
@@ -179,7 +149,7 @@ async function sendDailyDigest(env, onlyTo) {
   return { ok: true, sent, failed, total: emails.length };
 }
 
-/* ---------- 路由 ---------- */
+/* ---------- Cron 入口 ---------- */
 export default {
   async scheduled(event, env, ctx) {
     const c = event.cron || '';
@@ -189,54 +159,5 @@ export default {
     } else {
       ctx.waitUntil(triggerGithub(env));
     }
-  },
-
-  async fetch(request, env, ctx) {
-    const url = new URL(request.url);
-
-    // CORS 预检
-    if (request.method === 'OPTIONS') {
-      return cors(new Response(null, { status: 204 }));
-    }
-
-    // 订阅
-    if (url.pathname === '/api/subscribe' && request.method === 'POST') {
-      try {
-        const body = await request.json().catch(() => ({}));
-        const r = await addSubscriber(env, body.email);
-        return json(r, r.ok ? 200 : 400);
-      } catch (e) {
-        return json({ ok: false, error: 'bad request' }, 400);
-      }
-    }
-
-    // 退订（邮箱参数）
-    if (url.pathname === '/api/unsubscribe') {
-      const email = url.searchParams.get('email');
-      const ok = await removeSubscriber(env, email);
-      const html = `<!doctype html><meta charset="utf-8"><body style="font-family:sans-serif;text-align:center;padding:60px 20px;color:#333;">
-        <h2>${ok ? '已退订 ✓' : '退订失败'}</h2>
-        <p>${ok ? esc(email) + ' 已成功退订每日 AI 日报。' : '邮箱无效或不存在。'}</p>
-        <p><a href="https://www.AI0571.com" style="color:#6366F1;">返回 AI0571</a></p>
-      </body>`;
-      return new Response(html, { status: 200, headers: { 'Content-Type': 'text/html; charset=utf-8' } });
-    }
-
-    // 手动触发发送（调试）
-    if (url.pathname === '/api/send-test') {
-      const to = url.searchParams.get('to');
-      const r = await sendDailyDigest(env, to || undefined);
-      return json(r);
-    }
-
-    // 原有：手动触发抓取
-    if (url.pathname === '/trigger') {
-      const r = await triggerGithub(env);
-      return new Response(`GitHub trigger -> ${r.status} ${r.body}`.slice(0, 200), { status: 200 });
-    }
-    if (url.pathname === '/') {
-      return new Response('AI0571 Worker 运行中。/api/subscribe 订阅 · /api/send-test 调试发送 · /trigger 触发抓取。', { status: 200 });
-    }
-    return new Response('Not Found', { status: 404 });
-  },
+  }
 };
