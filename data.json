@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-28T09:16:44",
+  "updated": "2026-08-28T09:21:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T08:49",
-      "t": "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好",
-      "s": "AI 的终点可能是丰裕，但“丰裕社会”和现在之间，并不存在一条自动平滑的道路。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119483.html"
+      "d": "2026-08-28T09:19",
+      "t": "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM",
+      "s": "SK 海力士 (SK hynix) 当地时间 27 日在美国印第安纳州西拉斐特举行了面向 AI 的存储器先进封装生产基地…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/386.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T08:53",
+      "t": "清华系资本，投了一家深圳AI制药",
+      "s": "清华系资本，投了一家深圳AI制药（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678879149481673256/"
     },
     {
       "c": "MEDPHARMA",
@@ -17,17 +24,10 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-27T11:35",
-      "t": "人工智能制药，攻向最难的两端",
-      "s": "人工智能制药，攻向最难的两端（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678550018579513875/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T11:12",
-      "t": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停",
-      "s": "上海加码AI制药!创新药概念再爆发，千金药业强势涨停（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678543924890780203/"
+      "d": "2026-08-27T19:02",
+      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
+      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678664948725187110/"
     },
     {
       "c": "MEDDEVICE",
@@ -87,6 +87,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-08-28T08:49",
+      "t": "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好",
+      "s": "AI 的终点可能是丰裕，但“丰裕社会”和现在之间，并不存在一条自动平滑的道路。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119483.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-08-28T08:22",
       "t": "一篇文章撬动450亿，25岁“AI股神”崩塌记",
       "s": "一场华尔街心照不宣的造神游戏。（来源：钛媒体）",
@@ -133,16 +140,17 @@
       "t": "Hugging Face 推出新款鸭形机器人：能捡东西、拥有独特音色，399 美元",
       "s": "北京时间今天（27 日）晚间，Hugging Face 旗下 Pollen Robotics 推出了可爱的新款 AI 机…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/306.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-27T22:01",
-      "t": "Adobe Photoshop 推出“AI 辅助编辑器”测试版：基于提示词的全新图像编辑模式",
-      "s": "Adobe 今日宣布为 Photoshop 新增“AI Assisted Editor”（AI 辅助编辑器）测试体验。该…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/305.htm"
     }
   ],
   "timeline": [
+    [
+      "08-28 09:19",
+      "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM"
+    ],
+    [
+      "08-28 08:53",
+      "清华系资本，投了一家深圳AI制药"
+    ],
     [
       "08-28 08:49",
       "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好"
@@ -158,14 +166,6 @@
     [
       "08-28 08:17",
       "OpenAI的“亲儿子”，想要用中国开源模型拿回自主权"
-    ],
-    [
-      "08-28 08:17",
-      "长隆抢跑全球首个具身智能主题乐园，游客会为机器人买单？"
-    ],
-    [
-      "08-28 08:17",
-      "走向场景落地，具身智能企业的下一步是什么"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243766,
+      "s": 243767,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239117,
+      "s": 239121,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208095,
+      "s": 208097,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
