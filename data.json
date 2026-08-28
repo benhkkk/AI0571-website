@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-28T10:06:51",
+  "updated": "2026-08-28T10:11:48",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T10:06",
+      "d": "2026-08-28T10:11",
       "t": "免费VS付费仪信通AI会员对比，看这篇就够了",
       "s": "免费VS付费仪信通AI会员对比，看这篇就够了（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260827/966240.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T09:40",
+      "t": "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄",
+      "s": "Hugging Face这把是真全员财富自由了啊o(╥﹏╥)o（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480186.html"
     },
     {
       "c": "HOT",
@@ -28,13 +35,6 @@
       "t": "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM",
       "s": "SK 海力士 (SK hynix) 当地时间 27 日在美国印第安纳州西拉斐特举行了面向 AI 的存储器先进封装生产基地…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/386.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T08:53",
-      "t": "清华系资本，投了一家深圳AI制药",
-      "s": "清华系资本，投了一家深圳AI制药（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678879149481673256/"
     },
     {
       "c": "HOT",
@@ -86,6 +86,13 @@
       "u": "https://www.ifanr.com/1677210?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
+      "c": "HOT",
+      "d": "2026-08-28T07:58",
+      "t": "Edge AI Daily 早报（8月28日）",
+      "s": "谷歌AI搜索新增机票预订与酒店交易功能，向交易中介演进；Adobe在Photoshop集成AI聊天框，推动创意软件向意图…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119770.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-28T07:49",
       "t": "谷歌推出 Gemini Omni 1.1 Flash 视频生成 AI 模型，最高 4K 分辨率",
@@ -128,24 +135,21 @@
       "u": "https://www.qbitai.com/2026/08/480092.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:42",
-      "t": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?",
-      "s": "mRNA肿瘤疫苗引爆AI制药热，能否撑起行业未来?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678675311265710642/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-27T19:02",
-      "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
-      "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678664948725187110/"
+      "c": "MODEL",
+      "d": "2026-08-27T19:01",
+      "t": "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口",
+      "s": "国产大模型内卷到算子底层。 作者丨高允毅 编辑丨岑 峰 昨晚，智谱 AI 认领了最近一周在 OpenRouter 盲测榜…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/1zYtnZ1hPi0jc5Ud.html"
     }
   ],
   "timeline": [
     [
-      "08-28 10:06",
+      "08-28 10:11",
       "免费VS付费仪信通AI会员对比，看这篇就够了"
+    ],
+    [
+      "08-28 09:40",
+      "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄"
     ],
     [
       "08-28 09:37",
@@ -160,10 +164,6 @@
       "SK 海力士在美 HBM 生产基地奠基：2029H2 产出首款“美国造”HBM"
     ],
     [
-      "08-28 08:53",
-      "清华系资本，投了一家深圳AI制药"
-    ],
-    [
       "08-28 08:49",
       "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好"
     ]
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278679,
+      "s": 278682,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239165,
+      "s": 239172,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172090,
+      "s": 172091,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143206,
+      "s": 143207,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111628,
+      "s": 111629,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
