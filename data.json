@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-28T17:56:41",
+  "updated": "2026-08-28T18:02:00",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-28T17:56",
-      "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
-      "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
-    },
-    {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T17:56",
+      "d": "2026-08-28T18:01",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -140,15 +133,18 @@
       "t": "首搭银河战舰 700，吉利 AI 新能源越野技术全球首发",
       "s": "今天（28 日）下午，吉利汽车集团正式发布 AI 新能源越野技术。该技术汇集 GTA 原生新能源越野架构、全驱 AI 电…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/638.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T15:35",
+      "t": "首家“碰一下”机器人租赁体验店落地上海徐家汇！支付宝“碰一下”解锁机器人互动与租赁新体验",
+      "s": "只需手机“碰一下”，就能租借机器人，甚至让它跳舞表演？8月28日，全国首家“碰一下”机器人租赁体验店在上海徐汇区新六百Y…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/gE5Am1JMBQG2AjNJ.html"
     }
   ],
   "timeline": [
     [
-      "08-28 17:56",
-      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
-    ],
-    [
-      "08-28 17:56",
+      "08-28 18:01",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-28 17:04",
       "丹麦政府推出紧急方案引导学生合理使用 AI，遏制“AI 作弊”行为"
+    ],
+    [
+      "08-28 17:03",
+      "AMD 发布 ROCm 10.0.0，重点关注 AI 推理、开发者工具、性能分析"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278813,
+      "s": 278815,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239614,
+      "s": 239618,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208259,
+      "s": 208260,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143251,
+      "s": 143254,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134783,
+      "s": 134784,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101528,
+      "s": 101529,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90390,
+      "s": 90391,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
