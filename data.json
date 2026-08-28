@@ -1,23 +1,9 @@
 {
-  "updated": "2026-08-28T23:26:46",
+  "updated": "2026-08-28T23:31:42",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T23:26",
-      "t": "#2024人工智能+仪器",
-      "s": "#2024人工智能+仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-621.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T23:26",
-      "t": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维",
-      "s": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241209/758413.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T23:26",
+      "d": "2026-08-28T23:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,19 +126,25 @@
       "t": "机器人运动会落幕后，回看智元的冠军之路",
       "s": "8月26日，第二届世界机器人运动会正式闭幕，奖牌榜第一的位置变成了首次参与此项赛事的智元——18金16银12铜，金牌数和…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8120500.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T17:36",
+      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么？",
+      "s": "算法只是一小部分，但市场仍愿意为算法加价。 作者丨周蕾 编辑丨岑峰 上周，两条AI制药新闻在24小时之内，先后引燃了舆论…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/aihealth/rJaUKQDWe0u0pfDt.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T16:57",
+      "t": "给 AI 以“情感”，魔珐科技寻找有活人感的 Agent 作品",
+      "s": "大模型技术普及到今天，AI 应用的交互形态反而显得有点缺少“人情味”。大部分 AI 产品停留在文本对话框或单向语音播报…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502174"
     }
   ],
   "timeline": [
     [
-      "08-28 23:26",
-      "#2024人工智能+仪器"
-    ],
-    [
-      "08-28 23:26",
-      "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维"
-    ],
-    [
-      "08-28 23:26",
+      "08-28 23:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +158,14 @@
     [
       "08-28 23:09",
       "英伟达 CEO 黄仁勋呼吁 AI 行业加强沟通：想建数据中心就得争取公众支持"
+    ],
+    [
+      "08-28 23:08",
+      "美团 CEO 王兴：AI 模型和产品将用于支持主业发展，我们不会成为“Token 工厂”"
+    ],
+    [
+      "08-28 23:00",
+      "前推特法律顾问创立“Twitter.now”，马斯克显然不太高兴"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278938,
+      "s": 278939,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243898,
+      "s": 243899,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239918,
+      "s": 239920,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208338,
+      "s": 208339,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134857,
+      "s": 134858,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111861,
+      "s": 111864,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101570,
+      "s": 101573,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90452,
+      "s": 90455,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
