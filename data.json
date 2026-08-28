@@ -1,19 +1,26 @@
 {
-  "updated": "2026-08-28T17:16:46",
+  "updated": "2026-08-28T17:21:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T17:16",
+      "d": "2026-08-28T17:21",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T17:16",
+      "d": "2026-08-28T17:21",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T17:17",
+      "t": "消息称 Meta 一度预计今年要在 Anthropic 服务上花 100 亿美元",
+      "s": "《纽约时报》在其当地时间 27 日的报道中表示，Meta 在今年 4 月左右曾一度预计今年需要为 Anthropic 的…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/690.htm"
     },
     {
       "c": "MEDDEVICE",
@@ -129,27 +136,24 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-28T15:12",
-      "t": "GPT、Claude 遭遇窃听门：换个模型就能让思维链不再隐身？",
-      "s": "全球主流 AI API 集体翻车，隐藏推理被成功还原，谁在偷听 AI 的「心声」？ 作者丨郑佳美 编辑丨岑 峰 昨天，X…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/SXiTNHh5eeN9ntTt.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:10",
-      "t": "深度拆解 Muse Glimmer，24GB 显存跑 30B Agent，Meta 到底做了什么？",
-      "s": "128K 长上下文与 3.1 倍推理加速背后，Meta 正在重构本地 Agent 的底层逻辑。 作者丨郑佳美 编辑丨岑 …（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/88ezT7fiFNPJKWGx.html"
+      "d": "2026-08-28T15:17",
+      "t": "大晓联合香港大学发布StreamPI，让 VLA 真正理解时间，迈向连续物理智能",
+      "s": "当 VLA 模型理解语言、感知环境并直接生成机器人动作，一个更基础的问题开始浮现：机器人如何理解一个持续变化的物理世界？…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/ncVQF4d9AckBMZwP.html"
     }
   ],
   "timeline": [
     [
-      "08-28 17:16",
+      "08-28 17:21",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 17:16",
+      "08-28 17:21",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "08-28 17:17",
+      "消息称 Meta 一度预计今年要在 Anthropic 服务上花 100 亿美元"
     ],
     [
       "08-28 17:04",
@@ -162,10 +166,6 @@
     [
       "08-28 16:57",
       "给 AI 以“情感”，魔珐科技寻找有活人感的 Agent 作品"
-    ],
-    [
-      "08-28 16:47",
-      "运动会大赢家智元，能复刻宇树4千亿神话吗？"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239580,
+      "s": 239582,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172162,
+      "s": 172165,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111736,
+      "s": 111737,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101522,
+      "s": 101523,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90380,
+      "s": 90382,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
