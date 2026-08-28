@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T12:06:45",
+  "updated": "2026-08-28T12:11:47",
   "news": [
     {
       "c": "INDUSTRY",
@@ -21,13 +21,6 @@
       "t": "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上",
       "s": "据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/481.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T11:03",
-      "t": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
-      "s": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480202.html"
     },
     {
       "c": "MODEL",
@@ -140,6 +133,13 @@
       "t": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态",
       "s": "抢抓“AI+制药”发展机遇，广州生物岛打造AI制药上下游生态（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678664948725187110/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T19:01",
+      "t": "像素级对标？智谱、Kimi 底层参数「撞衫」背后，藏着线性注意力的黄金窗口",
+      "s": "国产大模型内卷到算子底层。 作者丨高允毅 编辑丨岑 峰 昨晚，智谱 AI 认领了最近一周在 OpenRouter 盲测榜…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/1zYtnZ1hPi0jc5Ud.html"
     }
   ],
   "timeline": [
@@ -156,16 +156,16 @@
       "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上"
     ],
     [
-      "08-28 11:03",
-      "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及"
-    ],
-    [
       "08-28 10:48",
       "全球首款专为iPhone用户打造的Agent耳机正式发布，有道AI耳机让声音变成生产力"
     ],
     [
       "08-28 10:34",
       "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)..."
+    ],
+    [
+      "08-28 09:40",
+      "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278708,
+      "s": 278710,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239278,
+      "s": 239279,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143214,
+      "s": 143215,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111656,
+      "s": 111658,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
