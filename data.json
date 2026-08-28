@@ -1,12 +1,12 @@
 {
-  "updated": "2026-08-28T09:11:42",
+  "updated": "2026-08-28T09:16:44",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-28T09:11",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
+      "c": "HOT",
+      "d": "2026-08-28T08:49",
+      "t": "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好",
+      "s": "AI 的终点可能是丰裕，但“丰裕社会”和现在之间，并不存在一条自动平滑的道路。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119483.html"
     },
     {
       "c": "MEDPHARMA",
@@ -87,13 +87,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T08:49",
-      "t": "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好",
-      "s": "AI 的终点可能是丰裕，但“丰裕社会”和现在之间，并不存在一条自动平滑的道路。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119483.html"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-28T08:22",
       "t": "一篇文章撬动450亿，25岁“AI股神”崩塌记",
       "s": "一场华尔街心照不宣的造神游戏。（来源：钛媒体）",
@@ -140,13 +133,16 @@
       "t": "Hugging Face 推出新款鸭形机器人：能捡东西、拥有独特音色，399 美元",
       "s": "北京时间今天（27 日）晚间，Hugging Face 旗下 Pollen Robotics 推出了可爱的新款 AI 机…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/306.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-27T22:01",
+      "t": "Adobe Photoshop 推出“AI 辅助编辑器”测试版：基于提示词的全新图像编辑模式",
+      "s": "Adobe 今日宣布为 Photoshop 新增“AI Assisted Editor”（AI 辅助编辑器）测试体验。该…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/305.htm"
     }
   ],
   "timeline": [
-    [
-      "08-28 09:11",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
-    ],
     [
       "08-28 08:49",
       "比尔·盖茨最新长文：AI 真正麻烦的，是我们还没准备好"
@@ -166,6 +162,10 @@
     [
       "08-28 08:17",
       "长隆抢跑全球首个具身智能主题乐园，游客会为机器人买单？"
+    ],
+    [
+      "08-28 08:17",
+      "走向场景落地，具身智能企业的下一步是什么"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278667,
+      "s": 278668,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239112,
+      "s": 239117,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208094,
+      "s": 208095,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172083,
+      "s": 172082,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134722,
+      "s": 134723,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111613,
+      "s": 111617,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90292,
+      "s": 90294,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
