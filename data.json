@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-28T17:06:49",
+  "updated": "2026-08-28T17:11:44",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T17:06",
+      "d": "2026-08-28T17:11",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T17:06",
+      "d": "2026-08-28T17:11",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -129,26 +129,26 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-28T15:07",
+      "t": "深度拆解 Claude 新功能：多个 Session 如何实现直接「对话」？",
+      "s": "一条消息背后，是寻址、调度与权限隔离的完整链路。 作者丨郑佳美 编辑丨岑 峰 这几天，Anthropic 给 Claud…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/dSoCcUg6tkrWeMwB.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-28T15:06",
       "t": "Pro 和 Flash 系列“冰火两重天”，曝谷歌内部开始测试 Gemini 3.8 Flash 模型",
       "s": "谷歌本月才刚发布新模型，下一款就已经进入员工测试阶段，部分谷歌员工开始试用 Gemini 3.8 Flash 预览版。据…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/594.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T15:05",
-      "t": "103μs 降到 18μs 背后，Cursor 为何剑指英伟达，重写 GPU？",
-      "s": "MoK：把 token 调度、跨 GPU 通信和专家计算塞进同一个 GPU 内核。 作者丨郑佳美 编辑丨岑 峰 7 月 …（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/3rOI5glxQEMnfWkL.html"
     }
   ],
   "timeline": [
     [
-      "08-28 17:06",
+      "08-28 17:11",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 17:06",
+      "08-28 17:11",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278793,
+      "s": 278797,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243831,
+      "s": 243835,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239565,
+      "s": 239571,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172157,
+      "s": 172161,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143244,
+      "s": 143245,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134776,
+      "s": 134778,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111732,
+      "s": 111734,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101520,
+      "s": 101521,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90377,
+      "s": 90378,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
