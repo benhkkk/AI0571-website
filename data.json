@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T19:21:40",
+  "updated": "2026-08-28T19:26:43",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T19:21",
+      "d": "2026-08-28T19:26",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -42,6 +42,13 @@
       "t": "宇树、拓斯达、越疆的上半年，藏着具身智能商业化的真实进度条",
       "s": "具身智能的商业化路径越来越清晰了。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118715.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T17:46",
+      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?",
+      "s": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679016704273302043/"
     },
     {
       "c": "MODEL",
@@ -133,18 +140,11 @@
       "t": "【AI 智能运维平台】本周更新：APM应用性能监测功能正式发布，性能瓶颈一目了然",
       "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502170"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T15:51",
-      "t": "威科集团与蚂蚁健康达成战略合作，JCO等28本医学顶刊上线阿福医生版",
-      "s": "从海外到中国，全球临床医生正加速将AI工具融入日常工作流。为切实帮医生减负提效、辅助诊疗，8月28日，蚂蚁健康宣布与全球…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/aihealth/KTUmk96pCdHsO4R5.html"
     }
   ],
   "timeline": [
     [
-      "08-28 19:21",
+      "08-28 19:26",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239692,
+      "s": 239698,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208276,
+      "s": 208278,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172171,
+      "s": 172172,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134796,
+      "s": 134799,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111774,
+      "s": 111775,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
