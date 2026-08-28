@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-28T21:06:51",
+  "updated": "2026-08-28T21:11:56",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T21:06",
+      "d": "2026-08-28T21:11",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-28T21:09",
+      "t": "灵掌机器人完成数千万元天使轮融资",
+      "s": "据《科创板日报》今天报道，工业具身机器人技术企业灵掌机器人近日完成数千万元天使轮融资，投资方包括凯龙高科、遨博智能、锡创…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/790.htm"
     },
     {
       "c": "HOT",
@@ -58,13 +65,6 @@
       "u": "https://www.tmtpost.com/8118715.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T17:46",
-      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?",
-      "s": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679016704273302043/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-28T17:45",
       "t": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
@@ -77,6 +77,13 @@
       "t": "机器人运动会落幕后，回看智元的冠军之路",
       "s": "8月26日，第二届世界机器人运动会正式闭幕，奖牌榜第一的位置变成了首次参与此项赛事的智元——18金16银12铜，金牌数和…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8120500.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T17:36",
+      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么？",
+      "s": "算法只是一小部分，但市场仍愿意为算法加价。 作者丨周蕾 编辑丨岑峰 上周，两条AI制药新闻在24小时之内，先后引燃了舆论…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/aihealth/rJaUKQDWe0u0pfDt.html"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "美图渴望重返青春",
       "s": "AI对成熟互联网公司的意义，是重新把一种创业公司的工作方式带回了大组织里。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8120412.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-28T16:13",
-      "t": "9.99 万美元：微星 XpertStation WS300 工作站开售，基于英伟达 DGX Station",
-      "s": "微星 XpertStation WS300 人工智能工作站今日在海外市场出货，新蛋（Newegg）平台报价为 99,99…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/658.htm"
     }
   ],
   "timeline": [
     [
-      "08-28 21:06",
+      "08-28 21:11",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-28 21:09",
+      "灵掌机器人完成数千万元天使轮融资"
     ],
     [
       "08-28 20:51",
@@ -162,10 +166,6 @@
     [
       "08-28 18:41",
       "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌"
-    ],
-    [
-      "08-28 18:26",
-      "机器人运动会：智元、天工、银河通用赢麻了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278870,
+      "s": 278871,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239791,
+      "s": 239794,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134813,
+      "s": 134817,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111804,
+      "s": 111806,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
