@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-28T15:41:40",
+  "updated": "2026-08-28T15:46:43",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T15:41",
+      "d": "2026-08-28T15:46",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T15:45",
+      "t": "首搭银河战舰 700，吉利 AI 新能源越野技术全球首发",
+      "s": "今天（28 日）下午，吉利汽车集团正式发布 AI 新能源越野技术。该技术汇集 GTA 原生新能源越野架构、全驱 AI 电…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/638.htm"
     },
     {
       "c": "HOT",
@@ -129,13 +136,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T11:20",
-      "t": "中国人民银行 9 月 4 日发行科创未来（人工智能）金银纪念币，图案含芯片、电路纹理等",
-      "s": "中国人民银行定于 2026 年 9 月 4 日发行科创未来（人工智能）金银纪念币一套。该套金银纪念币共 3 枚，其中金质…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/492.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-28T11:03",
       "t": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
       "s": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-28 15:41",
+      "08-28 15:46",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "08-28 15:45",
+      "首搭银河战舰 700，吉利 AI 新能源越野技术全球首发"
     ],
     [
       "08-28 15:28",
@@ -162,10 +166,6 @@
     [
       "08-28 14:22",
       "首款癌症疫苗，一针300万？？？"
-    ],
-    [
-      "08-28 14:22",
-      "Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278757,
+      "s": 278759,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243814,
+      "s": 243815,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239455,
+      "s": 239461,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208223,
+      "s": 208225,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172137,
+      "s": 172139,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134764,
+      "s": 134765,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111708,
+      "s": 111712,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101497,
+      "s": 101498,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90355,
+      "s": 90357,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
