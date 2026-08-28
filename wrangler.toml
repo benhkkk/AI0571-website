@@ -2,4 +2,16 @@ name = "ai0571-update-trigger"
 main = "worker.js"
 compatibility_date = "2026-08-01"
 
-# AI0571 定时更新触发器：从仓库 worker.js 构建，Cron Triggers 在 Cloudflare 控制台 Triggers 里设置
+# KV 命名空间：订阅者邮箱（在 Cloudflare 控制台创建后，把下方 id 替换为你自己的 namespace ID）
+[[kv_namespaces]]
+binding = "SUBS"
+id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+
+# Cron Triggers：
+#   */10 * * * *    每 10 分钟触发 GitHub Actions 抓取（原有）
+#   0 0 * * 1-5     每个工作日 UTC 00:00（= 北京 08:00）发送 AI 日报邮件
+[triggers]
+crons = ["*/10 * * * *", "0 0 * * 1-5"]
+
+# AI0571 统一 Worker：定时触发抓取 + 邮件订阅/日报。
+# 部署后还需在 Cloudflare 控制台给本 Worker 添加 Route：www.AI0571.com/api/*
