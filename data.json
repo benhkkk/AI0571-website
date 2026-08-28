@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T15:46:43",
+  "updated": "2026-08-28T15:51:46",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T15:46",
+      "d": "2026-08-28T15:51",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -35,6 +35,13 @@
       "t": "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式",
       "s": "路透社美国当地时间 27 日报道称，人工智能模型与服务企业 Anthropic 曾有意以约 70 亿美元（IT之家注：现…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/591.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T14:41",
+      "t": "英矽智能管理层回应AI制药商业化可持续性",
+      "s": "英矽智能管理层回应AI制药商业化可持续性（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678969046309585434/"
     },
     {
       "c": "MEDPHARMA",
@@ -133,18 +140,11 @@
       "t": "高德发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon，以12帧重建万帧3D场景",
       "s": "8月28日，阿里巴巴集团旗下高德正式发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480208.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T11:03",
-      "t": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
-      "s": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480202.html"
     }
   ],
   "timeline": [
     [
-      "08-28 15:46",
+      "08-28 15:51",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -164,8 +164,8 @@
       "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式"
     ],
     [
-      "08-28 14:22",
-      "首款癌症疫苗，一针300万？？？"
+      "08-28 14:41",
+      "英矽智能管理层回应AI制药商业化可持续性"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278759,
+      "s": 278761,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239461,
+      "s": 239472,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208225,
+      "s": 208228,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172139,
+      "s": 172141,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143234,
+      "s": 143236,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134765,
+      "s": 134766,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111712,
+      "s": 111713,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101498,
+      "s": 101499,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90357,
+      "s": 90358,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
