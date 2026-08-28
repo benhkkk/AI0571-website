@@ -459,8 +459,12 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-08-28T15:00', t:'消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式', s:'路透社美国当地时间 27 日报道称，人工智能模型与服务企业 Anthropic 曾有意以约 70 亿美元（IT之家注：现…（来源：IT之家）', u:'https://www.ithome.com/0/995/591.htm'},
+    {c:'MEDPHARMA', d:'2026-08-28T14:22', t:'首款癌症疫苗，一针300万？？？', s:'别让顶级治疗方法称为富人专属（来源：量子位）', u:'https://www.qbitai.com/2026/08/480557.html'},
+    {c:'MODEL', d:'2026-08-28T14:22', t:'Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣', s:'11 月 20 -21 日，由奇点智能研究院与 CSDN 联合主办的「奇点智能大会北京站」正式举行（来源：量子位）', u:'https://www.qbitai.com/2026/08/480482.html'},
     {c:'MEDPHARMA', d:'2026-08-28T14:17', t:'AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...', s:'AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678962853377884713/'},
     {c:'MODEL', d:'2026-08-28T14:15', t:'稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型', s:'腾讯官方今日发布了 Hy4 preview，总参数 770 B，激活参数 49 B，上下文长度 1M。官方表示，Hy4 …（来源：IT之家）', u:'https://www.ithome.com/0/995/570.htm'},
+    {c:'MODEL', d:'2026-08-28T14:13', t:'Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了', s:'Claude觉醒超体（来源：量子位）', u:'https://www.qbitai.com/2026/08/480487.html'},
     {c:'MODEL', d:'2026-08-28T14:12', t:'开源电子书工具 Calibre 9.14 发布：首次引入 AI 生成封面', s:'科技媒体 Linuxiac 今天（8 月 28 日）发布博文，报道称开源电子书管理器 Calibre 推出 9.14 版…（来源：IT之家）', u:'https://www.ithome.com/0/995/569.htm'},
     {c:'FUNDING', d:'2026-08-28T13:49', t:'被高估的视触觉：容易复制的生意，有多大投资价值？', s:'重新审视触视觉（来源：量子位）', u:'https://www.qbitai.com/2026/08/480236.html'},
     {c:'MODEL', d:'2026-08-28T13:10', t:'世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」', s:'机器人世界模型的下一场竞争，可能不是画质，是架构。 作者｜Li Yuan 编辑｜郑玄 一只机械臂的夹爪明明没有夹住杯子…（来源：极客公园）', u:'http://www.geekpark.net/news/369508'},
@@ -474,31 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-08-28T11:04', t:'国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上', s:'据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及…（来源：IT之家）', u:'https://www.ithome.com/0/995/481.htm'},
     {c:'HOT', d:'2026-08-28T11:03', t:'34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及', s:'8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）', u:'https://www.qbitai.com/2026/08/480202.html'},
     {c:'INDUSTRY', d:'2026-08-28T10:59', t:'WRC 2026 大复盘：具身智能告别「表演时代」，全面进入「算账时代」', s:'站在 2026 年 8 月北京世界机器人大会（WRC）的展馆中心，如果你闭上眼，听到的不再是两年前那种对“机器人像人一样…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/2zBk2GOuqMkjYsSy.html'},
-    {c:'MODEL', d:'2026-08-28T10:48', t:'全球首款专为iPhone用户打造的Agent耳机正式发布，有道AI耳机让声音变成生产力', s:'8月27日，网易有道正式发布OpenPods有道AI耳机。（来源：量子位）', u:'https://www.qbitai.com/2026/08/480083.html'},
-    {c:'MODEL', d:'2026-08-28T09:40', t:'HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄', s:'Hugging Face这把是真全员财富自由了啊o(╥﹏╥)o（来源：量子位）', u:'https://www.qbitai.com/2026/08/480186.html'},
-    {c:'MEDPHARMA', d:'2026-08-28T08:53', t:'清华系资本，投了一家深圳AI制药', s:'清华系资本，投了一家深圳AI制药（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678879149481673256/'},
-    {c:'MODEL', d:'2026-08-28T08:33', t:'特努斯时代首秀，苹果发布会定档 9 月 10 日；116 家公司联名信：重视 AI 时代网络安全；英伟达预计三季度营收破千亿美元 | 极客早知道', s:'特努斯首秀开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日 8 月 2…（来源：极客公园）', u:'http://www.geekpark.net/news/369481'},
-    {c:'HOT', d:'2026-08-28T08:09', t:'早报｜iPhone 17登顶Q2最畅销智能手机/《GTA6》公布26分钟实机演示/追觅咖啡回应多店闭店', s:'· 小鹏 Robotaxi 获广州全无人道路测试资质 · Anthropic 与 Nscale 签下 450 亿美元算力…（来源：爱范儿）', u:'https://www.ifanr.com/1677210?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MEDPHARMA', d:'2026-08-28T10:34', t:'AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...', s:'AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7678905217072529955/'},
   ];
   const TIMELINE = [
+    ['08-28 15:00','消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式'],
+    ['08-28 14:22','首款癌症疫苗，一针300万？？？'],
+    ['08-28 14:22','Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣'],
     ['08-28 14:17','AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...'],
     ['08-28 14:15','稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型'],
-    ['08-28 14:12','开源电子书工具 Calibre 9.14 发布：首次引入 AI 生成封面'],
-    ['08-28 13:49','被高估的视触觉：容易复制的生意，有多大投资价值？'],
-    ['08-28 13:10','世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」'],
-    ['08-28 12:46','Anthropic 推出 MHS 标准，首度重拳杀入物理 AI 领域'],
+    ['08-28 14:13','Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:278744, u:'https://github.com/obra/superpowers', new:false},
     {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:243810, u:'https://github.com/affaan-m/ECC', new:false},
     {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:239412, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:208219, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172123, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143231, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:208220, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172125, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143232, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:134758, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:111699, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101486, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90346, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90347, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
