@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-28T15:01:43",
+  "updated": "2026-08-28T15:06:46",
   "news": [
     {
       "c": "FUNDING",
@@ -7,20 +7,6 @@
       "t": "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式",
       "s": "路透社美国当地时间 27 日报道称，人工智能模型与服务企业 Anthropic 曾有意以约 70 亿美元（IT之家注：现…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/591.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T14:22",
-      "t": "首款癌症疫苗，一针300万？？？",
-      "s": "别让顶级治疗方法称为富人专属（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480557.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T14:22",
-      "t": "Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣",
-      "s": "11 月 20 -21 日，由奇点智能研究院与 CSDN 联合主办的「奇点智能大会北京站」正式举行（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480482.html"
     },
     {
       "c": "MEDPHARMA",
@@ -35,13 +21,6 @@
       "t": "稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型",
       "s": "腾讯官方今日发布了 Hy4 preview，总参数 770 B，激活参数 49 B，上下文长度 1M。官方表示，Hy4 …（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/570.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T14:13",
-      "t": "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了",
-      "s": "Claude觉醒超体（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480487.html"
     },
     {
       "c": "MODEL",
@@ -135,25 +114,38 @@
       "u": "https://www.leiphone.com/category/private/2zBk2GOuqMkjYsSy.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-08-28T10:48",
+      "t": "全球首款专为iPhone用户打造的Agent耳机正式发布，有道AI耳机让声音变成生产力",
+      "s": "8月27日，网易有道正式发布OpenPods有道AI耳机。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480083.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-08-28T10:34",
       "t": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...",
       "s": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7678905217072529955/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T09:40",
+      "t": "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄",
+      "s": "Hugging Face这把是真全员财富自由了啊o(╥﹏╥)o（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480186.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T08:53",
+      "t": "清华系资本，投了一家深圳AI制药",
+      "s": "清华系资本，投了一家深圳AI制药（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678879149481673256/"
     }
   ],
   "timeline": [
     [
       "08-28 15:00",
       "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式"
-    ],
-    [
-      "08-28 14:22",
-      "首款癌症疫苗，一针300万？？？"
-    ],
-    [
-      "08-28 14:22",
-      "Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣"
     ],
     [
       "08-28 14:17",
@@ -164,8 +156,16 @@
       "稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型"
     ],
     [
-      "08-28 14:13",
-      "Claude开始接管物理世界！能用机械臂阻拦5000万美元打款了"
+      "08-28 14:12",
+      "开源电子书工具 Calibre 9.14 发布：首次引入 AI 生成封面"
+    ],
+    [
+      "08-28 13:49",
+      "被高估的视触觉：容易复制的生意，有多大投资价值？"
+    ],
+    [
+      "08-28 13:10",
+      "世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278744,
+      "s": 278747,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243810,
+      "s": 243811,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239412,
+      "s": 239418,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208220,
+      "s": 208219,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172125,
+      "s": 172126,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111699,
+      "s": 111700,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101486,
+      "s": 101488,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90347,
+      "s": 90348,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
