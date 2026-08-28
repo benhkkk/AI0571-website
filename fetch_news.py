@@ -463,37 +463,10 @@ def build_news(items: list) -> list:
     """
     组装 NEWS 数组（保持原结构字段不变）：
       {c:'分类', d:'YYYY-MM-DDTHH:MM', t:'标题', s:'摘要（含来源标注）'}
-    头条卡 = 时间最新的一条（渲染时取数组第一位）。
-    其余条目在保证分类多样性前提下按时间倒序填充到 TARGET_NEWS 条。
+    按发布时间严格倒序取前 TARGET_NEWS 条；头条卡由渲染时取数组第一位。
     """
     items = sorted(items, key=lambda x: x["iso"], reverse=True)
-    if not items:
-        return []
-
-    headline = items[0]                       # 头条卡：最新一条
-    rest = items[1:]
-
-    # 分类均衡：医药/设备两类各保底 3 条（内容少需保护），通用四类各 2 条，
-    # 避免某分类刷屏、tab 无内容
-    by_cat = {}
-    for it in rest:
-        by_cat.setdefault(it["c"], []).append(it)
-    balanced = []
-    for cat, cap in (("MEDPHARMA", 3), ("MEDDEVICE", 3),
-                     ("MODEL", 2), ("FUNDING", 2), ("INDUSTRY", 2), ("HOT", 2)):
-        balanced.extend(by_cat.get(cat, [])[:cap])
-    # 剩余名额用最新条目补齐
-    selected = balanced
-    selected_ids = {id(x) for x in selected}
-    for it in rest:
-        if len(selected) >= TARGET_NEWS - 1:
-            break
-        if id(it) not in selected_ids:
-            selected.append(it)
-            selected_ids.add(id(it))
-
-    news = [headline] + selected[: TARGET_NEWS - 1]
-    return [make_entry(it) for it in news]
+    return [make_entry(it) for it in items[:TARGET_NEWS]]
 
 
 def build_timeline(items: list, n: int = TARGET_TIMELINE) -> list:
