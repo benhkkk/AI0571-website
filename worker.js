@@ -2,8 +2,8 @@
  * AI0571 统一 Worker（定时更新触发 + 邮件订阅/日报）
  * ===================================================
  * 职责：
- *  1) Cron `*/10 * * * *`       -> 触发 GitHub Actions 重新抓取资讯
- *  2) Cron `0 0 * * 1-5` (UTC) -> 每个工作日北京 08:00 发送 AI 日报邮件
+ *  1) 每10分钟触发 GitHub Actions 重新抓取资讯
+ *  2) 工作日 UTC 00:00（北京 08:00）发送 AI 日报邮件
  *  3) POST /api/subscribe       -> 收集订阅邮箱（写入 KV）
  *  4) GET  /api/unsubscribe     -> 退订（从 KV 删除）
  *  5) GET  /api/send-test       -> 手动触发一次发送（调试用，?to=邮箱 仅发一人）
@@ -12,7 +12,7 @@
  *  - Route：www.AI0571.com/api/* -> 本 Worker（同域，无需 CORS）
  *  - KV：绑定 SUBS（订阅者邮箱命名空间）
  *  - Secrets：GH_PAT（原有）、RESEND_API_KEY（Resend 密钥）
- *  - Cron Triggers：保留 */10 * * * *，新增 0 0 * * 1-5
+ *  - Cron Triggers：每10分钟抓取 + 工作日早8点发送
  */
 
 const CAT = { HOT: '热门', MODEL: '大模型', FUNDING: '融资', INDUSTRY: '行业', MEDPHARMA: '医药AI', MEDDEVICE: '设备AI' };
