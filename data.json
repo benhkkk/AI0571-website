@@ -1,26 +1,33 @@
 {
-  "updated": "2026-08-28T23:16:45",
+  "updated": "2026-08-28T23:21:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T23:16",
+      "d": "2026-08-28T23:21",
       "t": "#2024人工智能+仪器",
       "s": "#2024人工智能+仪器（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-621.html"
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T23:16",
+      "d": "2026-08-28T23:21",
       "t": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维",
       "s": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20241209/758413.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T23:16",
+      "d": "2026-08-28T23:21",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T23:19",
+      "t": "OpenAI 提交新请愿书，要求驳回苹果诉讼",
+      "s": "据科技媒体 MacObserver 今天报道，OpenAI 近日向法院提交申请，要求彻底驳回苹果的窃密诉讼。OpenAI…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/810.htm"
     },
     {
       "c": "INDUSTRY",
@@ -40,7 +47,7 @@
       "c": "MODEL",
       "d": "2026-08-28T23:00",
       "t": "前推特法律顾问创立“Twitter.now”，马斯克显然不太高兴",
-      "s": "前推特法律顾问近日推出“Twitter.now”网站，试图重新推特此前的使用体验，并加入 AI 驱动的事实核查系统。但埃…（来源：IT之家）",
+      "s": "前推特法律顾问近日推出“Twitter.now”网站，试图重塑推特此前的使用体验，并加入 AI 驱动的事实核查系统。但埃…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/806.htm"
     },
     {
@@ -115,13 +122,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-28T18:41",
-      "t": "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌",
-      "s": "据《韩民族日报》今天报道，SK 海力士首席执行官郭鲁正接受采访时表示，人工智能带动的内存半导体供应短缺，将持续到 203…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/767.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-28T18:26",
       "t": "机器人运动会：智元、天工、银河通用赢麻了",
       "s": "跑赢人类后，人形机器人的上半场结束了。（来源：钛媒体）",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-28 23:16",
+      "08-28 23:21",
       "#2024人工智能+仪器"
     ],
     [
-      "08-28 23:16",
+      "08-28 23:21",
       "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维"
     ],
     [
-      "08-28 23:16",
+      "08-28 23:21",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-28 23:19",
+      "OpenAI 提交新请愿书，要求驳回苹果诉讼"
     ],
     [
       "08-28 23:09",
@@ -162,10 +166,6 @@
     [
       "08-28 23:08",
       "美团 CEO 王兴：AI 模型和产品将用于支持主业发展，我们不会成为“Token 工厂”"
-    ],
-    [
-      "08-28 23:00",
-      "前推特法律顾问创立“Twitter.now”，马斯克显然不太高兴"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278931,
+      "s": 278935,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243894,
+      "s": 243896,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239907,
+      "s": 239913,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172219,
+      "s": 172221,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134851,
+      "s": 134854,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111857,
+      "s": 111861,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101569,
+      "s": 101570,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90449,
+      "s": 90451,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
