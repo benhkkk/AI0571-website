@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-28T22:56:55",
+  "updated": "2026-08-28T23:01:50",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-28T22:56",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-28T22:56",
+      "d": "2026-08-28T23:01",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T23:00",
+      "t": "前推特法律顾问创立“Twitter.now”，马斯克显然不太高兴",
+      "s": "前推特法律顾问近日推出“Twitter.now”网站，试图重新推特此前的使用体验，并加入 AI 驱动的事实核查系统。但埃…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/806.htm"
     },
     {
       "c": "INDUSTRY",
@@ -135,21 +135,21 @@
       "u": "https://www.ithome.com/0/995/690.htm"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-08-28T17:04",
-      "t": "丹麦政府推出紧急方案引导学生合理使用 AI，遏制“AI 作弊”行为",
-      "s": "据 CCTV 国际时讯报道，在今年夏天的考试季，丹麦多所高中 AI 作弊案例明显增多。随着生成式人工智能（AI）进入校园…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/684.htm"
+      "c": "MODEL",
+      "d": "2026-08-28T16:57",
+      "t": "给 AI 以“情感”，魔珐科技寻找有活人感的 Agent 作品",
+      "s": "大模型技术普及到今天，AI 应用的交互形态反而显得有点缺少“人情味”。大部分 AI 产品停留在文本对话框或单向语音播报…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502174"
     }
   ],
   "timeline": [
     [
-      "08-28 22:56",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
+      "08-28 23:01",
+      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-28 22:56",
-      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+      "08-28 23:00",
+      "前推特法律顾问创立“Twitter.now”，马斯克显然不太高兴"
     ],
     [
       "08-28 22:52",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278919,
+      "s": 278920,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243888,
+      "s": 243891,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239894,
+      "s": 239898,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208327,
+      "s": 208328,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172212,
+      "s": 172213,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143273,
+      "s": 143275,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134847,
+      "s": 134848,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111849,
+      "s": 111852,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101563,
+      "s": 101564,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
