@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-28T14:31:53",
+  "updated": "2026-08-28T14:36:46",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T14:17",
+      "t": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...",
+      "s": "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7678962853377884713/"
+    },
     {
       "c": "MODEL",
       "d": "2026-08-28T14:15",
@@ -100,13 +107,6 @@
       "u": "https://www.qbitai.com/2026/08/480083.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T10:34",
-      "t": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...",
-      "s": "AI制药迈向智能化自主验证新时代，科创医药ETF华夏(588130)...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7678905217072529955/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-28T09:40",
       "t": "HuggingFace被曝卖身英伟达：129亿美元！全球最大AI开源平台改姓黄",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "08-28 14:17",
+      "AI制药公司业绩会| 无论AI在研发中表现多亮眼，BD是硬指标，..."
+    ],
+    [
       "08-28 14:15",
       "稳居开源模型第一梯队，腾讯发布混元 Hy4 preview 模型"
     ],
@@ -162,10 +166,6 @@
     [
       "08-28 12:09",
       "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移"
-    ],
-    [
-      "08-28 12:09",
-      "700个Agent串联起来，成立了一家“地下公司”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278735,
+      "s": 278736,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239384,
+      "s": 239387,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208210,
+      "s": 208211,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172118,
+      "s": 172120,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111691,
+      "s": 111692,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90339,
+      "s": 90340,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
