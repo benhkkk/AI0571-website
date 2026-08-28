@@ -2,10 +2,10 @@ name = "ai0571-update-trigger"
 main = "worker.js"
 compatibility_date = "2026-08-01"
 
-# KV 命名空间：订阅者邮箱（在 Cloudflare 控制台创建后，把下方 id 替换为你自己的 namespace ID）
+# KV 命名空间：订阅者邮箱
 [[kv_namespaces]]
 binding = "SUBS"
-id = "REPLACE_WITH_YOUR_KV_NAMESPACE_ID"
+id = "03d445998a424254978a56bdb98c5dc7"
 
 # Cron Triggers：
 #   */10 * * * *    每 10 分钟触发 GitHub Actions 抓取（原有）
