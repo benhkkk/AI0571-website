@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T15:16:44",
+  "updated": "2026-08-28T15:21:42",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T15:16",
+      "d": "2026-08-28T15:21",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -128,23 +128,23 @@
       "u": "https://www.ithome.com/0/995/492.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-28T11:04",
-      "t": "国家发改委：发展机器人产业必须因地制宜，防止盲目跟风、一哄而上",
-      "s": "据国家发展改革委官网文字实录，国家发展改革委政策研究室副主任李超在今日的发改委 8 月份例行发布会上表示，机器人产业涉及…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/481.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-28T11:03",
       "t": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
       "s": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480202.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T10:59",
+      "t": "WRC 2026 大复盘：具身智能告别「表演时代」，全面进入「算账时代」",
+      "s": "站在 2026 年 8 月北京世界机器人大会（WRC）的展馆中心，如果你闭上眼，听到的不再是两年前那种对“机器人像人一样…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/private/2zBk2GOuqMkjYsSy.html"
     }
   ],
   "timeline": [
     [
-      "08-28 15:16",
+      "08-28 15:21",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278747,
+      "s": 278750,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239427,
+      "s": 239431,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172130,
+      "s": 172131,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134759,
+      "s": 134760,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111701,
+      "s": 111702,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101490,
+      "s": 101491,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90348,
+      "s": 90350,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
