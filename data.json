@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-28T15:36:48",
+  "updated": "2026-08-28T15:41:40",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-08-28T15:36",
+      "d": "2026-08-28T15:41",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
@@ -14,62 +14,6 @@
       "t": "美国加州联邦法官裁定 Anthropic 在与美国国防部等的诉讼中胜诉",
       "s": "美国加利福尼亚州北区联邦地方法院当地时间 8 月 27 日做出裁决，认定 Anthropic 在与美国国防部（战争部）等…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/602.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:27",
-      "t": "Jalapeño 跑分炸场，GPU 推理路线开始分裂？",
-      "s": "Token 成本成为大模型硬件竞争的新坐标。 作者丨郑佳美 编辑丨岑 峰 今天，OpenAI 的自研推理芯片 Jalap…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/B0TkvWHMs5AJIym6.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T15:25",
-      "t": "Sora 为什么输给 Codex？",
-      "s": "GPU 时间能否被复用，开始决定产品的扩张速度。 作者丨郑佳美 编辑丨岑 峰 8 月 23 日，奥特曼在 David S…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/aolA6aSnqLoYTm3d.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T15:24",
-      "t": "一段视频，让机器人学会开门并穿越：Video2DoorTraversal 如何打通 Real-to-Sim-to-Real",
-      "s": "对人来说，推门近乎是一种下意识动作。对移动操作机器人来说，这是一道把感知、移动、操作和控制绑在一起的综合题。机器人需要找…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/H2PFxmf25qYtFbee.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:23",
-      "t": "Claude Code 额度回落：Agent 正在制造新的「祖传代码屎山」？",
-      "s": "代码确实是 Agent 写的，只是后来的 Agent 已经不知道前面的 Agent 为什么这么写了。 作者丨郑佳美 编辑…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/5weAutjetefMob2a.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:21",
-      "t": "Cursor Origin 上线，GitHub 的老玩法还够用吗？",
-      "s": "代码仓库的主人，正在从人变成 Agent。 作者丨郑佳美 编辑丨岑 峰 8 月 17 日，GitHub 出现大范围服务异…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/BkzW0yPibWRl8D7U.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:20",
-      "t": "Anthropic 技术栈里的「五宗罪」由何而来？",
-      "s": "代码低熵、上下文污染、错误回灌正在同时压住 Claude。 作者丨郑佳美 编辑丨岑 峰 比模型跑分掉了更麻烦的，是模型还…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/aOdmq7dqZFokTCzh.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:17",
-      "t": "大晓联合香港大学发布StreamPI，让 VLA 真正理解时间，迈向连续物理智能",
-      "s": "当 VLA 模型理解语言、感知环境并直接生成机器人动作，一个更基础的问题开始浮现：机器人如何理解一个持续变化的物理世界？…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/ncVQF4d9AckBMZwP.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-28T15:12",
-      "t": "GPT、Claude 遭遇窃听门：换个模型就能让思维链不再隐身？",
-      "s": "全球主流 AI API 集体翻车，隐藏推理被成功还原，谁在偷听 AI 的「心声」？ 作者丨郑佳美 编辑丨岑 峰 昨天，X…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/SXiTNHh5eeN9ntTt.html"
     },
     {
       "c": "MODEL",
@@ -140,11 +84,67 @@
       "t": "世界模型进入下半场：自变量 WALL-SS 突破三大瓶颈，让虚拟世界成为机器人的「训练场」",
       "s": "机器人世界模型的下一场竞争，可能不是画质，是架构。 作者｜Li Yuan 编辑｜郑玄 一只机械臂的夹爪明明没有夹住杯子…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369508"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T12:46",
+      "t": "Anthropic 推出 MHS 标准，首度重拳杀入物理 AI 领域",
+      "s": "Anthropic 昨日（8 月 27 日）发布博文，宣布以研究预览形式，发布模型硬件标准（Model Hardware…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/514.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T12:09",
+      "t": "商汤大装置助力智象未来实现视频生成业务向国产算力无感迁移",
+      "s": "国产算力跑通视频生成规模化应用（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480227.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T12:09",
+      "t": "700个Agent串联起来，成立了一家“地下公司”",
+      "s": "拉群、派活儿、共享经验，还一起闯进了Hugging Face。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120181.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T12:06",
+      "t": "智谱 GLM-5.3-Flash上线，商汤大装置提供国产算力支持",
+      "s": "国产异构助力前沿智能进入普惠时代（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480223.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T11:46",
+      "t": "机器人卖出去4万台之后，供应链能接住万亿市场需求么？",
+      "s": "具身产业跑起来之后，供应链跟得上吗？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8119874.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-28T11:45",
+      "t": "高德发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon，以12帧重建万帧3D场景",
+      "s": "8月28日，阿里巴巴集团旗下高德正式发布首个无长程依赖的万帧级流式3D重建模型ABot-Recon。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480208.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T11:20",
+      "t": "中国人民银行 9 月 4 日发行科创未来（人工智能）金银纪念币，图案含芯片、电路纹理等",
+      "s": "中国人民银行定于 2026 年 9 月 4 日发行科创未来（人工智能）金银纪念币一套。该套金银纪念币共 3 枚，其中金质…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/492.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T11:03",
+      "t": "34克、全天候AI，1996元起，雷鸟iO热卖加速智能眼镜全民普及",
+      "s": "8 月 27 日，全球领先消费级 AR 品牌雷鸟创新（RayNeo）公布雷鸟 iO 首销战报（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480202.html"
     }
   ],
   "timeline": [
     [
-      "08-28 15:36",
+      "08-28 15:41",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
@@ -152,20 +152,20 @@
       "美国加州联邦法官裁定 Anthropic 在与美国国防部等的诉讼中胜诉"
     ],
     [
-      "08-28 15:27",
-      "Jalapeño 跑分炸场，GPU 推理路线开始分裂？"
+      "08-28 15:06",
+      "Pro 和 Flash 系列“冰火两重天”，曝谷歌内部开始测试 Gemini 3.8 Flash 模型"
     ],
     [
-      "08-28 15:25",
-      "Sora 为什么输给 Codex？"
+      "08-28 15:00",
+      "消息称 Anthropic 曾有意收购芯片企业 MatX，双方谈判现已转向合作模式"
     ],
     [
-      "08-28 15:24",
-      "一段视频，让机器人学会开门并穿越：Video2DoorTraversal 如何打通 Real-to-Sim-to-Real"
+      "08-28 14:22",
+      "首款癌症疫苗，一针300万？？？"
     ],
     [
-      "08-28 15:23",
-      "Claude Code 额度回落：Agent 正在制造新的「祖传代码屎山」？"
+      "08-28 14:22",
+      "Łukasz Kaiser领衔，2026 奇点智能技术大会北京站正式官宣"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278755,
+      "s": 278757,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243812,
+      "s": 243814,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239449,
+      "s": 239455,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208222,
+      "s": 208223,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172135,
+      "s": 172137,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143233,
+      "s": 143234,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134763,
+      "s": 134764,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111707,
+      "s": 111708,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90349,
+      "s": 90355,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
