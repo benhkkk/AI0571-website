@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-28T19:56:44",
+  "updated": "2026-08-28T20:01:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T19:56",
+      "d": "2026-08-28T20:01",
+      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
+      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T20:01",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -133,18 +140,15 @@
       "t": "9.99 万美元：微星 XpertStation WS300 工作站开售，基于英伟达 DGX Station",
       "s": "微星 XpertStation WS300 人工智能工作站今日在海外市场出货，新蛋（Newegg）平台报价为 99,99…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/658.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T16:12",
-      "t": "禾赛、速腾卷向机器人，赚到钱了吗？",
-      "s": "机器人雷达上量，毛利率还在降。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119669.html"
     }
   ],
   "timeline": [
     [
-      "08-28 19:56",
+      "08-28 20:01",
+      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
+    ],
+    [
+      "08-28 20:01",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-28 18:26",
       "机器人运动会：智元、天工、银河通用赢麻了"
-    ],
-    [
-      "08-28 18:18",
-      "华硕成立物理 AI 事业群，人形机器人计划 9 月上路"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 278845,
+      "s": 278848,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239722,
+      "s": 239724,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90413,
+      "s": 90416,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
