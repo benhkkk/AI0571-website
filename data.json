@@ -1,19 +1,12 @@
 {
-  "updated": "2026-08-28T21:36:46",
+  "updated": "2026-08-28T21:41:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-28T21:36",
+      "d": "2026-08-28T21:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T21:28",
-      "t": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...",
-      "s": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679073693955310131/"
     },
     {
       "c": "FUNDING",
@@ -93,13 +86,6 @@
       "u": "https://www.tmtpost.com/8118715.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T17:46",
-      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?",
-      "s": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679016704273302043/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-28T17:45",
       "t": "刚刚，港股AGI第一股杀疯了！Agent业务半年进账近5亿，Token收入Q2暴涨500%",
@@ -112,6 +98,13 @@
       "t": "机器人运动会落幕后，回看智元的冠军之路",
       "s": "8月26日，第二届世界机器人运动会正式闭幕，奖牌榜第一的位置变成了首次参与此项赛事的智元——18金16银12铜，金牌数和…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8120500.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T17:36",
+      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么？",
+      "s": "算法只是一小部分，但市场仍愿意为算法加价。 作者丨周蕾 编辑丨岑峰 上周，两条AI制药新闻在24小时之内，先后引燃了舆论…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/aihealth/rJaUKQDWe0u0pfDt.html"
     },
     {
       "c": "HOT",
@@ -140,16 +133,19 @@
       "t": "给 AI 以“情感”，魔珐科技寻找有活人感的 Agent 作品",
       "s": "大模型技术普及到今天，AI 应用的交互形态反而显得有点缺少“人情味”。大部分 AI 产品停留在文本对话框或单向语音播报…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502174"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-28T16:47",
+      "t": "运动会大赢家智元，能复刻宇树4千亿神话吗？",
+      "s": "智元机器人在第二届世界人形机器人运动会斩获18金，验证其量产机型在运动与作业场景的硬实力。公司正冲刺港股IPO，三年营收…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120094.html"
     }
   ],
   "timeline": [
     [
-      "08-28 21:36",
+      "08-28 21:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
-    ],
-    [
-      "08-28 21:28",
-      "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本..."
     ],
     [
       "08-28 21:09",
@@ -166,6 +162,10 @@
     [
       "08-28 19:23",
       "WRC2026 | 别急着给机器人更强「大脑」，先补上更省电的神经系统"
+    ],
+    [
+      "08-28 19:17",
+      "新云厂商发现，最赚钱的可能不是卖GPU"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243876,
+      "s": 243877,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 239821,
+      "s": 239824,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208306,
+      "s": 208307,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172194,
+      "s": 172197,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134822,
+      "s": 134825,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 111814,
+      "s": 111818,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101552,
+      "s": 101555,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
