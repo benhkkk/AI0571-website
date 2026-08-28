@@ -10,7 +10,8 @@
  * 无需配置 Worker Route，因此本文件只保留 cron 逻辑。
  *
  * 部署：wrangler.toml 已配置 KV(SUBS) + 两个 Cron；本文件由 Cloudflare
- *       Git 集成自动部署。
+ *       Git 集成自动部署。本 Worker 只跑 Cron，HTTP 端点已全部迁移到
+ *       Pages Functions（/functions/api/*）。
  */
 
 const CAT = { HOT: '热门', MODEL: '大模型', FUNDING: '融资', INDUSTRY: '行业', MEDPHARMA: '医药AI', MEDDEVICE: '设备AI' };
