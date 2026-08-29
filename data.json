@@ -1,30 +1,16 @@
 {
-  "updated": "2026-08-29T08:41:50",
+  "updated": "2026-08-29T08:46:43",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T08:41",
-      "t": "#AI与科学仪器",
-      "s": "#AI与科学仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-811.html"
+      "d": "2026-08-29T08:46",
+      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
+      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-08-29T08:41",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T08:41",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T08:41",
+      "d": "2026-08-29T08:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,23 +126,29 @@
       "t": "🔥 新增 DeepSeek V4 Flash，支持推理续调与联网搜索：开源 AI 无代码平台 NocoBase",
       "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502182"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T19:23",
+      "t": "WRC2026 | 别急着给机器人更强「大脑」，先补上更省电的神经系统",
+      "s": "类脑计算正从感知和低层控制切入机器人。 作者丨魏溶 编辑丨岑峰 “如果未来全球真的部署10亿至100亿台高度依赖AI的人…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/iot/wSd8yNXuuYwSg9hp.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T19:17",
+      "t": "新云厂商发现，最赚钱的可能不是卖GPU",
+      "s": "一年前，AI云服务商Nebius创始人兼CEO Arkady Volozh还在回答一个问题：谁会买那么多GPU？一年后…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/3WOuErnlJ5cLepP7.html"
     }
   ],
   "timeline": [
     [
-      "08-29 08:41",
-      "#AI与科学仪器"
+      "08-29 08:46",
+      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
     ],
     [
-      "08-29 08:41",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
-    [
-      "08-29 08:41",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
-    ],
-    [
-      "08-29 08:41",
+      "08-29 08:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +158,14 @@
     [
       "08-29 08:32",
       "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃"
+    ],
+    [
+      "08-29 08:23",
+      "Edge AI Daily 早报（8月29日）"
+    ],
+    [
+      "08-29 08:21",
+      "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240221,
+      "s": 240223,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208409,
+      "s": 208410,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 134986,
+      "s": 134987,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
