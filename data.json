@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-29T18:01:54",
+  "updated": "2026-08-29T18:06:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T18:01",
+      "d": "2026-08-29T18:06",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -14,6 +14,13 @@
       "t": "国内首个车载移动式词元工厂亮相，探索算电协同新模式",
       "s": "据央视财经今天报道，国内首个车载移动式词元工厂近日亮相。它通过搭载国产算力和能源管理系统，更加灵活地匹配人工智能算力需求…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/975.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T18:00",
+      "t": "中国版 Hugging Face 是怎么造出来的",
+      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502197"
     },
     {
       "c": "FUNDING",
@@ -133,23 +140,20 @@
       "t": "人形机器人，进入淘汰赛",
       "s": "落地为王。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121235.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T08:32",
-      "t": "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃",
-      "s": "消息称 Anthropic 最早 10 天后公布招股书 据知情人士称，Anthropic 计划在美国劳动节（9 月 7 …（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369549"
     }
   ],
   "timeline": [
     [
-      "08-29 18:01",
+      "08-29 18:06",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
       "08-29 18:00",
       "国内首个车载移动式词元工厂亮相，探索算电协同新模式"
+    ],
+    [
+      "08-29 18:00",
+      "中国版 Hugging Face 是怎么造出来的"
     ],
     [
       "08-29 17:51",
@@ -162,10 +166,6 @@
     [
       "08-29 17:35",
       "推广 Claude 遭网友狂喷，加拿大博主称使用 AI 正成为社交禁忌"
-    ],
-    [
-      "08-29 17:17",
-      "微软 XBOX CEO 夏尔马：次世代游戏主机需应对 AI 引发的“内存末日”问题"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244048,
+      "s": 244047,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240530,
+      "s": 240533,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208508,
+      "s": 208510,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112132,
+      "s": 112131,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
