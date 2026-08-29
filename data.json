@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T17:51:51",
+  "updated": "2026-08-29T17:56:43",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T17:51",
+      "d": "2026-08-29T17:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T17:51",
+      "t": "AI 时代，开源为什么越来越值钱",
+      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502195"
     },
     {
       "c": "FUNDING",
@@ -133,19 +140,16 @@
       "t": "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃",
       "s": "消息称 Anthropic 最早 10 天后公布招股书 据知情人士称，Anthropic 计划在美国劳动节（9 月 7 …（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369549"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-29T08:21",
-      "t": "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万",
-      "s": "· 意大利拟对过马路看手机的行人罚款 75 欧元 · 电动重卡销量上升，商业险却成了上路难题 · 国家发改委：机器人产业…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1676877?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "08-29 17:51",
+      "08-29 17:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 17:51",
+      "AI 时代，开源为什么越来越值钱"
     ],
     [
       "08-29 17:42",
@@ -162,10 +166,6 @@
     [
       "08-29 16:44",
       "马斯克炮轰 OpenAI 断供 Cursor：我才不在乎，奥尔特曼、布罗克曼就是小偷"
-    ],
-    [
-      "08-29 15:57",
-      "2025 年我国智能体专利授权量超过 3400 件，增速是上一年两倍以上"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279184,
+      "s": 279186,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244046,
+      "s": 244047,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240527,
+      "s": 240529,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208504,
+      "s": 208506,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172363,
+      "s": 172364,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112126,
+      "s": 112128,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
