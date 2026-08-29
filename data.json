@@ -1,12 +1,26 @@
 {
-  "updated": "2026-08-29T15:36:41",
+  "updated": "2026-08-29T15:38:52",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T15:36",
+      "d": "2026-08-29T15:38",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T15:37",
+      "t": "行业首个量子增强型大模型“玄幂 Xenomi”发布：深度融合 AI 与量子计算",
+      "s": "据“国光量子”公众号 27 日推文，国光量超人工智能研究团队将相关量子技术引入大语言模型的决策与推理过程，并面向科研和学…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/921.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-29T15:33",
+      "t": "今年最好的机器人落地场景，可能在上海一家冰淇凌店",
+      "s": "只做真正有价值的事，而非做给别人看（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121421.html"
     },
     {
       "c": "MODEL",
@@ -114,13 +128,6 @@
       "u": "https://www.tmtpost.com/8121144.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-29T11:08",
-      "t": "国产 GPU 厂商壁仞科技上半年收入 12.36 亿元，同比增长 1997.6%",
-      "s": "国产 GPU 厂商壁仞科技昨晚发布公告，截至 2026 年 6 月 30 日止六个月公司收入 12.36 亿元，同比增长…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/887.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-08-29T08:32",
       "t": "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃",
@@ -133,19 +140,20 @@
       "t": "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万",
       "s": "· 意大利拟对过马路看手机的行人罚款 75 欧元 · 电动重卡销量上升，商业险却成了上路难题 · 国家发改委：机器人产业…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1676877?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T23:36",
-      "t": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
-      "s": "我的自媒体搭子太能卷，一顿饭功夫17份成品（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480700.html"
     }
   ],
   "timeline": [
     [
-      "08-29 15:36",
+      "08-29 15:38",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 15:37",
+      "行业首个量子增强型大模型“玄幂 Xenomi”发布：深度融合 AI 与量子计算"
+    ],
+    [
+      "08-29 15:33",
+      "今年最好的机器人落地场景，可能在上海一家冰淇凌店"
     ],
     [
       "08-29 15:13",
@@ -158,14 +166,6 @@
     [
       "08-29 14:47",
       "AI 会冲垮软件行业？Anthropic CEO 阿莫迪：我们无意摧毁任何人"
-    ],
-    [
-      "08-29 13:58",
-      "腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷"
-    ],
-    [
-      "08-29 13:36",
-      "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279151,
+      "s": 279153,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240432,
+      "s": 240434,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208476,
+      "s": 208477,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172347,
+      "s": 172346,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143333,
+      "s": 143334,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
