@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-29T09:26:47",
+  "updated": "2026-08-29T09:31:47",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-08-29T09:26",
-      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
-      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-29T09:26",
+      "d": "2026-08-29T09:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "新云厂商发现，最赚钱的可能不是卖GPU",
       "s": "一年前，AI云服务商Nebius创始人兼CEO Arkady Volozh还在回答一个问题：谁会买那么多GPU？一年后…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/chips/3WOuErnlJ5cLepP7.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T19:13",
+      "t": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
+      "s": "久久不愿来到台前的智元掌舵人（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480666.html"
     }
   ],
   "timeline": [
     [
-      "08-29 09:26",
-      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
-    ],
-    [
-      "08-29 09:26",
+      "08-29 09:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-29 08:23",
       "Edge AI Daily 早报（8月29日）"
+    ],
+    [
+      "08-29 08:21",
+      "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240245,
+      "s": 240246,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172286,
+      "s": 172288,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143307,
+      "s": 143308,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
