@@ -1,16 +1,30 @@
 {
-  "updated": "2026-08-30T06:11:45",
+  "updated": "2026-08-30T06:16:42",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-30T06:11",
-      "t": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注",
-      "s": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250224/768984.shtml"
+      "c": "HOT",
+      "d": "2026-08-30T06:16",
+      "t": "#机器人赛道26年数据盘点",
+      "s": "#机器人赛道26年数据盘点（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-836.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-30T06:16",
+      "t": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”",
+      "s": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260624/925608.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-08-30T06:11",
+      "d": "2026-08-30T06:16",
+      "t": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点",
+      "s": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260622/923670.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T06:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -126,29 +140,23 @@
       "t": "AI 时代的代码库，为什么成了兵家必争之地",
       "s": "前阵子有一条新闻，圈里人聊得不少。OpenAI 的智能体，为了在 Hugging Face 的评测榜单上拿第一，主动攻击…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502198"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T18:00",
-      "t": "国内首个车载移动式词元工厂亮相，探索算电协同新模式",
-      "s": "据央视财经今天报道，国内首个车载移动式词元工厂近日亮相。它通过搭载国产算力和能源管理系统，更加灵活地匹配人工智能算力需求…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/975.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T18:00",
-      "t": "中国版 Hugging Face 是怎么造出来的",
-      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502197"
     }
   ],
   "timeline": [
     [
-      "08-30 06:11",
-      "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注"
+      "08-30 06:16",
+      "#机器人赛道26年数据盘点"
     ],
     [
-      "08-30 06:11",
+      "08-30 06:16",
+      "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”"
+    ],
+    [
+      "08-30 06:16",
+      "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点"
+    ],
+    [
+      "08-30 06:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -158,14 +166,6 @@
     [
       "08-29 21:39",
       "英伟达“看中”Hugging Face，开放权重 AI 模型成硅谷热门收购目标"
-    ],
-    [
-      "08-29 21:25",
-      "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快"
-    ],
-    [
-      "08-29 21:11",
-      "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279362,
+      "s": 279363,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240962,
+      "s": 240964,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135155,
+      "s": 135156,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101751,
+      "s": 101752,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90695,
+      "s": 90696,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
