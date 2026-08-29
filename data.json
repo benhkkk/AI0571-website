@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T17:16:47",
+  "updated": "2026-08-29T17:21:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T17:16",
+      "d": "2026-08-29T17:21",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T17:17",
+      "t": "微软 XBOX CEO 夏尔马：次世代游戏主机需应对 AI 引发的“内存末日”问题",
+      "s": "微软 XBOX CEO 阿莎 · 夏尔马近日接受 BBC 采访时透露，她非常清楚当前游戏主机面临的价格困境，并希望重点关…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/966.htm"
     },
     {
       "c": "MODEL",
@@ -35,6 +42,13 @@
       "t": "今年最好的机器人落地场景，可能在上海一家冰淇凌店",
       "s": "只做真正有价值的事，而非做给别人看（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121421.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T15:20",
+      "t": "从Data到Agent：华为云AI-Ready数据基础设施全链路能力亮相数博会",
+      "s": "8月28日，在2026中国国际大数据产业博览会期间，以“从数据到Agent，数据价值链的重构与创新”为主题的数据要素大会…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/5HSY98yO7OtW5EGw.html"
     },
     {
       "c": "MODEL",
@@ -100,13 +114,6 @@
       "u": "https://www.tmtpost.com/8121332.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-29T12:35",
-      "t": "科大讯飞推出学生耳机 Pro 头戴式产品：30 小时续航、支持“实时耳返与跟读”功能，399 元",
-      "s": "科大讯飞现已在京东上架一款“讯飞学生耳机 Pro”头戴式耳机，该产品提供 30 小时续航、支持 ENC 降噪，定价为 3…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/897.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-08-29T12:19",
       "t": "人形机器人，进入淘汰赛",
@@ -133,19 +140,16 @@
       "t": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
       "s": "我的自媒体搭子太能卷，一顿饭功夫17份成品（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480700.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T21:28",
-      "t": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...",
-      "s": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679073693955310131/"
     }
   ],
   "timeline": [
     [
-      "08-29 17:16",
+      "08-29 17:21",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 17:17",
+      "微软 XBOX CEO 夏尔马：次世代游戏主机需应对 AI 引发的“内存末日”问题"
     ],
     [
       "08-29 16:44",
@@ -162,10 +166,6 @@
     [
       "08-29 15:33",
       "今年最好的机器人落地场景，可能在上海一家冰淇凌店"
-    ],
-    [
-      "08-29 15:13",
-      "Anthropic 官宣 Claude Code 打通桌面端与终端"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279174,
+      "s": 279176,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244041,
+      "s": 244040,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240505,
+      "s": 240506,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208495,
+      "s": 208497,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112114,
+      "s": 112115,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101681,
+      "s": 101683,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90579,
+      "s": 90581,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
