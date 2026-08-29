@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T17:31:44",
+  "updated": "2026-08-29T17:36:52",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T17:31",
+      "d": "2026-08-29T17:36",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T17:35",
+      "t": "推广 Claude 遭网友狂喷，加拿大博主称使用 AI 正成为社交禁忌",
+      "s": "据《商业内幕》今天报道，位于加拿大渥太华的社交媒体创作者艾玛 · 奥尔洪（IT之家注：Emma Orhun）近期因推广 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/969.htm"
     },
     {
       "c": "HOT",
@@ -80,13 +87,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-29T13:36",
-      "t": "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档",
-      "s": "芒果 TV AIGC 创新内容中心制作、伯璟文化承制的神话题材季播剧《后西游记》第一季“花果山篇”，将于 8 月 31 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/901.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-29T12:46",
       "t": "宇树市值大跌后，能否继续扛起具身智能大旗",
       "s": "压力给到王兴兴（来源：钛媒体）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-29 17:31",
+      "08-29 17:36",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 17:35",
+      "推广 Claude 遭网友狂喷，加拿大博主称使用 AI 正成为社交禁忌"
     ],
     [
       "08-29 17:17",
@@ -162,10 +166,6 @@
     [
       "08-29 15:37",
       "行业首个量子增强型大模型“玄幂 Xenomi”发布：深度融合 AI 与量子计算"
-    ],
-    [
-      "08-29 15:33",
-      "今年最好的机器人落地场景，可能在上海一家冰淇凌店"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244041,
+      "s": 244042,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240511,
+      "s": 240515,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208499,
+      "s": 208501,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172361,
+      "s": 172362,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112117,
+      "s": 112118,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
