@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-29T15:26:48",
+  "updated": "2026-08-29T15:31:43",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T15:26",
-      "t": "免费VS付费仪信通AI会员对比，看这篇就够了",
-      "s": "免费VS付费仪信通AI会员对比，看这篇就够了（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260827/966240.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T15:26",
+      "d": "2026-08-29T15:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万",
       "s": "· 意大利拟对过马路看手机的行人罚款 75 欧元 · 电动重卡销量上升，商业险却成了上路难题 · 国家发改委：机器人产业…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1676877?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T23:36",
+      "t": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
+      "s": "我的自媒体搭子太能卷，一顿饭功夫17份成品（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480700.html"
     }
   ],
   "timeline": [
     [
-      "08-29 15:26",
-      "免费VS付费仪信通AI会员对比，看这篇就够了"
-    ],
-    [
-      "08-29 15:26",
+      "08-29 15:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-29 13:58",
       "腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷"
+    ],
+    [
+      "08-29 13:36",
+      "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244018,
+      "s": 244019,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240427,
+      "s": 240429,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208476,
+      "s": 208477,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172343,
+      "s": 172346,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143333,
+      "s": 143334,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135039,
+      "s": 135041,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112098,
+      "s": 112099,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101669,
+      "s": 101668,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90562,
+      "s": 90564,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
