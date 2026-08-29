@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T11:26:43",
+  "updated": "2026-08-29T11:31:44",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T11:26",
+      "d": "2026-08-29T11:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T11:21",
+      "t": "打不过就加入？三大唱片巨头豪掷5亿，入股AI绘图“鼻祖”",
+      "s": "三大唱片巨头给 Stability AI投了5个亿（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121144.html"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "新云厂商发现，最赚钱的可能不是卖GPU",
       "s": "一年前，AI云服务商Nebius创始人兼CEO Arkady Volozh还在回答一个问题：谁会买那么多GPU？一年后…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/chips/3WOuErnlJ5cLepP7.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T19:13",
-      "t": "《时代》周刊全球AI 100放榜，精准捕获稚晖君最“想低调”的幕后老板",
-      "s": "久久不愿来到台前的智元掌舵人（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480666.html"
     }
   ],
   "timeline": [
     [
-      "08-29 11:26",
+      "08-29 11:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 11:21",
+      "打不过就加入？三大唱片巨头豪掷5亿，入股AI绘图“鼻祖”"
     ],
     [
       "08-29 11:08",
@@ -162,10 +166,6 @@
     [
       "08-29 09:59",
       "从“AI时代已开始”到“最动荡的转型期”：盖茨这三年看见了什么"
-    ],
-    [
-      "08-29 09:55",
-      "开源鸿蒙机器人操作系统 M-Robots OS 3.0 Beta 版发布，重心从“单机能力”转向“群体智能”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279091,
+      "s": 279095,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243987,
+      "s": 243988,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172305,
+      "s": 172307,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135012,
+      "s": 135014,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112039,
+      "s": 112040,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
