@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T07:41:48",
+  "updated": "2026-08-30T07:46:43",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T07:41",
+      "d": "2026-08-30T07:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T07:45",
+      "t": "少 1 个展开步骤：部分谷歌搜索测试默认进入 AI 模式，下移传统蓝链搜索结果",
+      "s": "搜索行业媒体 Search Engine Roundtable 于 8 月 28 日报道，谷歌搜索正测试将 AI 概览直…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/062.htm"
     },
     {
       "c": "MODEL",
@@ -70,13 +77,6 @@
       "t": "去年归国的徐梦迪，成了清华姚班班主任",
       "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481318.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:59",
-      "t": "Anthropic 安全框架自动降级：Claude 误删开发者 700 GB 主目录，自动化清理反成灾难",
-      "s": "开发者 Sebastien Guillemot 本周三在 X 上反馈称，他在测试 AI 智能体的文件删除防护机制时遭遇严…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/031.htm"
     },
     {
       "c": "MODEL",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 07:41",
+      "08-30 07:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 07:45",
+      "少 1 个展开步骤：部分谷歌搜索测试默认进入 AI 模式，下移传统蓝链搜索结果"
     ],
     [
       "08-30 07:18",
@@ -162,10 +166,6 @@
     [
       "08-29 23:13",
       "韩国政府计划向全体国民提供免费 AI 服务"
-    ],
-    [
-      "08-29 21:39",
-      "英伟达“看中”Hugging Face，开放权重 AI 模型成硅谷热门收购目标"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279373,
+      "s": 279374,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240998,
+      "s": 241003,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208654,
+      "s": 208656,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172464,
+      "s": 172465,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143392,
+      "s": 143394,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
