@@ -1,12 +1,26 @@
 {
-  "updated": "2026-08-30T06:41:36",
+  "updated": "2026-08-30T06:46:55",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T06:46",
+      "t": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平",
+      "s": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250529/787176.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-30T06:41",
+      "d": "2026-08-30T06:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T06:44",
+      "t": "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别",
+      "s": "科技媒体 9to5Mac 昨日（8 月 29 日）报道，苹果计划最早 2027 年推出其首款 AI 智能眼镜，预估会在 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/053.htm"
     },
     {
       "c": "MODEL",
@@ -30,25 +44,11 @@
       "u": "https://www.ithome.com/0/996/038.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-29T21:11",
-      "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
-      "s": "推理软件栈的微小差异，就能改变输出token（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481372.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-29T21:11",
       "t": "Debian 社区议案表决：开发者可使用生成式 AI，人类负最终责任",
       "s": "据科技媒体 Linuxiac 今天报道，Debian 社区的大语言模型投票议案近日迎来表决。投票结果显示，大部分开发者支…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/035.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:01",
-      "t": "去年归国的徐梦迪，成了清华姚班班主任",
-      "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481318.html"
     },
     {
       "c": "MODEL",
@@ -59,45 +59,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-29T20:50",
-      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
-      "s": "AI「自进化」，越来越近了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481223.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:26",
-      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
-      "s": "3秒可处理200份PDF（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481075.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T20:11",
-      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
-      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480940.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T20:00",
-      "t": "OpenClaw：红过，爱过，散了",
-      "s": "龙虾退潮，Harness上位（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480855.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-08-29T19:50",
       "t": "OpenAI ChatGPT、Codex 现已支持连接多个谷歌 Gmail 账号",
       "s": "OpenAI 开发者体验工程师 Gabriel Chua 今日确认，ChatGPT 和 Codex 用户现可连接多个谷歌…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/022.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T19:35",
-      "t": "32GB大显存加持，英特尔锐炫Pro B70搞定AI漫剧创作",
-      "s": "从剧本到成片（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480787.html"
     },
     {
       "c": "MODEL",
@@ -121,13 +86,6 @@
       "u": "https://www.oschina.net/news/502198"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-29T18:00",
-      "t": "国内首个车载移动式词元工厂亮相，探索算电协同新模式",
-      "s": "据央视财经今天报道，国内首个车载移动式词元工厂近日亮相。它通过搭载国产算力和能源管理系统，更加灵活地匹配人工智能算力需求…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/975.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-08-29T18:00",
       "t": "中国版 Hugging Face 是怎么造出来的",
@@ -140,12 +98,62 @@
       "t": "AI 时代，开源为什么越来越值钱",
       "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502195"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T17:42",
+      "t": "全球开源平台的宿命，都逃不过被收购 ？",
+      "s": "这两天，全球开源圈发生了一件大事。 Hugging Face，这个被称为全球 AI 文明灯塔级的开源社区，或将被英伟达以…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502194"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-29T15:33",
+      "t": "今年最好的机器人落地场景，可能在上海一家冰淇凌店",
+      "s": "只做真正有价值的事，而非做给别人看（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121421.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-08-29T15:30",
+      "t": "浦东加速推动AI与医疗器械深度融合",
+      "s": "浦东加速推动AI与医疗器械深度融合（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7679352558720270900/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T15:20",
+      "t": "从Data到Agent：华为云AI-Ready数据基础设施全链路能力亮相数博会",
+      "s": "8月28日，在2026中国国际大数据产业博览会期间，以“从数据到Agent，数据价值链的重构与创新”为主题的数据要素大会…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/5HSY98yO7OtW5EGw.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T13:58",
+      "t": "腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷",
+      "s": "8 月 28 日，腾讯发布并开源混元 Hy4 preview。 这是继 Hy3 正式版之后，腾讯推出的新一代大模型：总参…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369550"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T12:46",
+      "t": "宇树市值大跌后，能否继续扛起具身智能大旗",
+      "s": "压力给到王兴兴（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121600.html"
     }
   ],
   "timeline": [
     [
-      "08-30 06:41",
+      "08-30 06:46",
+      "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平"
+    ],
+    [
+      "08-30 06:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 06:44",
+      "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别"
     ],
     [
       "08-29 23:13",
@@ -158,14 +166,6 @@
     [
       "08-29 21:25",
       "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快"
-    ],
-    [
-      "08-29 21:11",
-      "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑"
-    ],
-    [
-      "08-29 21:11",
-      "Debian 社区议案表决：开发者可使用生成式 AI，人类负最终责任"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244211,
+      "s": 244215,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240972,
+      "s": 240975,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208651,
+      "s": 208652,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112287,
+      "s": 112288,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90700,
+      "s": 90701,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
