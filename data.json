@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T08:21:49",
+  "updated": "2026-08-29T08:26:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T08:21",
+      "d": "2026-08-29T08:26",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-29T08:21",
+      "t": "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万",
+      "s": "· 意大利拟对过马路看手机的行人罚款 75 欧元 · 电动重卡销量上升，商业险却成了上路难题 · 国家发改委：机器人产业…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1676877?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "宇树、拓斯达、越疆的上半年，藏着具身智能商业化的真实进度条",
       "s": "具身智能的商业化路径越来越清晰了。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8118715.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T17:46",
-      "t": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?",
-      "s": "Anthropic、Moderna先后引爆舆论场，AI制药到底该奖励什么?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679016704273302043/"
     }
   ],
   "timeline": [
     [
-      "08-29 08:21",
+      "08-29 08:26",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 08:21",
+      "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万"
     ],
     [
       "08-28 23:53",
@@ -162,10 +166,6 @@
     [
       "08-28 23:19",
       "OpenAI 提交新请愿书，要求驳回苹果诉讼"
-    ],
-    [
-      "08-28 23:09",
-      "英伟达 CEO 黄仁勋呼吁 AI 行业加强沟通：想建数据中心就得争取公众支持"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279058,
+      "s": 279059,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240212,
+      "s": 240213,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208406,
+      "s": 208407,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143302,
+      "s": 143303,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101630,
+      "s": 101631,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90513,
+      "s": 90515,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
