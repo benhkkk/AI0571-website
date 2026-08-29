@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-29T17:11:44",
+  "updated": "2026-08-29T17:16:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T17:11",
-      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
-      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T17:11",
+      "d": "2026-08-29T17:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
       "s": "我的自媒体搭子太能卷，一顿饭功夫17份成品（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480700.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-28T21:28",
+      "t": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...",
+      "s": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679073693955310131/"
     }
   ],
   "timeline": [
     [
-      "08-29 17:11",
-      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
-    ],
-    [
-      "08-29 17:11",
+      "08-29 17:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-29 15:33",
       "今年最好的机器人落地场景，可能在上海一家冰淇凌店"
+    ],
+    [
+      "08-29 15:13",
+      "Anthropic 官宣 Claude Code 打通桌面端与终端"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244038,
+      "s": 244041,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240501,
+      "s": 240505,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143339,
+      "s": 143340,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112109,
+      "s": 112114,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90578,
+      "s": 90579,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
