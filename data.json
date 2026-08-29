@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-30T07:06:40",
+  "updated": "2026-08-30T07:11:49",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-08-30T07:11",
+      "t": "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用",
+      "s": "科技媒体 9to5Mac 昨日（8 月 29 日）发布博文，报道称在苹果 Siri AI 上线之前，苹果车联方案 Car…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/057.htm"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-30T07:06",
+      "d": "2026-08-30T07:11",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -107,13 +114,6 @@
       "u": "https://www.qbitai.com/2026/08/480787.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-29T18:57",
-      "t": "华为 HarmonyOS 开发套件 26.0.0 正式发布：API 版本号启用语义化版本格式，鸿蒙 7.0 用户占比 4.65%",
-      "s": "华为昨晚面向 Mate 80、Pura 80 等机型推送了 HarmonyOS 7.0.0.105 SP6 版本升级，系…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/013.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-08-29T18:14",
       "t": "「中国词元」：芯片、模型、绿电的算术题",
@@ -144,7 +144,11 @@
   ],
   "timeline": [
     [
-      "08-30 07:06",
+      "08-30 07:11",
+      "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用"
+    ],
+    [
+      "08-30 07:11",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-29 21:25",
       "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快"
-    ],
-    [
-      "08-29 21:11",
-      "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279368,
+      "s": 279369,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244222,
+      "s": 244224,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240984,
+      "s": 240987,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172461,
+      "s": 172462,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112295,
+      "s": 112296,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90703,
+      "s": 90702,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
