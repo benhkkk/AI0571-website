@@ -1,12 +1,26 @@
 {
-  "updated": "2026-08-29T15:11:49",
+  "updated": "2026-08-29T15:16:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T15:11",
+      "d": "2026-08-29T15:16",
+      "t": "免费VS付费仪信通AI会员对比，看这篇就够了",
+      "s": "免费VS付费仪信通AI会员对比，看这篇就够了（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260827/966240.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T15:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T15:13",
+      "t": "Anthropic 官宣 Claude Code 打通桌面端与终端",
+      "s": "终端里干到一半的活，换个窗口就得从头再干一遍。今天，这事结束了。就在刚刚，Anthropic 官宣，Claude Cod…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/917.htm"
     },
     {
       "c": "HOT",
@@ -115,13 +129,6 @@
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-29T10:21",
-      "t": "OpenAI：因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型",
-      "s": "当地时间 8 月 28 日，OpenAI 发布公告，宣布已正式通知 SpaceX，计划终止向 Cursor 提供 Ope…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/874.htm"
-    },
-    {
-      "c": "FUNDING",
       "d": "2026-08-29T08:32",
       "t": "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃",
       "s": "消息称 Anthropic 最早 10 天后公布招股书 据知情人士称，Anthropic 计划在美国劳动节（9 月 7 …（来源：极客公园）",
@@ -133,19 +140,20 @@
       "t": "早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万",
       "s": "· 意大利拟对过马路看手机的行人罚款 75 欧元 · 电动重卡销量上升，商业险却成了上路难题 · 国家发改委：机器人产业…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1676877?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T23:36",
-      "t": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
-      "s": "我的自媒体搭子太能卷，一顿饭功夫17份成品（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480700.html"
     }
   ],
   "timeline": [
     [
-      "08-29 15:11",
+      "08-29 15:16",
+      "免费VS付费仪信通AI会员对比，看这篇就够了"
+    ],
+    [
+      "08-29 15:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 15:13",
+      "Anthropic 官宣 Claude Code 打通桌面端与终端"
     ],
     [
       "08-29 14:48",
@@ -158,14 +166,6 @@
     [
       "08-29 13:58",
       "腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷"
-    ],
-    [
-      "08-29 13:36",
-      "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档"
-    ],
-    [
-      "08-29 12:46",
-      "宇树市值大跌后，能否继续扛起具身智能大旗"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279142,
+      "s": 279144,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240418,
+      "s": 240421,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172338,
+      "s": 172340,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143330,
+      "s": 143331,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135037,
+      "s": 135039,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112091,
+      "s": 112095,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
