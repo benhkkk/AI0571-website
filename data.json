@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T11:37:09",
+  "updated": "2026-08-29T11:41:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T11:37",
+      "d": "2026-08-29T11:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T11:40",
+      "t": "AI 算力拉动铜需求激增，2026 年 AI 服务器专用高端铜箔需求预计增 260%",
+      "s": "据央视新闻今日报道，AI 与铜的距离看起来很远。一边是发生在“云端”的前沿算法，一边是深埋地下的传统金属。可当 AI“跑…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/891.htm"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "🔥 新增 DeepSeek V4 Flash，支持推理续调与联网搜索：开源 AI 无代码平台 NocoBase",
       "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502182"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T19:23",
-      "t": "WRC2026 | 别急着给机器人更强「大脑」，先补上更省电的神经系统",
-      "s": "类脑计算正从感知和低层控制切入机器人。 作者丨魏溶 编辑丨岑峰 “如果未来全球真的部署10亿至100亿台高度依赖AI的人…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/iot/wSd8yNXuuYwSg9hp.html"
     }
   ],
   "timeline": [
     [
-      "08-29 11:37",
+      "08-29 11:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 11:40",
+      "AI 算力拉动铜需求激增，2026 年 AI 服务器专用高端铜箔需求预计增 260%"
     ],
     [
       "08-29 11:22",
@@ -162,10 +166,6 @@
     [
       "08-29 10:31",
       "豪掷400亿元！孙正义惨亏割肉后，又“接盘”机器人了"
-    ],
-    [
-      "08-29 10:21",
-      "OpenAI：因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279095,
+      "s": 279096,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243988,
+      "s": 243989,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240315,
+      "s": 240316,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208434,
+      "s": 208435,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172307,
+      "s": 172309,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143316,
+      "s": 143318,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
