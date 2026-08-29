@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-29T13:11:46",
+  "updated": "2026-08-29T13:16:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T13:11",
+      "d": "2026-08-29T13:16",
+      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
+      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T13:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -133,18 +140,15 @@
       "t": "我的自媒体搭子太能卷，一顿饭功夫17份成品",
       "s": "我的自媒体搭子太能卷，一顿饭功夫17份成品（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480700.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T21:28",
-      "t": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...",
-      "s": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679073693955310131/"
     }
   ],
   "timeline": [
     [
-      "08-29 13:11",
+      "08-29 13:16",
+      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
+    ],
+    [
+      "08-29 13:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-29 12:46",
       "B站活成大厂最想活成的样子"
-    ],
-    [
-      "08-29 12:35",
-      "科大讯飞推出学生耳机 Pro 头戴式产品：30 小时续航、支持“实时耳返与跟读”功能，399 元"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240350,
+      "s": 240351,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208454,
+      "s": 208455,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172322,
+      "s": 172323,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143323,
+      "s": 143322,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135026,
+      "s": 135025,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112070,
+      "s": 112069,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
