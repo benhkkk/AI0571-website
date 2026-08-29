@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-29T23:56:52",
+  "updated": "2026-08-30T00:01:55",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-08-30T00:01",
+      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
+      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-29T23:56",
+      "d": "2026-08-30T00:01",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -133,18 +140,15 @@
       "t": "中国版 Hugging Face 是怎么造出来的",
       "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502197"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T17:51",
-      "t": "AI 时代，开源为什么越来越值钱",
-      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502195"
     }
   ],
   "timeline": [
     [
-      "08-29 23:56",
+      "08-30 00:01",
+      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+    ],
+    [
+      "08-30 00:01",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-29 21:11",
       "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑"
-    ],
-    [
-      "08-29 21:11",
-      "Debian 社区议案表决：开发者可使用生成式 AI，人类负最终责任"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279283,
+      "s": 279286,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244104,
+      "s": 244105,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240766,
+      "s": 240773,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208584,
+      "s": 208585,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172426,
+      "s": 172427,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135106,
+      "s": 135107,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112207,
+      "s": 112206,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90635,
+      "s": 90637,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
