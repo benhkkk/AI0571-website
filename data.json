@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-29T21:26:44",
+  "updated": "2026-08-29T21:31:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T21:26",
+      "d": "2026-08-29T21:31",
+      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
+      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T21:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -133,18 +140,15 @@
       "t": "浦东加速推动AI与医疗器械深度融合",
       "s": "浦东加速推动AI与医疗器械深度融合（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7679352558720270900/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T15:20",
-      "t": "从Data到Agent：华为云AI-Ready数据基础设施全链路能力亮相数博会",
-      "s": "8月28日，在2026中国国际大数据产业博览会期间，以“从数据到Agent，数据价值链的重构与创新”为主题的数据要素大会…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/5HSY98yO7OtW5EGw.html"
     }
   ],
   "timeline": [
     [
-      "08-29 21:26",
+      "08-29 21:31",
+      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
+    ],
+    [
+      "08-29 21:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-29 20:11",
       "Coding不再是程序员专属！阿里Qoder这波有点绝"
-    ],
-    [
-      "08-29 20:00",
-      "OpenClaw：红过，爱过，散了"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244075,
+      "s": 244076,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240654,
+      "s": 240659,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208542,
+      "s": 208543,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172395,
+      "s": 172396,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143362,
+      "s": 143363,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135076,
+      "s": 135077,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90612,
+      "s": 90614,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
