@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-29T21:41:48",
+  "updated": "2026-08-29T21:46:59",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T21:41",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:41",
+      "d": "2026-08-29T21:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -42,6 +35,13 @@
       "t": "Anthropic 安全框架自动降级：Claude 误删开发者 700 GB 主目录，自动化清理反成灾难",
       "s": "开发者 Sebastien Guillemot 本周三在 X 上反馈称，他在测试 AI 智能体的文件删除防护机制时遭遇严…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/031.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T20:26",
+      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "s": "3秒可处理200份PDF（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481075.html"
     },
     {
       "c": "HOT",
@@ -144,11 +144,7 @@
   ],
   "timeline": [
     [
-      "08-29 21:41",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
-    [
-      "08-29 21:41",
+      "08-29 21:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-29 20:59",
       "Anthropic 安全框架自动降级：Claude 误删开发者 700 GB 主目录，自动化清理反成灾难"
+    ],
+    [
+      "08-29 20:26",
+      "20ms把PDF变成Markdown！开源OCR神器快了近300倍"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279246,
+      "s": 279248,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240669,
+      "s": 240671,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208545,
+      "s": 208547,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172401,
+      "s": 172402,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135080,
+      "s": 135081,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112169,
+      "s": 112171,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101705,
+      "s": 101707,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
