@@ -459,8 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-08-29T14:46', t:'跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君', s:'跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260513/902237.shtml'},
-    {c:'HOT', d:'2026-08-29T14:46', t:'机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠', s:'机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260828/967011.shtml'},
+    {c:'HOT', d:'2026-08-29T14:51', t:'跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君', s:'跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260513/902237.shtml'},
+    {c:'HOT', d:'2026-08-29T14:51', t:'机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠', s:'机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260828/967011.shtml'},
+    {c:'HOT', d:'2026-08-29T14:48', t:'OpenAI 宣布将断供 Cursor 后，Anthropic 称继续增加算力支持 Cursor', s:'Anthropic 联合创始人 Tom Brown（汤姆 · 布朗）今日在 X 平台发文，称将继续增加算力支持 Curs…（来源：IT之家）', u:'https://www.ithome.com/0/995/913.htm'},
+    {c:'INDUSTRY', d:'2026-08-29T14:47', t:'AI 会冲垮软件行业？Anthropic CEO 阿莫迪：我们无意摧毁任何人', s:'据《商业内幕》今天报道，Anthropic 首席执行官达里奥 · 阿莫迪（Dario Amodei）本周出席活动时表示…（来源：IT之家）', u:'https://www.ithome.com/0/995/911.htm'},
     {c:'MODEL', d:'2026-08-29T13:58', t:'腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷', s:'8 月 28 日，腾讯发布并开源混元 Hy4 preview。 这是继 Hy3 正式版之后，腾讯推出的新一代大模型：总参…（来源：极客公园）', u:'http://www.geekpark.net/news/369550'},
     {c:'HOT', d:'2026-08-29T13:36', t:'国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档', s:'芒果 TV AIGC 创新内容中心制作、伯璟文化承制的神话题材季播剧《后西游记》第一季“花果山篇”，将于 8 月 31 …（来源：IT之家）', u:'https://www.ithome.com/0/995/901.htm'},
     {c:'HOT', d:'2026-08-29T12:46', t:'宇树市值大跌后，能否继续扛起具身智能大旗', s:'压力给到王兴兴（来源：钛媒体）', u:'https://www.tmtpost.com/8121600.html'},
@@ -475,30 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-08-29T11:21', t:'打不过就加入？三大唱片巨头豪掷5亿，入股AI绘图“鼻祖”', s:'三大唱片巨头给 Stability AI投了5个亿（来源：钛媒体）', u:'https://www.tmtpost.com/8121144.html'},
     {c:'MODEL', d:'2026-08-29T11:08', t:'国产 GPU 厂商壁仞科技上半年收入 12.36 亿元，同比增长 1997.6%', s:'国产 GPU 厂商壁仞科技昨晚发布公告，截至 2026 年 6 月 30 日止六个月公司收入 12.36 亿元，同比增长…（来源：IT之家）', u:'https://www.ithome.com/0/995/887.htm'},
     {c:'FUNDING', d:'2026-08-29T10:21', t:'OpenAI：因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型', s:'当地时间 8 月 28 日，OpenAI 发布公告，宣布已正式通知 SpaceX，计划终止向 Cursor 提供 Ope…（来源：IT之家）', u:'https://www.ithome.com/0/995/874.htm'},
-    {c:'MODEL', d:'2026-08-29T09:55', t:'开源鸿蒙机器人操作系统 M-Robots OS 3.0 Beta 版发布，重心从“单机能力”转向“群体智能”', s:'由国家数据局主办的 2026 中国国际大数据产业博览会昨日在贵阳开幕。深开鸿高级副总裁、研发体系总裁王皓博士在会上正式发…（来源：IT之家）', u:'https://www.ithome.com/0/995/865.htm'},
-    {c:'MODEL', d:'2026-08-29T09:22', t:'消息称荣耀 Magic9 系列两款新机疑入网，9 月底发布', s:'博主 @数码闲聊站 今日爆料，荣耀 Magic9 系列两款新机疑似入网，内部代号 Twinkle，标配 100W 快充头…（来源：IT之家）', u:'https://www.ithome.com/0/995/860.htm'},
     {c:'FUNDING', d:'2026-08-29T08:32', t:'Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃', s:'消息称 Anthropic 最早 10 天后公布招股书 据知情人士称，Anthropic 计划在美国劳动节（9 月 7 …（来源：极客公园）', u:'http://www.geekpark.net/news/369549'},
     {c:'INDUSTRY', d:'2026-08-29T08:21', t:'早报｜皮卡丘造访苹果,见到库克、特努斯/微信回应方言采集争议:已清理异常文本/鸿蒙生态设备突破8000万', s:'· 意大利拟对过马路看手机的行人罚款 75 欧元 · 电动重卡销量上升，商业险却成了上路难题 · 国家发改委：机器人产业…（来源：爱范儿）', u:'https://www.ifanr.com/1676877?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
-    ['08-29 14:46','跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君'],
-    ['08-29 14:46','机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠'],
+    ['08-29 14:51','跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君'],
+    ['08-29 14:51','机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠'],
+    ['08-29 14:48','OpenAI 宣布将断供 Cursor 后，Anthropic 称继续增加算力支持 Cursor'],
+    ['08-29 14:47','AI 会冲垮软件行业？Anthropic CEO 阿莫迪：我们无意摧毁任何人'],
     ['08-29 13:58','腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷'],
     ['08-29 13:36','国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档'],
-    ['08-29 12:46','宇树市值大跌后，能否继续扛起具身智能大旗'],
-    ['08-29 12:46','273号文最大的溢出效应：AI随访成「刚需」'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:279137, u:'https://github.com/obra/superpowers', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:279136, u:'https://github.com/obra/superpowers', new:false},
     {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:244018, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:240400, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:240404, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:208471, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172331, u:'https://github.com/anthropics/skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172333, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143329, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135034, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135035, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:112084, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101667, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90560, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90561, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
