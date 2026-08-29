@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-29T11:41:50",
+  "updated": "2026-08-29T11:46:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T11:41",
+      "d": "2026-08-29T11:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -114,13 +114,6 @@
       "u": "https://www.qbitai.com/2026/08/480700.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-28T21:28",
-      "t": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...",
-      "s": "AI制药走到盈利时刻:港股首家半年度盈利公司诞生，产业资本...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679073693955310131/"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-28T20:51",
       "t": "豆包工作的办公棋局：飞书与豆包的合流",
@@ -140,11 +133,18 @@
       "t": "🔥 新增 DeepSeek V4 Flash，支持推理续调与联网搜索：开源 AI 无代码平台 NocoBase",
       "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502182"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-28T19:23",
+      "t": "WRC2026 | 别急着给机器人更强「大脑」，先补上更省电的神经系统",
+      "s": "类脑计算正从感知和低层控制切入机器人。 作者丨魏溶 编辑丨岑峰 “如果未来全球真的部署10亿至100亿台高度依赖AI的人…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/iot/wSd8yNXuuYwSg9hp.html"
     }
   ],
   "timeline": [
     [
-      "08-29 11:41",
+      "08-29 11:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 243989,
+      "s": 243990,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240316,
+      "s": 240317,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208435,
+      "s": 208437,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172309,
+      "s": 172310,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135015,
+      "s": 135017,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112042,
+      "s": 112045,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
