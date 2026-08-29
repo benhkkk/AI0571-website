@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T19:46:52",
+  "updated": "2026-08-29T19:51:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T19:46",
+      "d": "2026-08-29T19:51",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T19:50",
+      "t": "OpenAI ChatGPT、Codex 现已支持连接多个谷歌 Gmail 账号",
+      "s": "OpenAI 开发者体验工程师 Gabriel Chua 今日确认，ChatGPT 和 Codex 用户现可连接多个谷歌…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/022.htm"
     },
     {
       "c": "MODEL",
@@ -108,13 +115,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-29T15:13",
-      "t": "Anthropic 官宣 Claude Code 打通桌面端与终端",
-      "s": "（原标题《终于，Claude Code 打通了桌面端与终端！》）终端里干到一半的活，换个窗口就得从头再干一遍。今天，这事…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/917.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-08-29T13:58",
       "t": "腾讯重金投入 AI 之后，混元 Hy4 preview 交出了什么答卷",
       "s": "8 月 28 日，腾讯发布并开源混元 Hy4 preview。 这是继 Hy3 正式版之后，腾讯推出的新一代大模型：总参…（来源：极客公园）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-29 19:46",
+      "08-29 19:51",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 19:50",
+      "OpenAI ChatGPT、Codex 现已支持连接多个谷歌 Gmail 账号"
     ],
     [
       "08-29 18:57",
@@ -162,10 +166,6 @@
     [
       "08-29 18:00",
       "国内首个车载移动式词元工厂亮相，探索算电协同新模式"
-    ],
-    [
-      "08-29 18:00",
-      "中国版 Hugging Face 是怎么造出来的"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279217,
+      "s": 279219,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240592,
+      "s": 240595,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208522,
+      "s": 208524,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172381,
+      "s": 172382,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
