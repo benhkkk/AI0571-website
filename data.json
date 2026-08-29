@@ -1,16 +1,23 @@
 {
-  "updated": "2026-08-30T00:26:55",
+  "updated": "2026-08-30T00:31:46",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-30T00:26",
-      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
-      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+      "c": "HOT",
+      "d": "2026-08-30T00:31",
+      "t": "#2024人工智能+仪器",
+      "s": "#2024人工智能+仪器（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-621.html"
     },
     {
       "c": "HOT",
-      "d": "2026-08-30T00:26",
+      "d": "2026-08-30T00:31",
+      "t": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维",
+      "s": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20241209/758413.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T00:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -133,22 +140,19 @@
       "t": "国内首个车载移动式词元工厂亮相，探索算电协同新模式",
       "s": "据央视财经今天报道，国内首个车载移动式词元工厂近日亮相。它通过搭载国产算力和能源管理系统，更加灵活地匹配人工智能算力需求…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/975.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T18:00",
-      "t": "中国版 Hugging Face 是怎么造出来的",
-      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502197"
     }
   ],
   "timeline": [
     [
-      "08-30 00:26",
-      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+      "08-30 00:31",
+      "#2024人工智能+仪器"
     ],
     [
-      "08-30 00:26",
+      "08-30 00:31",
+      "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维"
+    ],
+    [
+      "08-30 00:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-29 21:25",
       "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快"
-    ],
-    [
-      "08-29 21:11",
-      "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240784,
+      "s": 240787,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172431,
+      "s": 172433,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135113,
+      "s": 135114,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101726,
+      "s": 101727,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90639,
+      "s": 90638,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
