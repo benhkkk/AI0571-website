@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T11:31:44",
+  "updated": "2026-08-29T11:37:09",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T11:31",
+      "d": "2026-08-29T11:37",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T11:22",
+      "t": "46枚、45枚、10枚、5枚，人形机器人运动会的奖牌数到底在测什么",
+      "s": "2026 世界人形机器人运动会企业合并奖牌榜，智元、天工、宇树、银河通用分列前列，但奖牌数受报项、第三方队伍、参赛模式影…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8120414.html"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "WRC2026 | 别急着给机器人更强「大脑」，先补上更省电的神经系统",
       "s": "类脑计算正从感知和低层控制切入机器人。 作者丨魏溶 编辑丨岑峰 “如果未来全球真的部署10亿至100亿台高度依赖AI的人…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/iot/wSd8yNXuuYwSg9hp.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-28T19:17",
-      "t": "新云厂商发现，最赚钱的可能不是卖GPU",
-      "s": "一年前，AI云服务商Nebius创始人兼CEO Arkady Volozh还在回答一个问题：谁会买那么多GPU？一年后…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/3WOuErnlJ5cLepP7.html"
     }
   ],
   "timeline": [
     [
-      "08-29 11:31",
+      "08-29 11:37",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 11:22",
+      "46枚、45枚、10枚、5枚，人形机器人运动会的奖牌数到底在测什么"
     ],
     [
       "08-29 11:21",
@@ -162,10 +166,6 @@
     [
       "08-29 10:21",
       "OpenAI：因 Cursor 被 SpaceX 收购，将停止向 Cursor 提供 AI 模型"
-    ],
-    [
-      "08-29 09:59",
-      "从“AI时代已开始”到“最动荡的转型期”：盖茨这三年看见了什么"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240312,
+      "s": 240315,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208432,
+      "s": 208434,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135014,
+      "s": 135015,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112040,
+      "s": 112042,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101648,
+      "s": 101649,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
