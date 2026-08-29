@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-29T13:36:45",
+  "updated": "2026-08-29T13:41:56",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-29T13:36",
+      "d": "2026-08-29T13:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T13:36",
+      "t": "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档",
+      "s": "芒果 TV AIGC 创新内容中心制作、伯璟文化承制的神话题材季播剧《后西游记》第一季“花果山篇”，将于 8 月 31 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/995/901.htm"
     },
     {
       "c": "HOT",
@@ -107,13 +114,6 @@
       "u": "https://www.ithome.com/0/995/860.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-29T08:39",
-      "t": "Meta 为 Quest 头显推出 XR Operator 开发者工具，利用 AI 智能体快速测试 VR 游戏",
-      "s": "Meta 宣布推出一款名为 Meta XR Operator 的实验性开发者工具，旨在让 AI 智能体测试 VR 应用…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/995/854.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-08-29T08:32",
       "t": "Anthropic 将发招股书，预计募资 1300 亿美元超越 SpaceX；腾讯发布 HY4 preview 模型；科隆游戏展多个展位失窃",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-29 13:36",
+      "08-29 13:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-29 13:36",
+      "国内首部 AIGC 长剧《后西游记》定档 8 月 31 日开播，登陆湖南卫视黄金档"
     ],
     [
       "08-29 12:46",
@@ -162,10 +166,6 @@
     [
       "08-29 12:46",
       "B站活成大厂最想活成的样子"
-    ],
-    [
-      "08-29 12:35",
-      "科大讯飞推出学生耳机 Pro 头戴式产品：30 小时续航、支持“实时耳返与跟读”功能，399 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279117,
+      "s": 279119,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244008,
+      "s": 244009,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240359,
+      "s": 240362,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208460,
+      "s": 208462,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172325,
+      "s": 172326,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112069,
+      "s": 112071,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90550,
+      "s": 90551,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
