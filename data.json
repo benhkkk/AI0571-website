@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-29T22:11:48",
+  "updated": "2026-08-29T22:16:52",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-08-29T22:16",
+      "t": "#当我问DeepSeek",
+      "s": "#当我问DeepSeek（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-639.html"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-29T22:11",
+      "d": "2026-08-29T22:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -133,18 +140,15 @@
       "t": "AI 时代，开源为什么越来越值钱",
       "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502195"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T17:42",
-      "t": "全球开源平台的宿命，都逃不过被收购 ？",
-      "s": "这两天，全球开源圈发生了一件大事。 Hugging Face，这个被称为全球 AI 文明灯塔级的开源社区，或将被英伟达以…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502194"
     }
   ],
   "timeline": [
     [
-      "08-29 22:11",
+      "08-29 22:16",
+      "#当我问DeepSeek"
+    ],
+    [
+      "08-29 22:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-29 21:11",
       "Debian 社区议案表决：开发者可使用生成式 AI，人类负最终责任"
-    ],
-    [
-      "08-29 21:01",
-      "去年归国的徐梦迪，成了清华姚班班主任"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279260,
+      "s": 279261,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244084,
+      "s": 244085,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240692,
+      "s": 240696,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143366,
+      "s": 143367,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135084,
+      "s": 135086,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90619,
+      "s": 90620,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
