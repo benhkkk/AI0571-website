@@ -1,23 +1,9 @@
 {
-  "updated": "2026-08-30T00:41:50",
+  "updated": "2026-08-30T00:46:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T00:41",
-      "t": "#2024人工智能+仪器",
-      "s": "#2024人工智能+仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-621.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T00:41",
-      "t": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维",
-      "s": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241209/758413.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T00:41",
+      "d": "2026-08-30T00:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,19 +126,25 @@
       "t": "国内首个车载移动式词元工厂亮相，探索算电协同新模式",
       "s": "据央视财经今天报道，国内首个车载移动式词元工厂近日亮相。它通过搭载国产算力和能源管理系统，更加灵活地匹配人工智能算力需求…（来源：IT之家）",
       "u": "https://www.ithome.com/0/995/975.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T18:00",
+      "t": "中国版 Hugging Face 是怎么造出来的",
+      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502197"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T17:51",
+      "t": "AI 时代，开源为什么越来越值钱",
+      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502195"
     }
   ],
   "timeline": [
     [
-      "08-30 00:41",
-      "#2024人工智能+仪器"
-    ],
-    [
-      "08-30 00:41",
-      "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维"
-    ],
-    [
-      "08-30 00:41",
+      "08-30 00:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +158,14 @@
     [
       "08-29 21:25",
       "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快"
+    ],
+    [
+      "08-29 21:11",
+      "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑"
+    ],
+    [
+      "08-29 21:11",
+      "Debian 社区议案表决：开发者可使用生成式 AI，人类负最终责任"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279303,
+      "s": 279305,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 240796,
+      "s": 240799,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208591,
+      "s": 208593,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172434,
+      "s": 172435,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135118,
+      "s": 135120,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112211,
+      "s": 112212,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101729,
+      "s": 101730,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
