@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T14:51:46",
+  "updated": "2026-08-30T14:56:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T14:51",
+      "d": "2026-08-30T14:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T14:54",
+      "t": "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI",
+      "s": "Rockstar Games 表示，《侠盗猎车手 6》（GTA 6）在今年 11 月发售时不会加入微交易或生成式 AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/132.htm"
     },
     {
       "c": "MODEL",
@@ -63,13 +70,6 @@
       "t": "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑",
       "s": "（8月24日-29日）比尔·盖茨称向AI时代过渡将是人类史上最动荡时期之一，批科技行业淡化风险、呼吁对Token和机器人…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121886.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T09:37",
-      "t": "谷歌确认开发 WSL 支持：Antigravity 将直连 Win11 Linux 环境",
-      "s": "科技媒体 Windows Latest 昨日（8 月 29 日）发布博文，报道称谷歌计划为其 AI 编程智能体工具 An…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/081.htm"
     },
     {
       "c": "HOT",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 14:51",
+      "08-30 14:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 14:54",
+      "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI"
     ],
     [
       "08-30 14:01",
@@ -162,10 +166,6 @@
     [
       "08-30 12:07",
       "启境轩伟谈 L3 级自动驾驶架构：车主导、人放松，正常行驶不需要时刻紧绷接管"
-    ],
-    [
-      "08-30 11:28",
-      "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244358,
+      "s": 244361,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241213,
+      "s": 241217,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208721,
+      "s": 208722,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172506,
+      "s": 172507,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135185,
+      "s": 135186,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101785,
+      "s": 101786,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90798,
+      "s": 90799,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
