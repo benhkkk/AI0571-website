@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T11:26:40",
+  "updated": "2026-08-30T11:31:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T11:26",
+      "d": "2026-08-30T11:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T11:28",
+      "t": "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地",
+      "s": "据央视新闻报道，当地时间 29 日，塞尔维亚首座机器人工厂在该国西部城市沙巴茨正式投产。这座由中塞联合建设的工厂，也是欧…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/102.htm"
     },
     {
       "c": "MODEL",
@@ -100,13 +107,6 @@
       "u": "https://www.ithome.com/0/996/062.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-30T07:18",
-      "t": "荣耀 Magic8 系列手机首发的 AI 追色功能迎升级，新增支持类“调色盘”新玩法",
-      "s": "据荣耀研发工程师 @荣耀曹工 分享，荣耀 Magic8 系列手机上首发的 AI 追色功能，云端算法一直在持续升级。他透露…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/058.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-29T21:11",
       "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 11:26",
+      "08-30 11:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 11:28",
+      "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地"
     ],
     [
       "08-30 11:02",
@@ -162,10 +166,6 @@
     [
       "08-30 09:37",
       "谷歌确认开发 WSL 支持：Antigravity 将直连 Win11 Linux 环境"
-    ],
-    [
-      "08-30 09:34",
-      "谁在给 AI 付账单：八大科技巨头的万亿投注版图"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279404,
+      "s": 279405,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244307,
+      "s": 244308,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241106,
+      "s": 241110,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172486,
+      "s": 172489,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143409,
+      "s": 143410,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112335,
+      "s": 112336,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101770,
+      "s": 101771,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90758,
+      "s": 90759,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
