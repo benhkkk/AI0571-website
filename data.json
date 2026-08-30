@@ -1,12 +1,26 @@
 {
-  "updated": "2026-08-30T08:26:42",
+  "updated": "2026-08-30T08:31:43",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T08:31",
+      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
+      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-30T08:26",
+      "d": "2026-08-30T08:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T08:28",
+      "t": "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元",
+      "s": "OpenAI 终止与 Cursor 合作 8 月 29 日消息，OpenAI 以「无法信任 SpaceX 遵守服务条款」…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369551"
     },
     {
       "c": "HOT",
@@ -126,26 +140,20 @@
       "t": "AI 时代的代码库，为什么成了兵家必争之地",
       "s": "前阵子有一条新闻，圈里人聊得不少。OpenAI 的智能体，为了在 Hugging Face 的评测榜单上拿第一，主动攻击…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502198"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T18:00",
-      "t": "中国版 Hugging Face 是怎么造出来的",
-      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502197"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T17:51",
-      "t": "AI 时代，开源为什么越来越值钱",
-      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502195"
     }
   ],
   "timeline": [
     [
-      "08-30 08:26",
+      "08-30 08:31",
+      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
+    ],
+    [
+      "08-30 08:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 08:28",
+      "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元"
     ],
     [
       "08-30 08:14",
@@ -158,14 +166,6 @@
     [
       "08-30 07:18",
       "荣耀 Magic8 系列手机首发的 AI 追色功能迎升级，新增支持类“调色盘”新玩法"
-    ],
-    [
-      "08-30 07:11",
-      "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用"
-    ],
-    [
-      "08-30 06:44",
-      "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279380,
+      "s": 279381,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241020,
+      "s": 241021,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208662,
+      "s": 208663,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90711,
+      "s": 90713,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
