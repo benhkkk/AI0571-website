@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T06:36:44",
+  "updated": "2026-08-31T06:41:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T06:36",
+      "d": "2026-08-31T06:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T06:38",
+      "t": "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token",
+      "s": "据外媒 Android Headlines 报道，微软目前已开始收紧 Token 使用管理，官方已设置 Token 用量…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/254.htm"
     },
     {
       "c": "MODEL",
@@ -101,13 +108,6 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-30T17:12",
-      "t": "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种",
-      "s": "瑞金医院今日联合华为云正式发布瑞智病理大模型 RuiPath 2.0，带来性能、诊断能力、病理诊断可解释性、罕见病种数据…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/195.htm"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-08-30T15:28",
       "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
       "s": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...（来源：头条医药AI）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-31 06:36",
+      "08-31 06:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-31 06:38",
+      "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token"
     ],
     [
       "08-30 21:42",
@@ -162,10 +166,6 @@
     [
       "08-30 18:58",
       "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌"
-    ],
-    [
-      "08-30 18:54",
-      "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244681,
+      "s": 244683,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112633,
+      "s": 112635,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
