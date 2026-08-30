@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-30T13:12:00",
+  "updated": "2026-08-30T13:16:40",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T13:11",
-      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
-      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T13:11",
+      "d": "2026-08-30T13:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
       "s": "3秒可处理200份PDF（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481075.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T20:11",
+      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480940.html"
     }
   ],
   "timeline": [
     [
-      "08-30 13:11",
-      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
-    ],
-    [
-      "08-30 13:11",
+      "08-30 13:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-30 10:54",
       "“史上最大规模版权盗窃”：Anthropic 被指侵权训练 Claude AI，单曲最高索赔 15 万美元"
+    ],
+    [
+      "08-30 09:39",
+      "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279427,
+      "s": 279426,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241164,
+      "s": 241163,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90781,
+      "s": 90782,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
