@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-30T15:41:47",
+  "updated": "2026-08-30T15:46:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T15:41",
-      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
-      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T15:41",
+      "d": "2026-08-30T15:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
       "s": "AI「自进化」，越来越近了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481223.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T20:26",
+      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "s": "3秒可处理200份PDF（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481075.html"
     }
   ],
   "timeline": [
     [
-      "08-30 15:41",
-      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
-    ],
-    [
-      "08-30 15:41",
+      "08-30 15:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-30 14:58",
       "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元"
+    ],
+    [
+      "08-30 14:54",
+      "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279466,
+      "s": 279467,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244383,
+      "s": 244388,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241238,
+      "s": 241241,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172513,
+      "s": 172515,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135193,
+      "s": 135194,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112389,
+      "s": 112391,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90807,
+      "s": 90810,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
