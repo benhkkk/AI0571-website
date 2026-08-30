@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T18:02:06",
+  "updated": "2026-08-30T18:06:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T18:02",
+      "d": "2026-08-30T18:06",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T18:01",
+      "t": "从“送外卖”到“城市基础设施”，顺丰同城的AI野心",
+      "s": "在监管趋严与成本飙升的双重压力下，这家以物流履约见长的企业，正在用科技打破人力内卷，重构城市短途物流的底层逻辑。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122051.html"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
       "s": "AI「自进化」，越来越近了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481223.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:26",
-      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
-      "s": "3秒可处理200份PDF（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481075.html"
     }
   ],
   "timeline": [
     [
-      "08-30 18:02",
+      "08-30 18:06",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 18:01",
+      "从“送外卖”到“城市基础设施”，顺丰同城的AI野心"
     ],
     [
       "08-30 17:58",
@@ -162,10 +166,6 @@
     [
       "08-30 17:00",
       "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表"
-    ],
-    [
-      "08-30 16:39",
-      "英国电信行业高管警告：5G 升级太慢，英国可能输掉 AI 竞赛"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244438,
+      "s": 244440,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241346,
+      "s": 241352,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208761,
+      "s": 208762,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112420,
+      "s": 112422,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
