@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-30T10:11:50",
+  "updated": "2026-08-30T10:16:46",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-30T10:11",
-      "t": "#当我问DeepSeek",
-      "s": "#当我问DeepSeek（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-639.html"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-30T10:11",
+      "d": "2026-08-30T10:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
       "s": "3秒可处理200份PDF（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481075.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T20:11",
+      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480940.html"
     }
   ],
   "timeline": [
     [
-      "08-30 10:11",
-      "#当我问DeepSeek"
-    ],
-    [
-      "08-30 10:11",
+      "08-30 10:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-30 09:34",
       "美图赚到AI的钱了，然后呢"
+    ],
+    [
+      "08-30 09:29",
+      "关停五年后，虾米被阿里用AI“复活”了"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244281,
+      "s": 244282,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172478,
+      "s": 172481,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143404,
+      "s": 143406,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90732,
+      "s": 90733,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
