@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T16:36:49",
+  "updated": "2026-08-30T16:41:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T16:36",
+      "d": "2026-08-30T16:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T16:39",
+      "t": "英国电信行业高管警告：5G 升级太慢，英国可能输掉 AI 竞赛",
+      "s": "据《卫报》昨天报道，英国电信行业多位高管表示，如果英国电信基础设施升级进度持续落后于其他国家，可能在全球 AI 竞赛中落…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/190.htm"
     },
     {
       "c": "HOT",
@@ -63,13 +70,6 @@
       "t": "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
       "s": "英国长期韧性中心（CLTR）于 8 月 28 日发布报告，称其“失控观察站”在 2026 年 7 月共记录 306 起 …（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/124.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T13:57",
-      "t": "消息称百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军",
-      "s": "据《晚点 LatePost》8 月 29 日报道，百度智能云近日完成一轮产研组织调整。原平台产品事业部更名为智能体事业部…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/123.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 16:36",
+      "08-30 16:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 16:39",
+      "英国电信行业高管警告：5G 升级太慢，英国可能输掉 AI 竞赛"
     ],
     [
       "08-30 16:35",
@@ -162,10 +166,6 @@
     [
       "08-30 15:28",
       "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波..."
-    ],
-    [
-      "08-30 15:01",
-      "硅谷知名风投 a16z 成立新基金：筹集 11 亿美元，布局芯片、内存与机器人赛道"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279480,
+      "s": 279482,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244407,
+      "s": 244409,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241282,
+      "s": 241288,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172525,
+      "s": 172526,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135200,
+      "s": 135201,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90823,
+      "s": 90826,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
