@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T07:51:40",
+  "updated": "2026-08-31T07:56:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T07:51",
+      "d": "2026-08-31T07:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T07:55",
+      "t": "上线不足一个月：米哈游 AI 女友桌面陪伴软件《BSide: Olivia Lin》今起停运，离线版本可限时领取",
+      "s": "据米哈游公告，米哈游旗下桌面陪伴软件《BSide: Olivia Lin》今天正式停止运营。官方同步推出离线版本，让用户…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/273.htm"
     },
     {
       "c": "MODEL",
@@ -100,13 +107,6 @@
       "u": "https://www.tmtpost.com/8122093.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-30T18:32",
-      "t": "东芝 S300 AI 系列机械硬盘开售：可选 8TB、10TB，2949 元起",
-      "s": "东芝 S300 AI 系列机械硬盘现已在京东开售，新品专为监控等场景设计，可选 8TB、10TB 容量，售价 2949 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/213.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-08-30T18:01",
       "t": "从“送外卖”到“城市基础设施”，顺丰同城的AI野心",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-31 07:51",
+      "08-31 07:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-31 07:55",
+      "上线不足一个月：米哈游 AI 女友桌面陪伴软件《BSide: Olivia Lin》今起停运，离线版本可限时领取"
     ],
     [
       "08-31 07:39",
@@ -162,10 +166,6 @@
     [
       "08-31 06:38",
       "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token"
-    ],
-    [
-      "08-30 21:42",
-      "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241829,
+      "s": 241831,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208882,
+      "s": 208884,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
