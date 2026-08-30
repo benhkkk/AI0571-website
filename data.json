@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T08:51:45",
+  "updated": "2026-08-30T08:56:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T08:51",
+      "d": "2026-08-30T08:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T08:55",
+      "t": "AI 人才争夺加码：台积电 2026Q2 奖金约为 360 亿新台币，同比增 50.6%",
+      "s": "科技媒体 WccfTech 昨日（8 月 29 日）发布博文，根据美国证券交易委员会（SEC）公示文件，台积电 2026…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/073.htm"
     },
     {
       "c": "INDUSTRY",
@@ -63,13 +70,6 @@
       "t": "英伟达“看中”Hugging Face，开放权重 AI 模型成硅谷热门收购目标",
       "s": "据外媒 TechCrunch 今天（29 日）报道，英伟达有望完成本周最受瞩目的一笔科技交易。市场正等待公司确认一项据称…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/041.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T21:25",
-      "t": "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快",
-      "s": "用 AI 模型训练其他 AI 模型，正成为新一代 AI 实验室重点探索的方向。当地时间 28 日，Anthropic 研…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/038.htm"
     },
     {
       "c": "HOT",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 08:51",
+      "08-30 08:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 08:55",
+      "AI 人才争夺加码：台积电 2026Q2 奖金约为 360 亿新台币，同比增 50.6%"
     ],
     [
       "08-30 08:28",
@@ -162,10 +166,6 @@
     [
       "08-30 07:18",
       "荣耀 Magic8 系列手机首发的 AI 追色功能迎升级，新增支持类“调色盘”新玩法"
-    ],
-    [
-      "08-30 07:11",
-      "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279382,
+      "s": 279381,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244255,
+      "s": 244256,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241034,
+      "s": 241038,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135161,
+      "s": 135162,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90713,
+      "s": 90716,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
