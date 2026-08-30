@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T09:46:44",
+  "updated": "2026-08-30T09:51:56",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T09:46",
+      "d": "2026-08-30T09:51",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T09:39",
+      "t": "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑",
+      "s": "（8月24日-29日）比尔·盖茨称向AI时代过渡将是人类史上最动荡时期之一，批科技行业淡化风险、呼吁对Token和机器人…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121886.html"
     },
     {
       "c": "MODEL",
@@ -14,6 +21,20 @@
       "t": "谷歌确认开发 WSL 支持：Antigravity 将直连 Win11 Linux 环境",
       "s": "科技媒体 Windows Latest 昨日（8 月 29 日）发布博文，报道称谷歌计划为其 AI 编程智能体工具 An…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/081.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T09:34",
+      "t": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
+      "s": "有人当金主，有人造铲子，有人守入口——谁在为这场万亿AI赌局买单？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121824.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T09:34",
+      "t": "美图赚到AI的钱了，然后呢",
+      "s": "旧美图负责基本盘，新美图负责想象力。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121821.html"
     },
     {
       "c": "MODEL",
@@ -119,53 +140,32 @@
       "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
       "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/480940.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T20:00",
-      "t": "OpenClaw：红过，爱过，散了",
-      "s": "龙虾退潮，Harness上位（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480855.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T19:35",
-      "t": "32GB大显存加持，英特尔锐炫Pro B70搞定AI漫剧创作",
-      "s": "从剧本到成片（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480787.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T18:14",
-      "t": "「中国词元」：芯片、模型、绿电的算术题",
-      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，聊的是英伟达收购 Hugging Fac…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502199"
     }
   ],
   "timeline": [
     [
-      "08-30 09:46",
+      "08-30 09:51",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 09:39",
+      "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑"
     ],
     [
       "08-30 09:37",
       "谷歌确认开发 WSL 支持：Antigravity 将直连 Win11 Linux 环境"
     ],
     [
+      "08-30 09:34",
+      "谁在给 AI 付账单：八大科技巨头的万亿投注版图"
+    ],
+    [
+      "08-30 09:34",
+      "美图赚到AI的钱了，然后呢"
+    ],
+    [
       "08-30 09:29",
       "关停五年后，虾米被阿里用AI“复活”了"
-    ],
-    [
-      "08-30 09:27",
-      "荣耀 Magic9 系列手机“三杯”入网，消息称主要在坪山自有工厂生产"
-    ],
-    [
-      "08-30 08:55",
-      "AI 人才争夺加码：台积电 2026Q2 奖金约为 360 亿新台币，同比增 50.6%"
-    ],
-    [
-      "08-30 08:52",
-      "Edge AI Daily 早报（8月30日）"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279388,
+      "s": 279389,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244273,
+      "s": 244274,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241066,
+      "s": 241067,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208673,
+      "s": 208674,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172476,
+      "s": 172477,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112323,
+      "s": 112325,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90728,
+      "s": 90729,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
