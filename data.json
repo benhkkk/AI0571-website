@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T15:51:51",
+  "updated": "2026-08-30T15:56:51",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T15:51",
+      "d": "2026-08-30T15:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T15:53",
+      "t": "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运",
+      "s": "全球首富埃隆 · 马斯克（Elon Musk）今天（8 月 30 日）在 X 平台发布推文，确认 SpaceX 正筹划在…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/179.htm"
     },
     {
       "c": "MODEL",
@@ -63,13 +70,6 @@
       "t": "预估为 GPT-6 AI 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
       "s": "科技媒体 testingcatalog 昨日（8 月 29 日）发布博文，报道称 OpenAI 正加快 Astra 模型…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/120.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T12:07",
-      "t": "启境轩伟谈 L3 级自动驾驶架构：车主导、人放松，正常行驶不需要时刻紧绷接管",
-      "s": "启境汽车产品总经理轩伟今日发文，谈及了汽车智能辅助驾驶的底层架构相关话题，并介绍了 L3 级自动驾驶架构。在这里我先要为…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/108.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 15:51",
+      "08-30 15:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 15:53",
+      "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运"
     ],
     [
       "08-30 15:31",
@@ -162,10 +166,6 @@
     [
       "08-30 14:58",
       "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元"
-    ],
-    [
-      "08-30 14:54",
-      "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244388,
+      "s": 244390,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241248,
+      "s": 241254,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208738,
+      "s": 208739,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143424,
+      "s": 143425,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135194,
+      "s": 135195,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112391,
+      "s": 112392,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
