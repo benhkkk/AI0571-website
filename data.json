@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T16:31:47",
+  "updated": "2026-08-30T16:36:49",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T16:31",
+      "d": "2026-08-30T16:36",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T16:35",
+      "t": "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车",
+      "s": "特斯拉 Cybercab 采用一种独特的乘客对接方案，以确保该自动驾驶网约车能够准确接到对应乘客，避免乘客上错车，并确保…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/189.htm"
     },
     {
       "c": "MODEL",
@@ -63,13 +70,6 @@
       "t": "消息称百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军",
       "s": "据《晚点 LatePost》8 月 29 日报道，百度智能云近日完成一轮产研组织调整。原平台产品事业部更名为智能体事业部…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/123.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T13:25",
-      "t": "预估为 GPT-6 AI 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
-      "s": "科技媒体 testingcatalog 昨日（8 月 29 日）发布博文，报道称 OpenAI 正加快 Astra 模型…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/120.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 16:31",
+      "08-30 16:36",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 16:35",
+      "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车"
     ],
     [
       "08-30 15:53",
@@ -162,10 +166,6 @@
     [
       "08-30 15:01",
       "硅谷知名风投 a16z 成立新基金：筹集 11 亿美元，布局芯片、内存与机器人赛道"
-    ],
-    [
-      "08-30 14:58",
-      "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279477,
+      "s": 279480,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244405,
+      "s": 244407,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241276,
+      "s": 241282,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172523,
+      "s": 172525,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135198,
+      "s": 135200,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
