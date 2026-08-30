@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-31T06:41:45",
+  "updated": "2026-08-31T06:46:38",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T06:41",
+      "d": "2026-08-31T06:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -14,6 +14,13 @@
       "t": "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token",
       "s": "据外媒 Android Headlines 报道，微软目前已开始收紧 Token 使用管理，官方已设置 Token 用量…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/254.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T03:34",
+      "t": "大额BD交易“扮靓”上半年成绩单 AI制药行业迈向商业价值兑现",
+      "s": "大额BD交易“扮靓”上半年成绩单 AI制药行业迈向商业价值兑现（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679910241584054820/"
     },
     {
       "c": "MODEL",
@@ -114,6 +121,13 @@
       "u": "https://www.toutiao.com/article/7679723184253436425/"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-30T10:30",
+      "t": "模速社群日 | 模速极客夜话:AI生物医药，正在重排产业创新坐标",
+      "s": "模速社群日 | 模速极客夜话:AI生物医药，正在重排产业创新坐标（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679646441081537065/"
+    },
+    {
       "c": "INDUSTRY",
       "d": "2026-08-30T09:39",
       "t": "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑",
@@ -126,30 +140,20 @@
       "t": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
       "s": "有人当金主，有人造铲子，有人守入口——谁在为这场万亿AI赌局买单？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121824.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T09:34",
-      "t": "美图赚到AI的钱了，然后呢",
-      "s": "旧美图负责基本盘，新美图负责想象力。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121821.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T09:29",
-      "t": "关停五年后，虾米被阿里用AI“复活”了",
-      "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121852.html"
     }
   ],
   "timeline": [
     [
-      "08-31 06:41",
+      "08-31 06:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
       "08-31 06:38",
       "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token"
+    ],
+    [
+      "08-31 03:34",
+      "大额BD交易“扮靓”上半年成绩单 AI制药行业迈向商业价值兑现"
     ],
     [
       "08-30 21:42",
@@ -162,10 +166,6 @@
     [
       "08-30 19:07",
       "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头"
-    ],
-    [
-      "08-30 18:58",
-      "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244683,
+      "s": 244685,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241803,
+      "s": 241804,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112635,
+      "s": 112636,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90924,
+      "s": 90925,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
