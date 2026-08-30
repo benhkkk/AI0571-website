@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T19:06:44",
+  "updated": "2026-08-30T19:11:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T19:06",
+      "d": "2026-08-30T19:11",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T19:07",
+      "t": "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头",
+      "s": "表面上看，人工智能（AI）模型公司似乎正在赚取巨额利润，但真正过得滋润的，可能是它们背后的云计算服务提供商。巴克莱银行最…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/218.htm"
     },
     {
       "c": "MODEL",
@@ -100,13 +107,6 @@
       "u": "https://www.ithome.com/0/996/190.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-30T16:35",
-      "t": "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车",
-      "s": "特斯拉 Cybercab 采用一种独特的乘客对接方案，以确保该自动驾驶网约车能够准确接到对应乘客，避免乘客上错车，并确保…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/189.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-08-30T15:28",
       "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 19:06",
+      "08-30 19:11",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 19:07",
+      "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头"
     ],
     [
       "08-30 18:58",
@@ -162,10 +166,6 @@
     [
       "08-30 18:49",
       "优必选走进窄门"
-    ],
-    [
-      "08-30 18:48",
-      "人形机器人还撑不起极智嘉"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279521,
+      "s": 279522,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241381,
+      "s": 241384,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208778,
+      "s": 208780,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172554,
+      "s": 172555,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135209,
+      "s": 135211,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112441,
+      "s": 112445,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101800,
+      "s": 101801,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
