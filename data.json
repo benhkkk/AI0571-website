@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T17:46:39",
+  "updated": "2026-08-30T17:51:51",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T17:46",
+      "d": "2026-08-30T17:51",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T17:50",
+      "t": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
+      "s": "看起来，很多人都想要一只身高将近 10 英寸（约 25 厘米）的机器人鸭子。当地时间周五，Hugging Face 联合…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/199.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -63,13 +70,6 @@
       "t": "硅谷知名风投 a16z 成立新基金：筹集 11 亿美元，布局芯片、内存与机器人赛道",
       "s": "据科技媒体 TechCrunch 前天报道，美国硅谷知名风险投资公司安德里森 · 霍罗威茨（Andreessen Hor…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/136.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T14:58",
-      "t": "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元",
-      "s": "大我 BIGME 今日宣布，彩墨屏 AI 阅读器 B6 Pro 国内即将开启预售，9 月 1 日 20:00 - 9 月…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/133.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 17:46",
+      "08-30 17:51",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 17:50",
+      "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单"
     ],
     [
       "08-30 17:12",
@@ -162,10 +166,6 @@
     [
       "08-30 16:35",
       "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车"
-    ],
-    [
-      "08-30 15:53",
-      "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279505,
+      "s": 279506,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244434,
+      "s": 244436,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241341,
+      "s": 241343,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208761,
+      "s": 208762,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143432,
+      "s": 143431,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112418,
+      "s": 112419,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90843,
+      "s": 90845,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
