@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-31T05:41:46",
+  "updated": "2026-08-31T05:46:53",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-31T05:41",
-      "t": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注",
-      "s": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250224/768984.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-31T05:41",
+      "d": "2026-08-31T05:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "美图赚到AI的钱了，然后呢",
       "s": "旧美图负责基本盘，新美图负责想象力。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121821.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T09:29",
+      "t": "关停五年后，虾米被阿里用AI“复活”了",
+      "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121852.html"
     }
   ],
   "timeline": [
     [
-      "08-31 05:41",
-      "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注"
-    ],
-    [
-      "08-31 05:41",
+      "08-31 05:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-30 18:58",
       "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌"
+    ],
+    [
+      "08-30 18:54",
+      "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244660,
+      "s": 244661,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241778,
+      "s": 241779,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208874,
+      "s": 208875,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112618,
+      "s": 112622,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101867,
+      "s": 101868,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90918,
+      "s": 90919,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
