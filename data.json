@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-30T17:26:43",
+  "updated": "2026-08-30T17:31:38",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T17:26",
+      "d": "2026-08-30T17:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -49,13 +49,6 @@
       "t": "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站",
       "s": "特斯拉正不断将旗下电动汽车打造成为“车轮上的联网生产力中心”。继近期推出 Grok Bot 后，特斯拉似乎正在准备将 S…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/169.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-30T15:28",
-      "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
-      "s": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679723184253436425/"
     },
     {
       "c": "FUNDING",
@@ -140,11 +133,18 @@
       "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
       "s": "3秒可处理200份PDF（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481075.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T20:11",
+      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480940.html"
     }
   ],
   "timeline": [
     [
-      "08-30 17:26",
+      "08-30 17:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279502,
+      "s": 279503,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244424,
+      "s": 244427,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241324,
+      "s": 241327,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208755,
+      "s": 208756,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143429,
+      "s": 143430,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90835,
+      "s": 90836,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
