@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T10:51:41",
+  "updated": "2026-08-30T10:56:38",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T10:51",
+      "d": "2026-08-30T10:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T10:54",
+      "t": "“史上最大规模版权盗窃”：Anthropic 被指侵权训练 Claude AI，单曲最高索赔 15 万美元",
+      "s": "科技媒体 Music Business Worldwide 昨日（8 月 29 日）发布博文，报道称索尼音乐出版（Son…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/095.htm"
     },
     {
       "c": "INDUSTRY",
@@ -100,13 +107,6 @@
       "u": "https://www.ithome.com/0/996/057.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-30T06:44",
-      "t": "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别",
-      "s": "科技媒体 9to5Mac 昨日（8 月 29 日）报道，苹果计划最早 2027 年推出其首款 AI 智能眼镜，预估会在 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/053.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-29T21:11",
       "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 10:51",
+      "08-30 10:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 10:54",
+      "“史上最大规模版权盗窃”：Anthropic 被指侵权训练 Claude AI，单曲最高索赔 15 万美元"
     ],
     [
       "08-30 09:39",
@@ -162,10 +166,6 @@
     [
       "08-30 09:34",
       "美图赚到AI的钱了，然后呢"
-    ],
-    [
-      "08-30 09:29",
-      "关停五年后，虾米被阿里用AI“复活”了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279394,
+      "s": 279396,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244294,
+      "s": 244298,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241092,
+      "s": 241095,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208681,
+      "s": 208683,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172482,
+      "s": 172484,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101769,
+      "s": 101771,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90744,
+      "s": 90747,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
