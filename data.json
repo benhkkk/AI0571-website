@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T13:22:03",
+  "updated": "2026-08-30T13:26:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T13:21",
+      "d": "2026-08-30T13:26",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T13:25",
+      "t": "预估为 GPT-6 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
+      "s": "科技媒体 testingcatalog 昨日（8 月 29 日）发布博文，报道称 OpenAI 正加快 Astra 模型…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/120.htm"
     },
     {
       "c": "HOT",
@@ -101,13 +108,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-30T08:14",
-      "t": "极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro",
-      "s": "ARCFOX 极狐宣布，旗下“智美 AI 越级大五座 SUV”新车 —— 极狐阿尔法 T7 预售 72 小时订单突破 3…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/067.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-29T21:11",
       "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
       "s": "推理软件栈的微小差异，就能改变输出token（来源：量子位）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 13:21",
+      "08-30 13:26",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 13:25",
+      "预估为 GPT-6 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏"
     ],
     [
       "08-30 12:07",
@@ -162,10 +166,6 @@
     [
       "08-30 10:54",
       "“史上最大规模版权盗窃”：Anthropic 被指侵权训练 Claude AI，单曲最高索赔 15 万美元"
-    ],
-    [
-      "08-30 09:39",
-      "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279428,
+      "s": 279430,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244338,
+      "s": 244339,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241166,
+      "s": 241167,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208703,
+      "s": 208704,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172501,
+      "s": 172502,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112360,
+      "s": 112361,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90782,
+      "s": 90784,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
