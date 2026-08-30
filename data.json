@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-30T08:41:44",
+  "updated": "2026-08-30T08:46:43",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-08-30T08:41",
-      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
-      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-30T08:41",
+      "d": "2026-08-30T08:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "AI 时代的代码库，为什么成了兵家必争之地",
       "s": "前阵子有一条新闻，圈里人聊得不少。OpenAI 的智能体，为了在 Hugging Face 的评测榜单上拿第一，主动攻击…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502198"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T18:00",
+      "t": "中国版 Hugging Face 是怎么造出来的",
+      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502197"
     }
   ],
   "timeline": [
     [
-      "08-30 08:41",
-      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
-    ],
-    [
-      "08-30 08:41",
+      "08-30 08:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-30 07:18",
       "荣耀 Magic8 系列手机首发的 AI 追色功能迎升级，新增支持类“调色盘”新玩法"
+    ],
+    [
+      "08-30 07:11",
+      "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244254,
+      "s": 244255,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241030,
+      "s": 241031,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135159,
+      "s": 135160,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112312,
+      "s": 112315,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90712,
+      "s": 90713,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
