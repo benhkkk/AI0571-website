@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-30T23:37:02",
+  "updated": "2026-08-30T23:41:48",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T23:36",
+      "d": "2026-08-30T23:41",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -31,10 +31,24 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-30T18:58",
+      "t": "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌",
+      "s": "如果给模型安装个身体？你会选择什么。 这道题过去只属于硬件创业者，这个八月，它摆到了所有软件公司桌上。Hugging F…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369556"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-30T18:54",
       "t": "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能",
       "s": "华为乾崑智能汽车解决方案昨日分享了鸿蒙座舱 HarmonySpace 暑期版本升级亮点。据介绍，鸿蒙座舱 Harmony…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/216.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T18:53",
+      "t": "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了",
+      "s": "9 个月之后，OpenAI 的首款芯片成绩单终于揭晓了。 8 月 25 日，在 Hot Chips 大会上，OpenAI…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369555"
     },
     {
       "c": "INDUSTRY",
@@ -126,25 +140,11 @@
       "t": "关停五年后，虾米被阿里用AI“复活”了",
       "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121852.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:11",
-      "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
-      "s": "推理软件栈的微小差异，就能改变输出token（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481372.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:01",
-      "t": "去年归国的徐梦迪，成了清华姚班班主任",
-      "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481318.html"
     }
   ],
   "timeline": [
     [
-      "08-30 23:36",
+      "08-30 23:41",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -160,12 +160,12 @@
       "巴克莱研究：AI 模型公司每赚 100 美元，约 35 至 40 美元流向三大云巨头"
     ],
     [
-      "08-30 18:54",
-      "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
+      "08-30 18:58",
+      "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌"
     ],
     [
-      "08-30 18:49",
-      "优必选走进窄门"
+      "08-30 18:54",
+      "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279590,
+      "s": 279591,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244542,
+      "s": 244544,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241569,
+      "s": 241573,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208826,
+      "s": 208825,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143451,
+      "s": 143452,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112527,
+      "s": 112528,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101834,
+      "s": 101837,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
