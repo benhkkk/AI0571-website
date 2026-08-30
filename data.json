@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-30T13:30:24",
+  "updated": "2026-08-30T13:32:06",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T13:30",
+      "d": "2026-08-30T13:32",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -107,44 +107,44 @@
       "u": "http://www.geekpark.net/news/369551"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-29T21:11",
-      "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
-      "s": "推理软件栈的微小差异，就能改变输出token（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481372.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:01",
-      "t": "去年归国的徐梦迪，成了清华姚班班主任",
-      "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481318.html"
+      "c": "FUNDING",
+      "d": "2026-08-29T18:14",
+      "t": "「中国词元」：芯片、模型、绿电的算术题",
+      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，聊的是英伟达收购 Hugging Fac…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502199"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-29T20:50",
-      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
-      "s": "AI「自进化」，越来越近了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481223.html"
+      "d": "2026-08-29T18:10",
+      "t": "AI 时代的代码库，为什么成了兵家必争之地",
+      "s": "前阵子有一条新闻，圈里人聊得不少。OpenAI 的智能体，为了在 Hugging Face 的评测榜单上拿第一，主动攻击…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502198"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-29T20:26",
-      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
-      "s": "3秒可处理200份PDF（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481075.html"
+      "c": "FUNDING",
+      "d": "2026-08-29T18:00",
+      "t": "中国版 Hugging Face 是怎么造出来的",
+      "s": "Hugging Face 以 129 亿美金被英伟达收购之后，很多人在问同一个问题，中国有没有自己的开源模型平台？ 有…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502197"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-29T20:11",
-      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
-      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/480940.html"
+      "c": "FUNDING",
+      "d": "2026-08-29T17:51",
+      "t": "AI 时代，开源为什么越来越值钱",
+      "s": "8 月 28 日周五晚，天际资本创始人张倩和开源中国 CEO 徐勇做了一场直播，主题是英伟达收购 Hugging Fac…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502195"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-29T17:42",
+      "t": "全球开源平台的宿命，都逃不过被收购 ？",
+      "s": "这两天，全球开源圈发生了一件大事。 Hugging Face，这个被称为全球 AI 文明灯塔级的开源社区，或将被英伟达以…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502194"
     }
   ],
   "timeline": [
     [
-      "08-30 13:30",
+      "08-30 13:32",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279430,
+      "s": 279431,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244341,
+      "s": 244342,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241167,
+      "s": 241168,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143420,
+      "s": 143421,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135176,
+      "s": 135177,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
