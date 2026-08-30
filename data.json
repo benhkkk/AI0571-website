@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-30T16:56:42",
+  "updated": "2026-08-30T17:01:43",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-08-30T16:56",
-      "t": "#当我问DeepSeek",
-      "s": "#当我问DeepSeek（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-639.html"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-30T16:56",
+      "d": "2026-08-30T17:01",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T17:00",
+      "t": "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表",
+      "s": "据 WindowsLatest 报道，Windows 11“设置”中的一张截图近日在网上疯传，浏览量已经达到数百万。截图…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/194.htm"
     },
     {
       "c": "MODEL",
@@ -28,13 +28,6 @@
       "t": "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车",
       "s": "特斯拉 Cybercab 采用一种独特的乘客对接方案，以确保该自动驾驶网约车能够准确接到对应乘客，避免乘客上错车，并确保…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/189.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-30T16:00",
-      "t": "AI版Moderna中报炸裂:剂泰科技走上中国AI4S的C位",
-      "s": "AI版Moderna中报炸裂:剂泰科技走上中国AI4S的C位（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679731416858493466/"
     },
     {
       "c": "MODEL",
@@ -77,13 +70,6 @@
       "t": "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI",
       "s": "Rockstar Games 表示，《侠盗猎车手 6》（GTA 6）在今年 11 月发售时不会加入微交易或生成式 AI…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/132.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T14:01",
-      "t": "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
-      "s": "英国长期韧性中心（CLTR）于 8 月 28 日发布报告，称其“失控观察站”在 2026 年 7 月共记录 306 起 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/124.htm"
     },
     {
       "c": "INDUSTRY",
@@ -140,16 +126,30 @@
       "t": "去年归国的徐梦迪，成了清华姚班班主任",
       "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481318.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T20:50",
+      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
+      "s": "AI「自进化」，越来越近了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481223.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T20:26",
+      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "s": "3秒可处理200份PDF（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481075.html"
     }
   ],
   "timeline": [
     [
-      "08-30 16:56",
-      "#当我问DeepSeek"
+      "08-30 17:01",
+      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
-      "08-30 16:56",
-      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+      "08-30 17:00",
+      "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表"
     ],
     [
       "08-30 16:39",
@@ -160,12 +160,12 @@
       "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车"
     ],
     [
-      "08-30 16:00",
-      "AI版Moderna中报炸裂:剂泰科技走上中国AI4S的C位"
-    ],
-    [
       "08-30 15:53",
       "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运"
+    ],
+    [
+      "08-30 15:31",
+      "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279487,
+      "s": 279489,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244414,
+      "s": 244417,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241294,
+      "s": 241297,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208747,
+      "s": 208751,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112408,
+      "s": 112409,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
