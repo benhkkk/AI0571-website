@@ -1,16 +1,9 @@
 {
-  "updated": "2026-08-30T15:11:47",
+  "updated": "2026-08-30T15:16:50",
   "news": [
     {
-      "c": "FUNDING",
-      "d": "2026-08-30T15:11",
-      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
-      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-08-30T15:11",
+      "d": "2026-08-30T15:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,15 +133,18 @@
       "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
       "s": "3秒可处理200份PDF（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481075.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T20:11",
+      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480940.html"
     }
   ],
   "timeline": [
     [
-      "08-30 15:11",
-      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
-    ],
-    [
-      "08-30 15:11",
+      "08-30 15:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-30 14:01",
       "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%"
+    ],
+    [
+      "08-30 13:57",
+      "消息称百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279456,
+      "s": 279458,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244368,
+      "s": 244369,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241223,
+      "s": 241225,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172507,
+      "s": 172509,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112380,
+      "s": 112382,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
