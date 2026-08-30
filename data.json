@@ -1,19 +1,19 @@
 {
-  "updated": "2026-08-30T14:01:55",
+  "updated": "2026-08-30T14:07:00",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-08-30T14:06",
+      "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
+      "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-08-30T14:01",
       "t": "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%",
       "s": "英国长期韧性中心（CLTR）于 8 月 28 日发布报告，称其“失控观察站”在 2026 年 7 月共记录 306 起 …（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/124.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T14:01",
-      "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
-      "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
     },
     {
       "c": "MODEL",
@@ -25,7 +25,7 @@
     {
       "c": "MODEL",
       "d": "2026-08-30T13:25",
-      "t": "预估为 GPT-6 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
+      "t": "预估为 GPT-6 AI 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏",
       "s": "科技媒体 testingcatalog 昨日（8 月 29 日）发布博文，报道称 OpenAI 正加快 Astra 模型…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/120.htm"
     },
@@ -144,12 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 14:01",
-      "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%"
+      "08-30 14:06",
+      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
       "08-30 14:01",
-      "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+      "日均峰值 11.3 起：报告称 2026 年已记录 1664 起 AI 失控事件，7 月环比增 93.76%"
     ],
     [
       "08-30 13:57",
@@ -157,7 +157,7 @@
     ],
     [
       "08-30 13:25",
-      "预估为 GPT-6 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏"
+      "预估为 GPT-6 AI 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏"
     ],
     [
       "08-30 12:07",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279436,
+      "s": 279439,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244350,
+      "s": 244351,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241188,
+      "s": 241191,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208711,
+      "s": 208712,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172503,
+      "s": 172504,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135179,
+      "s": 135180,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112367,
+      "s": 112368,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90788,
+      "s": 90789,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
