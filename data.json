@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-30T22:51:39",
+  "updated": "2026-08-30T22:56:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T22:51",
+      "d": "2026-08-30T22:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -114,13 +114,6 @@
       "u": "https://www.toutiao.com/article/7679723184253436425/"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-08-30T10:30",
-      "t": "模速社群日 | 模速极客夜话:AI生物医药，正在重排产业创新坐标",
-      "s": "模速社群日 | 模速极客夜话:AI生物医药，正在重排产业创新坐标（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679646441081537065/"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-08-30T09:39",
       "t": "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑",
@@ -140,11 +133,18 @@
       "t": "美图赚到AI的钱了，然后呢",
       "s": "旧美图负责基本盘，新美图负责想象力。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121821.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T09:29",
+      "t": "关停五年后，虾米被阿里用AI“复活”了",
+      "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121852.html"
     }
   ],
   "timeline": [
     [
-      "08-30 22:51",
+      "08-30 22:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279580,
+      "s": 279582,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244528,
+      "s": 244530,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241536,
+      "s": 241541,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143447,
+      "s": 143448,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135235,
+      "s": 135236,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
