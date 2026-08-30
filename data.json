@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-30T19:01:51",
+  "updated": "2026-08-30T19:06:44",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T19:01",
+      "d": "2026-08-30T19:06",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -28,6 +28,20 @@
       "t": "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了",
       "s": "9 个月之后，OpenAI 的首款芯片成绩单终于揭晓了。 8 月 25 日，在 Hot Chips 大会上，OpenAI…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369555"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-30T18:49",
+      "t": "优必选走进窄门",
+      "s": "当人形机器人行业的注意力，从展会舞台的后空翻，转向工厂车间的拆码垛，整个赛道的评判标尺已被彻底改写。概念炒作的红利逐渐退…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8121851.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T18:48",
+      "t": "人形机器人还撑不起极智嘉",
+      "s": "基本盘还稳，第二曲线没兑现。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122055.html"
     },
     {
       "c": "HOT",
@@ -126,25 +140,11 @@
       "t": "关停五年后，虾米被阿里用AI“复活”了",
       "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121852.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T08:52",
-      "t": "Edge AI Daily 早报（8月30日）",
-      "s": "微软完成WinUI主线开源至GitHub，Windows组件化进程加速；亚马逊推出配送速度竞价机制，物流能力可量化交易…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121865.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-30T08:28",
-      "t": "OpenAI 终止与 Cursor 合作；雷军：2600名小米车主行程超 10 万公里；华纳与索尼起诉 Anthropic，索赔数十亿美元",
-      "s": "OpenAI 终止与 Cursor 合作 8 月 29 日消息，OpenAI 以「无法信任 SpaceX 遵守服务条款」…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369551"
     }
   ],
   "timeline": [
     [
-      "08-30 19:01",
+      "08-30 19:06",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -160,12 +160,12 @@
       "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了"
     ],
     [
-      "08-30 18:45",
-      "自动驾驶入法后，罚单还得车主交?"
+      "08-30 18:49",
+      "优必选走进窄门"
     ],
     [
-      "08-30 18:32",
-      "东芝 S300 AI 系列机械硬盘开售：可选 8TB、10TB，2949 元起"
+      "08-30 18:48",
+      "人形机器人还撑不起极智嘉"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279520,
+      "s": 279521,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244463,
+      "s": 244464,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241379,
+      "s": 241381,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143434,
+      "s": 143435,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135208,
+      "s": 135209,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112439,
+      "s": 112441,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101799,
+      "s": 101800,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
