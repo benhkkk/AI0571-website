@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T11:01:46",
+  "updated": "2026-08-30T11:06:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T11:01",
+      "d": "2026-08-30T11:06",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T11:02",
+      "t": "9 月 14 日起，Pro / Max / Team 用户 Claude Code 标准周限额永久 +25%",
+      "s": "@ClaudeDevs 今天（8 月 30 日）在 X 平台发布推文，宣布自 2026 年 9 月 14 日起，针对 P…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/097.htm"
     },
     {
       "c": "MODEL",
@@ -100,13 +107,6 @@
       "u": "https://www.ithome.com/0/996/058.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-30T07:11",
-      "t": "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用",
-      "s": "科技媒体 9to5Mac 昨日（8 月 29 日）发布博文，报道称在苹果 Siri AI 上线之前，苹果车联方案 Car…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/057.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-29T21:11",
       "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 11:01",
+      "08-30 11:06",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 11:02",
+      "9 月 14 日起，Pro / Max / Team 用户 Claude Code 标准周限额永久 +25%"
     ],
     [
       "08-30 10:54",
@@ -162,10 +166,6 @@
     [
       "08-30 09:34",
       "谁在给 AI 付账单：八大科技巨头的万亿投注版图"
-    ],
-    [
-      "08-30 09:34",
-      "美图赚到AI的钱了，然后呢"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279396,
+      "s": 279397,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244298,
+      "s": 244301,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241096,
+      "s": 241099,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172484,
+      "s": 172485,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135169,
+      "s": 135170,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112334,
+      "s": 112336,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90750,
+      "s": 90752,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
