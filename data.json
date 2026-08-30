@@ -1,9 +1,30 @@
 {
-  "updated": "2026-08-30T16:11:42",
+  "updated": "2026-08-30T16:16:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T16:11",
+      "d": "2026-08-30T16:16",
+      "t": "#机器人赛道26年数据盘点",
+      "s": "#机器人赛道26年数据盘点（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-836.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-08-30T16:16",
+      "t": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”",
+      "s": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260624/925608.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T16:16",
+      "t": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点",
+      "s": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260622/923670.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T16:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -119,32 +140,23 @@
       "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
       "s": "推理软件栈的微小差异，就能改变输出token（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481372.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:01",
-      "t": "去年归国的徐梦迪，成了清华姚班班主任",
-      "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481318.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:50",
-      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
-      "s": "AI「自进化」，越来越近了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481223.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:26",
-      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
-      "s": "3秒可处理200份PDF（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481075.html"
     }
   ],
   "timeline": [
     [
-      "08-30 16:11",
+      "08-30 16:16",
+      "#机器人赛道26年数据盘点"
+    ],
+    [
+      "08-30 16:16",
+      "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”"
+    ],
+    [
+      "08-30 16:16",
+      "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点"
+    ],
+    [
+      "08-30 16:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -154,18 +166,6 @@
     [
       "08-30 15:31",
       "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站"
-    ],
-    [
-      "08-30 15:28",
-      "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波..."
-    ],
-    [
-      "08-30 15:01",
-      "硅谷知名风投 a16z 成立新基金：筹集 11 亿美元，布局芯片、内存与机器人赛道"
-    ],
-    [
-      "08-30 14:58",
-      "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279472,
+      "s": 279475,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244396,
+      "s": 244397,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241264,
+      "s": 241266,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208742,
+      "s": 208743,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172519,
+      "s": 172520,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143425,
+      "s": 143426,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135197,
+      "s": 135198,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112398,
+      "s": 112400,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90817,
+      "s": 90818,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
