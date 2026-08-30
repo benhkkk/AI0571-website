@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T21:41:45",
+  "updated": "2026-08-30T21:46:44",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T21:41",
+      "d": "2026-08-30T21:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T21:42",
+      "t": "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出",
+      "s": "据白鲸实验室消息，字节跳动原计划于 8 月推出的豆包大模型 2.2 将推迟面世。多位接近字节的人士称，延期的原因是，字节…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/239.htm"
     },
     {
       "c": "HOT",
@@ -58,6 +65,13 @@
       "u": "https://www.tmtpost.com/8122055.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-30T18:46",
+      "t": "百普赛斯半年报:营收增长近3成、AI制药乘风起、打开成长“天...",
+      "s": "百普赛斯半年报:营收增长近3成、AI制药乘风起、打开成长“天...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679774343076823590/"
+    },
+    {
       "c": "HOT",
       "d": "2026-08-30T18:45",
       "t": "自动驾驶入法后，罚单还得车主交?",
@@ -100,13 +114,6 @@
       "u": "https://www.ithome.com/0/996/195.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-30T17:00",
-      "t": "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表",
-      "s": "据 WindowsLatest 报道，Windows 11“设置”中的一张截图近日在网上疯传，浏览量已经达到数百万。截图…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/194.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-08-30T15:28",
       "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
@@ -133,19 +140,16 @@
       "t": "美图赚到AI的钱了，然后呢",
       "s": "旧美图负责基本盘，新美图负责想象力。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121821.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T09:29",
-      "t": "关停五年后，虾米被阿里用AI“复活”了",
-      "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121852.html"
     }
   ],
   "timeline": [
     [
-      "08-30 21:41",
+      "08-30 21:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 21:42",
+      "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出"
     ],
     [
       "08-30 19:26",
@@ -162,10 +166,6 @@
     [
       "08-30 18:54",
       "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
-    ],
-    [
-      "08-30 18:53",
-      "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279560,
+      "s": 279564,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244503,
+      "s": 244504,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241491,
+      "s": 241494,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208812,
+      "s": 208814,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112495,
+      "s": 112498,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101815,
+      "s": 101817,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
