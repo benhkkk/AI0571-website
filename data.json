@@ -1,12 +1,26 @@
 {
-  "updated": "2026-08-30T19:26:43",
+  "updated": "2026-08-30T19:31:48",
   "news": [
     {
+      "c": "FUNDING",
+      "d": "2026-08-30T19:31",
+      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
+      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-30T19:26",
+      "d": "2026-08-30T19:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T19:26",
+      "t": "消息称 Meta 正测试数据中心机器人，可完成插拔线缆、重启服务器等运维工作",
+      "s": "据 Wired 报道，多位了解相关项目的 Meta 现任及前员工透露，Meta 正在测试能够在数据中心内插接线缆、重启服…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/222.htm"
     },
     {
       "c": "MODEL",
@@ -100,13 +114,6 @@
       "u": "https://www.ithome.com/0/996/194.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-30T16:39",
-      "t": "英国电信行业高管警告：5G 升级太慢，英国可能输掉 AI 竞赛",
-      "s": "据《卫报》昨天报道，英国电信行业多位高管表示，如果英国电信基础设施升级进度持续落后于其他国家，可能在全球 AI 竞赛中落…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/190.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-08-30T15:28",
       "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
@@ -133,19 +140,20 @@
       "t": "美图赚到AI的钱了，然后呢",
       "s": "旧美图负责基本盘，新美图负责想象力。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121821.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T09:29",
-      "t": "关停五年后，虾米被阿里用AI“复活”了",
-      "s": "过去互联网公司主要争夺音乐的数字分发权，如今生成式AI正在推动它们进一步介入音乐的生产工具和创作入口。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121852.html"
     }
   ],
   "timeline": [
     [
-      "08-30 19:26",
+      "08-30 19:31",
+      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
+    ],
+    [
+      "08-30 19:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 19:26",
+      "消息称 Meta 正测试数据中心机器人，可完成插拔线缆、重启服务器等运维工作"
     ],
     [
       "08-30 19:07",
@@ -158,14 +166,6 @@
     [
       "08-30 18:54",
       "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
-    ],
-    [
-      "08-30 18:53",
-      "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了"
-    ],
-    [
-      "08-30 18:49",
-      "优必选走进窄门"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279525,
+      "s": 279527,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244467,
+      "s": 244470,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241395,
+      "s": 241402,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208782,
+      "s": 208785,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172558,
+      "s": 172559,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143435,
+      "s": 143436,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90858,
+      "s": 90859,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
