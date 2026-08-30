@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T17:11:49",
+  "updated": "2026-08-30T17:16:42",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T17:11",
+      "d": "2026-08-30T17:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-30T17:12",
+      "t": "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种",
+      "s": "瑞金医院今日联合华为云正式发布瑞智病理大模型 RuiPath 2.0，带来性能、诊断能力、病理诊断可解释性、罕见病种数据…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/195.htm"
     },
     {
       "c": "HOT",
@@ -63,13 +70,6 @@
       "t": "大我 BIGME 推出 4G 通话阅读本 B6 Pro：6 英寸彩墨屏，到手价 2099 元",
       "s": "大我 BIGME 今日宣布，彩墨屏 AI 阅读器 B6 Pro 国内即将开启预售，9 月 1 日 20:00 - 9 月…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/133.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T14:54",
-      "t": "R 星确认：《GTA 6》发售时不会有微交易和生成式 AI",
-      "s": "Rockstar Games 表示，《侠盗猎车手 6》（GTA 6）在今年 11 月发售时不会加入微交易或生成式 AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/132.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 17:11",
+      "08-30 17:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 17:12",
+      "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种"
     ],
     [
       "08-30 17:00",
@@ -162,10 +166,6 @@
     [
       "08-30 15:53",
       "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运"
-    ],
-    [
-      "08-30 15:31",
-      "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279495,
+      "s": 279497,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241312,
+      "s": 241316,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208752,
+      "s": 208753,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172533,
+      "s": 172534,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112413,
+      "s": 112414,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101796,
+      "s": 101795,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90831,
+      "s": 90833,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
