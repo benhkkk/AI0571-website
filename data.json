@@ -1,30 +1,9 @@
 {
-  "updated": "2026-08-30T14:41:50",
+  "updated": "2026-08-30T14:46:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T14:41",
-      "t": "#AI与科学仪器",
-      "s": "#AI与科学仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-811.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T14:41",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T14:41",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T14:41",
+      "d": "2026-08-30T14:46",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -140,23 +119,32 @@
       "t": "去年归国的徐梦迪，成了清华姚班班主任",
       "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481318.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T20:50",
+      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
+      "s": "AI「自进化」，越来越近了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481223.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-29T20:26",
+      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
+      "s": "3秒可处理200份PDF（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481075.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-29T20:11",
+      "t": "Coding不再是程序员专属！阿里Qoder这波有点绝",
+      "s": "Coding正在变成Al世界的数字执行力（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/480940.html"
     }
   ],
   "timeline": [
     [
-      "08-30 14:41",
-      "#AI与科学仪器"
-    ],
-    [
-      "08-30 14:41",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
-    [
-      "08-30 14:41",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
-    ],
-    [
-      "08-30 14:41",
+      "08-30 14:46",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -166,6 +154,18 @@
     [
       "08-30 13:57",
       "消息称百度智能云分拆平台产品事业部：MaaS 划入基础设施、Agent 独立成军"
+    ],
+    [
+      "08-30 13:25",
+      "预估为 GPT-6 AI 模型：OpenAI Astra 首批演示样本流出，1 次交互生成类 GTA 2 游戏"
+    ],
+    [
+      "08-30 12:07",
+      "启境轩伟谈 L3 级自动驾驶架构：车主导、人放松，正常行驶不需要时刻紧绷接管"
+    ],
+    [
+      "08-30 11:28",
+      "中塞联合建设机器人工厂投产，成为欧洲首座人形机器人量产基地"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279447,
+      "s": 279448,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244356,
+      "s": 244358,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241206,
+      "s": 241208,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135183,
+      "s": 135184,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112376,
+      "s": 112375,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90796,
+      "s": 90797,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
