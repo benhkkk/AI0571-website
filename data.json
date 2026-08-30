@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T09:26:48",
+  "updated": "2026-08-30T09:31:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T09:26",
+      "d": "2026-08-30T09:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T09:27",
+      "t": "荣耀 Magic9 系列手机“三杯”入网，消息称主要在坪山自有工厂生产",
+      "s": "型号为“MLY-AN00”、“MLM-AN00”、“WKL-AN80 / 20”的三款荣耀手机已入网。博主 @旺仔百事通…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/080.htm"
     },
     {
       "c": "MODEL",
@@ -70,13 +77,6 @@
       "t": "韩国政府计划向全体国民提供免费 AI 服务",
       "s": "据《华尔街日报》昨天报道，韩国政府计划向全体国民提供免费生成式 AI 服务，帮助民众处理预约医疗、寻找住房、办理税务等日…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/050.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-29T21:39",
-      "t": "英伟达“看中”Hugging Face，开放权重 AI 模型成硅谷热门收购目标",
-      "s": "据外媒 TechCrunch 今天（29 日）报道，英伟达有望完成本周最受瞩目的一笔科技交易。市场正等待公司确认一项据称…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/041.htm"
     },
     {
       "c": "HOT",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 09:26",
+      "08-30 09:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 09:27",
+      "荣耀 Magic9 系列手机“三杯”入网，消息称主要在坪山自有工厂生产"
     ],
     [
       "08-30 08:55",
@@ -162,10 +166,6 @@
     [
       "08-30 08:14",
       "极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro"
-    ],
-    [
-      "08-30 07:45",
-      "少 1 个展开步骤：部分谷歌搜索测试默认进入 AI 模式，下移传统蓝链搜索结果"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279385,
+      "s": 279386,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244267,
+      "s": 244268,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241052,
+      "s": 241056,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208668,
+      "s": 208672,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112320,
+      "s": 112322,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101760,
+      "s": 101761,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90723,
+      "s": 90725,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
