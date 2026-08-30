@@ -1,16 +1,16 @@
 {
-  "updated": "2026-08-30T16:51:42",
+  "updated": "2026-08-30T16:56:42",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-30T16:51",
+      "d": "2026-08-30T16:56",
       "t": "#当我问DeepSeek",
       "s": "#当我问DeepSeek（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-639.html"
     },
     {
       "c": "HOT",
-      "d": "2026-08-30T16:51",
+      "d": "2026-08-30T16:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -30,6 +30,13 @@
       "u": "https://www.ithome.com/0/996/189.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-30T16:00",
+      "t": "AI版Moderna中报炸裂:剂泰科技走上中国AI4S的C位",
+      "s": "AI版Moderna中报炸裂:剂泰科技走上中国AI4S的C位（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679731416858493466/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-30T15:53",
       "t": "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运",
@@ -42,6 +49,13 @@
       "t": "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站",
       "s": "特斯拉正不断将旗下电动汽车打造成为“车轮上的联网生产力中心”。继近期推出 Grok Bot 后，特斯拉似乎正在准备将 S…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/169.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-30T15:28",
+      "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
+      "s": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7679723184253436425/"
     },
     {
       "c": "FUNDING",
@@ -126,29 +140,15 @@
       "t": "去年归国的徐梦迪，成了清华姚班班主任",
       "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481318.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:50",
-      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
-      "s": "AI「自进化」，越来越近了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481223.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:26",
-      "t": "20ms把PDF变成Markdown！开源OCR神器快了近300倍",
-      "s": "3秒可处理200份PDF（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481075.html"
     }
   ],
   "timeline": [
     [
-      "08-30 16:51",
+      "08-30 16:56",
       "#当我问DeepSeek"
     ],
     [
-      "08-30 16:51",
+      "08-30 16:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -160,12 +160,12 @@
       "特斯拉 Cybercab 车头 RGB 灯带可显示不同颜色，避免乘客上错车"
     ],
     [
-      "08-30 15:53",
-      "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运"
+      "08-30 16:00",
+      "AI版Moderna中报炸裂:剂泰科技走上中国AI4S的C位"
     ],
     [
-      "08-30 15:31",
-      "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站"
+      "08-30 15:53",
+      "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279486,
+      "s": 279487,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244413,
+      "s": 244414,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241293,
+      "s": 241294,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208748,
+      "s": 208747,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172530,
+      "s": 172531,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135203,
+      "s": 135202,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112407,
+      "s": 112408,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90830,
+      "s": 90831,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
