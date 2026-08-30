@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-30T18:31:55",
+  "updated": "2026-08-30T18:36:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T18:31",
+      "d": "2026-08-30T18:36",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T18:32",
+      "t": "东芝 S300 AI 系列机械硬盘开售：可选 8TB、10TB，2949 元起",
+      "s": "东芝 S300 AI 系列机械硬盘现已在京东开售，新品专为监控等场景设计，可选 8TB、10TB 容量，售价 2949 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/213.htm"
     },
     {
       "c": "INDUSTRY",
@@ -63,13 +70,6 @@
       "t": "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运",
       "s": "全球首富埃隆 · 马斯克（Elon Musk）今天（8 月 30 日）在 X 平台发布推文，确认 SpaceX 正筹划在…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/179.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-30T15:31",
-      "t": "特斯拉车机系统有望接入 Grok Bot，打造移动 AI 工作站",
-      "s": "特斯拉正不断将旗下电动汽车打造成为“车轮上的联网生产力中心”。继近期推出 Grok Bot 后，特斯拉似乎正在准备将 S…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/169.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-30 18:31",
+      "08-30 18:36",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 18:32",
+      "东芝 S300 AI 系列机械硬盘开售：可选 8TB、10TB，2949 元起"
     ],
     [
       "08-30 18:01",
@@ -162,10 +166,6 @@
     [
       "08-30 17:12",
       "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种"
-    ],
-    [
-      "08-30 17:00",
-      "网传微软 Win11 偷偷后台跑 AI，页面实为权限管理列表"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279516,
+      "s": 279517,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244450,
+      "s": 244451,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172548,
+      "s": 172549,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112427,
+      "s": 112429,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
