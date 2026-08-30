@@ -1,12 +1,33 @@
 {
-  "updated": "2026-08-30T18:51:51",
+  "updated": "2026-08-30T18:56:42",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-30T18:51",
+      "d": "2026-08-30T18:56",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T18:54",
+      "t": "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能",
+      "s": "华为乾崑智能汽车解决方案昨日分享了鸿蒙座舱 HarmonySpace 暑期版本升级亮点。据介绍，鸿蒙座舱 Harmony…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/216.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T18:53",
+      "t": "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了",
+      "s": "9 个月之后，OpenAI 的首款芯片成绩单终于揭晓了。 8 月 25 日，在 Hot Chips 大会上，OpenAI…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369555"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T18:45",
+      "t": "自动驾驶入法后，罚单还得车主交?",
+      "s": "“激活状态”或是未来官司的焦点。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122093.html"
     },
     {
       "c": "HOT",
@@ -65,13 +86,6 @@
       "u": "https://www.ithome.com/0/996/189.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-30T15:53",
-      "t": "全球仅 3 家能铸：马斯克 SpaceX 突破 AI 供电瓶颈，自产涡轮叶片提前 18 个月投运",
-      "s": "全球首富埃隆 · 马斯克（Elon Musk）今天（8 月 30 日）在 X 平台发布推文，确认 SpaceX 正筹划在…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/179.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-08-30T15:28",
       "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
@@ -126,26 +140,24 @@
       "t": "AI本地部署不如官方版的元凶找到了：734个依赖包，每一个都可能坑",
       "s": "推理软件栈的微小差异，就能改变输出token（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481372.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-29T21:01",
-      "t": "去年归国的徐梦迪，成了清华姚班班主任",
-      "s": "本科读车辆工程，如今教AI第一班（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481318.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-29T20:50",
-      "t": "Claude开始训练Claude！4美元一小时，跑赢150美元人类研究员",
-      "s": "AI「自进化」，越来越近了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481223.html"
     }
   ],
   "timeline": [
     [
-      "08-30 18:51",
+      "08-30 18:56",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-30 18:54",
+      "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能"
+    ],
+    [
+      "08-30 18:53",
+      "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了"
+    ],
+    [
+      "08-30 18:45",
+      "自动驾驶入法后，罚单还得车主交?"
     ],
     [
       "08-30 18:32",
@@ -154,18 +166,6 @@
     [
       "08-30 18:01",
       "从“送外卖”到“城市基础设施”，顺丰同城的AI野心"
-    ],
-    [
-      "08-30 17:58",
-      "荣耀机器人闪电首次出海，成为马来西亚马拉松首位机器人参赛选手"
-    ],
-    [
-      "08-30 17:50",
-      "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单"
-    ],
-    [
-      "08-30 17:12",
-      "华为云联合瑞金医院发布瑞智病理大模型 RuiPath 2.0：7B 参数，覆盖 19 个常见癌种"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244459,
+      "s": 244462,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241373,
+      "s": 241375,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208773,
+      "s": 208776,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135207,
+      "s": 135208,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112435,
+      "s": 112437,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
