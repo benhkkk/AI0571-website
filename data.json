@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-31T17:21:54",
+  "updated": "2026-08-31T17:26:43",
   "news": [
     {
       "c": "FUNDING",
-      "d": "2026-08-31T17:21",
+      "d": "2026-08-31T17:26",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T17:21",
+      "d": "2026-08-31T17:26",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T17:21",
+      "d": "2026-08-31T17:26",
       "t": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍",
       "s": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967712.shtml"
@@ -100,6 +100,13 @@
       "u": "https://www.ithome.com/0/996/554.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T16:40",
+      "t": "AI制药职位增长84%，计算机辅助药物设计月薪2.5万",
+      "s": "AI制药职位增长84%，计算机辅助药物设计月薪2.5万（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680112791651271203/"
+    },
+    {
       "c": "HOT",
       "d": "2026-08-31T16:32",
       "t": "首次海外亮相：小米机器人 CyberOne 将现身 IFA 国际消费电子展",
@@ -133,26 +140,19 @@
       "t": "滴滴自动驾驶新一代车型开启载客测试服务",
       "s": "近期，滴滴自动驾驶新一代 Robotaxi R2正式开启无人载客测试服务（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481923.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-31T15:34",
-      "t": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
-      "s": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481919.html"
     }
   ],
   "timeline": [
     [
-      "08-31 17:21",
+      "08-31 17:26",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 17:21",
+      "08-31 17:26",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
-      "08-31 17:21",
+      "08-31 17:26",
       "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244891,
+      "s": 244893,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242322,
+      "s": 242328,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208995,
+      "s": 208997,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172724,
+      "s": 172723,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143521,
+      "s": 143523,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101949,
+      "s": 101951,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91023,
+      "s": 91022,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
