@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-31T18:21:48",
+  "updated": "2026-08-31T18:26:46",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T18:21",
+      "d": "2026-08-31T18:26",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T18:21",
+      "d": "2026-08-31T18:26",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T18:21",
+      "d": "2026-08-31T18:26",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -86,6 +86,13 @@
       "u": "https://www.ithome.com/0/996/561.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T16:56",
+      "t": "突发!知名AI制药公司破产，梯瓦“抄底”",
+      "s": "突发!知名AI制药公司破产，梯瓦“抄底”（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680117009266377256/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-31T16:54",
       "t": "MateClaw 2.2.0 发布：可插拔 Agent Runtime、持久任务恢复与 A2A 互联",
@@ -107,6 +114,13 @@
       "u": "https://www.ithome.com/0/996/556.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T16:40",
+      "t": "AI制药职位增长84%，计算机辅助药物设计月薪2.5万",
+      "s": "AI制药职位增长84%，计算机辅助药物设计月薪2.5万（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680112791651271203/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-08-31T16:16",
       "t": "独家｜字节豆包2.2推迟发布，Coding疯狂补课",
@@ -126,33 +140,19 @@
       "t": "解读物理AI第一股”的底色",
       "s": "科技公司的价值，最终不能靠概念兑现，只能靠规模兑现。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122870.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T16:12",
-      "t": "「说 Harness 会被淘汰的，肯定没做过工程」，Kimi 前 CLI 负责人戳破了 AI 圈最大的误解",
-      "s": "只有那些真正在一线写过CLI、调过 Agent Swarm 的人才会知道：模型不能解决一切。 作者丨高允毅 编辑丨岑 峰…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/vbrr9dz3SxrE7CWe.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T16:09",
-      "t": "海信JUOS发布！行业首个家庭智能伴侣级AIOS，家庭AI从“被动响应”走向“主动懂家”",
-      "s": "8月31日，海信正式发布行业首个家庭智能伴侣级AIOS——海信JUOS。该系统面向家庭全场景，原生适配电视、闺蜜机、投影…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/smarthome/ZVheiCG6BlrsIMUP.html"
     }
   ],
   "timeline": [
     [
-      "08-31 18:21",
+      "08-31 18:26",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 18:21",
+      "08-31 18:26",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 18:21",
+      "08-31 18:26",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279860,
+      "s": 279862,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244910,
+      "s": 244911,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242372,
+      "s": 242373,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112826,
+      "s": 112828,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91033,
+      "s": 91034,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
