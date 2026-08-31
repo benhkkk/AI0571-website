@@ -1,26 +1,33 @@
 {
-  "updated": "2026-08-31T21:51:48",
+  "updated": "2026-08-31T21:56:47",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T21:51",
+      "d": "2026-08-31T21:56",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T21:51",
+      "d": "2026-08-31T21:56",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T21:51",
+      "d": "2026-08-31T21:56",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T21:54",
+      "t": "荣耀 MagicOS 11 亮点公布：升级省存储空间、UX 焕新液态玻璃、支持多协议快充",
+      "s": "荣耀产品维护与升级 @荣耀小芳哥 今日宣布，今晚 MagicOS 11 内测版本增推，随后他公布了新系统的亮点内容。存储…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/659.htm"
     },
     {
       "c": "MODEL",
@@ -86,13 +93,6 @@
       "u": "https://www.ithome.com/0/996/638.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-31T19:35",
-      "t": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
-      "s": "刚刚，DeepSeek V4 首个多模态模型 DeepSeek-V4-Flash-Vision-Exp 在 Huggin…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/637.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-08-31T19:13",
       "t": "英伟达129亿买下Hugging Face：拒绝5亿投资后，开源AI童话结束了",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-31 21:51",
+      "08-31 21:56",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 21:51",
+      "08-31 21:56",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 21:51",
+      "08-31 21:56",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "08-31 21:54",
+      "荣耀 MagicOS 11 亮点公布：升级省存储空间、UX 焕新液态玻璃、支持多协议快充"
     ],
     [
       "08-31 21:21",
@@ -162,10 +166,6 @@
     [
       "08-31 21:19",
       "OpenAI：ChatGPT 广告年化收入运行率已达 10 亿美元"
-    ],
-    [
-      "08-31 21:04",
-      "独家对话江口达雄：版号不稳、芯片涨价，PlayStation如何守主机阵地"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279918,
+      "s": 279920,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244985,
+      "s": 244988,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242533,
+      "s": 242535,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209051,
+      "s": 209052,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
