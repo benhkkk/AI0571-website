@@ -1,26 +1,33 @@
 {
-  "updated": "2026-08-31T19:46:44",
+  "updated": "2026-08-31T19:51:39",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T19:46",
+      "d": "2026-08-31T19:51",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T19:46",
+      "d": "2026-08-31T19:51",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T19:46",
+      "d": "2026-08-31T19:51",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T19:46",
+      "t": "谷歌 AI 应用 Dreambeans 取消订阅制，开放免费测试",
+      "s": "据科技媒体 MacObserver 今天报道，谷歌 AI 应用 Dreambeans 现已取消付费订阅要求，并在美国开放…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/638.htm"
     },
     {
       "c": "MODEL",
@@ -129,13 +136,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-31T17:03",
-      "t": "豆包辟谣“建议开水煮拖鞋”传闻：博主故意引导回复，玩梗视频未披露虚构情节",
-      "s": "豆包公关负责人刘星今日在微博发文，回应近期在互联网传播的“豆包建议煮拖鞋”流言。据IT之家了解，近日多个平台出现一批博主…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/565.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-31T17:00",
       "t": "AGI军令状前，MiniMax 和智谱的最后一份中报",
       "s": "智谱和Kimi，很快就要回答同一道题。（来源：钛媒体）",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-31 19:46",
+      "08-31 19:51",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 19:46",
+      "08-31 19:51",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 19:46",
+      "08-31 19:51",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "08-31 19:46",
+      "谷歌 AI 应用 Dreambeans 取消订阅制，开放免费测试"
     ],
     [
       "08-31 19:35",
@@ -162,10 +166,6 @@
     [
       "08-31 19:18",
       "“国产 GPU 四小龙”之一：燧原科技科创板 IPO 发行价格定为 142.18 元 / 股"
-    ],
-    [
-      "08-31 19:16",
-      "工业巨头卡特彼勒将 AI 推向真实作业现场，未来五年投入 1 亿美元培训员工"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279884,
+      "s": 279885,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244934,
+      "s": 244937,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242422,
+      "s": 242425,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112846,
+      "s": 112847,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
