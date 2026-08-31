@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T09:31:56",
+  "updated": "2026-08-31T09:36:40",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T09:31",
+      "d": "2026-08-31T09:36",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T09:27",
+      "t": "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand",
+      "s": "Alibaba Launches AI Song Generator HappyShrimp, Ec…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122395.html"
     },
     {
       "c": "MEDPHARMA",
@@ -133,19 +140,16 @@
       "t": "优必选走进窄门",
       "s": "当人形机器人行业的注意力，从展会舞台的后空翻，转向工厂车间的拆码垛，整个赛道的评判标尺已被彻底改写。概念炒作的红利逐渐退…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8121851.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T18:48",
-      "t": "人形机器人还撑不起极智嘉",
-      "s": "基本盘还稳，第二曲线没兑现。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8122055.html"
     }
   ],
   "timeline": [
     [
-      "08-31 09:31",
+      "08-31 09:36",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-31 09:27",
+      "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand"
     ],
     [
       "08-31 09:26",
@@ -162,10 +166,6 @@
     [
       "08-31 08:51",
       "苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务"
-    ],
-    [
-      "08-31 08:51",
-      "Edge AI Daily 早报（8月31日）"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279688,
+      "s": 279689,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244730,
+      "s": 244732,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241897,
+      "s": 241900,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208894,
+      "s": 208893,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112670,
+      "s": 112672,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101880,
+      "s": 101881,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
