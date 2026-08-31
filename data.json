@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T15:06:47",
+  "updated": "2026-08-31T15:11:42",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T15:06",
+      "d": "2026-08-31T15:11",
       "t": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍",
       "s": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967712.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T15:09",
+      "t": "399 美元的小黄鸭，藏着 Hugging Face 最大的野心",
+      "s": "作者｜ 宇航猿 编辑｜ 靖宇 很少有机器人，能让你第一眼就笑出来。 8 月 27 日，Hugging Face 旗下的 …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369608"
     },
     {
       "c": "INDUSTRY",
@@ -37,18 +44,18 @@
       "u": "https://www.ithome.com/0/996/480.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T14:47",
+      "t": "AI制药职位增长84%，生物医药人才需求加速转向复合型",
+      "s": "AI制药职位增长84%，生物医药人才需求加速转向复合型（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680083821017989658/"
+    },
+    {
       "c": "HOT",
       "d": "2026-08-31T14:43",
       "t": "英格兰银行行长贝利警告：先进人工智能威胁全球金融稳定",
       "s": "据英国卫报报道，英格兰银行行长安德鲁 · 贝利（Andrew Bailey）加入了越来越多发出警告的知名人士行列，提醒外…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/476.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-31T14:38",
-      "t": "AI制药职位增长84%，生物医药人才需求加速转向复合型",
-      "s": "AI制药职位增长84%，生物医药人才需求加速转向复合型（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680081428029325851/"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队",
       "s": "灵犀智涌用一台由Demo级本体组装而成的机器人，成为工业场景赛除行业头部企业外唯一获奖的机器人公司。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481750.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T11:01",
-      "t": "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验",
-      "s": "自主研究系统的上限，不只取决于模型有多聪明，也取决于系统能否分辨什么是新证据，什么只是一次偶然的高分。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/08/481475.html"
     }
   ],
   "timeline": [
     [
-      "08-31 15:06",
+      "08-31 15:11",
       "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍"
+    ],
+    [
+      "08-31 15:09",
+      "399 美元的小黄鸭，藏着 Hugging Face 最大的野心"
     ],
     [
       "08-31 15:03",
@@ -162,10 +166,6 @@
     [
       "08-31 14:48",
       "豆包给大学生送福利：可免费领取 3 个月订阅权益"
-    ],
-    [
-      "08-31 14:43",
-      "英格兰银行行长贝利警告：先进人工智能威胁全球金融稳定"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244850,
+      "s": 244852,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242166,
+      "s": 242171,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208951,
+      "s": 208952,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172697,
+      "s": 172698,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143504,
+      "s": 143503,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112760,
+      "s": 112763,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101916,
+      "s": 101917,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90996,
+      "s": 90997,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
