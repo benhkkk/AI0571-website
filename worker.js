@@ -56,8 +56,8 @@ async function listSubscribers(env) {
     const opt = cursor ? { cursor } : {};
     const page = await env.SUBS.list(opt);
     for (const k of page.keys) {
-      // 跳过非订阅者 key：cron 日志(cron-log) 与限流记录(rl:*)
-      if (k.name === 'cron-log' || k.name.startsWith('rl:')) continue;
+      // 只取订阅者邮箱，跳过系统 key：cron-log / rl:*（限流）/ digest-sent:*（群发幂等）
+      if (k.name === 'cron-log' || k.name.startsWith('rl:') || k.name.startsWith('digest-sent:')) continue;
       try {
         const v = JSON.parse(await env.SUBS.get(k.name));
         if (v && v.email) emails.push(v.email);
