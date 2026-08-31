@@ -1,30 +1,23 @@
 {
-  "updated": "2026-08-31T18:41:46",
+  "updated": "2026-08-31T18:46:45",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-31T18:41",
-      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
-      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-08-31T18:41",
+      "d": "2026-08-31T18:46",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T18:41",
+      "d": "2026-08-31T18:46",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T18:41",
+      "d": "2026-08-31T18:46",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -121,6 +114,13 @@
       "u": "https://www.ithome.com/0/996/556.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-08-31T16:43",
+      "t": "滴滴自动驾驶新一代车型开启载客测试服务",
+      "s": "近期，滴滴自动驾驶新一代 Robotaxi R2正式开启无人载客测试服务，新车在自动驾驶性能和座舱体验上全面升级，用户在…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/UYp39xioCMHJMnkx.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-08-31T16:40",
       "t": "AI制药职位增长84%，计算机辅助药物设计月薪2.5万",
@@ -144,19 +144,15 @@
   ],
   "timeline": [
     [
-      "08-31 18:41",
-      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
-    ],
-    [
-      "08-31 18:41",
+      "08-31 18:46",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 18:41",
+      "08-31 18:46",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 18:41",
+      "08-31 18:46",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-31 17:32",
       "地平线机器人 2026 年上半年归母净利润 37.84 亿元，同比扭亏为盈"
+    ],
+    [
+      "08-31 17:19",
+      "【Fintech 周报】智能体支付应用自律公约发布；拉卡拉终止港股IPO"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279865,
+      "s": 279867,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244914,
+      "s": 244917,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242381,
+      "s": 242383,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209013,
+      "s": 209015,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143530,
+      "s": 143531,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135362,
+      "s": 135363,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112830,
+      "s": 112832,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
