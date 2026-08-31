@@ -1,9 +1,16 @@
 {
-  "updated": "2026-08-31T08:46:47",
+  "updated": "2026-08-31T08:51:44",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-08-31T08:51",
+      "t": "苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务",
+      "s": "彭博社记者马克 · 古尔曼发文称，现任苹果硬件工程高级副总裁约翰 · 特努斯将于当地时间 9 月 1 日正式接任首席执行…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/284.htm"
+    },
+    {
       "c": "HOT",
-      "d": "2026-08-31T08:46",
+      "d": "2026-08-31T08:51",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -101,13 +108,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-30T18:54",
-      "t": "华为鸿蒙座舱 HarmonySpace 暑期版本发布，新增导航 Agent 地址主动记忆等功能",
-      "s": "华为乾崑智能汽车解决方案昨日分享了鸿蒙座舱 HarmonySpace 暑期版本升级亮点。据介绍，鸿蒙座舱 Harmony…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/216.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-08-30T18:53",
       "t": "OpenAI 芯片实测跑分揭晓，「为模型造芯片」时代来了",
       "s": "9 个月之后，OpenAI 的首款芯片成绩单终于揭晓了。 8 月 25 日，在 Hot Chips 大会上，OpenAI…（来源：极客公园）",
@@ -144,7 +144,11 @@
   ],
   "timeline": [
     [
-      "08-31 08:46",
+      "08-31 08:51",
+      "苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务"
+    ],
+    [
+      "08-31 08:51",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-31 07:20",
       "【钛晨报】个人住房贷款政策有大变化，个人房贷期限延至最长40年；OpenAI将终止向Cursor提供模型服务，马斯克回应；报告称AI公司每赚100美元近40美元…"
-    ],
-    [
-      "08-31 06:38",
-      "消息称微软收紧员工 AI 预算成本，有员工 28 天挥霍 2.8 万美元 Token"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279678,
+      "s": 279679,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241864,
+      "s": 241865,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172647,
+      "s": 172648,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
