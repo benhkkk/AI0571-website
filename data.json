@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T09:11:44",
+  "updated": "2026-08-31T09:16:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T09:11",
+      "d": "2026-08-31T09:16",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T09:14",
+      "t": "编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结",
+      "s": "作者｜Moonshot 编辑｜郑玄 8 月 20 日晚，MoonshotAI 在 GitHub 上更新了 kimi-co…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369517"
     },
     {
       "c": "MODEL",
@@ -100,13 +107,6 @@
       "u": "https://www.oschina.net/news/502201"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-30T19:26",
-      "t": "消息称 Meta 正测试数据中心机器人，可完成插拔线缆、重启服务器等运维工作",
-      "s": "据 Wired 报道，多位了解相关项目的 Meta 现任及前员工透露，Meta 正在测试能够在数据中心内插接线缆、重启服…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/222.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-30T18:58",
       "t": "造物 100 #04｜AI 为爱做「鸭」、PLAUD 又推新作、字节 TRAE 造了个数字工牌",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-31 09:11",
+      "08-31 09:16",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-31 09:14",
+      "编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结"
     ],
     [
       "08-31 09:08",
@@ -162,10 +166,6 @@
     [
       "08-31 07:55",
       "上线不足一个月：米哈游 AI 女友桌面陪伴软件《BSide: Olivia Lin》今起停运，离线版本可限时领取"
-    ],
-    [
-      "08-31 07:39",
-      "法拉第未来机器人中东业务启航，首笔订单销售及交付完成"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279681,
+      "s": 279680,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244727,
+      "s": 244726,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241877,
+      "s": 241886,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208892,
+      "s": 208893,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143478,
+      "s": 143477,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
