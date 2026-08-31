@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:41:44",
+  "updated": "2026-08-31T13:46:45",
   "news": [
     {
       "c": "INDUSTRY",
@@ -14,6 +14,13 @@
       "t": "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行",
       "s": "据央视新闻报道，一批新规将于 2026 年 9 月起施行，包括 AI“已读乱回”经营者承担责任等。IT之家附具体新规如下…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/419.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T12:47",
+      "t": "「GPT-6」灰测demo刷屏！周四发布在即",
+      "s": "核弹爆炸（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/08/481893.html"
     },
     {
       "c": "MEDPHARMA",
@@ -133,13 +140,6 @@
       "t": "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand",
       "s": "Alibaba Launches AI Song Generator HappyShrimp, Ec…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122395.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-31T09:26",
-      "t": "从单点到集群上海AI制药生态开始产业规模化发展",
-      "s": "从单点到集群上海AI制药生态开始产业规模化发展（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680001081920864777/"
     }
   ],
   "timeline": [
@@ -152,6 +152,10 @@
       "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行"
     ],
     [
+      "08-31 12:47",
+      "「GPT-6」灰测demo刷屏！周四发布在即"
+    ],
+    [
       "08-31 12:25",
       "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek..."
     ],
@@ -162,10 +166,6 @@
     [
       "08-31 11:36",
       "今年的研发预算将超20亿，小鹏机器人凭什么值400多亿？"
-    ],
-    [
-      "08-31 11:24",
-      "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279760,
+      "s": 279762,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244816,
+      "s": 244817,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242068,
+      "s": 242071,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172681,
+      "s": 172682,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135326,
+      "s": 135327,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112740,
+      "s": 112742,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
