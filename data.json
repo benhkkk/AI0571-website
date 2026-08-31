@@ -1,6 +1,27 @@
 {
-  "updated": "2026-08-31T14:01:51",
+  "updated": "2026-08-31T14:06:51",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T13:51",
+      "t": "Nerai研发基于人工智能的高通量蛋白质工程技术，生产新型CRISPR基因编辑工具",
+      "s": "已布局8条CRISPR基因编辑工具管线。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122493.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T13:51",
+      "t": "很少有人想到，具身智能的寒武纪爆发，是由一只鸭子开始的",
+      "s": "寒武纪不奖励最大的生物（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122495.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T13:51",
+      "t": "Hugging Face“赶鸭子上架”，只要399美元",
+      "s": "Hugging Face圆机器人开源梦。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122551.html"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-08-31T13:26",
@@ -119,30 +140,21 @@
       "t": "大模型领域跑出新玩家，StartLux-27B本地大模型打赢DeepSeek V4 Flash",
       "s": "本地大模型上牌桌，性能正面硬刚DeepSeek。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122427.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-08-31T09:52",
-      "t": "2025 年全球亿万富翁人数创历史新高，AI 投资成主要增长动力",
-      "s": "据央视财经昨日援引美国《财富》杂志网站报道，财富情报公司 Altrata 的最新报告显示，2025 年全球亿万富翁人数达…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/305.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-31T09:49",
-      "t": "小马智行携手 FutureLink，拟首批在韩商业投放 200 辆 Robotaxi",
-      "s": "参考韩联社当地时间 30 日报道，韩国自动驾驶移动出行企业 FutureLink 已同小马智行 (Pony.ai) 签署…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/303.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-31T09:27",
-      "t": "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand",
-      "s": "Alibaba Launches AI Song Generator HappyShrimp, Ec…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8122395.html"
     }
   ],
   "timeline": [
+    [
+      "08-31 13:51",
+      "Nerai研发基于人工智能的高通量蛋白质工程技术，生产新型CRISPR基因编辑工具"
+    ],
+    [
+      "08-31 13:51",
+      "很少有人想到，具身智能的寒武纪爆发，是由一只鸭子开始的"
+    ],
+    [
+      "08-31 13:51",
+      "Hugging Face“赶鸭子上架”，只要399美元"
+    ],
     [
       "08-31 13:26",
       "启境 GT7 官宣满足国家 L3 级自动驾驶架构的设计标准，并完成 L3 准入测试与申报"
@@ -154,18 +166,6 @@
     [
       "08-31 12:47",
       "「GPT-6」灰测demo刷屏！周四发布在即"
-    ],
-    [
-      "08-31 12:25",
-      "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek..."
-    ],
-    [
-      "08-31 11:40",
-      "LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机"
-    ],
-    [
-      "08-31 11:36",
-      "今年的研发预算将超20亿，小鹏机器人凭什么值400多亿？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279763,
+      "s": 279764,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244820,
+      "s": 244822,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242088,
+      "s": 242093,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208941,
+      "s": 208940,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135329,
+      "s": 135331,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112748,
+      "s": 112750,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101914,
+      "s": 101913,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90984,
+      "s": 90986,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
