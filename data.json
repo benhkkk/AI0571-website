@@ -1,23 +1,30 @@
 {
-  "updated": "2026-08-31T22:01:51",
+  "updated": "2026-08-31T22:06:49",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:01",
+      "d": "2026-08-31T22:06",
+      "t": "银昕推出 HELA 3000Rz 电源：3000W 额定功率，4 个 600W 12V-2x6 接口",
+      "s": "银昕（SilverStone）今日推出 HELA 3000Rz 高功率电源，新品主打 AI 推理工作站用户，可搭配 4 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/661.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T22:06",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T22:01",
+      "d": "2026-08-31T22:06",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:01",
+      "d": "2026-08-31T22:06",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -46,7 +53,7 @@
     {
       "c": "HOT",
       "d": "2026-08-31T21:04",
-      "t": "独家对话江口达雄：版号不稳、芯片涨价，PlayStation如何守主机阵地",
+      "t": "独家对话江口达雄：芯片涨价与AI热夹击，PlayStation如何守主机阵地",
       "s": "AI内容抢走越来越多的娱乐时间，年轻人是否还愿意在周末坐进客厅、握住手柄？江口达雄的回答并不激进，像带着某种老派的从容…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123349.html"
     },
@@ -84,13 +91,6 @@
       "t": "流量红利退潮，快手想用 AI 和老友们破局",
       "s": "头图来源：快手 8 月 29 日，在 2026 快手光合创作者大会上，快手科技创始人、董事长兼 CEO 程一笑公布了一组…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369631"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-31T19:46",
-      "t": "谷歌 AI 应用 Dreambeans 取消订阅制，开放免费测试",
-      "s": "据科技媒体 MacObserver 今天报道，谷歌 AI 应用 Dreambeans 现已取消付费订阅要求，并在美国开放…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/638.htm"
     },
     {
       "c": "FUNDING",
@@ -144,15 +144,19 @@
   ],
   "timeline": [
     [
-      "08-31 22:01",
+      "08-31 22:06",
+      "银昕推出 HELA 3000Rz 电源：3000W 额定功率，4 个 600W 12V-2x6 接口"
+    ],
+    [
+      "08-31 22:06",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 22:01",
+      "08-31 22:06",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 22:01",
+      "08-31 22:06",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-31 21:21",
       "微信支付 AI 专属卡支持接入 DeepSeek Harness 和 OpenClaw"
-    ],
-    [
-      "08-31 21:19",
-      "OpenAI：ChatGPT 广告年化收入运行率已达 10 亿美元"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244990,
+      "s": 244991,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242539,
+      "s": 242543,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172754,
+      "s": 172756,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143547,
+      "s": 143546,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112889,
+      "s": 112894,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101982,
+      "s": 101981,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
