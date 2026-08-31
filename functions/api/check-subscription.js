@@ -1,17 +1,14 @@
-// Pages Function: GET /api/check-subscription?email=xxx -> 查询邮箱是否在订阅列表
-// 绑定：Pages 项目 Settings -> Functions -> KV "SUBS"
-function json(data, status = 200) {
-  return new Response(JSON.stringify(data, null, 2), {
-    status,
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-  });
-}
+// Pages Function: GET /api/check-subscription?email=xxx&token=管理员令牌 -> 查询邮箱是否在订阅列表
+// ⚠️ 需鉴权：否则可被用来批量枚举「某人是否订阅了本站」，属于隐私泄露。
+import { requireAdmin, json, validEmail } from '../_lib/auth.js';
 
 export async function onRequestGet({ request, env }) {
+  const auth = requireAdmin(request, env);
+  if (!auth.ok) return json({ ok: false, error: auth.error }, auth.status);
   try {
     const url = new URL(request.url);
     const email = String(url.searchParams.get('email') || '').trim().toLowerCase();
-    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    if (!validEmail(email)) {
       return json({ ok: false, error: '邮箱格式不正确' }, 400);
     }
     const v = await env.SUBS.get(email);
