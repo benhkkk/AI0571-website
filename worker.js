@@ -67,15 +67,33 @@ async function listSubscribers(env) {
   return emails;
 }
 
-/* ---------- Cron 执行日志 ---------- */
+/* ---------- Cron 执行日志 ---------- *
+ * 优先直接写 KV；若 Worker 侧 KV 未绑定或写入失败，
+ * 则降级为 HTTP 上报给 Pages Function（/api/cron-report），
+ * 由 Pages 侧（KV 已绑定）代为落盘，保证诊断不出现盲区。
+ */
 async function logCron(env, data) {
-  if (!env.SUBS) throw new Error('Worker 未绑定 SUBS KV');
   const entry = {
     ts: Date.now(),
     iso: new Date().toISOString(),
+    kvBound: !!env.SUBS,
+    hasKey: !!env.RESEND_API_KEY,
     ...data,
   };
-  await env.SUBS.put('cron-log', JSON.stringify(entry));
+
+  // 1) 直接写 KV
+  try {
+    if (env.SUBS) {
+      await env.SUBS.put('cron-log', JSON.stringify(entry));
+      return;
+    }
+  } catch (_) { /* 落到 HTTP 上报 */ }
+
+  // 2) 降级：HTTP 上报
+  try {
+    const q = new URLSearchParams({ payload: JSON.stringify(entry).slice(0, 3000) });
+    await fetch(`https://www.AI0571.com/api/cron-report?${q.toString()}`, { method: 'GET' });
+  } catch (_) { /* 最终放弃 */ }
 }
 
 /* ---------- 邮件 HTML 模板 ---------- */
