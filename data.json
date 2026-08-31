@@ -1,26 +1,33 @@
 {
-  "updated": "2026-08-31T19:31:43",
+  "updated": "2026-08-31T19:36:55",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T19:31",
+      "d": "2026-08-31T19:36",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T19:31",
+      "d": "2026-08-31T19:36",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T19:31",
+      "d": "2026-08-31T19:36",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T19:35",
+      "t": "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8",
+      "s": "刚刚，DeepSeek V4 首个多模态模型 DeepSeek-V4-Flash-Vision-Exp 在 Huggin…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/637.htm"
     },
     {
       "c": "FUNDING",
@@ -129,13 +136,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-31T17:01",
-      "t": "摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片",
-      "s": "韩国半导体设计解决方案公司 CoAsia SEMI 今日宣布，将与 LG 电子共同参与由韩国贸易、工业和资源部主导的“K…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/564.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-08-31T17:00",
       "t": "AGI军令状前，MiniMax 和智谱的最后一份中报",
       "s": "智谱和Kimi，很快就要回答同一道题。（来源：钛媒体）",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-31 19:31",
+      "08-31 19:36",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 19:31",
+      "08-31 19:36",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 19:31",
+      "08-31 19:36",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "08-31 19:35",
+      "DeepSeek-V4-Flash-Vision-Exp 模型已开源，多模态 Agent 能力接近 Opus-4.8"
     ],
     [
       "08-31 19:18",
@@ -162,10 +166,6 @@
     [
       "08-31 19:16",
       "工业巨头卡特彼勒将 AI 推向真实作业现场，未来五年投入 1 亿美元培训员工"
-    ],
-    [
-      "08-31 19:13",
-      "英伟达129亿买下Hugging Face：拒绝5亿投资后，开源AI童话结束了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279874,
+      "s": 279878,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244924,
+      "s": 244930,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242414,
+      "s": 242416,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209023,
+      "s": 209024,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143537,
+      "s": 143540,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112842,
+      "s": 112844,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91042,
+      "s": 91044,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
