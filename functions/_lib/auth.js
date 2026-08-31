@@ -66,3 +66,19 @@ export function maskEmail(email) {
   if (at < 1) return '***';
   return s.slice(0, 1) + '***' + s.slice(at);
 }
+
+/**
+ * 判断 KV key 是否为「订阅者邮箱」。
+ * 同一个 KV 命名空间里还存着系统数据，遍历订阅者时必须排除：
+ *   cron-log            —— Worker 执行日志
+ *   rl:*                —— 订阅限流记录
+ *   digest-sent:*       —— 每日群发幂等标记
+ * 新增系统 key 时务必在此登记，否则会被误当成订阅者群发。
+ */
+export function isSubscriberKey(name) {
+  if (!name || typeof name !== 'string') return false;
+  if (name === 'cron-log') return false;
+  if (name.startsWith('rl:')) return false;
+  if (name.startsWith('digest-sent:')) return false;
+  return true;
+}
