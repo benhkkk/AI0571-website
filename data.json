@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-31T12:11:45",
+  "updated": "2026-08-31T12:16:43",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-08-31T12:16",
+      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
+      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-08-31T11:40",
@@ -133,16 +140,13 @@
       "t": "🔥🔥Skyeye 云企业级AI+零代码智能制造系统 - v4.1.2 发布",
       "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502205"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T08:51",
-      "t": "苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务",
-      "s": "彭博社记者马克 · 古尔曼发文称，现任苹果硬件工程高级副总裁约翰 · 特努斯将于当地时间 9 月 1 日正式接任首席执行…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/284.htm"
     }
   ],
   "timeline": [
+    [
+      "08-31 12:16",
+      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
+    ],
     [
       "08-31 11:40",
       "LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机"
@@ -162,10 +166,6 @@
     [
       "08-31 10:39",
       "Claude 被曝大规模盗号，Anthropic 紧急切断支付权限、警告用户别乱下载软件"
-    ],
-    [
-      "08-31 10:34",
-      "AI 牌桌，阿里 800 亿押的是什么"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244783,
+      "s": 244787,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242012,
+      "s": 242020,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135315,
+      "s": 135316,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112719,
+      "s": 112720,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101903,
+      "s": 101905,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
