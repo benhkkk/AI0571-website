@@ -25,7 +25,7 @@ function esc(s) {
 /* ---------- 触发 GitHub Actions 抓取 ---------- */
 async function triggerGithub(env) {
   const token = env.GH_PAT;
-  if (!token) return { ok: false, status: 500, body: 'missing GH_PAT secret' };
+  if (!token) return { ok: false, status: 500, body: 'missing GH_PAT secret', kvBound: !!env.SUBS };
   const owner = env.GH_OWNER || 'benhkkk';
   const repo = env.GH_REPO || 'AI0571-website';
   const wf = env.GH_WORKFLOW || 'daily-update.yml';
@@ -41,9 +41,9 @@ async function triggerGithub(env) {
       },
       body: JSON.stringify({ ref: 'main' }),
     });
-    return { ok: resp.status === 204, status: resp.status, body: await resp.text() };
+    return { ok: resp.status === 204, status: resp.status, body: await resp.text(), kvBound: !!env.SUBS };
   } catch (e) {
-    return { ok: false, status: 500, body: String(e && e.message || e) };
+    return { ok: false, status: 500, body: String(e && e.message || e), kvBound: !!env.SUBS };
   }
 }
 
@@ -69,15 +69,13 @@ async function listSubscribers(env) {
 
 /* ---------- Cron 执行日志 ---------- */
 async function logCron(env, data) {
-  try {
-    if (!env.SUBS) return;
-    const entry = {
-      ts: Date.now(),
-      iso: new Date().toISOString(),
-      ...data,
-    };
-    await env.SUBS.put('cron-log', JSON.stringify(entry));
-  } catch (_) { /* ignore */ }
+  if (!env.SUBS) throw new Error('Worker 未绑定 SUBS KV');
+  const entry = {
+    ts: Date.now(),
+    iso: new Date().toISOString(),
+    ...data,
+  };
+  await env.SUBS.put('cron-log', JSON.stringify(entry));
 }
 
 /* ---------- 邮件 HTML 模板 ---------- */
@@ -128,19 +126,20 @@ function buildDigestHTML(data, email) {
 
 /* ---------- 发送日报 ---------- */
 async function sendDailyDigest(env, onlyTo) {
-  if (!env.RESEND_API_KEY) return { ok: false, error: 'missing RESEND_API_KEY' };
+  const meta = { kvBound: !!env.SUBS, hasKey: !!env.RESEND_API_KEY };
+  if (!env.RESEND_API_KEY) return { ok: false, error: 'missing RESEND_API_KEY', ...meta };
 
   let data;
   try {
     const r = await fetch('https://www.AI0571.com/data.json', { cache: 'no-store' });
     data = await r.json();
   } catch (e) {
-    return { ok: false, error: 'fetch data.json failed: ' + String(e) };
+    return { ok: false, error: 'fetch data.json failed: ' + String(e), ...meta };
   }
 
   let emails = onlyTo ? [onlyTo] : await listSubscribers(env);
   emails = emails.filter(validEmail);
-  if (!emails.length) return { ok: true, sent: 0, note: 'no subscribers' };
+  if (!emails.length) return { ok: true, sent: 0, note: 'no subscribers', ...meta };
 
   const subject = `AI0571 每日 AI 日报 · ${new Date().toLocaleDateString('zh-CN')}`;
   const from = 'AI日报 <noreply@ai0571.com>';
@@ -162,7 +161,7 @@ async function sendDailyDigest(env, onlyTo) {
       failed++; console.error('send error', email, e);
     }
   }
-  return { ok: true, sent, failed, total: emails.length };
+  return { ok: true, sent, failed, total: emails.length, ...meta };
 }
 
 /* ---------- Cron 入口 ---------- */
