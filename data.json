@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:21:43",
+  "updated": "2026-08-31T13:26:46",
   "news": [
     {
       "c": "HOT",
@@ -7,6 +7,13 @@
       "t": "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行",
       "s": "据央视新闻报道，一批新规将于 2026 年 9 月起施行，包括 AI“已读乱回”经营者承担责任等。IT之家附具体新规如下…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/419.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T12:25",
+      "t": "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...",
+      "s": "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680047168954090027/"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结",
       "s": "作者｜Moonshot 编辑｜郑玄 8 月 20 日晚，MoonshotAI 在 GitHub 上更新了 kimi-co…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369517"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T09:08",
-      "t": "长虹追光 Q60S Pro 电视发布：39mm 厚度 0 距离贴墙，行业首创 AI 星河呼吸灯",
-      "s": "长虹追光 Q60S Pro 电视于 8 月 30 日发布，国补到手价 6,797 元起。65 英寸国补到手价 6,797…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/289.htm"
     }
   ],
   "timeline": [
     [
       "08-31 13:10",
       "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行"
+    ],
+    [
+      "08-31 12:25",
+      "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek..."
     ],
     [
       "08-31 11:40",
@@ -162,10 +166,6 @@
     [
       "08-31 11:11",
       "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队"
-    ],
-    [
-      "08-31 11:01",
-      "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279754,
+      "s": 279755,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244811,
+      "s": 244812,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242059,
+      "s": 242063,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172680,
+      "s": 172681,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143495,
+      "s": 143496,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135320,
+      "s": 135321,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112730,
+      "s": 112733,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
