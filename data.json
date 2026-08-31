@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T15:01:48",
+  "updated": "2026-08-31T15:06:47",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T15:01",
+      "d": "2026-08-31T15:06",
       "t": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍",
       "s": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967712.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-31T15:03",
+      "t": "英国监管机构警示：医疗 AI 转录工具频繁出错，威胁患者安全",
+      "s": "据英国卫报报道，英国国家医疗服务体系（NHS）的一家监管机构警告称，用于倾听并转录患者与医生问诊内容的 AI 技术可能给…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/485.htm"
     },
     {
       "c": "MODEL",
@@ -86,13 +93,6 @@
       "u": "https://www.ithome.com/0/996/422.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-08-31T13:10",
-      "t": "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行",
-      "s": "据央视新闻报道，一批新规将于 2026 年 9 月起施行，包括 AI“已读乱回”经营者承担责任等。IT之家附具体新规如下…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/419.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-31T12:47",
       "t": "「GPT-6」灰测demo刷屏！周四发布在即",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "08-31 15:01",
+      "08-31 15:06",
       "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍"
+    ],
+    [
+      "08-31 15:03",
+      "英国监管机构警示：医疗 AI 转录工具频繁出错，威胁患者安全"
     ],
     [
       "08-31 14:59",
@@ -162,10 +166,6 @@
     [
       "08-31 14:43",
       "英格兰银行行长贝利警告：先进人工智能威胁全球金融稳定"
-    ],
-    [
-      "08-31 14:38",
-      "AI制药职位增长84%，生物医药人才需求加速转向复合型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279785,
+      "s": 279788,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244848,
+      "s": 244850,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242163,
+      "s": 242166,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208950,
+      "s": 208951,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112759,
+      "s": 112760,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90995,
+      "s": 90996,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
