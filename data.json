@@ -1,26 +1,33 @@
 {
-  "updated": "2026-08-31T23:16:48",
+  "updated": "2026-08-31T23:21:50",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T23:16",
+      "d": "2026-08-31T23:21",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T23:16",
+      "d": "2026-08-31T23:21",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T23:16",
+      "d": "2026-08-31T23:21",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T23:20",
+      "t": "整治 AI 虚假账号，Instagram 推出全新 AI 个人资料标签",
+      "s": "社交媒体 Instagram 今天宣布将原本的“AI 创作者”标签更新为“AI 生成个人资料”，使用户能够一眼分辨出眼前…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/679.htm"
     },
     {
       "c": "HOT",
@@ -93,13 +100,6 @@
       "u": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-31T20:45",
-      "t": "AMD、思科、HUMAIN 合作落地，Instinct MI355X 算力进驻沙特",
-      "s": "AMD 当地时间今日宣布，由其计算芯片与 Cisco（思科）网络芯片驱动的人工智能算力已在沙特阿拉伯上线，为沙特主权财富…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/648.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-08-31T20:44",
       "t": "WRC 上，我们看到的关于灵巧手的真相",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-31 23:16",
+      "08-31 23:21",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 23:16",
+      "08-31 23:21",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 23:16",
+      "08-31 23:21",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "08-31 23:20",
+      "整治 AI 虚假账号，Instagram 推出全新 AI 个人资料标签"
     ],
     [
       "08-31 22:16",
@@ -162,10 +166,6 @@
     [
       "08-31 22:12",
       "技嘉 Brix 系列迷你主机现身官网：锐龙 AI 7 450/AI 5 430 处理器"
-    ],
-    [
-      "08-31 21:54",
-      "荣耀 MagicOS 11 亮点公布：升级省存储空间、UX 焕新液态玻璃、支持多协议快充"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279950,
+      "s": 279953,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245030,
+      "s": 245034,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242611,
+      "s": 242620,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172766,
+      "s": 172767,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143552,
+      "s": 143553,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135385,
+      "s": 135386,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112914,
+      "s": 112915,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101991,
+      "s": 101992,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91089,
+      "s": 91090,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
