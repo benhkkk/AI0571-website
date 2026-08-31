@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-01T07:41:45",
+  "updated": "2026-09-01T07:46:33",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T07:41",
+      "d": "2026-09-01T07:46",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T07:41",
+      "d": "2026-09-01T07:46",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T07:41",
+      "d": "2026-09-01T07:46",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T07:44",
+      "t": "IT早报 0901：华为、小米、荣耀手机今日集体调价；库克担任苹果 CEO 最后一天给员工发告别信；曝网易全系产品将登陆华为鸿蒙系统；国内首部 AIGC 长剧《后西游记》开播...",
+      "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有：1. 华为、小米、荣耀手机 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/709.htm"
     },
     {
       "c": "HOT",
@@ -86,13 +93,6 @@
       "u": "https://www.qbitai.com/2026/08/481928.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-08-31T21:19",
-      "t": "OpenAI：ChatGPT 广告年化收入运行率已达 10 亿美元",
-      "s": "OpenAI 当地时间周一宣布，其广告业务的年化收入运行率（annualized revenue run rate，是将…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/653.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-08-31T21:04",
       "t": "独家对话江口达雄：芯片涨价与AI热夹击，PlayStation如何守主机阵地",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "09-01 07:41",
+      "09-01 07:46",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 07:41",
+      "09-01 07:46",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "09-01 07:41",
+      "09-01 07:46",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "09-01 07:44",
+      "IT早报 0901：华为、小米、荣耀手机今日集体调价；库克担任苹果 CEO 最后一天给员工发告别信；曝网易全系产品将登陆华为鸿蒙系统；国内首部 AIGC 长剧《…"
     ],
     [
       "09-01 07:26",
@@ -162,10 +166,6 @@
     [
       "09-01 07:07",
       "苹果披露“惊人证据”：前员工已将机密文件用于 OpenAI，且知情者众多"
-    ],
-    [
-      "08-31 23:33",
-      "博通推出 VMware AI 工厂，简化企业私有云 AI 部署"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280062,
+      "s": 280063,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245228,
+      "s": 245230,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242865,
+      "s": 242869,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172805,
+      "s": 172806,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113003,
+      "s": 113005,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
