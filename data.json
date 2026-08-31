@@ -1,23 +1,30 @@
 {
-  "updated": "2026-09-01T01:56:42",
+  "updated": "2026-09-01T02:01:42",
   "news": [
     {
+      "c": "HOT",
+      "d": "2026-09-01T02:01",
+      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
+      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
+    },
+    {
       "c": "MODEL",
-      "d": "2026-09-01T01:56",
+      "d": "2026-09-01T02:01",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T01:56",
+      "d": "2026-09-01T02:01",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T01:56",
+      "d": "2026-09-01T02:01",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -133,26 +140,23 @@
       "t": "豆包工作开始加速字节的Token飞轮",
       "s": "基础模型能否追上产品野心，将成为决定豆包工作能否承接核心工作、以及字节Token飞轮能转多快的关键。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123032.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T19:13",
-      "t": "混元Hy4 preview上线即排队，能消解腾讯的AI焦虑吗？",
-      "s": "混元追上来一截，腾讯的船还在“漏水”。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8123051.html"
     }
   ],
   "timeline": [
     [
-      "09-01 01:56",
+      "09-01 02:01",
+      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
+    ],
+    [
+      "09-01 02:01",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 01:56",
+      "09-01 02:01",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "09-01 01:56",
+      "09-01 02:01",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "08-31 23:20",
       "整治 AI 虚假账号，Instagram 推出全新 AI 个人资料标签"
-    ],
-    [
-      "08-31 22:16",
-      "快手：国家人工智能基金向北京可灵注入现金资本 14 亿元"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245092,
+      "s": 245094,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242706,
+      "s": 242711,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172780,
+      "s": 172781,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143564,
+      "s": 143565,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102014,
+      "s": 102015,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91126,
+      "s": 91129,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
