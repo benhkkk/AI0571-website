@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T09:06:51",
+  "updated": "2026-08-31T09:11:44",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T09:06",
+      "d": "2026-08-31T09:11",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T09:08",
+      "t": "长虹追光 Q60S Pro 电视发布：39mm 厚度 0 距离贴墙，行业首创 AI 星河呼吸灯",
+      "s": "长虹追光 Q60S Pro 电视于 8 月 30 日发布，国补到手价 6,797 元起。65 英寸国补到手价 6,797…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/289.htm"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "自动驾驶入法后，罚单还得车主交?",
       "s": "“激活状态”或是未来官司的焦点。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122093.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-30T18:01",
-      "t": "从“送外卖”到“城市基础设施”，顺丰同城的AI野心",
-      "s": "在监管趋严与成本飙升的双重压力下，这家以物流履约见长的企业，正在用科技打破人力内卷，重构城市短途物流的底层逻辑。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8122051.html"
     }
   ],
   "timeline": [
     [
-      "08-31 09:06",
+      "08-31 09:11",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-31 09:08",
+      "长虹追光 Q60S Pro 电视发布：39mm 厚度 0 距离贴墙，行业首创 AI 星河呼吸灯"
     ],
     [
       "08-31 08:51",
@@ -162,10 +166,6 @@
     [
       "08-31 07:39",
       "法拉第未来机器人中东业务启航，首笔订单销售及交付完成"
-    ],
-    [
-      "08-31 07:28",
-      "国内首部 AIGC 长剧《后西游记》今日开播，首部“边审边播”剧集"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279679,
+      "s": 279681,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244726,
+      "s": 244727,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241875,
+      "s": 241877,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208891,
+      "s": 208892,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172648,
+      "s": 172650,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143477,
+      "s": 143478,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112661,
+      "s": 112662,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101880,
+      "s": 101879,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90937,
+      "s": 90938,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
