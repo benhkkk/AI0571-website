@@ -1,13 +1,6 @@
 {
-  "updated": "2026-08-31T12:26:46",
+  "updated": "2026-08-31T12:31:45",
   "news": [
-    {
-      "c": "FUNDING",
-      "d": "2026-08-31T12:26",
-      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
-      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-08-31T11:40",
@@ -140,13 +133,16 @@
       "t": "苹果新 CEO 特努斯 9 月 1 日上任，人工智能将成为其任期内的首要任务",
       "s": "彭博社记者马克 · 古尔曼发文称，现任苹果硬件工程高级副总裁约翰 · 特努斯将于当地时间 9 月 1 日正式接任首席执行…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/284.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-31T08:51",
+      "t": "Edge AI Daily 早报（8月31日）",
+      "s": "马斯克自建涡轮叶片破解AI电力瓶颈，苹果25亿美元实现iPhone玻璃全美制造并布局健康与车载AI生态，Anthropi…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122304.html"
     }
   ],
   "timeline": [
-    [
-      "08-31 12:26",
-      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
-    ],
     [
       "08-31 11:40",
       "LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机"
@@ -166,6 +162,10 @@
     [
       "08-31 10:32",
       "DataBuff v0.1.8 发布 · 日志详情钉 log_id + GenAI Trace 可读"
+    ],
+    [
+      "08-31 10:18",
+      "极米海外众筹被叫停背后：AI 眼镜的「撞脸」之战，谁能留到最后？"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244790,
+      "s": 244792,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242031,
+      "s": 242032,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208931,
+      "s": 208932,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172674,
+      "s": 172675,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143488,
+      "s": 143489,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135316,
+      "s": 135317,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101906,
+      "s": 101907,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
