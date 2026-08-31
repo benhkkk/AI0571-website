@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:11:39",
+  "updated": "2026-08-31T13:17:00",
   "news": [
     {
       "c": "HOT",
@@ -21,6 +21,13 @@
       "t": "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了",
       "s": "什么样的AI业务，英伟达GPU和谷歌TPU搞不定，非得用Mac（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481759.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-31T11:12",
+      "t": "定义物理 AI 新纪元：昂首 EV1 智能出行机器人落地深圳湾 INNO100，开启中国市场线下首发",
+      "s": "2026 年 8 月 29 日，全球领先的物理 AI 与机器人创新企业若创科技（昂首 Strutt）于深圳湾 INNO1…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/weiwu/XIbqyD3TWrDeuFCh.html"
     },
     {
       "c": "INDUSTRY",
@@ -133,13 +140,6 @@
       "t": "长虹追光 Q60S Pro 电视发布：39mm 厚度 0 距离贴墙，行业首创 AI 星河呼吸灯",
       "s": "长虹追光 Q60S Pro 电视于 8 月 30 日发布，国补到手价 6,797 元起。65 英寸国补到手价 6,797…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/289.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T09:03",
-      "t": "真香！特斯拉在港澳推出更便宜的Model 3，起售价不足18万元；字节豆包大模型2.2将推迟发布，原计划8月推出；官方回应「网友呼吁取消ETC」",
-      "s": "要闻提示1.特斯拉在港澳推出更便宜的Model 3，起售价不足18万元！2.奔驰回应星宇劝退应届生：严重道德和劳动失当行…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/3X5Iht5o0zblV5d9.html"
     }
   ],
   "timeline": [
@@ -156,16 +156,16 @@
       "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了"
     ],
     [
+      "08-31 11:12",
+      "定义物理 AI 新纪元：昂首 EV1 智能出行机器人落地深圳湾 INNO100，开启中国市场线下首发"
+    ],
+    [
       "08-31 11:11",
       "全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队"
     ],
     [
       "08-31 11:01",
       "AQuA：让量化研究 Agent 持续进化，也让回测结果经得起检验"
-    ],
-    [
-      "08-31 10:39",
-      "Claude 被曝大规模盗号，Anthropic 紧急切断支付权限、警告用户别乱下载软件"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244806,
+      "s": 244810,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242050,
+      "s": 242055,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172679,
+      "s": 172680,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143493,
+      "s": 143494,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112729,
+      "s": 112730,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
