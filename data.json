@@ -1,6 +1,13 @@
 {
-  "updated": "2026-08-31T13:06:48",
+  "updated": "2026-08-31T13:11:39",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-08-31T13:10",
+      "t": "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行",
+      "s": "据央视新闻报道，一批新规将于 2026 年 9 月起施行，包括 AI“已读乱回”经营者承担责任等。IT之家附具体新规如下…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/419.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-08-31T11:40",
@@ -133,16 +140,13 @@
       "t": "真香！特斯拉在港澳推出更便宜的Model 3，起售价不足18万元；字节豆包大模型2.2将推迟发布，原计划8月推出；官方回应「网友呼吁取消ETC」",
       "s": "要闻提示1.特斯拉在港澳推出更便宜的Model 3，起售价不足18万元！2.奔驰回应星宇劝退应届生：严重道德和劳动失当行…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/zaobao/3X5Iht5o0zblV5d9.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T08:58",
-      "t": "🔥🔥Skyeye 云企业级AI+零代码智能制造系统 - v4.1.2 发布",
-      "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502205"
     }
   ],
   "timeline": [
+    [
+      "08-31 13:10",
+      "AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行"
+    ],
     [
       "08-31 11:40",
       "LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机"
@@ -162,10 +166,6 @@
     [
       "08-31 10:39",
       "Claude 被曝大规模盗号，Anthropic 紧急切断支付权限、警告用户别乱下载软件"
-    ],
-    [
-      "08-31 10:34",
-      "AI 牌桌，阿里 800 亿押的是什么"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244805,
+      "s": 244806,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242046,
+      "s": 242050,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208937,
+      "s": 208938,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
