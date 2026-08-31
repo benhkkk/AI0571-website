@@ -1,32 +1,39 @@
 {
-  "updated": "2026-08-31T21:21:55",
+  "updated": "2026-08-31T21:26:53",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T21:21",
+      "d": "2026-08-31T21:26",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T21:21",
+      "d": "2026-08-31T21:26",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T21:21",
+      "d": "2026-08-31T21:26",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
     },
     {
       "c": "MODEL",
+      "d": "2026-08-31T21:21",
+      "t": "微信支付 AI 专属卡支持接入 DeepSeek Harness 和 OpenClaw",
+      "s": "微信支付官方今日宣布，微信支付 AI 专属卡上新，继 WorkBuddy、QClaw 之后，支持接入 DeepSeek …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/655.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-31T21:19",
       "t": "OpenAI：ChatGPT 广告年化收入运行率已达 10 亿美元",
-      "s": "OpenAI 当地时间周一宣布，其广告业务的年化收入运行率（annualized revenue run rate）已经…（来源：IT之家）",
+      "s": "OpenAI 当地时间周一宣布，其广告业务的年化收入运行率（annualized revenue run rate，是将…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/653.htm"
     },
     {
@@ -87,13 +94,6 @@
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T19:18",
-      "t": "“国产 GPU 四小龙”之一：燧原科技科创板 IPO 发行价格定为 142.18 元 / 股",
-      "s": "燧原科技今日公告称，公司首次公开发行股票并在科创板上市，发行价格为 142.18 元 / 股，发行数量 4303.517…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/634.htm"
-    },
-    {
-      "c": "FUNDING",
       "d": "2026-08-31T19:13",
       "t": "英伟达129亿买下Hugging Face：拒绝5亿投资后，开源AI童话结束了",
       "s": "Hugging Face被英伟达收购，价值867亿人民币，而此前曾拒绝其5亿美元投资，体现AI开源平台与大厂博弈的激烈。（来源：钛媒体）",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "08-31 21:21",
+      "08-31 21:26",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 21:21",
+      "08-31 21:26",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 21:21",
+      "08-31 21:26",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "08-31 21:21",
+      "微信支付 AI 专属卡支持接入 DeepSeek Harness 和 OpenClaw"
     ],
     [
       "08-31 21:19",
@@ -162,10 +166,6 @@
     [
       "08-31 21:04",
       "独家对话江口达雄：版号不稳、芯片涨价，PlayStation如何守主机阵地"
-    ],
-    [
-      "08-31 20:47",
-      "智谱披露下一代大模型规划：采用大基座路线，目标发布首日即可支持满规模业务调用"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279908,
+      "s": 279911,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244965,
+      "s": 244968,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242503,
+      "s": 242507,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209040,
+      "s": 209043,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172749,
+      "s": 172751,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112877,
+      "s": 112878,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101979,
+      "s": 101980,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91064,
+      "s": 91065,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
