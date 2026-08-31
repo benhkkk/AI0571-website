@@ -56,7 +56,8 @@ async function listSubscribers(env) {
     const opt = cursor ? { cursor } : {};
     const page = await env.SUBS.list(opt);
     for (const k of page.keys) {
-      if (k.name === 'cron-log') continue; // 跳过日志 key
+      // 跳过非订阅者 key：cron 日志(cron-log) 与限流记录(rl:*)
+      if (k.name === 'cron-log' || k.name.startsWith('rl:')) continue;
       try {
         const v = JSON.parse(await env.SUBS.get(k.name));
         if (v && v.email) emails.push(v.email);
@@ -89,9 +90,10 @@ async function logCron(env, data) {
     }
   } catch (_) { /* 落到 HTTP 上报 */ }
 
-  // 2) 降级：HTTP 上报
+  // 2) 降级：HTTP 上报（若 Pages 侧配置了 ADMIN_TOKEN，Worker 需配置同名 Secret 才能上报成功）
   try {
     const q = new URLSearchParams({ payload: JSON.stringify(entry).slice(0, 3000) });
+    if (env.ADMIN_TOKEN) q.set('token', env.ADMIN_TOKEN);
     await fetch(`https://www.AI0571.com/api/cron-report?${q.toString()}`, { method: 'GET' });
   } catch (_) { /* 最终放弃 */ }
 }
@@ -107,10 +109,12 @@ function buildDigestHTML(data, email) {
     const c = CAT[n.c] || n.c;
     const col = CATCOLOR[n.c] || '#888';
     const time = (n.d || '').replace('T', ' ');
+    // 无原文链接时降级为站点首页，避免出现 href="#"
+    const href = n.u || 'https://www.AI0571.com';
     return `<tr>
       <td style="padding:14px 18px;border-bottom:1px solid #eee;font-family:-apple-system,Segoe UI,Roboto,'PingFang SC','Microsoft YaHei',sans-serif;">
         <span style="display:inline-block;background:${col}1a;color:${col};font-size:12px;font-weight:700;padding:2px 9px;border-radius:999px;margin-right:8px;vertical-align:middle;">${esc(c)}</span>
-        <a href="${esc(n.u || '#')}" style="color:#111;font-size:15px;font-weight:600;text-decoration:none;vertical-align:middle;">${esc(n.t)}</a>
+        <a href="${esc(href)}" style="color:#111;font-size:15px;font-weight:600;text-decoration:none;vertical-align:middle;">${esc(n.t)}</a>
         <div style="color:#8a8a8a;font-size:12px;margin-top:5px;">${esc(time)}</div>
       </td>
     </tr>`;
@@ -118,6 +122,7 @@ function buildDigestHTML(data, email) {
 
   const topTime = (top.d || '').replace('T', ' ');
   const topSummary = esc((top.s || '').slice(0, 140));
+  const topHref = top.u || 'https://www.AI0571.com';
 
   return `<!doctype html>
 <html lang="zh-CN"><body style="margin:0;background:#f4f5f7;padding:24px 12px;font-family:-apple-system,Segoe UI,Roboto,'PingFang SC','Microsoft YaHei',sans-serif;">
@@ -128,7 +133,7 @@ function buildDigestHTML(data, email) {
     </td></tr>
     ${top.t ? `<tr><td style="padding:20px 24px;">
       <div style="font-size:12px;color:#8B5CF6;font-weight:700;margin-bottom:7px;">今日头条</div>
-      <a href="${esc(top.u || '#')}" style="color:#111;font-size:18px;font-weight:800;text-decoration:none;line-height:1.4;">${esc(top.t)}</a>
+      <a href="${esc(topHref)}" style="color:#111;font-size:18px;font-weight:800;text-decoration:none;line-height:1.4;">${esc(top.t)}</a>
       ${topSummary ? `<div style="color:#555;font-size:14px;line-height:1.65;margin-top:8px;">${topSummary}…</div>` : ''}
       <div style="color:#999;font-size:12px;margin-top:6px;">${esc(topTime)}</div>
     </td></tr>` : ''}
