@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-31T17:16:53",
+  "updated": "2026-08-31T17:21:54",
   "news": [
     {
       "c": "FUNDING",
-      "d": "2026-08-31T17:16",
+      "d": "2026-08-31T17:21",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T17:16",
+      "d": "2026-08-31T17:21",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T17:16",
+      "d": "2026-08-31T17:21",
       "t": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍",
       "s": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967712.shtml"
@@ -63,6 +63,13 @@
       "t": "曜越 AX 3200W 铂金全模组 ATX 电源上市：4 组 12V-2×6 ，4399 元",
       "s": "Thermaltake（曜越）现已在电商平台发售 AI 工作站电源 AX 3200W，价格 4399 元人民币。天猫曜越…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/561.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T16:56",
+      "t": "突发!知名AI制药公司破产，梯瓦“抄底”",
+      "s": "突发!知名AI制药公司破产，梯瓦“抄底”（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680117009266377256/"
     },
     {
       "c": "MODEL",
@@ -133,26 +140,19 @@
       "t": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业",
       "s": "范式与华为达成重磅算力战略合作，成为首批拥抱国产最高端算力底座的AI企业（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481919.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T15:31",
-      "t": "400 美元的开源双足机器人来了，能走能踢能滑冰",
-      "s": "400 美元能买什么？一个机器人，能走能踢能捡东西还能滑冰。 法国 Pollen Robotics 公司（这家公司先被 …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502221/pollen-robotics-microduck"
     }
   ],
   "timeline": [
     [
-      "08-31 17:16",
+      "08-31 17:21",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 17:16",
+      "08-31 17:21",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
-      "08-31 17:16",
+      "08-31 17:21",
       "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279837,
+      "s": 279841,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244890,
+      "s": 244891,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242316,
+      "s": 242322,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208993,
+      "s": 208995,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112805,
+      "s": 112808,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101948,
+      "s": 101949,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91021,
+      "s": 91023,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
