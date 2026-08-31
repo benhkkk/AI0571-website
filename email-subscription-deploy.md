@@ -1,145 +1,122 @@
-# AI0571 邮件订阅 · 部署手册（Pages Functions 方案）
+# AI0571 邮件订阅 · 部署手册（Pages Functions 方案 · v2）
 
-## 架构（最终版）
-站点由 **Cloudflare Pages** 托管，因此 HTTP 后端直接用 **Pages Functions**（Pages 原生同域后端，零 Route 配置）：
+## 架构（最终版 v2）
+站点由 **Cloudflare Pages** 托管，HTTP 后端用 **Pages Functions**（同域原生后端，零 Route 配置）：
 
-- 前端 `POST /api/subscribe` → **Pages Function** `functions/api/subscribe.js` → 写 **KV（SUBS）**
-- 前端 `GET /api/unsubscribe?email=` → **Pages Function** `functions/api/unsubscribe.js` → 删 KV
-- 调试 `GET /api/send-test?to=` → **Pages Function** `functions/api/send-test.js` → 调 Resend 发一封
-- 手动 `GET /api/send-digest?to=` / `?broadcast=1&secret=` → 手动发日报（单发/群发）
-- 诊断 `GET /api/cron-status` → 读取 Worker 最近一次 cron 执行日志
-- **Worker `ai0571-update-trigger`** 只跑 Cron（不处理 HTTP）：
-  - `*/10 * * * *` → 触发 GitHub Actions 抓取
-  - `0 0 * * 1-5`（UTC，= 北京 08:00 工作日）→ 读 KV 订阅列表 + Resend 群发日报
+```
+订阅/退订/发信/诊断 全部走 Pages Functions（functions/api/*）
+  ├─ POST /api/subscribe           公开：访客自助订阅（限流 + 临时邮箱黑名单）
+  ├─ GET  /api/unsubscribe         公开：退订（两步确认，防邮件扫描器误退订）
+  ├─ GET  /api/send-test           需 ADMIN_TOKEN：发一封测试邮件
+  ├─ GET  /api/send-digest         需 ADMIN_TOKEN：单发/群发日报（当天幂等）
+  ├─ GET  /api/cron-status         宽松鉴权：看 Worker cron 日志
+  ├─ GET  /api/check-subscription  需 ADMIN_TOKEN：查邮箱是否已订阅
+  ├─ GET  /api/subscriber-count    需 ADMIN_TOKEN：订阅者数量（脱敏）
+  └─ GET  /api/cron-report         Worker 上报日志用（宽松鉴权）
 
-> KV（SUBS）在 Worker 和 Pages Functions 两边**共用同一个命名空间**，所以前端订阅写入的邮箱，Worker 的定时发送能直接读到。
+自动发送日报（双保险，两条路都带「当天只发一次」幂等）：
+  ├─ 保险A：GitHub Actions（daily-update.yml 4c 步骤）
+  │    工作日 UTC 00:00~00:09（= 北京 08:00~08:09）调用 /api/send-digest?broadcast=1
+  │    —— 推荐以这条为准：Actions 稳定（实测 100% success）
+  └─ 保险B：Worker `ai0571-update-trigger` cron `0 0 * * 1-5`
+        Worker 侧需 KV(SUBS) + Secret(RESEND_API_KEY) 绑定正常才生效
+```
 
-代码已就绪（均已上传 GitHub，Cloudflare 自动部署）：
-- `functions/api/subscribe.js`、`functions/api/unsubscribe.js`、`functions/api/send-test.js`（新）
-- `worker.js`（精简为仅 cron）
-- `index.html`（订阅表单已改真实提交）
-- `wrangler.toml`（KV id 已填、两个 cron 已配）
+> KV（SUBS）在 Worker 与 Pages Functions 共用同一命名空间。KV 里除了订阅者邮箱，还存系统 key：`cron-log`（执行日志）、`rl:*`（限流）、`digest-sent:*`（群发幂等）——遍历订阅者时已统一排除。
 
 ---
 
 ## 第 1 步：Resend（发信服务）— 已完成
-域名 `ai0571.com` 已在阿里云加好 DNS 验证记录（DKIM TXT / rsend、send CNAME / _dmarc TXT），Resend 显示已 Verified；API Key（`re_xxxx`）已生成。
-> 免费版 $0/月，含 **3000 封/月 + 每日上限 100 封**。对 100 人以内订阅量的小站点完全够用；若单日发送破 100 封需升 Pro（$20/月 ≈ ¥140）。发件人统一用 `noreply@ai0571.com`。
+域名 `ai0571.com` 已在阿里云加好 DNS 验证记录，Resend 显示 Verified；API Key（`re_xxxx`）已生成。
+> 免费版 $0/月，含 **3000 封/月 + 每日上限 100 封**。发件人统一 `noreply@ai0571.com`。
 
 ---
 
 ## 第 2 步：KV 命名空间 — 已完成
-已在 Cloudflare 创建 `ai0571-subscribers`，ID：`03d445998a424254978a56bdb98c5dc7`。
+`ai0571-subscribers`，ID：`03d445998a424254978a56bdb98c5dc7`。
 
 ---
 
-## 第 3 步：Worker 设置（cron 用，已大部分完成）
-进入 Cloudflare 控制台 → **Workers & Pages** → Worker `ai0571-update-trigger`：
+## 第 3 步：Pages 项目设置（必须确认）
+进入 **Workers & Pages → 你的 Pages 项目（ai0571-website）→ Settings → Functions**：
 
-| 项 | 状态 | 确认/操作 |
-|---|---|---|
-| 代码 | ✅ 自动部署 | 仓库 `worker.js` 已更新，Git 集成会自动重新部署，无需手动粘贴 |
-| KV 绑定 `SUBS` | 需确认 | **Settings → Variables → KV namespace bindings** 里应有 `SUBS` → `ai0571-subscribers` |
-| Secret `RESEND_API_KEY` | 需确认 | **Settings → Variables → Secrets** 里应有 `RESEND_API_KEY` |
-| Secret `GH_PAT` | 需确认 | 原有抓取令牌，应仍存在 |
-| Cron | ✅ | **Triggers → Cron Triggers** 应有 `*/10 * * * *` 和 `0 0 * * 1-5` |
+| 变量 | 类型 | 值 | 状态 |
+|---|---|---|---|
+| `SUBS` | KV namespace binding | 选 `ai0571-subscribers` | ✅ 已绑 |
+| `RESEND_API_KEY` | Secret | 你的 `re_xxxx` | ✅ 已配 |
+| `ADMIN_TOKEN` | **新增 Secret/变量** | 一串随机长字符串（用于保护发信/查询端点） | ⬅️ **需你配置** |
 
-> ⚠️ **不再需要 Worker Route**（之前 `/api/*` 落回 Pages 就是因为 Route 没配上 + Pages+独立 Worker Route 本身有坑）。HTTP 现由 Pages Functions 接管。
+`ADMIN_TOKEN` 建议生成方式（任选）：
+- 用本手册同目录下 `worker.js` 无关；直接复制下面这串即可（也可自己改）：
+  ```
+  AI0571-UiQ7aTVw_xRvdHlRsBsBFbA7cMkRVZx6
+  ```
+- 或自己生成：浏览器打开 https://www.random.org/passwords/ 生成 32 位随机串
+
+⚠️ **配好后**：`send-test`、`send-digest`、`subscriber-count`、`check-subscription` 都必须在 URL 里加 `&token=你的ADMIN_TOKEN` 才能用；`cron-status` 未配 token 前可直连（配了之后也要带 token）。
 
 ---
 
-## 第 4 步：Pages 项目设置（关键新增步骤！）
-站点由 Pages 托管，Functions 需要在 **Pages 项目**里单独绑 KV + Secret（Pages 和 Worker 是两套独立绑定）。
+## 第 4 步：GitHub 仓库 Secrets（新增！）
+让 Actions 能触发群发，需要把同一个 `ADMIN_TOKEN` 配到 GitHub：
+1. GitHub 仓库 `benhkkk/AI0571-website` → **Settings → Secrets and variables → Actions**
+2. **New repository secret**：
+   - Name：`ADMIN_TOKEN`
+   - Value：**与 Pages 项目里配置的完全相同**
+3. 保存。
 
-1. Cloudflare 控制台 → **Workers & Pages** → 找到你的 **Pages 项目**（带 `www.AI0571.com`、类型为 Pages，不是 `ai0571-update-trigger` 那个 Worker）→ 点进去。
-2. 顶部标签 **Settings** → 左侧/页面内找 **Functions**。
-3. **KV namespace bindings** → **Add binding**：
-   - Variable name：`SUBS`（必须大写，代码里读 `env.SUBS`）
-   - KV namespace：选 `ai0571-subscribers`
-   - Save
-4. **Environment Variables**（或 Secrets，Production 环境）→ **Add**：
-   - Variable name：`RESEND_API_KEY`
-   - Value：你的 `re_xxxx`
-   - 建议勾选 **Encrypt / Secret** 类型 → Save
-5. 保存后，Pages 会自动重新部署（带上 Functions）。
-
-> 如果页面找不到 Functions 设置，确认你的 Pages 项目确实是连着 `benhkkk/AI0571-website` 这个仓库（部署源是 Git）。Functions 只在 Git 连接的 Pages 项目里可用。
+配好后，`daily-update.yml` 的「工作日早晨发送 AI 日报」步骤会自动在每个工作日北京 08:00 触发一次群发（Actions 每 5 分钟跑一次，幂等标记保证当天只发一次）。
 
 ---
 
 ## 第 5 步：前端 — 已完成
-`index.html` 订阅表单已 `fetch('/api/subscribe')` 同域提交，随仓库自动部署。无需操作。
+订阅表单已 `fetch('/api/subscribe')` 同域提交；轮询更新会保留你当前选中的 Tab。无需操作。
 
 ---
 
-## 测试（等第 4 步 Pages 绑定完成后）
-1. **订阅自测**：首页填邮箱 → 点订阅 → 按钮显示「已订阅 ✓ 每日早8点查收」。
-   - 验证：Cloudflare **KV → ai0571-subscribers** 里应能看到该邮箱。
-2. **手动发送测试**（不等到早上）：浏览器开
-   `https://www.AI0571.com/api/send-test?to=你的邮箱`
-   - 应返回 JSON `{"ok":true,"status":200,...}`，邮箱立刻收到日报邮件。
-   - 若返回 `missing RESEND_API_KEY` → 第 4 步 Pages 的 Secret 没配好。
-   - 若返回 `SUBS is not defined` → 第 4 步 Pages 的 KV 绑定名不是 `SUBS`。
-3. **退订自测**：点邮件里「退订」→ 显示「已退订 ✓」，KV 里该邮箱被删。
+## 第 6 步：Worker（可选，保留为保险B）
+`ai0571-update-trigger` 保留现状即可：Cron 触发 GitHub Actions 抓取 + 工作日尝试发日报。若 Worker 侧 KV/Secret 配置齐全则双保险都生效；若 Worker 状态异常也不影响（Actions 那条路会兜底）。
 
 ---
 
-## 第 6 步：诊断自动日报是否触发
+## 测试
 
-如果工作日早上 08:00 没收到日报，按下面顺序排查：
+### 1. 订阅自测（公开，无需 token）
+首页填邮箱 → 点订阅 → 显示「已订阅 ✓ 每日早8点查收」。
+- 重复订阅会提示「您已订阅过 ✓」（不再显示 8 点查收）
+- 一次性邮箱（如 mailinator.com 等）会被拒绝
 
-### 6.1 查看 Worker cron 执行日志
-浏览器打开：
+### 2. 发测试邮件（需 token）
+```
+https://www.AI0571.com/api/send-test?to=你的邮箱&token=你的ADMIN_TOKEN
+```
+- 返回 `{"ok":true,...}` → 邮箱立刻收到日报
+- 返回 `unauthorized` → token 不对或没传
+- 返回 `未配置 ADMIN_TOKEN` → 第 3 步 Pages 变量没配
+
+### 3. 手动群发（需 token）
+```
+https://www.AI0571.com/api/send-digest?broadcast=1&token=你的ADMIN_TOKEN
+```
+- 当天已发过会返回 `{"skipped":true,...}`（幂等）
+- 强制重发加 `&force=1`
+
+### 4. 查订阅者（需 token）
+```
+https://www.AI0571.com/api/subscriber-count?token=你的ADMIN_TOKEN
+https://www.AI0571.com/api/check-subscription?email=你的邮箱&token=你的ADMIN_TOKEN
+```
+
+### 5. 看 cron 日志
 ```
 https://www.AI0571.com/api/cron-status
 ```
-- `found: false` → Worker 尚未触发过（等 10 分钟再试，或看 6.2）
-- `found: true` → 看 `data.result`：
-  - `type: "sendDailyDigest"` 且 `sent > 0` → 已发送，去垃圾箱找
-  - `type: "sendDailyDigest"` 且 `note: "no subscribers"` → KV 里没有订阅者，你根本没订阅成功
-  - `error: "Worker 未绑定 SUBS KV"` → Worker 侧 KV 绑定丢失
-  - `error: "missing RESEND_API_KEY"` → Worker 侧 Secret 丢失
+- 返回 `found:false` 且持续为空 → Worker 新版可能未部署成功，不影响 Actions 群发（看 Actions 运行日志确认）
+- 返回 `found:true` → 看 `result` 里 `sent` / `error` / `kvBound`
 
-### 6.2 检查自己是否在订阅列表
-在首页底部填邮箱点订阅，若提示「已订阅 ✓」，说明写入 KV。再用浏览器开：
-```
-https://www.AI0571.com/api/check-subscription?email=你的邮箱
-```
-- `subscribed: true` → 在列表里
-- `subscribed: false` → 订阅失败，检查 Pages 的 KV 绑定
-
-### 6.3 手动补发测试
-不等早上 08:00，直接浏览器打开：
-```
-https://www.AI0571.com/api/send-test?to=你的邮箱
-```
-返回 `{"ok":true}` 后去邮箱查看。若收到了，说明 Resend + 模板都正常，问题只在自动触发或订阅列表。
-
-### 6.4 手动群发一次
-如果确认订阅列表正常、但自动没发，可以手动群发一次：
-1. 在 Pages 项目 **Functions → Environment Variables** 加 `BROADCAST_SECRET`，值随便设一个复杂字符串。
-2. 浏览器打开：
-   ```
-   https://www.AI0571.com/api/send-digest?broadcast=1&secret=你设的字符串
-   ```
-3. 返回 `sent: N` 即表示已群发 N 封。
-
----
-
-## 第 7 步：关于 Cloudflare "not benefiting from our network" 邮件
-
-你收到的这封邮件是 Cloudflare 的**配置提示/营销邮件**，不是故障告警。意思是：
-
-> 你的域名 `ai0571.com` 已经加到 Cloudflare 账户，但 DNS 管理权还在阿里云（NS 仍是 `dns9.hichina.com` / `dns10.hichina.com`），所以 Cloudflare 的 DNS/CDN 高级功能没有真正生效。
-
-### 要不要切 NS？
-| 方案 | 影响 | 建议 |
-|---|---|---|
-| **不切**（保持阿里云 NS） | 网站、邮件、Worker Cron 当前都能正常工作；只是没用上 Cloudflare DNS 高级功能 | **推荐当前阶段保持现状** |
-| **切到 Cloudflare NS**（lisa.ns + nolan.ns） | 必须把所有 DNS 记录（www CNAME、Resend 的 DKIM/SPF/DMARC/CNAME）从阿里云**重新加到 Cloudflare**；全球生效需几小时到 48 小时；期间邮件可能中断 | 除非你需要 Cloudflare 高级 DNS 功能，否则不用切 |
-
-### 结论
-**当前 AI0571 网站、自动抓取、邮件订阅都已跑通，不需要切 NS。** 那封邮件可以忽略。如果将来要切，我可以再出一版迁移步骤。
+### 6. 退订（公开）
+邮件里「退订」链接 → 打开确认页 → 点「确认退订」→ 显示「已退订 ✓」。
+> 改成两步确认是为了防止邮件安全扫描器自动 GET 退订链接导致你被误退订。
 
 ---
 
@@ -147,19 +124,19 @@ https://www.AI0571.com/api/send-test?to=你的邮箱
 
 | 现象 | 排查 |
 |---|---|
-| 订阅按钮一直「提交中…」 | 看是否线上测（非本地预览）；检查 Pages 项目 Functions 是否已部署（部署记录 Success）；Pages 的 KV/Secret 是否绑好 |
-| `/api/send-test` 返回整页 HTML | 说明请求落回 Pages 静态页，Functions 未生效 → 确认仓库根有 `functions/api/send-test.js` 且 Pages 已重新部署 |
-| `missing RESEND_API_KEY` | 第 4 步 Pages 项目里 Secret 名必须是 `RESEND_API_KEY` 且已 Save |
-| `SUBS is not defined` | Pages 项目 KV binding 名必须是 `SUBS`（大写） |
-| 收不到邮件但 sent=1 | 查 Resend Logs；确认 `ai0571.com` 已 Verified；查垃圾箱；发件域 `noreply@ai0571.com` 须来自已验证域名 |
-| 工作日没自动发 | 访问 `/api/cron-status` 看 Worker 日志；确认 Worker Cron `0 0 * * 1-5` 在；确认 Worker 侧 KV `SUBS` + Secret `RESEND_API_KEY` 已绑；Resend 额度是否耗尽 |
-| `/api/cron-status` 返回 `no subscribers` | 说明你没在首页成功订阅，或订阅写到了 Pages 侧但 Worker 读不到（检查两边是否同一 KV namespace） |
-| `/api/cron-status` 返回 `missing RESEND_API_KEY` | Worker 侧 Secret `RESEND_API_KEY` 丢失，需去 Worker Settings → Variables 添加 |
-| `/api/cron-status` 返回 `Worker 未绑定 SUBS KV` | Worker 侧 KV binding `SUBS` 丢失，检查 wrangler.toml 的 `[[kv_namespaces]]` id 是否正确 |
-
-> 调试端点 `/api/send-test`、`/api/send-digest`、`/api/cron-status` 上线后可保留（方便自查），如担心被滥用可删除文件。
+| 订阅按钮一直「提交中…」 | 看是否线上测（非本地预览）；Pages Functions 是否已部署成功 |
+| `/api/send-test` 返回整页 HTML | 请求落回 Pages 静态页，Functions 未生效 → 确认 `functions/api/` 存在且 Pages 重新部署 |
+| `missing RESEND_API_KEY` | Pages 项目 Secret 名必须是 `RESEND_API_KEY` |
+| `unauthorized` | `ADMIN_TOKEN` 没传或与 Pages 配置不一致 |
+| 收不到邮件但 sent=1 | 查 Resend Logs / 垃圾箱；`noreply@ai0571.com` 域名已验证 |
+| 工作日没自动发 | ① 打开 GitHub 仓库 Actions 页面，看「工作日早晨发送 AI 日报」步骤输出（是否命中发送窗口、curl 返回什么）② 确认仓库 Secret `ADMIN_TOKEN` 已配 ③ 确认 KV 里有订阅者（`subscriber-count`）|
+| Actions 步骤返回 `unauthorized` | 仓库 Secrets 的 `ADMIN_TOKEN` 与 Pages 项目里不一致 |
+| Actions 步骤返回 `skipped:true` | 当天已发过（正常，幂等生效） |
+| `/api/cron-status` 一直为空 | Worker 新版可能没部署成功；不影响 Actions 群发链路 |
 
 ---
 
 ## ⚠️ 安全提醒
-之前截图里暴露过一次 `RESEND_API_KEY`，如果该 Key 仍在用，建议去 Resend **Revoke** 重新生成，并更新 Worker 和 Pages 两处的 Secret 值。
+1. **之前截图暴露过 `RESEND_API_KEY`**：建议去 Resend Revoke 重新生成，并更新 Pages 的 `RESEND_API_KEY`。
+2. `ADMIN_TOKEN` 相当于管理钥匙，**不要发到聊天里/截图**；两处（Pages + GitHub Secrets）保持一致。
+3. 发信端点（send-test/send-digest）已加鉴权——未配置 token 前会拒绝服务，这是**有意为之**，防止被当成开放邮件中继滥用你的域名。
