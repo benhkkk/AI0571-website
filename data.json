@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-31T22:46:50",
+  "updated": "2026-08-31T22:51:42",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:46",
+      "d": "2026-08-31T22:51",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T22:46",
+      "d": "2026-08-31T22:51",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:46",
+      "d": "2026-08-31T22:51",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -80,6 +80,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-31T20:46",
+      "t": "具身智能规模化落地的解法，鹿明摸索出来了",
+      "s": "鹿明发布NexCore，要把具身落地的全套系统打通。 作者丨向 欣 编辑丨董子博 今年具身智能行业的热度，用「烈火烹油」…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-31T20:45",
       "t": "AMD、思科、HUMAIN 合作落地，Instinct MI355X 算力进驻沙特",
       "s": "AMD 当地时间今日宣布，由其计算芯片与 Cisco（思科）网络芯片驱动的人工智能算力已在沙特阿拉伯上线，为沙特主权财富…（来源：IT之家）",
@@ -133,26 +140,19 @@
       "t": "对话哲源赵宇:AI制药的新范式，应该把试错放在计算机上",
       "s": "对话哲源赵宇:AI制药的新范式，应该把试错放在计算机上（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7680141858592342538/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-31T18:35",
-      "t": "瑞金医院联合华为云发布瑞智病理大模型RuiPath 2.0",
-      "s": "8月30日，“数智共生·云惠病理”2026医疗人工智能创新论坛在上海召开。瑞金医院联合华为云正式发布瑞智病理大模型Rui…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/aihealth/MSsFF8sisQuWPkHG.html"
     }
   ],
   "timeline": [
     [
-      "08-31 22:46",
+      "08-31 22:51",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 22:46",
+      "08-31 22:51",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 22:46",
+      "08-31 22:51",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279936,
+      "s": 279937,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245010,
+      "s": 245012,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242585,
+      "s": 242589,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209061,
+      "s": 209063,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143549,
+      "s": 143550,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101987,
+      "s": 101988,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91077,
+      "s": 91078,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
