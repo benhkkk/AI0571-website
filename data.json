@@ -1,5 +1,5 @@
 {
-  "updated": "2026-08-31T13:51:42",
+  "updated": "2026-08-31T13:56:42",
   "news": [
     {
       "c": "INDUSTRY",
@@ -21,6 +21,13 @@
       "t": "「GPT-6」灰测demo刷屏！周四发布在即",
       "s": "核弹爆炸（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481893.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T12:25",
+      "t": "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...",
+      "s": "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680047168954090027/"
     },
     {
       "c": "MODEL",
@@ -133,13 +140,6 @@
       "t": "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand",
       "s": "Alibaba Launches AI Song Generator HappyShrimp, Ec…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122395.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T09:25",
-      "t": "ERD Online 5.0.0 更新：开放 MCP，Agent 可读已存版本",
-      "s": "更新内容 ERD Online 5.0.0 这一版把已保存的模型版本开放给 Agent：通过 MCP 读表结构，不把生产…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502206"
     }
   ],
   "timeline": [
@@ -156,16 +156,16 @@
       "「GPT-6」灰测demo刷屏！周四发布在即"
     ],
     [
+      "08-31 12:25",
+      "英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek..."
+    ],
+    [
       "08-31 11:40",
       "LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机"
     ],
     [
       "08-31 11:36",
       "今年的研发预算将超20亿，小鹏机器人凭什么值400多亿？"
-    ],
-    [
-      "08-31 11:24",
-      "OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279761,
+      "s": 279762,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244818,
+      "s": 244820,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242078,
+      "s": 242082,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112745,
+      "s": 112746,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101912,
+      "s": 101913,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90981,
+      "s": 90982,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
