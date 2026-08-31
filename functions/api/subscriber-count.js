@@ -1,21 +1,10 @@
-// Pages Function: GET /api/subscriber-count -> 返回订阅者数量（邮箱脱敏）
-function json(data, status = 200) {
-  return new Response(JSON.stringify(data, null, 2), {
-    status,
-    headers: { 'Content-Type': 'application/json; charset=utf-8' },
-  });
-}
-
-// 脱敏：保留首字符与域名，如 h***@qq.com
-function mask(email) {
-  const at = String(email).indexOf('@');
-  if (at < 1) return '***';
-  const local = email.slice(0, at);
-  const domain = email.slice(at);
-  return local.slice(0, 1) + '***' + domain;
-}
+// Pages Function: GET /api/subscriber-count?token=xxx -> 返回订阅者数量（邮箱脱敏）
+// ⚠️ 需鉴权：订阅者列表属于用户隐私，不应公开可查。
+import { requireAdmin, json, maskEmail } from '../_lib/auth.js';
 
 export async function onRequestGet({ request, env }) {
+  const auth = requireAdmin(request, env);
+  if (!auth.ok) return json({ ok: false, error: auth.error }, auth.status);
   try {
     const emails = [];
     let cursor;
@@ -23,7 +12,8 @@ export async function onRequestGet({ request, env }) {
       const opt = cursor ? { cursor } : {};
       const page = await env.SUBS.list(opt);
       for (const k of page.keys) {
-        if (k.name === 'cron-log') continue;
+        // 跳过非订阅者 key：cron 日志(cron-log) 与限流记录(rl:*)
+        if (k.name === 'cron-log' || k.name.startsWith('rl:')) continue;
         try {
           const v = JSON.parse(await env.SUBS.get(k.name));
           if (v && v.email) emails.push({ email: v.email, ts: v.ts });
@@ -38,7 +28,7 @@ export async function onRequestGet({ request, env }) {
       ok: true,
       count: emails.length,
       subscribers: emails.map(e => ({
-        masked: mask(e.email),
+        masked: maskEmail(e.email),
         subscribedAt: e.ts ? new Date(e.ts).toISOString() : null,
       })),
     });
