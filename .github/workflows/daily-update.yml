@@ -64,6 +64,25 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python fetch_skills.py
 
+      # 4c) 工作日早晨（北京 08:00，即 UTC 00:00~00:09）触发日报群发
+      #     调用 Pages Function /api/send-digest?broadcast=1&token=xxx；
+      #     端点内置「当天只发一次」的 KV 幂等标记，Actions 多次命中窗口也不会重复发送。
+      #     需要把 ADMIN_TOKEN 加到仓库 Secrets（值 = Pages 项目里配置的 ADMIN_TOKEN）。
+      - name: 工作日早晨发送 AI 日报
+        env:
+          ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
+        run: |
+          D=$(date -u +%u)      # 1=周一 ... 7=周日
+          H=$(date -u +%H)
+          M=$(date -u +%M)
+          if [ "$D" -le 5 ] && [ "$H" = "00" ] && [ "$M" -lt 10 ]; then
+            echo "工作日早晨发送窗口（UTC $H:$M），触发日报群发..."
+            curl -s --max-time 120 "https://www.AI0571.com/api/send-digest?broadcast=1&token=${ADMIN_TOKEN}"
+            echo ""
+          else
+            echo "非发送窗口（星期${D} UTC $H:$M），跳过日报群发。"
+          fi
+
       # 5) 若 index.html / data.json 有变更，则提交并推送
       #    使用默认 GITHUB_TOKEN（权限已在 permissions 中声明）
       #    推送后 Cloudflare Pages 会自动触发重新部署
