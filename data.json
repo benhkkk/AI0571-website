@@ -1,23 +1,16 @@
 {
-  "updated": "2026-08-31T16:11:51",
+  "updated": "2026-08-31T16:16:51",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-08-31T16:11",
-      "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
-      "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-08-31T16:11",
+      "d": "2026-08-31T16:16",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T16:11",
+      "d": "2026-08-31T16:16",
       "t": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍",
       "s": "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967712.shtml"
@@ -122,10 +115,10 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-08-31T14:47",
+      "d": "2026-08-31T14:38",
       "t": "AI制药职位增长84%，生物医药人才需求加速转向复合型",
       "s": "AI制药职位增长84%，生物医药人才需求加速转向复合型（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680083821017989658/"
+      "u": "https://www.toutiao.com/article/7680081428029325851/"
     },
     {
       "c": "INDUSTRY",
@@ -140,19 +133,22 @@
       "t": "Nerai研发基于人工智能的高通量蛋白质工程技术，生产新型CRISPR基因编辑工具",
       "s": "已布局8条CRISPR基因编辑工具管线。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122493.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T13:51",
+      "t": "很少有人想到，具身智能的寒武纪爆发，是由一只鸭子开始的",
+      "s": "寒武纪不奖励最大的生物（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8122495.html"
     }
   ],
   "timeline": [
     [
-      "08-31 16:11",
-      "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
-    ],
-    [
-      "08-31 16:11",
+      "08-31 16:16",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
-      "08-31 16:11",
+      "08-31 16:16",
       "岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "08-31 15:50",
       "我国 L3 / L4 自动驾驶强制国标正式文件发布，2027 年 7 月 1 日实施"
+    ],
+    [
+      "08-31 15:31",
+      "400 美元的开源双足机器人来了，能走能踢能滑冰"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279806,
+      "s": 279808,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244871,
+      "s": 244873,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242241,
+      "s": 242244,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208976,
+      "s": 208978,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143509,
+      "s": 143510,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135348,
+      "s": 135347,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112784,
+      "s": 112785,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91010,
+      "s": 91011,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
