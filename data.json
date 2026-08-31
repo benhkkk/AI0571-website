@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-01T07:06:47",
+  "updated": "2026-09-01T07:11:43",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T07:06",
+      "d": "2026-09-01T07:11",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T07:06",
+      "d": "2026-09-01T07:11",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T07:06",
+      "d": "2026-09-01T07:11",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T07:07",
+      "t": "苹果披露“惊人证据”：前员工已将机密文件用于 OpenAI，且知情者众多",
+      "s": "根据苹果当地时间 8 月 31 日向法院提交的最新文件，公司在对前工程师 Chang Liu 使用过的一台 MacBoo…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/702.htm"
     },
     {
       "c": "MODEL",
@@ -108,13 +115,6 @@
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-08-31T20:34",
-      "t": "联发科将基于英伟达 NVLink Fusion 为客户开发定制 XPU",
-      "s": "NVIDIA（英伟达）与联发科技 (Mediatek) 今日宣布深化长期合作伙伴关系，共同打造跨世代的 AI 基础设施…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/645.htm"
-    },
-    {
-      "c": "INDUSTRY",
       "d": "2026-08-31T20:01",
       "t": "流量红利退潮，快手想用 AI 和老友们破局",
       "s": "头图来源：快手 8 月 29 日，在 2026 快手光合创作者大会上，快手科技创始人、董事长兼 CEO 程一笑公布了一组…（来源：极客公园）",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "09-01 07:06",
+      "09-01 07:11",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 07:06",
+      "09-01 07:11",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "09-01 07:06",
+      "09-01 07:11",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "09-01 07:07",
+      "苹果披露“惊人证据”：前员工已将机密文件用于 OpenAI，且知情者众多"
     ],
     [
       "08-31 23:33",
@@ -162,10 +166,6 @@
     [
       "08-31 23:20",
       "整治 AI 虚假账号，Instagram 推出全新 AI 个人资料标签"
-    ],
-    [
-      "08-31 22:16",
-      "快手：国家人工智能基金向北京可灵注入现金资本 14 亿元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280057,
+      "s": 280058,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245214,
+      "s": 245218,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242850,
+      "s": 242854,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91183,
+      "s": 91185,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
