@@ -459,7 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-08-31T13:26', t:'启境 GT7 官宣满足国家 L3 级自动驾驶架构的设计标准，并完成 L3 准入测试与申报', s:'启境汽车产品总经理轩伟发文宣布，目前，启境 GT7 是 20 万级唯一搭载 L3 级自动驾驶架构的量产车型。据轩伟介绍…（来源：IT之家）', u:'https://www.ithome.com/0/996/422.htm'},
     {c:'HOT', d:'2026-08-31T13:10', t:'AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行', s:'据央视新闻报道，一批新规将于 2026 年 9 月起施行，包括 AI“已读乱回”经营者承担责任等。IT之家附具体新规如下…（来源：IT之家）', u:'https://www.ithome.com/0/996/419.htm'},
+    {c:'MODEL', d:'2026-08-31T12:47', t:'「GPT-6」灰测demo刷屏！周四发布在即', s:'核弹爆炸（来源：量子位）', u:'https://www.qbitai.com/2026/08/481893.html'},
     {c:'MEDPHARMA', d:'2026-08-31T12:25', t:'英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...', s:'英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7680047168954090027/'},
     {c:'MODEL', d:'2026-08-31T11:40', t:'LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机', s:'LG 电子 (LG Electronics) 本月末正式推出了其五人女子偶像团体 AI-DOL。这并非该电子电器制造商试…（来源：IT之家）', u:'https://www.ithome.com/0/996/395.htm'},
     {c:'MODEL', d:'2026-08-31T11:24', t:'OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了', s:'什么样的AI业务，英伟达GPU和谷歌TPU搞不定，非得用Mac（来源：量子位）', u:'https://www.qbitai.com/2026/08/481759.html'},
@@ -477,26 +479,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-08-31T09:49', t:'小马智行携手 FutureLink，拟首批在韩商业投放 200 辆 Robotaxi', s:'参考韩联社当地时间 30 日报道，韩国自动驾驶移动出行企业 FutureLink 已同小马智行 (Pony.ai) 签署…（来源：IT之家）', u:'https://www.ithome.com/0/996/303.htm'},
     {c:'HOT', d:'2026-08-31T09:27', t:'Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand', s:'Alibaba Launches AI Song Generator HappyShrimp, Ec…（来源：钛媒体）', u:'https://www.tmtpost.com/8122395.html'},
     {c:'MEDPHARMA', d:'2026-08-31T09:26', t:'从单点到集群上海AI制药生态开始产业规模化发展', s:'从单点到集群上海AI制药生态开始产业规模化发展（来源：头条医药AI）', u:'https://www.toutiao.com/article/7680001081920864777/'},
-    {c:'MODEL', d:'2026-08-31T09:25', t:'ERD Online 5.0.0 更新：开放 MCP，Agent 可读已存版本', s:'更新内容 ERD Online 5.0.0 这一版把已保存的模型版本开放给 Agent：通过 MCP 读表结构，不把生产…（来源：OSCHINA）', u:'https://www.oschina.net/news/502206'},
-    {c:'MODEL', d:'2026-08-31T09:14', t:'编辑部来了 AI 实习生｜千问入职 20 天，我给它写了一份实习小结', s:'作者｜Moonshot 编辑｜郑玄 8 月 20 日晚，MoonshotAI 在 GitHub 上更新了 kimi-co…（来源：极客公园）', u:'http://www.geekpark.net/news/369517'},
   ];
   const TIMELINE = [
+    ['08-31 13:26','启境 GT7 官宣满足国家 L3 级自动驾驶架构的设计标准，并完成 L3 准入测试与申报'],
     ['08-31 13:10','AI“已读乱回”经营者承担责任、给外卖包装“瘦身”，一批新规 9 月起施行'],
+    ['08-31 12:47','「GPT-6」灰测demo刷屏！周四发布在即'],
     ['08-31 12:25','英矽智能联席CEO任峰:三期临床成功或将是AI制药的“DeepSeek...'],
     ['08-31 11:40','LG 电子推出偶像女团 AI-DOL，实为推销自家洗烘一体机'],
     ['08-31 11:24','OpenAI买几万台Mac搞强化训练！英伟达的活被苹果抢了'],
-    ['08-31 11:12','定义物理 AI 新纪元：昂首 EV1 智能出行机器人落地深圳湾 INNO100，开启中国市场线下首发'],
-    ['08-31 11:11','全国第三，公司第二，“初创黑马”灵犀智涌用ROSS Harness把机器人送进工业具身智能第一梯队'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:279755, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:244812, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:242063, u:'https://github.com/mattpocock/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:279756, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:244813, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:242064, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:208939, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172681, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143496, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135321, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:112733, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135323, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:112737, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101910, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:90977, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
