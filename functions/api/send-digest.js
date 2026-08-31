@@ -3,7 +3,7 @@
 // 绑定：Pages 项目 Settings -> Functions -> KV "SUBS" + Secret "RESEND_API_KEY" + "ADMIN_TOKEN"
 //
 // ⚠️ 必须鉴权：否则任何人都能用你的域名和 Resend 额度对外群发邮件。
-import { requireAdmin, json, validEmail } from '../_lib/auth.js';
+import { requireAdmin, json, validEmail, maskEmail, isSubscriberKey } from '../_lib/auth.js';
 
 const CAT = { HOT: '热门', MODEL: '大模型', FUNDING: '融资', INDUSTRY: '行业', MEDPHARMA: '医药AI', MEDDEVICE: '设备AI' };
 const CATCOLOR = { HOT: '#F472B6', MODEL: '#8B5CF6', FUNDING: '#10B981', INDUSTRY: '#3B82F6', MEDPHARMA: '#EC4899', MEDDEVICE: '#14B8A6' };
@@ -67,8 +67,8 @@ async function listSubscribers(env) {
     const opt = cursor ? { cursor } : {};
     const page = await env.SUBS.list(opt);
     for (const k of page.keys) {
-      // 跳过非订阅者 key：cron 日志(cron-log) 与限流记录(rl:*)
-      if (k.name === 'cron-log' || k.name.startsWith('rl:')) continue;
+      // 只取订阅者邮箱，跳过 cron-log / rl:* / digest-sent:* 等系统 key
+      if (!isSubscriberKey(k.name)) continue;
       try {
         const v = JSON.parse(await env.SUBS.get(k.name));
         if (v && v.email) emails.push(v.email);
@@ -102,6 +102,27 @@ async function sendOne(env, email, data) {
   return { ok: resp.ok, status: resp.status, body: await resp.text() };
 }
 
+/** 当天（北京时间）是否已群发过，用于防止定时任务多次触发导致重复发送 */
+async function alreadySentToday(env) {
+  const bj = new Date(Date.now() + 8 * 3600e3);
+  const key = 'digest-sent:' + bj.toISOString().slice(0, 10);
+  try {
+    const v = await env.SUBS.get(key);
+    return v ? key : null;
+  } catch (_) {
+    return null;
+  }
+}
+
+async function markSentToday(env) {
+  const bj = new Date(Date.now() + 8 * 3600e3);
+  const key = 'digest-sent:' + bj.toISOString().slice(0, 10);
+  try {
+    await env.SUBS.put(key, JSON.stringify({ sentAt: Date.now() }), { expirationTtl: 60 * 60 * 48 });
+  } catch (_) { /* ignore */ }
+  return key;
+}
+
 export async function onRequestGet({ request, env }) {
   const auth = requireAdmin(request, env);
   if (!auth.ok) return json({ ok: false, error: auth.error }, auth.status);
@@ -113,9 +134,15 @@ export async function onRequestGet({ request, env }) {
     const url = new URL(request.url);
     const to = String(url.searchParams.get('to') || '').trim();
     const broadcast = url.searchParams.get('broadcast') === '1';
+    const force = url.searchParams.get('force') === '1';
 
     let emails = [];
     if (broadcast) {
+      // 幂等保护：同一天（北京时间）默认只发一次，force=1 可强制重发
+      const sentKey = await alreadySentToday(env);
+      if (sentKey && !force) {
+        return json({ ok: true, skipped: true, reason: '今天已发送过（加 &force=1 可强制重发）', key: sentKey });
+      }
       emails = (await listSubscribers(env)).filter(validEmail);
     } else if (validEmail(to)) {
       emails = [to];
@@ -132,9 +159,11 @@ export async function onRequestGet({ request, env }) {
     let sent = 0, failed = 0;
     for (const email of emails) {
       const r = await sendOne(env, email, data);
-      results.push({ email, ...r });
+      results.push({ email: maskEmail(email), ...r });
       if (r.ok) sent++; else failed++;
     }
+
+    if (broadcast && sent > 0) await markSentToday(env);
 
     return json({ ok: true, broadcast, sent, failed, total: emails.length, results });
   } catch (e) {
