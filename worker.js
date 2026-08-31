@@ -49,12 +49,14 @@ async function triggerGithub(env) {
 
 /* ---------- 订阅者列表（KV）---------- */
 async function listSubscribers(env) {
+  if (!env.SUBS) throw new Error('Worker 未绑定 SUBS KV');
   const emails = [];
   let cursor;
   do {
     const opt = cursor ? { cursor } : {};
     const page = await env.SUBS.list(opt);
     for (const k of page.keys) {
+      if (k.name === 'cron-log') continue; // 跳过日志 key
       try {
         const v = JSON.parse(await env.SUBS.get(k.name));
         if (v && v.email) emails.push(v.email);
@@ -63,6 +65,19 @@ async function listSubscribers(env) {
     cursor = page.list_complete ? null : page.cursor;
   } while (cursor);
   return emails;
+}
+
+/* ---------- Cron 执行日志 ---------- */
+async function logCron(env, data) {
+  try {
+    if (!env.SUBS) return;
+    const entry = {
+      ts: Date.now(),
+      iso: new Date().toISOString(),
+      ...data,
+    };
+    await env.SUBS.put('cron-log', JSON.stringify(entry));
+  } catch (_) { /* ignore */ }
 }
 
 /* ---------- 邮件 HTML 模板 ---------- */
@@ -154,11 +169,39 @@ async function sendDailyDigest(env, onlyTo) {
 export default {
   async scheduled(event, env, ctx) {
     const c = event.cron || '';
+    const start = Date.now();
+
     // 工作日早晨（UTC 00:00 = 北京 08:00）发送日报；其余 cron 触发抓取
     if (/1-5$/.test(c)) {
-      ctx.waitUntil(sendDailyDigest(env));
+      ctx.waitUntil((async () => {
+        let result = { ok: false, error: 'unknown' };
+        try {
+          result = await sendDailyDigest(env);
+        } catch (e) {
+          result = { ok: false, error: String(e && e.message || e) };
+        }
+        await logCron(env, {
+          type: 'sendDailyDigest',
+          cron: c,
+          durationMs: Date.now() - start,
+          result,
+        });
+      })());
     } else {
-      ctx.waitUntil(triggerGithub(env));
+      ctx.waitUntil((async () => {
+        let result = { ok: false, error: 'unknown' };
+        try {
+          result = await triggerGithub(env);
+        } catch (e) {
+          result = { ok: false, error: String(e && e.message || e) };
+        }
+        await logCron(env, {
+          type: 'triggerGithub',
+          cron: c,
+          durationMs: Date.now() - start,
+          result,
+        });
+      })());
     }
   }
 };
