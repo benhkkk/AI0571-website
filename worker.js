@@ -188,8 +188,19 @@ export default {
     const c = event.cron || '';
     const start = Date.now();
 
-    // 工作日早晨（UTC 00:00 = 北京 08:00）发送日报；其余 cron 触发抓取
-    if (/1-5$/.test(c)) {
+    /* 判定是否为「工作日早晨发送窗口」：
+     * 以当前 UTC 时间为准（比依赖 event.cron 字符串更稳健，
+     * 避免 cron 表达式被规范化成 MON-FRI 等格式导致正则失配）。
+     * UTC 00:00~00:09 且周一至周五 = 北京 08:00~08:09 工作日。
+     */
+    const now = new Date();
+    const utcDay = now.getUTCDay();   // 0=周日, 1..5=周一至周五, 6=周六
+    const utcHour = now.getUTCHours();
+    const utcMin = now.getUTCMinutes();
+    const inDigestWindow = utcDay >= 1 && utcDay <= 5 && utcHour === 0 && utcMin < 10;
+    const cronLooksDigest = /1-5$/.test(c);
+
+    if (inDigestWindow || cronLooksDigest) {
       ctx.waitUntil((async () => {
         let result = { ok: false, error: 'unknown' };
         try {
@@ -200,6 +211,8 @@ export default {
         await logCron(env, {
           type: 'sendDailyDigest',
           cron: c,
+          utcDay, utcHour, utcMin,
+          inDigestWindow, cronLooksDigest,
           durationMs: Date.now() - start,
           result,
         });
@@ -215,6 +228,8 @@ export default {
         await logCron(env, {
           type: 'triggerGithub',
           cron: c,
+          utcDay, utcHour, utcMin,
+          inDigestWindow, cronLooksDigest,
           durationMs: Date.now() - start,
           result,
         });
