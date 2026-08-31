@@ -1,12 +1,19 @@
 {
-  "updated": "2026-08-31T09:26:39",
+  "updated": "2026-08-31T09:31:56",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T09:26",
+      "d": "2026-08-31T09:31",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-08-31T09:26",
+      "t": "从单点到集群上海AI制药生态开始产业规模化发展",
+      "s": "从单点到集群上海AI制药生态开始产业规模化发展（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680001081920864777/"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "人形机器人还撑不起极智嘉",
       "s": "基本盘还稳，第二曲线没兑现。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122055.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T18:45",
-      "t": "自动驾驶入法后，罚单还得车主交?",
-      "s": "“激活状态”或是未来官司的焦点。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8122093.html"
     }
   ],
   "timeline": [
     [
-      "08-31 09:26",
+      "08-31 09:31",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
+    ],
+    [
+      "08-31 09:26",
+      "从单点到集群上海AI制药生态开始产业规模化发展"
     ],
     [
       "08-31 09:14",
@@ -162,10 +166,6 @@
     [
       "08-31 08:51",
       "Edge AI Daily 早报（8月31日）"
-    ],
-    [
-      "08-31 07:55",
-      "上线不足一个月：米哈游 AI 女友桌面陪伴软件《BSide: Olivia Lin》今起停运，离线版本可限时领取"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279687,
+      "s": 279688,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244727,
+      "s": 244730,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241893,
+      "s": 241897,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208893,
+      "s": 208894,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112667,
+      "s": 112670,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101879,
+      "s": 101880,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90939,
+      "s": 90940,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
