@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-31T12:16:43",
+  "updated": "2026-08-31T12:21:47",
   "news": [
     {
       "c": "FUNDING",
-      "d": "2026-08-31T12:16",
+      "d": "2026-08-31T12:21",
       "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
       "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
@@ -56,6 +56,13 @@
       "t": "DataBuff v0.1.8 发布 · 日志详情钉 log_id + GenAI Trace 可读",
       "s": "DataBuff 是一款面向云原生与微服务场景的开源 AI Native OpenTelemetry APM，采用 OT…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502212"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T10:18",
+      "t": "极米海外众筹被叫停背后：AI 眼镜的「撞脸」之战，谁能留到最后？",
+      "s": "从朋友圈骂战到美国法院，极米和逸文的三年恩怨。作者丨黄艳冰 编辑丨姚单 董子博8 月 27 日，本应是 MemoMind…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/weiwu/NPnRM0Yr6NLyQjRS.html"
     },
     {
       "c": "MODEL",
@@ -133,18 +140,11 @@
       "t": "真香！特斯拉在港澳推出更便宜的Model 3，起售价不足18万元；字节豆包大模型2.2将推迟发布，原计划8月推出；官方回应「网友呼吁取消ETC」",
       "s": "要闻提示1.特斯拉在港澳推出更便宜的Model 3，起售价不足18万元！2.奔驰回应星宇劝退应届生：严重道德和劳动失当行…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/zaobao/3X5Iht5o0zblV5d9.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T08:58",
-      "t": "🔥🔥Skyeye 云企业级AI+零代码智能制造系统 - v4.1.2 发布",
-      "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502205"
     }
   ],
   "timeline": [
     [
-      "08-31 12:16",
+      "08-31 12:21",
       "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279739,
+      "s": 279741,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 244787,
+      "s": 244790,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242020,
+      "s": 242025,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208930,
+      "s": 208931,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112720,
+      "s": 112721,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101905,
+      "s": 101904,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 90973,
+      "s": 90975,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
