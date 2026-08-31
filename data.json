@@ -1,33 +1,33 @@
 {
-  "updated": "2026-08-31T20:01:53",
+  "updated": "2026-08-31T20:07:00",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-08-31T20:01",
-      "t": "流量红利退潮，快手想用 AI 和老友们破局",
-      "s": "头图来源：快手 8 月 29 日，在 2026 快手光合创作者大会上，快手科技创始人、董事长兼 CEO 程一笑公布了一组…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369631"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-08-31T20:01",
+      "d": "2026-08-31T20:06",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T20:01",
+      "d": "2026-08-31T20:06",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T20:01",
+      "d": "2026-08-31T20:06",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-08-31T20:01",
+      "t": "流量红利退潮，快手想用 AI 和老友们破局",
+      "s": "头图来源：快手 8 月 29 日，在 2026 快手光合创作者大会上，快手科技创始人、董事长兼 CEO 程一笑公布了一组…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369631"
     },
     {
       "c": "HOT",
@@ -144,20 +144,20 @@
   ],
   "timeline": [
     [
-      "08-31 20:01",
-      "流量红利退潮，快手想用 AI 和老友们破局"
-    ],
-    [
-      "08-31 20:01",
+      "08-31 20:06",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 20:01",
+      "08-31 20:06",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 20:01",
+      "08-31 20:06",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
+    ],
+    [
+      "08-31 20:01",
+      "流量红利退潮，快手想用 AI 和老友们破局"
     ],
     [
       "08-31 19:46",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279888,
+      "s": 279887,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242433,
+      "s": 242435,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209027,
+      "s": 209026,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172735,
+      "s": 172737,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143540,
+      "s": 143538,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135370,
+      "s": 135369,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112851,
+      "s": 112852,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101970,
+      "s": 101971,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91048,
+      "s": 91049,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
