@@ -1,9 +1,9 @@
 {
-  "updated": "2026-08-31T08:31:55",
+  "updated": "2026-08-31T08:36:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-08-31T08:31",
+      "d": "2026-08-31T08:36",
       "t": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠",
       "s": "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/967011.shtml"
@@ -52,10 +52,31 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-08-30T23:02",
+      "t": "Termexo V0.6.0 发布：新增任务看板，OpenCode 升级为一等 Agent",
+      "s": "Termexo 是一个 MIT 开源、仅在本地运行的 Windows AI 编程工作台，通过真实 PTY 统一管理 Cl…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502204"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-30T22:02",
+      "t": "Go Agent 框架 Covonaut v1.1.0 发布：Markdown 与代码高亮全面升级",
+      "s": "关于 Covonaut Covonaut 是面向生产环境的 Go Agent 框架，纯 Go 实现、MIT 协议开源。覆…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502203"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-08-30T21:42",
       "t": "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出",
       "s": "据白鲸实验室消息，字节跳动原计划于 8 月推出的豆包大模型 2.2 将推迟面世。多位接近字节的人士称，延期的原因是，字节…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/239.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-30T19:37",
+      "t": "AI 开发的一个安全优先的编程工具",
+      "s": "一个被忽视的安全隐患 2024 年，AI 编程工具已经从\"尝鲜玩具\"变成了开发者的日常生产力引擎。Cursor、Copi…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502201"
     },
     {
       "c": "HOT",
@@ -119,32 +140,11 @@
       "t": "从“送外卖”到“城市基础设施”，顺丰同城的AI野心",
       "s": "在监管趋严与成本飙升的双重压力下，这家以物流履约见长的企业，正在用科技打破人力内卷，重构城市短途物流的底层逻辑。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8122051.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-30T15:28",
-      "t": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...",
-      "s": "深度|AI制药进入验证期:百万高薪人才难觅，吃到红利的第一波...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7679723184253436425/"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-08-30T09:39",
-      "t": "【数智周报】OpenAI奥尔特曼：担心AI或被少数人控制，甚至摆脱人类控制；黄仁勋：AI已抵达产业拐点，彻底告别概念阶段；腾讯高管回应“腾讯做AI慢了”质疑",
-      "s": "（8月24日-29日）比尔·盖茨称向AI时代过渡将是人类史上最动荡时期之一，批科技行业淡化风险、呼吁对Token和机器人…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121886.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-08-30T09:34",
-      "t": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
-      "s": "有人当金主，有人造铲子，有人守入口——谁在为这场万亿AI赌局买单？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8121824.html"
     }
   ],
   "timeline": [
     [
-      "08-31 08:31",
+      "08-31 08:36",
       "机器人能飞！蔡司精密测量赋能北京人形机器人创新中心“天工”夺冠"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279674,
+      "s": 279675,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 241851,
+      "s": 241855,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 208887,
+      "s": 208888,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112649,
+      "s": 112652,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
