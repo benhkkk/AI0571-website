@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-31T22:41:44",
+  "updated": "2026-08-31T22:46:50",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:41",
+      "d": "2026-08-31T22:46",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T22:41",
+      "d": "2026-08-31T22:46",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:41",
+      "d": "2026-08-31T22:46",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -87,6 +87,13 @@
     },
     {
       "c": "INDUSTRY",
+      "d": "2026-08-31T20:44",
+      "t": "WRC 上，我们看到的关于灵巧手的真相",
+      "s": "混驱成为新热门，触觉是标配，落地靠低自由度。 作者丨向 欣 编辑丨高景辉 今年 WRC，灵巧手依然是机器人展区最密集的产…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/524JbeGS3fgGgQeA.html"
+    },
+    {
+      "c": "INDUSTRY",
       "d": "2026-08-31T20:34",
       "t": "联发科将基于英伟达 NVLink Fusion 为客户开发定制 XPU",
       "s": "NVIDIA（英伟达）与联发科技 (Mediatek) 今日宣布深化长期合作伙伴关系，共同打造跨世代的 AI 基础设施…（来源：IT之家）",
@@ -133,26 +140,19 @@
       "t": "瑞金医院联合华为云发布瑞智病理大模型RuiPath 2.0",
       "s": "8月30日，“数智共生·云惠病理”2026医疗人工智能创新论坛在上海召开。瑞金医院联合华为云正式发布瑞智病理大模型Rui…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/aihealth/MSsFF8sisQuWPkHG.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-08-31T18:31",
-      "t": "自变量杨倩出席APEC活动，分享具身智能开源赋能中小企业数智转型",
-      "s": "今日，在2026年亚太经合组织（APEC）中小企业数智赋能论坛上，作自变量机器人联合创始人兼COO杨倩为参会的唯一具身智…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/pLpgF05WRqQ6VJdA.html"
     }
   ],
   "timeline": [
     [
-      "08-31 22:41",
+      "08-31 22:46",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 22:41",
+      "08-31 22:46",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 22:41",
+      "08-31 22:46",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245007,
+      "s": 245010,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242579,
+      "s": 242585,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209060,
+      "s": 209061,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172760,
+      "s": 172762,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112900,
+      "s": 112901,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101986,
+      "s": 101987,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91076,
+      "s": 91077,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
