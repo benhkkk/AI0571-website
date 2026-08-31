@@ -1,23 +1,23 @@
 {
-  "updated": "2026-08-31T22:51:42",
+  "updated": "2026-08-31T22:56:46",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:51",
+      "d": "2026-08-31T22:56",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-08-31T22:51",
+      "d": "2026-08-31T22:56",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T22:51",
+      "d": "2026-08-31T22:56",
       "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
       "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
@@ -70,6 +70,13 @@
       "t": "独家对话江口达雄：芯片涨价与AI热夹击，PlayStation如何守主机阵地",
       "s": "AI内容抢走越来越多的娱乐时间，年轻人是否还愿意在周末坐进客厅、握住手柄？江口达雄的回答并不激进，像带着某种老派的从容…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123349.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T20:49",
+      "t": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
+      "s": "上触觉已经不是一个「yes or no」的问题，而是「when」的问题。 作者丨向 欣 编辑丨高景辉 雷峰网：瑞典科学家…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html"
     },
     {
       "c": "MODEL",
@@ -133,26 +140,19 @@
       "t": "混元Hy4 preview上线即排队，能消解腾讯的AI焦虑吗？",
       "s": "混元追上来一截，腾讯的船还在“漏水”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123051.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-08-31T18:36",
-      "t": "对话哲源赵宇:AI制药的新范式，应该把试错放在计算机上",
-      "s": "对话哲源赵宇:AI制药的新范式，应该把试错放在计算机上（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680141858592342538/"
     }
   ],
   "timeline": [
     [
-      "08-31 22:51",
+      "08-31 22:56",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "08-31 22:51",
+      "08-31 22:56",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
-      "08-31 22:51",
+      "08-31 22:56",
       "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 279937,
+      "s": 279938,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245012,
+      "s": 245016,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242589,
+      "s": 242593,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209063,
+      "s": 209064,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143550,
+      "s": 143551,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 112901,
+      "s": 112904,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 101988,
+      "s": 101989,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91078,
+      "s": 91080,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
