@@ -459,8 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MODEL', d:'2026-08-31T16:41', t:'直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅', s:'直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260831/967846.shtml'},
-    {c:'MODEL', d:'2026-08-31T16:41', t:'岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍', s:'岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260831/967712.shtml'},
+    {c:'HOT', d:'2026-08-31T16:46', t:'敲钟次日，王兴兴首谈物理AI自进化|王力宏跨界感言"音乐界/科技届炸锅了"', s:'敲钟次日，王兴兴首谈物理AI自进化|王力宏跨界感言"音乐界/科技届炸锅了"（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260820/962193.shtml'},
+    {c:'INDUSTRY', d:'2026-08-31T16:46', t:'全日程速览！共探AI变革科研范式，50位院士齐聚2026科学智能大会', s:'全日程速览！共探AI变革科研范式，50位院士齐聚2026科学智能大会（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260814/959685.shtml'},
+    {c:'MODEL', d:'2026-08-31T16:46', t:'直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅', s:'直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260831/967846.shtml'},
+    {c:'MODEL', d:'2026-08-31T16:46', t:'岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍', s:'岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260831/967712.shtml'},
+    {c:'MODEL', d:'2026-08-31T16:45', t:'消息称 OpenAI 购入数万台苹果 Mac mini / Studio，用于训练 AI 智能体操作计算机', s:'据 The Information 报道，OpenAI 近几个月购买了数万台苹果 Mac mini 和 Mac Stud…（来源：IT之家）', u:'https://www.ithome.com/0/996/556.htm'},
     {c:'MODEL', d:'2026-08-31T16:40', t:'亚马逊 AWS 加码政府 AI 赛道，OpenAI、Meta、Anthropic 等大模型集体登陆 GovCloud', s:'亚马逊云服务（AWS）昨天宣布，公司已扩大 GovCloudAI 模型可用范围，美国的政府机构可通过 Amazon Be…（来源：IT之家）', u:'https://www.ithome.com/0/996/554.htm'},
     {c:'HOT', d:'2026-08-31T16:32', t:'首次海外亮相：小米机器人 CyberOne 将现身 IFA 国际消费电子展', s:'小米集团总裁卢伟冰今日在社交平台发文透露小米首次参加 IFA 国际消费电子展的展会亮点。卢伟冰称，本次展会小米拥有超过 …（来源：IT之家）', u:'https://www.ithome.com/0/996/553.htm'},
     {c:'MODEL', d:'2026-08-31T16:16', t:'独家｜字节豆包2.2推迟发布，Coding疯狂补课', s:'Coding疯狂补课（来源：钛媒体）', u:'https://www.tmtpost.com/8122882.html'},
@@ -476,28 +479,25 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-08-31T15:20', t:'行业首个家庭智能伴侣级 AIOS：海信电视 JUOS 发布，桌面随人变化、首创 AI 搜索片段', s:'在今日的海信视像 AI 战略暨 JUOS 发布会上，海信发布行业首个家庭智能伴侣级 AIOS —— JUOS。据介绍，海…（来源：IT之家）', u:'https://www.ithome.com/0/996/499.htm'},
     {c:'INDUSTRY', d:'2026-08-31T15:20', t:'OpenAI 内部，三段 AI 文明先后兴起、被消灭，最后重生', s:'Dwarkesh Patel 花了三天时间读完 OpenAI 和 METR/Redwood 的两份报告——一份 38 页…（来源：OSCHINA）', u:'https://www.oschina.net/news/502219/openai-huggingface'},
     {c:'MODEL', d:'2026-08-31T15:18', t:'27B Local Model From StartLux Ranks Second in Official Chinese Agent Benchmark, Matching Larger Rivals on Key Tasks', s:'27B Local Model From StartLux Ranks Second in Offi…（来源：钛媒体）', u:'https://www.tmtpost.com/8122839.html'},
-    {c:'HOT', d:'2026-08-31T15:16', t:'OpenAI 内部，AI 建立了三代「文明」', s:'作者｜Wildcard 编辑｜靖宇 无数的科幻电影，都曾经尝试设想过，一个无法控制的人工智能失控，会发生什么事。 没有人…（来源：极客公园）', u:'http://www.geekpark.net/news/369610'},
-    {c:'HOT', d:'2026-08-31T15:13', t:'马斯克提出新计划：靠 AI 卫星让地球在未来大约 10 亿年内保持宜居', s:'埃隆 · 马斯克在周末描述了一项旨在让地球在未来大约 10 亿年内保持宜居的计划，而这一计划的起点，是一批能够自主思考的…（来源：IT之家）', u:'https://www.ithome.com/0/996/490.htm'},
-    {c:'HOT', d:'2026-08-31T15:12', t:'人类，越来越难理解 AI', s:'作者｜Techno 之王 编辑｜靖宇 很多使用 AI 的同学，应该都看到过 AI 助手在回答你问题之前，它们的一些思考…（来源：极客公园）', u:'http://www.geekpark.net/news/369609'},
   ];
   const TIMELINE = [
-    ['08-31 16:41','直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅'],
-    ['08-31 16:41','岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍'],
+    ['08-31 16:46','敲钟次日，王兴兴首谈物理AI自进化|王力宏跨界感言"音乐界/科技届炸锅了"'],
+    ['08-31 16:46','全日程速览！共探AI变革科研范式，50位院士齐聚2026科学智能大会'],
+    ['08-31 16:46','直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅'],
+    ['08-31 16:46','岛津GCMS-TQ RX系列重磅发布：飞克级检出限、AI处理提速4倍'],
+    ['08-31 16:45','消息称 OpenAI 购入数万台苹果 Mac mini / Studio，用于训练 AI 智能体操作计算机'],
     ['08-31 16:40','亚马逊 AWS 加码政府 AI 赛道，OpenAI、Meta、Anthropic 等大模型集体登陆 GovCloud'],
-    ['08-31 16:32','首次海外亮相：小米机器人 CyberOne 将现身 IFA 国际消费电子展'],
-    ['08-31 16:16','独家｜字节豆包2.2推迟发布，Coding疯狂补课'],
-    ['08-31 16:16','达芬奇全新手术机器人获批！杀入奥林巴斯腹地'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:279823, u:'https://github.com/obra/superpowers', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:279824, u:'https://github.com/obra/superpowers', new:false},
     {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:244881, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:242272, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:242282, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:208986, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172720, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143514, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135351, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:112790, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101940, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172722, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143516, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135352, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:112792, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:101941, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91014, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
