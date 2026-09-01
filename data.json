@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-01T14:46:56",
+  "updated": "2026-09-01T14:51:45",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T14:46",
+      "d": "2026-09-01T14:51",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-01T14:46",
-      "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
-      "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+      "c": "HOT",
+      "d": "2026-09-01T14:47",
+      "t": "OpenAI 否认窃取苹果商业机密：自己一手造成的还想赖别人",
+      "s": "据路透社报道，OpenAI 当地时间周一否认了苹果关于其窃取商业机密的指控，称这家 iPhone 制造商未能证明任何机密…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/942.htm"
     },
     {
       "c": "MODEL",
@@ -144,12 +144,12 @@
   ],
   "timeline": [
     [
-      "09-01 14:46",
+      "09-01 14:51",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 14:46",
-      "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+      "09-01 14:47",
+      "OpenAI 否认窃取苹果商业机密：自己一手造成的还想赖别人"
     ],
     [
       "09-01 14:44",
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245388,
+      "s": 245389,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243168,
+      "s": 243173,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209191,
+      "s": 209192,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172862,
+      "s": 172861,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135468,
+      "s": 135470,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113115,
+      "s": 113117,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102091,
+      "s": 102090,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
