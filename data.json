@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-01T14:31:51",
+  "updated": "2026-09-01T14:36:45",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T14:31",
+      "d": "2026-09-01T14:36",
       "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
       "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T14:31",
+      "d": "2026-09-01T14:36",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T14:31",
+      "d": "2026-09-01T14:36",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
@@ -81,6 +81,13 @@
     {
       "c": "MODEL",
       "d": "2026-09-01T12:34",
+      "t": "AI 读过一切，却没经历过任何事：Ropedia 发布 HOMIE Gen2，给具身智能补「经验」这一课",
+      "s": "8 月中旬，新加坡的一场公开演讲上，南洋理工大学副教授、Ropedia 首席科学家刘子纬抛出了一个问题：为什么读过整个互…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/ztrF1BywGGvrxQHt.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T12:34",
       "t": "独家｜扩散语言模型杀进端侧：Agent跑快5倍，GPT的“下一代替代者”出现了？",
       "s": "长期以来主要依赖云端大模型的Agent，正在出现另一条技术路线：不再单纯追求更大的模型，而是通过改变语言模型的生成方式…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124156.html"
@@ -133,26 +140,19 @@
       "t": "中央网信办：当前 AI 领域主要面临 5 方面安全风险挑战",
       "s": "据央视新闻报道，在今天（9 月 1 日）举办的 2026 年国家网络安全宣传周新闻发布会上，中央网信办网络安全协调局副局…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/868.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-01T11:48",
-      "t": "2500小时数据免费开放：人形机器人进入“公共基建”时代",
-      "s": "机器人行业正在换一套活法。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124134.html"
     }
   ],
   "timeline": [
     [
-      "09-01 14:31",
+      "09-01 14:36",
       "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
     ],
     [
-      "09-01 14:31",
+      "09-01 14:36",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 14:31",
+      "09-01 14:36",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243151,
+      "s": 243157,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172859,
+      "s": 172858,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135466,
+      "s": 135465,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113110,
+      "s": 113112,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91267,
+      "s": 91269,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
