@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-02T07:36:41",
+  "updated": "2026-09-02T07:41:40",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T07:36",
+      "d": "2026-09-02T07:41",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T07:40",
+      "t": "OpenAI 吸取“AI 越狱”事件教训，首个达“关键”门槛模型 Astra 因能力过强将限制网络安全功能",
+      "s": "OpenAI 于当地时间 9 月 1 日宣布，该公司计划“很快”推出下一代 AI 模型 Astra，但将严格限制该模型网…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/207.htm"
     },
     {
       "c": "MODEL",
@@ -79,25 +86,11 @@
       "u": "https://www.ithome.com/0/997/147.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-01T20:30",
-      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
-      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680543177480192564/"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-01T20:02",
       "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
       "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/482512.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T19:50",
-      "t": "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型",
-      "s": "罗永浩今日于微博发文，就各大新能源车企的 AI 大模型发表个人看法。罗永浩首先发问：“请教一下，目前中国新能源车企，到底…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/133.htm"
     },
     {
       "c": "HOT",
@@ -140,12 +133,23 @@
       "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
       "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T18:04",
+      "t": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
+      "s": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-02 07:36",
+      "09-02 07:41",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-02 07:40",
+      "OpenAI 吸取“AI 越狱”事件教训，首个达“关键”门槛模型 Astra 因能力过强将限制网络安全功能"
     ],
     [
       "09-02 07:20",
@@ -162,10 +166,6 @@
     [
       "09-01 23:44",
       "3899 元！戴森发布 AI 牙刷：有水牙线不够，还要塞个摄像头"
-    ],
-    [
-      "09-01 22:57",
-      "百度 CFO 何海建：AI 业务有望很快带来与搜索业务相当的利润和现金回报"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280441,
+      "s": 280442,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243931,
+      "s": 243932,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113416,
+      "s": 113419,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
