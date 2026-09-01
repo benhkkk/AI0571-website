@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02T02:21:49",
+  "updated": "2026-09-02T02:26:15",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T02:21",
+      "d": "2026-09-02T02:26",
       "t": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展",
       "s": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260821/963101.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T02:21",
+      "d": "2026-09-02T02:26",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -86,6 +86,13 @@
       "u": "https://www.qbitai.com/2026/09/482512.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T20:02",
+      "t": "明日主题前瞻AI正深度融入药物研发全链条，产业迎来高速发展...",
+      "s": "明日主题前瞻AI正深度融入药物研发全链条，产业迎来高速发展...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680536004101308982/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-01T19:50",
       "t": "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型",
@@ -133,22 +140,15 @@
       "t": "Lovart 悄悄大更新，这一次轮到 AI 适应设计师了",
       "s": "Just Design#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677574?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:23",
-      "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
-      "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-02 02:21",
+      "09-02 02:26",
       "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展"
     ],
     [
-      "09-02 02:21",
+      "09-02 02:26",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280358,
+      "s": 280359,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245650,
+      "s": 245653,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243774,
+      "s": 243776,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209345,
+      "s": 209348,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172978,
+      "s": 172979,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143672,
+      "s": 143674,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113306,
+      "s": 113308,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91419,
+      "s": 91420,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
