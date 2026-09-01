@@ -1,26 +1,19 @@
 {
-  "updated": "2026-09-01T09:26:50",
+  "updated": "2026-09-01T09:31:45",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T09:26",
+      "d": "2026-09-01T09:31",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T09:26",
+      "d": "2026-09-01T09:31",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T09:26",
-      "t": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅",
-      "s": "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260831/967846.shtml"
     },
     {
       "c": "MODEL",
@@ -136,24 +129,27 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-31T21:04",
-      "t": "独家对话江口达雄：芯片涨价与AI热夹击，PlayStation如何守主机阵地",
-      "s": "AI内容抢走越来越多的娱乐时间，年轻人是否还愿意在周末坐进客厅、握住手柄？江口达雄的回答并不激进，像带着某种老派的从容…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8123349.html"
+      "d": "2026-08-31T20:49",
+      "t": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
+      "s": "上触觉已经不是一个「yes or no」的问题，而是「when」的问题。 作者丨向 欣 编辑丨高景辉 雷峰网：瑞典科学家…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T20:46",
+      "t": "具身智能规模化落地的解法，鹿明摸索出来了",
+      "s": "鹿明发布NexCore，要把具身落地的全套系统打通。 作者丨向 欣 编辑丨董子博 今年具身智能行业的热度，用「烈火烹油」…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html"
     }
   ],
   "timeline": [
     [
-      "09-01 09:26",
+      "09-01 09:31",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 09:26",
+      "09-01 09:31",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
-    ],
-    [
-      "09-01 09:26",
-      "直指半导体装备、机器人检测等！七部门联合发布2026年揭榜挂帅"
     ],
     [
       "09-01 09:23",
@@ -166,6 +162,10 @@
     [
       "09-01 09:04",
       "英伟达宣布向联发科投资 35 亿美元，在 AI、PC 芯片、汽车三大领域达成合作"
+    ],
+    [
+      "09-01 08:51",
+      "“生产力市场”大博弈"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280080,
+      "s": 280081,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242924,
+      "s": 242927,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209145,
+      "s": 209146,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143587,
+      "s": 143588,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113028,
+      "s": 113029,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
