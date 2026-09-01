@@ -1,26 +1,19 @@
 {
-  "updated": "2026-09-01T18:26:42",
+  "updated": "2026-09-01T18:32:03",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-01T18:26",
-      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
-      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:26",
-      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
-      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
-    },
-    {
       "c": "INDUSTRY",
-      "d": "2026-09-01T18:26",
+      "d": "2026-09-01T18:31",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T18:23",
+      "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
+      "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
       "c": "INDUSTRY",
@@ -108,6 +101,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-01T16:28",
+      "t": "吴恩达开源的OpenWorker，为什么「不 Work」了？",
+      "s": "指望 Agent 替人上班之前，它们还得自己先去上个班（雷峰网） 作者丨李娜 编辑丨岑峰 美国时间 7 月 23 日，人…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/HIGpHGf3ko6B1osw.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-01T16:26",
       "t": "GitHub最热架构图Agent，开发者故事看哭了",
       "s": "美观且支持实时更新的架构图，也能用AI一键生成了！（来源：量子位）",
@@ -144,16 +144,12 @@
   ],
   "timeline": [
     [
-      "09-01 18:26",
-      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
-    ],
-    [
-      "09-01 18:26",
-      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
-    ],
-    [
-      "09-01 18:26",
+      "09-01 18:31",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-01 18:23",
+      "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车"
     ],
     [
       "09-01 18:11",
@@ -166,6 +162,10 @@
     [
       "09-01 18:04",
       "苹果被骂惨的设计，在 AI 时代迎来高光时刻"
+    ],
+    [
+      "09-01 18:00",
+      "香港首个真实开放场景服务机器人落地，智平方 AlphaBot 2 入驻兰桂坊酒吧当“酒保”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280222,
+      "s": 280223,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245480,
+      "s": 245482,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243387,
+      "s": 243393,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209237,
+      "s": 209238,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172905,
+      "s": 172906,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143631,
+      "s": 143630,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113177,
+      "s": 113179,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91326,
+      "s": 91328,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
