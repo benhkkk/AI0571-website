@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T09:41:39",
+  "updated": "2026-09-01T09:46:42",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T09:41",
+      "d": "2026-09-01T09:46",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T09:41",
+      "d": "2026-09-01T09:46",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-01T09:42",
+      "t": "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整",
+      "s": "分析师郭明錤昨日表示，其最新产业调查显示 NVIDIA（英伟达）已重启人工智能推理预填充加速 GPU \"Rubin CP…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/759.htm"
     },
     {
       "c": "HOT",
@@ -114,13 +121,6 @@
       "u": "https://www.tmtpost.com/8123455.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-01T07:07",
-      "t": "苹果披露“惊人证据”：OpenAI 跳槽工程师下载机密电路图还销毁证据",
-      "s": "根据苹果当地时间 8 月 31 日向法院提交的最新文件，公司在对前工程师 Chang Liu 使用过的一台 MacBoo…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/702.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-31T21:38",
       "t": "全能型 covo-agent v0.1.0 发布：流式输出与 TUI 使用同一套渲染引擎",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-01 09:41",
+      "09-01 09:46",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 09:41",
+      "09-01 09:46",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
+    ],
+    [
+      "09-01 09:42",
+      "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整"
     ],
     [
       "09-01 09:37",
@@ -162,10 +166,6 @@
     [
       "09-01 09:11",
       "零售电商行业的AI落地困境"
-    ],
-    [
-      "09-01 09:04",
-      "英伟达宣布向联发科投资 35 亿美元，在 AI、PC 芯片、汽车三大领域达成合作"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280087,
+      "s": 280089,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245262,
+      "s": 245265,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242934,
+      "s": 242936,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209148,
+      "s": 209149,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172820,
+      "s": 172821,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143588,
+      "s": 143589,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135423,
+      "s": 135424,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113032,
+      "s": 113034,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
