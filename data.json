@@ -1,33 +1,19 @@
 {
-  "updated": "2026-09-01T10:26:45",
+  "updated": "2026-09-01T10:31:43",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T10:26",
+      "d": "2026-09-01T10:31",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T10:26",
+      "d": "2026-09-01T10:31",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-01T10:23",
-      "t": "MWA™霸榜全球第一后：无界动力用真实咖啡厅展现物理AI的落地之径",
-      "s": "从“出片”到“出海”，无界动力即将奔赴下一个考场。 作者丨郭 思 编辑丨董子博 没有刻意的社交氛围，一人静坐或几个好友相…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/robot/vHAwtD32AVVe2W9V.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T10:19",
-      "t": "从一颗芯片到万卡集群，燧原的八年算力长跑",
-      "s": "过去几年，AI芯片行业最容易比较的是一张卡。雷峰网 雷峰网峰值算力多少、显存多大、带宽多高，几组参数放在一起，似乎就能迅…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chipdesign/MKHeALfWYSjLwG6X.html"
     },
     {
       "c": "HOT",
@@ -140,24 +126,30 @@
       "t": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
       "s": "划重点：这次不是你挨家敲门，是VC排队来看你。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481928.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T20:49",
+      "t": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
+      "s": "上触觉已经不是一个「yes or no」的问题，而是「when」的问题。 作者丨向 欣 编辑丨高景辉 雷峰网：瑞典科学家…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T20:46",
+      "t": "具身智能规模化落地的解法，鹿明摸索出来了",
+      "s": "鹿明发布NexCore，要把具身落地的全套系统打通。 作者丨向 欣 编辑丨董子博 今年具身智能行业的热度，用「烈火烹油」…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html"
     }
   ],
   "timeline": [
     [
-      "09-01 10:26",
+      "09-01 10:31",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 10:26",
+      "09-01 10:31",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
-    ],
-    [
-      "09-01 10:23",
-      "MWA™霸榜全球第一后：无界动力用真实咖啡厅展现物理AI的落地之径"
-    ],
-    [
-      "09-01 10:19",
-      "从一颗芯片到万卡集群，燧原的八年算力长跑"
     ],
     [
       "09-01 10:10",
@@ -166,6 +158,14 @@
     [
       "09-01 10:06",
       "宇树消防机器人亮相，能背水炮、不怕火烧"
+    ],
+    [
+      "09-01 09:42",
+      "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整"
+    ],
+    [
+      "09-01 09:37",
+      "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280096,
+      "s": 280099,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245282,
+      "s": 245285,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242968,
+      "s": 242969,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209157,
+      "s": 209158,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172827,
+      "s": 172829,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135428,
+      "s": 135427,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113049,
+      "s": 113051,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102058,
+      "s": 102059,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91213,
+      "s": 91216,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
