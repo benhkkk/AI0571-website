@@ -459,7 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-09-01T19:26', t:'AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方', s:'AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260901/968716.shtml'},
+    {c:'INDUSTRY', d:'2026-09-01T19:31', t:'AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方', s:'AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260901/968716.shtml'},
+    {c:'HOT', d:'2026-09-01T19:22', t:'每周一天，关掉 AI 写代码', s:'Carson Gross 决定每周五不写代码。 不是不工作，是不用 AI 辅助写代码。他是 htmx 的创造者，一个以「…（来源：OSCHINA）', u:'https://www.oschina.net/news/502256/no-ai-fridays'},
     {c:'MODEL', d:'2026-09-01T18:56', t:'Omarchy：一个把 AI Agent 写进内核的 Linux，和它引发的争议', s:'知名技术网红 DHH 在 37signals 内部孵化了 Omarchy。一个基于 Arch Linux + Hyprl…（来源：OSCHINA）', u:'https://www.oschina.net/news/502254/dhh-omarchy'},
     {c:'FUNDING', d:'2026-09-01T18:39', t:'全球首款 AI 智能体手机：努比亚 NaviX Ultra 本月上市，已获入网许可证、内置豆包手机助手', s:'努比亚官方今天宣布，全球首款 AI 智能体手机 NaviX Ultra 正式获得入网许可证，9 月即将上市。据IT之家了…（来源：IT之家）', u:'https://www.ithome.com/0/997/105.htm'},
     {c:'MODEL', d:'2026-09-01T18:28', t:'Lovart 悄悄大更新，这一次轮到 AI 适应设计师了', s:'Just Design#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1677574?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-01T16:45', t:'流沙之上：陈冕、景鲲、倪正民和中国 AI 应用创业者的三种选择', s:'2026年夏天，中国AI应用创业公司同时感受到了两股压力。一边，大厂开始陆续推出通用的办公Agent；另一边，一级市场对…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/p3yK0mQAxDeZILcy.html'},
     {c:'MODEL', d:'2026-09-01T16:43', t:'我们拆了 1.1 万个 DeepSeek Harness 插件，发现官方几乎没有建立插件治理机制', s:'距离 DeepSeek Harness 开源已经有一段时间，「Everything is a Plugin」的口号也已经…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/h2dcTqNQlUhVuEXx.html'},
     {c:'MODEL', d:'2026-09-01T16:41', t:'万字长文拆解DeepSeek V4 Pro与Harness：从后训练到「代理自进化」，更大的变化在开源框架里', s:'不管哪个时代，人都会遇到同一道题：无论宏大叙事还是人生决策，面前问题太复杂，资源和时间却不够，必须决定先做哪个、放弃哪个…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/dufRSsU0sr3hCOII.html'},
-    {c:'MODEL', d:'2026-09-01T16:36', t:'我们用 Qwen 3.8-Max 做了一个 AI 大模型宇宙：效果竟然胜过 GPT5.6？', s:'Max长程Agent能力的背后，是精雕细琢的典范，还是算力黑洞的失控？ 作者丨李娜 编辑丨岑峰 我让Qwen 3.8-M…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/hFaRe5oZ7oF0U1XC.html'},
   ];
   const TIMELINE = [
-    ['09-01 19:26','AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方'],
+    ['09-01 19:31','AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方'],
+    ['09-01 19:22','每周一天，关掉 AI 写代码'],
     ['09-01 18:56','Omarchy：一个把 AI Agent 写进内核的 Linux，和它引发的争议'],
     ['09-01 18:39','全球首款 AI 智能体手机：努比亚 NaviX Ultra 本月上市，已获入网许可证、内置豆包手机助手'],
     ['09-01 18:28','Lovart 悄悄大更新，这一次轮到 AI 适应设计师了'],
     ['09-01 18:23','自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车'],
-    ['09-01 18:11','我国牵头制定家用机器人国际标准，涵盖 11 项核心测试'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280242, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:245499, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:243438, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209250, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280245, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:245501, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:243442, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209252, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:172911, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143636, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135519, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113191, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102150, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91333, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113193, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102153, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91335, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
