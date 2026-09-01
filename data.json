@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-01T19:46:43",
+  "updated": "2026-09-01T19:51:50",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T19:46",
+      "d": "2026-09-01T19:51",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T19:50",
+      "t": "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型",
+      "s": "罗永浩今日于微博发文，就各大新能源车企的 AI 大模型发表个人看法。罗永浩首先发问：“请教一下，目前中国新能源车企，到底…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/133.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T19:50",
+      "t": "研究显示：保险理赔员成为美国最反感 AI 的职业群体",
+      "s": "据 WIRED 报道，在求职与职场评价平台 Glassdoor 上，有一类人对人工智能的厌恶程度远超其他群体。“把 AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/131.htm"
     },
     {
       "c": "HOT",
@@ -121,31 +135,25 @@
       "u": "https://www.leiphone.com/category/industrynews/oHJHEFk0qoUC0JDQ.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-01T17:33",
-      "t": "2026 年 8 月“AI 魔改”视频治理成果公布：共清理违规视频近 14000 条、处置违规账号 30 余个",
-      "s": "据“振兴国剧”微信公众号消息，部分重点网络视听平台公布了 2026 年 8 月“AI 魔改”视频专项治理工作的处置情况…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/051.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-01T16:45",
       "t": "流沙之上：陈冕、景鲲、倪正民和中国 AI 应用创业者的三种选择",
       "s": "2026年夏天，中国AI应用创业公司同时感受到了两股压力。一边，大厂开始陆续推出通用的办公Agent；另一边，一级市场对…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/yanxishe/p3yK0mQAxDeZILcy.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T16:43",
-      "t": "我们拆了 1.1 万个 DeepSeek Harness 插件，发现官方几乎没有建立插件治理机制",
-      "s": "距离 DeepSeek Harness 开源已经有一段时间，「Everything is a Plugin」的口号也已经…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/h2dcTqNQlUhVuEXx.html"
     }
   ],
   "timeline": [
     [
-      "09-01 19:46",
+      "09-01 19:51",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-01 19:50",
+      "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型"
+    ],
+    [
+      "09-01 19:50",
+      "研究显示：保险理赔员成为美国最反感 AI 的职业群体"
     ],
     [
       "09-01 19:40",
@@ -158,14 +166,6 @@
     [
       "09-01 18:56",
       "Omarchy：一个把 AI Agent 写进内核的 Linux，和它引发的争议"
-    ],
-    [
-      "09-01 18:39",
-      "全球首款 AI 智能体手机：努比亚 NaviX Ultra 本月上市，已获入网许可证、内置豆包手机助手"
-    ],
-    [
-      "09-01 18:28",
-      "Lovart 悄悄大更新，这一次轮到 AI 适应设计师了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280250,
+      "s": 280251,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245506,
+      "s": 245508,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243461,
+      "s": 243462,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143637,
+      "s": 143638,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135520,
+      "s": 135521,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91337,
+      "s": 91339,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
