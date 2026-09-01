@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-01T18:32:03",
+  "updated": "2026-09-01T18:36:43",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T18:31",
+      "d": "2026-09-01T18:36",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -95,9 +95,30 @@
     {
       "c": "MODEL",
       "d": "2026-09-01T16:34",
+      "t": "阿里开源 Qwen3.8-27B 本地实测：性能很强，但 Agent 适配仍待补课",
+      "s": "从部署到实测：覆盖标准部署、量化部署、Agent场景三大维度。 作者丨吴海明 何宇轩 编辑丨李娜 岑峰 8月14日，阿里…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/LyUNV8iNxl2VuE3X.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:34",
       "t": "GFlow v1.0.0 发布：Go 生态审批工作流引擎，中国式审批、AI 先审、批完自动办",
       "s": "GFlow Engine 是一个基于 RuleGo 的轻量级、可嵌入审批工作流引擎，今天正式发布 v1.0.0 并以 A…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502248"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:31",
+      "t": "给 AI 一张陶罐碎片图，它能还原破裂过程吗？Minimax H3 vs Seedance 2.0 Fast 实测",
+      "s": "H3 不是物理仿真最强的模型，但它是开放权重视频模型的一道分水岭。 作者丨吴海明 编辑丨李娜 岑峰 MiniMax 选择…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/academic/GV7BIMpcbKcba6Qe.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:29",
+      "t": "DeepSeek Harness 的插件体验短板：安全权限未生效，好插件用户找不到",
+      "s": "最严安全档形同虚设，装插件就能读到你的 API Key。 作者丨Rhea 编辑丨李娜 岑峰 距离 DeepSeek Ha…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/nTnT9RZW5p5Q23hG.html"
     },
     {
       "c": "MODEL",
@@ -119,32 +140,11 @@
       "t": "LG gram Book AI 2026 笔记本海外发布：gram 系列首款 14 英寸机型，英特尔 WCL 平台",
       "s": "LG gram Book AI 2026（14U40V）笔记本电脑今天在韩国发布，新品定位大众市场，是 gram 系列首…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/022.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T16:24",
-      "t": "急急急用电！马斯克开造燃气轮机叶片",
-      "s": "SpaceX正在德克萨斯州筹备燃气轮机叶片铸造工厂（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482451.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T16:15",
-      "t": "A社化身A割！Claude官宣永久提额25%，结果到手反而少17%",
-      "s": "主打一个明升暗降，理直气壮（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482406.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T16:13",
-      "t": "AI液冷服务器急交付，卡点或在中国制造的一条焊缝里",
-      "s": "面对更高功率、更复杂系统和更严苛的长期可靠性要求，中国制造能否进一步把分散在材料、加工、焊接、检测等环节的能力，沉淀成一…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124529.html"
     }
   ],
   "timeline": [
     [
-      "09-01 18:31",
+      "09-01 18:36",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280223,
+      "s": 280228,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245482,
+      "s": 245483,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243393,
+      "s": 243397,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209238,
+      "s": 209240,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143630,
+      "s": 143631,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135507,
+      "s": 135509,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113179,
+      "s": 113182,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102130,
+      "s": 102132,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
