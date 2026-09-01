@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T12:31:46",
+  "updated": "2026-09-01T12:36:57",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T12:31",
+      "d": "2026-09-01T12:36",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T12:31",
+      "d": "2026-09-01T12:36",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T12:31",
+      "t": "1.5TB 压到 214GB：腾讯混元 Hy4 preview 轻量版发布开源，异构设备可联合推理",
+      "s": "腾讯混元团队今日宣布推出 Hy4 preview 轻量版，将 Hy4 preview 的模型权重从接近 1.5TB 压缩…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/880.htm"
     },
     {
       "c": "HOT",
@@ -133,23 +140,20 @@
       "t": "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名",
       "s": "湖南卫视今日宣布，神话题材季播剧《后西游记》第一季“花果山篇”于 8 月 31 日下午 6 点起在湖南卫视、芒果 TV …（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/757.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T09:23",
-      "t": "范式智能出资 10 亿元采购华为昇腾 950，用于 AI 大模型落地",
-      "s": "9 月 1 日上午消息，新浪科技从知情人士处独家获悉，港股上市公司范式智能近期与华为达成了一项大规模算力订单合作：范式将…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/745.htm"
     }
   ],
   "timeline": [
     [
-      "09-01 12:31",
+      "09-01 12:36",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 12:31",
+      "09-01 12:36",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+    ],
+    [
+      "09-01 12:31",
+      "1.5TB 压到 214GB：腾讯混元 Hy4 preview 轻量版发布开源，异构设备可联合推理"
     ],
     [
       "09-01 12:21",
@@ -162,10 +166,6 @@
     [
       "09-01 11:49",
       "中央网信办：当前 AI 领域主要面临 5 方面安全风险挑战"
-    ],
-    [
-      "09-01 11:48",
-      "2500小时数据免费开放：人形机器人进入“公共基建”时代"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245350,
+      "s": 245351,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243075,
+      "s": 243077,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172850,
+      "s": 172851,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135443,
+      "s": 135444,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
