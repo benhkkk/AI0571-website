@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-01T21:11:43",
+  "updated": "2026-09-01T21:16:49",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T21:11",
+      "d": "2026-09-01T21:16",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T21:14",
+      "t": "安全公司曝光黑客组织 Aurora 内部信息：利用 Cursor AI 制定攻击计划、使用 Zig 语言开发勒索软件",
+      "s": "安全公司 CloudSEK 发布报告，披露了黑客组织 Aurora（Aur0ra）近期攻击活动及内部细节。IT之家参考通…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/155.htm"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "升级后的DeepSeek，为何总爱深思熟虑？",
       "s": "AI需要思考多久？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124043.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-01T17:52",
-      "t": "IFA 2026前瞻：机器人走秀、AI家电乱斗，中国品牌决战欧洲",
-      "s": "从家电到机器人，到IFA探寻AI落地浪潮的下一个爆发点。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124658.html"
     }
   ],
   "timeline": [
     [
-      "09-01 21:11",
+      "09-01 21:16",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-01 21:14",
+      "安全公司曝光黑客组织 Aurora 内部信息：利用 Cursor AI 制定攻击计划、使用 Zig 语言开发勒索软件"
     ],
     [
       "09-01 20:48",
@@ -162,10 +166,6 @@
     [
       "09-01 20:02",
       "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径"
-    ],
-    [
-      "09-01 19:50",
-      "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245535,
+      "s": 245540,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243534,
+      "s": 243538,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209273,
+      "s": 209274,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172925,
+      "s": 172926,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143642,
+      "s": 143643,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135534,
+      "s": 135537,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113215,
+      "s": 113214,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91357,
+      "s": 91358,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
