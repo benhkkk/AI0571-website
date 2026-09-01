@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-01T17:36:42",
+  "updated": "2026-09-01T17:41:46",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T17:36",
+      "d": "2026-09-01T17:41",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T17:39",
+      "t": "宇树科技员工爆料公司管理细节：百元报销都需要 CEO 王兴兴批，小到螺丝钉长度都亲自过问",
+      "s": "据《财经》杂志今天报道，人形机器人企业宇树科技的内部管理模式日前曝光。有员工表示，一个超过 100 元的报销都需要 CE…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/063.htm"
     },
     {
       "c": "HOT",
@@ -94,13 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T15:11",
-      "t": "我国专家牵头制定，全球首个腿式机器人国际标准正式发布",
-      "s": "据央视新闻援引国家标准委，由我国专家牵头制定的全球首个腿式机器人国际标准《机器人 —— 服务机器人性能规范及其试验方法第…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/961.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-01T14:44",
       "t": "Jobber 的中国空位：当 Agent 遇上三人疏通队，社区 SaaS 的千亿缝隙",
       "s": "巨型平台将标准化履约做到极致，却触到了能力边界。大量从二产挤出的劳动力，正在社区内部形成\"三人协作单元\"。当O2O证伪…（来源：钛媒体）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-01 17:36",
+      "09-01 17:41",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-01 17:39",
+      "宇树科技员工爆料公司管理细节：百元报销都需要 CEO 王兴兴批，小到螺丝钉长度都亲自过问"
     ],
     [
       "09-01 17:33",
@@ -162,10 +166,6 @@
     [
       "09-01 16:07",
       "英伟达 GPU 帧插值支持并入 FFmpeg，用户可使用帧生成提高视频帧率"
-    ],
-    [
-      "09-01 15:56",
-      "云上AI应用故障诊断，上海开源大赛ZSvirt命题公布"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245466,
+      "s": 245468,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243340,
+      "s": 243342,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209227,
+      "s": 209228,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172893,
+      "s": 172894,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113162,
+      "s": 113166,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102120,
+      "s": 102121,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
