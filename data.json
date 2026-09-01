@@ -1,9 +1,16 @@
 {
-  "updated": "2026-09-01T18:41:48",
+  "updated": "2026-09-01T18:46:46",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T18:41",
+      "d": "2026-09-01T18:46",
+      "t": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术",
+      "s": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250109/763586.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-01T18:46",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -108,6 +115,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-01T16:41",
+      "t": "万字长文拆解DeepSeek V4 Pro与Harness：从后训练到「代理自进化」，更大的变化在开源框架里",
+      "s": "不管哪个时代，人都会遇到同一道题：无论宏大叙事还是人生决策，面前问题太复杂，资源和时间却不够，必须决定先做哪个、放弃哪个…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/dufRSsU0sr3hCOII.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-01T16:36",
       "t": "我们用 Qwen 3.8-Max 做了一个 AI 大模型宇宙：效果竟然胜过 GPT5.6？",
       "s": "Max长程Agent能力的背后，是精雕细琢的典范，还是算力黑洞的失控？ 作者丨李娜 编辑丨岑峰 我让Qwen 3.8-M…（来源：雷锋网）",
@@ -126,25 +140,15 @@
       "t": "GFlow v1.0.0 发布：Go 生态审批工作流引擎，中国式审批、AI 先审、批完自动办",
       "s": "GFlow Engine 是一个基于 RuleGo 的轻量级、可嵌入审批工作流引擎，今天正式发布 v1.0.0 并以 A…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502248"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T16:31",
-      "t": "给 AI 一张陶罐碎片图，它能还原破裂过程吗？Minimax H3 vs Seedance 2.0 Fast 实测",
-      "s": "H3 不是物理仿真最强的模型，但它是开放权重视频模型的一道分水岭。 作者丨吴海明 编辑丨李娜 岑峰 MiniMax 选择…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/academic/GV7BIMpcbKcba6Qe.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T16:29",
-      "t": "DeepSeek Harness 的插件体验短板：安全权限未生效，好插件用户找不到",
-      "s": "最严安全档形同虚设，装插件就能读到你的 API Key。 作者丨Rhea 编辑丨李娜 岑峰 距离 DeepSeek Ha…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/nTnT9RZW5p5Q23hG.html"
     }
   ],
   "timeline": [
     [
-      "09-01 18:41",
+      "09-01 18:46",
+      "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术"
+    ],
+    [
+      "09-01 18:46",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-01 18:11",
       "我国牵头制定家用机器人国际标准，涵盖 11 项核心测试"
-    ],
-    [
-      "09-01 18:04",
-      "戴森推出内置摄像头的智能电动牙刷 CameraJet，AI 识别牙缝自动喷射漱口水"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245487,
+      "s": 245489,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243400,
+      "s": 243407,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135510,
+      "s": 135512,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113184,
+      "s": 113186,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102134,
+      "s": 102136,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
