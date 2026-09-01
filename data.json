@@ -1,16 +1,23 @@
 {
-  "updated": "2026-09-01T10:51:41",
+  "updated": "2026-09-01T10:56:43",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-01T10:56",
+      "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
+      "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
+    },
+    {
       "c": "MODEL",
-      "d": "2026-09-01T10:51",
+      "d": "2026-09-01T10:56",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T10:51",
+      "d": "2026-09-01T10:56",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
@@ -114,13 +121,6 @@
       "u": "https://www.ithome.com/0/996/711.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-01T06:17",
-      "t": "AI制药半年报业绩大增，能否成为行业主流?",
-      "s": "AI制药半年报业绩大增，能否成为行业主流?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680323301771723298/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-31T21:38",
       "t": "全能型 covo-agent v0.1.0 发布：流式输出与 TUI 使用同一套渲染引擎",
@@ -144,11 +144,15 @@
   ],
   "timeline": [
     [
-      "09-01 10:51",
+      "09-01 10:56",
+      "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
+    ],
+    [
+      "09-01 10:56",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 10:51",
+      "09-01 10:56",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-01 09:42",
       "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整"
-    ],
-    [
-      "09-01 09:37",
-      "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280105,
+      "s": 280108,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245294,
+      "s": 245297,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242991,
+      "s": 242999,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209161,
+      "s": 209160,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172830,
+      "s": 172831,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135430,
+      "s": 135431,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113057,
+      "s": 113058,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
