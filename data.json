@@ -1,16 +1,9 @@
 {
-  "updated": "2026-09-01T20:41:49",
+  "updated": "2026-09-01T20:46:48",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-09-01T20:41",
-      "t": "#当我问DeepSeek",
-      "s": "#当我问DeepSeek（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-639.html"
-    },
-    {
       "c": "INDUSTRY",
-      "d": "2026-09-01T20:41",
+      "d": "2026-09-01T20:46",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -21,6 +14,20 @@
       "t": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
       "s": "据路透社报道，美国中部大片地区的数据中心申请的用电量，大致相当于为全国每个家庭供电所需的电量，但其中相当一部分需求可能只…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/147.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T20:30",
+      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
+      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680543177480192564/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T20:02",
+      "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
+      "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/482512.html"
     },
     {
       "c": "MODEL",
@@ -133,27 +140,24 @@
       "t": "6家上市机器人公司，冰火两重天",
       "s": "2026年中报显示，机器人行业已明显分化。极智嘉、优必选、宇树科技营收超10亿领跑，但盈利差异悬殊——宇树盈利2.74亿…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123956.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-01T17:39",
-      "t": "“薄利多销”不性感，机器人故事能拯救零跑估值吗？",
-      "s": "只有销量还不够。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124477.html"
     }
   ],
   "timeline": [
     [
-      "09-01 20:41",
-      "#当我问DeepSeek"
-    ],
-    [
-      "09-01 20:41",
+      "09-01 20:46",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
       "09-01 20:40",
       "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治"
+    ],
+    [
+      "09-01 20:30",
+      "上半年AI制药人才需求高速增长，职位数同比增长84%"
+    ],
+    [
+      "09-01 20:02",
+      "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径"
     ],
     [
       "09-01 19:50",
@@ -162,10 +166,6 @@
     [
       "09-01 19:50",
       "研究显示：保险理赔员成为美国最反感 AI 的职业群体"
-    ],
-    [
-      "09-01 19:40",
-      "3899 元戴森旗下内置摄像头的智能电动牙刷 CameraJet 国行开启预约：AI 识别牙缝自动喷射漱口水"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280265,
+      "s": 280267,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243514,
+      "s": 243519,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135528,
+      "s": 135529,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113208,
+      "s": 113210,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102163,
+      "s": 102164,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91350,
+      "s": 91351,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
