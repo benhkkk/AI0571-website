@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-01T15:26:52",
+  "updated": "2026-09-01T15:31:50",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T15:26",
+      "d": "2026-09-01T15:31",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T15:30",
+      "t": "美国五角大楼部署定制版 ChatGPT 和 Grok AI 助手",
+      "s": "五角大楼本周开始将定制版 ChatGPT 和 Grok 人工智能助手加入其内网，让数百万军人和文职人员能够使用 AI 工…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/972.htm"
     },
     {
       "c": "MODEL",
@@ -122,13 +129,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T13:28",
-      "t": "国产智能化工大模型 3.0 Pro 发布，中国科学院大连化物所、科大讯飞、阿里云等研发",
-      "s": "由中国科学院大连化学物理研究所（以下简称“大连化物所”）联合科大讯飞股份有限公司（以下简称“科大讯飞”）、阿里云计算有限…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/891.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-01T13:12",
       "t": "自进化WAM来了！清华AIR联手域变换提出具身In-Context Causal Learning",
       "s": "参数冻结，能力暴涨（来源：量子位）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-01 15:26",
+      "09-01 15:31",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
+    ],
+    [
+      "09-01 15:30",
+      "美国五角大楼部署定制版 ChatGPT 和 Grok AI 助手"
     ],
     [
       "09-01 15:17",
@@ -162,10 +166,6 @@
     [
       "09-01 14:57",
       "韩国公布史上最大规模财政支出计划：2027 年预算达 821 万亿韩元，押注 AI 与芯片产业"
-    ],
-    [
-      "09-01 14:56",
-      "比亚迪新一代 4D 毫米波雷达芯片量产：可覆盖 L2-L4 级智能驾驶应用"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280165,
+      "s": 280168,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245411,
+      "s": 245413,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243217,
+      "s": 243222,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209198,
+      "s": 209199,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172871,
+      "s": 172870,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135476,
+      "s": 135480,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113124,
+      "s": 113126,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91283,
+      "s": 91284,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
