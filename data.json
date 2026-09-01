@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-01T12:46:38",
+  "updated": "2026-09-01T12:51:48",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T12:46",
+      "d": "2026-09-01T12:51",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T12:46",
+      "d": "2026-09-01T12:51",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
@@ -114,6 +114,13 @@
       "u": "https://www.tmtpost.com/8123517.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-01T10:49",
+      "t": "卖B70显卡，只是英特尔本地AIGC生意的开始",
+      "s": "一张显卡，开始被越来越多创作者当成生产资料重新算账。 过去，要把AI视频真正搬到本地，首先卡在模型。效果更好的视频模型大…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/KkkOnq0B7sxuvkyo.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-09-01T10:27",
       "t": "独家丨地瓜机器人扩招NPU研发团队，或将强化下一代芯片布局",
@@ -133,22 +140,15 @@
       "t": "从一颗芯片到万卡集群，燧原的八年算力长跑",
       "s": "过去几年，AI芯片行业最容易比较的是一张卡。雷峰网 雷峰网峰值算力多少、显存多大、带宽多高，几组参数放在一起，似乎就能迅…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/chipdesign/MKHeALfWYSjLwG6X.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T10:10",
-      "t": "岚图梦想家 9 定档 9 月 5 日预售：基于全域 L3 级自动驾驶架构打造，全球首款升降立标 MPV",
-      "s": "岚图汽车官方今日宣布，岚图梦想家 9 定档 9 月 5 日 10:00 预售启幕。据岚图汽车最新预热，岚图梦想家 9 将…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/773.htm"
     }
   ],
   "timeline": [
     [
-      "09-01 12:46",
+      "09-01 12:51",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 12:46",
+      "09-01 12:51",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245351,
+      "s": 245353,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243086,
+      "s": 243087,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135444,
+      "s": 135445,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102074,
+      "s": 102075,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91246,
+      "s": 91248,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
