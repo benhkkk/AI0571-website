@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T11:17:04",
+  "updated": "2026-09-01T11:21:48",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T11:17",
+      "d": "2026-09-01T11:21",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T11:17",
+      "d": "2026-09-01T11:21",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T11:20",
+      "t": "端侧唯一百万 Token 上下文模型开源：科大讯飞词元星火 X2.5-4B&1.7B 正式发布",
+      "s": "科大讯飞旗下词元星火今日宣布推出并开源星火 X2.5-4B 和星火 X2.5-1.7B 两款端侧通用大模型。据介绍，两款…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/855.htm"
     },
     {
       "c": "MODEL",
@@ -128,13 +135,6 @@
       "u": "https://www.ifanr.com/1677753?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-09-01T08:05",
-      "t": "英伟达“二房东”下场转租：Anthropic 与 Lambda 签署 350 亿美元云计算协议",
-      "s": "据《华尔街日报》今日报道，Anthropic 已与英伟达支持的云服务商 Lambda 签署了一份价值 350 亿美元（I…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/714.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-31T21:38",
       "t": "全能型 covo-agent v0.1.0 发布：流式输出与 TUI 使用同一套渲染引擎",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-01 11:17",
+      "09-01 11:21",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 11:17",
+      "09-01 11:21",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+    ],
+    [
+      "09-01 11:20",
+      "端侧唯一百万 Token 上下文模型开源：科大讯飞词元星火 X2.5-4B&1.7B 正式发布"
     ],
     [
       "09-01 11:09",
@@ -162,10 +166,6 @@
     [
       "09-01 10:59",
       "AI办公的终局，真的是“AI办公”吗？"
-    ],
-    [
-      "09-01 10:59",
-      "从\"用了多少AI\"到\"Token效\"：企业AI投入正在换尺子"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280110,
+      "s": 280111,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245306,
+      "s": 245311,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243013,
+      "s": 243015,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172835,
+      "s": 172838,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143592,
+      "s": 143593,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135431,
+      "s": 135432,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91224,
+      "s": 91228,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
