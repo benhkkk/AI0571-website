@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-02T06:26:39",
+  "updated": "2026-09-02T06:31:43",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T06:26",
+      "d": "2026-09-02T06:31",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T06:28",
+      "t": "Anthropic 发布 Claude Fable 5.1 和 Mythos 5.1：性能超越前代，缓存读取费用下调 75%",
+      "s": "当地时间 9 月 1 日，Anthropic 宣布推出 Claude Fable 5.1 和 Claude Mythos…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/193.htm"
     },
     {
       "c": "HOT",
@@ -80,13 +87,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-01T19:50",
-      "t": "研究显示：保险理赔员成为美国最反感 AI 的职业群体",
-      "s": "据 WIRED 报道，在求职与职场评价平台 Glassdoor 上，有一类人对人工智能的厌恶程度远超其他群体。“把 AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/131.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-01T19:22",
       "t": "每周一天，关掉 AI 写代码",
       "s": "Carson Gross 决定每周五不写代码。 不是不工作，是不用 AI 辅助写代码。他是 htmx 的创造者，一个以「…（来源：OSCHINA）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-02 06:26",
+      "09-02 06:31",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-02 06:28",
+      "Anthropic 发布 Claude Fable 5.1 和 Mythos 5.1：性能超越前代，缓存读取费用下调 75%"
     ],
     [
       "09-01 23:48",
@@ -162,10 +166,6 @@
     [
       "09-01 22:11",
       "消息称三星已锁定约 70% 存储芯片产能至 2031 年，HBM 长协价仅为现货五分之一"
-    ],
-    [
-      "09-01 22:07",
-      "从 Token 到扭矩，AI 落地东盟的四道「硬」关｜SEA Frontline"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280416,
+      "s": 280419,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209375,
+      "s": 209376,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173010,
+      "s": 173012,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135630,
+      "s": 135631,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113387,
+      "s": 113388,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91456,
+      "s": 91457,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
