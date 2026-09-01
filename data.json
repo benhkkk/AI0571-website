@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-01T16:41:44",
+  "updated": "2026-09-01T16:46:45",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:46",
+      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
+      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-01T16:25",
@@ -133,16 +140,13 @@
       "t": "Violoop完成亿元级融资：让AI在真实工作中学会一个人",
       "s": "近日，Violoop正式完成亿元级天使轮及Pre-A轮融资。联想创投、中金保时捷、蓝驰创投、元生资本、启赋资本和Zero…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/7PXLDeu5ZmrxynHT.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T13:53",
-      "t": "智能知识管理系统 WCP 5.0.3 发布，让 AI 走进编辑器，选中文字就能用",
-      "s": "在编辑器里选中任意文字，浮出一个\"AI\"按钮，点一下，AI 帮你润色、续写、翻译、总结、简化——所见即所得，一键替换或插…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502238"
     }
   ],
   "timeline": [
+    [
+      "09-01 16:46",
+      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
+    ],
     [
       "09-01 16:25",
       "LG gram Book AI 2026 笔记本海外发布：gram 系列首款 14 英寸机型，英特尔 WCL 平台"
@@ -162,10 +166,6 @@
     [
       "09-01 15:46",
       "谷歌发布 TimesFM-3，3.3 亿参数即可进行零样本多变量时间序列预测"
-    ],
-    [
-      "09-01 15:45",
-      "微软 XBOX CEO 夏尔马谈 AI 导致主机涨价：GPU 能在游戏以外领域应用，这是好事啊"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280193,
+      "s": 280196,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245440,
+      "s": 245441,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243287,
+      "s": 243293,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143625,
+      "s": 143626,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135494,
+      "s": 135496,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102113,
+      "s": 102114,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91302,
+      "s": 91303,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
