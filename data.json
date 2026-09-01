@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T14:16:55",
+  "updated": "2026-09-01T14:21:45",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T14:16",
+      "d": "2026-09-01T14:21",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T14:16",
+      "d": "2026-09-01T14:21",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T14:18",
+      "t": "17 个月涨幅 1370.59%：集邦称 8 月全球 DDR4 内存合约价创历史新高",
+      "s": "首尔经济日报今天（9 月 1 日）发布博文，报道称受人工智能 (AI) 基础设施需求增长的推动，2026 年 8 月全球…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/920.htm"
     },
     {
       "c": "MODEL",
@@ -133,23 +140,20 @@
       "t": "399 美元的鸭子机器人开源了，今年最让人想立刻掏钱的硬件产品",
       "s": "Hugging Face 和法国机器人公司 Pollen Robotics 上周发布的 Microduck，是今年最让人…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502235/hugging-face-pollen-robotics-microduck"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T11:07",
-      "t": "微软高管示警：低质量 AI 冲击日常办公，形成恶意循环稀释信息价值",
-      "s": "科技媒体 Windows Central 今天（9 月 1 日）发布博文，报道称微软执行副总裁、Office 与 Lin…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/822.htm"
     }
   ],
   "timeline": [
     [
-      "09-01 14:16",
+      "09-01 14:21",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 14:16",
+      "09-01 14:21",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+    ],
+    [
+      "09-01 14:18",
+      "17 个月涨幅 1370.59%：集邦称 8 月全球 DDR4 内存合约价创历史新高"
     ],
     [
       "09-01 13:53",
@@ -162,10 +166,6 @@
     [
       "09-01 13:28",
       "国产智能化工大模型 3.0 Pro 发布，中国科学院大连化物所、科大讯飞、阿里云等研发"
-    ],
-    [
-      "09-01 13:12",
-      "自进化WAM来了！清华AIR联手域变换提出具身In-Context Causal Learning"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280145,
+      "s": 280146,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245381,
+      "s": 245383,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243142,
+      "s": 243143,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209182,
+      "s": 209184,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135459,
+      "s": 135463,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113098,
+      "s": 113099,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102087,
+      "s": 102088,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
