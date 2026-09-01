@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-02T07:51:43",
+  "updated": "2026-09-02T07:56:44",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T07:51",
+      "d": "2026-09-02T07:56",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T07:41",
+      "t": "一个人，十五年，他想重写医疗AI的底层逻辑",
+      "s": "把生命数学形式化，然后通过AI来解决这个数学问题（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8125079.html"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
       "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:04",
-      "t": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
-      "s": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-02 07:51",
+      "09-02 07:56",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-02 07:41",
+      "一个人，十五年，他想重写医疗AI的底层逻辑"
     ],
     [
       "09-02 07:40",
@@ -162,10 +166,6 @@
     [
       "09-01 23:48",
       "马斯克：预计 AI 将令全球经济规模增加约 20%-30%"
-    ],
-    [
-      "09-01 23:44",
-      "3899 元！戴森发布 AI 牙刷：有水牙线不够，还要塞个摄像头"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245749,
+      "s": 245751,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243933,
+      "s": 243934,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143700,
+      "s": 143701,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135633,
+      "s": 135634,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113422,
+      "s": 113429,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102263,
+      "s": 102264,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91461,
+      "s": 91462,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
