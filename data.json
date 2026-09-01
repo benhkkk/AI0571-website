@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T13:51:46",
+  "updated": "2026-09-01T13:56:52",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T13:51",
+      "d": "2026-09-01T13:56",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T13:51",
+      "d": "2026-09-01T13:56",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-01T13:41",
+      "t": "机器人的“通用”迷局，场景进入才是头道门槛",
+      "s": "具身赛道究竟卡在了哪里？答案其实很朴素——问题往往不在于机器人的“大脑”够不够聪明，而是行业从起点就模糊了一个最根本的命…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124272.html"
     },
     {
       "c": "MODEL",
@@ -133,23 +140,20 @@
       "t": "从\"用了多少AI\"到\"Token效\"：企业AI投入正在换尺子",
       "s": "企业AI化的人效新口径。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124014.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T10:56",
-      "t": "李飞飞、吴佳俊再联手，打破世界模型和机器人动作的「巴别塔」",
-      "s": "视觉轨迹充当“同声传译”，让世界模型和机器人动作真正“同频对话”。 作者丨幸丽娟 编辑丨岑 峰 日前，一篇叫做《TrAc…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/academic/LF4mbUTko5bRYDky.html"
     }
   ],
   "timeline": [
     [
-      "09-01 13:51",
+      "09-01 13:56",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 13:51",
+      "09-01 13:56",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+    ],
+    [
+      "09-01 13:41",
+      "机器人的“通用”迷局，场景进入才是头道门槛"
     ],
     [
       "09-01 13:28",
@@ -162,10 +166,6 @@
     [
       "09-01 13:06",
       "网友称抖音推荐内容“误入中老年频道”，客服回应在加急排查"
-    ],
-    [
-      "09-01 12:42",
-      "男子听信 AI 抄近道下山被困深山，事后 AI 承认“要是直接跟导航走就不会遭那么大罪了”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280131,
+      "s": 280133,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245367,
+      "s": 245372,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243129,
+      "s": 243130,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209179,
+      "s": 209180,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172855,
+      "s": 172856,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113087,
+      "s": 113089,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
