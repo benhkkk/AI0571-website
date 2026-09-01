@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-01T16:26:55",
+  "updated": "2026-09-01T16:31:43",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:29",
+      "t": "DeepSeek Harness 的插件体验短板：安全权限未生效，好插件用户找不到",
+      "s": "最严安全档形同虚设，装插件就能读到你的 API Key。 作者丨Rhea 编辑丨李娜 岑峰 距离 DeepSeek Ha…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/nTnT9RZW5p5Q23hG.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:28",
+      "t": "吴恩达开源的OpenWorker，为什么「不 Work」了？",
+      "s": "指望 Agent 替人上班之前，它们还得自己先去上个班（雷峰网） 作者丨李娜 编辑丨岑峰 美国时间 7 月 23 日，人…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/HIGpHGf3ko6B1osw.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-01T16:25",
@@ -126,23 +140,17 @@
       "t": "具身江湖志（四）：它们，把机器人的大脑做实",
       "s": "如果人形机器人不想成为下一个被过度消费的产业概念，就必须有大脑。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124306.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-01T14:02",
-      "t": "Violoop完成亿元级融资：让AI在真实工作中学会一个人",
-      "s": "近日，Violoop正式完成亿元级天使轮及Pre-A轮融资。联想创投、中金保时捷、蓝驰创投、元生资本、启赋资本和Zero…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/7PXLDeu5ZmrxynHT.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T13:53",
-      "t": "智能知识管理系统 WCP 5.0.3 发布，让 AI 走进编辑器，选中文字就能用",
-      "s": "在编辑器里选中任意文字，浮出一个\"AI\"按钮，点一下，AI 帮你润色、续写、翻译、总结、简化——所见即所得，一键替换或插…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502238"
     }
   ],
   "timeline": [
+    [
+      "09-01 16:29",
+      "DeepSeek Harness 的插件体验短板：安全权限未生效，好插件用户找不到"
+    ],
+    [
+      "09-01 16:28",
+      "吴恩达开源的OpenWorker，为什么「不 Work」了？"
+    ],
     [
       "09-01 16:25",
       "LG gram Book AI 2026 笔记本海外发布：gram 系列首款 14 英寸机型，英特尔 WCL 平台"
@@ -158,14 +166,6 @@
     [
       "09-01 15:56",
       "云上AI应用故障诊断，上海开源大赛ZSvirt命题公布"
-    ],
-    [
-      "09-01 15:46",
-      "谷歌发布 TimesFM-3，3.3 亿参数即可进行零样本多变量时间序列预测"
-    ],
-    [
-      "09-01 15:45",
-      "微软 XBOX CEO 夏尔马谈 AI 导致主机涨价：GPU 能在游戏以外领域应用，这是好事啊"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280193,
+      "s": 280192,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245434,
+      "s": 245437,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243273,
+      "s": 243278,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172878,
+      "s": 172880,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143625,
+      "s": 143624,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135490,
+      "s": 135491,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113142,
+      "s": 113146,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91299,
+      "s": 91301,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
