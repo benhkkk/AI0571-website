@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T12:36:57",
+  "updated": "2026-09-01T12:41:40",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T12:36",
+      "d": "2026-09-01T12:41",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T12:36",
+      "d": "2026-09-01T12:41",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T12:34",
+      "t": "独家｜扩散语言模型杀进端侧：Agent跑快5倍，GPT的“下一代替代者”出现了？",
+      "s": "长期以来主要依赖云端大模型的Agent，正在出现另一条技术路线：不再单纯追求更大的模型，而是通过改变语言模型的生成方式…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124156.html"
     },
     {
       "c": "MODEL",
@@ -133,23 +140,20 @@
       "t": "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整",
       "s": "分析师郭明錤昨日表示，其最新产业调查显示 NVIDIA（英伟达）已重启人工智能推理预填充加速 GPU \"Rubin CP…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/759.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T09:37",
-      "t": "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名",
-      "s": "湖南卫视今日宣布，神话题材季播剧《后西游记》第一季“花果山篇”于 8 月 31 日下午 6 点起在湖南卫视、芒果 TV …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/757.htm"
     }
   ],
   "timeline": [
     [
-      "09-01 12:36",
+      "09-01 12:41",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 12:36",
+      "09-01 12:41",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+    ],
+    [
+      "09-01 12:34",
+      "独家｜扩散语言模型杀进端侧：Agent跑快5倍，GPT的“下一代替代者”出现了？"
     ],
     [
       "09-01 12:31",
@@ -162,10 +166,6 @@
     [
       "09-01 11:58",
       "存储成了AI落地最大变量，企业如何打破阻碍？丨ToB产业观察"
-    ],
-    [
-      "09-01 11:49",
-      "中央网信办：当前 AI 领域主要面临 5 方面安全风险挑战"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280122,
+      "s": 280123,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243077,
+      "s": 243082,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209171,
+      "s": 209172,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172851,
+      "s": 172853,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143599,
+      "s": 143600,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113070,
+      "s": 113072,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91243,
+      "s": 91245,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
