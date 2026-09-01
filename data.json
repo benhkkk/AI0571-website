@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-01T23:31:55",
+  "updated": "2026-09-01T23:36:55",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-01T23:31",
+      "d": "2026-09-01T23:36",
       "t": "#机器人赛道26年数据盘点",
       "s": "#机器人赛道26年数据盘点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-836.html"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T23:31",
+      "d": "2026-09-01T23:36",
       "t": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”",
       "s": "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260624/925608.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-01T23:31",
+      "d": "2026-09-01T23:36",
       "t": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点",
       "s": "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260622/923670.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T23:31",
+      "d": "2026-09-01T23:36",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -70,6 +70,13 @@
       "t": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
       "s": "据路透社报道，美国中部大片地区的数据中心申请的用电量，大致相当于为全国每个家庭供电所需的电量，但其中相当一部分需求可能只…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/147.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T20:30",
+      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
+      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680543177480192564/"
     },
     {
       "c": "HOT",
@@ -133,30 +140,23 @@
       "t": "Lovart 悄悄大更新，这一次轮到 AI 适应设计师了",
       "s": "Just Design#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677574?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:23",
-      "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
-      "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-01 23:31",
+      "09-01 23:36",
       "#机器人赛道26年数据盘点"
     ],
     [
-      "09-01 23:31",
+      "09-01 23:36",
       "2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”"
     ],
     [
-      "09-01 23:31",
+      "09-01 23:36",
       "狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点"
     ],
     [
-      "09-01 23:31",
+      "09-01 23:36",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280328,
+      "s": 280330,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243679,
+      "s": 243684,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209311,
+      "s": 209314,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172955,
+      "s": 172956,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135580,
+      "s": 135581,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113251,
+      "s": 113252,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102197,
+      "s": 102198,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91385,
+      "s": 91386,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
