@@ -1,23 +1,16 @@
 {
-  "updated": "2026-09-01T10:11:44",
+  "updated": "2026-09-01T10:16:44",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-01T10:11",
-      "t": "如何用Deepseek组装测序仪？",
-      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-09-01T10:11",
+      "d": "2026-09-01T10:16",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T10:11",
+      "d": "2026-09-01T10:16",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
@@ -121,13 +114,6 @@
       "u": "https://www.ithome.com/0/996/711.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-01T07:26",
-      "t": "【钛晨报】七部门打出扩消费“组合拳”：破汽车限购、推适老机器人、建AI消费场景等；华为上半年收入4678亿增9.55%，研发投入1213.8亿创新高；燧原科技发行价确定",
-      "s": "国家人工智能基金14亿元入股可灵AI；智谱上半年收入同比增近400%；欧菲光澄清“掏空资产”传闻；中际旭创拟回购40亿至…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8123455.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-08-31T21:38",
       "t": "全能型 covo-agent v0.1.0 发布：流式输出与 TUI 使用同一套渲染引擎",
@@ -140,19 +126,29 @@
       "t": "VC疯了！200万现金冠军奖，又花4000万造了一座AI「创业乌托邦」",
       "s": "划重点：这次不是你挨家敲门，是VC排队来看你。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/08/481928.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-08-31T20:49",
+      "t": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
+      "s": "上触觉已经不是一个「yes or no」的问题，而是「when」的问题。 作者丨向 欣 编辑丨高景辉 雷峰网：瑞典科学家…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-08-31T20:46",
+      "t": "具身智能规模化落地的解法，鹿明摸索出来了",
+      "s": "鹿明发布NexCore，要把具身落地的全套系统打通。 作者丨向 欣 编辑丨董子博 今年具身智能行业的热度，用「烈火烹油」…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/aDmmeg0GHDOQc0yR.html"
     }
   ],
   "timeline": [
     [
-      "09-01 10:11",
-      "如何用Deepseek组装测序仪？"
-    ],
-    [
-      "09-01 10:11",
+      "09-01 10:16",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 10:11",
+      "09-01 10:16",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-01 09:42",
       "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整"
+    ],
+    [
+      "09-01 09:37",
+      "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280096,
+      "s": 280095,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242954,
+      "s": 242957,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209152,
+      "s": 209154,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143589,
+      "s": 143590,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135427,
+      "s": 135428,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113042,
+      "s": 113046,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
