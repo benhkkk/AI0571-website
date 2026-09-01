@@ -1,40 +1,33 @@
 {
-  "updated": "2026-09-01T20:16:47",
+  "updated": "2026-09-01T20:21:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-01T20:16",
+      "d": "2026-09-01T20:21",
       "t": "#AI与科学仪器",
       "s": "#AI与科学仪器（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-811.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-01T20:16",
+      "d": "2026-09-01T20:21",
       "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
       "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T20:16",
+      "d": "2026-09-01T20:21",
       "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
       "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T20:16",
+      "d": "2026-09-01T20:21",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T20:02",
-      "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
-      "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482512.html"
     },
     {
       "c": "MODEL",
@@ -140,32 +133,39 @@
       "t": "6家上市机器人公司，冰火两重天",
       "s": "2026年中报显示，机器人行业已明显分化。极智嘉、优必选、宇树科技营收超10亿领跑，但盈利差异悬殊——宇树盈利2.74亿…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123956.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T17:39",
+      "t": "宇树科技员工爆料公司管理细节：百元报销都需要 CEO 王兴兴批，小到螺丝钉长度都亲自过问",
+      "s": "据《财经》杂志今天报道，人形机器人企业宇树科技的内部管理模式日前曝光。有员工表示，一个超过 100 元的报销都需要 CE…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/063.htm"
     }
   ],
   "timeline": [
     [
-      "09-01 20:16",
+      "09-01 20:21",
       "#AI与科学仪器"
     ],
     [
-      "09-01 20:16",
+      "09-01 20:21",
       "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
     ],
     [
-      "09-01 20:16",
+      "09-01 20:21",
       "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
     ],
     [
-      "09-01 20:16",
+      "09-01 20:21",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
-    ],
-    [
-      "09-01 20:02",
-      "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径"
     ],
     [
       "09-01 19:50",
       "罗永浩吐槽新能源车企 AI 大模型“垃圾”，试了数十辆车无一家接入完整版 Top 大模型"
+    ],
+    [
+      "09-01 19:50",
+      "研究显示：保险理赔员成为美国最反感 AI 的职业群体"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280256,
+      "s": 280258,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245516,
+      "s": 245517,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243486,
+      "s": 243493,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209264,
+      "s": 209265,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172918,
+      "s": 172921,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143642,
+      "s": 143643,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
