@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-01T15:16:54",
+  "updated": "2026-09-01T15:21:43",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T15:16",
+      "d": "2026-09-01T15:21",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T15:17",
+      "t": "DeepSeek 开源的第一个多模态模型，不是拿来「看图说话」的",
+      "s": "8 月 31 日，DeepSeek 在 Hugging Face 上线了 DeepSeek-V4-Flash-Visio…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502240/deepseek-v4-flash-vision-exp"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T15:14",
+      "t": "百丽十二年数智化复盘：先把企业工程化，再让AI 读懂它丨2026 ITValue Summit 前瞻：AI系统落地系列直播③",
+      "s": "企业首先应该谈的是业务如何运营、如何管理。你把业务标准化、数据标准化，体系做出来之后，模型和算力其实只是底座。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8123419.html"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,20 @@
       "t": "机场大屏上的AI云暗战：新云，正迎来它的时代",
       "s": "那些从第一天起就为AI重写的云，正在收获架构红利带来的增长加速度。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8119048.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T12:34",
-      "t": "AI 读过一切，却没经历过任何事：Ropedia 发布 HOMIE Gen2，给具身智能补「经验」这一课",
-      "s": "8 月中旬，新加坡的一场公开演讲上，南洋理工大学副教授、Ropedia 首席科学家刘子纬抛出了一个问题：为什么读过整个互…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/ztrF1BywGGvrxQHt.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T12:34",
-      "t": "独家｜扩散语言模型杀进端侧：Agent跑快5倍，GPT的“下一代替代者”出现了？",
-      "s": "长期以来主要依赖云端大模型的Agent，正在出现另一条技术路线：不再单纯追求更大的模型，而是通过改变语言模型的生成方式…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124156.html"
     }
   ],
   "timeline": [
     [
-      "09-01 15:16",
+      "09-01 15:21",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
+    ],
+    [
+      "09-01 15:17",
+      "DeepSeek 开源的第一个多模态模型，不是拿来「看图说话」的"
+    ],
+    [
+      "09-01 15:14",
+      "百丽十二年数智化复盘：先把企业工程化，再让AI 读懂它丨2026 ITValue Summit 前瞻：AI系统落地系列直播③"
     ],
     [
       "09-01 15:11",
@@ -158,14 +166,6 @@
     [
       "09-01 14:56",
       "比亚迪新一代 4D 毫米波雷达芯片量产：可覆盖 L2-L4 级智能驾驶应用"
-    ],
-    [
-      "09-01 14:52",
-      "机智连接推出 AI 纪要 TWS 耳机 Plaud One，内置 eSIM"
-    ],
-    [
-      "09-01 14:47",
-      "OpenAI 否认窃取苹果商业机密：自己一手造成的还想赖别人"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280162,
+      "s": 280163,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245403,
+      "s": 245408,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243205,
+      "s": 243212,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209198,
+      "s": 209197,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172867,
+      "s": 172871,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143611,
+      "s": 143613,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102095,
+      "s": 102096,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
