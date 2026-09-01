@@ -1,16 +1,23 @@
 {
-  "updated": "2026-09-01T14:26:51",
+  "updated": "2026-09-01T14:31:51",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-09-01T14:31",
+      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
+      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+    },
+    {
       "c": "INDUSTRY",
-      "d": "2026-09-01T14:26",
+      "d": "2026-09-01T14:31",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T14:26",
+      "d": "2026-09-01T14:31",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
@@ -87,6 +94,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-09-01T12:25",
+      "t": "业绩连跳20级，这家芯片公司做对了什么？",
+      "s": "8月28日晚间，国产GPU企业壁仞科技（06082.HK）披露2026年中期业绩。2026年上半年，壁仞科技实现营业收入…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/toaKlXrYMYi6MRsq.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-09-01T12:21",
       "t": "英伟达算力账本：一场800亿算力承诺背后的杠杆博弈",
       "s": "AI时代的次贷危机，也许不是房贷，而是算力贷。（来源：钛媒体）",
@@ -126,29 +140,19 @@
       "t": "2500小时数据免费开放：人形机器人进入“公共基建”时代",
       "s": "机器人行业正在换一套活法。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124134.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T11:20",
-      "t": "端侧唯一百万 Token 上下文模型开源：科大讯飞词元星火 X2.5-4B&1.7B 正式发布",
-      "s": "科大讯飞旗下词元星火今日宣布推出并开源星火 X2.5-4B 和星火 X2.5-1.7B 两款端侧通用大模型。据介绍，两款…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/855.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T11:09",
-      "t": "399 美元的鸭子机器人开源了，今年最让人想立刻掏钱的硬件产品",
-      "s": "Hugging Face 和法国机器人公司 Pollen Robotics 上周发布的 Microduck，是今年最让人…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502235/hugging-face-pollen-robotics-microduck"
     }
   ],
   "timeline": [
     [
-      "09-01 14:26",
+      "09-01 14:31",
+      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+    ],
+    [
+      "09-01 14:31",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 14:26",
+      "09-01 14:31",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-01 13:41",
       "机器人的“通用”迷局，场景进入才是头道门槛"
-    ],
-    [
-      "09-01 13:28",
-      "国产智能化工大模型 3.0 Pro 发布，中国科学院大连化物所、科大讯飞、阿里云等研发"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280147,
+      "s": 280151,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245384,
+      "s": 245385,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243148,
+      "s": 243151,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209185,
+      "s": 209186,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172857,
+      "s": 172859,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143606,
+      "s": 143608,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135465,
+      "s": 135466,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113108,
+      "s": 113110,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
