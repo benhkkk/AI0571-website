@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-01T18:46:46",
+  "updated": "2026-09-01T18:51:48",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T18:46",
+      "d": "2026-09-01T18:51",
       "t": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术",
       "s": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250109/763586.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T18:46",
+      "d": "2026-09-01T18:51",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -115,6 +115,20 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-01T16:45",
+      "t": "流沙之上：陈冕、景鲲、倪正民和中国 AI 应用创业者的三种选择",
+      "s": "2026年夏天，中国AI应用创业公司同时感受到了两股压力。一边，大厂开始陆续推出通用的办公Agent；另一边，一级市场对…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/p3yK0mQAxDeZILcy.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:43",
+      "t": "我们拆了 1.1 万个 DeepSeek Harness 插件，发现官方几乎没有建立插件治理机制",
+      "s": "距离 DeepSeek Harness 开源已经有一段时间，「Everything is a Plugin」的口号也已经…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/h2dcTqNQlUhVuEXx.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-01T16:41",
       "t": "万字长文拆解DeepSeek V4 Pro与Harness：从后训练到「代理自进化」，更大的变化在开源框架里",
       "s": "不管哪个时代，人都会遇到同一道题：无论宏大叙事还是人生决策，面前问题太复杂，资源和时间却不够，必须决定先做哪个、放弃哪个…（来源：雷锋网）",
@@ -126,29 +140,15 @@
       "t": "我们用 Qwen 3.8-Max 做了一个 AI 大模型宇宙：效果竟然胜过 GPT5.6？",
       "s": "Max长程Agent能力的背后，是精雕细琢的典范，还是算力黑洞的失控？ 作者丨李娜 编辑丨岑峰 我让Qwen 3.8-M…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/yanxishe/hFaRe5oZ7oF0U1XC.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T16:34",
-      "t": "阿里开源 Qwen3.8-27B 本地实测：性能很强，但 Agent 适配仍待补课",
-      "s": "从部署到实测：覆盖标准部署、量化部署、Agent场景三大维度。 作者丨吴海明 何宇轩 编辑丨李娜 岑峰 8月14日，阿里…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/LyUNV8iNxl2VuE3X.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T16:34",
-      "t": "GFlow v1.0.0 发布：Go 生态审批工作流引擎，中国式审批、AI 先审、批完自动办",
-      "s": "GFlow Engine 是一个基于 RuleGo 的轻量级、可嵌入审批工作流引擎，今天正式发布 v1.0.0 并以 A…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502248"
     }
   ],
   "timeline": [
     [
-      "09-01 18:46",
+      "09-01 18:51",
       "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术"
     ],
     [
-      "09-01 18:46",
+      "09-01 18:51",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280228,
+      "s": 280232,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245489,
+      "s": 245490,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243407,
+      "s": 243413,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209242,
+      "s": 209246,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113186,
+      "s": 113188,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102136,
+      "s": 102137,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91328,
+      "s": 91329,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
