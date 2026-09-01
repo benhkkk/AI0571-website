@@ -1,26 +1,40 @@
 {
-  "updated": "2026-09-01T11:06:42",
+  "updated": "2026-09-01T11:11:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-01T11:06",
+      "d": "2026-09-01T11:11",
       "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
       "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T11:06",
+      "d": "2026-09-01T11:11",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T11:06",
+      "d": "2026-09-01T11:11",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T11:09",
+      "t": "399 美元的鸭子机器人开源了，今年最让人想立刻掏钱的硬件产品",
+      "s": "Hugging Face 和法国机器人公司 Pollen Robotics 上周发布的 Microduck，是今年最让人…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502235/hugging-face-pollen-robotics-microduck"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T11:07",
+      "t": "微软高管示警：低质量 AI 冲击日常办公，形成恶意循环稀释信息价值",
+      "s": "科技媒体 Windows Central 今天（9 月 1 日）发布博文，报道称微软执行副总裁、Office 与 Lin…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/822.htm"
     },
     {
       "c": "HOT",
@@ -126,46 +140,32 @@
       "t": "英伟达“二房东”下场转租：Anthropic 与 Lambda 签署 350 亿美元云计算协议",
       "s": "据《华尔街日报》今日报道，Anthropic 已与英伟达支持的云服务商 Lambda 签署了一份价值 350 亿美元（I…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/714.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T07:55",
-      "t": "Anthropic 详解 7·30 安全事件：配置错误致 Claude“入侵”真实企业，已加强沙箱隔离与实时监控",
-      "s": "Anthropic 刚刚发布长文，披露了其针对 7 月 30 日和 8 月 4 日两起 Claude 模型未经授权访问真…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/711.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-01T06:17",
-      "t": "AI制药半年报业绩大增，能否成为行业主流?",
-      "s": "AI制药半年报业绩大增，能否成为行业主流?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680323301771723298/"
     }
   ],
   "timeline": [
     [
-      "09-01 11:06",
+      "09-01 11:11",
       "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
     ],
     [
-      "09-01 11:06",
+      "09-01 11:11",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 11:06",
+      "09-01 11:11",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
+    ],
+    [
+      "09-01 11:09",
+      "399 美元的鸭子机器人开源了，今年最让人想立刻掏钱的硬件产品"
+    ],
+    [
+      "09-01 11:07",
+      "微软高管示警：低质量 AI 冲击日常办公，形成恶意循环稀释信息价值"
     ],
     [
       "09-01 10:59",
       "AI办公的终局，真的是“AI办公”吗？"
-    ],
-    [
-      "09-01 10:59",
-      "从\"用了多少AI\"到\"Token效\"：企业AI投入正在换尺子"
-    ],
-    [
-      "09-01 10:54",
-      "E MEIN依明科技首次公开AI经营系统：从结果数据到行为数据"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280112,
+      "s": 280111,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245301,
+      "s": 245304,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243008,
+      "s": 243009,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172832,
+      "s": 172834,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91220,
+      "s": 91224,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
