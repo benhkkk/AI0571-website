@@ -1,9 +1,16 @@
 {
-  "updated": "2026-09-02T05:16:53",
+  "updated": "2026-09-02T05:21:46",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T05:16",
+      "d": "2026-09-02T05:21",
+      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
+      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T05:21",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -63,13 +70,6 @@
       "t": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
       "s": "据路透社报道，美国中部大片地区的数据中心申请的用电量，大致相当于为全国每个家庭供电所需的电量，但其中相当一部分需求可能只…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/147.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-01T20:30",
-      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
-      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680543177480192564/"
     },
     {
       "c": "HOT",
@@ -144,7 +144,11 @@
   ],
   "timeline": [
     [
-      "09-02 05:16",
+      "09-02 05:21",
+      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
+    ],
+    [
+      "09-02 05:21",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-01 22:11",
       "消息称三星已锁定约 70% 存储芯片产能至 2031 年，HBM 长协价仅为现货五分之一"
-    ],
-    [
-      "09-01 22:07",
-      "从 Token 到扭矩，AI 落地东盟的四道「硬」关｜SEA Frontline"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280398,
+      "s": 280399,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245703,
+      "s": 245705,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243865,
+      "s": 243870,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172995,
+      "s": 172997,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143689,
+      "s": 143691,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135623,
+      "s": 135624,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113357,
+      "s": 113359,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91446,
+      "s": 91448,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
