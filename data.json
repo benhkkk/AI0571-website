@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02T04:31:45",
+  "updated": "2026-09-02T04:36:41",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-02T04:31",
-      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
-      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
+      "c": "MODEL",
+      "d": "2026-09-02T04:36",
+      "t": "AI 时代，仪器企业怎么做才能拿到大模型的推荐票？",
+      "s": "AI 时代，仪器企业怎么做才能拿到大模型的推荐票？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260820/962556.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T04:31",
+      "d": "2026-09-02T04:36",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -72,11 +72,25 @@
       "u": "https://www.ithome.com/0/997/147.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T20:30",
+      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
+      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680543177480192564/"
+    },
+    {
       "c": "HOT",
       "d": "2026-09-01T20:02",
       "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
       "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/482512.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T20:02",
+      "t": "明日主题前瞻AI正深度融入药物研发全链条，产业迎来高速发展...",
+      "s": "明日主题前瞻AI正深度融入药物研发全链条，产业迎来高速发展...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680536004101308982/"
     },
     {
       "c": "MODEL",
@@ -126,29 +140,15 @@
       "t": "Lovart 悄悄大更新，这一次轮到 AI 适应设计师了",
       "s": "Just Design#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677574?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:23",
-      "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
-      "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:04",
-      "t": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
-      "s": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-02 04:31",
-      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
+      "09-02 04:36",
+      "AI 时代，仪器企业怎么做才能拿到大模型的推荐票？"
     ],
     [
-      "09-02 04:31",
+      "09-02 04:36",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280384,
+      "s": 280385,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245687,
+      "s": 245688,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243849,
+      "s": 243851,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209364,
+      "s": 209366,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135619,
+      "s": 135618,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113344,
+      "s": 113347,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102249,
+      "s": 102250,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
