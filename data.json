@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-01T16:06:41",
+  "updated": "2026-09-01T16:11:51",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T16:06",
+      "d": "2026-09-01T16:11",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T16:07",
+      "t": "英伟达 GPU 帧插值支持并入 FFmpeg，用户可使用帧生成提高视频帧率",
+      "s": "据科技媒体 Phoronix 前天报道，开源多媒体框架项目 FFmpeg 日前宣布，英伟达 GPU 加入帧插值功能已通过…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/015.htm"
     },
     {
       "c": "MODEL",
@@ -46,9 +53,9 @@
     {
       "c": "MEDPHARMA",
       "d": "2026-09-01T15:19",
-      "t": "较年内低点已反弹超50% AI制药领域喜创佳绩 获北水持续加仓",
-      "s": "较年内低点已反弹超50% AI制药领域喜创佳绩 获北水持续加仓（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680462969653756462/"
+      "t": "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%",
+      "s": "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680462979409658406/"
     },
     {
       "c": "MODEL",
@@ -84,13 +91,6 @@
       "t": "比亚迪新一代 4D 毫米波雷达芯片量产：可覆盖 L2-L4 级智能驾驶应用",
       "s": "比亚迪半导体今天（1 日）通过公众号发文宣布，以璇玑 A3 为算力中心的新一代卫星架构 4D 毫米波雷达芯片已量产。该芯…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/949.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T14:52",
-      "t": "机智连接推出 AI 纪要 TWS 耳机 Plaud One，内置 eSIM",
-      "s": "深圳 AI 纪要硬件企业机智连接 (Plaud) 上周宣布推出 Plaud One 耳机。这一设备主打随时随地的人工智能…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/945.htm"
     },
     {
       "c": "MODEL",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-01 16:06",
+      "09-01 16:11",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
+    ],
+    [
+      "09-01 16:07",
+      "英伟达 GPU 帧插值支持并入 FFmpeg，用户可使用帧生成提高视频帧率"
     ],
     [
       "09-01 15:56",
@@ -162,10 +166,6 @@
     [
       "09-01 15:41",
       "人工智能交互新研究：AI 更“像人”、用户更“像机器”"
-    ],
-    [
-      "09-01 15:30",
-      "美国五角大楼部署定制版 ChatGPT 和 Grok AI 助手"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280184,
+      "s": 280187,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245430,
+      "s": 245432,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243255,
+      "s": 243262,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143621,
+      "s": 143624,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135483,
+      "s": 135484,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113139,
+      "s": 113140,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102106,
+      "s": 102109,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91293,
+      "s": 91295,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
