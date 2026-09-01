@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02T05:21:46",
+  "updated": "2026-09-02T05:26:42",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T05:21",
+      "d": "2026-09-02T05:26",
       "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
       "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T05:21",
+      "d": "2026-09-02T05:26",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -70,6 +70,13 @@
       "t": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
       "s": "据路透社报道，美国中部大片地区的数据中心申请的用电量，大致相当于为全国每个家庭供电所需的电量，但其中相当一部分需求可能只…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/147.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T20:30",
+      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
+      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680543177480192564/"
     },
     {
       "c": "HOT",
@@ -133,22 +140,15 @@
       "t": "自动驾驶强制国标来了：享界智界提前押题，今明两年 L3 密集上车",
       "s": "未来两年将是 L3 密集上车的两年。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677995?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T18:04",
-      "t": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
-      "s": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-02 05:21",
+      "09-02 05:26",
       "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
     ],
     [
-      "09-02 05:21",
+      "09-02 05:26",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280399,
+      "s": 280403,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245705,
+      "s": 245709,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243870,
+      "s": 243873,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209370,
+      "s": 209371,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172997,
+      "s": 173000,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113359,
+      "s": 113364,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102254,
+      "s": 102256,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
