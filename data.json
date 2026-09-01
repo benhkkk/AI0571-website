@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-01T13:41:46",
+  "updated": "2026-09-01T13:47:03",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T13:41",
+      "d": "2026-09-01T13:47",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-01T13:41",
+      "d": "2026-09-01T13:47",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
@@ -21,13 +21,6 @@
       "t": "国产智能化工大模型 3.0 Pro 发布，中国科学院大连化物所、科大讯飞、阿里云等研发",
       "s": "由中国科学院大连化学物理研究所（以下简称“大连化物所”）联合科大讯飞股份有限公司（以下简称“科大讯飞”）、阿里云计算有限…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/891.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T13:12",
-      "t": "自进化WAM来了！清华AIR联手域变换提出具身In-Context Causal Learning",
-      "s": "参数冻结，能力暴涨（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482337.html"
     },
     {
       "c": "HOT",
@@ -70,13 +63,6 @@
       "t": "英伟达算力账本：一场800亿算力承诺背后的杠杆博弈",
       "s": "AI时代的次贷危机，也许不是房贷，而是算力贷。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124138.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T12:12",
-      "t": "AIVC只是前菜！复旦提出生命算子，统一生命建模",
-      "s": "连发六篇Nature期刊，复旦Neolab打通全尺度生命推演（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482300.html"
     },
     {
       "c": "INDUSTRY",
@@ -140,24 +126,34 @@
       "t": "李飞飞、吴佳俊再联手，打破世界模型和机器人动作的「巴别塔」",
       "s": "视觉轨迹充当“同声传译”，让世界模型和机器人动作真正“同频对话”。 作者丨幸丽娟 编辑丨岑 峰 日前，一篇叫做《TrAc…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/academic/LF4mbUTko5bRYDky.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T10:54",
+      "t": "TUM 黎子玥：模型这么大这么强，为什么还是「上不了路」？| IJCAI 2026",
+      "s": "学术数据和真实数据完全是两回事；可解释性成落地“生死线”。 作者丨幸丽娟 编辑丨岑 峰 三年前，正值大模型爆发之年，麦肯…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/academic/CvDmFZhq2DCqxOh8.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T10:54",
+      "t": "E MEIN依明科技首次公开AI经营系统：从结果数据到行为数据",
+      "s": "一件衣服从设计稿到顾客手中第一次有了贯穿始终的数据记录（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8123517.html"
     }
   ],
   "timeline": [
     [
-      "09-01 13:41",
+      "09-01 13:47",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
-      "09-01 13:41",
+      "09-01 13:47",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
       "09-01 13:28",
       "国产智能化工大模型 3.0 Pro 发布，中国科学院大连化物所、科大讯飞、阿里云等研发"
-    ],
-    [
-      "09-01 13:12",
-      "自进化WAM来了！清华AIR联手域变换提出具身In-Context Causal Learning"
     ],
     [
       "09-01 13:06",
@@ -166,6 +162,10 @@
     [
       "09-01 12:42",
       "男子听信 AI 抄近道下山被困深山，事后 AI 承认“要是直接跟导航走就不会遭那么大罪了”"
+    ],
+    [
+      "09-01 12:41",
+      "机场大屏上的AI云暗战：新云，正迎来它的时代"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280129,
+      "s": 280130,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245365,
+      "s": 245366,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243121,
+      "s": 243125,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209178,
+      "s": 209179,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172854,
+      "s": 172855,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135453,
+      "s": 135454,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102079,
+      "s": 102080,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91260,
+      "s": 91261,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
