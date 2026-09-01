@@ -1,30 +1,9 @@
 {
-  "updated": "2026-09-01T21:46:43",
+  "updated": "2026-09-01T21:51:57",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-01T21:46",
-      "t": "#AI与科学仪器",
-      "s": "#AI与科学仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-811.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T21:46",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T21:46",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
-    },
-    {
       "c": "INDUSTRY",
-      "d": "2026-09-01T21:46",
+      "d": "2026-09-01T21:51",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -140,23 +119,32 @@
       "t": "我国牵头制定家用机器人国际标准，涵盖 11 项核心测试",
       "s": "据央视新闻今天报道，我国日前牵头制定国际标准《家用和类似用途机器人性能评估方法》，为全球家用机器人行业提供统一性能评估框…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/094.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T18:04",
+      "t": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
+      "s": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T17:58",
+      "t": "宇树“腰斩”，智元凭什么开价更高？",
+      "s": "具身智能的第一次真实压力测试。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124107.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T17:58",
+      "t": "升级后的DeepSeek，为何总爱深思熟虑？",
+      "s": "AI需要思考多久？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124043.html"
     }
   ],
   "timeline": [
     [
-      "09-01 21:46",
-      "#AI与科学仪器"
-    ],
-    [
-      "09-01 21:46",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
-    [
-      "09-01 21:46",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
-    ],
-    [
-      "09-01 21:46",
+      "09-01 21:51",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -166,6 +154,18 @@
     [
       "09-01 20:48",
       "豆包、清华大学一起“开课”，《AI 赋能学术研究：人机互动的知识生产》课程开放报名"
+    ],
+    [
+      "09-01 20:40",
+      "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治"
+    ],
+    [
+      "09-01 20:30",
+      "上半年AI制药人才需求高速增长，职位数同比增长84%"
+    ],
+    [
+      "09-01 20:02",
+      "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280289,
+      "s": 280292,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245555,
+      "s": 245556,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243564,
+      "s": 243568,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209286,
+      "s": 209288,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143645,
+      "s": 143646,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135547,
+      "s": 135549,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113222,
+      "s": 113224,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
