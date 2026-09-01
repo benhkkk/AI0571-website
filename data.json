@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-01T15:31:50",
+  "updated": "2026-09-01T15:36:49",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T15:31",
+      "d": "2026-09-01T15:36",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
@@ -14,6 +14,13 @@
       "t": "美国五角大楼部署定制版 ChatGPT 和 Grok AI 助手",
       "s": "五角大楼本周开始将定制版 ChatGPT 和 Grok 人工智能助手加入其内网，让数百万军人和文职人员能够使用 AI 工…（来源：IT之家）",
       "u": "https://www.ithome.com/0/996/972.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-01T15:19",
+      "t": "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%",
+      "s": "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680462979409658406/"
     },
     {
       "c": "MODEL",
@@ -133,23 +140,20 @@
       "t": "自进化WAM来了！清华AIR联手域变换提出具身In-Context Causal Learning",
       "s": "参数冻结，能力暴涨（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/482337.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T12:41",
-      "t": "机场大屏上的AI云暗战：新云，正迎来它的时代",
-      "s": "那些从第一天起就为AI重写的云，正在收获架构红利带来的增长加速度。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8119048.html"
     }
   ],
   "timeline": [
     [
-      "09-01 15:31",
+      "09-01 15:36",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
       "09-01 15:30",
       "美国五角大楼部署定制版 ChatGPT 和 Grok AI 助手"
+    ],
+    [
+      "09-01 15:19",
+      "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%"
     ],
     [
       "09-01 15:17",
@@ -162,10 +166,6 @@
     [
       "09-01 15:11",
       "我国专家牵头制定，全球首个腿式机器人国际标准正式发布"
-    ],
-    [
-      "09-01 14:57",
-      "韩国公布史上最大规模财政支出计划：2027 年预算达 821 万亿韩元，押注 AI 与芯片产业"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280168,
+      "s": 280171,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245413,
+      "s": 245416,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243222,
+      "s": 243229,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209199,
+      "s": 209202,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113126,
+      "s": 113129,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102096,
+      "s": 102098,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91284,
+      "s": 91288,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
