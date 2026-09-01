@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-01T09:36:43",
+  "updated": "2026-09-01T09:41:39",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-01T09:36",
+      "d": "2026-09-01T09:41",
       "t": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段",
       "s": "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967957.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-01T09:36",
+      "d": "2026-09-01T09:41",
       "t": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？",
       "s": "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260831/967923.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T09:37",
+      "t": "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名",
+      "s": "湖南卫视今日宣布，神话题材季播剧《后西游记》第一季“花果山篇”于 8 月 31 日下午 6 点起在湖南卫视、芒果 TV …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/996/757.htm"
     },
     {
       "c": "MODEL",
@@ -115,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-08-31T23:33",
-      "t": "博通推出 VMware AI 工厂，简化企业私有云 AI 部署",
-      "s": "博通公司今天宣布推出 VMware AI 工厂。新产品是 VMware AI 私有云的软件定义基础，通过一系列自动化创新…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/996/680.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-08-31T21:38",
       "t": "全能型 covo-agent v0.1.0 发布：流式输出与 TUI 使用同一套渲染引擎",
       "s": "关于 covo-agent covo-agent 是基于 covonaut 框架开发的运行在终端里的通用型 AI Age…（来源：OSCHINA）",
@@ -136,20 +136,24 @@
     },
     {
       "c": "HOT",
-      "d": "2026-08-31T20:49",
-      "t": "对话纬钛机器人CEO李瑞：具身智能仅靠视觉容易到天花板，触觉是未来必选项",
-      "s": "上触觉已经不是一个「yes or no」的问题，而是「when」的问题。 作者丨向 欣 编辑丨高景辉 雷峰网：瑞典科学家…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/robot/fzha6bzWq2qyX28O.html"
+      "d": "2026-08-31T21:04",
+      "t": "独家对话江口达雄：芯片涨价与AI热夹击，PlayStation如何守主机阵地",
+      "s": "AI内容抢走越来越多的娱乐时间，年轻人是否还愿意在周末坐进客厅、握住手柄？江口达雄的回答并不激进，像带着某种老派的从容…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8123349.html"
     }
   ],
   "timeline": [
     [
-      "09-01 09:36",
+      "09-01 09:41",
       "登国际顶刊《Water Research》｜中国市政华北院发布 “智水孪生” 架构，引领智慧水务步入智能体新阶段"
     ],
     [
-      "09-01 09:36",
+      "09-01 09:41",
       "融资1041亿、6倍出货量、11.6万新企业：机器人赛道究竟到了哪一步？"
+    ],
+    [
+      "09-01 09:37",
+      "国内首部 AIGC 长剧：湖南卫视《后西游记》上星收视飘红，实时收视率同时段位居省级卫视第一名"
     ],
     [
       "09-01 09:23",
@@ -162,10 +166,6 @@
     [
       "09-01 09:04",
       "英伟达宣布向联发科投资 35 亿美元，在 AI、PC 芯片、汽车三大领域达成合作"
-    ],
-    [
-      "09-01 08:51",
-      "“生产力市场”大博弈"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280083,
+      "s": 280087,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245261,
+      "s": 245262,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 242931,
+      "s": 242934,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209147,
+      "s": 209148,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135421,
+      "s": 135423,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113030,
+      "s": 113032,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102054,
+      "s": 102057,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91207,
+      "s": 91210,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
