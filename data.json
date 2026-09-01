@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-01T16:01:49",
+  "updated": "2026-09-01T16:06:41",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T16:01",
+      "d": "2026-09-01T16:06",
       "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
       "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
@@ -46,9 +46,9 @@
     {
       "c": "MEDPHARMA",
       "d": "2026-09-01T15:19",
-      "t": "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%",
-      "s": "AI制药领域喜创佳绩 获北水持续加仓 英矽智能逆势涨近6%（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680462979409658406/"
+      "t": "较年内低点已反弹超50% AI制药领域喜创佳绩 获北水持续加仓",
+      "s": "较年内低点已反弹超50% AI制药领域喜创佳绩 获北水持续加仓（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7680462969653756462/"
     },
     {
       "c": "MODEL",
@@ -128,23 +128,23 @@
       "u": "https://www.tmtpost.com/8124306.html"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-09-01T14:02",
+      "t": "Violoop完成亿元级融资：让AI在真实工作中学会一个人",
+      "s": "近日，Violoop正式完成亿元级天使轮及Pre-A轮融资。联想创投、中金保时捷、蓝驰创投、元生资本、启赋资本和Zero…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/7PXLDeu5ZmrxynHT.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-01T13:53",
       "t": "智能知识管理系统 WCP 5.0.3 发布，让 AI 走进编辑器，选中文字就能用",
       "s": "在编辑器里选中任意文字，浮出一个\"AI\"按钮，点一下，AI 帮你润色、续写、翻译、总结、简化——所见即所得，一键替换或插…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502238"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T13:42",
-      "t": "存算一体进入「产业化时刻」，谁在领跑规模化交付？",
-      "s": "01存算一体，进入交付时刻2026年，存算一体赛道的节奏骤然加快。8月24日，小米发布玄戒O100高带宽AI加速芯片，采…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/xtIydm5BXbGcQCfI.html"
     }
   ],
   "timeline": [
     [
-      "09-01 16:01",
+      "09-01 16:06",
       "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280182,
+      "s": 280184,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245428,
+      "s": 245430,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243251,
+      "s": 243255,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209207,
+      "s": 209208,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172876,
+      "s": 172877,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143619,
+      "s": 143621,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135482,
+      "s": 135483,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113137,
+      "s": 113139,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91291,
+      "s": 91293,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
