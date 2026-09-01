@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-01T21:06:50",
+  "updated": "2026-09-01T21:11:43",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-01T21:06",
+      "d": "2026-09-01T21:11",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -63,6 +63,13 @@
       "t": "每周一天，关掉 AI 写代码",
       "s": "Carson Gross 决定每周五不写代码。 不是不工作，是不用 AI 辅助写代码。他是 htmx 的创造者，一个以「…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502256/no-ai-fridays"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T19:07",
+      "t": "追觅旗下户外庭院板块将亮相IFA 2026，AI与机器人重构户外多场景应用",
+      "s": "全球消费电子产业的“风向标”——德国柏林国际消费电子展（IFA 2026）即将于9月4日启幕。追觅旗下户外庭院板块将亮相…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/eMaiv5y4bdAYbIha.html"
     },
     {
       "c": "MODEL",
@@ -133,18 +140,11 @@
       "t": "IFA 2026前瞻：机器人走秀、AI家电乱斗，中国品牌决战欧洲",
       "s": "从家电到机器人，到IFA探寻AI落地浪潮的下一个爆发点。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124658.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-01T17:51",
-      "t": "6家上市机器人公司，冰火两重天",
-      "s": "2026年中报显示，机器人行业已明显分化。极智嘉、优必选、宇树科技营收超10亿领跑，但盈利差异悬殊——宇树盈利2.74亿…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8123956.html"
     }
   ],
   "timeline": [
     [
-      "09-01 21:06",
+      "09-01 21:11",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280273,
+      "s": 280276,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245534,
+      "s": 245535,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243532,
+      "s": 243534,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172924,
+      "s": 172925,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143643,
+      "s": 143642,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113214,
+      "s": 113215,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102169,
+      "s": 102172,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91355,
+      "s": 91357,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
