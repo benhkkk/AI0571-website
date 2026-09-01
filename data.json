@@ -1,9 +1,16 @@
 {
-  "updated": "2026-09-02T04:16:45",
+  "updated": "2026-09-02T04:21:50",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T04:16",
+      "d": "2026-09-02T04:21",
+      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
+      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T04:21",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -133,18 +140,15 @@
       "t": "苹果被骂惨的设计，在 AI 时代迎来高光时刻",
       "s": "被骂惨的 Touch Bar，怎么突然火了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1677890?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T17:58",
-      "t": "宇树“腰斩”，智元凭什么开价更高？",
-      "s": "具身智能的第一次真实压力测试。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124107.html"
     }
   ],
   "timeline": [
     [
-      "09-02 04:16",
+      "09-02 04:21",
+      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
+    ],
+    [
+      "09-02 04:21",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-01 22:11",
       "消息称三星已锁定约 70% 存储芯片产能至 2031 年，HBM 长协价仅为现货五分之一"
-    ],
-    [
-      "09-01 22:07",
-      "从 Token 到扭矩，AI 落地东盟的四道「硬」关｜SEA Frontline"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280382,
+      "s": 280383,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245685,
+      "s": 245686,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243839,
+      "s": 243844,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 172987,
+      "s": 172988,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91441,
+      "s": 91442,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
