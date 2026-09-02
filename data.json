@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T01:30:59",
+  "updated": "2026-09-03T01:35:55",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T01:35",
+      "t": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”",
+      "s": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260202/874153.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T00:09",
@@ -133,16 +140,13 @@
       "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
       "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125160.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-02T17:46",
-      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
-      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
+    [
+      "09-03 01:35",
+      "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”"
+    ],
     [
       "09-03 00:09",
       "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护"
@@ -162,10 +166,6 @@
     [
       "09-02 21:44",
       "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型"
-    ],
-    [
-      "09-02 21:41",
-      "研究发现：AI 客服“更像人”未必带来更佳体验"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280771,
+      "s": 280770,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246124,
+      "s": 246126,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244957,
+      "s": 244961,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209607,
+      "s": 209608,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113901,
+      "s": 113902,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102503,
+      "s": 102504,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
