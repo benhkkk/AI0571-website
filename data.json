@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-02T08:21:44",
+  "updated": "2026-09-02T08:26:45",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T08:21",
+      "d": "2026-09-02T08:26",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T08:23",
+      "t": "Meta 发布首个实时音频感知 AI 模型，支持 20 余人分轨转写",
+      "s": "科技媒体 9to5Mac 昨日（9 月 1 日）发布博文，报道称 Meta 公司推出 Muse Voice Transc…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/218.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T08:22",
+      "t": "奥尔特曼不喜欢智能眼镜：和戴着摄像机的人讲话很不舒服，Meta 扎克伯克不用担心 OpenAI 来抢生意",
+      "s": "OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）当地时间周二在接受 Alex Heath 的《Sourc…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/217.htm"
     },
     {
       "c": "MODEL",
@@ -93,20 +107,6 @@
       "u": "https://www.tmtpost.com/8124037.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-01T21:14",
-      "t": "安全公司曝光黑客组织 Aurora 内部信息：利用 Cursor AI 制定攻击计划、使用 Zig 语言开发勒索软件",
-      "s": "安全公司 CloudSEK 发布报告，披露了黑客组织 Aurora（Aur0ra）近期攻击活动及内部细节。IT之家参考通…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/155.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T20:48",
-      "t": "豆包、清华大学一起“开课”，《AI 赋能学术研究：人机互动的知识生产》课程开放报名",
-      "s": "“豆包”公众号今天（1 日）发文称，清华大学 2026 年秋季学期校级课程《人工智能赋能学术研究：人机互动的知识生产》面…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/148.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-09-01T20:30",
       "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "09-02 08:21",
+      "09-02 08:26",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-02 08:23",
+      "Meta 发布首个实时音频感知 AI 模型，支持 20 余人分轨转写"
+    ],
+    [
+      "09-02 08:22",
+      "奥尔特曼不喜欢智能眼镜：和戴着摄像机的人讲话很不舒服，Meta 扎克伯克不用担心 OpenAI 来抢生意"
     ],
     [
       "09-02 08:18",
@@ -158,14 +166,6 @@
     [
       "09-02 07:59",
       "IT早报 0902：接替库克，苹果新 CEO 特努斯正式上任；车企 8 月销量 / 交付榜出炉；Anthropic 发布 Fable 5.1；大众针对星宇股份启…"
-    ],
-    [
-      "09-02 07:41",
-      "一个人，十五年，他想重写医疗AI的底层逻辑"
-    ],
-    [
-      "09-02 07:40",
-      "OpenAI 吸取“AI 越狱”事件教训，首个达“关键”门槛模型 Astra 因能力过强将限制网络安全功能"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280442,
+      "s": 280443,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245753,
+      "s": 245755,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113442,
+      "s": 113445,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91466,
+      "s": 91467,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
