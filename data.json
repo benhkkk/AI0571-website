@@ -1,33 +1,40 @@
 {
-  "updated": "2026-09-02T14:02:29",
+  "updated": "2026-09-02T14:05:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T14:02",
+      "d": "2026-09-02T14:05",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-02T14:02",
+      "d": "2026-09-02T14:05",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T14:02",
+      "d": "2026-09-02T14:05",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T14:02",
+      "d": "2026-09-02T14:05",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T14:04",
+      "t": "努比亚倪飞：豆包手机计划 9 月开售",
+      "s": "中兴通讯终端事业部总裁、努比亚技术有限公司总裁倪飞今日发文称，从去年 12 月的 M153，到昨天努比亚 NaviX U…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/409.htm"
     },
     {
       "c": "MODEL",
@@ -133,39 +140,32 @@
       "t": "谷歌 AI 图片设计工具 Pics 上线，Docs / Slides 办公套件可直接调用修图",
       "s": "谷歌昨日（9 月 1 日）发布博文，宣布正式上线 AI 图像设计与编辑工具 Google Pics。用户可通过 pics…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/263.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T10:50",
-      "t": "缓存读取价砍 75%：Fable 5.1 真正想卖的不是跑分",
-      "s": "每百万 token 的缓存读取价格，从 1 美元降到 0.25 美元，降幅 75%。 这是 Claude Fable 5…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502267/claude-fable-and-mythos-5-1"
     }
   ],
   "timeline": [
     [
-      "09-02 14:02",
+      "09-02 14:05",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
-      "09-02 14:02",
+      "09-02 14:05",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
     ],
     [
-      "09-02 14:02",
+      "09-02 14:05",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 14:02",
+      "09-02 14:05",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
+    ],
+    [
+      "09-02 14:04",
+      "努比亚倪飞：豆包手机计划 9 月开售"
     ],
     [
       "09-02 14:00",
       "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用"
-    ],
-    [
-      "09-02 13:47",
-      "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现将超越所有 AI 竞品"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280541,
+      "s": 280540,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245854,
+      "s": 245853,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244223,
+      "s": 244225,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173064,
+      "s": 173063,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143719,
+      "s": 143720,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135665,
+      "s": 135667,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91527,
+      "s": 91528,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
