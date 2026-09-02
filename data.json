@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-02T15:05:58",
+  "updated": "2026-09-02T15:10:55",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T15:05",
+      "d": "2026-09-02T15:10",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-02T15:05",
+      "d": "2026-09-02T15:10",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T15:05",
+      "d": "2026-09-02T15:10",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
@@ -86,6 +86,20 @@
       "u": "https://www.ithome.com/0/997/426.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-02T14:10",
+      "t": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
+      "s": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483101.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T14:06",
+      "t": "前字节强化学习专家孙鹏博士加盟星尘智能，完善Physical AI全栈技术布局",
+      "s": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483097.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-09-02T14:04",
       "t": "努比亚倪飞：豆包手机计划 9 月开售",
@@ -126,33 +140,19 @@
       "t": "大模型厂商，正忙着自备“干粮”",
       "s": "当模型公司开始用AI设计AI芯片，会对行业格局带来哪些影响？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124383.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T11:32",
-      "t": "Fable 5.1来了！Anthropic再秀肌肉",
-      "s": "赶在IPO之前的“模型路演”。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8125252.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T11:17",
-      "t": "AI制药下半场:从“造分子”到“造药”，还有多远?",
-      "s": "AI制药下半场:从“造分子”到“造药”，还有多远?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680771492765778466/"
     }
   ],
   "timeline": [
     [
-      "09-02 15:05",
+      "09-02 15:10",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
-      "09-02 15:05",
+      "09-02 15:10",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
     ],
     [
-      "09-02 15:05",
+      "09-02 15:10",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280564,
+      "s": 280566,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245889,
+      "s": 245890,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244299,
+      "s": 244305,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209455,
+      "s": 209456,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173078,
+      "s": 173081,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113665,
+      "s": 113667,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102317,
+      "s": 102319,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91542,
+      "s": 91543,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
