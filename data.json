@@ -1,16 +1,9 @@
 {
-  "updated": "2026-09-02T08:46:39",
+  "updated": "2026-09-02T08:51:42",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-02T08:46",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
       "c": "INDUSTRY",
-      "d": "2026-09-02T08:46",
+      "d": "2026-09-02T08:51",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -140,15 +133,18 @@
       "t": "追觅旗下户外庭院板块将亮相IFA 2026，AI与机器人重构户外多场景应用",
       "s": "全球消费电子产业的“风向标”——德国柏林国际消费电子展（IFA 2026）即将于9月4日启幕。追觅旗下户外庭院板块将亮相…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/eMaiv5y4bdAYbIha.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T18:56",
+      "t": "Omarchy：一个把 AI Agent 写进内核的 Linux，和它引发的争议",
+      "s": "知名技术网红 DHH 在 37signals 内部孵化了 Omarchy。一个基于 Arch Linux + Hyprl…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502254/dhh-omarchy"
     }
   ],
   "timeline": [
     [
-      "09-02 08:46",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
-    [
-      "09-02 08:46",
+      "09-02 08:51",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-02 08:18",
       "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布"
+    ],
+    [
+      "09-02 08:13",
+      "苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245758,
+      "s": 245760,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243954,
+      "s": 243957,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173025,
+      "s": 173026,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113452,
+      "s": 113456,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102266,
+      "s": 102267,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
