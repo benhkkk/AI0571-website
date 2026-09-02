@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-02T08:26:45",
+  "updated": "2026-09-02T08:32:11",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T08:26",
+      "d": "2026-09-02T08:32",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
@@ -107,13 +107,6 @@
       "u": "https://www.tmtpost.com/8124037.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-01T20:30",
-      "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
-      "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680543177480192564/"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-01T20:02",
       "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
@@ -140,11 +133,18 @@
       "t": "Omarchy：一个把 AI Agent 写进内核的 Linux，和它引发的争议",
       "s": "知名技术网红 DHH 在 37signals 内部孵化了 Omarchy。一个基于 Arch Linux + Hyprl…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502254/dhh-omarchy"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-01T18:38",
+      "t": "DeepSeek V4 多模态开源，我们把它的视觉链路拆了一遍",
+      "s": "图片不只被编码，还直接参与 Attention、MoE 与 Agent 推理。 作者丨郑佳美 编辑丨岑 峰 这不是一个全…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/Bixp8MkRrWzo3KZj.html"
     }
   ],
   "timeline": [
     [
-      "09-02 08:26",
+      "09-02 08:32",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245755,
+      "s": 245756,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243944,
+      "s": 243946,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113445,
+      "s": 113448,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
