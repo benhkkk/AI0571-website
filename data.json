@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-02T08:11:42",
+  "updated": "2026-09-02T08:16:53",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T08:11",
+      "d": "2026-09-02T08:16",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T08:13",
+      "t": "苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线",
+      "s": "苹果新任 CEO 约翰·特努斯在 X 平台发布首条动态向关注者问好 苹果首席执行官约翰·特努斯正式加入社交平台 X，并发…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369690"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "DeepSeek V4 多模态开源，我们把它的视觉链路拆了一遍",
       "s": "图片不只被编码，还直接参与 Attention、MoE 与 Agent 推理。 作者丨郑佳美 编辑丨岑 峰 这不是一个全…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/ai/Bixp8MkRrWzo3KZj.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T18:28",
-      "t": "Lovart 悄悄大更新，这一次轮到 AI 适应设计师了",
-      "s": "Just Design#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1677574?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-02 08:11",
+      "09-02 08:16",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-02 08:13",
+      "苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线"
     ],
     [
       "09-02 07:59",
@@ -162,10 +166,6 @@
     [
       "09-02 07:20",
       "【钛晨报】引导汽车企业规范境外竞争行为，三部门发文；Anthropic同英伟达支持的Lambda签署350亿美元云计算协议；电影暑期档收官，票房超124亿元"
-    ],
-    [
-      "09-02 06:28",
-      "Anthropic 发布 Claude Fable 5.1 和 Mythos 5.1：性能超越前代，缓存读取费用下调 75%"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245752,
+      "s": 245751,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173020,
+      "s": 173021,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143701,
+      "s": 143702,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135634,
+      "s": 135635,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113437,
+      "s": 113441,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91464,
+      "s": 91465,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
