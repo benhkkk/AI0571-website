@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-02T10:41:40",
+  "updated": "2026-09-02T10:46:42",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T10:41",
+      "d": "2026-09-02T10:46",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T10:41",
+      "d": "2026-09-02T10:46",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T10:45",
+      "t": "中国人民大学率先在高校开办“家长学堂”：探索 AI 时代高校家校社协同育人模式",
+      "s": "中国人民大学 8 月 21 日宣布率先在高校开办“家长学堂”，探索 AI 时代高校家校社协同育人模式。活动以线上线下相结…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/260.htm"
     },
     {
       "c": "HOT",
@@ -108,13 +115,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T08:34",
-      "t": "显卡价格一个月内上涨 15%：RTX 5090 越来越接近 5090 美元，较 MSRP 平均溢价 136%",
-      "s": "科技市场分析机构 TechSpot 于当地时间 8 月 31 日发布的全球 GPU 定价追踪报告显示，在截至 8 月底的…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/219.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-02T08:18",
       "t": "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布",
       "s": "苹果新任 CEO 特努斯 2027 财年目标薪酬为 5800 万美元 苹果向美国证券交易委员会提交的 8-K/A 文件显…（来源：爱范儿）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-02 10:41",
+      "09-02 10:46",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 10:41",
+      "09-02 10:46",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
+    ],
+    [
+      "09-02 10:45",
+      "中国人民大学率先在高校开办“家长学堂”：探索 AI 时代高校家校社协同育人模式"
     ],
     [
       "09-02 10:37",
@@ -162,10 +166,6 @@
     [
       "09-02 10:11",
       "2026年的一切，都只是Robocity的序幕"
-    ],
-    [
-      "09-02 10:11",
-      "库克十五年：守住了金币，失去了AI船票"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280476,
+      "s": 280479,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245798,
+      "s": 245800,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244060,
+      "s": 244063,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209405,
+      "s": 209408,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173032,
+      "s": 173034,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113519,
+      "s": 113521,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91490,
+      "s": 91492,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
