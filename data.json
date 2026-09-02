@@ -1,23 +1,16 @@
 {
-  "updated": "2026-09-02T11:31:40",
+  "updated": "2026-09-02T11:36:47",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-02T11:31",
-      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
-      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-09-02T11:31",
+      "d": "2026-09-02T11:36",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T11:31",
+      "d": "2026-09-02T11:36",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -63,6 +56,13 @@
       "t": "缓存读取价砍 75%：Fable 5.1 真正想卖的不是跑分",
       "s": "每百万 token 的缓存读取价格，从 1 美元降到 0.25 美元，降幅 75%。 这是 Claude Fable 5…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502267/claude-fable-and-mythos-5-1"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T10:48",
+      "t": "企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资",
+      "s": "AI客服日扛1.5万通电话（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/482967.html"
     },
     {
       "c": "MODEL",
@@ -144,15 +144,11 @@
   ],
   "timeline": [
     [
-      "09-02 11:31",
-      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
-    ],
-    [
-      "09-02 11:31",
+      "09-02 11:36",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 11:31",
+      "09-02 11:36",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-02 11:06",
       "协作表格有“历史记录”：微软 Excel 用 AI 梳理变化，明晰谁改的、改了什么"
+    ],
+    [
+      "09-02 10:55",
+      "上海交大连文昭：机器人进实验室，先把100件事做可靠"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280499,
+      "s": 280500,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244115,
+      "s": 244117,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209416,
+      "s": 209418,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173043,
+      "s": 173044,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143712,
+      "s": 143713,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135651,
+      "s": 135652,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113540,
+      "s": 113544,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102289,
+      "s": 102290,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
