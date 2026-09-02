@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T06:55:46",
+  "updated": "2026-09-03T07:01:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T06:52",
+      "t": "Gemini 3.8 Flash 光速发布：干活挺勤快，就是没开窍",
+      "s": "Gemini 圣质如初#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678197?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T06:42",
@@ -133,16 +140,13 @@
       "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
       "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125160.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-02T17:46",
-      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
-      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
+    [
+      "09-03 06:52",
+      "Gemini 3.8 Flash 光速发布：干活挺勤快，就是没开窍"
+    ],
     [
       "09-03 06:42",
       "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU"
@@ -162,10 +166,6 @@
     [
       "09-02 22:49",
       "全美最严格课堂 AI 禁令落地纽约，学生上高中之前不得在课上使用"
-    ],
-    [
-      "09-02 21:44",
-      "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280821,
+      "s": 280822,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246283,
+      "s": 246284,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245170,
+      "s": 245174,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173251,
+      "s": 173252,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135773,
+      "s": 135774,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113992,
+      "s": 113994,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102599,
+      "s": 102600,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
