@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-02T15:50:48",
+  "updated": "2026-09-02T15:55:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T15:50",
+      "d": "2026-09-02T15:55",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-02T15:47",
-      "t": "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？",
-      "s": "库克卸任苹果公司CEO。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124769.html"
+      "c": "MODEL",
+      "d": "2026-09-02T15:52",
+      "t": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
+      "s": "豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/506.htm"
     },
     {
       "c": "INDUSTRY",
@@ -79,13 +79,6 @@
       "u": "https://www.ithome.com/0/997/440.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-02T14:55",
-      "t": "腾讯 WorkBuddy 开放平台上线，将全面开放 Agent 基座能力",
-      "s": "腾讯 WorkBuddy 开放平台今日上线，首批入驻共创伙伴超百家，面向智能硬件、行业应用与开发者等开放底层 Agent…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/435.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-02T14:54",
       "t": "从几百元，涨到一万元，婴儿床正在被「具身智能」重新定价",
@@ -140,16 +133,23 @@
       "t": "拥有海量数据，工业AI却为何跑不出来？",
       "s": "在工业领域，数据库要做的事，就是听懂这个世界每一台机器说的话。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125446.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T11:53",
+      "t": "大模型厂商，正忙着自备“干粮”",
+      "s": "当模型公司开始用AI设计AI芯片，会对行业格局带来哪些影响？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124383.html"
     }
   ],
   "timeline": [
     [
-      "09-02 15:50",
+      "09-02 15:55",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
-      "09-02 15:47",
-      "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？"
+      "09-02 15:52",
+      "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑"
     ],
     [
       "09-02 15:44",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280583,
+      "s": 280587,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245903,
+      "s": 245906,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244344,
+      "s": 244355,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209465,
+      "s": 209466,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173088,
+      "s": 173090,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143732,
+      "s": 143734,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113683,
+      "s": 113685,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91553,
+      "s": 91554,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
