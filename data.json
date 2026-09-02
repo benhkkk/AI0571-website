@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T18:55:53",
+  "updated": "2026-09-02T19:01:25",
   "news": [
     {
       "c": "MODEL",
@@ -128,18 +128,18 @@
       "u": "https://www.ithome.com/0/997/506.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T15:51",
-      "t": "AI制药，抵达狂欢前夜?",
-      "s": "AI制药，抵达狂欢前夜?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680842385139581482/"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-02T15:47",
       "t": "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？",
       "s": "库克卸任苹果公司CEO。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124769.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T15:44",
+      "t": "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在",
+      "s": "据中国台湾地区媒体《经济日报》今天报道，谷歌 AI 与基础设施高级副总裁、首席技术专家 Amin Vahdat 日前谈到…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/501.htm"
     }
   ],
   "timeline": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245970,
+      "s": 245971,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244542,
+      "s": 244545,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209519,
+      "s": 209520,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143754,
+      "s": 143755,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113758,
+      "s": 113761,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102362,
+      "s": 102364,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91588,
+      "s": 91589,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
