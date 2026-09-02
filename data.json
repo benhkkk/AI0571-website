@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-02T23:31:17",
+  "updated": "2026-09-02T23:35:56",
   "news": [
     {
-      "c": "HOT",
+      "c": "MODEL",
       "d": "2026-09-02T23:31",
-      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
-      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
+      "t": "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景",
+      "s": "谷歌今天（2 日）在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型。其基于 G…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/702.htm"
     },
     {
       "c": "HOT",
@@ -63,13 +63,6 @@
       "t": "研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感",
       "s": "老年时期的孤独并不只是情感上的负担。研究估计，新加坡 60 岁及以上人群中，有 17% 至 47% 处于社会孤立状态，接…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/657.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T20:29",
-      "t": "OpenAI 因校园枪击案面临 30 起新诉讼，被指控帮助和教唆枪手犯罪",
-      "s": "今年 4 月，代表与加拿大不列颠哥伦比亚省坦布勒里奇（Tumbler Ridge）大规模枪击案相关受害者及家属，对 Op…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/653.htm"
     },
     {
       "c": "MODEL",
@@ -140,12 +133,19 @@
       "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
       "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125160.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-02T17:46",
+      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
+      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
     [
       "09-02 23:31",
-      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
+      "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景"
     ],
     [
       "09-02 23:00",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280741,
+      "s": 280743,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246085,
+      "s": 246086,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244828,
+      "s": 244835,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209581,
+      "s": 209582,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173196,
+      "s": 173198,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143777,
+      "s": 143778,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102459,
+      "s": 102460,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91646,
+      "s": 91647,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
