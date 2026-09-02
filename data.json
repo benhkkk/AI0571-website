@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-02T08:16:53",
+  "updated": "2026-09-02T08:21:44",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-02T08:16",
+      "d": "2026-09-02T08:21",
       "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
       "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T08:18",
+      "t": "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布",
+      "s": "苹果新任 CEO 特努斯 2027 财年目标薪酬为 5800 万美元 苹果向美国证券交易委员会提交的 8-K/A 文件显…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678080?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "Omarchy：一个把 AI Agent 写进内核的 Linux，和它引发的争议",
       "s": "知名技术网红 DHH 在 37signals 内部孵化了 Omarchy。一个基于 Arch Linux + Hyprl…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502254/dhh-omarchy"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-01T18:38",
-      "t": "DeepSeek V4 多模态开源，我们把它的视觉链路拆了一遍",
-      "s": "图片不只被编码，还直接参与 Attention、MoE 与 Agent 推理。 作者丨郑佳美 编辑丨岑 峰 这不是一个全…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/Bixp8MkRrWzo3KZj.html"
     }
   ],
   "timeline": [
     [
-      "09-02 08:16",
+      "09-02 08:21",
       "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+    ],
+    [
+      "09-02 08:18",
+      "早报｜戴森发布499美元AI牙刷,带摄像头/华为、小米、荣耀手机集体涨价/最强模型Fable 5.1发布"
     ],
     [
       "09-02 08:13",
@@ -162,10 +166,6 @@
     [
       "09-02 07:40",
       "OpenAI 吸取“AI 越狱”事件教训，首个达“关键”门槛模型 Astra 因能力过强将限制网络安全功能"
-    ],
-    [
-      "09-02 07:20",
-      "【钛晨报】引导汽车企业规范境外竞争行为，三部门发文；Anthropic同英伟达支持的Lambda签署350亿美元云计算协议；电影暑期档收官，票房超124亿元"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245751,
+      "s": 245753,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243941,
+      "s": 243944,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209385,
+      "s": 209386,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173021,
+      "s": 173023,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113441,
+      "s": 113442,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91465,
+      "s": 91466,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
