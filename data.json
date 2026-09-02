@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T00:05:55",
+  "updated": "2026-09-03T00:10:51",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T00:09",
+      "t": "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护",
+      "s": "当地时间 9 月 2 日，谷歌宣布推出 Gemini 3.8 Flash Cyber 模型，通过 Fairwind 计划…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/708.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-02T23:31",
@@ -56,13 +63,6 @@
       "t": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
       "s": "据外媒 Android Authority 今天（2 日）晚间报道，在公布下一代旗舰处理器的 CPU 升级细节后，高通又…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/663.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T20:56",
-      "t": "研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感",
-      "s": "老年时期的孤独并不只是情感上的负担。研究估计，新加坡 60 岁及以上人群中，有 17% 至 47% 处于社会孤立状态，接…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/657.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-03 00:09",
+      "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护"
+    ],
+    [
       "09-02 23:31",
       "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景"
     ],
@@ -162,10 +166,6 @@
     [
       "09-02 21:41",
       "研究发现：AI 客服“更像人”未必带来更佳体验"
-    ],
-    [
-      "09-02 21:37",
-      "英伟达 CEO 黄仁勋呼吁 G20 成员国加快发展、应用 AI，以促进经济增长"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246095,
+      "s": 246098,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244867,
+      "s": 244871,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209590,
+      "s": 209592,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113863,
+      "s": 113872,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102472,
+      "s": 102475,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
