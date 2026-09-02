@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T23:01:03",
+  "updated": "2026-09-02T23:06:08",
   "news": [
     {
       "c": "HOT",
@@ -7,13 +7,6 @@
       "t": "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器",
       "s": "据 Wccftech 报道，DRAM 领域的供应持续吃紧，迫使 AI 服务商不得不各出奇招，只为抢购极度紧缺的内存资源…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/687.htm"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-02T23:00",
-      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
-      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
     },
     {
       "c": "INDUSTRY",
@@ -140,16 +133,19 @@
       "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
       "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125160.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-02T17:46",
+      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
+      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
     [
       "09-02 23:00",
       "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器"
-    ],
-    [
-      "09-02 23:00",
-      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
       "09-02 22:49",
@@ -166,6 +162,10 @@
     [
       "09-02 21:37",
       "英伟达 CEO 黄仁勋呼吁 G20 成员国加快发展、应用 AI，以促进经济增长"
+    ],
+    [
+      "09-02 21:34",
+      "AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280734,
+      "s": 280735,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246078,
+      "s": 246080,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244800,
+      "s": 244804,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209572,
+      "s": 209573,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173187,
+      "s": 173188,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143778,
+      "s": 143777,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113839,
+      "s": 113840,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91640,
+      "s": 91641,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
