@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-02T22:30:54",
+  "updated": "2026-09-02T22:35:51",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-02T22:30",
-      "t": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展",
-      "s": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260821/963101.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-02T21:44",
@@ -140,13 +133,16 @@
       "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
       "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125160.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-02T17:46",
+      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
+      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
-    [
-      "09-02 22:30",
-      "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展"
-    ],
     [
       "09-02 21:44",
       "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型"
@@ -166,6 +162,10 @@
     [
       "09-02 21:25",
       "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果"
+    ],
+    [
+      "09-02 20:56",
+      "研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246066,
+      "s": 246068,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244769,
+      "s": 244773,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209568,
+      "s": 209569,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135735,
+      "s": 135737,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113828,
+      "s": 113831,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102428,
+      "s": 102434,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91636,
+      "s": 91635,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
