@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-02T18:35:50",
+  "updated": "2026-09-02T18:40:49",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T18:30",
+      "t": "李飞飞的 World Labs，把赛博朋克的「超梦」做出来了",
+      "s": "世界模型的「ChatGPT 时刻」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678150?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MODEL",
       "d": "2026-09-02T18:20",
@@ -66,6 +73,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-02T17:22",
+      "t": "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来",
+      "s": "SkyProduction（天工工作台）全新版本于8月31日正式上线（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483274.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-02T17:12",
       "t": "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元",
       "s": "用 Claude Code 写一个月代码要多少钱？问问研发工程师，答案都是几百美元起步。终端 AI 编程这个领域，能力上…（来源：OSCHINA）",
@@ -126,23 +140,13 @@
       "t": "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？",
       "s": "库克卸任苹果公司CEO。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124769.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-02T15:44",
-      "t": "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在",
-      "s": "据中国台湾地区媒体《经济日报》今天报道，谷歌 AI 与基础设施高级副总裁、首席技术专家 Amin Vahdat 日前谈到…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/501.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T15:31",
-      "t": "刚刚，李飞飞掀桌！全球首个多模态世界模型发布，几张照片省掉几百个机位",
-      "s": "大模型理解文字，李飞飞想让 Atlas 理解空间#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1678079?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "09-02 18:30",
+      "李飞飞的 World Labs，把赛博朋克的「超梦」做出来了"
+    ],
     [
       "09-02 18:20",
       "自变量发布 TwinDEX 三指九自由度灵巧操作手，纯无本体数据实现灵巧操作"
@@ -162,10 +166,6 @@
     [
       "09-02 17:53",
       "国内首部 AIGC 长剧：《后西游记》策划到上线时间较传统三维动画减少 70%，总成本约为同类 S 级真人剧几分之一"
-    ],
-    [
-      "09-02 17:52",
-      "制造业有了本体，大模型就能落地吗 | 智造观察"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245961,
+      "s": 245963,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244525,
+      "s": 244529,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209514,
+      "s": 209516,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143753,
+      "s": 143754,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113750,
+      "s": 113752,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102358,
+      "s": 102360,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91582,
+      "s": 91585,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
