@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-02T19:03', t:'联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡', s:'联想来酷 Lecoo 今日在B站公布 GT 16 AI 全能本。据官方介绍，这款笔记本为 AI 全场景办公 & 游戏而生…（来源：IT之家）', u:'https://www.ithome.com/0/997/633.htm'},
+    {c:'MODEL', d:'2026-09-02T18:54', t:'Claude Desktop 被 Ollama 偷梁换柱', s:'第三方模型绕过限制入驻 Claude（来源：钛媒体）', u:'https://www.tmtpost.com/8125118.html'},
+    {c:'MODEL', d:'2026-09-02T18:53', t:'Keep的AI棋局', s:'在Keep成立10周年之际，创始人王宁发布全员信，宣布All in AI。（来源：钛媒体）', u:'https://www.tmtpost.com/8125756.html'},
     {c:'MODEL', d:'2026-09-02T18:30', t:'李飞飞的 World Labs，把赛博朋克的「超梦」做出来了', s:'世界模型的「ChatGPT 时刻」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）', u:'https://www.ifanr.com/1678150?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-02T18:20', t:'自变量发布 TwinDEX 三指九自由度灵巧操作手，纯无本体数据实现灵巧操作', s:'具身机器人企业自变量今日发布了一对孪生的三指九自由度灵巧操作手 TwinDEX。据官方介绍，该灵巧操作手一个可穿戴，用于…（来源：IT之家）', u:'https://www.ithome.com/0/997/614.htm'},
     {c:'HOT', d:'2026-09-02T18:08', t:'台积电侯永清：AI 带来的需求变化过去 30 年从未见过，建厂速度提高至约 5 倍仍无法满足需求', s:'据台媒经济日报报道，台积电资深副总经理侯永清表示，AI 带来的需求成长幅度及变化频率，是过去 30 年从未见过的情况。为…（来源：IT之家）', u:'https://www.ithome.com/0/997/576.htm'},
@@ -474,29 +477,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-02T17:03', t:'ChatGPT 桌面应用里藏着 430MB 的 LibreOffice', s:'Simon Willison 在清理磁盘时发现了一个 1.7GB 的目录。他打开一看，里面装着一整套 LibreOffi…（来源：OSCHINA）', u:'https://www.oschina.net/news/502272/chatgpt-codex-libreoffice'},
     {c:'INDUSTRY', d:'2026-09-02T16:42', t:'盖茨用6000字劝AI慢一点，却劝来了7500亿的油门', s:'一个给这个行业踩了50年油门的人，第一次喊刹车。（来源：钛媒体）', u:'https://www.tmtpost.com/8124978.html'},
     {c:'MODEL', d:'2026-09-02T16:42', t:'微软、谷歌、亚马逊三大云巨头，现在要给Kimi交模型税了！', s:'开源不是做慈善，是先放水养鱼（来源：钛媒体）', u:'https://www.tmtpost.com/8125170.html'},
-    {c:'HOT', d:'2026-09-02T16:42', t:'单月收入9亿，够智谱敬自己一杯了', s:'比起收入，大家更关心SOTA能不能延续。（来源：钛媒体）', u:'https://www.tmtpost.com/8125056.html'},
     {c:'MODEL', d:'2026-09-02T16:15', t:'魅族 AI 小方块有望回归，概念机亮相腾讯 WorkBuddy 生态发布会', s:'在今日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相。魅族 AI 小方块概念机搭载基于原生 AI…（来源：IT之家）', u:'https://www.ithome.com/0/997/513.htm'},
     {c:'MODEL', d:'2026-09-02T15:52', t:'豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑', s:'豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能…（来源：IT之家）', u:'https://www.ithome.com/0/997/506.htm'},
-    {c:'HOT', d:'2026-09-02T15:47', t:'市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？', s:'库克卸任苹果公司CEO。（来源：钛媒体）', u:'https://www.tmtpost.com/8124769.html'},
-    {c:'INDUSTRY', d:'2026-09-02T15:44', t:'谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在', s:'据中国台湾地区媒体《经济日报》今天报道，谷歌 AI 与基础设施高级副总裁、首席技术专家 Amin Vahdat 日前谈到…（来源：IT之家）', u:'https://www.ithome.com/0/997/501.htm'},
   ];
   const TIMELINE = [
+    ['09-02 19:03','联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡'],
+    ['09-02 18:54','Claude Desktop 被 Ollama 偷梁换柱'],
+    ['09-02 18:53','Keep的AI棋局'],
     ['09-02 18:30','李飞飞的 World Labs，把赛博朋克的「超梦」做出来了'],
     ['09-02 18:20','自变量发布 TwinDEX 三指九自由度灵巧操作手，纯无本体数据实现灵巧操作'],
     ['09-02 18:08','台积电侯永清：AI 带来的需求变化过去 30 年从未见过，建厂速度提高至约 5 倍仍无法满足需求'],
-    ['09-02 17:58','AI公司请达人说好话，得加钱了'],
-    ['09-02 17:58','Claude Fable 5.1发布：跑分翻倍是面子，思考块"上锁"才是里子'],
-    ['09-02 17:53','国内首部 AIGC 长剧：《后西游记》策划到上线时间较传统三维动画减少 70%，总成本约为同类 S 级真人剧几分之一'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280654, u:'https://github.com/obra/superpowers', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280657, u:'https://github.com/obra/superpowers', new:false},
     {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:245971, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:244545, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209520, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:244550, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209521, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173135, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143755, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135707, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113761, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135709, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113763, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102364, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91589, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
