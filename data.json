@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-02T09:46:43",
+  "updated": "2026-09-02T09:51:49",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T09:46",
+      "d": "2026-09-02T09:51",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -21,6 +21,13 @@
       "t": "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩",
       "s": "AI在提升“可读性”的同时，可能也在削弱我们对人类的“可读性”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123815.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T09:07",
+      "t": "李飞飞发布：全球首个多模态世界模型",
+      "s": "一张图补全3D世界，还能给机器人造训练场（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/482586.html"
     },
     {
       "c": "MODEL",
@@ -133,18 +140,11 @@
       "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
       "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/482512.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T19:22",
-      "t": "每周一天，关掉 AI 写代码",
-      "s": "Carson Gross 决定每周五不写代码。 不是不工作，是不用 AI 辅助写代码。他是 htmx 的创造者，一个以「…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502256/no-ai-fridays"
     }
   ],
   "timeline": [
     [
-      "09-02 09:46",
+      "09-02 09:51",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
@@ -156,16 +156,16 @@
       "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩"
     ],
     [
+      "09-02 09:07",
+      "李飞飞发布：全球首个多模态世界模型"
+    ],
+    [
       "09-02 08:52",
       "HUMAIN 发布 WoA 笔电 Horizon (Ultra)，明年新品搭载自有操作系统"
     ],
     [
       "09-02 08:47",
       "Edge AI Daily 早报（9月2日）"
-    ],
-    [
-      "09-02 08:34",
-      "显卡价格一个月内上涨 15%：RTX 5090 越来越接近 5090 美元，较 MSRP 平均溢价 136%"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245779,
+      "s": 245780,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244010,
+      "s": 244015,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209396,
+      "s": 209398,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113492,
+      "s": 113495,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102274,
+      "s": 102275,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91484,
+      "s": 91485,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
