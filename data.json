@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-02T15:20:54",
+  "updated": "2026-09-02T15:25:49",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T15:20",
+      "d": "2026-09-02T15:25",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-02T15:20",
+      "d": "2026-09-02T15:25",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T15:22",
+      "t": "美国呼吁 G20 成员国对 AI 监管采取克制态度，避免制定过多新规则",
+      "s": "据路透社报道，美国当地时间周二呼吁二十国集团（G20）成员国对人工智能监管采取更为谨慎、克制的态度，避免针对 AI 制定…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/474.htm"
     },
     {
       "c": "MODEL",
@@ -107,13 +114,6 @@
       "u": "https://www.ithome.com/0/997/409.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-02T14:00",
-      "t": "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用",
-      "s": "科技媒体 Android Authority 昨日（9 月 1 日）发布博文，报道称谷歌已开始向 Pixel 10、Pi…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/408.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-02T12:02",
       "t": "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-02 15:20",
+      "09-02 15:25",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
-      "09-02 15:20",
+      "09-02 15:25",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
+    ],
+    [
+      "09-02 15:22",
+      "美国呼吁 G20 成员国对 AI 监管采取克制态度，避免制定过多新规则"
     ],
     [
       "09-02 14:59",
@@ -162,10 +166,6 @@
     [
       "09-02 14:55",
       "腾讯 WorkBuddy 开放平台上线，将全面开放 Agent 基座能力"
-    ],
-    [
-      "09-02 14:54",
-      "从几百元，涨到一万元，婴儿床正在被「具身智能」重新定价"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280571,
+      "s": 280572,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245891,
+      "s": 245893,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244317,
+      "s": 244321,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209459,
+      "s": 209461,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143727,
+      "s": 143729,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135679,
+      "s": 135680,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113670,
+      "s": 113673,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102322,
+      "s": 102323,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91545,
+      "s": 91546,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
