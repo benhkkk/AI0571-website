@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02T13:05:54",
+  "updated": "2026-09-02T13:10:54",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:05",
+      "d": "2026-09-02T13:10",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:05",
+      "d": "2026-09-02T13:10",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -86,6 +86,13 @@
       "u": "https://www.ithome.com/0/997/267.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-02T11:05",
+      "t": "建立AI时代“度量衡”：OPPO联合OpenKG推出首个端侧AI记忆评测基准MobileMem",
+      "s": "随着终端AI从“回答问题”走向长期理解用户和主动任务执行，记忆能力正成为决定AI个性化与主动服务水平的关键基础能力。近日…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/PXii3It1SuG1KANO.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-09-02T10:55",
       "t": "上海交大连文昭：机器人进实验室，先把100件事做可靠",
@@ -129,13 +136,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T10:21",
-      "t": "手机 AI 谁更强，OPPO 联合多所高校推出端侧 AI 记忆评测基准 MobileMem",
-      "s": "OPPO 首席产品官、一加创始人刘作虎今日发文，OPPO 联合 OpenKG，以及浙江大学、同济大学、东南大学等高校团队…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/251.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-02T10:18",
       "t": "Claude最强Fable 5.1发布！8项屠榜，最高降价45%，反蒸馏机制上线",
       "s": "无论你此前让Claude处理什么任务，Fable 5.1都能做更多，并且把最难的部分完成得更出色（来源：量子位）",
@@ -144,11 +144,11 @@
   ],
   "timeline": [
     [
-      "09-02 13:05",
+      "09-02 13:10",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 13:05",
+      "09-02 13:10",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280523,
+      "s": 280524,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245837,
+      "s": 245841,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244182,
+      "s": 244188,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209430,
+      "s": 209432,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173050,
+      "s": 173051,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135660,
+      "s": 135661,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113603,
+      "s": 113608,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
