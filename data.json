@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-02T18:05:55",
+  "updated": "2026-09-02T18:11:11",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-02T18:08",
+      "t": "台积电侯永清：AI 带来的需求变化过去 30 年从未见过，建厂速度提高至约 5 倍仍无法满足需求",
+      "s": "据台媒经济日报报道，台积电资深副总经理侯永清表示，AI 带来的需求成长幅度及变化频率，是过去 30 年从未见过的情况。为…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/576.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-02T17:53",
@@ -35,13 +42,6 @@
       "t": "AI 应用皆可报名，我们把大赛门槛打下来了",
       "s": "2026 上海开源软件应用创新大赛正火热报名中。本次大赛由开源中国主办，设 AI+工业软件、智算云、开源 AI 工具三个…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502274"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T17:22",
-      "t": "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来",
-      "s": "SkyProduction（天工工作台）全新版本于8月31日正式上线（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483274.html"
     },
     {
       "c": "MODEL",
@@ -128,21 +128,25 @@
       "u": "https://www.ithome.com/0/997/499.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-02T15:33",
-      "t": "宇树机器狗隐秘灰产链曝光，改电池标签“偷渡”上飞机",
-      "s": "蓝鲸新闻今日曝光了宇树机器狗隐秘灰产链，闲鱼平台上，部分机器人租赁商通过篡改宇树科技机器狗电池标签的方式，试图将高容量电…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/497.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-02T15:31",
       "t": "刚刚，李飞飞掀桌！全球首个多模态世界模型发布，几张照片省掉几百个机位",
       "s": "大模型理解文字，李飞飞想让 Atlas 理解空间#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1678079?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T15:15",
+      "t": "腾讯WorkBuddy开放平台上线：首批超百家伙伴入局 国内首个同时打通软硬件、开发者三层生态的Agent基座",
+      "s": "9月2日，腾讯WorkBuddy宣布开放平台（open.WorkBuddy.cn）正式上线，首批引入超百家生态伙伴，面向…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/3BBOm1CluS1kcwFf.html"
     }
   ],
   "timeline": [
+    [
+      "09-02 18:08",
+      "台积电侯永清：AI 带来的需求变化过去 30 年从未见过，建厂速度提高至约 5 倍仍无法满足需求"
+    ],
     [
       "09-02 17:53",
       "国内首部 AIGC 长剧：《后西游记》策划到上线时间较传统三维动画减少 70%，总成本约为同类 S 级真人剧几分之一"
@@ -162,10 +166,6 @@
     [
       "09-02 17:30",
       "AI 应用皆可报名，我们把大赛门槛打下来了"
-    ],
-    [
-      "09-02 17:22",
-      "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280642,
+      "s": 280643,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245954,
+      "s": 245955,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244492,
+      "s": 244495,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209503,
+      "s": 209508,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173121,
+      "s": 173124,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113739,
+      "s": 113740,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91577,
+      "s": 91576,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
