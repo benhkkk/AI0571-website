@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T17:45:51",
+  "updated": "2026-09-02T17:50:50",
   "news": [
     {
       "c": "MODEL",
@@ -14,6 +14,13 @@
       "t": "AI 应用皆可报名，我们把大赛门槛打下来了",
       "s": "2026 上海开源软件应用创新大赛正火热报名中。本次大赛由开源中国主办，设 AI+工业软件、智算云、开源 AI 工具三个…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502274"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T17:22",
+      "t": "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来",
+      "s": "SkyProduction（天工工作台）全新版本于8月31日正式上线（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483274.html"
     },
     {
       "c": "MODEL",
@@ -133,13 +140,6 @@
       "t": "对话黄青虬：成立半年估值 70 亿，阿里腾讯联投，交出了能「长程执行」的第一个自研模型",
       "s": "作者｜苏子华 编辑｜靖宇 机器人行业现在最关心的一个问题：它能干完一整件事吗？ 几十秒的抓取物品的视频已经撑不起估值了…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369724"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T14:54",
-      "t": "从几百元，涨到一万元，婴儿床正在被「具身智能」重新定价",
-      "s": "作者｜苏子华 编辑｜靖宇 极客公园最近发现，婴儿床这个品类正在被 AI，或者说被「具身智能」重新定价。从一张几百元的价格…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369719"
     }
   ],
   "timeline": [
@@ -152,6 +152,10 @@
       "AI 应用皆可报名，我们把大赛门槛打下来了"
     ],
     [
+      "09-02 17:22",
+      "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来"
+    ],
+    [
       "09-02 17:12",
       "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元"
     ],
@@ -162,10 +166,6 @@
     [
       "09-02 16:42",
       "盖茨用6000字劝AI慢一点，却劝来了7500亿的油门"
-    ],
-    [
-      "09-02 16:42",
-      "微软、谷歌、亚马逊三大云巨头，现在要给Kimi交模型税了！"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280634,
+      "s": 280636,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245952,
+      "s": 245953,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244475,
+      "s": 244478,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173117,
+      "s": 173119,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113732,
+      "s": 113733,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91573,
+      "s": 91575,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
