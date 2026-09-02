@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-02T21:37', t:'英伟达 CEO 黄仁勋呼吁 G20 成员国加快发展、应用 AI，以促进经济增长', s:'据彭博社今天（2 日）报道，英伟达 CEO 黄仁勋呼吁二十国集团（G20）成员加快发展和应用人工智能，以促进经济增长，同…（来源：IT之家）', u:'https://www.ithome.com/0/997/665.htm'},
     {c:'MODEL', d:'2026-09-02T21:25', t:'高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果', s:'据外媒 Android Authority 今天（2 日）晚间报道，在公布下一代旗舰处理器的 CPU 升级细节后，高通又…（来源：IT之家）', u:'https://www.ithome.com/0/997/663.htm'},
     {c:'HOT', d:'2026-09-02T20:56', t:'研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感', s:'老年时期的孤独并不只是情感上的负担。研究估计，新加坡 60 岁及以上人群中，有 17% 至 47% 处于社会孤立状态，接…（来源：IT之家）', u:'https://www.ithome.com/0/997/657.htm'},
     {c:'HOT', d:'2026-09-02T20:29', t:'OpenAI 因校园枪击案面临 30 起新诉讼，被指控帮助和教唆枪手犯罪', s:'今年 4 月，代表与加拿大不列颠哥伦比亚省坦布勒里奇（Tumbler Ridge）大规模枪击案相关受害者及家属，对 Op…（来源：IT之家）', u:'https://www.ithome.com/0/997/653.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-02T17:52', t:'制造业有了本体，大模型就能落地吗 | 智造观察', s:'从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）', u:'https://www.tmtpost.com/8125160.html'},
     {c:'MEDDEVICE', d:'2026-09-02T17:46', t:'鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...', s:'鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）', u:'https://www.toutiao.com/article/7680871944786330138/'},
     {c:'MODEL', d:'2026-09-02T17:45', t:'AI公司终于赚钱了，商汤做对了什么？', s:'一套模型+一座Token工厂+一套智能体管控系统，这“三个一”正在成为支撑商汤主营业务持续增长的新型AI生产体系。（来源：钛媒体）', u:'https://www.tmtpost.com/8125570.html'},
-    {c:'MODEL', d:'2026-09-02T17:30', t:'AI 应用皆可报名，我们把大赛门槛打下来了', s:'2026 上海开源软件应用创新大赛正火热报名中。本次大赛由开源中国主办，设 AI+工业软件、智算云、开源 AI 工具三个…（来源：OSCHINA）', u:'https://www.oschina.net/news/502274'},
   ];
   const TIMELINE = [
+    ['09-02 21:37','英伟达 CEO 黄仁勋呼吁 G20 成员国加快发展、应用 AI，以促进经济增长'],
     ['09-02 21:25','高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果'],
     ['09-02 20:56','研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感'],
     ['09-02 20:29','OpenAI 因校园枪击案面临 30 起新诉讼，被指控帮助和教唆枪手犯罪'],
     ['09-02 19:44','Kimi API 已原生支持 Codex 和 Claude Code'],
     ['09-02 19:24','李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界'],
-    ['09-02 19:21','宏碁带来 Veriton RI110 迷你主机 AI 工作站，基于 X7 358H'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280710, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246036, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:244694, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246039, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:244708, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209554, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173167, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143769, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143768, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135729, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113809, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102403, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91617, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113810, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102404, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91620, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
