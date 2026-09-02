@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-02T17:15:54",
+  "updated": "2026-09-02T17:20:47",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T17:12",
+      "t": "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元",
+      "s": "用 Claude Code 写一个月代码要多少钱？问问研发工程师，答案都是几百美元起步。终端 AI 编程这个领域，能力上…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502273/oschina-opensource-mothx-ai-coding-cli-agent-harness-vibe"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-02T17:03",
@@ -42,13 +49,6 @@
       "t": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
       "s": "豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/506.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T15:51",
-      "t": "AI制药，抵达狂欢前夜?",
-      "s": "AI制药，抵达狂欢前夜?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680842385139581482/"
     },
     {
       "c": "HOT",
@@ -108,6 +108,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-02T15:15",
+      "t": "腾讯WorkBuddy开放平台上线：首批超百家伙伴入局 国内首个同时打通软硬件、开发者三层生态的Agent基座",
+      "s": "9月2日，腾讯WorkBuddy宣布开放平台（open.WorkBuddy.cn）正式上线，首批引入超百家生态伙伴，面向…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/3BBOm1CluS1kcwFf.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-02T14:59",
       "t": "对话黄青虬：成立半年估值 70 亿，阿里腾讯联投，交出了能「长程执行」的第一个自研模型",
       "s": "作者｜苏子华 编辑｜靖宇 机器人行业现在最关心的一个问题：它能干完一整件事吗？ 几十秒的抓取物品的视频已经撑不起估值了…（来源：极客公园）",
@@ -133,16 +140,13 @@
       "t": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
       "s": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483104.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:11",
-      "t": "AIROBO联手中科院力学所，机器人运营技术注入国家科研力量",
-      "s": "当行业将大量注意力投向人形机器人、本体制造和基础模型时，机器人进入现实世界后的“运行问题”，正在成为另一个关键技术战场…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/em9VVsPQwYhn37XN.html"
     }
   ],
   "timeline": [
+    [
+      "09-02 17:12",
+      "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元"
+    ],
     [
       "09-02 17:03",
       "ChatGPT 桌面应用里藏着 430MB 的 LibreOffice"
@@ -162,10 +166,6 @@
     [
       "09-02 16:15",
       "魅族 AI 小方块有望回归，概念机亮相腾讯 WorkBuddy 生态发布会"
-    ],
-    [
-      "09-02 15:52",
-      "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280617,
+      "s": 280619,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245940,
+      "s": 245943,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244444,
+      "s": 244453,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173109,
+      "s": 173110,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143745,
+      "s": 143749,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113719,
+      "s": 113721,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102345,
+      "s": 102346,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
