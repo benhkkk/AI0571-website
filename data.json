@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-02T16:50:52",
+  "updated": "2026-09-02T16:55:47",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T16:42",
+      "t": "盖茨用6000字劝AI慢一点，却劝来了7500亿的油门",
+      "s": "一个给这个行业踩了50年油门的人，第一次喊刹车。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124978.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T16:42",
+      "t": "微软、谷歌、亚马逊三大云巨头，现在要给Kimi交模型税了！",
+      "s": "开源不是做慈善，是先放水养鱼（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8125170.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T16:42",
+      "t": "单月收入9亿，够智谱敬自己一杯了",
+      "s": "比起收入，大家更关心SOTA能不能延续。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8125056.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-02T16:15",
@@ -119,30 +140,21 @@
       "t": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
       "s": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483101.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:06",
-      "t": "前字节强化学习专家孙鹏博士加盟星尘智能，完善Physical AI全栈技术布局",
-      "s": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483097.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:02",
-      "t": "阿里云企业级Agent协作平台万有无界开启公测",
-      "s": "9月2日，阿里云旗下企业级人与Agent协作平台“万有无界”开启公测。企业用户和个人用户均可通过官网(https://w…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/zMhNkoPgV5CMzeVi.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T12:02",
-      "t": "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值",
-      "s": "对不同集团而言，AI是对未来产品边界的一次提前建设。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8125431.html"
     }
   ],
   "timeline": [
+    [
+      "09-02 16:42",
+      "盖茨用6000字劝AI慢一点，却劝来了7500亿的油门"
+    ],
+    [
+      "09-02 16:42",
+      "微软、谷歌、亚马逊三大云巨头，现在要给Kimi交模型税了！"
+    ],
+    [
+      "09-02 16:42",
+      "单月收入9亿，够智谱敬自己一杯了"
+    ],
     [
       "09-02 16:15",
       "魅族 AI 小方块有望回归，概念机亮相腾讯 WorkBuddy 生态发布会"
@@ -154,18 +166,6 @@
     [
       "09-02 15:51",
       "AI制药，抵达狂欢前夜?"
-    ],
-    [
-      "09-02 15:47",
-      "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？"
-    ],
-    [
-      "09-02 15:44",
-      "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在"
-    ],
-    [
-      "09-02 15:41",
-      "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280605,
+      "s": 280607,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245928,
+      "s": 245930,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244418,
+      "s": 244423,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209476,
+      "s": 209478,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173103,
+      "s": 173104,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143739,
+      "s": 143740,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135699,
+      "s": 135700,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113708,
+      "s": 113709,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102338,
+      "s": 102340,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91565,
+      "s": 91566,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
