@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-03T06:40:50",
+  "updated": "2026-09-03T06:45:54",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T06:40",
+      "d": "2026-09-03T06:45",
       "t": "#AI与科学仪器",
       "s": "#AI与科学仪器（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-811.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-03T06:40",
+      "d": "2026-09-03T06:45",
       "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
       "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-03T06:40",
+      "d": "2026-09-03T06:45",
       "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
       "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T06:42",
+      "t": "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU",
+      "s": "数码博主 @白饭炒白米饭 于 8 月 30 日发布微博，通过焊点图，反推苹果 A20 Pro 芯片的规模以及内部结构，目…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/719.htm"
     },
     {
       "c": "MODEL",
@@ -77,13 +84,6 @@
       "t": "AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察",
       "s": "上海证明的是中国 AI 能站上多高的舞台，金沙检验的是它能不能进别人的预算表。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124464.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T21:25",
-      "t": "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果",
-      "s": "据外媒 Android Authority 今天（2 日）晚间报道，在公布下一代旗舰处理器的 CPU 升级细节后，高通又…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/663.htm"
     },
     {
       "c": "MODEL",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "09-03 06:40",
+      "09-03 06:45",
       "#AI与科学仪器"
     ],
     [
-      "09-03 06:40",
+      "09-03 06:45",
       "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
     ],
     [
-      "09-03 06:40",
+      "09-03 06:45",
       "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
+    ],
+    [
+      "09-03 06:42",
+      "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU"
     ],
     [
       "09-03 00:09",
@@ -162,10 +166,6 @@
     [
       "09-02 23:31",
       "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景"
-    ],
-    [
-      "09-02 23:00",
-      "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246273,
+      "s": 246276,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245163,
+      "s": 245166,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143805,
+      "s": 143806,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102593,
+      "s": 102597,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
