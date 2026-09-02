@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-02T21:01:23",
+  "updated": "2026-09-02T21:11:08",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-02T21:01",
-      "t": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展",
-      "s": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260821/963101.shtml"
-    },
     {
       "c": "HOT",
       "d": "2026-09-02T20:56",
@@ -128,6 +121,13 @@
       "u": "https://www.tmtpost.com/8125160.html"
     },
     {
+      "c": "MEDDEVICE",
+      "d": "2026-09-02T17:46",
+      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
+      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7680871944786330138/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-02T17:45",
       "t": "AI公司终于赚钱了，商汤做对了什么？",
@@ -143,10 +143,6 @@
     }
   ],
   "timeline": [
-    [
-      "09-02 21:01",
-      "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展"
-    ],
     [
       "09-02 20:56",
       "研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感"
@@ -166,6 +162,10 @@
     [
       "09-02 19:21",
       "宏碁带来 Veriton RI110 迷你主机 AI 工作站，基于 X7 358H"
+    ],
+    [
+      "09-02 19:03",
+      "联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280696,
+      "s": 280699,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246022,
+      "s": 246028,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244652,
+      "s": 244666,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209543,
+      "s": 209544,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173160,
+      "s": 173161,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135727,
+      "s": 135728,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113799,
+      "s": 113804,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102389,
+      "s": 102392,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91610,
+      "s": 91612,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
