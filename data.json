@@ -1,40 +1,33 @@
 {
-  "updated": "2026-09-02T14:20:52",
+  "updated": "2026-09-02T14:25:51",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T14:20",
+      "d": "2026-09-02T14:25",
       "t": "AI 时代，仪器企业怎么做才能拿到大模型的推荐票？",
       "s": "AI 时代，仪器企业怎么做才能拿到大模型的推荐票？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260820/962556.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-02T14:20",
+      "d": "2026-09-02T14:25",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-02T14:20",
+      "d": "2026-09-02T14:25",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T14:20",
+      "d": "2026-09-02T14:25",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:20",
-      "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
-      "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
     },
     {
       "c": "HOT",
@@ -140,32 +133,39 @@
       "t": "上海交大连文昭：机器人进实验室，先把100件事做可靠",
       "s": "对实验室场景的探索，是我们走向物理世界的开端。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125495.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T10:53",
+      "t": "谷歌 AI 图片设计工具 Pics 上线，Docs / Slides 办公套件可直接调用修图",
+      "s": "谷歌昨日（9 月 1 日）发布博文，宣布正式上线 AI 图像设计与编辑工具 Google Pics。用户可通过 pics…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/263.htm"
     }
   ],
   "timeline": [
     [
-      "09-02 14:20",
+      "09-02 14:25",
       "AI 时代，仪器企业怎么做才能拿到大模型的推荐票？"
     ],
     [
-      "09-02 14:20",
+      "09-02 14:25",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
-      "09-02 14:20",
+      "09-02 14:25",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
     ],
     [
-      "09-02 14:20",
+      "09-02 14:25",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
-    ],
-    [
-      "09-02 14:20",
-      "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
       "09-02 14:04",
       "努比亚倪飞：豆包手机计划 9 月开售"
+    ],
+    [
+      "09-02 14:00",
+      "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280546,
+      "s": 280547,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245860,
+      "s": 245862,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244241,
+      "s": 244242,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209444,
+      "s": 209445,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173068,
+      "s": 173070,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113647,
+      "s": 113648,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102308,
+      "s": 102309,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91530,
+      "s": 91532,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
