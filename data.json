@@ -1,9 +1,30 @@
 {
-  "updated": "2026-09-02T16:01:33",
+  "updated": "2026-09-02T16:05:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T16:01",
+      "d": "2026-09-02T16:05",
+      "t": "#人工智能&科学仪器",
+      "s": "#人工智能&科学仪器（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-658.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T16:05",
+      "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
+      "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T16:05",
+      "t": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知",
+      "s": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250221/768744.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T16:05",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
@@ -119,32 +140,23 @@
       "t": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
       "s": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483101.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:06",
-      "t": "前字节强化学习专家孙鹏博士加盟星尘智能，完善Physical AI全栈技术布局",
-      "s": "9月2日，前字节跳动强化学习专家、前腾讯Robotics X智能体中⼼负责⼈孙鹏博⼠正式加入星尘智能（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483097.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T12:02",
-      "t": "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值",
-      "s": "对不同集团而言，AI是对未来产品边界的一次提前建设。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8125431.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T12:00",
-      "t": "对话范承工：模型同质化时代，记忆才是AI真正的护城河",
-      "s": "AI下半场，比的是谁掌握记忆归属权。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8123503.html"
     }
   ],
   "timeline": [
     [
-      "09-02 16:01",
+      "09-02 16:05",
+      "#人工智能&科学仪器"
+    ],
+    [
+      "09-02 16:05",
+      "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
+    ],
+    [
+      "09-02 16:05",
+      "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知"
+    ],
+    [
+      "09-02 16:05",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
@@ -154,18 +166,6 @@
     [
       "09-02 15:51",
       "AI制药，抵达狂欢前夜?"
-    ],
-    [
-      "09-02 15:47",
-      "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？"
-    ],
-    [
-      "09-02 15:44",
-      "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在"
-    ],
-    [
-      "09-02 15:41",
-      "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280589,
+      "s": 280594,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245908,
+      "s": 245909,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244361,
+      "s": 244365,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209468,
+      "s": 209469,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173091,
+      "s": 173092,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143734,
+      "s": 143735,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135690,
+      "s": 135692,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113688,
+      "s": 113692,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102332,
+      "s": 102333,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91554,
+      "s": 91555,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
