@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-02T22:46:19",
+  "updated": "2026-09-02T22:50:49",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-02T22:50",
+      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
+      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T22:49",
+      "t": "全美最严格课堂 AI 禁令落地纽约，学生上高中之前不得在课上使用",
+      "s": "据外媒 The Verge 报道，纽约市市长佐赫兰 · 马姆达尼当地时间 2 日宣布，将在公立学校课堂限制年龄较小的学生…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/684.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-02T21:44",
@@ -66,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T19:21",
-      "t": "宏碁带来 Veriton RI110 迷你主机 AI 工作站，基于 X7 358H",
-      "s": "宏碁 (Acer) 今日发布基于英特尔酷睿 Ultra X7 处理器 358H 的迷你主机型 AI 工作站 Verito…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/637.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-02T18:54",
       "t": "Claude Desktop 被 Ollama 偷梁换柱",
       "s": "第三方模型绕过限制入驻 Claude（来源：钛媒体）",
@@ -133,16 +140,17 @@
       "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
       "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125160.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-02T17:46",
-      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
-      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
+    [
+      "09-02 22:50",
+      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "09-02 22:49",
+      "全美最严格课堂 AI 禁令落地纽约，学生上高中之前不得在课上使用"
+    ],
     [
       "09-02 21:44",
       "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型"
@@ -158,14 +166,6 @@
     [
       "09-02 21:34",
       "AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察"
-    ],
-    [
-      "09-02 21:25",
-      "高通披露新一代 Adreno GPU 细节：矩阵核心强化 AI 算力，有望进一步改善画面升频效果"
-    ],
-    [
-      "09-02 20:56",
-      "研究发现：老年群体更看重 AI 陪伴聊天机器人的真实感"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280729,
+      "s": 280727,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246076,
+      "s": 246075,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244782,
+      "s": 244786,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209569,
+      "s": 209571,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143777,
+      "s": 143778,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102436,
+      "s": 102437,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91636,
+      "s": 91638,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
