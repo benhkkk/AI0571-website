@@ -460,6 +460,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'MODEL', d:'2026-09-02T17:31', t:'“中国具身智能 Tier 1 产业联盟”成立，星源智与灵心巧手共同发起', s:'据界面新闻今天报道，由星源智与灵心巧手共同发起的“中国具身智能 Tier 1 产业联盟”今日正式成立。IT之家从原报道获…（来源：IT之家）', u:'https://www.ithome.com/0/997/543.htm'},
+    {c:'MODEL', d:'2026-09-02T17:30', t:'AI 应用皆可报名，我们把大赛门槛打下来了', s:'2026 上海开源软件应用创新大赛正火热报名中。本次大赛由开源中国主办，设 AI+工业软件、智算云、开源 AI 工具三个…（来源：OSCHINA）', u:'https://www.oschina.net/news/502274'},
     {c:'MODEL', d:'2026-09-02T17:12', t:'开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元', s:'用 Claude Code 写一个月代码要多少钱？问问研发工程师，答案都是几百美元起步。终端 AI 编程这个领域，能力上…（来源：OSCHINA）', u:'https://www.oschina.net/news/502273/oschina-opensource-mothx-ai-coding-cli-agent-harness-vibe'},
     {c:'MODEL', d:'2026-09-02T17:03', t:'ChatGPT 桌面应用里藏着 430MB 的 LibreOffice', s:'Simon Willison 在清理磁盘时发现了一个 1.7GB 的目录。他打开一看，里面装着一整套 LibreOffi…（来源：OSCHINA）', u:'https://www.oschina.net/news/502272/chatgpt-codex-libreoffice'},
     {c:'INDUSTRY', d:'2026-09-02T16:42', t:'盖茨用6000字劝AI慢一点，却劝来了7500亿的油门', s:'一个给这个行业踩了50年油门的人，第一次喊刹车。（来源：钛媒体）', u:'https://www.tmtpost.com/8124978.html'},
@@ -478,25 +479,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-02T15:15', t:'腾讯WorkBuddy开放平台上线：首批超百家伙伴入局 国内首个同时打通软硬件、开发者三层生态的Agent基座', s:'9月2日，腾讯WorkBuddy宣布开放平台（open.WorkBuddy.cn）正式上线，首批引入超百家生态伙伴，面向…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/3BBOm1CluS1kcwFf.html'},
     {c:'MODEL', d:'2026-09-02T14:59', t:'对话黄青虬：成立半年估值 70 亿，阿里腾讯联投，交出了能「长程执行」的第一个自研模型', s:'作者｜苏子华 编辑｜靖宇 机器人行业现在最关心的一个问题：它能干完一整件事吗？ 几十秒的抓取物品的视频已经撑不起估值了…（来源：极客公园）', u:'http://www.geekpark.net/news/369724'},
     {c:'HOT', d:'2026-09-02T14:54', t:'从几百元，涨到一万元，婴儿床正在被「具身智能」重新定价', s:'作者｜苏子华 编辑｜靖宇 极客公园最近发现，婴儿床这个品类正在被 AI，或者说被「具身智能」重新定价。从一张几百元的价格…（来源：极客公园）', u:'http://www.geekpark.net/news/369719'},
-    {c:'FUNDING', d:'2026-09-02T14:49', t:'硬件加强版「WorkBuddy」，拿下数亿融资，瞄向你的终极上下文', s:'作者｜苏子华 编辑｜靖宇 现场体验过 Violoop 之后，很多关于未来的「AI 助手」该长什么样、能做些什么、能力的极…（来源：极客公园）', u:'http://www.geekpark.net/news/369718'},
   ];
   const TIMELINE = [
     ['09-02 17:31','“中国具身智能 Tier 1 产业联盟”成立，星源智与灵心巧手共同发起'],
+    ['09-02 17:30','AI 应用皆可报名，我们把大赛门槛打下来了'],
     ['09-02 17:12','开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元'],
     ['09-02 17:03','ChatGPT 桌面应用里藏着 430MB 的 LibreOffice'],
     ['09-02 16:42','盖茨用6000字劝AI慢一点，却劝来了7500亿的油门'],
     ['09-02 16:42','微软、谷歌、亚马逊三大云巨头，现在要给Kimi交模型税了！'],
-    ['09-02 16:42','单月收入9亿，够智谱敬自己一杯了'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280629, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:245950, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:244466, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209495, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173114, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280630, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:245952, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:244472, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209497, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173116, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143750, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135704, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113725, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:113728, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102347, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91572, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];

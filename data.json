@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T17:35:49",
+  "updated": "2026-09-02T17:40:49",
   "news": [
     {
       "c": "MODEL",
@@ -7,6 +7,13 @@
       "t": "“中国具身智能 Tier 1 产业联盟”成立，星源智与灵心巧手共同发起",
       "s": "据界面新闻今天报道，由星源智与灵心巧手共同发起的“中国具身智能 Tier 1 产业联盟”今日正式成立。IT之家从原报道获…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/543.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T17:30",
+      "t": "AI 应用皆可报名，我们把大赛门槛打下来了",
+      "s": "2026 上海开源软件应用创新大赛正火热报名中。本次大赛由开源中国主办，设 AI+工业软件、智算云、开源 AI 工具三个…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502274"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "从几百元，涨到一万元，婴儿床正在被「具身智能」重新定价",
       "s": "作者｜苏子华 编辑｜靖宇 极客公园最近发现，婴儿床这个品类正在被 AI，或者说被「具身智能」重新定价。从一张几百元的价格…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369719"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-02T14:49",
-      "t": "硬件加强版「WorkBuddy」，拿下数亿融资，瞄向你的终极上下文",
-      "s": "作者｜苏子华 编辑｜靖宇 现场体验过 Violoop 之后，很多关于未来的「AI 助手」该长什么样、能做些什么、能力的极…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369718"
     }
   ],
   "timeline": [
     [
       "09-02 17:31",
       "“中国具身智能 Tier 1 产业联盟”成立，星源智与灵心巧手共同发起"
+    ],
+    [
+      "09-02 17:30",
+      "AI 应用皆可报名，我们把大赛门槛打下来了"
     ],
     [
       "09-02 17:12",
@@ -162,10 +166,6 @@
     [
       "09-02 16:42",
       "微软、谷歌、亚马逊三大云巨头，现在要给Kimi交模型税了！"
-    ],
-    [
-      "09-02 16:42",
-      "单月收入9亿，够智谱敬自己一杯了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280629,
+      "s": 280630,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245950,
+      "s": 245952,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244466,
+      "s": 244472,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209495,
+      "s": 209497,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173114,
+      "s": 173116,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113725,
+      "s": 113728,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
