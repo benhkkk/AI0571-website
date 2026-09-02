@@ -1,26 +1,40 @@
 {
-  "updated": "2026-09-02T13:55:52",
+  "updated": "2026-09-02T14:02:29",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T13:55",
+      "d": "2026-09-02T14:02",
+      "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
+      "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T14:02",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:55",
+      "d": "2026-09-02T14:02",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:55",
+      "d": "2026-09-02T14:02",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T14:00",
+      "t": "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用",
+      "s": "科技媒体 Android Authority 昨日（9 月 1 日）发布博文，报道称谷歌已开始向 Pixel 10、Pi…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/408.htm"
     },
     {
       "c": "MODEL",
@@ -126,46 +140,32 @@
       "t": "缓存读取价砍 75%：Fable 5.1 真正想卖的不是跑分",
       "s": "每百万 token 的缓存读取价格，从 1 美元降到 0.25 美元，降幅 75%。 这是 Claude Fable 5…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502267/claude-fable-and-mythos-5-1"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T10:48",
-      "t": "企业级Agent落地样板间！百融硅基员工批量上岗，按结果领工资",
-      "s": "AI客服日扛1.5万通电话（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482967.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T10:45",
-      "t": "中国人民大学率先在高校开办“家长学堂”：探索 AI 时代高校家校社协同育人模式",
-      "s": "中国人民大学 8 月 21 日宣布率先在高校开办“家长学堂”，探索 AI 时代高校家校社协同育人模式。活动以线上线下相结…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/260.htm"
     }
   ],
   "timeline": [
     [
-      "09-02 13:55",
+      "09-02 14:02",
+      "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
+    ],
+    [
+      "09-02 14:02",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
     ],
     [
-      "09-02 13:55",
+      "09-02 14:02",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 13:55",
+      "09-02 14:02",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
+    ],
+    [
+      "09-02 14:00",
+      "谷歌 Pixel 10 等手机推送电池使用概览，AI 直观标出耗电应用"
     ],
     [
       "09-02 13:47",
       "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现将超越所有 AI 竞品"
-    ],
-    [
-      "09-02 12:05",
-      "网信办通报“清朗 · 整治 AI 应用乱象”典型案例：涉 AI 魔改经典、换脸假冒等数字泔水，豆包、元宝、千问、文心一言严格限制违规内容输出"
-    ],
-    [
-      "09-02 12:02",
-      "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280537,
+      "s": 280541,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244218,
+      "s": 244223,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173063,
+      "s": 173064,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143718,
+      "s": 143719,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113635,
+      "s": 113639,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91526,
+      "s": 91527,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
