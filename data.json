@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02T10:31:43",
+  "updated": "2026-09-02T10:36:40",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T10:31",
+      "d": "2026-09-02T10:36",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T10:31",
+      "d": "2026-09-02T10:36",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -35,13 +35,6 @@
       "t": "库克十五年：守住了金币，失去了AI船票",
       "s": "他留给继任者特努斯的，是一个错失汽车、AI等一系列机遇的帝国。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125089.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T10:06",
-      "t": "香港首个真实开放场景服务机器人落地兰桂坊",
-      "s": "在香港兰桂坊，一位特殊的“酒保”正式上岗（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482855.html"
     },
     {
       "c": "MODEL",
@@ -70,13 +63,6 @@
       "t": "从 SIP 到大模型：一天构建可本地部署的 AI 智能外呼系统 VibeVoip",
       "s": "VibeVoip 是一套面向企业业务场景设计的 AI 智能外呼平台（来源：OSCHINA）",
       "u": "https://my.oschina.net/u/4806939/blog/19752597"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T09:44",
-      "t": "巨简单，更懂家！海信JUOS正式发布：行业首个家庭智能伴侣级AIOS",
-      "s": "8月31日，海信正式发布行业首个家庭智能伴侣级AIOS——海信JUOS。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482699.html"
     },
     {
       "c": "FUNDING",
@@ -140,15 +126,29 @@
       "t": "苹果新 CEO 首次「发声」；网传抖音发生「推荐算法错乱」；Claude Fable 5.1 正式上线",
       "s": "苹果新任 CEO 约翰·特努斯在 X 平台发布首条动态向关注者问好 苹果首席执行官约翰·特努斯正式加入社交平台 X，并发…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369690"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T07:41",
+      "t": "一个人，十五年，他想重写医疗AI的底层逻辑",
+      "s": "把生命数学形式化，然后通过AI来解决这个数学问题（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8125079.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T07:20",
+      "t": "【钛晨报】引导汽车企业规范境外竞争行为，三部门发文；Anthropic同英伟达支持的Lambda签署350亿美元云计算协议；电影暑期档收官，票房超124亿元",
+      "s": "Manus正式恢复独立运营；胖东来1-8月销售额超195亿，同比增长26.98%；SpaceX据悉重组数据中心领导团队…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8125054.html"
     }
   ],
   "timeline": [
     [
-      "09-02 10:31",
+      "09-02 10:36",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 10:31",
+      "09-02 10:36",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
@@ -164,8 +164,8 @@
       "库克十五年：守住了金币，失去了AI船票"
     ],
     [
-      "09-02 10:06",
-      "香港首个真实开放场景服务机器人落地兰桂坊"
+      "09-02 09:55",
+      "三星剧透 Galaxy Z8 系列折叠手机“追星”功能，演唱会让 AI 自动跟拍爱豆"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280473,
+      "s": 280475,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245797,
+      "s": 245799,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244048,
+      "s": 244054,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113513,
+      "s": 113515,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102280,
+      "s": 102281,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
