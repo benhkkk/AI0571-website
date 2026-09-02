@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-02T15:31:18",
+  "updated": "2026-09-02T15:35:46",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T15:31",
+      "d": "2026-09-02T15:35",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-02T15:31",
+      "d": "2026-09-02T15:35",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T15:33",
+      "t": "宇树机器狗隐秘灰产链曝光，改电池标签“偷渡”上飞机",
+      "s": "蓝鲸新闻今日曝光了宇树机器狗隐秘灰产链，闲鱼平台上，部分机器人租赁商通过篡改宇树科技机器狗电池标签的方式，试图将高容量电…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/497.htm"
     },
     {
       "c": "HOT",
@@ -87,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T14:35",
-      "t": "雷军：小米 18 Fold“中折叠”旗舰手机搭载 Xiaomi MiMo 端侧大模型",
-      "s": "小米集团合伙人 / 总裁、手机部总裁、小米品牌总经理卢伟冰今日发文，正式官宣 Xiaomi 18 Fold “中折叠”手…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/426.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-02T14:20",
       "t": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
       "s": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文（来源：量子位）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-02 15:31",
+      "09-02 15:35",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
-      "09-02 15:31",
+      "09-02 15:35",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
+    ],
+    [
+      "09-02 15:33",
+      "宇树机器狗隐秘灰产链曝光，改电池标签“偷渡”上飞机"
     ],
     [
       "09-02 15:26",
@@ -162,10 +166,6 @@
     [
       "09-02 14:59",
       "对话黄青虬：成立半年估值 70 亿，阿里腾讯联投，交出了能「长程执行」的第一个自研模型"
-    ],
-    [
-      "09-02 14:59",
-      "马斯克预测 10 年内全球人形机器人超 10 亿台，每台产出是人类 5 倍"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280576,
+      "s": 280578,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245895,
+      "s": 245897,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244329,
+      "s": 244333,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209463,
+      "s": 209464,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143728,
+      "s": 143729,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113674,
+      "s": 113677,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91548,
+      "s": 91549,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
