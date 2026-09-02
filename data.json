@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-02T16:35:51",
+  "updated": "2026-09-02T16:40:59",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T16:35",
+      "d": "2026-09-02T16:40",
       "t": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新",
       "s": "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969305.shtml"
@@ -21,13 +21,6 @@
       "t": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
       "s": "豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/506.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T15:51",
-      "t": "AI制药，抵达狂欢前夜?",
-      "s": "AI制药，抵达狂欢前夜?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680842385139581482/"
     },
     {
       "c": "HOT",
@@ -140,11 +133,18 @@
       "t": "阿里云企业级Agent协作平台万有无界开启公测",
       "s": "9月2日，阿里云旗下企业级人与Agent协作平台“万有无界”开启公测。企业用户和个人用户均可通过官网(https://w…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/zMhNkoPgV5CMzeVi.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T12:02",
+      "t": "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值",
+      "s": "对不同集团而言，AI是对未来产品边界的一次提前建设。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8125431.html"
     }
   ],
   "timeline": [
     [
-      "09-02 16:35",
+      "09-02 16:40",
       "AI赋能光电新变革，第27届CIOE中国光博会9月深圳举办聚力全链创新"
     ],
     [
@@ -156,16 +156,16 @@
       "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑"
     ],
     [
-      "09-02 15:51",
-      "AI制药，抵达狂欢前夜?"
-    ],
-    [
       "09-02 15:47",
       "市值暴涨10倍之后，库克卸任苹果CEO，新掌门能打赢AI之战吗？"
     ],
     [
       "09-02 15:44",
       "谷歌副总裁 Amin Vahdat 谈 AI 泡沫：技术变革和市场需求确实存在"
+    ],
+    [
+      "09-02 15:41",
+      "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245921,
+      "s": 245924,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244400,
+      "s": 244403,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209475,
+      "s": 209476,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173096,
+      "s": 173099,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135698,
+      "s": 135699,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113697,
+      "s": 113700,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102333,
+      "s": 102334,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91559,
+      "s": 91561,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
