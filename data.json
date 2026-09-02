@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-02T20:45:52",
+  "updated": "2026-09-02T20:50:56",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-02T20:50",
+      "t": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展",
+      "s": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260821/963101.shtml"
+    },
     {
       "c": "HOT",
       "d": "2026-09-02T20:29",
@@ -49,6 +56,13 @@
       "t": "Keep的AI棋局",
       "s": "在Keep成立10周年之际，创始人王宁发布全员信，宣布All in AI。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125756.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T18:49",
+      "t": "独家解读丨字节 Seed 大调整，分支背后谁在操盘？",
+      "s": "大模型竞争开始拼组织，这一次轮到字节。8 月 19 日，据晚点 Late Post 报道，Seed 基础模型团队新设 P…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/75DZ3yfWSLnIppDb.html"
     },
     {
       "c": "MODEL",
@@ -126,23 +140,13 @@
       "t": "AI 应用皆可报名，我们把大赛门槛打下来了",
       "s": "2026 上海开源软件应用创新大赛正火热报名中。本次大赛由开源中国主办，设 AI+工业软件、智算云、开源 AI 工具三个…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502274"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T17:22",
-      "t": "SkyProduction天工工作台：从剧本到成片，一套工作台把精品短剧创作真正跑起来",
-      "s": "SkyProduction（天工工作台）全新版本于8月31日正式上线（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483274.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T17:12",
-      "t": "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元",
-      "s": "用 Claude Code 写一个月代码要多少钱？问问研发工程师，答案都是几百美元起步。终端 AI 编程这个领域，能力上…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502273/oschina-opensource-mothx-ai-coding-cli-agent-harness-vibe"
     }
   ],
   "timeline": [
+    [
+      "09-02 20:50",
+      "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展"
+    ],
     [
       "09-02 20:29",
       "OpenAI 因校园枪击案面临 30 起新诉讼，被指控帮助和教唆枪手犯罪"
@@ -162,10 +166,6 @@
     [
       "09-02 19:03",
       "联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡"
-    ],
-    [
-      "09-02 18:54",
-      "Claude Desktop 被 Ollama 偷梁换柱"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280688,
+      "s": 280692,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246014,
+      "s": 246016,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244636,
+      "s": 244644,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173155,
+      "s": 173158,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143765,
+      "s": 143766,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135725,
+      "s": 135727,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113791,
+      "s": 113795,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91607,
+      "s": 91610,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
