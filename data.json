@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-03T06:31:09",
+  "updated": "2026-09-03T06:35:46",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-03T06:35",
+      "t": "#AI与科学仪器",
+      "s": "#AI与科学仪器（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-811.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T06:35",
+      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
+      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T06:35",
+      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
+      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T00:09",
@@ -119,30 +140,21 @@
       "t": "AI公司请达人说好话，得加钱了",
       "s": "美国网友对AI的怒火，正在烧向每一个与AI公司合作的人。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125729.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T17:58",
-      "t": "Claude Fable 5.1发布：跑分翻倍是面子，思考块\"上锁\"才是里子",
-      "s": "跑分翻倍防蒸馏机制同步上线（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8125528.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T17:52",
-      "t": "制造业有了本体，大模型就能落地吗 | 智造观察",
-      "s": "从早期的手工梳理本体，到现在的平台化积累，工业大模型的落地正在从演示走向生产。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8125160.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-02T17:46",
-      "t": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...",
-      "s": "鱼跃医疗:以AI重新定义医疗器械，向全场景数智健康管理服务...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7680871944786330138/"
     }
   ],
   "timeline": [
+    [
+      "09-03 06:35",
+      "#AI与科学仪器"
+    ],
+    [
+      "09-03 06:35",
+      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
+    ],
+    [
+      "09-03 06:35",
+      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
+    ],
     [
       "09-03 00:09",
       "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护"
@@ -154,18 +166,6 @@
     [
       "09-02 23:00",
       "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器"
-    ],
-    [
-      "09-02 22:49",
-      "全美最严格课堂 AI 禁令落地纽约，学生上高中之前不得在课上使用"
-    ],
-    [
-      "09-02 21:44",
-      "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型"
-    ],
-    [
-      "09-02 21:41",
-      "研究发现：AI 客服“更像人”未必带来更佳体验"
     ]
   ],
   "skills": [
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245160,
+      "s": 245161,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113987,
+      "s": 113988,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91710,
+      "s": 91711,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
