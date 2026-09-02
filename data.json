@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-02T11:51:47",
+  "updated": "2026-09-02T11:56:43",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T11:51",
+      "d": "2026-09-02T11:56",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T11:51",
+      "d": "2026-09-02T11:56",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -21,13 +21,6 @@
       "t": "Fable 5.1来了！Anthropic再秀肌肉",
       "s": "赶在IPO之前的“模型路演”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125252.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T11:17",
-      "t": "AI制药下半场:从“造分子”到“造药”，还有多远?",
-      "s": "AI制药下半场:从“造分子”到“造药”，还有多远?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7680771492765778466/"
     },
     {
       "c": "HOT",
@@ -140,24 +133,27 @@
       "t": "全球首个多模态世界模型：李飞飞 World Labs 发布 Atlas，像素级精度控制镜头、拍出“子弹时间”大片",
       "s": "“AI 教母”李飞飞的创企 World Labs 今日发布了“全球首个多模态世界模型”—— Atlas，宣称该模型能够以…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/241.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T09:52",
+      "t": "从 SIP 到大模型：一天构建可本地部署的 AI 智能外呼系统 VibeVoip",
+      "s": "VibeVoip 是一套面向企业业务场景设计的 AI 智能外呼平台（来源：OSCHINA）",
+      "u": "https://my.oschina.net/u/4806939/blog/19752597"
     }
   ],
   "timeline": [
     [
-      "09-02 11:51",
+      "09-02 11:56",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 11:51",
+      "09-02 11:56",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
       "09-02 11:32",
       "Fable 5.1来了！Anthropic再秀肌肉"
-    ],
-    [
-      "09-02 11:17",
-      "AI制药下半场:从“造分子”到“造药”，还有多远?"
     ],
     [
       "09-02 11:11",
@@ -166,6 +162,10 @@
     [
       "09-02 11:06",
       "协作表格有“历史记录”：微软 Excel 用 AI 梳理变化，明晰谁改的、改了什么"
+    ],
+    [
+      "09-02 10:55",
+      "上海交大连文昭：机器人进实验室，先把100件事做可靠"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280505,
+      "s": 280507,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245820,
+      "s": 245821,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244128,
+      "s": 244133,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209419,
+      "s": 209420,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113555,
+      "s": 113560,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91504,
+      "s": 91505,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
