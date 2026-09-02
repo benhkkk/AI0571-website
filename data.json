@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-02T19:20:56",
+  "updated": "2026-09-02T19:25:58",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T19:21",
+      "t": "宏碁带来 Veriton RI110 迷你主机 AI 工作站，基于 X7 358H",
+      "s": "宏碁 (Acer) 今日发布基于英特尔酷睿 Ultra X7 处理器 358H 的迷你主机型 AI 工作站 Verito…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/637.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-09-02T19:03",
@@ -133,16 +140,13 @@
       "t": "魅族 AI 小方块有望回归，概念机亮相腾讯 WorkBuddy 生态发布会",
       "s": "在今日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相。魅族 AI 小方块概念机搭载基于原生 AI…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/513.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T15:52",
-      "t": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
-      "s": "豆包工作新增两项新功能：“多 Agents 并行”和 Mac 系统下的“操作电脑”。据介绍，多 Agents 并行功能…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/506.htm"
     }
   ],
   "timeline": [
+    [
+      "09-02 19:21",
+      "宏碁带来 Veriton RI110 迷你主机 AI 工作站，基于 X7 358H"
+    ],
     [
       "09-02 19:03",
       "联想预热来酷 GT 16 AI 全能本，英伟达 RTX 3050 显卡"
@@ -162,10 +166,6 @@
     [
       "09-02 18:20",
       "自变量发布 TwinDEX 三指九自由度灵巧操作手，纯无本体数据实现灵巧操作"
-    ],
-    [
-      "09-02 18:08",
-      "台积电侯永清：AI 带来的需求变化过去 30 年从未见过，建厂速度提高至约 5 倍仍无法满足需求"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245978,
+      "s": 245980,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244563,
+      "s": 244571,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135710,
+      "s": 135711,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113768,
+      "s": 113771,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102367,
+      "s": 102368,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
