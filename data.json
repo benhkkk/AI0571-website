@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-02T17:05:51",
+  "updated": "2026-09-02T17:11:02",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T17:09",
+      "t": "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元",
+      "s": "用 Claude Code 写一个月代码要多少钱？问问研发工程师，答案都是几百美元起步。终端 AI 编程这个领域，能力上…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502273/oschina-opensource-mothx-ai-coding-cli-agent-harness-vibe"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T17:03",
+      "t": "ChatGPT 桌面应用里藏着 430MB 的 LibreOffice",
+      "s": "Simon Willison 在清理磁盘时发现了一个 1.7GB 的目录。他打开一看，里面装着一整套 LibreOffi…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502272/chatgpt-codex-libreoffice"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-09-02T16:42",
@@ -126,23 +140,17 @@
       "t": "还在为大模型洗数据熬夜？蚂蚁拿下VLDB工业最佳论文，一套宽表搞定35PB语料，效率狂飙5.6倍",
       "s": "蚂蚁集团推出统一宽表系统OmniTable，论文获评VLDB 2026工业赛道最佳论文（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483104.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:11",
-      "t": "AIROBO联手中科院力学所，机器人运营技术注入国家科研力量",
-      "s": "当行业将大量注意力投向人形机器人、本体制造和基础模型时，机器人进入现实世界后的“运行问题”，正在成为另一个关键技术战场…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/em9VVsPQwYhn37XN.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T14:10",
-      "t": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一",
-      "s": "阿里更新旗舰模型Qwen3.8-Max，前端编程能力跃居全球第一（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483101.html"
     }
   ],
   "timeline": [
+    [
+      "09-02 17:09",
+      "开源中国开源 AI 编程工具 MothX，主打一个“省”字，驾驭中国词元"
+    ],
+    [
+      "09-02 17:03",
+      "ChatGPT 桌面应用里藏着 430MB 的 LibreOffice"
+    ],
     [
       "09-02 16:42",
       "盖茨用6000字劝AI慢一点，却劝来了7500亿的油门"
@@ -158,14 +166,6 @@
     [
       "09-02 16:15",
       "魅族 AI 小方块有望回归，概念机亮相腾讯 WorkBuddy 生态发布会"
-    ],
-    [
-      "09-02 15:52",
-      "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑"
-    ],
-    [
-      "09-02 15:51",
-      "AI制药，抵达狂欢前夜?"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280611,
+      "s": 280615,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244434,
+      "s": 244439,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209482,
+      "s": 209484,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143742,
+      "s": 143744,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113713,
+      "s": 113715,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102343,
+      "s": 102344,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
