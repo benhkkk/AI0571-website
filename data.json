@@ -1,19 +1,33 @@
 {
-  "updated": "2026-09-02T09:36:45",
+  "updated": "2026-09-02T09:41:40",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T09:36",
+      "d": "2026-09-02T09:41",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-02T09:36",
-      "t": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方",
-      "s": "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260901/968716.shtml"
+      "c": "FUNDING",
+      "d": "2026-09-02T09:39",
+      "t": "英伟达接近以 140 亿美元收购 Hugging Face，最快本周达成协议",
+      "s": "彭博社今日报道称，英伟达正就收购人工智能初创企业 Hugging Face 展开深入谈判，这笔交易的总规模接近 140 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/238.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-02T09:28",
+      "t": "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩",
+      "s": "AI在提升“可读性”的同时，可能也在削弱我们对人类的“可读性”。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8123815.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T09:07",
+      "t": "李飞飞发布：全球首个多模态世界模型",
+      "s": "一张图补全3D世界，还能给机器人造训练场（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/482586.html"
     },
     {
       "c": "MODEL",
@@ -100,13 +114,6 @@
       "u": "https://www.ithome.com/0/997/193.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-01T23:48",
-      "t": "马斯克：预计 AI 将令全球经济规模增加约 20%-30%",
-      "s": "马斯克今天（1 日）晚间在 G20 会议上发表演讲称，预计 AI 将使全球经济规模增加约 20%-30%，即每年增加约 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/186.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-01T23:44",
       "t": "3899 元！戴森发布 AI 牙刷：有水牙线不够，还要塞个摄像头",
@@ -133,23 +140,24 @@
       "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
       "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/482512.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-01T19:22",
-      "t": "每周一天，关掉 AI 写代码",
-      "s": "Carson Gross 决定每周五不写代码。 不是不工作，是不用 AI 辅助写代码。他是 htmx 的创造者，一个以「…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502256/no-ai-fridays"
     }
   ],
   "timeline": [
     [
-      "09-02 09:36",
+      "09-02 09:41",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
-      "09-02 09:36",
-      "AI+科学仪器大有可为——上海市徐汇区市场监督管理局副局长于凯一行到访信立方"
+      "09-02 09:39",
+      "英伟达接近以 140 亿美元收购 Hugging Face，最快本周达成协议"
+    ],
+    [
+      "09-02 09:28",
+      "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩"
+    ],
+    [
+      "09-02 09:07",
+      "李飞飞发布：全球首个多模态世界模型"
     ],
     [
       "09-02 08:52",
@@ -158,14 +166,6 @@
     [
       "09-02 08:47",
       "Edge AI Daily 早报（9月2日）"
-    ],
-    [
-      "09-02 08:34",
-      "显卡价格一个月内上涨 15%：RTX 5090 越来越接近 5090 美元，较 MSRP 平均溢价 136%"
-    ],
-    [
-      "09-02 08:23",
-      "Meta 发布首个实时音频感知 AI 模型，支持 20 余人分轨转写"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280459,
+      "s": 280460,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245778,
+      "s": 245779,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 243999,
+      "s": 244004,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209393,
+      "s": 209395,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113485,
+      "s": 113489,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91482,
+      "s": 91483,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
