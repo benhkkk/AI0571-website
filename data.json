@@ -1,23 +1,30 @@
 {
-  "updated": "2026-09-02T13:16:00",
+  "updated": "2026-09-02T13:20:54",
   "news": [
     {
+      "c": "MEDDEVICE",
+      "d": "2026-09-02T13:20",
+      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
+      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
+    {
       "c": "INDUSTRY",
-      "d": "2026-09-02T13:15",
+      "d": "2026-09-02T13:20",
       "t": "AI重塑流式技术！从智能辅助到自主实验，行业迈入智能化新周期",
       "s": "AI重塑流式技术！从智能辅助到自主实验，行业迈入智能化新周期（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:15",
+      "d": "2026-09-02T13:20",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:15",
+      "d": "2026-09-02T13:20",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -133,26 +140,23 @@
       "t": "中国人民大学率先在高校开办“家长学堂”：探索 AI 时代高校家校社协同育人模式",
       "s": "中国人民大学 8 月 21 日宣布率先在高校开办“家长学堂”，探索 AI 时代高校家校社协同育人模式。活动以线上线下相结…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/260.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T10:37",
-      "t": "A 股“人形机器人第一股”宇树科技股价腰斩",
-      "s": "A 股“人形机器人第一股”宇树科技今日股价跌超 4%，截至IT之家发文，宇树科技每股已跌至 550 元以下，相比首日开盘…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/256.htm"
     }
   ],
   "timeline": [
     [
-      "09-02 13:15",
+      "09-02 13:20",
+      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
+    [
+      "09-02 13:20",
       "AI重塑流式技术！从智能辅助到自主实验，行业迈入智能化新周期"
     ],
     [
-      "09-02 13:15",
+      "09-02 13:20",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 13:15",
+      "09-02 13:20",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-02 12:02",
       "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值"
-    ],
-    [
-      "09-02 12:00",
-      "对话范承工：模型同质化时代，记忆才是AI真正的护城河"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280526,
+      "s": 280529,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245842,
+      "s": 245844,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244192,
+      "s": 244194,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209432,
+      "s": 209434,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173051,
+      "s": 173053,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135661,
+      "s": 135663,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113611,
+      "s": 113613,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91516,
+      "s": 91518,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
