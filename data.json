@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-02T10:02:40",
+  "updated": "2026-09-02T10:06:46",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-02T10:02",
+      "d": "2026-09-02T10:06",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
@@ -49,13 +49,6 @@
       "t": "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩",
       "s": "AI在提升“可读性”的同时，可能也在削弱我们对人类的“可读性”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8123815.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T09:07",
-      "t": "李飞飞发布：全球首个多模态世界模型",
-      "s": "一张图补全3D世界，还能给机器人造训练场（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/482586.html"
     },
     {
       "c": "MODEL",
@@ -140,11 +133,18 @@
       "t": "上半年AI制药人才需求高速增长，职位数同比增长84%",
       "s": "上半年AI制药人才需求高速增长，职位数同比增长84%（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7680543177480192564/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-01T20:02",
+      "t": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径",
+      "s": "3秒出片比播放还快，MiniMax打开了AI视频的实时商业化路径（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/482512.html"
     }
   ],
   "timeline": [
     [
-      "09-02 10:02",
+      "09-02 10:06",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245788,
+      "s": 245790,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244025,
+      "s": 244026,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102275,
+      "s": 102276,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91485,
+      "s": 91486,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
