@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-02T13:46:02",
+  "updated": "2026-09-02T13:50:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-02T13:45",
+      "d": "2026-09-02T13:50",
       "t": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验",
       "s": "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969239.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:45",
+      "d": "2026-09-02T13:50",
       "t": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈",
       "s": "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969077.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-02T13:45",
+      "d": "2026-09-02T13:50",
       "t": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地",
       "s": "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260901/968852.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T13:47",
+      "t": "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现将超越所有 AI 竞品",
+      "s": "全球首富埃隆 · 马斯克（Elon Musk）今天（9 月 2 日）在 X 平台发布推文，预告将会在未来 10 天后发布…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/401.htm"
     },
     {
       "c": "HOT",
@@ -133,27 +140,24 @@
       "t": "中国人民大学率先在高校开办“家长学堂”：探索 AI 时代高校家校社协同育人模式",
       "s": "中国人民大学 8 月 21 日宣布率先在高校开办“家长学堂”，探索 AI 时代高校家校社协同育人模式。活动以线上线下相结…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/260.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-02T10:37",
-      "t": "A 股“人形机器人第一股”宇树科技股价腰斩",
-      "s": "A 股“人形机器人第一股”宇树科技今日股价跌超 4%，截至IT之家发文，宇树科技每股已跌至 550 元以下，相比首日开盘…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/256.htm"
     }
   ],
   "timeline": [
     [
-      "09-02 13:45",
+      "09-02 13:50",
       "流式简评|Vol.01 AI重塑流式技术，从智能辅助到自主实验"
     ],
     [
-      "09-02 13:45",
+      "09-02 13:50",
       "仪信通 AI 会员上线一月｜来自首批合作厂商的真实反馈"
     ],
     [
-      "09-02 13:45",
+      "09-02 13:50",
       "净利润狂飙583%！凌云光发布 2026 半年报，“视觉 + AI” 战略持续落地"
+    ],
+    [
+      "09-02 13:47",
+      "马斯克预告 Grok 4.7 十天后上线：参数量增 40%，性能表现将超越所有 AI 竞品"
     ],
     [
       "09-02 12:05",
@@ -162,10 +166,6 @@
     [
       "09-02 12:02",
       "当家庭AI消费成为共识，不同集团（06090.HK）高增长背后的价值"
-    ],
-    [
-      "09-02 12:00",
-      "对话范承工：模型同质化时代，记忆才是AI真正的护城河"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280532,
+      "s": 280536,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245854,
+      "s": 245853,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244211,
+      "s": 244216,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113633,
+      "s": 113634,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102304,
+      "s": 102305,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91523,
+      "s": 91524,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
