@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-02T20:16:06",
+  "updated": "2026-09-02T20:20:54",
   "news": [
     {
       "c": "MODEL",
@@ -56,6 +56,13 @@
       "t": "自变量发布 TwinDEX 三指九自由度灵巧操作手，纯无本体数据实现灵巧操作",
       "s": "具身机器人企业自变量今日发布了一对孪生的三指九自由度灵巧操作手 TwinDEX。据官方介绍，该灵巧操作手一个可穿戴，用于…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/614.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T18:15",
+      "t": "Zeroth 元点机器人预告发布 OpenBridge 生态：具身智能的「安卓时刻」来了",
+      "s": "今天，乐享科技旗下的元点机器人，官宣即将推出自己的首款产品以及全球首个具身 Physical AI 开源生态——Open…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/7XuKxVmxPG0rwM3f.html"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "ChatGPT 桌面应用里藏着 430MB 的 LibreOffice",
       "s": "Simon Willison 在清理磁盘时发现了一个 1.7GB 的目录。他打开一看，里面装着一整套 LibreOffi…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502272/chatgpt-codex-libreoffice"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-02T16:42",
-      "t": "盖茨用6000字劝AI慢一点，却劝来了7500亿的油门",
-      "s": "一个给这个行业踩了50年油门的人，第一次喊刹车。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8124978.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280676,
+      "s": 280677,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 245996,
+      "s": 245997,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 244612,
+      "s": 244615,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209536,
+      "s": 209537,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 113783,
+      "s": 113785,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
