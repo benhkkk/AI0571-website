@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T06:46:23",
+  "updated": "2026-09-04T06:51:24",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T06:48",
+      "t": "GPT-6 曝光， OpenAI 总裁说：AGI 来了",
+      "s": "头图来源：OpenAI 作者｜桦林舞王 编辑｜靖宇 2026 年 9 月 3 日，OpenAI 总裁 Greg Broc…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369800"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T06:28",
@@ -65,6 +72,13 @@
       "u": "https://www.ithome.com/0/998/161.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-03T21:42",
+      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
+      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7681303907590603291/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T21:31",
       "t": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
@@ -126,23 +140,13 @@
       "t": "全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟",
       "s": "2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T19:00",
-      "t": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
-      "s": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8127496.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T18:59",
-      "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
-      "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 06:48",
+      "GPT-6 曝光， OpenAI 总裁说：AGI 来了"
+    ],
     [
       "09-04 06:28",
       "OpenAI GPT-6 Astra 发布，首次达到“关键”级网络安全能力门槛"
@@ -162,10 +166,6 @@
     [
       "09-03 23:07",
       "（更新：已恢复正常）ChatGPT、Grok、Claude、Cursor 集体突发故障"
-    ],
-    [
-      "09-03 22:57",
-      "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247254,
+      "s": 247261,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247112,
+      "s": 247114,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209902,
+      "s": 209901,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114397,
+      "s": 114401,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103066,
+      "s": 103067,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
