@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T15:55:56",
+  "updated": "2026-09-03T16:01:26",
   "news": [
     {
       "c": "MODEL",
@@ -72,6 +72,13 @@
       "u": "http://www.geekpark.net/news/369768"
     },
     {
+      "c": "HOT",
+      "d": "2026-09-03T13:56",
+      "t": "「小」鸭子火了之后，端侧 AI 还有一个更「大」的问题",
+      "s": "最近，一只只有 25 厘米高的机器鸭，意外把端侧 AI 的想象力拉到了聚光灯下。Hugging Face 旗下 Poll…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/pIN6zFvPEB91R6uC.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T13:54",
       "t": "智谱和 MiniMax，把大模型做成了两种生意",
@@ -133,13 +140,6 @@
       "t": "开源 AI 终端助手 Pragmatic AI Shell 发布 v1.0：多模型热切换 + 免 JRE 原生二进制",
       "s": "用自然语言驱动终端的开源工具 Pragmatic AI Shell（smartcli） 正式发布 v1.0：你说人话，它…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502288"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T11:41",
-      "t": "Claude把“回忆”砍到2毛5，OpenAI的万亿参数正在失去护城河",
-      "s": "一场关于AI\"记性\"的定价战，暴露了Agent商业化的真正底牌。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8126479.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280983,
+      "s": 280984,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246583,
+      "s": 246584,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245700,
+      "s": 245705,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135826,
+      "s": 135827,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102798,
+      "s": 102799,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
