@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T16:50:47",
+  "updated": "2026-09-03T16:55:52",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-03T16:40",
+      "t": "苹果换帅：市值翻了13倍，AI还欠着账",
+      "s": "库克证明了苹果能赚钱，特努斯要证明的是，这家公司还配得上被模仿。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8126223.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T16:31",
@@ -133,16 +140,13 @@
       "t": "MiniMax、阿里同时布局视频Agent，拼完模型开始拼工作流？",
       "s": "当模型能力不再是稀缺资源，谁能掌握从生产到分发的完整链路，谁才能在下一阶段的内容工业变革中占据主动。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126960.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T12:52",
-      "t": "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」",
-      "s": "头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369767"
     }
   ],
   "timeline": [
+    [
+      "09-03 16:40",
+      "苹果换帅：市值翻了13倍，AI还欠着账"
+    ],
     [
       "09-03 16:31",
       "谷歌连发三款Flash，以“机海战术”再度加码AI企业端基本盘"
@@ -162,10 +166,6 @@
     [
       "09-03 15:40",
       "全国首款仿生医疗机器人发布：优必选联合麦迪科技打造，可选男 / 女版本"
-    ],
-    [
-      "09-03 15:21",
-      "微软商业经典版 Outlook 强化 AI 入口，本月功能区将新增 Copilot 专属按钮"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281013,
+      "s": 281015,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246617,
+      "s": 246618,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245785,
+      "s": 245790,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209770,
+      "s": 209771,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173357,
+      "s": 173355,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114132,
+      "s": 114133,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102823,
+      "s": 102826,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91814,
+      "s": 91815,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
