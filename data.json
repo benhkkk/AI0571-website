@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T08:55:51",
+  "updated": "2026-09-03T09:02:06",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T09:00",
+      "t": "戚薇回应 AI 授权“卖脸”争议：与其被别人“拿走”，更愿意“主动出击”",
+      "s": "歌手、演员戚薇 8 月 6 日通过社交平台宣布推出个人官方数字分身，开放自身形象的规范化 AI 授权。此外，戚薇的数字分…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/747.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T08:46",
+      "t": "AI的两个世界：高门槛的产业，低门槛的致富故事",
+      "s": "进AI要硕博大厂，卖AI课只要零基础。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8126269.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T08:29",
@@ -93,13 +107,6 @@
       "u": "https://www.ithome.com/0/997/708.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-02T23:31",
-      "t": "谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景",
-      "s": "谷歌今天（2 日）在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型。其基于 G…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/702.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-02T21:34",
       "t": "AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察",
@@ -133,16 +140,17 @@
       "t": "Keep的AI棋局",
       "s": "在Keep成立10周年之际，创始人王宁发布全员信，宣布All in AI。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8125756.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T18:49",
-      "t": "独家解读丨字节 Seed 大调整，分支背后谁在操盘？",
-      "s": "大模型竞争开始拼组织，这一次轮到字节。8 月 19 日，据晚点 Late Post 报道，Seed 基础模型团队新设 P…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/75DZ3yfWSLnIppDb.html"
     }
   ],
   "timeline": [
+    [
+      "09-03 09:00",
+      "戚薇回应 AI 授权“卖脸”争议：与其被别人“拿走”，更愿意“主动出击”"
+    ],
+    [
+      "09-03 08:46",
+      "AI的两个世界：高门槛的产业，低门槛的致富故事"
+    ],
     [
       "09-03 08:29",
       "存力接棒算力：AI智能体把存储推上主战场"
@@ -158,14 +166,6 @@
     [
       "09-03 08:08",
       "探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号"
-    ],
-    [
-      "09-03 08:03",
-      "马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道"
-    ],
-    [
-      "09-03 07:57",
-      "IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售..."
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246338,
+      "s": 246345,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245230,
+      "s": 245233,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209662,
+      "s": 209665,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143817,
+      "s": 143818,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114014,
+      "s": 114015,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },

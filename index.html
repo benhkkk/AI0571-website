@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-03T09:00', t:'戚薇回应 AI 授权“卖脸”争议：与其被别人“拿走”，更愿意“主动出击”', s:'歌手、演员戚薇 8 月 6 日通过社交平台宣布推出个人官方数字分身，开放自身形象的规范化 AI 授权。此外，戚薇的数字分…（来源：IT之家）', u:'https://www.ithome.com/0/997/747.htm'},
+    {c:'HOT', d:'2026-09-03T08:46', t:'AI的两个世界：高门槛的产业，低门槛的致富故事', s:'进AI要硕博大厂，卖AI课只要零基础。（来源：钛媒体）', u:'https://www.tmtpost.com/8126269.html'},
     {c:'MODEL', d:'2026-09-03T08:29', t:'存力接棒算力：AI智能体把存储推上主战场', s:'当AI智能体开始“记忆”，存储如何接住这场变革？（来源：钛媒体）', u:'https://www.tmtpost.com/8123421.html'},
     {c:'FUNDING', d:'2026-09-03T08:22', t:'早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市', s:'· 李飞飞发布世界模型 Atlas，用统一模型生成、重建与模拟三维世界 · 豆包工作支持多 Agents 并行，Mac …（来源：爱范儿）', u:'https://www.ifanr.com/1678222?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-03T08:13', t:'Edge AI Daily 早报（9月3日）', s:'谷歌发布Agentic Video Understanding降低88%Token，反驳AI泡沫论；Meta推出Muse…（来源：钛媒体）', u:'https://www.tmtpost.com/8126450.html'},
@@ -472,31 +474,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T06:52', t:'Gemini 3.8 Flash 光速发布：干活挺勤快，就是没开窍', s:'Gemini 圣质如初#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1678197?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-03T06:42', t:'博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU', s:'数码博主 @白饭炒白米饭 于 8 月 30 日发布微博，通过焊点图，反推苹果 A20 Pro 芯片的规模以及内部结构，目…（来源：IT之家）', u:'https://www.ithome.com/0/997/719.htm'},
     {c:'MODEL', d:'2026-09-03T00:09', t:'谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护', s:'当地时间 9 月 2 日，谷歌宣布推出 Gemini 3.8 Flash Cyber 模型，通过 Fairwind 计划…（来源：IT之家）', u:'https://www.ithome.com/0/997/708.htm'},
-    {c:'MODEL', d:'2026-09-02T23:31', t:'谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景', s:'谷歌今天（2 日）在 Google DeepMind 网站低调上线了 Gemini 3.8 Flash 模型。其基于 G…（来源：IT之家）', u:'https://www.ithome.com/0/997/702.htm'},
     {c:'INDUSTRY', d:'2026-09-02T21:34', t:'AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察', s:'上海证明的是中国 AI 能站上多高的舞台，金沙检验的是它能不能进别人的预算表。（来源：钛媒体）', u:'https://www.tmtpost.com/8124464.html'},
     {c:'MEDPHARMA', d:'2026-09-02T21:04', t:'AI 在生物制药领域的四大突破', s:'AI 在生物制药领域的四大突破（来源：头条医药AI）', u:'https://www.toutiao.com/article/7677173738080616987/'},
     {c:'MODEL', d:'2026-09-02T19:24', t:'李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界', s:'李飞飞创立的 World Labs 发布了 Atlas，一个从零预训练的多模态空间智能大模型。你可以给它几张照片，它能生…（来源：OSCHINA）', u:'https://www.oschina.net/news/502277/worldlabs-ai-atlas'},
     {c:'MODEL', d:'2026-09-02T18:54', t:'Claude Desktop 被 Ollama 偷梁换柱', s:'第三方模型绕过限制入驻 Claude（来源：钛媒体）', u:'https://www.tmtpost.com/8125118.html'},
     {c:'MODEL', d:'2026-09-02T18:53', t:'Keep的AI棋局', s:'在Keep成立10周年之际，创始人王宁发布全员信，宣布All in AI。（来源：钛媒体）', u:'https://www.tmtpost.com/8125756.html'},
-    {c:'MODEL', d:'2026-09-02T18:49', t:'独家解读丨字节 Seed 大调整，分支背后谁在操盘？', s:'大模型竞争开始拼组织，这一次轮到字节。8 月 19 日，据晚点 Late Post 报道，Seed 基础模型团队新设 P…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/75DZ3yfWSLnIppDb.html'},
   ];
   const TIMELINE = [
+    ['09-03 09:00','戚薇回应 AI 授权“卖脸”争议：与其被别人“拿走”，更愿意“主动出击”'],
+    ['09-03 08:46','AI的两个世界：高门槛的产业，低门槛的致富故事'],
     ['09-03 08:29','存力接棒算力：AI智能体把存储推上主战场'],
     ['09-03 08:22','早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市'],
     ['09-03 08:13','Edge AI Daily 早报（9月3日）'],
     ['09-03 08:08','探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号'],
-    ['09-03 08:03','马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道'],
-    ['09-03 07:57','IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售...'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280835, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246338, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245230, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209662, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246345, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245233, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209665, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173262, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143817, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143818, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135777, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114014, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114015, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102636, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91723, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
