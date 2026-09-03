@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T07:51:25",
+  "updated": "2026-09-04T07:56:41",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-04T07:52",
+      "t": "铭凡确认 AI 迷你工作站 MS-S1 MAX-P495 九月开售",
+      "s": "MINISFORUM（铭凡）今日确认，其基于 AMD 锐龙 AI Max+ PRO 495 处理器的新款 AI 迷你工作…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/236.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T07:49",
@@ -86,13 +93,6 @@
       "u": "https://www.qbitai.com/2026/09/483898.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-09-04T00:00",
-      "t": "英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品",
-      "s": "英伟达今天宣布，全新 RTX Spark Windows PC 将于 10 月上市，为 AI 发烧友、开发者提供更多创作…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/202.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-03T23:25",
       "t": "逛完 WRC，我们发现机器人行业最该回答的 5 个问题",
@@ -105,13 +105,6 @@
       "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
       "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8128007.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T21:42",
-      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
-      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -140,9 +133,20 @@
       "t": "中国儒意连推三款AI产品，首次打通AI创作链路｜独家",
       "s": "战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127550.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T19:25",
+      "t": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+      "s": "眼镜、耳机、麦克风都来了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483786.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 07:52",
+      "铭凡确认 AI 迷你工作站 MS-S1 MAX-P495 九月开售"
+    ],
     [
       "09-04 07:49",
       "IT早报 0904：ChatGPT、Claude 和 Grok 集体宕机近 4 小时；微信回应“好友超 1 万可查看单删好友”；时隔 6 年华为国行 5G 回归…"
@@ -162,10 +166,6 @@
     [
       "09-04 07:20",
       "【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应"
-    ],
-    [
-      "09-04 07:08",
-      "研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281322,
+      "s": 281323,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247322,
+      "s": 247325,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247150,
+      "s": 247155,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173637,
+      "s": 173638,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143953,
+      "s": 143954,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135928,
+      "s": 135929,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114412,
+      "s": 114413,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103080,
+      "s": 103081,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92019,
+      "s": 92020,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

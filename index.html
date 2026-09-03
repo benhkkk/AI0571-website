@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-04T07:52', t:'铭凡确认 AI 迷你工作站 MS-S1 MAX-P495 九月开售', s:'MINISFORUM（铭凡）今日确认，其基于 AMD 锐龙 AI Max+ PRO 495 处理器的新款 AI 迷你工作…（来源：IT之家）', u:'https://www.ithome.com/0/998/236.htm'},
     {c:'MODEL', d:'2026-09-04T07:49', t:'IT早报 0904：ChatGPT、Claude 和 Grok 集体宕机近 4 小时；微信回应“好友超 1 万可查看单删好友”；时隔 6 年华为国行 5G 回归；微短剧统一标识苔花标发布...', s:'“IT早报”时间，大家好，现在是 2026 年 9 月 4 日星期五，今天的重要科技资讯有：1. （更新：已恢复正常）C…（来源：IT之家）', u:'https://www.ithome.com/0/998/234.htm'},
     {c:'MODEL', d:'2026-09-04T07:46', t:'HTC 为旗下 AI 智能眼镜 VIVE Eagle 新增全新圆框款式，系列产品同步升级支持 3K 分辨率录像等功能', s:'HTC 宣布为旗下 AI 智能眼镜 VIVE Eagle 新增全新圆框款式，同步升级多项软件功能，将录像分辨率从 2K …（来源：IT之家）', u:'https://www.ithome.com/0/998/232.htm'},
     {c:'MODEL', d:'2026-09-04T07:43', t:'智谱 GLM-5.3-Flash 夜间免费用：9 月 3 日至 20 日、每天 23 时至次日 9 时额度全免', s:'智谱 AI 昨日宣布，旗下 GLM Coding Plan 正式推出“Flash × ZCode”夜间畅用活动。即日起至…（来源：IT之家）', u:'https://www.ithome.com/0/998/231.htm'},
@@ -471,34 +472,33 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-04T06:28', t:'OpenAI GPT-6 Astra 发布：首次达到“关键”级网络安全能力门槛，布罗克曼认为 AGI 时代已经到来', s:'当地时间 9 月 3 日，OpenAI 宣布推出新一代 GPT-6 Astra 模型，这是该公司迄今为止最强大、部署最广…（来源：IT之家）', u:'https://www.ithome.com/0/998/208.htm'},
     {c:'MODEL', d:'2026-09-04T05:57', t:'新版GPT Image 2.5已经能伪造GPT-6发布会了', s:'改进GPT Image 2的噪点问题（来源：量子位）', u:'https://www.qbitai.com/2026/09/483948.html'},
     {c:'MODEL', d:'2026-09-04T05:50', t:'刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代', s:'全球最强C（来源：量子位）', u:'https://www.qbitai.com/2026/09/483898.html'},
-    {c:'FUNDING', d:'2026-09-04T00:00', t:'英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品', s:'英伟达今天宣布，全新 RTX Spark Windows PC 将于 10 月上市，为 AI 发烧友、开发者提供更多创作…（来源：IT之家）', u:'https://www.ithome.com/0/998/202.htm'},
     {c:'INDUSTRY', d:'2026-09-03T23:25', t:'逛完 WRC，我们发现机器人行业最该回答的 5 个问题', s:'8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子。300 多家企业、200…（来源：极客公园）', u:'http://www.geekpark.net/news/369388'},
     {c:'INDUSTRY', d:'2026-09-03T22:10', t:'价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相', s:'2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）', u:'https://www.tmtpost.com/8128007.html'},
-    {c:'MEDPHARMA', d:'2026-09-03T21:42', t:'AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投', s:'AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）', u:'https://www.toutiao.com/article/7681303907590603291/'},
     {c:'MODEL', d:'2026-09-03T20:17', t:'GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？', s:'如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/XcJ2N9YalKyDRJd8.html'},
     {c:'MODEL', d:'2026-09-03T19:39', t:'AI 群星闪耀之前，商汤先相信那群少年', s:'2018年，王延森还是一名本科生，做生成对话方向。那时候CV正热，Transformer浪潮初起。告诉别人自己在做“能聊…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html'},
     {c:'HOT', d:'2026-09-03T19:32', t:'“没有Token的CS学生，应立即退学”', s:'禁止古法编程、Token自费（来源：量子位）', u:'https://www.qbitai.com/2026/09/483839.html'},
     {c:'MODEL', d:'2026-09-03T19:26', t:'中国儒意连推三款AI产品，首次打通AI创作链路｜独家', s:'战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）', u:'https://www.tmtpost.com/8127550.html'},
+    {c:'HOT', d:'2026-09-03T19:25', t:'腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场', s:'眼镜、耳机、麦克风都来了（来源：量子位）', u:'https://www.qbitai.com/2026/09/483786.html'},
   ];
   const TIMELINE = [
+    ['09-04 07:52','铭凡确认 AI 迷你工作站 MS-S1 MAX-P495 九月开售'],
     ['09-04 07:49','IT早报 0904：ChatGPT、Claude 和 Grok 集体宕机近 4 小时；微信回应“好友超 1 万可查看单删好友”；时隔 6 年华为国行 5G 回归…'],
     ['09-04 07:46','HTC 为旗下 AI 智能眼镜 VIVE Eagle 新增全新圆框款式，系列产品同步升级支持 3K 分辨率录像等功能'],
     ['09-04 07:43','智谱 GLM-5.3-Flash 夜间免费用：9 月 3 日至 20 日、每天 23 时至次日 9 时额度全免'],
     ['09-04 07:36','英伟达开源发布 PAIR：本地跑 AI 新方案，调度 Mac / RTX PC 跨设备推理'],
     ['09-04 07:20','【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应'],
-    ['09-04 07:08','研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281322, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247322, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247150, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281323, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247325, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247155, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209904, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173637, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143953, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135928, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114412, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103080, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92019, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173638, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143954, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135929, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114413, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103081, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92020, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
