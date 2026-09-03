@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T13:55:46",
+  "updated": "2026-09-03T14:01:10",
   "news": [
     {
       "c": "MODEL",
@@ -63,6 +63,13 @@
       "t": "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」",
       "s": "头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369767"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T12:49",
+      "t": "开源 AI 终端助手 Pragmatic AI Shell 发布 v1.0：多模型热切换 + 免 JRE 原生二进制",
+      "s": "用自然语言驱动终端的开源工具 Pragmatic AI Shell（smartcli） 正式发布 v1.0：你说人话，它…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502288"
     },
     {
       "c": "MODEL",
@@ -133,13 +140,6 @@
       "t": "2026中国AI制药企业TOP30",
       "s": "2026中国AI制药企业TOP30（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7681136299222254080/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T10:49",
-      "t": "WorkBuddy金融版正式发布，让Agent真正进入金融业务现场",
-      "s": "9月3日，腾讯WorkBuddy金融版正式上线。WorkBuddy金融版是专门面向金融机构打造的AI智能工作台，可为券商…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/zr0zxn8R9MVT4y7n.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280921,
+      "s": 280922,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246500,
+      "s": 246501,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245534,
+      "s": 245538,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209725,
+      "s": 209728,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135806,
+      "s": 135807,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114084,
+      "s": 114085,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102750,
+      "s": 102751,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
