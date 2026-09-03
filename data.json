@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-03T18:55:50",
+  "updated": "2026-09-03T19:01:16",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T18:55",
+      "d": "2026-09-03T19:01",
       "t": "#人工智能&科学仪器",
       "s": "#人工智能&科学仪器（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-658.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-03T18:55",
+      "d": "2026-09-03T19:01",
       "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
       "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-03T18:55",
+      "d": "2026-09-03T19:01",
       "t": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知",
       "s": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250221/768744.shtml"
@@ -28,20 +28,6 @@
       "t": "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\"",
       "s": "企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502302"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T18:18",
-      "t": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
-      "s": "单图直出场景，顶会最佳论文落地（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483189.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T18:13",
-      "t": "陈大年复出，入局大模型",
-      "s": "首秀逼近DeepSeek万亿旗舰（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483600.html"
     },
     {
       "c": "HOT",
@@ -93,6 +79,13 @@
       "u": "https://www.ithome.com/0/998/037.htm"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T16:59",
+      "t": "实测飞猪AI：真正的突围才刚刚开始？",
+      "s": "2026 年上半年，AI 行业的风向又变了。在经历一轮疯狂堆算力、不计成本砸研发的扩张周期之后，全球科技巨头都不得不直面…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/lcOdvJkQhY9i6TJ1.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T16:26",
       "t": "视频生成算力新选择：SmarCo GC3如何绕过“存储墙”这道硬门槛",
@@ -140,19 +133,26 @@
       "t": "每个开发者都能做的工业质检AI，RT-Thread 命题公布",
       "s": "工厂质检是 AI 落地制造业最成熟的场景之一。产线上的划痕、裂纹、装配缺陷，机器视觉效率与准确度远高于人工。可要真正在工…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502293"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T14:05",
+      "t": "成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了",
+      "s": "头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369768"
     }
   ],
   "timeline": [
     [
-      "09-03 18:55",
+      "09-03 19:01",
       "#人工智能&科学仪器"
     ],
     [
-      "09-03 18:55",
+      "09-03 19:01",
       "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
     ],
     [
-      "09-03 18:55",
+      "09-03 19:01",
       "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知"
     ],
     [
@@ -160,12 +160,12 @@
       "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\""
     ],
     [
-      "09-03 18:18",
-      "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！"
+      "09-03 18:06",
+      "阿里花1000亿搞AI，美图花不到5个亿"
     ],
     [
-      "09-03 18:13",
-      "陈大年复出，入局大模型"
+      "09-03 18:00",
+      "“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281066,
+      "s": 281069,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245959,
+      "s": 245971,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209792,
+      "s": 209794,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173388,
+      "s": 173389,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135853,
+      "s": 135854,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114165,
+      "s": 114164,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91837,
+      "s": 91839,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
