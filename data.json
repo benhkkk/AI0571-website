@@ -1,19 +1,12 @@
 {
-  "updated": "2026-09-03T11:56:06",
+  "updated": "2026-09-03T12:01:13",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T11:56",
+      "d": "2026-09-03T12:01",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-03T11:56",
-      "t": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”",
-      "s": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260902/969747.shtml"
     },
     {
       "c": "MODEL",
@@ -140,16 +133,19 @@
       "t": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
       "s": "4激光雷达+双M100上车（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483462.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T09:24",
+      "t": "ACEMAGIC 将推升级款 F9A 迷你主机，换装 AMD 锐龙 AI Max+ PRO 495",
+      "s": "根据 ACEMAGIC（阿迈奇）在品牌官网公开的新闻稿，这家企业将推出升级至 AMD 锐龙 AI Max+ PRO 49…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/754.htm"
     }
   ],
   "timeline": [
     [
-      "09-03 11:56",
+      "09-03 12:01",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
-    ],
-    [
-      "09-03 11:56",
-      "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”"
     ],
     [
       "09-03 11:49",
@@ -166,6 +162,10 @@
     [
       "09-03 11:32",
       "荣耀学习空间手机版官宣适配 MagicOS 11 系统，相关机型 9 月 15 日起陆续开放升级"
+    ],
+    [
+      "09-03 11:27",
+      "最强模型Fable 5.1发布，Anthropic要用降价换IPO"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246441,
+      "s": 246443,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245432,
+      "s": 245438,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209707,
+      "s": 209710,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143835,
+      "s": 143836,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135794,
+      "s": 135795,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102707,
+      "s": 102712,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
