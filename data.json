@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T06:56:15",
+  "updated": "2026-09-04T07:02:10",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T06:56",
+      "t": "OpenAI 宣布将向全球投入 10 亿美元扩大 AI 网络安全能力，优先覆盖供水、电力等关键服务",
+      "s": "OpenAI 今日宣布推出“Daybreak for Frontline Defenders”计划，承诺投入 10 亿美…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/212.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T06:48",
@@ -73,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-03T21:31",
-      "t": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
-      "s": "小红书官方账号“薯管家”今日发布《关于 AI 制作医美、民宿等虚假内容治理公告》，宣布将 AI 制作发布虚假内容纳入常态…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/157.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-03T20:17",
       "t": "GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？",
       "s": "如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-04 06:56",
+      "OpenAI 宣布将向全球投入 10 亿美元扩大 AI 网络安全能力，优先覆盖供水、电力等关键服务"
+    ],
+    [
       "09-04 06:48",
       "GPT-6 曝光， OpenAI 总裁说：AGI 来了"
     ],
@@ -162,10 +166,6 @@
     [
       "09-03 23:15",
       "谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型"
-    ],
-    [
-      "09-03 23:07",
-      "（更新：已恢复正常）ChatGPT、Grok、Claude、Cursor 集体突发故障"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281310,
+      "s": 281314,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247263,
+      "s": 247267,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247116,
+      "s": 247119,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173624,
+      "s": 173626,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143950,
+      "s": 143951,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114403,
+      "s": 114404,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103067,
+      "s": 103068,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92013,
+      "s": 92015,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
