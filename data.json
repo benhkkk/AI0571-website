@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T23:30:52",
+  "updated": "2026-09-03T23:35:54",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-03T23:35",
+      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
+      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-03T23:35",
+      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
+      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-09-03T23:25",
@@ -42,6 +56,13 @@
       "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
       "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/161.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-03T21:42",
+      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
+      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -119,30 +140,17 @@
       "t": "全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟",
       "s": "2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T19:00",
-      "t": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
-      "s": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8127496.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T18:59",
-      "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
-      "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T18:23",
-      "t": "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\"",
-      "s": "企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502302"
     }
   ],
   "timeline": [
+    [
+      "09-03 23:35",
+      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
+    ],
+    [
+      "09-03 23:35",
+      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+    ],
     [
       "09-03 23:25",
       "逛完 WRC，我们发现机器人行业最该回答的 5 个问题"
@@ -158,14 +166,6 @@
     [
       "09-03 22:57",
       "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发"
-    ],
-    [
-      "09-03 22:56",
-      "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起"
-    ],
-    [
-      "09-03 21:54",
-      "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281179,
+      "s": 281182,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246838,
+      "s": 246845,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246597,
+      "s": 246607,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209840,
+      "s": 209841,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173492,
+      "s": 173494,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143908,
+      "s": 143909,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135882,
+      "s": 135884,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102951,
+      "s": 102955,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91899,
+      "s": 91901,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
