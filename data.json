@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-03T10:50:51",
+  "updated": "2026-09-03T10:55:46",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-03T10:50",
+      "d": "2026-09-03T10:55",
       "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
       "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-03T10:50",
+      "d": "2026-09-03T10:55",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-03T10:50",
+      "d": "2026-09-03T10:55",
       "t": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”",
       "s": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969747.shtml"
@@ -56,13 +56,6 @@
       "t": "AI 让“赛博蟑螂”学会自主避险，识别危险环境准确率达 93%",
       "s": "9 月 3 日，据《日经亚洲》报道，研究人员正尝试将人工智能、传感器和通信设备安装在昆虫身上，利用昆虫体型小、感知灵敏和…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/756.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T09:31",
-      "t": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
-      "s": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483552.html"
     },
     {
       "c": "MODEL",
@@ -140,19 +133,26 @@
       "t": "今年最难的机器人Demo，“机器人含量”为0",
       "s": "遥操，可能真的危险了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483351.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-03T08:22",
+      "t": "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市",
+      "s": "· 李飞飞发布世界模型 Atlas，用统一模型生成、重建与模拟三维世界 · 豆包工作支持多 Agents 并行，Mac …（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678222?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-03 10:50",
+      "09-03 10:55",
       "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
-      "09-03 10:50",
+      "09-03 10:55",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
-      "09-03 10:50",
+      "09-03 10:55",
       "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”"
     ],
     [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246401,
+      "s": 246405,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245368,
+      "s": 245371,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209694,
+      "s": 209696,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173285,
+      "s": 173286,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135787,
+      "s": 135788,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114042,
+      "s": 114043,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102686,
+      "s": 102689,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91749,
+      "s": 91750,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
