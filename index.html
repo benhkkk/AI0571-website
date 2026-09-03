@@ -459,9 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-09-03T19:01', t:'#人工智能&科学仪器', s:'#人工智能&科学仪器（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/topic-658.html'},
-    {c:'HOT', d:'2026-09-03T19:01', t:'生死局：AI正将仪器厂商逼向“产业链上游”的角落', s:'生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260121/871203.shtml'},
-    {c:'HOT', d:'2026-09-03T19:01', t:'ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知', s:'ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20250221/768744.shtml'},
     {c:'MODEL', d:'2026-09-03T18:23', t:'别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成"自来水"', s:'企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）', u:'https://www.oschina.net/news/502302'},
     {c:'HOT', d:'2026-09-03T18:06', t:'阿里花1000亿搞AI，美图花不到5个亿', s:'不追求通用AI，专注于细分垂直领域中的体验。（来源：钛媒体）', u:'https://www.tmtpost.com/8126354.html'},
     {c:'MODEL', d:'2026-09-03T18:00', t:'“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算', s:'大模型向左，继续探索通用人工智能的智力极限；Flash向右，向下扎根进入千行百业的生产线。（来源：钛媒体）', u:'https://www.tmtpost.com/8127474.html'},
@@ -479,25 +476,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T15:16', t:'Meta 这个百万级上下文模型，用数据换折扣，差价 21 倍', s:'Meta 最新 AI 大模型 Muse Spark 1.3 把上下文窗口拉到了 100 万 token，定价分了两档，差…（来源：OSCHINA）', u:'https://www.oschina.net/news/502295/meta-ai-muse-spark-1-3'},
     {c:'INDUSTRY', d:'2026-09-03T14:37', t:'每个开发者都能做的工业质检AI，RT-Thread 命题公布', s:'工厂质检是 AI 落地制造业最成熟的场景之一。产线上的划痕、裂纹、装配缺陷，机器视觉效率与准确度远高于人工。可要真正在工…（来源：OSCHINA）', u:'https://www.oschina.net/news/502293'},
     {c:'HOT', d:'2026-09-03T14:05', t:'成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了', s:'头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）', u:'http://www.geekpark.net/news/369768'},
+    {c:'HOT', d:'2026-09-03T13:56', t:'「小」鸭子火了之后，端侧 AI 还有一个更「大」的问题', s:'最近，一只只有 25 厘米高的机器鸭，意外把端侧 AI 的想象力拉到了聚光灯下。Hugging Face 旗下 Poll…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/pIN6zFvPEB91R6uC.html'},
+    {c:'MODEL', d:'2026-09-03T13:54', t:'智谱和 MiniMax，把大模型做成了两种生意', s:'头图来源：视觉中国 两家中国大模型公司，在五天里先后交出了上市后的首份中报。 MiniMax 先出：上半年收入 1.17…（来源：极客公园）', u:'http://www.geekpark.net/news/369775'},
+    {c:'HOT', d:'2026-09-03T13:30', t:'当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向', s:'作者｜Cynthia 编辑｜郑玄 2026 年夏天，林氏家居想卖一张布艺床。 然后，阿里妈妈万相点睛给它找到了一群电竞玩…（来源：极客公园）', u:'http://www.geekpark.net/news/369777'},
   ];
   const TIMELINE = [
-    ['09-03 19:01','#人工智能&科学仪器'],
-    ['09-03 19:01','生死局：AI正将仪器厂商逼向“产业链上游”的角落'],
-    ['09-03 19:01','ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知'],
     ['09-03 18:23','别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成"自来水"'],
     ['09-03 18:06','阿里花1000亿搞AI，美图花不到5个亿'],
     ['09-03 18:00','“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算'],
+    ['09-03 17:56','奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查'],
+    ['09-03 17:51','“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作'],
+    ['09-03 17:46','健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281069, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246680, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245971, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209794, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173389, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281070, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246683, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245984, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209796, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173391, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143875, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135854, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114164, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102862, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102865, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91839, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {

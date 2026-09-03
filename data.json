@@ -1,27 +1,6 @@
 {
-  "updated": "2026-09-03T19:01:16",
+  "updated": "2026-09-03T19:05:51",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-09-03T19:01",
-      "t": "#人工智能&科学仪器",
-      "s": "#人工智能&科学仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-658.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T19:01",
-      "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
-      "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T19:01",
-      "t": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知",
-      "s": "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250221/768744.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-03T18:23",
@@ -140,21 +119,30 @@
       "t": "成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了",
       "s": "头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369768"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T13:56",
+      "t": "「小」鸭子火了之后，端侧 AI 还有一个更「大」的问题",
+      "s": "最近，一只只有 25 厘米高的机器鸭，意外把端侧 AI 的想象力拉到了聚光灯下。Hugging Face 旗下 Poll…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/pIN6zFvPEB91R6uC.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T13:54",
+      "t": "智谱和 MiniMax，把大模型做成了两种生意",
+      "s": "头图来源：视觉中国 两家中国大模型公司，在五天里先后交出了上市后的首份中报。 MiniMax 先出：上半年收入 1.17…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369775"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T13:30",
+      "t": "当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向",
+      "s": "作者｜Cynthia 编辑｜郑玄 2026 年夏天，林氏家居想卖一张布艺床。 然后，阿里妈妈万相点睛给它找到了一群电竞玩…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369777"
     }
   ],
   "timeline": [
-    [
-      "09-03 19:01",
-      "#人工智能&科学仪器"
-    ],
-    [
-      "09-03 19:01",
-      "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
-    ],
-    [
-      "09-03 19:01",
-      "ACCSI 2025人工智能与科学仪器融合发展论坛第一轮通知"
-    ],
     [
       "09-03 18:23",
       "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\""
@@ -166,6 +154,18 @@
     [
       "09-03 18:00",
       "“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算"
+    ],
+    [
+      "09-03 17:56",
+      "奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查"
+    ],
+    [
+      "09-03 17:51",
+      "“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作"
+    ],
+    [
+      "09-03 17:46",
+      "健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281069,
+      "s": 281070,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246680,
+      "s": 246683,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245971,
+      "s": 245984,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209794,
+      "s": 209796,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173389,
+      "s": 173391,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102862,
+      "s": 102865,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
