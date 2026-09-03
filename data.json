@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T19:50:51",
+  "updated": "2026-09-03T19:55:52",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-03T19:53",
+      "t": "“国产 GPU 四小龙”之一：燧原科技中签号出炉，发行价 142.18 元 / 股",
+      "s": "燧原科技中签号今晚出炉，本次发行价格 142.18 元 / 股，发行股份数量 4303.5173 万股，预计募集资金总额…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/133.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-09-03T19:38",
@@ -133,16 +140,13 @@
       "t": "摩尔线程：公司已打通具身智能完整链路",
       "s": "据新浪财经报道，摩尔线程在今日召开的 2026 年半年度业绩说明会介绍称，公司已经打通具身智能从合成数据生成、大模型训练…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/037.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T16:59",
-      "t": "实测飞猪AI：真正的突围才刚刚开始？",
-      "s": "2026 年上半年，AI 行业的风向又变了。在经历一轮疯狂堆算力、不计成本砸研发的扩张周期之后，全球科技巨头都不得不直面…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/lcOdvJkQhY9i6TJ1.html"
     }
   ],
   "timeline": [
+    [
+      "09-03 19:53",
+      "“国产 GPU 四小龙”之一：燧原科技中签号出炉，发行价 142.18 元 / 股"
+    ],
     [
       "09-03 19:38",
       "美国达拉斯用垃圾车内置 AI 摄像头为建筑打“破败评分”，民众担忧隐私问题"
@@ -162,10 +166,6 @@
     [
       "09-03 19:23",
       "Termexo V0.7.0 发布：终端可见并切换 Claude / Codex 登录账号"
-    ],
-    [
-      "09-03 19:00",
-      "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281093,
+      "s": 281095,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246703,
+      "s": 246704,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246088,
+      "s": 246100,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209802,
+      "s": 209804,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173404,
+      "s": 173405,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135858,
+      "s": 135859,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91847,
+      "s": 91848,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
