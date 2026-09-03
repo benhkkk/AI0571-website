@@ -358,7 +358,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
 <!-- ===== B. Hero ===== -->
 <section class="hero">
   <div class="container hero-inner">
-    <span class="badge mono">2026-09-03 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
+    <span class="badge mono">2026-09-04 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
     <h1 class="hero-title">洞见 AI 的每一天</h1>
     <p class="hero-sub">杭州视角 · 全球 AI 资讯速递</p>
     <div class="hero-cta">
@@ -459,7 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'FUNDING', d:'2026-09-03T23:55', t:'海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件', s:'海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241216/759662.shtml'},
+    {c:'FUNDING', d:'2026-09-04T00:01', t:'海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件', s:'海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241216/759662.shtml'},
+    {c:'FUNDING', d:'2026-09-04T00:00', t:'英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品', s:'英伟达今天宣布，全新 RTX Spark Windows PC 将于 10 月上市，为 AI 发烧友、开发者提供更多创作…（来源：IT之家）', u:'https://www.ithome.com/0/998/202.htm'},
     {c:'INDUSTRY', d:'2026-09-03T23:25', t:'逛完 WRC，我们发现机器人行业最该回答的 5 个问题', s:'8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子。300 多家企业、200…（来源：极客公园）', u:'http://www.geekpark.net/news/369388'},
     {c:'MODEL', d:'2026-09-03T23:15', t:'谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型', s:'谷歌 DeepMind 和 Google Research 今天宣布推出 WeatherNext 3 ，号称是目前最先进…（来源：IT之家）', u:'https://www.ithome.com/0/998/198.htm'},
     {c:'MODEL', d:'2026-09-03T23:07', t:'ChatGPT、Grok、Claude、Cursor 集体突发故障', s:'据IT之家网友投稿反馈，ChatGPT、Grok、Claude、Cursor 等多款 AI 模型今晚突发故障。此外，用户…（来源：IT之家）', u:'https://www.ithome.com/0/998/195.htm'},
@@ -470,35 +471,34 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T21:31', t:'小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条', s:'小红书官方账号“薯管家”今日发布《关于 AI 制作医美、民宿等虚假内容治理公告》，宣布将 AI 制作发布虚假内容纳入常态…（来源：IT之家）', u:'https://www.ithome.com/0/998/157.htm'},
     {c:'MODEL', d:'2026-09-03T20:17', t:'GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？', s:'如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/XcJ2N9YalKyDRJd8.html'},
     {c:'MODEL', d:'2026-09-03T20:15', t:'官方确认：《战锤 40K：星际战士 3》开发完全不使用生成式 AI', s:'在《拼车模拟器》（Rideshare Stimulator）因使用生成式 AI 引发争议后，开发商 Saber Inte…（来源：IT之家）', u:'https://www.ithome.com/0/998/138.htm'},
-    {c:'FUNDING', d:'2026-09-03T20:01', t:'近 130 亿美元喜提“AI 界 GitHub”，英伟达宣布将正式收购 Hugging Face', s:'北京时间今天（3 日）晚间，英伟达 CEO 黄仁勋通过新闻稿宣布，公司同意以 129.303 亿美元（IT之家注：现汇率…（来源：IT之家）', u:'https://www.ithome.com/0/998/136.htm'},
     {c:'MODEL', d:'2026-09-03T19:39', t:'AI 群星闪耀之前，商汤先相信那群少年', s:'2018年，王延森还是一名本科生，做生成对话方向。那时候CV正热，Transformer浪潮初起。告诉别人自己在做“能聊…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html'},
-    {c:'HOT', d:'2026-09-03T19:32', t:'“没有Token的CS学生，应立即退学”', s:'禁止古法编程、Token自费（来源：量子位）', u:'https://www.qbitai.com/2026/09/483839.html'},
     {c:'MODEL', d:'2026-09-03T19:26', t:'中国儒意连推三款AI产品，首次打通AI创作链路｜独家', s:'战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）', u:'https://www.tmtpost.com/8127550.html'},
-    {c:'HOT', d:'2026-09-03T19:25', t:'腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场', s:'眼镜、耳机、麦克风都来了（来源：量子位）', u:'https://www.qbitai.com/2026/09/483786.html'},
     {c:'INDUSTRY', d:'2026-09-03T19:24', t:'年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？', s:'AI产业的利润，正从智能的制造转向智能的流通。（来源：钛媒体）', u:'https://www.tmtpost.com/8124567.html'},
     {c:'MODEL', d:'2026-09-03T19:23', t:'Termexo V0.7.0 发布：终端可见并切换 Claude / Codex 登录账号', s:'Termexo 于近日发布 V0.7.0 版本。该版本的主要方向是账号管理与窗口界面：把 Claude Code 与 C…（来源：OSCHINA）', u:'https://www.oschina.net/news/502303'},
     {c:'INDUSTRY', d:'2026-09-03T19:05', t:'全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟', s:'2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器…（来源：雷锋网）', u:'https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html'},
     {c:'MODEL', d:'2026-09-03T19:00', t:'独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗', s:'对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）', u:'https://www.tmtpost.com/8127496.html'},
+    {c:'HOT', d:'2026-09-03T18:59', t:'ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用', s:'近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）', u:'https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html'},
+    {c:'MODEL', d:'2026-09-03T18:23', t:'别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成"自来水"', s:'企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）', u:'https://www.oschina.net/news/502302'},
   ];
   const TIMELINE = [
-    ['09-03 23:55','海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件'],
+    ['09-04 00:01','海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件'],
+    ['09-04 00:00','英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品'],
     ['09-03 23:25','逛完 WRC，我们发现机器人行业最该回答的 5 个问题'],
     ['09-03 23:15','谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型'],
     ['09-03 23:07','ChatGPT、Grok、Claude、Cursor 集体突发故障'],
     ['09-03 22:57','沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发'],
-    ['09-03 22:56','HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281190, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246854, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:246643, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209845, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173501, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281194, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246859, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:246650, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209848, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173505, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143909, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135890, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114245, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135891, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114246, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102963, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91908, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91911, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
