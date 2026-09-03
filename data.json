@@ -1,9 +1,16 @@
 {
-  "updated": "2026-09-03T12:31:02",
+  "updated": "2026-09-03T12:35:54",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-09-03T12:35",
+      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
+      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-03T12:30",
+      "d": "2026-09-03T12:35",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
@@ -133,18 +140,15 @@
       "t": "遏制智能体失控，消息称 OpenAI 正开发 AI 自动终止功能",
       "s": "路透社昨日（9 月 2 日）发布博文，披露一份来自 OpenAI 的内部信件，透露该公司正在为 AI 系统开发“自动终止…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/755.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T09:27",
-      "t": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
-      "s": "4激光雷达+双M100上车（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483462.html"
     }
   ],
   "timeline": [
     [
-      "09-03 12:30",
+      "09-03 12:35",
+      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+    ],
+    [
+      "09-03 12:35",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-03 11:41",
       "人形机器人的天花板不在算法，在热力学"
-    ],
-    [
-      "09-03 11:32",
-      "荣耀学习空间手机版官宣适配 MagicOS 11 系统，相关机型 9 月 15 日起陆续开放升级"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280898,
+      "s": 280901,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245458,
+      "s": 245461,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173301,
+      "s": 173302,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102721,
+      "s": 102722,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91760,
+      "s": 91761,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
