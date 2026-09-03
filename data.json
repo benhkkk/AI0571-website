@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T08:45:57",
+  "updated": "2026-09-03T08:50:53",
   "news": [
     {
       "c": "MODEL",
@@ -107,6 +107,13 @@
       "u": "https://www.tmtpost.com/8124464.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-02T21:04",
+      "t": "AI 在生物制药领域的四大突破",
+      "s": "AI 在生物制药领域的四大突破（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7677173738080616987/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-02T19:24",
       "t": "李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界",
@@ -133,13 +140,6 @@
       "t": "独家解读丨字节 Seed 大调整，分支背后谁在操盘？",
       "s": "大模型竞争开始拼组织，这一次轮到字节。8 月 19 日，据晚点 Late Post 报道，Seed 基础模型团队新设 P…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/75DZ3yfWSLnIppDb.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T18:30",
-      "t": "李飞飞的 World Labs，把赛博朋克的「超梦」做出来了",
-      "s": "世界模型的「ChatGPT 时刻」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1678150?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246336,
+      "s": 246337,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245229,
+      "s": 245230,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209660,
+      "s": 209662,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173261,
+      "s": 173262,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143816,
+      "s": 143817,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114012,
+      "s": 114013,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102634,
+      "s": 102636,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91719,
+      "s": 91721,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
