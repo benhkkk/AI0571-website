@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-03T17:09', t:'摩尔线程：公司已打通具身智能完整链路', s:'据新浪财经报道，摩尔线程在今日召开的 2026 年半年度业绩说明会介绍称，公司已经打通具身智能从合成数据生成、大模型训练…（来源：IT之家）', u:'https://www.ithome.com/0/998/037.htm'},
     {c:'HOT', d:'2026-09-03T16:40', t:'苹果换帅：市值翻了13倍，AI还欠着账', s:'库克证明了苹果能赚钱，特努斯要证明的是，这家公司还配得上被模仿。（来源：钛媒体）', u:'https://www.tmtpost.com/8126223.html'},
     {c:'MODEL', d:'2026-09-03T16:31', t:'谷歌连发三款Flash，以“机海战术”再度加码AI企业端基本盘', s:'距离上代发布仅三周，谷歌火速上线Gemini 3.8 Flash，创下短期内三款大模型的“疯狂纪录”。在核心人才流失与旗…（来源：钛媒体）', u:'https://www.tmtpost.com/8127200.html'},
     {c:'MODEL', d:'2026-09-03T16:21', t:'微软调整财报口径：智能体与基础设施、设备与消费者 2 板块，Azure 营收纳入报告范围', s:'Microsoft（微软）当地时间 9 月 2 日宣布调整财报口径，将其整体业务从此前的“生产力和商业流程”“智能云”“…（来源：IT之家）', u:'https://www.ithome.com/0/997/990.htm'},
@@ -470,35 +471,34 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T15:03', t:'图像编辑器 Paint.NET 首次登陆 Linux：开发者称 AI 辅助 3 周进展超 12 年总和', s:'开发者里克 · 布鲁斯特（Rick Brewster）于 9 月 1 日在 X 平台发布推文，宣布发布 Paint.NE…（来源：IT之家）', u:'https://www.ithome.com/0/997/921.htm'},
     {c:'HOT', d:'2026-09-03T14:58', t:'奥尔特曼：OpenAI 肯定会研发人形机器人', s:'美国人工智能初创企业 OpenAI 今年创立机器人部门。招聘信息显示，该公司正在定制机电执行器、仿真流程和机器人数据采集…（来源：IT之家）', u:'https://www.ithome.com/0/997/918.htm'},
     {c:'INDUSTRY', d:'2026-09-03T14:37', t:'每个开发者都能做的工业质检AI，RT-Thread 命题公布', s:'工厂质检是 AI 落地制造业最成熟的场景之一。产线上的划痕、裂纹、装配缺陷，机器视觉效率与准确度远高于人工。可要真正在工…（来源：OSCHINA）', u:'https://www.oschina.net/news/502293'},
-    {c:'MODEL', d:'2026-09-03T14:21', t:'微软 VS Code 纪录片明日开播，聚焦 10 年演变与 AI 适配', s:'科技媒体 Neowin 昨日（9 月 2 日）发布博文，报道称微软发布 1.136 版 Visual Studio Co…（来源：IT之家）', u:'https://www.ithome.com/0/997/907.htm'},
     {c:'HOT', d:'2026-09-03T14:05', t:'成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了', s:'头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）', u:'http://www.geekpark.net/news/369768'},
     {c:'HOT', d:'2026-09-03T13:56', t:'「小」鸭子火了之后，端侧 AI 还有一个更「大」的问题', s:'最近，一只只有 25 厘米高的机器鸭，意外把端侧 AI 的想象力拉到了聚光灯下。Hugging Face 旗下 Poll…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/pIN6zFvPEB91R6uC.html'},
     {c:'MODEL', d:'2026-09-03T13:54', t:'智谱和 MiniMax，把大模型做成了两种生意', s:'头图来源：视觉中国 两家中国大模型公司，在五天里先后交出了上市后的首份中报。 MiniMax 先出：上半年收入 1.17…（来源：极客公园）', u:'http://www.geekpark.net/news/369775'},
     {c:'MODEL', d:'2026-09-03T13:35', t:'Gemini 3.8 Flash：谷歌把价格战打进了token消耗层', s:'单价没变，账单先涨四成。（来源：钛媒体）', u:'https://www.tmtpost.com/8126955.html'},
     {c:'MODEL', d:'2026-09-03T13:35', t:'Sam Altman最新长谈：过去一年走了弯路，将砍掉支线任务，打造超级大一统Agent', s:'ChatGPT与Codex即将迎来的大一统融合。（来源：钛媒体）', u:'https://www.tmtpost.com/8127005.html'},
     {c:'HOT', d:'2026-09-03T13:30', t:'当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向', s:'作者｜Cynthia 编辑｜郑玄 2026 年夏天，林氏家居想卖一张布艺床。 然后，阿里妈妈万相点睛给它找到了一群电竞玩…（来源：极客公园）', u:'http://www.geekpark.net/news/369777'},
-    {c:'INDUSTRY', d:'2026-09-03T13:23', t:'上头AI裁员的老板里，超过一半都后悔了', s:'AI裁员后遗症比想象中来得更快。（来源：钛媒体）', u:'https://www.tmtpost.com/8127002.html'},
-    {c:'MODEL', d:'2026-09-03T13:22', t:'MiniMax、阿里同时布局视频Agent，拼完模型开始拼工作流？', s:'当模型能力不再是稀缺资源，谁能掌握从生产到分发的完整链路，谁才能在下一阶段的内容工业变革中占据主动。（来源：钛媒体）', u:'https://www.tmtpost.com/8126960.html'},
+    {c:'MODEL', d:'2026-09-03T12:52', t:'AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」', s:'头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）', u:'http://www.geekpark.net/news/369767'},
+    {c:'MODEL', d:'2026-09-03T12:49', t:'开源 AI 终端助手 Pragmatic AI Shell 发布 v1.0：多模型热切换 + 免 JRE 原生二进制', s:'用自然语言驱动终端的开源工具 Pragmatic AI Shell（smartcli） 正式发布 v1.0：你说人话，它…（来源：OSCHINA）', u:'https://www.oschina.net/news/502288'},
   ];
   const TIMELINE = [
+    ['09-03 17:09','摩尔线程：公司已打通具身智能完整链路'],
     ['09-03 16:40','苹果换帅：市值翻了13倍，AI还欠着账'],
     ['09-03 16:31','谷歌连发三款Flash，以“机海战术”再度加码AI企业端基本盘'],
     ['09-03 16:21','微软调整财报口径：智能体与基础设施、设备与消费者 2 板块，Azure 营收纳入报告范围'],
     ['09-03 15:49','阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜'],
     ['09-03 15:42','印度首富押注云电脑：8 年老 PC 无需升级，也能运行 AI 应用'],
-    ['09-03 15:40','全国首款仿生医疗机器人发布：优必选联合麦迪科技打造，可选男 / 女版本'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281017, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246631, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245802, u:'https://github.com/mattpocock/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281020, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246634, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245811, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209773, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173359, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143863, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135837, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114135, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102833, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91820, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173360, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143862, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135838, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114136, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102834, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91822, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
