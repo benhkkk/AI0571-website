@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-03T12:50:53",
+  "updated": "2026-09-03T12:55:49",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T12:50",
+      "d": "2026-09-03T12:55",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T12:52",
+      "t": "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」",
+      "s": "头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369767"
     },
     {
       "c": "MODEL",
@@ -79,6 +86,13 @@
       "u": "https://www.toutiao.com/article/7681136299222254080/"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-03T10:49",
+      "t": "WorkBuddy金融版正式发布，让Agent真正进入金融业务现场",
+      "s": "9月3日，腾讯WorkBuddy金融版正式上线。WorkBuddy金融版是专门面向金融机构打造的AI智能工作台，可为券商…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/zr0zxn8R9MVT4y7n.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-09-03T10:47",
       "t": "AI制药进展率先带动生命科学上游需求",
@@ -126,26 +140,16 @@
       "t": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
       "s": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483552.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T09:28",
-      "t": "遏制智能体失控，消息称 OpenAI 正开发 AI 自动终止功能",
-      "s": "路透社昨日（9 月 2 日）发布博文，披露一份来自 OpenAI 的内部信件，透露该公司正在为 AI 系统开发“自动终止…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/755.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T09:27",
-      "t": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
-      "s": "4激光雷达+双M100上车（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483462.html"
     }
   ],
   "timeline": [
     [
-      "09-03 12:50",
+      "09-03 12:55",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
+    ],
+    [
+      "09-03 12:52",
+      "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」"
     ],
     [
       "09-03 12:23",
@@ -162,10 +166,6 @@
     [
       "09-03 11:41",
       "人形机器人的天花板不在算法，在热力学"
-    ],
-    [
-      "09-03 11:32",
-      "荣耀学习空间手机版官宣适配 MagicOS 11 系统，相关机型 9 月 15 日起陆续开放升级"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280903,
+      "s": 280902,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246467,
+      "s": 246473,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245472,
+      "s": 245477,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209714,
+      "s": 209715,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173304,
+      "s": 173305,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114061,
+      "s": 114063,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102726,
+      "s": 102729,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
