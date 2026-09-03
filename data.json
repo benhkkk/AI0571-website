@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T05:31:25",
+  "updated": "2026-09-04T05:36:17",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-04T05:36",
+      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
+      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
+    },
     {
       "c": "FUNDING",
       "d": "2026-09-04T00:00",
@@ -42,13 +49,6 @@
       "t": "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起",
       "s": "HTC 今天（3 日）通过官方新闻稿宣布，最新 AI 智能眼镜 VIVE Eagle 正式登陆欧洲、北美和澳大利亚市场…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/188.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T22:10",
-      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
-      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128007.html"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-04 05:36",
+      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
+    ],
+    [
       "09-04 00:00",
       "英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品"
     ],
@@ -162,10 +166,6 @@
     [
       "09-03 22:57",
       "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发"
-    ],
-    [
-      "09-03 22:56",
-      "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281293,
+      "s": 281294,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247178,
+      "s": 247185,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209891,
+      "s": 209893,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173598,
+      "s": 173599,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114371,
+      "s": 114373,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
