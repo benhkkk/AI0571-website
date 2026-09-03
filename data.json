@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-03T19:35:44",
+  "updated": "2026-09-03T19:40:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T19:35",
+      "d": "2026-09-03T19:40",
       "t": "如何用Deepseek组装测序仪？",
       "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T19:38",
+      "t": "美国达拉斯用垃圾车内置 AI 摄像头为建筑打“破败评分”，民众担忧隐私问题",
+      "s": "据外媒 TechSpot 今天（3 日）报道，达拉斯市启动了一项新政：利用安装在垃圾清运车上的 AI 摄像头检查沿途房产…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/122.htm"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "实测飞猪AI：真正的突围才刚刚开始？",
       "s": "2026 年上半年，AI 行业的风向又变了。在经历一轮疯狂堆算力、不计成本砸研发的扩张周期之后，全球科技巨头都不得不直面…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/lcOdvJkQhY9i6TJ1.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T16:26",
-      "t": "视频生成算力新选择：SmarCo GC3如何绕过“存储墙”这道硬门槛",
-      "s": "大模型生成视频，正在成为这个算力饥渴时代最典型的应用场景之一。一段由AI生成的1080P视频，背后往往是数十亿参数神经网…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/P8cdU7kEF0KPadAJ.html"
     }
   ],
   "timeline": [
     [
-      "09-03 19:35",
+      "09-03 19:40",
       "如何用Deepseek组装测序仪？"
+    ],
+    [
+      "09-03 19:38",
+      "美国达拉斯用垃圾车内置 AI 摄像头为建筑打“破败评分”，民众担忧隐私问题"
     ],
     [
       "09-03 19:33",
@@ -162,10 +166,6 @@
     [
       "09-03 19:23",
       "Termexo V0.7.0 发布：终端可见并切换 Claude / Codex 登录账号"
-    ],
-    [
-      "09-03 19:00",
-      "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281085,
+      "s": 281089,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246694,
+      "s": 246697,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246059,
+      "s": 246072,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209798,
+      "s": 209800,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173401,
+      "s": 173404,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114169,
+      "s": 114170,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102874,
+      "s": 102875,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91843,
+      "s": 91845,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
