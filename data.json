@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T14:20:56",
+  "updated": "2026-09-03T14:25:53",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T14:21",
+      "t": "微软 VS Code 纪录片明日开播，聚焦 10 年演变与 AI 适配",
+      "s": "科技媒体 Neowin 昨日（9 月 2 日）发布博文，报道称微软发布 1.136 版 Visual Studio Co…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/907.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-09-03T14:05",
@@ -133,16 +140,13 @@
       "t": "消息称 MagicOS 11 迭代后，苹果 iPhone 来电可在荣耀 Magic9 上调用 AI 通话接听",
       "s": "据博主 @旺仔百事通 爆料，MagicOS 11 系统迭代后，苹果 iPhone 来电可以直接在荣耀 Magic9 上调…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/823.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T10:53",
-      "t": "河图探海，一家天使轮公司的“深海华为”野心",
-      "s": "水下机器人跑出“新物种”。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8126794.html"
     }
   ],
   "timeline": [
+    [
+      "09-03 14:21",
+      "微软 VS Code 纪录片明日开播，聚焦 10 年演变与 AI 适配"
+    ],
     [
       "09-03 14:05",
       "成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了"
@@ -162,10 +166,6 @@
     [
       "09-03 13:35",
       "Sam Altman最新长谈：过去一年走了弯路，将砍掉支线任务，打造超级大一统Agent"
-    ],
-    [
-      "09-03 13:32",
-      "荣耀 MagicPad 4 平板、手表 6 Pro 官宣月底一同亮相，林林透露会争取更早登场"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280931,
+      "s": 280934,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246512,
+      "s": 246517,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245563,
+      "s": 245569,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209733,
+      "s": 209734,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173317,
+      "s": 173318,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143849,
+      "s": 143850,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135810,
+      "s": 135811,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114087,
+      "s": 114088,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102757,
+      "s": 102759,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91781,
+      "s": 91783,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
