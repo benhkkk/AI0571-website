@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T08:15:55",
+  "updated": "2026-09-03T08:20:53",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-03T08:20",
+      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
+      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T08:13",
+      "t": "Edge AI Daily 早报（9月3日）",
+      "s": "谷歌发布Agentic Video Understanding降低88%Token，反驳AI泡沫论；Meta推出Muse…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8126450.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T08:08",
@@ -86,13 +100,6 @@
       "u": "https://www.tmtpost.com/8124464.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T21:04",
-      "t": "AI 在生物制药领域的四大突破",
-      "s": "AI 在生物制药领域的四大突破（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7677173738080616987/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-02T19:24",
       "t": "李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界",
@@ -133,16 +140,17 @@
       "t": "勇夺 18 块金牌：机器人运动会「金牌王」走出赛场，还能派上用场吗？",
       "s": "雷峰网刚刚过去的 2026 年世界人形机器人运动会上，智元成为了当之无愧的奖牌、金牌双料王者——不仅以 46 块奖牌冠绝…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/eqoi4e4nz7h4lJZi.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-02T18:15",
-      "t": "Zeroth 元点机器人预告发布 OpenBridge 生态：具身智能的「安卓时刻」来了",
-      "s": "今天，乐享科技旗下的元点机器人，官宣即将推出自己的首款产品以及全球首个具身 Physical AI 开源生态——Open…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/7XuKxVmxPG0rwM3f.html"
     }
   ],
   "timeline": [
+    [
+      "09-03 08:20",
+      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
+    ],
+    [
+      "09-03 08:13",
+      "Edge AI Daily 早报（9月3日）"
+    ],
     [
       "09-03 08:08",
       "探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号"
@@ -158,14 +166,6 @@
     [
       "09-03 07:50",
       "纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”"
-    ],
-    [
-      "09-03 07:29",
-      "Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol"
-    ],
-    [
-      "09-03 07:20",
-      "【钛晨报】央行行长潘功胜出席G20财长和央行行长会议，强调继续实施好适度宽松的货币政策；CrowdStrike与OpenAI扩大合作；港股通买入Minimax规…"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280829,
+      "s": 280830,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246324,
+      "s": 246325,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245210,
+      "s": 245213,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209654,
+      "s": 209655,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135776,
+      "s": 135777,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
