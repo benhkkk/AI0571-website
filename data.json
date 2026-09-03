@@ -1,30 +1,23 @@
 {
-  "updated": "2026-09-03T10:45:55",
+  "updated": "2026-09-03T10:50:51",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-03T10:45",
-      "t": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术",
-      "s": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750693.shtml"
+      "c": "MEDDEVICE",
+      "d": "2026-09-03T10:50",
+      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
+      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-03T10:45",
-      "t": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例",
-      "s": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750625.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T10:45",
+      "d": "2026-09-03T10:50",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-03T10:45",
+      "d": "2026-09-03T10:50",
       "t": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”",
       "s": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969747.shtml"
@@ -140,23 +133,26 @@
       "t": "三问AI办公：当智能成为标配，新的稀缺在哪里？",
       "s": "AI办公大战看起来很像下一场超级入口战争，但最后可能根本不会产生一个新的超级入口。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126197.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T08:51",
+      "t": "今年最难的机器人Demo，“机器人含量”为0",
+      "s": "遥操，可能真的危险了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483351.html"
     }
   ],
   "timeline": [
     [
-      "09-03 10:45",
-      "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术"
+      "09-03 10:50",
+      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
     ],
     [
-      "09-03 10:45",
-      "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例"
-    ],
-    [
-      "09-03 10:45",
+      "09-03 10:50",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
-      "09-03 10:45",
+      "09-03 10:50",
       "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-03 09:54",
       "AI播客的三种毛病：脑补、删论据、漏读"
+    ],
+    [
+      "09-03 09:49",
+      "Gemini 3.8 Flash上线：性能接近Opus 5，价格不变但任务更贵"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280876,
+      "s": 280877,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245364,
+      "s": 245368,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209693,
+      "s": 209694,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173281,
+      "s": 173285,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143828,
+      "s": 143829,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102682,
+      "s": 102686,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91747,
+      "s": 91749,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
