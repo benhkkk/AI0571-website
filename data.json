@@ -1,16 +1,16 @@
 {
-  "updated": "2026-09-03T11:10:51",
+  "updated": "2026-09-03T11:15:53",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T11:10",
+      "d": "2026-09-03T11:15",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-03T11:10",
+      "d": "2026-09-03T11:15",
       "t": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”",
       "s": "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969747.shtml"
@@ -70,6 +70,13 @@
       "t": "AI 让“赛博蟑螂”学会自主避险，识别危险环境准确率达 93%",
       "s": "9 月 3 日，据《日经亚洲》报道，研究人员正尝试将人工智能、传感器和通信设备安装在昆虫身上，利用昆虫体型小、感知灵敏和…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/756.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T09:31",
+      "t": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
+      "s": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483552.html"
     },
     {
       "c": "MODEL",
@@ -133,22 +140,15 @@
       "t": "三问AI办公：当智能成为标配，新的稀缺在哪里？",
       "s": "AI办公大战看起来很像下一场超级入口战争，但最后可能根本不会产生一个新的超级入口。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126197.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T08:51",
-      "t": "今年最难的机器人Demo，“机器人含量”为0",
-      "s": "遥操，可能真的危险了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483351.html"
     }
   ],
   "timeline": [
     [
-      "09-03 11:10",
+      "09-03 11:15",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
-      "09-03 11:10",
+      "09-03 11:15",
       "终结“最后一公里”：Anthropic MHS为实验室自动化定义“通用语言”"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280879,
+      "s": 280881,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246416,
+      "s": 246418,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245386,
+      "s": 245393,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173288,
+      "s": 173289,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135789,
+      "s": 135791,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114048,
+      "s": 114049,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102691,
+      "s": 102695,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
