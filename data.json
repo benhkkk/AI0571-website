@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T18:26:11",
+  "updated": "2026-09-03T18:30:58",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T18:18",
+      "t": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+      "s": "单图直出场景，顶会最佳论文落地（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483189.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T18:13",
+      "t": "陈大年复出，入局大模型",
+      "s": "首秀逼近DeepSeek万亿旗舰（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483600.html"
+    },
     {
       "c": "HOT",
       "d": "2026-09-03T18:06",
@@ -49,6 +63,13 @@
       "t": "摩尔线程：公司已打通具身智能完整链路",
       "s": "据新浪财经报道，摩尔线程在今日召开的 2026 年半年度业绩说明会介绍称，公司已经打通具身智能从合成数据生成、大模型训练…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/037.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T16:26",
+      "t": "视频生成算力新选择：SmarCo GC3如何绕过“存储墙”这道硬门槛",
+      "s": "大模型生成视频，正在成为这个算力饥渴时代最典型的应用场景之一。一段由AI生成的1080P视频，背后往往是数十亿参数神经网…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/P8cdU7kEF0KPadAJ.html"
     },
     {
       "c": "MODEL",
@@ -119,30 +140,17 @@
       "t": "当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向",
       "s": "作者｜Cynthia 编辑｜郑玄 2026 年夏天，林氏家居想卖一张布艺床。 然后，阿里妈妈万相点睛给它找到了一群电竞玩…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369777"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T12:52",
-      "t": "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」",
-      "s": "头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369767"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T12:49",
-      "t": "开源 AI 终端助手 Pragmatic AI Shell 发布 v1.0：多模型热切换 + 免 JRE 原生二进制",
-      "s": "用自然语言驱动终端的开源工具 Pragmatic AI Shell（smartcli） 正式发布 v1.0：你说人话，它…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502288"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T10:53",
-      "t": "2026中国AI制药企业TOP30",
-      "s": "2026中国AI制药企业TOP30（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681136299222254080/"
     }
   ],
   "timeline": [
+    [
+      "09-03 18:18",
+      "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！"
+    ],
+    [
+      "09-03 18:13",
+      "陈大年复出，入局大模型"
+    ],
     [
       "09-03 18:06",
       "阿里花1000亿搞AI，美图花不到5个亿"
@@ -158,14 +166,6 @@
     [
       "09-03 17:51",
       "“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作"
-    ],
-    [
-      "09-03 17:46",
-      "健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”"
-    ],
-    [
-      "09-03 17:30",
-      "消息称小鹏机器人将采用固液电池方案推进量产，已定点一家二线企业"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281053,
+      "s": 281055,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246667,
+      "s": 246668,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245922,
+      "s": 245924,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143870,
+      "s": 143872,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114157,
+      "s": 114160,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91833,
+      "s": 91834,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
