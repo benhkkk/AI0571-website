@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-03T08:31:11",
+  "updated": "2026-09-03T08:35:53",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-09-03T08:31",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
     {
       "c": "FUNDING",
       "d": "2026-09-03T08:22",
@@ -140,13 +133,16 @@
       "t": "独家解读丨字节 Seed 大调整，分支背后谁在操盘？",
       "s": "大模型竞争开始拼组织，这一次轮到字节。8 月 19 日，据晚点 Late Post 报道，Seed 基础模型团队新设 P…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/75DZ3yfWSLnIppDb.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-02T18:30",
+      "t": "李飞飞的 World Labs，把赛博朋克的「超梦」做出来了",
+      "s": "世界模型的「ChatGPT 时刻」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678150?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
-    [
-      "09-03 08:31",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
     [
       "09-03 08:22",
       "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市"
@@ -166,6 +162,10 @@
     [
       "09-03 07:57",
       "IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售..."
+    ],
+    [
+      "09-03 07:50",
+      "纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280830,
+      "s": 280833,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246329,
+      "s": 246332,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245219,
+      "s": 245221,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114009,
+      "s": 114010,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102629,
+      "s": 102630,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
