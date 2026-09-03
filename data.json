@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-03T22:51:08",
+  "updated": "2026-09-03T22:56:35",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T22:10",
-      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
-      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128007.html"
-    },
     {
       "c": "HOT",
       "d": "2026-09-03T21:54",
@@ -79,11 +72,25 @@
       "u": "https://www.ithome.com/0/998/121.htm"
     },
     {
+      "c": "HOT",
+      "d": "2026-09-03T19:32",
+      "t": "“没有Token的CS学生，应立即退学”",
+      "s": "禁止古法编程、Token自费（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483839.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T19:26",
       "t": "中国儒意连推三款AI产品，首次打通AI创作链路｜独家",
       "s": "战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127550.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T19:25",
+      "t": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+      "s": "眼镜、耳机、麦克风都来了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483786.html"
     },
     {
       "c": "INDUSTRY",
@@ -129,24 +136,13 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-03T18:09",
-      "t": "把 Gemini 和 GPT 放到《我的世界》当教练，谁能看懂机器人的微操？",
-      "s": "Gemini 领跑，GPT表现平平，国立清华、英伟达提出双奖励孪生网络，告别算力焦虑。 作者丨张 璐 编辑丨幸丽娟 VL…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/private/Q0PAUayVomQIhiFv.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-03T18:07",
-      "t": "打破黑盒猜想：大模型通往真正「空间智能」的破局之路",
-      "s": "给模型做一次脑部“CT”，低成本重塑真实空间智能。 作者丨张 璐 编辑丨幸丽娟 先来看一道简单的多模态大模型视觉考题：观…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/private/f8Yfubtfrorhpr9b.html"
+      "d": "2026-09-03T18:18",
+      "t": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
+      "s": "单图直出场景，顶会最佳论文落地（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483189.html"
     }
   ],
   "timeline": [
-    [
-      "09-03 22:10",
-      "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相"
-    ],
     [
       "09-03 21:54",
       "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告"
@@ -166,6 +162,10 @@
     [
       "09-03 20:15",
       "官方确认：《战锤 40K：星际战士 3》开发完全不使用生成式 AI"
+    ],
+    [
+      "09-03 20:01",
+      "近 130 亿美元喜提“AI 界 GitHub”，英伟达宣布将正式收购 Hugging Face"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281165,
+      "s": 281171,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246799,
+      "s": 246806,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246506,
+      "s": 246522,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209832,
+      "s": 209833,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173477,
+      "s": 173478,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114226,
+      "s": 114227,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91885,
+      "s": 91886,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
