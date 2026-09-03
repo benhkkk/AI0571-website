@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T00:26:01",
+  "updated": "2026-09-04T00:30:50",
   "news": [
     {
       "c": "FUNDING",
@@ -49,13 +49,6 @@
       "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
       "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/161.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T21:42",
-      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
-      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -140,6 +133,13 @@
       "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
       "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T18:23",
+      "t": "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\"",
+      "s": "企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502302"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281198,
+      "s": 281200,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246871,
+      "s": 246873,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246691,
+      "s": 246700,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173513,
+      "s": 173515,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143909,
+      "s": 143911,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135894,
+      "s": 135895,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114258,
+      "s": 114260,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102968,
+      "s": 102971,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91920,
+      "s": 91922,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
