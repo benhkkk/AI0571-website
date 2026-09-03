@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-03T19:31:02",
+  "updated": "2026-09-03T19:35:44",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T19:30",
-      "t": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平",
-      "s": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250529/787176.shtml"
+      "c": "HOT",
+      "d": "2026-09-03T19:35",
+      "t": "如何用Deepseek组装测序仪？",
+      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T19:33",
+      "t": "OpenAI、Anthropic 等科技公司安保人员获准罢工，要求提高薪资待遇",
+      "s": "美国加州 OpenAI、Anthropic 等科技公司的工会安保人员当地时间周三宣布，已经授权举行罢工。代表这些安保人员…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/121.htm"
     },
     {
       "c": "MODEL",
@@ -21,6 +28,13 @@
       "t": "年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？",
       "s": "AI产业的利润，正从智能的制造转向智能的流通。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8124567.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T19:23",
+      "t": "Termexo V0.7.0 发布：终端可见并切换 Claude / Codex 登录账号",
+      "s": "Termexo 于近日发布 V0.7.0 版本。该版本的主要方向是账号管理与窗口界面：把 Claude Code 与 C…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502303"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,16 @@
       "t": "视频生成算力新选择：SmarCo GC3如何绕过“存储墙”这道硬门槛",
       "s": "大模型生成视频，正在成为这个算力饥渴时代最典型的应用场景之一。一段由AI生成的1080P视频，背后往往是数十亿参数神经网…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/P8cdU7kEF0KPadAJ.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T16:21",
-      "t": "微软调整财报口径：智能体与基础设施、设备与消费者 2 板块，Azure 营收纳入报告范围",
-      "s": "Microsoft（微软）当地时间 9 月 2 日宣布调整财报口径，将其整体业务从此前的“生产力和商业流程”“智能云”“…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/990.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T15:49",
-      "t": "阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜",
-      "s": "据阿里云消息，今天，阿里智能体编程平台 Qoder 上线“Qoder 眼镜版”，将首批接入千问 AI 眼镜和乐奇 AI …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/976.htm"
     }
   ],
   "timeline": [
     [
-      "09-03 19:30",
-      "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平"
+      "09-03 19:35",
+      "如何用Deepseek组装测序仪？"
+    ],
+    [
+      "09-03 19:33",
+      "OpenAI、Anthropic 等科技公司安保人员获准罢工，要求提高薪资待遇"
     ],
     [
       "09-03 19:26",
@@ -156,16 +160,12 @@
       "年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？"
     ],
     [
+      "09-03 19:23",
+      "Termexo V0.7.0 发布：终端可见并切换 Claude / Codex 登录账号"
+    ],
+    [
       "09-03 19:00",
       "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗"
-    ],
-    [
-      "09-03 18:23",
-      "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\""
-    ],
-    [
-      "09-03 18:18",
-      "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281081,
+      "s": 281085,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246692,
+      "s": 246694,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246042,
+      "s": 246059,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173399,
+      "s": 173401,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143875,
+      "s": 143876,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135856,
+      "s": 135857,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114168,
+      "s": 114169,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102870,
+      "s": 102874,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91841,
+      "s": 91843,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
