@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-04T01:41:30",
+  "updated": "2026-09-04T01:46:34",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-04T01:41",
+      "d": "2026-09-04T01:46",
       "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
       "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
@@ -56,13 +56,6 @@
       "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
       "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/161.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T21:42",
-      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
-      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -140,11 +133,18 @@
       "t": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
       "s": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127496.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T18:59",
+      "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
+      "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
     }
   ],
   "timeline": [
     [
-      "09-04 01:41",
+      "09-04 01:46",
       "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281224,
+      "s": 281225,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246925,
+      "s": 246926,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246828,
+      "s": 246841,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209856,
+      "s": 209858,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173541,
+      "s": 173542,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143922,
+      "s": 143923,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102986,
+      "s": 102987,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91943,
+      "s": 91945,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
