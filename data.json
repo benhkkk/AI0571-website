@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T14:35:55",
+  "updated": "2026-09-03T14:40:53",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T14:37",
+      "t": "每个开发者都能做的工业质检AI，RT-Thread 命题公布",
+      "s": "工厂质检是 AI 落地制造业最成熟的场景之一。产线上的划痕、裂纹、装配缺陷，机器视觉效率与准确度远高于人工。可要真正在工…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502293"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T14:21",
@@ -133,16 +140,13 @@
       "t": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
       "s": "从工厂一路干到家庭（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483565.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T11:01",
-      "t": "消息称 MagicOS 11 迭代后，苹果 iPhone 来电可在荣耀 Magic9 上调用 AI 通话接听",
-      "s": "据博主 @旺仔百事通 爆料，MagicOS 11 系统迭代后，苹果 iPhone 来电可以直接在荣耀 Magic9 上调…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/823.htm"
     }
   ],
   "timeline": [
+    [
+      "09-03 14:37",
+      "每个开发者都能做的工业质检AI，RT-Thread 命题公布"
+    ],
     [
       "09-03 14:21",
       "微软 VS Code 纪录片明日开播，聚焦 10 年演变与 AI 适配"
@@ -162,10 +166,6 @@
     [
       "09-03 13:35",
       "Gemini 3.8 Flash：谷歌把价格战打进了token消耗层"
-    ],
-    [
-      "09-03 13:35",
-      "Sam Altman最新长谈：过去一年走了弯路，将砍掉支线任务，打造超级大一统Agent"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280938,
+      "s": 280941,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246525,
+      "s": 246530,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245582,
+      "s": 245590,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209736,
+      "s": 209737,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173322,
+      "s": 173323,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143851,
+      "s": 143852,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114092,
+      "s": 114095,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91786,
+      "s": 91789,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
