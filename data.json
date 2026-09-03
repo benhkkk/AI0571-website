@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T23:25:56",
+  "updated": "2026-09-03T23:30:52",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T23:25",
+      "t": "逛完 WRC，我们发现机器人行业最该回答的 5 个问题",
+      "s": "8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子。300 多家企业、200…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369388"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T23:15",
+      "t": "谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型",
+      "s": "谷歌 DeepMind 和 Google Research 今天宣布推出 WeatherNext 3 ，号称是目前最先进…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/198.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T23:07",
@@ -23,25 +37,11 @@
       "u": "https://www.ithome.com/0/998/188.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T22:10",
-      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
-      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128007.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-03T21:54",
       "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
       "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/161.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T21:42",
-      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
-      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -70,13 +70,6 @@
       "t": "近 130 亿美元喜提“AI 界 GitHub”，英伟达宣布将正式收购 Hugging Face",
       "s": "北京时间今天（3 日）晚间，英伟达 CEO 黄仁勋通过新闻稿宣布，公司同意以 129.303 亿美元（IT之家注：现汇率…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/136.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T19:53",
-      "t": "“国产 GPU 四小龙”之一：燧原科技中签号出炉，发行价 142.18 元 / 股",
-      "s": "燧原科技中签号今晚出炉，本次发行价格 142.18 元 / 股，发行股份数量 4303.5173 万股，预计募集资金总额…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/133.htm"
     },
     {
       "c": "MODEL",
@@ -140,9 +133,24 @@
       "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
       "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T18:23",
+      "t": "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\"",
+      "s": "企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502302"
     }
   ],
   "timeline": [
+    [
+      "09-03 23:25",
+      "逛完 WRC，我们发现机器人行业最该回答的 5 个问题"
+    ],
+    [
+      "09-03 23:15",
+      "谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型"
+    ],
     [
       "09-03 23:07",
       "ChatGPT、Grok、Claude、Cursor 集体突发故障"
@@ -156,16 +164,8 @@
       "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起"
     ],
     [
-      "09-03 22:10",
-      "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相"
-    ],
-    [
       "09-03 21:54",
       "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告"
-    ],
-    [
-      "09-03 21:42",
-      "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281176,
+      "s": 281179,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246833,
+      "s": 246838,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246587,
+      "s": 246597,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209839,
+      "s": 209840,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173490,
+      "s": 173492,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102950,
+      "s": 102951,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91897,
+      "s": 91899,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
