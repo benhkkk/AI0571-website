@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T14:05:54",
+  "updated": "2026-09-03T14:10:58",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-03T14:05",
+      "t": "成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了",
+      "s": "头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369768"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T13:54",
@@ -133,16 +140,13 @@
       "t": "河图探海，一家天使轮公司的“深海华为”野心",
       "s": "水下机器人跑出“新物种”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126794.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T10:53",
-      "t": "2026中国AI制药企业TOP30",
-      "s": "2026中国AI制药企业TOP30（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681136299222254080/"
     }
   ],
   "timeline": [
+    [
+      "09-03 14:05",
+      "成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了"
+    ],
     [
       "09-03 13:54",
       "智谱和 MiniMax，把大模型做成了两种生意"
@@ -162,10 +166,6 @@
     [
       "09-03 13:32",
       "荣耀 MagicPad 4 平板、手表 6 Pro 官宣月底一同亮相，林林透露会争取更早登场"
-    ],
-    [
-      "09-03 13:30",
-      "当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280923,
+      "s": 280926,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246503,
+      "s": 246508,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245544,
+      "s": 245553,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173313,
+      "s": 173314,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143847,
+      "s": 143848,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102752,
+      "s": 102753,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91778,
+      "s": 91780,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-03T14:05', t:'成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了', s:'头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）', u:'http://www.geekpark.net/news/369768'},
     {c:'MODEL', d:'2026-09-03T13:54', t:'智谱和 MiniMax，把大模型做成了两种生意', s:'头图来源：视觉中国 两家中国大模型公司，在五天里先后交出了上市后的首份中报。 MiniMax 先出：上半年收入 1.17…（来源：极客公园）', u:'http://www.geekpark.net/news/369775'},
     {c:'MODEL', d:'2026-09-03T13:38', t:'OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度未跳跃增长', s:'OpenAI 首席科学家雅库布・帕乔基（Jakub Pachocki）昨日（9 月 2 日）在 X 平台发布推文，回应 …（来源：IT之家）', u:'https://www.ithome.com/0/997/866.htm'},
     {c:'MODEL', d:'2026-09-03T13:35', t:'Gemini 3.8 Flash：谷歌把价格战打进了token消耗层', s:'单价没变，账单先涨四成。（来源：钛媒体）', u:'https://www.tmtpost.com/8126955.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T11:16', t:'一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠', s:'从工厂一路干到家庭（来源：量子位）', u:'https://www.qbitai.com/2026/09/483565.html'},
     {c:'HOT', d:'2026-09-03T11:01', t:'消息称 MagicOS 11 迭代后，苹果 iPhone 来电可在荣耀 Magic9 上调用 AI 通话接听', s:'据博主 @旺仔百事通 爆料，MagicOS 11 系统迭代后，苹果 iPhone 来电可以直接在荣耀 Magic9 上调…（来源：IT之家）', u:'https://www.ithome.com/0/997/823.htm'},
     {c:'HOT', d:'2026-09-03T10:53', t:'河图探海，一家天使轮公司的“深海华为”野心', s:'水下机器人跑出“新物种”。（来源：钛媒体）', u:'https://www.tmtpost.com/8126794.html'},
-    {c:'MEDPHARMA', d:'2026-09-03T10:53', t:'2026中国AI制药企业TOP30', s:'2026中国AI制药企业TOP30（来源：头条医药AI）', u:'https://www.toutiao.com/article/7681136299222254080/'},
   ];
   const TIMELINE = [
+    ['09-03 14:05','成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了'],
     ['09-03 13:54','智谱和 MiniMax，把大模型做成了两种生意'],
     ['09-03 13:38','OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度未跳跃增长'],
     ['09-03 13:35','Gemini 3.8 Flash：谷歌把价格战打进了token消耗层'],
     ['09-03 13:35','Sam Altman最新长谈：过去一年走了弯路，将砍掉支线任务，打造超级大一统Agent'],
     ['09-03 13:32','荣耀 MagicPad 4 平板、手表 6 Pro 官宣月底一同亮相，林林透露会争取更早登场'],
-    ['09-03 13:30','当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280923, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246503, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245544, u:'https://github.com/mattpocock/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280926, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246508, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245553, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209730, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173313, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143847, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173314, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143848, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135809, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114085, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102752, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91778, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102753, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91780, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
