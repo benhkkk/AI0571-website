@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-03T08:03', t:'马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道', s:'谷歌 Gemini 3.8 Flash 模型上线，适用软件工程、智能体任务等场景 9 月 2 日消息，谷歌在 Googl…（来源：极客公园）', u:'http://www.geekpark.net/news/369745'},
     {c:'FUNDING', d:'2026-09-03T07:57', t:'IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售...', s:'“IT早报”时间，大家好，现在是 2026 年 9 月 3 日星期四，今天的重要科技资讯有：1. A 股“人形机器人第一…（来源：IT之家）', u:'https://www.ithome.com/0/997/735.htm'},
     {c:'MODEL', d:'2026-09-03T07:50', t:'纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”', s:'美国司法部（DOJ）当地时间 9 月 1 日向曼哈顿联邦法院提交了一份“利益声明”，正式介入《纽约时报》诉 OpenAI…（来源：IT之家）', u:'https://www.ithome.com/0/997/732.htm'},
     {c:'MODEL', d:'2026-09-03T07:29', t:'Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol', s:'Meta Platforms 于 2026 年 9 月 2 日发布迄今最强大 AI 模型 Muse Spark 1.3…（来源：IT之家）', u:'https://www.ithome.com/0/997/728.htm'},
@@ -478,26 +479,25 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-02T18:30', t:'李飞飞的 World Labs，把赛博朋克的「超梦」做出来了', s:'世界模型的「ChatGPT 时刻」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）', u:'https://www.ifanr.com/1678150?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-09-02T18:20', t:'勇夺 18 块金牌：机器人运动会「金牌王」走出赛场，还能派上用场吗？', s:'雷峰网刚刚过去的 2026 年世界人形机器人运动会上，智元成为了当之无愧的奖牌、金牌双料王者——不仅以 46 块奖牌冠绝…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/eqoi4e4nz7h4lJZi.html'},
     {c:'MODEL', d:'2026-09-02T18:15', t:'Zeroth 元点机器人预告发布 OpenBridge 生态：具身智能的「安卓时刻」来了', s:'今天，乐享科技旗下的元点机器人，官宣即将推出自己的首款产品以及全球首个具身 Physical AI 开源生态——Open…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/7XuKxVmxPG0rwM3f.html'},
-    {c:'INDUSTRY', d:'2026-09-02T17:58', t:'AI公司请达人说好话，得加钱了', s:'美国网友对AI的怒火，正在烧向每一个与AI公司合作的人。（来源：钛媒体）', u:'https://www.tmtpost.com/8125729.html'},
   ];
   const TIMELINE = [
+    ['09-03 08:03','马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道'],
     ['09-03 07:57','IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售...'],
     ['09-03 07:50','纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”'],
     ['09-03 07:29','Meta 发布最强 AI 模型 Muse Spark 1.3，编码能力超 GPT-5.6 Sol'],
     ['09-03 07:20','【钛晨报】央行行长潘功胜出席G20财长和央行行长会议，强调继续实施好适度宽松的货币政策；CrowdStrike与OpenAI扩大合作；港股通买入Minimax规…'],
     ['09-03 07:16','欧洲最强 AI：西班牙公司推出 Quasar 438B 模型，1M 词元上下文'],
-    ['09-03 06:52','Gemini 3.8 Flash 光速发布：干活挺勤快，就是没开窍'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:280828, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246315, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245205, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246318, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245207, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209654, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173258, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143811, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135775, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114008, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102623, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114009, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102624, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91717, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
