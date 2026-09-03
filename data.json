@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T22:31:53",
+  "updated": "2026-09-03T22:36:39",
   "news": [
     {
       "c": "HOT",
@@ -7,6 +7,13 @@
       "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
       "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/161.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-03T21:42",
+      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
+      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！",
       "s": "单图直出场景，顶会最佳论文落地（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483189.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T18:13",
-      "t": "陈大年复出，入局大模型",
-      "s": "首秀逼近DeepSeek万亿旗舰（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483600.html"
     }
   ],
   "timeline": [
     [
       "09-03 21:54",
       "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告"
+    ],
+    [
+      "09-03 21:42",
+      "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投"
     ],
     [
       "09-03 21:31",
@@ -162,10 +166,6 @@
     [
       "09-03 20:01",
       "近 130 亿美元喜提“AI 界 GitHub”，英伟达宣布将正式收购 Hugging Face"
-    ],
-    [
-      "09-03 19:53",
-      "“国产 GPU 四小龙”之一：燧原科技中签号出炉，发行价 142.18 元 / 股"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281160,
+      "s": 281162,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246785,
+      "s": 246787,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246460,
+      "s": 246472,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173466,
+      "s": 173470,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143901,
+      "s": 143902,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114220,
+      "s": 114221,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102935,
+      "s": 102934,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91881,
+      "s": 91883,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
