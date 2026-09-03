@@ -1,26 +1,26 @@
 {
-  "updated": "2026-09-03T09:45:46",
+  "updated": "2026-09-03T09:50:56",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T09:45",
-      "t": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平",
-      "s": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250529/787176.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-09-03T09:45",
+      "d": "2026-09-03T09:50",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-03T09:45",
+      "d": "2026-09-03T09:50",
       "t": "“打通很难”成为历史：实验室自动化的“最后一公里”被Anthropic MHS打通了",
       "s": "“打通很难”成为历史：实验室自动化的“最后一公里”被Anthropic MHS打通了（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969747.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T09:49",
+      "t": "Gemini 3.8 Flash上线：性能接近Opus 5，价格不变但任务更贵",
+      "s": "6周连更3次，留给Gemini 3的版本号不多了。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8126452.html"
     },
     {
       "c": "MODEL",
@@ -144,16 +144,16 @@
   ],
   "timeline": [
     [
-      "09-03 09:45",
-      "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平"
-    ],
-    [
-      "09-03 09:45",
+      "09-03 09:50",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
-      "09-03 09:45",
+      "09-03 09:50",
       "“打通很难”成为历史：实验室自动化的“最后一公里”被Anthropic MHS打通了"
+    ],
+    [
+      "09-03 09:49",
+      "Gemini 3.8 Flash上线：性能接近Opus 5，价格不变但任务更贵"
     ],
     [
       "09-03 09:39",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280848,
+      "s": 280850,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246369,
+      "s": 246372,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245271,
+      "s": 245273,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209671,
+      "s": 209672,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173268,
+      "s": 173271,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143823,
+      "s": 143824,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114020,
+      "s": 114022,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102648,
+      "s": 102651,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91734,
+      "s": 91733,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
