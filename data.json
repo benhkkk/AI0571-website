@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:20:51",
+  "updated": "2026-09-03T17:25:56",
   "news": [
     {
       "c": "MODEL",
@@ -114,13 +114,6 @@
       "u": "https://www.tmtpost.com/8126955.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-03T13:35",
-      "t": "Sam Altman最新长谈：过去一年走了弯路，将砍掉支线任务，打造超级大一统Agent",
-      "s": "ChatGPT与Codex即将迎来的大一统融合。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8127005.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-03T13:30",
       "t": "当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向",
@@ -140,6 +133,13 @@
       "t": "开源 AI 终端助手 Pragmatic AI Shell 发布 v1.0：多模型热切换 + 免 JRE 原生二进制",
       "s": "用自然语言驱动终端的开源工具 Pragmatic AI Shell（smartcli） 正式发布 v1.0：你说人话，它…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502288"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T11:16",
+      "t": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
+      "s": "从工厂一路干到家庭（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483565.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281024,
+      "s": 281026,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246636,
+      "s": 246638,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245825,
+      "s": 245834,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173362,
+      "s": 173363,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114137,
+      "s": 114140,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102836,
+      "s": 102837,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91823,
+      "s": 91825,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
