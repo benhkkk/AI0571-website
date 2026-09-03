@@ -459,8 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-09-03T19:20', t:'近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平', s:'近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20250529/787176.shtml'},
     {c:'MODEL', d:'2026-09-03T19:00', t:'独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗', s:'对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）', u:'https://www.tmtpost.com/8127496.html'},
     {c:'MODEL', d:'2026-09-03T18:23', t:'别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成"自来水"', s:'企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）', u:'https://www.oschina.net/news/502302'},
+    {c:'MODEL', d:'2026-09-03T18:18', t:'世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！', s:'单图直出场景，顶会最佳论文落地（来源：量子位）', u:'https://www.qbitai.com/2026/09/483189.html'},
+    {c:'MODEL', d:'2026-09-03T18:13', t:'陈大年复出，入局大模型', s:'首秀逼近DeepSeek万亿旗舰（来源：量子位）', u:'https://www.qbitai.com/2026/09/483600.html'},
     {c:'HOT', d:'2026-09-03T18:06', t:'阿里花1000亿搞AI，美图花不到5个亿', s:'不追求通用AI，专注于细分垂直领域中的体验。（来源：钛媒体）', u:'https://www.tmtpost.com/8126354.html'},
     {c:'MODEL', d:'2026-09-03T18:00', t:'“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算', s:'大模型向左，继续探索通用人工智能的智力极限；Flash向右，向下扎根进入千行百业的生产线。（来源：钛媒体）', u:'https://www.tmtpost.com/8127474.html'},
     {c:'MODEL', d:'2026-09-03T17:56', t:'奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查', s:'据 Axios 报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，特朗普政府对公司即将推出的 Astra 模型进行的…（来源：IT之家）', u:'https://www.ithome.com/0/998/066.htm'},
@@ -476,28 +479,25 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T15:42', t:'印度首富押注云电脑：8 年老 PC 无需升级，也能运行 AI 应用', s:'印度首富穆克什 · 安巴尼旗下的印度信实 Jio 正在向印度所有互联网用户开放其云电脑服务，希望让老旧电脑无需升级硬件…（来源：IT之家）', u:'https://www.ithome.com/0/997/972.htm'},
     {c:'MEDDEVICE', d:'2026-09-03T15:40', t:'全国首款仿生医疗机器人发布：优必选联合麦迪科技打造，可选男 / 女版本', s:'优必选今日宣布携手麦迪科技发布全国首款仿生医疗机器人 —— 优麦机器人康养版，打造搭载专业医疗服务能力的仿生人形机器人…（来源：IT之家）', u:'https://www.ithome.com/0/997/971.htm'},
     {c:'MODEL', d:'2026-09-03T15:16', t:'Meta 这个百万级上下文模型，用数据换折扣，差价 21 倍', s:'Meta 最新 AI 大模型 Muse Spark 1.3 把上下文窗口拉到了 100 万 token，定价分了两档，差…（来源：OSCHINA）', u:'https://www.oschina.net/news/502295/meta-ai-muse-spark-1-3'},
-    {c:'INDUSTRY', d:'2026-09-03T14:37', t:'每个开发者都能做的工业质检AI，RT-Thread 命题公布', s:'工厂质检是 AI 落地制造业最成熟的场景之一。产线上的划痕、裂纹、装配缺陷，机器视觉效率与准确度远高于人工。可要真正在工…（来源：OSCHINA）', u:'https://www.oschina.net/news/502293'},
-    {c:'HOT', d:'2026-09-03T14:05', t:'成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了', s:'头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）', u:'http://www.geekpark.net/news/369768'},
-    {c:'HOT', d:'2026-09-03T13:56', t:'「小」鸭子火了之后，端侧 AI 还有一个更「大」的问题', s:'最近，一只只有 25 厘米高的机器鸭，意外把端侧 AI 的想象力拉到了聚光灯下。Hugging Face 旗下 Poll…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/pIN6zFvPEB91R6uC.html'},
   ];
   const TIMELINE = [
+    ['09-03 19:20','近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平'],
     ['09-03 19:00','独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗'],
     ['09-03 18:23','别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成"自来水"'],
+    ['09-03 18:18','世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！'],
+    ['09-03 18:13','陈大年复出，入局大模型'],
     ['09-03 18:06','阿里花1000亿搞AI，美图花不到5个亿'],
-    ['09-03 18:00','“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算'],
-    ['09-03 17:56','奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查'],
-    ['09-03 17:51','“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281071, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246687, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:246007, u:'https://github.com/mattpocock/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281074, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246688, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:246017, u:'https://github.com/mattpocock/skills', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209798, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173393, u:'https://github.com/anthropics/skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173396, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143875, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135854, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114167, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102869, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102870, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91841, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
