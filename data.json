@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-03T18:05:50",
+  "updated": "2026-09-03T18:07:59",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-03T18:05",
+      "d": "2026-09-03T18:07",
       "t": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注",
       "s": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250224/768984.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T18:00",
+      "t": "“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算",
+      "s": "大模型向左，继续探索通用人工智能的智力极限；Flash向右，向下扎根进入千行百业的生产线。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8127474.html"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」",
       "s": "头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369767"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T12:49",
-      "t": "开源 AI 终端助手 Pragmatic AI Shell 发布 v1.0：多模型热切换 + 免 JRE 原生二进制",
-      "s": "用自然语言驱动终端的开源工具 Pragmatic AI Shell（smartcli） 正式发布 v1.0：你说人话，它…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502288"
     }
   ],
   "timeline": [
     [
-      "09-03 18:05",
+      "09-03 18:07",
       "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注"
+    ],
+    [
+      "09-03 18:00",
+      "“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算"
     ],
     [
       "09-03 17:56",
@@ -162,10 +166,6 @@
     [
       "09-03 17:30",
       "消息称小鹏机器人将采用固液电池方案推进量产，已定点一家二线企业"
-    ],
-    [
-      "09-03 17:09",
-      "摩尔线程：公司已打通具身智能完整链路"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281045,
+      "s": 281046,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245894,
+      "s": 245899,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173375,
+      "s": 173376,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143868,
+      "s": 143869,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114152,
+      "s": 114154,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102846,
+      "s": 102850,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91832,
+      "s": 91833,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
