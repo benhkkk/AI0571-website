@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-04T00:01:23",
+  "updated": "2026-09-04T00:05:55",
   "news": [
-    {
-      "c": "FUNDING",
-      "d": "2026-09-04T00:01",
-      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
-      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
-    },
     {
       "c": "FUNDING",
       "d": "2026-09-04T00:00",
@@ -58,13 +51,6 @@
       "u": "https://www.ithome.com/0/998/161.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T21:42",
-      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
-      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681303907590603291/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-03T21:31",
       "t": "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条",
@@ -93,11 +79,25 @@
       "u": "https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html"
     },
     {
+      "c": "HOT",
+      "d": "2026-09-03T19:32",
+      "t": "“没有Token的CS学生，应立即退学”",
+      "s": "禁止古法编程、Token自费（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483839.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T19:26",
       "t": "中国儒意连推三款AI产品，首次打通AI创作链路｜独家",
       "s": "战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127550.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T19:25",
+      "t": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
+      "s": "眼镜、耳机、麦克风都来了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483786.html"
     },
     {
       "c": "INDUSTRY",
@@ -144,10 +144,6 @@
   ],
   "timeline": [
     [
-      "09-04 00:01",
-      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
-    ],
-    [
       "09-04 00:00",
       "英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品"
     ],
@@ -166,6 +162,10 @@
     [
       "09-03 22:57",
       "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发"
+    ],
+    [
+      "09-03 22:56",
+      "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281194,
+      "s": 281197,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246859,
+      "s": 246861,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246650,
+      "s": 246658,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173505,
+      "s": 173506,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114246,
+      "s": 114248,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91911,
+      "s": 91912,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
