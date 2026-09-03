@@ -1,26 +1,40 @@
 {
-  "updated": "2026-09-03T09:25:53",
+  "updated": "2026-09-03T09:31:10",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-03T09:25",
+      "d": "2026-09-03T09:31",
       "t": "#AI4FCM(AI+流式细胞术)",
       "s": "#AI4FCM(AI+流式细胞术)（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-885.html"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-03T09:25",
+      "d": "2026-09-03T09:31",
       "t": "3i流式新品|AI流式VisionSort在中国正式上市",
       "s": "3i流式新品|AI流式VisionSort在中国正式上市（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20241026/749940.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-03T09:25",
+      "d": "2026-09-03T09:31",
       "t": "3i流式驿站|ThinkCyte布局AI流式细胞分析，普瑞麦迪为中国区总代理",
       "s": "3i流式驿站|ThinkCyte布局AI流式细胞分析，普瑞麦迪为中国区总代理（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20231008/686678.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T09:31",
+      "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
+      "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T09:28",
+      "t": "遏制智能体失控，消息称 OpenAI 正开发 AI 自动终止功能",
+      "s": "路透社昨日（9 月 2 日）发布博文，披露一份来自 OpenAI 的内部信件，透露该公司正在为 AI 系统开发“自动终止…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/755.htm"
     },
     {
       "c": "MODEL",
@@ -126,46 +140,32 @@
       "t": "IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售...",
       "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 3 日星期四，今天的重要科技资讯有：1. A 股“人形机器人第一…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/735.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T07:50",
-      "t": "纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”",
-      "s": "美国司法部（DOJ）当地时间 9 月 1 日向曼哈顿联邦法院提交了一份“利益声明”，正式介入《纽约时报》诉 OpenAI…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/732.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T07:20",
-      "t": "【钛晨报】央行行长潘功胜出席G20财长和央行行长会议，强调继续实施好适度宽松的货币政策；CrowdStrike与OpenAI扩大合作；港股通买入Minimax规模超越阿里巴巴和腾讯",
-      "s": "中国团队在自主超导量子计算机上实现新突破，传输效率高达98%；畅销书《富爸爸穷爸爸》作者自曝负债12亿美元；燧原科技：科…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8126299.html"
     }
   ],
   "timeline": [
     [
-      "09-03 09:25",
+      "09-03 09:31",
       "#AI4FCM(AI+流式细胞术)"
     ],
     [
-      "09-03 09:25",
+      "09-03 09:31",
       "3i流式新品|AI流式VisionSort在中国正式上市"
     ],
     [
-      "09-03 09:25",
+      "09-03 09:31",
       "3i流式驿站|ThinkCyte布局AI流式细胞分析，普瑞麦迪为中国区总代理"
+    ],
+    [
+      "09-03 09:31",
+      "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
+    ],
+    [
+      "09-03 09:28",
+      "遏制智能体失控，消息称 OpenAI 正开发 AI 自动终止功能"
     ],
     [
       "09-03 09:24",
       "ACEMAGIC 将推升级款 F9A 迷你主机，换装 AMD 锐龙 AI Max+ PRO 495"
-    ],
-    [
-      "09-03 09:19",
-      "AI 会消灭所有工作？英伟达黄仁勋称这是无稽之谈"
-    ],
-    [
-      "09-03 09:04",
-      "Anthropic、OpenAI 将超越谷歌成为博通 AI ASIC 业务前两大客户"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246355,
+      "s": 246358,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245250,
+      "s": 245256,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209668,
+      "s": 209669,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173267,
+      "s": 173268,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102639,
+      "s": 102641,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91729,
+      "s": 91730,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
