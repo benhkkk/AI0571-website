@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T09:02:06",
+  "updated": "2026-09-03T09:05:55",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T09:04",
+      "t": "Anthropic、OpenAI 将超越谷歌成为博通 AI ASIC 业务前两大客户",
+      "s": "Broadcom（博通）总裁兼首席执行官陈福阳 (Hock Tan) 在公司 FY2026Q3 财报电话会议上预测称，两…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/749.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T09:01",
+      "t": "曲线陡峭：Linux 7.3 预估修复漏洞数逼近 2000 个，AI“除虫”让维护者不堪重负",
+      "s": "科技媒体 securityboulevard 于 9 月 1 日发布博文，报道称 Linux 内核每个版本修复的漏洞数量…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/748.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T09:00",
@@ -93,20 +107,6 @@
       "u": "https://www.ifanr.com/1678197?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-03T06:42",
-      "t": "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU",
-      "s": "数码博主 @白饭炒白米饭 于 8 月 30 日发布微博，通过焊点图，反推苹果 A20 Pro 芯片的规模以及内部结构，目…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/719.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T00:09",
-      "t": "谷歌推出 Gemini 3.8 Flash Cyber 模型，内部已全面部署用于代码安全防护",
-      "s": "当地时间 9 月 2 日，谷歌宣布推出 Gemini 3.8 Flash Cyber 模型，通过 Fairwind 计划…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/708.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-02T21:34",
       "t": "AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "09-03 09:04",
+      "Anthropic、OpenAI 将超越谷歌成为博通 AI ASIC 业务前两大客户"
+    ],
+    [
+      "09-03 09:01",
+      "曲线陡峭：Linux 7.3 预估修复漏洞数逼近 2000 个，AI“除虫”让维护者不堪重负"
+    ],
+    [
       "09-03 09:00",
       "戚薇回应 AI 授权“卖脸”争议：与其被别人“拿走”，更愿意“主动出击”"
     ],
@@ -158,14 +166,6 @@
     [
       "09-03 08:22",
       "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市"
-    ],
-    [
-      "09-03 08:13",
-      "Edge AI Daily 早报（9月3日）"
-    ],
-    [
-      "09-03 08:08",
-      "探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246345,
+      "s": 246349,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245233,
+      "s": 245238,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173262,
+      "s": 173263,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114015,
+      "s": 114016,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91723,
+      "s": 91724,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
