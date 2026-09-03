@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T20:11:07",
+  "updated": "2026-09-03T20:16:10",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T20:15",
+      "t": "官方确认：《战锤 40K：星际战士 3》开发完全不使用生成式 AI",
+      "s": "在《拼车模拟器》（Rideshare Stimulator）因使用生成式 AI 引发争议后，开发商 Saber Inte…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/138.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-03T20:01",
+      "t": "近 130 亿美元喜提“AI 界 GitHub”，英伟达正式收购 Hugging Face",
+      "s": "北京时间今天（3 日）晚间，英伟达 CEO 黄仁勋通过新闻稿宣布，公司正式以 129.303 亿美元（IT之家注：现汇率…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/136.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-09-03T19:53",
@@ -72,6 +86,13 @@
       "u": "https://www.qbitai.com/2026/09/483600.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-03T18:09",
+      "t": "把 Gemini 和 GPT 放到《我的世界》当教练，谁能看懂机器人的微操？",
+      "s": "Gemini 领跑，GPT表现平平，国立清华、英伟达提出双奖励孪生网络，告别算力焦虑。 作者丨张 璐 编辑丨幸丽娟 VL…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/private/Q0PAUayVomQIhiFv.html"
+    },
+    {
       "c": "MEDDEVICE",
       "d": "2026-09-03T18:07",
       "t": "打破黑盒猜想：大模型通往真正「空间智能」的破局之路",
@@ -119,30 +140,17 @@
       "t": "26g 无边框带扬声器，加南打造面向日常的屏显 AI 眼镜",
       "s": "多数屏显 AI 眼镜，总要在重量、外观、音频体验之间做出取舍。加南全新研发的带显示 AI 眼镜，把 26g 无感佩戴、无…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/weiwu/oXe4EhufKyvZZZvU.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T17:30",
-      "t": "消息称小鹏机器人将采用固液电池方案推进量产，已定点一家二线企业",
-      "s": "“极片 Lab”今天（3 日）下午爆料称，小鹏机器人已经确定采用固液电池（IT之家注：或称“半固态电池”）方案装机，并已…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/051.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T17:19",
-      "t": "IFA 2026 倒计时 ｜ 魔法原子以“本体+大脑+场景”全栈能力叩开欧洲工业大门",
-      "s": "2026年9月4日至8日，全球领先的具身智能公司魔法原子（MagicLab）将亮相IFA2026，完整呈现其\"本体硬件…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/0Cte01VJaZrqfSjH.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T17:11",
-      "t": "拆解 Claude 5.1：38 小时不睡觉的背后，Anthropic 正在终结「模型论」",
-      "s": "状态校验、权限路由、异步调度，撑起一套可持续执行的运行时。 作者丨郑佳美 编辑丨岑 峰 刚刚，Anthropic 更新了…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/3jco87mQoA9LK9jx.html"
     }
   ],
   "timeline": [
+    [
+      "09-03 20:15",
+      "官方确认：《战锤 40K：星际战士 3》开发完全不使用生成式 AI"
+    ],
+    [
+      "09-03 20:01",
+      "近 130 亿美元喜提“AI 界 GitHub”，英伟达正式收购 Hugging Face"
+    ],
     [
       "09-03 19:53",
       "“国产 GPU 四小龙”之一：燧原科技中签号出炉，发行价 142.18 元 / 股"
@@ -158,14 +166,6 @@
     [
       "09-03 19:26",
       "中国儒意连推三款AI产品，首次打通AI创作链路｜独家"
-    ],
-    [
-      "09-03 19:24",
-      "年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？"
-    ],
-    [
-      "09-03 19:23",
-      "Termexo V0.7.0 发布：终端可见并切换 Claude / Codex 登录账号"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281099,
+      "s": 281102,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246129,
+      "s": 246140,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209804,
+      "s": 209806,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135860,
+      "s": 135861,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114178,
+      "s": 114180,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102880,
+      "s": 102886,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91848,
+      "s": 91849,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
