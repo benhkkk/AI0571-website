@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-03T17:56', t:'奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查', s:'据 Axios 报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，特朗普政府对公司即将推出的 Astra 模型进行的…（来源：IT之家）', u:'https://www.ithome.com/0/998/066.htm'},
     {c:'FUNDING', d:'2026-09-03T17:51', t:'“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作', s:'据彭博社今天（3 日）凌晨报道，美国财政部长斯科特 · 贝森特猛烈抨击大举投资 AI 的美国企业：在数据中心推高生活成本…（来源：IT之家）', u:'https://www.ithome.com/0/998/060.htm'},
     {c:'HOT', d:'2026-09-03T17:46', t:'健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”', s:'AI正在进入互联网医疗过去最依赖人工的环节:审方、慢病管理、运营、调度、接单和随访。（来源：钛媒体）', u:'https://www.tmtpost.com/8126375.html'},
     {c:'HOT', d:'2026-09-03T17:30', t:'消息称小鹏机器人将采用固液电池方案推进量产，已定点一家二线企业', s:'“极片 Lab”今天（3 日）下午爆料称，小鹏机器人已经确定采用固液电池（IT之家注：或称“半固态电池”）方案装机，并已…（来源：IT之家）', u:'https://www.ithome.com/0/998/051.htm'},
@@ -469,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T15:49', t:'阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜', s:'据阿里云消息，今天，阿里智能体编程平台 Qoder 上线“Qoder 眼镜版”，将首批接入千问 AI 眼镜和乐奇 AI …（来源：IT之家）', u:'https://www.ithome.com/0/997/976.htm'},
     {c:'MODEL', d:'2026-09-03T15:42', t:'印度首富押注云电脑：8 年老 PC 无需升级，也能运行 AI 应用', s:'印度首富穆克什 · 安巴尼旗下的印度信实 Jio 正在向印度所有互联网用户开放其云电脑服务，希望让老旧电脑无需升级硬件…（来源：IT之家）', u:'https://www.ithome.com/0/997/972.htm'},
     {c:'MEDDEVICE', d:'2026-09-03T15:40', t:'全国首款仿生医疗机器人发布：优必选联合麦迪科技打造，可选男 / 女版本', s:'优必选今日宣布携手麦迪科技发布全国首款仿生医疗机器人 —— 优麦机器人康养版，打造搭载专业医疗服务能力的仿生人形机器人…（来源：IT之家）', u:'https://www.ithome.com/0/997/971.htm'},
-    {c:'MODEL', d:'2026-09-03T15:21', t:'微软商业经典版 Outlook 强化 AI 入口，本月功能区将新增 Copilot 专属按钮', s:'科技媒体 NeoWin 昨日（9 月 2 日）发布博文，报道称微软计划本月开始，面向所有经典版 Outlook 商业用户…（来源：IT之家）', u:'https://www.ithome.com/0/997/952.htm'},
     {c:'MODEL', d:'2026-09-03T15:16', t:'Meta 这个百万级上下文模型，用数据换折扣，差价 21 倍', s:'Meta 最新 AI 大模型 Muse Spark 1.3 把上下文窗口拉到了 100 万 token，定价分了两档，差…（来源：OSCHINA）', u:'https://www.oschina.net/news/502295/meta-ai-muse-spark-1-3'},
     {c:'INDUSTRY', d:'2026-09-03T14:37', t:'每个开发者都能做的工业质检AI，RT-Thread 命题公布', s:'工厂质检是 AI 落地制造业最成熟的场景之一。产线上的划痕、裂纹、装配缺陷，机器视觉效率与准确度远高于人工。可要真正在工…（来源：OSCHINA）', u:'https://www.oschina.net/news/502293'},
     {c:'HOT', d:'2026-09-03T14:05', t:'成立不到一年连融三轮，专治失眠的 AI 床头灯「火」了', s:'头图来源：Fullive.ai 一家成立几个月、第一款产品即将量产的 AI 硬件公司，已经连续融了三轮：高瓴连续三轮加注…（来源：极客公园）', u:'http://www.geekpark.net/news/369768'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T11:16', t:'一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠', s:'从工厂一路干到家庭（来源：量子位）', u:'https://www.qbitai.com/2026/09/483565.html'},
   ];
   const TIMELINE = [
+    ['09-03 17:56','奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查'],
     ['09-03 17:51','“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作'],
     ['09-03 17:46','健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”'],
     ['09-03 17:30','消息称小鹏机器人将采用固液电池方案推进量产，已定点一家二线企业'],
     ['09-03 17:09','摩尔线程：公司已打通具身智能完整链路'],
     ['09-03 16:40','苹果换帅：市值翻了13倍，AI还欠着账'],
-    ['09-03 16:31','谷歌连发三款Flash，以“机海战术”再度加码AI企业端基本盘'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281040, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246652, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245876, u:'https://github.com/mattpocock/skills', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209782, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173372, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143867, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281043, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:246657, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:3, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:245889, u:'https://github.com/mattpocock/skills', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209784, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173373, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143868, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135842, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114147, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102843, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91831, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114149, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:102844, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:91832, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
