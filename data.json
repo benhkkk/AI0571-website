@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T07:41:18",
+  "updated": "2026-09-04T07:46:23",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T07:43",
+      "t": "智谱 GLM-5.3-Flash 夜间免费用：9 月 3 日至 20 日、每天 23 时至次日 9 时额度全免",
+      "s": "智谱 AI 昨日宣布，旗下 GLM Coding Plan 正式推出“Flash × ZCode”夜间畅用活动。即日起至…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/231.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T07:36",
@@ -94,20 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-03T22:57",
-      "t": "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发",
-      "s": "沙特阿拉伯主权财富基金 PIF 旗下人工智能企业 HUMAIN 当地时间今日公布了前沿阿拉伯语模型 humain-m3…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/189.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T22:10",
-      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
-      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128007.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-03T20:17",
       "t": "GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？",
       "s": "如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）",
@@ -140,9 +133,20 @@
       "t": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
       "s": "眼镜、耳机、麦克风都来了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483786.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T19:24",
+      "t": "年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？",
+      "s": "AI产业的利润，正从智能的制造转向智能的流通。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124567.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 07:43",
+      "智谱 GLM-5.3-Flash 夜间免费用：9 月 3 日至 20 日、每天 23 时至次日 9 时额度全免"
+    ],
     [
       "09-04 07:36",
       "英伟达开源发布 PAIR：本地跑 AI 新方案，调度 Mac / RTX PC 跨设备推理"
@@ -162,10 +166,6 @@
     [
       "09-04 06:56",
       "OpenAI 宣布将向全球投入 10 亿美元扩大 AI 网络安全能力，优先覆盖供水、电力等关键服务"
-    ],
-    [
-      "09-04 06:48",
-      "GPT-6 曝光， OpenAI 总裁说：AGI 来了"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247311,
+      "s": 247319,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247144,
+      "s": 247147,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173636,
+      "s": 173637,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135924,
+      "s": 135927,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103078,
+      "s": 103080,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
