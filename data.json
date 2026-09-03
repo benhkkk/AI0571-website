@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-04T04:36:28",
+  "updated": "2026-09-04T04:41:22",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-04T04:36",
+      "d": "2026-09-04T04:41",
       "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
       "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
@@ -51,25 +51,11 @@
       "u": "https://www.ithome.com/0/998/188.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T22:10",
-      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
-      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128007.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-03T21:54",
       "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
       "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/161.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T21:42",
-      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
-      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681303907590603291/"
     },
     {
       "c": "MODEL",
@@ -140,11 +126,25 @@
       "t": "全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟",
       "s": "2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T19:00",
+      "t": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
+      "s": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8127496.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T18:59",
+      "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
+      "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
     }
   ],
   "timeline": [
     [
-      "09-04 04:36",
+      "09-04 04:41",
       "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281278,
+      "s": 281279,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247111,
+      "s": 247119,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247028,
+      "s": 247033,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143939,
+      "s": 143940,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114349,
+      "s": 114351,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103038,
+      "s": 103041,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91989,
+      "s": 91990,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
