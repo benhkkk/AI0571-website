@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T13:50:57",
+  "updated": "2026-09-03T13:55:46",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T13:54",
+      "t": "智谱和 MiniMax，把大模型做成了两种生意",
+      "s": "头图来源：视觉中国 两家中国大模型公司，在五天里先后交出了上市后的首份中报。 MiniMax 先出：上半年收入 1.17…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369775"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T13:38",
@@ -133,16 +140,13 @@
       "t": "WorkBuddy金融版正式发布，让Agent真正进入金融业务现场",
       "s": "9月3日，腾讯WorkBuddy金融版正式上线。WorkBuddy金融版是专门面向金融机构打造的AI智能工作台，可为券商…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/zr0zxn8R9MVT4y7n.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T10:47",
-      "t": "AI制药进展率先带动生命科学上游需求",
-      "s": "AI制药进展率先带动生命科学上游需求（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681133192710996518/"
     }
   ],
   "timeline": [
+    [
+      "09-03 13:54",
+      "智谱和 MiniMax，把大模型做成了两种生意"
+    ],
     [
       "09-03 13:38",
       "OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度未跳跃增长"
@@ -162,10 +166,6 @@
     [
       "09-03 13:30",
       "当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向"
-    ],
-    [
-      "09-03 13:23",
-      "上头AI裁员的老板里，超过一半都后悔了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280917,
+      "s": 280921,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246496,
+      "s": 246500,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245523,
+      "s": 245534,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209724,
+      "s": 209725,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173314,
+      "s": 173313,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114083,
+      "s": 114084,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91772,
+      "s": 91775,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
