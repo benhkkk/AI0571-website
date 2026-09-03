@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-03T16:45:56",
+  "updated": "2026-09-03T16:50:47",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T16:45",
-      "t": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%",
-      "s": "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260901/968267.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-03T16:31",
@@ -140,13 +133,16 @@
       "t": "MiniMax、阿里同时布局视频Agent，拼完模型开始拼工作流？",
       "s": "当模型能力不再是稀缺资源，谁能掌握从生产到分发的完整链路，谁才能在下一阶段的内容工业变革中占据主动。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126960.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T12:52",
+      "t": "AI 下一场竞争：谁能成为 Agent 的「上下文操作系统」",
+      "s": "头图来源：视觉中国 前段时间，Anthropic 发布了 Model Hardware Standard，尝试给 AI …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369767"
     }
   ],
   "timeline": [
-    [
-      "09-03 16:45",
-      "天准科技2026半年报：营收飙涨48.6%，具身大脑订单暴增230%"
-    ],
     [
       "09-03 16:31",
       "谷歌连发三款Flash，以“机海战术”再度加码AI企业端基本盘"
@@ -166,6 +162,10 @@
     [
       "09-03 15:40",
       "全国首款仿生医疗机器人发布：优必选联合麦迪科技打造，可选男 / 女版本"
+    ],
+    [
+      "09-03 15:21",
+      "微软商业经典版 Outlook 强化 AI 入口，本月功能区将新增 Copilot 专属按钮"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281010,
+      "s": 281013,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246614,
+      "s": 246617,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245776,
+      "s": 245785,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143857,
+      "s": 143859,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114131,
+      "s": 114132,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102821,
+      "s": 102823,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
