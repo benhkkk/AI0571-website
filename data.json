@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-03T12:21:30",
+  "updated": "2026-09-03T12:25:59",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T12:21",
+      "d": "2026-09-03T12:25",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T12:23",
+      "t": "小米玄戒 O3 纪念铝板亮相：雷军签名，内嵌芯片",
+      "s": "小米玄戒 O3 芯片于 8 月 24 日正式发布，这是小米为最高端产品打造的“AI 旗舰 SoC”，将在小米 18 Fo…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/857.htm"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "50万！李想宣布MPV进入iPhone时刻！外观没改配置拉满",
       "s": "4激光雷达+双M100上车（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483462.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T09:24",
-      "t": "ACEMAGIC 将推升级款 F9A 迷你主机，换装 AMD 锐龙 AI Max+ PRO 495",
-      "s": "根据 ACEMAGIC（阿迈奇）在品牌官网公开的新闻稿，这家企业将推出升级至 AMD 锐龙 AI Max+ PRO 49…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/754.htm"
     }
   ],
   "timeline": [
     [
-      "09-03 12:21",
+      "09-03 12:25",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
+    ],
+    [
+      "09-03 12:23",
+      "小米玄戒 O3 纪念铝板亮相：雷军签名，内嵌芯片"
     ],
     [
       "09-03 11:49",
@@ -162,10 +166,6 @@
     [
       "09-03 11:32",
       "荣耀学习空间手机版官宣适配 MagicOS 11 系统，相关机型 9 月 15 日起陆续开放升级"
-    ],
-    [
-      "09-03 11:27",
-      "最强模型Fable 5.1发布，Anthropic要用降价换IPO"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280897,
+      "s": 280898,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246454,
+      "s": 246455,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245454,
+      "s": 245455,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173299,
+      "s": 173301,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114056,
+      "s": 114058,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91758,
+      "s": 91759,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
