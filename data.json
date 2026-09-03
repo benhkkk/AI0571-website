@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T21:05:52",
+  "updated": "2026-09-03T21:10:55",
   "news": [
     {
       "c": "MODEL",
@@ -72,6 +72,13 @@
       "u": "https://www.oschina.net/news/502303"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T19:05",
+      "t": "全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟",
+      "s": "2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T19:00",
       "t": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
@@ -133,13 +140,6 @@
       "t": "“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算",
       "s": "大模型向左，继续探索通用人工智能的智力极限；Flash向右，向下扎根进入千行百业的生产线。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127474.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T17:56",
-      "t": "奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查",
-      "s": "据 Axios 报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，特朗普政府对公司即将推出的 Astra 模型进行的…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/066.htm"
     }
   ],
   "timeline": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246730,
+      "s": 246731,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246264,
+      "s": 246277,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173432,
+      "s": 173435,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143887,
+      "s": 143888,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102899,
+      "s": 102902,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
