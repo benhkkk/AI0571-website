@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-03T17:50:52",
+  "updated": "2026-09-03T17:55:50",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-09-03T17:51",
+      "t": "“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作",
+      "s": "据彭博社今天（3 日）凌晨报道，美国财政部长斯科特 · 贝森特猛烈抨击大举投资 AI 的美国企业：在数据中心推高生活成本…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/060.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-03T17:46",
+      "t": "健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”",
+      "s": "AI正在进入互联网医疗过去最依赖人工的环节:审方、慢病管理、运营、调度、接单和随访。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8126375.html"
+    },
     {
       "c": "HOT",
       "d": "2026-09-03T17:30",
@@ -126,23 +140,17 @@
       "t": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
       "s": "从工厂一路干到家庭（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483565.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-03T10:53",
-      "t": "2026中国AI制药企业TOP30",
-      "s": "2026中国AI制药企业TOP30（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7681136299222254080/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T10:49",
-      "t": "WorkBuddy金融版正式发布，让Agent真正进入金融业务现场",
-      "s": "9月3日，腾讯WorkBuddy金融版正式上线。WorkBuddy金融版是专门面向金融机构打造的AI智能工作台，可为券商…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/zr0zxn8R9MVT4y7n.html"
     }
   ],
   "timeline": [
+    [
+      "09-03 17:51",
+      "“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作"
+    ],
+    [
+      "09-03 17:46",
+      "健康160、智云、方舟、熙康：四家互联网医疗企业吃到第一波“AI红利”"
+    ],
     [
       "09-03 17:30",
       "消息称小鹏机器人将采用固液电池方案推进量产，已定点一家二线企业"
@@ -158,14 +166,6 @@
     [
       "09-03 16:31",
       "谷歌连发三款Flash，以“机海战术”再度加码AI企业端基本盘"
-    ],
-    [
-      "09-03 16:21",
-      "微软调整财报口径：智能体与基础设施、设备与消费者 2 板块，Azure 营收纳入报告范围"
-    ],
-    [
-      "09-03 15:49",
-      "阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281038,
+      "s": 281040,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246650,
+      "s": 246652,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245869,
+      "s": 245876,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173371,
+      "s": 173372,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135840,
+      "s": 135842,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
