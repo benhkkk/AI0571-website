@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T17:35:48",
+  "updated": "2026-09-03T17:40:55",
   "news": [
     {
       "c": "HOT",
@@ -107,13 +107,6 @@
       "u": "http://www.geekpark.net/news/369775"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-03T13:35",
-      "t": "Gemini 3.8 Flash：谷歌把价格战打进了token消耗层",
-      "s": "单价没变，账单先涨四成。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8126955.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-03T13:30",
       "t": "当 AI 开始理解「人不是标签」：阿里妈妈如何重构广告定向",
@@ -140,6 +133,13 @@
       "t": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
       "s": "从工厂一路干到家庭（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483565.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-03T10:53",
+      "t": "2026中国AI制药企业TOP30",
+      "s": "2026中国AI制药企业TOP30（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7681136299222254080/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281032,
+      "s": 281034,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245852,
+      "s": 245856,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173367,
+      "s": 173368,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143864,
+      "s": 143866,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135839,
+      "s": 135840,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114142,
+      "s": 114144,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102841,
+      "s": 102842,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
