@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-04T07:06:30",
+  "updated": "2026-09-04T07:11:28",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T07:08",
+      "t": "研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降",
+      "s": "外媒 notebookcheck 援引《应用认知心理学》（Applied Cognitive Psychology）期刊…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/217.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T07:03",
+      "t": "刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代",
+      "s": "OpenAI：欢迎来到 AGI 时代#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678196?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T06:56",
@@ -63,20 +77,6 @@
       "t": "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起",
       "s": "HTC 今天（3 日）通过官方新闻稿宣布，最新 AI 智能眼镜 VIVE Eagle 正式登陆欧洲、北美和澳大利亚市场…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/188.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-03T22:10",
-      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
-      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128007.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T21:54",
-      "t": "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告",
-      "s": "据美媒 Axios 今天（3 日）晚间援引 OpenAI 一名发言人消息称，OpenAI 总裁格雷格 · 布罗克曼预计即…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/161.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "09-04 07:08",
+      "研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降"
+    ],
+    [
+      "09-04 07:03",
+      "刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代"
+    ],
+    [
       "09-04 06:56",
       "OpenAI 宣布将向全球投入 10 亿美元扩大 AI 网络安全能力，优先覆盖供水、电力等关键服务"
     ],
@@ -158,14 +166,6 @@
     [
       "09-04 00:00",
       "英伟达 RTX Spark 紧凑型 Win PC 主机下月上市，含宏碁、联想等 6 家 OEM 厂商产品"
-    ],
-    [
-      "09-03 23:25",
-      "逛完 WRC，我们发现机器人行业最该回答的 5 个问题"
-    ],
-    [
-      "09-03 23:15",
-      "谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281315,
+      "s": 281317,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247275,
+      "s": 247280,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247121,
+      "s": 247123,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173628,
+      "s": 173631,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114403,
+      "s": 114404,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103069,
+      "s": 103071,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92016,
+      "s": 92017,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
