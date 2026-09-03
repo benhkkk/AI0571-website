@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-03T12:11:00",
+  "updated": "2026-09-03T12:16:09",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T12:10",
+      "d": "2026-09-03T12:16",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
@@ -44,13 +44,6 @@
       "u": "https://www.tmtpost.com/8126540.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-03T11:16",
-      "t": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
-      "s": "从工厂一路干到家庭（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483565.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-03T11:01",
       "t": "消息称 MagicOS 11 迭代后，苹果 iPhone 来电可在荣耀 Magic9 上调用 AI 通话接听",
@@ -63,6 +56,13 @@
       "t": "河图探海，一家天使轮公司的“深海华为”野心",
       "s": "水下机器人跑出“新物种”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126794.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-03T10:53",
+      "t": "2026中国AI制药企业TOP30",
+      "s": "2026中国AI制药企业TOP30（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7681136299222254080/"
     },
     {
       "c": "MEDPHARMA",
@@ -144,7 +144,7 @@
   ],
   "timeline": [
     [
-      "09-03 12:10",
+      "09-03 12:16",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280893,
+      "s": 280896,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246448,
+      "s": 246451,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245448,
+      "s": 245451,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173298,
+      "s": 173299,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143837,
+      "s": 143836,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135796,
+      "s": 135798,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114055,
+      "s": 114056,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102718,
+      "s": 102720,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91756,
+      "s": 91757,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
