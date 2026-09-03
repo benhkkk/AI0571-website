@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-03T12:16:09",
+  "updated": "2026-09-03T12:21:30",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-03T12:16",
+      "d": "2026-09-03T12:21",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
@@ -42,6 +42,13 @@
       "t": "最强模型Fable 5.1发布，Anthropic要用降价换IPO",
       "s": "最强模型不等于最好卖。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8126540.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T11:16",
+      "t": "一个模型场景通吃！它石智航AWE3.7的泛化能力有点狠",
+      "s": "从工厂一路干到家庭（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483565.html"
     },
     {
       "c": "HOT",
@@ -133,18 +140,11 @@
       "t": "ACEMAGIC 将推升级款 F9A 迷你主机，换装 AMD 锐龙 AI Max+ PRO 495",
       "s": "根据 ACEMAGIC（阿迈奇）在品牌官网公开的新闻稿，这家企业将推出升级至 AMD 锐龙 AI Max+ PRO 49…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/754.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T09:19",
-      "t": "AI 会消灭所有工作？英伟达黄仁勋称这是无稽之谈",
-      "s": "媒体 CNBC 昨日（9 月 2 日）发布博文，报道称在 G20 创新部长级会议上，英伟达首席执行官黄仁勋表示 AI 正…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/753.htm"
     }
   ],
   "timeline": [
     [
-      "09-03 12:16",
+      "09-03 12:21",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280896,
+      "s": 280897,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246451,
+      "s": 246454,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245451,
+      "s": 245454,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143836,
+      "s": 143837,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135798,
+      "s": 135800,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102720,
+      "s": 102721,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91757,
+      "s": 91758,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
