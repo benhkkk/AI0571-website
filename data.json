@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T16:20:55",
+  "updated": "2026-09-03T16:25:56",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T16:21",
+      "t": "微软调整财报口径：智能体与基础设施、设备与消费者 2 板块，Azure 营收纳入报告范围",
+      "s": "Microsoft（微软）当地时间 9 月 2 日宣布调整财报口径，将其整体业务从此前的“生产力和商业流程”“智能云”“…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/990.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T15:49",
@@ -87,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-03T13:38",
-      "t": "OpenAI 首席科学家回应“AI 推理不透明”争议：复杂度未跳跃增长",
-      "s": "OpenAI 首席科学家雅库布・帕乔基（Jakub Pachocki）昨日（9 月 2 日）在 X 平台发布推文，回应 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/866.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-03T13:35",
       "t": "Gemini 3.8 Flash：谷歌把价格战打进了token消耗层",
       "s": "单价没变，账单先涨四成。（来源：钛媒体）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-03 16:21",
+      "微软调整财报口径：智能体与基础设施、设备与消费者 2 板块，Azure 营收纳入报告范围"
+    ],
+    [
       "09-03 15:49",
       "阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜"
     ],
@@ -162,10 +166,6 @@
     [
       "09-03 15:16",
       "Meta 这个百万级上下文模型，用数据换折扣，差价 21 倍"
-    ],
-    [
-      "09-03 15:03",
-      "图像编辑器 Paint.NET 首次登陆 Linux：开发者称 AI 辅助 3 周进展超 12 年总和"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280993,
+      "s": 280997,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246595,
+      "s": 246598,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245736,
+      "s": 245741,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209763,
+      "s": 209764,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173344,
+      "s": 173347,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143858,
+      "s": 143857,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114120,
+      "s": 114122,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102808,
+      "s": 102811,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91806,
+      "s": 91807,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
