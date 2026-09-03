@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T21:10:55",
+  "updated": "2026-09-03T21:16:04",
   "news": [
     {
       "c": "MODEL",
@@ -37,25 +37,11 @@
       "u": "https://www.ithome.com/0/998/121.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-03T19:32",
-      "t": "“没有Token的CS学生，应立即退学”",
-      "s": "禁止古法编程、Token自费（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483839.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-03T19:26",
       "t": "中国儒意连推三款AI产品，首次打通AI创作链路｜独家",
       "s": "战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127550.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-03T19:25",
-      "t": "腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场",
-      "s": "眼镜、耳机、麦克风都来了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483786.html"
     },
     {
       "c": "INDUSTRY",
@@ -140,6 +126,20 @@
       "t": "“大”模型向左，“Flash”向右：国内外开卷轻量化背后的商业清算",
       "s": "大模型向左，继续探索通用人工智能的智力极限；Flash向右，向下扎根进入千行百业的生产线。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127474.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T17:56",
+      "t": "奥尔特曼：OpenAI Astra 模型参与了美政府自愿审查",
+      "s": "据 Axios 报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，特朗普政府对公司即将推出的 Astra 模型进行的…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/066.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-03T17:51",
+      "t": "“反数据中心”浪潮有增无减，美国财长贝森特怒批企业没做好沟通工作",
+      "s": "据彭博社今天（3 日）凌晨报道，美国财政部长斯科特 · 贝森特猛烈抨击大举投资 AI 的美国企业：在数据中心推高生活成本…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/060.htm"
     }
   ],
   "timeline": [
@@ -164,8 +164,8 @@
       "OpenAI、Anthropic 等科技公司安保人员获准罢工，要求提高薪资待遇"
     ],
     [
-      "09-03 19:32",
-      "“没有Token的CS学生，应立即退学”"
+      "09-03 19:26",
+      "中国儒意连推三款AI产品，首次打通AI创作链路｜独家"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281119,
+      "s": 281122,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246731,
+      "s": 246736,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246277,
+      "s": 246286,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209813,
+      "s": 209815,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173435,
+      "s": 173438,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143888,
+      "s": 143889,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114191,
+      "s": 114192,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102902,
+      "s": 102903,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91860,
+      "s": 91862,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
