@@ -1,9 +1,16 @@
 {
-  "updated": "2026-09-03T13:01:08",
+  "updated": "2026-09-03T13:05:54",
   "news": [
     {
+      "c": "FUNDING",
+      "d": "2026-09-03T13:05",
+      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
+      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-03T13:01",
+      "d": "2026-09-03T13:05",
       "t": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道",
       "s": "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260902/969772.shtml"
@@ -133,18 +140,15 @@
       "t": "AI 让“赛博蟑螂”学会自主避险，识别危险环境准确率达 93%",
       "s": "9 月 3 日，据《日经亚洲》报道，研究人员正尝试将人工智能、传感器和通信设备安装在昆虫身上，利用昆虫体型小、感知灵敏和…（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/756.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T09:31",
-      "t": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光",
-      "s": "神秘具身团队又放出一连串很炸的Demo视频…自进化模型，技术路线曝光（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483552.html"
     }
   ],
   "timeline": [
     [
-      "09-03 13:01",
+      "09-03 13:05",
+      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
+    ],
+    [
+      "09-03 13:05",
       "赛多利斯中国独家代理SPARTA AGIS I，加码单颗粒分析赛道"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-03 11:41",
       "Claude把“回忆”砍到2毛5，OpenAI的万亿参数正在失去护城河"
-    ],
-    [
-      "09-03 11:41",
-      "人形机器人的天花板不在算法，在热力学"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246476,
+      "s": 246477,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245478,
+      "s": 245480,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135800,
+      "s": 135801,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114066,
+      "s": 114068,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102732,
+      "s": 102736,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
