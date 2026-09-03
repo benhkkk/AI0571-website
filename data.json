@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T08:05:50",
+  "updated": "2026-09-03T08:10:47",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T08:08",
+      "t": "探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号",
+      "s": "科技媒体 SciTech 昨日（9 月 2 日）发布博文，报道称由美国新泽西理工学院（NJIT）牵头的科研团队发布最新研…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/997/737.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-03T08:03",
@@ -72,13 +79,6 @@
       "u": "https://www.ithome.com/0/997/702.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-02T23:00",
-      "t": "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器",
-      "s": "据 Wccftech 报道，DRAM 领域的供应持续吃紧，迫使 AI 服务商不得不各出奇招，只为抢购极度紧缺的内存资源…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/687.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-02T21:34",
       "t": "AI 落地东盟，30% 是技术和算法，70% 是人 | AIMX Singapore 2026 现场观察",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-03 08:08",
+      "探索太阳风暴早期预警：AI 提前 9.24 小时捕捉太阳活动区信号"
+    ],
+    [
       "09-03 08:03",
       "马斯克：火箭再炸一次，SpaceX 就没了；小米「阔折叠」全球首秀；豆包工作支持多 Agent 和屏幕操作 | 极客早知道"
     ],
@@ -162,10 +166,6 @@
     [
       "09-03 07:20",
       "【钛晨报】央行行长潘功胜出席G20财长和央行行长会议，强调继续实施好适度宽松的货币政策；CrowdStrike与OpenAI扩大合作；港股通买入Minimax规…"
-    ],
-    [
-      "09-03 07:16",
-      "欧洲最强 AI：西班牙公司推出 Quasar 438B 模型，1M 词元上下文"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 280828,
+      "s": 280829,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246318,
+      "s": 246319,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135775,
+      "s": 135776,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
