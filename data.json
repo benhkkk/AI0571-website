@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-03T23:15:59",
+  "updated": "2026-09-03T23:21:00",
   "news": [
     {
       "c": "MODEL",
@@ -21,6 +21,13 @@
       "t": "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起",
       "s": "HTC 今天（3 日）通过官方新闻稿宣布，最新 AI 智能眼镜 VIVE Eagle 正式登陆欧洲、北美和澳大利亚市场…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/188.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T22:10",
+      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
+      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128007.html"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "ZINOVA携手逐际动力，探索机器人在复杂建筑施工中的应用",
       "s": "近日，物理AI研发公司ZINOVA基于逐际动力TRON 2双臂具身机器人，联合建筑机器人公司RIC Robotics完成…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/TaL9FUorWHBFyKzT.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T18:23",
-      "t": "别再让员工偷偷用 ChatGPT 了：用一台内网网关，把大模型变成\"自来水\"",
-      "s": "企业接入大模型，最难的不是技术，是秩序。本文分享一个开源思路：在内网部署一层轻量 API 网关（llm-proxy-tk…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502302"
     }
   ],
   "timeline": [
@@ -156,16 +156,16 @@
       "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起"
     ],
     [
+      "09-03 22:10",
+      "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相"
+    ],
+    [
       "09-03 21:54",
       "OpenAI 将召集约 300 名安全领域负责人，筹备网络安全相关公告"
     ],
     [
       "09-03 21:42",
       "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投"
-    ],
-    [
-      "09-03 21:31",
-      "小红书治理 AI 制作虚假探店、民宿内容，今年 6-8 月清理相关内容近 12 万条"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246823,
+      "s": 246830,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246573,
+      "s": 246579,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209838,
+      "s": 209839,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173485,
+      "s": 173489,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135881,
+      "s": 135882,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114232,
+      "s": 114233,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102945,
+      "s": 102948,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 91891,
+      "s": 91893,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
