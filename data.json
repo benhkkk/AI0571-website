@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-03T08:40:54",
+  "updated": "2026-09-03T08:45:57",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T08:29",
+      "t": "存力接棒算力：AI智能体把存储推上主战场",
+      "s": "当AI智能体开始“记忆”，存储如何接住这场变革？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8123421.html"
+    },
     {
       "c": "FUNDING",
       "d": "2026-09-03T08:22",
@@ -100,13 +107,6 @@
       "u": "https://www.tmtpost.com/8124464.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-09-02T21:04",
-      "t": "AI 在生物制药领域的四大突破",
-      "s": "AI 在生物制药领域的四大突破（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7677173738080616987/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-02T19:24",
       "t": "李飞飞旗下 AI 实验室 World Labs 发布 Atlas：从几张照片重建 3D 世界",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-03 08:29",
+      "存力接棒算力：AI智能体把存储推上主战场"
+    ],
+    [
       "09-03 08:22",
       "早报｜小米「中折叠」官宣,跟华为发布会「撞档」/微信灰测未读聊天汇总、红包一键直达/50.98万，新一代理想MEGA上市"
     ],
@@ -162,10 +166,6 @@
     [
       "09-03 07:57",
       "IT早报 0903：上市两周宇树科技股价腰斩；星宇股份董事长就劝退应届生事件致歉；小米 18 Fold 中折叠手机官宣；豆包手机二代计划 9 月开售..."
-    ],
-    [
-      "09-03 07:50",
-      "纽约时报诉 OpenAI 案升级：美国司法部首次就 AI 版权问题公开表态，主张 AI 训练属“合理使用”"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246334,
+      "s": 246336,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 245226,
+      "s": 245229,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209659,
+      "s": 209660,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114011,
+      "s": 114012,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102632,
+      "s": 102634,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
