@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-09-04T07:31', t:'JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效', s:'JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260115/869495.shtml'},
     {c:'FUNDING', d:'2026-09-04T07:20', t:'【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应', s:'精智达拿下15.76亿元半导体设备大单；小米汽车拟进军欧洲市场；字节跳动将获得约296亿美元银团贷款；天猫上线Token…（来源：钛媒体）', u:'https://www.tmtpost.com/8127957.html'},
     {c:'MODEL', d:'2026-09-04T07:08', t:'研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降', s:'外媒 notebookcheck 援引《应用认知心理学》（Applied Cognitive Psychology）期刊…（来源：IT之家）', u:'https://www.ithome.com/0/998/217.htm'},
     {c:'MODEL', d:'2026-09-04T07:03', t:'刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代', s:'OpenAI：欢迎来到 AGI 时代#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）', u:'https://www.ifanr.com/1678196?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -474,6 +473,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-03T23:07', t:'（更新：已恢复正常）ChatGPT、Grok、Claude、Cursor 集体突发故障', s:'【9 月 4 日 1:13 更新】目前文中提到的模型 / AI 工具官网“Status”主页均显示已经恢复正常。IT之家…（来源：IT之家）', u:'https://www.ithome.com/0/998/195.htm'},
     {c:'MODEL', d:'2026-09-03T22:57', t:'沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发', s:'沙特阿拉伯主权财富基金 PIF 旗下人工智能企业 HUMAIN 当地时间今日公布了前沿阿拉伯语模型 humain-m3…（来源：IT之家）', u:'https://www.ithome.com/0/998/189.htm'},
     {c:'MODEL', d:'2026-09-03T22:56', t:'HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起', s:'HTC 今天（3 日）通过官方新闻稿宣布，最新 AI 智能眼镜 VIVE Eagle 正式登陆欧洲、北美和澳大利亚市场…（来源：IT之家）', u:'https://www.ithome.com/0/998/188.htm'},
+    {c:'MEDPHARMA', d:'2026-09-03T21:42', t:'AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投', s:'AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）', u:'https://www.toutiao.com/article/7681303907590603291/'},
     {c:'MODEL', d:'2026-09-03T20:17', t:'GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？', s:'如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/XcJ2N9YalKyDRJd8.html'},
     {c:'MODEL', d:'2026-09-03T19:39', t:'AI 群星闪耀之前，商汤先相信那群少年', s:'2018年，王延森还是一名本科生，做生成对话方向。那时候CV正热，Transformer浪潮初起。告诉别人自己在做“能聊…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html'},
     {c:'HOT', d:'2026-09-03T19:32', t:'“没有Token的CS学生，应立即退学”', s:'禁止古法编程、Token自费（来源：量子位）', u:'https://www.qbitai.com/2026/09/483839.html'},
@@ -481,22 +481,22 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-03T19:25', t:'腾讯WorkBuddy联名硬件来了！首批100多家伙伴入场', s:'眼镜、耳机、麦克风都来了（来源：量子位）', u:'https://www.qbitai.com/2026/09/483786.html'},
   ];
   const TIMELINE = [
-    ['09-04 07:31','JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效'],
     ['09-04 07:20','【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应'],
     ['09-04 07:08','研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降'],
     ['09-04 07:03','刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代'],
     ['09-04 06:56','OpenAI 宣布将向全球投入 10 亿美元扩大 AI 网络安全能力，优先覆盖供水、电力等关键服务'],
     ['09-04 06:48','GPT-6 曝光， OpenAI 总裁说：AGI 来了'],
+    ['09-04 06:28','OpenAI GPT-6 Astra 发布：首次达到“关键”级网络安全能力门槛，布罗克曼认为 AGI 时代已经到来'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281319, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247297, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247139, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209903, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281320, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247303, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247142, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209904, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173634, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143952, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135923, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114407, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143953, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135924, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114409, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103075, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92018, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];

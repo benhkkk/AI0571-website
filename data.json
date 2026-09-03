@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-04T07:31:24",
+  "updated": "2026-09-04T07:36:21",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T07:31",
-      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
-      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
-    },
     {
       "c": "FUNDING",
       "d": "2026-09-04T07:20",
@@ -107,6 +100,13 @@
       "u": "https://www.ithome.com/0/998/188.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-03T21:42",
+      "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
+      "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7681303907590603291/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-03T20:17",
       "t": "GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？",
@@ -144,10 +144,6 @@
   ],
   "timeline": [
     [
-      "09-04 07:31",
-      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
-    ],
-    [
       "09-04 07:20",
       "【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应"
     ],
@@ -166,6 +162,10 @@
     [
       "09-04 06:48",
       "GPT-6 曝光， OpenAI 总裁说：AGI 来了"
+    ],
+    [
+      "09-04 06:28",
+      "OpenAI GPT-6 Astra 发布：首次达到“关键”级网络安全能力门槛，布罗克曼认为 AGI 时代已经到来"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281319,
+      "s": 281320,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247297,
+      "s": 247303,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247139,
+      "s": 247142,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209903,
+      "s": 209904,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143952,
+      "s": 143953,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135923,
+      "s": 135924,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114407,
+      "s": 114409,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
