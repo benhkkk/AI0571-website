@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-03T19:25:51",
+  "updated": "2026-09-03T19:31:02",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-03T19:25",
+      "d": "2026-09-03T19:30",
       "t": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平",
       "s": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250529/787176.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T19:26",
+      "t": "中国儒意连推三款AI产品，首次打通AI创作链路｜独家",
+      "s": "战投爱诗科技后，中国儒意三款AI产品集中曝光，AI内容生成赛道迎来“游戏系”玩家。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8127550.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T19:24",
+      "t": "年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？",
+      "s": "AI产业的利润，正从智能的制造转向智能的流通。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8124567.html"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,20 @@
       "t": "阿里智能体编程平台 Qoder 上线“眼镜版”，将接入千问和乐奇 AI 眼镜",
       "s": "据阿里云消息，今天，阿里智能体编程平台 Qoder 上线“Qoder 眼镜版”，将首批接入千问 AI 眼镜和乐奇 AI …（来源：IT之家）",
       "u": "https://www.ithome.com/0/997/976.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T15:42",
-      "t": "印度首富押注云电脑：8 年老 PC 无需升级，也能运行 AI 应用",
-      "s": "印度首富穆克什 · 安巴尼旗下的印度信实 Jio 正在向印度所有互联网用户开放其云电脑服务，希望让老旧电脑无需升级硬件…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/997/972.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T15:16",
-      "t": "Meta 这个百万级上下文模型，用数据换折扣，差价 21 倍",
-      "s": "Meta 最新 AI 大模型 Muse Spark 1.3 把上下文窗口拉到了 100 万 token，定价分了两档，差…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502295/meta-ai-muse-spark-1-3"
     }
   ],
   "timeline": [
     [
-      "09-03 19:25",
+      "09-03 19:30",
       "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平"
+    ],
+    [
+      "09-03 19:26",
+      "中国儒意连推三款AI产品，首次打通AI创作链路｜独家"
+    ],
+    [
+      "09-03 19:24",
+      "年收入1.5亿，卖到129亿：AI的收银台为何值86倍天价？"
     ],
     [
       "09-03 19:00",
@@ -158,14 +166,6 @@
     [
       "09-03 18:18",
       "世界生成模型来了3D头部玩家，可进入生产管线的场景级生成时代来临！"
-    ],
-    [
-      "09-03 18:13",
-      "陈大年复出，入局大模型"
-    ],
-    [
-      "09-03 18:06",
-      "阿里花1000亿搞AI，美图花不到5个亿"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281078,
+      "s": 281081,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246689,
+      "s": 246692,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246031,
+      "s": 246042,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173396,
+      "s": 173399,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135855,
+      "s": 135856,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114167,
+      "s": 114168,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
