@@ -1,19 +1,12 @@
 {
-  "updated": "2026-09-03T23:46:06",
+  "updated": "2026-09-03T23:50:59",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-03T23:46",
-      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
-      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-03T23:46",
-      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
-      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+      "c": "FUNDING",
+      "d": "2026-09-03T23:50",
+      "t": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件",
+      "s": "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20241216/759662.shtml"
     },
     {
       "c": "INDUSTRY",
@@ -140,16 +133,19 @@
       "t": "全栈自研+生态协同：灵心巧手与产业链核心伙伴共建中国具身智能Tier1产业联盟",
       "s": "2026年9月2日，由灵心巧手与星源智共同发起，联合奥比中光、法奥机器人、福莱新材、禾赛科技、华威科、览沃科技、朗毅机器…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/JjxeXP5ggz1y4t36.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-03T19:00",
+      "t": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
+      "s": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8127496.html"
     }
   ],
   "timeline": [
     [
-      "09-03 23:46",
-      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
-    ],
-    [
-      "09-03 23:46",
-      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+      "09-03 23:50",
+      "海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件"
     ],
     [
       "09-03 23:25",
@@ -166,6 +162,10 @@
     [
       "09-03 22:57",
       "沙特 HUMAIN 公布前沿阿语模型 humain-m3，由 MiniMax 受托开发"
+    ],
+    [
+      "09-03 22:56",
+      "HTC 推出 AI 智能眼镜 VIVE Eagle：主打隐私保护，499 美元起"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281185,
+      "s": 281187,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 246852,
+      "s": 246854,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 246624,
+      "s": 246631,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209843,
+      "s": 209845,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114242,
+      "s": 114244,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 102957,
+      "s": 102963,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
