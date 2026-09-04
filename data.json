@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T09:21:17",
+  "updated": "2026-09-04T09:26:19",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T09:22",
+      "t": "荣耀 Magic 9 系列前瞻：双 2 亿像素 + 阿莱联名，新增主动散热风扇版本",
+      "s": "微博博主 @数码闲聊站 今日披露了荣耀 Magic 9 系列的部分亮点信息。根据爆料，荣耀 Magic9 系列将提供多款…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/259.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T08:47",
@@ -79,13 +86,6 @@
       "u": "https://www.ithome.com/0/998/232.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-04T07:43",
-      "t": "智谱 GLM-5.3-Flash 夜间免费用：9 月 3 日至 20 日、每天 23 时至次日 9 时额度全免",
-      "s": "智谱 AI 昨日宣布，旗下 GLM Coding Plan 正式推出“Flash × ZCode”夜间畅用活动。即日起至…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/231.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-09-04T07:20",
       "t": "【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应",
@@ -128,21 +128,25 @@
       "u": "http://www.geekpark.net/news/369388"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-03T22:10",
+      "t": "价值真相 · 财报季｜美股中概3C巨头的“端侧 AI”溢价：硬件更迭周期里的毛利真相",
+      "s": "2026年，利润表正在改写估值坐标。当联想的AI服务器订单储备飙至540亿美元、百度的GPU云连续四季度三位数增长，中国…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128007.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-09-03T21:42",
       "t": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投",
       "s": "AI制药企业艾斐智药获约亿元天使轮融资 襄禾资本领投（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7681303907590603291/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T20:17",
-      "t": "GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？",
-      "s": "如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/XcJ2N9YalKyDRJd8.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 09:22",
+      "荣耀 Magic 9 系列前瞻：双 2 亿像素 + 阿莱联名，新增主动散热风扇版本"
+    ],
     [
       "09-04 08:47",
       "微软给 Copilot AI 智能体加“刹车”：发邮件等操作可先请求审批"
@@ -162,10 +166,6 @@
     [
       "09-04 08:19",
       "Edge AI Daily 早报（9月4日）"
-    ],
-    [
-      "09-04 08:11",
-      "微软最强转录 AI 模型：MAI-Transcribe-2 登场，60 语种平均词错误率 5.2%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281346,
+      "s": 281349,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247450,
+      "s": 247465,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247213,
+      "s": 247221,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209915,
+      "s": 209916,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173662,
+      "s": 173668,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114429,
+      "s": 114431,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103111,
+      "s": 103115,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92034,
+      "s": 92038,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
