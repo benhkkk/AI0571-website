@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T16:21:24",
+  "updated": "2026-09-04T16:26:26",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-04T16:19",
+      "t": "几百位CXO AI实践的物理蒸馏与泛化——数字价值年会首日议程已来，答案未定",
+      "s": "蒸馏解决“值不值得”，泛化解决“能不能大”，跳过其中任何一层空谈下一层，得到的都只会是又一个无法复制的demo。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8127859.html"
+    },
     {
       "c": "FUNDING",
       "d": "2026-09-04T15:54",
@@ -42,6 +49,13 @@
       "t": "LibreOffice 26.8 首周下载量 103 万次创造新纪录，最大亮点是“没有一个 AI 功能”",
       "s": "1,031,162。这是 LibreOffice 26.8 发布第一周的官网下载量。 The Document Foun…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502318/libreoffice-26-8-first-week-download-record"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T15:09",
+      "t": "金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源",
+      "s": "5000支队伍同台做题，写尽行业四年变化（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/484203.html"
     },
     {
       "c": "MODEL",
@@ -126,23 +140,13 @@
       "t": "WorkBuddy上架openKylin：能“听懂指令”的 AI 智能体来了！",
       "s": "OpenAtom openKylin（以下简称“openKylin”）软件商店上架WorkBuddy了！openKyli…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502314"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-04T12:03",
-      "t": "常州女首富机器人转型才开始，先因裁应届生上了热搜",
-      "s": "比新业务更考验一家公司的，可能是怎么对待年轻人。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/483984.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T11:56",
-      "t": "ChatGPT、Claude、Grok 同时宕机，没人解释为什么",
-      "s": "9 月 3 日，ChatGPT、Claude 和 Grok 同时宕机了。 不是先后，是几乎完全重叠。Grok 在美东时间…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502312/chatgpt-grok-claude-outage-down"
     }
   ],
   "timeline": [
+    [
+      "09-04 16:19",
+      "几百位CXO AI实践的物理蒸馏与泛化——数字价值年会首日议程已来，答案未定"
+    ],
     [
       "09-04 15:54",
       "抢占AI时代战略制高点 开源平台成为资本追逐焦点"
@@ -162,10 +166,6 @@
     [
       "09-04 15:31",
       "李斌回应蔚来是否会做机器人业务：已投资很多公司，先把车这个事情做好"
-    ],
-    [
-      "09-04 15:19",
-      "LibreOffice 26.8 首周下载量 103 万次创造新纪录，最大亮点是“没有一个 AI 功能”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281538,
+      "s": 281541,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248328,
+      "s": 248344,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247566,
+      "s": 247571,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173834,
+      "s": 173837,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135978,
+      "s": 135981,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114545,
+      "s": 114546,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103271,
+      "s": 103273,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92140,
+      "s": 92141,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
