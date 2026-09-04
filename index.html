@@ -460,6 +460,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'MODEL', d:'2026-09-04T11:39', t:'摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出', s:'在 9 月 3 日下午的摩尔线程 2026 年半年度业绩说明会上，摩尔线程官方表示，在 2025 年 12 月首届 MU…（来源：IT之家）', u:'https://www.ithome.com/0/998/312.htm'},
+    {c:'HOT', d:'2026-09-04T11:32', t:'AI猎头的暴富神话：找到一个人，佣金300w？', s:'钱被吹过来了，但借助它全靠自己。（来源：钛媒体）', u:'https://www.tmtpost.com/8127900.html'},
+    {c:'INDUSTRY', d:'2026-09-04T11:32', t:'机器人能动只是第一步，难的是落地场景', s:'变电站、输煤栈桥、百万册书库，三个毫不相干的场景，底下是同一条链路。工业AI真正的门槛不在识别率，而在识别结果能不能进客…（来源：钛媒体）', u:'https://www.tmtpost.com/8127840.html'},
     {c:'FUNDING', d:'2026-09-04T11:09', t:'ARR 3亿美元的Kimi，为什么还在追着投资人要钱？', s:'Kimi 越来越不像 Anthropic 了。（来源：钛媒体）', u:'https://www.tmtpost.com/8127838.html'},
     {c:'MODEL', d:'2026-09-04T10:55', t:'飞腾 D3000M + 160TOPS NPU：国科亿道携手后摩智能发布 FN008 笔电', s:'后摩智能 (HOUMO.AI) 昨日宣布了其与国科亿道合作开发的 FN008 AI 笔记本电脑。这一全栈国产化型号基于飞…（来源：IT之家）', u:'https://www.ithome.com/0/998/296.htm'},
     {c:'MODEL', d:'2026-09-04T10:51', t:'Zed 创始人：Xanadu 等了六十年，终于等到了 AI Agent', s:'Zed 创始人 Nathan Sobo 发了一篇博客，标题叫《Xanadu 一直在等 Agent》(Xanadu Was…（来源：OSCHINA）', u:'https://www.oschina.net/news/502308/zed-dev-agentic-xanadu'},
@@ -475,28 +477,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-04T09:39', t:'GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代', s:'凌晨三点三十三分，GPT-6 Astra 发布了。 OpenAI 在博客里说这是「世界上最智能、最对齐的模型」。Sam …（来源：OSCHINA）', u:'https://www.oschina.net/news/502307/openai-gpt-6-astra'},
     {c:'INDUSTRY', d:'2026-09-04T09:34', t:'消息称 Meta 调整 AI 绩效考核标准，取消 Token 使用量指标', s:'据外媒 The Information 昨日报道，Meta 告知工程师，绩效评估将不再包含 AI Token 的使用量…（来源：IT之家）', u:'https://www.ithome.com/0/998/264.htm'},
     {c:'MODEL', d:'2026-09-04T09:31', t:'模型发布当天就过时：OpenAI们两天三场发布，最快反超只用五小时', s:'OpenAI在发布说明里点明，这次上线是一整套全新系统首次在真实生产环境中整体运转，为此团队正在调集大批计算资源、扩充推…（来源：钛媒体）', u:'https://www.tmtpost.com/8128187.html'},
-    {c:'HOT', d:'2026-09-04T09:27', t:'智谱MiniMax，疯狂卖Token', s:'不得不打的一场仗（来源：钛媒体）', u:'https://www.tmtpost.com/8127766.html'},
     {c:'MODEL', d:'2026-09-04T09:24', t:'那些想用但不让用 AI 的公司，终于可以用 AI 了', s:'把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr）…（来源：爱范儿）', u:'https://www.ifanr.com/1678332?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-04T09:22', t:'荣耀 Magic 9 系列前瞻：双 2 亿像素 + 阿莱联名，新增主动散热风扇版本', s:'微博博主 @数码闲聊站 今日披露了荣耀 Magic 9 系列的部分亮点信息。根据爆料，荣耀 Magic9 系列将提供多款…（来源：IT之家）', u:'https://www.ithome.com/0/998/259.htm'},
-    {c:'MODEL', d:'2026-09-04T09:19', t:'从无线麦克风到AI语音入口：猛玛 LARK A2 原生联动 WorkBuddy', s:'9月2日,腾讯 WorkBuddy 生态发布会上宣布,与专业音视频硬件品牌HOLLYLAND猛玛达成深度生态合作,推出猛…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/TV9HPfzjSA1Aq6Bt.html'},
   ];
   const TIMELINE = [
     ['09-04 11:39','摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出'],
+    ['09-04 11:32','AI猎头的暴富神话：找到一个人，佣金300w？'],
+    ['09-04 11:32','机器人能动只是第一步，难的是落地场景'],
     ['09-04 11:09','ARR 3亿美元的Kimi，为什么还在追着投资人要钱？'],
     ['09-04 10:55','飞腾 D3000M + 160TOPS NPU：国科亿道携手后摩智能发布 FN008 笔电'],
     ['09-04 10:51','Zed 创始人：Xanadu 等了六十年，终于等到了 AI Agent'],
-    ['09-04 10:48','WorkBuddy这一年：腾讯AI实践最真实的25个判断'],
-    ['09-04 10:48','中国大模型简史01：模型越做越大，却没人知道它该变成什么'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281410, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247739, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247303, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209948, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173722, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143981, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247748, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247309, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209949, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173724, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143982, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135956, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114466, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114468, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103165, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92068, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
