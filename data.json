@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T12:56:24",
+  "updated": "2026-09-04T13:01:30",
   "news": [
     {
       "c": "INDUSTRY",
@@ -128,18 +128,18 @@
       "u": "https://www.ithome.com/0/998/279.htm"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-04T10:11",
+      "t": "微软、亚马逊及另外8只股票有望在26万亿美元AI市场中胜出",
+      "s": "杰富瑞分析师表示，微软、亚马逊以及一众云计算和软件公司将成为人工智能领域的赢家。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128332.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-04T09:59",
       "t": "我国牵头的智慧城市人工智能应用国际标准成功立项",
       "s": "据央视新闻今日报道，我国牵头提出的《城市和社区可持续发展 智慧城市运营模型中的人工智能应用 第2部分：原则与要素》国际标…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/272.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T09:55",
-      "t": "三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”",
-      "s": "Claude的对话框停在原地转圈，ChatGPT的请求反复报错，Grok的页面只剩一片空白。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128284.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281433,
+      "s": 281434,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247860,
+      "s": 247866,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247375,
+      "s": 247380,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173748,
+      "s": 173750,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143984,
+      "s": 143985,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114487,
+      "s": 114489,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103185,
+      "s": 103186,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92089,
+      "s": 92090,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
