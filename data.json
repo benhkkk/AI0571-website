@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T14:46:35",
+  "updated": "2026-09-04T14:51:35",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T14:50",
+      "t": "工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设",
+      "s": "今日，工业和信息化部办公厅印发《人工智能中小企业创业支持计划（2026-2028 年）》。通过三年，在行业应用、数据服务…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/403.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T14:18",
@@ -133,16 +140,13 @@
       "t": "飞腾 D3000M + 160TOPS NPU：国科亿道携手后摩智能发布 FN008 笔电",
       "s": "后摩智能 (HOUMO.AI) 昨日宣布了其与国科亿道合作开发的 FN008 AI 笔记本电脑。这一全栈国产化型号基于飞…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/296.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T10:51",
-      "t": "Zed 创始人：Xanadu 等了六十年，终于等到了 AI Agent",
-      "s": "Zed 创始人 Nathan Sobo 发了一篇博客，标题叫《Xanadu 一直在等 Agent》(Xanadu Was…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502308/zed-dev-agentic-xanadu"
     }
   ],
   "timeline": [
+    [
+      "09-04 14:50",
+      "工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设"
+    ],
     [
       "09-04 14:18",
       "编码、办公、设计都擅长的 covo-agent v0.1.1 发布，优化终端交互体验"
@@ -162,10 +166,6 @@
     [
       "09-04 13:53",
       "2026 上半年智能眼镜竞争加剧，雷鸟创新五榜登顶实现全品类销量领先"
-    ],
-    [
-      "09-04 13:48",
-      "千问办公上线首月用户数突破 3000万，企业用户占比过半"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281478,
+      "s": 281480,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248083,
+      "s": 248094,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247468,
+      "s": 247471,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173799,
+      "s": 173802,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135972,
+      "s": 135974,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103218,
+      "s": 103222,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92111,
+      "s": 92112,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
