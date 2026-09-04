@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-04T12:46:25",
+  "updated": "2026-09-04T12:51:25",
   "news": [
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T12:46",
-      "t": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注",
-      "s": "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250224/768984.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-04T12:46",
-      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
-      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-04T12:39",
@@ -140,17 +126,23 @@
       "t": "我国牵头的智慧城市人工智能应用国际标准成功立项",
       "s": "据央视新闻今日报道，我国牵头提出的《城市和社区可持续发展 智慧城市运营模型中的人工智能应用 第2部分：原则与要素》国际标…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/272.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T09:55",
+      "t": "三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”",
+      "s": "Claude的对话框停在原地转圈，ChatGPT的请求反复报错，Grok的页面只剩一片空白。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128284.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-04T09:40",
+      "t": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”",
+      "s": "吃下90%市场（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483598.html"
     }
   ],
   "timeline": [
-    [
-      "09-04 12:46",
-      "中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注"
-    ],
-    [
-      "09-04 12:46",
-      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
-    ],
     [
       "09-04 12:39",
       "李斌称市场低估了蔚来：我们不仅是车企，更是 AI 与能源公司"
@@ -166,6 +158,14 @@
     [
       "09-04 11:39",
       "摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出"
+    ],
+    [
+      "09-04 11:32",
+      "AI猎头的暴富神话：找到一个人，佣金300w？"
+    ],
+    [
+      "09-04 11:32",
+      "机器人能动只是第一步，难的是落地场景"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281429,
+      "s": 281430,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247848,
+      "s": 247854,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247363,
+      "s": 247369,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103182,
+      "s": 103183,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92087,
+      "s": 92088,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
