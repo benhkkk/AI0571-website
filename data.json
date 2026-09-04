@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-04T16:51:20",
+  "updated": "2026-09-04T16:56:23",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-04T16:51",
+      "d": "2026-09-04T16:56",
       "t": "#AI与科学仪器",
       "s": "#AI与科学仪器（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/topic-811.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-04T16:51",
+      "d": "2026-09-04T16:56",
       "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
       "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-04T16:51",
+      "d": "2026-09-04T16:56",
       "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
       "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
@@ -42,6 +42,13 @@
       "t": "梅卡曼德上市，具身智能又跑出一家百亿公司",
       "s": "作者｜Li Yuan 编辑｜郑玄 2026 年 9 月 1 日，梅卡曼德登陆港交所。一个过去很少被大众看见的机器人公司…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/369850"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T16:19",
+      "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
+      "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502322"
     },
     {
       "c": "HOT",
@@ -133,26 +140,19 @@
       "t": "服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒",
       "s": "当地时间 9 月 4 日，谷歌正式启动谷歌助理（Google Assistant）移动端的退役工作，这款服役近十年的智能…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/393.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T13:56",
-      "t": "从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代",
-      "s": "Token调度层成为串联全产业链条、盘活全域算力资源的核心枢纽（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128030.html"
     }
   ],
   "timeline": [
     [
-      "09-04 16:51",
+      "09-04 16:56",
       "#AI与科学仪器"
     ],
     [
-      "09-04 16:51",
+      "09-04 16:56",
       "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
     ],
     [
-      "09-04 16:51",
+      "09-04 16:56",
       "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281553,
+      "s": 281555,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248405,
+      "s": 248415,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247594,
+      "s": 247600,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 210007,
+      "s": 210008,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173842,
+      "s": 173844,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143991,
+      "s": 143992,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114553,
+      "s": 114554,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103286,
+      "s": 103287,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
