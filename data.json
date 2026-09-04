@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T15:56:40",
+  "updated": "2026-09-04T16:01:32",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-09-04T15:54",
+      "t": "抢占AI时代战略制高点 开源平台成为资本追逐焦点",
+      "s": "近日，英伟达宣布用129亿美元收购全球最大开源AI模型社区之一Hugging Face。数据显示，Hugging Fac…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502321"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T15:52",
@@ -133,16 +140,13 @@
       "t": "ChatGPT、Claude、Grok 同时宕机，没人解释为什么",
       "s": "9 月 3 日，ChatGPT、Claude 和 Grok 同时宕机了。 不是先后，是几乎完全重叠。Grok 在美东时间…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502312/chatgpt-grok-claude-outage-down"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T11:32",
-      "t": "具身智能落地的最后20%，藏在「云」里",
-      "s": "今年的WAIC和WRC，具身智能展台的风向变了：不再执着于炫技，转向务实。去年的画风还是十八般武艺，同台竞技——机器人跳…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrycloud/31pSSHUoPdFy7U3E.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 15:54",
+      "抢占AI时代战略制高点 开源平台成为资本追逐焦点"
+    ],
     [
       "09-04 15:52",
       "联想 LOQ 系列“海归”，RTX 3050 笔记本电脑 GPU 全能本将至"
@@ -162,10 +166,6 @@
     [
       "09-04 15:19",
       "LibreOffice 26.8 首周下载量 103 万次创造新纪录，最大亮点是“没有一个 AI 功能”"
-    ],
-    [
-      "09-04 14:54",
-      "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281524,
+      "s": 281528,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248267,
+      "s": 248278,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247535,
+      "s": 247540,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173823,
+      "s": 173826,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114537,
+      "s": 114538,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103255,
+      "s": 103260,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92131,
+      "s": 92134,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
