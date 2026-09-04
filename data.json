@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T10:11:29",
+  "updated": "2026-09-04T10:16:24",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-09-04T10:15",
+      "t": "DeepSeek 投资份额有多抢手？1 亿元入场先收 1800 万前端费用，五年锁定期无投票权",
+      "s": "据《财经》杂志昨日报道，围绕 DeepSeek 投资份额，有部分中间通道开出了“前端 18%、后端 35%”的收费条件…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/279.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T09:59",
@@ -114,13 +121,6 @@
       "u": "https://www.ithome.com/0/998/240.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-04T07:52",
-      "t": "铭凡确认 AI 迷你工作站 MS-S1 MAX-P495 九月开售",
-      "s": "MINISFORUM（铭凡）今日确认，其基于 AMD 锐龙 AI Max+ PRO 495 处理器的新款 AI 迷你工作…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/236.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-09-04T07:20",
       "t": "【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-04 10:15",
+      "DeepSeek 投资份额有多抢手？1 亿元入场先收 1800 万前端费用，五年锁定期无投票权"
+    ],
+    [
       "09-04 09:59",
       "我国牵头的智慧城市人工智能应用国际标准成功立项"
     ],
@@ -162,10 +166,6 @@
     [
       "09-04 09:31",
       "模型发布当天就过时：OpenAI们两天三场发布，最快反超只用五小时"
-    ],
-    [
-      "09-04 09:27",
-      "智谱MiniMax，疯狂卖Token"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281366,
+      "s": 281368,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247542,
+      "s": 247547,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247252,
+      "s": 247257,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173688,
+      "s": 173690,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143966,
+      "s": 143967,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135943,
+      "s": 135944,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92047,
+      "s": 92049,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
