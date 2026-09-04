@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T12:02:12",
+  "updated": "2026-09-04T12:06:30",
   "news": [
     {
       "c": "MODEL",
@@ -93,25 +93,18 @@
       "u": "https://www.ithome.com/0/998/279.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T10:11",
-      "t": "微软、亚马逊及另外8只股票有望在26万亿美元AI市场中胜出",
-      "s": "杰富瑞分析师表示，微软、亚马逊以及一众云计算和软件公司将成为人工智能领域的赢家。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128332.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T10:11",
-      "t": "AI落地遇冷，这只航空软件股为何仍有40%上涨空间？",
-      "s": "尽管面临多重不利因素，Amadeus 的营收和利润仍实现了增长。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128330.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-04T09:59",
       "t": "我国牵头的智慧城市人工智能应用国际标准成功立项",
       "s": "据央视新闻今日报道，我国牵头提出的《城市和社区可持续发展 智慧城市运营模型中的人工智能应用 第2部分：原则与要素》国际标…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/272.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T09:55",
+      "t": "三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”",
+      "s": "Claude的对话框停在原地转圈，ChatGPT的请求反复报错，Grok的页面只剩一片空白。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128284.html"
     },
     {
       "c": "INDUSTRY",
@@ -133,6 +126,13 @@
       "t": "消息称 Meta 调整 AI 绩效考核标准，取消 Token 使用量指标",
       "s": "据外媒 The Information 昨日报道，Meta 告知工程师，绩效评估将不再包含 AI Token 的使用量…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/264.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T09:31",
+      "t": "模型发布当天就过时：OpenAI们两天三场发布，最快反超只用五小时",
+      "s": "OpenAI在发布说明里点明，这次上线是一整套全新系统首次在真实生产环境中整体运转，为此团队正在调集大批计算资源、扩充推…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128187.html"
     },
     {
       "c": "MODEL",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281417,
+      "s": 281418,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247776,
+      "s": 247787,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247320,
+      "s": 247323,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209952,
+      "s": 209954,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173729,
+      "s": 173730,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114475,
+      "s": 114477,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92075,
+      "s": 92076,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
