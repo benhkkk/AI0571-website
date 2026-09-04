@@ -460,6 +460,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'INDUSTRY', d:'2026-09-04T09:34', t:'消息称 Meta 调整 AI 绩效考核标准，取消 Token 使用量指标', s:'据外媒 The Information 昨日报道，Meta 告知工程师，绩效评估将不再包含 AI Token 的使用量…（来源：IT之家）', u:'https://www.ithome.com/0/998/264.htm'},
+    {c:'MODEL', d:'2026-09-04T09:31', t:'模型发布当天就过时：OpenAI们两天三场发布，最快反超只用五小时', s:'OpenAI在发布说明里点明，这次上线是一整套全新系统首次在真实生产环境中整体运转，为此团队正在调集大批计算资源、扩充推…（来源：钛媒体）', u:'https://www.tmtpost.com/8128187.html'},
     {c:'HOT', d:'2026-09-04T09:27', t:'智谱MiniMax，疯狂卖Token', s:'不得不打的一场仗（来源：钛媒体）', u:'https://www.tmtpost.com/8127766.html'},
     {c:'MODEL', d:'2026-09-04T09:24', t:'那些想用但不让用 AI 的公司，终于可以用 AI 了', s:'把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr）…（来源：爱范儿）', u:'https://www.ifanr.com/1678332?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-04T09:22', t:'荣耀 Magic 9 系列前瞻：双 2 亿像素 + 阿莱联名，新增主动散热风扇版本', s:'微博博主 @数码闲聊站 今日披露了荣耀 Magic 9 系列的部分亮点信息。根据爆料，荣耀 Magic9 系列将提供多款…（来源：IT之家）', u:'https://www.ithome.com/0/998/259.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-04T06:48', t:'GPT-6 曝光， OpenAI 总裁说：AGI 来了', s:'头图来源：OpenAI 作者｜桦林舞王 编辑｜靖宇 2026 年 9 月 3 日，OpenAI 总裁 Greg Broc…（来源：极客公园）', u:'http://www.geekpark.net/news/369800'},
     {c:'MODEL', d:'2026-09-04T05:57', t:'新版GPT Image 2.5已经能伪造GPT-6发布会了', s:'改进GPT Image 2的噪点问题（来源：量子位）', u:'https://www.qbitai.com/2026/09/483948.html'},
     {c:'MODEL', d:'2026-09-04T05:50', t:'刚刚，GPT-6正式发布！OpenAI：欢迎来到AGI时代', s:'全球最强C（来源：量子位）', u:'https://www.qbitai.com/2026/09/483898.html'},
-    {c:'INDUSTRY', d:'2026-09-03T23:25', t:'逛完 WRC，我们发现机器人行业最该回答的 5 个问题', s:'8 月 19 日，北京亦庄的空气里飘着一种奇怪的兴奋，这是 2026 世界机器人大会开幕的日子。300 多家企业、200…（来源：极客公园）', u:'http://www.geekpark.net/news/369388'},
   ];
   const TIMELINE = [
     ['09-04 09:34','消息称 Meta 调整 AI 绩效考核标准，取消 Token 使用量指标'],
+    ['09-04 09:31','模型发布当天就过时：OpenAI们两天三场发布，最快反超只用五小时'],
     ['09-04 09:27','智谱MiniMax，疯狂卖Token'],
     ['09-04 09:24','那些想用但不让用 AI 的公司，终于可以用 AI 了'],
     ['09-04 09:22','荣耀 Magic 9 系列前瞻：双 2 亿像素 + 阿莱联名，新增主动散热风扇版本'],
     ['09-04 08:47','微软给 Copilot AI 智能体加“刹车”：发邮件等操作可先请求审批'],
-    ['09-04 08:38','黄仁勋：拟收购 Hugging Face，不是为了把 AI 关进英伟达'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281354, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247488, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247227, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209920, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173673, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143958, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135936, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114435, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103126, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92042, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247497, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247229, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209922, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173676, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143960, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135937, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114437, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103129, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92044, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
