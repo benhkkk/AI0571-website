@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T13:32:25",
+  "updated": "2026-09-04T13:36:31",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-04T13:36",
+      "t": "如何用Deepseek组装测序仪？",
+      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
+    },
     {
       "c": "HOT",
       "d": "2026-09-04T13:23",
@@ -49,6 +56,13 @@
       "t": "摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出",
       "s": "在 9 月 3 日下午的摩尔线程 2026 年半年度业绩说明会上，摩尔线程官方表示，在 2025 年 12 月首届 MU…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/312.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-04T11:32",
+      "t": "具身智能落地的最后20%，藏在「云」里",
+      "s": "今年的WAIC和WRC，具身智能展台的风向变了：不再执着于炫技，转向务实。去年的画风还是十八般武艺，同台竞技——机器人跳…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrycloud/31pSSHUoPdFy7U3E.html"
     },
     {
       "c": "HOT",
@@ -126,23 +140,13 @@
       "t": "Claude走出屏幕前，Anthropic先给机械臂写“说明书”",
       "s": "AI Agent要走出电脑，不仅需要一个更聪明的大脑，还得面对几十年工业系统留下的接口。现在，大模型公司与自动化行业开始…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127807.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T10:25",
-      "t": "千问办公上线首月用户数突破 3000万，企业用户占比过半",
-      "s": "阿里旗下企业级通用Agent产品千问办公上线满一个月，用户数突破3000 万，企业用户占比过半。 阿里巴巴是最早布局Ag…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/rECnXLpHow0zwG0p.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-04T10:15",
-      "t": "DeepSeek 投资份额有多抢手？1 亿元入场先收 1800 万前端费用，五年锁定期无投票权",
-      "s": "据《财经》杂志昨日报道，围绕 DeepSeek 投资份额，有部分中间通道开出了“前端 18%、后端 35%”的收费条件…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/279.htm"
     }
   ],
   "timeline": [
+    [
+      "09-04 13:36",
+      "如何用Deepseek组装测序仪？"
+    ],
     [
       "09-04 13:23",
       "从SaaS到AI短剧：读懂“港股AI短剧第一股”兑吧的价值重估逻辑"
@@ -162,10 +166,6 @@
     [
       "09-04 12:03",
       "常州女首富机器人转型才开始，先因裁应届生上了热搜"
-    ],
-    [
-      "09-04 11:56",
-      "ChatGPT、Claude、Grok 同时宕机，没人解释为什么"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281443,
+      "s": 281444,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247912,
+      "s": 247923,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247400,
+      "s": 247404,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209964,
+      "s": 209965,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173765,
+      "s": 173768,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114494,
+      "s": 114496,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103197,
+      "s": 103200,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
