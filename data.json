@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-04T12:21:26",
+  "updated": "2026-09-04T12:26:22",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T12:22",
+      "t": "微软全量推送 Win11 新版 Photos：精简工具栏、移除 Ask Copilot 按钮",
+      "s": "科技媒体 Windows Latest 今天（9 月 4 日）发布博文，报道称微软面向所有 Windows 11 用户…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/366.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T11:56",
@@ -93,25 +100,18 @@
       "u": "https://www.ithome.com/0/998/279.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T10:11",
-      "t": "微软、亚马逊及另外8只股票有望在26万亿美元AI市场中胜出",
-      "s": "杰富瑞分析师表示，微软、亚马逊以及一众云计算和软件公司将成为人工智能领域的赢家。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128332.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T10:11",
-      "t": "AI落地遇冷，这只航空软件股为何仍有40%上涨空间？",
-      "s": "尽管面临多重不利因素，Amadeus 的营收和利润仍实现了增长。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128330.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-04T09:59",
       "t": "我国牵头的智慧城市人工智能应用国际标准成功立项",
       "s": "据央视新闻今日报道，我国牵头提出的《城市和社区可持续发展 智慧城市运营模型中的人工智能应用 第2部分：原则与要素》国际标…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/272.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T09:55",
+      "t": "三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”",
+      "s": "Claude的对话框停在原地转圈，ChatGPT的请求反复报错，Grok的页面只剩一片空白。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128284.html"
     },
     {
       "c": "INDUSTRY",
@@ -136,13 +136,17 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-04T09:24",
-      "t": "那些想用但不让用 AI 的公司，终于可以用 AI 了",
-      "s": "把飘在云端的大模型拉回地面，装进权限严格的本地算力盒子里。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr）…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1678332?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-09-04T09:31",
+      "t": "模型发布当天就过时：OpenAI们两天三场发布，最快反超只用五小时",
+      "s": "OpenAI在发布说明里点明，这次上线是一整套全新系统首次在真实生产环境中整体运转，为此团队正在调集大批计算资源、扩充推…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128187.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 12:22",
+      "微软全量推送 Win11 新版 Photos：精简工具栏、移除 Ask Copilot 按钮"
+    ],
     [
       "09-04 11:56",
       "ChatGPT、Claude、Grok 同时宕机，没人解释为什么"
@@ -162,10 +166,6 @@
     [
       "09-04 11:09",
       "ARR 3亿美元的Kimi，为什么还在追着投资人要钱？"
-    ],
-    [
-      "09-04 10:55",
-      "飞腾 D3000M + 160TOPS NPU：国科亿道携手后摩智能发布 FN008 笔电"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281422,
+      "s": 281424,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247817,
+      "s": 247821,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247334,
+      "s": 247342,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114479,
+      "s": 114481,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103173,
+      "s": 103175,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92080,
+      "s": 92081,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
