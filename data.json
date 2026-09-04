@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T14:06:25",
+  "updated": "2026-09-04T14:11:24",
   "news": [
     {
       "c": "MODEL",
@@ -7,6 +7,13 @@
       "t": "服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒",
       "s": "当地时间 9 月 4 日，谷歌正式启动谷歌助理（Google Assistant）移动端的退役工作，这款服役近十年的智能…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/393.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-04T13:56",
+      "t": "从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代",
+      "s": "Token调度层成为串联全产业链条、盘活全域算力资源的核心枢纽（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128030.html"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "一池水，困住了中国机器人",
       "s": "01 十秒钟2026年，一家泳池机器人创业公司CEO冯浅开始认真算一笔账。如果有传统家电公司或渠道企业愿意接手公司，多少…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/robot/GUsHwBXVwOMwzSZG.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T10:36",
-      "t": "全球首款 AI 智能体手机预热：努比亚 NaviX Ultra 搭载长鑫 10667Mbps LPDDR5X 内存，本月发布",
-      "s": "努比亚 NaviX Ultra 由中兴通讯与字节跳动联合研发，搭载豆包手机助手，被称为“豆包手机二代”，定位全球首款 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/289.htm"
     }
   ],
   "timeline": [
     [
       "09-04 14:00",
       "服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒"
+    ],
+    [
+      "09-04 13:56",
+      "从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代"
     ],
     [
       "09-04 13:23",
@@ -162,10 +166,6 @@
     [
       "09-04 12:23",
       "WorkBuddy上架openKylin：能“听懂指令”的 AI 智能体来了！"
-    ],
-    [
-      "09-04 12:22",
-      "微软全量推送 Win11 新版 Photos：精简工具栏、移除 Ask Copilot 按钮"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281453,
+      "s": 281456,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247984,
+      "s": 247990,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247430,
+      "s": 247435,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209968,
+      "s": 209969,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173778,
+      "s": 173782,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114499,
+      "s": 114501,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103209,
+      "s": 103210,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92099,
+      "s": 92100,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
