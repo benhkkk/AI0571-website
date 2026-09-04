@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-04T17:24', t:'阿里又多了一个Agent赛马', s:'阿里手里的马，已经越来越多 了（来源：钛媒体）', u:'https://www.tmtpost.com/8128120.html'},
+    {c:'MODEL', d:'2026-09-04T17:24', t:'智谱上天猫“摆摊”，要把Token当话费卖', s:'大模型第一股，把自己摆上了货架。（来源：钛媒体）', u:'https://www.tmtpost.com/8128188.html'},
     {c:'MODEL', d:'2026-09-04T17:11', t:'Open Flow 开源：面向 AI Agent 的工作流自动化平台', s:'Open Flow 一个面向 AI Agent 的工作流自动化平台 OOMOL Lab 近日开源了 Open Flow…（来源：OSCHINA）', u:'https://www.oschina.net/news/502325'},
     {c:'MODEL', d:'2026-09-04T16:57', t:'ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律', s:'不训练模型、不调参数（来源：量子位）', u:'https://www.qbitai.com/2026/09/484293.html'},
     {c:'HOT', d:'2026-09-04T16:41', t:'群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始', s:'据台媒经济日报消息，群联 CEO 潘健成今日表示，近期与两家 Flash 原厂开会时，对方均直言“明年缺口不知道有多大”…（来源：IT之家）', u:'https://www.ithome.com/0/998/456.htm'},
@@ -477,27 +479,25 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-04T14:50', t:'工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设', s:'今日，工业和信息化部办公厅印发《人工智能中小企业创业支持计划（2026-2028 年）》。通过三年，在行业应用、数据服务…（来源：IT之家）', u:'https://www.ithome.com/0/998/403.htm'},
     {c:'MODEL', d:'2026-09-04T14:18', t:'编码、办公、设计都擅长的 covo-agent v0.1.1 发布，优化终端交互体验', s:'covo-agent 是一款面向终端、使用 Go 编写、采用 AGPL-3.0 协议开源的通用型 AI Agent，覆盖…（来源：OSCHINA）', u:'https://www.oschina.net/news/502316'},
     {c:'MODEL', d:'2026-09-04T14:10', t:'汉王 XPPen 推出 Magic Pro 13 安卓绘图板：12.95 英寸 3K 屏、16384 级压感手写笔', s:'科技媒体 Android Headline 今天（9 月 4 日）发布博文，报道称汉王友基旗下数字绘画品牌 XPPen …（来源：IT之家）', u:'https://www.ithome.com/0/998/394.htm'},
-    {c:'MODEL', d:'2026-09-04T14:00', t:'服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒', s:'当地时间 9 月 4 日，谷歌正式启动谷歌助理（Google Assistant）移动端的退役工作，这款服役近十年的智能…（来源：IT之家）', u:'https://www.ithome.com/0/998/393.htm'},
-    {c:'INDUSTRY', d:'2026-09-04T13:56', t:'从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代', s:'Token调度层成为串联全产业链条、盘活全域算力资源的核心枢纽（来源：钛媒体）', u:'https://www.tmtpost.com/8128030.html'},
   ];
   const TIMELINE = [
+    ['09-04 17:24','阿里又多了一个Agent赛马'],
+    ['09-04 17:24','智谱上天猫“摆摊”，要把Token当话费卖'],
     ['09-04 17:11','Open Flow 开源：面向 AI Agent 的工作流自动化平台'],
     ['09-04 16:57','ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律'],
     ['09-04 16:41','群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始'],
     ['09-04 16:37','对话 Sharpa 李一帆：通用机器人要么全能，要么无能'],
-    ['09-04 16:33','梅卡曼德上市，具身智能又跑出一家百亿公司'],
-    ['09-04 16:19','🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281574, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:248486, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247625, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:210017, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173858, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143998, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281577, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:248501, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247633, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:210019, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173861, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143999, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135986, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114565, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103298, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114566, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103301, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92158, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {

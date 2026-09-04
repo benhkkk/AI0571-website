@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-04T17:26:26",
+  "updated": "2026-09-04T17:31:38",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T17:24",
+      "t": "阿里又多了一个Agent赛马",
+      "s": "阿里手里的马，已经越来越多 了（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128120.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T17:24",
+      "t": "智谱上天猫“摆摊”，要把Token当话费卖",
+      "s": "大模型第一股，把自己摆上了货架。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8128188.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T17:11",
@@ -126,23 +140,17 @@
       "t": "汉王 XPPen 推出 Magic Pro 13 安卓绘图板：12.95 英寸 3K 屏、16384 级压感手写笔",
       "s": "科技媒体 Android Headline 今天（9 月 4 日）发布博文，报道称汉王友基旗下数字绘画品牌 XPPen …（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/394.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T14:00",
-      "t": "服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒",
-      "s": "当地时间 9 月 4 日，谷歌正式启动谷歌助理（Google Assistant）移动端的退役工作，这款服役近十年的智能…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/393.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T13:56",
-      "t": "从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代",
-      "s": "Token调度层成为串联全产业链条、盘活全域算力资源的核心枢纽（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128030.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 17:24",
+      "阿里又多了一个Agent赛马"
+    ],
+    [
+      "09-04 17:24",
+      "智谱上天猫“摆摊”，要把Token当话费卖"
+    ],
     [
       "09-04 17:11",
       "Open Flow 开源：面向 AI Agent 的工作流自动化平台"
@@ -158,14 +166,6 @@
     [
       "09-04 16:37",
       "对话 Sharpa 李一帆：通用机器人要么全能，要么无能"
-    ],
-    [
-      "09-04 16:33",
-      "梅卡曼德上市，具身智能又跑出一家百亿公司"
-    ],
-    [
-      "09-04 16:19",
-      "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281574,
+      "s": 281577,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248486,
+      "s": 248501,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247625,
+      "s": 247633,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 210017,
+      "s": 210019,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173858,
+      "s": 173861,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 143998,
+      "s": 143999,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114565,
+      "s": 114566,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103298,
+      "s": 103301,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
