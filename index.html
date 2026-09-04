@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-04T14:00', t:'服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒', s:'当地时间 9 月 4 日，谷歌正式启动谷歌助理（Google Assistant）移动端的退役工作，这款服役近十年的智能…（来源：IT之家）', u:'https://www.ithome.com/0/998/393.htm'},
+    {c:'INDUSTRY', d:'2026-09-04T13:56', t:'从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代', s:'Token调度层成为串联全产业链条、盘活全域算力资源的核心枢纽（来源：钛媒体）', u:'https://www.tmtpost.com/8128030.html'},
     {c:'HOT', d:'2026-09-04T13:23', t:'从SaaS到AI短剧：读懂“港股AI短剧第一股”兑吧的价值重估逻辑', s:'一场关于AI短剧的工业革命正在悄然发生。（来源：钛媒体）', u:'https://www.tmtpost.com/8128340.html'},
     {c:'INDUSTRY', d:'2026-09-04T12:48', t:'72小时AI巅峰之战，编程仍是皇冠', s:'AI编程的竞争单位，已从代码交付变成了任务交付。（来源：钛媒体）', u:'https://www.tmtpost.com/8128479.html'},
     {c:'MODEL', d:'2026-09-04T12:39', t:'李斌称市场低估了蔚来：我们不仅是车企，更是 AI 与能源公司', s:'9 月 4 日午间消息，在蔚来二季度业绩沟通会上，蔚来创始人、董事长、CEO 李斌回应财报发布后股价波动，他谈到，“资本…（来源：IT之家）', u:'https://www.ithome.com/0/998/369.htm'},
@@ -477,27 +479,25 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-04T10:40', t:'联想基于 AMD 锐龙 AI Max+ PRO 495 打造 1.6L 迷你主机 ThinkCentre X Ultra', s:'联想 (Lenovo) 在 IFA 2026 上宣布了其支持 AMD 锐龙 AI Max+ PRO 495 处理器的 T…（来源：IT之家）', u:'https://www.ithome.com/0/998/290.htm'},
     {c:'HOT', d:'2026-09-04T10:36', t:'一池水，困住了中国机器人', s:'01 十秒钟2026年，一家泳池机器人创业公司CEO冯浅开始认真算一笔账。如果有传统家电公司或渠道企业愿意接手公司，多少…（来源：雷锋网）', u:'https://www.leiphone.com/category/robot/GUsHwBXVwOMwzSZG.html'},
     {c:'MODEL', d:'2026-09-04T10:36', t:'全球首款 AI 智能体手机预热：努比亚 NaviX Ultra 搭载长鑫 10667Mbps LPDDR5X 内存，本月发布', s:'努比亚 NaviX Ultra 由中兴通讯与字节跳动联合研发，搭载豆包手机助手，被称为“豆包手机二代”，定位全球首款 A…（来源：IT之家）', u:'https://www.ithome.com/0/998/289.htm'},
-    {c:'MODEL', d:'2026-09-04T10:27', t:'Claude走出屏幕前，Anthropic先给机械臂写“说明书”', s:'AI Agent要走出电脑，不仅需要一个更聪明的大脑，还得面对几十年工业系统留下的接口。现在，大模型公司与自动化行业开始…（来源：钛媒体）', u:'https://www.tmtpost.com/8127807.html'},
-    {c:'MODEL', d:'2026-09-04T10:25', t:'千问办公上线首月用户数突破 3000万，企业用户占比过半', s:'阿里旗下企业级通用Agent产品千问办公上线满一个月，用户数突破3000 万，企业用户占比过半。 阿里巴巴是最早布局Ag…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/rECnXLpHow0zwG0p.html'},
   ];
   const TIMELINE = [
+    ['09-04 14:00','服役近 10 年后：谷歌助理移动端逐步停用，Gemini 全面接棒'],
+    ['09-04 13:56','从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代'],
     ['09-04 13:23','从SaaS到AI短剧：读懂“港股AI短剧第一股”兑吧的价值重估逻辑'],
     ['09-04 12:48','72小时AI巅峰之战，编程仍是皇冠'],
     ['09-04 12:39','李斌称市场低估了蔚来：我们不仅是车企，更是 AI 与能源公司'],
     ['09-04 12:22','微软全量推送 Win11 新版 Photos：精简工具栏、移除 Ask Copilot 按钮'],
-    ['09-04 12:03','常州女首富机器人转型才开始，先因裁应届生上了热搜'],
-    ['09-04 11:56','ChatGPT、Claude、Grok 同时宕机，没人解释为什么'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281452, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247964, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247422, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209966, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173773, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281453, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247974, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247427, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209968, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173777, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143985, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135968, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114499, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103205, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103208, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92098, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
