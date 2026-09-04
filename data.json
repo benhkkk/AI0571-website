@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-04T17:52:12",
+  "updated": "2026-09-04T17:55:40",
   "news": [
     {
       "c": "MODEL",
@@ -86,6 +86,13 @@
       "u": "https://www.ithome.com/0/998/430.htm"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-09-04T15:50",
+      "t": "完成4000万美金融资，ACE成为AI音乐赛道融资额最高的华人团队",
+      "s": "AI音乐公司ACE近日完成近4000万美元新一轮融资，由头部战投、CCV、顺为、Alphaist等机构投资。至此，ACE…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/iaMeof0D4sd0DFB2.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-04T15:46",
       "t": "美国洛杉矶将禁止学生在学区所属设备上使用 AI，以减少课堂屏幕使用时间",
@@ -133,13 +140,6 @@
       "t": "工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设",
       "s": "今日，工业和信息化部办公厅印发《人工智能中小企业创业支持计划（2026-2028 年）》。通过三年，在行业应用、数据服务…（来源：IT之家）",
       "u": "https://www.ithome.com/0/998/403.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T14:18",
-      "t": "编码、办公、设计都擅长的 covo-agent v0.1.1 发布，优化终端交互体验",
-      "s": "covo-agent 是一款面向终端、使用 Go 编写、采用 AGPL-3.0 协议开源的通用型 AI Agent，覆盖…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502316"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281588,
+      "s": 281589,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248541,
+      "s": 248555,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247649,
+      "s": 247651,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 210025,
+      "s": 210026,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173868,
+      "s": 173869,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135990,
+      "s": 135991,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103309,
+      "s": 103313,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
