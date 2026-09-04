@@ -1,19 +1,33 @@
 {
-  "updated": "2026-09-04T15:41:25",
+  "updated": "2026-09-04T15:46:32",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-09-04T15:46",
+      "t": "美国洛杉矶将禁止学生在学区所属设备上使用 AI，以减少课堂屏幕使用时间",
+      "s": "据彭博社今天（4 日）报道，洛杉矶联合学区将禁止学生在学区所属设备上使用生成式 AI 工具，作为减少课堂屏幕使用时间整体…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/428.htm"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-04T15:41",
+      "d": "2026-09-04T15:46",
       "t": "敲钟次日，王兴兴首谈物理AI自进化|王力宏跨界感言\"音乐界/科技届炸锅了\"",
       "s": "敲钟次日，王兴兴首谈物理AI自进化|王力宏跨界感言\"音乐界/科技届炸锅了\"（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260820/962193.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-04T15:41",
+      "d": "2026-09-04T15:46",
       "t": "全日程速览！共探AI变革科研范式，50位院士齐聚2026科学智能大会",
       "s": "全日程速览！共探AI变革科研范式，50位院士齐聚2026科学智能大会（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260814/959685.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T15:42",
+      "t": "消息称三星电子联合 Arm，研发下一代端侧 AI 芯片",
+      "s": "据韩媒 Greened.kr 消息，三星电子联合 Arm，正式启动端侧 AI 芯片的联合研发。据半导体行业今日消息，Ar…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/427.htm"
     },
     {
       "c": "FUNDING",
@@ -126,30 +140,24 @@
       "t": "常州女首富机器人转型才开始，先因裁应届生上了热搜",
       "s": "比新业务更考验一家公司的，可能是怎么对待年轻人。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/483984.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T11:56",
-      "t": "ChatGPT、Claude、Grok 同时宕机，没人解释为什么",
-      "s": "9 月 3 日，ChatGPT、Claude 和 Grok 同时宕机了。 不是先后，是几乎完全重叠。Grok 在美东时间…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502312/chatgpt-grok-claude-outage-down"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T11:39",
-      "t": "摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出",
-      "s": "在 9 月 3 日下午的摩尔线程 2026 年半年度业绩说明会上，摩尔线程官方表示，在 2025 年 12 月首届 MU…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/312.htm"
     }
   ],
   "timeline": [
     [
-      "09-04 15:41",
+      "09-04 15:46",
+      "美国洛杉矶将禁止学生在学区所属设备上使用 AI，以减少课堂屏幕使用时间"
+    ],
+    [
+      "09-04 15:46",
       "敲钟次日，王兴兴首谈物理AI自进化|王力宏跨界感言\"音乐界/科技届炸锅了\""
     ],
     [
-      "09-04 15:41",
+      "09-04 15:46",
       "全日程速览！共探AI变革科研范式，50位院士齐聚2026科学智能大会"
+    ],
+    [
+      "09-04 15:42",
+      "消息称三星电子联合 Arm，研发下一代端侧 AI 芯片"
     ],
     [
       "09-04 15:31",
@@ -158,14 +166,6 @@
     [
       "09-04 15:19",
       "LibreOffice 26.8 首周下载量 103 万次创造新纪录，最大亮点是“没有一个 AI 功能”"
-    ],
-    [
-      "09-04 14:54",
-      "李飞飞刚发Atlas，中国开源“同款”已抢跑半年？"
-    ],
-    [
-      "09-04 14:50",
-      "工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281514,
+      "s": 281517,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248215,
+      "s": 248232,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247521,
+      "s": 247528,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 209990,
+      "s": 209992,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114530,
+      "s": 114533,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103249,
+      "s": 103250,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92122,
+      "s": 92125,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
