@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-04T16:36:22",
+  "updated": "2026-09-04T16:41:26",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-04T16:36",
+      "d": "2026-09-04T16:41",
       "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
       "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-04T16:37",
+      "t": "对话 Sharpa 李一帆：通用机器人要么全能，要么无能",
+      "s": "具身智能现在太吵了。 行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。 真正在往前推的人，看…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/369851"
     },
     {
       "c": "FUNDING",
@@ -133,19 +140,16 @@
       "t": "从SaaS到AI短剧：读懂“港股AI短剧第一股”兑吧的价值重估逻辑",
       "s": "一场关于AI短剧的工业革命正在悄然发生。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8128340.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T12:48",
-      "t": "72小时AI巅峰之战，编程仍是皇冠",
-      "s": "AI编程的竞争单位，已从代码交付变成了任务交付。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8128479.html"
     }
   ],
   "timeline": [
     [
-      "09-04 16:36",
+      "09-04 16:41",
       "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
+    ],
+    [
+      "09-04 16:37",
+      "对话 Sharpa 李一帆：通用机器人要么全能，要么无能"
     ],
     [
       "09-04 16:33",
@@ -162,10 +166,6 @@
     [
       "09-04 15:52",
       "联想 LOQ 系列“海归”，RTX 3050 笔记本电脑 GPU 全能本将至"
-    ],
-    [
-      "09-04 15:46",
-      "美国洛杉矶将禁止学生在学区所属设备上使用 AI，以减少课堂屏幕使用时间"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281545,
+      "s": 281547,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248364,
+      "s": 248376,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247579,
+      "s": 247587,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 210004,
+      "s": 210006,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173839,
+      "s": 173840,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135980,
+      "s": 135981,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114546,
+      "s": 114550,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92143,
+      "s": 92145,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
