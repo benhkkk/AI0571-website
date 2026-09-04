@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-04T10:21:34",
+  "updated": "2026-09-04T10:26:18",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-04T10:21",
+      "d": "2026-09-04T10:26",
       "t": "如何用Deepseek组装测序仪？",
       "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
@@ -28,6 +28,13 @@
       "t": "三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”",
       "s": "Claude的对话框停在原地转圈，ChatGPT的请求反复报错，Grok的页面只剩一片空白。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8128284.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-04T09:40",
+      "t": "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”",
+      "s": "吃下90%市场（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/483598.html"
     },
     {
       "c": "MODEL",
@@ -133,18 +140,11 @@
       "t": "【钛晨报】十部门发文“促中小企业发展”，加码直接融资、AI赋能等；燧原科技中签号出炉、康佳拟主动退市；“微信单删提示”冲上热搜，官方回应",
       "s": "精智达拿下15.76亿元半导体设备大单；小米汽车拟进军欧洲市场；字节跳动将获得约296亿美元银团贷款；天猫上线Token…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8127957.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T07:03",
-      "t": "刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代",
-      "s": "OpenAI：欢迎来到 AGI 时代#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1678196?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "09-04 10:21",
+      "09-04 10:26",
       "如何用Deepseek组装测序仪？"
     ],
     [
@@ -160,12 +160,12 @@
       "三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”"
     ],
     [
-      "09-04 09:39",
-      "GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代"
+      "09-04 09:40",
+      "卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”"
     ],
     [
-      "09-04 09:34",
-      "消息称 Meta 调整 AI 绩效考核标准，取消 Token 使用量指标"
+      "09-04 09:39",
+      "GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281369,
+      "s": 281375,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247560,
+      "s": 247572,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247259,
+      "s": 247264,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173693,
+      "s": 173695,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114446,
+      "s": 114447,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103138,
+      "s": 103142,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92049,
+      "s": 92050,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
