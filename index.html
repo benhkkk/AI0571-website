@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-04T12:36', t:'中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注', s:'中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20250224/768984.shtml'},
+    {c:'HOT', d:'2026-09-04T12:36', t:'长江也做"大体检" ，AI浮游生物监测技术显身手', s:'长江也做"大体检" ，AI浮游生物监测技术显身手（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260611/917525.shtml'},
     {c:'MODEL', d:'2026-09-04T12:22', t:'微软全量推送 Win11 新版 Photos：精简工具栏、移除 Ask Copilot 按钮', s:'科技媒体 Windows Latest 今天（9 月 4 日）发布博文，报道称微软面向所有 Windows 11 用户…（来源：IT之家）', u:'https://www.ithome.com/0/998/366.htm'},
     {c:'MODEL', d:'2026-09-04T11:56', t:'ChatGPT、Claude、Grok 同时宕机，没人解释为什么', s:'9 月 3 日，ChatGPT、Claude 和 Grok 同时宕机了。 不是先后，是几乎完全重叠。Grok 在美东时间…（来源：OSCHINA）', u:'https://www.oschina.net/news/502312/chatgpt-grok-claude-outage-down'},
     {c:'MODEL', d:'2026-09-04T11:39', t:'摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出', s:'在 9 月 3 日下午的摩尔线程 2026 年半年度业绩说明会上，摩尔线程官方表示，在 2025 年 12 月首届 MU…（来源：IT之家）', u:'https://www.ithome.com/0/998/312.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-04T09:59', t:'我国牵头的智慧城市人工智能应用国际标准成功立项', s:'据央视新闻今日报道，我国牵头提出的《城市和社区可持续发展 智慧城市运营模型中的人工智能应用 第2部分：原则与要素》国际标…（来源：IT之家）', u:'https://www.ithome.com/0/998/272.htm'},
     {c:'MODEL', d:'2026-09-04T09:55', t:'三大AI巨头同日宕机，GPT-6发布日的“最黑暗一天”', s:'Claude的对话框停在原地转圈，ChatGPT的请求反复报错，Grok的页面只剩一片空白。（来源：钛媒体）', u:'https://www.tmtpost.com/8128284.html'},
     {c:'INDUSTRY', d:'2026-09-04T09:40', t:'卡车自动驾驶里程超10亿公里，嬴彻科技定义“货运物理AI”', s:'吃下90%市场（来源：量子位）', u:'https://www.qbitai.com/2026/09/483598.html'},
-    {c:'MODEL', d:'2026-09-04T09:39', t:'GPT-6 Astra 发布，OpenAI 总裁 Brockman 说欢迎来到 AGI 时代', s:'凌晨三点三十三分，GPT-6 Astra 发布了。 OpenAI 在博客里说这是「世界上最智能、最对齐的模型」。Sam …（来源：OSCHINA）', u:'https://www.oschina.net/news/502307/openai-gpt-6-astra'},
-    {c:'INDUSTRY', d:'2026-09-04T09:34', t:'消息称 Meta 调整 AI 绩效考核标准，取消 Token 使用量指标', s:'据外媒 The Information 昨日报道，Meta 告知工程师，绩效评估将不再包含 AI Token 的使用量…（来源：IT之家）', u:'https://www.ithome.com/0/998/264.htm'},
   ];
   const TIMELINE = [
+    ['09-04 12:36','中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注'],
+    ['09-04 12:36','长江也做"大体检" ，AI浮游生物监测技术显身手'],
     ['09-04 12:22','微软全量推送 Win11 新版 Photos：精简工具栏、移除 Ask Copilot 按钮'],
     ['09-04 11:56','ChatGPT、Claude、Grok 同时宕机，没人解释为什么'],
     ['09-04 11:39','摩尔线程“庐山”GPU 首发国产硬件光追：3A 游戏渲染提升 15 倍，预计年底推出'],
     ['09-04 11:32','AI猎头的暴富神话：找到一个人，佣金300w？'],
-    ['09-04 11:32','机器人能动只是第一步，难的是落地场景'],
-    ['09-04 11:09','ARR 3亿美元的Kimi，为什么还在追着投资人要钱？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281426, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247828, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247347, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209956, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281427, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:247832, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247350, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:209957, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173742, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:143984, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135962, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114481, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103176, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92083, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135963, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114483, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103179, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92085, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
