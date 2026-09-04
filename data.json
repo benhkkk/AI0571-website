@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-04T17:21:23",
+  "updated": "2026-09-04T17:26:26",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T17:11",
+      "t": "Open Flow 开源：面向 AI Agent 的工作流自动化平台",
+      "s": "Open Flow 一个面向 AI Agent 的工作流自动化平台 OOMOL Lab 近日开源了 Open Flow…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502325"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T16:57",
+      "t": "ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律",
+      "s": "不训练模型、不调参数（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/484293.html"
+    },
     {
       "c": "HOT",
       "d": "2026-09-04T16:41",
@@ -126,23 +140,17 @@
       "t": "从算力竞赛到 Token 争夺战，AI 基建进入分层竞争时代",
       "s": "Token调度层成为串联全产业链条、盘活全域算力资源的核心枢纽（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8128030.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-04T13:53",
-      "t": "2026 上半年智能眼镜竞争加剧，雷鸟创新五榜登顶实现全品类销量领先",
-      "s": "雷鸟创新（RayNeo）包揽全球 AR 眼镜与中国智能眼镜市场出货量和销量第一。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/484159.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-04T13:48",
-      "t": "千问办公上线首月用户数突破 3000万，企业用户占比过半",
-      "s": "千问办公上线首月用户数突破 3000万，企业用户占比过半（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/484155.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 17:11",
+      "Open Flow 开源：面向 AI Agent 的工作流自动化平台"
+    ],
+    [
+      "09-04 16:57",
+      "ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律"
+    ],
     [
       "09-04 16:41",
       "群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始"
@@ -158,14 +166,6 @@
     [
       "09-04 16:19",
       "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase"
-    ],
-    [
-      "09-04 16:19",
-      "几百位CXO AI实践的物理蒸馏与泛化——数字价值年会首日议程已来，答案未定"
-    ],
-    [
-      "09-04 15:54",
-      "抢占AI时代战略制高点 开源平台成为资本追逐焦点"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281568,
+      "s": 281574,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 248474,
+      "s": 248486,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247617,
+      "s": 247625,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 210015,
+      "s": 210017,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173857,
+      "s": 173858,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135985,
+      "s": 135986,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 114564,
+      "s": 114565,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103293,
+      "s": 103298,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92157,
+      "s": 92158,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
