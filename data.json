@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-04T08:36:23",
+  "updated": "2026-09-04T08:41:18",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-09-04T08:38",
+      "t": "黄仁勋：拟收购 Hugging Face，不是为了把 AI 关进英伟达",
+      "s": "英伟达（NVIDIA）昨日（9 月 3 日）宣布，已同意以 129.303 亿美元（IT之家注：现汇率约合 870.92…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/998/248.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-04T08:36",
+      "t": "GPT-6 Astra 正式发布：性能 AGI，贵到要负债",
+      "s": "一次成功，才是最大的优惠#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1678409?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MODEL",
       "d": "2026-09-04T08:25",
@@ -80,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-04T07:08",
-      "t": "研究显示：用户过度依赖 ChatGPT 等 AI 产品可能导致独立思考能力下降",
-      "s": "外媒 notebookcheck 援引《应用认知心理学》（Applied Cognitive Psychology）期刊…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/998/217.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-04T07:03",
       "t": "刚刚，GPT-6 震撼发布！人类进入 AGI 大分工时代",
       "s": "OpenAI：欢迎来到 AGI 时代#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
@@ -133,16 +140,17 @@
       "t": "GPT-6 砍掉思考 Token，俄罗斯人砍掉通信 Token，Token 经济开始崩了？",
       "s": "如果不按 Token 计费，那以后 AI 怎么收钱？ 作者丨高允毅 编辑丨岑 峰 GPT-6（内部代号 Astra） 发…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/yanxishe/XcJ2N9YalKyDRJd8.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-03T19:39",
-      "t": "AI 群星闪耀之前，商汤先相信那群少年",
-      "s": "2018年，王延森还是一名本科生，做生成对话方向。那时候CV正热，Transformer浪潮初起。告诉别人自己在做“能聊…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/cRsziJ80F20CFOYo.html"
     }
   ],
   "timeline": [
+    [
+      "09-04 08:38",
+      "黄仁勋：拟收购 Hugging Face，不是为了把 AI 关进英伟达"
+    ],
+    [
+      "09-04 08:36",
+      "GPT-6 Astra 正式发布：性能 AGI，贵到要负债"
+    ],
     [
       "09-04 08:25",
       "OpenAI 曝光 GPT-6，能力超群；微信公关总监回应「好友超 1 万可查看单删好友」；联合国：超强而厄尔尼诺将冲击全球经济 ｜ 极客早知道"
@@ -158,14 +166,6 @@
     [
       "09-04 08:10",
       "早报｜全球主流AI集体宕机/GPT-6 Astra正式发布，AGI已来/微信回应「单删提示」"
-    ],
-    [
-      "09-04 08:06",
-      "英伟达 RTX Spark N1X 超级芯片在移动端提供 5120 核 GPU + 18 核 CPU 低配"
-    ],
-    [
-      "09-04 07:52",
-      "铭凡确认 AI 迷你工作站 MS-S1 MAX-P495 九月开售"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 281333,
+      "s": 281335,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 247370,
+      "s": 247377,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 247181,
+      "s": 247185,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 173645,
+      "s": 173646,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 135930,
+      "s": 135932,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 103094,
+      "s": 103096,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
