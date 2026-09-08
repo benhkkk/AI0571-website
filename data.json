@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-08T18:31:49",
+  "updated": "2026-09-08T19:02:01",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-08T18:41",
+      "t": "AI 大幅推高韩国电力需求，政府部门考虑大建核反应堆",
+      "s": "据路透社今天（8 日）报道，韩国气候能源环境部长金成焕表示，三星电子和 SK 海力士计划扩大芯片产能，加上新的 AI 数…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/999/887.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-09-08T18:29",
@@ -87,17 +94,17 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-08T16:44",
+      "t": "百度搭子全面接入小度硬件，百度智能体进驻家庭空间",
+      "s": "9月8日，在北京举行的百度AI Day小度新品发布会上，小度宣布超能小度完成智能体化升级，并发布多款全新的家庭场景智能体…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/pCuoyLeIaqbo1J0L.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-08T16:31",
       "t": "六人利用 AI“越狱”生成淫秽物品最终获刑，法官提醒“技术中立≠技术无罪”",
       "s": "中央广播电视总台中国之声今天（8 日）报道称，曾是某游戏公司程序员的郑某组建研发团队，通过改写系统提示词实现 AI 模型…（来源：IT之家）",
       "u": "https://www.ithome.com/0/999/811.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-08T16:26",
-      "t": "韩国电池材料企业瞄准人形机器人，开辟电动汽车外新增长赛道",
-      "s": "韩国电池材料企业 EcoPro Co.计划加入韩国电池材料厂商进军人形机器人产业的行列，希望凭借更轻、能量密度更高的电池…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/999/808.htm"
     },
     {
       "c": "FUNDING",
@@ -112,13 +119,6 @@
       "t": "自动驾驶商业化大考：谁来为无人驾驶买单？",
       "s": "自动驾驶行业的核心命题，已从“技术能否实现”的可能性问题，转向“产业如何自我造血”的可持续性问题。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8132710.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-08T16:05",
-      "t": "参数可以卷，功能可以跟，安克什么很难被抄",
-      "s": "从一颗芯片，到一个智能体，再到一个能够连接、记忆和思考的家庭中枢，安克正在把AI从“功能”一步步往下做成底层能力。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8132300.html"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-08 18:41",
+      "AI 大幅推高韩国电力需求，政府部门考虑大建核反应堆"
+    ],
+    [
       "09-08 18:29",
       "荣耀 Magic 9 系列手机将搭载阿莱电影色彩科学，原生支持 ARRI LogC3 和 AWG3"
     ],
@@ -162,10 +166,6 @@
     [
       "09-08 17:59",
       "安全人员利用 AI 快速开发首个零点击微信蠕虫病毒，相关漏洞现已修复"
-    ],
-    [
-      "09-08 17:58",
-      "从AI PC到个人AI，联想敲定新赛道｜IFA 2026"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283017,
+      "s": 283031,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 256514,
+      "s": 256540,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 253515,
+      "s": 253559,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211041,
+      "s": 211046,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175140,
+      "s": 175143,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136607,
+      "s": 136610,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 115855,
+      "s": 115861,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92909,
+      "s": 92912,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
