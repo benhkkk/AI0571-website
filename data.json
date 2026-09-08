@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-09T07:31:29",
+  "updated": "2026-09-09T07:47:56",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T07:44",
+      "t": "Sonos 27 音频系统更新：配对增强环绕声道、预览外部 AI 接入等",
+      "s": "Sonos 昨日（9 月 8 日）发布新闻稿，宣布通过苹果 App Store 应用商店渠道，更新 Sonos 27 音…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/999/966.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T07:31",
+      "t": "苹果 2026 款 Apple TV 4K 曝光：升级 A19/Pro 芯片，支持 Siri AI",
+      "s": "消息源亚伦 · 佩里斯（Aaron Perris）昨日（9 月 8 日）在 X 平台发布推文，通过挖掘 tvOS 27 …（来源：IT之家）",
+      "u": "https://www.ithome.com/0/999/963.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-09T07:29",
@@ -63,20 +77,6 @@
       "t": "消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流",
       "s": "据科技媒体 WABetaInfo 上周（9 月 4 日）报道，WhatsApp 即将支持第三方 AI 智能体。IT之家从…（来源：IT之家）",
       "u": "https://www.ithome.com/0/999/948.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-08T23:12",
-      "t": "达芬奇 DaVinci Resolve 21.1 发布，接入 Claude Code、ChatGPT Codex 等 AI 助手",
-      "s": "Blackmagic Design 今天发布视频剪辑软件 DaVinci Resolve 21.1，接入多个人工智能助手…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/999/945.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-08T22:35",
-      "t": "吉利银河战舰 700 将于 9 月 15 日开启预售，首发搭载 AI 新能源越野技术",
-      "s": "吉利汽车传播策略部长、吉利银河公关部长 @单爱富William 今天（8 日）晚间宣布，吉利银河战舰 700 将于 9 …（来源：IT之家）",
-      "u": "https://www.ithome.com/0/999/939.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "09-09 07:44",
+      "Sonos 27 音频系统更新：配对增强环绕声道、预览外部 AI 接入等"
+    ],
+    [
+      "09-09 07:31",
+      "苹果 2026 款 Apple TV 4K 曝光：升级 A19/Pro 芯片，支持 Siri AI"
+    ],
+    [
       "09-09 07:29",
       "Claude 额度离奇消失，Anthropic 确认账号被黑客盗用"
     ],
@@ -158,14 +166,6 @@
     [
       "09-09 07:14",
       "继 Claude 尝试攻克黎曼猜想后：OpenAI 宣布用 10000 个 AI 智能体 88 小时攻克千禧年大奖难题，陶哲轩既点赞又担忧"
-    ],
-    [
-      "09-09 07:00",
-      "OpenAI 最强 AI 生图模型：ChatGPT Images 2.5 登场，延迟降低 50%、新增 Sketch 草图"
-    ],
-    [
-      "09-09 06:49",
-      "技术与资本共振 AI制药助力产业“加速跑”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283333,
+      "s": 283339,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 256945,
+      "s": 256950,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 254260,
+      "s": 254271,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211427,
+      "s": 211429,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175239,
+      "s": 175241,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144463,
+      "s": 144465,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116062,
+      "s": 116064,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104347,
+      "s": 104349,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93008,
+      "s": 93013,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
