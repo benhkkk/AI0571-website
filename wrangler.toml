@@ -7,12 +7,12 @@ compatibility_date = "2026-08-01"
 binding = "SUBS"
 id = "03d445998a424254978a56bdb98c5dc7"
 
-# Cron Trigger：每 20 分钟一次。
+# Cron Trigger：每 30 分钟一次。
 # v3 变更：不再为日报单独配 "0 0 * * 1-5" 这种窄窗口 cron，
 # worker.js 会在每一次触发里按「北京时间 07:00~10:00」判断是否需要群发，
-# 实际每天有 9 次机会命中，且由 KV 幂等键保证当天只发出一封。
+# 实际每天有 6 次机会命中，且由 KV 幂等键保证当天只发出一封。
 [triggers]
-crons = ["*/20 * * * *"]
+crons = ["*/30 * * * *"]
 
 # Worker 需要的 Secret（Cloudflare 控制台 → Worker → Settings → Variables）：
 #   ADMIN_TOKEN     —— 强烈建议配置（值 = Pages 侧同一个）。两个用途：

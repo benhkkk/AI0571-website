@@ -156,11 +156,11 @@ https://www.AI0571.com/api/cron-status
 ## v3 改动
 | 文件 | 改动 |
 |---|---|
-| `.github/workflows/daily-update.yml` | ① 频率 `*/10` → `*/20`；② 发送窗口改为**北京时间 07:00~09:59**（每 20 分钟一次 ≈ 9 次机会，靠端点幂等去重，不会重复发）；③ 用 UTC+8 显式换算，不依赖 tzdata；④ 调用结果**检查 HTTP 状态码 + 返回体 `ok` 字段**，失败即 `::error::` 红叉（GitHub 会发失败邮件）；⑤ 末尾加了「失败处置指引」步骤 |
+| `.github/workflows/daily-update.yml` | ① 频率 `*/10` → `*/30`；② 发送窗口改为**北京时间 07:00~09:59**（每 30 分钟一次 ≈ 6 次机会，靠端点幂等去重，不会重复发）；③ 用 UTC+8 显式换算，不依赖 tzdata；④ 调用结果**检查 HTTP 状态码 + 返回体 `ok` 字段**，失败即 `::error::` 红叉（GitHub 会发失败邮件）；⑤ 末尾加了「失败处置指引」步骤 |
 | `functions/api/send-digest.js` | ① 新增 `dry=1` 演练模式（不真发，只报告会给谁发）；② 每次调用（含被幂等跳过）都写 KV `digest-last` 留痕；③ 一封都没发出去时返回 **502** 而不是 200 |
 | `functions/api/health.js`（新增） | 链路自检端点，见下 |
 | `worker.js` | ① 去掉 10 分钟窄窗口，改为北京时间 07:00~10:00 宽窗口；② 发送通道双保险：A 直连 Resend（需 SUBS+RESEND_API_KEY），B 调 Pages `/api/send-digest`（只需 ADMIN_TOKEN），A 失败自动降级 B；③ 每次 cron 都写心跳（`cron-log`），优先 KV、没绑 KV 就 HTTP 上报 `/api/cron-report`；心跳里带 `env`（kvBound/resendKey/adminToken/ghPat）和 GitHub 触发结果 |
-| `wrangler.toml` | cron 收敛为 `*/20 * * * *`；注释写清 Worker 侧必需的三个 Secret |
+| `wrangler.toml` | cron 收敛为 `*/30 * * * *`；注释写清 Worker 侧必需的三个 Secret |
 
 ## 30 秒自检（出问题时第一件事）
 浏览器打开（把 `你的ADMIN_TOKEN` 换成真 token，整条链接存书签）：
