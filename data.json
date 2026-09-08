@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-08T23:40:02",
+  "updated": "2026-09-09T00:01:41",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-09-08T23:39",
-      "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
-      "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-08T23:39",
-      "t": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解",
-      "s": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260119/870376.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-08T23:36",
@@ -140,17 +126,23 @@
       "t": "DeepSeek V4.1 Flash 中间版本开启内测",
       "s": "DeepSeek 这个模型名本身就在剧透它的命运——deepseek-v4.1-flash-expires-on-091…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502383"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-08T16:44",
+      "t": "百度搭子全面接入小度硬件，百度智能体进驻家庭空间",
+      "s": "9月8日，在北京举行的百度AI Day小度新品发布会上，小度宣布超能小度完成智能体化升级，并发布多款全新的家庭场景智能体…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/pCuoyLeIaqbo1J0L.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-08T15:27",
+      "t": "单人一月烧掉 19 万，硅谷开始倒查员工 AI 账单",
+      "s": "「有人星夜赶科场，有人辞官归故里。」 作者｜张勇毅 编辑｜靖宇 过去很长一段时间里，微软员工之间流传着一张自发维护的表格…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/370006"
     }
   ],
   "timeline": [
-    [
-      "09-08 23:39",
-      "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
-    ],
-    [
-      "09-08 23:39",
-      "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解"
-    ],
     [
       "09-08 23:36",
       "消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流"
@@ -166,6 +158,14 @@
     [
       "09-08 22:09",
       "豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台"
+    ],
+    [
+      "09-08 21:40",
+      "实测全球上线的 vivago R1，我用它打造了一部赛博西游记短片"
+    ],
+    [
+      "09-08 21:21",
+      "“傻瓜式”剪片：Adobe Premiere 更新 AI 功能，时间线上能直接生成音视频素材"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283177,
+      "s": 283183,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 256745,
+      "s": 256755,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 253887,
+      "s": 253911,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211219,
+      "s": 211237,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175191,
+      "s": 175192,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144439,
+      "s": 144440,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136645,
+      "s": 136646,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 115943,
+      "s": 115948,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104295,
+      "s": 104299,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92962,
+      "s": 92967,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
