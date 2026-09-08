@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-09T06:31:31",
+  "updated": "2026-09-09T07:01:29",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T07:00",
+      "t": "OpenAI 最强 AI 生图模型：ChatGPT Images 2.5 登场，延迟降低 50%、新增 Sketch 草图",
+      "s": "OpenAI 今天（9 月 9 日）官宣发布 ChatGPT Images 2.5，图像生成延迟最多降低 50%，并新增…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/999/956.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T06:39",
+      "t": "DeepSeek 官宣明日 flash 系列 AI 模型降价：输出为每百万 Token 4 元",
+      "s": "据 DeepSeek 开放平台公告，官方宣布将于北京时间明日（2026 年 9 月 10 日）12 时起执行新价格，调整…（来源：IT之家）",
+      "u": "https://www.ithome.com/0/999/953.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-09-09T00:22",
@@ -79,20 +93,6 @@
       "u": "https://www.toutiao.com/article/7683136904803467812/"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-08T20:09",
-      "t": "经合组织最新报告：不用或少用 AI 完成课业的学生，整体表现优于常用 AI 的学生",
-      "s": "据彭博社今天（8 日）晚间报道，经济合作与发展组织（OECD）最新教育报告显示，不使用或较少使用 AI 聊天机器人完成课…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/999/909.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-08T20:07",
-      "t": "六联智能发布全球首批 \"Gorgon Halo\" 笔电 AXN88B-160M-YD",
-      "s": "六联智能 (SIXUNITED) 今日发布了全球首批搭载 AMD 锐龙 AI Max+ 400 \"Gorgon Halo…（来源：IT之家）",
-      "u": "https://www.ithome.com/0/999/907.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-08T18:10",
       "t": "中国品牌出海的「清洁机器人答案」",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "09-09 07:00",
+      "OpenAI 最强 AI 生图模型：ChatGPT Images 2.5 登场，延迟降低 50%、新增 Sketch 草图"
+    ],
+    [
+      "09-09 06:39",
+      "DeepSeek 官宣明日 flash 系列 AI 模型降价：输出为每百万 Token 4 元"
+    ],
+    [
       "09-09 00:22",
       "技术与资本共振 AI制药助力产业“加速跑”"
     ],
@@ -158,14 +166,6 @@
     [
       "09-08 23:12",
       "达芬奇 DaVinci Resolve 21.1 发布，接入 Claude Code、ChatGPT Codex 等 AI 助手"
-    ],
-    [
-      "09-08 22:35",
-      "吉利银河战舰 700 将于 9 月 15 日开启预售，首发搭载 AI 新能源越野技术"
-    ],
-    [
-      "09-08 22:09",
-      "豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283326,
+      "s": 283329,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 256929,
+      "s": 256940,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 254231,
+      "s": 254252,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211409,
+      "s": 211419,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144461,
+      "s": 144463,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136690,
+      "s": 136691,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116054,
+      "s": 116058,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104340,
+      "s": 104344,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93005,
+      "s": 93006,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
