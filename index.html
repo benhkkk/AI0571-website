@@ -459,8 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-09T00:22', t:'技术与资本共振 AI制药助力产业“加速跑”', s:'技术与资本共振 AI制药助力产业“加速跑”（来源：头条医药AI）', u:'https://www.toutiao.com/article/7683200521884189227/'},
-    {c:'MEDPHARMA', d:'2026-09-09T00:13', t:'AI+制药，正在进入哪些新场景?CPHI数智化论坛最新议程公布!', s:'AI+制药，正在进入哪些新场景?CPHI数智化论坛最新议程公布!（来源：头条医药AI）', u:'https://www.toutiao.com/article/7683198232209424959/'},
     {c:'MODEL', d:'2026-09-08T23:36', t:'消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流', s:'据科技媒体 WABetaInfo 上周（9 月 4 日）报道，WhatsApp 即将支持第三方 AI 智能体。IT之家从…（来源：IT之家）', u:'https://www.ithome.com/0/999/948.htm'},
     {c:'MODEL', d:'2026-09-08T23:12', t:'达芬奇 DaVinci Resolve 21.1 发布，接入 Claude Code、ChatGPT Codex 等 AI 助手', s:'Blackmagic Design 今天发布视频剪辑软件 DaVinci Resolve 21.1，接入多个人工智能助手…（来源：IT之家）', u:'https://www.ithome.com/0/999/945.htm'},
     {c:'HOT', d:'2026-09-08T22:35', t:'吉利银河战舰 700 将于 9 月 15 日开启预售，首发搭载 AI 新能源越野技术', s:'吉利汽车传播策略部长、吉利银河公关部长 @单爱富William 今天（8 日）晚间宣布，吉利银河战舰 700 将于 9 …（来源：IT之家）', u:'https://www.ithome.com/0/999/939.htm'},
@@ -479,26 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-08T18:02', t:'端侧 AI“小时代”', s:'大时代，还得等等。（来源：钛媒体）', u:'https://www.tmtpost.com/8132618.html'},
     {c:'MODEL', d:'2026-09-08T17:58', t:'从AI PC到个人AI，联想敲定新赛道｜IFA 2026', s:'携手英伟达，联想将千亿参数大模型装进笔记本。（来源：钛媒体）', u:'https://www.tmtpost.com/8132045.html'},
     {c:'MODEL', d:'2026-09-08T17:56', t:'开源不止代码，2026北京开源创新赛AIGC赛道全民可参与', s:'过去，开源的定义很清晰，交出源代码，让所有人查看、修改、分发。如今，越来越多的开发者把精力从“写代码”转向“怎么让 AI…（来源：OSCHINA）', u:'https://www.oschina.net/news/502384'},
+    {c:'MODEL', d:'2026-09-08T16:54', t:'DeepSeek V4.1 Flash 中间版本开启内测', s:'DeepSeek 这个模型名本身就在剧透它的命运——deepseek-v4.1-flash-expires-on-091…（来源：OSCHINA）', u:'https://www.oschina.net/news/502383'},
+    {c:'MODEL', d:'2026-09-08T16:44', t:'百度搭子全面接入小度硬件，百度智能体进驻家庭空间', s:'9月8日，在北京举行的百度AI Day小度新品发布会上，小度宣布超能小度完成智能体化升级，并发布多款全新的家庭场景智能体…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/pCuoyLeIaqbo1J0L.html'},
   ];
   const TIMELINE = [
-    ['09-09 00:22','技术与资本共振 AI制药助力产业“加速跑”'],
-    ['09-09 00:13','AI+制药，正在进入哪些新场景?CPHI数智化论坛最新议程公布!'],
     ['09-08 23:36','消息称 WhatsApp 将支持第三方 AI 智能体，顺应时代潮流'],
     ['09-08 23:12','达芬奇 DaVinci Resolve 21.1 发布，接入 Claude Code、ChatGPT Codex 等 AI 助手'],
     ['09-08 22:35','吉利银河战舰 700 将于 9 月 15 日开启预售，首发搭载 AI 新能源越野技术'],
     ['09-08 22:09','豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台'],
+    ['09-08 22:00','AI电影即将首次登陆全国院线 万兴科技AI影视全链路闭环生态引关注'],
+    ['09-08 21:40','实测全球上线的 vivago R1，我用它打造了一部赛博西游记短片'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:283228, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:256834, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:254043, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211311, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175213, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144450, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136668, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:115991, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104321, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92980, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:283244, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:256842, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:254061, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211324, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175218, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144452, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136673, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116001, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104323, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92987, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
