@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-08T17:59', t:'安全人员利用 AI 快速开发首个零点击微信蠕虫病毒，相关漏洞现已修复', s:'网络安全企业 Calif 当地时间今日披露，其利用人工智能技术手段在短时间内开发了首个面向微信 / WeChat 的“零…（来源：IT之家）', u:'https://www.ithome.com/0/999/871.htm'},
+    {c:'MODEL', d:'2026-09-08T17:56', t:'开源不止代码，2026北京开源创新赛AIGC赛道全民可参与', s:'过去，开源的定义很清晰，交出源代码，让所有人查看、修改、分发。如今，越来越多的开发者把精力从“写代码”转向“怎么让 AI…（来源：OSCHINA）', u:'https://www.oschina.net/news/502384'},
     {c:'HOT', d:'2026-09-08T17:04', t:'OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场', s:'博主 @数码闲聊站 今天在微博分享 OPPO Enco X4 耳机的前瞻消息。据介绍，这款耳机采用入耳式设计，ID 细节…（来源：IT之家）', u:'https://www.ithome.com/0/999/826.htm'},
     {c:'MEDPHARMA', d:'2026-09-08T16:57', t:'AI 研发“长寿”药物首次进入人体临床试验，有望减缓衰老过程', s:'去年，利用 AI 加速药物发现的英矽智能公布了一项临床试验结果，一款候选药物显示出治疗慢性肺病患者的潜力。当地时间 7 …（来源：IT之家）', u:'https://www.ithome.com/0/999/821.htm'},
     {c:'MODEL', d:'2026-09-08T16:54', t:'DeepSeek V4.1 Flash 中间版本开启内测', s:'DeepSeek 这个模型名本身就在剧透它的命运——deepseek-v4.1-flash-expires-on-091…（来源：OSCHINA）', u:'https://www.oschina.net/news/502383'},
@@ -468,37 +470,35 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-08T16:26', t:'韩国电池材料企业瞄准人形机器人，开辟电动汽车外新增长赛道', s:'韩国电池材料企业 EcoPro Co.计划加入韩国电池材料厂商进军人形机器人产业的行列，希望凭借更轻、能量密度更高的电池…（来源：IT之家）', u:'https://www.ithome.com/0/999/808.htm'},
     {c:'MODEL', d:'2026-09-08T16:23', t:'日本首个“人形机器人救护车”现身，搭载机器人专用担架、维修零部件等', s:'日本 GMO 互联网集团旗下公司“GMO AI & 机器人商事”（GMO AIR）今天宣布推出“人形机器人救护车”，是日…（来源：IT之家）', u:'https://www.ithome.com/0/999/807.htm'},
     {c:'FUNDING', d:'2026-09-08T16:20', t:'Anthropic 放弃 60 亿美元收购 Decart 交易', s:'这原本将是 Claude 规模最大的一笔收购，但 IPO 前的特殊阶段，正在抑制前沿 AI 并购热潮。（来源：钛媒体）', u:'https://www.tmtpost.com/8132095.html'},
-    {c:'MODEL', d:'2026-09-08T16:16', t:'爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS', s:'爱芯元智 (Axera) 今日宣布推出 2 款 M9 系列 5nm 智能驾驶芯片，分别是旗舰档的 M97 (M9x-72…（来源：IT之家）', u:'https://www.ithome.com/0/999/803.htm'},
     {c:'INDUSTRY', d:'2026-09-08T16:09', t:'自动驾驶商业化大考：谁来为无人驾驶买单？', s:'自动驾驶行业的核心命题，已从“技术能否实现”的可能性问题，转向“产业如何自我造血”的可持续性问题。（来源：钛媒体）', u:'https://www.tmtpost.com/8132710.html'},
     {c:'MODEL', d:'2026-09-08T16:05', t:'参数可以卷，功能可以跟，安克什么很难被抄', s:'从一颗芯片，到一个智能体，再到一个能够连接、记忆和思考的家庭中枢，安克正在把AI从“功能”一步步往下做成底层能力。（来源：钛媒体）', u:'https://www.tmtpost.com/8132300.html'},
     {c:'HOT', d:'2026-09-08T15:56', t:'11 天、30 万美元：AI 攻破 358 年数学难题的最后一关', s:'“如果费马大定理可以，那大概什么都可以。”（来源：钛媒体）', u:'https://www.tmtpost.com/8132711.html'},
     {c:'MODEL', d:'2026-09-08T15:54', t:'DeepSeek’s 150 Engineering Hires Signal Shift From Model Race to Infrastructure Scale', s:'DeepSeek’s 150 Engineering Hires Signal Shift From…（来源：钛媒体）', u:'https://www.tmtpost.com/8132858.html'},
     {c:'HOT', d:'2026-09-08T15:43', t:'思维链让AI变聪明，Astra却用它骗人', s:'人类与AI之间最重要的一场博弈打响了。（来源：钛媒体）', u:'https://www.tmtpost.com/8132568.html'},
     {c:'FUNDING', d:'2026-09-08T15:35', t:'Two Sigma谈如何用AI赋能投资', s:'未来的世界，执行会越来越廉价，最终决胜的是想法本身。（来源：钛媒体）', u:'https://www.tmtpost.com/8132173.html'},
-    {c:'MODEL', d:'2026-09-08T15:28', t:'最快20秒生成、支持GPT-6 Astra接入：实测群核Lux3D，3D生成的胜负手可能不在几何', s:'3D生成进入材质战。（来源：钛媒体）', u:'https://www.tmtpost.com/8132226.html'},
     {c:'HOT', d:'2026-09-08T15:27', t:'单人一月烧掉 19 万，硅谷开始倒查员工 AI 账单', s:'「有人星夜赶科场，有人辞官归故里。」 作者｜张勇毅 编辑｜靖宇 过去很长一段时间里，微软员工之间流传着一张自发维护的表格…（来源：极客公园）', u:'http://www.geekpark.net/news/370006'},
     {c:'MODEL', d:'2026-09-08T15:13', t:'Xiaomi MiMo 桌面客户端开放邀测，能做 3D 游戏和完整 PPT', s:'桌面 AI 应用能做的事情，可能比你想象的多得多。 Xiaomi MiMo Desktop 桌面客户端今天正式开放邀测…（来源：OSCHINA）', u:'https://www.oschina.net/news/502382/xiaomi-mimo-desktop'},
     {c:'MEDPHARMA', d:'2026-09-08T15:11', t:'瞭望 | AI制药待闯三关', s:'瞭望 | AI制药待闯三关（来源：头条医药AI）', u:'https://www.toutiao.com/article/7683058722092646947/'},
   ];
   const TIMELINE = [
+    ['09-08 17:59','安全人员利用 AI 快速开发首个零点击微信蠕虫病毒，相关漏洞现已修复'],
+    ['09-08 17:56','开源不止代码，2026北京开源创新赛AIGC赛道全民可参与'],
     ['09-08 17:04','OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场'],
     ['09-08 16:57','AI 研发“长寿”药物首次进入人体临床试验，有望减缓衰老过程'],
     ['09-08 16:54','DeepSeek V4.1 Flash 中间版本开启内测'],
     ['09-08 16:52','戴森预热 R2 扫地机器人：采用莱洛三角拖布设计、匹配“全能气旋基站”，9 月 7 日开启预约'],
-    ['09-08 16:46','亚马逊拟首次发行英镑债券，AI 资本开支推动超大规模云厂商全球举债'],
-    ['09-08 16:31','六人利用 AI“越狱”生成淫秽物品最终获刑，法官提醒“技术中立≠技术无罪”'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:283000, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:256474, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:253449, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211030, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175129, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144413, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136600, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:115839, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104237, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92902, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:283012, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:256498, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:253479, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211037, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175138, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144414, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136604, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:115847, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104246, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92906, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
