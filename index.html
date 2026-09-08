@@ -358,7 +358,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
 <!-- ===== B. Hero ===== -->
 <section class="hero">
   <div class="container hero-inner">
-    <span class="badge mono">2026-09-04 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
+    <span class="badge mono">2026-09-08 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
     <h1 class="hero-title">洞见 AI 的每一天</h1>
     <p class="hero-sub">杭州视角 · 全球 AI 资讯速递</p>
     <div class="hero-cta">
@@ -459,46 +459,46 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MODEL', d:'2026-09-04T17:47', t:'GPT-6 曝光， OpenAI 总裁说：AGI 来了', s:'作者｜桦林舞王 编辑｜靖宇 他措辞很谨慎，用的是第一人称，加了「可能」，还专门留了后路说「如果你想说这是第一个，我认为这…（来源：极客公园）', u:'http://www.geekpark.net/news/369867'},
-    {c:'MODEL', d:'2026-09-04T17:24', t:'阿里又多了一个Agent赛马', s:'阿里手里的马，已经越来越多 了（来源：钛媒体）', u:'https://www.tmtpost.com/8128120.html'},
-    {c:'MODEL', d:'2026-09-04T17:24', t:'智谱上天猫“摆摊”，要把Token当话费卖', s:'大模型第一股，把自己摆上了货架。（来源：钛媒体）', u:'https://www.tmtpost.com/8128188.html'},
-    {c:'MODEL', d:'2026-09-04T17:11', t:'Open Flow 开源：面向 AI Agent 的工作流自动化平台', s:'Open Flow 一个面向 AI Agent 的工作流自动化平台 OOMOL Lab 近日开源了 Open Flow…（来源：OSCHINA）', u:'https://www.oschina.net/news/502325'},
-    {c:'MODEL', d:'2026-09-04T16:57', t:'ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律', s:'不训练模型、不调参数（来源：量子位）', u:'https://www.qbitai.com/2026/09/484293.html'},
-    {c:'HOT', d:'2026-09-04T16:41', t:'群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始', s:'据台媒经济日报消息，群联 CEO 潘健成今日表示，近期与两家 Flash 原厂开会时，对方均直言“明年缺口不知道有多大”…（来源：IT之家）', u:'https://www.ithome.com/0/998/456.htm'},
-    {c:'INDUSTRY', d:'2026-09-04T16:37', t:'对话 Sharpa 李一帆：通用机器人要么全能，要么无能', s:'具身智能现在太吵了。 行业里的人各自笃定，声音大的先被听见。最响的那些声音，往往离真实的进展最远。 真正在往前推的人，看…（来源：极客公园）', u:'http://www.geekpark.net/news/369851'},
-    {c:'FUNDING', d:'2026-09-04T16:33', t:'梅卡曼德上市，具身智能又跑出一家百亿公司', s:'作者｜Li Yuan 编辑｜郑玄 2026 年 9 月 1 日，梅卡曼德登陆港交所。一个过去很少被大众看见的机器人公司…（来源：极客公园）', u:'http://www.geekpark.net/news/369850'},
-    {c:'MODEL', d:'2026-09-04T16:19', t:'🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase', s:'汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）', u:'https://www.oschina.net/news/502322'},
-    {c:'HOT', d:'2026-09-04T16:19', t:'几百位CXO AI实践的物理蒸馏与泛化——数字价值年会首日议程已来，答案未定', s:'蒸馏解决“值不值得”，泛化解决“能不能大”，跳过其中任何一层空谈下一层，得到的都只会是又一个无法复制的demo。（来源：钛媒体）', u:'https://www.tmtpost.com/8127859.html'},
-    {c:'FUNDING', d:'2026-09-04T15:54', t:'抢占AI时代战略制高点 开源平台成为资本追逐焦点', s:'近日，英伟达宣布用129亿美元收购全球最大开源AI模型社区之一Hugging Face。数据显示，Hugging Fac…（来源：OSCHINA）', u:'https://www.oschina.net/news/502321'},
-    {c:'MODEL', d:'2026-09-04T15:52', t:'联想 LOQ 系列“海归”，RTX 3050 笔记本电脑 GPU 全能本将至', s:'LOQ 是联想 (Lenovo) 面向全球市场的入门级游戏硬件产品线，定位低于 Legion（拯救者），此前一直未正式进…（来源：IT之家）', u:'https://www.ithome.com/0/998/430.htm'},
-    {c:'FUNDING', d:'2026-09-04T15:50', t:'完成4000万美金融资，ACE成为AI音乐赛道融资额最高的华人团队', s:'AI音乐公司ACE近日完成近4000万美元新一轮融资，由头部战投、CCV、顺为、Alphaist等机构投资。至此，ACE…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/iaMeof0D4sd0DFB2.html'},
-    {c:'MODEL', d:'2026-09-04T15:46', t:'美国洛杉矶将禁止学生在学区所属设备上使用 AI，以减少课堂屏幕使用时间', s:'据彭博社今天（4 日）报道，洛杉矶联合学区将禁止学生在学区所属设备上使用生成式 AI 工具，作为减少课堂屏幕使用时间整体…（来源：IT之家）', u:'https://www.ithome.com/0/998/428.htm'},
-    {c:'MODEL', d:'2026-09-04T15:42', t:'消息称三星电子联合 Arm，研发下一代端侧 AI 芯片', s:'据韩媒 Greened.kr 消息，三星电子联合 Arm，正式启动端侧 AI 芯片的联合研发。据半导体行业今日消息，Ar…（来源：IT之家）', u:'https://www.ithome.com/0/998/427.htm'},
-    {c:'FUNDING', d:'2026-09-04T15:31', t:'李斌回应蔚来是否会做机器人业务：已投资很多公司，先把车这个事情做好', s:'据新浪科技报道，在蔚来二季度业绩沟通会上，蔚来创始人、董事长、CEO 李斌回应了“蔚来是否会做机器人业务”：机器人的产业…（来源：IT之家）', u:'https://www.ithome.com/0/998/423.htm'},
-    {c:'MODEL', d:'2026-09-04T15:19', t:'LibreOffice 26.8 首周下载量 103 万次创造新纪录，最大亮点是“没有一个 AI 功能”', s:'1,031,162。这是 LibreOffice 26.8 发布第一周的官网下载量。 The Document Foun…（来源：OSCHINA）', u:'https://www.oschina.net/news/502318/libreoffice-26-8-first-week-download-record'},
-    {c:'MODEL', d:'2026-09-04T15:09', t:'金融AI的年度大考交卷了：2万名选手、30+家机构、百亿级数据开源', s:'5000支队伍同台做题，写尽行业四年变化（来源：量子位）', u:'https://www.qbitai.com/2026/09/484203.html'},
-    {c:'MODEL', d:'2026-09-04T14:54', t:'李飞飞刚发Atlas，中国开源“同款”已抢跑半年？', s:'智能不只是模式识别，更是对世界的建模（来源：量子位）', u:'https://www.qbitai.com/2026/09/484163.html'},
-    {c:'MODEL', d:'2026-09-04T14:50', t:'工信部：支持国家级人工智能开源社区（AtomGit）发展壮大，鼓励人工智能创业企业积极参与开源生态建设', s:'今日，工业和信息化部办公厅印发《人工智能中小企业创业支持计划（2026-2028 年）》。通过三年，在行业应用、数据服务…（来源：IT之家）', u:'https://www.ithome.com/0/998/403.htm'},
+    {c:'MODEL', d:'2026-09-08T08:34', t:'传字节开发实时空间视频生成模型，张一鸣亲自督导；微信内测「AI 社交」功能；华为小米同天发布折叠屏手机', s:'消息称字节正开发实时空间视频生成 AI 模型：张一鸣亲自督导，最快下个月发布 9 月 7 日消息，据彭博社报道，字节跳动…（来源：极客公园）', u:'http://www.geekpark.net/news/369965'},
+    {c:'MODEL', d:'2026-09-08T08:28', t:'Edge AI Daily 早报（9月8日）', s:'OpenAI GPT-6 Astra通过MCP协议自主通关《传送门》全部关卡，24小时3336次工具调用、成本571美元…（来源：钛媒体）', u:'https://www.tmtpost.com/8131798.html'},
+    {c:'FUNDING', d:'2026-09-08T08:14', t:'早报｜华为Mate XT 2首发「韬定律」麒麟芯片/20.99万起，小米澎程上市/「豆包手机」定档下周三', s:'· 苹果换帅后重整 App Store 与发布会，Schiller 退居特别项目 · 字节跳动锁定 296 亿美元贷款…（来源：爱范儿）', u:'https://www.ifanr.com/1676969?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MODEL', d:'2026-09-08T08:09', t:'通用机器人，正在从一种身体变成一种架构', s:'现实工作正在让机器人的身体分化，跨本体模型则试图让数据和能力穿过这些差异。过去被寄托在一台机器上的“通用”，正在被拆到模…（来源：钛媒体）', u:'https://www.tmtpost.com/8131405.html'},
+    {c:'MODEL', d:'2026-09-08T08:08', t:'法拉第未来机器人 8 月销量 158 台再创新高，累销已突破 552 台', s:'贾跃亭今早发布视频宣布，法拉第未来 EAI 机器人本体销售及出货量达 158 台，再创单月新高。贾跃亭表示，自 2 月启…（来源：IT之家）', u:'https://www.ithome.com/0/999/512.htm'},
+    {c:'MODEL', d:'2026-09-08T07:20', t:'【钛晨报】信息通信行业发展“十五五”规划发布，部署26项重点任务；微信内测“小微AI社交”：AI先聊再带回结果；央行：8月末黄金储备升至7673万盎司，连续22个月增持', s:'宇树科技：首次实现人形机器人全自主搏击；理想汽车：自研电池将全面搭载到所有车型；华为时隔六年再次发布高性能芯片；千问办公…（来源：钛媒体）', u:'https://www.tmtpost.com/8131620.html'},
+    {c:'MODEL', d:'2026-09-08T06:45', t:'智能体出海东南亚，还缺懂本土落地的人 ｜SEA Frontline', s:'智能体落地东南亚真正有价值的地方仍旧在那些还离不开本地的人、本地的信任、本地的判断力的环节。（来源：钛媒体）', u:'https://www.tmtpost.com/8128887.html'},
+    {c:'INDUSTRY', d:'2026-09-07T23:22', t:'2026 荣耀全球开发者大会日程公布，MagicOS 11 定档 9 月 15 日晚', s:'2026 荣耀全球开发者大会将于 9 月 15 日在深圳举行，官方今日公布活动日程。其中，MagicOS 11 将于当晚…（来源：IT之家）', u:'https://www.ithome.com/0/999/493.htm'},
+    {c:'MODEL', d:'2026-09-07T22:40', t:'OpenAI GPT-6 Astra 模型自主通关 3D 解谜游戏《传送门》：耗时 24 小时，成本 571 美元', s:'一名 AI 和大语言模型爱好者近日进行了一项实验，让 OpenAI 的新模型 GPT-6 Astra 自主通关了 Val…（来源：IT之家）', u:'https://www.ithome.com/0/999/488.htm'},
+    {c:'HOT', d:'2026-09-07T21:37', t:'驰为 UniBox AI495 Pro 迷你主机亮相，X 型金属框架设计', s:'驰为 (CHUWI) 在 IFA 2026 上公布了 2 款 AI 工作站迷你主机，分别是 UniBox AI495 P…（来源：IT之家）', u:'https://www.ithome.com/0/999/473.htm'},
+    {c:'HOT', d:'2026-09-07T21:21', t:'消息称三星进入人形机器人赛道，计划在明年 CES 2027 首秀', s:'据韩媒 sedaily 消息，三星电子正加快其人形机器人原型机的研发，计划在明年 1 月于美国拉斯维加斯举办的 CES …（来源：IT之家）', u:'https://www.ithome.com/0/999/466.htm'},
+    {c:'HOT', d:'2026-09-07T21:01', t:'AI 时代，「种草」这件事会变成什么样？', s:'作者｜靖宇 互联网时代，鲜有一个网站或者应用，能像小红书一样在不停的转换身份和功能的进化中，穿越周期。 对于现在的网民来…（来源：极客公园）', u:'http://www.geekpark.net/news/369962'},
+    {c:'FUNDING', d:'2026-09-07T20:43', t:'燧原科技发行结果出炉！募资61.19亿元，国产AI芯片龙头即将登陆科创板', s:'9月7日晚间，燧原科技（688801.SH）正式公布发行结果。本次发行价格为142.18元/股，发行数量为4303.51…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/tt18KRcmh53DjhLO.html'},
+    {c:'HOT', d:'2026-09-07T20:16', t:'vivo X500 系列手机全球首发蓝图光御 900 传感器，CIPA 7.0 防抖、AI 摄影助手', s:'在今晚的 vivo 创作者盛典活动中，vivo 官方公布了 X500 系列手机的影像配置。vivo X500 系列将首发…（来源：IT之家）', u:'https://www.ithome.com/0/999/452.htm'},
+    {c:'HOT', d:'2026-09-07T18:44', t:'AI Video Generation Crosses Real-Time Threshold, Enabling Continuous Streams and Interactive Stories', s:'AI Video Generation Crosses Real-Time Threshold, E…（来源：钛媒体）', u:'https://www.tmtpost.com/8131491.html'},
+    {c:'MODEL', d:'2026-09-07T18:40', t:'DeepSeek、千问、智谱轮番登场，PC 厂商终于等到了它们的弹药', s:'AMD 想用电脑把昂贵的 AI Token 账单降下来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多…（来源：爱范儿）', u:'https://www.ifanr.com/1678938?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'HOT', d:'2026-09-07T18:40', t:'AI and the Evolution of Value Investing: A Conversation with Zhong Zhaomin', s:'AI and the Evolution of Value Investing: A Convers…（来源：钛媒体）', u:'https://www.tmtpost.com/8131485.html'},
+    {c:'MODEL', d:'2026-09-07T18:38', t:'termio - 终端智能体开发台', s:'termio是一个终端优先的 Agent 开发环境。 核心功能 项目管理：每个代码仓库一个项目，其下挂载终端与智能体；聊…（来源：OSCHINA）', u:'https://www.oschina.net/p/termio'},
+    {c:'MODEL', d:'2026-09-07T18:36', t:'把千亿模型装进笔记本，Windows 终于要反击 Mac 了', s:'都想让 PC 成为 AI 的运行环境#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）', u:'https://www.ifanr.com/1678877?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MODEL', d:'2026-09-07T18:32', t:'判断用不用你的软件，Agent 只需 500 个 Token', s:'作者｜宇航猿 编辑｜靖宇 现在几乎每个开发者都在用 AI Agent 干活。Cursor、Claude Code、Win…（来源：极客公园）', u:'http://www.geekpark.net/news/369960'},
   ];
   const TIMELINE = [
-    ['09-04 17:47','GPT-6 曝光， OpenAI 总裁说：AGI 来了'],
-    ['09-04 17:24','阿里又多了一个Agent赛马'],
-    ['09-04 17:24','智谱上天猫“摆摊”，要把Token当话费卖'],
-    ['09-04 17:11','Open Flow 开源：面向 AI Agent 的工作流自动化平台'],
-    ['09-04 16:57','ScienceDiscovery实现树搜索驱动RSI，加速科学发现，小时级写出通用积分器，低成本找出物理科学规律'],
-    ['09-04 16:41','群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始'],
+    ['09-08 08:34','传字节开发实时空间视频生成模型，张一鸣亲自督导；微信内测「AI 社交」功能；华为小米同天发布折叠屏手机'],
+    ['09-08 08:28','Edge AI Daily 早报（9月8日）'],
+    ['09-08 08:14','早报｜华为Mate XT 2首发「韬定律」麒麟芯片/20.99万起，小米澎程上市/「豆包手机」定档下周三'],
+    ['09-08 08:09','通用机器人，正在从一种身体变成一种架构'],
+    ['09-08 08:08','法拉第未来机器人 8 月销量 158 台再创新高，累销已突破 552 台'],
+    ['09-08 07:20','【钛晨报】信息通信行业发展“十五五”规划发布，部署26项重点任务；微信内测“小微AI社交”：AI先聊再带回结果；央行：8月末黄金储备升至7673万盎司，连续22…'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:281589, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:248555, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:247651, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:210026, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:173869, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144001, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:135991, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:114573, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:103313, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92163, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:282840, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:256085, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:252847, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:210911, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175040, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144364, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136546, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:115711, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104152, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:92826, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
