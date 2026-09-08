@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-08T08:56:18",
+  "updated": "2026-09-08T09:02:05",
   "news": [
-    {
-      "c": "MODEL",
-      "d": "2026-09-08T08:34",
-      "t": "传字节开发实时空间视频生成模型，张一鸣亲自督导；微信内测「AI 社交」功能；华为小米同天发布折叠屏手机",
-      "s": "消息称字节正开发实时空间视频生成 AI 模型：张一鸣亲自督导，最快下个月发布 9 月 7 日消息，据彭博社报道，字节跳动…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369965"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-08T08:28",
@@ -79,13 +72,6 @@
       "u": "https://www.ithome.com/0/999/466.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-07T21:01",
-      "t": "AI 时代，「种草」这件事会变成什么样？",
-      "s": "作者｜靖宇 互联网时代，鲜有一个网站或者应用，能像小红书一样在不停的转换身份和功能的进化中，穿越周期。 对于现在的网民来…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369962"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-09-07T20:43",
       "t": "燧原科技发行结果出炉！募资61.19亿元，国产AI芯片龙头即将登陆科创板",
@@ -98,6 +84,13 @@
       "t": "vivo X500 系列手机全球首发蓝图光御 900 传感器，CIPA 7.0 防抖、AI 摄影助手",
       "s": "在今晚的 vivo 创作者盛典活动中，vivo 官方公布了 X500 系列手机的影像配置。vivo X500 系列将首发…（来源：IT之家）",
       "u": "https://www.ithome.com/0/999/452.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-07T18:54",
+      "t": "AI制药待闯三关",
+      "s": "AI制药待闯三关（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7682744785681039872/"
     },
     {
       "c": "HOT",
@@ -135,18 +128,21 @@
       "u": "https://www.ifanr.com/1678877?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
+      "c": "HOT",
+      "d": "2026-09-07T18:13",
+      "t": "新Qoder“不止于编程”，阿里AI办公赛马又起",
+      "s": "吴泳铭的AI大局，陈宇森接的住吗？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8130900.html"
+    },
+    {
       "c": "MODEL",
-      "d": "2026-09-07T18:32",
-      "t": "判断用不用你的软件，Agent 只需 500 个 Token",
-      "s": "作者｜宇航猿 编辑｜靖宇 现在几乎每个开发者都在用 AI Agent 干活。Cursor、Claude Code、Win…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/369960"
+      "d": "2026-09-07T17:57",
+      "t": "AIGC标识一周年：当李飞飞把真假边界抹平，只有信用分层追得上",
+      "s": "市场把AIGC标识一周年读成合规成本账，误读了制度底色。当Atlas把生成精度推到肉眼难辨，惩罚治理已触顶。本文以历史同…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8130806.html"
     }
   ],
   "timeline": [
-    [
-      "09-08 08:34",
-      "传字节开发实时空间视频生成模型，张一鸣亲自督导；微信内测「AI 社交」功能；华为小米同天发布折叠屏手机"
-    ],
     [
       "09-08 08:28",
       "Edge AI Daily 早报（9月8日）"
@@ -166,6 +162,10 @@
     [
       "09-08 07:20",
       "【钛晨报】信息通信行业发展“十五五”规划发布，部署26项重点任务；微信内测“小微AI社交”：AI先聊再带回结果；央行：8月末黄金储备升至7673万盎司，连续22…"
+    ],
+    [
+      "09-08 06:45",
+      "智能体出海东南亚，还缺懂本土落地的人 ｜SEA Frontline"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 282840,
+      "s": 282839,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 256085,
+      "s": 256088,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 252847,
+      "s": 252852,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 210911,
+      "s": 210913,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175040,
+      "s": 175041,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 92826,
+      "s": 92827,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
