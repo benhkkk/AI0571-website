@@ -123,11 +123,37 @@ async function markSentToday(env) {
   return key;
 }
 
+/** 当天幂等键名（北京时间），供演练/诊断展示 */
+function todayKey() {
+  const bj = new Date(Date.now() + 8 * 3600e3);
+  return 'digest-sent:' + bj.toISOString().slice(0, 10);
+}
+
+/**
+ * 记录「最近一次群发尝试」到 KV 键 digest-last（保留 30 天）。
+ * 作用：无论成功/失败/被幂等跳过，都会留痕，
+ * 供 /api/health 自检端点判断「到底有没有被触发过」。
+ * 之前 Actions 里 curl 完只 echo ""，失败完全静默，这是本次故障的关键改进。
+ */
+async function recordAttempt(env, info) {
+  if (!env.SUBS) return;
+  const bj = new Date(Date.now() + 8 * 3600e3);
+  try {
+    await env.SUBS.put('digest-last', JSON.stringify({
+      ts: Date.now(),
+      iso: new Date().toISOString(),
+      beijing: bj.toISOString().replace('T', ' ').slice(0, 19),
+      ...info,
+    }), { expirationTtl: 60 * 60 * 24 * 30 });
+  } catch (_) { /* 记录失败不影响主流程 */ }
+}
+
 export async function onRequestGet({ request, env }) {
   const auth = requireAdmin(request, env);
   if (!auth.ok) return json({ ok: false, error: auth.error }, auth.status);
   try {
     if (!env.RESEND_API_KEY) {
+      await recordAttempt(env, { via: 'unknown', error: 'missing RESEND_API_KEY' });
       return json({ ok: false, error: 'missing RESEND_API_KEY (在 Pages 项目 Settings 配置)' }, 500);
     }
 
@@ -135,22 +161,37 @@ export async function onRequestGet({ request, env }) {
     const to = String(url.searchParams.get('to') || '').trim();
     const broadcast = url.searchParams.get('broadcast') === '1';
     const force = url.searchParams.get('force') === '1';
+    const dry = url.searchParams.get('dry') === '1';   // 演练模式：只想看会发什么，不真的发
+    const via = String(url.searchParams.get('via') || 'manual').slice(0, 20);
 
     let emails = [];
     if (broadcast) {
       // 幂等保护：同一天（北京时间）默认只发一次，force=1 可强制重发
       const sentKey = await alreadySentToday(env);
       if (sentKey && !force) {
+        // 被幂等跳过也要留痕，否则排障时会误判为「根本没被触发」
+        await recordAttempt(env, { via, broadcast: true, skipped: true, sent: 0, failed: 0, key: sentKey });
         return json({ ok: true, skipped: true, reason: '今天已发送过（加 &force=1 可强制重发）', key: sentKey });
       }
       emails = (await listSubscribers(env)).filter(validEmail);
+      if (dry) {
+        return json({
+          ok: true, dry: true, broadcast: true, key: todayKey(),
+          alreadySent: !!sentKey, wouldSendTo: emails.length,
+          masked: emails.map(maskEmail), note: 'dry=1 演练，未真实发送',
+        });
+      }
     } else if (validEmail(to)) {
+      if (dry) {
+        return json({ ok: true, dry: true, broadcast: false, wouldSendTo: 1, masked: [maskEmail(to)], note: 'dry=1 演练，未真实发送' });
+      }
       emails = [to];
     } else {
       return json({ ok: false, error: '请提供 ?to=有效邮箱 或 ?broadcast=1' }, 400);
     }
 
     if (!emails.length) {
+      await recordAttempt(env, { via, broadcast, sent: 0, failed: 0, error: 'no subscribers' });
       return json({ ok: true, sent: 0, note: 'no subscribers' });
     }
 
@@ -163,10 +204,23 @@ export async function onRequestGet({ request, env }) {
       if (r.ok) sent++; else failed++;
     }
 
-    if (broadcast && sent > 0) await markSentToday(env);
+    let markedKey = null;
+    if (broadcast && sent > 0) markedKey = await markSentToday(env);
 
+    await recordAttempt(env, {
+      via, broadcast, sent, failed, total: emails.length, markedKey,
+      errors: results.filter(r => !r.ok)
+        .map(r => ({ email: r.email, status: r.status, body: String(r.body || '').slice(0, 300) }))
+        .slice(0, 5),
+    });
+
+    // 一封都没发出去 => 返回 502（而不是 200），让调用方（Actions/Worker）能立刻感知失败
+    if (sent === 0) {
+      return json({ ok: false, error: '全部发送失败（Resend 返回错误），详见 results', broadcast, sent, failed, total: emails.length, results }, 502);
+    }
     return json({ ok: true, broadcast, sent, failed, total: emails.length, results });
   } catch (e) {
+    await recordAttempt(env, { error: String(e && e.message || e) });
     return json({ ok: false, error: String(e && e.message || e) }, 500);
   }
 }

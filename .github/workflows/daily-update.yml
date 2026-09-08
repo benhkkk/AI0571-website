@@ -1,37 +1,42 @@
 # ============================================================
-# AI0571 资讯自动更新
+# AI0571 资讯自动更新 + 工作日日报群发
 # ------------------------------------------------------------
 # 触发方式：
-#   1) 定时触发：每 10 分钟一次（GitHub Actions 使用 UTC，
-#      */10 分钟间隔无需换算时区）
+#   1) 定时触发：每 20 分钟一次（GitHub Actions 使用 UTC）
 #   2) 手动触发：仓库 Actions 页面 → 本工作流 → Run workflow
 #
 # 执行流程：
-#   checkout → 安装依赖 → 运行 fetch_news.py（抓取 RSS 并改写
-#   index.html + data.json）→ 有变更则 git commit + push →
-#   Cloudflare Pages 检测到 push 后自动重新部署 →
-#   前端每 5 分钟轮询 data.json 自动更新页面
+#   checkout → 安装依赖 → fetch_news.py（抓取 RSS 并改写 index.html + data.json）
+#   → 命中早安窗口则调用 Pages Function 群发日报（端点自带当天幂等）
+#   → 有变更则 git commit + push → Cloudflare Pages 自动重新部署
 #
-# 注意：GitHub Actions 的 schedule 触发可能延迟/跳过（官方
-# 说明），此处为兜底频率；如对实时性要求更高可迁移到
-# Cloudflare Workers Cron + KV。
+# v3 修复（针对 2026-09 日报静默故障）：
+#   1) 发送窗口从「UTC 00:00~00:09 的 10 分钟」放宽到
+#      「北京时间 07:00~09:59 的 3 小时」。GitHub 官方明确说明
+#      scheduled workflow 会延迟甚至被跳过，窄窗口一旦错过当天就永久
+#      不发、且没有任何告警。放宽后每 20 分钟一次 × 3 小时 ≈ 9 次机会，
+#      重复请求由 send-digest 端点的 KV 幂等键 digest-sent:YYYY-MM-DD
+#      拦住，不会重复发给用户。
+#   2) 群发调用结果不再「发完就 echo 空行」。现在会检查 HTTP 状态码与
+#      返回体里的 ok 字段，失败即以 ::error:: 让本步骤红叉 → GitHub 会
+#      给仓库 owner 发失败邮件，不会再静默。
+#   3) 频率从 */10（每天 144 次）降到 */20（每天 72 次）：降低 GitHub
+#      侧风控/排队风险，也够用。
 # ============================================================
 name: daily-update
 
 on:
   schedule:
-    # 每 10 分钟触发一次（UTC 与北京时间分钟间隔一致）
-    - cron: '*/10 * * * *'
+    # 每 20 分钟触发一次
+    - cron: '*/20 * * * *'
   workflow_dispatch:        # 手动触发按钮，方便测试
 
 # 赋予工作流对仓库的写入权限（用于 push 更新后的 index.html / data.json）
 permissions:
   contents: write
 
-# 防止并发冲突：cron 每 5 分钟触发一次、单次运行约 2 分钟，两个运行会重叠，
-# 同时改 data.json 必然产生 git rebase 冲突导致推送失败。
-# cancel-in-progress: true —— 新运行自动取消旧运行（旧运行的抓取结果会被新运行
-# 重新抓取覆盖，不会丢失数据），从根上消除并发 push。
+# 防止并发冲突：两个运行同时改 data.json 必然 push 冲突，
+# cancel-in-progress: true —— 新运行取消旧运行（抓取结果会被重新抓取覆盖）。
 concurrency:
   group: daily-update
   cancel-in-progress: true
@@ -61,35 +66,59 @@ jobs:
         run: python fetch_news.py
 
       # 4b) 抓取 GitHub 每周热 Skill 榜单（使用内置 GITHUB_TOKEN 认证，避开匿名限额）
-      #     搜索失败时脚本保留旧数据并正常退出，不影响本步骤
       - name: 抓取技能包榜单
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python fetch_skills.py
 
-      # 4c) 工作日早晨（北京 08:00，即 UTC 00:00~00:09）触发日报群发
-      #     调用 Pages Function /api/send-digest?broadcast=1&token=xxx；
-      #     端点内置「当天只发一次」的 KV 幂等标记，Actions 多次命中窗口也不会重复发送。
-      #     需要把 ADMIN_TOKEN 加到仓库 Secrets（值 = Pages 项目里配置的 ADMIN_TOKEN）。
+      # 4c) 工作日早晨触发日报群发
+      #     直接以北京时间判断，避免 UTC 换算出错。
+      #     端点自带「当天只发一次」幂等，所以这里放宽到 3 小时宽窗口也不怕重复发。
       - name: 工作日早晨发送 AI 日报
         env:
           ADMIN_TOKEN: ${{ secrets.ADMIN_TOKEN }}
         run: |
-          D=$(date -u +%u)      # 1=周一 ... 7=周日
-          H=$(date -u +%H)
-          M=$(date -u +%M)
-          if [ "$D" -le 5 ] && [ "$H" = "00" ] && [ "$M" -lt 10 ]; then
-            echo "工作日早晨发送窗口（UTC $H:$M），触发日报群发..."
-            curl -s --max-time 120 "https://www.AI0571.com/api/send-digest?broadcast=1&token=${ADMIN_TOKEN}"
-            echo ""
+          set -uo pipefail
+          # 用「UTC + 8 小时」显式换算北京时间，不依赖 runner 上的 tzdata
+          DOW=$(date -u -d '+8 hours' +%u)      # 1=周一 ... 7=周日
+          BH=$(date -u -d '+8 hours' +%H)
+          BM=$(date -u -d '+8 hours' +%M)
+          echo "当前北京时间 $(date -u -d '+8 hours' '+%F %T')，周${DOW}"
+
+          # 宽窗口：北京时间 07:00~09:59 的工作日，每次运行都会尝试
+          if [ "${DOW}" -le 5 ] && [ "${BH}" -ge 7 ] && [ "${BH}" -le 9 ]; then
+            if [ -z "${ADMIN_TOKEN:-}" ]; then
+              echo "::error::仓库 Secret ADMIN_TOKEN 为空 —— 无法调用群发端点。请到 Settings → Secrets and variables → Actions 补上。"
+              exit 1
+            fi
+            echo "命中发送窗口（北京 ${BH}:${BM}），调用 /api/send-digest ..."
+            OUT="$(mktemp)"
+            HTTP=$(curl -s -S -o "$OUT" -w '%{http_code}' --max-time 180 \
+              "https://www.AI0571.com/api/send-digest?broadcast=1&via=actions&token=${ADMIN_TOKEN}")
+            CODE=$?
+            BODY="$(cat "$OUT")"
+            echo "curl 退出码=${CODE}  HTTP=${HTTP}"
+            echo "$BODY"
+
+            if [ "$CODE" -ne 0 ]; then
+              echo "::error::调用 /api/send-digest 失败（curl 退出码 ${CODE}）：站点不可达/超时"
+              exit 1
+            fi
+            if [ "$HTTP" != "200" ]; then
+              echo "::error::/api/send-digest 返回 HTTP ${HTTP}：${BODY}"
+              exit 1
+            fi
+            if ! echo "$BODY" | grep -q '"ok"[[:space:]]*:[[:space:]]*true'; then
+              echo "::error::/api/send-digest 未返回 ok:true：${BODY}"
+              exit 1
+            fi
+            echo "日报步骤完成（返回里出现 skipped:true 表示今天已发过，属正常幂等拦截）。"
           else
-            echo "非发送窗口（星期${D} UTC $H:$M），跳过日报群发。"
+            echo "非发送窗口（北京周${DOW} ${BH}:${BM}），跳过群发。"
           fi
 
       # 5) 若 index.html / data.json 有变更，则提交并推送
-      #    使用默认 GITHUB_TOKEN（权限已在 permissions 中声明）
       #    推送后 Cloudflare Pages 会自动触发重新部署
-      #    推送冲突（远程有并发提交）时自动 pull --rebase 重试，最多 3 次
       - name: 提交并推送更新
         run: |
           if git diff --quiet; then
@@ -111,3 +140,13 @@ jobs:
           done
           echo "重试后推送失败。"
           exit 1
+
+      # 6) 失败提示：把「去哪里看」直接写进日志，避免无人发现
+      - name: 失败处置指引
+        if: failure()
+        run: |
+          echo "::warning::本次自动更新/群发失败。"
+          echo "1) 先看本工作流哪一步红的；"
+          echo "2) 打开 https://github.com/${{ github.repository }}/actions 看运行历史，"
+          echo "   若全部运行都是 startup_failure，说明 GitHub Actions 侧已被停用/受限；"
+          echo "3) 浏览器打开 https://www.AI0571.com/api/health?ui=1&token=你的ADMIN_TOKEN 看链路红绿灯。"

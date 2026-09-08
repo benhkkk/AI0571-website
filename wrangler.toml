@@ -2,16 +2,30 @@ name = "ai0571-update-trigger"
 main = "worker.js"
 compatibility_date = "2026-08-01"
 
-# KV 命名空间：订阅者邮箱
+# KV 命名空间：订阅者邮箱（与 Pages Functions 共用同一个 namespace）
 [[kv_namespaces]]
 binding = "SUBS"
 id = "03d445998a424254978a56bdb98c5dc7"
 
-# Cron Triggers：
-#   */10 * * * *    每 10 分钟触发 GitHub Actions 抓取（原有）
-#   0 0 * * 1-5     每个工作日 UTC 00:00（= 北京 08:00）发送 AI 日报邮件
+# Cron Trigger：每 20 分钟一次。
+# v3 变更：不再为日报单独配 "0 0 * * 1-5" 这种窄窗口 cron，
+# worker.js 会在每一次触发里按「北京时间 07:00~10:00」判断是否需要群发，
+# 实际每天有 9 次机会命中，且由 KV 幂等键保证当天只发出一封。
 [triggers]
-crons = ["*/10 * * * *", "0 0 * * 1-5"]
+crons = ["*/20 * * * *"]
 
-# AI0571 统一 Worker：定时触发抓取 + 邮件订阅/日报。
-# Route 在 Cloudflare 控制台手动加：Worker 详情 → Triggers → Routes → www.AI0571.com/api/*
+# Worker 需要的 Secret（Cloudflare 控制台 → Worker → Settings → Variables）：
+#   ADMIN_TOKEN     —— 强烈建议配置（值 = Pages 侧同一个）。两个用途：
+#                      ① 通道B：作为 token 调 Pages /api/send-digest 群发；
+#                      ② Worker 心跳 HTTP 兜底上报到 /api/cron-report
+#                         （该端点配了 ADMIN_TOKEN，不带 token 会被 401 拒绝）。
+#                      ⚠️ 2026-09 故障中 Worker 正是因为没配它，心跳完全静默。
+#   RESEND_API_KEY  —— 通道A：Worker 直连 Resend 群发（需同时绑 SUBS）
+#   GH_PAT          —— 触发 GitHub Actions 抓取（repo → Actions: read/write）
+#
+# ⚠️ Worker 与 Pages 是两套独立绑定，必须在 Worker 侧各自再绑一次。
+
+[vars]
+GH_OWNER = "benhkkk"
+GH_REPO = "AI0571-website"
+GH_WORKFLOW = "daily-update.yml"

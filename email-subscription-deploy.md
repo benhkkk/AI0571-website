@@ -140,3 +140,54 @@ https://www.AI0571.com/api/cron-status
 1. **之前截图暴露过 `RESEND_API_KEY`**：建议去 Resend Revoke 重新生成，并更新 Pages 的 `RESEND_API_KEY`。
 2. `ADMIN_TOKEN` 相当于管理钥匙，**不要发到聊天里/截图**；两处（Pages + GitHub Secrets）保持一致。
 3. 发信端点（send-test/send-digest）已加鉴权——未配置 token 前会拒绝服务，这是**有意为之**，防止被当成开放邮件中继滥用你的域名。
+
+---
+
+# v3 · 2026-09 静默故障修复与「30 秒自检」
+
+## 这次为什么断（结论）
+1. **GitHub Actions 从 2026-09-04 约 UTC 10:00 起，全部运行变成 `startup_failure`**（创建后 1 秒内失败、job 都没起来）。
+   → 抓取（news update）和群发（调用 send-digest）**两条路都死了**，所以既没新资讯、也没邮件。
+2. **原来的发送窗口只有 UTC 00:00~00:09 这 10 分钟**，GitHub 官方声明定时任务会延迟甚至跳过，
+   窗口一旦错过当天就永久不发，且失败完全静默（curl 后面只 `echo ""`）。
+3. **Worker 侧没绑 KV 也没有 ADMIN_TOKEN**，导致 `cron-log` 一直是空的（= 从没写过心跳），
+   出问题后完全没有可观测的手段。
+
+## v3 改动
+| 文件 | 改动 |
+|---|---|
+| `.github/workflows/daily-update.yml` | ① 频率 `*/10` → `*/20`；② 发送窗口改为**北京时间 07:00~09:59**（每 20 分钟一次 ≈ 9 次机会，靠端点幂等去重，不会重复发）；③ 用 UTC+8 显式换算，不依赖 tzdata；④ 调用结果**检查 HTTP 状态码 + 返回体 `ok` 字段**，失败即 `::error::` 红叉（GitHub 会发失败邮件）；⑤ 末尾加了「失败处置指引」步骤 |
+| `functions/api/send-digest.js` | ① 新增 `dry=1` 演练模式（不真发，只报告会给谁发）；② 每次调用（含被幂等跳过）都写 KV `digest-last` 留痕；③ 一封都没发出去时返回 **502** 而不是 200 |
+| `functions/api/health.js`（新增） | 链路自检端点，见下 |
+| `worker.js` | ① 去掉 10 分钟窄窗口，改为北京时间 07:00~10:00 宽窗口；② 发送通道双保险：A 直连 Resend（需 SUBS+RESEND_API_KEY），B 调 Pages `/api/send-digest`（只需 ADMIN_TOKEN），A 失败自动降级 B；③ 每次 cron 都写心跳（`cron-log`），优先 KV、没绑 KV 就 HTTP 上报 `/api/cron-report`；心跳里带 `env`（kvBound/resendKey/adminToken/ghPat）和 GitHub 触发结果 |
+| `wrangler.toml` | cron 收敛为 `*/20 * * * *`；注释写清 Worker 侧必需的三个 Secret |
+
+## 30 秒自检（出问题时第一件事）
+浏览器打开（把 `你的ADMIN_TOKEN` 换成真 token，整条链接存书签）：
+
+```
+https://www.AI0571.com/api/health?ui=1&token=你的ADMIN_TOKEN
+```
+
+会看到一页中文「红绿灯」：站点/ADMIN_TOKEN/RESEND_API_KEY/KV/今日是否已发/订阅人数/
+资讯新鲜度/Worker 心跳/GitHub Actions 最近一次结论，并且**直接写出每一颗红灯该怎么修**。
+不需要 JSON：删掉 `ui=1` 就是 JSON 版。
+
+判断口诀：
+- **`GitHub Actions` 那颗是 ❌（startup_failure / failure）** → 整条自动链路挂了，去
+  https://github.com/benhkkk/AI0571-website/actions 看，并检查 GitHub 是否停用了 Actions
+  （Settings → Actions → General）以及**仓库 owner 邮箱**里有没有 GitHub 的通知邮件。
+- **`Worker 心跳` 是 ❌ / 显示“无”** → Worker 没绑 KV、也没 ADMIN_TOKEN → 到 Cloudflare
+  Worker Settings → Variables 加 `ADMIN_TOKEN`（值同 Pages），KV 绑 `SUBS`。
+- 只有 **`今日日报已发出` 是 ❌**，其余全绿 → 手动补发：
+  `https://www.AI0571.com/api/send-digest?broadcast=1&token=你的ADMIN_TOKEN`
+  （先用 `&dry=1` 演练一次确认收件人数，再真发）。
+- **`资讯新鲜度` > 24 小时** → 抓取链路断了（同第一条 Actions）。
+
+## 部署后需要人工做的一次性动作
+1. Cloudflare Worker `ai0571-update-trigger` → Settings → Variables：
+   加 Secret `ADMIN_TOKEN`（与 Pages 同值）；建议同时加 `RESEND_API_KEY` 并把 KV `SUBS` 绑上。
+   → 加完后 `Worker 心跳` 立刻变绿。
+2. GitHub 仓库 Settings → Actions → General：确认 Actions 是启用状态、Workflow permissions 允许读写。
+3. 若 GitHub 确实停用了 Actions，需按其邮件/站内提示处理（或改用付费/等待解除），
+   期间可以用上面的手工补发链接兜底。
