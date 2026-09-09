@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-10T03:34:19",
+  "updated": "2026-09-10T04:01:42",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-10T03:34",
+      "d": "2026-09-10T04:01",
       "t": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能",
       "s": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260909/974208.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-10T03:45",
+      "t": "苹果 iOS / iPadOS 27 RC 更新日志：升级 Siri AI，增强家长管控等",
+      "s": "苹果公司今日正式推送了 iOS / iPadOS 27 RC，正式版将于 9 月 15 日推出。IT之家附上 iOS /…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/000/536.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-10T03:35",
+      "t": "苹果 macOS 27 RC 更新日志：全新 Siri AI、界面更精致、体验更可靠",
+      "s": "苹果今日向 Mac 电脑用户推送了 macOS 27.0 RC 更新（内部版本号：26A428），本次更新距离上次发布 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/000/534.htm"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,20 @@
       "t": "别做梦了：AI Agent 永远“手搓”不出供应链计划系统",
       "s": "AI Agent 永远手搓不出供应链计划系统：自回归模型有砖无楼，概率猜想扛不住刚性物理。AI 只配做副驾驶，主驾必须是…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8133540.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-09T17:57",
-      "t": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
-      "s": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/486370.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-09T17:47",
-      "t": "DeepSeek已聘中信证券筹备科创板IPO，年内正式启动 | 钛快讯",
-      "s": "通过巨额资金投入，在算力、模型开发和人才吸纳等方面展开角逐，竞争态势日趋激烈。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8134206.html"
     }
   ],
   "timeline": [
     [
-      "09-10 03:34",
+      "09-10 04:01",
       "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能"
+    ],
+    [
+      "09-10 03:45",
+      "苹果 iOS / iPadOS 27 RC 更新日志：升级 Siri AI，增强家长管控等"
+    ],
+    [
+      "09-10 03:35",
+      "苹果 macOS 27 RC 更新日志：全新 Siri AI、界面更精致、体验更可靠"
     ],
     [
       "09-10 01:59",
@@ -158,14 +166,6 @@
     [
       "09-10 01:18",
       "苹果发布 A20 Pro 芯片：2nm 制程，最快手机 CPU 核心，GPU 较前代快 40%"
-    ],
-    [
-      "09-10 01:11",
-      "苹果发布 iPhone 18 Pro / Max：四种颜色、A20 Pro 芯片"
-    ],
-    [
-      "09-10 01:08",
-      "苹果特努斯首秀提出“智能个人中心”，iPhone 成为个人 AI 入口"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283924,
+      "s": 283937,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 257780,
+      "s": 257789,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 255033,
+      "s": 255047,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211858,
+      "s": 211865,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175413,
+      "s": 175414,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144556,
+      "s": 144561,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136832,
+      "s": 136834,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116361,
+      "s": 116363,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104535,
+      "s": 104539,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93191,
+      "s": 93195,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
