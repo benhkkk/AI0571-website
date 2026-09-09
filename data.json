@@ -1,26 +1,19 @@
 {
-  "updated": "2026-09-09T23:01:43",
+  "updated": "2026-09-09T23:31:40",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-09T23:01",
-      "t": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术",
-      "s": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750693.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-09T23:01",
-      "t": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例",
-      "s": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750625.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-09T23:01",
+      "d": "2026-09-09T23:31",
       "t": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能",
       "s": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260909/974208.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T23:29",
+      "t": "Claude Max 订阅条款出现“文字游戏”，用户将 Anthropic 告上法庭",
+      "s": "据外媒 The Verge 今天（9 日）报道，一批 Claude 用户将 Anthropic 告上法庭，指控其对最高档…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/000/486.htm"
     },
     {
       "c": "MODEL",
@@ -80,13 +73,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-09T19:00",
-      "t": "Anthropic AI 素养研究负责人斯旺森：真正擅长用 AI 的人，应该知道何时不用 AI",
-      "s": "据《商业内幕》今天（9 日）报道，Anthropic AI 素养研究与学习负责人克里斯滕 · 斯旺森的工作，是帮助人们更…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/000/397.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-09T18:59",
       "t": "AGI 怎样才算真的来了？",
       "s": "技术进步是连续的，历史叙事却总想选定一个瞬间（来源：钛媒体）",
@@ -140,20 +126,30 @@
       "t": "A股人形机器人中报：估值打到哪一年了？",
       "s": "把叙事还给叙事，把报表还给报表（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8133803.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-09T17:58",
+      "t": "150亿，无锡收获一个机器人IPO",
+      "s": "来自无锡。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8133805.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T17:58",
+      "t": "别做梦了：AI Agent 永远“手搓”不出供应链计划系统",
+      "s": "AI Agent 永远手搓不出供应链计划系统：自回归模型有砖无楼，概率猜想扛不住刚性物理。AI 只配做副驾驶，主驾必须是…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8133540.html"
     }
   ],
   "timeline": [
     [
-      "09-09 23:01",
-      "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术"
-    ],
-    [
-      "09-09 23:01",
-      "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例"
-    ],
-    [
-      "09-09 23:01",
+      "09-09 23:31",
       "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能"
+    ],
+    [
+      "09-09 23:29",
+      "Claude Max 订阅条款出现“文字游戏”，用户将 Anthropic 告上法庭"
     ],
     [
       "09-09 22:00",
@@ -166,6 +162,10 @@
     [
       "09-09 21:35",
       "消息称三星研发带显示屏的 AI 眼镜，预计最早明年下半年发布"
+    ],
+    [
+      "09-09 21:14",
+      "韩国国家超算 6 号机 12 月投运：理论算力是现有 5 号机 24 倍，性能剑指全球前十"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283812,
+      "s": 283832,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 257601,
+      "s": 257617,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 254849,
+      "s": 254876,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211813,
+      "s": 211819,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175381,
+      "s": 175383,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144528,
+      "s": 144532,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136795,
+      "s": 136801,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116292,
+      "s": 116304,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104487,
+      "s": 104493,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93158,
+      "s": 93163,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
