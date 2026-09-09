@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-10T05:01:32",
+  "updated": "2026-09-10T05:31:31",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-10T05:01",
+      "d": "2026-09-10T05:31",
       "t": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能",
       "s": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260909/974208.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-10T05:03",
+      "t": "证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关",
+      "s": "在 AI 照片近乎以假乱真的年代，苹果为最新发布的 iPhone 18 Pro 系列手机带来一项标注真实照片功能。苹果在…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/000/544.htm"
     },
     {
       "c": "MODEL",
@@ -63,13 +70,6 @@
       "t": "苹果特努斯首秀提出“智能个人中心”，iPhone 成为个人 AI 入口",
       "s": "苹果公司首席执行官约翰 · 特努斯在 iPhone 发布会开场提出，将把 iPhone 定位为“智能个人中心”（inte…（来源：IT之家）",
       "u": "https://www.ithome.com/1/000/492.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-09T23:29",
-      "t": "Claude Max 订阅条款出现“文字游戏”，用户将 Anthropic 告上法庭",
-      "s": "据外媒 The Verge 今天（9 日）报道，一批 Claude 用户将 Anthropic 告上法庭，指控其对最高档…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/000/486.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-10 05:01",
+      "09-10 05:31",
       "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能"
+    ],
+    [
+      "09-10 05:03",
+      "证明照片不是 AI：苹果 iPhone 18 Pro 支持像素级标注真实图像数据，但又和国内无关"
     ],
     [
       "09-10 03:45",
@@ -162,10 +166,6 @@
     [
       "09-10 01:59",
       "苹果 Apple Watch Series 12 和 Ultra 4 发布：全新 AI 健康、对话摘要，陶瓷表壳回归"
-    ],
-    [
-      "09-10 01:25",
-      "苹果 Siri AI 发布，支持中文但首发无缘中国大陆"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283961,
+      "s": 283969,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 257802,
+      "s": 257811,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 255070,
+      "s": 255085,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175416,
+      "s": 175417,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144564,
+      "s": 144566,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136845,
+      "s": 136847,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116371,
+      "s": 116377,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93198,
+      "s": 93200,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
