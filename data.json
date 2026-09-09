@@ -1,12 +1,33 @@
 {
-  "updated": "2026-09-09T20:31:47",
+  "updated": "2026-09-09T21:01:45",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-09T21:01",
+      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
+      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-09T20:31",
+      "d": "2026-09-09T21:01",
       "t": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能",
       "s": "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260909/974208.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T20:57",
+      "t": "全球首个千亿级参数气象服务垂域模型：“风和”V1.0 实现业务准入",
+      "s": "中国气象局官方公众号今天（9 日）晚间发文宣布，生成式人工智能气象服务系统“风和”模型 V1.0 通过中国气象局组织的专…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/000/438.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-09T20:35",
+      "t": "我国发布第八批新职业：具身智能机器人应用技术员等 11 个新职业、新能源汽车检测员等 23 个新工种",
+      "s": "据新华社今天（9 日）报道，人力资源社会保障部等部门发布第八批新职业，包括 11 个新职业和 23 个新工种。11 个新…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/000/429.htm"
     },
     {
       "c": "FUNDING",
@@ -119,33 +140,24 @@
       "t": "别做梦了：AI Agent 永远“手搓”不出供应链计划系统",
       "s": "AI Agent 永远手搓不出供应链计划系统：自回归模型有砖无楼，概率猜想扛不住刚性物理。AI 只配做副驾驶，主驾必须是…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8133540.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-09T17:57",
-      "t": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力",
-      "s": "国产AI4S计算平台登场亮相2026外滩大会 算力技术与人才布局双向发力（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/486370.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-09T17:47",
-      "t": "吉卜力工作室制作人铃木敏夫谈“吉卜力风”AI 图：如我所料，大家很快就看腻了",
-      "s": "据日本《朝日新闻》当地时间 9 月 6 日报道，吉卜力工作室制作人铃木敏夫近期谈到了宫崎骏导演独特的创作方式，以及生成式…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/000/360.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-09T17:47",
-      "t": "DeepSeek已聘中信证券筹备科创板IPO，年内正式启动 | 钛快讯",
-      "s": "通过巨额资金投入，在算力、模型开发和人才吸纳等方面展开角逐，竞争态势日趋激烈。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8134206.html"
     }
   ],
   "timeline": [
     [
-      "09-09 20:31",
+      "09-09 21:01",
+      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
+    ],
+    [
+      "09-09 21:01",
       "第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能"
+    ],
+    [
+      "09-09 20:57",
+      "全球首个千亿级参数气象服务垂域模型：“风和”V1.0 实现业务准入"
+    ],
+    [
+      "09-09 20:35",
+      "我国发布第八批新职业：具身智能机器人应用技术员等 11 个新职业、新能源汽车检测员等 23 个新工种"
     ],
     [
       "09-09 19:13",
@@ -154,18 +166,6 @@
     [
       "09-09 19:00",
       "Anthropic AI 素养研究负责人斯旺森：真正擅长用 AI 的人，应该知道何时不用 AI"
-    ],
-    [
-      "09-09 18:59",
-      "AGI 怎样才算真的来了？"
-    ],
-    [
-      "09-09 18:59",
-      "比亚迪、宁德时代力挺，铜博科技二闯IPO，AI风口难解“造血”之困"
-    ],
-    [
-      "09-09 18:59",
-      "GPT Image 2.5来了，OpenAI开始抄Banana的作业"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 283716,
+      "s": 283732,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 257470,
+      "s": 257491,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 254756,
+      "s": 254778,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 211774,
+      "s": 211779,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175360,
+      "s": 175364,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144520,
+      "s": 144522,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136781,
+      "s": 136785,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116232,
+      "s": 116241,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104463,
+      "s": 104469,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
