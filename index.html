@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-10T22:25', t:'OpenAI 将为美国政府机构提供 AI 模型五折优惠，终止每年 1 美元试点项目', s:'据彭博社报道，美国总务管理局（GSA）发布声明称，OpenAI 将终止一项政府机构试点项目。该项目允许政府机构每年仅花 …（来源：IT之家）', u:'https://www.ithome.com/1/001/015.htm'},
     {c:'MODEL', d:'2026-09-10T21:39', t:'走出聊天框，Agent 开始进入现实世界', s:'头图来源：小度 Agent 正在寻找自己的「身体」。 过去一年，智能体的主要工作对象是文件、网页和软件。它们可以搜索资料…（来源：极客公园）', u:'http://www.geekpark.net/news/370064'},
     {c:'MODEL', d:'2026-09-10T21:36', t:'微信，悄悄迈出 AI 社交的第一步', s:'头图来源：视觉中国、ChatGPT 生成 最近，微信开始小范围测试一项新的「小微 AI 社交」功能。 用户如果想联系一位…（来源：极客公园）', u:'http://www.geekpark.net/news/370155'},
     {c:'FUNDING', d:'2026-09-10T21:21', t:'吉利银河 TT 正式上市：定位 C 级 AI 纯电运动轿车，12.99 万-18.59 万元', s:'吉利银河旗下全新 C 级 AI 纯电运动轿车 —— 吉利银河 TT 今天（10 日）晚间正式上市，共推出五大版型，上市限…（来源：IT之家）', u:'https://www.ithome.com/1/001/003.htm'},
@@ -471,7 +472,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-10T19:41', t:'对话极壳创始人孙宽：年出货 3 万台后，外骨骼「全班第一」的成长和焦虑', s:'在刚刚结束的 IFA 柏林国际消费电子展上，几乎每家机器人公司的展台上，都会摆上一台可穿戴外骨骼设备。就像 10 年前…（来源：极客公园）', u:'http://www.geekpark.net/news/370150'},
     {c:'MODEL', d:'2026-09-10T19:38', t:'全国首个，乐聚联合安徽电信、华为发布 5G-A 具身智能专属套餐', s:'乐聚机器人今日宣布，联合安徽电信、华为发布全国首个 5G-A 具身智能专属套餐「具身翼联」，同步落地业界首个 5G-A …（来源：IT之家）', u:'https://www.ithome.com/1/000/975.htm'},
     {c:'FUNDING', d:'2026-09-10T19:32', t:'知情人士回应“月之暗面拟赴香港、上海双重上市”：消息不实', s:'今日，有报道称，国内头部大模型企业月之暗面正考虑在香港和上海两地上市，以借此获得更多资金。对此，知情人士独家对《科创板日…（来源：IT之家）', u:'https://www.ithome.com/1/000/973.htm'},
-    {c:'MODEL', d:'2026-09-10T19:19', t:'开发者用 Claude 一小时复刻 Win3.1 程序管理器，可在 Win11 和 macOS 上运行', s:'如果你想在 Windows 11 或 macOS 设备上快速回味一把复古 Windows 体验，这款主打氛围感还原的 W…（来源：IT之家）', u:'https://www.ithome.com/1/000/969.htm'},
     {c:'MODEL', d:'2026-09-10T19:00', t:'深度解读 DeepSeek V4.1 Flash 全新架构，如何成为显存杀手', s:'KV 缓存暴降 437 倍，Agent 成本大洗牌。 作者丨高允毅 编辑丨岑 峰 刚刚 DeepSeek V4.1-Fl…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/U8PtVze3OZTTnJc4.html'},
     {c:'INDUSTRY', d:'2026-09-10T18:50', t:'无人车拐点：中国供应链降维打击', s:'自动驾驶的竞争，已经从技术验证阶段，进入了制度效率与成本结构的对决。（来源：钛媒体）', u:'https://www.tmtpost.com/8135479.html'},
     {c:'HOT', d:'2026-09-10T18:50', t:'智谱“既要又要”', s:'离“中国版Anthropic”还有多远？（来源：钛媒体）', u:'https://www.tmtpost.com/8134990.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-10T18:30', t:'新Siri终于开始理解用户“个人上下文”了', s:'Siri AI本月上线，苹果手表实时感知（来源：钛媒体）', u:'https://www.tmtpost.com/8134782.html'},
   ];
   const TIMELINE = [
+    ['09-10 22:25','OpenAI 将为美国政府机构提供 AI 模型五折优惠，终止每年 1 美元试点项目'],
     ['09-10 21:39','走出聊天框，Agent 开始进入现实世界'],
     ['09-10 21:36','微信，悄悄迈出 AI 社交的第一步'],
     ['09-10 21:21','吉利银河 TT 正式上市：定位 C 级 AI 纯电运动轿车，12.99 万-18.59 万元'],
     ['09-10 21:19','AI无限拉低创作门槛，内容平台怎么讲新故事'],
     ['09-10 21:14','九方智投“股道智航”正式发布：“AI+量化”重新定义证券投顾4.0时代'],
-    ['09-10 21:06','首届 CMG 世界机器人登泰山大赛定档 10 月 29 日，参赛“选手”将挑战真实登山盘道'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284446, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:258463, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255622, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212035, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175571, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144637, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136920, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116590, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104671, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93335, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284468, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:258498, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255637, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212043, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175576, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144638, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136923, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116597, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104678, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93341, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
