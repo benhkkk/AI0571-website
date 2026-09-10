@@ -459,7 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-09-10T08:22', t:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能', s:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260909/974208.shtml'},
+    {c:'HOT', d:'2026-09-10T08:31', t:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能', s:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260909/974208.shtml'},
+    {c:'FUNDING', d:'2026-09-10T08:20', t:'Edge AI Daily 早报（9月10日）', s:'OpenAI暗模型破解千禧年难题[Navier-Stokes]，但陷学术伦理争议；Nvidia 129亿美元收购Hugg…（来源：钛媒体）', u:'https://www.tmtpost.com/8134718.html'},
     {c:'MODEL', d:'2026-09-10T08:09', t:'OpenAI 悄然收紧 ChatGPT 广告政策，禁止 Adobe 等竞品投放 AI 生图与音频广告', s:'OpenAI 最近刚刚推出了 ChatGPT Images 2.5 图像生成模型以及 ChatGPT Live 语音功能…（来源：IT之家）', u:'https://www.ithome.com/1/000/568.htm'},
     {c:'FUNDING', d:'2026-09-10T08:02', t:'IT早报 0910：苹果发首款折叠屏 iPhone Duo、iPhone 18 Pro 系列；老款 iPhone 集体涨价；曝 DeepSeek 备战科创板 IPO；唐家三少批 AI 洗稿...', s:'“IT早报”时间，大家好，现在是 2026 年 9 月 10 日星期四，今天的重要科技资讯有：1. 苹果 iPhone …（来源：IT之家）', u:'https://www.ithome.com/1/000/567.htm'},
     {c:'MODEL', d:'2026-09-10T07:53', t:'Anthropic 披露第四起 Claude 模型未经授权访问真实第三方系统的安全事件', s:'Anthropic 于当地时间 9 月 9 日发文，确认一起发生于 2026 年 1 月的安全事件，也是 Anthrop…（来源：IT之家）', u:'https://www.ithome.com/1/000/565.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-09T18:37', t:'GPT Images 2.5 突发上线！网友的「灵魂画作」一个比一个离谱', s:'过于抽象#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1679329?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-09T18:22', t:'全球首个诊脉灵巧手亮相，打造它的公司却说自己只做触觉', s:'2026年以来，具身智能依旧是一级市场最受关注的赛道之一。本体、模型、场景和应用的竞争持续升温，连带着上游的传感器环节也…（来源：雷锋网）', u:'https://www.leiphone.com/category/robot/nDORMeqWgd7ZV76p.html'},
     {c:'INDUSTRY', d:'2026-09-09T18:02', t:'实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug', s:'实测星火X2.5：手搓粒子月亮、拆完61页财报……还揪出了我的Bug（来源：量子位）', u:'https://www.qbitai.com/2026/09/486374.html'},
-    {c:'HOT', d:'2026-09-09T17:58', t:'A股人形机器人中报：估值打到哪一年了？', s:'把叙事还给叙事，把报表还给报表（来源：钛媒体）', u:'https://www.tmtpost.com/8133803.html'},
   ];
   const TIMELINE = [
-    ['09-10 08:22','第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能'],
+    ['09-10 08:31','第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能'],
+    ['09-10 08:20','Edge AI Daily 早报（9月10日）'],
     ['09-10 08:09','OpenAI 悄然收紧 ChatGPT 广告政策，禁止 Adobe 等竞品投放 AI 生图与音频广告'],
     ['09-10 08:02','IT早报 0910：苹果发首款折叠屏 iPhone Duo、iPhone 18 Pro 系列；老款 iPhone 集体涨价；曝 DeepSeek 备战科创板 I…'],
     ['09-10 07:53','Anthropic 披露第四起 Claude 模型未经授权访问真实第三方系统的安全事件'],
     ['09-10 07:20','【钛晨报】北京印发重磅发展规划，事关人工智能、芯片、商业航天等；知情人士证实DeepSeek备战科创板IPO，中信已入场尽调；燧原科技将于9月11日上市'],
-    ['09-10 07:14','苹果 Apple Watch 将增 AI 音频功能：全天谈话划重点 / 回顾 15 秒对话'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284017, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:257861, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255167, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284019, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:257862, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255171, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211880, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175428, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144572, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144573, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136858, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116394, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104558, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93218, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116397, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104560, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93221, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
