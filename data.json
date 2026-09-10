@@ -1,23 +1,9 @@
 {
-  "updated": "2026-09-11T02:31:50",
+  "updated": "2026-09-11T03:01:59",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-11T02:31",
-      "t": "#2024人工智能+仪器",
-      "s": "#2024人工智能+仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-621.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-11T02:31",
-      "t": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维",
-      "s": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241209/758413.shtml"
-    },
-    {
       "c": "INDUSTRY",
-      "d": "2026-09-11T02:31",
+      "d": "2026-09-11T03:01",
       "t": "睿创燧石亮相2026中国应急展，红外热成像+AI赋能应急新生态！",
       "s": "睿创燧石亮相2026中国应急展，红外热成像+AI赋能应急新生态！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260910/974963.shtml"
@@ -140,19 +126,25 @@
       "t": "蚂蚁数科推出 Agentar 金融版 助力金融机构打造智能体超级工厂",
       "s": "9月10日，在2026 Inclusion·外滩大会见解论坛上，蚂蚁数科AI业务总裁余滨表示，蚂蚁数科推出Agentar…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/HoBDVtC0QpjjwVfv.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-10T18:47",
+      "t": "蚂蚁陈亮：能力决定AI能做什么，可信决定社会敢把什么交给AI",
+      "s": "随着AI从回答问题走向调用工具、连接服务、完成任务，甚至参与交易，安全正在从模型外围的一道防线，成为AI进入真实经济活动…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/X2TDF0nWzEIkJnmf.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-10T18:43",
+      "t": "智象未来 vivago R1 全球上线，国内版本「够搭」全新升级发布：从 15 秒到5 分钟，AI 视频创作进入单反级交付时代",
+      "s": "2026年9月8日，智象未来（HiDream.ai）旗下内容创作智能体 vivago R1 全球上线，国内版本 「够搭」…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/7VtjXHgiuTlhpNkU.html"
     }
   ],
   "timeline": [
     [
-      "09-11 02:31",
-      "#2024人工智能+仪器"
-    ],
-    [
-      "09-11 02:31",
-      "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维"
-    ],
-    [
-      "09-11 02:31",
+      "09-11 03:01",
       "睿创燧石亮相2026中国应急展，红外热成像+AI赋能应急新生态！"
     ],
     [
@@ -166,6 +158,14 @@
     [
       "09-10 22:25",
       "OpenAI 将为美国政府机构提供 AI 模型五折优惠，终止每年 1 美元试点项目"
+    ],
+    [
+      "09-10 21:39",
+      "走出聊天框，Agent 开始进入现实世界"
+    ],
+    [
+      "09-10 21:36",
+      "微信，悄悄迈出 AI 社交的第一步"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 284587,
+      "s": 284600,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 258690,
+      "s": 258701,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 255752,
+      "s": 255765,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212076,
+      "s": 212083,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175626,
+      "s": 175630,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136944,
+      "s": 136947,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116656,
+      "s": 116664,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104709,
+      "s": 104712,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93369,
+      "s": 93370,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
