@@ -459,8 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-10T11:31', t:'安捷伦在美国推出Agilent S540MD切片扫描系统，全面拓展数字病理产品组合', s:'安捷伦在美国推出Agilent S540MD切片扫描系统，全面拓展数字病理产品组合（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260910/974433.shtml'},
-    {c:'HOT', d:'2026-09-10T11:31', t:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能', s:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260909/974208.shtml'},
+    {c:'MODEL', d:'2026-09-10T12:02', t:'光子精密 AI 旗舰店上线｜一站式精密视觉检测选型', s:'光子精密 AI 旗舰店上线｜一站式精密视觉检测选型（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260910/974541.shtml'},
+    {c:'MEDPHARMA', d:'2026-09-10T12:02', t:'安捷伦在美国推出Agilent S540MD切片扫描系统，全面拓展数字病理产品组合', s:'安捷伦在美国推出Agilent S540MD切片扫描系统，全面拓展数字病理产品组合（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260910/974433.shtml'},
+    {c:'HOT', d:'2026-09-10T12:02', t:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能', s:'第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260909/974208.shtml'},
+    {c:'MODEL', d:'2026-09-10T11:38', t:'System76 发布 AM5 工作站 Thelio Mira AI，支持双卡配置', s:'美国 Linux PC 制造商 System76 当地时间昨日发布了 Thelio Mira AI 工作站系统。该系列基…（来源：IT之家）', u:'https://www.ithome.com/1/000/632.htm'},
+    {c:'MODEL', d:'2026-09-10T11:30', t:':fire: 对话即是开发—— ApiGo 智能数据服务平台', s:'AI 大模型时代环境下，把数据库变成安全、受治理、可被 AI 调用的数据服务，需要多久？ ApiGo 的答案是：一句话的…（来源：OSCHINA）', u:'https://www.oschina.net/news/502402'},
     {c:'INDUSTRY', d:'2026-09-10T11:20', t:'中国算力“西进”，北部、西北部有望成为最大数据中心区域市场', s:'北部和西北部市场有望在2028年超越长三角，成为中国最大的数据中心区域市场。（来源：钛媒体）', u:'https://www.tmtpost.com/8135029.html'},
     {c:'MODEL', d:'2026-09-10T11:17', t:'蚂蚁国际联合 Visa、万事达卡合作开发 AI 支付新标准', s:'蚂蚁国际预计消费者和企业将越来越多地使用 AI 智能体完成交易，于是今日宣布与 Visa 和 Mastercard 万事…（来源：IT之家）', u:'https://www.ithome.com/1/000/625.htm'},
     {c:'HOT', d:'2026-09-10T11:13', t:'扔掉遥控器，是具身智能的终极关卡', s:'机器人赛事揭示“遥控”争议，推动具身智能发展。（来源：钛媒体）', u:'https://www.tmtpost.com/8134608.html'},
@@ -471,34 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-10T10:40', t:'小米推出米家智能净烟机 3 Max：AI 全程托管控烟，国补价 4599 元', s:'小米官方今日宣布推出米家智能净烟机 3 Max 以及米家定时燃气灶 3 Max 并开启预售，前者官方指导价 5999 元…（来源：IT之家）', u:'https://www.ithome.com/1/000/615.htm'},
     {c:'FUNDING', d:'2026-09-10T10:24', t:'10.18 万元广汽埃安 RT 605 智享版上市：非晶合金电驱 + 碳化硅电控 + 宁德时代电池', s:'广汽埃安官方今日宣布加推埃安 RT 605 智享版，官方指导价 10.18 万元。据IT之家此前报道，2027 款 AI…（来源：IT之家）', u:'https://www.ithome.com/1/000/607.htm'},
     {c:'MODEL', d:'2026-09-10T10:11', t:'DeepSeek 快速、专家、识图模式合并升级，V4.1 Flash 最快今日发布', s:'DeepSeek 今日宣布将原有的快速模式、专家模式和识图模式合而为一，这意味着用户将不再需要手动切换。DeepSeek…（来源：IT之家）', u:'https://www.ithome.com/1/000/602.htm'},
+    {c:'MODEL', d:'2026-09-10T09:55', t:'营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 达成深度合作，让品牌更高效连接全球 500 万创作者', s:'【北京，2026年9月10日】 —— 营销科技巨头蓝色光标与全球达人营销 AI 平台 AhaCreator 正式宣布达成…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/SryBDMCG0EzBrvqk.html'},
     {c:'HOT', d:'2026-09-10T09:46', t:'iPhone涨1000、折叠屏15999元，苹果更大、更贵、更能打？', s:'国行AI还要等，旧款17也涨价了。（来源：钛媒体）', u:'https://www.tmtpost.com/8134795.html'},
     {c:'HOT', d:'2026-09-10T09:45', t:'OpenAI 新董事严厉警告：AI 失控将是灾难性的，大多数人可能丧命', s:'北京时间 9 月 10 日，据《商业内幕》报道，OpenAI 周三宣布保罗 · 克里斯蒂亚诺 (Paul Christi…（来源：IT之家）', u:'https://www.ithome.com/1/000/587.htm'},
     {c:'MODEL', d:'2026-09-10T09:39', t:'打造10万卡国产算力集群推出JoyAI世界模型，京东发布物理AI建设最新成果', s:'9月9日，以“JoyAI · 跃迁物理世界”为主题的JDDiscovery-2026京东全球科技探索者大会在北京举行（来源：量子位）', u:'https://www.qbitai.com/2026/09/486436.html'},
     {c:'MODEL', d:'2026-09-10T09:23', t:'deepwork企业 AI 工作台预览版', s:'从 openclaw 开始，公司老板们经历了一场又一场的热潮，deepchat 也跟随升级为 deepwork，开始探索…（来源：OSCHINA）', u:'https://www.oschina.net/news/502400'},
-    {c:'MODEL', d:'2026-09-10T09:11', t:'OpenAI ChatGPT 语音模式支持调用 GPT-5.6 Sol 和 GPT-6 Astra', s:'OpenAI 语音产品负责人 Atty Eleti 今日宣布，在 ChatGPT 语音模式（ChatGPT Voice）…（来源：IT之家）', u:'https://www.ithome.com/1/000/577.htm'},
-    {c:'FUNDING', d:'2026-09-10T08:58', t:'苹果进入特努斯时代，首发 15999 元折叠屏 iPhone；Deepseek 被曝备战科创板 IPO；谷歌埃森哲组建千人 FDE 团队 | 极客早知道', s:'苹果首款折叠 iPhone Duo 亮相，国行 15999 元起 北京时间 9 月 10 日凌晨，苹果发布首款折叠手机 …（来源：极客公园）', u:'http://www.geekpark.net/news/370089'},
-    {c:'INDUSTRY', d:'2026-09-10T08:42', t:'实测星火X2.5：手搓粒子月亮、拆完61页财报……还顺手揪出了我的Bug', s:'赶上了API限时五折（来源：量子位）', u:'https://www.qbitai.com/2026/09/486350.html'},
-    {c:'FUNDING', d:'2026-09-10T08:20', t:'Edge AI Daily 早报（9月10日）', s:'OpenAI暗模型破解千禧年难题[Navier-Stokes]，但陷学术伦理争议；Nvidia 129亿美元收购Hugg…（来源：钛媒体）', u:'https://www.tmtpost.com/8134718.html'},
   ];
   const TIMELINE = [
-    ['09-10 11:31','安捷伦在美国推出Agilent S540MD切片扫描系统，全面拓展数字病理产品组合'],
-    ['09-10 11:31','第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能'],
+    ['09-10 12:02','光子精密 AI 旗舰店上线｜一站式精密视觉检测选型'],
+    ['09-10 12:02','安捷伦在美国推出Agilent S540MD切片扫描系统，全面拓展数字病理产品组合'],
+    ['09-10 12:02','第27届中国国际光电博览会开展首日盛况空前，“光 + AI”激活光电全产业链新动能'],
+    ['09-10 11:38','System76 发布 AM5 工作站 Thelio Mira AI，支持双卡配置'],
+    ['09-10 11:30',':fire: 对话即是开发—— ApiGo 智能数据服务平台'],
     ['09-10 11:20','中国算力“西进”，北部、西北部有望成为最大数据中心区域市场'],
-    ['09-10 11:17','蚂蚁国际联合 Visa、万事达卡合作开发 AI 支付新标准'],
-    ['09-10 11:13','扔掉遥控器，是具身智能的终极关卡'],
-    ['09-10 11:07','免费的代价：中国开源大模型出海为什么开始收费'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284105, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:257972, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255268, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211906, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175449, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144585, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136870, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116431, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284116, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:258000, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255284, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:211909, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175453, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144584, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136876, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116439, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104585, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93254, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93257, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
