@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-12T01:31:34",
+  "updated": "2026-09-12T02:01:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-12T01:31",
+      "d": "2026-09-12T02:01",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
@@ -14,20 +14,6 @@
       "t": "高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值",
       "s": "今年以来，华尔街一直在就 AI 热潮是否已经变成泡沫争论不休。高盛投资银行业务联席主管金 · 波斯内特却认为，真正值得问…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/474.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-11T22:05",
-      "t": "啊？Anthropic最高320万招销售，只为服务Meta",
-      "s": "原来你俩互相下单呢（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/487573.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T21:59",
-      "t": "百度秒哒再升级！让最懂业务的人，亲手造自己的系统",
-      "s": "把开发、交付和接单全打通了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/487415.html"
     },
     {
       "c": "MODEL",
@@ -140,24 +126,30 @@
       "t": "不堆 Transformer，斯坦福吴佳俊如何用物理重新定义多模态融合？｜ECCV 2026",
       "s": "视觉、听觉、触觉三种数据，其实是同一组物理属性在不同感官通道上的投影。 作者丨陈淑瑜 编辑丨岑 峰 2026年9月8日…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/private/rSWX8JI9JPPBvt0j.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-11T17:36",
+      "t": "Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险",
+      "s": "Y Combinator CEO 陈嘉兴认为，人们把太多注意力放在好莱坞式的 AI 末日情景上，反而忽视了已经摆在眼前的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/387.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:21",
+      "t": "AI新经济走向真实商业，蚂蚁APASS构建Agent信任基础设施",
+      "s": "9月11日，在2026 Inclusion·外滩大会AI支付论坛上，蚂蚁集团发布面向智能体（Agent）商业活动的信任基…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/gVe8AKc2ibKGewUO.html"
     }
   ],
   "timeline": [
     [
-      "09-12 01:31",
+      "09-12 02:01",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
       "09-11 23:48",
       "高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值"
-    ],
-    [
-      "09-11 22:05",
-      "啊？Anthropic最高320万招销售，只为服务Meta"
-    ],
-    [
-      "09-11 21:59",
-      "百度秒哒再升级！让最懂业务的人，亲手造自己的系统"
     ],
     [
       "09-11 21:55",
@@ -166,6 +158,14 @@
     [
       "09-11 21:15",
       "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据"
+    ],
+    [
+      "09-11 21:06",
+      "美国一律师用 ChatGPT 生成诉讼文书却出现伪造警察证词，被罚款 5000 美元"
+    ],
+    [
+      "09-11 20:59",
+      "GPU五小龙，燧原科技排第几？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285227,
+      "s": 285233,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259599,
+      "s": 259613,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256359,
+      "s": 256369,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212297,
+      "s": 212304,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175814,
+      "s": 175819,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144755,
+      "s": 144757,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137209,
+      "s": 137211,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116949,
+      "s": 116958,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104969,
+      "s": 104977,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93537,
+      "s": 93543,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
