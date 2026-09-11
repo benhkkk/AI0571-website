@@ -1,13 +1,6 @@
 {
-  "updated": "2026-09-11T12:55:57",
+  "updated": "2026-09-11T13:02:10",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-09-11T12:55",
-      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
-      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-11T12:37",
@@ -35,6 +28,13 @@
       "t": "【指数陪伴知识】AI制药是什么?三大商业模式盘点",
       "s": "【指数陪伴知识】AI制药是什么?三大商业模式盘点（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7684125420165480960/"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-11T11:57",
+      "t": "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中",
+      "s": "今年12月，北京，MEET2027智能未来大会！（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/487176.html"
     },
     {
       "c": "HOT",
@@ -144,10 +144,6 @@
   ],
   "timeline": [
     [
-      "09-11 12:55",
-      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
-    ],
-    [
       "09-11 12:37",
       "中国软件协会吕卫锋回应“AI 替代程序员”：高度重视，支持从业人员向高附加值岗位转型"
     ],
@@ -164,6 +160,10 @@
       "【指数陪伴知识】AI制药是什么?三大商业模式盘点"
     ],
     [
+      "09-11 11:57",
+      "量子位「MEET2027智能未来大会」启动！年度榜单征集进行中"
+    ],
+    [
       "09-11 11:52",
       "AIGCPanel v2.3.0 API 开放 + 全工具双语，AIGCPanel 变得「可编程」"
     ]
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 284821,
+      "s": 284825,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259030,
+      "s": 259033,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 255990,
+      "s": 255995,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212152,
+      "s": 212153,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
