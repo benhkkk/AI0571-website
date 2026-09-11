@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-11T17:01:45",
+  "updated": "2026-09-11T17:16:48",
   "news": [
     {
-      "c": "MEDDEVICE",
-      "d": "2026-09-11T17:01",
-      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
-      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+      "c": "HOT",
+      "d": "2026-09-11T17:16",
+      "t": "如何用Deepseek组装测序仪？",
+      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-11T17:01",
+      "d": "2026-09-11T17:16",
       "t": "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例",
       "s": "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975559.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:00",
+      "t": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题",
+      "s": "把一个人声从嘈杂的人群中剥离出来，人类的听觉系统做这件事毫不费力。但对 ASR 模型来说，多人同时讲话的场景至今是一个未…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502427/xiaomi-cocktailasr-1"
     },
     {
       "c": "HOT",
@@ -101,13 +108,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-11T14:51",
-      "t": "小米开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1",
-      "s": "小米技术今日发文宣布，小米正式发布并开源工业级目标说话人语音识别大模型 Xiaomi-CocktailASR-1。官方表…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/260.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-11T14:45",
       "t": "支付宝“碰一下”三年三连跳：从支付、连接到经营",
       "s": "9月11日，支付宝“碰一下”正式发布面向品牌商的无界经营智能体“图图”，依托百万级商家侧“碰一下”设备智能体网络，连接4…（来源：雷锋网）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-11 17:01",
-      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+      "09-11 17:16",
+      "如何用Deepseek组装测序仪？"
     ],
     [
-      "09-11 17:01",
+      "09-11 17:16",
       "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例"
+    ],
+    [
+      "09-11 17:00",
+      "小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题"
     ],
     [
       "09-11 16:55",
@@ -162,10 +166,6 @@
     [
       "09-11 16:49",
       "GPT-6 爆火 3D 案例被扒出「用了现成素材」，这次我们真做了一个"
-    ],
-    [
-      "09-11 16:46",
-      "OmniStudio | 一个本地优先、完全免费的开源桌面终端"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 284974,
+      "s": 284983,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259219,
+      "s": 259234,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256100,
+      "s": 256112,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212195,
+      "s": 212202,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175741,
+      "s": 175745,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144708,
+      "s": 144709,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137064,
+      "s": 137072,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116843,
+      "s": 116847,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104817,
+      "s": 104819,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93469,
+      "s": 93473,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
