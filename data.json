@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-11T12:02:24",
+  "updated": "2026-09-11T12:32:03",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-11T12:02",
-      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
-      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
+      "d": "2026-09-11T12:23",
+      "t": "奥尔特曼称 OpenAI 考虑放缓前沿 AI 开发，希望其他公司也能跟进",
+      "s": "北京时间 9 月 11 日，据彭博社报道，OpenAI 正在考虑放缓尖端 AI 的开发速度，该公司 CEO 萨姆 · 奥…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/219.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-11T12:02",
-      "t": "睿创燧石亮相2026中国应急展，红外热成像+AI赋能应急新生态！",
-      "s": "睿创燧石亮相2026中国应急展，红外热成像+AI赋能应急新生态！（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260910/974963.shtml"
+      "c": "MODEL",
+      "d": "2026-09-11T12:18",
+      "t": "当 AI 智能体开始干活 Arm 为什么更看重 CPU",
+      "s": "Arm 首席营销官 Ami Badani表示：“GPU 和 CPU 配比未来会逐步接近，甚至有可能趋近 1:1。”（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8136506.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-11T12:11",
+      "t": "【指数陪伴知识】AI制药是什么?三大商业模式盘点",
+      "s": "【指数陪伴知识】AI制药是什么?三大商业模式盘点（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7684125420165480960/"
     },
     {
       "c": "HOT",
@@ -133,23 +140,20 @@
       "t": "苹果详解 Apple Watch 的 Siri Recap：全天谈话划重点、AI 摘要 7 天自动删除",
       "s": "苹果公司今天（9 月 11 日）更新官方文档，详细介绍了在 Apple Watch Series 12 和 Apple …（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/127.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-11T10:18",
-      "t": "优地机器人，困在酒店舒适区",
-      "s": "空间智能的故事不好讲。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8135803.html"
     }
   ],
   "timeline": [
     [
-      "09-11 12:02",
-      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
+      "09-11 12:23",
+      "奥尔特曼称 OpenAI 考虑放缓前沿 AI 开发，希望其他公司也能跟进"
     ],
     [
-      "09-11 12:02",
-      "睿创燧石亮相2026中国应急展，红外热成像+AI赋能应急新生态！"
+      "09-11 12:18",
+      "当 AI 智能体开始干活 Arm 为什么更看重 CPU"
+    ],
+    [
+      "09-11 12:11",
+      "【指数陪伴知识】AI制药是什么?三大商业模式盘点"
     ],
     [
       "09-11 11:52",
@@ -162,10 +166,6 @@
     [
       "09-11 11:39",
       "AI制药竞争不在单点算法，而在数据质量、临床场景与转化机制..."
-    ],
-    [
-      "09-11 11:26",
-      "微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 284799,
+      "s": 284816,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 258995,
+      "s": 259020,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 255968,
+      "s": 255982,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212151,
+      "s": 212152,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175698,
+      "s": 175701,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136985,
+      "s": 136990,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116786,
+      "s": 116789,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104771,
+      "s": 104776,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93423,
+      "s": 93427,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
