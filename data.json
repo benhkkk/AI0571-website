@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-11T22:31:42",
+  "updated": "2026-09-11T23:01:45",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-11T22:31",
+      "d": "2026-09-11T23:01",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
@@ -21,13 +21,6 @@
       "t": "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据",
       "s": "未来十年，大模型与实体产业的深度结合，将触发全新的范式变革，不只会改变生产方式与组织模式，更会重构整个产业的价值逻辑。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8135323.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-11T21:12",
-      "t": "AI末日论者停不下末日论调，是时候听听他们怎么说了",
-      "s": "与新技术相关的末日式设想，已经是延续了一个多世纪的传统。但这一次，也许真的会不一样。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8137504.html"
     },
     {
       "c": "MODEL",
@@ -56,13 +49,6 @@
       "t": "摩尔线程解禁即跌停，一场国产GPU的“反厄尔尼诺”现象？",
       "s": "解禁即跌停。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8135737.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-11T20:36",
-      "t": "不靠AI驱动增长：8只精选个股",
-      "s": "这些公司的产品涵盖从纸板箱到新药等多个领域，而它们都正朝着利润翻倍的目标稳步前进。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8137427.html"
     },
     {
       "c": "FUNDING",
@@ -140,11 +126,25 @@
       "t": "Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险",
       "s": "Y Combinator CEO 陈嘉兴认为，人们把太多注意力放在好莱坞式的 AI 末日情景上，反而忽视了已经摆在眼前的…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/387.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:21",
+      "t": "AI新经济走向真实商业，蚂蚁APASS构建Agent信任基础设施",
+      "s": "9月11日，在2026 Inclusion·外滩大会AI支付论坛上，蚂蚁集团发布面向智能体（Agent）商业活动的信任基…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/gVe8AKc2ibKGewUO.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:00",
+      "t": "小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题",
+      "s": "把一个人声从嘈杂的人群中剥离出来，人类的听觉系统做这件事毫不费力。但对 ASR 模型来说，多人同时讲话的场景至今是一个未…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502427/xiaomi-cocktailasr-1"
     }
   ],
   "timeline": [
     [
-      "09-11 22:31",
+      "09-11 23:01",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
@@ -156,16 +156,16 @@
       "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据"
     ],
     [
-      "09-11 21:12",
-      "AI末日论者停不下末日论调，是时候听听他们怎么说了"
-    ],
-    [
       "09-11 21:06",
       "美国一律师用 ChatGPT 生成诉讼文书却出现伪造警察证词，被罚款 5000 美元"
     ],
     [
       "09-11 20:59",
       "GPU五小龙，燧原科技排第几？"
+    ],
+    [
+      "09-11 20:58",
+      "DeepSeek V4.1 Flash上线，崔添翼加入“义父之战”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285146,
+      "s": 285161,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259478,
+      "s": 259501,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256266,
+      "s": 256283,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212264,
+      "s": 212273,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175792,
+      "s": 175797,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144745,
+      "s": 144747,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137186,
+      "s": 137192,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116917,
+      "s": 116923,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104885,
+      "s": 104899,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93510,
+      "s": 93513,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
