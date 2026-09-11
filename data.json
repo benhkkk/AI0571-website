@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-11T19:31:24",
+  "updated": "2026-09-11T20:01:53",
   "news": [
     {
+      "c": "HOT",
+      "d": "2026-09-11T20:01",
+      "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
+      "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
       "c": "INDUSTRY",
-      "d": "2026-09-11T19:31",
-      "t": "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例",
-      "s": "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260911/975559.shtml"
+      "d": "2026-09-11T19:37",
+      "t": "七场顶尖决策者闭门会，寻找AI落地中最真实的经验与最前沿的判断",
+      "s": "找到迭代自己的节奏，追上AI变化的速度。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8134955.html"
     },
     {
       "c": "MEDDEVICE",
@@ -35,6 +42,13 @@
       "t": "在外滩大会上，我看到健康 AI+ 硬件的新可能",
       "s": "如何把让硬件+AI，变成用户能够长期使用的健康服务#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1679765?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:39",
+      "t": "不堆 Transformer，斯坦福吴佳俊如何用物理重新定义多模态融合？｜ECCV 2026",
+      "s": "视觉、听觉、触觉三种数据，其实是同一组物理属性在不同感官通道上的投影。 作者丨陈淑瑜 编辑丨岑 峰 2026年9月8日…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/private/rSWX8JI9JPPBvt0j.html"
     },
     {
       "c": "HOT",
@@ -126,26 +140,16 @@
       "t": "OmniStudio | 一个本地优先、完全免费的开源桌面终端",
       "s": "“把大模型装进电脑本地免费跑。”（来源：OSCHINA）",
       "u": "https://my.oschina.net/u/4806939/blog/19757902"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T16:30",
-      "t": "国内首个智能体可信身份工作组成立，阿里、华为、OPPO、联想、小米等加入",
-      "s": "今日，在 2026 Inclusion· 外滩大会上，IIFAA 智能体可信身份工作组正式成立。据了解，这是国内首个聚焦…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/360.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T16:03",
-      "t": "FocusAny v2.2.0 模型能力标识上线，SDK CLI 新增诊断与转发，插件资源按需下载",
-      "s": "FocusAny v2.2.0 带来三个方面的更新：大模型的能力标识变得更直观，SDK 命令行工具新增了诊断和转发命令…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502425"
     }
   ],
   "timeline": [
     [
-      "09-11 19:31",
-      "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例"
+      "09-11 20:01",
+      "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-11 19:37",
+      "七场顶尖决策者闭门会，寻找AI落地中最真实的经验与最前沿的判断"
     ],
     [
       "09-11 19:23",
@@ -162,10 +166,6 @@
     [
       "09-11 18:01",
       "在外滩大会上，我看到健康 AI+ 硬件的新可能"
-    ],
-    [
-      "09-11 17:36",
-      "Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285049,
+      "s": 285063,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259333,
+      "s": 259352,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256182,
+      "s": 256196,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175767,
+      "s": 175770,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144726,
+      "s": 144730,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137114,
+      "s": 137129,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116877,
+      "s": 116883,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104837,
+      "s": 104848,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93482,
+      "s": 93486,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
