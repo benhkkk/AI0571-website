@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-11T12:55', t:'聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕', s:'聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260727/948346.shtml'},
+    {c:'MODEL', d:'2026-09-11T12:37', t:'中国软件协会吕卫锋回应“AI 替代程序员”：高度重视，支持从业人员向高附加值岗位转型', s:'工信部今日召开《“人工智能 + 软件”专项行动实施方案》新闻发布会，有记者提到智能编程普及让一些软件从业人员感到压力，社…（来源：IT之家）', u:'https://www.ithome.com/1/001/220.htm'},
     {c:'HOT', d:'2026-09-11T12:23', t:'奥尔特曼称 OpenAI 考虑放缓前沿 AI 开发，希望其他公司也能跟进', s:'北京时间 9 月 11 日，据彭博社报道，OpenAI 正在考虑放缓尖端 AI 的开发速度，该公司 CEO 萨姆 · 奥…（来源：IT之家）', u:'https://www.ithome.com/1/001/219.htm'},
     {c:'MODEL', d:'2026-09-11T12:18', t:'当 AI 智能体开始干活 Arm 为什么更看重 CPU', s:'Arm 首席营销官 Ami Badani表示：“GPU 和 CPU 配比未来会逐步接近，甚至有可能趋近 1:1。”（来源：钛媒体）', u:'https://www.tmtpost.com/8136506.html'},
     {c:'MEDPHARMA', d:'2026-09-11T12:11', t:'【指数陪伴知识】AI制药是什么?三大商业模式盘点', s:'【指数陪伴知识】AI制药是什么?三大商业模式盘点（来源：头条医药AI）', u:'https://www.toutiao.com/article/7684125420165480960/'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-11T10:36', t:'AI时代，谁在做游戏？', s:'人人皆可做游戏，正在变成现实。（来源：钛媒体）', u:'https://www.tmtpost.com/8136177.html'},
     {c:'FUNDING', d:'2026-09-11T10:34', t:'“国产 GPU 四小龙”之一燧原科技今日科创板上市，股价最高涨超 200%', s:'“国产 GPU 四小龙”之一燧原科技今日（9 月 11 日）正式在上海证券交易所科创板上市，开盘股价最高涨到 460 元…（来源：IT之家）', u:'https://www.ithome.com/1/001/132.htm'},
     {c:'MODEL', d:'2026-09-11T10:26', t:'Cognition 发布 SWE-2：用 Kimi K3 做基座，RL 后训练追平 Fable 5.1', s:'Cognition 昨天发布了 SWE-2，一个从 Kimi K3（2.8T 参数）通过 RL 后训练而来的编码 Age…（来源：OSCHINA）', u:'https://www.oschina.net/news/502413/cognition-swe-2'},
-    {c:'HOT', d:'2026-09-11T10:24', t:'8.8 元买 5000 积分？央视曝光 AI 中转站低价灰产，小心你的代码被截留倒卖', s:'二手交易平台出现大量低价 AI 工具积分，8.8 元可买官方售价 250 元的 5000 积分，9.9 元可买 1 万积…（来源：IT之家）', u:'https://www.ithome.com/1/001/129.htm'},
-    {c:'MODEL', d:'2026-09-11T10:21', t:'苹果详解 Apple Watch 的 Siri Recap：全天谈话划重点、AI 摘要 7 天自动删除', s:'苹果公司今天（9 月 11 日）更新官方文档，详细介绍了在 Apple Watch Series 12 和 Apple …（来源：IT之家）', u:'https://www.ithome.com/1/001/127.htm'},
   ];
   const TIMELINE = [
+    ['09-11 12:55','聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕'],
+    ['09-11 12:37','中国软件协会吕卫锋回应“AI 替代程序员”：高度重视，支持从业人员向高附加值岗位转型'],
     ['09-11 12:23','奥尔特曼称 OpenAI 考虑放缓前沿 AI 开发，希望其他公司也能跟进'],
     ['09-11 12:18','当 AI 智能体开始干活 Arm 为什么更看重 CPU'],
     ['09-11 12:11','【指数陪伴知识】AI制药是什么?三大商业模式盘点'],
     ['09-11 11:52','AIGCPanel v2.3.0 API 开放 + 全工具双语，AIGCPanel 变得「可编程」'],
-    ['09-11 11:49','自动驾驶关键一年，“体系化能力”决定终局？'],
-    ['09-11 11:39','AI制药竞争不在单点算法，而在数据质量、临床场景与转化机制...'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284816, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:259020, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255982, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284821, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:259030, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:255990, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212152, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175701, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144695, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136990, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116789, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104776, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93427, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175703, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144696, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:136999, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116793, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104779, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93429, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
