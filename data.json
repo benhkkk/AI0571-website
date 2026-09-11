@@ -1,23 +1,9 @@
 {
-  "updated": "2026-09-12T01:26:01",
+  "updated": "2026-09-12T01:31:34",
   "news": [
     {
-      "c": "FUNDING",
-      "d": "2026-09-12T01:25",
-      "t": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会",
-      "s": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-717.html"
-    },
-    {
       "c": "HOT",
-      "d": "2026-09-12T01:25",
-      "t": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕",
-      "s": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250831/833853.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-12T01:25",
+      "d": "2026-09-12T01:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
@@ -140,19 +126,25 @@
       "t": "在外滩大会上，我看到健康 AI+ 硬件的新可能",
       "s": "如何把让硬件+AI，变成用户能够长期使用的健康服务#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1679765?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-11T17:59",
+      "t": "半世纪前的AI画作到AI歌手线下开唱，2026外滩大会AI艺术节勾勒人机共创新图景",
+      "s": "当AI开始绘画、拍电影，甚至“出道”成为艺人，艺术的边界在哪里？9月9日，随着2026 Inclusion·外滩大会在上…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/9kc5LWEjsnYINmQO.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:39",
+      "t": "不堆 Transformer，斯坦福吴佳俊如何用物理重新定义多模态融合？｜ECCV 2026",
+      "s": "视觉、听觉、触觉三种数据，其实是同一组物理属性在不同感官通道上的投影。 作者丨陈淑瑜 编辑丨岑 峰 2026年9月8日…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/private/rSWX8JI9JPPBvt0j.html"
     }
   ],
   "timeline": [
     [
-      "09-12 01:25",
-      "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会"
-    ],
-    [
-      "09-12 01:25",
-      "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕"
-    ],
-    [
-      "09-12 01:25",
+      "09-12 01:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
@@ -166,6 +158,14 @@
     [
       "09-11 21:59",
       "百度秒哒再升级！让最懂业务的人，亲手造自己的系统"
+    ],
+    [
+      "09-11 21:55",
+      "全球首款 AI 智能体手机，努比亚 NaviX Ultra 将搭载 2 亿像素主摄"
+    ],
+    [
+      "09-11 21:15",
+      "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285225,
+      "s": 285227,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259597,
+      "s": 259599,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256357,
+      "s": 256359,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212294,
+      "s": 212297,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116947,
+      "s": 116949,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104966,
+      "s": 104969,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
