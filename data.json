@@ -1,9 +1,23 @@
 {
-  "updated": "2026-09-12T01:01:31",
+  "updated": "2026-09-12T01:26:01",
   "news": [
     {
+      "c": "FUNDING",
+      "d": "2026-09-12T01:25",
+      "t": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会",
+      "s": "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-717.html"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-12T01:01",
+      "d": "2026-09-12T01:25",
+      "t": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕",
+      "s": "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250831/833853.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-12T01:25",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
@@ -44,13 +58,6 @@
       "u": "https://www.tmtpost.com/8135323.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-11T21:12",
-      "t": "AI末日论者停不下末日论调，是时候听听他们怎么说了",
-      "s": "与新技术相关的末日式设想，已经是延续了一个多世纪的传统。但这一次，也许真的会不一样。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8137504.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-11T21:06",
       "t": "美国一律师用 ChatGPT 生成诉讼文书却出现伪造警察证词，被罚款 5000 美元",
@@ -77,13 +84,6 @@
       "t": "摩尔线程解禁即跌停，一场国产GPU的“反厄尔尼诺”现象？",
       "s": "解禁即跌停。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8135737.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-11T20:36",
-      "t": "不靠AI驱动增长：8只精选个股",
-      "s": "这些公司的产品涵盖从纸板箱到新药等多个领域，而它们都正朝着利润翻倍的目标稳步前进。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8137427.html"
     },
     {
       "c": "FUNDING",
@@ -144,7 +144,15 @@
   ],
   "timeline": [
     [
-      "09-12 01:01",
+      "09-12 01:25",
+      "#2025上海AI+仪器仪表产业集聚区高峰论坛暨投融资峰会"
+    ],
+    [
+      "09-12 01:25",
+      "智造共融启新程丨2025上海AI+仪器仪表集聚区高峰论坛圆满落幕"
+    ],
+    [
+      "09-12 01:25",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
@@ -158,14 +166,6 @@
     [
       "09-11 21:59",
       "百度秒哒再升级！让最懂业务的人，亲手造自己的系统"
-    ],
-    [
-      "09-11 21:55",
-      "全球首款 AI 智能体手机，努比亚 NaviX Ultra 将搭载 2 亿像素主摄"
-    ],
-    [
-      "09-11 21:15",
-      "京东启动物理 AI 加速计划：两年内采集超 1000万小时真实场景视频数据"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285219,
+      "s": 285225,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259582,
+      "s": 259597,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256344,
+      "s": 256357,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175812,
+      "s": 175814,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144751,
+      "s": 144755,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137207,
+      "s": 137209,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116943,
+      "s": 116947,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104961,
+      "s": 104966,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93536,
+      "s": 93537,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
