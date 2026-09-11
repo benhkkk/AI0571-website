@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-11T13:02:10",
+  "updated": "2026-09-11T13:32:08",
   "news": [
     {
       "c": "MODEL",
@@ -86,6 +86,13 @@
       "u": "https://www.oschina.net/news/502418"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-11T11:02",
+      "t": "文旅行业加速迈入智能服务时代，黄山、万岁山等景区接入支付宝\"阿宝\"",
+      "s": "“智能体商业爆发前夜，蚂蚁要做催化剂。”9月10日，2026 Inclusion·外滩大会主论坛上，蚂蚁集团CEO韩歆毅…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/DQPAnyOUCjOHfOfb.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-09-11T10:51",
       "t": "Shopify 从 React Native 迁移回 Swift 和 Kotlin，12 周用 AI 重写原生 App",
@@ -133,13 +140,6 @@
       "t": "“国产 GPU 四小龙”之一燧原科技今日科创板上市，股价最高涨超 200%",
       "s": "“国产 GPU 四小龙”之一燧原科技今日（9 月 11 日）正式在上海证券交易所科创板上市，开盘股价最高涨到 460 元…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/132.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T10:26",
-      "t": "Cognition 发布 SWE-2：用 Kimi K3 做基座，RL 后训练追平 Fable 5.1",
-      "s": "Cognition 昨天发布了 SWE-2，一个从 Kimi K3（2.8T 参数）通过 RL 后训练而来的编码 Age…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502413/cognition-swe-2"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 284825,
+      "s": 284833,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259033,
+      "s": 259047,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 255995,
+      "s": 256003,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212153,
+      "s": 212156,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175703,
+      "s": 175709,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144696,
+      "s": 144697,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 136999,
+      "s": 137009,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116793,
+      "s": 116801,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104779,
+      "s": 104781,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93429,
+      "s": 93431,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
