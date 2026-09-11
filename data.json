@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-11T19:01:57",
+  "updated": "2026-09-11T19:31:24",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-11T19:01",
+      "d": "2026-09-11T19:31",
       "t": "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例",
       "s": "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975559.shtml"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-11T19:23",
+      "t": "视频丨提升诊疗效率和精度 搭载人工智能系统的医疗设备亮相2...",
+      "s": "视频丨提升诊疗效率和精度 搭载人工智能系统的医疗设备亮相2...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7684236812000313894/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T19:08",
+      "t": "智能体时代的移动计算，Arm 通过一场大会给出自己的答案",
+      "s": "9 月 8 日，Arm 在上海举办年度旗舰活动 Arm Everywhere China，并在会上发布了第二代移动终端计…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/434.htm"
     },
     {
       "c": "MODEL",
@@ -28,6 +42,13 @@
       "t": "Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险",
       "s": "Y Combinator CEO 陈嘉兴认为，人们把太多注意力放在好莱坞式的 AI 末日情景上，反而忽视了已经摆在眼前的…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/387.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-11T17:21",
+      "t": "AI新经济走向真实商业，蚂蚁APASS构建Agent信任基础设施",
+      "s": "9月11日，在2026 Inclusion·外滩大会AI支付论坛上，蚂蚁集团发布面向智能体（Agent）商业活动的信任基…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/gVe8AKc2ibKGewUO.html"
     },
     {
       "c": "HOT",
@@ -119,33 +140,20 @@
       "t": "FocusAny v2.2.0 模型能力标识上线，SDK CLI 新增诊断与转发，插件资源按需下载",
       "s": "FocusAny v2.2.0 带来三个方面的更新：大模型的能力标识变得更直观，SDK 命令行工具新增了诊断和转发命令…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502425"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T16:02",
-      "t": "七彩虹灵创 Mini Pro 迷你主机亮相，搭载 192GB 统一内存、AMD 处理器",
-      "s": "AMD 于 9 月 10 日在北京举办主题为“携手创新 共赢智能体 AI 时代”的媒体沙龙，推出全新 AMD 锐龙 AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/326.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T16:00",
-      "t": "月之暗面 Kimi K2.8 Preview 模型全量上线 Kimi Code，综合性能接近 K3",
-      "s": "月之暗面 Kimi K2.8 Preview 模型今日全量上线 Kimi Code，Model ID 不变，仍为 kim…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/319.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T15:49",
-      "t": "亚马逊与 OpenAI 合作，客户可在 ChatGPT 投放广告",
-      "s": "亚马逊旗下广告业务 Amazon Ads 当地时间 10 日宣布与 OpenAI 建立合作伙伴关系，支持在 ChatGP…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/284.htm"
     }
   ],
   "timeline": [
     [
-      "09-11 19:01",
+      "09-11 19:31",
       "第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例"
+    ],
+    [
+      "09-11 19:23",
+      "视频丨提升诊疗效率和精度 搭载人工智能系统的医疗设备亮相2..."
+    ],
+    [
+      "09-11 19:08",
+      "智能体时代的移动计算，Arm 通过一场大会给出自己的答案"
     ],
     [
       "09-11 18:03",
@@ -158,14 +166,6 @@
     [
       "09-11 17:36",
       "Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险"
-    ],
-    [
-      "09-11 17:10",
-      "抖音即将“上架”AI应用，大厂抢滩下一代分发入口"
-    ],
-    [
-      "09-11 17:10",
-      "人形机器人是噱头？国产已完成手术"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285041,
+      "s": 285049,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259311,
+      "s": 259333,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256171,
+      "s": 256182,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212228,
+      "s": 212231,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175765,
+      "s": 175767,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144720,
+      "s": 144726,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137104,
+      "s": 137114,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116873,
+      "s": 116877,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 104838,
+      "s": 104837,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93479,
+      "s": 93482,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
