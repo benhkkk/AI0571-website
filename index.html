@@ -459,13 +459,15 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-09-11T17:31', t:'第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例', s:'第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260911/975559.shtml'},
+    {c:'INDUSTRY', d:'2026-09-11T18:02', t:'第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例', s:'第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260911/975559.shtml'},
+    {c:'HOT', d:'2026-09-11T17:36', t:'Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险', s:'Y Combinator CEO 陈嘉兴认为，人们把太多注意力放在好莱坞式的 AI 末日情景上，反而忽视了已经摆在眼前的…（来源：IT之家）', u:'https://www.ithome.com/1/001/387.htm'},
     {c:'HOT', d:'2026-09-11T17:10', t:'抖音即将“上架”AI应用，大厂抢滩下一代分发入口', s:'谁掌握了更多的用户场景与注意力入口，谁就掌握了下一代应用分发的主动权。（来源：钛媒体）', u:'https://www.tmtpost.com/8136749.html'},
     {c:'HOT', d:'2026-09-11T17:10', t:'人形机器人是噱头？国产已完成手术', s:'手术台上，来了个新“人”。（来源：钛媒体）', u:'https://www.tmtpost.com/8136870.html'},
     {c:'HOT', d:'2026-09-11T17:10', t:'88小时vs90年，当AI暴力给出答案，人类研究是否还有意义？', s:'当解题被加速，理解与发现的价值该如何衡量?（来源：钛媒体）', u:'https://www.tmtpost.com/8136959.html'},
     {c:'HOT', d:'2026-09-11T17:10', t:'成功率只有千分之一，AI短剧几乎全员亏损', s:'AI短剧，对普通人来说，是已死的风口。（来源：钛媒体）', u:'https://www.tmtpost.com/8136816.html'},
     {c:'FUNDING', d:'2026-09-11T17:09', t:'医疗AI投资人，正在香港抢博士', s:'香港博士，在一级市场上杀疯了。（来源：钛媒体）', u:'https://www.tmtpost.com/8136878.html'},
     {c:'MODEL', d:'2026-09-11T17:00', t:'小米开源工业级目标说话人语音识别大模型 CocktailASR-1，解决鸡尾酒会难题', s:'把一个人声从嘈杂的人群中剥离出来，人类的听觉系统做这件事毫不费力。但对 ASR 模型来说，多人同时讲话的场景至今是一个未…（来源：OSCHINA）', u:'https://www.oschina.net/news/502427/xiaomi-cocktailasr-1'},
+    {c:'HOT', d:'2026-09-11T16:59', t:'不简单，“吃货快乐榜”也全面AI化了', s:'不简单，“吃货快乐榜”也全面AI化了（来源：量子位）', u:'https://www.qbitai.com/2026/09/487282.html'},
     {c:'HOT', d:'2026-09-11T16:55', t:'东亚教育的“卷”，正在被AI重新出口', s:'用东亚教育最擅长的那套耐心和反复打磨，去换一份不属于东亚教育原有评价体系、却真实存在的全球需求。（来源：钛媒体）', u:'https://www.tmtpost.com/8136839.html'},
     {c:'HOT', d:'2026-09-11T16:53', t:'天钡预告 NEX495S 迷你主机 AI 工作站，支持 192GB 内存', s:'天钡 (AOOSTAR) 官方今日就 NEX495S 迷你主机 AI 工作站进行了预热。该设备基于 AMD 锐龙 AI …（来源：IT之家）', u:'https://www.ithome.com/1/001/371.htm'},
     {c:'MODEL', d:'2026-09-11T16:49', t:'GPT-6 爆火 3D 案例被扒出「用了现成素材」，这次我们真做了一个', s:'GPT-6 + Hyper3D MCP 最强3D创作搭档#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更…（来源：爱范儿）', u:'https://www.ifanr.com/1679614?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-11T15:49', t:'亚马逊与 OpenAI 合作，客户可在 ChatGPT 投放广告', s:'亚马逊旗下广告业务 Amazon Ads 当地时间 10 日宣布与 OpenAI 建立合作伙伴关系，支持在 ChatGP…（来源：IT之家）', u:'https://www.ithome.com/1/001/284.htm'},
     {c:'MODEL', d:'2026-09-11T15:48', t:'阿里 Qoder 推出 Mobile Use 插件，打通鸿蒙、安卓、iOS 的 Agent 闭环验证', s:'阿里 Qoder 官方表示，今天的 Coding Agent 已经可以修改安卓、鸿蒙与 iOS 代码，但往往止步于提交之…（来源：IT之家）', u:'https://www.ithome.com/1/001/282.htm'},
     {c:'HOT', d:'2026-09-11T15:45', t:'Meta 发起又一轮重组，应用 AI 部门部分员工被邀请重返管理岗', s:'据《商业内幕》今天（11 日）援引 4 名知情人士消息称，Meta 希望让部分员工重新当上管理者。该公司近期调整了应用人…（来源：IT之家）', u:'https://www.ithome.com/1/001/280.htm'},
-    {c:'MODEL', d:'2026-09-11T15:21', t:'豆包工作新增本地Office编辑、浏览器录制与回放等功能', s:'近日，豆包工作宣布上线本地Office编辑、浏览器录制与回放、任务执行环境自由切换等全新功能，进一步完善AI处理复杂任务…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/yxQfJirnLSi8BOoA.html'},
-    {c:'MODEL', d:'2026-09-11T15:04', t:'【AI 智能运维平台】本周更新：内置僵尸机分析报表，快速甄别可降配/低频使用的资源', s:'Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）', u:'https://www.oschina.net/news/502423'},
   ];
   const TIMELINE = [
-    ['09-11 17:31','第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例'],
+    ['09-11 18:02','第19届原创大赛增设 AI 赛区，面向全行业征集 AI 赋能检测实战案例'],
+    ['09-11 17:36','Y Combinator CEO 陈嘉兴：别过度关注 AI 末日，应该警惕现实 AI 安全风险'],
     ['09-11 17:10','抖音即将“上架”AI应用，大厂抢滩下一代分发入口'],
     ['09-11 17:10','人形机器人是噱头？国产已完成手术'],
     ['09-11 17:10','88小时vs90年，当AI暴力给出答案，人类研究是否还有意义？'],
     ['09-11 17:10','成功率只有千分之一，AI短剧几乎全员亏损'],
-    ['09-11 17:09','医疗AI投资人，正在香港抢博士'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:284999, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:259243, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:256122, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212204, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175747, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144710, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:137078, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116851, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104820, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93476, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:285013, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:259265, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:256145, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212215, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175753, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144715, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:137091, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116861, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:104822, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93478, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
