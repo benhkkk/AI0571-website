@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-12T07:31:32",
+  "updated": "2026-09-12T08:03:12",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-12T07:31",
+      "d": "2026-09-12T08:03",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-12T07:50",
+      "t": "IT早报 0912：央视曝光 AI 中转站低价灰产；新版充电宝 3C 认证标准落地；36.9 万起特斯拉 Model Y 高性能版上市；哪吒汽车拟获 30 亿元偿债重整...",
+      "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 12 日星期六，今天的重要科技资讯有：1. 8.8 元买 500…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/495.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-12T07:36",
+      "t": "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击",
+      "s": "据 《华尔街日报》当地时间周五报道，OpenAI 智能体开发人员参与了一起此前未披露的网络攻击，该攻击使 RubyGem…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/492.htm"
     },
     {
       "c": "FUNDING",
@@ -126,26 +140,20 @@
       "t": "DeepSeek 将继续提供 V4 Pro API 调用服务：原定 9 月 14 日下线，计费方式保持不变",
       "s": "DeepSeek 宣布，为响应广大用户的需求，决定在 2026 年 9 月 14 日之后继续提供 DeepSeek V4…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/443.htm"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-11T19:23",
-      "t": "视频丨提升诊疗效率和精度 搭载人工智能系统的医疗设备亮相2...",
-      "s": "视频丨提升诊疗效率和精度 搭载人工智能系统的医疗设备亮相2...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7684236812000313894/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-11T19:08",
-      "t": "智能体时代的移动计算，Arm 通过一场大会给出自己的答案",
-      "s": "9 月 8 日，Arm 在上海举办年度旗舰活动 Arm Everywhere China，并在会上发布了第二代移动终端计…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/434.htm"
     }
   ],
   "timeline": [
     [
-      "09-12 07:31",
+      "09-12 08:03",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-12 07:50",
+      "IT早报 0912：央视曝光 AI 中转站低价灰产；新版充电宝 3C 认证标准落地；36.9 万起特斯拉 Model Y 高性能版上市；哪吒汽车拟获 30 亿元…"
+    ],
+    [
+      "09-12 07:36",
+      "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击"
     ],
     [
       "09-12 07:22",
@@ -158,14 +166,6 @@
     [
       "09-12 02:02",
       "银行Agent上岗：4200万小微经营者可用，信贷、票据、财税一把梭"
-    ],
-    [
-      "09-11 23:48",
-      "高盛：总是盯着“AI 泡沫会不会破”不放，反而可能会低估 AI 创造的价值"
-    ],
-    [
-      "09-11 22:05",
-      "啊？Anthropic最高320万招销售，只为服务Meta"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285355,
+      "s": 285358,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259766,
+      "s": 259772,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256508,
+      "s": 256515,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212372,
+      "s": 212375,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144781,
+      "s": 144783,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137243,
+      "s": 137242,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 117017,
+      "s": 117020,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105038,
+      "s": 105039,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93564,
+      "s": 93566,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
