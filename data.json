@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-12T12:48:40",
+  "updated": "2026-09-12T13:01:47",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-12T12:48",
-      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
-      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
+      "d": "2026-09-12T13:01",
+      "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
+      "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-12T12:48",
-      "t": "如何用Deepseek组装测序仪？",
-      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-12T12:48",
+      "d": "2026-09-12T13:01",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-12T12:55",
+      "t": "25 位菲尔兹奖得主联合警告“AI 在数学领域严重错位”，邓煜调侃要退休回家写百合小说",
+      "s": "当地时间 9 月 11 日，陶哲轩、邓煜、彼得 · 舒尔茨（Peter Scholze）等 25 位菲尔兹奖得主作为最初…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/554.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-12T12:53",
+      "t": "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神",
+      "s": "25位菲尔兹奖得主联名吹哨（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/487653.html"
     },
     {
       "c": "MODEL",
@@ -133,27 +140,24 @@
       "t": "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击",
       "s": "据 《华尔街日报》当地时间周五报道，OpenAI 智能体开发人员参与了一起此前未披露的网络攻击，该攻击使 RubyGem…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/492.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-12T07:22",
-      "t": "冲刺史上最大 IPO：英伟达正洽谈为 Anthropic 投资至多 100 亿美元",
-      "s": "路透社刚刚报道称，英伟达正与 Anthropic 洽谈，考虑以基石投资者身份参与其 IPO，考虑投资至多 100 亿美元…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/488.htm"
     }
   ],
   "timeline": [
     [
-      "09-12 12:48",
-      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
+      "09-12 13:01",
+      "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
     ],
     [
-      "09-12 12:48",
-      "如何用Deepseek组装测序仪？"
-    ],
-    [
-      "09-12 12:48",
+      "09-12 13:01",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-12 12:55",
+      "25 位菲尔兹奖得主联合警告“AI 在数学领域严重错位”，邓煜调侃要退休回家写百合小说"
+    ],
+    [
+      "09-12 12:53",
+      "陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神"
     ],
     [
       "09-12 12:41",
@@ -162,10 +166,6 @@
     [
       "09-12 12:41",
       "AI新经济已来，不是轰然一响，而是悄然一新"
-    ],
-    [
-      "09-12 10:43",
-      "蚂蚁阿福：1.5亿用户背后，健康AI的烧钱与造血"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285446,
+      "s": 285449,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259909,
+      "s": 259914,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256610,
+      "s": 256613,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144796,
+      "s": 144795,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 117047,
+      "s": 117048,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105070,
+      "s": 105076,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
