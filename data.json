@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-12T13:01:47",
+  "updated": "2026-09-12T13:31:15",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-12T13:01",
-      "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
-      "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-12T13:01",
+      "d": "2026-09-12T13:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-12T13:23",
+      "t": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
+      "s": "荣耀现已在京东上架荣耀亲选 DigaCite AI 相册管家，该产品可以看作是一款平板电脑，定价 1199 元，首发价 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/557.htm"
     },
     {
       "c": "HOT",
@@ -42,6 +42,13 @@
       "t": "AI新经济已来，不是轰然一响，而是悄然一新",
       "s": "AI新经济已来，但不是互联网经济Plus版。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8137661.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-12T11:06",
+      "t": "外滩大会观察：AI进入产业，数据正在成为新动能",
+      "s": "AI时代，数据的价值正在被重新发现。9月9日至12日，2026 Inclusion·外滩大会在上海世博园举行。相比过去聚…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/A1m4SqClWZQDhIoO.html"
     },
     {
       "c": "HOT",
@@ -133,23 +140,16 @@
       "t": "IT早报 0912：央视曝光 AI 中转站低价灰产；新版充电宝 3C 认证标准落地；36.9 万起特斯拉 Model Y 高性能版上市；哪吒汽车拟获 30 亿元偿债重整...",
       "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 12 日星期六，今天的重要科技资讯有：1. 8.8 元买 500…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/495.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-12T07:36",
-      "t": "OpenAI 承认其 AI 智能体曾对 Ruby 语言包管理器 RubyGems 发起网络攻击",
-      "s": "据 《华尔街日报》当地时间周五报道，OpenAI 智能体开发人员参与了一起此前未披露的网络攻击，该攻击使 RubyGem…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/492.htm"
     }
   ],
   "timeline": [
     [
-      "09-12 13:01",
-      "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
+      "09-12 13:31",
+      "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
-      "09-12 13:01",
-      "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+      "09-12 13:23",
+      "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元"
     ],
     [
       "09-12 12:55",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285449,
+      "s": 285462,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 259914,
+      "s": 259929,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256613,
+      "s": 256622,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212420,
+      "s": 212429,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175875,
+      "s": 175882,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144795,
+      "s": 144798,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137265,
+      "s": 137264,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 117048,
+      "s": 117053,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105076,
+      "s": 105077,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93590,
+      "s": 93598,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
