@@ -459,12 +459,14 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-09-12T17:32', t:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！', s:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260911/975764.shtml'},
+    {c:'HOT', d:'2026-09-12T18:01', t:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！', s:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260911/975764.shtml'},
+    {c:'INDUSTRY', d:'2026-09-12T17:34', t:'大规模建数据中心带来现金压力，甲骨文将再花 7 亿美元用于裁员', s:'据彭博社报道，受大规模建设 AI 数据中心造成的现金压力影响，甲骨文进一步扩大裁员计划的规模。甲骨文把本轮裁员列入“20…（来源：IT之家）', u:'https://www.ithome.com/1/001/603.htm'},
     {c:'MODEL', d:'2026-09-12T17:14', t:'欧洲首例全无人 Robotaxi 启动载客测试：小马智行、极狐参与，车内不设安全员', s:'获 Rimac 支持的自动驾驶网约车初创公司 Verne，在克罗地亚萨格勒布正式开放公共道路完全无人驾驶载客测试，成为欧…（来源：IT之家）', u:'https://www.ithome.com/1/001/599.htm'},
-    {c:'MEDPHARMA', d:'2026-09-12T17:07', t:'AI制药正式进入临床验证阶段，AI制药，终于要熬出头了?', s:'AI制药正式进入临床验证阶段，AI制药，终于要熬出头了?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7684533544990851624/'},
+    {c:'MODEL', d:'2026-09-12T16:49', t:'A社承认Claude安全对齐存在缺陷，但“尚无解决方案”', s:'Claude越界攻击真实系统，并非只是测试系统的设置问题，模型本身的安全问题也出了问题。（来源：量子位）', u:'https://www.qbitai.com/2026/09/487796.html'},
     {c:'MODEL', d:'2026-09-12T16:46', t:'我国词元需求呈现爆发式增长，预计今年消耗量将达 10 亿亿', s:'据央视新闻今天（12 日）下午报道，中国电信研究院发布的《智能体时代 AI 基础设施发展研究报告（2026）》显示，随着…（来源：IT之家）', u:'https://www.ithome.com/1/001/596.htm'},
     {c:'MODEL', d:'2026-09-12T16:15', t:'探索RSI，生数新世界模型让机器人开始自我进化', s:'触觉、记忆、Ego数据、自进化……这个世界模型全都有（来源：量子位）', u:'https://www.qbitai.com/2026/09/487752.html'},
     {c:'MODEL', d:'2026-09-12T16:07', t:'开源 AI 移动自动化项目 Minitap 指控谷歌盗用自家代码，且起初未注明出处', s:'据外媒 Neowin 今天（12 日）报道，Minitap 联合创始人兼 CEO 尼古拉 · 德汉舒韦克公开指控谷歌未经…（来源：IT之家）', u:'https://www.ithome.com/1/001/590.htm'},
+    {c:'MODEL', d:'2026-09-12T15:56', t:'外滩大会蚂蚁集团吴敏芝谈AI时代组织价值：个体越强，组织越要回答凭什么留住人才', s:'“都说AI让我们效率更高了，为什么我们反而变得更累了？”“自己每天教AI工作，是不是也在训练未来的替代者。”今年“外滩大…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/1kiVmZKNSYhfRDdS.html'},
     {c:'HOT', d:'2026-09-12T15:54', t:'Anthropic 研究员警告“AI 灭绝人类”后，美国两党议员呼吁政府采取更多行动', s:'在 Anthropic 两名研究人员警告称，快速发展的 AI 可能在不久的将来导致人类灭绝后，越来越多美国议员开始呼吁出…（来源：IT之家）', u:'https://www.ithome.com/1/001/587.htm'},
     {c:'MODEL', d:'2026-09-12T15:33', t:'AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4', s:'FrontierMath Tier 4，饱和了（来源：量子位）', u:'https://www.qbitai.com/2026/09/487701.html'},
     {c:'HOT', d:'2026-09-12T15:23', t:'Hugging Face CEO：Anthropic 研究员谈 AI 灭绝风险，就像空调维修工谈气候变化', s:'Hugging Face CEO 克莱门特 · 德朗格质疑了外界围绕前 Anthropic 研究人员雅各布 · 考克森展…（来源：IT之家）', u:'https://www.ithome.com/1/001/582.htm'},
@@ -475,30 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-12T13:56', t:'从加油到高速服务，动口不动手：蚂蚁阿宝三大车载AI能力亮相2026外滩大会', s:'9月9日至12日，2026 Inclusion·外滩大会在上海举办。大会集中展示AI智能体从技术创新走向规模化民生商用的…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/JNsgMV0H4k0FbeXy.html'},
     {c:'MODEL', d:'2026-09-12T13:47', t:'阿里千问办公上架麒麟软件商店，已原生适配全部主流操作系统', s:'阿里宣布旗下企业级通用 Agent 智能体产品千问办公已上架麒麟软件商店，即日起，银河麒麟操作系统用户在软件商店搜索千问…（来源：IT之家）', u:'https://www.ithome.com/1/001/562.htm'},
     {c:'HOT', d:'2026-09-12T13:23', t:'荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元', s:'荣耀现已在京东上架荣耀亲选 DigaCite AI 相册管家，该产品可以看作是一款平板电脑，定价 1199 元，首发价 …（来源：IT之家）', u:'https://www.ithome.com/1/001/557.htm'},
-    {c:'HOT', d:'2026-09-12T12:55', t:'25 位菲尔兹奖得主联合警告“AI 在数学领域严重错位”，邓煜调侃要退休回家写百合小说', s:'当地时间 9 月 11 日，陶哲轩、邓煜、彼得 · 舒尔茨（Peter Scholze）等 25 位菲尔兹奖得主作为最初…（来源：IT之家）', u:'https://www.ithome.com/1/001/554.htm'},
     {c:'HOT', d:'2026-09-12T12:53', t:'陶哲轩邓煜究竟在反对什么：AI暴力解题摧毁人类数学精神', s:'25位菲尔兹奖得主联名吹哨（来源：量子位）', u:'https://www.qbitai.com/2026/09/487653.html'},
     {c:'MODEL', d:'2026-09-12T12:41', t:'参议院调查OpenAI：1200个智能体私建"留言板"，5月就露馅，为何没人踩刹车', s:'AI私建留言板互通，OpenAI被调查（来源：钛媒体）', u:'https://www.tmtpost.com/8137561.html'},
-    {c:'HOT', d:'2026-09-12T12:41', t:'AI新经济已来，不是轰然一响，而是悄然一新', s:'AI新经济已来，但不是互联网经济Plus版。（来源：钛媒体）', u:'https://www.tmtpost.com/8137661.html'},
   ];
   const TIMELINE = [
-    ['09-12 17:32','重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！'],
+    ['09-12 18:01','重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！'],
+    ['09-12 17:34','大规模建数据中心带来现金压力，甲骨文将再花 7 亿美元用于裁员'],
     ['09-12 17:14','欧洲首例全无人 Robotaxi 启动载客测试：小马智行、极狐参与，车内不设安全员'],
-    ['09-12 17:07','AI制药正式进入临床验证阶段，AI制药，终于要熬出头了?'],
+    ['09-12 16:49','A社承认Claude安全对齐存在缺陷，但“尚无解决方案”'],
     ['09-12 16:46','我国词元需求呈现爆发式增长，预计今年消耗量将达 10 亿亿'],
     ['09-12 16:15','探索RSI，生数新世界模型让机器人开始自我进化'],
-    ['09-12 16:07','开源 AI 移动自动化项目 Minitap 指控谷歌盗用自家代码，且起初未注明出处'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:285540, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:260073, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:256735, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212475, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175905, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144813, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:137309, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:117093, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105125, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93629, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:285549, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:260087, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:256747, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212477, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:175906, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144814, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:137314, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:117097, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105129, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93633, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
