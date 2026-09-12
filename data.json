@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-12T21:01:54",
+  "updated": "2026-09-12T21:31:34",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-12T21:01",
+      "d": "2026-09-12T21:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-12T21:03",
+      "t": "AI 时代的「4399」，可把我玩嗨了｜AI 上新",
+      "s": "打开 Pocket 的前十分钟，我以为自己打开了一个 Instagram 版的 4399。 不久前，Meta 在美国正式…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/370227"
     },
     {
       "c": "INDUSTRY",
@@ -133,19 +140,16 @@
       "t": "AI数学的最后一道高墙，塌了！GPT-6 Astra刷穿FrontierMath Tier 4",
       "s": "FrontierMath Tier 4，饱和了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/487701.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-12T14:43",
-      "t": "AI重塑支付：从工具到生态，一场关于价值重估的产业对话",
-      "s": "过去的支付，是人完成交易的最后一步；到了智能体时代，支付成为AI进入真实商业世界的关键一步。 9月11日，在2026 I…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/XVMBHPxkYkYLjpvy.html"
     }
   ],
   "timeline": [
     [
-      "09-12 21:01",
+      "09-12 21:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-12 21:03",
+      "AI 时代的「4399」，可把我玩嗨了｜AI 上新"
     ],
     [
       "09-12 20:22",
@@ -162,10 +166,6 @@
     [
       "09-12 19:38",
       "“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选"
-    ],
-    [
-      "09-12 18:53",
-      "25 位菲尔兹奖得主联名愤怒，OpenAI 退出赞助：AI 正在激怒整个数学界"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285591,
+      "s": 285611,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 260193,
+      "s": 260210,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 256814,
+      "s": 256830,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212520,
+      "s": 212526,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 175920,
+      "s": 175923,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137370,
+      "s": 137388,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 117129,
+      "s": 117133,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105161,
+      "s": 105165,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93649,
+      "s": 93654,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
