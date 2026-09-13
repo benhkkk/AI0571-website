@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-14T06:13:17",
+  "updated": "2026-09-14T06:31:23",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-14T06:13",
+      "d": "2026-09-14T06:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-14T06:15",
+      "t": "生成越多，失败越多?AI制药如何实现闭环",
+      "s": "生成越多，失败越多?AI制药如何实现闭环（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7685147040505954851/"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "2000+真实场景搬进仿真！一个导航模型零样本“通吃”四种机器人本体",
       "s": "亮源新创的Physical Al路线清晰了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/488672.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-13T15:36",
-      "t": "大厂卷AI，打工人买单",
-      "s": "打工人被迫自费AI上班。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8138287.html"
     }
   ],
   "timeline": [
     [
-      "09-14 06:13",
+      "09-14 06:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-14 06:15",
+      "生成越多，失败越多?AI制药如何实现闭环"
     ],
     [
       "09-13 22:34",
@@ -162,10 +166,6 @@
     [
       "09-13 20:19",
       "国产AI芯片大卖，上半年谁真正赚到了钱？"
-    ],
-    [
-      "09-13 20:17",
-      "50亿美元融资背后，智谱在赌一个怎样的未来？丨钛快讯"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286159,
+      "s": 286161,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261196,
+      "s": 261202,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257710,
+      "s": 257719,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212766,
+      "s": 212768,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137938,
+      "s": 137939,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116408,
+      "s": 116412,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105356,
+      "s": 105358,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94001,
+      "s": 94006,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
