@@ -459,7 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-09-13T10:31', t:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！', s:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260911/975764.shtml'},
+    {c:'HOT', d:'2026-09-13T11:01', t:'北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术', s:'北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241030/750693.shtml'},
+    {c:'HOT', d:'2026-09-13T11:01', t:'东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例', s:'东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241030/750625.shtml'},
+    {c:'HOT', d:'2026-09-13T11:01', t:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！', s:'重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260911/975764.shtml'},
+    {c:'MEDPHARMA', d:'2026-09-13T10:40', t:'特宝生物孙黎:AI制药是巨大的机遇 同时又具有非常大的不确定性', s:'特宝生物孙黎:AI制药是巨大的机遇 同时又具有非常大的不确定性（来源：头条医药AI）', u:'https://www.toutiao.com/article/7684844267893817892/'},
     {c:'HOT', d:'2026-09-13T10:28', t:'乌兰察布：一个北方小城如何成为“Token之都”？', s:'蒙西电网的历史包袱，变成了乌兰察布AI算力爆发的制度红利。（来源：钛媒体）', u:'https://www.tmtpost.com/8137132.html'},
     {c:'HOT', d:'2026-09-13T10:15', t:'大众拥有的第一个机器人，可能是只“鸭子”', s:'我们的第一个机器人，可能不是来自“宇树”们。（来源：钛媒体）', u:'https://www.tmtpost.com/8138116.html'},
     {c:'MODEL', d:'2026-09-13T10:14', t:'苹果 iPadOS 27 系统带来两项专属特性：外置 SSD 传输速度最高提升 5 倍，截图视觉智能提升', s:'苹果 iPadOS 27 系统将带来两项专属特性：外置硬盘文件传输速度最高提升 5 倍、截图视觉智能体验提升。苹果在官网…（来源：IT之家）', u:'https://www.ithome.com/1/001/719.htm'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-13T07:40', t:'育儿博主曝光 Meta AI 可抓取日常数据“汇总生成隐私家庭信息”，官方紧急修复', s:'据外媒 CNET 报道，Meta 确认现已修复 Meta AI 的一项功能缺陷。此前有媒体爆出相应功能可能主动向用户推荐…（来源：IT之家）', u:'https://www.ithome.com/1/001/685.htm'},
     {c:'HOT', d:'2026-09-13T07:12', t:'A20 Pro 芯片 AI 跑分曝光：苹果 iPhone 18 Pro NPU 较前代最高增幅 51.53%', s:'在 CPU / GPU 跑分曝光之后，苹果 iPhone 18 Pro（对应机型 iPhone19,2）的 GeekBe…（来源：IT之家）', u:'https://www.ithome.com/1/001/675.htm'},
     {c:'MODEL', d:'2026-09-12T21:03', t:'AI 时代的「4399」，可把我玩嗨了｜AI 上新', s:'打开 Pocket 的前十分钟，我以为自己打开了一个 Instagram 版的 4399。 不久前，Meta 在美国正式…（来源：极客公园）', u:'http://www.geekpark.net/news/370227'},
-    {c:'MEDPHARMA', d:'2026-09-12T20:44', t:'服贸观澜|AI加速诊疗与制药创新，多项创新成果集中发布', s:'服贸观澜|AI加速诊疗与制药创新，多项创新成果集中发布（来源：头条医药AI）', u:'https://www.toutiao.com/article/7684628840450146825/'},
-    {c:'INDUSTRY', d:'2026-09-12T20:14', t:'2026外滩大会闭幕：50余项科技成果首发首展， 80多个产业合作达成意向', s:'9月12日，2026 Inclusion·外滩大会在上海黄浦世博园区闭幕。围绕“共创AI新经济”主题，来自研究一线、产业…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/2AopCWDkpGmBAL9L.html'},
-    {c:'MODEL', d:'2026-09-12T19:38', t:'“算力中国·年度卓越成就”发布 太初元碁超智融合计算系统入选', s:'太初（杭州）集成电路有限公司新一代超智融合计算系统元碁Hypertintellix入选“算力中国·年度卓越成就”。（来源：量子位）', u:'https://www.qbitai.com/2026/09/487860.html'},
   ];
   const TIMELINE = [
-    ['09-13 10:31','重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！'],
+    ['09-13 11:01','北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术'],
+    ['09-13 11:01','东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例'],
+    ['09-13 11:01','重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！'],
+    ['09-13 10:40','特宝生物孙黎:AI制药是巨大的机遇 同时又具有非常大的不确定性'],
     ['09-13 10:28','乌兰察布：一个北方小城如何成为“Token之都”？'],
     ['09-13 10:15','大众拥有的第一个机器人，可能是只“鸭子”'],
-    ['09-13 10:14','苹果 iPadOS 27 系统带来两项专属特性：外置 SSD 传输速度最高提升 5 倍，截图视觉智能提升'],
-    ['09-13 10:10','曜越推出 AI 工作站机箱 AX1000，支持双 SSI-EEB 系统强劲配置'],
-    ['09-13 09:50','说“投诉”就接通，AI客服到底在防谁？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:285833, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:260527, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:257151, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212622, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176011, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:285840, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:260540, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:257156, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212625, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176016, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:144865, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:137652, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:137663, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
     {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116259, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105252, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93760, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105253, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:93762, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
