@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-13T13:03:50",
+  "updated": "2026-09-13T13:31:36",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-13T13:03",
+      "d": "2026-09-13T13:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-13T13:15",
+      "t": "独家对话吴德周：从工具到Agent，AI眼镜的竞争逻辑变了",
+      "s": "“要活下来，必须转向垂直场景。”（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8138191.html"
     },
     {
       "c": "MEDPHARMA",
@@ -133,19 +140,16 @@
       "t": "IT早报 0913：央视探访无堂食外卖后厨看到店员徒手抓烤鸡；全国多所高校买商品房当学生宿舍；DeepSeek 灰度测试 AI 语音对话；“支付宝假 App”上热搜...",
       "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 13 日星期日，今天的重要科技资讯有：1. 外卖新规实施三个月…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/688.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-13T07:40",
-      "t": "育儿博主曝光 Meta AI 可抓取日常数据“汇总生成隐私家庭信息”，官方紧急修复",
-      "s": "据外媒 CNET 报道，Meta 确认现已修复 Meta AI 的一项功能缺陷。此前有媒体爆出相应功能可能主动向用户推荐…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/685.htm"
     }
   ],
   "timeline": [
     [
-      "09-13 13:03",
+      "09-13 13:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-13 13:15",
+      "独家对话吴德周：从工具到Agent，AI眼镜的竞争逻辑变了"
     ],
     [
       "09-13 12:17",
@@ -162,10 +166,6 @@
     [
       "09-13 10:59",
       "Dario自曝RSI已成真，奥特曼同日光速跟进"
-    ],
-    [
-      "09-13 10:36",
-      "我国首款AI辅助创新药获批上市，AI制药能否揭掉“概念热”标签?"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285865,
+      "s": 285872,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 260598,
+      "s": 260613,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257209,
+      "s": 257216,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212640,
+      "s": 212644,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144871,
+      "s": 144873,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137703,
+      "s": 137710,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116273,
+      "s": 116277,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105259,
+      "s": 105263,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93773,
+      "s": 93774,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
