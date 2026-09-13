@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-14T04:01:53",
+  "updated": "2026-09-14T04:31:14",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-14T04:01",
+      "d": "2026-09-14T04:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
@@ -56,13 +56,6 @@
       "t": "Waymo 自动驾驶出租车监测到乘客携带枪支，协助警方逮捕两名未成年人",
       "s": "在自动驾驶出租车企业 Waymo 提供线索后，旧金山警方上周实施了一次“高风险车辆拦截行动”，逮捕了两名未成年人。事件起…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/834.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-13T18:59",
-      "t": "AI+药物研发核心公司亮点分析",
-      "s": "AI+药物研发核心公司亮点分析（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7684252365498696211/"
     },
     {
       "c": "FUNDING",
@@ -140,11 +133,18 @@
       "t": "大厂卷AI，打工人买单",
       "s": "打工人被迫自费AI上班。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8138287.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-13T15:34",
+      "t": "科技巨头呼吁AI减速，马斯克、奥特曼等罕见赞同",
+      "s": "或许，想要放缓的不是AI的速度。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8138286.html"
     }
   ],
   "timeline": [
     [
-      "09-14 04:01",
+      "09-14 04:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286132,
+      "s": 286140,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261145,
+      "s": 261161,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257647,
+      "s": 257670,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212758,
+      "s": 212762,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176099,
+      "s": 176104,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144921,
+      "s": 144922,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137920,
+      "s": 137924,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116382,
+      "s": 116389,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105347,
+      "s": 105349,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93959,
+      "s": 93970,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
