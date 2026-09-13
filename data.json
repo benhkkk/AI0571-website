@@ -1,9 +1,16 @@
 {
-  "updated": "2026-09-13T14:01:50",
+  "updated": "2026-09-13T14:31:38",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-13T14:31",
+      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
+      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-13T14:01",
+      "d": "2026-09-13T14:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
@@ -42,6 +49,13 @@
       "t": "Dario自曝RSI已成真，奥特曼同日光速跟进",
       "s": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8138094.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-13T10:36",
+      "t": "我国首款AI辅助创新药获批上市，AI制药能否揭掉“概念热”标签?",
+      "s": "我国首款AI辅助创新药获批上市，AI制药能否揭掉“概念热”标签?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7684842902299738667/"
     },
     {
       "c": "HOT",
@@ -126,25 +140,15 @@
       "t": "OpenAI、Anthropic 再次发出「AI 末日」警告；小米澎程今日全国交付；Deepseek 灰度测试 AI 语音对话",
       "s": "OpenAI 首席执行官：今年不会上市，不能冒哪怕 10% 杀死所有人的风险 OpenAI 首席执行官 Sam Altm…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/370228"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-13T07:46",
-      "t": "IT早报 0913：央视探访无堂食外卖后厨看到店员徒手抓烤鸡；全国多所高校买商品房当学生宿舍；DeepSeek 灰度测试 AI 语音对话；“支付宝假 App”上热搜...",
-      "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 13 日星期日，今天的重要科技资讯有：1. 外卖新规实施三个月…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/688.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-13T07:40",
-      "t": "育儿博主曝光 Meta AI 可抓取日常数据“汇总生成隐私家庭信息”，官方紧急修复",
-      "s": "据外媒 CNET 报道，Meta 确认现已修复 Meta AI 的一项功能缺陷。此前有媒体爆出相应功能可能主动向用户推荐…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/685.htm"
     }
   ],
   "timeline": [
     [
-      "09-13 14:01",
+      "09-13 14:31",
+      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
+    ],
+    [
+      "09-13 14:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-13 11:02",
       "荣耀 Play11 手机发售：骁龙 4 Gen4、AI 一键关广告弹窗，1399 元起"
-    ],
-    [
-      "09-13 10:59",
-      "Dario自曝RSI已成真，奥特曼同日光速跟进"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285874,
+      "s": 285881,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 260627,
+      "s": 260647,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257232,
+      "s": 257246,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212646,
+      "s": 212648,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176024,
+      "s": 176028,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144875,
+      "s": 144877,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137717,
+      "s": 137730,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116279,
+      "s": 116284,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105265,
+      "s": 105268,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 93776,
+      "s": 93779,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
