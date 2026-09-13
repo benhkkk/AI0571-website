@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-13T13:01:40",
+  "updated": "2026-09-13T13:03:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-13T13:01",
+      "d": "2026-09-13T13:03",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-13T12:17",
+      "t": "视频 | 特宝生物孙黎:AI制药是巨大的机遇，同时又具有非常大...",
+      "s": "视频 | 特宝生物孙黎:AI制药是巨大的机遇，同时又具有非常大...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7684869257918595618/"
     },
     {
       "c": "FUNDING",
@@ -28,6 +35,13 @@
       "t": "Dario自曝RSI已成真，奥特曼同日光速跟进",
       "s": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8138094.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-13T10:36",
+      "t": "我国首款AI辅助创新药获批上市，AI制药能否揭掉“概念热”标签?",
+      "s": "我国首款AI辅助创新药获批上市，AI制药能否揭掉“概念热”标签?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7684842902299738667/"
     },
     {
       "c": "HOT",
@@ -126,26 +140,16 @@
       "t": "育儿博主曝光 Meta AI 可抓取日常数据“汇总生成隐私家庭信息”，官方紧急修复",
       "s": "据外媒 CNET 报道，Meta 确认现已修复 Meta AI 的一项功能缺陷。此前有媒体爆出相应功能可能主动向用户推荐…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/685.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-12T21:03",
-      "t": "AI 时代的「4399」，可把我玩嗨了｜AI 上新",
-      "s": "打开 Pocket 的前十分钟，我以为自己打开了一个 Instagram 版的 4399。 不久前，Meta 在美国正式…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/370227"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-12T20:14",
-      "t": "2026外滩大会闭幕：50余项科技成果首发首展， 80多个产业合作达成意向",
-      "s": "9月12日，2026 Inclusion·外滩大会在上海黄浦世博园区闭幕。围绕“共创AI新经济”主题，来自研究一线、产业…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/2AopCWDkpGmBAL9L.html"
     }
   ],
   "timeline": [
     [
-      "09-13 13:01",
+      "09-13 13:03",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-13 12:17",
+      "视频 | 特宝生物孙黎:AI制药是巨大的机遇，同时又具有非常大..."
     ],
     [
       "09-13 11:13",
@@ -160,12 +164,8 @@
       "Dario自曝RSI已成真，奥特曼同日光速跟进"
     ],
     [
-      "09-13 10:28",
-      "乌兰察布：一个北方小城如何成为“Token之都”？"
-    ],
-    [
-      "09-13 10:15",
-      "大众拥有的第一个机器人，可能是只“鸭子”"
+      "09-13 10:36",
+      "我国首款AI辅助创新药获批上市，AI制药能否揭掉“概念热”标签?"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 285866,
+      "s": 285865,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116272,
+      "s": 116273,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
