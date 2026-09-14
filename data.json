@@ -1,19 +1,19 @@
 {
-  "updated": "2026-09-14T20:31:33",
+  "updated": "2026-09-14T21:01:45",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-14T21:00",
+      "t": "首个人工智能+脑机接口医疗器械标准发布",
+      "s": "首个人工智能+脑机接口医疗器械标准发布（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7685375018359882290/"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-14T20:20",
       "t": "消息称高瓴创投合伙人严文韬有望加入 DeepSeek，担任首席财务官",
       "s": "据凤凰网科技从多个独立信源处获悉，DeepSeek 的 CFO（首席财务官）即将到岗，最接近最终人选的是高瓴创投合伙人严…（来源：IT之家）",
       "u": "https://www.ithome.com/1/002/284.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-14T20:09",
-      "t": "艾普司韦附条件上市，AI制药离商业回报还有多远?",
-      "s": "艾普司韦附条件上市，AI制药离商业回报还有多远?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7685361789076308506/"
     },
     {
       "c": "MODEL",
@@ -35,13 +35,6 @@
       "t": "豆包手机选择了弹幕最多的打法",
       "s": "折叠屏只是手机大战的前菜（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8139300.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-14T18:44",
-      "t": "全球首个人工智能+脑机接口标准中国首发",
-      "s": "全球首个人工智能+脑机接口标准中国首发（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7685340001504199214/"
     },
     {
       "c": "HOT",
@@ -140,16 +133,23 @@
       "t": "波士顿动力 IPO 计划遇阻：Atlas 人形机器人尚未大规模部署",
       "s": "路透社韩国当地时间今日报道称，一位现代汽车集团高管表示，集团旗下机器人企业 Boston Dynamics（波士顿动力）…（来源：IT之家）",
       "u": "https://www.ithome.com/1/002/225.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-14T17:29",
+      "t": "多家美国顶尖 AI 企业 CEO 呼吁放缓技术发展，全球 AI 概念股集体下挫",
+      "s": "据路透社报道，多家美国顶尖 AI 模型企业的首席执行官警告，必须放缓研发速度，避免人工智能对人类造成威胁。受此消息影响…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/224.htm"
     }
   ],
   "timeline": [
     [
-      "09-14 20:20",
-      "消息称高瓴创投合伙人严文韬有望加入 DeepSeek，担任首席财务官"
+      "09-14 21:00",
+      "首个人工智能+脑机接口医疗器械标准发布"
     ],
     [
-      "09-14 20:09",
-      "艾普司韦附条件上市，AI制药离商业回报还有多远?"
+      "09-14 20:20",
+      "消息称高瓴创投合伙人严文韬有望加入 DeepSeek，担任首席财务官"
     ],
     [
       "09-14 19:56",
@@ -164,8 +164,8 @@
       "豆包手机选择了弹幕最多的打法"
     ],
     [
-      "09-14 18:44",
-      "全球首个人工智能+脑机接口标准中国首发"
+      "09-14 18:16",
+      "京东建十万卡，字节“借”296亿，AI 算力进入「豪赌时刻」"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286478,
+      "s": 286491,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261751,
+      "s": 261761,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 258068,
+      "s": 258079,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212895,
+      "s": 212899,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176225,
+      "s": 176232,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144976,
+      "s": 144979,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138075,
+      "s": 138080,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116599,
+      "s": 116603,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105493,
+      "s": 105499,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94214,
+      "s": 94220,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
