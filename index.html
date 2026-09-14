@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-15T07:21', t:'代码显示：苹果 Siri AI 可替换为 Anthropic Claude 或 OpenAI ChatGPT', s:'开发者“pdfu”对 iOS 27 和 macOS Golden Gate 进行深入挖掘之后发现，苹果已在其私有框架中将…（来源：IT之家）', u:'https://www.ithome.com/1/002/353.htm'},
+    {c:'HOT', d:'2026-09-15T07:06', t:'苹果 iOS 27 家庭 AI 功能强制捆绑 2TB 及以上 iCloud+ 套餐：单摄像头月费 9.99 美元、五摄像头 59.99 美元，引 iPhone 用户不满', s:'据 MacRumors 今日报道，苹果要求用户至少订阅每月 9.99 美元（现汇率约合 67.1 元人民币）的 2TB …（来源：IT之家）', u:'https://www.ithome.com/1/002/348.htm'},
     {c:'HOT', d:'2026-09-15T06:45', t:'OpenAI 联合创始人布罗克曼：人类已迈入通用人工智能时代', s:'在接受 a16z 采访时，OpenAI 联合创始人格雷格 · 布罗克曼（Greg Brockman）表示，人类已经迈入通…（来源：IT之家）', u:'https://www.ithome.com/1/002/341.htm'},
     {c:'MODEL', d:'2026-09-15T06:33', t:'马斯克旗下 X 和 SpaceXAI 动议撤回针对苹果和 OpenAI 的诉讼指控', s:'路透社今天（9 月 15 日）发布博文，报道称基于昨日（9 月 14 日）提交的法庭文件，全球首富埃隆 · 马斯克旗下的…（来源：IT之家）', u:'https://www.ithome.com/1/002/338.htm'},
     {c:'MEDDEVICE', d:'2026-09-15T03:20', t:'首个人工智能+脑机接口医疗器械标准发布', s:'首个人工智能+脑机接口医疗器械标准发布（来源：头条设备AI）', u:'https://www.toutiao.com/article/7685472925993927209/'},
@@ -467,7 +469,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-15T02:26', t:'苹果 iOS / iPadOS 27.0 正式版发布：性能优化、升级 Siri AI，增强家长管控...', s:'苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 更新（内部版本号：24A437）…（来源：IT之家）', u:'https://www.ithome.com/1/002/329.htm'},
     {c:'MEDDEVICE', d:'2026-09-14T23:56', t:'全球首个!中国发布“AI+脑机接口”医疗器械标准，明年9月实施', s:'全球首个!中国发布“AI+脑机接口”医疗器械标准，明年9月实施（来源：头条设备AI）', u:'https://www.toutiao.com/article/7685420425433612843/'},
     {c:'MODEL', d:'2026-09-14T23:06', t:'英伟达：Perplexity 本地智能体 Portable Computer 已向 Windows RTX PC 开放', s:'英伟达宣布，Perplexity 的本地智能体平台“Portable Computer”现已面向 Windows RTX…（来源：IT之家）', u:'https://www.ithome.com/1/002/315.htm'},
-    {c:'HOT', d:'2026-09-14T22:40', t:'小米雷军现身宇树科技，和王兴兴观看人形机器人表演', s:'小米创办人、董事长兼 CEO 雷军今日现身宇树科技，在宇树科技创始人王兴兴的陪同下，实地探访并观看人形机器人表演。在今年…（来源：IT之家）', u:'https://www.ithome.com/1/002/308.htm'},
     {c:'MEDPHARMA', d:'2026-09-14T22:23', t:'AI制药的真相:“快”的是研发流程 “慢”的是临床验证', s:'AI制药的真相:“快”的是研发流程 “慢”的是临床验证（来源：头条医药AI）', u:'https://www.toutiao.com/article/7685396486829490698/'},
     {c:'MODEL', d:'2026-09-14T21:22', t:'蚂蚁发布大模型内生式安全护栏SingProbe，让AI边生成边识别风险', s:'大模型正在进入日常问答、办公辅助、客户服务等真实业务场景。用户期待AI快速给出有用的回答，也需要这些回答安全、可靠。如何…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/pvwJSKM5MEEd1H5N.html'},
     {c:'HOT', d:'2026-09-14T21:05', t:'在学会数学之前，AI 先学会了大厂的虚荣心', s:'大厂的数学名题争夺赛#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1680046?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-14T18:15', t:'小红书发布开源 Search Agent “Iris”，35B 摸到万亿参数模型的搜索能力', s:'Search Agent 是最难训练、也最难评测的一类模型。它要在真实网络里边搜边读边推理，还得自己判断什么时候证据够了…（来源：OSCHINA）', u:'https://www.oschina.net/news/502468'},
     {c:'MODEL', d:'2026-09-14T17:47', t:'首届蚂蚁灵波具身大模型挑战赛正式启动', s:'通过这场大赛，蚂蚁灵波希望将 LingBot-VLA 进一步推向更广泛的开发者社区和高校科研社区（来源：量子位）', u:'https://www.qbitai.com/2026/09/489105.html'},
     {c:'HOT', d:'2026-09-14T17:46', t:'全国唯一！商汤大装置临港AIDC获“算效+算电”双5A认证', s:'业界首个5A算电协同认证（来源：量子位）', u:'https://www.qbitai.com/2026/09/489106.html'},
-    {c:'HOT', d:'2026-09-14T17:40', t:'中国最有钱的几大公司，突然拼命借钱', s:'AI这一账，拼技术，也拼口袋深度。（来源：钛媒体）', u:'https://www.tmtpost.com/8139074.html'},
   ];
   const TIMELINE = [
+    ['09-15 07:21','代码显示：苹果 Siri AI 可替换为 Anthropic Claude 或 OpenAI ChatGPT'],
+    ['09-15 07:06','苹果 iOS 27 家庭 AI 功能强制捆绑 2TB 及以上 iCloud+ 套餐：单摄像头月费 9.99 美元、五摄像头 59.99 美元，引 iPhone …'],
     ['09-15 06:45','OpenAI 联合创始人布罗克曼：人类已迈入通用人工智能时代'],
     ['09-15 06:33','马斯克旗下 X 和 SpaceXAI 动议撤回针对苹果和 OpenAI 的诉讼指控'],
     ['09-15 03:20','首个人工智能+脑机接口医疗器械标准发布'],
     ['09-15 02:26','苹果 watchOS 27.0 正式版发布：Siri AI 全面升级，健康功能扩展'],
-    ['09-15 02:26','苹果 visionOS 27.0 正式版发布：Siri AI、4K 录制与 Wi-Fi 提速'],
-    ['09-15 02:26','苹果 iOS / iPadOS 27.0 正式版发布：性能优化、升级 Siri AI，增强家长管控...'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:286669, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262037, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:258365, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212996, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176312, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145054, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138179, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116732, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105579, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94327, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:286677, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262052, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:258381, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:212999, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176316, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145056, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138182, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116738, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105581, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94331, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
