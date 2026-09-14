@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-14T08:18:38",
+  "updated": "2026-09-14T08:31:05",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-14T08:18",
+      "d": "2026-09-14T08:31",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-14T08:22",
+      "t": "法拉第未来预告北京时间 9 月 20 日举办 EAI 机器人“四核全智”新品发布会，将打造“美国最全机器人矩阵”",
+      "s": "法拉第未来发文，宣布将于美西时间 9 月 19 日下午 5 点（北京时间 9 月 20 日早上 8 点）举办 EAI 机…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/904.htm"
     },
     {
       "c": "FUNDING",
@@ -94,13 +101,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-13T20:21",
-      "t": "谷歌 DeepMind 安全研究员离职，称 AI 五年内造成巨大危害的概率高得吓人",
-      "s": "谷歌 DeepMind 研究员乔希 · 恩格尔斯（Josh Engels）已离开公司的通用人工智能安全团队，加入独立 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/843.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-13T20:20",
       "t": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
       "s": "OpenAI把安全摆到IPO之前，Meta暂时站在另一边。（来源：钛媒体）",
@@ -121,6 +121,13 @@
       "u": "https://www.tmtpost.com/8138516.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-13T18:59",
+      "t": "AI+药物研发核心公司亮点分析",
+      "s": "AI+药物研发核心公司亮点分析（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7684252365498696211/"
+    },
+    {
       "c": "FUNDING",
       "d": "2026-09-13T18:32",
       "t": "【数智周报】DeepSeek扩招150人，为史上单次最大规模招聘；月之暗面报案：网传关于创始人及员工信息系恶意造谣；英伟达斥资129亿美元收购HuggingFace",
@@ -133,19 +140,16 @@
       "t": "斜跃智能完成数亿元天使+轮融资，加速推进Duplex Reasoning全新范式具身基础模型",
       "s": "近日，斜跃智能完成数亿元天使+轮融资，线性资本、钧山资本、弘颐资本、隐山资本等机构参与投资。随着这一轮融资完成，斜跃将持…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/PHYwHDvtZ5GGXTK6.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-13T17:16",
-      "t": "让AI真正“住进家里”：后摩智能×绿联HomeAgent探索家庭智能新形态",
-      "s": "9月12日晚，绿联科技品牌全球发布会正式举行。绿联发布与后摩智能合作的UGREEN HomeAgent HA100 Pr…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/OWi6OEGUYbDYwZof.html"
     }
   ],
   "timeline": [
     [
-      "09-14 08:18",
+      "09-14 08:31",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-14 08:22",
+      "法拉第未来预告北京时间 9 月 20 日举办 EAI 机器人“四核全智”新品发布会，将打造“美国最全机器人矩阵”"
     ],
     [
       "09-14 08:09",
@@ -162,10 +166,6 @@
     [
       "09-14 07:52",
       "消息称 Anthropic 预计自身有望连续第二个季度实现盈利"
-    ],
-    [
-      "09-14 07:20",
-      "【钛晨报】事关智能网联新能源汽车产业发展，九部门最新部署；奥尔特曼：OpenAI不会在2026年上市；智谱完成50亿美元融资用于扩大算力供给等用途"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286187,
+      "s": 286189,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261253,
+      "s": 261258,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257747,
+      "s": 257746,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212777,
+      "s": 212778,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176124,
+      "s": 176126,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137947,
+      "s": 137948,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116431,
+      "s": 116433,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105362,
+      "s": 105363,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94030,
+      "s": 94032,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
