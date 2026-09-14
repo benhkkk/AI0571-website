@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-14T13:31:16",
+  "updated": "2026-09-14T14:01:40",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-14T13:31",
-      "t": "十载光刻路，AI赋能新征程——第十届国际先进光刻技术研讨会在深召开",
-      "s": "十载光刻路，AI赋能新征程——第十届国际先进光刻技术研讨会在深召开（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260914/976222.shtml"
+      "c": "MEDDEVICE",
+      "d": "2026-09-14T13:58",
+      "t": "全球首个人工智能+脑机接口标准在我国发布",
+      "s": "全球首个人工智能+脑机接口标准在我国发布（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7685266412755059250/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-14T13:49",
+      "t": "芯片新创 Kepler 亮相：利用 FeRAM 与 3D 堆叠突破 AI 内存瓶颈",
+      "s": "成立于 2018 年的芯片初创企业 Kepler Computing 当地时间本月 10 日正式宣布亮相。该企业的目标是…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/036.htm"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,16 @@
       "t": "NUS Show Lab 寿政教授：打通自回归与离散扩散，打造下一代具身大模型底座｜ECCV 2026",
       "s": "告别模型拼贴套路，自回归与离散扩散的融合，正在开启 AI 的体验时代。 作者丨张璐 编辑丨岑峰 “理解”和“生成”真的无…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/private/m2CuWb5rm0qnkznY.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-14T10:47",
-      "t": "TUM 教授 Angela Dai：放下完美数据执念，「逆向自监督」重构 3D 空间智能 | ECCV 2026",
-      "s": "2D去噪范式在真实3D遮挡前失效，破局关键在于将物理机制转化为结构先验。 作者丨张璐 编辑丨岑峰 大模型在文本与 2D …（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/private/IHKmBYxnV5IvYoN0.html"
     }
   ],
   "timeline": [
     [
-      "09-14 13:31",
-      "十载光刻路，AI赋能新征程——第十届国际先进光刻技术研讨会在深召开"
+      "09-14 13:58",
+      "全球首个人工智能+脑机接口标准在我国发布"
+    ],
+    [
+      "09-14 13:49",
+      "芯片新创 Kepler 亮相：利用 FeRAM 与 3D 堆叠突破 AI 内存瓶颈"
     ],
     [
       "09-14 13:10",
@@ -162,10 +166,6 @@
     [
       "09-14 11:53",
       "Casdoor v4 发布：控制台全面重写，内置 MCP Server 与 Agent 鉴权，项目已收录进 CNCF 全景图"
-    ],
-    [
-      "09-14 11:45",
-      "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286302,
+      "s": 286315,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261455,
+      "s": 261474,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257870,
+      "s": 257882,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212826,
+      "s": 212829,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176170,
+      "s": 176172,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144957,
+      "s": 144956,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138006,
+      "s": 138013,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116501,
+      "s": 116511,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105422,
+      "s": 105427,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94099,
+      "s": 94103,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
