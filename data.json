@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-15T06:31:25",
+  "updated": "2026-09-15T07:01:26",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-15T06:45",
+      "t": "OpenAI 联合创始人布罗克曼：人类已迈入通用人工智能时代",
+      "s": "在接受 a16z 采访时，OpenAI 联合创始人格雷格 · 布罗克曼（Greg Brockman）表示，人类已经迈入通…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/341.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-15T06:33",
+      "t": "马斯克旗下 X 和 SpaceXAI 动议撤回针对苹果和 OpenAI 的诉讼指控",
+      "s": "路透社今天（9 月 15 日）发布博文，报道称基于昨日（9 月 14 日）提交的法庭文件，全球首富埃隆 · 马斯克旗下的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/338.htm"
+    },
     {
       "c": "MEDDEVICE",
       "d": "2026-09-15T03:20",
@@ -45,13 +59,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-14T23:05",
-      "t": "马斯克旗下 X 公司与 SpaceXAI 撤回对苹果的反垄断诉讼，针对 OpenAI 继续追责",
-      "s": "据路透社报道，埃隆 · 马斯克（Elon Musk）旗下的 X 公司与 SpaceXAI 于周一宣布，已在得克萨斯州联邦…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/314.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-14T22:40",
       "t": "小米雷军现身宇树科技，和王兴兴观看人形机器人表演",
       "s": "小米创办人、董事长兼 CEO 雷军今日现身宇树科技，在宇树科技创始人王兴兴的陪同下，实地探访并观看人形机器人表演。在今年…（来源：IT之家）",
@@ -63,20 +70,6 @@
       "t": "AI制药的真相:“快”的是研发流程 “慢”的是临床验证",
       "s": "AI制药的真相:“快”的是研发流程 “慢”的是临床验证（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7685396486829490698/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-14T21:46",
-      "t": "德国称暂停 AI 开发对欧洲而言不可行，呼吁中美参与 AI 治理",
-      "s": "据路透社报道，德国数字事务部于当地时间周一回应顶尖 AI 开发者提出的、为能力持续增强的 AI 系统设置安全防护的呼吁…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/301.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-14T21:29",
-      "t": "微软发布 37 页人文主义 AI 行为准则：强调“人比 AI 重要”，拒绝追逐无边界超级智能",
-      "s": "随着各界对 AI 模型发展的安全担忧不断加剧，微软于今日发布了一份长达 37 页的“人文主义 AI 行为准则”。上周末…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/297.htm"
     },
     {
       "c": "MODEL",
@@ -140,9 +133,24 @@
       "t": "全国唯一！商汤大装置临港AIDC获“算效+算电”双5A认证",
       "s": "业界首个5A算电协同认证（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/489106.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-14T17:40",
+      "t": "中国最有钱的几大公司，突然拼命借钱",
+      "s": "AI这一账，拼技术，也拼口袋深度。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8139074.html"
     }
   ],
   "timeline": [
+    [
+      "09-15 06:45",
+      "OpenAI 联合创始人布罗克曼：人类已迈入通用人工智能时代"
+    ],
+    [
+      "09-15 06:33",
+      "马斯克旗下 X 和 SpaceXAI 动议撤回针对苹果和 OpenAI 的诉讼指控"
+    ],
     [
       "09-15 03:20",
       "首个人工智能+脑机接口医疗器械标准发布"
@@ -158,14 +166,6 @@
     [
       "09-15 02:26",
       "苹果 iOS / iPadOS 27.0 正式版发布：性能优化、升级 Siri AI，增强家长管控..."
-    ],
-    [
-      "09-14 23:56",
-      "全球首个!中国发布“AI+脑机接口”医疗器械标准，明年9月实施"
-    ],
-    [
-      "09-14 23:06",
-      "英伟达：Perplexity 本地智能体 Portable Computer 已向 Windows RTX PC 开放"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286654,
+      "s": 286669,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 262026,
+      "s": 262037,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 258350,
+      "s": 258365,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212986,
+      "s": 212996,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176307,
+      "s": 176312,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145051,
+      "s": 145054,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138168,
+      "s": 138179,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116723,
+      "s": 116732,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105570,
+      "s": 105579,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94315,
+      "s": 94327,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
