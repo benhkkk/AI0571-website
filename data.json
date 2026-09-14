@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-14T08:31:05",
+  "updated": "2026-09-14T09:02:00",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-14T08:31",
+      "d": "2026-09-14T09:01",
       "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
       "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-14T08:36",
+      "t": "苹果新 CEO 特努斯谈 Meta“变态眼镜”风波：AI 智能设备需要让旁人安心",
+      "s": "据《商业内幕》前天报道，苹果新任首席执行官约翰 · 特努斯最近接受媒体采访，谈及 Meta 公司最近陷入的“变态眼镜”风…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/001/906.htm"
     },
     {
       "c": "MODEL",
@@ -93,13 +100,6 @@
       "u": "https://www.toutiao.com/article/7685147040505954851/"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-13T22:34",
-      "t": "蚂蚁灵波开源三款 LingBot-World 2.0 世界模型：Small 参数 1.3B 面向消费级单卡 GPU 设计",
-      "s": "继今年 7 月开源 LingBot-World 2.0 14B 模型后，蚂蚁灵波科技本周进一步开源三款模型：LingBo…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/001/863.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-13T20:20",
       "t": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-14 08:31",
+      "09-14 09:01",
       "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+    ],
+    [
+      "09-14 08:36",
+      "苹果新 CEO 特努斯谈 Meta“变态眼镜”风波：AI 智能设备需要让旁人安心"
     ],
     [
       "09-14 08:22",
@@ -162,10 +166,6 @@
     [
       "09-14 08:03",
       "IT早报 0914：马斯克、奥尔特曼响应 Anthropic 呼吁放缓前沿 AI 开发；华为麒麟 9050 Pro 能效实测出炉；智谱官宣 50 亿美元融资；小…"
-    ],
-    [
-      "09-14 07:52",
-      "消息称 Anthropic 预计自身有望连续第二个季度实现盈利"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286189,
+      "s": 286197,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261258,
+      "s": 261265,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257746,
+      "s": 257758,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212778,
+      "s": 212783,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176126,
+      "s": 176133,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144934,
+      "s": 144937,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137948,
+      "s": 137955,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116433,
+      "s": 116447,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105363,
+      "s": 105369,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94032,
+      "s": 94040,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
