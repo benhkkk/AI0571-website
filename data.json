@@ -1,12 +1,12 @@
 {
-  "updated": "2026-09-14T11:31:14",
+  "updated": "2026-09-14T12:01:58",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-14T11:31",
-      "t": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！",
-      "s": "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260911/975764.shtml"
+      "d": "2026-09-14T12:01",
+      "t": "十载光刻路，AI赋能新征程——第十届国际先进光刻技术研讨会在深召开",
+      "s": "十载光刻路，AI赋能新征程——第十届国际先进光刻技术研讨会在深召开（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260914/976222.shtml"
     },
     {
       "c": "MEDPHARMA",
@@ -49,13 +49,6 @@
       "t": "华为智能门锁 2 Pro 悦享版开启预约：搭 AI 3D 人脸识别 3.0 技术，配备应急备用供电系统，2699 元",
       "s": "华为智能门锁 2 Pro 悦享版现已在京东开启预约，将于 9 月 23 日首销，定价为 2699 元，部分地区国补后 2…（来源：IT之家）",
       "u": "https://www.ithome.com/1/001/977.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-14T10:56",
-      "t": "奥特曼被骗！A社一脚油门冲刺IPO，募资叫板SpaceX",
-      "s": "还是太嫩了啊Dario（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/488699.html"
     },
     {
       "c": "MODEL",
@@ -140,12 +133,19 @@
       "t": "🔥🔥Skyeye 云企业级AI+零代码智能制造系统 - v4.1.4 发布",
       "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502443"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-14T08:30",
+      "t": "智谱提前剧透GLM-6.0：完全自训练方法公开了",
+      "s": "模型、论文都还没出，没想到先从财务公告上剧透了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/488694.html"
     }
   ],
   "timeline": [
     [
-      "09-14 11:31",
-      "重磅！AI+仪器检测将碰撞怎样火花？这场产业交流会即将召开！"
+      "09-14 12:01",
+      "十载光刻路，AI赋能新征程——第十届国际先进光刻技术研讨会在深召开"
     ],
     [
       "09-14 11:24",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286258,
+      "s": 286268,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261378,
+      "s": 261407,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257819,
+      "s": 257835,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212806,
+      "s": 212813,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176158,
+      "s": 176161,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 144950,
+      "s": 144954,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 137989,
+      "s": 137992,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116485,
+      "s": 116491,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105394,
+      "s": 105404,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94081,
+      "s": 94083,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
