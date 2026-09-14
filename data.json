@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-14T16:31:59",
+  "updated": "2026-09-14T17:01:28",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-14T16:50",
+      "t": "外交部：散播各种威胁叙事，只会干扰人工智能全球治理进程",
+      "s": "近日，多家美国 AI 公司负责人呼吁减缓 AI 发展速度，并认为“中国在人工智能领域的优势可能构成国家安全风险”。据央视…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/170.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-14T16:45",
+      "t": "蓝虫具身发布模块化人形机器人 Mantis Standard“小白”，0.98 万元起",
+      "s": "西安交通大学科技成果转化企业蓝虫具身今日发布新一代模块化人形机器人 Mantis Standard “小白”，售价 0.…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/166.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-14T16:27",
@@ -14,13 +28,6 @@
       "t": "荣耀 Magic9 超能版手机规格曝光：第五代骁龙 8 至尊版处理器，11000mAh 电池",
       "s": "博主 @数码闲聊站 今日曝光荣耀 Magic9 超能版手机规格，新机将于 9 月 28 日正式发布。IT之家整理如下：6…（来源：IT之家）",
       "u": "https://www.ithome.com/1/002/148.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-14T15:55",
-      "t": "一年连融三轮，这家金融AI公司又拿下超3亿B轮",
-      "s": "险资、券商与头部创投持续加码（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/488912.html"
     },
     {
       "c": "HOT",
@@ -87,20 +94,6 @@
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-14T14:47",
-      "t": "我国发布全球首个人工智能 + 脑机接口标准，明年 9 月 1 日起实施",
-      "s": "据央视新闻报道，国家药监局今日批准发布我国第三个脑机接口医疗器械标准，这是全球第一个采用人工智能技术处理脑电数据的脑机接…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/081.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-14T14:46",
-      "t": "特斯拉无人出租车 Robotaxi 将搭载 FSD V15，下月开始全天候运营",
-      "s": "特斯拉目前在已落地市场开展的商业化网约车业务，都设有固定运营时段，但全天候无人驾驶服务很快就要到来。特斯拉 AI 业务高…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/080.htm"
-    },
-    {
-      "c": "MEDDEVICE",
       "d": "2026-09-14T14:21",
       "t": "全球首个人工智能+脑机接口标准在我国发布",
       "s": "全球首个人工智能+脑机接口标准在我国发布（来源：头条设备AI）",
@@ -140,9 +133,24 @@
       "t": "Casdoor v4 发布：控制台全面重写，内置 MCP Server 与 Agent 鉴权，项目已收录进 CNCF 全景图",
       "s": "开源身份认证与访问管理平台 Casdoor 于 2026 年 9 月 1 日发布 v4.0，截至 9 月 9 日已迭代至…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502457"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-14T11:45",
+      "t": "AI开始改进“改进自己的方法”，RSI进入平方时代丨MetaRSI",
+      "s": "小模型突破瓶颈，旗舰模型打开新空间（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/488832.html"
     }
   ],
   "timeline": [
+    [
+      "09-14 16:50",
+      "外交部：散播各种威胁叙事，只会干扰人工智能全球治理进程"
+    ],
+    [
+      "09-14 16:45",
+      "蓝虫具身发布模块化人形机器人 Mantis Standard“小白”，0.98 万元起"
+    ],
     [
       "09-14 16:27",
       "Y Combinator 总裁希望美国 AI 实验室也能“蒸馏”前沿模型"
@@ -152,20 +160,12 @@
       "荣耀 Magic9 超能版手机规格曝光：第五代骁龙 8 至尊版处理器，11000mAh 电池"
     ],
     [
-      "09-14 15:55",
-      "一年连融三轮，这家金融AI公司又拿下超3亿B轮"
-    ],
-    [
       "09-14 15:53",
       "豆包手机助手通过泰尔实验室首批端云协同机密计算能力评测"
     ],
     [
       "09-14 15:53",
       "全球首个AI+脑机接口医疗器械标准发布"
-    ],
-    [
-      "09-14 15:41",
-      "宇树科技发布人形机器人 G1+：运动性能、感知交互、智能体验全面升级，标准版售价 9.5 万元"
     ]
   ],
   "skills": [
@@ -173,44 +173,36 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286381,
+      "s": 286394,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
     {
       "n": 2,
-      "r": "mattpocock/skills",
-      "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 261596,
-      "u": "https://github.com/mattpocock/skills",
-      "new": false
-    },
-    {
-      "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 257964,
+      "s": 257978,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
     {
-      "n": 4,
+      "n": 3,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 212854,
+      "s": 212860,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
     {
-      "n": 5,
+      "n": 4,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176189,
+      "s": 176196,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
     {
-      "n": 6,
+      "n": 5,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
       "s": 144963,
@@ -218,35 +210,43 @@
       "new": false
     },
     {
-      "n": 7,
+      "n": 6,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138042,
+      "s": 138047,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
     {
-      "n": 8,
+      "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116545,
+      "s": 116554,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
     {
-      "n": 9,
+      "n": 8,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…",
-      "s": 105446,
+      "s": 105451,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
     {
-      "n": 10,
+      "n": 9,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94157,
+      "s": 94162,
       "u": "https://github.com/addyosmani/agent-skills",
+      "new": false
+    },
+    {
+      "n": 10,
+      "r": "ComposioHQ/awesome-claude-skills",
+      "d": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI wo…",
+      "s": 74993,
+      "u": "https://github.com/ComposioHQ/awesome-claude-skills",
       "new": false
     }
   ]
