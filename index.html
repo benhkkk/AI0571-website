@@ -459,9 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-15T08:17', t:'iOS 27、MacOS 27 正式发布；豆包手机助手消费者版亮相；李想：「大车」趋势一定会结束', s:'特朗普抨击 Anthropic CEO：AI 发展不能踩刹车，美国有「高智商总统」就足够 特朗普周一在社交媒体发文，明确…（来源：极客公园）', u:'http://www.geekpark.net/news/370306'},
     {c:'HOT', d:'2026-09-15T08:00', t:'Meta 对 Instagram 应用 AI 修图功能新增付费限制，需订阅 Meta One 会员使用', s:'据外媒 Business Insider 报道，Instagram 近期开始对部分 AI 修图功能加入付费限制，用户在使…（来源：IT之家）', u:'https://www.ithome.com/1/002/366.htm'},
     {c:'MODEL', d:'2026-09-15T07:57', t:'Anthropic Claude Opus 5.2 灰度测试曝光：响应更快，告别“偷懒”', s:'原标题：《突发！Opus 5.2 深夜上线，RSI 真来了？》今天清晨，Opus 5.2 悄悄上线了。许多开发者发现，新…（来源：IT之家）', u:'https://www.ithome.com/1/002/365.htm'},
     {c:'MODEL', d:'2026-09-15T07:56', t:'IT早报 0915：苹果 iOS / iPadOS 27.0 正式版发布；荣耀 Magic9 超能版官宣 11000mAh 电池；一汽成广汽第二大股东；曝追觅 6 至 8 月离职裁员约 1 万人...', s:'“IT早报”时间，大家好，现在是 2026 年 9 月 15 日星期二，今天的重要科技资讯有：1. 苹果 iOS / i…（来源：IT之家）', u:'https://www.ithome.com/1/002/364.htm'},
+    {c:'HOT', d:'2026-09-15T07:55', t:'Edge AI Daily 早报（9月15日）', s:'特朗普与黄仁勋公开驳斥AI减速论；Anthropic、OpenAI、微软CEO罕见联合呼吁放缓能力迭代，引发纳斯达克期货…（来源：钛媒体）', u:'https://www.tmtpost.com/8139745.html'},
     {c:'MODEL', d:'2026-09-15T07:52', t:'CG3M 版微星 Claw 8 EX AI+ 掌机曝光：10 核 Xe3，最高 90 INT8 TOPS', s:'科技媒体 videocardz 昨日（9 月 14 日）发布博文，报道称基于美国零售商 CompSource 页面信息…（来源：IT之家）', u:'https://www.ithome.com/1/002/363.htm'},
     {c:'FUNDING', d:'2026-09-15T07:41', t:'曝 Glass Imaging 被 OpenAI 收购：前苹果员工创办，其影像技术已用于荣耀手机', s:'华尔街日报昨日（9 月 14 日）发布博文，报道称 OpenAI 公司悄然收购手机影像初创公司 Glass Imagin…（来源：IT之家）', u:'https://www.ithome.com/1/002/359.htm'},
     {c:'MODEL', d:'2026-09-15T07:21', t:'代码显示：苹果 Siri AI 可替换为 Anthropic Claude 或 OpenAI ChatGPT', s:'开发者“pdfu”对 iOS 27 和 macOS Golden Gate 进行深入挖掘之后发现，苹果已在其私有框架中将…（来源：IT之家）', u:'https://www.ithome.com/1/002/353.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-14T19:13', t:'DeepSeek“推倒重来”', s:'入口，才是梁文锋的秘密武器（来源：钛媒体）', u:'https://www.tmtpost.com/8139302.html'},
     {c:'HOT', d:'2026-09-14T19:06', t:'豆包手机选择了弹幕最多的打法', s:'折叠屏只是手机大战的前菜（来源：钛媒体）', u:'https://www.tmtpost.com/8139300.html'},
     {c:'HOT', d:'2026-09-14T18:16', t:'京东建十万卡，字节“借”296亿，AI 算力进入「豪赌时刻」', s:'AI军备赛进入买单周期，这一次，中国大厂也下了重注。（来源：钛媒体）', u:'https://www.tmtpost.com/8139073.html'},
-    {c:'MODEL', d:'2026-09-14T18:15', t:'小红书发布开源 Search Agent “Iris”，35B 摸到万亿参数模型的搜索能力', s:'Search Agent 是最难训练、也最难评测的一类模型。它要在真实网络里边搜边读边推理，还得自己判断什么时候证据够了…（来源：OSCHINA）', u:'https://www.oschina.net/news/502468'},
-    {c:'MODEL', d:'2026-09-14T17:47', t:'首届蚂蚁灵波具身大模型挑战赛正式启动', s:'通过这场大赛，蚂蚁灵波希望将 LingBot-VLA 进一步推向更广泛的开发者社区和高校科研社区（来源：量子位）', u:'https://www.qbitai.com/2026/09/489105.html'},
   ];
   const TIMELINE = [
+    ['09-15 08:17','iOS 27、MacOS 27 正式发布；豆包手机助手消费者版亮相；李想：「大车」趋势一定会结束'],
     ['09-15 08:00','Meta 对 Instagram 应用 AI 修图功能新增付费限制，需订阅 Meta One 会员使用'],
     ['09-15 07:57','Anthropic Claude Opus 5.2 灰度测试曝光：响应更快，告别“偷懒”'],
     ['09-15 07:56','IT早报 0915：苹果 iOS / iPadOS 27.0 正式版发布；荣耀 Magic9 超能版官宣 11000mAh 电池；一汽成广汽第二大股东；曝追觅 …'],
+    ['09-15 07:55','Edge AI Daily 早报（9月15日）'],
     ['09-15 07:52','CG3M 版微星 Claw 8 EX AI+ 掌机曝光：10 核 Xe3，最高 90 INT8 TOPS'],
-    ['09-15 07:41','曝 Glass Imaging 被 OpenAI 收购：前苹果员工创办，其影像技术已用于荣耀手机'],
-    ['09-15 07:21','代码显示：苹果 Siri AI 可替换为 Anthropic Claude 或 OpenAI ChatGPT'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:286680, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262059, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:258384, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213002, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176319, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145058, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138182, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116741, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105583, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94336, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:286685, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262068, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:258394, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213008, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176320, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145060, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138183, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116744, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105585, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94339, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
