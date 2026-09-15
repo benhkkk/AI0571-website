@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-15T19:31:54",
+  "updated": "2026-09-15T20:01:58",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-15T19:48",
+      "t": "OpenAI 内部 Lily 项目曝光：人工审核 ChatGPT 用户聊天记录以优化大模型",
+      "s": "众所周知，ChatGPT 这类平台的对话日志会被用来优化模型。但在此之前，这套处理机制一直是个谜。404 Media 刚…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/750.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-15T19:27",
+      "t": "当Agent进入组织 飞书重新设计了一遍协同办公",
+      "s": "飞书披露，2026年上半年，其年度经常性收入增速达到去年同期的2.5倍，超过九成新增客户同步采购飞书AI产品。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8141020.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-15T19:26",
@@ -86,6 +100,13 @@
       "u": "https://www.tmtpost.com/8140649.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-15T17:50",
+      "t": "阶跃发布 StepAudio 3 ，多款语音模型登顶 Artificial Analysis 全球榜单",
+      "s": "9月15日，阶跃发布新一代语音大模型 StepAudio 3 系列，一次性推出 StepAudio 3 Realtime…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/bqWUmrRwgYnqHzxZ.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-09-15T17:47",
       "t": "豆包手机一代的坑，二代准备怎么填？",
@@ -119,30 +140,17 @@
       "t": "马斯克放话：Grok 4.9 或能与 Astra / Fable 同级、Grok 5 有望实现 AGI",
       "s": "xAI 首席执行官埃隆 · 马斯克昨日在 X 平台与网友互动时透露，Grok 4.7 模型的能力大致与 Anthropi…（来源：IT之家）",
       "u": "https://www.ithome.com/1/002/696.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-15T17:29",
-      "t": "吉利银河战舰 700“AI 全地形硬核 SUV”预售：19.98 万-26.98 万元，还有 38.98 万的陆地方舟版",
-      "s": "吉利银河旗下全新车型 ——“AI 全地形硬核 SUV”银河战舰 700 今天（15 日）下午正式开启预售，新车提供 5 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/692.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-15T16:56",
-      "t": "阶跃星辰发布 Step Audio 3 系列语音模型，多款上榜全球第一",
-      "s": "语音大模型的竞争，正在从\"能不能把文字念出来\"换成\"能不能真正理解声音、组织声音\"。阶跃星辰今天放出的 StepAudi…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502502/step-audio-3"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-15T16:45",
-      "t": "“阿宝”交新朋友：携手比亚迪“迪迪虾”，实现车机端一句话办事",
-      "s": "“阿宝”又交新朋友！9月14日，“阿宝”亮相腾势N8L纯电上市发布会，并与比亚迪AI超级智能体“迪迪虾”达成跨端协同办事…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/mIVmFo7yO9N62L0j.html"
     }
   ],
   "timeline": [
+    [
+      "09-15 19:48",
+      "OpenAI 内部 Lily 项目曝光：人工审核 ChatGPT 用户聊天记录以优化大模型"
+    ],
+    [
+      "09-15 19:27",
+      "当Agent进入组织 飞书重新设计了一遍协同办公"
+    ],
     [
       "09-15 19:26",
       "6500 美元的双臂人形机械臂，OpenArm 把硬件开源做到能复现"
@@ -158,14 +166,6 @@
     [
       "09-15 19:04",
       "12.2\" 轻薄本 mouse X2 发布：质量 981g，至高搭载 AMD 锐龙 AI 7 350"
-    ],
-    [
-      "09-15 18:51",
-      "高通官宣努比亚 NaviX Ultra 手机搭载第五代骁龙 8 至尊版移动平台"
-    ],
-    [
-      "09-15 18:17",
-      "全国首个具身智能机器人专用 SIM 卡发布：套餐 599 元起，峰值上行 500Mbps"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286927,
+      "s": 286939,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 262486,
+      "s": 262498,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 258713,
+      "s": 258727,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213107,
+      "s": 213109,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176422,
+      "s": 176426,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138283,
+      "s": 138288,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116881,
+      "s": 116888,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105678,
+      "s": 105683,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94479,
+      "s": 94495,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
