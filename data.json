@@ -1,5 +1,5 @@
 {
-  "updated": "2026-09-16T01:31:23",
+  "updated": "2026-09-16T01:43:21",
   "news": [
     {
       "c": "MODEL",
@@ -101,6 +101,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-15T19:26",
+      "t": "6500 美元的双臂人形机械臂，OpenArm 把硬件开源做到能复现",
+      "s": "物理 AI 研究一直卡在一个尴尬的地方：软件栈开源得热火朝天，硬件却始终是实验室里那台没法复现的定制臂。OpenArm …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502506"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-15T18:43",
       "t": "无问芯穹联合清华、上交正式开源具身端侧推理引擎APXInf，Pi 0.5性能SOTA",
       "s": "卡位具身智能规模化落地“最后一公里”！（来源：量子位）",
@@ -133,13 +140,6 @@
       "t": "AI 让智能硬件卖得更贵，但增长消失了",
       "s": "补贴退潮之后，智能硬件需要回答：用户凭什么为噱头付费？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8140671.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-15T17:58",
-      "t": "一张GPU跑10万原子！分子之心用AI把化学反应“拍”成了电影",
-      "s": "打破分子模拟“不可能三角”（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/489381.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287064,
+      "s": 287065,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 262720,
+      "s": 262724,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259045,
+      "s": 259053,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213157,
+      "s": 213159,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145170,
+      "s": 145171,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138315,
+      "s": 138316,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116974,
+      "s": 116978,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94631,
+      "s": 94638,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
