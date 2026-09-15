@@ -1,19 +1,12 @@
 {
-  "updated": "2026-09-15T18:31:19",
+  "updated": "2026-09-15T19:01:42",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-09-15T18:31",
-      "t": "孙书军：AI辅助科研，学术责任须由人承担",
-      "s": "孙书军：AI辅助科研，学术责任须由人承担（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260915/977615.shtml"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-15T18:31",
-      "t": "我国首项脑机接口与人工智能医疗器械融合标准发布",
-      "s": "我国首项脑机接口与人工智能医疗器械融合标准发布（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260915/977395.shtml"
+      "c": "MODEL",
+      "d": "2026-09-15T18:51",
+      "t": "高通官宣努比亚 NaviX Ultra 手机搭载第五代骁龙 8 至尊版移动平台",
+      "s": "高通官方今日宣布，努比亚 NaviX Ultra 手机将搭载第五代骁龙 8 至尊版移动平台，支持豆包手机助手带来生成式 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/729.htm"
     },
     {
       "c": "MODEL",
@@ -115,6 +108,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-15T16:45",
+      "t": "“阿宝”交新朋友：携手比亚迪“迪迪虾”，实现车机端一句话办事",
+      "s": "“阿宝”又交新朋友！9月14日，“阿宝”亮相腾势N8L纯电上市发布会，并与比亚迪AI超级智能体“迪迪虾”达成跨端协同办事…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/mIVmFo7yO9N62L0j.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-15T16:16",
       "t": "揭秘 Lady Gaga 未婚夫迈克尔 · 波兰斯基最具雄心项目：用从人类皮肤收集的数据训练 AI",
       "s": "当地时间 14 日，《商业内幕》发文详细介绍了美国女星 Lady Gaga 未婚夫迈克尔 · 波兰斯基的过去十年。这段时…（来源：IT之家）",
@@ -136,20 +136,16 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-15T15:57",
-      "t": "CrowdStrike CEO 反对放缓前沿 AI 开发，称潘多拉魔盒已打开",
-      "s": "网络安全公司 CrowdStrike CEO 乔治 · 柯兹（George Kurtz）昨日接受 CNBC 采访时候，谈…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/605.htm"
+      "d": "2026-09-15T15:52",
+      "t": "Xspark AI 丁文伯：触觉替代不了视觉，但机器人需要一套自己的“脊髓” ｜物理AI 50人",
+      "s": "具身智能进入“触觉时代”，丁文伯提出“脊髓”架构补全机器人物理交互短板。作者：李秋悦编辑：吴彤丁文伯很难被一个词准确“定…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/RMYKt5OCvHa4yodm.html"
     }
   ],
   "timeline": [
     [
-      "09-15 18:31",
-      "孙书军：AI辅助科研，学术责任须由人承担"
-    ],
-    [
-      "09-15 18:31",
-      "我国首项脑机接口与人工智能医疗器械融合标准发布"
+      "09-15 18:51",
+      "高通官宣努比亚 NaviX Ultra 手机搭载第五代骁龙 8 至尊版移动平台"
     ],
     [
       "09-15 18:17",
@@ -166,6 +162,10 @@
     [
       "09-15 17:59",
       "AI 让智能硬件卖得更贵，但增长消失了"
+    ],
+    [
+      "09-15 17:58",
+      "外滩大会复盘观察：AI新经济真正的考题是供给狂飙之后需求去哪里"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 286912,
+      "s": 286923,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 262450,
+      "s": 262465,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 258680,
+      "s": 258697,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213100,
+      "s": 213106,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176410,
+      "s": 176418,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145113,
+      "s": 145122,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138279,
+      "s": 138283,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 116866,
+      "s": 116870,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105672,
+      "s": 105678,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94463,
+      "s": 94468,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
