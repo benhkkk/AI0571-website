@@ -459,11 +459,13 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-09-15T11:12', t:'Waymo 自动驾驶出租车商业服务目标 2027 年正式登陆日本东京市场', s:'Alphabet 旗下自动驾驶企业 Waymo 当地时间 14 日宣布，其 Robotaxi 商业服务目标于 2027 …（来源：IT之家）', u:'https://www.ithome.com/1/002/484.htm'},
+    {c:'MODEL', d:'2026-09-15T11:12', t:'国补后 38499 元七彩虹灵创 K16 顶配版开售：AMD 锐龙 AI Max+ 395，128GB 内存 + 4TB 存储', s:'七彩虹旗下灵创 K16 游戏本新推出的 128GB RAM + 4TB SSD 版本现已开售。该机搭载 AMD 锐龙 A…（来源：IT之家）', u:'https://www.ithome.com/1/002/482.htm'},
     {c:'INDUSTRY', d:'2026-09-15T10:46', t:'字节跳动 CEO 梁汝波：过去 50 年 IT 领域共出现四次发展高峰，AI 高峰远超前三次', s:'据财联社报道，字节跳动 CEO 梁汝波今日在飞书未来无限暨豆包工作开工大会上表示，过去 50 年 IT 领域共出现 PC…（来源：IT之家）', u:'https://www.ithome.com/1/002/471.htm'},
     {c:'INDUSTRY', d:'2026-09-15T10:36', t:'英伟达黄仁勋大会现场公开接特朗普电话，后者斥责 AI 危险论是骗局', s:'美国总统唐纳德 · 特朗普当地时间周一在一次行业峰会上致电英伟达 CEO 黄仁勋，并在免提电话中再次全力为 AI 辩护…（来源：IT之家）', u:'https://www.ithome.com/1/002/454.htm'},
     {c:'MODEL', d:'2026-09-15T10:35', t:'生态新成果！麒麟100“灵触&灵萃”带来交互新体验', s:'近期，OpenAtom openKylin（以下简称“openKylin”） 技术衍生发行版麒麟100推出AI交互功能“…（来源：OSCHINA）', u:'https://www.oschina.net/news/502484'},
     {c:'INDUSTRY', d:'2026-09-15T10:18', t:'消息称英国国王查尔斯三世本周将会见多家科技巨头高管，讨论 AI 治理话题', s:'综合《镜报》、路透社、纽约时报等媒体报道，英国国王查尔斯三世计划本周在苏格兰邓弗里斯主持一场峰会，邀请多家科技巨头高管共…（来源：IT之家）', u:'https://www.ithome.com/1/002/421.htm'},
-    {c:'MEDDEVICE', d:'2026-09-15T10:16', t:'首个人工智能+脑机接口医疗器械标准发布', s:'首个人工智能+脑机接口医疗器械标准发布（来源：头条设备AI）', u:'https://www.toutiao.com/article/7685579884688638464/'},
+    {c:'MODEL', d:'2026-09-15T10:17', t:'7名博士生仅用3个月从零训练7B大模型：代码+数据+训练日志全公开', s:'几百个Agent参与研发，AI开始造AI（来源：量子位）', u:'https://www.qbitai.com/2026/09/489227.html'},
     {c:'MODEL', d:'2026-09-15T10:09', t:'小米 18 Pro 系列手机官宣搭载全新百变背屏', s:'小米 18 Pro 系列手机今日官宣将于本月发布，这是小米数字系列有史以来升级最大的一次，在性能、影像、续航、AI 能力…（来源：IT之家）', u:'https://www.ithome.com/1/002/418.htm'},
     {c:'HOT', d:'2026-09-15T09:52', t:'白宫科技顾问抨击 Anthropic 和 OpenAI：你们要自己制造安全产品，别老想着靠政府干预', s:'据彭博社今日报道，美国总统科学与技术顾问委员会联合主席戴维 · 萨克斯（David Sack）当地时间周一在接受采访时表…（来源：IT之家）', u:'https://www.ithome.com/1/002/409.htm'},
     {c:'MODEL', d:'2026-09-15T09:49', t:'AI下半场，Anthropic、DeepSeek与智谱屯粮备战', s:'9月，大模型行业，资本市场的信号密集传来。（来源：钛媒体）', u:'https://www.tmtpost.com/8139551.html'},
@@ -472,33 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-15T09:16', t:'中国AI热潮，正把数据中心“搬”向草原', s:'东数西算四年，全国八成以上智能算力已汇聚八大国家算力枢纽；当电力取代资本成为AI最稀缺的投入，“算力追随电力”正在重塑中…（来源：钛媒体）', u:'https://www.tmtpost.com/8137919.html'},
     {c:'HOT', d:'2026-09-15T08:57', t:'AI风口之下，明星们又想“挤上”牌桌了', s:'但问题是，明星们IP轻资产套利的旧套路，能打赢重资产的科技厮杀吗？（来源：钛媒体）', u:'https://www.tmtpost.com/8139387.html'},
     {c:'MEDPHARMA', d:'2026-09-15T08:50', t:'上海未来产业基金总经理魏凡杰:上海是打造“AI制药产业闭环...', s:'上海未来产业基金总经理魏凡杰:上海是打造“AI制药产业闭环...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7685557687429366324/'},
-    {c:'INDUSTRY', d:'2026-09-15T08:47', t:'AI-eSIM 团体标准编制启动，中国移动 / 联通 / 电信三大运营商参与', s:'由中国通信企业协会主办的 2026 信息通信行业 6G+ 人工智能创新发展研讨会于上周末在雄安新区举办。会上举行了 AI…（来源：IT之家）', u:'https://www.ithome.com/1/002/375.htm'},
-    {c:'MODEL', d:'2026-09-15T08:39', t:'联想来酷斗战者 AI NAS 900 系列私有云主机开售：飞牛 fnOS 系统，6999 元起', s:'联想来酷斗战者 AI 私有云主机今日 9:00 正式开售，售价 6999 元起：AI NAS 900（Ultra 7 3…（来源：IT之家）', u:'https://www.ithome.com/1/002/373.htm'},
     {c:'MODEL', d:'2026-09-15T08:23', t:'担心代码被拿去训练！英伟达：限制员工使用 Claude；一汽将成广汽第二大股东！南北丰田拟合并；苹果回应「iPhone 18 Pro破发」', s:'要闻提示1.突发！英伟达：限制员工使用 Claude2.重磅，一汽将成广汽第二大股东！南北丰田拟合并3.苹果回应“iPh…（来源：雷锋网）', u:'https://www.leiphone.com/category/zaobao/SrmCbu60oiAwTvkH.html'},
     {c:'MODEL', d:'2026-09-15T08:17', t:'iOS 27、MacOS 27 正式发布；豆包手机助手消费者版亮相；李想：「大车」趋势一定会结束', s:'特朗普抨击 Anthropic CEO：AI 发展不能踩刹车，美国有「高智商总统」就足够 特朗普周一在社交媒体发文，明确…（来源：极客公园）', u:'http://www.geekpark.net/news/370306'},
+    {c:'MEDDEVICE', d:'2026-09-15T03:20', t:'首个人工智能+脑机接口医疗器械标准发布', s:'首个人工智能+脑机接口医疗器械标准发布（来源：头条设备AI）', u:'https://www.toutiao.com/article/7685472925993927209/'},
+    {c:'MEDDEVICE', d:'2026-09-14T23:56', t:'全球首个!中国发布“AI+脑机接口”医疗器械标准，明年9月实施', s:'全球首个!中国发布“AI+脑机接口”医疗器械标准，明年9月实施（来源：头条设备AI）', u:'https://www.toutiao.com/article/7685420425433612843/'},
     {c:'MEDPHARMA', d:'2026-09-14T22:23', t:'AI制药的真相:“快”的是研发流程 “慢”的是临床验证', s:'AI制药的真相:“快”的是研发流程 “慢”的是临床验证（来源：头条医药AI）', u:'https://www.toutiao.com/article/7685396486829490698/'},
-    {c:'MODEL', d:'2026-09-14T21:22', t:'蚂蚁发布大模型内生式安全护栏SingProbe，让AI边生成边识别风险', s:'大模型正在进入日常问答、办公辅助、客户服务等真实业务场景。用户期待AI快速给出有用的回答，也需要这些回答安全、可靠。如何…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/pvwJSKM5MEEd1H5N.html'},
-    {c:'HOT', d:'2026-09-14T21:05', t:'在学会数学之前，AI 先学会了大厂的虚荣心', s:'大厂的数学名题争夺赛#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1680046?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['09-15 11:12','Waymo 自动驾驶出租车商业服务目标 2027 年正式登陆日本东京市场'],
+    ['09-15 11:12','国补后 38499 元七彩虹灵创 K16 顶配版开售：AMD 锐龙 AI Max+ 395，128GB 内存 + 4TB 存储'],
     ['09-15 10:46','字节跳动 CEO 梁汝波：过去 50 年 IT 领域共出现四次发展高峰，AI 高峰远超前三次'],
     ['09-15 10:36','英伟达黄仁勋大会现场公开接特朗普电话，后者斥责 AI 危险论是骗局'],
     ['09-15 10:35','生态新成果！麒麟100“灵触&灵萃”带来交互新体验'],
     ['09-15 10:18','消息称英国国王查尔斯三世本周将会见多家科技巨头高管，讨论 AI 治理话题'],
-    ['09-15 10:16','首个人工智能+脑机接口医疗器械标准发布'],
-    ['09-15 10:09','小米 18 Pro 系列手机官宣搭载全新百变背屏'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:286740, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262155, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:258443, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213032, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176335, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145073, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138210, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116770, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105605, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94366, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:286759, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262186, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:258453, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213037, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176342, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145078, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138216, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:116780, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick — Claude Code skill that cuts 65% of tokens b…', s:105613, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94384, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
