@@ -1,23 +1,9 @@
 {
-  "updated": "2026-09-17T07:02:10",
+  "updated": "2026-09-17T07:05:10",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-17T07:02",
-      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
-      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-17T07:02",
-      "t": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展",
-      "s": "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260821/963101.shtml"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-09-17T07:02",
+      "d": "2026-09-17T07:05",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
@@ -140,19 +126,25 @@
       "t": "从提交一份PR开始：上海开源大赛open supOS赛题专家解读",
       "s": "2026 年，工业 AI 从试点走向规模化。工业企业中应用大模型和智能体的比例，从 2024 年的 9.6% 升到 20…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502529"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-16T17:36",
+      "t": "在飞书的上下文底座上，豆包开工了",
+      "s": "今年，不少公司的工作群里，将会多一些「新同事」。 它们是 AI，但可以像普通员工一样被拉进群聊，阅读此前的讨论和文档，参…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/370460"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T17:03",
+      "t": "千问办公上架deepin ，一句话开启 AI 办公",
+      "s": "问办公在 deepin 应用商店已经不是新面孔了。上架这段时间，它历经版本迭代，不少 deepin 用户已经下载试用，并…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502521"
     }
   ],
   "timeline": [
     [
-      "09-17 07:02",
-      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
-    ],
-    [
-      "09-17 07:02",
-      "2026科学智能大会在京开幕 共话人工智能赋能科学研究新进展"
-    ],
-    [
-      "09-17 07:02",
+      "09-17 07:05",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
     ],
     [
@@ -166,6 +158,14 @@
     [
       "09-16 22:12",
       "诺和诺德与 Anthropic 达成合作，用 Claude 大模型加速新药研发"
+    ],
+    [
+      "09-16 21:46",
+      "苹果 iOS 27 正式版更新汇总：60 项升级，系统 / 功能 / 应用 / AI 齐优化"
+    ],
+    [
+      "09-16 21:37",
+      "英伟达、谷歌、Emerald AI 发起成立 AI 能源管理联盟，推动灵活型 AI 数据中心发展"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263582,
+      "s": 263583,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260215,
+      "s": 260219,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95412,
+      "s": 95413,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
