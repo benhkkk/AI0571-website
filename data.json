@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-16T19:01:50",
+  "updated": "2026-09-16T19:31:12",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-16T19:01",
+      "d": "2026-09-16T19:31",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T19:21",
+      "t": "“安全事件”发生前，曝 OpenAI 失控智能体 5 月就已试图探测 Hugging Face 弱点",
+      "s": "今天（16 日）晚间，据路透社援引审查过有关活动的研究人员消息称，OpenAI 的失控 AI 智能体早在 5 月就劫持了…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/269.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-16T19:16",
+      "t": "英伟达黄仁勋：在中国，没人谈所谓“AI 末日论”",
+      "s": "据《商业内幕》今天报道，英伟达首席执行官黄仁勋本周一在 All-In Summit 峰会表示，在中国，没有人会谈“AI …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/266.htm"
     },
     {
       "c": "FUNDING",
@@ -80,24 +94,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-16T17:06",
-      "t": "极摩客 AMD 锐龙 AI Max+ PRO 495 迷你主机 EVO-X5 Pro 定档 9 月 28 日全球发布",
-      "s": "极摩客 (GMKtec) 基于 AMD 锐龙 AI Max+ PRO 495 \"Gorgon Halo\" 处理器的 EV…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/192.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-16T17:03",
       "t": "千问办公上架deepin ，一句话开启 AI 办公",
       "s": "问办公在 deepin 应用商店已经不是新面孔了。上架这段时间，它历经版本迭代，不少 deepin 用户已经下载试用，并…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502521"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-16T17:01",
-      "t": "努比亚 NaviX Ultra 体验：手机真的开始“替你用手机”了",
-      "s": "去年底，搭载“豆包手机助手”技术预览版的工程样机 —— 努比亚 M153 曾小规模限量发售。该机由中兴努比亚与豆包手机助…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/190.htm"
     },
     {
       "c": "MODEL",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "09-16 19:01",
+      "09-16 19:31",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
+    ],
+    [
+      "09-16 19:21",
+      "“安全事件”发生前，曝 OpenAI 失控智能体 5 月就已试图探测 Hugging Face 弱点"
+    ],
+    [
+      "09-16 19:16",
+      "英伟达黄仁勋：在中国，没人谈所谓“AI 末日论”"
     ],
     [
       "09-16 18:59",
@@ -158,14 +166,6 @@
     [
       "09-16 18:06",
       "AI办公，集体盯上「养宠物」"
-    ],
-    [
-      "09-16 18:06",
-      "沉寂1700天后，字节挖来华尔街大牛，重新杀回一级市场？"
-    ],
-    [
-      "09-16 17:58",
-      "从提交一份PR开始：上海开源大赛open supOS赛题专家解读"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287410,
+      "s": 287421,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263239,
+      "s": 263248,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259678,
+      "s": 259694,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213311,
+      "s": 213315,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145246,
+      "s": 145251,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138428,
+      "s": 138435,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118181,
+      "s": 118186,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105885,
+      "s": 105888,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95102,
+      "s": 95110,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
