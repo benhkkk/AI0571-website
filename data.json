@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-17T01:01:40",
+  "updated": "2026-09-17T01:10:48",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-17T01:01",
+      "d": "2026-09-17T01:10",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
@@ -72,6 +72,13 @@
       "u": "https://www.oschina.net/news/502530"
     },
     {
+      "c": "MEDDEVICE",
+      "d": "2026-09-16T19:15",
+      "t": "全球首个!人工智能+脑机接口标准在中国发布",
+      "s": "全球首个!人工智能+脑机接口标准在中国发布（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7686090088258601522/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-16T18:38",
       "t": "芯片从业者拆解OpenAI造芯，还能再快3个月？",
@@ -98,13 +105,6 @@
       "t": "沉寂1700天后，字节挖来华尔街大牛，重新杀回一级市场？",
       "s": "前Coatue高管蒋恺加入字节跳动，AI是其重点投资方向（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8142045.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-16T18:04",
-      "t": "恒瑞医药韩涟漪:AI制药瓶颈是靶点发现，决胜在人才与软硬件",
-      "s": "恒瑞医药韩涟漪:AI制药瓶颈是靶点发现，决胜在人才与软硬件（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7686071830918005291/"
     },
     {
       "c": "MODEL",
@@ -144,7 +144,7 @@
   ],
   "timeline": [
     [
-      "09-17 01:01",
+      "09-17 01:10",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287544,
+      "s": 287546,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263468,
+      "s": 263471,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259925,
+      "s": 259927,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213370,
+      "s": 213373,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145343,
+      "s": 145347,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138485,
+      "s": 138487,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118300,
+      "s": 118305,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105946,
+      "s": 105947,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95237,
+      "s": 95239,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
