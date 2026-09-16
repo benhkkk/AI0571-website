@@ -459,9 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-09-16T13:03', t:'香港将推动全民 AI 培训、推进跨境自动驾驶发展、助力国产飞机打进世界市场', s:'据中央广播电视总台大湾区之声报道，香港特区行政长官李家超今日（16 日）公布《香港特别行政区经济和社会发展第一个五年规划…（来源：IT之家）', u:'https://www.ithome.com/1/003/019.htm'},
     {c:'MODEL', d:'2026-09-16T12:54', t:'得物发布 11 周年全员信：AI 时代下组织分工升级，让团队对完整结果负责', s:'9 月 16 日上午消息，近日，得物发布 11 周年全员信，信中提到，“AI 正在打破过去必须靠层层分工才能完成工作的边…（来源：IT之家）', u:'https://www.ithome.com/1/003/017.htm'},
     {c:'MODEL', d:'2026-09-16T12:19', t:'行业首个，中国移动开源连接 VLA / WAM 模型与机器人本体的通用工程底座 Open-RAIL', s:'中国移动今日宣布，面向全球开源行业内首个连接 VLA / WAM 模型与机器人本体的通用工程底座 —— Open-RAI…（来源：IT之家）', u:'https://www.ithome.com/1/003/013.htm'},
     {c:'MODEL', d:'2026-09-16T12:17', t:'豆包大模型 2.1 Pro 更新 0915 版本：Agent 交付更可靠，多模态 Coding 进化', s:'火山引擎官方今日宣布为豆包大模型 2.1 Pro 更新至 0915 版本，API 全量上线火山方舟。IT之家从官方获悉…（来源：IT之家）', u:'https://www.ithome.com/1/003/012.htm'},
+    {c:'MODEL', d:'2026-09-16T12:16', t:'量子位2026人工智能年度榜单，正式启动！', s:'报名通道已开启，欢迎参与！（来源：量子位）', u:'https://www.qbitai.com/2026/09/490329.html'},
     {c:'HOT', d:'2026-09-16T12:11', t:'一粒枸杞的12年：百瑞源的AI尝鲜', s:'一粒枸杞的12年，从财务系统到数字化车间，从锁鲜技术到AI原生。这是一家传统农业企业的进化史，也是中国管理模式在AI时代…（来源：钛媒体）', u:'https://www.tmtpost.com/8141719.html'},
     {c:'MODEL', d:'2026-09-16T12:04', t:'对话蚂蚁灵波 CEO 朱兴：机器人还吃不了「粗粮」', s:'具身智能会有自己的「ChatGPT 时刻」吗#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第…（来源：爱范儿）', u:'https://www.ifanr.com/1680322?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-09-16T12:04', t:'我和我的 AI 手机吃了 3 顿饭', s:'把 AI 计算放在最适合计算 AI 的地方去。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容…（来源：爱范儿）', u:'https://www.ifanr.com/1679951?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -474,31 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-16T11:41', t:'消息称三星电子扩大通用存储器模组制造外包规模，自有产能聚焦高阶产品', s:'韩媒 THE ELEC 当地时间昨日报道称，三星电子正积极扩大通用存储器模组制造业务的外包规模，以将更多资源分配至 AI…（来源：IT之家）', u:'https://www.ithome.com/1/002/981.htm'},
     {c:'HOT', d:'2026-09-16T11:40', t:'被英伟达点名的杭州团队，补上了AI for Science的「最后一公里」', s:'从想法到结果，一次对话实现（来源：量子位）', u:'https://www.qbitai.com/2026/09/490185.html'},
     {c:'MODEL', d:'2026-09-16T11:35', t:'vivo 自研蓝河操作系统 4 发布，WATCH 6 手表首发搭载', s:'在今日的 2026 vivo 开发者大会上，vivo 自研蓝河操作系统 4 正式发布，推出智能体操作系统（AgentOS…（来源：IT之家）', u:'https://www.ithome.com/1/002/977.htm'},
-    {c:'MODEL', d:'2026-09-16T11:26', t:'vivo OriginOS 7 发布：蓝心小 V 大升级，光影美学质感手动切换，首帧交互可打断', s:'vivo OriginOS 7 今日正式发布，在 UI 设计、AI 智能、流畅体验等方面迎来升级。蓝心小 VOrigin…（来源：IT之家）', u:'https://www.ithome.com/1/002/974.htm'},
     {c:'MODEL', d:'2026-09-16T11:18', t:'2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着', s:'过去几年 AI 的叙事几乎全在"训练更大的模型"，到 2026 年，风向变了。黄仁勋在 GTC 2026 上把这一年叫做…（来源：OSCHINA）', u:'https://www.oschina.net/news/502511/ieee-inference-hardware-revolution'},
     {c:'MODEL', d:'2026-09-16T11:07', t:'把记忆交给CPU，大模型会变快', s:'让GPU去忙生成Token（来源：量子位）', u:'https://www.qbitai.com/2026/09/489724.html'},
     {c:'MODEL', d:'2026-09-16T11:01', t:'Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练', s:'网站站长过去得在一个很别扭的选择里二选一：让内容被拿去训练 AI，或者冒着失去搜索可见度的风险拒绝。这个两难来自一个现实…（来源：OSCHINA）', u:'https://www.oschina.net/news/502510/cloudflare-accountable-mixed-use-ai-crawlers'},
-    {c:'HOT', d:'2026-09-16T10:58', t:'实时互动、实时改视频、探索空间视频，Vidu S2一次放了三个大招', s:'实时互动、实时改视频、探索空间视频，Vidu S2一次放了三个大招（来源：量子位）', u:'https://www.qbitai.com/2026/09/490109.html'},
   ];
   const TIMELINE = [
+    ['09-16 13:03','香港将推动全民 AI 培训、推进跨境自动驾驶发展、助力国产飞机打进世界市场'],
     ['09-16 12:54','得物发布 11 周年全员信：AI 时代下组织分工升级，让团队对完整结果负责'],
     ['09-16 12:19','行业首个，中国移动开源连接 VLA / WAM 模型与机器人本体的通用工程底座 Open-RAIL'],
     ['09-16 12:17','豆包大模型 2.1 Pro 更新 0915 版本：Agent 交付更可靠，多模态 Coding 进化'],
+    ['09-16 12:16','量子位2026人工智能年度榜单，正式启动！'],
     ['09-16 12:11','一粒枸杞的12年：百瑞源的AI尝鲜'],
-    ['09-16 12:04','对话蚂蚁灵波 CEO 朱兴：机器人还吃不了「粗粮」'],
-    ['09-16 12:04','我和我的 AI 手机吃了 3 顿饭'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:287251, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:262988, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:259464, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213261, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176559, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145217, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138371, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:118098, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:105824, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94925, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:287265, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:263001, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:259474, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213265, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176567, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145220, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138373, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:118104, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:105827, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:94943, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
