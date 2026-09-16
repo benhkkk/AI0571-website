@@ -1,9 +1,9 @@
 {
-  "updated": "2026-09-16T23:01:44",
+  "updated": "2026-09-16T23:31:16",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-16T23:01",
+      "d": "2026-09-16T23:31",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
@@ -42,6 +42,13 @@
       "t": "朱江明：零跑已做出完全自研机器人，待其“能赚钱”才能拿出手",
       "s": "在今晚的零跑 2026 年度技术发布会上，零跑科技创始人、董事长、CEO 朱江明在演讲中提到，有很多人问零跑为什么不做具…（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/300.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T21:08",
+      "t": "通用能力不打折，空间具身智能断层领先！ZDTaichu5.0-9B国产开源，跻身全球多模态第一梯队",
+      "s": "九大空间测试10B规模通用模型中8项第一（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/490839.html"
     },
     {
       "c": "MODEL",
@@ -93,6 +100,13 @@
       "u": "https://www.tmtpost.com/8142045.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-16T18:04",
+      "t": "恒瑞医药韩涟漪:AI制药瓶颈是靶点发现，决胜在人才与软硬件",
+      "s": "恒瑞医药韩涟漪:AI制药瓶颈是靶点发现，决胜在人才与软硬件（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7686071830918005291/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-16T18:02",
       "t": "2nm天玑9600 Pro，把旗舰SoC竞争推向「融合计算」",
@@ -126,25 +140,11 @@
       "t": "30 天无忧试用 + 百万安全保障服务：努比亚 NaviX Ultra 第二代豆包手机开售",
       "s": "努比亚 NaviX Ultra 手机今日正式发布，也就是大家俗称的第二代豆包手机，售价 5999 元起，国补到手价 54…（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/189.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-16T16:55",
-      "t": "添翼AI 3.0重磅发布！东软重塑医疗AI，迈入业务智能新时代",
-      "s": "医学从不为新奇背书。当医疗人工智能走过以参数量和排行榜为标尺的阶段，一个更朴素，也更坚硬的问题，正摆在整个行业面前：AI…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502520"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-16T16:55",
-      "t": "首发|Anew Labs首轮融资2.9亿美元，今年AI制药最大融资诞生",
-      "s": "首发|Anew Labs首轮融资2.9亿美元，今年AI制药最大融资诞生（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7686051640696128041/"
     }
   ],
   "timeline": [
     [
-      "09-16 23:01",
+      "09-16 23:31",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287506,
+      "s": 287517,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263401,
+      "s": 263414,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259829,
+      "s": 259846,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213348,
+      "s": 213355,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176661,
+      "s": 176667,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145304,
+      "s": 145317,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138465,
+      "s": 138470,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118263,
+      "s": 118273,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105920,
+      "s": 105924,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95196,
+      "s": 95202,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
