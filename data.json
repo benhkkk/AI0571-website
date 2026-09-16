@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-16T18:31:20",
+  "updated": "2026-09-16T19:01:50",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-16T18:31",
+      "d": "2026-09-16T19:01",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-16T18:59",
+      "t": "马克 · 库班警告：人们在社交媒体反 AI，其实是给谷歌、Meta 等巨头送钱",
+      "s": "过去几周，AI 失控论、AI 威胁人类等论调在社交媒体引发广泛讨论。《创智赢家》投资人、美国亿万富翁马克・库班对此认为…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/261.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-16T18:48",
+      "t": "多名研究人员称“AI 末日论”存在夸大成分：AI 尚无法对现实世界真正造成伤害",
+      "s": "据《商业内幕》今天（16 日）傍晚报道，有关“担心 AI 导致人类走向末日”的争论在过去一周迅速升温，不过也有研究人员强…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/257.htm"
     },
     {
       "c": "HOT",
@@ -87,13 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-16T17:01",
-      "t": "30 天无忧试用 + 百万安全保障服务：努比亚 NaviX Ultra 第二代豆包手机开售",
-      "s": "努比亚 NaviX Ultra 手机今日正式发布，也就是大家俗称的第二代豆包手机，售价 5999 元起，国补到手价 54…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/189.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-16T16:55",
       "t": "添翼AI 3.0重磅发布！东软重塑医疗AI，迈入业务智能新时代",
       "s": "医学从不为新奇背书。当医疗人工智能走过以参数量和排行榜为标尺的阶段，一个更朴素，也更坚硬的问题，正摆在整个行业面前：AI…（来源：OSCHINA）",
@@ -133,19 +140,20 @@
       "t": "AI大模型工场2026 AI产业生态大会今日举办，大咖同台共探智能生长与产业共生",
       "s": "9月15日，由AI大模型工场主办的“2026 AI产业生态大会”在北京举行。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/490760.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-16T16:44",
-      "t": "基于全国产化算力训练，讯飞星火语音基座大模型 Spark-Audio-1.0-Preview 上线",
-      "s": "科大讯飞今日宣布 Spark-Audio-1.0-Preview 上线，这是一款基于全国产化算力训练的语音基座大模型。过…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/173.htm"
     }
   ],
   "timeline": [
     [
-      "09-16 18:31",
+      "09-16 19:01",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
+    ],
+    [
+      "09-16 18:59",
+      "马克 · 库班警告：人们在社交媒体反 AI，其实是给谷歌、Meta 等巨头送钱"
+    ],
+    [
+      "09-16 18:48",
+      "多名研究人员称“AI 末日论”存在夸大成分：AI 尚无法对现实世界真正造成伤害"
     ],
     [
       "09-16 18:06",
@@ -158,14 +166,6 @@
     [
       "09-16 17:58",
       "从提交一份PR开始：上海开源大赛open supOS赛题专家解读"
-    ],
-    [
-      "09-16 17:55",
-      "模拟实验显示：AI 智能体在特定情境下会撒谎、投票“杀死”同类，甚至研究被删除后如何存活"
-    ],
-    [
-      "09-16 17:39",
-      "韩国副总理裴庆勋：韩国必须持续推动 AI 发展，不能停也不能慢"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287396,
+      "s": 287410,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263225,
+      "s": 263239,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259658,
+      "s": 259678,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213310,
+      "s": 213311,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176627,
+      "s": 176634,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145244,
+      "s": 145246,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138424,
+      "s": 138428,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118177,
+      "s": 118181,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105878,
+      "s": 105885,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95094,
+      "s": 95102,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
