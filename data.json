@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-16T20:19:14",
+  "updated": "2026-09-16T20:31:30",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-16T20:19",
+      "d": "2026-09-16T20:31",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T20:19",
+      "t": "零跑世界模型辅助驾驶将覆盖 A、B、C、D 全系车型，10 万元内也可拥有",
+      "s": "在今天（16 日）晚间的零跑 2026 年度技术发布会上，零跑汽车公布了自研的世界模型智能辅助驾驶，200TOPS 算力…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/279.htm"
     },
     {
       "c": "MODEL",
@@ -101,13 +108,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-16T17:10",
-      "t": "PS5 游戏机模拟器 KytyPS5 新进展：可运行《宇宙机器人无线控制器使用指南》",
-      "s": "索尼 PlayStation 5 游戏机模拟器 KytyPS5 近期引发广泛关注。这款使用 C++ 编写的开源模拟器当前…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/195.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-16T17:03",
       "t": "千问办公上架deepin ，一句话开启 AI 办公",
       "s": "问办公在 deepin 应用商店已经不是新面孔了。上架这段时间，它历经版本迭代，不少 deepin 用户已经下载试用，并…（来源：OSCHINA）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-16 20:19",
+      "09-16 20:31",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
+    ],
+    [
+      "09-16 20:19",
+      "零跑世界模型辅助驾驶将覆盖 A、B、C、D 全系车型，10 万元内也可拥有"
     ],
     [
       "09-16 19:31",
@@ -162,10 +166,6 @@
     [
       "09-16 18:59",
       "马克 · 库班警告：人们在社交媒体反 AI，其实是给谷歌、Meta 等巨头送钱"
-    ],
-    [
-      "09-16 18:48",
-      "多名研究人员称“AI 末日论”存在夸大成分：AI 尚无法对现实世界真正造成伤害"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287441,
+      "s": 287447,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263279,
+      "s": 263288,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259723,
+      "s": 259731,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176636,
+      "s": 176638,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145265,
+      "s": 145269,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138444,
+      "s": 138445,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118196,
+      "s": 118202,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105893,
+      "s": 105894,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95133,
+      "s": 95138,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
