@@ -1,12 +1,47 @@
 {
-  "updated": "2026-09-16T11:01:12",
+  "updated": "2026-09-16T11:31:06",
   "news": [
     {
-      "c": "HOT",
+      "c": "MODEL",
+      "d": "2026-09-16T11:26",
+      "t": "vivo OriginOS 7 发布：蓝心小 V 大升级，光影美学质感手动切换，首帧交互可打断",
+      "s": "vivo OriginOS 7 今日正式发布，在 UI 设计、AI 智能、流畅体验等方面迎来升级。蓝心小 VOrigin…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/974.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T11:23",
+      "t": "对抗 AI 伪造图片：苹果 iPhone 18 Pro/Max 引入像素级标注功能",
+      "s": "苹果公司昨日（9 月 15 日）发布博文，详细介绍了在 iPhone 18 Pro、iPhone 18 Pro Max …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/971.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-16T11:23",
+      "t": "消息称 OpenAI 拟以超 1.2 万亿美元估值进行新一轮融资",
+      "s": "综合《金融时报》《华尔街日报》两家外媒报道，OpenAI 已就以 1.2 万亿美元（IT之家注：现汇率约合 8.07 万…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/002/970.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T11:18",
+      "t": "2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着",
+      "s": "过去几年 AI 的叙事几乎全在\"训练更大的模型\"，到 2026 年，风向变了。黄仁勋在 GTC 2026 上把这一年叫做…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502511/ieee-inference-hardware-revolution"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-16T11:01",
-      "t": "孙书军：AI辅助科研，学术责任须由人承担",
-      "s": "孙书军：AI辅助科研，学术责任须由人承担（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260915/977615.shtml"
+      "t": "Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练",
+      "s": "网站站长过去得在一个很别扭的选择里二选一：让内容被拿去训练 AI，或者冒着失去搜索可见度的风险拒绝。这个两难来自一个现实…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502510/cloudflare-accountable-mixed-use-ai-crawlers"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-16T10:57",
+      "t": "亲手优化出 DeepSeek V4.1 算子的工程师，决定继续留在这场加速里",
+      "s": "DeepSeek 的机器学习系统工程师刘胜与，最近写了篇长文，标题透露出一种无力感：《我不得不把才华埋葬在昨天》。发出来…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502509"
     },
     {
       "c": "MODEL",
@@ -45,24 +80,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-16T10:29",
-      "t": "vivo 蓝心小 V Pro 发布：一句话拆解任务，跨端调用超 6000 项能力",
-      "s": "在今日举行的 2026 vivo 开发者大会上，vivo 官方宣布推出蓝心智能，以「大模型 + Harness + 智能…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/936.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-16T10:22",
-      "t": "华为小艺 Work 开启内测：鸿蒙手机、平板、电脑全打通，支持办公、代码、设计多种 AI 任务",
-      "s": "华为宣布小艺 Work 开启内测。该服务定位为面向日常办公、代码开发和创意创作的 AI 工作助理，支持鸿蒙手机、平板和电…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/926.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-16T10:18",
-      "t": "特朗普当众致电英伟达黄仁勋，调侃“能造世界最复杂芯片的人不会开免提”",
-      "s": "当地时间 9 月 14 日，英伟达 CEO 黄仁勋现身美国洛杉矶的 All-in Summit 峰会，公开驳斥了“AI …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/922.htm"
+      "d": "2026-09-16T10:27",
+      "t": "华为GTS让Agent学会「看着网络排障」，双防火墙难题几乎全拿下",
+      "s": "任务通过率提升24.2%，token成本最高下降45%（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/490098.html"
     },
     {
       "c": "HOT",
@@ -119,53 +140,32 @@
       "t": "Edge AI Daily 早报（9月16日）",
       "s": "贝莱德CEO警告AI基建延误将加剧垄断，美国数据中心天然气消耗2035年超德日总和。EPA废除电厂排放标准，化石能源回潮…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8141323.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-15T23:07",
-      "t": "美团发布“手艺人Agent”，发型师可“吩咐”AI小帮手打理线上作品",
-      "s": "9月15日，美团在2026百大发型师生态大会上正式发布首个“手艺人Agent”，基于平台AI技术和对行业真实经营经验的积…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/Yuupw4bTHf0c0QsZ.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-15T23:03",
-      "t": "全能 Go Agent 框架 covonaut v1.1.3 发布：TUI 库迎来更人性化的交互",
-      "s": "covonaut 是一个 Go 语言生产级 Agent 开发框架，基于 Go 1.25 构建，MIT 开源。框架覆盖 A…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502508"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-15T21:53",
-      "t": "梁文锋CFO到位！投过智谱MiniMax",
-      "s": "严文韬，1991年生，高瓴创投合伙人（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/489707.html"
     }
   ],
   "timeline": [
     [
+      "09-16 11:26",
+      "vivo OriginOS 7 发布：蓝心小 V 大升级，光影美学质感手动切换，首帧交互可打断"
+    ],
+    [
+      "09-16 11:23",
+      "对抗 AI 伪造图片：苹果 iPhone 18 Pro/Max 引入像素级标注功能"
+    ],
+    [
+      "09-16 11:23",
+      "消息称 OpenAI 拟以超 1.2 万亿美元估值进行新一轮融资"
+    ],
+    [
+      "09-16 11:18",
+      "2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着"
+    ],
+    [
       "09-16 11:01",
-      "孙书军：AI辅助科研，学术责任须由人承担"
+      "Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练"
     ],
     [
-      "09-16 10:51",
-      "vivo OriginOS 7 升级截屏直达功能：AI 识别券码，票券进卡包"
-    ],
-    [
-      "09-16 10:48",
-      "微信 Windows / macOS PC 版 4.1.15 发布：可在双人语音或视频通话时邀请更多人加入，文件和公众号文章支持问 AI"
-    ],
-    [
-      "09-16 10:43",
-      "vivo 口袋编程智能体 BlueCode 预览版发布，预研手机端侧蓝心 30B MoE 模型"
-    ],
-    [
-      "09-16 10:39",
-      "vivo 发布小 V Cowork，可在手机上发起和管理 PC 端的智能体任务"
-    ],
-    [
-      "09-16 10:30",
-      "vivo 发布四款蓝心大模型，推出系统级蓝心 Harness"
+      "09-16 10:57",
+      "亲手优化出 DeepSeek V4.1 算子的工程师，决定继续留在这场加速里"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287206,
+      "s": 287224,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 262930,
+      "s": 262953,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259395,
+      "s": 259406,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176541,
+      "s": 176546,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145200,
+      "s": 145206,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118071,
+      "s": 118079,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105810,
+      "s": 105814,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94872,
+      "s": 94881,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
