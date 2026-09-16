@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-16T13:31:09",
+  "updated": "2026-09-16T14:01:49",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-16T13:41",
+      "t": "SiFive 与 AMD 合作，优化 ROCm 在 RISC-V 数据中心处理器上的表现",
+      "s": "SiFive、AMD 当地时间昨日在 AI Infra Summit 上联合展示了 RISC-V 处理器 + AMD R…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/026.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-09-16T13:03",
@@ -115,17 +122,17 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-16T11:35",
-      "t": "vivo 自研蓝河操作系统 4 发布，WATCH 6 手表首发搭载",
-      "s": "在今日的 2026 vivo 开发者大会上，vivo 自研蓝河操作系统 4 正式发布，推出智能体操作系统（AgentOS…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/002/977.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-16T11:18",
       "t": "2026 “AI 推理”硬件革命已到来，显卡却有大半时间在闲着",
       "s": "过去几年 AI 的叙事几乎全在\"训练更大的模型\"，到 2026 年，风向变了。黄仁勋在 GTC 2026 上把这一年叫做…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502511/ieee-inference-hardware-revolution"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-16T11:11",
+      "t": "AI助力网络安全发展，CrowdStrike及另外4只股票值得买入",
+      "s": "摩根大通认为，随着人工智能应用的普及带动网络安全需求进一步增长，CrowdStrike、Palo Alto Networ…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8141633.html"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,13 @@
       "t": "把记忆交给CPU，大模型会变快",
       "s": "让GPU去忙生成Token（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/489724.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-16T11:01",
-      "t": "Cloudflare 想让你既能被搜索引擎收录，又可以拒绝 AI 训练",
-      "s": "网站站长过去得在一个很别扭的选择里二选一：让内容被拿去训练 AI，或者冒着失去搜索可见度的风险拒绝。这个两难来自一个现实…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502510/cloudflare-accountable-mixed-use-ai-crawlers"
     }
   ],
   "timeline": [
+    [
+      "09-16 13:41",
+      "SiFive 与 AMD 合作，优化 ROCm 在 RISC-V 数据中心处理器上的表现"
+    ],
     [
       "09-16 13:03",
       "香港将推动全民 AI 培训、推进跨境自动驾驶发展、助力国产飞机打进世界市场"
@@ -162,10 +166,6 @@
     [
       "09-16 12:16",
       "量子位2026人工智能年度榜单，正式启动！"
-    ],
-    [
-      "09-16 12:11",
-      "一粒枸杞的12年：百瑞源的AI尝鲜"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287265,
+      "s": 287279,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263001,
+      "s": 263014,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 259474,
+      "s": 259488,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213265,
+      "s": 213264,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176567,
+      "s": 176574,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145220,
+      "s": 145221,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138373,
+      "s": 138376,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118104,
+      "s": 118111,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 105827,
+      "s": 105831,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 94943,
+      "s": 94956,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
