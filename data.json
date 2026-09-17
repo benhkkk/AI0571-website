@@ -1,12 +1,33 @@
 {
-  "updated": "2026-09-17T11:32:18",
+  "updated": "2026-09-17T12:02:21",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-17T11:32",
+      "d": "2026-09-17T12:02",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-17T11:51",
+      "t": "朱江明：零跑近期不会把人形机器人作为重点，将来真正能带来价值的还是非人形",
+      "s": "9 月 17 日上午消息，2026 零跑技术日发布会后，零跑科技创始人、董事长、CEO 朱江明，零跑科技高级副总裁曹力…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/451.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-17T11:50",
+      "t": "行业模型不是通用模型缩小版，百望王志伟谈财税大模型落地产业实景",
+      "s": "发票是企业经营的数字DNA，百望股份用260亿张交易凭证，喂出一套财税大模型。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8143131.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-17T11:49",
+      "t": "超节点如何成为AI算力的新答案？丨ToB产业观察",
+      "s": "超节点的故事，就像是AI产业从“拼单点”走向“拼系统”的缩影。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8142959.html"
     },
     {
       "c": "MODEL",
@@ -86,20 +107,6 @@
       "u": "https://www.tmtpost.com/8142809.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-17T10:46",
-      "t": "创作者月入超10万，AI UGC游戏平台依旧算不上好生意",
-      "s": "热闹的风口，少数人的红利。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8142784.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-17T10:45",
-      "t": "全球30%游戏从业者过去一年被裁，35%的公司已经因为AI“不想招人了”",
-      "s": "AI到底会不会抢走游戏人的饭碗？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8142804.html"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-17T10:44",
       "t": "OPPO ColorOS 17 小布已接入 150 多项服务，新增“小布来电”紧急提醒方式",
@@ -129,13 +136,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-17T10:00",
-      "t": "微软承认在部分 Win10/Win11 经典版 Outlook 中 Copilot 入口消失",
-      "s": "微软于 9 月 15 日更新支持文档，表示经典版 Outlook 升级 Build 20026.20182 及更高版本后…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/396.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-17T09:58",
       "t": ":fire::fire::fire: Claude Code 工程最佳实践 | 主数据平台 1.5.1 震撼发布",
       "s": ":sparkles: 亮点特性 :book: 文档官网全面升级 网址：http://mddata.top/ 应用接入章节…（来源：OSCHINA）",
@@ -144,8 +144,20 @@
   ],
   "timeline": [
     [
-      "09-17 11:32",
+      "09-17 12:02",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
+    ],
+    [
+      "09-17 11:51",
+      "朱江明：零跑近期不会把人形机器人作为重点，将来真正能带来价值的还是非人形"
+    ],
+    [
+      "09-17 11:50",
+      "行业模型不是通用模型缩小版，百望王志伟谈财税大模型落地产业实景"
+    ],
+    [
+      "09-17 11:49",
+      "超节点如何成为AI算力的新答案？丨ToB产业观察"
     ],
     [
       "09-17 11:18",
@@ -154,18 +166,6 @@
     [
       "09-17 11:15",
       "OPPO 发布全天候主动式 AI 硬件“心力球”，今年晚些时候到来"
-    ],
-    [
-      "09-17 11:14",
-      "6912颗光模块与一台\"修芯片的机器\"：算力竞争的账，正在算向制造装备"
-    ],
-    [
-      "09-17 11:08",
-      "联想 Googlebook 15 笔记本曝光：配灯条“AI Mouse”鼠标，预估 9 月 21 日亮相"
-    ],
-    [
-      "09-17 11:05",
-      "小米把 MiMo 2.6 的后训练过程实时直播出来了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287672,
+      "s": 287684,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263707,
+      "s": 263724,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260395,
+      "s": 260419,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213475,
+      "s": 213478,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176740,
+      "s": 176745,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145584,
+      "s": 145602,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138536,
+      "s": 138540,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118526,
+      "s": 118536,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106083,
+      "s": 106088,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95541,
+      "s": 95557,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
