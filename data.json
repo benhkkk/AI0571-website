@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-17T08:02:55",
+  "updated": "2026-09-17T08:32:03",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-09-17T08:02",
+      "d": "2026-09-17T08:32",
       "t": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布",
       "s": "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260916/978687.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-17T08:31",
+      "t": "折旧模型失效：英伟达 B200 二手残值达首发价 158%，AI 算力需求持续推高 GPU 溢价",
+      "s": "数据分析公司 Silicon Data 最新数据显示，英伟达 B200 GPU（Blackwell 架构）在出货约一年后…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/368.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-17T08:28",
+      "t": "大模型的进步，为什么越来越难衡量了？",
+      "s": "模型评测正在成为一种竞争力。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8142369.html"
     },
     {
       "c": "MODEL",
@@ -18,7 +32,7 @@
     {
       "c": "HOT",
       "d": "2026-09-17T07:54",
-      "t": "突然对苹果撤诉？OpenAI 怀疑马斯克心里有鬼，法官下令披露背后协议",
+      "t": "马斯克突然对苹果撤诉？OpenAI 怀疑有鬼，法官下令披露背后协议",
       "s": "北京时间 9 月 17 日，据科技网站 9to5mac 报道，美国联邦法官马克 · 皮特曼 (Mark Pittman)…（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/359.htm"
     },
@@ -70,13 +84,6 @@
       "t": "联合国秘书长古特雷斯：世界承受不起 AI 安全领域的恶性竞争",
       "s": "据彭博社今天（16 日）晚间报道，联合国秘书长安东尼奥 · 古特雷斯呼吁各国共同推进 AI 监管，并加强对技术的监督。“…（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/338.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-16T22:19",
-      "t": "微软 AI 负责人苏莱曼向 Anthropic 开炮：别让 Claude 去模仿人类意识",
-      "s": "外媒 Axios 今天（16 日）晚间披露，微软 AI 负责人穆斯塔法 · 苏莱曼在一篇率先向该平台提供的新文章中警告…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/313.htm"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,20 @@
       "t": "2nm天玑9600 Pro，把旗舰SoC竞争推向「融合计算」",
       "s": "智能体让旗舰SoC从拼核心，转向拼系统。过去数年，旗舰手机芯片的升级路径非常清晰，制程更先进、CPU主频更高、GPU、I…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/chips/pE0IvGEQtRiAdZcO.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-16T17:58",
-      "t": "从提交一份PR开始：上海开源大赛open supOS赛题专家解读",
-      "s": "2026 年，工业 AI 从试点走向规模化。工业企业中应用大模型和智能体的比例，从 2024 年的 9.6% 升到 20…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502529"
     }
   ],
   "timeline": [
     [
-      "09-17 08:02",
+      "09-17 08:32",
       "直播预约开启|国产电镜新秀×AI原生电镜新品：科学北极星AiSEM F1即将发布"
+    ],
+    [
+      "09-17 08:31",
+      "折旧模型失效：英伟达 B200 二手残值达首发价 158%，AI 算力需求持续推高 GPU 溢价"
+    ],
+    [
+      "09-17 08:28",
+      "大模型的进步，为什么越来越难衡量了？"
     ],
     [
       "09-17 07:57",
@@ -153,19 +161,11 @@
     ],
     [
       "09-17 07:54",
-      "突然对苹果撤诉？OpenAI 怀疑马斯克心里有鬼，法官下令披露背后协议"
+      "马斯克突然对苹果撤诉？OpenAI 怀疑有鬼，法官下令披露背后协议"
     ],
     [
       "09-17 07:48",
       "IT早报 0917：字节张一鸣身家 1050 亿美元首登亚洲首富；18.99 万起比亚迪方程豹方程 S/S GT 上市；周鸿祎称不会再投新能源汽车；努比亚二代豆…"
-    ],
-    [
-      "09-17 07:30",
-      "Anthropic CEO 提议引入“银行式监管”：专家称评估员无权叫停 AI，你不能既当运动员又当裁判"
-    ],
-    [
-      "09-17 07:26",
-      "苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287613,
+      "s": 287617,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263601,
+      "s": 263606,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260251,
+      "s": 260269,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213435,
+      "s": 213441,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176711,
+      "s": 176714,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145485,
+      "s": 145488,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138516,
+      "s": 138519,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118448,
+      "s": 118456,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106043,
+      "s": 106051,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95429,
+      "s": 95444,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
