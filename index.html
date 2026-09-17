@@ -459,12 +459,15 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-17T18:32', t:'从英矽智能III期临床，看AI制药在中国的“交作业”时刻', s:'从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260917/979622.shtml'},
+    {c:'MEDPHARMA', d:'2026-09-17T19:01', t:'从英矽智能III期临床，看AI制药在中国的“交作业”时刻', s:'从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260917/979622.shtml'},
+    {c:'HOT', d:'2026-09-17T18:41', t:'当AI开始算账：一家算力企业的“智企”实践样本丨2026 ITValue Summit 数字价值年会', s:'刘宏云的发言里，最有个性的一个判断是：企业架构正在迎来换代。（来源：钛媒体）', u:'https://www.tmtpost.com/8143846.html'},
     {c:'MODEL', d:'2026-09-17T18:31', t:'开发者借助 OpenAI GPT-6 Astra，破译 83 年前德军无线电密文', s:'一名彭博社开发人员近日声称，他借助 OpenAI 的 GPT-6 Astra，成功破解了一条使用恩尼格玛（Enigma）…（来源：IT之家）', u:'https://www.ithome.com/1/003/789.htm'},
     {c:'HOT', d:'2026-09-17T18:02', t:'宠物AI硬件，最天然的“钉子”，最难验证的答案', s:'宠物不会说话，让主人产生了理解它的需求；同样因为宠物不会说话，没有人能轻易证明AI的解释究竟对不对。（来源：钛媒体）', u:'https://www.tmtpost.com/8143737.html'},
     {c:'MODEL', d:'2026-09-17T17:56', t:'刚刚，智谱首个 RSI 成果发布，10 万国产卡用 GLM 造 GLM', s:'模型优化系统，而系统服务模型。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）', u:'https://www.ifanr.com/1680560?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-17T17:55', t:'JimuReport v2.5.3 安全加固专项发布，免费开源的 AI 报表工具', s:'项目介绍 真正的 AI 报表来了，一句话描述需求，AI 自动生成报表与数据大屏，支持对话式修改报表；同时提供类 Exce…（来源：OSCHINA）', u:'https://www.oschina.net/news/502553'},
     {c:'HOT', d:'2026-09-17T17:45', t:'2026 福布斯美国 400 富豪榜门槛创新高，OpenAI 总裁布罗克曼身家远超 CEO 奥尔特曼', s:'想要登上《福布斯》美国 400 富豪榜，如今的门槛已经创下历史新高。受人工智能与数据中心产业热潮推动，如今需要拥有 44…（来源：IT之家）', u:'https://www.ithome.com/1/003/756.htm'},
+    {c:'HOT', d:'2026-09-17T17:42', t:'图形学宗师童欣加盟Meshy，要做“AI for Fun”的头号玩家', s:'他要和这一代最富有想象力的年轻人一起，去创造一个新的图形学。（来源：量子位）', u:'https://www.qbitai.com/2026/09/491522.html'},
+    {c:'MODEL', d:'2026-09-17T17:39', t:'央企做了个通用Agent，直接杀进IDC实测前三！', s:'中国电信，TeleAgent（来源：量子位）', u:'https://www.qbitai.com/2026/09/491454.html'},
     {c:'MODEL', d:'2026-09-17T17:22', t:'新报告称 AI 电子垃圾规模被严重低估，到 2050 年或可绕地球六圈', s:'据外媒 The Verge 今天（17 日）报道，AI 热潮产生的电子垃圾规模被严重低估。巴塞尔行动网络（BAN）发布的…（来源：IT之家）', u:'https://www.ithome.com/1/003/736.htm'},
     {c:'FUNDING', d:'2026-09-17T17:21', t:'消息称 AI 初创企业 Manus 即将完成 5 亿美元融资，估值翻倍至 40 亿美元', s:'据彭博社报道，AI 初创企业 Manus 即将完成融资。这是在其与 Meta 分拆之后的首轮募资，本轮融资计划将使其估值…（来源：IT之家）', u:'https://www.ithome.com/1/003/734.htm'},
     {c:'MODEL', d:'2026-09-17T17:15', t:'月之暗面发布 Kimi 金融行业 AI 解决方案，首批落地工商银行、中信建投等', s:'月之暗面今天宣布推出 Kimi 金融行业解决方案，整合 Kimi 金融行业的产品与能力，涵盖 10+ 权威数据源、9 项…（来源：IT之家）', u:'https://www.ithome.com/1/003/733.htm'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-17T16:28', t:'华为给智能世界列了 10 个必答题：从 AGI、超节点到 Agent OS', s:'华为发布了《智能世界2035：从愿景到行动》报告，配套还有一份《全球数智化指数（GDII）2026》。继 2024 年画…（来源：OSCHINA）', u:'https://www.oschina.net/news/502546/huawei-hc-intelligent-world-2035'},
     {c:'FUNDING', d:'2026-09-17T16:28', t:'智谱融资背后：一场没有枪声的卡位战', s:'一场空间与时间的交换。（来源：钛媒体）', u:'https://www.tmtpost.com/8143610.html'},
     {c:'MODEL', d:'2026-09-17T16:25', t:'蚂蚁集团全员接入千问办公，打造大型企业办公标杆', s:'9月17日，记者获悉，蚂蚁集团正式接入千问办公，作为全公司的智能办公Agent底座，供全员使用，打造大型企业办公的标杆…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/U3X9WHILcYX0kh4l.html'},
-    {c:'MODEL', d:'2026-09-17T16:21', t:'Altman 对话 Benioff：开源模型会不会失控', s:'当开源模型的能力逼近闭源，而监管还没准备好，下一次逃逸，谁负责？（来源：钛媒体）', u:'https://www.tmtpost.com/8143199.html'},
-    {c:'HOT', d:'2026-09-17T16:20', t:'英国国王查尔斯三世召开论坛，呼吁英伟达、OpenAI、谷歌等巨头掌控好 AI 技术', s:'据彭博社今天（17 日）下午报道，英国国王查尔斯三世计划请 AI 领域的几位核心人物作出保证，确认自己有能力掌控自己开发…（来源：IT之家）', u:'https://www.ithome.com/1/003/678.htm'},
-    {c:'MODEL', d:'2026-09-17T16:15', t:'AI办公之外，百度智能云为何盯上「产业智能体操作系统」？', s:'“整个下半年，就看AI办公圈谁能杀出重围了”。一位大模型从业者对雷峰网表示。从五月开始，各个互联网大厂争相出场，写字楼电…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/oZjAyDmVEtf8iH76.html'},
   ];
   const TIMELINE = [
-    ['09-17 18:32','从英矽智能III期临床，看AI制药在中国的“交作业”时刻'],
+    ['09-17 19:01','从英矽智能III期临床，看AI制药在中国的“交作业”时刻'],
+    ['09-17 18:41','当AI开始算账：一家算力企业的“智企”实践样本丨2026 ITValue Summit 数字价值年会'],
     ['09-17 18:31','开发者借助 OpenAI GPT-6 Astra，破译 83 年前德军无线电密文'],
     ['09-17 18:02','宠物AI硬件，最天然的“钉子”，最难验证的答案'],
     ['09-17 17:56','刚刚，智谱首个 RSI 成果发布，10 万国产卡用 GLM 造 GLM'],
     ['09-17 17:55','JimuReport v2.5.3 安全加固专项发布，免费开源的 AI 报表工具'],
-    ['09-17 17:45','2026 福布斯美国 400 富豪榜门槛创新高，OpenAI 总裁布罗克曼身家远超 CEO 奥尔特曼'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:287855, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:263960, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:260744, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213523, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:287867, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:263983, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:260763, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:213525, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:176793, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145741, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:145745, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138598, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:118776, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:106180, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:95741, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:118788, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:106184, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:95750, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

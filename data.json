@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-17T18:32:31",
+  "updated": "2026-09-17T19:01:59",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-17T18:32",
+      "d": "2026-09-17T19:01",
       "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
       "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-17T18:41",
+      "t": "当AI开始算账：一家算力企业的“智企”实践样本丨2026 ITValue Summit 数字价值年会",
+      "s": "刘宏云的发言里，最有个性的一个判断是：企业架构正在迎来换代。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8143846.html"
     },
     {
       "c": "MODEL",
@@ -42,6 +49,20 @@
       "t": "2026 福布斯美国 400 富豪榜门槛创新高，OpenAI 总裁布罗克曼身家远超 CEO 奥尔特曼",
       "s": "想要登上《福布斯》美国 400 富豪榜，如今的门槛已经创下历史新高。受人工智能与数据中心产业热潮推动，如今需要拥有 44…（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/756.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-17T17:42",
+      "t": "图形学宗师童欣加盟Meshy，要做“AI for Fun”的头号玩家",
+      "s": "他要和这一代最富有想象力的年轻人一起，去创造一个新的图形学。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/491522.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-17T17:39",
+      "t": "央企做了个通用Agent，直接杀进IDC实测前三！",
+      "s": "中国电信，TeleAgent（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/491454.html"
     },
     {
       "c": "MODEL",
@@ -119,33 +140,16 @@
       "t": "蚂蚁集团全员接入千问办公，打造大型企业办公标杆",
       "s": "9月17日，记者获悉，蚂蚁集团正式接入千问办公，作为全公司的智能办公Agent底座，供全员使用，打造大型企业办公的标杆…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/U3X9WHILcYX0kh4l.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-17T16:21",
-      "t": "Altman 对话 Benioff：开源模型会不会失控",
-      "s": "当开源模型的能力逼近闭源，而监管还没准备好，下一次逃逸，谁负责？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8143199.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-17T16:20",
-      "t": "英国国王查尔斯三世召开论坛，呼吁英伟达、OpenAI、谷歌等巨头掌控好 AI 技术",
-      "s": "据彭博社今天（17 日）下午报道，英国国王查尔斯三世计划请 AI 领域的几位核心人物作出保证，确认自己有能力掌控自己开发…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/678.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-17T16:15",
-      "t": "AI办公之外，百度智能云为何盯上「产业智能体操作系统」？",
-      "s": "“整个下半年，就看AI办公圈谁能杀出重围了”。一位大模型从业者对雷峰网表示。从五月开始，各个互联网大厂争相出场，写字楼电…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/oZjAyDmVEtf8iH76.html"
     }
   ],
   "timeline": [
     [
-      "09-17 18:32",
+      "09-17 19:01",
       "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
+    ],
+    [
+      "09-17 18:41",
+      "当AI开始算账：一家算力企业的“智企”实践样本丨2026 ITValue Summit 数字价值年会"
     ],
     [
       "09-17 18:31",
@@ -162,10 +166,6 @@
     [
       "09-17 17:55",
       "JimuReport v2.5.3 安全加固专项发布，免费开源的 AI 报表工具"
-    ],
-    [
-      "09-17 17:45",
-      "2026 福布斯美国 400 富豪榜门槛创新高，OpenAI 总裁布罗克曼身家远超 CEO 奥尔特曼"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287855,
+      "s": 287867,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263960,
+      "s": 263983,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260744,
+      "s": 260763,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213523,
+      "s": 213525,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145741,
+      "s": 145745,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118776,
+      "s": 118788,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106180,
+      "s": 106184,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95741,
+      "s": 95750,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
