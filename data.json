@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-17T20:19:03",
+  "updated": "2026-09-17T20:32:03",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-17T20:18",
+      "d": "2026-09-17T20:32",
       "t": "双微纳喷射直写，破解具身智能柔性电极卡点",
       "s": "双微纳喷射直写，破解具身智能柔性电极卡点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979658.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-17T20:18",
+      "d": "2026-09-17T20:32",
       "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
       "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-17T20:21",
+      "t": "“紧急关闭”按钮真能阻止 AI 失控？“AI 教父”辛顿、Anthropic CEO 阿莫迪都不看好",
+      "s": "如今，“AI 突然失控发动毁灭性网络攻击”的潜在情景正日益引起行业重视，如果按下“紧急关闭”开关让 AI 直接下线，问题…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/820.htm"
     },
     {
       "c": "INDUSTRY",
@@ -133,23 +140,20 @@
       "t": "JimuReport v2.5.3 安全加固专项发布，免费开源的 AI 报表工具",
       "s": "项目介绍 真正的 AI 报表来了，一句话描述需求，AI 自动生成报表与数据大屏，支持对话式修改报表；同时提供类 Exce…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502553"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-17T17:45",
-      "t": "2026 福布斯美国 400 富豪榜门槛创新高，OpenAI 总裁布罗克曼身家远超 CEO 奥尔特曼",
-      "s": "想要登上《福布斯》美国 400 富豪榜，如今的门槛已经创下历史新高。受人工智能与数据中心产业热潮推动，如今需要拥有 44…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/756.htm"
     }
   ],
   "timeline": [
     [
-      "09-17 20:18",
+      "09-17 20:32",
       "双微纳喷射直写，破解具身智能柔性电极卡点"
     ],
     [
-      "09-17 20:18",
+      "09-17 20:32",
       "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
+    ],
+    [
+      "09-17 20:21",
+      "“紧急关闭”按钮真能阻止 AI 失控？“AI 教父”辛顿、Anthropic CEO 阿莫迪都不看好"
     ],
     [
       "09-17 20:08",
@@ -162,10 +166,6 @@
     [
       "09-17 19:46",
       "借助 GPT Astra，开发者实现在《我的世界》中原生运行《使命召唤：黑色行动 2》"
-    ],
-    [
-      "09-17 19:43",
-      "OpenAI 最新报告：企业员工用上 AI 后，逐渐开始处理本职范围外的任务"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287894,
+      "s": 287900,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 264021,
+      "s": 264033,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260825,
+      "s": 260838,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213533,
+      "s": 213531,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145767,
+      "s": 145773,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138608,
+      "s": 138610,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118821,
+      "s": 118828,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106207,
+      "s": 106210,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95797,
+      "s": 95801,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
