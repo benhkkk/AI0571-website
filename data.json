@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-18T07:01:31",
+  "updated": "2026-09-18T07:32:14",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-18T07:01",
+      "d": "2026-09-18T07:32",
       "t": "双微纳喷射直写，破解具身智能柔性电极卡点",
       "s": "双微纳喷射直写，破解具身智能柔性电极卡点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979658.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-18T07:01",
+      "d": "2026-09-18T07:32",
       "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
       "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-18T07:10",
+      "t": "距离 AI 造 AI 还有多远？Anthropic Claude 已主导 26% 内部 AI 研发工作",
+      "s": "Anthropic 今日发布了一套用于衡量前沿 AI 实验室研发进度的方法，并公布公司内部的阶段性数据。该体系主要关注 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/886.htm"
     },
     {
       "c": "MODEL",
@@ -28,6 +35,13 @@
       "t": "新型安卓恶意木马 RatHat 现身：引入 AI 识别能力，可帮助黑客快速分析 / 操作受感染设备",
       "s": "安全公司 Zimperium 旗下 zLabs 研究团队发文，透露近日业界出现一种名为 RatHat 的新型安卓恶意木马…（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/876.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-18T00:22",
+      "t": "AI制药行业已进入“下半场”——专访英矽智能联席首席执行官...",
+      "s": "AI制药行业已进入“下半场”——专访英矽智能联席首席执行官...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7686540211374899727/"
     },
     {
       "c": "FUNDING",
@@ -101,13 +115,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-17T20:03",
-      "t": "为何很多常用 App 无法通过 GUI 进行操作？豆包手机助手回应",
-      "s": "今日，豆包手机助手发布答网友问，表示手机助手目前支持系统应用、中兴应用、字节系应用及部分已接入的第三方应用，其他应用暂时…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/812.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-17T19:56",
       "t": "Claude Code团队讲究啊，这都往外说",
       "s": "工程师的核心永远是Problem Solving。（来源：量子位）",
@@ -133,23 +140,20 @@
       "t": "机器人开始制造机器人了？万台产能背后残酷大考才刚开始",
       "s": "10 分钟下线一台人形机器人，可是量产不等于商业化通关。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8143691.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-17T19:34",
-      "t": "端侧AI之战正式打响",
-      "s": "端侧AI商业化加速，企业聚焦轻量模型与硬件开发，智能硬件迎来升级浪潮。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8143618.html"
     }
   ],
   "timeline": [
     [
-      "09-18 07:01",
+      "09-18 07:32",
       "双微纳喷射直写，破解具身智能柔性电极卡点"
     ],
     [
-      "09-18 07:01",
+      "09-18 07:32",
       "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
+    ],
+    [
+      "09-18 07:10",
+      "距离 AI 造 AI 还有多远？Anthropic Claude 已主导 26% 内部 AI 研发工作"
     ],
     [
       "09-18 06:50",
@@ -160,12 +164,8 @@
       "新型安卓恶意木马 RatHat 现身：引入 AI 识别能力，可帮助黑客快速分析 / 操作受感染设备"
     ],
     [
-      "09-17 23:41",
-      "从过山车到机器人：金马游乐5.61亿定增的战略转向与风险"
-    ],
-    [
-      "09-17 23:15",
-      "何小鹏称做机器人难度是造车的 20 倍，小鹏机器人最快今年四季度实现能力跳跃"
+      "09-18 00:22",
+      "AI制药行业已进入“下半场”——专访英矽智能联席首席执行官..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288104,
+      "s": 288116,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 264437,
+      "s": 264456,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 261114,
+      "s": 261140,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213685,
+      "s": 213702,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176878,
+      "s": 176886,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145845,
+      "s": 145856,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138668,
+      "s": 138674,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119037,
+      "s": 119047,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106265,
+      "s": 106271,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95813,
+      "s": 95827,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
