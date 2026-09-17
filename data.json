@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-18T03:02:38",
+  "updated": "2026-09-18T03:31:28",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-18T03:02",
+      "d": "2026-09-18T03:31",
       "t": "双微纳喷射直写，破解具身智能柔性电极卡点",
       "s": "双微纳喷射直写，破解具身智能柔性电极卡点（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979658.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-18T03:02",
+      "d": "2026-09-18T03:31",
       "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
       "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-18T00:22",
+      "t": "AI制药行业已进入“下半场”——专访英矽智能联席首席执行官...",
+      "s": "AI制药行业已进入“下半场”——专访英矽智能联席首席执行官...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7686540211374899727/"
     },
     {
       "c": "FUNDING",
@@ -133,23 +140,20 @@
       "t": "机器人开始制造机器人了？万台产能背后残酷大考才刚开始",
       "s": "10 分钟下线一台人形机器人，可是量产不等于商业化通关。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8143691.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-17T19:34",
-      "t": "端侧AI之战正式打响",
-      "s": "端侧AI商业化加速，企业聚焦轻量模型与硬件开发，智能硬件迎来升级浪潮。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8143618.html"
     }
   ],
   "timeline": [
     [
-      "09-18 03:02",
+      "09-18 03:31",
       "双微纳喷射直写，破解具身智能柔性电极卡点"
     ],
     [
-      "09-18 03:02",
+      "09-18 03:31",
       "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
+    ],
+    [
+      "09-18 00:22",
+      "AI制药行业已进入“下半场”——专访英矽智能联席首席执行官..."
     ],
     [
       "09-17 23:41",
@@ -162,10 +166,6 @@
     [
       "09-17 22:30",
       "不到一个月连破两道千禧年大奖难题？消息称 OpenAI 即将攻克霍奇猜想"
-    ],
-    [
-      "09-17 22:25",
-      "华为开创AI时代计算架构：让百万处理器成为一台计算机"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288045,
+      "s": 288054,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 264316,
+      "s": 264333,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260962,
+      "s": 260985,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213647,
+      "s": 213654,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176862,
+      "s": 176866,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145786,
+      "s": 145795,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138650,
+      "s": 138653,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118974,
+      "s": 118983,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106210,
+      "s": 106219,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95730,
+      "s": 95741,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
