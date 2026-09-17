@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-17T14:32:33",
+  "updated": "2026-09-17T14:55:31",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-17T14:49",
+      "t": "ChatGPT 背后功臣：Almeida 推出 AI 模型 Jev，不生成文本、输出免费",
+      "s": "TypeSafe AI 昨日（9 月 16 日）发布公告，宣布推出 Jev，该 AI 模型定位为“System One …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/584.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-17T14:45",
+      "t": "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了",
+      "s": "﻿ 看到这条视频，你会不会以为《沙丘 3》提前泄露了。 这其实是一部由我们团队的两位同事，花 12 天时间，结 […]#…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1680580?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-17T14:34",
+      "t": "抖音宣布上线声音侵权举报入口，应对 AI 合成、仿冒音色等侵权行为",
+      "s": "抖音宣布上线声音侵权举报入口，并升级相关维权机制。抖音表示，随着 AI 合成、仿冒音色等技术门槛降低，克隆明星或配音演员…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/003/577.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-17T14:31",
@@ -65,20 +86,6 @@
       "u": "https://www.tmtpost.com/8143309.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-17T13:04",
-      "t": "英伟达展示 DSX MaxLPS 技术，AI 工厂每兆瓦 token 吞吐量最高提升 40%",
-      "s": "科技媒体 Wccftech 昨日（9 月 16 日）发布博文，报道称在 AI 基础设施峰会上，英伟达展示了面向 AI 工…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/557.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-17T12:54",
-      "t": "小米直播训练 MiMo-V2.6 模型，罗福莉称沉寂半年钻研一件事",
-      "s": "小米 MiMo 大模型负责人罗福莉今日发文，自 4 月份开源 MiMo-v2.5 后，小米沉寂了近半年，花时间研究了一件…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/555.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-17T12:52",
       "t": "具身智能迎来全球产业跃迁，开放合作方能共赢",
@@ -133,16 +140,21 @@
       "t": "国产RSI模型交卷！Flash模型靠它反打旗舰",
       "s": "1亿Tokens人人免费领（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/491091.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-17T11:20",
-      "t": "几何的「反攻」！港科大谭平：从局部先验到全局一致，3D 几何如何增强视觉大模型 | ECCV 2026",
-      "s": "学习模型已经具备很强的局部视觉先验，而 3D 几何可以帮助建立跨视角、长距离的全局一致性。二者如何结合，是 3D 视觉与…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/private/tHpZwtHv9PrtUrXu.html"
     }
   ],
   "timeline": [
+    [
+      "09-17 14:49",
+      "ChatGPT 背后功臣：Almeida 推出 AI 模型 Jev，不生成文本、输出免费"
+    ],
+    [
+      "09-17 14:45",
+      "用 Seedance 2.5 拍《沙丘 3》，我们替你把 AI 短片的坑全都踩过了"
+    ],
+    [
+      "09-17 14:34",
+      "抖音宣布上线声音侵权举报入口，应对 AI 合成、仿冒音色等侵权行为"
+    ],
     [
       "09-17 14:31",
       "AI 推理 MLPerf 6.1 发布：AMD 以 512 个 MI355X 刷新纪录、英伟达 Vera Rubin 首次现身"
@@ -154,18 +166,6 @@
     [
       "09-17 14:06",
       "格里费：英伟达驱动支持是 Valve 首要任务之一，SteamOS 已能点亮部分 GPU"
-    ],
-    [
-      "09-17 14:06",
-      "对话 vivo 高管：端侧大模型、Harness 与「个人化 AI」的下一步"
-    ],
-    [
-      "09-17 13:44",
-      "网友 AI 开发工具：让笔记本 RTX 5090 显卡冲上 250W，最高功耗增幅 42.9%"
-    ],
-    [
-      "09-17 13:36",
-      "字节火山引擎发布豆包座舱助手：联动 App 实现“手车互联”，上汽荣威家越 07 首发"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 287732,
+      "s": 287738,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 263791,
+      "s": 263812,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 260545,
+      "s": 260563,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213499,
+      "s": 213502,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176760,
+      "s": 176763,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145657,
+      "s": 145669,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138561,
+      "s": 138563,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 118617,
+      "s": 118635,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106115,
+      "s": 106118,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95622,
+      "s": 95634,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
