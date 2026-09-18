@@ -1,19 +1,68 @@
 {
-  "updated": "2026-09-18T11:31:38",
+  "updated": "2026-09-18T12:01:56",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-09-18T11:49",
+      "t": "学大教育与开源中国达成战略合作，共建中国教育AI基础设施",
+      "s": "9 月 17 日，学大（厦门）教育科技集团股份有限公司与上海开源共识智能科技股份公司（开源中国）在京签署战略合作协议，双…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502571"
+    },
+    {
       "c": "HOT",
+      "d": "2026-09-18T11:45",
+      "t": "Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”",
+      "s": "\"我们芯片多、我们跑得快\"——这种话听多了就容易变成营销。Anthropic 这次换了个思路：与其互相吹，不如直接把自家…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502569/anthropic-measuring-pace-of-ai-development"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-18T11:37",
+      "t": "Qwen3.8-Omni-Flash 发布，阿里通义把多模态押在了“干活”上",
+      "s": "阿里通义 Qwen 团队今天放出了新一代\"原生全模态\"模型 Qwen3.8-Omni-Flash。标题文案很有意思——\"…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502567/qwen-3-8-omni-flash"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-18T11:34",
+      "t": "阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元",
+      "s": "阿里千问今日正式上线新一代原生全模态模型 Qwen3.8-Omni-Flash，并已在千问 AI 平台提供。该模型可同时…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/049.htm"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-18T11:31",
-      "t": "双微纳喷射直写，破解具身智能柔性电极卡点",
-      "s": "双微纳喷射直写，破解具身智能柔性电极卡点（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260917/979658.shtml"
+      "t": "讯飞 AI 录音卡上架：支持 10 种外语翻译、30 小时续航，999 元",
+      "s": "科大讯飞现已在京东上架一款讯飞 AI 录音卡，该产品深度整合 AI 大模型，主打会议记录，定价为 999 元。京东科大讯…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/040.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-18T11:24",
+      "t": "iPhone的生态位，被豆包手机抢了吗？",
+      "s": "Agent即入口，豆包又近了一步。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8144026.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-18T11:24",
+      "t": "地瓜机器人C轮融资4亿美元：资本不再为Demo买单，只为量产续费",
+      "s": "建立一条从Demo走向量产的标准路径。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8144105.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-18T11:31",
-      "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
-      "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
+      "d": "2026-09-18T11:24",
+      "t": "AI制药独角兽Anew单飞，字节推了一把“最烧钱的慢生意”",
+      "s": "新兴AI制药平台能否再长出不一样的Biotech模式？Anew是个很好的样本。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8144119.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-18T11:23",
+      "t": "AI感知设备的隐私战争：手表在录音、眼镜在偷拍，大众正被悄悄“脱敏”",
+      "s": "但，真的能放心吗？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8144468.html"
     },
     {
       "c": "INDUSTRY",
@@ -79,13 +128,6 @@
       "u": "https://www.tmtpost.com/8143328.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-18T10:21",
-      "t": "AI 减速倡议没能砸垮芯片股：市场似乎只认订单",
-      "s": "暂不信警钟。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8143983.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-18T10:09",
       "t": "消息称美国空中交通管理系统将部署 AI“大脑”，最早 9 月 21 日上线试用",
@@ -98,74 +140,32 @@
       "t": "人形机器人可“自主做家务”，Figure 发布 Helix 2.5 模型",
       "s": "人形机器人企业 Figure 今日发布了 Helix 2.5 模型，能让机器人“自主做家务”。IT之家从 Figure …（来源：IT之家）",
       "u": "https://www.ithome.com/1/003/942.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-18T09:47",
-      "t": "戴森 R3 AI 扫拖机器人国行首销：30000Pa 吸力、70°C 热水深度洗地，6999 元",
-      "s": "戴森旗下 R3 AI 扫拖机器人现已在京东开启首销，该产品搭载气旋式基站，搭载 HD 摄像头及污渍感知系统，支持 70°…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/933.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-18T09:35",
-      "t": "美国政府也部署阿里千问：《联邦公报》网站被发现使用中国 AI 模型提供搜索服务",
-      "s": "北京时间 9 月 18 日，据路透社报道，美国政府的一个网站采用了一家中国公司的 AI 模型，供用户搜索拟议中的联邦法规…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/003/929.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-18T08:37",
-      "t": "Manus重生第17天，估值居然就翻倍了",
-      "s": "作价40亿美元推进新融资（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/491764.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-18T08:34",
-      "t": "刚刚，Claude Code大重构！内部3万Agent管理技术免费开放",
-      "s": "Git白学了？？？（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/491711.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-18T08:30",
-      "t": "Edge AI Daily 早报（9月18日）",
-      "s": "联合国携手谷歌推出AI可信数据管道，暴露大模型准确率仅21.2%。英伟达预测明年芯片销量翻倍，市场转向等待出货数据。华为…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8144183.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-18T08:19",
-      "t": "影视飓风Tim称「iPhoneDuo烫到握不住，可以煎鸡蛋」；罗福莉直播小米大模型训练，每小时烧掉超20万元；曝玛莎拉蒂与华为合作两款新车",
-      "s": "要闻提示1.影视飓风Tim称“iPhoneDuo烫到握不住，可以煎鸡蛋”，苹果客服回应2.你会买吗？曝玛莎拉蒂已与华为敲…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/MJprK3aEw1xPngou.html"
     }
   ],
   "timeline": [
     [
-      "09-18 11:31",
-      "双微纳喷射直写，破解具身智能柔性电极卡点"
+      "09-18 11:49",
+      "学大教育与开源中国达成战略合作，共建中国教育AI基础设施"
+    ],
+    [
+      "09-18 11:45",
+      "Anthropic 提出三个度量指标，想量化“AI 发展到底有多快”"
+    ],
+    [
+      "09-18 11:37",
+      "Qwen3.8-Omni-Flash 发布，阿里通义把多模态押在了“干活”上"
+    ],
+    [
+      "09-18 11:34",
+      "阿里发布 Qwen3.8-Omni-Flash 全模态模型：音视频能力提升，百万 Token 图文音视频输入 0.8 元"
     ],
     [
       "09-18 11:31",
-      "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
+      "讯飞 AI 录音卡上架：支持 10 种外语翻译、30 小时续航，999 元"
     ],
     [
-      "09-18 11:05",
-      "AI 需求一浪叠一浪，美光高管称有意义的内存新增供应 2028 年才开始爬坡、存储行业何时恢复供需平衡仍难以确定"
-    ],
-    [
-      "09-18 11:02",
-      "微软 Azure CTO 惊叹 AI 能力：30 分钟跨平台移植基础功能、2 天实现约 90% 功能"
-    ],
-    [
-      "09-18 10:48",
-      "AI狂飙撞上绿色转型，大厂算力迎来绿电考验"
-    ],
-    [
-      "09-18 10:47",
-      "美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议"
+      "09-18 11:24",
+      "iPhone的生态位，被豆包手机抢了吗？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288184,
+      "s": 288189,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 264600,
+      "s": 264620,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 261262,
+      "s": 261280,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213760,
+      "s": 213766,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 176919,
+      "s": 176926,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 145924,
+      "s": 145928,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138692,
+      "s": 138714,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119112,
+      "s": 119118,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106319,
+      "s": 106328,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 95938,
+      "s": 95954,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
