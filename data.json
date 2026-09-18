@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-19T06:31:36",
+  "updated": "2026-09-19T07:02:05",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-19T06:31",
+      "d": "2026-09-19T07:02",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-19T06:45",
+      "t": "Claude Code 宣布添加支持“AI 通用说明书”AGENTS.md",
+      "s": "Anthropic 公司 Claude Code 团队工程师萨里克 · 希希帕尔（Thariq Shihipar，网名 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/351.htm"
     },
     {
       "c": "INDUSTRY",
@@ -87,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-18T20:34",
-      "t": "北京发布“词元经济十条”：高标准建设词元工厂，推动关键核心技术攻关",
-      "s": "北京市经济和信息化局今日宣布，北京市“词元经济十条”正式发布。为贯彻落实《国务院关于深入实施“人工智能＋”行动的意见》（…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/318.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-18T20:22",
       "t": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
       "s": "LimiX让模型理解数据背后的因果机制（来源：量子位）",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-19 06:31",
+      "09-19 07:02",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-19 06:45",
+      "Claude Code 宣布添加支持“AI 通用说明书”AGENTS.md"
     ],
     [
       "09-18 23:58",
@@ -162,10 +166,6 @@
     [
       "09-18 22:28",
       "长安汽车首席专家谭欢：未来要用机器人造车、卖车，让机器人上车、造机器人"
-    ],
-    [
-      "09-18 22:11",
-      "美国 AI 巨头提议开发减速，欧洲同行和政界并不认同"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288536,
+      "s": 288538,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265251,
+      "s": 265252,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 261995,
+      "s": 262016,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213969,
+      "s": 213973,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146257,
+      "s": 146267,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119373,
+      "s": 119376,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106592,
+      "s": 106593,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96367,
+      "s": 96376,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
