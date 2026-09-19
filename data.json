@@ -1,16 +1,9 @@
 {
-  "updated": "2026-09-19T14:02:04",
+  "updated": "2026-09-19T14:07:57",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-19T14:02",
-      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
-      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-19T14:02",
+      "d": "2026-09-19T14:07",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
@@ -121,13 +114,6 @@
       "u": "https://www.tmtpost.com/8144406.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-09-19T09:25",
-      "t": "投资人想劝劝AI创业者，理性看待自己的估值吧",
-      "s": "泡沫破了之后，您还能穿越周期吗？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8145076.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-19T08:01",
       "t": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
@@ -140,15 +126,25 @@
       "t": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
       "s": "协同布局AI基础设施（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/492426.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-18T23:50",
+      "t": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
+      "s": "成果中唯一聚焦算电协同全链路运营的AI技术产品（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/492421.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-18T22:07",
+      "t": "AI 硬件创业者，疯狂涌入手机的背面",
+      "s": "头图来源：产品小红书账号、官网 过去一年，AI 硬件创业者开始扎堆手机背面。 Plaud 的 AI 录音卡累计出货突破百…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/370610"
     }
   ],
   "timeline": [
     [
-      "09-19 14:02",
-      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
-    ],
-    [
-      "09-19 14:02",
+      "09-19 14:07",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-19 12:10",
       "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼"
+    ],
+    [
+      "09-19 11:53",
+      "AI 太烧钱：报道称 OpenAI 未来 5 年自由现金流为负 2780 亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288596,
+      "s": 288597,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265379,
+      "s": 265381,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262228,
+      "s": 262230,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214017,
+      "s": 214018,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177062,
+      "s": 177063,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146399,
+      "s": 146403,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106636,
+      "s": 106635,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96518,
+      "s": 96522,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
