@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-19T13:01:39",
+  "updated": "2026-09-19T13:31:28",
   "news": [
     {
+      "c": "HOT",
+      "d": "2026-09-19T13:31",
+      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
+      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
+    },
+    {
       "c": "INDUSTRY",
-      "d": "2026-09-19T13:01",
+      "d": "2026-09-19T13:31",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-19T13:11",
+      "t": "OpenAI 示警：先进 AI 可在 2 台相邻物理隔离 PC 间“对话”",
+      "s": "科技媒体 Wccftech 昨日（9 月 18 日）发布博文，报道称在先进 AI 模型交互方面，物理隔离电脑未必能完全阻…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/430.htm"
     },
     {
       "c": "MODEL",
@@ -115,13 +129,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-19T08:45",
-      "t": "Anthropic 自建生物实验室推进 AI 物理实验，此前曾警告 AI 灭绝风险",
-      "s": "Anthropic 已在美国旧金山湾区设立一座湿实验室，用于开展实际生物学实验，并探索利用其 AI 模型辅助完成从计算分…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/376.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-19T08:01",
       "t": "传折叠屏 iPhone 维修费 8000 元，苹果：价格未公布；腾讯 Chatterfly 输入法开启内测；软高管：AI 训练是「人类历史上最大规模的劳动盗窃」｜极客早知道",
       "s": "谷歌最新旗舰模型 Gemini 4 Pro 疑似「偷跑」，多项指标领先 Astra 和 Fable 5.1 9 月 18…（来源：极客公园）",
@@ -133,19 +140,20 @@
       "t": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
       "s": "协同布局AI基础设施（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/492426.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-18T23:50",
-      "t": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
-      "s": "成果中唯一聚焦算电协同全链路运营的AI技术产品（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/492421.html"
     }
   ],
   "timeline": [
     [
-      "09-19 13:01",
+      "09-19 13:31",
+      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
+    ],
+    [
+      "09-19 13:31",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-19 13:11",
+      "OpenAI 示警：先进 AI 可在 2 台相邻物理隔离 PC 间“对话”"
     ],
     [
       "09-19 12:54",
@@ -158,14 +166,6 @@
     [
       "09-19 12:10",
       "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼"
-    ],
-    [
-      "09-19 11:53",
-      "AI 太烧钱：报道称 OpenAI 未来 5 年自由现金流为负 2780 亿美元"
-    ],
-    [
-      "09-19 11:25",
-      "美国弗吉尼亚州宣布成立“人工智能工作组”，同步公布“数据中心问责框架”加强建设监管"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288582,
+      "s": 288589,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265353,
+      "s": 265368,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262187,
+      "s": 262207,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214008,
+      "s": 214012,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177059,
+      "s": 177062,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146380,
+      "s": 146391,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138866,
+      "s": 138868,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119421,
+      "s": 119428,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106630,
+      "s": 106634,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96496,
+      "s": 96506,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
