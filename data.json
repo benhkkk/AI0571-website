@@ -1,12 +1,19 @@
 {
-  "updated": "2026-09-19T12:02:00",
+  "updated": "2026-09-19T12:31:52",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-19T12:01",
+      "d": "2026-09-19T12:31",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-19T12:10",
+      "t": "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼",
+      "s": "美国加利福尼亚州北区联邦法院当地时间 9 月 18 日受理了一宗诉讼案，原告指控 Anthropic、OpenAI、Sp…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/423.htm"
     },
     {
       "c": "MODEL",
@@ -107,13 +114,6 @@
       "u": "http://www.geekpark.net/news/370608"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-19T07:47",
-      "t": "IT早报 0919：12306 客服回应国庆高铁票涨价；水滴筹服务费上涨至 8% 引争议；智谱就 Zcode 偷传代码事件致歉；华为 Peerium 突破冯诺依曼单机架构...",
-      "s": "“IT早报”时间，大家好，现在是 2026 年 9 月 19 日星期六，今天的重要科技资讯有：1. 12306 客服回应…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/363.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-18T23:58",
       "t": "无问芯穹与华环电子签署战略合作，共同探索国产异构算力AI基础设施新方向",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "09-19 12:01",
+      "09-19 12:31",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-19 12:10",
+      "四家 AI 巨头因呼吁放缓研发遭反垄断诉讼：Anthropic、OpenAI、SpaceXAI、谷歌面临集体诉讼"
     ],
     [
       "09-19 11:53",
@@ -162,10 +166,6 @@
     [
       "09-19 11:10",
       "英伟达 GPU 驱动 Bug 被修复：RPCS3 模拟游戏帧率提升 37%、显存占用降低 32%"
-    ],
-    [
-      "09-19 10:54",
-      "Gemini 4 Pro疑似泄露，“AI减速”又成空话"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288572,
+      "s": 288581,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265329,
+      "s": 265345,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262161,
+      "s": 262172,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213999,
+      "s": 214005,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177055,
+      "s": 177058,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146356,
+      "s": 146369,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138861,
+      "s": 138863,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119409,
+      "s": 119414,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106624,
+      "s": 106628,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96475,
+      "s": 96486,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
