@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-19T12:31:52",
+  "updated": "2026-09-19T13:01:39",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-19T12:31",
+      "d": "2026-09-19T13:01",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-19T12:54",
+      "t": "OpenAI 研究员示警：AI 能力越强，越容易“隐藏内心想法”",
+      "s": "OpenAI 研究员诺姆 · 布朗（Noam Brown）最新表示，伴随着 AI 模型能力越来越强，模型的思维链可监测性…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/429.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-19T12:47",
+      "t": "ColorOS 17 新技术解读，渲染、调度与 AI 升级",
+      "s": "2026 年 9 月 17 日，2026 OPPO 开发者大会（ODC26）在珠海举行，ColorOS 17 正式发布…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502593"
     },
     {
       "c": "HOT",
@@ -93,18 +107,18 @@
       "u": "https://www.tmtpost.com/8144406.html"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-09-19T09:25",
+      "t": "投资人想劝劝AI创业者，理性看待自己的估值吧",
+      "s": "泡沫破了之后，您还能穿越周期吗？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8145076.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-19T08:45",
       "t": "Anthropic 自建生物实验室推进 AI 物理实验，此前曾警告 AI 灭绝风险",
       "s": "Anthropic 已在美国旧金山湾区设立一座湿实验室，用于开展实际生物学实验，并探索利用其 AI 模型辅助完成从计算分…（来源：IT之家）",
       "u": "https://www.ithome.com/1/004/376.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-19T08:07",
-      "t": "Anthropic 计划将 IPO 推迟至 11 月，上市估值约 2 万亿美元",
-      "s": "据《华尔街日报》今日报道，Anthropic 计划将首次公开募股（IPO）推迟至 11 月进行，晚于许多投资者此前预期的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/369.htm"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,20 @@
       "t": "达卯科技算电协同2.0平台入选2026国际数字能源展重大成果发布",
       "s": "成果中唯一聚焦算电协同全链路运营的AI技术产品（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/492421.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-18T22:07",
-      "t": "AI 硬件创业者，疯狂涌入手机的背面",
-      "s": "头图来源：产品小红书账号、官网 过去一年，AI 硬件创业者开始扎堆手机背面。 Plaud 的 AI 录音卡累计出货突破百…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/370610"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-18T21:16",
-      "t": "具身智能技术路线尚未定型，基础设施却先收敛",
-      "s": "从一次成功到一万次稳定执行，具身智能还缺什么？（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/492238.html"
     }
   ],
   "timeline": [
     [
-      "09-19 12:31",
+      "09-19 13:01",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-19 12:54",
+      "OpenAI 研究员示警：AI 能力越强，越容易“隐藏内心想法”"
+    ],
+    [
+      "09-19 12:47",
+      "ColorOS 17 新技术解读，渲染、调度与 AI 升级"
     ],
     [
       "09-19 12:10",
@@ -158,14 +166,6 @@
     [
       "09-19 11:25",
       "美国弗吉尼亚州宣布成立“人工智能工作组”，同步公布“数据中心问责框架”加强建设监管"
-    ],
-    [
-      "09-19 11:17",
-      "初创公司 Soulart 推出 Station VR 基站全身追踪设备：利用机器学习实现动捕，单台售价低于 400 美元"
-    ],
-    [
-      "09-19 11:10",
-      "英伟达 GPU 驱动 Bug 被修复：RPCS3 模拟游戏帧率提升 37%、显存占用降低 32%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288581,
+      "s": 288582,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265345,
+      "s": 265353,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262172,
+      "s": 262187,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214005,
+      "s": 214008,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177058,
+      "s": 177059,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146369,
+      "s": 146380,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138863,
+      "s": 138866,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119414,
+      "s": 119421,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106628,
+      "s": 106630,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96486,
+      "s": 96496,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
