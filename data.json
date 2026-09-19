@@ -1,12 +1,33 @@
 {
-  "updated": "2026-09-19T10:01:36",
+  "updated": "2026-09-19T10:31:36",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-19T10:01",
+      "d": "2026-09-19T10:31",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-19T10:25",
+      "t": "关于豆包手机二代，我最关心这10个问题",
+      "s": "豆包学会了“敲门”，不再野蛮硬闯。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8145343.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-19T10:18",
+      "t": "美联储重启加息：AI 企业融资难度急剧攀升",
+      "s": "所谓此一时彼一时，今天科技企业遇到的问题与先前基本是天壤之别。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8145311.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-19T10:00",
+      "t": "AI办公，自费上班打工人的第一笔“首付”",
+      "s": "谁能抢占下打工人的桌面。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8145186.html"
     },
     {
       "c": "HOT",
@@ -35,13 +56,6 @@
       "t": "Anthropic 自建生物实验室推进 AI 物理实验，此前曾警告 AI 灭绝风险",
       "s": "Anthropic 已在美国旧金山湾区设立一座湿实验室，用于开展实际生物学实验，并探索利用其 AI 模型辅助完成从计算分…（来源：IT之家）",
       "u": "https://www.ithome.com/1/004/376.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-19T08:30",
-      "t": "Edge AI Daily 早报（9月19日）",
-      "s": "Anthropic与埃森哲20亿美元安全合作，行业安全评估门槛形成；前FTC官员警告AI实验室卡特尔引发市场震荡；SEC…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8145335.html"
     },
     {
       "c": "FUNDING",
@@ -126,26 +140,24 @@
       "t": "具身智能技术路线尚未定型，基础设施却先收敛",
       "s": "从一次成功到一万次稳定执行，具身智能还缺什么？（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/492238.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-18T20:22",
-      "t": "AGI新战场谷歌亚马逊巨头激战，杀出个中国LimiX-2赢了又赢",
-      "s": "LimiX让模型理解数据背后的因果机制（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/492175.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-18T18:23",
-      "t": "智谱旗下 AI 编程工具 ZCode 被扒静默上传完整 Git 历史",
-      "s": "智谱的 AI 编程桌面端 ZCode，今天被扒出一个大问题。开发者 ferstar 发了一篇取证博客，说只要登录了账号…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502589"
     }
   ],
   "timeline": [
     [
-      "09-19 10:01",
+      "09-19 10:31",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-19 10:25",
+      "关于豆包手机二代，我最关心这10个问题"
+    ],
+    [
+      "09-19 10:18",
+      "美联储重启加息：AI 企业融资难度急剧攀升"
+    ],
+    [
+      "09-19 10:00",
+      "AI办公，自费上班打工人的第一笔“首付”"
     ],
     [
       "09-19 09:47",
@@ -154,18 +166,6 @@
     [
       "09-19 09:25",
       "投资人想劝劝AI创业者，理性看待自己的估值吧"
-    ],
-    [
-      "09-19 09:17",
-      "实测AI办公三强：豆包全能、WorkBuddy够稳、千问还得加把劲"
-    ],
-    [
-      "09-19 08:45",
-      "Anthropic 自建生物实验室推进 AI 物理实验，此前曾警告 AI 灭绝风险"
-    ],
-    [
-      "09-19 08:30",
-      "Edge AI Daily 早报（9月19日）"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288560,
+      "s": 288563,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265290,
+      "s": 265299,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262102,
+      "s": 262110,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177051,
+      "s": 177053,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146321,
+      "s": 146329,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138850,
+      "s": 138851,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119396,
+      "s": 119399,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106608,
+      "s": 106610,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96424,
+      "s": 96433,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
