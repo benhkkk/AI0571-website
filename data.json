@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-19T10:31:36",
+  "updated": "2026-09-19T11:02:07",
   "news": [
     {
       "c": "INDUSTRY",
-      "d": "2026-09-19T10:31",
+      "d": "2026-09-19T11:02",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-19T10:54",
+      "t": "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+      "s": "RSI正在逼近，三巨头谁也没停。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8145550.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-19T10:46",
+      "t": "集邦咨询：AI 基建瓶颈正从“缺芯”转向“缺电”",
+      "s": "集邦咨询（TrendForce）于 9 月 16 日发布 AI Server 产业研究，指出 AI 发展的下一道瓶颈正从…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/402.htm"
     },
     {
       "c": "HOT",
@@ -42,13 +56,6 @@
       "t": "投资人想劝劝AI创业者，理性看待自己的估值吧",
       "s": "泡沫破了之后，您还能穿越周期吗？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8145076.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-19T09:17",
-      "t": "实测AI办公三强：豆包全能、WorkBuddy够稳、千问还得加把劲",
-      "s": "密集更新后，谁胜出了？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8145262.html"
     },
     {
       "c": "MODEL",
@@ -121,13 +128,6 @@
       "u": "https://www.ithome.com/1/004/343.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-18T22:28",
-      "t": "长安汽车首席专家谭欢：未来要用机器人造车、卖车，让机器人上车、造机器人",
-      "s": "在今天（18 日）的第 22 届中国汽车产业发展（泰达）国际论坛“新赛道生态专场：具身智能新赛道”活动中，长安汽车首席专…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/337.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-18T22:07",
       "t": "AI 硬件创业者，疯狂涌入手机的背面",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "09-19 10:31",
+      "09-19 11:02",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-19 10:54",
+      "Gemini 4 Pro疑似泄露，“AI减速”又成空话"
+    ],
+    [
+      "09-19 10:46",
+      "集邦咨询：AI 基建瓶颈正从“缺芯”转向“缺电”"
     ],
     [
       "09-19 10:25",
@@ -158,14 +166,6 @@
     [
       "09-19 10:00",
       "AI办公，自费上班打工人的第一笔“首付”"
-    ],
-    [
-      "09-19 09:47",
-      "一支电影团队做了一款AI不参与创作的编剧工具"
-    ],
-    [
-      "09-19 09:25",
-      "投资人想劝劝AI创业者，理性看待自己的估值吧"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288563,
+      "s": 288567,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265299,
+      "s": 265311,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262110,
+      "s": 262128,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 213984,
+      "s": 213991,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177053,
+      "s": 177055,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146329,
+      "s": 146340,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138851,
+      "s": 138855,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119399,
+      "s": 119405,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106610,
+      "s": 106616,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 96433,
+      "s": 96451,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
