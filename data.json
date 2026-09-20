@@ -1,16 +1,23 @@
 {
-  "updated": "2026-09-20T07:49:42",
+  "updated": "2026-09-20T08:01:53",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-20T07:49",
+      "d": "2026-09-20T08:01",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
+      "c": "HOT",
+      "d": "2026-09-20T08:01",
+      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
+      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
+    },
+    {
       "c": "INDUSTRY",
-      "d": "2026-09-20T07:49",
+      "d": "2026-09-20T08:01",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
@@ -133,22 +140,19 @@
       "t": "【数智周报】智谱AI道歉；Anthropic被曝选定纳斯达克上市，目标10月IPO；OpenAI据悉考虑新一轮融资，估值或超1.2万亿美元",
       "s": "（9 月 14 日-19 日）华为郭平：对于ICT业务及计算领域，华为的目标是成为英伟达；华为汪涛：10万卡以上超节点集…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8145775.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-19T16:34",
-      "t": "千万奖池找“鲸锐”！单项奖金200万，只等一个最会用AI讲故事的你",
-      "s": "1000万，把才华送上真正的大舞台（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/492501.html"
     }
   ],
   "timeline": [
     [
-      "09-20 07:49",
+      "09-20 08:01",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-20 07:49",
+      "09-20 08:01",
+      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
+    ],
+    [
+      "09-20 08:01",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-19 23:31",
       "迪士尼首次任命首席技术官：挖来原 Character.AI 首席执行官阿南德，强化 AI 布局"
-    ],
-    [
-      "09-19 23:05",
-      "鹿明机器人剧场《机器人和 TA 的朋友们》全球首演，探索“机器人+演艺”新场景"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265808,
+      "s": 265811,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262942,
+      "s": 262943,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214142,
+      "s": 214141,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146696,
+      "s": 146698,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138989,
+      "s": 138990,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119633,
+      "s": 119636,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106779,
+      "s": 106785,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97003,
+      "s": 97008,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
