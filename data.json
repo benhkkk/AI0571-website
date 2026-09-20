@@ -1,26 +1,26 @@
 {
-  "updated": "2026-09-20T09:32:09",
+  "updated": "2026-09-20T10:02:06",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-20T09:32",
+      "d": "2026-09-20T10:02",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-20T09:32",
+      "d": "2026-09-20T10:02",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-20T09:32",
-      "t": "AI 检测竞赛打响！拆解广电、华测、胜科等的落地实战",
-      "s": "AI 检测竞赛打响！拆解广电、华测、胜科等的落地实战（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260918/980445.shtml"
+      "c": "HOT",
+      "d": "2026-09-20T09:42",
+      "t": "荣耀 Magic9 系列手机搭载第三代自研射频增强芯片 C3，支持 356 个频段组合智能切换",
+      "s": "荣耀官方今天宣布，荣耀 Magic9 系列手机搭载第三代自研射频增强芯片 C3。据介绍，该系列手机拥有七芯射频 AI 调…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/645.htm"
     },
     {
       "c": "HOT",
@@ -94,13 +94,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-19T23:31",
-      "t": "迪士尼首次任命首席技术官：挖来原 Character.AI 首席执行官阿南德，强化 AI 布局",
-      "s": "据美国 CNBC 报道，当地时间 18 日，迪士尼宣布，原 Character.AI CEO 卡兰迪普 · 阿南德将于 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/570.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-19T23:05",
       "t": "鹿明机器人剧场《机器人和 TA 的朋友们》全球首演，探索“机器人+演艺”新场景",
       "s": "9月19日，由鹿明机器人与深圳市文旅产业发展有限公司共同打造的机器人剧场《机器人和 TA 的朋友们》在深圳市宝安区青少年…（来源：雷锋网）",
@@ -140,20 +133,27 @@
       "t": "自变量机器人，还没证明自己",
       "s": "过度标榜，不太明智。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8145140.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-19T17:35",
+      "t": "下一个赛道，AI手机？",
+      "s": "全民AI手机，尚未可知。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8145785.html"
     }
   ],
   "timeline": [
     [
-      "09-20 09:32",
+      "09-20 10:02",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-20 09:32",
+      "09-20 10:02",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
     ],
     [
-      "09-20 09:32",
-      "AI 检测竞赛打响！拆解广电、华测、胜科等的落地实战"
+      "09-20 09:42",
+      "荣耀 Magic9 系列手机搭载第三代自研射频增强芯片 C3，支持 356 个频段组合智能切换"
     ],
     [
       "09-20 09:09",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288839,
+      "s": 288846,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265844,
+      "s": 265862,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 262970,
+      "s": 262984,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214147,
+      "s": 214148,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177174,
+      "s": 177175,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146721,
+      "s": 146732,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 138992,
+      "s": 138994,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119649,
+      "s": 119655,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106791,
+      "s": 106792,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97052,
+      "s": 97069,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
