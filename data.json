@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-20T13:01:37",
+  "updated": "2026-09-20T13:31:27",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-20T13:01",
+      "d": "2026-09-20T13:31",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-20T13:01",
+      "d": "2026-09-20T13:31",
       "t": "AI驱动 新质创芯：2026半导体生态发展大会暨上海院士专家创新大会在沪召开",
       "s": "AI驱动 新质创芯：2026半导体生态发展大会暨上海院士专家创新大会在沪召开（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260920/981307.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-20T13:01",
+      "d": "2026-09-20T13:31",
       "t": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布",
       "s": "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260918/980695.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-20T13:12",
+      "t": "智元与长隆集团合作建设“全球首个大型具身智能主题乐园”，9 月 24 日在珠海横琴长隆飞船乐园开园",
+      "s": "据“智元 AGIBOT”公众号，智元（AGIBOT）与长隆集团合作建设的全球首个大型具身智能主题乐园将于 9 月 24 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/004/731.htm"
     },
     {
       "c": "MODEL",
@@ -133,27 +140,24 @@
       "t": "一小时一个价？“电子工业大米”MLCC 价格最高涨十倍，行情剧烈波动",
       "s": "据央视财经报道，MLCC（多层陶瓷电容器）被业内誉为“电子工业大米”。小到手机家电，大到 AI 服务器、新能源汽车，几乎…（来源：IT之家）",
       "u": "https://www.ithome.com/1/004/613.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-20T09:08",
-      "t": "特朗普计划组建一支“人工智能部队”，称 AI 未来可能占到美国国内生产总值的 25%",
-      "s": "据央视新闻报道，美国总统唐纳德 · 特朗普当地时间 9 月 19 日在社交媒体发文称，他将组建一支“人工智能部队”。特朗…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/608.htm"
     }
   ],
   "timeline": [
     [
-      "09-20 13:01",
+      "09-20 13:31",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-20 13:01",
+      "09-20 13:31",
       "AI驱动 新质创芯：2026半导体生态发展大会暨上海院士专家创新大会在沪召开"
     ],
     [
-      "09-20 13:01",
+      "09-20 13:31",
       "倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布"
+    ],
+    [
+      "09-20 13:12",
+      "智元与长隆集团合作建设“全球首个大型具身智能主题乐园”，9 月 24 日在珠海横琴长隆飞船乐园开园"
     ],
     [
       "09-20 12:00",
@@ -162,10 +166,6 @@
     [
       "09-20 11:57",
       "LG 电子推出 AI 数据中心专用涡轮冷水机，号称全年耗电量降低 30%"
-    ],
-    [
-      "09-20 11:44",
-      "腾讯升级元宝 App“AI 录音笔”功能：边录边拍、设备内录、WorkBuddy 快捷分享..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 288891,
+      "s": 288898,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 265940,
+      "s": 265957,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 263052,
+      "s": 263063,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214178,
+      "s": 214183,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177198,
+      "s": 177200,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146783,
+      "s": 146791,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139013,
+      "s": 139016,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106814,
+      "s": 106818,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97161,
+      "s": 97175,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
