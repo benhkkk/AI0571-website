@@ -1,33 +1,40 @@
 {
-  "updated": "2026-09-20T22:31:58",
+  "updated": "2026-09-20T23:01:50",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-20T22:31",
+      "d": "2026-09-20T23:01",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-20T22:31",
+      "d": "2026-09-20T23:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-20T22:31",
+      "d": "2026-09-20T23:01",
       "t": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会",
       "s": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260920/981782.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-20T22:31",
+      "d": "2026-09-20T23:01",
       "t": "爱斯佩克2026上半年财报：净销售额139亿日元增13%，AI半导体测试订单大增29%",
       "s": "爱斯佩克2026上半年财报：净销售额139亿日元增13%，AI半导体测试订单大增29%（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260920/981491.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-20T22:38",
+      "t": "古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折",
+      "s": "据彭博社记者马克 · 古尔曼（Mark Gurman）报道，苹果“个人智能中枢”AI 战略，暗示新款家用设备即将到来。报…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/005/009.htm"
     },
     {
       "c": "MODEL",
@@ -115,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-20T17:55",
-      "t": "A20 Pro 芯片端侧 AI 实测：苹果 iPhone 18 Pro 可本地跑 270 亿参数模型，速度较 iPhone 17 Pro 翻倍",
-      "s": "苹果最新的 A20 Pro 芯片搭载双 16 核神经网络引擎，这在苹果自研 Apple Silicon 发展史上尚属首次…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/004/909.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-20T16:41",
       "t": "百度搭子用户规模环比增长9倍，发布企业版移动端、开发平台与共创计划",
       "s": "9月20日，百度智能云超级智能体大会深圳站举行。会上，百度搭子升级企业版多人协作能力，发布企业版移动端和智能体开发平台…（来源：OSCHINA）",
@@ -144,28 +144,28 @@
   ],
   "timeline": [
     [
-      "09-20 22:31",
+      "09-20 23:01",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-20 22:31",
+      "09-20 23:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-20 22:31",
+      "09-20 23:01",
       "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会"
     ],
     [
-      "09-20 22:31",
+      "09-20 23:01",
       "爱斯佩克2026上半年财报：净销售额139亿日元增13%，AI半导体测试订单大增29%"
+    ],
+    [
+      "09-20 22:38",
+      "古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折"
     ],
     [
       "09-20 21:14",
       "2026 年上半年，我国制造业人工智能重点场景应用普及率达 34.2%"
-    ],
-    [
-      "09-20 21:10",
-      "19999 元起，启元机器人想把「个人机器人」先卖进普通人的生活"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 289075,
+      "s": 289093,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 266245,
+      "s": 266259,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 263373,
+      "s": 263396,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214280,
+      "s": 214282,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177264,
+      "s": 177271,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 146943,
+      "s": 146954,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139094,
+      "s": 139100,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119786,
+      "s": 119792,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 106905,
+      "s": 106908,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97463,
+      "s": 97477,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
