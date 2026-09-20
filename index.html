@@ -459,8 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDDEVICE', d:'2026-09-20T10:02', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
-    {c:'INDUSTRY', d:'2026-09-20T10:02', t:'倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布', s:'倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260918/980695.shtml'},
+    {c:'MEDDEVICE', d:'2026-09-20T10:22', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'INDUSTRY', d:'2026-09-20T10:22', t:'米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案', s:'米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260113/868798.shtml'},
+    {c:'INDUSTRY', d:'2026-09-20T10:22', t:'倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布', s:'倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260918/980695.shtml'},
     {c:'HOT', d:'2026-09-20T09:42', t:'荣耀 Magic9 系列手机搭载第三代自研射频增强芯片 C3，支持 356 个频段组合智能切换', s:'荣耀官方今天宣布，荣耀 Magic9 系列手机搭载第三代自研射频增强芯片 C3。据介绍，该系列手机拥有七芯射频 AI 调…（来源：IT之家）', u:'https://www.ithome.com/1/004/645.htm'},
     {c:'HOT', d:'2026-09-20T09:09', t:'一小时一个价？“电子工业大米”MLCC 价格最高涨十倍，行情剧烈波动', s:'据央视财经报道，MLCC（多层陶瓷电容器）被业内誉为“电子工业大米”。小到手机家电，大到 AI 服务器、新能源汽车，几乎…（来源：IT之家）', u:'https://www.ithome.com/1/004/613.htm'},
     {c:'HOT', d:'2026-09-20T09:08', t:'特朗普计划组建一支“人工智能部队”，称 AI 未来可能占到美国国内生产总值的 25%', s:'据央视新闻报道，美国总统唐纳德 · 特朗普当地时间 9 月 19 日在社交媒体发文称，他将组建一支“人工智能部队”。特朗…（来源：IT之家）', u:'https://www.ithome.com/1/004/608.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-19T19:43', t:'27B模型分分钟交付网页，Qwen 3.8还是太能了', s:'设计、前端一口气全干了，结果后端没来上班（来源：量子位）', u:'https://www.qbitai.com/2026/09/492573.html'},
     {c:'HOT', d:'2026-09-19T19:36', t:'Nature：AI重生到1900，这一世抢先爱因斯坦提出光量子', s:'AI能否提出相对论？（来源：量子位）', u:'https://www.qbitai.com/2026/09/492550.html'},
     {c:'HOT', d:'2026-09-19T18:33', t:'自变量机器人，还没证明自己', s:'过度标榜，不太明智。（来源：钛媒体）', u:'https://www.tmtpost.com/8145140.html'},
-    {c:'HOT', d:'2026-09-19T17:35', t:'下一个赛道，AI手机？', s:'全民AI手机，尚未可知。（来源：钛媒体）', u:'https://www.tmtpost.com/8145785.html'},
   ];
   const TIMELINE = [
-    ['09-20 10:02','穿刺手术机器人第一股，收入暴涨32倍！'],
-    ['09-20 10:02','倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布'],
+    ['09-20 10:22','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-20 10:22','米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案'],
+    ['09-20 10:22','倒计时4天｜仪电、华测、岛津、广电计量高管齐聚——AI+仪器检测产业生态交流会全阵容公布'],
     ['09-20 09:42','荣耀 Magic9 系列手机搭载第三代自研射频增强芯片 C3，支持 356 个频段组合智能切换'],
     ['09-20 09:09','一小时一个价？“电子工业大米”MLCC 价格最高涨十倍，行情剧烈波动'],
     ['09-20 09:08','特朗普计划组建一支“人工智能部队”，称 AI 未来可能占到美国国内生产总值的 25%'],
-    ['09-20 09:05','日企 TENKO 推出 10.51" 笔电 Note Pro AI，搭载 Ultra 5 处理器 125U'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:288846, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:265862, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:262984, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214148, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177175, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:146732, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138994, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:119655, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:106792, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:97069, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:288854, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:265869, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:262996, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214149, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177180, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:146741, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:138996, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:119661, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:106795, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:97086, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
