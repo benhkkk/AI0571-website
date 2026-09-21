@@ -459,8 +459,12 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDDEVICE', d:'2026-09-21T17:01', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
-    {c:'MEDPHARMA', d:'2026-09-21T17:01', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MEDDEVICE', d:'2026-09-21T17:31', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-21T17:31', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'HOT', d:'2026-09-21T17:21', t:'AI价格战正在发生变化', s:'分层定价模式，正在到来。（来源：钛媒体）', u:'https://www.tmtpost.com/8147416.html'},
+    {c:'HOT', d:'2026-09-21T17:17', t:'高盛想在中际旭创这里拿大结果', s:'从9月初给中际旭创（300308）喊出2645元的目标价，到9月18日走访产业后再次发声看多，高盛对这轮光模块AI行情的…（来源：钛媒体）', u:'https://www.tmtpost.com/8147363.html'},
+    {c:'HOT', d:'2026-09-21T17:16', t:'AEMA不是绿色联盟，是算电博弈的临时停火协议', s:'英伟达、谷歌与Emerald AI发起AI能源管理联盟，舆论多解读为"绿色算力"共识。本文认为，AEMA本质是算电产业在…（来源：钛媒体）', u:'https://www.tmtpost.com/8147138.html'},
+    {c:'MODEL', d:'2026-09-21T17:05', t:'大晓机器人联合中国石油落地首个加油站便利店具身智能项目', s:'大晓机器人今日宣布与中国石油上海销售公司正式达成战略合作，启动试运营首个加油站便利店场景的全闭环具身智能机器人项目。IT…（来源：IT之家）', u:'https://www.ithome.com/1/005/332.htm'},
     {c:'MODEL', d:'2026-09-21T16:53', t:'双信源互相佐证，英伟达 GeForce RTX 60 系列游戏显卡很可能 2028 年发布', s:'消息人士 @kopite7kimi 北京时间今日表示，英伟达下代游戏显卡的基石 —— "GB20x" 系列 GPU 是 …（来源：IT之家）', u:'https://www.ithome.com/1/005/327.htm'},
     {c:'HOT', d:'2026-09-21T16:47', t:'微软工程师花 12 万美元让 AI 重写 Copilot 运行时：43 万行 TS 变成 80 万行 Rust，快 15.9 倍', s:'微软干了一件事儿，听起来像套娃：用 AI 重写了撑起 AI 产品的运行时。GitHub Copilot 的运行时光是被全…（来源：OSCHINA）', u:'https://www.oschina.net/news/502646/ms-agentically-ports-copilot-runtime-to-rust-for-120k'},
     {c:'HOT', d:'2026-09-21T16:29', t:'欧洲央行官员：AI 收益怎么分配，会直接影响通胀走势', s:'据路透社报道，欧洲中央银行管理委员会委员法比奥 · 帕内塔（Fabio Panetta）于当地时间周一表示，各国央行需要…（来源：IT之家）', u:'https://www.ithome.com/1/005/312.htm'},
@@ -475,30 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-21T15:31', t:'国产数据库跑出AI新能力！OceanBase登顶国际Data Agent榜单', s:'OceanBase团队提交的Data Agent方案登顶国际数据智能体基准Data Agent Benchmark（来源：量子位）', u:'https://www.qbitai.com/2026/09/493231.html'},
     {c:'MODEL', d:'2026-09-21T15:31', t:'支付宝推出「鱼来」，摸鱼 AI 辅助系统', s:'支付宝今天宣布推出「鱼来」摸鱼 AI 辅助系统。官方表示，过去工作间隙的摸鱼可能发生得毫无规律：打开网页、刷两下手机、发…（来源：IT之家）', u:'https://www.ithome.com/1/005/245.htm'},
     {c:'MODEL', d:'2026-09-21T15:23', t:'上汽荣威家越 07 开启预售：首搭豆包座舱助手，13.78 万元起', s:'上汽荣威家越 07 今日开启预售，行业首搭豆包座舱助手，共推出三款车型，预售价 13.78 万元起。220 激光雷达版 …（来源：IT之家）', u:'https://www.ithome.com/1/005/240.htm'},
-    {c:'MODEL', d:'2026-09-21T15:22', t:'亚马逊 AWS 旗下 Bedrock 官宣接入 Kimi K3 模型', s:'亚马逊云服务（AWS）旗下人工智能服务平台 Amazon Bedrock 近日宣布接入 Kimi K3 模型，为编程工作…（来源：IT之家）', u:'https://www.ithome.com/1/005/239.htm'},
-    {c:'MODEL', d:'2026-09-21T15:02', t:'从具身智能到桌面小装置，北京开源创新赛硬件赛道面向全国创客开放', s:'开源最早从代码开始，后来有人把电路图、结构件模型和固件一起分享到互联网上，硬件图纸也能被下载、被改进、被重新做出来。Ar…（来源：OSCHINA）', u:'https://www.oschina.net/news/502640'},
-    {c:'MODEL', d:'2026-09-21T14:51', t:'Google 开源 AX，把 Agent 当集群工作负载跑的声明式编排器', s:'Google 昨天低调开源了个叫 AX 的东西，一句话：一个声明式的 Agent 编排器，宣称能在一个集群里跑"几十亿个…（来源：OSCHINA）', u:'https://www.oschina.net/news/502639/google-ax'},
-    {c:'MEDPHARMA', d:'2026-09-21T14:51', t:'机构:AI制药与mRNA产业链“卖铲人”逻辑持续强化', s:'机构:AI制药与mRNA产业链“卖铲人”逻辑持续强化（来源：头条医药AI）', u:'https://www.toutiao.com/article/7687877445734679074/'},
   ];
   const TIMELINE = [
-    ['09-21 17:01','穿刺手术机器人第一股，收入暴涨32倍！'],
-    ['09-21 17:01','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
-    ['09-21 16:53','双信源互相佐证，英伟达 GeForce RTX 60 系列游戏显卡很可能 2028 年发布'],
-    ['09-21 16:47','微软工程师花 12 万美元让 AI 重写 Copilot 运行时：43 万行 TS 变成 80 万行 Rust，快 15.9 倍'],
-    ['09-21 16:29','欧洲央行官员：AI 收益怎么分配，会直接影响通胀走势'],
-    ['09-21 16:24','华为云码道上线鸿蒙编码大模型 面向鸿蒙开发者全面升级'],
+    ['09-21 17:31','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-21 17:31','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-21 17:21','AI价格战正在发生变化'],
+    ['09-21 17:17','高盛想在中际旭创这里拿大结果'],
+    ['09-21 17:16','AEMA不是绿色联盟，是算电博弈的临时停火协议'],
+    ['09-21 17:05','大晓机器人联合中国石油落地首个加油站便利店具身智能项目'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289465, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:266723, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264186, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214415, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177391, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147337, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139228, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120013, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107060, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:97916, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289475, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:266749, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264215, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214419, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177394, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147349, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139233, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120020, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107066, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:97931, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
