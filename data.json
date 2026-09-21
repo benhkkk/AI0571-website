@@ -1,30 +1,30 @@
 {
-  "updated": "2026-09-21T14:02:21",
+  "updated": "2026-09-21T14:32:02",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-21T14:02",
+      "d": "2026-09-21T14:31",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-21T14:02",
+      "d": "2026-09-21T14:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-21T14:02",
+      "d": "2026-09-21T14:31",
       "t": "强强联手！日立牵手美国MCG，加码全球AI算力基建",
       "s": "强强联手！日立牵手美国MCG，加码全球AI算力基建（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260921/982068.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-21T14:02",
+      "d": "2026-09-21T14:31",
       "t": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会",
       "s": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260920/981782.shtml"
@@ -35,6 +35,13 @@
       "t": "Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术",
       "s": "Marvell（美满）当地时间 20 日宣布在 ECOC 2026 欧洲光通信大会上展出业界首批用于 AI 数据中心基础…（来源：IT之家）",
       "u": "https://www.ithome.com/1/005/157.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-21T14:01",
+      "t": "滴普科技赵杰辉：企业AI的核心在自进化的语义底座 | 2026 ITValue Summit 数字价值年会",
+      "s": "未来AI在产业落地的核心，是能否准确生成一个知识底座，让FDE实现自动化。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8143604.html"
     },
     {
       "c": "HOT",
@@ -133,30 +140,23 @@
       "t": "qKnow 专业版 v3.1.4 发布：智能Agent管控升级，编排资源可复用可迁移",
       "s": "在企业智能体逐步从试用走向交付的过程中，真正影响落地效率的，往往不只是模型能力，而是编排资产能否复用、运行行为能否管控…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502632"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-21T10:28",
-      "t": "百曜科技发起，《AI虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告》正式发布",
-      "s": "《AI 虚拟细胞（AIVC）技术趋势、产业生态与应用前景研究报告——AI 时代生命科学的新型基础设施》正式发布。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/493114.html"
     }
   ],
   "timeline": [
     [
-      "09-21 14:02",
+      "09-21 14:31",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-21 14:02",
+      "09-21 14:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-21 14:02",
+      "09-21 14:31",
       "强强联手！日立牵手美国MCG，加码全球AI算力基建"
     ],
     [
-      "09-21 14:02",
+      "09-21 14:31",
       "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会"
     ],
     [
@@ -164,8 +164,8 @@
       "Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术"
     ],
     [
-      "09-21 13:40",
-      "物理 AI 的最后一公里：场景方开清单，技术方交进度｜2026 ITValue Summit数字价值年会"
+      "09-21 14:01",
+      "滴普科技赵杰辉：企业AI的核心在自进化的语义底座 | 2026 ITValue Summit 数字价值年会"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 289377,
+      "s": 289389,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 266606,
+      "s": 266622,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 263988,
+      "s": 264019,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214380,
+      "s": 214390,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177368,
+      "s": 177370,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147257,
+      "s": 147271,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139208,
+      "s": 139211,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119968,
+      "s": 119978,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107026,
+      "s": 107035,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97814,
+      "s": 97843,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
