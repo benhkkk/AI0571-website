@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-21T16:02:20",
+  "updated": "2026-09-21T16:05:35",
   "news": [
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-21T16:02",
+      "d": "2026-09-21T16:05",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-21T16:02",
+      "d": "2026-09-21T16:05",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-21T16:02",
+      "d": "2026-09-21T16:05",
       "t": "强强联手！日立牵手美国MCG，加码全球AI算力基建",
       "s": "强强联手！日立牵手美国MCG，加码全球AI算力基建（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260921/982068.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-21T16:04",
+      "t": "AI 帮银行省钱：法国兴业银行预计最多可省下 6 亿欧元成本",
+      "s": "据彭博社报道，法国兴业银行（Societe Generale SA）预测，人工智能应用范围不断扩大，将为该行的降本工作带…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/005/283.htm"
     },
     {
       "c": "HOT",
@@ -95,6 +102,13 @@
     {
       "c": "MEDPHARMA",
       "d": "2026-09-21T14:51",
+      "t": "机构:AI制药军备竞赛打响",
+      "s": "机构:AI制药军备竞赛打响（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7687877462151135794/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-21T14:51",
       "t": "机构:AI制药与mRNA产业链“卖铲人”逻辑持续强化",
       "s": "机构:AI制药与mRNA产业链“卖铲人”逻辑持续强化（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7687877445734679074/"
@@ -126,34 +140,24 @@
       "t": "Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术",
       "s": "Marvell（美满）当地时间 20 日宣布在 ECOC 2026 欧洲光通信大会上展出业界首批用于 AI 数据中心基础…（来源：IT之家）",
       "u": "https://www.ithome.com/1/005/157.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-21T14:01",
-      "t": "滴普科技赵杰辉：企业AI的核心在自进化的语义底座 | 2026 ITValue Summit 数字价值年会",
-      "s": "未来AI在产业落地的核心，是能否准确生成一个知识底座，让FDE实现自动化。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8143604.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-21T13:40",
-      "t": "物理 AI 的最后一公里：场景方开清单，技术方交进度｜2026 ITValue Summit数字价值年会",
-      "s": "买单的人和技术方，开始算同一本账。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8147121.html"
     }
   ],
   "timeline": [
     [
-      "09-21 16:02",
+      "09-21 16:05",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-21 16:02",
+      "09-21 16:05",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-21 16:02",
+      "09-21 16:05",
       "强强联手！日立牵手美国MCG，加码全球AI算力基建"
+    ],
+    [
+      "09-21 16:04",
+      "AI 帮银行省钱：法国兴业银行预计最多可省下 6 亿欧元成本"
     ],
     [
       "09-21 15:42",
@@ -162,10 +166,6 @@
     [
       "09-21 15:38",
       "月之暗面发布 Kimi Code Desktop 桌面客户端，macOS 和 Windows 版同步上线"
-    ],
-    [
-      "09-21 15:37",
-      "上海开源大赛DaoCloud赛题公布，选做可获额外现金激励"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 266683,
+      "s": 266686,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 264115,
+      "s": 264118,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147314,
+      "s": 147316,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97886,
+      "s": 97889,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
