@@ -1,16 +1,30 @@
 {
-  "updated": "2026-09-21T12:31:38",
+  "updated": "2026-09-21T13:02:11",
   "news": [
     {
+      "c": "MEDDEVICE",
+      "d": "2026-09-21T13:02",
+      "t": "穿刺手术机器人第一股，收入暴涨32倍！",
+      "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
+      "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-09-21T13:02",
+      "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
+      "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
+      "u": "https://news.yaozh.com/archive/49037.html"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-21T12:31",
+      "d": "2026-09-21T13:02",
       "t": "强强联手！日立牵手美国MCG，加码全球AI算力基建",
       "s": "强强联手！日立牵手美国MCG，加码全球AI算力基建（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260921/982068.shtml"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-09-21T12:31",
+      "d": "2026-09-21T13:02",
       "t": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会",
       "s": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260920/981782.shtml"
@@ -126,29 +140,23 @@
       "t": "深蓝 S07 AI 激光版 9 月 28 日登场，搭载 AI 激光感知方案与超级三电系统",
       "s": "深蓝汽车今天在微博宣布，全新深蓝 S07 AI 激光版将于 9 月 28 日登场。新车搭载 AI 激光感知方案，拥有超级…（来源：IT之家）",
       "u": "https://www.ithome.com/1/005/084.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-21T10:03",
-      "t": "雷神移动工作站 AI Master M7000 发售：锐龙 AI Max+ 395，64GB 内存 + 85GB AI SSD 缓存",
-      "s": "雷神 (THUNDEROBOT) 现已正式发售其移动工作站笔记本电脑 AI Master M7000，定价 24999 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/069.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-21T09:59",
-      "t": "传化集团40周年全面拥抱AI时代：开放全域产业场景，共创新40年",
-      "s": "2026年，创业40年的传化站在新的起点。四十年来，从化工制造到智慧物流，从科技农业到生物技术产业新城，传化持续在产业实…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/E1dBuYT43K9cd1LQ.html"
     }
   ],
   "timeline": [
     [
-      "09-21 12:31",
+      "09-21 13:02",
+      "穿刺手术机器人第一股，收入暴涨32倍！"
+    ],
+    [
+      "09-21 13:02",
+      "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
+    ],
+    [
+      "09-21 13:02",
       "强强联手！日立牵手美国MCG，加码全球AI算力基建"
     ],
     [
-      "09-21 12:31",
+      "09-21 13:02",
       "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会"
     ],
     [
@@ -158,14 +166,6 @@
     [
       "09-21 12:01",
       "对话桥介数物：机器人运动的下一步是让任何机器人半小时内学会跳特定的舞"
-    ],
-    [
-      "09-21 11:57",
-      "Figure AI 宣称找到了机器人版 scaling law，同行却说它其实根本不会泛化"
-    ],
-    [
-      "09-21 11:53",
-      "IDC：2026 上半年全球四足机器人出货量同比增长 92.5%，宇树、云深处、智元三大国产厂商霸榜"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 289355,
+      "s": 289361,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 266570,
+      "s": 266581,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 263915,
+      "s": 263941,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177355,
+      "s": 177357,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147221,
+      "s": 147227,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139197,
+      "s": 139199,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 119949,
+      "s": 119956,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107011,
+      "s": 107016,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 97793,
+      "s": 97803,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
