@@ -1,20 +1,6 @@
 {
-  "updated": "2026-09-22T15:02:12",
+  "updated": "2026-09-22T15:03:15",
   "news": [
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-22T15:02",
-      "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
-      "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
-      "u": "https://news.yaozh.com/archive/49037.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-22T15:02",
-      "t": "穿刺手术机器人第一股，收入暴涨32倍！",
-      "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
-      "u": "https://news.yaozh.com/archive/49025.html"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-22T14:26",
@@ -140,17 +126,23 @@
       "t": "2026 East Forward出海大会：全球化到达下一站，中国企业如何走得更远",
       "s": "“潮起之时，靠岸相见”（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/493510.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-22T11:12",
+      "t": "人工智能促进健康全球倡议2026年会召开，讯飞医疗以数智实践助力全球医疗AI治理体系共建",
+      "s": "为进一步深化人工智能在全球健康领域的创新实践，共同应对全球人工智能健康应用面临的挑战，人工智能促进健康全球倡议2026年…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/R83KNSoMSQgd8F4P.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-22T11:01",
+      "t": "在中国，别指望FDE能搞定AI落地",
+      "s": "外界眼里，FDE火得一塌糊涂；一线从业者看到的，却是荒诞、滑稽和不可思议。前段时间，To B老将王涛看到某家号称在做FD…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/30ZiAiG8Mq6ZYJ7g.html"
     }
   ],
   "timeline": [
-    [
-      "09-22 15:02",
-      "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
-    ],
-    [
-      "09-22 15:02",
-      "穿刺手术机器人第一股，收入暴涨32倍！"
-    ],
     [
       "09-22 14:26",
       "小米 18 Pro 系列手机官宣首发「传奇一瞬」大模型影像，号称成像质感媲美专业相机"
@@ -166,6 +158,14 @@
     [
       "09-22 13:44",
       "AI踩刹车，黄仁勋踩油门"
+    ],
+    [
+      "09-22 13:37",
+      "阿里千问平板 QwenBook 演示真机首秀：搭载小背屏，键盘有千问专属键"
+    ],
+    [
+      "09-22 13:30",
+      "AI制药走到哪一步了?"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 289849,
+      "s": 289850,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147519,
+      "s": 147520,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120291,
+      "s": 120293,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107227,
+      "s": 107228,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
