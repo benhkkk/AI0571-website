@@ -1,19 +1,54 @@
 {
-  "updated": "2026-09-22T11:02:04",
+  "updated": "2026-09-22T11:31:29",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-22T11:01",
+      "d": "2026-09-22T11:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-22T11:01",
+      "d": "2026-09-22T11:31",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-22T11:21",
+      "t": "美国反垄断围剿AI巨头的“假许可真收购”，英伟达被查只是第一块骨牌",
+      "s": "把最可能成长为挑战者的公司，做成空壳。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8148461.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-22T11:18",
+      "t": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
+      "s": "由阿里集团主办的 2026 云栖大会于 9 月 22 日至 24 日在杭州国际博览中心举行。IT之家从大会现场获悉，阿里…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/005/602.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-22T11:14",
+      "t": "阿里巴巴吴泳铭：未来模型将扩展至5-10T参数规模，到2032年运营的数据中心规模超过20GW ｜ 钛快讯",
+      "s": "未来机器思考总量将是人类的1000倍，而今天这一比例不到3%，至少还有几万倍的增长空间。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8148447.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-22T11:05",
+      "t": "龙芯发布自研通用 GPU 加速计算平台首个软件版本：支持 OpenCL 3.0、CUDA 及 AI 推理",
+      "s": "龙芯中科今日宣布推出支持自研通用 GPU 的龙芯加速计算平台（Loongson Accelerated Computin…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/005/595.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-22T10:58",
+      "t": "2万元的启元机器人，撑得起上纬新材的600亿市值吗？",
+      "s": "启元的C端故事进入验证时刻。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8148296.html"
     },
     {
       "c": "MODEL",
@@ -72,25 +107,11 @@
       "u": "https://www.ithome.com/1/005/564.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-22T09:53",
-      "t": "加拿大不列颠哥伦比亚省正式就涉 9 人死亡枪击案不作为行为起诉 OpenAI",
-      "s": "加拿大不列颠哥伦比亚省（卑诗省）当地时间 21 日正式在美国加利福尼亚州起诉 OpenAI，指控这家人工智能企业在加拿大…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/538.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-22T09:50",
       "t": "大厂AI争夺战背后：字节刚赚了200亿美元，却转头贷款296亿美元？",
       "s": "字节借2000亿囤算力（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8147738.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-22T09:33",
-      "t": "美国最年轻 10 位亿万富豪出炉：7 人靠 AI 创业，4 人来自 Anthropic",
-      "s": "9 月 22 日，据 Business Insider 报道，福布斯发布美国 400 位最富有富豪年度榜单。今年上榜门槛…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/532.htm"
     },
     {
       "c": "MODEL",
@@ -119,53 +140,32 @@
       "t": "全能 Go Agent 框架 covonaut v1.1.4 发布：新增工具滚动并行池、多模态读取等",
       "s": "covonaut 是一个面向生产环境的 Go 语言 Agent 框架，覆盖 Agent 主循环、工具调用、图编排与多协议…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502653"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-09-21T21:21",
-      "t": "科技大厂，集体入局AI制药",
-      "s": "科技大厂，集体入局AI制药（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7687977904286614035/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-21T21:06",
-      "t": "新 Mac mini 首发实测：我的第一台「多 Agent」电脑",
-      "s": "能跑大模型只是 AI PC 的起点#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1681211?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-09-21T19:00",
-      "t": "把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年",
-      "s": "作者｜Cynthia 编辑｜ 郑玄 AI 时代，开发者要如何跟上技术的变化？亚马逊 CTO Werner Vogels…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/370759"
     }
   ],
   "timeline": [
     [
-      "09-22 11:01",
+      "09-22 11:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-22 11:01",
+      "09-22 11:31",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-22 10:47",
-      "腾讯混元 Hy Image3.5 preview 发布：支持文生图与多轮对话创作，已上线元宝、ima 等应用"
+      "09-22 11:21",
+      "美国反垄断围剿AI巨头的“假许可真收购”，英伟达被查只是第一块骨牌"
     ],
     [
-      "09-22 10:46",
-      "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍"
+      "09-22 11:18",
+      "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市"
     ],
     [
-      "09-22 10:38",
-      "从代码生成到组织重构，AI Coding如何跨越生产力鸿沟 | 2026 ITValue Summit数字价值年会"
+      "09-22 11:14",
+      "阿里巴巴吴泳铭：未来模型将扩展至5-10T参数规模，到2032年运营的数据中心规模超过20GW ｜ 钛快讯"
     ],
     [
-      "09-22 10:36",
-      "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW"
+      "09-22 11:05",
+      "龙芯发布自研通用 GPU 加速计算平台首个软件版本：支持 OpenCL 3.0、CUDA 及 AI 推理"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 289762,
+      "s": 289769,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 267226,
+      "s": 267245,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 264799,
+      "s": 264808,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214529,
+      "s": 214537,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177502,
+      "s": 177509,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147485,
+      "s": 147489,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139343,
+      "s": 139344,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120239,
+      "s": 120251,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107189,
+      "s": 107197,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98172,
+      "s": 98177,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
