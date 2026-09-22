@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-23T04:20:03",
+  "updated": "2026-09-23T04:31:55",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-23T04:19",
+      "d": "2026-09-23T04:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-23T04:19",
+      "d": "2026-09-23T04:31",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-23T04:14",
+      "t": "全球最快移动 CPU：高通发布第六代骁龙 8 超级至尊版芯片，CPU 行业首超 5GHz、GPU 性能提升 44%",
+      "s": "夏威夷时间 9 月 22 日 9 点（北京时间 9 月 23 日 3 点）召开的 2026 骁龙峰会上，高通公司宣布推出…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/006/004.htm"
     },
     {
       "c": "INDUSTRY",
@@ -80,13 +87,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-22T22:48",
-      "t": "拿下 2 亿日活跃用户后，消息称字节跳动豆包收缩对话团队",
-      "s": "《晚点 LatePost》今天（22 日）晚间发布消息称，豆包通用 Session 团队正在减员，规模预计减半。该团队此…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/981.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-22T22:42",
       "t": "一张硬件卡片，一场上下文之争：千问办公押注企业Agent",
       "s": "一场两小时的客户拜访，双方说的话加起来上万字。但回到工位，销售能凭记忆敲进CRM的，通常不到三百字。剩下的去哪了？跟着出…（来源：雷锋网）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-23 04:19",
+      "09-23 04:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-23 04:19",
+      "09-23 04:31",
       "穿刺手术机器人第一股，收入暴涨32倍！"
+    ],
+    [
+      "09-23 04:14",
+      "全球最快移动 CPU：高通发布第六代骁龙 8 超级至尊版芯片，CPU 行业首超 5GHz、GPU 性能提升 44%"
     ],
     [
       "09-23 03:56",
@@ -162,10 +166,6 @@
     [
       "09-23 03:25",
       "OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50%"
-    ],
-    [
-      "09-23 02:55",
-      "Anthropic 发布 Claude Opus 5.5 模型：性能媲美 Fable 5.1，运行成本比 Opus 5 低 40%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290157,
+      "s": 290161,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 265308,
+      "s": 265319,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214650,
+      "s": 214649,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147640,
+      "s": 147642,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139436,
+      "s": 139437,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120518,
+      "s": 120517,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107362,
+      "s": 107361,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98420,
+      "s": 98422,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
