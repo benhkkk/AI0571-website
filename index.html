@@ -459,8 +459,12 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-22T13:31', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
-    {c:'MEDDEVICE', d:'2026-09-22T13:31', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-22T14:01', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MEDDEVICE', d:'2026-09-22T14:01', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-22T14:01', t:'从英矽智能III期临床，看AI制药在中国的“交作业”时刻', s:'从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260917/979622.shtml'},
+    {c:'INDUSTRY', d:'2026-09-22T13:51', t:'工业AI正在走向产线，但规模化仍有卡点丨ToB产业观察', s:'工业软件的玩法，正在从“卖一套标准产品”转向“帮客户把AI能力长在自己身上”。（来源：钛媒体）', u:'https://www.tmtpost.com/8148663.html'},
+    {c:'HOT', d:'2026-09-22T13:44', t:'AI踩刹车，黄仁勋踩油门', s:'真正的分歧是什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8148185.html'},
+    {c:'HOT', d:'2026-09-22T13:37', t:'阿里千问平板 QwenBook 演示真机首秀：搭载小背屏，键盘有千问专属键', s:'《晚点 LatePost》今日报道称，阿里云旗下无影团队正在研发一款名叫 QwenBook 的 AI 设备，定位是原生智…（来源：IT之家）', u:'https://www.ithome.com/1/005/658.htm'},
     {c:'MEDPHARMA', d:'2026-09-22T13:30', t:'AI制药走到哪一步了?', s:'AI制药走到哪一步了?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7688227665072996925/'},
     {c:'MODEL', d:'2026-09-22T12:31', t:'曝阿里试水千问平板 QwenBook：定位原生智能体电脑，主打办公、打通 WPS', s:'据《晚点 LatePost》今日报道，阿里云旗下无影团队正在研发一款名叫 QwenBook 的 AI 设备，定位是原生智…（来源：IT之家）', u:'https://www.ithome.com/1/005/648.htm'},
     {c:'INDUSTRY', d:'2026-09-22T12:23', t:'千问 AI 眼镜 N1 系列亮相阿里云栖大会：支持眼动追踪与虹膜支付，10 月 13 日发售', s:'阿里巴巴“2026 云栖大会”于 9 月 22 日-24 日在杭州举行，IT之家亲临现场，将为大家持续带来相关报道。除了…（来源：IT之家）', u:'https://www.ithome.com/1/005/647.htm'},
@@ -475,30 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-09-22T11:13', t:'2026 East Forward出海大会：全球化到达下一站，中国企业如何走得更远', s:'“潮起之时，靠岸相见”（来源：量子位）', u:'https://www.qbitai.com/2026/09/493510.html'},
     {c:'HOT', d:'2026-09-22T11:12', t:'人工智能促进健康全球倡议2026年会召开，讯飞医疗以数智实践助力全球医疗AI治理体系共建', s:'为进一步深化人工智能在全球健康领域的创新实践，共同应对全球人工智能健康应用面临的挑战，人工智能促进健康全球倡议2026年…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/R83KNSoMSQgd8F4P.html'},
     {c:'MODEL', d:'2026-09-22T11:05', t:'龙芯发布自研通用 GPU 加速计算平台首个软件版本：支持 OpenCL 3.0、CUDA 及 AI 推理', s:'龙芯中科今日宣布推出支持自研通用 GPU 的龙芯加速计算平台（Loongson Accelerated Computin…（来源：IT之家）', u:'https://www.ithome.com/1/005/595.htm'},
-    {c:'INDUSTRY', d:'2026-09-22T11:01', t:'在中国，别指望FDE能搞定AI落地', s:'外界眼里，FDE火得一塌糊涂；一线从业者看到的，却是荒诞、滑稽和不可思议。前段时间，To B老将王涛看到某家号称在做FD…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/30ZiAiG8Mq6ZYJ7g.html'},
-    {c:'MODEL', d:'2026-09-22T10:59', t:'阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石', s:'吴泳铭表示，阿里巴巴将坚定投入AI模型、AI芯片和AI云这三项基础设施建设，这是阿里的长期战略选择。（来源：量子位）', u:'https://www.qbitai.com/2026/09/493502.html'},
-    {c:'HOT', d:'2026-09-22T10:58', t:'2万元的启元机器人，撑得起上纬新材的600亿市值吗？', s:'启元的C端故事进入验证时刻。（来源：钛媒体）', u:'https://www.tmtpost.com/8148296.html'},
-    {c:'INDUSTRY', d:'2026-09-22T10:52', t:'阿里吴泳铭最新演讲：未来机器思考的总量将达到人类的1000倍以上', s:'9月22日，在2026杭州云栖大会上，阿里巴巴集团CEO吴泳铭发表最新演讲，阐述了对“机器智能”时代的思考。（来源：量子位）', u:'https://www.qbitai.com/2026/09/493485.html'},
   ];
   const TIMELINE = [
-    ['09-22 13:31','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
-    ['09-22 13:31','穿刺手术机器人第一股，收入暴涨32倍！'],
-    ['09-22 13:30','AI制药走到哪一步了?'],
-    ['09-22 12:31','曝阿里试水千问平板 QwenBook：定位原生智能体电脑，主打办公、打通 WPS'],
-    ['09-22 12:23','千问 AI 眼镜 N1 系列亮相阿里云栖大会：支持眼动追踪与虹膜支付，10 月 13 日发售'],
-    ['09-22 12:12','行业首个系统级 Agent Harness 架构：“千问手机”荣耀 Magic9 系列首发搭载阿里 Qwen Intelligence，9 月 28 日发布'],
+    ['09-22 14:01','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-22 14:01','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-22 14:01','从英矽智能III期临床，看AI制药在中国的“交作业”时刻'],
+    ['09-22 13:51','工业AI正在走向产线，但规模化仍有卡点丨ToB产业观察'],
+    ['09-22 13:44','AI踩刹车，黄仁勋踩油门'],
+    ['09-22 13:37','阿里千问平板 QwenBook 演示真机首秀：搭载小背屏，键盘有千问专属键'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289807, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267296, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264855, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214544, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177521, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147504, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139355, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120270, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107212, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98207, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289822, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267320, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264867, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214547, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177527, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147510, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139356, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120278, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107220, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98211, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
