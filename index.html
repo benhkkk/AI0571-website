@@ -459,8 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-22T09:31', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
-    {c:'MEDDEVICE', d:'2026-09-22T09:31', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-22T09:41', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MEDDEVICE', d:'2026-09-22T09:41', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'HOT', d:'2026-09-22T09:41', t:'长江也做"大体检" ，AI浮游生物监测技术显身手', s:'长江也做"大体检" ，AI浮游生物监测技术显身手（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260611/917525.shtml'},
+    {c:'MODEL', d:'2026-09-22T09:33', t:'美国最年轻 10 位亿万富豪出炉：7 人靠 AI 创业，4 人来自 Anthropic', s:'9 月 22 日，据 Business Insider 报道，福布斯发布美国 400 位最富有富豪年度榜单。今年上榜门槛…（来源：IT之家）', u:'https://www.ithome.com/1/005/532.htm'},
     {c:'MODEL', d:'2026-09-22T09:25', t:'Muse登顶，Meta靠agent扳回一局', s:'不再恋战SOTA后，Meta在个人Agent上开花结果了。（来源：钛媒体）', u:'https://www.tmtpost.com/8148240.html'},
     {c:'HOT', d:'2026-09-22T09:21', t:'韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽', s:'据韩媒 ZDNET Korea 当地时间 21 日报道，韩媒 AI 半导体初创企业 FuriosaAI 昨日公布了其第三…（来源：IT之家）', u:'https://www.ithome.com/1/005/531.htm'},
     {c:'HOT', d:'2026-09-22T09:01', t:'荣耀亲选 AI 投影仪 Ultra 亮相：1700CVIA 亮度、真 1080P 画质，国补到手价 1999 元', s:'荣耀亲选 AI 投影仪 Ultra 上架京东开启预约（9 月 28 日开售），原价 2599 元、国补到手价 1999 …（来源：IT之家）', u:'https://www.ithome.com/1/005/522.htm'},
@@ -471,34 +473,32 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-22T07:40', t:'浪潮信息发布元脑 SD200 Ultra 超节点：单机承载 2.8 万亿参数 Kimi K3，Token 时延首次突破 5.85 毫秒', s:'在昨日的 2026 人工智能计算大会（AICC2026）上，浪潮信息宣布推出元脑 SD200 Ultra 超节点 AI …（来源：IT之家）', u:'https://www.ithome.com/1/005/504.htm'},
     {c:'MODEL', d:'2026-09-22T07:28', t:'索尼 SIE 申请“AI 自修复系统”专利：利用人工智能实时生成诊断固件以修复 PlayStation 游戏机故障', s:'据专利聚合网站 Patentlyze 披露，索尼 SIE 近日提交一项基于 AI 的 PlayStation 自动诊断和…（来源：IT之家）', u:'https://www.ithome.com/1/005/501.htm'},
     {c:'MODEL', d:'2026-09-22T07:27', t:'OpenAI 宣布成立数学与 AI 顾问组，神秘新模型 24 天攻破 100+ 世界级难题', s:'OpenAI 宣布成立“数学与 AI 顾问组”（Advisory Group on Mathematics and Ar…（来源：IT之家）', u:'https://www.ithome.com/1/005/500.htm'},
-    {c:'INDUSTRY', d:'2026-09-22T07:23', t:'2026 上半年全球 AI 眼镜出货量同比大增 263%，“无屏幕”产品占主流', s:'外媒 Android Authority 援引 Counterpoint Research《智能眼镜市场追踪“报告，认为…（来源：IT之家）', u:'https://www.ithome.com/1/005/498.htm'},
     {c:'MODEL', d:'2026-09-21T23:25', t:'全能 Go Agent 框架 covonaut v1.1.4 发布：新增工具滚动并行池、多模态读取等', s:'covonaut 是一个面向生产环境的 Go 语言 Agent 框架，覆盖 Agent 主循环、工具调用、图编排与多协议…（来源：OSCHINA）', u:'https://www.oschina.net/news/502653'},
     {c:'MEDPHARMA', d:'2026-09-21T21:21', t:'科技大厂，集体入局AI制药', s:'科技大厂，集体入局AI制药（来源：头条医药AI）', u:'https://www.toutiao.com/article/7687977904286614035/'},
     {c:'MODEL', d:'2026-09-21T21:06', t:'新 Mac mini 首发实测：我的第一台「多 Agent」电脑', s:'能跑大模型只是 AI PC 的起点#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）', u:'https://www.ifanr.com/1681211?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MEDDEVICE', d:'2026-09-21T19:00', t:'把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年', s:'作者｜Cynthia 编辑｜ 郑玄 AI 时代，开发者要如何跟上技术的变化？亚马逊 CTO Werner Vogels…（来源：极客公园）', u:'http://www.geekpark.net/news/370759'},
     {c:'INDUSTRY', d:'2026-09-21T18:11', t:'OpenAI自曝6起事故：AI安全的第一份"审计报告"由谁签字？', s:'当安全事件变成定期披露，AI公司就从"出了大事再解释"转向"持续被审计"。（来源：钛媒体）', u:'https://www.tmtpost.com/8147676.html'},
     {c:'MEDPHARMA', d:'2026-09-21T18:09', t:'七天，AI制药迎来新时代', s:'七天，AI制药迎来新时代（来源：头条医药AI）', u:'https://www.toutiao.com/article/7687928556055298610/'},
-    {c:'HOT', d:'2026-09-21T18:08', t:'捡快递200小时的Figure机器人，走进30个陌生家庭自主干家务', s:'Figure机器人是否堪当家务保姆？（来源：钛媒体）', u:'https://www.tmtpost.com/8147667.html'},
   ];
   const TIMELINE = [
-    ['09-22 09:31','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
-    ['09-22 09:31','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-22 09:41','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-22 09:41','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-22 09:41','长江也做"大体检" ，AI浮游生物监测技术显身手'],
+    ['09-22 09:33','美国最年轻 10 位亿万富豪出炉：7 人靠 AI 创业，4 人来自 Anthropic'],
     ['09-22 09:25','Muse登顶，Meta靠agent扳回一局'],
     ['09-22 09:21','韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽'],
-    ['09-22 09:01','荣耀亲选 AI 投影仪 Ultra 亮相：1700CVIA 亮度、真 1080P 画质，国补到手价 1999 元'],
-    ['09-22 08:42','黄仁勋：AI 时代，企业应该尽可能多付薪酬；宇树科技发布 Dex5-S 灵巧手；OpenAI 新模型 24 天解决 100+ 世界级数学难题 | 极客早知道'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289740, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267170, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264768, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214518, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177485, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147473, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139330, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120211, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107179, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98148, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289738, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267178, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264772, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214519, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177488, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147475, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139334, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120214, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107180, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98151, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
