@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-22T12:31:24",
+  "updated": "2026-09-22T13:01:30",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-22T12:31",
+      "d": "2026-09-22T13:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-22T12:31",
+      "d": "2026-09-22T13:01",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-22T12:31",
+      "t": "曝阿里试水千问平板 QwenBook：定位原生智能体电脑，主打办公、打通 WPS",
+      "s": "据《晚点 LatePost》今日报道，阿里云旗下无影团队正在研发一款名叫 QwenBook 的 AI 设备，定位是原生智…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/005/648.htm"
     },
     {
       "c": "INDUSTRY",
@@ -45,10 +52,17 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-22T11:41",
-      "t": "阿里 Qwen4 和下代视频模型训练中，Qwen4.5 后模型将扩展至 5-10T 参数",
-      "s": "IT之家今日在 2026 年云栖大会现场获悉，阿里巴巴公布了大模型一系列进展，大模型递归自我改进（RSI）已初步进入模型…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/633.htm"
+      "d": "2026-09-22T11:48",
+      "t": "阿里研究员透露Qwen4.5后模型将扩展至5-10T参数",
+      "s": "未来Qwen4.5、Qwen5等版本将扩展至5-10T参数。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/493629.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-22T11:42",
+      "t": "阿里公布全模态模型新进展，Qwen4和下代视频模型均在训练中",
+      "s": "9月22日， 2026云栖大会开幕，阿里巴巴公布大模型最新进展。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/493625.html"
     },
     {
       "c": "FUNDING",
@@ -72,11 +86,25 @@
       "u": "https://www.tmtpost.com/8148447.html"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-09-22T11:13",
+      "t": "2026 East Forward出海大会：全球化到达下一站，中国企业如何走得更远",
+      "s": "“潮起之时，靠岸相见”（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/493510.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-09-22T11:05",
       "t": "龙芯发布自研通用 GPU 加速计算平台首个软件版本：支持 OpenCL 3.0、CUDA 及 AI 推理",
       "s": "龙芯中科今日宣布推出支持自研通用 GPU 的龙芯加速计算平台（Loongson Accelerated Computin…（来源：IT之家）",
       "u": "https://www.ithome.com/1/005/595.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-22T10:59",
+      "t": "阿里巴巴：机器智能时代，坚定投入AI模型 AI芯片 AI云三大基石",
+      "s": "吴泳铭表示，阿里巴巴将坚定投入AI模型、AI芯片和AI云这三项基础设施建设，这是阿里的长期战略选择。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/493502.html"
     },
     {
       "c": "HOT",
@@ -107,49 +135,25 @@
       "u": "https://www.ithome.com/1/005/588.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-22T10:38",
-      "t": "从代码生成到组织重构，AI Coding如何跨越生产力鸿沟 | 2026 ITValue Summit数字价值年会",
-      "s": "AI Coding时代到来，软件开发领域的生产力和生产关系都迎来全新变革。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8146307.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-22T10:36",
-      "t": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
-      "s": "IT之家今日在 2026 年云栖大会现场获悉，阿里巴巴 CEO 吴泳铭表示，当前客户 AI 需求非常强劲，将全力投入 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/587.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-22T10:22",
-      "t": "AI算力之争不靠堆卡！浪潮信息捅破智算「能力天花板」，还瓦解了「产能焦虑」",
-      "s": "弥补算力缺口，不能只靠堆料（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/493363.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-22T10:22",
-      "t": "有人拿 Jev 给聊天软件配了个“AI 副驾”——读懂对方意图，但不替你发",
-      "s": "TypeSafe 最近开源了他们叫 \"System One Model\" 的东西——Jev，一个放弃字符串生成、直接输出…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502660"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-22T10:00",
-      "t": "一颗“AI球”刷屏后，随身AI录音的序幕才刚刚开启",
-      "s": "9月17日，一家头部手机厂商亮相一款9.8克的球形AI记录设备，可夹衣佩戴，宣称续航24小时。该产品一经曝光便在全网疯狂…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/jaNIhOplEbRqBAAw.html"
+      "c": "MEDPHARMA",
+      "d": "2026-09-22T10:40",
+      "t": "AI巨头算力规模拟翻倍扩张，AI制药军备竞赛打响",
+      "s": "AI巨头算力规模拟翻倍扩张，AI制药军备竞赛打响（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7688184000380207663/"
     }
   ],
   "timeline": [
     [
-      "09-22 12:31",
+      "09-22 13:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-22 12:31",
+      "09-22 13:01",
       "穿刺手术机器人第一股，收入暴涨32倍！"
+    ],
+    [
+      "09-22 12:31",
+      "曝阿里试水千问平板 QwenBook：定位原生智能体电脑，主打办公、打通 WPS"
     ],
     [
       "09-22 12:23",
@@ -162,10 +166,6 @@
     [
       "09-22 12:03",
       "SpaceXAI 发布 Grok 4.7：跟 Claude Fable 同榜，价格砍到三分之一"
-    ],
-    [
-      "09-22 12:01",
-      "Meta 个人 AI 助手刚火 13 天，Amazon 就拉闸了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 289791,
+      "s": 289792,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 267270,
+      "s": 267279,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 264830,
+      "s": 264838,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214539,
+      "s": 214542,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177516,
+      "s": 177518,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147499,
+      "s": 147501,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139352,
+      "s": 139353,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120256,
+      "s": 120265,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107207,
+      "s": 107209,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98193,
+      "s": 98200,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
