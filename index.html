@@ -459,8 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDDEVICE', d:'2026-09-22T08:03', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
-    {c:'MEDPHARMA', d:'2026-09-22T08:03', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MEDDEVICE', d:'2026-09-22T08:31', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-22T08:31', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MODEL', d:'2026-09-22T08:11', t:'早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题', s:'· Omdia：今年全球智能手机出货量预计下降 12% · ZCode 官宣开源、公开数据安全整改结果 · 西贝贾国龙呼…（来源：爱范儿）', u:'https://www.ifanr.com/1679313?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MODEL', d:'2026-09-22T08:07', t:'AI 编程平台 Bitrig 宣布为苹果 iPhone Duo 引入支持，提供交互式 3D 模拟器供开发者测试应用', s:'据外媒 9to5Mac 报道，随着苹果上周发布 Xcode 27.1 Beta 1 并加入 iPhone Duo 应用开…（来源：IT之家）', u:'https://www.ithome.com/1/005/513.htm'},
     {c:'MODEL', d:'2026-09-22T07:43', t:'IT早报 0922：闲鱼回应“媒体报道色情引流”；5499 元起 vivo X500 系列手机发布；被质疑“偷传代码”后智谱 ZCode 开源；AMD 市值历史首次突破 1 万亿美元...', s:'“IT早报”时间，大家好，现在是 2026 年 9 月 22 日星期二，今天的重要科技资讯有：1. 闲鱼回应“媒体报道色…（来源：IT之家）', u:'https://www.ithome.com/1/005/506.htm'},
     {c:'MODEL', d:'2026-09-22T07:40', t:'浪潮信息发布元脑 SD200 Ultra 超节点：单机承载 2.8 万亿参数 Kimi K3，Token 时延首次突破 5.85 毫秒', s:'在昨日的 2026 人工智能计算大会（AICC2026）上，浪潮信息宣布推出元脑 SD200 Ultra 超节点 AI …（来源：IT之家）', u:'https://www.ithome.com/1/005/504.htm'},
     {c:'MODEL', d:'2026-09-22T07:28', t:'索尼 SIE 申请“AI 自修复系统”专利：利用人工智能实时生成诊断固件以修复 PlayStation 游戏机故障', s:'据专利聚合网站 Patentlyze 披露，索尼 SIE 近日提交一项基于 AI 的 PlayStation 自动诊断和…（来源：IT之家）', u:'https://www.ithome.com/1/005/501.htm'},
@@ -468,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-09-22T07:23', t:'2026 上半年全球 AI 眼镜出货量同比大增 263%，“无屏幕”产品占主流', s:'外媒 Android Authority 援引 Counterpoint Research《智能眼镜市场追踪“报告，认为…（来源：IT之家）', u:'https://www.ithome.com/1/005/498.htm'},
     {c:'HOT', d:'2026-09-22T07:14', t:'英国消费者权益机构 Citizens Advice：基本服务供应商应停止在客服工作中依赖 AI 聊天机器人', s:'英国消费者权益机构 Citizens Advice 近日呼吁，能源、银行、电话和互联网等提供基本服务的企业在客服工作中应…（来源：IT之家）', u:'https://www.ithome.com/1/005/497.htm'},
     {c:'MODEL', d:'2026-09-22T07:05', t:'小米 MiMo-V2.6 发布：Pro 与 Flash 双版本价格不变，超越 Kimi K3、GLM-5.3 成为当前 AA 指数排名最高的开源模型', s:'小米今日凌晨正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列，包含 Pro 与 Flash 两个原生全模态…（来源：IT之家）', u:'https://www.ithome.com/1/005/496.htm'},
-    {c:'HOT', d:'2026-09-22T07:05', t:'独立开发者称自己游戏新作遭其他开发商使用 AI 工具 1:1 恶意复刻，双方各执一词', s:'据 IGN 报道，独立游戏开发者 Rado Klasa 发文，抨击一家名为 Golden Horn Studios 的开…（来源：IT之家）', u:'https://www.ithome.com/1/005/495.htm'},
     {c:'MEDPHARMA', d:'2026-09-21T21:21', t:'科技大厂，集体入局AI制药', s:'科技大厂，集体入局AI制药（来源：头条医药AI）', u:'https://www.toutiao.com/article/7687977904286614035/'},
     {c:'MODEL', d:'2026-09-21T21:06', t:'新 Mac mini 首发实测：我的第一台「多 Agent」电脑', s:'能跑大模型只是 AI PC 的起点#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）', u:'https://www.ifanr.com/1681211?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MEDDEVICE', d:'2026-09-21T19:00', t:'把未来做成基础设施｜亚马逊 CTO Dr.Werner Vogels 与云计算 20 年', s:'作者｜Cynthia 编辑｜ 郑玄 AI 时代，开发者要如何跟上技术的变化？亚马逊 CTO Werner Vogels…（来源：极客公园）', u:'http://www.geekpark.net/news/370759'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-21T18:02', t:'Gemini"越狱"入侵三家企业：谷歌压了两个月，四巨头栽在同一家35人公司手里', s:'四起事故连起来看，真正的主角已经不是某一家模型，而是整个行业的安全评测体系。（来源：钛媒体）', u:'https://www.tmtpost.com/8147131.html'},
     {c:'MEDPHARMA', d:'2026-09-21T18:01', t:'海内外催化密集落地，AI制药站上价值验证关口', s:'海内外催化密集落地，AI制药站上价值验证关口（来源：头条医药AI）', u:'https://www.toutiao.com/article/7687926383247163939/'},
     {c:'MODEL', d:'2026-09-21T17:58', t:'KB Embodied Agent（企业知识库具身客服）', s:'KB Embodied Agent v1.0.0 正式发布。这是一个把企业私有知识库做成「能开口、能办事」的数字人前台的…（来源：OSCHINA）', u:'https://www.oschina.net/news/502649'},
-    {c:'MODEL', d:'2026-09-21T17:51', t:'AI4S青年志① | 摇瓶子的手与调参数的脑：两个95后和一场物质科学的化学反应', s:'在AI4S，AI出身的人是在等AI出奇迹，而Science出身的人是在给AI立规矩。 作者丨周蕾 编辑丨岑峰 【编者按】…（来源：雷锋网）', u:'https://www.leiphone.com/category/academic/vY1gBvHhcA2frpx4.html'},
   ];
   const TIMELINE = [
-    ['09-22 08:03','穿刺手术机器人第一股，收入暴涨32倍！'],
-    ['09-22 08:03','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-22 08:31','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-22 08:31','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-22 08:11','早报｜曝iPhone Duo量产初期良率仅过六成/小米18 Pro加入硬件级防窥/OpenAI新模型24天攻克百道数学未解难题'],
+    ['09-22 08:07','AI 编程平台 Bitrig 宣布为苹果 iPhone Duo 引入支持，提供交互式 3D 模拟器供开发者测试应用'],
     ['09-22 07:43','IT早报 0922：闲鱼回应“媒体报道色情引流”；5499 元起 vivo X500 系列手机发布；被质疑“偷传代码”后智谱 ZCode 开源；AMD 市值历史…'],
     ['09-22 07:40','浪潮信息发布元脑 SD200 Ultra 超节点：单机承载 2.8 万亿参数 Kimi K3，Token 时延首次突破 5.85 毫秒'],
-    ['09-22 07:28','索尼 SIE 申请“AI 自修复系统”专利：利用人工智能实时生成诊断固件以修复 PlayStation 游戏机故障'],
-    ['09-22 07:27','OpenAI 宣布成立数学与 AI 顾问组，神秘新模型 24 天攻破 100+ 世界级难题'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289719, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267143, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264748, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214511, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177476, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:289725, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267148, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:264754, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214514, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177477, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147465, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139319, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120195, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107168, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98133, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139322, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120198, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107172, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98134, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
