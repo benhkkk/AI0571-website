@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-23T05:31:25",
+  "updated": "2026-09-23T06:01:37",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-23T05:31",
+      "d": "2026-09-23T06:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-23T05:31",
+      "d": "2026-09-23T06:01",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-23T05:52",
+      "t": "高通 CEO 安蒙：智能体时代并不是让 AI 替我们包办一切，而是让技术变得更实用",
+      "s": "在北京时间 9 月 23 日凌晨的 2026 高通骁龙峰会现场，高通公司宣布推出第六代骁龙 8 超级至尊版移动平台和第六…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/006/015.htm"
     },
     {
       "c": "MODEL",
@@ -80,13 +87,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-22T23:19",
-      "t": "后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构",
-      "s": "后摩智能 (HOUMO.AI) 在近日举行的 2026 全球 AI 芯片峰会上确认，该公司下代大模型端边 AI 芯片将采…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/005/988.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-22T22:42",
       "t": "一张硬件卡片，一场上下文之争：千问办公押注企业Agent",
       "s": "一场两小时的客户拜访，双方说的话加起来上万字。但回到工位，销售能凭记忆敲进CRM的，通常不到三百字。剩下的去哪了？跟着出…（来源：雷锋网）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-23 05:31",
+      "09-23 06:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-23 05:31",
+      "09-23 06:01",
       "穿刺手术机器人第一股，收入暴涨32倍！"
+    ],
+    [
+      "09-23 05:52",
+      "高通 CEO 安蒙：智能体时代并不是让 AI 替我们包办一切，而是让技术变得更实用"
     ],
     [
       "09-23 04:40",
@@ -162,10 +166,6 @@
     [
       "09-23 03:56",
       "高通骁龙芯片将整合 HBC 架构：手机本地运行 AI 更快、更省电"
-    ],
-    [
-      "09-23 03:39",
-      "阿里千问平板 Qwen Book 现身 2026 骁龙峰会，定位原生 AI 智能体电脑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290179,
+      "s": 290187,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 267782,
+      "s": 267788,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 265351,
+      "s": 265366,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214653,
+      "s": 214654,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177647,
+      "s": 177648,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147647,
+      "s": 147649,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139440,
+      "s": 139442,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120536,
+      "s": 120541,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107364,
+      "s": 107369,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98428,
+      "s": 98432,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
