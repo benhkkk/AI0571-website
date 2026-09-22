@@ -459,8 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-23T01:01', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
-    {c:'MEDDEVICE', d:'2026-09-23T01:01', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-23T01:26', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MEDDEVICE', d:'2026-09-23T01:26', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MODEL', d:'2026-09-22T23:59', t:'陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产', s:'阿里：三年之内会出现一个原生的全模态统一生成模型，未来体验将不再受限于模态边界。（来源：量子位）', u:'https://www.qbitai.com/2026/09/494429.html'},
+    {c:'MODEL', d:'2026-09-22T23:46', t:'Agent时代，CPU的价值该重估了', s:'CPU与GPU趋近1∶1（来源：量子位）', u:'https://www.qbitai.com/2026/09/494430.html'},
     {c:'MODEL', d:'2026-09-22T23:26', t:'消息称 DeepSeek 本周参加联合国安理会，讲解 AI 安全风险', s:'据路透社今日援引知情人士消息，中国人工智能初创公司 DeepSeek（深度求索）将在本周参加联合国安理会，讲解 AI 安…（来源：IT之家）', u:'https://www.ithome.com/1/005/990.htm'},
     {c:'MODEL', d:'2026-09-22T23:19', t:'后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构', s:'后摩智能 (HOUMO.AI) 在近日举行的 2026 全球 AI 芯片峰会上确认，该公司下代大模型端边 AI 芯片将采…（来源：IT之家）', u:'https://www.ithome.com/1/005/988.htm'},
     {c:'HOT', d:'2026-09-22T23:08', t:'逾七成美国人担忧 AI 公司防控不力，超半数支持放缓开发', s:'北京时间 9 月 22 日，据路透社报道，就在人们越来越担忧 AI 技术的未来走向之际，路透社 / 益普索的最新民调显示…（来源：IT之家）', u:'https://www.ithome.com/1/005/985.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-22T19:25', t:'《AGI市场观察》发布：四款国产模型周用量破10万亿tokens，DeepSeek与混元占比近半', s:'日前，智能经济30人论坛AGI测评中心发布最新一期《AGI市场观察》（2026年9月12日-18日）。报告以OpenRo…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/IRBkL55eFXZRCHiy.html'},
     {c:'MODEL', d:'2026-09-22T19:04', t:'让 gzip 当语言模型？压得最小的地方，就是它“觉得”最像原文的地方', s:'Nathan Barry 提出了一个脑洞实验：能不能让 gzip 当语言模型？不要神经网络、不要训练参数，就用你操作系统…（来源：OSCHINA）', u:'https://www.oschina.net/news/502676/gzip-lm'},
     {c:'HOT', d:'2026-09-22T18:10', t:'光帆携手韶音，以 AI OS 破局单点功能内卷', s:'好 AI，不必自己造。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1681475?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MEDDEVICE', d:'2026-09-22T18:06', t:'基元律动韩凯：从多模型调度到反馈闭环，探索Agent持续进化', s:'9月22日，在2026杭州云栖大会企业级Agent实践峰会上，基元律动联合创始人兼CTO韩凯发表演讲《从Harness到…（来源：量子位）', u:'https://www.qbitai.com/2026/09/494120.html'},
-    {c:'INDUSTRY', d:'2026-09-22T18:01', t:'别让一部片子倒在交付前：SkyProduction 抢先首发短剧质检', s:'上传成片和字幕，系统自动从字幕、音画、内容底线三个维度逐集跑一遍，输出可下载、可回填的质检报告。（来源：量子位）', u:'https://www.qbitai.com/2026/09/494043.html'},
   ];
   const TIMELINE = [
-    ['09-23 01:01','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
-    ['09-23 01:01','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-23 01:26','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-23 01:26','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-22 23:59','陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产'],
+    ['09-22 23:46','Agent时代，CPU的价值该重估了'],
     ['09-22 23:26','消息称 DeepSeek 本周参加联合国安理会，讲解 AI 安全风险'],
     ['09-22 23:19','后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构'],
-    ['09-22 23:08','逾七成美国人担忧 AI 公司防控不力，超半数支持放缓开发'],
-    ['09-22 22:48','拿下 2 亿日活跃用户后，消息称字节跳动豆包收缩对话团队'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:290105, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267668, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:265202, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214630, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177618, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147612, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139416, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120464, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107334, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98383, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:290108, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267675, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:265216, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214632, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177626, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147616, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139421, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120470, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107335, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98387, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
