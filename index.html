@@ -459,8 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-09-23T09:02', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
-    {c:'MEDDEVICE', d:'2026-09-23T09:02', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'MEDPHARMA', d:'2026-09-23T09:31', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'MEDDEVICE', d:'2026-09-23T09:31', t:'穿刺手术机器人第一股，收入暴涨32倍！', s:'穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）', u:'https://news.yaozh.com/archive/49025.html'},
+    {c:'HOT', d:'2026-09-23T09:24', t:'推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学', s:'想跳出局部最优，就得先想好放弃什么。（来源：钛媒体）', u:'https://www.tmtpost.com/8149358.html'},
+    {c:'MODEL', d:'2026-09-23T09:24', t:'AI智能体，正在让CPU身价暴涨', s:'过去两年，AI圈有一个几乎无人质疑的共识：GPU决定AI的上限。（来源：钛媒体）', u:'https://www.tmtpost.com/8149352.html'},
     {c:'HOT', d:'2026-09-23T08:53', t:'荣耀 MagicPad 4 平板预售：12.1 英寸 165Hz 屏幕、第四代骁龙 8s，3299 元起', s:'荣耀官方今日宣布，荣耀 MagicPad 4 现已开启全款预售，售价 3299 元起，国补到手价 2804.15 元起…（来源：IT之家）', u:'https://www.ithome.com/1/006/049.htm'},
     {c:'MODEL', d:'2026-09-23T08:39', t:'OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道', s:'OpenAI 发布 GPT-6 Sol 和 Luna 模型，API 价格大降 50% 9 月 23 日消息，OpenAI…（来源：极客公园）', u:'http://www.geekpark.net/news/370829'},
     {c:'INDUSTRY', d:'2026-09-23T08:18', t:'荣耀 Magic9 Pro Max 手机官宣搭载高通第六代骁龙 8 超级至尊版处理器', s:'在夏威夷时间 9 月 22 日 9 点（北京时间 9 月 23 日 3 点）召开的 2026 骁龙峰会上，高通公司宣布推…（来源：IT之家）', u:'https://www.ithome.com/1/006/037.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-22T22:42', t:'一张硬件卡片，一场上下文之争：千问办公押注企业Agent', s:'一场两小时的客户拜访，双方说的话加起来上万字。但回到工位，销售能凭记忆敲进CRM的，通常不到三百字。剩下的去哪了？跟着出…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/DHnalKdgCUg8xEpC.html'},
     {c:'INDUSTRY', d:'2026-09-22T22:28', t:'直播预告：未来两三年，哪些工业AI场景会率先爆发？', s:'从真实工厂到产品复制，再到生态和下一批机会，两位嘉宾会把工业AI从「能用」走向「规模化」的关键问题一层层拆开。（来源：量子位）', u:'https://www.qbitai.com/2026/09/494420.html'},
     {c:'MODEL', d:'2026-09-22T21:57', t:'讲真，我没看出这图是AI做的，更没想到是国产AI做的', s:'商汤U1 Pro，正式发布（来源：量子位）', u:'https://www.qbitai.com/2026/09/494263.html'},
-    {c:'HOT', d:'2026-09-22T19:58', t:'WebArena作者Shuyan Zhou入职Meta超级智能实验室', s:'梦想是做能帮妈妈订机票的AI浏览器。（来源：量子位）', u:'https://www.qbitai.com/2026/09/493653.html'},
-    {c:'MODEL', d:'2026-09-22T19:50', t:'6天烧光2000多万，拿下开源第一！小米史无前例「炼丹直播」收官', s:'Hugging Face CEO：「太棒了」（来源：量子位）', u:'https://www.qbitai.com/2026/09/494179.html'},
   ];
   const TIMELINE = [
-    ['09-23 09:02','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
-    ['09-23 09:02','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-23 09:31','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-23 09:31','穿刺手术机器人第一股，收入暴涨32倍！'],
+    ['09-23 09:24','推理芯片之战：聊聊Groq、Cerebras与OpenAI三大路径与Bill Dally的设计哲学'],
+    ['09-23 09:24','AI智能体，正在让CPU身价暴涨'],
     ['09-23 08:53','荣耀 MagicPad 4 平板预售：12.1 英寸 165Hz 屏幕、第四代骁龙 8s，3299 元起'],
     ['09-23 08:39','OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道'],
-    ['09-23 08:18','荣耀 Magic9 Pro Max 手机官宣搭载高通第六代骁龙 8 超级至尊版处理器'],
-    ['09-23 08:12','谷歌前安全负责人：AI 对儿童的伤害恐超社交媒体'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:290218, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267851, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:265454, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214664, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177654, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147656, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139456, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120575, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107389, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98465, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:290221, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:267864, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:265467, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:214665, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:177660, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:147662, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139457, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:120581, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107396, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:98471, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
