@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-23T09:32:01",
+  "updated": "2026-09-23T09:35:53",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-23T09:31",
+      "d": "2026-09-23T09:35",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-23T09:31",
+      "d": "2026-09-23T09:35",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-23T09:31",
+      "t": "韶音旗下首款 AI 耳机 OpenFit 2 AI 亮相 2026 云栖大会，AI 实验室新功能首发",
+      "s": "2026 云栖大会于 9 月 22 日在浙江杭州开幕，Shokz 韶音首次亮相云栖大会，携旗下首款 AI 耳机 Open…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/006/065.htm"
     },
     {
       "c": "HOT",
@@ -101,13 +108,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-23T06:19",
-      "t": "消息称苹果搁置研发 AI 吊坠，曾设想以摄像头拓展 Siri 能力",
-      "s": "彭博社的马克 · 古尔曼（Mark Gurman）昨日（9 月 22 日）发布博文，报道称苹果曾在研发一款配备摄像头的人…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/006/017.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-22T23:59",
       "t": "陆川手搓历史现场，王珞丹熬夜抽卡，阿里全模态开始兜底生产",
       "s": "阿里：三年之内会出现一个原生的全模态统一生成模型，未来体验将不再受限于模态边界。（来源：量子位）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-23 09:31",
+      "09-23 09:35",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-23 09:31",
+      "09-23 09:35",
       "穿刺手术机器人第一股，收入暴涨32倍！"
+    ],
+    [
+      "09-23 09:31",
+      "韶音旗下首款 AI 耳机 OpenFit 2 AI 亮相 2026 云栖大会，AI 实验室新功能首发"
     ],
     [
       "09-23 09:24",
@@ -162,10 +166,6 @@
     [
       "09-23 08:53",
       "荣耀 MagicPad 4 平板预售：12.1 英寸 165Hz 屏幕、第四代骁龙 8s，3299 元起"
-    ],
-    [
-      "09-23 08:39",
-      "OpenAI 发布 GPT-6 Sol 和 Luna；传字节跳动豆包收缩对话团队；千问发布 AI 手机全栈解决方案 | 极客早知道"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290221,
+      "s": 290223,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 267864,
+      "s": 267868,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 265467,
+      "s": 265468,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139457,
+      "s": 139458,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120581,
+      "s": 120583,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107396,
+      "s": 107398,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
