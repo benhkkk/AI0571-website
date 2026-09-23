@@ -1,16 +1,37 @@
 {
-  "updated": "2026-09-24T01:35:42",
+  "updated": "2026-09-24T02:01:39",
   "news": [
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-24T02:01",
+      "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
+      "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
+      "u": "https://news.yaozh.com/archive/49037.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-24T02:01",
+      "t": "AI巨头悄悄布局，机器人要接管实验室？",
+      "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
+      "u": "https://news.yaozh.com/archive/49043.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-24T02:01",
+      "t": "穿刺手术机器人第一股，收入暴涨32倍！",
+      "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
+      "u": "https://news.yaozh.com/archive/49025.html"
+    },
+    {
       "c": "MODEL",
-      "d": "2026-09-24T01:35",
+      "d": "2026-09-24T02:01",
       "t": "“自动驾驶”电镜来了：科学北极星发布AI原生智能电镜AiSEM F1",
       "s": "“自动驾驶”电镜来了：科学北极星发布AI原生智能电镜AiSEM F1（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260923/984364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-24T01:35",
+      "d": "2026-09-24T02:01",
       "t": "“人工智能+”科技创新专题对接会在广州举行",
       "s": "“人工智能+”科技创新专题对接会在广州举行（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260923/984262.shtml"
@@ -119,53 +140,32 @@
       "t": "联想亮相阿里云栖大会：联想天禧AI把超级组织落地到端侧",
       "s": "联想天禧AI携全场景多端产品矩阵亮相阿里云栖大会（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/496609.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-23T18:35",
-      "t": "具身智能的转机和出清，哪个先来？",
-      "s": "具身智能的囚徒困境。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8149233.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-23T18:09",
-      "t": "星驿付与慧徕店亮相2026云栖大会，AI生成数字商业无限可能",
-      "s": "9月22日至24日，2026云栖大会在杭州盛大召开。云栖大会是阿里巴巴集团的年度盛会，由阿里云协同其合作伙伴与全球客户共…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/ZzpzZcKEcWjfW1ez.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-23T17:57",
-      "t": "云栖大会开幕：Qwen4 已在训练，RSI 让大模型自己迭代自己跑了 33 轮",
-      "s": "9 月 22 日，2026 云栖大会在杭州开幕，阿里巴巴把通义千问一年攒下的进展做了次集中发布。最核心的一条线：大模型递…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502711"
     }
   ],
   "timeline": [
     [
-      "09-24 01:35",
+      "09-24 02:01",
+      "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
+    ],
+    [
+      "09-24 02:01",
+      "AI巨头悄悄布局，机器人要接管实验室？"
+    ],
+    [
+      "09-24 02:01",
+      "穿刺手术机器人第一股，收入暴涨32倍！"
+    ],
+    [
+      "09-24 02:01",
       "“自动驾驶”电镜来了：科学北极星发布AI原生智能电镜AiSEM F1"
     ],
     [
-      "09-24 01:35",
+      "09-24 02:01",
       "“人工智能+”科技创新专题对接会在广州举行"
     ],
     [
       "09-23 23:34",
       "Anthropic 工程师解释为何 Claude 写作变差：模型被训练成写给 AI 看而非写给人看"
-    ],
-    [
-      "09-23 23:31",
-      "谷歌推出 Gemini 3.8 Flash / Flash-Lite 文本转语音模型，每一行台词都能精确控制"
-    ],
-    [
-      "09-23 23:06",
-      "YouTube 推出全新 AI 智能体，能帮创作者“翻红”老视频"
-    ],
-    [
-      "09-23 23:05",
-      "罗福莉官宣小米 MiMo-V3 采用全新架构，核心 HySparse 2 今日发布"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290559,
+      "s": 290570,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 268370,
+      "s": 268384,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 266028,
+      "s": 266037,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214783,
+      "s": 214785,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177797,
+      "s": 177800,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147778,
+      "s": 147779,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139544,
+      "s": 139546,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120835,
+      "s": 120842,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107523,
+      "s": 107527,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98664,
+      "s": 98667,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
