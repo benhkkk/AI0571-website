@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-23T12:31:49",
+  "updated": "2026-09-23T13:01:39",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-23T12:31",
+      "d": "2026-09-23T13:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-23T12:31",
+      "d": "2026-09-23T13:01",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-23T12:31",
+      "d": "2026-09-23T13:01",
       "t": "团体标准《近红外光谱数据分析人工智能（AI）大模型应用通则》定稿会议顺利召开",
       "s": "团体标准《近红外光谱数据分析人工智能（AI）大模型应用通则》定稿会议顺利召开（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260923/983848.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-23T12:36",
+      "t": "高通：手机仍占个人交互 C 位，应用正从 APP 时代迈向 AI 智能体时代",
+      "s": "夏威夷时间 9 月 22 日 9 点（北京时间 9 月 23 日 3 点）召开的 2026 骁龙峰会上，高通公司高级副总…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/006/201.htm"
     },
     {
       "c": "HOT",
@@ -133,27 +140,24 @@
       "t": "Anthropic 发布 Claude Opus 5.5：跑分追平 Fable、成本降四成，还顺手禁了越界",
       "s": "Anthropic 掐在风口发布了新模型 Claude Opus 5.5——5.5 家族打头阵的第一个，也是 Dario…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502685/anthropic-claude-opus-5-5"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-23T10:56",
-      "t": "昨晚 GPT-6 Sol、Luna 上线了我第一时间试用了，写写给我感受",
-      "s": "前几天我才写了过一篇关于GPT-6 Sol 传闻的文章，当时 Sol 还没有正式发布但网上已经有不少消息了，之前那篇文章…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502684"
     }
   ],
   "timeline": [
     [
-      "09-23 12:31",
+      "09-23 13:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-23 12:31",
+      "09-23 13:01",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-23 12:31",
+      "09-23 13:01",
       "团体标准《近红外光谱数据分析人工智能（AI）大模型应用通则》定稿会议顺利召开"
+    ],
+    [
+      "09-23 12:36",
+      "高通：手机仍占个人交互 C 位，应用正从 APP 时代迈向 AI 智能体时代"
     ],
     [
       "09-23 12:26",
@@ -162,10 +166,6 @@
     [
       "09-23 11:48",
       "零售成了“机器人练兵场”"
-    ],
-    [
-      "09-23 11:47",
-      "Jev 火得一塌糊涂，但它架构没护城河：OpenAI 随时能抄"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290271,
+      "s": 290279,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 267961,
+      "s": 267969,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 265553,
+      "s": 265572,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214689,
+      "s": 214690,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177677,
+      "s": 177682,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147681,
+      "s": 147687,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139469,
+      "s": 139471,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 120619,
+      "s": 120625,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107417,
+      "s": 107420,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
