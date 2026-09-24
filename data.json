@@ -1,40 +1,33 @@
 {
-  "updated": "2026-09-24T17:01:49",
+  "updated": "2026-09-24T17:31:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-24T17:01",
+      "d": "2026-09-24T17:31",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-24T17:01",
+      "d": "2026-09-24T17:31",
       "t": "医药行业真正需要怎样的 AI Agent？",
       "s": "医药行业真正需要怎样的 AI Agent？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49039.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-24T17:01",
+      "d": "2026-09-24T17:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-24T17:01",
+      "d": "2026-09-24T17:31",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-24T17:01",
-      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
-      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
     },
     {
       "c": "MODEL",
@@ -63,6 +56,13 @@
       "t": "小米公开 MiMo-V3 核心架构 HySparse2：面向长程多轮 Agent 优化推理效率",
       "s": "小米 MiMo 今天公布面向 MiMo-V3 的核心架构 HySparse2，瞄准下一代长上下文 Agent。新架构旨在…（来源：IT之家）",
       "u": "https://www.ithome.com/1/006/839.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-24T16:20",
+      "t": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
+      "s": "人类演示一次，机器人即可实现跨场景任务复用（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/496816.html"
     },
     {
       "c": "MODEL",
@@ -144,28 +144,28 @@
   ],
   "timeline": [
     [
-      "09-24 17:01",
+      "09-24 17:31",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-24 17:01",
+      "09-24 17:31",
       "医药行业真正需要怎样的 AI Agent？"
     ],
     [
-      "09-24 17:01",
+      "09-24 17:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-24 17:01",
+      "09-24 17:31",
       "穿刺手术机器人第一股，收入暴涨32倍！"
-    ],
-    [
-      "09-24 17:01",
-      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
     ],
     [
       "09-24 16:43",
       "OpenAI、Anthropic同日模型大战，“是兄弟就砍一刀”"
+    ],
+    [
+      "09-24 16:38",
+      "荣耀 CEO 李健公布 Magic9 手机价格：16+512GB 国补到手 5499 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290917,
+      "s": 290931,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 268719,
+      "s": 268740,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 266388,
+      "s": 266397,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214901,
+      "s": 214903,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177873,
+      "s": 177877,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147861,
+      "s": 147866,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139598,
+      "s": 139600,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121034,
+      "s": 121037,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107616,
+      "s": 107619,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98775,
+      "s": 98783,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
