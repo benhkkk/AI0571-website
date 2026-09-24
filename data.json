@@ -1,37 +1,37 @@
 {
-  "updated": "2026-09-24T18:31:47",
+  "updated": "2026-09-24T19:02:24",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-24T18:31",
+      "d": "2026-09-24T19:02",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-24T18:31",
+      "d": "2026-09-24T19:02",
       "t": "医药行业真正需要怎样的 AI Agent？",
       "s": "医药行业真正需要怎样的 AI Agent？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49039.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-24T18:31",
+      "d": "2026-09-24T19:02",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-09-24T18:31",
+      "d": "2026-09-24T19:02",
       "t": "穿刺手术机器人第一股，收入暴涨32倍！",
       "s": "穿刺手术机器人第一股，收入暴涨32倍！（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49025.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-24T18:31",
+      "d": "2026-09-24T19:02",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
@@ -108,6 +108,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-09-24T16:52",
+      "t": "独家丨AWS、微软中国迎来「Claude封号潮」",
+      "s": "雷峰网获悉，上周，Anthropic启动新一轮合规清查，导致大批AWS和微软大中华区客户的Claude账号被封停。多名知…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/YiaSUnx4DXphNl93.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-09-24T16:43",
       "t": "OpenAI、Anthropic同日模型大战，“是兄弟就砍一刀”",
       "s": "刀刀见骨，AI巨头为自己画过的大饼“填窟窿”（来源：钛媒体）",
@@ -133,34 +140,27 @@
       "t": "小米公开 MiMo-V3 核心架构 HySparse2：面向长程多轮 Agent 优化推理效率",
       "s": "小米 MiMo 今天公布面向 MiMo-V3 的核心架构 HySparse2，瞄准下一代长上下文 Agent。新架构旨在…（来源：IT之家）",
       "u": "https://www.ithome.com/1/006/839.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-24T16:20",
-      "t": "GPT-6之后，具身智能走向何方？诺因发布GLOW技术报告，给出机器人“一教就会”的答案",
-      "s": "人类演示一次，机器人即可实现跨场景任务复用（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/496816.html"
     }
   ],
   "timeline": [
     [
-      "09-24 18:31",
+      "09-24 19:02",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-24 18:31",
+      "09-24 19:02",
       "医药行业真正需要怎样的 AI Agent？"
     ],
     [
-      "09-24 18:31",
+      "09-24 19:02",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-24 18:31",
+      "09-24 19:02",
       "穿刺手术机器人第一股，收入暴涨32倍！"
     ],
     [
-      "09-24 18:31",
+      "09-24 19:02",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 290955,
+      "s": 290965,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 268777,
+      "s": 268790,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 266423,
+      "s": 266437,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 214913,
+      "s": 214920,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177887,
+      "s": 177889,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139605,
+      "s": 139609,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121051,
+      "s": 121056,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107628,
+      "s": 107632,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98788,
+      "s": 98792,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
