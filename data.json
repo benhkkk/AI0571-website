@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-26T02:31:44",
+  "updated": "2026-09-26T03:01:35",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-26T02:31",
+      "d": "2026-09-26T03:01",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-26T02:31",
+      "d": "2026-09-26T03:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-26T02:31",
+      "d": "2026-09-26T03:01",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-26T00:33",
+      "t": "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。",
+      "s": "雷峰网报道：2026 年，具身智能行业最难回答的问题之一，是怎么落地。这里的「落地」有两层含义：一方面，机器人得有足够稳…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/robot/23F3DiDtv7Puosqy.html"
     },
     {
       "c": "INDUSTRY",
@@ -133,27 +140,24 @@
       "t": "别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill",
       "s": "Agent的手越伸越长（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/497075.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-25T14:14",
-      "t": "华为大模型双子星联手创业，要找物理世界的Scaling Law",
-      "s": "一场物理世界的基模实验（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/497070.html"
     }
   ],
   "timeline": [
     [
-      "09-26 02:31",
+      "09-26 03:01",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-26 02:31",
+      "09-26 03:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-26 02:31",
+      "09-26 03:01",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-26 00:33",
+      "智元第20000台具身机器人交付长隆，首期超300台机器人常驻乐园。"
     ],
     [
       "09-25 23:48",
@@ -162,10 +166,6 @@
     [
       "09-25 23:33",
       "畅销小说被指用 AI 创作，法国最有名文学奖龚古尔奖将其移出初选名单"
-    ],
-    [
-      "09-25 22:29",
-      "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291559,
+      "s": 291568,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269593,
+      "s": 269601,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 267361,
+      "s": 267370,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215126,
+      "s": 215130,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178201,
+      "s": 178206,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148071,
+      "s": 148074,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139755,
+      "s": 139757,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121403,
+      "s": 121404,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107836,
+      "s": 107837,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99028,
+      "s": 99032,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
