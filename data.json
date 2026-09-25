@@ -1,26 +1,40 @@
 {
-  "updated": "2026-09-25T11:31:25",
+  "updated": "2026-09-25T12:02:06",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-09-25T12:02",
+      "t": "#当我问DeepSeek",
+      "s": "#当我问DeepSeek（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-639.html"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-25T11:31",
+      "d": "2026-09-25T12:02",
+      "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
+      "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-25T12:01",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-25T11:31",
+      "d": "2026-09-25T12:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-09-25T11:31",
-      "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
-      "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+      "c": "MODEL",
+      "d": "2026-09-25T11:40",
+      "t": "GPT-6 Astra 需求空前，曝 OpenAI 正筹备 ChatGPT Pro Max 订阅层级",
+      "s": "Tibor Blaho 通过开发者工具查看 ChatGPT 网页端源代码时发现，其代码中出现了 PROMAX 相关字段…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/107.htm"
     },
     {
       "c": "MODEL",
@@ -126,46 +140,32 @@
       "t": "马斯克：若保持强劲加速度，SpaceXAI 约 6 个月后就能领跑",
       "s": "马斯克在 X 平台发文表示，他谨慎乐观地认为，SpaceX 将在两到三个月内拥有（开发出） Fable / GPT-6 …（来源：IT之家）",
       "u": "https://www.ithome.com/1/007/069.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-25T08:39",
-      "t": "谷歌 Gemini 3.8 Live 虚拟人上线：实时唇形同步 + 自然表情，无缝切换 97 种语言",
-      "s": "谷歌近日宣布，在上周推出 Gemini 3.8 Live 的基础上，正式推出带有 Live Avatar 功能的 Gem…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/043.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-25T08:34",
-      "t": "Meta 推出 2 款 AI 工具，让用户在手机端直接构建游戏",
-      "s": "科技媒体 The Verge 昨日（9 月 24 日）发布博文，报道称在 2026 年 Connect 大会上，Meta…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/068.htm"
     }
   ],
   "timeline": [
     [
-      "09-25 11:31",
+      "09-25 12:02",
+      "#当我问DeepSeek"
+    ],
+    [
+      "09-25 12:02",
+      "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-25 12:01",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-25 11:31",
+      "09-25 12:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-25 11:31",
-      "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+      "09-25 11:40",
+      "GPT-6 Astra 需求空前，曝 OpenAI 正筹备 ChatGPT Pro Max 订阅层级"
     ],
     [
       "09-25 10:51",
       "DeepSeek Harness 官方桌面版预览偷跑"
-    ],
-    [
-      "09-25 10:38",
-      "豆包边缘化豆包"
-    ],
-    [
-      "09-25 10:33",
-      "大厂的AI战火，攻入硬件"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291268,
+      "s": 291277,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269171,
+      "s": 269178,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 266988,
+      "s": 267001,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215029,
+      "s": 215030,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178005,
+      "s": 178007,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147986,
+      "s": 147989,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139683,
+      "s": 139684,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121230,
+      "s": 121231,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107731,
+      "s": 107733,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98912,
+      "s": 98916,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
