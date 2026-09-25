@@ -1,33 +1,40 @@
 {
-  "updated": "2026-09-25T12:02:06",
+  "updated": "2026-09-25T12:32:09",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-09-25T12:02",
-      "t": "#当我问DeepSeek",
-      "s": "#当我问DeepSeek（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-639.html"
-    },
-    {
       "c": "HOT",
-      "d": "2026-09-25T12:02",
+      "d": "2026-09-25T12:32",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-25T12:01",
+      "d": "2026-09-25T12:31",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-25T12:01",
+      "d": "2026-09-25T12:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-25T12:28",
+      "t": "Claude Opus 5.5 仅用约 1 小时从零开发 RTX 加速路径追踪器，支持多种材质与光照效果",
+      "s": "网友 u/Zealousideal_View_12 昨日（9 月 24 日）在 Reddit 社区发帖，称其使用 Ant…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/115.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-25T12:26",
+      "t": "影石正布局 AI 眼镜，或采用“分体电池”设计",
+      "s": "9 月 25 日中午消息，有接近影石创新人士透露，当前影石创新正在布局 AI 眼镜赛道，并在进行相关研发，未来或将推出自…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/113.htm"
     },
     {
       "c": "MODEL",
@@ -133,39 +140,32 @@
       "t": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
       "s": "科技媒体 9to5Mac 昨日（9 月 24 日）发布博文，在 Siri AI 之外，深入探索了 macOS 27 Go…（来源：IT之家）",
       "u": "https://www.ithome.com/1/007/071.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-25T08:51",
-      "t": "马斯克：若保持强劲加速度，SpaceXAI 约 6 个月后就能领跑",
-      "s": "马斯克在 X 平台发文表示，他谨慎乐观地认为，SpaceX 将在两到三个月内拥有（开发出） Fable / GPT-6 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/069.htm"
     }
   ],
   "timeline": [
     [
-      "09-25 12:02",
-      "#当我问DeepSeek"
-    ],
-    [
-      "09-25 12:02",
+      "09-25 12:32",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
     ],
     [
-      "09-25 12:01",
+      "09-25 12:31",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-25 12:01",
+      "09-25 12:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
+    ],
+    [
+      "09-25 12:28",
+      "Claude Opus 5.5 仅用约 1 小时从零开发 RTX 加速路径追踪器，支持多种材质与光照效果"
+    ],
+    [
+      "09-25 12:26",
+      "影石正布局 AI 眼镜，或采用“分体电池”设计"
     ],
     [
       "09-25 11:40",
       "GPT-6 Astra 需求空前，曝 OpenAI 正筹备 ChatGPT Pro Max 订阅层级"
-    ],
-    [
-      "09-25 10:51",
-      "DeepSeek Harness 官方桌面版预览偷跑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291277,
+      "s": 291284,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269178,
+      "s": 269188,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 267001,
+      "s": 267013,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178007,
+      "s": 178010,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147989,
+      "s": 147992,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121231,
+      "s": 121234,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98916,
+      "s": 98920,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
