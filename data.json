@@ -1,26 +1,40 @@
 {
-  "updated": "2026-09-25T09:02:30",
+  "updated": "2026-09-25T09:31:41",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-25T09:02",
+      "d": "2026-09-25T09:31",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-25T09:02",
+      "d": "2026-09-25T09:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-25T09:31",
+      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
+      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-25T09:02",
+      "d": "2026-09-25T09:31",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-25T09:04",
+      "t": "长安汽车：力争在 2028 年实现人形机器人量产、2030 年推出商用航线飞行汽车",
+      "s": "据中新网重庆，重庆辖区上市公司投资者网上集体接待日暨半年度业绩说明会于 9 月 23 日举行。长安汽车资本运营部副总经理…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/073.htm"
     },
     {
       "c": "MODEL",
@@ -79,13 +93,6 @@
       "u": "https://www.ithome.com/1/007/058.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-25T07:17",
-      "t": "英伟达黄仁勋：AI 不会必然消灭某个职业，“10 年内 AI 毁灭人类”更是无稽之谈",
-      "s": "在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为，当前行业和民众对 AI 的恐慌情绪已经过头了，并认为当前 AI 不…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/051.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-24T22:49",
       "t": "Agent 时代来了，3D 生成大模型接下来比什么？",
@@ -133,39 +140,32 @@
       "t": "龙蜥社区SkillHub：Workshop实战、云栖颁奖、推荐系统发布，三箭齐发",
       "s": "AI原生操作系统正在从概念走向落地，而Skill生态的繁荣程度，将决定这一代操作系统能否真正支撑起智能体的规模化运行。今…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502739"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-24T18:16",
-      "t": "梁文锋用沙盒开启RSI",
-      "s": "DeepSeek联合清华大学发论文，梁文锋署名（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8151587.html"
     }
   ],
   "timeline": [
     [
-      "09-25 09:02",
+      "09-25 09:31",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-25 09:02",
+      "09-25 09:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-25 09:02",
+      "09-25 09:31",
+      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+    ],
+    [
+      "09-25 09:31",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-25 09:04",
+      "长安汽车：力争在 2028 年实现人形机器人量产、2030 年推出商用航线飞行汽车"
     ],
     [
       "09-25 08:54",
       "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等"
-    ],
-    [
-      "09-25 08:51",
-      "马斯克：若保持强劲加速度，SpaceXAI 约 6 个月后就能领跑"
-    ],
-    [
-      "09-25 08:39",
-      "谷歌 Gemini 3.8 Live 虚拟人上线：实时唇形同步 + 自然表情，无缝切换 97 种语言"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291233,
+      "s": 291234,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269137,
+      "s": 269144,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 266918,
+      "s": 266929,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215013,
+      "s": 215016,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177988,
+      "s": 177991,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139670,
+      "s": 139671,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121219,
+      "s": 121221,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107714,
+      "s": 107720,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98897,
+      "s": 98898,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
