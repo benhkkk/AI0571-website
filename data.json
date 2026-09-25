@@ -1,33 +1,33 @@
 {
-  "updated": "2026-09-25T10:02:24",
+  "updated": "2026-09-25T10:30:55",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-25T10:02",
+      "d": "2026-09-25T10:30",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-25T10:02",
+      "d": "2026-09-25T10:30",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-25T10:02",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-25T10:02",
+      "d": "2026-09-25T10:30",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-25T10:12",
+      "t": "英伟达黄仁勋：若前沿实验室无法控制 AI，那么必须要关闭",
+      "s": "在接受《纽约时报》采访时，英伟达首席执行官黄仁勋认为，如果前沿实验室无法控制 AI 安全，那么“我们必须关闭这些实验室”…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/090.htm"
     },
     {
       "c": "MODEL",
@@ -136,28 +136,28 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-25T07:51",
-      "t": "Meta 的 AI 智能体 Muse 被发现可导出虚拟机大量文件",
-      "s": "科技媒体 macobserver 昨日（9 月 24 日）发布博文，报道称 Meta Muse 被发现可在简单提示词下…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/059.htm"
+      "d": "2026-09-24T22:49",
+      "t": "Agent 时代来了，3D 生成大模型接下来比什么？",
+      "s": "9 月 3 日，GPT-6 Astra 的发布，把 3D 内容创作带到了舞台中央。 在 GPT-6 Astra 官方发布…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/371031"
     }
   ],
   "timeline": [
     [
-      "09-25 10:02",
+      "09-25 10:30",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-25 10:02",
+      "09-25 10:30",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-25 10:02",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
+      "09-25 10:30",
+      "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
     ],
     [
-      "09-25 10:02",
-      "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+      "09-25 10:12",
+      "英伟达黄仁勋：若前沿实验室无法控制 AI，那么必须要关闭"
     ],
     [
       "09-25 09:50",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291243,
+      "s": 291252,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269149,
+      "s": 269156,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 266940,
+      "s": 266956,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215015,
+      "s": 215019,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 177993,
+      "s": 177997,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 147973,
+      "s": 147978,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139675,
+      "s": 139678,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121224,
+      "s": 121227,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107723,
+      "s": 107724,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 98900,
+      "s": 98903,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
