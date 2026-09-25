@@ -459,7 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-09-25T23:01', t:'曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式', s:'曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260924/985359.shtml'},
+    {c:'HOT', d:'2026-09-25T23:31', t:'AI巨头悄悄布局，机器人要接管实验室？', s:'AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）', u:'https://news.yaozh.com/archive/49043.html'},
+    {c:'MEDPHARMA', d:'2026-09-25T23:31', t:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来', s:'精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）', u:'https://news.yaozh.com/archive/49037.html'},
+    {c:'HOT', d:'2026-09-25T23:31', t:'曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式', s:'曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260924/985359.shtml'},
     {c:'HOT', d:'2026-09-25T22:29', t:'曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决', s:'The Information 今天（25 日）晚间报道称，特斯拉近几个月已将 Optimus 人形机器人的产量扩大到原…（来源：IT之家）', u:'https://www.ithome.com/1/007/246.htm'},
     {c:'HOT', d:'2026-09-25T22:20', t:'德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为', s:'据央视新闻报道，德国柏林警方 24 日在一处犯罪高发区域启动一项计划，将借助人工智能监控摄像头打击犯罪。据悉，柏林警方将…（来源：IT之家）', u:'https://www.ithome.com/1/007/245.htm'},
     {c:'HOT', d:'2026-09-25T21:24', t:'“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”', s:'“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”（来源：量子位）', u:'https://www.qbitai.com/2026/09/497278.html'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-09-25T17:11', t:'国际货币基金组织：今年全球 AI 投资规模或突破 2 万亿美元', s:'国际货币基金组织（IMF）最新年报指出，人工智能有望成为推动全球生产率和投资增长的重要力量，但也可能加剧劳动力市场压力并…（来源：IT之家）', u:'https://www.ithome.com/1/007/165.htm'},
     {c:'MODEL', d:'2026-09-25T14:20', t:'别人忙着卷Code，Kimi抽身反打浏览器插件：网页操作一秒变Skill', s:'Agent的手越伸越长（来源：量子位）', u:'https://www.qbitai.com/2026/09/497075.html'},
     {c:'MODEL', d:'2026-09-25T14:14', t:'华为大模型双子星联手创业，要找物理世界的Scaling Law', s:'一场物理世界的基模实验（来源：量子位）', u:'https://www.qbitai.com/2026/09/497070.html'},
-    {c:'HOT', d:'2026-09-25T14:11', t:'呃…小扎「自研Manus」刚成Meta太子，就塌房了', s:'人工外包团队（来源：量子位）', u:'https://www.qbitai.com/2026/09/497060.html'},
-    {c:'HOT', d:'2026-09-25T13:52', t:'给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了', s:'给机器人当老师，还能赚外快？“中国版Index”觅蜂派来了（来源：量子位）', u:'https://www.qbitai.com/2026/09/497012.html'},
   ];
   const TIMELINE = [
-    ['09-25 23:01','曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式'],
+    ['09-25 23:31','AI巨头悄悄布局，机器人要接管实验室？'],
+    ['09-25 23:31','精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来'],
+    ['09-25 23:31','曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式'],
     ['09-25 22:29','曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决'],
     ['09-25 22:20','德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为'],
     ['09-25 21:24','“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”'],
-    ['09-25 21:15','OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉'],
-    ['09-25 21:02','灵巧手不是等AGI才用：一份被误读的物理AI落地地图'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:291486, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:269498, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:267285, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:215091, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:178123, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148048, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139733, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:121354, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107816, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:99000, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:291497, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:269510, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:267295, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:215092, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:178137, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148049, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:139736, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:121363, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:107820, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:99005, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
