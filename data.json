@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-26T22:02:00",
+  "updated": "2026-09-26T22:13:50",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-26T22:01",
+      "d": "2026-09-26T22:13",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-26T22:01",
+      "d": "2026-09-26T22:13",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-26T22:01",
+      "d": "2026-09-26T22:13",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T22:12",
+      "t": "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议",
+      "s": "据 Wccftech 报道，一则关于“大语言模型破解付费软件”的帖子今日在 Reddit 上引发关注。用户 No_Ide…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/441.htm"
     },
     {
       "c": "MODEL",
@@ -77,13 +84,6 @@
       "t": "NASA“雨燕”救援任务失败：LINK 航天器已坠入大气层，耗资 3000 万美元",
       "s": "当地时间 9 月 25 日，美国凯塔利斯特太空科技公司宣布，其研发的机器人航天器 LINK 未能完成抬升 NASA“雨燕…（来源：IT之家）",
       "u": "https://www.ithome.com/1/007/402.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-26T17:45",
-      "t": "国际机器人联合会：中国蝉联全球工业机器人最大市场，2025 年约占全球总安装量的 59%",
-      "s": "据新华社报道，国际机器人联合会 24 日发布的《2026 年世界机器人报告》显示，2025 年中国工业机器人安装量达 3…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/401.htm"
     },
     {
       "c": "MODEL",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "09-26 22:01",
+      "09-26 22:13",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-26 22:01",
+      "09-26 22:13",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-26 22:01",
+      "09-26 22:13",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-26 22:12",
+      "从代码分析到授权争议：一用户用 AI 破解 IDM 引发争议"
     ],
     [
       "09-26 20:16",
@@ -162,10 +166,6 @@
     [
       "09-26 20:01",
       "英国第二大图书馆：牛津大学博德利图书馆藏书被曝用于 OpenAI 模型训练"
-    ],
-    [
-      "09-26 19:49",
-      "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291855,
+      "s": 291856,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 270039,
+      "s": 270045,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 267770,
+      "s": 267772,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178505,
+      "s": 178507,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148170,
+      "s": 148172,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139827,
+      "s": 139829,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121573,
+      "s": 121575,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99197,
+      "s": 99199,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
