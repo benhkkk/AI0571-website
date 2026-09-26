@@ -1,23 +1,23 @@
 {
-  "updated": "2026-09-26T18:00:20",
+  "updated": "2026-09-26T18:02:22",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-26T18:00",
+      "d": "2026-09-26T18:02",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-26T18:00",
+      "d": "2026-09-26T18:02",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-26T18:00",
+      "d": "2026-09-26T18:02",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
@@ -35,20 +35,6 @@
       "t": "国际机器人联合会：中国蝉联全球工业机器人最大市场，2025 年约占全球总安装量的 59%",
       "s": "据新华社报道，国际机器人联合会 24 日发布的《2026 年世界机器人报告》显示，2025 年中国工业机器人安装量达 3…（来源：IT之家）",
       "u": "https://www.ithome.com/1/007/401.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-26T17:07",
-      "t": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
-      "s": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路…（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/498271.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-26T17:01",
-      "t": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
-      "s": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/497624.html"
     },
     {
       "c": "FUNDING",
@@ -140,19 +126,33 @@
       "t": "小度想坐稳AI办公时代的牌座，李莹需要成为下一个景鲲",
       "s": "小度想坐稳AI办公时代的牌座，李莹需要成为下一个景鲲（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8152829.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-26T08:19",
+      "t": "华为腾讯阿里都盯上的生意：不造机器人，却想控制所有机器人？",
+      "s": "华为腾讯阿里都盯上的生意：不造机器人，却想控制所有机器人？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8152798.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T07:59",
+      "t": "Edge AI Daily 早报（9月26日）",
+      "s": "Meta推AI挂件绕过模型大战，OpenAI酝酿500美元套餐。Runway发布WorldPrompt，Cursor推P…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8152902.html"
     }
   ],
   "timeline": [
     [
-      "09-26 18:00",
+      "09-26 18:02",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-26 18:00",
+      "09-26 18:02",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-26 18:00",
+      "09-26 18:02",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
     ],
     [
@@ -164,8 +164,8 @@
       "国际机器人联合会：中国蝉联全球工业机器人最大市场，2025 年约占全球总安装量的 59%"
     ],
     [
-      "09-26 17:07",
-      "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo"
+      "09-26 16:57",
+      "消息称 Anthropic 谈判租赁最高 1GW 算力，预计相关投资至少 400 亿美元"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269932,
+      "s": 269933,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215231,
+      "s": 215232,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178474,
+      "s": 178475,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
