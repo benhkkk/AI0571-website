@@ -1,30 +1,23 @@
 {
-  "updated": "2026-09-26T21:31:37",
+  "updated": "2026-09-26T22:02:00",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-26T21:31",
+      "d": "2026-09-26T22:01",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-26T21:31",
+      "d": "2026-09-26T22:01",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-26T21:31",
-      "t": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术",
-      "s": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250109/763586.shtml"
-    },
-    {
       "c": "HOT",
-      "d": "2026-09-26T21:31",
+      "d": "2026-09-26T22:01",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
@@ -42,6 +35,13 @@
       "t": "英国第二大图书馆：牛津大学博德利图书馆藏书被曝用于 OpenAI 模型训练",
       "s": "据英媒卫报消息，正值各大科技公司在学术机构中四处搜寻全新语料之际，牛津大学已允许 ChatGPT 开发商 OpenAI …（来源：IT之家）",
       "u": "https://www.ithome.com/1/007/426.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-09-26T19:49",
+      "t": "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准",
+      "s": "“世界模型”开始成为具身智能跨越商业化“奇点”的新叙事。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/498478.html"
     },
     {
       "c": "MODEL",
@@ -86,11 +86,46 @@
       "u": "https://www.ithome.com/1/007/401.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-09-26T17:07",
+      "t": "AI开始研究Physical AI：FSD级团队亮出首版模型Simate-beta，空降RoboDojo",
+      "s": "Simate将训练、推理与评测全流程接入自研Infra，通过极致的任务编排与资源调度，同时并行推进数十条相互独立的研究路…（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/498271.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T17:01",
+      "t": "笔记本跑7000亿参数GLM！无GPU也行? SSD当显存用火爆GitHub",
+      "s": "GitHub现在最火热的大模型开源小蜂鸟Colibrì是个啥？（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/497624.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-09-26T15:42",
       "t": "AI制药点火!重组蛋白走向台前?",
       "s": "AI制药点火!重组蛋白走向台前?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7689744711816495650/"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-26T15:18",
+      "t": "在云栖大会，我终于看懂了米哈游千亿AI野心",
+      "s": "大伟哥：如果做不到，一年两年之后过来打我脸（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/497613.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T15:12",
+      "t": "谷歌TPU跑Kimi比英伟达GPU快57%！用的还是DeepSeek推理框架",
+      "s": "vLLM人马创业公司团队出品（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/497425.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T15:04",
+      "t": "OpenAI失控Agent还找DeepSeek、Kimi当外援！近百万条作案短链曝光",
+      "s": "还把「密钥」叫战利品（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/497382.html"
     },
     {
       "c": "MODEL",
@@ -105,58 +140,19 @@
       "t": "Deepseek 桌面版悄悄上线；Muse 大火，扎克伯格跃升全球第四大富豪；OpenAI 被曝筹备推出 ProMax 订阅层级，月费或达 500-600 美元",
       "s": "Anthropic 与 Akamai 达成 7 年 116 亿美元协议，扩充 CPU 算力 9 月 26 日消息，云计算…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/371038"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-26T08:38",
-      "t": "京东，具身智能大玩家？",
-      "s": "不造机器人，押注机器人背后的生意。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8152876.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-26T08:21",
-      "t": "小度想坐稳AI办公时代的牌座，李莹需要成为下一个景鲲",
-      "s": "小度想坐稳AI办公时代的牌座，李莹需要成为下一个景鲲（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8152829.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-26T08:19",
-      "t": "华为腾讯阿里都盯上的生意：不造机器人，却想控制所有机器人？",
-      "s": "华为腾讯阿里都盯上的生意：不造机器人，却想控制所有机器人？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8152798.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-26T07:59",
-      "t": "Edge AI Daily 早报（9月26日）",
-      "s": "Meta推AI挂件绕过模型大战，OpenAI酝酿500美元套餐。Runway发布WorldPrompt，Cursor推P…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8152902.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-26T07:53",
-      "t": "Meta 已经想清楚 Muse 靠什么赚钱",
-      "s": "眼镜、钥匙扣、电脑、手机的入口，可能都是同一个智能体。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8152912.html"
     }
   ],
   "timeline": [
     [
-      "09-26 21:31",
+      "09-26 22:01",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-26 21:31",
+      "09-26 22:01",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-26 21:31",
-      "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术"
-    ],
-    [
-      "09-26 21:31",
+      "09-26 22:01",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-26 20:01",
       "英国第二大图书馆：牛津大学博德利图书馆藏书被曝用于 OpenAI 模型训练"
+    ],
+    [
+      "09-26 19:49",
+      "索辰科技加码世界模型，与战略投资企业美梦空间联合发布具身模型与物理测评标准"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291851,
+      "s": 291855,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 270027,
+      "s": 270039,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 267752,
+      "s": 267770,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215278,
+      "s": 215282,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178503,
+      "s": 178505,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148167,
+      "s": 148170,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139826,
+      "s": 139827,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121568,
+      "s": 121573,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107901,
+      "s": 107904,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99193,
+      "s": 99197,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
