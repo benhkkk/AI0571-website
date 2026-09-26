@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-26T19:01:25",
+  "updated": "2026-09-26T19:31:25",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-26T19:01",
+      "d": "2026-09-26T19:31",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-26T19:01",
+      "d": "2026-09-26T19:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-26T19:01",
+      "d": "2026-09-26T19:31",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T19:07",
+      "t": "OpenCode 宣布为 DeepSeek V4.1 Flash 永久提供 60 美元额度",
+      "s": "OpenCode 昨日宣布启动“Operation Cheepseek”第二阶段，DeepSeek V4.1 Flash…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/421.htm"
     },
     {
       "c": "HOT",
@@ -86,13 +93,6 @@
       "u": "https://www.ithome.com/1/007/386.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-09-26T15:41",
-      "t": "微星 CLAW 8 EX AI+ 掌机英特尔锐炫 G3 款上市，较 G3 Extreme 款便宜 1000 元",
-      "s": "微星 (MSI) 现已在电商平台发售基于英特尔锐炫 (Arc) G3 处理器的 CLAW 8 EX AI+ 掌机。锐炫 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/375.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-09-26T15:18",
       "t": "在云栖大会，我终于看懂了米哈游千亿AI野心",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "09-26 19:01",
+      "09-26 19:31",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-26 19:01",
+      "09-26 19:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-26 19:01",
+      "09-26 19:31",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-26 19:07",
+      "OpenCode 宣布为 DeepSeek V4.1 Flash 永久提供 60 美元额度"
     ],
     [
       "09-26 18:23",
@@ -162,10 +166,6 @@
     [
       "09-26 18:18",
       "让 AI 学会“挑刺”：根据说明书 + 照片指出家具是否装错，OpenAI GPT-6 Astra 准确率已达 80%"
-    ],
-    [
-      "09-26 18:05",
-      "索尼芯片子公司将收紧远程办公：要求约 8000 名员工全面返岗，加速物理 AI 研发"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291827,
+      "s": 291831,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269953,
+      "s": 269964,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 267701,
+      "s": 267710,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215243,
+      "s": 215246,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148153,
+      "s": 148154,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139810,
+      "s": 139813,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121544,
+      "s": 121547,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 107895,
+      "s": 107896,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99169,
+      "s": 99172,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
