@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-26T13:13:39",
+  "updated": "2026-09-26T13:31:28",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-26T13:13",
+      "d": "2026-09-26T13:31",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-09-26T13:13",
+      "d": "2026-09-26T13:31",
       "t": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来",
       "s": "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49037.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-26T13:13",
+      "d": "2026-09-26T13:31",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-26T13:20",
+      "t": "英伟达获批 AI 工具专利：缩短游戏优化周期，让游戏体验更稳定",
+      "s": "游戏媒体 respawnfirst 于 9 月 23 日发布博文，报道称英伟达获批 AI 工具专利，有望缩短游戏优化周期…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/339.htm"
     },
     {
       "c": "MODEL",
@@ -42,6 +49,13 @@
       "t": "外媒称微软整合 Copilot 品牌加剧混乱，引发用户困惑",
       "s": "科技媒体 Windows Latest 昨日（9 月 25 日）发布博文，报道称微软围绕着 Copilot 构建的品牌混…（来源：IT之家）",
       "u": "https://www.ithome.com/1/007/314.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-26T10:42",
+      "t": "Vertiv以及另外6只值得现在买入的AI工业类股票",
+      "s": "Vertiv 位居榜首。富国银行的斯蒂芬·图萨提出的其他推荐包括：开利全球、特灵、江森自控、多佛、伊顿以及艾默生电气。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8152979.html"
     },
     {
       "c": "MODEL",
@@ -126,34 +140,24 @@
       "t": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”",
       "s": "“AlphaGo”杀进足球场！自我对弈140年，机器人成“梅西终结者”（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/497278.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-25T21:15",
-      "t": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉",
-      "s": "OpenAI闯大祸！GPT竟黑进医保系统，黄仁勋：管不住就关掉（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/497177.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-25T21:02",
-      "t": "灵巧手不是等AGI才用：一份被误读的物理AI落地地图",
-      "s": "宇树Dex5-S把22个主动自由度压进3.99万元，市场欢呼“人形机器人进家倒计时”。但把出货量当干活量、把自由度当灵巧…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8152613.html"
     }
   ],
   "timeline": [
     [
-      "09-26 13:13",
+      "09-26 13:31",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-26 13:13",
+      "09-26 13:31",
       "精鼎医药在 DPHARM 2026 上主导多场专题会议， 聚焦 AI、人才与临床运营的未来"
     ],
     [
-      "09-26 13:13",
+      "09-26 13:31",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-26 13:20",
+      "英伟达获批 AI 工具专利：缩短游戏优化周期，让游戏体验更稳定"
     ],
     [
       "09-26 12:46",
@@ -162,10 +166,6 @@
     [
       "09-26 11:10",
       "罗巍晒荣耀 Magic9 Pro Max 手机增距镜中秋圆月拍摄样张，喊话“还有谁”"
-    ],
-    [
-      "09-26 11:07",
-      "外媒称微软整合 Copilot 品牌加剧混乱，引发用户困惑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 291723,
+      "s": 291724,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 269811,
+      "s": 269819,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 267579,
+      "s": 267587,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215191,
+      "s": 215193,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178388,
+      "s": 178393,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148120,
+      "s": 148122,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121473,
+      "s": 121474,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99119,
+      "s": 99122,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
