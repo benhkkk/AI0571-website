@@ -1,19 +1,33 @@
 {
-  "updated": "2026-09-28T18:31:36",
+  "updated": "2026-09-28T19:02:32",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-28T18:31",
+      "d": "2026-09-28T19:02",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "HOT",
-      "d": "2026-09-28T18:31",
+      "d": "2026-09-28T19:02",
       "t": "AI 赋能科研创新变革，中国科学院“十五五”规划释放多重发展信号",
       "s": "AI 赋能科研创新变革，中国科学院“十五五”规划释放多重发展信号（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260928/986218.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T18:59",
+      "t": "酷派推出 699 元 AI 智能眼镜：800W 像素摄像头，支持抖音直播、视频通话、在线翻译",
+      "s": "酷派 AI 智能眼镜现已开售，磨砂黑款 699 元，叠加国补后 594.15 元；哑光银升级款 799 元，国补价 67…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/982.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-28T18:55",
+      "t": "荣耀 AI 耳夹耳机 FlyClip Pro 开启预约，支持无线充电、续航 44 小时",
+      "s": "荣耀 AI 耳夹耳机 FlyClip Pro 今天在京东开启预约。新品采用轻盈设计，综合续航可达 44 小时，支持无线充…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/981.htm"
     },
     {
       "c": "HOT",
@@ -86,25 +100,11 @@
       "u": "https://www.toutiao.com/article/7690516101897191972/"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-28T17:28",
-      "t": "荣耀手机：Magic9 系列开售 30 分钟，线上全平台销量同比上代增长 194%",
-      "s": "荣耀手机宣布，荣耀 Magic9 系列开售 30 分钟，线上全平台销量同比上代增长 194%。在今天举行的荣耀 Magi…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/935.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-28T17:15",
       "t": "AI 手机只是起点，高通要为智能体铺一条全栈技术路线",
       "s": "「这次骁龙峰会最令人兴奋的地方在于，我认为我们终于步入了一个可以清晰看见 AI 智能手机形态的阶段」高通公司总裁兼 CE…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/371113"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-28T17:08",
-      "t": "天马“认领”荣耀 Magic9 标准版手机 OLED 屏幕，采用新一代 U11 发光基材",
-      "s": "天马微电子今天宣布，荣耀 Magic9 标准版手机独家搭载天马定制高端 OLED 屏幕。IT之家从天马微电子公众号获悉…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/924.htm"
     },
     {
       "c": "MODEL",
@@ -144,12 +144,20 @@
   ],
   "timeline": [
     [
-      "09-28 18:31",
+      "09-28 19:02",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-28 18:31",
+      "09-28 19:02",
       "AI 赋能科研创新变革，中国科学院“十五五”规划释放多重发展信号"
+    ],
+    [
+      "09-28 18:59",
+      "酷派推出 699 元 AI 智能眼镜：800W 像素摄像头，支持抖音直播、视频通话、在线翻译"
+    ],
+    [
+      "09-28 18:55",
+      "荣耀 AI 耳夹耳机 FlyClip Pro 开启预约，支持无线充电、续航 44 小时"
     ],
     [
       "09-28 18:30",
@@ -158,14 +166,6 @@
     [
       "09-28 18:29",
       "零刻 GTR9 Pro 迷你主机新增 AMD 锐龙 AI Max+ PRO 495 旗舰版：128GB 内存 +2TB 硬盘，29998 元"
-    ],
-    [
-      "09-28 18:09",
-      "4???? 元：极摩客 EVO-X5 Pro 桌面 AI 超算开启预约，10 月 9 日发售"
-    ],
-    [
-      "09-28 18:06",
-      "AI 硬件创业第一步，先做 AI 还是先做硬件？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292324,
+      "s": 292332,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 270990,
+      "s": 271002,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 268630,
+      "s": 268639,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215614,
+      "s": 215617,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178731,
+      "s": 178737,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148417,
+      "s": 148423,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108135,
+      "s": 108136,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99592,
+      "s": 99594,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
