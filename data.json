@@ -1,33 +1,68 @@
 {
-  "updated": "2026-09-28T11:01:31",
+  "updated": "2026-09-28T11:32:19",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-28T11:01",
+      "d": "2026-09-28T11:32",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-09-28T11:32",
+      "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
+      "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-28T11:01",
+      "d": "2026-09-28T11:32",
       "t": "IWAPS 2026专访｜李璟教授：量测是光刻的“眼睛”，AI与产学研如何重塑精密测量",
       "s": "IWAPS 2026专访｜李璟教授：量测是光刻的“眼睛”，AI与产学研如何重塑精密测量（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260928/985794.shtml"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-28T11:01",
+      "d": "2026-09-28T11:32",
       "t": "再获数千万元融资！利德健康完成Pre-A++轮融资，加速高端科学仪器和AI for Science业务发展",
       "s": "再获数千万元融资！利德健康完成Pre-A++轮融资，加速高端科学仪器和AI for Science业务发展（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260928/985763.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-28T11:01",
+      "d": "2026-09-28T11:32",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T11:26",
+      "t": "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token",
+      "s": "经历“被质疑偷传代码”风波后，智谱 ZCode 官宣开源，并在今日发布公告，宣布仓库快照上传链路已移除、涉事云端数据已删…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/727.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T11:09",
+      "t": "MINIX 推出 N304-AI 迷你主机：双 M.2 SSD 盘位、双 1GbE RJ-45 网口",
+      "s": "MINIX 现已正式推出基于英特尔 \"Wildcat Lake\" 酷睿 3 处理器 304 的 N304-AI 迷你主机…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/690.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-28T11:07",
+      "t": "美知名综艺《周六夜现场》恶搞 Anthropic 阿莫代伊：演员高喊“AI 是魔鬼，我造的”",
+      "s": "当地时间 26 日晚，Anthropic CEO 达里奥 · 阿莫代伊“登上”了美国知名综艺节目《周六夜现场》，还参与了…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/688.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T10:55",
+      "t": "KnowForge 2026.0.6 发布：会员、支付、付费内容与 AI 知识服务全面上线",
+      "s": "这可能是 KnowForge 到目前为止，功能跨度最大的一次更新。 如果说前面的版本主要在解决： 如何更好地创作、组织…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502760"
     },
     {
       "c": "INDUSTRY",
@@ -105,67 +140,32 @@
       "t": "MrDoc v1.1.1 发布，全平台多终端的私有部署AI知识库系统",
       "s": "觅思文档（MrDoc）是一款面向团队与企业的私有化知识管理解决方案，致力于帮助组织构建结构化、可沉淀、可复用的知识体系…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502756"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-28T09:26",
-      "t": "非法安装燃气发电机、排放污染物，微软关联数据中心 DataOne 被罚百万美元",
-      "s": "当地时间 26 日，据外媒 Futurism 报道，在美国，希望借 AI 热潮获利的数据中心开发商持续遭到当地居民和民间…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/653.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-28T09:10",
-      "t": "Anthropic Claude Sonnet 5.5 模型偷跑，实测碾压 GPT-6 Sol、直逼 Astra",
-      "s": "谁能想到，Opus 5.5 发布才没几天，Sonnet 5.5 也要来了？从昨晚开始，整个 X 都在流传这个消息：Son…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/650.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-28T08:30",
-      "t": "得不到就强攻？曝 OpenAI 智能体曾尝试“暴力破解”联合国机构网站",
-      "s": "据外媒 The Verge 今天（28 日）凌晨报道，安全研究人员罗文 · 霍华德-琼斯称，今年 4 月至 6 月，Op…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/641.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-28T08:25",
-      "t": "早报｜苹果Vision新项目曝光，减重成为第一目标/三大运营商暂停「零元购机」/问界确认仍属鸿蒙智行",
-      "s": "· OpenAI DevDay 将于 9 月 29 日举行 · 苹果触觉反馈专利案被裁赔 57 亿美元，称将上诉 · 罗…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1682201?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-28T08:16",
-      "t": "Edge AI Daily 早报（9月28日）",
-      "s": "微软与OEM悄然放弃Copilot+ PC品牌，从Recall安全灾难到NVIDIA拒绝背书，AI PC定义权从微软手中…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8153611.html"
     }
   ],
   "timeline": [
     [
-      "09-28 11:01",
+      "09-28 11:32",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-28 11:01",
+      "09-28 11:32",
+      "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
+    ],
+    [
+      "09-28 11:32",
       "IWAPS 2026专访｜李璟教授：量测是光刻的“眼睛”，AI与产学研如何重塑精密测量"
     ],
     [
-      "09-28 11:01",
+      "09-28 11:32",
       "再获数千万元融资！利德健康完成Pre-A++轮融资，加速高端科学仪器和AI for Science业务发展"
     ],
     [
-      "09-28 11:01",
+      "09-28 11:32",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
     ],
     [
-      "09-28 10:54",
-      "从端侧推理到物理AI，芯片行业正面临新考题"
-    ],
-    [
-      "09-28 10:33",
-      "Muse 登顶、Meta 股价涨 11%，国内大模型却挤在办公内卷里"
+      "09-28 11:26",
+      "智谱 ZCode 宣布已删除涉事云端数据，赠送用户多张重置卡和 1 亿 Token"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292208,
+      "s": 292213,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 270754,
+      "s": 270776,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 268466,
+      "s": 268478,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215559,
+      "s": 215560,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178681,
+      "s": 178683,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148362,
+      "s": 148367,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139999,
+      "s": 140004,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121905,
+      "s": 121910,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108085,
+      "s": 108086,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99527,
+      "s": 99529,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
