@@ -1,26 +1,33 @@
 {
-  "updated": "2026-09-28T09:32:15",
+  "updated": "2026-09-28T09:54:23",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-28T09:32",
+      "d": "2026-09-28T09:54",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
     },
     {
       "c": "FUNDING",
-      "d": "2026-09-28T09:32",
+      "d": "2026-09-28T09:54",
       "t": "再获数千万元融资！利德健康完成Pre-A++轮融资，加速高端科学仪器和AI for Science业务发展",
       "s": "再获数千万元融资！利德健康完成Pre-A++轮融资，加速高端科学仪器和AI for Science业务发展（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260928/985763.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-28T09:32",
+      "d": "2026-09-28T09:54",
       "t": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式",
       "s": "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260924/985359.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-28T09:50",
+      "t": "“AI 教父”辛顿警告：AI 执行看似无害的任务，仍有“毁灭人类”的风险",
+      "s": "当地时间 26 日，据《财富》杂志报道，传奇计算机科学家、“AI 教父”杰弗里 · 辛顿警告说，即使 AI 接到的任务本…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/664.htm"
     },
     {
       "c": "HOT",
@@ -133,27 +140,24 @@
       "t": "量子计算走上桌面！“小盒子”跑通端到端，数据全程不出门",
       "s": "想让开发者“说句话就能跑量子计算”（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/498605.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-27T21:57",
-      "t": "“第二代豆包手机”努比亚 NaviX Ultra 玩《王者荣耀》遭强制下线？知情人士称有安全风险策略保障游戏公平，未有任何针对性调整",
-      "s": "9 月 25 日，字节跳动旗下豆包手机助手发布声明称，从 9 月 24 日晚上开始陆续收到多条用户反馈，在搭载了豆包手机…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/607.htm"
     }
   ],
   "timeline": [
     [
-      "09-28 09:32",
+      "09-28 09:54",
       "AI巨头悄悄布局，机器人要接管实验室？"
     ],
     [
-      "09-28 09:32",
+      "09-28 09:54",
       "再获数千万元融资！利德健康完成Pre-A++轮融资，加速高端科学仪器和AI for Science业务发展"
     ],
     [
-      "09-28 09:32",
+      "09-28 09:54",
       "曼森生物全球首发积木式平行生物反应器，定义AI发酵新范式"
+    ],
+    [
+      "09-28 09:50",
+      "“AI 教父”辛顿警告：AI 执行看似无害的任务，仍有“毁灭人类”的风险"
     ],
     [
       "09-28 09:26",
@@ -162,10 +166,6 @@
     [
       "09-28 09:10",
       "Anthropic Claude Sonnet 5.5 模型偷跑，实测碾压 GPT-6 Sol、直逼 Astra"
-    ],
-    [
-      "09-28 08:30",
-      "得不到就强攻？曝 OpenAI 智能体曾尝试“暴力破解”联合国机构网站"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292190,
+      "s": 292194,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 270710,
+      "s": 270719,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 268439,
+      "s": 268446,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215548,
+      "s": 215550,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178669,
+      "s": 178673,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 139992,
+      "s": 139993,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121885,
+      "s": 121886,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108076,
+      "s": 108077,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99510,
+      "s": 99514,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
