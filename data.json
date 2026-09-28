@@ -1,12 +1,26 @@
 {
-  "updated": "2026-09-28T16:02:29",
+  "updated": "2026-09-28T16:31:58",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-28T16:02",
+      "d": "2026-09-28T16:31",
       "t": "AI巨头悄悄布局，机器人要接管实验室？",
       "s": "AI巨头悄悄布局，机器人要接管实验室？（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49043.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T16:12",
+      "t": "极摩客发布 EVO-X5 Pro“桌面 AI 超算”，192GB + 2TB 早鸟价 6599 美元",
+      "s": "极摩客 (GMKtec) 今日正式发布了基于 AMD 锐龙 AI Max+ PRO 495 处理器的“桌面 AI 超算”…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/863.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T16:05",
+      "t": "4499 元起：荣耀 Magic9 超能版手机发布，11000mAh 超大电池、支持主动散热",
+      "s": "9 月 28 日现场消息，荣耀今日召开新品发布会，推出 Magic9 超能版手机。新品主打 11000mAh 超大青海湖…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/007/862.htm"
     },
     {
       "c": "MODEL",
@@ -79,20 +93,6 @@
       "u": "https://www.ithome.com/1/007/837.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-09-28T15:17",
-      "t": "华为余承东：冗余是 L3 时代入场券，也是自动驾驶的双重保险",
-      "s": "在今天的智界 RX 及鸿蒙智行新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，智界 R…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/836.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-28T15:11",
-      "t": "华为余承东：智界 RX 提前迎接 L3 自动驾驶时代，正在公开城市快速路等复杂道路开展实测",
-      "s": "在今天的智界 RX 及鸿蒙智行新品发布会上，华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，智界 R…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/007/834.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-09-28T15:04",
       "t": "DataTalk Studio 开源：用对话完成报表开发的 AI-native BI 工作区",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "09-28 16:02",
+      "09-28 16:31",
       "AI巨头悄悄布局，机器人要接管实验室？"
+    ],
+    [
+      "09-28 16:12",
+      "极摩客发布 EVO-X5 Pro“桌面 AI 超算”，192GB + 2TB 早鸟价 6599 美元"
+    ],
+    [
+      "09-28 16:05",
+      "4499 元起：荣耀 Magic9 超能版手机发布，11000mAh 超大电池、支持主动散热"
     ],
     [
       "09-28 16:00",
@@ -158,14 +166,6 @@
     [
       "09-28 15:56",
       "荣耀 Magic9 Pro Max 手机发布：首批搭载高通第六代骁龙 8 超级至尊版，阿莱两亿影像，6499 元起"
-    ],
-    [
-      "09-28 15:55",
-      "荣耀 MagicPad 4 平板发布：12.1 英寸 LCD 屏、第四代骁龙 8s，首销 3299 元起"
-    ],
-    [
-      "09-28 15:42",
-      "AI 半导体供应链三巨头时隔两月再聚首，曝英伟达黄仁勋、三星李在镕、SK 崔泰源将在美会面"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292282,
+      "s": 292291,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 270908,
+      "s": 270927,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 268582,
+      "s": 268587,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215589,
+      "s": 215595,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178709,
+      "s": 178713,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140019,
+      "s": 140023,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 121965,
+      "s": 121971,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99566,
+      "s": 99571,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
