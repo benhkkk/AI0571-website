@@ -1,16 +1,9 @@
 {
-  "updated": "2026-09-29T00:33:11",
+  "updated": "2026-09-29T01:02:19",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-29T00:33",
-      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
-      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-29T00:33",
+      "d": "2026-09-29T01:02",
       "t": "AI 赋能科研创新变革，中国科学院“十五五”规划释放多重发展信号",
       "s": "AI 赋能科研创新变革，中国科学院“十五五”规划释放多重发展信号（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260928/986218.shtml"
@@ -140,15 +133,18 @@
       "t": "工业创新进入“组队局”，拆解西门子Xcelerator开放生态的赋能链路",
       "s": "工业平台已经卷到帮伙伴拿线索、做Agent、出海了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/498877.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-28T19:54",
+      "t": "海尔洗空气空调AI科技将巴马好空气搬回家",
+      "s": "为了一口好空气，有人给家里配齐空气净化器、新风系统，层层升级呼吸装备；更有人远赴广西巴马长寿村，斥资置业长居，天不亮就到…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/q7QGrV66x125kB8m.html"
     }
   ],
   "timeline": [
     [
-      "09-29 00:33",
-      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
-    ],
-    [
-      "09-29 00:33",
+      "09-29 01:02",
       "AI 赋能科研创新变革，中国科学院“十五五”规划释放多重发展信号"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "09-28 22:07",
       "ACEMAGIC 推出全球首款锐龙 AI Max+ PRO 495 处理器的 AI 迷你工作站，6499 美元"
+    ],
+    [
+      "09-28 21:42",
+      "月之暗面最强 AI 模型：Kimi K3.1 前端标识泄露，预计将在近期发布"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292431,
+      "s": 292437,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 271183,
+      "s": 271198,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 268778,
+      "s": 268800,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215672,
+      "s": 215676,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178778,
+      "s": 178782,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148451,
+      "s": 148452,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140061,
+      "s": 140064,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122076,
+      "s": 122082,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108164,
+      "s": 108166,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99657,
+      "s": 99660,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
