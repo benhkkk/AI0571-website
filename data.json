@@ -1,6 +1,13 @@
 {
-  "updated": "2026-09-29T10:02:36",
+  "updated": "2026-09-29T10:07:45",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-29T10:05",
+      "t": "大地量子 王驰：AI+ 遥感打造数字全息地球 | Founder 100",
+      "s": "本文首发于 Founder Park 公众号 · 2022 年 5 月 12 日公司：大地量子领域：PaaS、遥感卫星…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/371437"
+    },
     {
       "c": "HOT",
       "d": "2026-09-29T09:55",
@@ -94,13 +101,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-29T09:23",
-      "t": "有自主意识的 AI 才是人类需要的真 AI | Founder 100",
-      "s": "本文首发于 Founder Park 公众号 · 2022 年 9 月 9 日今年 6 月份，谷歌旗下的工程师宣称他们的…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/371403"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-29T09:09",
       "t": "曝腾讯秘密内测 AI 游戏搭子“鹅次元”，可选择不同陪玩人物",
       "s": "据《读佳》今日报道，腾讯正在秘密内测一个 AI 游戏陪伴产品“鹅次元”，主打数字人 AI 搭子，提供语音对话、画面实时识…（来源：IT之家）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "09-29 10:05",
+      "大地量子 王驰：AI+ 遥感打造数字全息地球 | Founder 100"
+    ],
+    [
       "09-29 09:55",
       "影目Air3被召回，智能眼镜迎来散热大考"
     ],
@@ -162,10 +166,6 @@
     [
       "09-29 09:48",
       "麦岩智能：高端商务场景是清洁机器人的下一个蓝海 | Founder 100"
-    ],
-    [
-      "09-29 09:47",
-      "OpenAI 将提供资金并成立工作组，以解决模型入侵澳大利亚政府网站事件"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 271360,
+      "s": 271362,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269032,
+      "s": 269034,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215713,
+      "s": 215714,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178830,
+      "s": 178831,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122167,
+      "s": 122169,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108217,
+      "s": 108220,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99708,
+      "s": 99710,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
