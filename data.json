@@ -1,19 +1,33 @@
 {
-  "updated": "2026-09-30T01:02:07",
+  "updated": "2026-09-30T01:32:10",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-30T01:02",
+      "d": "2026-09-30T01:32",
       "t": "光学+AI！清华大学李栋团队开发新型超分辨光片显微镜LA-SIM",
       "s": "光学+AI！清华大学李栋团队开发新型超分辨光片显微镜LA-SIM（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260929/987454.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-30T01:02",
+      "d": "2026-09-30T01:32",
       "t": "兼顾成像速度、精度与可靠性，微仪光电联合深圳大学团队提出LUCID深度学习成像框架",
       "s": "兼顾成像速度、精度与可靠性，微仪光电联合深圳大学团队提出LUCID深度学习成像框架（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260929/987339.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T01:23",
+      "t": "OpenAI 发布 dots 智能助理：可爱卡通形象，Astra 模型加持",
+      "s": "在北京时间 9 月 30 日凌晨 1 点举行的 OpenAI DevDay 2026 活动中，OpenAI 发布了 do…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/523.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T01:20",
+      "t": "OpenAI 在 Codex 上线 GPT-6.1 Sol 模型：性能接近 Astra，但费用更低",
+      "s": "在今天召开的 OpenAI 开发者日活动中，官方在 Codex 和 ChatGPT Work 中推出 GPT 6.1 S…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/522.htm"
     },
     {
       "c": "MODEL",
@@ -122,34 +136,28 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-29T18:04",
-      "t": "Meta 推出小型企业版 Muse 智能体：可分析 FB / IG 数据，兼容 Canva、Figma 和 Slack 等工具",
-      "s": "当地时间今日，Meta 宣布推出小型企业版 Muse 智能体（Muse for Small Business）。该产品支…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/410.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-29T18:03",
       "t": "Agent扎堆金融：一场真正的AI大考开始了",
       "s": "一场金库门口的AI落地大考。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8155852.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-29T18:02",
-      "t": "十年蜕变之作，荣耀Magic9系列写下越级答案",
-      "s": "从“掌中阿莱，视频之王”的影像突破，到Agentic OS的系统重构，再到阿尔法战略的体系化兑现，荣耀Magic9系列翻…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8155188.html"
     }
   ],
   "timeline": [
     [
-      "09-30 01:02",
+      "09-30 01:32",
       "光学+AI！清华大学李栋团队开发新型超分辨光片显微镜LA-SIM"
     ],
     [
-      "09-30 01:02",
+      "09-30 01:32",
       "兼顾成像速度、精度与可靠性，微仪光电联合深圳大学团队提出LUCID深度学习成像框架"
+    ],
+    [
+      "09-30 01:23",
+      "OpenAI 发布 dots 智能助理：可爱卡通形象，Astra 模型加持"
+    ],
+    [
+      "09-30 01:20",
+      "OpenAI 在 Codex 上线 GPT-6.1 Sol 模型：性能接近 Astra，但费用更低"
     ],
     [
       "09-30 00:07",
@@ -158,14 +166,6 @@
     [
       "09-29 23:05",
       "报道称 OpenAI 年化经常性收入接近 700 亿美元，较三季度初增长超 70%"
-    ],
-    [
-      "09-29 21:29",
-      "奔赴南海科考，我国自主研发 4500 米级深海作业机器人启航"
-    ],
-    [
-      "09-29 21:17",
-      "AI制药"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292777,
+      "s": 292800,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 271904,
+      "s": 271919,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269445,
+      "s": 269461,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215842,
+      "s": 215846,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178965,
+      "s": 178966,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148571,
+      "s": 148575,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140202,
+      "s": 140206,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122344,
+      "s": 122355,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108326,
+      "s": 108333,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99836,
+      "s": 99844,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
