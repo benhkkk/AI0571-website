@@ -1,16 +1,23 @@
 {
-  "updated": "2026-09-30T04:01:45",
+  "updated": "2026-09-30T04:05:23",
   "news": [
     {
+      "c": "MODEL",
+      "d": "2026-09-30T04:05",
+      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
+      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+    },
+    {
       "c": "HOT",
-      "d": "2026-09-30T04:01",
+      "d": "2026-09-30T04:05",
       "t": "光学+AI！清华大学李栋团队开发新型超分辨光片显微镜LA-SIM",
       "s": "光学+AI！清华大学李栋团队开发新型超分辨光片显微镜LA-SIM（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260929/987454.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-09-30T04:01",
+      "d": "2026-09-30T04:05",
       "t": "兼顾成像速度、精度与可靠性，微仪光电联合深圳大学团队提出LUCID深度学习成像框架",
       "s": "兼顾成像速度、精度与可靠性，微仪光电联合深圳大学团队提出LUCID深度学习成像框架（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260929/987339.shtml"
@@ -133,22 +140,19 @@
       "t": "Manus 要做AI时代的“全家桶”",
       "s": "一个AI Agent公司，为什么说自己在卖电脑？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8155978.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-29T18:12",
-      "t": "卖碳收入超10亿？小鹏不只靠卖车赚钱了",
-      "s": "碳积分、卖技术、物理AI，赚钱的方式越来越多了。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8155908.html"
     }
   ],
   "timeline": [
     [
-      "09-30 04:01",
+      "09-30 04:05",
+      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+    ],
+    [
+      "09-30 04:05",
       "光学+AI！清华大学李栋团队开发新型超分辨光片显微镜LA-SIM"
     ],
     [
-      "09-30 04:01",
+      "09-30 04:05",
       "兼顾成像速度、精度与可靠性，微仪光电联合深圳大学团队提出LUCID深度学习成像框架"
     ],
     [
@@ -162,10 +166,6 @@
     [
       "09-30 02:59",
       "除了更贵的订阅和砍半的额度，OpenAI 想做的还是「微信」"
-    ],
-    [
-      "09-30 02:47",
-      "OpenAI 宣布 ChatGPT 周活跃用户超 12 亿，AI 加速走向工作场景"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292889,
+      "s": 292890,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269538,
+      "s": 269539,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215870,
+      "s": 215871,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148584,
+      "s": 148585,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
