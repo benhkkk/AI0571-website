@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-29T16:47', t:'聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕', s:'聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260727/948346.shtml'},
     {c:'MODEL', d:'2026-09-29T16:15', t:'苏姿丰550亿元买下李飞飞世界模型，AI 圈两位女王联手了', s:'算力焦虑下的双向奔赴#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1682291?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-29T16:12', t:'“全球首款AI智能体手机”玩不了《王者荣耀》：豆包手机被反作弊系统盯上了', s:'AI手机与游戏风控的第一次硬撞。（来源：钛媒体）', u:'https://www.tmtpost.com/8155331.html'},
     {c:'MODEL', d:'2026-09-29T15:49', t:'OpenAI因新模型太强叫停发布', s:'AGI计划暂停。（来源：量子位）', u:'https://www.qbitai.com/2026/09/499140.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-29T13:14', t:'AI 开始“要脸”了', s:'那个冰冷空白对话框的时代，正在加速成为过去。（来源：钛媒体）', u:'https://www.tmtpost.com/8155345.html'},
     {c:'HOT', d:'2026-09-29T13:14', t:'界面不是窗口', s:'AI正在从工具变成认知中介。它不只呈现世界，也开始决定什么先被看见、如何被排序和命名。本文从苹果AI通知摘要事件出发，讨…（来源：钛媒体）', u:'https://www.tmtpost.com/8155359.html'},
     {c:'HOT', d:'2026-09-29T13:14', t:'AI手机真正要消灭的，是“操作手机”这件事', s:'一个已经能听懂“我要什么”的机器，为什么还要学习“下一步点哪里”？（来源：钛媒体）', u:'https://www.tmtpost.com/8155370.html'},
-    {c:'MODEL', d:'2026-09-29T12:14', t:'Claude Sonnet 5.5 发布：速度快 3 成、Agent 编程评测从 10% 跳到 70%', s:'Claude 5.5 家族的第二个成员今天发布：Sonnet 5.5。Anthropic 把它定位成 Opus 5.5 …（来源：OSCHINA）', u:'https://www.oschina.net/news/502794/claude-sonnet-5-5'},
   ];
   const TIMELINE = [
+    ['09-29 16:47','聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕'],
     ['09-29 16:15','苏姿丰550亿元买下李飞飞世界模型，AI 圈两位女王联手了'],
     ['09-29 16:12','“全球首款AI智能体手机”玩不了《王者荣耀》：豆包手机被反作弊系统盯上了'],
     ['09-29 15:49','OpenAI因新模型太强叫停发布'],
     ['09-29 15:27','2026 年世界互联网大会乌镇峰会 11 月 2 日至 5 日举行：设 27 个分论坛，聚焦人工智能开源开放'],
     ['09-29 15:27','LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单'],
-    ['09-29 15:10','成立一年完成5轮融资，诺因智能再获数亿元，累计超10亿元'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:292630, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:271574, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:269226, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:215773, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:178895, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148522, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140135, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122234, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108264, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:99751, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:292639, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:271584, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:269233, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:215775, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:178897, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148523, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140137, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122236, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108263, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:99752, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
