@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-29T13:31:53",
+  "updated": "2026-09-29T14:02:33",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-29T14:02",
+      "t": "#AI for MS",
+      "s": "#AI for MS（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-755.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-09-29T14:02",
+      "t": "下一代质谱软件，会不会像DeepSeek一样工作？",
+      "s": "下一代质谱软件，会不会像DeepSeek一样工作？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260714/940118.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-29T14:02",
+      "t": "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析",
+      "s": "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20251205/858901.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-29T13:27",
@@ -119,30 +140,21 @@
       "t": "微软纳德拉：AI 行业“有点飘了”，呼吁回归用户需求",
       "s": "亚历克斯 · 希思（Alex Heath）于 9 月 27 日在 LinkedIn 平台发布视频，分享了一段采访微软首席…（来源：IT之家）",
       "u": "https://www.ithome.com/1/008/179.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-29T11:12",
-      "t": "AMD 花 82 亿美元买下李飞飞的 World Labs，她直接空降成首席科学家",
-      "s": "AMD 用 82 亿美元换了一张通往「真实世界 AI」的门票。周一官方宣布收购 World Labs——这位由李飞飞 2…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502790/amd-will-acquire-fei-fei-lis-world-labs-for-8-2-billion"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-29T10:49",
-      "t": "三年净利复合增速177%，鸿富诚今日正式登陆深交所创业板",
-      "s": "踩准AI热管理黄金赛道的细分隐形冠军。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8155189.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-29T10:49",
-      "t": "一堆减持，把股民砸懵了",
-      "s": "科技股扎堆减持近45亿元，叠加美债收益率飙升、节前避险与机构调仓，A股算力芯片板块重挫。产业资本高位兑现释放谨慎信号，短…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8155221.html"
     }
   ],
   "timeline": [
+    [
+      "09-29 14:02",
+      "#AI for MS"
+    ],
+    [
+      "09-29 14:02",
+      "下一代质谱软件，会不会像DeepSeek一样工作？"
+    ],
+    [
+      "09-29 14:02",
+      "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析"
+    ],
     [
       "09-29 13:27",
       "Manus 正式发布 2.0！个人 AI 助手、云电脑、远程控制，Manus 想做 AI 时代全家桶"
@@ -154,18 +166,6 @@
     [
       "09-29 13:16",
       "从技术共创到价值共享 华兰股份凝聚AI制药人才力量"
-    ],
-    [
-      "09-29 13:14",
-      "AI 开始“要脸”了"
-    ],
-    [
-      "09-29 13:14",
-      "界面不是窗口"
-    ],
-    [
-      "09-29 13:14",
-      "AI手机真正要消灭的，是“操作手机”这件事"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292579,
+      "s": 292589,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 271453,
+      "s": 271467,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269136,
+      "s": 269156,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215744,
+      "s": 215748,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178864,
+      "s": 178870,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148508,
+      "s": 148510,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140111,
+      "s": 140118,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122199,
+      "s": 122206,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108239,
+      "s": 108241,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99734,
+      "s": 99738,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
