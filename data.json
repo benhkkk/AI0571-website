@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-29T12:31:35",
+  "updated": "2026-09-29T13:01:34",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-29T12:55",
+      "t": "惊悚又硬核：研究团队造出能用指尖行走的机械手",
+      "s": "苏黎世联邦理工学院（ETH Zurich）软体机器人实验室的研究人员制作出了一款可以依靠指尖自行行走的机械手。据IT之家…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/235.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-29T12:38",
+      "t": "豆包将推个人助理产品：4 月已内测，曾用代号“Spell”",
+      "s": "新浪科技获悉，豆包在个人助理方向正在推进相关产品规划。一位知情人士表示，延续去年豆包手机助手在 personal age…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/233.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-09-29T12:14",
@@ -93,13 +107,6 @@
       "u": "https://www.tmtpost.com/8155221.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-09-29T10:42",
-      "t": "AI 写作特征减少：Claude Opus 5.5 破折号使用量下降约 95%、分号下降 73%",
-      "s": "@arena 于 9 月 26 日在 X 平台发布推文，通过写作指标测试，发现相比较 Opus 5 模型，Anthrop…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/144.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-29T10:37",
       "t": "人工智能发展绝非坦途：五重结构性制约深度解析",
@@ -133,16 +140,17 @@
       "t": "从创意落地到创业起步，嘉立创延长AI硬件创新支持链条",
       "s": "9月19日，由福田区科技和工业信息化局指导、嘉立创集团主办的第四届开源硬件星火会暨全球AI硬件创新生态大会在深圳会展中心…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/eDhvnoxGSSJk1eQo.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-09-29T10:16",
-      "t": "Anthropic IPO 招股书警示：AI 有可能造成人类灭绝",
-      "s": "据路透社报道，Anthropic 计划在 IPO 招股书中向潜在投资者作出风险提示：先进人工智能有可能给人类带来“灾难性…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/132.htm"
     }
   ],
   "timeline": [
+    [
+      "09-29 12:55",
+      "惊悚又硬核：研究团队造出能用指尖行走的机械手"
+    ],
+    [
+      "09-29 12:38",
+      "豆包将推个人助理产品：4 月已内测，曾用代号“Spell”"
+    ],
     [
       "09-29 12:14",
       "Claude Sonnet 5.5 落地：速度快 3 成、Agent 编程评测从 10% 跳到 70%"
@@ -158,14 +166,6 @@
     [
       "09-29 11:56",
       "曝影石正在研发主打拍摄的智能眼镜：前镜框可更换，有望搭载阿里千问"
-    ],
-    [
-      "09-29 11:51",
-      "🔥「可信Data+智能体AI」本体工作坊"
-    ],
-    [
-      "09-29 11:38",
-      "LG Innotek 将用自动驾驶汽车为自动驾驶传感系统开发收集数据"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 292568,
+      "s": 292574,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 271429,
+      "s": 271448,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269108,
+      "s": 269121,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215734,
+      "s": 215738,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 178856,
+      "s": 178861,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140104,
+      "s": 140108,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122191,
+      "s": 122192,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108236,
+      "s": 108239,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99725,
+      "s": 99733,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
