@@ -1,19 +1,26 @@
 {
-  "updated": "2026-09-30T13:02:02",
+  "updated": "2026-09-30T13:31:32",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-09-30T13:01",
+      "d": "2026-09-30T13:31",
       "t": "AI赋能：材料检测与质量控制创新发展论坛第三轮通知",
       "s": "AI赋能：材料检测与质量控制创新发展论坛第三轮通知（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260930/987830.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-09-30T13:01",
+      "d": "2026-09-30T13:31",
       "t": "美丽中国先行区建设实践案例：不再“纸面盯销号”！浙江AI督察智能体全面核验整改情况",
       "s": "美丽中国先行区建设实践案例：不再“纸面盯销号”！浙江AI督察智能体全面核验整改情况（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260930/987535.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T13:17",
+      "t": "戴森 AI 电动牙刷 CamaraJet 一度“下架”，官方承认早期批次产品存在渗水故障",
+      "s": "据彭博社今天（30 日）报道，戴森确认，新推出的 CameraJet 可视成像牙刷早期一个批次因渗水发生故障。这也是戴森…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/697.htm"
     },
     {
       "c": "MODEL",
@@ -94,13 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-09-30T11:04",
-      "t": "豪威推出常开型视觉 AI 协处理器 OAX7700，停车监控方案仅需 3% 功耗",
-      "s": "豪威 (OmniVision) 近日发布常开型视觉 AI 协处理器 OAX7700。这一芯片集成 NPU 单元，基于其构…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/624.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-09-30T10:53",
       "t": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态",
       "s": "DeepSeek官方开源昇腾基础组件，与昇腾共建高效易用的AI芯片软件生态（来源：量子位）",
@@ -144,12 +144,16 @@
   ],
   "timeline": [
     [
-      "09-30 13:01",
+      "09-30 13:31",
       "AI赋能：材料检测与质量控制创新发展论坛第三轮通知"
     ],
     [
-      "09-30 13:01",
+      "09-30 13:31",
       "美丽中国先行区建设实践案例：不再“纸面盯销号”！浙江AI督察智能体全面核验整改情况"
+    ],
+    [
+      "09-30 13:17",
+      "戴森 AI 电动牙刷 CamaraJet 一度“下架”，官方承认早期批次产品存在渗水故障"
     ],
     [
       "09-30 12:49",
@@ -162,10 +166,6 @@
     [
       "09-30 12:42",
       "36家敲钟的机器人公司：赚钱能力差距巨大，商业化也不玩花架子了"
-    ],
-    [
-      "09-30 12:40",
-      "DeepSeek 开源昇腾基础组件"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293075,
+      "s": 293086,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 272246,
+      "s": 272263,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269723,
+      "s": 269741,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215926,
+      "s": 215933,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179042,
+      "s": 179045,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148617,
+      "s": 148618,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140262,
+      "s": 140265,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122527,
+      "s": 122542,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108429,
+      "s": 108435,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 99979,
+      "s": 99981,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
