@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MODEL', d:'2026-10-01T03:02', t:'中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注', s:'中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20250224/768984.shtml'},
     {c:'MODEL', d:'2026-09-30T23:11', t:'Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库', s:'据科技媒体 TechRadar 今天报道，网络安全研究机构 Glow Security 近日发现，多个 AI 智能体创建…（来源：IT之家）', u:'https://www.ithome.com/1/008/938.htm'},
     {c:'HOT', d:'2026-09-30T23:04', t:'突发！苹果全新产品线曝光，Siri AI 进家门', s:'致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）', u:'https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-30T23:03', t:'OpenAI Dot 虚拟机配置曝光：AMD 霄龙 9V74 处理器 + 9.73GB 内存，Geekbench 7 多核 9435 分', s:'OpenAI 今日凌晨在 DevDay 活动上发布了 Dot 智能体，而每个 Dot 运行在独立的云端虚拟机中。Dot …（来源：IT之家）', u:'https://www.ithome.com/1/008/936.htm'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-09-30T19:17', t:'个人Agent，人迈向硅基的第一步？', s:'信奉硬件为王的苹果，天要塌了？（来源：钛媒体）', u:'https://www.tmtpost.com/8156996.html'},
     {c:'MODEL', d:'2026-09-30T18:58', t:'DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！', s:'一套代码能跑遍所有芯片。 作者丨高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举：把给英伟达 GPU 写代码…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html'},
     {c:'HOT', d:'2026-09-30T18:46', t:'磐镭 YO2 锐龙 AI Max+ PRO 495 版迷你主机上架：192GB+2TB 售价 49999 元', s:'磐镭今日宣布，搭载全新 AMD 锐龙 AI MAX+ PRO 495 处理器的旗舰级迷你工作站磐镭 YO2 开启预约，1…（来源：IT之家）', u:'https://www.ithome.com/1/008/884.htm'},
+    {c:'HOT', d:'2026-09-30T18:43', t:'大厂们正在集体抢滩“AI个人助理”', s:'一场围绕AI个人助理的集体押注正在上演。（来源：钛媒体）', u:'https://www.tmtpost.com/8157250.html'},
   ];
   const TIMELINE = [
-    ['10-01 03:02','中央一号文件发布!人工智能、农村供水、生态治理等关键词值得关注'],
     ['09-30 23:11','Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库'],
     ['09-30 23:04','突发！苹果全新产品线曝光，Siri AI 进家门'],
     ['09-30 23:03','OpenAI Dot 虚拟机配置曝光：AMD 霄龙 9V74 处理器 + 9.73GB 内存，Geekbench 7 多核 9435 分'],
     ['09-30 22:13','曝美国联邦贸易委员会对 Anthropic、OpenAI 及其他 AI 实验室加大调查力度'],
     ['09-30 22:03','OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜'],
+    ['09-30 21:42','新思科技与亚马逊签署多年期超 10 亿美元协议，推进定制芯片合作'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293396, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:272843, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270102, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216025, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179153, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148700, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140373, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122751, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108566, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100106, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293409, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:272860, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270116, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216024, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179155, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148706, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140380, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122760, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108569, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100111, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
