@@ -1,6 +1,20 @@
 {
-  "updated": "2026-09-30T17:02:24",
+  "updated": "2026-09-30T17:25:24",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-30T17:25",
+      "t": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）",
+      "s": "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260710/938138.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T17:10",
+      "t": "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一",
+      "s": "OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502831/openai-gpt-6-1-sol"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-09-30T16:25",
@@ -126,23 +140,17 @@
       "t": "具身智能不只在地上跑：给无人机装上机械臂，它们要去天上「拧螺栓」了 | IROS 2026",
       "s": "具身智能的研究边界，正从地面移动操作向空中协同作业延伸。 作者丨张岂萍 编辑丨幸丽娟 机械臂抓取、移动机器人导航和多机器…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/academic/XSVcStujND4eWLFZ.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-30T14:25",
-      "t": "OpenAI 发布全天候运行 AI Agent \"dots\"，由 GPT‑6 Astra 驱动、拥有独立的云端电脑",
-      "s": "周二旧金山的 OpenAI DevDay 2026 开发者大会上，Sam Altman 热情洋溢地揭开了 dots 的面…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502820/openai-dots"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-30T14:24",
-      "t": "从三维视觉到世界模型：空间智能为何成为 AI 走向物理世界的共同主线？| ECCV 2026复盘",
-      "s": "AI 正从看懂画面，走向理解空间、预测变化、执行动作。 作者丨张岂萍 编辑丨幸丽娟 AI 已经越来越会生成一个“看起来真…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/academic/hxpVB01n8UMq6NDS.html"
     }
   ],
   "timeline": [
+    [
+      "09-30 17:25",
+      "聚焦六大领域！北京市加快推进人工智能赋能科学研究实施方案（2026-2028年）"
+    ],
+    [
+      "09-30 17:10",
+      "OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一"
+    ],
     [
       "09-30 16:25",
       "三星 SDI 首次展示 LFP 柱状电池：优化容量与功率表现，强化安全性"
@@ -158,14 +166,6 @@
     [
       "09-30 15:58",
       "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活"
-    ],
-    [
-      "09-30 15:55",
-      "OpenClaw Enterprise 官宣：为智能体提供企业级安全与控制功能"
-    ],
-    [
-      "09-30 15:54",
-      "刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293171,
+      "s": 293183,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 272412,
+      "s": 272440,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269821,
+      "s": 269835,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215964,
+      "s": 215968,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179070,
+      "s": 179073,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140307,
+      "s": 140313,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122593,
+      "s": 122602,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108470,
+      "s": 108477,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100005,
+      "s": 100008,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
