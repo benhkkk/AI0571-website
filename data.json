@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-01T00:31:58",
+  "updated": "2026-10-01T01:02:15",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-01T00:31",
-      "t": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”",
-      "s": "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260202/874153.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-09-30T23:11",
@@ -140,13 +133,16 @@
       "t": "磐镭 YO2 锐龙 AI Max+ PRO 495 版迷你主机上架：192GB+2TB 售价 49999 元",
       "s": "磐镭今日宣布，搭载全新 AMD 锐龙 AI MAX+ PRO 495 处理器的旗舰级迷你工作站磐镭 YO2 开启预约，1…（来源：IT之家）",
       "u": "https://www.ithome.com/1/008/884.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-30T18:43",
+      "t": "大厂们正在集体抢滩“AI个人助理”",
+      "s": "一场围绕AI个人助理的集体押注正在上演。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8157250.html"
     }
   ],
   "timeline": [
-    [
-      "10-01 00:31",
-      "共探AI时代增长密码，机械工业出版社授予仪器信息网“2025年度合作伙伴·共生奖”"
-    ],
     [
       "09-30 23:11",
       "Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库"
@@ -166,6 +162,10 @@
     [
       "09-30 22:03",
       "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜"
+    ],
+    [
+      "09-30 21:42",
+      "新思科技与亚马逊签署多年期超 10 亿美元协议，推进定制芯片合作"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293332,
+      "s": 293342,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 272769,
+      "s": 272785,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270046,
+      "s": 270055,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216009,
+      "s": 216011,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179136,
+      "s": 179140,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148681,
+      "s": 148687,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140358,
+      "s": 140364,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122699,
+      "s": 122707,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108543,
+      "s": 108545,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100085,
+      "s": 100087,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
