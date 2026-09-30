@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-30T20:03:16",
+  "updated": "2026-09-30T20:32:29",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-09-30T20:32",
+      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
+      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T20:31",
+      "t": "ACEMAGIC 推出 RX16 笔记本：酷睿 Ultra X7 358H 处理器、24GB 内存",
+      "s": "ACEMAGIC 现已在海外市场推出 RX16 笔记本，新品采用英特尔 Panther Lake 平台，配备 24GB …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/905.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-30T20:17",
+      "t": "先陪伴还是先干活？家庭机器人的商业分岔路口 ｜出海参考",
+      "s": "具身机器人如何进入家庭，又靠什么支撑持续经营？启元的选择折射出这个行业尚未解开的几道题。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8157194.html"
+    },
     {
       "c": "HOT",
       "d": "2026-09-30T19:17",
@@ -79,13 +100,6 @@
       "u": "https://www.qbitai.com/2026/09/499597.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-09-30T17:52",
-      "t": "国庆实测AI旅游助手：说好的“一键办事”，怎么一落地就碰壁？",
-      "s": "AI的决策代理之路还很长（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8156755.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-30T17:48",
       "t": "Meta 被曝将 AI 数据中心包装成实验性质以获取税收优惠，去年节省近 40 亿美元",
@@ -126,23 +140,21 @@
       "t": "全网最硬核 OpenClaw 2.0 实测：从 ToC 到 ToB 的试探，Agent 网关能重塑工作流边界吗？",
       "s": "8 月 31 日，OpenClaw 2.0 正式发布（版本号： v2026.8.1 ），933 位贡献者、569 位首次…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-30T16:13",
-      "t": "对比 Codex，免费的 AgnesCode 也能在底层算子优化任务中打得有来有回",
-      "s": "AgnesCode在部分芯片上跑出更高性能，免费模型完成专业级交付。 作者丨吴海明 曹PP 编辑丨李 娜 免费的 AI …（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/Du0MZiWR62J4pzzr.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-30T15:58",
-      "t": "Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活",
-      "s": "给Agent配上手机号，再拉个群（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/499592.html"
     }
   ],
   "timeline": [
+    [
+      "09-30 20:32",
+      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
+    ],
+    [
+      "09-30 20:31",
+      "ACEMAGIC 推出 RX16 笔记本：酷睿 Ultra X7 358H 处理器、24GB 内存"
+    ],
+    [
+      "09-30 20:17",
+      "先陪伴还是先干活？家庭机器人的商业分岔路口 ｜出海参考"
+    ],
     [
       "09-30 19:17",
       "李飞飞：从AI教母到AI女王"
@@ -154,18 +166,6 @@
     [
       "09-30 19:17",
       "谁抢到下一个超级入口？个人AI助理竞速：Meta、Manus、OpenAI已下场，字节急追"
-    ],
-    [
-      "09-30 19:17",
-      "个人Agent，人迈向硅基的第一步？"
-    ],
-    [
-      "09-30 18:46",
-      "磐镭 YO2 锐龙 AI Max+ PRO 495 版迷你主机上架：192GB+2TB 售价 49999 元"
-    ],
-    [
-      "09-30 18:43",
-      "大厂们正在集体抢滩“AI个人助理”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293252,
+      "s": 293260,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 272556,
+      "s": 272572,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 269914,
+      "s": 269925,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 215985,
+      "s": 215988,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179095,
+      "s": 179097,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148650,
+      "s": 148652,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140327,
+      "s": 140331,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122636,
+      "s": 122641,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108502,
+      "s": 108508,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100033,
+      "s": 100042,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
