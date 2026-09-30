@@ -1,6 +1,27 @@
 {
-  "updated": "2026-09-30T23:02:43",
+  "updated": "2026-09-30T23:32:10",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T23:11",
+      "t": "Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库",
+      "s": "据科技媒体 TechRadar 今天报道，网络安全研究机构 Glow Security 近日发现，多个 AI 智能体创建…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/938.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-30T23:04",
+      "t": "突发！苹果全新产品线曝光，Siri AI 进家门",
+      "s": "致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T23:03",
+      "t": "OpenAI Dot 虚拟机配置曝光：AMD 霄龙 9V74 处理器 + 9.73GB 内存，Geekbench 7 多核 9435 分",
+      "s": "OpenAI 今日凌晨在 DevDay 活动上发布了 Dot 智能体，而每个 Dot 运行在独立的云端虚拟机中。Dot …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/008/936.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-09-30T22:13",
@@ -115,34 +136,25 @@
     },
     {
       "c": "HOT",
-      "d": "2026-09-30T18:41",
-      "t": "微星预热尊爵 N16 Flip AI+ 2026 二合一翻转本：英伟达 RTX Spark 芯片，预计 10 月 8 日预售",
-      "s": "微星今日在微博预热尊爵 N16 Flip AI+ 2026 笔记本，新品预计将在 10 月 8 日上架预售，价格暂未公布…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/883.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-09-30T18:23",
       "t": "Anthropic 红队盯上 GLM-5.3：能力追平 Mythos，却连拒绝护栏都是摆设",
       "s": "Anthropic 的前沿红色团队（Frontier Red Team）盯上了智谱的 GLM-5.3，结论有点重：这是第…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502835/anthropic-research-glm-5-3-advanced-cyber-capabilities"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-30T18:19",
-      "t": "中国大模型首次进入 OpenAI 企业付费结算体系，Kimi K3 接入 Codex 企业通道",
-      "s": "美国 AI 基础设施公司 Baseten 今天宣布与 OpenAI 达成合作，成为 OpenAI B2B 市场首批开源模…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/864.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-09-30T18:04",
-      "t": "Anthropic，你是来给智谱打广告的吧！",
-      "s": "实测说GLM-5.3很强（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/499597.html"
     }
   ],
   "timeline": [
+    [
+      "09-30 23:11",
+      "Glow Security：AI 智能体无意间泄露企业敏感信息，超 1.3 万张截图被放在 GitHub 公开仓库"
+    ],
+    [
+      "09-30 23:04",
+      "突发！苹果全新产品线曝光，Siri AI 进家门"
+    ],
+    [
+      "09-30 23:03",
+      "OpenAI Dot 虚拟机配置曝光：AMD 霄龙 9V74 处理器 + 9.73GB 内存，Geekbench 7 多核 9435 分"
+    ],
     [
       "09-30 22:13",
       "曝美国联邦贸易委员会对 Anthropic、OpenAI 及其他 AI 实验室加大调查力度"
@@ -154,18 +166,6 @@
     [
       "09-30 21:24",
       "B站开源 Index-Translate 多语言翻译模型家族，文本模型支持 150 种语言"
-    ],
-    [
-      "09-30 21:01",
-      "新加坡一男子用 AI 生成鳄鱼侵袭水库照片被起诉，最高或面临 10 年监禁 +1 万新币罚款"
-    ],
-    [
-      "09-30 20:50",
-      "Sharpa最新发布的三大新品，把机器人进场景的门槛打了下来"
-    ],
-    [
-      "09-30 20:31",
-      "ACEMAGIC 推出 RX16 笔记本：酷睿 Ultra X7 358H 处理器、24GB 内存"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293304,
+      "s": 293319,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 272694,
+      "s": 272720,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270005,
+      "s": 270020,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216010,
+      "s": 216011,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179120,
+      "s": 179125,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148673,
+      "s": 148672,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140345,
+      "s": 140347,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122673,
+      "s": 122674,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108535,
+      "s": 108539,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100072,
+      "s": 100076,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
