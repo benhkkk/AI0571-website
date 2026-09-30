@@ -459,13 +459,18 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-09-30T18:46', t:'磐镭 YO2 锐龙 AI Max+ PRO 495 版迷你主机上架：192GB+2TB 售价 49999 元', s:'磐镭今日宣布，搭载全新 AMD 锐龙 AI MAX+ PRO 495 处理器的旗舰级迷你工作站磐镭 YO2 开启预约，1…（来源：IT之家）', u:'https://www.ithome.com/1/008/884.htm'},
+    {c:'HOT', d:'2026-09-30T18:43', t:'大厂们正在集体抢滩“AI个人助理”', s:'一场围绕AI个人助理的集体押注正在上演。（来源：钛媒体）', u:'https://www.tmtpost.com/8157250.html'},
+    {c:'HOT', d:'2026-09-30T18:41', t:'微星预热尊爵 N16 Flip AI+ 2026 二合一翻转本：英伟达 RTX Spark 芯片，预计 10 月 8 日预售', s:'微星今日在微博预热尊爵 N16 Flip AI+ 2026 笔记本，新品预计将在 10 月 8 日上架预售，价格暂未公布…（来源：IT之家）', u:'https://www.ithome.com/1/008/883.htm'},
     {c:'HOT', d:'2026-09-30T18:23', t:'Anthropic 红队盯上 GLM-5.3：能力追平 Mythos，却连拒绝护栏都是摆设', s:'Anthropic 的前沿红色团队（Frontier Red Team）盯上了智谱的 GLM-5.3，结论有点重：这是第…（来源：OSCHINA）', u:'https://www.oschina.net/news/502835/anthropic-research-glm-5-3-advanced-cyber-capabilities'},
     {c:'MODEL', d:'2026-09-30T18:19', t:'中国大模型首次进入 OpenAI 企业付费结算体系，Kimi K3 接入 Codex 企业通道', s:'美国 AI 基础设施公司 Baseten 今天宣布与 OpenAI 达成合作，成为 OpenAI B2B 市场首批开源模…（来源：IT之家）', u:'https://www.ithome.com/1/008/864.htm'},
     {c:'MODEL', d:'2026-09-30T18:15', t:'荣耀 MagicOS 11 十月升级内容公布：一碰传支持与 OPPO、vivo、小米手机跨品牌分享，无需安装 App', s:'荣耀产品维护与升级 @荣耀小芳哥 今日公布了荣耀 MagicOS 11 十月体验升级资讯。第二批机型升级动态：10 月 …（来源：IT之家）', u:'https://www.ithome.com/1/008/863.htm'},
+    {c:'HOT', d:'2026-09-30T18:04', t:'Anthropic，你是来给智谱打广告的吧！', s:'实测说GLM-5.3很强（来源：量子位）', u:'https://www.qbitai.com/2026/09/499597.html'},
     {c:'INDUSTRY', d:'2026-09-30T17:52', t:'国庆实测AI旅游助手：说好的“一键办事”，怎么一落地就碰壁？', s:'AI的决策代理之路还很长（来源：钛媒体）', u:'https://www.tmtpost.com/8156755.html'},
     {c:'HOT', d:'2026-09-30T17:48', t:'Meta 被曝将 AI 数据中心包装成实验性质以获取税收优惠，去年节省近 40 亿美元', s:'据纽约时报报道，马克 · 扎克伯格（Mark Zuckerberg）宣称，Meta 在人工智能领域的布局大获全胜。“我们…（来源：IT之家）', u:'https://www.ithome.com/1/008/806.htm'},
     {c:'MEDPHARMA', d:'2026-09-30T17:42', t:'ETF盘后资讯|医药全天领跑!巨头密集加码AI制药，翻倍牛股叒...', s:'ETF盘后资讯|医药全天领跑!巨头密集加码AI制药，翻倍牛股叒...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7691261502010982931/'},
     {c:'MODEL', d:'2026-09-30T17:10', t:'OpenAI 发布 GPT‑6.1 Sol：智能水平接近 Astra、价格仅为其五分之一', s:'OpenAI 上周才推出 GPT-6 Sol，这周就把 6.1 Sol 端上了桌。官方称之为一次「重大升级」，覆盖专业办…（来源：OSCHINA）', u:'https://www.oschina.net/news/502831/openai-gpt-6-1-sol'},
+    {c:'MODEL', d:'2026-09-30T16:35', t:'Muse爆火，dots入场：Personal Agent开始和互联网平台抢入口', s:'Personal Agent，正在成为这一轮 AI 产品竞争里最热的新概念之一。9 月 29 日，OpenAI 发布了可…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/Zqcw9XvSO2Ht6FIQ.html'},
     {c:'INDUSTRY', d:'2026-09-30T16:25', t:'三星 SDI 首次展示 LFP 柱状电池：优化容量与功率表现，强化安全性', s:'三星 SDI 在当地时间昨日开幕的 DCWA 亚洲数据中心展 2026 上展示了其面向 AI 数据中心市场优化的电池解决…（来源：IT之家）', u:'https://www.ithome.com/1/008/785.htm'},
     {c:'MODEL', d:'2026-09-30T16:24', t:'从 Codex Harness 开源，看 AI 公司的护城河是什么？', s:'8 月 19 日，OpenAI 正式开源了 Codex Harness。这家公司名字里的 Open，久违地兑现了一次。（…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/HduKYmfhs2SeXQ39.html'},
     {c:'MODEL', d:'2026-09-30T16:22', t:'全网最硬核 OpenClaw 2.0 实测：从 ToC 到 ToB 的试探，Agent 网关能重塑工作流边界吗？', s:'8 月 31 日，OpenClaw 2.0 正式发布（版本号： v2026.8.1 ），933 位贡献者、569 位首次…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/7bPyLlZDfncTOw5B.html'},
@@ -474,31 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-30T16:10', t:'AI时代，我们需要什么样的技能人才？', s:'从赛场到职场，什么在变、什么不变？（来源：钛媒体）', u:'https://www.tmtpost.com/8156428.html'},
     {c:'MODEL', d:'2026-09-30T15:58', t:'Manus 2.0回来了！给AI配手机号和钱包，还能拉群干活', s:'给Agent配上手机号，再拉个群（来源：量子位）', u:'https://www.qbitai.com/2026/09/499592.html'},
     {c:'MODEL', d:'2026-09-30T15:57', t:'在三张圆明园鼠首照片里，我们看到了3D AI的Harness时刻', s:'3D 生成的价值正从模型本身转向模型、智能体与专业软件共同完成任务的 3D AI Harness。 作者丨吴海明 编辑丨…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/wEE4RarEXO2oNfrH.html'},
-    {c:'MODEL', d:'2026-09-30T15:55', t:'OpenClaw Enterprise 官宣：为智能体提供企业级安全与控制功能', s:'OpenClaw 官方当地时间本月 29 日官宣了 OpenClaw Enterprise，这是一个开源中立的敏感环境持…（来源：IT之家）', u:'https://www.ithome.com/1/008/774.htm'},
-    {c:'MODEL', d:'2026-09-30T15:54', t:'刚刚，GPT-6 Astra接上宇树G1，把厨房收拾了！', s:'让GPT把机器人技能当工具调用（来源：量子位）', u:'https://www.qbitai.com/2026/09/499493.html'},
-    {c:'MODEL', d:'2026-09-30T15:53', t:'世界制造业大会丨国轩高科重磅发布低空飞行高功率电池等三大创新成果', s:'9月21日，2026世界制造业大会国轩高科专场发布会在合肥举行。立足AI快速发展背景，国轩高科聚焦低空经济、跨境绿色物流…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/DOdBNcP5frSITM4c.html'},
-    {c:'MODEL', d:'2026-09-30T15:53', t:'越大越强，不再是 LLM 的专利：PixVerse R2 攻克实时世界模型 Scaling 难题', s:'AI 视频的下一战：谁能让世界保持运行 作者丨Reah 编辑丨李娜 岑峰 大语言模型已经用 Scaling 证明模型、数…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/qrkgXZRZeLOX4viW.html'},
-    {c:'MODEL', d:'2026-09-30T15:52', t:'消息称豆包 AI 个人助手产品叫作“小豆”，计划推出独立 App', s:'新浪科技此前曾报道，豆包在个人助理方向正在推进相关产品规划，该探索项目当时代号为“Spell”，主要由豆包手机助手团队主…（来源：IT之家）', u:'https://www.ithome.com/1/008/773.htm'},
   ];
   const TIMELINE = [
+    ['09-30 18:46','磐镭 YO2 锐龙 AI Max+ PRO 495 版迷你主机上架：192GB+2TB 售价 49999 元'],
+    ['09-30 18:43','大厂们正在集体抢滩“AI个人助理”'],
+    ['09-30 18:41','微星预热尊爵 N16 Flip AI+ 2026 二合一翻转本：英伟达 RTX Spark 芯片，预计 10 月 8 日预售'],
     ['09-30 18:23','Anthropic 红队盯上 GLM-5.3：能力追平 Mythos，却连拒绝护栏都是摆设'],
     ['09-30 18:19','中国大模型首次进入 OpenAI 企业付费结算体系，Kimi K3 接入 Codex 企业通道'],
     ['09-30 18:15','荣耀 MagicOS 11 十月升级内容公布：一碰传支持与 OPPO、vivo、小米手机跨品牌分享，无需安装 App'],
-    ['09-30 17:52','国庆实测AI旅游助手：说好的“一键办事”，怎么一落地就碰壁？'],
-    ['09-30 17:48','Meta 被曝将 AI 数据中心包装成实验性质以获取税收优惠，去年节省近 40 亿美元'],
-    ['09-30 17:42','ETF盘后资讯|医药全天领跑!巨头密集加码AI制药，翻倍牛股叒...'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293222, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:272499, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:269878, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:215975, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179086, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148642, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140323, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122619, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108490, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100020, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293232, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:272516, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:269888, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:215979, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179088, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148644, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140325, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122627, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108498, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100024, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
