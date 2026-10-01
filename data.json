@@ -1,20 +1,6 @@
 {
-  "updated": "2026-10-02T03:32:05",
+  "updated": "2026-10-02T04:02:39",
   "news": [
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T23:06",
-      "t": "何恺明团队新作：看猫片就能学会ARC挑战",
-      "s": "用ImageNet训练encoder（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/499812.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T23:02",
-      "t": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "s": "价格只有Astra一半（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/499663.html"
-    },
     {
       "c": "MODEL",
       "d": "2026-10-01T22:24",
@@ -140,17 +126,23 @@
       "t": "突发！苹果全新产品线曝光，Siri AI 进家门",
       "s": "致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-09-30T19:50",
+      "t": "AI办公进入「上下文战争」，百度如何出牌？",
+      "s": "上下文，正成为AI办公新的竞争变量。“任何事情都可以成为用户的上下文。”在百度AI Day开放日接受雷峰网采访时，百度集…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/7q7ZyMuKeWjc1uGz.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T18:58",
+      "t": "DeepSeek 开源算子工具大礼包，联手华为昇腾，手撕 CUDA 绑定！",
+      "s": "一套代码能跑遍所有芯片。 作者丨高允毅 编辑丨岑 峰 刚刚，DeepSeek做了一个开源壮举：把给英伟达 GPU 写代码…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/UUIfK7eeFE9Ws1JI.html"
     }
   ],
   "timeline": [
-    [
-      "10-01 23:06",
-      "何恺明团队新作：看猫片就能学会ARC挑战"
-    ],
-    [
-      "10-01 23:02",
-      "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让"
-    ],
     [
       "10-01 22:24",
       "惠普战 99 锐龙版 AI 移动工作站发布：AMD R9-9955HX3D + RTX PRO 2000，21999 元"
@@ -166,6 +158,14 @@
     [
       "10-01 18:10",
       "日本电力巨头 JERA 牵手戴尔等伙伴，将在千叶建设该国最大 AI 数据中心"
+    ],
+    [
+      "10-01 17:49",
+      "OpenAI 称其遭遇有组织蒸馏，将矛头指向月之暗面"
+    ],
+    [
+      "10-01 16:45",
+      "曝腾讯租用甲骨文东南亚数据中心：涉及约 10 万块先进 AI 芯片，交易估值约 70 亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293872,
+      "s": 293882,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273713,
+      "s": 273739,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270598,
+      "s": 270610,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216158,
+      "s": 216161,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179299,
+      "s": 179304,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148841,
+      "s": 148843,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140502,
+      "s": 140508,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123024,
+      "s": 123030,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108707,
+      "s": 108710,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100303,
+      "s": 100307,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
