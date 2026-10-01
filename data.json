@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-01T13:01:41",
+  "updated": "2026-10-01T13:31:19",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-01T13:01",
+      "t": "技嘉推出 AI TOP 100 B850 台式整机，支持 5090 单卡或 R9700 双卡",
+      "s": "技嘉 (GIGABYTE) 昨日宣布推出 AI TOP 100 B850 台式整机。这一工作站级本地 AI 系统支持 1…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/046.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-01T13:00",
@@ -56,13 +63,6 @@
       "t": "AI 储能红利预期落空，福特股价此前 45% 涨幅尽数回吐",
       "s": "据彭博社报道，福特汽车公司此前一波迅猛的股价上涨行情已经彻底消退。一方面，美国汽车厂商面临的经济压力不断加大；另一方面…（来源：IT之家）",
       "u": "https://www.ithome.com/1/008/991.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-01T09:28",
-      "t": "生物安全领域里程碑：谷歌 DeepMind 首创 AI 蛋白质水印技术",
-      "s": "谷歌今日推出 SynthID Bio，将数字水印技术引入合成生物学领域。该技术可将不可感知的签名直接嵌入生物编码，不仅能…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/940.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-01 13:01",
+      "技嘉推出 AI TOP 100 B850 台式整机，支持 5090 单卡或 R9700 双卡"
+    ],
+    [
       "10-01 13:00",
       "比尔 · 盖茨：用机器人替代人类工作的公司也应纳税"
     ],
@@ -162,10 +166,6 @@
     [
       "10-01 11:21",
       "从数据到智能，再到进化：Agent正在重写AI基础设施"
-    ],
-    [
-      "10-01 11:17",
-      "华为 Mate90 系列手机升级鸿蒙 AI：小艺帮记滑一滑轻松记忆、图库助手实现一句话成片..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293532,
+      "s": 293541,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273142,
+      "s": 273158,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270287,
+      "s": 270289,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179211,
+      "s": 179212,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140419,
+      "s": 140420,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122849,
+      "s": 122852,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108615,
+      "s": 108616,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100193,
+      "s": 100196,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
