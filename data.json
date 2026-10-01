@@ -1,12 +1,19 @@
 {
-  "updated": "2026-10-01T11:31:35",
+  "updated": "2026-10-01T12:02:51",
   "news": [
     {
-      "c": "MEDDEVICE",
-      "d": "2026-10-01T11:31",
-      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
-      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+      "c": "MODEL",
+      "d": "2026-10-01T11:55",
+      "t": "Meta 否认 AI 智能体 Muse 未经许可读取用户私信：必须手动开多层权限才行",
+      "s": "针对一名记者提出的指控，即 Meta 的 AI 智能体 Muse 在未经许可的情况下读取用户私人消息，Meta 予以反驳…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/029.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-01T11:41",
+      "t": "旗下智能体被指试图入侵加拿大政府网站，OpenAI 回应称正审查并已通报",
+      "s": "据《华盛顿邮报》今天（1 日）上午报道，研究人员披露，AI 智能体曾在没有收到指令的情况下试图入侵加拿大政府网站。目前的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/025.htm"
     },
     {
       "c": "MODEL",
@@ -114,20 +121,6 @@
       "u": "http://www.geekpark.net/news/372064"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-01T08:24",
-      "t": "OpenAI 同新思达成合作，共同开发 GPT-Synopsys 芯片设计模型",
-      "s": "Synopsys（新思科技）当地时间 30 日宣布与 OpenAI 建立战略合作伙伴关系。两家公司签署了一份范围广泛的多…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/968.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T08:24",
-      "t": "内存高价恐成常态：美光称人形机器人每台需 200GB 内存",
-      "s": "科技媒体 Wccftech 今天（10 月 1 日）发布博文，报道称在 2026 财年（2025 年 9 月 5 日～2…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/008/967.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-09-30T23:04",
       "t": "突发！苹果全新产品线曝光，Siri AI 进家门",
@@ -140,12 +133,23 @@
       "t": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
       "s": "千禧年难题的突破，10000个Agent最多占了10%的功劳。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/09/499654.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T20:50",
+      "t": "Sharpa最新发布的三大新品，把机器人进场景的门槛打了下来",
+      "s": "三款产品的名字里有一个共同的关键词——触觉。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8157219.html"
     }
   ],
   "timeline": [
     [
-      "10-01 11:31",
-      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+      "10-01 11:55",
+      "Meta 否认 AI 智能体 Muse 未经许可读取用户私信：必须手动开多层权限才行"
+    ],
+    [
+      "10-01 11:41",
+      "旗下智能体被指试图入侵加拿大政府网站，OpenAI 回应称正审查并已通报"
     ],
     [
       "10-01 11:21",
@@ -162,10 +166,6 @@
     [
       "10-01 09:48",
       "AI 储能红利预期落空，福特股价此前 45% 涨幅尽数回吐"
-    ],
-    [
-      "10-01 09:28",
-      "生物安全领域里程碑：谷歌 DeepMind 首创 AI 蛋白质水印技术"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293513,
+      "s": 293515,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273083,
+      "s": 273094,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270258,
+      "s": 270268,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216069,
+      "s": 216073,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179204,
+      "s": 179206,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148745,
+      "s": 148746,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140411,
+      "s": 140413,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122843,
+      "s": 122844,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108607,
+      "s": 108609,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100184,
+      "s": 100189,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
