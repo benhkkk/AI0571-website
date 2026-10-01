@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-01T21:32:29",
+  "updated": "2026-10-01T21:38:01",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-01T21:37",
+      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
+      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
+    },
     {
       "c": "HOT",
       "d": "2026-10-01T18:22",
@@ -133,16 +140,13 @@
       "t": "突发！苹果全新产品线曝光，Siri AI 进家门",
       "s": "致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-09-30T22:03",
-      "t": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
-      "s": "千禧年难题的突破，10000个Agent最多占了10%的功劳。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/09/499654.html"
     }
   ],
   "timeline": [
+    [
+      "10-01 21:37",
+      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
+    ],
     [
       "10-01 18:22",
       "三大主业同时失速，《欢迎来龙餐馆》票房爆火能救中国儒意吗？"
@@ -162,10 +166,6 @@
     [
       "10-01 16:28",
       "AI 拉动半导体需求暴涨，韩国 9 月出口创历史新高"
-    ],
-    [
-      "10-01 16:16",
-      "谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293708,
+      "s": 293710,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273479,
+      "s": 273482,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270449,
+      "s": 270451,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216125,
+      "s": 216124,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179255,
+      "s": 179257,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148796,
+      "s": 148797,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140465,
+      "s": 140468,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122952,
+      "s": 122954,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100257,
+      "s": 100259,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
