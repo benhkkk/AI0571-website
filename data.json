@@ -1,20 +1,6 @@
 {
-  "updated": "2026-10-01T23:32:43",
+  "updated": "2026-10-02T00:02:17",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-10-01T23:32",
-      "t": "如何用Deepseek组装测序仪？",
-      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T23:02",
-      "t": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "s": "价格只有Astra一半（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/499663.html"
-    },
     {
       "c": "MODEL",
       "d": "2026-10-01T22:24",
@@ -100,13 +86,6 @@
       "u": "https://www.ithome.com/1/009/086.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-01T15:43",
-      "t": "软银完成对 OpenAI 最后一笔投资，300 亿美元承诺全部到位",
-      "s": "软银集团今日表示，公司已通过软银愿景基金 2 完成对 OpenAI 的第三笔投资，金额为 100 亿美元（IT之家注：现…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/085.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-01T11:21",
       "t": "从数据到智能，再到进化：Agent正在重写AI基础设施",
@@ -140,17 +119,30 @@
       "t": "谷歌 Gemini 4 Argon 曝光；中国生成 AI 用户超 7 亿；美光 2026 财年净利暴涨 895%",
       "s": "苹果即将发布「智能家居中枢」新品 据彭博社报道，苹果公司计划于 10 月 13 日推进其拖延已久的智能家居市场布局，这是…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372064"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-30T23:04",
+      "t": "突发！苹果全新产品线曝光，Siri AI 进家门",
+      "s": "致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-09-30T22:03",
+      "t": "OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜",
+      "s": "千禧年难题的突破，10000个Agent最多占了10%的功劳。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/499654.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-09-30T20:11",
+      "t": "直播回顾：工业AI的下一个机会在哪？",
+      "s": "什么样的AI才适合工业现场？企业真正开始做工业AI时，又该从哪里下手？（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/09/499605.html"
     }
   ],
   "timeline": [
-    [
-      "10-01 23:32",
-      "如何用Deepseek组装测序仪？"
-    ],
-    [
-      "10-01 23:02",
-      "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让"
-    ],
     [
       "10-01 22:24",
       "惠普战 99 锐龙版 AI 移动工作站发布：AMD R9-9955HX3D + RTX PRO 2000，21999 元"
@@ -166,6 +158,14 @@
     [
       "10-01 18:10",
       "日本电力巨头 JERA 牵手戴尔等伙伴，将在千叶建设该国最大 AI 数据中心"
+    ],
+    [
+      "10-01 17:49",
+      "OpenAI 称其遭遇有组织蒸馏，将矛头指向月之暗面"
+    ],
+    [
+      "10-01 16:45",
+      "曝腾讯租用甲骨文东南亚数据中心：涉及约 10 万块先进 AI 芯片，交易估值约 70 亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293782,
+      "s": 293790,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273565,
+      "s": 273584,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270505,
+      "s": 270515,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216131,
+      "s": 216133,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179272,
+      "s": 179276,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148813,
+      "s": 148815,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140482,
+      "s": 140484,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122978,
+      "s": 122983,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100274,
+      "s": 100278,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
