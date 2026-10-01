@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-10-01T11:02', t:'参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会', s:'参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260920/981782.shtml'},
     {c:'MODEL', d:'2026-10-01T10:14', t:'应对 AI 爬虫：Reddit 将关停 RSS 订阅、终止公共 API 访问', s:'当地时间周三，Reddit 公布了多项面向版主与开发者的更新，与此同时，对于希望互联网保持更高开放度的支持者而言有一则坏…（来源：IT之家）', u:'https://www.ithome.com/1/008/995.htm'},
     {c:'HOT', d:'2026-10-01T09:48', t:'AI 储能红利预期落空，福特股价此前 45% 涨幅尽数回吐', s:'据彭博社报道，福特汽车公司此前一波迅猛的股价上涨行情已经彻底消退。一方面，美国汽车厂商面临的经济压力不断加大；另一方面…（来源：IT之家）', u:'https://www.ithome.com/1/008/991.htm'},
     {c:'MEDPHARMA', d:'2026-10-01T09:28', t:'生物安全领域里程碑：谷歌 DeepMind 首创 AI 蛋白质水印技术', s:'谷歌今日推出 SynthID Bio，将数字水印技术引入合成生物学领域。该技术可将不可感知的签名直接嵌入生物编码，不仅能…（来源：IT之家）', u:'https://www.ithome.com/1/008/940.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-09-30T23:04', t:'突发！苹果全新产品线曝光，Siri AI 进家门', s:'致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）', u:'https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-09-30T22:03', t:'OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜', s:'千禧年难题的突破，10000个Agent最多占了10%的功劳。（来源：量子位）', u:'https://www.qbitai.com/2026/09/499654.html'},
     {c:'MODEL', d:'2026-09-30T20:50', t:'Sharpa最新发布的三大新品，把机器人进场景的门槛打了下来', s:'三款产品的名字里有一个共同的关键词——触觉。（来源：钛媒体）', u:'https://www.tmtpost.com/8157219.html'},
-    {c:'INDUSTRY', d:'2026-09-30T20:17', t:'先陪伴还是先干活？家庭机器人的商业分岔路口 ｜出海参考', s:'具身机器人如何进入家庭，又靠什么支撑持续经营？启元的选择折射出这个行业尚未解开的几道题。（来源：钛媒体）', u:'https://www.tmtpost.com/8157194.html'},
   ];
   const TIMELINE = [
+    ['10-01 11:02','参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会'],
     ['10-01 10:14','应对 AI 爬虫：Reddit 将关停 RSS 订阅、终止公共 API 访问'],
     ['10-01 09:48','AI 储能红利预期落空，福特股价此前 45% 涨幅尽数回吐'],
     ['10-01 09:28','生物安全领域里程碑：谷歌 DeepMind 首创 AI 蛋白质水印技术'],
     ['10-01 09:14','谷歌推出 Gemini 4 Argon 旗舰 AI 模型，消息称其实战性能遭员工质疑'],
     ['10-01 09:09','AMD 锐龙 AI Max+ PRO 495 版 Framework Desktop 预售，含 192GB 内存 6,469 美元起'],
-    ['10-01 09:03','影视业迎来AI大考'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293497, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:273047, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270238, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216063, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293504, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:273069, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270245, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216067, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179201, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148739, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140407, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122834, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148741, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140409, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122837, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108603, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100172, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100177, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

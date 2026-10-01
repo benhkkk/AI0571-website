@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-01T10:32:01",
+  "updated": "2026-10-01T11:02:13",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-01T11:02",
+      "t": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会",
+      "s": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260920/981782.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-01T10:14",
@@ -133,16 +140,13 @@
       "t": "Sharpa最新发布的三大新品，把机器人进场景的门槛打了下来",
       "s": "三款产品的名字里有一个共同的关键词——触觉。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8157219.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-09-30T20:17",
-      "t": "先陪伴还是先干活？家庭机器人的商业分岔路口 ｜出海参考",
-      "s": "具身机器人如何进入家庭，又靠什么支撑持续经营？启元的选择折射出这个行业尚未解开的几道题。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8157194.html"
     }
   ],
   "timeline": [
+    [
+      "10-01 11:02",
+      "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会"
+    ],
     [
       "10-01 10:14",
       "应对 AI 爬虫：Reddit 将关停 RSS 订阅、终止公共 API 访问"
@@ -162,10 +166,6 @@
     [
       "10-01 09:09",
       "AMD 锐龙 AI Max+ PRO 495 版 Framework Desktop 预售，含 192GB 内存 6,469 美元起"
-    ],
-    [
-      "10-01 09:03",
-      "影视业迎来AI大考"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293497,
+      "s": 293504,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273047,
+      "s": 273069,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270238,
+      "s": 270245,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216063,
+      "s": 216067,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148739,
+      "s": 148741,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140407,
+      "s": 140409,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 122834,
+      "s": 122837,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100172,
+      "s": 100177,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
