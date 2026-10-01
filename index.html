@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-01T18:01', t:'光子精密 AI 旗舰店上线｜一站式精密视觉检测选型', s:'光子精密 AI 旗舰店上线｜一站式精密视觉检测选型（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260910/974541.shtml'},
+    {c:'HOT', d:'2026-10-01T17:49', t:'OpenAI 称其遭遇有组织蒸馏，将矛头指向月之暗面', s:'当地时间 9 月 30 日，OpenAI 在官网发文，称其近期遭遇一场有组织的蒸馏活动。OpenAI 在文中表示，该活动…（来源：IT之家）', u:'https://www.ithome.com/1/009/112.htm'},
     {c:'HOT', d:'2026-10-01T16:45', t:'曝腾讯租用甲骨文东南亚数据中心：涉及约 10 万块先进 AI 芯片，交易估值约 70 亿美元', s:'据《金融时报》今日报道，腾讯已与甲骨文签署其最大海外租赁协议，在东南亚多个甲骨文数据中心获取约 10 万块先进 AI 芯…（来源：IT之家）', u:'https://www.ithome.com/1/009/100.htm'},
     {c:'HOT', d:'2026-10-01T16:28', t:'AI 拉动半导体需求暴涨，韩国 9 月出口创历史新高', s:'据彭博社报道，受全球人工智能需求持续拉动半导体出口的推动，韩国 9 月出口延续迅猛增势，进一步增强外界预期：这个高度依赖…（来源：IT之家）', u:'https://www.ithome.com/1/009/096.htm'},
     {c:'MODEL', d:'2026-10-01T16:16', t:'谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思', s:'消失10个月的谷歌，为什么连Pro这块招牌都扔了？（来源：钛媒体）', u:'https://www.tmtpost.com/8157785.html'},
@@ -470,7 +472,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-01T15:37', t:'调研显示：超 85% 的日本游戏开发者正使用生成式 AI', s:'日本计算机娱乐供应商协会（CESA）于本月上旬发布了一份有关游戏行业开发现状的初步调研摘要，完整报告将于 12 月正式对…（来源：IT之家）', u:'https://www.ithome.com/1/009/083.htm'},
     {c:'HOT', d:'2026-10-01T15:36', t:'数据中心催生庞大用工需求，谷歌高管称全美存在数十万个技术工种缺口', s:'当地时间 9 月 29 日，据《财富》杂志报道，现如今，数据中心已然成为 AI 争议中的焦点之一。批评者担心，大规模建设…（来源：IT之家）', u:'https://www.ithome.com/1/009/082.htm'},
     {c:'INDUSTRY', d:'2026-10-01T15:25', t:'美光科技 CEO 梅赫罗特拉：目前已锁定约 1500 亿美元长期订单，AI 存储需求紧张', s:'美光科技董事长兼 CEO 桑杰 · 梅赫罗特拉（Sanjay Mehrotra）在财报电话会上表示，美光目前已签署 26…（来源：IT之家）', u:'https://www.ithome.com/1/009/079.htm'},
-    {c:'MODEL', d:'2026-10-01T15:18', t:'iPhone 18 标准版首秀：苹果 A20 芯片焊点图曝光，推测 5 核 GPU', s:'IT之家家友 @白饭炒白米饭 昨日（9 月 30 日）发布动态，分享了苹果 A20 标准版芯片的焊点图，该芯片将会装备在…（来源：IT之家）', u:'https://www.ithome.com/1/009/075.htm'},
     {c:'MODEL', d:'2026-10-01T11:21', t:'从数据到智能，再到进化：Agent正在重写AI基础设施', s:'一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交…（来源：极客公园）', u:'http://www.geekpark.net/news/372065'},
     {c:'HOT', d:'2026-10-01T09:03', t:'影视业迎来AI大考', s:'所有人已避无可避。（来源：钛媒体）', u:'https://www.tmtpost.com/8157488.html'},
     {c:'INDUSTRY', d:'2026-10-01T08:46', t:'销量增长、收入缩水：斯坦德机器人的“第二曲线”，怎么越卖越亏？', s:'超6成收入来自海外。（来源：钛媒体）', u:'https://www.tmtpost.com/8157612.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-01T08:31', t:'Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型', s:'跑分不可思议，能力谨慎怀疑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-10-01T08:28', t:'谷歌 Gemini 4 Argon 曝光；中国生成 AI 用户超 7 亿；美光 2026 财年净利暴涨 895%', s:'苹果即将发布「智能家居中枢」新品 据彭博社报道，苹果公司计划于 10 月 13 日推进其拖延已久的智能家居市场布局，这是…（来源：极客公园）', u:'http://www.geekpark.net/news/372064'},
     {c:'HOT', d:'2026-09-30T23:04', t:'突发！苹果全新产品线曝光，Siri AI 进家门', s:'致敬 2002，面向 2030#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）', u:'https://www.ifanr.com/1682750?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MODEL', d:'2026-09-30T22:03', t:'OpenAI推理之父最新访谈！数学只是多智能体时代的开胃菜', s:'千禧年难题的突破，10000个Agent最多占了10%的功劳。（来源：量子位）', u:'https://www.qbitai.com/2026/09/499654.html'},
   ];
   const TIMELINE = [
+    ['10-01 18:01','光子精密 AI 旗舰店上线｜一站式精密视觉检测选型'],
+    ['10-01 17:49','OpenAI 称其遭遇有组织蒸馏，将矛头指向月之暗面'],
     ['10-01 16:45','曝腾讯租用甲骨文东南亚数据中心：涉及约 10 万块先进 AI 芯片，交易估值约 70 亿美元'],
     ['10-01 16:28','AI 拉动半导体需求暴涨，韩国 9 月出口创历史新高'],
     ['10-01 16:16','谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思'],
     ['10-01 16:16','腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？'],
-    ['10-01 16:05','江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节'],
-    ['10-01 16:04','豪掷82亿美元，芯片巨头押注的世界模型究竟是什么'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293617, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:273321, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270369, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216102, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179229, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148768, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140445, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122895, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108645, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100221, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293620, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:273331, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270378, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216103, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179232, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148770, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140447, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:122900, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108649, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100232, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
