@@ -1,10 +1,17 @@
 {
-  "updated": "2026-10-02T21:02:45",
+  "updated": "2026-10-02T21:32:10",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-10-02T21:32",
+      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
+      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
+    },
+    {
       "c": "MODEL",
-      "d": "2026-10-02T20:59",
-      "t": "桌面 AI 超算新选择：NVIDIA DGX Spark 64GB 内存版正式发布，补齐本地智能体开发版图",
+      "d": "2026-10-02T21:00",
+      "t": "桌面 AI 超算新选择：英伟达 NVIDIA DGX Spark 64GB 内存版正式发布，4999 美元",
       "s": "英伟达今天正式对外披露 DGX Spark 产品更新，推出 64GB 内存版本 DGX Spark 桌面 AI 计算机…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/359.htm"
     },
@@ -133,19 +140,16 @@
       "t": "何恺明团队新作：看猫片就能学会ARC挑战",
       "s": "用ImageNet训练encoder（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/499812.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T23:02",
-      "t": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "s": "价格只有Astra一半（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/499663.html"
     }
   ],
   "timeline": [
     [
-      "10-02 20:59",
-      "桌面 AI 超算新选择：NVIDIA DGX Spark 64GB 内存版正式发布，补齐本地智能体开发版图"
+      "10-02 21:32",
+      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
+    ],
+    [
+      "10-02 21:00",
+      "桌面 AI 超算新选择：英伟达 NVIDIA DGX Spark 64GB 内存版正式发布，4999 美元"
     ],
     [
       "10-02 20:22",
@@ -162,10 +166,6 @@
     [
       "10-02 17:48",
       "荣耀林林：Magic9 系列不会推出 RSR 保时捷设计版本"
-    ],
-    [
-      "10-02 16:50",
-      "AI杀不死咨询公司"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294224,
+      "s": 294237,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274368,
+      "s": 274395,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270956,
+      "s": 270970,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216514,
+      "s": 216522,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179392,
+      "s": 179396,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148935,
+      "s": 148937,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123218,
+      "s": 123226,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108869,
+      "s": 108883,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100438,
+      "s": 100441,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
