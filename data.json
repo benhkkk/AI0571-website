@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-02T16:44:22",
+  "updated": "2026-10-02T17:02:30",
   "news": [
     {
       "c": "MODEL",
@@ -17,10 +17,24 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-10-02T15:34",
+      "t": "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗",
+      "s": "让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/500098.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-10-02T15:28",
       "t": "OpenAI 升级 ChatGPT 购物体验，新增 AI 衣服虚拟试穿体验",
       "s": "OpenAI 宣布进一步升级 ChatGPT 的购物功能，新增虚拟试穿和 Favorites（收藏）两项功能，用户现在可…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/304.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-02T15:27",
+      "t": "丘成桐新论文致谢了GPT和Claude",
+      "s": "44年前被亲自列入问题清单（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/499991.html"
     },
     {
       "c": "HOT",
@@ -126,20 +140,6 @@
       "t": "谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思",
       "s": "消失10个月的谷歌，为什么连Pro这块招牌都扔了？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8157785.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T16:16",
-      "t": "腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？",
-      "s": "AI公司活成了它们最讨厌的样子。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8157828.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-01T16:05",
-      "t": "江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节",
-      "s": "电力AI具身智能订单爆发，利润滞后，商机藏于配套赛道。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8157844.html"
     }
   ],
   "timeline": [
@@ -152,20 +152,20 @@
       "日本法院首次确认声音受法律保护，“AI 声优”涉及侵犯形象权"
     ],
     [
+      "10-02 15:34",
+      "openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗"
+    ],
+    [
       "10-02 15:28",
       "OpenAI 升级 ChatGPT 购物体验，新增 AI 衣服虚拟试穿体验"
     ],
     [
+      "10-02 15:27",
+      "丘成桐新论文致谢了GPT和Claude"
+    ],
+    [
       "10-02 15:26",
       "极米记得 AI 显示眼镜 MemoMind One 明日登陆线下门店，开启定金预定"
-    ],
-    [
-      "10-02 14:48",
-      "绿联推出彩色墨水屏手机壳：3.7 英寸面板，适配苹果 iPhone 17/18 Pro 及 Max 机型，278.8 元"
-    ],
-    [
-      "10-02 14:46",
-      "arXiv最严新规！每人每月最多提交2篇，拒稿不退额度"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294130,
+      "s": 294134,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274190,
+      "s": 274203,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270866,
+      "s": 270871,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216413,
+      "s": 216418,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179368,
+      "s": 179370,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148912,
+      "s": 148913,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140531,
+      "s": 140532,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123165,
+      "s": 123168,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108794,
+      "s": 108797,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100407,
+      "s": 100410,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
