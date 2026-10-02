@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-02T10:02:28",
+  "updated": "2026-10-02T10:22:40",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-02T10:14",
+      "t": "Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H",
+      "s": "机构 Signal65 昨日（10 月 1 日）发布报告，测试显示高通 18 核骁龙 X2 Elite 芯片（具体型号为…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/235.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-02T09:56",
+      "t": "deepseek为什么要在此时拥抱华为？",
+      "s": "这不是一次适配，这是一次搬家。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8158082.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-02T09:29",
@@ -66,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-02T07:16",
-      "t": "马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半",
-      "s": "全球首富埃隆 · 马斯克今天（10 月 2 日）在 X 平台发布推文，宣布为了调配充足的内存满足 Optimus 机器人…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/196.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-01T23:06",
       "t": "何恺明团队新作：看猫片就能学会ARC挑战",
       "s": "用ImageNet训练encoder（来源：量子位）",
@@ -84,6 +91,13 @@
       "t": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
       "s": "价格只有Astra一半（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/499663.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-01T22:28",
+      "t": "团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola",
+      "s": "一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Cod…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502836"
     },
     {
       "c": "HOT",
@@ -126,23 +140,17 @@
       "t": "从数据到智能，再到进化：Agent正在重写AI基础设施",
       "s": "一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372065"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-01T09:03",
-      "t": "影视业迎来AI大考",
-      "s": "所有人已避无可避。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8157488.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-01T08:43",
-      "t": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
-      "s": "· 美光全年营收达 1331.88 亿美元，预计下一季营收 615 亿美元 · 派拉蒙获准完成华纳收购，美泰 CEO 将…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "10-02 10:14",
+      "Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H"
+    ],
+    [
+      "10-02 09:56",
+      "deepseek为什么要在此时拥抱华为？"
+    ],
     [
       "10-02 09:29",
       "领导层洗牌后，Argon能否助谷歌重回前沿？"
@@ -158,14 +166,6 @@
     [
       "10-02 08:34",
       "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录视频、仅推送文本提醒"
-    ],
-    [
-      "10-02 08:28",
-      "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》"
-    ],
-    [
-      "10-02 08:23",
-      "古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293990,
+      "s": 293999,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273939,
+      "s": 273949,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270729,
+      "s": 270735,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216227,
+      "s": 216233,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179331,
+      "s": 179332,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148873,
+      "s": 148875,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123100,
+      "s": 123103,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108747,
+      "s": 108750,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
