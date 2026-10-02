@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-10-02T10:24', t:'冲刺感恩节前挂牌，消息称 Anthropic 寻求最早 11 月中旬上市', s:'据彭博社今天（2 日）援引知情人士消息称，在推迟原定计划后，Anthropic 寻求最早于 11 月中旬上市。知情人士称…（来源：IT之家）', u:'https://www.ithome.com/1/009/237.htm'},
     {c:'MODEL', d:'2026-10-02T10:14', t:'Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H', s:'机构 Signal65 昨日（10 月 1 日）发布报告，测试显示高通 18 核骁龙 X2 Elite 芯片（具体型号为…（来源：IT之家）', u:'https://www.ithome.com/1/009/235.htm'},
     {c:'HOT', d:'2026-10-02T09:56', t:'deepseek为什么要在此时拥抱华为？', s:'这不是一次适配，这是一次搬家。（来源：钛媒体）', u:'https://www.tmtpost.com/8158082.html'},
     {c:'HOT', d:'2026-10-02T09:29', t:'领导层洗牌后，Argon能否助谷歌重回前沿？', s:'谷歌AI的一场豪赌（来源：钛媒体）', u:'https://www.tmtpost.com/8158081.html'},
@@ -469,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-02T08:23', t:'古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容', s:'在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果公司首款智能家居中枢…（来源：IT之家）', u:'https://www.ithome.com/1/009/206.htm'},
     {c:'INDUSTRY', d:'2026-10-02T08:06', t:'加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险', s:'据路透社今天（2 日）凌晨报道，加利福尼亚州总检察长罗布 · 邦塔办公室宣布，邦塔本人已向 OpenAI 发出调查传票…（来源：IT之家）', u:'https://www.ithome.com/1/009/204.htm'},
     {c:'HOT', d:'2026-10-02T07:41', t:'谷歌首次送先进芯片上天，估算 SpaceX 星舰发射 1800 次才能让太空数据中心“飞起来”', s:'据外媒 TechCrunch 报道，当地时间 1 日，谷歌的在轨计算原型卫星搭乘 SpaceX 火箭，从美国加利福尼亚州…（来源：IT之家）', u:'https://www.ithome.com/1/009/198.htm'},
-    {c:'MODEL', d:'2026-10-02T07:18', t:'OpenAI 上线“虚拟试穿”功能：ChatGPT 能帮你试衣，还能找“明星同款”', s:'当地时间 1 日，OpenAI 再次扩展 ChatGPT 的购物能力。公司宣布在全球推出两项新功能，一项是让用户虚拟试穿…（来源：IT之家）', u:'https://www.ithome.com/1/009/197.htm'},
     {c:'MODEL', d:'2026-10-01T23:06', t:'何恺明团队新作：看猫片就能学会ARC挑战', s:'用ImageNet训练encoder（来源：量子位）', u:'https://www.qbitai.com/2026/10/499812.html'},
     {c:'MODEL', d:'2026-10-01T23:02', t:'谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让', s:'价格只有Astra一半（来源：量子位）', u:'https://www.qbitai.com/2026/10/499663.html'},
     {c:'MODEL', d:'2026-10-01T22:28', t:'团队使用 Codex 和 Claude Code，API Key 和模型权限怎么管？我开源了 Zentrola', s:'一个人使用 AI Coding 工具时，事情很简单：申请一个 API Key，填进 Codex 或 Claude Cod…（来源：OSCHINA）', u:'https://www.oschina.net/news/502836'},
@@ -481,23 +481,23 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-01T11:21', t:'从数据到智能，再到进化：Agent正在重写AI基础设施', s:'一个工程师写完数据处理代码，点下提交，然后去喝了杯咖啡。十几分钟甚至几十分钟之后，他才回到屏幕前看结果、改代码、再提交…（来源：极客公园）', u:'http://www.geekpark.net/news/372065'},
   ];
   const TIMELINE = [
+    ['10-02 10:24','冲刺感恩节前挂牌，消息称 Anthropic 寻求最早 11 月中旬上市'],
     ['10-02 10:14','Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H'],
     ['10-02 09:56','deepseek为什么要在此时拥抱华为？'],
     ['10-02 09:29','领导层洗牌后，Argon能否助谷歌重回前沿？'],
     ['10-02 08:53','英伟达黄仁勋将出席：微软预热本月 Surface 发布会，聚焦本地 AI 重塑下一代 PC'],
     ['10-02 08:35','索尼 PlayStation 为标准版 PS5 游戏主机带来轻量级 AI 超分辨率技术 QSSR'],
-    ['10-02 08:34','苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录视频、仅推送文本提醒'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:293999, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:273949, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270735, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216233, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179332, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148875, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294005, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:273954, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270736, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216239, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179334, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148876, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140520, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123103, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108750, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123104, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108751, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100357, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {

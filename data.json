@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-02T10:22:40",
+  "updated": "2026-10-02T10:31:37",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-02T10:24",
+      "t": "冲刺感恩节前挂牌，消息称 Anthropic 寻求最早 11 月中旬上市",
+      "s": "据彭博社今天（2 日）援引知情人士消息称，在推迟原定计划后，Anthropic 寻求最早于 11 月中旬上市。知情人士称…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/237.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-02T10:14",
@@ -73,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-02T07:18",
-      "t": "OpenAI 上线“虚拟试穿”功能：ChatGPT 能帮你试衣，还能找“明星同款”",
-      "s": "当地时间 1 日，OpenAI 再次扩展 ChatGPT 的购物能力。公司宣布在全球推出两项新功能，一项是让用户虚拟试穿…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/197.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-01T23:06",
       "t": "何恺明团队新作：看猫片就能学会ARC挑战",
       "s": "用ImageNet训练encoder（来源：量子位）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-02 10:24",
+      "冲刺感恩节前挂牌，消息称 Anthropic 寻求最早 11 月中旬上市"
+    ],
+    [
       "10-02 10:14",
       "Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H"
     ],
@@ -162,10 +166,6 @@
     [
       "10-02 08:35",
       "索尼 PlayStation 为标准版 PS5 游戏主机带来轻量级 AI 超分辨率技术 QSSR"
-    ],
-    [
-      "10-02 08:34",
-      "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录视频、仅推送文本提醒"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293999,
+      "s": 294005,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273949,
+      "s": 273954,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270735,
+      "s": 270736,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216233,
+      "s": 216239,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179332,
+      "s": 179334,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148875,
+      "s": 148876,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123103,
+      "s": 123104,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108750,
+      "s": 108751,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
