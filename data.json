@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-02T15:32:42",
+  "updated": "2026-10-02T16:07:49",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-02T16:05",
+      "t": "生图模型 FLUX 3 Image 发布：支持 4K 生成，可精准排布 AI 元素",
+      "s": "德国 AI 公司 Black Forest Labs 今天（10 月 2 日）发布公告，宣布推出图像生成 AI 模型 F…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/315.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-02T15:47",
+      "t": "日本法院首次确认声音受法律保护，“AI 声优”涉及侵犯形象权",
+      "s": "当地时间 9 月 30 日，据法新社报道，东京一家法院在日本知名声优津田健次郎起诉 TikTok 的案件中认可了他的主张…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/309.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-02T15:28",
@@ -42,20 +56,6 @@
       "t": "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef",
       "s": "当地时间 10 月 1 日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Cl…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/262.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-02T12:43",
-      "t": "消息称博通着手筹集 600 亿美元，为 Anthropic 等公司采购芯片提供资金",
-      "s": "北京时间今天（2 日）午间，彭博社援引知情人士消息称，为博通安排融资的华尔街银行团开始筹集 600 亿美元（IT之家注：…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/261.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-02T12:10",
-      "t": "自由度 7 → 13：波士顿动力升级 Atlas 机械手，可操控钻头 / 拧螺丝等",
-      "s": "波士顿动力（Boston Dynamics）公司昨日（10 月 1 日）发布公告，宣布升级其高端机器人 Atlas 的机…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/256.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-02 16:05",
+      "生图模型 FLUX 3 Image 发布：支持 4K 生成，可精准排布 AI 元素"
+    ],
+    [
+      "10-02 15:47",
+      "日本法院首次确认声音受法律保护，“AI 声优”涉及侵犯形象权"
+    ],
+    [
       "10-02 15:28",
       "OpenAI 升级 ChatGPT 购物体验，新增 AI 衣服虚拟试穿体验"
     ],
@@ -158,14 +166,6 @@
     [
       "10-02 14:09",
       "AI 灌水稿激增：预印本平台 arXiv 出台新规，每人每月限投 2 篇"
-    ],
-    [
-      "10-02 13:07",
-      "填充 AI 资金弹药：曝 OpenAI 融资再落袋 200 亿美元，英伟达、软银和亚马逊已出资约 90%"
-    ],
-    [
-      "10-02 12:45",
-      "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294103,
+      "s": 294121,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274149,
+      "s": 274173,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270838,
+      "s": 270850,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216382,
+      "s": 216400,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179358,
+      "s": 179364,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148906,
+      "s": 148908,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123156,
+      "s": 123161,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108781,
+      "s": 108785,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100397,
+      "s": 100404,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
