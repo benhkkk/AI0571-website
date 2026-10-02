@@ -1,19 +1,12 @@
 {
-  "updated": "2026-10-02T13:02:26",
+  "updated": "2026-10-02T13:32:15",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-02T13:02",
-      "t": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术",
-      "s": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750693.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-02T13:02",
-      "t": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例",
-      "s": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750625.shtml"
+      "c": "FUNDING",
+      "d": "2026-10-02T13:07",
+      "t": "填充 AI 资金弹药：曝 OpenAI 融资再落袋 200 亿美元，英伟达、软银和亚马逊已出资约 90%",
+      "s": "科技媒体 The Information 今天（10 月 2 日）发布博文，报道称英伟达与软银已分别向 OpenAI 支…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/270.htm"
     },
     {
       "c": "MODEL",
@@ -63,13 +56,6 @@
       "t": "贝恩：全球 AI 行业到 2031 年创造 6 万亿美元年营收，才能证明数据中心价值",
       "s": "9 月 29 日，据彭博社报道，贝恩公司称，要支撑目前全球数据中心建设的巨额资本投入，全球 AI 行业到 2031 年每…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/244.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-02T10:55",
-      "t": "AI 伦理研究：DeepSeek 对男女一视同仁，美系模型却“区别对待”",
-      "s": "科技媒体 Wccftech 昨日（10 月 1 日）发布博文，报道称最新研究显示相比较 Anthropic 的 Clau…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/243.htm"
     },
     {
       "c": "HOT",
@@ -140,16 +126,26 @@
       "t": "腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？",
       "s": "AI公司活成了它们最讨厌的样子。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8157828.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-01T16:05",
+      "t": "江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节",
+      "s": "电力AI具身智能订单爆发，利润滞后，商机藏于配套赛道。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8157844.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-01T16:04",
+      "t": "豪掷82亿美元，芯片巨头押注的世界模型究竟是什么",
+      "s": "当AI开始生成“世界”，影音游内容正在被颠覆。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8157833.html"
     }
   ],
   "timeline": [
     [
-      "10-02 13:02",
-      "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术"
-    ],
-    [
-      "10-02 13:02",
-      "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例"
+      "10-02 13:07",
+      "填充 AI 资金弹药：曝 OpenAI 融资再落袋 200 亿美元，英伟达、软银和亚马逊已出资约 90%"
     ],
     [
       "10-02 12:45",
@@ -166,6 +162,10 @@
     [
       "10-02 12:05",
       "东芝计划将用于 AI 数据中心的机械硬盘产能翻倍，投资约 600 亿日元"
+    ],
+    [
+      "10-02 11:51",
+      "循环交易：博通同意向 Anthropic 提供最高 420 亿美元贷款，用于租赁自家芯片等基础设施开支"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294054,
+      "s": 294068,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274059,
+      "s": 274075,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270780,
+      "s": 270790,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216305,
+      "s": 216317,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179344,
+      "s": 179347,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148888,
+      "s": 148894,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140521,
+      "s": 140523,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123132,
+      "s": 123136,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108764,
+      "s": 108766,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100379,
+      "s": 100381,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
