@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-03T05:31:57",
+  "updated": "2026-10-03T06:02:15",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T06:02",
+      "t": "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型",
+      "s": "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260910/974541.shtml"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-02T21:38",
@@ -133,16 +140,13 @@
       "t": "何恺明团队新作：看猫片就能学会ARC挑战",
       "s": "用ImageNet训练encoder（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/499812.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T23:02",
-      "t": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
-      "s": "价格只有Astra一半（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/499663.html"
     }
   ],
   "timeline": [
+    [
+      "10-03 06:02",
+      "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型"
+    ],
     [
       "10-02 21:38",
       "Meta 旗下 AI 智能体 Muse 将登陆智能眼镜平台，可代用户完成各种任务"
@@ -162,10 +166,6 @@
     [
       "10-02 19:15",
       "Anthropic 招股书警告：美国政府的态度会影响公司与客户的关系，甚至波及人类文明"
-    ],
-    [
-      "10-02 17:48",
-      "荣耀林林：Magic9 系列不会推出 RSR 保时捷设计版本"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294404,
+      "s": 294420,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274642,
+      "s": 274655,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271194,
+      "s": 271228,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216573,
+      "s": 216574,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179402,
+      "s": 179408,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148959,
+      "s": 148961,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140553,
+      "s": 140556,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123315,
+      "s": 123318,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109043,
+      "s": 109051,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100502,
+      "s": 100504,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
