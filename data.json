@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-02T09:31:46",
+  "updated": "2026-10-02T10:02:28",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-02T09:29",
+      "t": "领导层洗牌后，Argon能否助谷歌重回前沿？",
+      "s": "谷歌AI的一场豪赌（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8158081.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-02T08:53",
@@ -18,7 +25,7 @@
     {
       "c": "MODEL",
       "d": "2026-10-02T08:34",
-      "t": "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录不存视频、仅推送文本提醒",
+      "t": "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录视频、仅推送文本提醒",
       "s": "在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果正筹备推出家用智能摄…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/208.htm"
     },
@@ -133,16 +140,13 @@
       "t": "早报｜曝苹果10月13日发布家庭中枢/豆包接入机票和火车票预订/东方甄选溜溜凳双倍退款",
       "s": "· 美光全年营收达 1331.88 亿美元，预计下一季营收 615 亿美元 · 派拉蒙获准完成华纳收购，美泰 CEO 将…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1682780?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T08:31",
-      "t": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
-      "s": "跑分不可思议，能力谨慎怀疑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "10-02 09:29",
+      "领导层洗牌后，Argon能否助谷歌重回前沿？"
+    ],
     [
       "10-02 08:53",
       "英伟达黄仁勋将出席：微软预热本月 Surface 发布会，聚焦本地 AI 重塑下一代 PC"
@@ -153,7 +157,7 @@
     ],
     [
       "10-02 08:34",
-      "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录不存视频、仅推送文本提醒"
+      "苹果首款 AI 智能安防摄像头曝光：金属圆柱造型，不录视频、仅推送文本提醒"
     ],
     [
       "10-02 08:28",
@@ -162,10 +166,6 @@
     [
       "10-02 08:23",
       "古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容"
-    ],
-    [
-      "10-02 08:06",
-      "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293984,
+      "s": 293990,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273924,
+      "s": 273939,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270726,
+      "s": 270729,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216213,
+      "s": 216227,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179329,
+      "s": 179331,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148870,
+      "s": 148873,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123095,
+      "s": 123100,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108746,
+      "s": 108747,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100354,
+      "s": 100357,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
