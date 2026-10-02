@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-02T08:03:55",
+  "updated": "2026-10-02T08:31:57",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-02T08:28",
+      "t": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
+      "s": "华为 Mate90 系列发布，售价 5999 元起 10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mat…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372069"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-02T08:23",
+      "t": "古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容",
+      "s": "在首期 Power On 播客节目中，彭博社的马克 · 古尔曼（Mark Gurman）爆料称，苹果公司首款智能家居中枢…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/206.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-02T08:06",
+      "t": "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险",
+      "s": "据路透社今天（2 日）凌晨报道，加利福尼亚州总检察长罗布 · 邦塔办公室宣布，邦塔本人已向 OpenAI 发出调查传票…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/204.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-02T07:41",
@@ -58,25 +79,11 @@
       "u": "https://www.ithome.com/1/009/161.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-01T22:03",
-      "t": "致敬《终结者 2》：Figure 让 F.02 人形机器人亲自跳入熔炉，采纳施瓦辛格本人提议",
-      "s": "美国初创企业 Figure 今日发布视频，为寿终正寝的 F.02 机器人举行一场“火化仪式”。随着 Figure F.0…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/159.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-01T18:22",
       "t": "三大主业同时失速，《欢迎来龙餐馆》票房爆火能救中国儒意吗？",
       "s": "业绩承压之下，AI叙事仍需兑现成果。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8157613.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-01T18:10",
-      "t": "日本电力巨头 JERA 牵手戴尔等伙伴，将在千叶建设该国最大 AI 数据中心",
-      "s": "日本供电规模最大的电力公司 JERA（捷热）当地时间今日与 Dell（戴尔）、主权人工智能基础设施开发商 RHAELM …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/119.htm"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,21 @@
       "t": "Gemini 4 正式发布，我们终于有了一个写作强于代码的前沿模型",
       "s": "跑分不可思议，能力谨慎怀疑#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1682765?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-01T08:28",
-      "t": "谷歌 Gemini 4 Argon 曝光；中国生成 AI 用户超 7 亿；美光 2026 财年净利暴涨 895%",
-      "s": "苹果即将发布「智能家居中枢」新品 据彭博社报道，苹果公司计划于 10 月 13 日推进其拖延已久的智能家居市场布局，这是…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372064"
     }
   ],
   "timeline": [
+    [
+      "10-02 08:28",
+      "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》"
+    ],
+    [
+      "10-02 08:23",
+      "古尔曼：苹果首款智能家居中枢支持 AI 面部识别，为家人切换呈现专属内容"
+    ],
+    [
+      "10-02 08:06",
+      "加州检察长向 OpenAI 发出传票，调查 AI 网络安全风险"
+    ],
     [
       "10-02 07:41",
       "谷歌首次送先进芯片上天，估算 SpaceX 星舰发射 1800 次才能让太空数据中心“飞起来”"
@@ -154,18 +166,6 @@
     [
       "10-02 07:16",
       "马斯克：为推进 Optimus 机器人量产，特斯拉 AI5 芯片内存用量砍半"
-    ],
-    [
-      "10-02 07:04",
-      "流式转录 AI 新标杆：微软 MAI-Transcribe-2-Streaming 登场，2.5% 词错误率、0.13 秒延迟夺冠"
-    ],
-    [
-      "10-02 07:04",
-      "因违反敏感信息访问和共享规定，OpenAI 与三名研究人员终止合作"
-    ],
-    [
-      "10-01 23:06",
-      "何恺明团队新作：看猫片就能学会ARC挑战"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 293956,
+      "s": 293965,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 273878,
+      "s": 273889,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 270701,
+      "s": 270708,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216185,
+      "s": 216189,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179324,
+      "s": 179326,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148865,
+      "s": 148868,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140516,
+      "s": 140517,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123083,
+      "s": 123084,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 108740,
+      "s": 108743,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100345,
+      "s": 100348,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
