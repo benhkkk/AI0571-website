@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-02T12:10', t:'自由度 7 → 13：波士顿动力升级 Atlas 机械手，可操控钻头 / 拧螺丝等', s:'波士顿动力（Boston Dynamics）公司昨日（10 月 1 日）发布公告，宣布升级其高端机器人 Atlas 的机…（来源：IT之家）', u:'https://www.ithome.com/1/009/256.htm'},
+    {c:'FUNDING', d:'2026-10-02T12:05', t:'东芝计划将用于 AI 数据中心的机械硬盘产能翻倍，投资约 600 亿日元', s:'据日经亚洲报道，伴随人工智能热潮带动的数据存储需求激增，东芝计划在 2027 财年内，将用于 AI 数据中心的机械硬盘 …（来源：IT之家）', u:'https://www.ithome.com/1/009/255.htm'},
     {c:'INDUSTRY', d:'2026-10-02T11:51', t:'循环交易：博通同意向 Anthropic 提供最高 420 亿美元贷款，用于租赁自家芯片等基础设施开支', s:'据路透社报道，Anthropic 的 IPO 招股书披露了其与少数几家大型科技巨头的广泛合作。其中，芯片制造商博通尤为引…（来源：IT之家）', u:'https://www.ithome.com/1/009/253.htm'},
     {c:'MODEL', d:'2026-10-02T11:43', t:'OpenAI 通报逾百家第三方机构，自家智能体存在失控风险', s:'当地时间 9 月 30 日晚，OpenAI 披露，旗下 AI 智能体或曾擅自尝试绕过安全防护，或对百余家机构的系统造成负…（来源：IT之家）', u:'https://www.ithome.com/1/009/251.htm'},
     {c:'INDUSTRY', d:'2026-10-02T10:57', t:'贝恩：全球 AI 行业到 2031 年创造 6 万亿美元年营收，才能证明数据中心价值', s:'9 月 29 日，据彭博社报道，贝恩公司称，要支撑目前全球数据中心建设的巨额资本投入，全球 AI 行业到 2031 年每…（来源：IT之家）', u:'https://www.ithome.com/1/009/244.htm'},
@@ -468,8 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-02T10:14', t:'Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H', s:'机构 Signal65 昨日（10 月 1 日）发布报告，测试显示高通 18 核骁龙 X2 Elite 芯片（具体型号为…（来源：IT之家）', u:'https://www.ithome.com/1/009/235.htm'},
     {c:'HOT', d:'2026-10-02T09:56', t:'deepseek为什么要在此时拥抱华为？', s:'这不是一次适配，这是一次搬家。（来源：钛媒体）', u:'https://www.tmtpost.com/8158082.html'},
     {c:'HOT', d:'2026-10-02T09:29', t:'领导层洗牌后，Argon能否助谷歌重回前沿？', s:'谷歌AI的一场豪赌（来源：钛媒体）', u:'https://www.tmtpost.com/8158081.html'},
-    {c:'MODEL', d:'2026-10-02T08:53', t:'英伟达黄仁勋将出席：微软预热本月 Surface 发布会，聚焦本地 AI 重塑下一代 PC', s:'微软官方开发者账号 @windowsdev 今天（10 月 2 日）在 X 平台发布推文，宣布将于太平洋时间 10 月 …（来源：IT之家）', u:'https://www.ithome.com/1/009/212.htm'},
-    {c:'MODEL', d:'2026-10-02T08:35', t:'索尼 PlayStation 为标准版 PS5 游戏主机带来轻量级 AI 超分辨率技术 QSSR', s:'Sony（索尼）PlayStation 官方当地时间 1 日宣布为标准版 PS5 游戏主机推出基于人工智能的超分辨率 Q…（来源：IT之家）', u:'https://www.ithome.com/1/009/210.htm'},
     {c:'MODEL', d:'2026-10-02T08:28', t:'苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》', s:'华为 Mate90 系列发布，售价 5999 元起 10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mat…（来源：极客公园）', u:'http://www.geekpark.net/news/372069'},
     {c:'MODEL', d:'2026-10-01T23:06', t:'何恺明团队新作：看猫片就能学会ARC挑战', s:'用ImageNet训练encoder（来源：量子位）', u:'https://www.qbitai.com/2026/10/499812.html'},
     {c:'MODEL', d:'2026-10-01T23:02', t:'谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让', s:'价格只有Astra一半（来源：量子位）', u:'https://www.qbitai.com/2026/10/499663.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-01T16:04', t:'豪掷82亿美元，芯片巨头押注的世界模型究竟是什么', s:'当AI开始生成“世界”，影音游内容正在被颠覆。（来源：钛媒体）', u:'https://www.tmtpost.com/8157833.html'},
   ];
   const TIMELINE = [
+    ['10-02 12:10','自由度 7 → 13：波士顿动力升级 Atlas 机械手，可操控钻头 / 拧螺丝等'],
+    ['10-02 12:05','东芝计划将用于 AI 数据中心的机械硬盘产能翻倍，投资约 600 亿日元'],
     ['10-02 11:51','循环交易：博通同意向 Anthropic 提供最高 420 亿美元贷款，用于租赁自家芯片等基础设施开支'],
     ['10-02 11:43','OpenAI 通报逾百家第三方机构，自家智能体存在失控风险'],
     ['10-02 10:57','贝恩：全球 AI 行业到 2031 年创造 6 万亿美元年营收，才能证明数据中心价值'],
     ['10-02 10:55','AI 伦理研究：DeepSeek 对男女一视同仁，美系模型却“区别对待”'],
-    ['10-02 10:32','OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿'],
-    ['10-02 10:24','冲刺感恩节前挂牌，消息称 Anthropic 寻求最早 11 月中旬上市'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294039, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274030, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270761, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216278, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294046, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274049, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270770, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216289, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179341, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148885, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140522, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123126, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108756, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100370, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140521, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123127, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108762, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100374, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
