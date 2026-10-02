@@ -459,6 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-02T13:02', t:'北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术', s:'北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241030/750693.shtml'},
+    {c:'HOT', d:'2026-10-02T13:02', t:'东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例', s:'东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241030/750625.shtml'},
+    {c:'MODEL', d:'2026-10-02T12:45', t:'Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef', s:'当地时间 10 月 1 日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Cl…（来源：IT之家）', u:'https://www.ithome.com/1/009/262.htm'},
+    {c:'FUNDING', d:'2026-10-02T12:43', t:'消息称博通着手筹集 600 亿美元，为 Anthropic 等公司采购芯片提供资金', s:'北京时间今天（2 日）午间，彭博社援引知情人士消息称，为博通安排融资的华尔街银行团开始筹集 600 亿美元（IT之家注：…（来源：IT之家）', u:'https://www.ithome.com/1/009/261.htm'},
     {c:'MODEL', d:'2026-10-02T12:10', t:'自由度 7 → 13：波士顿动力升级 Atlas 机械手，可操控钻头 / 拧螺丝等', s:'波士顿动力（Boston Dynamics）公司昨日（10 月 1 日）发布公告，宣布升级其高端机器人 Atlas 的机…（来源：IT之家）', u:'https://www.ithome.com/1/009/256.htm'},
     {c:'FUNDING', d:'2026-10-02T12:05', t:'东芝计划将用于 AI 数据中心的机械硬盘产能翻倍，投资约 600 亿日元', s:'据日经亚洲报道，伴随人工智能热潮带动的数据存储需求激增，东芝计划在 2027 财年内，将用于 AI 数据中心的机械硬盘 …（来源：IT之家）', u:'https://www.ithome.com/1/009/255.htm'},
     {c:'INDUSTRY', d:'2026-10-02T11:51', t:'循环交易：博通同意向 Anthropic 提供最高 420 亿美元贷款，用于租赁自家芯片等基础设施开支', s:'据路透社报道，Anthropic 的 IPO 招股书披露了其与少数几家大型科技巨头的广泛合作。其中，芯片制造商博通尤为引…（来源：IT之家）', u:'https://www.ithome.com/1/009/253.htm'},
@@ -466,8 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-02T10:57', t:'贝恩：全球 AI 行业到 2031 年创造 6 万亿美元年营收，才能证明数据中心价值', s:'9 月 29 日，据彭博社报道，贝恩公司称，要支撑目前全球数据中心建设的巨额资本投入，全球 AI 行业到 2031 年每…（来源：IT之家）', u:'https://www.ithome.com/1/009/244.htm'},
     {c:'MODEL', d:'2026-10-02T10:55', t:'AI 伦理研究：DeepSeek 对男女一视同仁，美系模型却“区别对待”', s:'科技媒体 Wccftech 昨日（10 月 1 日）发布博文，报道称最新研究显示相比较 Anthropic 的 Clau…（来源：IT之家）', u:'https://www.ithome.com/1/009/243.htm'},
     {c:'HOT', d:'2026-10-02T10:32', t:'OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿', s:'机器智能最大的用武之地，可能是那些枯燥、庞大、重复的执行工作。（来源：钛媒体）', u:'https://www.tmtpost.com/8158249.html'},
-    {c:'FUNDING', d:'2026-10-02T10:24', t:'冲刺感恩节前挂牌，消息称 Anthropic 寻求最早 11 月中旬上市', s:'据彭博社今天（2 日）援引知情人士消息称，在推迟原定计划后，Anthropic 寻求最早于 11 月中旬上市。知情人士称…（来源：IT之家）', u:'https://www.ithome.com/1/009/237.htm'},
-    {c:'MODEL', d:'2026-10-02T10:14', t:'Signal65 报告：高通骁龙 X2 Elite 芯片在 CPU / AI 等方面优于英特尔酷睿 Ultra X7 358H', s:'机构 Signal65 昨日（10 月 1 日）发布报告，测试显示高通 18 核骁龙 X2 Elite 芯片（具体型号为…（来源：IT之家）', u:'https://www.ithome.com/1/009/235.htm'},
     {c:'HOT', d:'2026-10-02T09:56', t:'deepseek为什么要在此时拥抱华为？', s:'这不是一次适配，这是一次搬家。（来源：钛媒体）', u:'https://www.tmtpost.com/8158082.html'},
     {c:'HOT', d:'2026-10-02T09:29', t:'领导层洗牌后，Argon能否助谷歌重回前沿？', s:'谷歌AI的一场豪赌（来源：钛媒体）', u:'https://www.tmtpost.com/8158081.html'},
     {c:'MODEL', d:'2026-10-02T08:28', t:'苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》', s:'华为 Mate90 系列发布，售价 5999 元起 10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mat…（来源：极客公园）', u:'http://www.geekpark.net/news/372069'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-01T18:22', t:'三大主业同时失速，《欢迎来龙餐馆》票房爆火能救中国儒意吗？', s:'业绩承压之下，AI叙事仍需兑现成果。（来源：钛媒体）', u:'https://www.tmtpost.com/8157613.html'},
     {c:'MODEL', d:'2026-10-01T16:16', t:'谷歌推出了个“做题家”：Gemini 4 Argon屠榜，但干活差点意思', s:'消失10个月的谷歌，为什么连Pro这块招牌都扔了？（来源：钛媒体）', u:'https://www.tmtpost.com/8157785.html'},
     {c:'MODEL', d:'2026-10-01T16:16', t:'腾讯经销、字节驻场、Kimi借船：FDE成了大模型的新成本？', s:'AI公司活成了它们最讨厌的样子。（来源：钛媒体）', u:'https://www.tmtpost.com/8157828.html'},
-    {c:'INDUSTRY', d:'2026-10-01T16:05', t:'江苏电力印发“人工智能+”三年行动方案，百亿订单砸向电力机器人，但真正“金矿”在三个不造机器人的环节', s:'电力AI具身智能订单爆发，利润滞后，商机藏于配套赛道。（来源：钛媒体）', u:'https://www.tmtpost.com/8157844.html'},
-    {c:'MODEL', d:'2026-10-01T16:04', t:'豪掷82亿美元，芯片巨头押注的世界模型究竟是什么', s:'当AI开始生成“世界”，影音游内容正在被颠覆。（来源：钛媒体）', u:'https://www.tmtpost.com/8157833.html'},
   ];
   const TIMELINE = [
+    ['10-02 13:02','北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术'],
+    ['10-02 13:02','东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例'],
+    ['10-02 12:45','Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef'],
+    ['10-02 12:43','消息称博通着手筹集 600 亿美元，为 Anthropic 等公司采购芯片提供资金'],
     ['10-02 12:10','自由度 7 → 13：波士顿动力升级 Atlas 机械手，可操控钻头 / 拧螺丝等'],
     ['10-02 12:05','东芝计划将用于 AI 数据中心的机械硬盘产能翻倍，投资约 600 亿日元'],
-    ['10-02 11:51','循环交易：博通同意向 Anthropic 提供最高 420 亿美元贷款，用于租赁自家芯片等基础设施开支'],
-    ['10-02 11:43','OpenAI 通报逾百家第三方机构，自家智能体存在失控风险'],
-    ['10-02 10:57','贝恩：全球 AI 行业到 2031 年创造 6 万亿美元年营收，才能证明数据中心价值'],
-    ['10-02 10:55','AI 伦理研究：DeepSeek 对男女一视同仁，美系模型却“区别对待”'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294046, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274049, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270770, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216289, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179341, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148885, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294054, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274059, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:270780, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216305, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179344, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148888, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140521, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123127, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108762, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100374, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123132, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:108764, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100379, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
