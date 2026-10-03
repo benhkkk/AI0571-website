@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-03T18:32:35",
+  "updated": "2026-10-03T19:02:37",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-03T18:36",
+      "t": "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统",
+      "s": "据央视财经今日报道，近日，杭州市萧山区开展网络餐饮专项整治集群执法行动，101 名执法人员共检查餐饮门店 216 家。据…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/527.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-03T17:53",
@@ -86,13 +93,6 @@
       "u": "https://www.ifanr.com/1682888?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-10-03T14:23",
-      "t": "HPE 获得其首笔 AMD \"Helios\" AI 机架订单，价值 12 亿美元",
-      "s": "HPE（慧与）当地时间 9 月 30 日宣布获得该企业首笔 AMD \"Helios\" AI 机架系统订单。这笔价值 12…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/446.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-03T13:34",
       "t": "不看结构的AI制药公司，拿出了0.94分的成绩单",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-03 18:36",
+      "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统"
+    ],
+    [
       "10-03 17:53",
       "AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求"
     ],
@@ -162,10 +166,6 @@
     [
       "10-03 16:35",
       "LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产"
-    ],
-    [
-      "10-03 15:54",
-      "DeepSeek扩招！弹性计算团队大量HC，尤其需要资深工程师"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294656,
+      "s": 294668,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274971,
+      "s": 274988,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271685,
+      "s": 271716,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216639,
+      "s": 216643,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179465,
+      "s": 179469,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149023,
+      "s": 149026,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123416,
+      "s": 123420,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109280,
+      "s": 109288,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100645,
+      "s": 100647,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
