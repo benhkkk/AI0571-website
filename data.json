@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-03T12:31:53",
+  "updated": "2026-10-03T13:02:05",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T12:53",
+      "t": "10 月 9 日起，未订阅用户仅能使用谷歌 Gemini Flash-Lite 模型",
+      "s": "谷歌 Gemini 应用帮助中心显示，自 2026 年 10 月起，使用个人账号访问 Gemini 应用时，模型可用情况…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/431.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T12:38",
+      "t": "OpenAI 自研 AI 芯片 Jalapeño ASIC 量产部署，因“务实”选择搭配 AMD Turin",
+      "s": "科技媒体 Tom's Hardware 昨日（10 月 2 日）发布博文，报道称 OpenAI 公司已内部部署其自研 J…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/430.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-03T12:19",
@@ -72,20 +86,6 @@
       "u": "https://www.ithome.com/1/009/389.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-03T08:10",
-      "t": "微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统",
-      "s": "科技媒体 Windows Latest 今天（10 月 3 日）发布博文，报道称微软首席执行官萨蒂亚 · 纳德拉（Sat…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/386.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-03T08:08",
-      "t": "OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职",
-      "s": "据《商业内幕》报道，当地时间 2 日，OpenAI 一名发言人证实，OpenAI 安全系统团队负责人之一戴维 · 罗宾逊…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/385.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-03T07:32",
       "t": "四季度投资策略3:AI制药颠覆世界",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-03 12:53",
+      "10 月 9 日起，未订阅用户仅能使用谷歌 Gemini Flash-Lite 模型"
+    ],
+    [
+      "10-03 12:38",
+      "OpenAI 自研 AI 芯片 Jalapeño ASIC 量产部署，因“务实”选择搭配 AMD Turin"
+    ],
+    [
       "10-03 12:19",
       "曝美国陆军着手组建自主系统司令部，推动机器人进入技术未来战争"
     ],
@@ -158,14 +166,6 @@
     [
       "10-03 10:38",
       "Jev估值100亿美元！创始人Diogo Almeida回答一切"
-    ],
-    [
-      "10-03 10:27",
-      "消息称亚马逊考虑剥离并回租 80 亿美元英伟达 Grace Blackwell AI 芯片"
-    ],
-    [
-      "10-03 09:38",
-      "大模型一体机，开始缩水了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294526,
+      "s": 294528,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274805,
+      "s": 274811,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271453,
+      "s": 271465,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216606,
+      "s": 216610,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179430,
+      "s": 179432,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148997,
+      "s": 148999,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140568,
+      "s": 140570,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123365,
+      "s": 123370,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109167,
+      "s": 109176,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100578,
+      "s": 100587,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
