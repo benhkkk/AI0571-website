@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-03T17:02:23",
+  "updated": "2026-10-03T17:32:19",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T17:18",
+      "t": "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备",
+      "s": "小艺帮帮忙智能体是 HarmonyOS 6.0 上推出的探索性智能体。华为官网显示，因业务调整，小艺帮帮忙智能体将不再支…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/516.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-03T16:50",
@@ -79,13 +86,6 @@
       "u": "https://www.ithome.com/1/009/444.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-03T14:01",
-      "t": "将语音与音乐作为单一连贯音轨共同生成，AI 音乐制作平台 Suno 推出 Speech 语音功能",
-      "s": "当地时间 10 月 1 日，AI 音乐制作平台 Suno 宣布推出 Speech，Suno 宣称这是业界首个能够将语音与…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/440.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-03T13:34",
       "t": "不看结构的AI制药公司，拿出了0.94分的成绩单",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-03 17:18",
+      "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备"
+    ],
+    [
       "10-03 16:50",
       "亚马逊推出 Strands Decider 2B 开源决策模型，支持本地部署"
     ],
@@ -162,10 +166,6 @@
     [
       "10-03 15:44",
       "硅含量达 40%，冠宇电芯及电池包首发配套荣耀 Magic 9 Pro Max"
-    ],
-    [
-      "10-03 15:23",
-      "AI制药+CRO:产业链10家硬核布局的公司"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294621,
+      "s": 294632,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274930,
+      "s": 274939,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271633,
+      "s": 271649,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216630,
+      "s": 216631,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179454,
+      "s": 179462,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149020,
+      "s": 149021,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123399,
+      "s": 123407,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109243,
+      "s": 109259,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100632,
+      "s": 100639,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
