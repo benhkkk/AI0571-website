@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-03T10:27', t:'消息称亚马逊考虑剥离并回租 80 亿美元英伟达 Grace Blackwell AI 芯片', s:'《金融时报》昨日报道称，Amazon（亚马逊）正寻求将价值约 80 亿美元（IT之家注：现汇率约合 537.15 亿元人…（来源：IT之家）', u:'https://www.ithome.com/1/009/407.htm'},
     {c:'MODEL', d:'2026-10-03T09:38', t:'大模型一体机，开始缩水了', s:'大模型一体机市场，劈成了两半。（来源：钛媒体）', u:'https://www.tmtpost.com/8158443.html'},
     {c:'HOT', d:'2026-10-03T09:30', t:'Edge AI Daily 早报（10月3日）', s:'洛克希德将F-35核心算法交予OpenAI，军事AI关键转折；白宫签署AI自愿承诺但出现拼写错误，治理实效受质疑；谷歌高…（来源：钛媒体）', u:'https://www.tmtpost.com/8158562.html'},
     {c:'HOT', d:'2026-10-03T09:17', t:'英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文', s:'英伟达股价创新高，逼近 6 万亿美元 英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美…（来源：极客公园）', u:'http://www.geekpark.net/news/372070'},
@@ -470,7 +471,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-03T07:47', t:'苹果收紧 macOS 27 等完全磁盘访问权限，降低 AI 智能体操控风险', s:'苹果开发者网站昨日（10 月 2 日）发布公告，宣布将升级 macOS 27 等系统的隐私管控，要求用户通过更明确的操作…（来源：IT之家）', u:'https://www.ithome.com/1/009/381.htm'},
     {c:'MODEL', d:'2026-10-03T07:34', t:'苹果 homeOS 前瞻：整合 iOS / iPadOS / watchOS 特性，主打 Siri AI 交互', s:'科技媒体 9to5Mac 昨日（10 月 2 日）发布博文，综合彭博社马克 · 古尔曼（Mark Gurman）、@it…（来源：IT之家）', u:'https://www.ithome.com/1/009/380.htm'},
     {c:'MEDPHARMA', d:'2026-10-03T07:32', t:'四季度投资策略3:AI制药颠覆世界', s:'四季度投资策略3:AI制药颠覆世界（来源：头条医药AI）', u:'https://www.toutiao.com/article/7692217033378759203/'},
-    {c:'INDUSTRY', d:'2026-10-03T07:03', t:'Anthropic 拟斥资 1 亿美元培训万名工程师，破解企业 AI 落地“人才荒”', s:'Anthropic 计划投入 1 亿美元（IT之家注：现汇率约合 6.71 亿元人民币）培训 1 万名工程师，帮助企业把…（来源：IT之家）', u:'https://www.ithome.com/1/009/376.htm'},
     {c:'MEDPHARMA', d:'2026-10-02T19:34', t:'AI制药风口下,83%毛利率的“卖水人”百普赛斯二闯港股', s:'AI制药风口下,83%毛利率的“卖水人”百普赛斯二闯港股（来源：头条医药AI）', u:'https://www.toutiao.com/article/7692032094725243411/'},
     {c:'HOT', d:'2026-10-02T16:50', t:'AI杀不死咨询公司', s:'下一代咨询公司真正值钱的能力是什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8158278.html'},
     {c:'MODEL', d:'2026-10-02T15:34', t:'openJiuwen X-Router自演进模型路由技术首发，昇腾亲和，Agent越跑越省，实测减少50+%Token消耗', s:'让每一次请求选对模型，让每一次反馈都成为下一次更优、更省的选择（来源：量子位）', u:'https://www.qbitai.com/2026/10/500098.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-02T09:29', t:'领导层洗牌后，Argon能否助谷歌重回前沿？', s:'谷歌AI的一场豪赌（来源：钛媒体）', u:'https://www.tmtpost.com/8158081.html'},
   ];
   const TIMELINE = [
+    ['10-03 10:27','消息称亚马逊考虑剥离并回租 80 亿美元英伟达 Grace Blackwell AI 芯片'],
     ['10-03 09:38','大模型一体机，开始缩水了'],
     ['10-03 09:30','Edge AI Daily 早报（10月3日）'],
     ['10-03 09:17','英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文'],
     ['10-03 08:57','OpenAI 披露：澳大利亚又一政府机构遭失控智能体入侵'],
     ['10-03 08:32','特朗普提出将“AI”改称“SI”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%'],
-    ['10-03 08:10','微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294486, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274739, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:271388, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216592, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179419, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148983, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140561, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123350, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:109113, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100548, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294492, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274753, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:271398, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216594, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179420, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148987, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140562, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123352, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:109125, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100555, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
