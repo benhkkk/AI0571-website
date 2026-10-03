@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-03T07:53:56",
+  "updated": "2026-10-03T08:03:13",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-10-03T07:53",
+      "d": "2026-10-03T08:03",
       "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
       "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-10-03T07:53",
+      "d": "2026-10-03T08:03",
       "t": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解",
       "s": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260119/870376.shtml"
@@ -128,27 +128,27 @@
       "u": "https://www.tmtpost.com/8158081.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-10-02T09:17",
-      "t": "上篇|十五五里的AI制药:它到底是什么?",
-      "s": "上篇|十五五里的AI制药:它到底是什么?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7691871795477234199/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-02T08:28",
       "t": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
       "s": "华为 Mate90 系列发布，售价 5999 元起 10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mat…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372069"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-01T23:06",
+      "t": "何恺明团队新作：看猫片就能学会ARC挑战",
+      "s": "用ImageNet训练encoder（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/499812.html"
     }
   ],
   "timeline": [
     [
-      "10-03 07:53",
+      "10-03 08:03",
       "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
     ],
     [
-      "10-03 07:53",
+      "10-03 08:03",
       "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294444,
+      "s": 294449,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274689,
+      "s": 274690,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271301,
+      "s": 271307,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 148971,
+      "s": 148972,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109088,
+      "s": 109092,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100521,
+      "s": 100522,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
