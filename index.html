@@ -459,9 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-03T09:38', t:'大模型一体机，开始缩水了', s:'大模型一体机市场，劈成了两半。（来源：钛媒体）', u:'https://www.tmtpost.com/8158443.html'},
+    {c:'HOT', d:'2026-10-03T09:30', t:'Edge AI Daily 早报（10月3日）', s:'洛克希德将F-35核心算法交予OpenAI，军事AI关键转折；白宫签署AI自愿承诺但出现拼写错误，治理实效受质疑；谷歌高…（来源：钛媒体）', u:'https://www.tmtpost.com/8158562.html'},
     {c:'HOT', d:'2026-10-03T09:17', t:'英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文', s:'英伟达股价创新高，逼近 6 万亿美元 英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美…（来源：极客公园）', u:'http://www.geekpark.net/news/372070'},
     {c:'MODEL', d:'2026-10-03T08:57', t:'OpenAI 披露：澳大利亚又一政府机构遭失控智能体入侵', s:'据澳大利亚广播公司当地时间 10 月 2 日报道，澳大利亚新南威尔士州政府网站遭到了失控的 OpenAI 智能体侵入。当…（来源：IT之家）', u:'https://www.ithome.com/1/009/390.htm'},
-    {c:'HOT', d:'2026-10-03T08:32', t:'特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%', s:'据英国 BBC 当地时间 1 日报道，斯洛文尼亚国家域名注册机构 Register.si 称，美国总统唐纳德 · 特朗普…（来源：IT之家）', u:'https://www.ithome.com/1/009/389.htm'},
+    {c:'HOT', d:'2026-10-03T08:32', t:'特朗普提出将“AI”改称“SI”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%', s:'据英国 BBC 当地时间 1 日报道，斯洛文尼亚国家域名注册机构 Register.si 称，美国总统唐纳德 · 特朗普…（来源：IT之家）', u:'https://www.ithome.com/1/009/389.htm'},
     {c:'MODEL', d:'2026-10-03T08:10', t:'微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统', s:'科技媒体 Windows Latest 今天（10 月 3 日）发布博文，报道称微软首席执行官萨蒂亚 · 纳德拉（Sat…（来源：IT之家）', u:'https://www.ithome.com/1/009/386.htm'},
     {c:'HOT', d:'2026-10-03T08:08', t:'OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职', s:'据《商业内幕》报道，当地时间 2 日，OpenAI 一名发言人证实，OpenAI 安全系统团队负责人之一戴维 · 罗宾逊…（来源：IT之家）', u:'https://www.ithome.com/1/009/385.htm'},
     {c:'FUNDING', d:'2026-10-03T07:50', t:'IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 OLED 屏 MacBook...', s:'“IT早报”时间，大家好，现在是 2026 年 10 月 3 日星期六，今天的重要科技资讯有：1. 三星上调 Galax…（来源：IT之家）', u:'https://www.ithome.com/1/009/382.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-02T10:32', t:'OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿', s:'机器智能最大的用武之地，可能是那些枯燥、庞大、重复的执行工作。（来源：钛媒体）', u:'https://www.tmtpost.com/8158249.html'},
     {c:'HOT', d:'2026-10-02T09:56', t:'deepseek为什么要在此时拥抱华为？', s:'这不是一次适配，这是一次搬家。（来源：钛媒体）', u:'https://www.tmtpost.com/8158082.html'},
     {c:'HOT', d:'2026-10-02T09:29', t:'领导层洗牌后，Argon能否助谷歌重回前沿？', s:'谷歌AI的一场豪赌（来源：钛媒体）', u:'https://www.tmtpost.com/8158081.html'},
-    {c:'MEDPHARMA', d:'2026-10-02T09:17', t:'上篇|十五五里的AI制药:它到底是什么?', s:'上篇|十五五里的AI制药:它到底是什么?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7691871795477234199/'},
-    {c:'MODEL', d:'2026-10-02T08:28', t:'苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》', s:'华为 Mate90 系列发布，售价 5999 元起 10 月 1 日，华为 Mate90 系列手机正式发布。华为 Mat…（来源：极客公园）', u:'http://www.geekpark.net/news/372069'},
   ];
   const TIMELINE = [
+    ['10-03 09:38','大模型一体机，开始缩水了'],
+    ['10-03 09:30','Edge AI Daily 早报（10月3日）'],
     ['10-03 09:17','英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文'],
     ['10-03 08:57','OpenAI 披露：澳大利亚又一政府机构遭失控智能体入侵'],
-    ['10-03 08:32','特朗普提出将“人工智能”改称“超级智能”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%'],
+    ['10-03 08:32','特朗普提出将“AI”改称“SI”后，斯洛文尼亚“.si”域名注册量环比暴增 2100%'],
     ['10-03 08:10','微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统'],
-    ['10-03 08:08','OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职'],
-    ['10-03 07:50','IT早报 1003：三星上调国行 S26 售价；问界 M6 推 3 年 0 息购车方案；曝 Anthropic 最早 11 月中旬上市；苹果预计本月发布触控 O…'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294474, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274724, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:271366, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216584, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179418, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148980, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140559, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123348, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:109109, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100542, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294486, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:274739, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:271388, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216592, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179419, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:148983, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140561, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123350, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:109113, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100548, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
