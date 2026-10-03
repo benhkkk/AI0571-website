@@ -1,20 +1,6 @@
 {
-  "updated": "2026-10-04T02:32:08",
+  "updated": "2026-10-04T03:02:36",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-10-04T02:32",
-      "t": "#2024人工智能+仪器",
-      "s": "#2024人工智能+仪器（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-621.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-04T02:32",
-      "t": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维",
-      "s": "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241209/758413.shtml"
-    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-03T21:56",
@@ -140,17 +126,23 @@
       "t": "OpenAI安全团队持续地震！负责人离职，三名员工因泄密被开",
       "s": "又咋啦。。。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501368.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-03T10:38",
+      "t": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
+      "s": "Jev估值100亿美元！创始人Diogo Almeida回答一切（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/500148.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T09:38",
+      "t": "大模型一体机，开始缩水了",
+      "s": "大模型一体机市场，劈成了两半。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8158443.html"
     }
   ],
   "timeline": [
-    [
-      "10-04 02:32",
-      "#2024人工智能+仪器"
-    ],
-    [
-      "10-04 02:32",
-      "人工智能是推动智慧实验室发展的关键力量—访上海昂林科学仪器股份有限公司董事长郭少维"
-    ],
     [
       "10-03 21:56",
       "AI制药和AI视频，哪个赛道更具有爆发力?"
@@ -166,6 +158,14 @@
     [
       "10-03 18:12",
       "再创佳绩！爱奇艺《灵魂摆渡》“浮生梦”系列AIGC网络故事片分账票房破千万"
+    ],
+    [
+      "10-03 17:53",
+      "AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求"
+    ],
+    [
+      "10-03 17:33",
+      "AI正在造AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294824,
+      "s": 294835,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275237,
+      "s": 275253,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272052,
+      "s": 272072,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149142,
+      "s": 149152,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123497,
+      "s": 123503,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109444,
+      "s": 109449,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100777,
+      "s": 100783,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
