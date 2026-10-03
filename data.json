@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-03T20:02:54",
+  "updated": "2026-10-03T20:32:38",
   "news": [
-    {
-      "c": "MODEL",
-      "d": "2026-10-03T20:02",
-      "t": "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型",
-      "s": "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260910/974541.shtml"
-    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-03T18:37",
@@ -21,6 +14,13 @@
       "t": "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统",
       "s": "据央视财经今日报道，近日，杭州市萧山区开展网络餐饮专项整治集群执法行动，101 名执法人员共检查餐饮门店 216 家。据…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/527.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T18:12",
+      "t": "再创佳绩！爱奇艺《灵魂摆渡》“浮生梦”系列AIGC网络故事片分账票房破千万",
+      "s": "10月3日，爱奇艺、长信传媒出品《灵魂摆渡》“浮生梦”系列AIGC网络故事片累计分账票房正式突破1000万元！ 该系列前…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html"
     },
     {
       "c": "HOT",
@@ -144,16 +144,16 @@
   ],
   "timeline": [
     [
-      "10-03 20:02",
-      "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型"
-    ],
-    [
       "10-03 18:37",
       "中信建投:AI制药产业链投资机遇"
     ],
     [
       "10-03 18:36",
       "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统"
+    ],
+    [
+      "10-03 18:12",
+      "再创佳绩！爱奇艺《灵魂摆渡》“浮生梦”系列AIGC网络故事片分账票房破千万"
     ],
     [
       "10-03 17:53",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294687,
+      "s": 294703,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275024,
+      "s": 275041,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271757,
+      "s": 271780,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216651,
+      "s": 216657,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179479,
+      "s": 179481,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149038,
+      "s": 149044,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140585,
+      "s": 140587,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123426,
+      "s": 123433,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109307,
+      "s": 109317,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100662,
+      "s": 100674,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
