@@ -1,19 +1,19 @@
 {
-  "updated": "2026-10-03T08:03:13",
+  "updated": "2026-10-03T08:32:45",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-03T08:03",
-      "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
-      "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
+      "c": "MODEL",
+      "d": "2026-10-03T08:10",
+      "t": "微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统",
+      "s": "科技媒体 Windows Latest 今天（10 月 3 日）发布博文，报道称微软首席执行官萨蒂亚 · 纳德拉（Sat…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/386.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-03T08:03",
-      "t": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解",
-      "s": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260119/870376.shtml"
+      "c": "HOT",
+      "d": "2026-10-03T08:08",
+      "t": "OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职",
+      "s": "据《商业内幕》报道，当地时间 2 日，OpenAI 一名发言人证实，OpenAI 安全系统团队负责人之一戴维 · 罗宾逊…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/385.htm"
     },
     {
       "c": "FUNDING",
@@ -66,20 +66,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-02T20:22",
-      "t": "湖北智能家居国补范围扩大，机器人、数码相机、无人机、血压仪等可补贴 15%",
-      "s": "为贯彻落实《商务部等 8 部门关于加快“人工智能 + 消费”发展的实施意见》有关要求，进一步释放湖北省智能终端产品消费潜…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/349.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-02T19:15",
-      "t": "Anthropic 招股书警告：美国政府的态度会影响公司与客户的关系，甚至波及人类文明",
-      "s": "路透社今天（2 日）公布的 Anthropic IPO 招股书中提出了一条警告：美国政府对公司及其技术的态度不仅会影响政…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/343.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-02T16:50",
       "t": "AI杀不死咨询公司",
       "s": "下一代咨询公司真正值钱的能力是什么？（来源：钛媒体）",
@@ -128,6 +114,13 @@
       "u": "https://www.tmtpost.com/8158081.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-02T09:17",
+      "t": "上篇|十五五里的AI制药:它到底是什么?",
+      "s": "上篇|十五五里的AI制药:它到底是什么?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7691871795477234199/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-02T08:28",
       "t": "苹果首款触屏 Macbook 或 10 月发布；AI 能力成本三年下降数千倍创纪录；美人形机器人跳入熔炉，致敬《终结者 2》",
@@ -140,16 +133,23 @@
       "t": "何恺明团队新作：看猫片就能学会ARC挑战",
       "s": "用ImageNet训练encoder（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/499812.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-01T23:02",
+      "t": "谷歌Gemini 4突然发布！RSI加持，GPT和Opus都让让",
+      "s": "价格只有Astra一半（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/499663.html"
     }
   ],
   "timeline": [
     [
-      "10-03 08:03",
-      "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
+      "10-03 08:10",
+      "微软 CEO 纳德拉重申 Copilot AI 定位：面向工作的新操作系统"
     ],
     [
-      "10-03 08:03",
-      "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解"
+      "10-03 08:08",
+      "OpenAI 内部动荡加剧之际，又一名安全负责人戴维 · 罗宾逊离职"
     ],
     [
       "10-03 07:50",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294449,
+      "s": 294456,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 274690,
+      "s": 274701,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271307,
+      "s": 271331,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216578,
+      "s": 216580,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140556,
+      "s": 140557,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123336,
+      "s": 123339,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109092,
+      "s": 109096,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100522,
+      "s": 100528,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
