@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-04T03:02:36",
+  "updated": "2026-10-04T03:32:18",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-04T03:32",
+      "t": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效",
+      "s": "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260115/869495.shtml"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-03T21:56",
@@ -133,16 +140,13 @@
       "t": "Jev估值100亿美元！创始人Diogo Almeida回答一切",
       "s": "Jev估值100亿美元！创始人Diogo Almeida回答一切（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/500148.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-03T09:38",
-      "t": "大模型一体机，开始缩水了",
-      "s": "大模型一体机市场，劈成了两半。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8158443.html"
     }
   ],
   "timeline": [
+    [
+      "10-04 03:32",
+      "JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效"
+    ],
     [
       "10-03 21:56",
       "AI制药和AI视频，哪个赛道更具有爆发力?"
@@ -162,10 +166,6 @@
     [
       "10-03 17:53",
       "AMD 出样 Versal AI Core XQRVC1902 自适应 SoC，满足 15 年太空任务要求"
-    ],
-    [
-      "10-03 17:33",
-      "AI正在造AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294835,
+      "s": 294843,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275253,
+      "s": 275269,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272072,
+      "s": 272087,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216685,
+      "s": 216688,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179510,
+      "s": 179515,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149152,
+      "s": 149156,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140616,
+      "s": 140618,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123503,
+      "s": 123512,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109449,
+      "s": 109454,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100783,
+      "s": 100791,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
