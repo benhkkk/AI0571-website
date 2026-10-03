@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-03T19:32:14",
+  "updated": "2026-10-03T20:02:54",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T20:02",
+      "t": "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型",
+      "s": "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260910/974541.shtml"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-03T18:37",
@@ -133,16 +140,13 @@
       "t": "Edge AI Daily 早报（10月3日）",
       "s": "洛克希德将F-35核心算法交予OpenAI，军事AI关键转折；白宫签署AI自愿承诺但出现拼写错误，治理实效受质疑；谷歌高…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8158562.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-03T09:17",
-      "t": "英伟达股价创新高，逼近 6 万亿美元；限制 AI 助手，苹果收紧 MacOS 磁盘访问权限；arXiv 每人每月仅允许投递 2 篇论文",
-      "s": "英伟达股价创新高，逼近 6 万亿美元 英伟达股价自 5 月以来首次创下历史新高，在两个月的抛售导致市值蒸发逾 1 万亿美…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372070"
     }
   ],
   "timeline": [
+    [
+      "10-03 20:02",
+      "光子精密 AI 旗舰店上线｜一站式精密视觉检测选型"
+    ],
     [
       "10-03 18:37",
       "中信建投:AI制药产业链投资机遇"
@@ -162,10 +166,6 @@
     [
       "10-03 17:18",
       "华为 HarmonyOS 7.0 小艺帮帮忙智能体功能调整，将不再支持后续新增的设备"
-    ],
-    [
-      "10-03 16:50",
-      "亚马逊推出 Strands Decider 2B 开源决策模型，支持本地部署"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294674,
+      "s": 294687,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275001,
+      "s": 275024,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 271736,
+      "s": 271757,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216647,
+      "s": 216651,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179475,
+      "s": 179479,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149029,
+      "s": 149038,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140584,
+      "s": 140585,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123422,
+      "s": 123426,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109298,
+      "s": 109307,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100654,
+      "s": 100662,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
