@@ -1,26 +1,33 @@
 {
-  "updated": "2026-10-04T06:02:56",
+  "updated": "2026-10-04T06:32:03",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-04T06:01",
-      "t": "#AI for MS",
-      "s": "#AI for MS（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-755.html"
+      "c": "INDUSTRY",
+      "d": "2026-10-04T06:31",
+      "t": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平",
+      "s": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250529/787176.shtml"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-10-04T06:01",
-      "t": "下一代质谱软件，会不会像DeepSeek一样工作？",
-      "s": "下一代质谱软件，会不会像DeepSeek一样工作？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260714/940118.shtml"
+      "c": "MEDPHARMA",
+      "d": "2026-10-04T06:31",
+      "t": "#AI4FCM(AI+流式细胞术)",
+      "s": "#AI4FCM(AI+流式细胞术)（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/topic-885.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-04T06:01",
-      "t": "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析",
-      "s": "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20251205/858901.shtml"
+      "c": "FUNDING",
+      "d": "2026-10-04T06:31",
+      "t": "3i流式新品|AI流式VisionSort在中国正式上市",
+      "s": "3i流式新品|AI流式VisionSort在中国正式上市（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20241026/749940.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-04T06:31",
+      "t": "3i流式驿站|ThinkCyte布局AI流式细胞分析，普瑞麦迪为中国区总代理",
+      "s": "3i流式驿站|ThinkCyte布局AI流式细胞分析，普瑞麦迪为中国区总代理（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20231008/686678.shtml"
     },
     {
       "c": "MEDPHARMA",
@@ -133,27 +140,24 @@
       "t": "AI 视频榜全球第二，藏着一家新影视公司的野心",
       "s": "一家影视公司，杀进了视频模型的决赛圈#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1682888?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-03T13:34",
-      "t": "不看结构的AI制药公司，拿出了0.94分的成绩单",
-      "s": "不看结构的AI制药公司，拿出了0.94分的成绩单（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7692306666766778895/"
     }
   ],
   "timeline": [
     [
-      "10-04 06:01",
-      "#AI for MS"
+      "10-04 06:31",
+      "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平"
     ],
     [
-      "10-04 06:01",
-      "下一代质谱软件，会不会像DeepSeek一样工作？"
+      "10-04 06:31",
+      "#AI4FCM(AI+流式细胞术)"
     ],
     [
-      "10-04 06:01",
-      "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析"
+      "10-04 06:31",
+      "3i流式新品|AI流式VisionSort在中国正式上市"
+    ],
+    [
+      "10-04 06:31",
+      "3i流式驿站|ThinkCyte布局AI流式细胞分析，普瑞麦迪为中国区总代理"
     ],
     [
       "10-03 21:56",
@@ -162,10 +166,6 @@
     [
       "10-03 18:37",
       "中信建投:AI制药产业链投资机遇"
-    ],
-    [
-      "10-03 18:36",
-      "AI 自动识别后厨违规行为，浙江 19.5 万家外卖商家接入系统"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294883,
+      "s": 294891,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275316,
+      "s": 275324,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272175,
+      "s": 272193,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216706,
+      "s": 216708,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,48 +205,48 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179526,
+      "s": 179527,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
     {
       "n": 6,
-      "r": "Shubhamsaboo/awesome-llm-apps",
-      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140630,
-      "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "r": "anthropics/claude-code",
+      "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
+      "s": 149202,
+      "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
     {
       "n": 7,
-      "r": "Graphify-Labs/graphify",
-      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123542,
-      "u": "https://github.com/Graphify-Labs/graphify",
+      "r": "Shubhamsaboo/awesome-llm-apps",
+      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "s": 140631,
+      "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
     {
       "n": 8,
-      "r": "JuliusBrussee/caveman",
-      "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109501,
-      "u": "https://github.com/JuliusBrussee/caveman",
+      "r": "Graphify-Labs/graphify",
+      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
+      "s": 123544,
+      "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
     {
       "n": 9,
-      "r": "addyosmani/agent-skills",
-      "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100810,
-      "u": "https://github.com/addyosmani/agent-skills",
+      "r": "JuliusBrussee/caveman",
+      "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
+      "s": 109502,
+      "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
     {
       "n": 10,
-      "r": "tt-a1i/archify",
-      "d": "Agent skill for beautiful, verifiable architecture, workflow, sequence, data-flow, and lif…",
-      "s": 76725,
-      "u": "https://github.com/tt-a1i/archify",
+      "r": "addyosmani/agent-skills",
+      "d": "Production-grade engineering skills for AI coding agents.",
+      "s": 100814,
+      "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
   ]
