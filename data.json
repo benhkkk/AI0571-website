@@ -1,16 +1,9 @@
 {
-  "updated": "2026-10-05T06:02:15",
+  "updated": "2026-10-05T06:32:02",
   "news": [
     {
-      "c": "MODEL",
-      "d": "2026-10-05T06:02",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
-    },
-    {
       "c": "MEDPHARMA",
-      "d": "2026-10-05T06:02",
+      "d": "2026-10-05T06:31",
       "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
       "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
@@ -140,15 +133,18 @@
       "t": "点头、抢话、会脸红，一半人分辨不出这是位「AI 小姐姐」",
       "s": "作者｜宇航猿 编辑｜靖宇 一个男人对着镜头拧魔方，屏幕里的女孩盯着他手上的动作，时不时点头，提醒他下一步该转哪一面。他卡…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372075"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-04T13:16",
+      "t": "Claude Code 的「乐高」模式，让程序员彻底玩「上头」了",
+      "s": "作者｜Wildcard 编辑｜靖宇 终端向来是程序员最严肃的地盘。黑底白字，光标跳动，每一行输出都关乎代码能不能跑通。 …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372074"
     }
   ],
   "timeline": [
     [
-      "10-05 06:02",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
-    ],
-    [
-      "10-05 06:02",
+      "10-05 06:31",
       "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
     ],
     [
@@ -166,6 +162,10 @@
     [
       "10-04 21:20",
       "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”"
+    ],
+    [
+      "10-04 20:27",
+      "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295266,
+      "s": 295272,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276112,
+      "s": 276125,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272901,
+      "s": 272921,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216856,
+      "s": 216857,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179646,
+      "s": 179648,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149414,
+      "s": 149418,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140715,
+      "s": 140716,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123774,
+      "s": 123776,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101185,
+      "s": 101192,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
