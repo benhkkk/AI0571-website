@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-04T23:02:40",
+  "updated": "2026-10-04T23:32:42",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-04T23:22",
+      "t": "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动",
+      "s": "据 tomshardware 今日报道，一家机器人格斗公司在旧金山举办了一场人机格斗赛后，收到了加州政府发来的停止侵权禁…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/736.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-04T21:20",
@@ -63,13 +70,6 @@
       "t": "国内首部 AIGC 长剧《后西游记》再上新，战天宫篇今日开播",
       "s": "今日，国内首部 AIGC 长剧《后西游记》再上新。10 月 4 日起，第一季 · 战天宫篇将在湖南卫视、芒果 TV 双平…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/666.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-04T16:17",
-      "t": "英伟达与鸿海展示自动化成果，机器人组装 GB300 的母线成功率超 95%",
-      "s": "据台媒经济日报，英伟达与鸿海首次对外展示了利用机器人制造设备的成果。针对英伟达 GB300 的母线（Busbar，也叫汇…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/665.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-04 23:22",
+      "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动"
+    ],
+    [
       "10-04 21:20",
       "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”"
     ],
@@ -162,10 +166,6 @@
     [
       "10-04 18:04",
       "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI"
-    ],
-    [
-      "10-04 17:33",
-      "语音开黑平台 Discord 将引入“游戏模式”，开启后可降低应用 CPU / GPU 占用"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295152,
+      "s": 295164,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275800,
+      "s": 275832,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272668,
+      "s": 272681,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216807,
+      "s": 216815,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179598,
+      "s": 179602,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149373,
+      "s": 149376,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140693,
+      "s": 140697,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123705,
+      "s": 123707,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109739,
+      "s": 109745,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101046,
+      "s": 101058,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
