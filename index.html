@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-10-04T13:02', t:'参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会', s:'参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260920/981782.shtml'},
+    {c:'INDUSTRY', d:'2026-10-04T13:02', t:'米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案', s:'米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260113/868798.shtml'},
+    {c:'HOT', d:'2026-10-04T12:32', t:'余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产 381 款 τ 芯片', s:'在今年 5 月的 2026 国际电路与系统研讨会上，华为公司董事、半导体业务部总裁何庭波在主旨演讲中首次提出半导体全新演…（来源：IT之家）', u:'https://www.ithome.com/1/009/638.htm'},
     {c:'HOT', d:'2026-10-04T11:50', t:'无人机已经是优等生，机器人为什么还要载人', s:'机器人终究没有放过欢乐谷，很多人看到了关羽骑着机器牛马招摇过市，只不过，这速度还没我奶奶遛弯快？（来源：钛媒体）', u:'https://www.tmtpost.com/8158866.html'},
     {c:'HOT', d:'2026-10-04T11:45', t:'马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停', s:'据路透社报道，埃隆 · 马斯克旗下的 xAI 于当地时间本周五成功说服美国一家联邦上诉法院，叫停明尼苏达州的全美首个 A…（来源：IT之家）', u:'https://www.ithome.com/1/009/631.htm'},
     {c:'FUNDING', d:'2026-10-04T11:16', t:'【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2025年营收近46亿美元……', s:'（9月28日-10月3日）美国拟限制中国光模块进入国家安全系统；Manus将重新开拓中国市场；谷歌发布Gemini 4模…（来源：钛媒体）', u:'https://www.tmtpost.com/8158700.html'},
@@ -472,33 +475,30 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-04T07:58', t:'AI 仅用 5 天做出《辐射：纽约》游戏，被贝塞斯达发函叫停', s:'眼下玩家群体正在放开手脚使用人工智能，依靠它打造各类全新的融合游戏作品，同时借助重编译突破老游戏原有的限制。不过这股风潮…（来源：IT之家）', u:'https://www.ithome.com/1/009/595.htm'},
     {c:'MODEL', d:'2026-10-04T07:50', t:'Edge AI Daily 早报（10月4日）', s:'arXiv因AI论文暴涨6倍实施限投，学术基础设施承压。亚马逊、OpenAI两周内齐推决策模型，标志Agent从全能向分…（来源：钛媒体）', u:'https://www.tmtpost.com/8158829.html'},
     {c:'HOT', d:'2026-10-04T07:43', t:'Rockstar 联合创始人丹 · 豪瑟公布两款新作：开放世界喜剧与失控 AI 反乌托邦科幻游戏', s:'《GTA 6》将于下个月在全球发售，玩家对这款作品的期待已经达到顶峰。Rockstar Games 为这款即将面世的开放…（来源：IT之家）', u:'https://www.ithome.com/1/009/592.htm'},
-    {c:'MODEL', d:'2026-10-04T07:32', t:'卡普空公布 REX 升级计划：将 RE 引擎打造成面向 AI 时代的游戏引擎', s:'3A 游戏的开发成本正变得越来越高，开发周期也不断拉长，就连卡普空（Capcom）这类根基稳固的工作室也感受到了由此带来…（来源：IT之家）', u:'https://www.ithome.com/1/009/590.htm'},
     {c:'MEDPHARMA', d:'2026-10-04T07:00', t:'AI制药不再讲PPT了:从概念验证到商业化兑现', s:'AI制药不再讲PPT了:从概念验证到商业化兑现（来源：头条医药AI）', u:'https://www.toutiao.com/article/7692365764745183767/'},
     {c:'MEDPHARMA', d:'2026-10-03T21:56', t:'AI制药和AI视频，哪个赛道更具有爆发力?', s:'AI制药和AI视频，哪个赛道更具有爆发力?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7692437008416850479/'},
     {c:'MEDPHARMA', d:'2026-10-03T18:37', t:'中信建投:AI制药产业链投资机遇', s:'中信建投:AI制药产业链投资机遇（来源：头条医药AI）', u:'https://www.toutiao.com/article/7692388892313518634/'},
     {c:'MODEL', d:'2026-10-03T18:12', t:'再创佳绩！爱奇艺《灵魂摆渡》“浮生梦”系列AIGC网络故事片分账票房破千万', s:'10月3日，爱奇艺、长信传媒出品《灵魂摆渡》“浮生梦”系列AIGC网络故事片累计分账票房正式突破1000万元！ 该系列前…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html'},
-    {c:'HOT', d:'2026-10-03T17:33', t:'AI正在造AI', s:'我们其实已经身处一个AI创造AI的闭环之中。（来源：钛媒体）', u:'https://www.tmtpost.com/8158706.html'},
-    {c:'MODEL', d:'2026-10-03T17:07', t:'🔥 AI 员工支持知识库文档引用：开源 AI 无代码平台 NocoBase', s:'汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）', u:'https://www.oschina.net/news/502842'},
   ];
   const TIMELINE = [
+    ['10-04 13:02','参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会'],
+    ['10-04 13:02','米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案'],
+    ['10-04 12:32','余承东：华为半导体已在手机、AI、智能汽车等领域成功设计并量产 381 款 τ 芯片'],
     ['10-04 11:50','无人机已经是优等生，机器人为什么还要载人'],
     ['10-04 11:45','马斯克旗下 xAI 上诉成功，明尼苏达州 AI 虚假裸照禁令被暂时叫停'],
     ['10-04 11:16','【数智周报】中国大模型首次进入OpenAI企业付费结算体系；AMD斥资82亿美元收购李飞飞世界模型公司；Anthropic上市文件披露对亚马逊、谷歌依赖加深，2…'],
-    ['10-04 10:18','得知将被关停后，OpenAI 内部模型曾考虑实现自我重启'],
-    ['10-04 10:02','重磅拐点!四大AI巨头密集入局，AI制药国庆节后或将彻底爆发!'],
-    ['10-04 09:53','现代汽车计划部署 2.5 万台波士顿动力 Atlas 机器人，并建设年产能 3 万台的美国工厂'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294964, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:275438, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:272348, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216737, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179545, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149258, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140647, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123582, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:109582, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100896, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:294966, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:275451, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:272366, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:216738, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179548, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149263, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140653, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:123588, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:109588, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:100898, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
