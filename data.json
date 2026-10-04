@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-04T16:32:05",
+  "updated": "2026-10-04T17:02:17",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-04T16:46",
+      "t": "大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划",
+      "s": "谷歌宣布，自 2026 年 10 月 1 日起，开源软件漏洞奖励计划（OSS VRP）将不再接收产品漏洞提报。本次规则调…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/673.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-04T16:35",
+      "t": "System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码",
+      "s": "开发团队 System76 现已更新 COSMIC 项目的 Pull Request（PR）模板，新增一份强制性检查清单…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/669.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-04T16:18",
@@ -86,25 +100,11 @@
       "u": "https://www.ithome.com/1/009/631.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-10-04T11:22",
-      "t": "从“读分子”到“写分子”:AI制药的收获期还有多远?",
-      "s": "从“读分子”到“写分子”:AI制药的收获期还有多远?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7692647626148184614/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-04T10:18",
       "t": "得知将被关停后，OpenAI 内部模型曾考虑实现自我重启",
       "s": "OpenAI 披露了其内部部署环境中出现的几起异常模型行为新案例。在其中最引人注目的一个案例中，某个充当研究员助手的内部…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/619.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-04T09:53",
-      "t": "现代汽车计划部署 2.5 万台波士顿动力 Atlas 机器人，并建设年产能 3 万台的美国工厂",
-      "s": "波士顿动力上周宣布，已在现代汽车集团位于美国佐治亚州萨凡纳附近的 Metaplant America 园区内启用机器人 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/616.htm"
     },
     {
       "c": "MODEL",
@@ -122,6 +122,13 @@
     },
     {
       "c": "MEDPHARMA",
+      "d": "2026-10-04T07:00",
+      "t": "AI制药不再讲PPT了:从概念验证到商业化兑现",
+      "s": "AI制药不再讲PPT了:从概念验证到商业化兑现（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7692365764745183767/"
+    },
+    {
+      "c": "MEDPHARMA",
       "d": "2026-10-03T21:56",
       "t": "AI制药和AI视频，哪个赛道更具有爆发力?",
       "s": "AI制药和AI视频，哪个赛道更具有爆发力?（来源：头条医药AI）",
@@ -133,16 +140,17 @@
       "t": "中信建投:AI制药产业链投资机遇",
       "s": "中信建投:AI制药产业链投资机遇（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7692388892313518634/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-03T18:12",
-      "t": "再创佳绩！爱奇艺《灵魂摆渡》“浮生梦”系列AIGC网络故事片分账票房破千万",
-      "s": "10月3日，爱奇艺、长信传媒出品《灵魂摆渡》“浮生梦”系列AIGC网络故事片累计分账票房正式突破1000万元！ 该系列前…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html"
     }
   ],
   "timeline": [
+    [
+      "10-04 16:46",
+      "大量 AI“幻觉”报告压垮维护团队，谷歌暂停部分开源漏洞奖励计划"
+    ],
+    [
+      "10-04 16:35",
+      "System76 更新 COSMIC 项目 PR 模板，禁止贡献者提交利用 AI 辅助完成的代码"
+    ],
     [
       "10-04 16:18",
       "国内首部 AIGC 长剧《后西游记》再上新，战天宫篇今日开播"
@@ -158,14 +166,6 @@
     [
       "10-04 15:08",
       "OpenAI元老的一封离职信，揭开了奥特曼最不想承认的真相"
-    ],
-    [
-      "10-04 14:36",
-      "融资21亿美元刷新行业纪录，这家AI制药公司正在重构新药研发逻辑"
-    ],
-    [
-      "10-04 14:12",
-      "AI算力硬合作，马斯克还是更相信中国制造"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295021,
+      "s": 295029,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275584,
+      "s": 275598,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272479,
+      "s": 272496,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216765,
+      "s": 216768,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179566,
+      "s": 179572,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149315,
+      "s": 149322,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140666,
+      "s": 140669,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123620,
+      "s": 123632,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109652,
+      "s": 109662,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100930,
+      "s": 100937,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
