@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-05T01:02:23",
+  "updated": "2026-10-05T01:12:12",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-05T01:02",
-      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
-      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
-    },
     {
       "c": "HOT",
       "d": "2026-10-04T23:22",
@@ -140,13 +133,16 @@
       "t": "AI制药和AI视频，哪个赛道更具有爆发力?",
       "s": "AI制药和AI视频，哪个赛道更具有爆发力?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7692437008416850479/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-03T18:37",
+      "t": "中信建投:AI制药产业链投资机遇",
+      "s": "中信建投:AI制药产业链投资机遇（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7692388892313518634/"
     }
   ],
   "timeline": [
-    [
-      "10-05 01:02",
-      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
-    ],
     [
       "10-04 23:22",
       "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动"
@@ -166,6 +162,10 @@
     [
       "10-04 18:35",
       "重磅拐点!四大AI巨头集体杀入AI制药，节后赛道或将迎来全面爆发"
+    ],
+    [
+      "10-04 18:04",
+      "特朗普将“人工智能”改为“超级智能”后，马斯克确认 SpaceXAI 将更名为 SpaceXSI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295186,
+      "s": 295189,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275899,
+      "s": 275906,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272734,
+      "s": 272740,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216832,
+      "s": 216834,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179613,
+      "s": 179615,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149389,
+      "s": 149391,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140706,
+      "s": 140707,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123720,
+      "s": 123722,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101098,
+      "s": 101102,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
