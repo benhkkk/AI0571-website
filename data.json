@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-04T09:02:28",
+  "updated": "2026-10-04T09:31:48",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-04T08:53",
+      "t": "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元",
+      "s": "专业3D模型反而更稀缺了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/501451.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-04T08:33",
@@ -133,16 +140,13 @@
       "t": "AI 视频榜全球第二，藏着一家新影视公司的野心",
       "s": "一家影视公司，杀进了视频模型的决赛圈#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1682888?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-03T13:34",
-      "t": "不看结构的AI制药公司，拿出了0.94分的成绩单",
-      "s": "不看结构的AI制药公司，拿出了0.94分的成绩单（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7692306666766778895/"
     }
   ],
   "timeline": [
+    [
+      "10-04 08:53",
+      "GPT-6要“吃掉”3D公司？这家公司不到2年ARR翻百倍，破1亿美元"
+    ],
     [
       "10-04 08:33",
       "苹果确认美版 iPhone 18 Pro Max 有问题；OpenAI 每天烧超 50 万美元查 AI 入侵事故；求职者吐槽 AI 面试「恐怖谷」上热搜｜极客早…"
@@ -162,10 +166,6 @@
     [
       "10-04 07:50",
       "Edge AI Daily 早报（10月4日）"
-    ],
-    [
-      "10-04 07:43",
-      "Rockstar 联合创始人丹 · 豪瑟公布两款新作：开放世界喜剧与失控 AI 反乌托邦科幻游戏"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 294919,
+      "s": 294922,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275372,
+      "s": 275378,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272256,
+      "s": 272269,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216716,
+      "s": 216721,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179529,
+      "s": 179533,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149221,
+      "s": 149228,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140636,
+      "s": 140637,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123557,
+      "s": 123560,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109535,
+      "s": 109540,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100839,
+      "s": 100847,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
