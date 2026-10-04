@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-05T06:32:02",
+  "updated": "2026-10-05T07:02:16",
   "news": [
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-05T06:31",
-      "t": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻",
-      "s": "从英矽智能III期临床，看AI制药在中国的“交作业”时刻（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260917/979622.shtml"
-    },
     {
       "c": "HOT",
       "d": "2026-10-04T23:22",
@@ -140,13 +133,16 @@
       "t": "Claude Code 的「乐高」模式，让程序员彻底玩「上头」了",
       "s": "作者｜Wildcard 编辑｜靖宇 终端向来是程序员最严肃的地盘。黑底白字，光标跳动，每一行输出都关乎代码能不能跑通。 …（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372074"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-04T11:50",
+      "t": "无人机已经是优等生，机器人为什么还要载人",
+      "s": "机器人终究没有放过欢乐谷，很多人看到了关羽骑着机器牛马招摇过市，只不过，这速度还没我奶奶遛弯快？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8158866.html"
     }
   ],
   "timeline": [
-    [
-      "10-05 06:31",
-      "从英矽智能III期临床，看AI制药在中国的“交作业”时刻"
-    ],
     [
       "10-04 23:22",
       "机器人格斗公司 REK 举办真人与机器人笼斗赛被叫停：未取得许可组织活动"
@@ -166,6 +162,10 @@
     [
       "10-04 20:27",
       "DeepSeek Harness 崔添翼：产品核心理念是“一切皆插件”，可扩展性是初心"
+    ],
+    [
+      "10-04 19:41",
+      "Jev 之后，中国团队开始深挖 AI 的「直觉层」"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295272,
+      "s": 295277,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276125,
+      "s": 276138,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272921,
+      "s": 272934,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216857,
+      "s": 216862,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179648,
+      "s": 179649,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149418,
+      "s": 149419,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140716,
+      "s": 140717,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123776,
+      "s": 123782,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109801,
+      "s": 109806,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101192,
+      "s": 101198,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
