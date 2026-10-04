@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-04T18:32:30",
+  "updated": "2026-10-04T19:02:48",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-04T18:32",
-      "t": "如何用Deepseek组装测序仪？",
-      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
+      "c": "MEDPHARMA",
+      "d": "2026-10-04T18:35",
+      "t": "重磅拐点!四大AI巨头集体杀入AI制药，节后赛道或将迎来全面爆发",
+      "s": "重磅拐点!四大AI巨头集体杀入AI制药，节后赛道或将迎来全面爆发（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7692759182394573340/"
     },
     {
       "c": "MODEL",
@@ -49,13 +49,6 @@
       "t": "英伟达与鸿海展示自动化成果，机器人组装 GB300 的母线成功率超 95%",
       "s": "据台媒经济日报，英伟达与鸿海首次对外展示了利用机器人制造设备的成果。针对英伟达 GB300 的母线（Busbar，也叫汇…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/665.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-04T16:05",
-      "t": "重磅拐点!四大AI巨头密集入局，AI制药国庆节后或将彻底爆发!",
-      "s": "重磅拐点!四大AI巨头密集入局，AI制药国庆节后或将彻底爆发!（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7692720814013186600/"
     },
     {
       "c": "HOT",
@@ -129,23 +122,30 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-04T07:00",
-      "t": "AI制药不再讲PPT了:从概念验证到商业化兑现",
-      "s": "AI制药不再讲PPT了:从概念验证到商业化兑现（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7692365764745183767/"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-10-03T21:56",
       "t": "AI制药和AI视频，哪个赛道更具有爆发力?",
       "s": "AI制药和AI视频，哪个赛道更具有爆发力?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7692437008416850479/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-03T18:37",
+      "t": "中信建投:AI制药产业链投资机遇",
+      "s": "中信建投:AI制药产业链投资机遇（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7692388892313518634/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-03T18:12",
+      "t": "再创佳绩！爱奇艺《灵魂摆渡》“浮生梦”系列AIGC网络故事片分账票房破千万",
+      "s": "10月3日，爱奇艺、长信传媒出品《灵魂摆渡》“浮生梦”系列AIGC网络故事片累计分账票房正式突破1000万元！ 该系列前…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/yHRIGngfk28TJvIw.html"
     }
   ],
   "timeline": [
     [
-      "10-04 18:32",
-      "如何用Deepseek组装测序仪？"
+      "10-04 18:35",
+      "重磅拐点!四大AI巨头集体杀入AI制药，节后赛道或将迎来全面爆发"
     ],
     [
       "10-04 18:04",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295060,
+      "s": 295077,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 275635,
+      "s": 275648,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 272536,
+      "s": 272549,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179579,
+      "s": 179582,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149338,
+      "s": 149343,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123648,
+      "s": 123652,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109684,
+      "s": 109699,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 100954,
+      "s": 100965,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
