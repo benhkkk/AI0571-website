@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-05T10:02:15",
+  "updated": "2026-10-05T10:11:04",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-05T10:02",
+      "t": "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型",
+      "s": "外媒 Axios 当地时间 4 日报道称，Reflection 等多家西方企业本月将推出开放权重 AI 模型，人工智能模…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/765.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-05T10:00",
@@ -72,25 +79,11 @@
       "u": "http://www.geekpark.net/news/372082"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-05T08:15",
-      "t": "“机器人通用大脑”受追捧：FieldAI 拟融资 7 亿美元，估值达 100 亿美元",
-      "s": "FieldAI 正在为人形机器人、无人机等各类机器人打造一款通用大脑。投资者正为重押这一发展愿景投入巨资。据《商业内幕》…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/746.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-05T08:15",
       "t": "Edge AI Daily 早报（10月5日）",
       "s": "Google冻结开源软件漏洞奖励计划，AI生成的无效报告激增导致验证成本高企，系统性威胁开源安全防线。印度依据Secti…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8159215.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-05T07:51",
-      "t": "创新药+AI制药十强企业，谁是龙头?",
-      "s": "创新药+AI制药十强企业，谁是龙头?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7692964517143118377/"
     },
     {
       "c": "HOT",
@@ -140,9 +133,20 @@
       "t": "融资21亿美元刷新行业纪录，这家AI制药公司正在重构新药研发逻辑",
       "s": "融资21亿美元刷新行业纪录，这家AI制药公司正在重构新药研发逻辑（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7692697876275429903/"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-04T14:12",
+      "t": "AI算力硬合作，马斯克还是更相信中国制造",
+      "s": "一种混搭的可能：英特尔继续供先进工艺，即前端用14A；后端再接台积电，来补工厂运营、良率、封装这些能力。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/501605.html"
     }
   ],
   "timeline": [
+    [
+      "10-05 10:02",
+      "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型"
+    ],
     [
       "10-05 10:00",
       "跨越百年的代言：斯凯孚用 AI“复活”已故女星葛丽泰 · 嘉宝拍广告"
@@ -162,10 +166,6 @@
     [
       "10-05 09:08",
       "Meta 的 AI 助手 Muse 被曝可深度分析用户社交关系，并为每位联系人建立个人档案"
-    ],
-    [
-      "10-05 09:02",
-      "OpenAI 奥尔特曼：人工智能的巨大效益值得承担部分风险"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276228,
+      "s": 276233,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273004,
+      "s": 273009,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216874,
+      "s": 216876,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123803,
+      "s": 123806,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109822,
+      "s": 109824,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101231,
+      "s": 101233,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
