@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-05T18:31:57",
+  "updated": "2026-10-05T19:02:21",
   "news": [
     {
       "c": "HOT",
@@ -72,6 +72,13 @@
       "u": "https://www.tmtpost.com/8159477.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-05T15:24",
+      "t": "AI制药属于AI应用的一个大分支，走的是趋势风格，而非纯情绪连板",
+      "s": "AI制药属于AI应用的一个大分支，走的是趋势风格，而非纯情绪连板（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693081263342649903/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-05T15:12",
       "t": "映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽",
@@ -128,18 +135,11 @@
       "u": "https://www.qbitai.com/2026/10/501705.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-05T10:50",
-      "t": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
-      "s": "有改进就体验，没改进就重置，横竖不亏。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501700.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-05T08:36",
-      "t": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
-      "s": "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书 美国总统特朗普推动以「超级智能」（Sup…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372082"
+      "c": "MEDPHARMA",
+      "d": "2026-10-05T11:00",
+      "t": "AI制药要爆发?中信建投:黎明已至，收获期不远了",
+      "s": "AI制药要爆发?中信建投:黎明已至，收获期不远了（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693013280771539498/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295431,
+      "s": 295436,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276541,
+      "s": 276572,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273242,
+      "s": 273255,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216949,
+      "s": 216956,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179710,
+      "s": 179714,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149456,
+      "s": 149460,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140743,
+      "s": 140744,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123907,
+      "s": 123911,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109900,
+      "s": 109901,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101365,
+      "s": 101368,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
