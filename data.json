@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-05T14:31:52",
+  "updated": "2026-10-05T15:02:23",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-05T14:33",
+      "t": "圆刚推出 AI 降噪麦克风 A113，工作温度范围达 -25℃ 至 +60℃",
+      "s": "圆刚 (AVerMedia) 近日推出了 AIClear Mic (A113) 麦克风。这一型号面向工业应用，工作温度范…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/811.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-05T14:27",
+      "t": "全球IPO市场透视：融资盛宴与破发寒流并存的第三季",
+      "s": "2026年第3季，全球资本市场在加息、通胀、地缘、AI四重变量的夹击下走出剧烈分化。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159361.html"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-05T14:20",
@@ -65,13 +79,6 @@
       "u": "https://www.qbitai.com/2026/10/501700.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-05T10:14",
-      "t": "Anthropic 前研究员将出席纽约 AI 听证会作证，曾警告 AI 或毁灭人类",
-      "s": "据知情人士向彭博新闻社透露，Anthropic 前研究员雅各布 · 考克斯顿（Jacob Coxon）将出席纽约市一场关…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/769.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-05T08:53",
       "t": "“国民辣酱”老干妈也用上AI，营收已重回巅峰",
@@ -133,16 +140,17 @@
       "t": "当AI开始制造AI",
       "s": "当AI开始参与制造下一代AI，研发成果可能反过来加快研发，递归自我改进成为巨头争夺的新方向。但更快未必更好，谁定义进步…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8158979.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-04T15:08",
-      "t": "OpenAI元老的一封离职信，揭开了奥特曼最不想承认的真相",
-      "s": "教会 AI 善待人类前，先学会善待人#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1682922?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "10-05 14:33",
+      "圆刚推出 AI 降噪麦克风 A113，工作温度范围达 -25℃ 至 +60℃"
+    ],
+    [
+      "10-05 14:27",
+      "全球IPO市场透视：融资盛宴与破发寒流并存的第三季"
+    ],
     [
       "10-05 14:20",
       "台达将基于英伟达 Hyperion 平台开发下一代自动驾驶技术"
@@ -158,14 +166,6 @@
     [
       "10-05 13:00",
       "美国佛州一女子把 AI 当“日记本”用，Claude 识别到枪击威胁后上报给 Anthropic 人工审核并报警"
-    ],
-    [
-      "10-05 12:42",
-      "刚刚，Hinton发了首篇RSI论文"
-    ],
-    [
-      "10-05 11:08",
-      "瓦尔基里公布 VK 99 V2 机械键盘：AI 创想灯效，长至 12000hr 无线续航"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295359,
+      "s": 295367,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276375,
+      "s": 276395,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273108,
+      "s": 273127,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216916,
+      "s": 216920,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179685,
+      "s": 179688,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149444,
+      "s": 149448,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140736,
+      "s": 140739,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123854,
+      "s": 123861,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109871,
+      "s": 109878,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101290,
+      "s": 101299,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
