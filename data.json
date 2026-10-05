@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-05T17:32:07",
+  "updated": "2026-10-05T18:02:32",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-05T17:36",
+      "t": "纳指历史新高，恒生科技却创了一年新低，A股硬科技企业正在排队去港交所募资",
+      "s": "AI硬件扎堆赴港募资，港股承压破发率超七成。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159517.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-05T17:36",
+      "t": "快手的视频Agent，会不会来晚了？",
+      "s": "视频模型厂商，正集体从\"生成一段画面\"走向\"交付一部成片\"。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159522.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-05T17:26",
@@ -121,28 +135,22 @@
       "u": "https://www.tmtpost.com/8159130.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-05T08:50",
-      "t": "9秒删库，700个AI失控，豪掷513亿买不来安全？",
-      "s": "AI从工具变成同事，安全就从选项变成前提。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8153885.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-05T08:36",
-      "t": "马斯克将旗下人工智能业务更名为 SpaceXSI；Altman 称 AI 发展应容忍一定风险；小米 Vision GT 将入驻《GT7》游戏｜极客早知道",
-      "s": "马斯克拟将 SpaceXAI 更名为 SpaceXSI 为「超级智能」概念背书 美国总统特朗普推动以「超级智能」（Sup…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372082"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-10-05T08:15",
-      "t": "Edge AI Daily 早报（10月5日）",
-      "s": "Google冻结开源软件漏洞奖励计划，AI生成的无效报告激增导致验证成本高企，系统性威胁开源安全防线。印度依据Secti…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8159215.html"
+      "d": "2026-10-05T03:06",
+      "t": "SmartCall v1.0.7 发布，新增模型以及音色管理",
+      "s": ":book: 项目简介 SmartCall 是一套基于 AI 大模型 + Asterisk 通信引擎构建的新一代智能客服…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502844"
     }
   ],
   "timeline": [
+    [
+      "10-05 17:36",
+      "纳指历史新高，恒生科技却创了一年新低，A股硬科技企业正在排队去港交所募资"
+    ],
+    [
+      "10-05 17:36",
+      "快手的视频Agent，会不会来晚了？"
+    ],
     [
       "10-05 17:26",
       "荣耀 MagicOS 11 新增自定义充电上限功能，充多少自己决定"
@@ -158,14 +166,6 @@
     [
       "10-05 15:38",
       "马斯克率先为AI改名，SpaceXAI官宣更名SpaceXSI"
-    ],
-    [
-      "10-05 15:32",
-      "AI耳机蓄势，芯片厂商待发"
-    ],
-    [
-      "10-05 15:32",
-      "硅谷AI，正在开源"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295417,
+      "s": 295421,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276500,
+      "s": 276523,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273213,
+      "s": 273226,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216938,
+      "s": 216944,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179703,
+      "s": 179706,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149454,
+      "s": 149455,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140738,
+      "s": 140741,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123899,
+      "s": 123906,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109895,
+      "s": 109898,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101352,
+      "s": 101360,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
