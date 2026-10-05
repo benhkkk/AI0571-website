@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-05T12:31:57",
+  "updated": "2026-10-05T13:02:08",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-05T13:00",
+      "t": "美国佛州一女子把 AI 当“日记本”用，Claude 识别到枪击威胁后上报给 Anthropic 人工审核并报警",
+      "s": "美国佛罗里达州李县（Lee County）一名 30 岁女子因涉嫌在与 Anthropic 旗下聊天机器人 Claude…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/795.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-05T11:08",
@@ -56,13 +63,6 @@
       "t": "消息称 Wayve 将为大众供应自动驾驶解决方案",
       "s": "德媒 Donaukurier 当地时间本月 2 日报道称，英国具身智能初创企业 Wayve 从诸多竞争者中胜出，将同大众…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/762.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-05T09:47",
-      "t": "OpenAI 宣布“28 天计划”：Codex、Work 日进一步或“重置”",
-      "s": "OpenAI 核心产品与平台负责人 Thibault Sottiaux 今日在 X 上发文，透露团队将在未来 28 天持…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/761.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-05 13:00",
+      "美国佛州一女子把 AI 当“日记本”用，Claude 识别到枪击威胁后上报给 Anthropic 人工审核并报警"
+    ],
+    [
       "10-05 11:08",
       "瓦尔基里公布 VK 99 V2 机械键盘：AI 创想灯效，长至 12000hr 无线续航"
     ],
@@ -162,10 +166,6 @@
     [
       "10-05 10:14",
       "Anthropic 前研究员将出席纽约 AI 听证会作证，曾警告 AI 或毁灭人类"
-    ],
-    [
-      "10-05 10:02",
-      "消息称 Reflection 等多家西方企业本月将推出开放权重 AI 模型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295335,
+      "s": 295342,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 276310,
+      "s": 276324,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273057,
+      "s": 273069,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 216899,
+      "s": 216905,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179671,
+      "s": 179675,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149438,
+      "s": 149440,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140732,
+      "s": 140733,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 123834,
+      "s": 123835,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 109842,
+      "s": 109846,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101270,
+      "s": 101273,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
