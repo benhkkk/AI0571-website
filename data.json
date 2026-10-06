@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-07T07:09:55",
+  "updated": "2026-10-07T07:32:33",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-07T07:31",
+      "t": "落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”",
+      "s": "路透社看到的一份备忘录显示，美国司法部于当地时间周二向内部工作人员下达指示：在绝大多数场合提及这项技术时（包括法庭相关文…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/135.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-07T07:24",
+      "t": "消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片",
+      "s": "据《金融时报》报道，埃隆 · 马斯克（Elon Musk）旗下的 SpaceX 正计划募资 400 亿美元（IT之家注：…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/134.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-07T07:19",
+      "t": "LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型",
+      "s": "如果你正在寻找一款不使用人工智能的文档编辑软件，LibreOffice 或许正是适合你的选择。开发这款开源文档编辑软件 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/132.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-07T06:50",
@@ -51,13 +72,6 @@
       "u": "https://www.ithome.com/1/010/048.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-06T19:24",
-      "t": "Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品",
-      "s": "据路透社报道，法国人工智能初创企业 Mistral AI 首席执行官 Arthur Mensch 当地时间今日在阿拉伯联…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/043.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-06T18:44",
       "t": "刚刚，诺贝尔物理奖一人独揽！",
@@ -77,20 +91,6 @@
       "t": "全球AI消费调查：仅有1%超级玩家在养活AI圈",
       "s": "AI的流量帝国，是靠极少数人用真金白银撑起来的。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8159928.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-06T18:32",
-      "t": "1800 万美元，Anthropic CEO 阿莫迪 2025 年薪酬曝光",
-      "s": "据路透社报道，Anthropic 的首次公开募股（IPO）招股书显示，公司首席执行官达里奥 · 阿莫迪（Dario Am…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/033.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-06T18:11",
-      "t": "服务条款可单方面变更服务功能及订阅费等，意大利反垄断机构对 AI 音乐平台 Suno 展开调查",
-      "s": "据路透社报道，意大利反垄断机构于周二宣布，已对人工智能音乐初创公司 Suno 展开调查。该机构指出，Suno 的服务条款…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/031.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-07 07:31",
+      "落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”"
+    ],
+    [
+      "10-07 07:24",
+      "消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片"
+    ],
+    [
+      "10-07 07:19",
+      "LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型"
+    ],
+    [
       "10-07 06:50",
       "已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型"
     ],
@@ -154,18 +166,6 @@
     [
       "10-06 22:30",
       "AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产"
-    ],
-    [
-      "10-06 21:56",
-      "宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重"
-    ],
-    [
-      "10-06 21:10",
-      "DeepSeek被爆最新融资800亿，正为冲击IPO做准备"
-    ],
-    [
-      "10-06 20:20",
-      "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296004,
+      "s": 296007,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 278079,
+      "s": 278086,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274269,
+      "s": 274276,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217265,
+      "s": 217266,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179906,
+      "s": 179908,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149628,
+      "s": 149630,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124406,
+      "s": 124410,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110210,
+      "s": 110213,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102027,
+      "s": 102030,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
