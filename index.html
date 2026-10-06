@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-06T22:30', t:'AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产', s:'AMD 盘初涨近 3%，报 649.88 美元（IT之家注：现汇率约合 4,364 元人民币），创历史新高，市值达 1.…（来源：IT之家）', u:'https://www.ithome.com/1/010/114.htm'},
     {c:'MODEL', d:'2026-10-06T21:56', t:'宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重', s:'当地时间 10 月 6 日，法国公司 Mistral AI 正式推出 Mistral Large 4 模型的公开预览版（…（来源：IT之家）', u:'https://www.ithome.com/1/010/108.htm'},
     {c:'FUNDING', d:'2026-10-06T21:10', t:'DeepSeek被爆最新融资800亿，正为冲击IPO做准备', s:'从“拒绝资本”到千亿融资，梁文锋的态度转变背后，是一场输不起的AI竞赛（来源：钛媒体）', u:'https://www.tmtpost.com/8159961.html'},
     {c:'HOT', d:'2026-10-06T19:27', t:'亚马逊 Alexa Echo 智能音箱出现诡异 Bug：毫无征兆哼唱“啦啦啦”数分钟，官方承诺修复', s:'据科技媒体 Android Authority 今天报道，部分用户反馈，亚马逊 Alexa Plus 人工智能语音助手最…（来源：IT之家）', u:'https://www.ithome.com/1/010/048.htm'},
@@ -471,7 +472,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-06T16:42', t:'瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域', s:'瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率…（来源：IT之家）', u:'https://www.ithome.com/1/010/015.htm'},
     {c:'MODEL', d:'2026-10-06T16:18', t:'消息称 Meta 和微软要求员工减少使用 Claude，多用自家 AI 节省成本', s:'据 The Information 报道，Meta 与微软已要求员工减少使用 Anthropic 旗下的 AI 模型 C…（来源：IT之家）', u:'https://www.ithome.com/1/010/010.htm'},
     {c:'HOT', d:'2026-10-06T15:59', t:'不er，咋陶哲轩也成AI减速派了？？', s:'不er，咋陶哲轩也成AI减速派了？？（来源：量子位）', u:'https://www.qbitai.com/2026/10/501736.html'},
-    {c:'INDUSTRY', d:'2026-10-06T15:32', t:'OpenAI 与 Anthropic 向澳大利亚表态：支持出台数据泄露相关监管法规', s:'据路透社报道，OpenAI 与 Anthropic 于周二向澳大利亚议会表态，支持出台相关法规，强制要求企业通报其 AI…（来源：IT之家）', u:'https://www.ithome.com/1/010/003.htm'},
     {c:'MEDPHARMA', d:'2026-10-06T15:01', t:'AI不再是护城河，“AI制药四小龙”怎么办?', s:'AI不再是护城河，“AI制药四小龙”怎么办?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693446342462439936/'},
     {c:'HOT', d:'2026-10-06T14:45', t:'OpenAI「疯狂28天」首日，这都发了些啥啊…', s:'OpenAI「疯狂28天」首日，这都发了些啥啊…（来源：量子位）', u:'https://www.qbitai.com/2026/10/501726.html'},
     {c:'MODEL', d:'2026-10-06T12:31', t:'世界模型赛道：谁在收编，谁在突围？', s:'芯片巨头们开抢模型（来源：钛媒体）', u:'https://www.tmtpost.com/8159876.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-06T11:56', t:'10亿美金估值！好莱坞老炮为何集体投奔这家“AI原生影视公司”？', s:'可能改写行业规则的AI公司来了。（来源：钛媒体）', u:'https://www.tmtpost.com/8159745.html'},
   ];
   const TIMELINE = [
+    ['10-06 22:30','AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产'],
     ['10-06 21:56','宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重'],
     ['10-06 21:10','DeepSeek被爆最新融资800亿，正为冲击IPO做准备'],
     ['10-06 19:27','亚马逊 Alexa Echo 智能音箱出现诡异 Bug：毫无征兆哼唱“啦啦啦”数分钟，官方承诺修复'],
     ['10-06 19:24','Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品'],
     ['10-06 18:44','刚刚，诺贝尔物理奖一人独揽！'],
-    ['10-06 18:44','论AI从沙盒中逃逸的必然性'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:295859, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:277618, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274026, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217203, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179864, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149582, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140853, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124249, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110122, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:101764, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:295875, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:277657, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274035, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217208, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179865, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149589, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140855, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124261, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110127, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:101788, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
