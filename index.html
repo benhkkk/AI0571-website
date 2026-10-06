@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'FUNDING', d:'2026-10-07T01:32', t:'海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件', s:'海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20241216/759662.shtml'},
     {c:'HOT', d:'2026-10-06T22:30', t:'AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产', s:'AMD 盘初涨近 3%，报 649.88 美元（IT之家注：现汇率约合 4,364 元人民币），创历史新高，市值达 1.…（来源：IT之家）', u:'https://www.ithome.com/1/010/114.htm'},
     {c:'MODEL', d:'2026-10-06T21:56', t:'宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重', s:'当地时间 10 月 6 日，法国公司 Mistral AI 正式推出 Mistral Large 4 模型的公开预览版（…（来源：IT之家）', u:'https://www.ithome.com/1/010/108.htm'},
     {c:'FUNDING', d:'2026-10-06T21:10', t:'DeepSeek被爆最新融资800亿，正为冲击IPO做准备', s:'从“拒绝资本”到千亿融资，梁文锋的态度转变背后，是一场输不起的AI竞赛（来源：钛媒体）', u:'https://www.tmtpost.com/8159961.html'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-06T12:31', t:'世界模型赛道：谁在收编，谁在突围？', s:'芯片巨头们开抢模型（来源：钛媒体）', u:'https://www.tmtpost.com/8159876.html'},
     {c:'INDUSTRY', d:'2026-10-06T12:31', t:'重塑苹果设计团队核心地位，特努斯瞄准下一个十年竞争', s:'而当设计团队地位被再次拔高，乃至可能成为苹果产品开发起点，那么苹果在AI时代能否复刻iPhone神迹，用全新产品范式开启…（来源：钛媒体）', u:'https://www.tmtpost.com/8159881.html'},
     {c:'HOT', d:'2026-10-06T12:31', t:'AI 越来越强，公司为什么还是做不快？', s:'成果看起来越完整，剩下的工作越容易被误解为拖延。（来源：钛媒体）', u:'https://www.tmtpost.com/8159894.html'},
+    {c:'HOT', d:'2026-10-06T11:56', t:'想改造工厂的机器人，先被工厂改造了', s:'Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计。（来源：钛媒体）', u:'https://www.tmtpost.com/8159783.html'},
   ];
   const TIMELINE = [
-    ['10-07 01:32','海克斯康收购3D Systems公司的Geomagic 3D质量控制和尺寸检测软件'],
     ['10-06 22:30','AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产'],
     ['10-06 21:56','宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重'],
     ['10-06 21:10','DeepSeek被爆最新融资800亿，正为冲击IPO做准备'],
     ['10-06 20:20','复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...'],
     ['10-06 19:27','亚马逊 Alexa Echo 智能音箱出现诡异 Bug：毫无征兆哼唱“啦啦啦”数分钟，官方承诺修复'],
+    ['10-06 19:24','Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品'],
   ];
   const SKILLS = [
     {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:295939, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:277841, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274129, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:277863, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274137, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217230, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179882, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149607, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140865, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124325, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110171, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:101909, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179881, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149604, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140859, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124322, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110172, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:101916, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
