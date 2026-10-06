@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-06T15:32:19",
+  "updated": "2026-10-06T16:02:16",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-06T15:32",
+      "t": "OpenAI 与 Anthropic 向澳大利亚表态：支持出台数据泄露相关监管法规",
+      "s": "据路透社报道，OpenAI 与 Anthropic 于周二向澳大利亚议会表态，支持出台相关法规，强制要求企业通报其 AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/003.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-06T15:29",
@@ -28,13 +35,6 @@
       "t": "AI不再是护城河，“AI制药四小龙”怎么办?",
       "s": "AI不再是护城河，“AI制药四小龙”怎么办?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7693446342462439936/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-06T14:45",
-      "t": "OpenAI「疯狂28天」首日，这都发了些啥啊…",
-      "s": "OpenAI「疯狂28天」首日，这都发了些啥啊…（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501726.html"
     },
     {
       "c": "FUNDING",
@@ -100,13 +100,6 @@
       "u": "https://www.tmtpost.com/8159745.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-06T11:38",
-      "t": "消息称月之暗面完成上市前最后一轮融资：估值约 500 亿美元，计划明年一季度赴港 IPO",
-      "s": "据彭博社报道，知情人士消息，月之暗面（Moonshot AI）已经完成上市前最后一轮私募融资，估值约 500 亿美元（I…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/971.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-06T11:06",
       "t": "Manus重新独立，Agent之战换了打法",
@@ -140,9 +133,20 @@
       "t": "Edge AI Daily 早报（10月6日）",
       "s": "特朗普签署行政令将AI改名为SI，马斯克确认SpaceXAI更名，引发域名套利狂欢。OpenAI GPT-6 Astra…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8159773.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-06T07:39",
+      "t": "Termexo v0.10.10 发布：19 个本地 MCP 工具，五种编程 Agent 自动接入",
+      "s": "AI 生成概念图，非产品界面。 MIT 开源的 Windows AI 编程工作台 Termexo 发布 v0.10.10…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502845"
     }
   ],
   "timeline": [
+    [
+      "10-06 15:32",
+      "OpenAI 与 Anthropic 向澳大利亚表态：支持出台数据泄露相关监管法规"
+    ],
     [
       "10-06 15:29",
       "谷歌 Googlebook 笔记本解锁 BL 指南上线后，Magisk 确认适配"
@@ -160,10 +164,6 @@
       "AI不再是护城河，“AI制药四小龙”怎么办?"
     ],
     [
-      "10-06 14:45",
-      "OpenAI「疯狂28天」首日，这都发了些啥啊…"
-    ],
-    [
       "10-06 14:25",
       "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与"
     ]
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295746,
+      "s": 295762,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277295,
+      "s": 277321,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273808,
+      "s": 273824,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217129,
+      "s": 217140,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179831,
+      "s": 179838,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149548,
+      "s": 149552,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140821,
+      "s": 140825,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124127,
+      "s": 124137,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110055,
+      "s": 110061,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101610,
+      "s": 101618,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
