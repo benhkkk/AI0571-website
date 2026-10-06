@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-06T07:32:13",
+  "updated": "2026-10-06T08:03:17",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-06T07:55",
+      "t": "麦当劳在美遭集体诉讼，被指用 AI 系统非法操纵菜单价格",
+      "s": "据路透社报道，麦当劳已在芝加哥联邦法院被提起诉讼，这是一起拟议的全国性集体诉讼。原告指控这家快餐企业借助一套人工智能定价…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/924.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-06T07:37",
+      "t": "谷歌有望升级 Call for Me 功能：Gemini 将支持代用户拨打私人亲友电话",
+      "s": "有多少通电话，仅仅因为要跟其他人沟通实在太过麻烦，你就一拖再拖？人工智能早已承诺，会帮我们把生活里大量费力不讨好的杂事实…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/921.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-06T07:33",
+      "t": "tvOS 27.2 代码显示苹果 Apple TV 4K（第四代）将支持 Siri AI 和 Apple Intelligence",
+      "s": "科技媒体 MacRumors 昨日（10 月 5 日）发布博文，通过挖掘 tvOS 27.2 Beta 3 更新代码，发…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/920.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-05T23:58",
@@ -119,30 +140,21 @@
       "t": "AI制药属于AI应用的一个大分支，走的是趋势风格，而非纯情绪连板",
       "s": "AI制药属于AI应用的一个大分支，走的是趋势风格，而非纯情绪连板（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7693081263342649903/"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-05T14:27",
-      "t": "全球IPO市场透视：融资盛宴与破发寒流并存的第三季",
-      "s": "2026年第3季，全球资本市场在加息、通胀、地缘、AI四重变量的夹击下走出剧烈分化。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8159361.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-05T12:42",
-      "t": "刚刚，Hinton发了首篇RSI论文",
-      "s": "AI已经开始真正进入「造下一代AI」的流水线（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501705.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-05T10:50",
-      "t": "限时28天！OpenAI承诺没新功能就重置，网友：只想要Opus",
-      "s": "有改进就体验，没改进就重置，横竖不亏。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501700.html"
     }
   ],
   "timeline": [
+    [
+      "10-06 07:55",
+      "麦当劳在美遭集体诉讼，被指用 AI 系统非法操纵菜单价格"
+    ],
+    [
+      "10-06 07:37",
+      "谷歌有望升级 Call for Me 功能：Gemini 将支持代用户拨打私人亲友电话"
+    ],
+    [
+      "10-06 07:33",
+      "tvOS 27.2 代码显示苹果 Apple TV 4K（第四代）将支持 Siri AI 和 Apple Intelligence"
+    ],
     [
       "10-05 23:58",
       "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印"
@@ -154,18 +166,6 @@
     [
       "10-05 22:16",
       "诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉"
-    ],
-    [
-      "10-05 21:00",
-      "英伟达 RTX Spark 笔记本 OLED 屏幕供应商曝光：三星六款、LG 一款"
-    ],
-    [
-      "10-05 19:53",
-      "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是..."
-    ],
-    [
-      "10-05 18:37",
-      "刚刚，诺贝尔奖颁给光遗传学！"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295645,
+      "s": 295650,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277073,
+      "s": 277083,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273629,
+      "s": 273640,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217058,
+      "s": 217062,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179789,
+      "s": 179792,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149523,
+      "s": 149522,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140791,
+      "s": 140792,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124055,
+      "s": 124057,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110000,
+      "s": 110001,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101542,
+      "s": 101545,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
