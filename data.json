@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-06T08:32:04",
+  "updated": "2026-10-06T09:02:47",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-06T08:42",
+      "t": "叫板 DeepSeek、Kimi，英伟达投资的 Reflection AI 发布旗下首款开放权重 AI 模型 Beam",
+      "s": "由英伟达投资的初创企业 Reflection AI 于当地时间周一推出了自家首款开放权重大模型 Beam。这家初创公司希…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/932.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-06T08:30",
+      "t": "Edge AI Daily 早报（10月6日）",
+      "s": "特朗普签署行政令将AI改名为SI，马斯克确认SpaceXAI更名，引发域名套利狂欢。OpenAI GPT-6 Astra…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159773.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-06T07:55",
@@ -94,20 +108,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-05T17:26",
-      "t": "荣耀 MagicOS 11 新增自定义充电上限功能，充多少自己决定",
-      "s": "据荣耀客服，荣耀 MagicOS 11 新增自定义充电上限功能，帮用户更科学地管理电池健康，延长电池使用寿命。具体路径：…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/849.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-05T17:18",
-      "t": "阿里千问 AI 耳夹式耳机上架预约：Bose 调音，支持 89 种语言翻译",
-      "s": "阿里千问 AI 耳夹式耳机现已上架电商平台并开启预约，具体价格暂未公布。这款耳机有深空蓝、星光色、极光紫三种颜色可选，不…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/846.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-05T15:53",
       "t": "AI面试官，放过打工人吧",
       "s": "技术可以筛选简历，但筛选不了一个人的价值！（来源：钛媒体）",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-06 08:42",
+      "叫板 DeepSeek、Kimi，英伟达投资的 Reflection AI 发布旗下首款开放权重 AI 模型 Beam"
+    ],
+    [
+      "10-06 08:30",
+      "Edge AI Daily 早报（10月6日）"
+    ],
+    [
       "10-06 07:55",
       "麦当劳在美遭集体诉讼，被指用 AI 系统非法操纵菜单价格"
     ],
@@ -158,14 +166,6 @@
     [
       "10-05 23:58",
       "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印"
-    ],
-    [
-      "10-05 23:01",
-      "OpenAI 将在 ChatGPT 中推出全新图片广告形式，不会影响生成结果"
-    ],
-    [
-      "10-05 22:16",
-      "诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295660,
+      "s": 295665,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277094,
+      "s": 277101,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273650,
+      "s": 273658,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217067,
+      "s": 217071,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149524,
+      "s": 149526,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124058,
+      "s": 124063,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110004,
+      "s": 110006,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101547,
+      "s": 101551,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
