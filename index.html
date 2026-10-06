@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-06T14:32', t:'如何用Deepseek组装测序仪？', s:'如何用Deepseek组装测序仪？（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20250326/774491.shtml'},
+    {c:'FUNDING', d:'2026-10-06T14:25', t:'消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与', s:'据彭博社报道，DeepSeek 新一轮融资即将敲定，募资规模至少可达 800 亿元人民币，大幅超出自身原定募资目标。此次…（来源：IT之家）', u:'https://www.ithome.com/1/009/990.htm'},
     {c:'HOT', d:'2026-10-06T13:47', t:'三星 Galaxy S27 Ultra 手机爆料：AI 减少镜头光晕，充电提速约 3%', s:'根据消息源 @WalleGalaxy 和 @kro_roe 消息，三星 Galaxy S27 Ultra 旗舰手机充电速…（来源：IT之家）', u:'https://www.ithome.com/1/009/986.htm'},
     {c:'HOT', d:'2026-10-06T12:58', t:'为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标', s:'据路透社报道，公开档案显示，意大利总理焦尔吉娅 · 梅洛尼已经向欧盟知识产权局（EUIPO）提交申请，希望将自己的声音注…（来源：IT之家）', u:'https://www.ithome.com/1/009/979.htm'},
     {c:'MODEL', d:'2026-10-06T12:31', t:'世界模型赛道：谁在收编，谁在突围？', s:'芯片巨头们开抢模型（来源：钛媒体）', u:'https://www.tmtpost.com/8159876.html'},
@@ -471,34 +473,32 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-06T11:06', t:'Manus重新独立，Agent之战换了打法', s:'如何重新估值？（来源：钛媒体）', u:'https://www.tmtpost.com/8159743.html'},
     {c:'FUNDING', d:'2026-10-06T10:41', t:'消息称快手旗下可灵 AI 已选定投行筹备赴港 IPO，拟募资至少 10 亿美元', s:'据彭博社报道，知情人士透露，快手科技旗下的可灵 AI（Kling AI）已经选定承销银行，筹备赴香港开展首次公开募股，此…（来源：IT之家）', u:'https://www.ithome.com/1/009/964.htm'},
     {c:'FUNDING', d:'2026-10-06T10:29', t:'消息称 OpenAI 洽谈 300 亿美元融资，阿联酋基金、贝莱德入局磋商', s:'据彭博社报道，知情人士透露，OpenAI 正在与来自阿联酋的多家投资基金（总部位于阿布扎比的 MGX 也在其中）展开磋商…（来源：IT之家）', u:'https://www.ithome.com/1/009/961.htm'},
+    {c:'MEDPHARMA', d:'2026-10-06T10:22', t:'AI制药的瓶颈交易来了:半导体炒过的剧本，要在药罐子里重演?', s:'AI制药的瓶颈交易来了:半导体炒过的剧本，要在药罐子里重演?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693374327432987145/'},
     {c:'MODEL', d:'2026-10-06T10:12', t:'防止 AI 胡编乱造：微软 Word Copilot 新增引用功能，可溯源查证', s:'科技媒体 Windows Central 昨日（10 月 5 日）发布博文，报道称在 Word 文档处理应用中，微软优化…（来源：IT之家）', u:'https://www.ithome.com/1/009/958.htm'},
-    {c:'MODEL', d:'2026-10-06T09:59', t:'苹果与 OpenAI 商业秘密诉讼交锋升级：互指违规提交新证据', s:'几天之前，OpenAI 指责苹果在商业秘密诉讼当中违规提交新证据。如今苹果予以反击，反过来指控 OpenAI 在其提交的…（来源：IT之家）', u:'https://www.ithome.com/1/009/955.htm'},
     {c:'HOT', d:'2026-10-06T09:31', t:'卖铲人不灵了：AI资本开支的4%回报比，正在重定价整个算力链', s:'四大科技巨头今年砸下7300亿美元建AI，直接收入却只有250亿，当股价与芯片股彻底脱钩、1.65万亿表外债务浮出水面…（来源：钛媒体）', u:'https://www.tmtpost.com/8159557.html'},
     {c:'MODEL', d:'2026-10-06T09:16', t:'OpenAI 宣布「28 天计划」，持续改进 Codex、Work；TikTok 上线一系列 AI 电商功能；蓝色起源公布月球「动力塔计划」', s:'2026 诺贝尔奖生理学或医学奖揭晓：三学者凭借「光控离子通道和光遗传学」领域发现获表彰 10 月 5 日消息，诺贝尔奖…（来源：极客公园）', u:'http://www.geekpark.net/news/372086'},
     {c:'MODEL', d:'2026-10-06T08:30', t:'Edge AI Daily 早报（10月6日）', s:'特朗普签署行政令将AI改名为SI，马斯克确认SpaceXAI更名，引发域名套利狂欢。OpenAI GPT-6 Astra…（来源：钛媒体）', u:'https://www.tmtpost.com/8159773.html'},
     {c:'MODEL', d:'2026-10-06T07:39', t:'Termexo v0.10.10 发布：19 个本地 MCP 工具，五种编程 Agent 自动接入', s:'AI 生成概念图，非产品界面。 MIT 开源的 Windows AI 编程工作台 Termexo 发布 v0.10.10…（来源：OSCHINA）', u:'https://www.oschina.net/news/502845'},
-    {c:'MEDPHARMA', d:'2026-10-05T22:16', t:'诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉', s:'诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693093976307532329/'},
-    {c:'MEDPHARMA', d:'2026-10-05T19:53', t:'复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...', s:'复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693150445543424522/'},
   ];
   const TIMELINE = [
+    ['10-06 14:32','如何用Deepseek组装测序仪？'],
+    ['10-06 14:25','消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与'],
     ['10-06 13:47','三星 Galaxy S27 Ultra 手机爆料：AI 减少镜头光晕，充电提速约 3%'],
     ['10-06 12:58','为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标'],
     ['10-06 12:31','世界模型赛道：谁在收编，谁在突围？'],
     ['10-06 12:31','重塑苹果设计团队核心地位，特努斯瞄准下一个十年竞争'],
-    ['10-06 12:31','AI 越来越强，公司为什么还是做不快？'],
-    ['10-06 12:23','消息称希捷与东芝竞购 TDK 硬盘磁头业务，争夺 AI 存储供应链关键环节'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:295717, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:277245, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:273758, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217113, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179819, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149541, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140811, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124101, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110040, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:101576, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:295727, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:277255, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:273771, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217117, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179825, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149542, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140817, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124112, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110046, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:101582, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-06T14:02:16",
+  "updated": "2026-10-06T14:32:16",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-06T14:32",
+      "t": "如何用Deepseek组装测序仪？",
+      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-06T14:25",
+      "t": "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与",
+      "s": "据彭博社报道，DeepSeek 新一轮融资即将敲定，募资规模至少可达 800 亿元人民币，大幅超出自身原定募资目标。此次…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/990.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-06T13:47",
@@ -86,18 +100,18 @@
       "u": "https://www.ithome.com/1/009/961.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-06T10:22",
+      "t": "AI制药的瓶颈交易来了:半导体炒过的剧本，要在药罐子里重演?",
+      "s": "AI制药的瓶颈交易来了:半导体炒过的剧本，要在药罐子里重演?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693374327432987145/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-06T10:12",
       "t": "防止 AI 胡编乱造：微软 Word Copilot 新增引用功能，可溯源查证",
       "s": "科技媒体 Windows Central 昨日（10 月 5 日）发布博文，报道称在 Word 文档处理应用中，微软优化…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/958.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-06T09:59",
-      "t": "苹果与 OpenAI 商业秘密诉讼交锋升级：互指违规提交新证据",
-      "s": "几天之前，OpenAI 指责苹果在商业秘密诉讼当中违规提交新证据。如今苹果予以反击，反过来指控 OpenAI 在其提交的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/955.htm"
     },
     {
       "c": "HOT",
@@ -126,23 +140,17 @@
       "t": "Termexo v0.10.10 发布：19 个本地 MCP 工具，五种编程 Agent 自动接入",
       "s": "AI 生成概念图，非产品界面。 MIT 开源的 Windows AI 编程工作台 Termexo 发布 v0.10.10…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502845"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-05T22:16",
-      "t": "诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉",
-      "s": "诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7693093976307532329/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-05T19:53",
-      "t": "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...",
-      "s": "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7693150445543424522/"
     }
   ],
   "timeline": [
+    [
+      "10-06 14:32",
+      "如何用Deepseek组装测序仪？"
+    ],
+    [
+      "10-06 14:25",
+      "消息称 DeepSeek 接近完成至少 800 亿元融资，腾讯、宁德时代重金参与"
+    ],
     [
       "10-06 13:47",
       "三星 Galaxy S27 Ultra 手机爆料：AI 减少镜头光晕，充电提速约 3%"
@@ -158,14 +166,6 @@
     [
       "10-06 12:31",
       "重塑苹果设计团队核心地位，特努斯瞄准下一个十年竞争"
-    ],
-    [
-      "10-06 12:31",
-      "AI 越来越强，公司为什么还是做不快？"
-    ],
-    [
-      "10-06 12:23",
-      "消息称希捷与东芝竞购 TDK 硬盘磁头业务，争夺 AI 存储供应链关键环节"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295717,
+      "s": 295727,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277245,
+      "s": 277255,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273758,
+      "s": 273771,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217113,
+      "s": 217117,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179819,
+      "s": 179825,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149541,
+      "s": 149542,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140811,
+      "s": 140817,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124101,
+      "s": 124112,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110040,
+      "s": 110046,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101576,
+      "s": 101582,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
