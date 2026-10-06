@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-06T13:32:03",
+  "updated": "2026-10-06T14:02:16",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-06T13:47",
+      "t": "三星 Galaxy S27 Ultra 手机爆料：AI 减少镜头光晕，充电提速约 3%",
+      "s": "根据消息源 @WalleGalaxy 和 @kro_roe 消息，三星 Galaxy S27 Ultra 旗舰手机充电速…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/986.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-06T12:58",
@@ -79,13 +86,6 @@
       "u": "https://www.ithome.com/1/009/961.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-10-06T10:22",
-      "t": "AI制药的瓶颈交易来了:半导体炒过的剧本，要在药罐子里重演?",
-      "s": "AI制药的瓶颈交易来了:半导体炒过的剧本，要在药罐子里重演?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7693374327432987145/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-06T10:12",
       "t": "防止 AI 胡编乱造：微软 Word Copilot 新增引用功能，可溯源查证",
@@ -98,13 +98,6 @@
       "t": "苹果与 OpenAI 商业秘密诉讼交锋升级：互指违规提交新证据",
       "s": "几天之前，OpenAI 指责苹果在商业秘密诉讼当中违规提交新证据。如今苹果予以反击，反过来指控 OpenAI 在其提交的…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/955.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-06T09:51",
-      "t": "英伟达黄仁勋“世界巡演”AI 视频海内外爆火，马斯克调侃“内存涨价的原因找到了”",
-      "s": "近期有关迈克尔 · 杰克逊演唱会的二创视频在国内视频平台爆火，网友们将舞台上的迈克尔 · 杰克逊和台下的观众替换为各种知…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/953.htm"
     },
     {
       "c": "HOT",
@@ -140,9 +133,20 @@
       "t": "诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉",
       "s": "诺奖得主炮轰AI制药:开发新药会失败，生物学教科书是幻觉（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7693093976307532329/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-05T19:53",
+      "t": "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...",
+      "s": "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693150445543424522/"
     }
   ],
   "timeline": [
+    [
+      "10-06 13:47",
+      "三星 Galaxy S27 Ultra 手机爆料：AI 减少镜头光晕，充电提速约 3%"
+    ],
     [
       "10-06 12:58",
       "为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标"
@@ -162,10 +166,6 @@
     [
       "10-06 12:23",
       "消息称希捷与东芝竞购 TDK 硬盘磁头业务，争夺 AI 存储供应链关键环节"
-    ],
-    [
-      "10-06 11:56",
-      "想改造工厂的机器人，先被工厂改造了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295711,
+      "s": 295717,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277229,
+      "s": 277245,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273746,
+      "s": 273758,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217112,
+      "s": 217113,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149539,
+      "s": 149541,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140808,
+      "s": 140811,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124099,
+      "s": 124101,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110039,
+      "s": 110040,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101574,
+      "s": 101576,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
