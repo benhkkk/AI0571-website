@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-07T06:31:59",
+  "updated": "2026-10-07T07:02:11",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-07T06:50",
+      "t": "已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型",
+      "s": "据路透社报道，Anthropic 正在扩大一项计划，允许经过审核的网络安全专业人员在更少安全防护的情况下测试其最强大的人…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/127.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-07T06:41",
+      "t": "谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存",
+      "s": "去年谷歌推出了 EmbeddingGemma，为开发者提供轻量高质量的文本嵌入方案，下载量已超 2000 万次，广泛应用…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/125.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-06T22:30",
@@ -79,20 +93,6 @@
       "u": "https://www.ithome.com/1/010/031.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-06T16:42",
-      "t": "瑞萨推出品牌首款低压氮化镓功率半导体，面向 AI 数据中心、人形机器人等领域",
-      "s": "瑞萨电子今日宣布推出公司首款低压氮化镓功率半导体产品。本次推出的产品属 100V 增强型（E-mode）GaN 分立功率…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/015.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-06T16:18",
-      "t": "消息称 Meta 和微软要求员工减少使用 Claude，多用自家 AI 节省成本",
-      "s": "据 The Information 报道，Meta 与微软已要求员工减少使用 Anthropic 旗下的 AI 模型 C…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/010.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-06T15:59",
       "t": "不er，咋陶哲轩也成AI减速派了？？",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-07 06:50",
+      "已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型"
+    ],
+    [
+      "10-07 06:41",
+      "谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存"
+    ],
+    [
       "10-06 22:30",
       "AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产"
     ],
@@ -158,14 +166,6 @@
     [
       "10-06 20:20",
       "复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是..."
-    ],
-    [
-      "10-06 19:27",
-      "亚马逊 Alexa Echo 智能音箱出现诡异 Bug：毫无征兆哼唱“啦啦啦”数分钟，官方承诺修复"
-    ],
-    [
-      "10-06 19:24",
-      "Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296001,
+      "s": 296004,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 278064,
+      "s": 278078,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274260,
+      "s": 274268,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217259,
+      "s": 217264,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179904,
+      "s": 179905,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149625,
+      "s": 149628,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140867,
+      "s": 140868,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124398,
+      "s": 124402,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110204,
+      "s": 110210,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102017,
+      "s": 102024,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
