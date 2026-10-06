@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-06T11:31:54",
+  "updated": "2026-10-06T12:02:12",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-06T11:38",
+      "t": "消息称月之暗面完成上市前最后一轮融资：估值约 500 亿美元，计划明年一季度赴港 IPO",
+      "s": "据彭博社报道，知情人士消息，月之暗面（Moonshot AI）已经完成上市前最后一轮私募融资，估值约 500 亿美元（I…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/009/971.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-06T11:06",
@@ -56,13 +63,6 @@
       "t": "维基媒体：OpenAI 失控 AI 智能体或引发其 5 月数据服务故障",
       "s": "运营网络百科全书维基百科的维基媒体基金会表示，今年 5 月其数据服务出现故障，或许和来自 OpenAI 失控智能体产生的…（来源：IT之家）",
       "u": "https://www.ithome.com/1/009/947.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-06T09:34",
-      "t": "GLM-5.3 上架亚马逊 AWS 旗下大模型平台，智谱打开海外收入分成通道",
-      "s": "据《科创板日报》报道，亚马逊云科技（AWS）旗下大模型服务平台 Amazon Bedrock 今日接入智谱 GLM-5.…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/009/946.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-06 11:38",
+      "消息称月之暗面完成上市前最后一轮融资：估值约 500 亿美元，计划明年一季度赴港 IPO"
+    ],
+    [
       "10-06 11:06",
       "Manus重新独立，Agent之战换了打法"
     ],
@@ -162,10 +166,6 @@
     [
       "10-06 09:59",
       "苹果与 OpenAI 商业秘密诉讼交锋升级：互指违规提交新证据"
-    ],
-    [
-      "10-06 09:51",
-      "英伟达黄仁勋“世界巡演”AI 视频海内外爆火，马斯克调侃“内存涨价的原因找到了”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295681,
+      "s": 295685,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277172,
+      "s": 277186,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273712,
+      "s": 273720,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217094,
+      "s": 217099,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179806,
+      "s": 179809,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140799,
+      "s": 140803,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124079,
+      "s": 124080,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110024,
+      "s": 110028,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101563,
+      "s": 101565,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
