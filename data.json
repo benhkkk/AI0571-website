@@ -1,34 +1,6 @@
 {
-  "updated": "2026-10-06T20:02:35",
+  "updated": "2026-10-06T20:32:05",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-10-06T20:02",
-      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
-      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-06T20:02",
-      "t": "#AI for MS",
-      "s": "#AI for MS（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/topic-755.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-10-06T20:02",
-      "t": "下一代质谱软件，会不会像DeepSeek一样工作？",
-      "s": "下一代质谱软件，会不会像DeepSeek一样工作？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260714/940118.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-06T20:02",
-      "t": "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析",
-      "s": "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20251205/858901.shtml"
-    },
     {
       "c": "HOT",
       "d": "2026-10-06T19:27",
@@ -42,6 +14,13 @@
       "t": "Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品",
       "s": "据路透社报道，法国人工智能初创企业 Mistral AI 首席执行官 Arthur Mensch 当地时间今日在阿拉伯联…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/043.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-06T18:44",
+      "t": "刚刚，诺贝尔物理奖一人独揽！",
+      "s": "南极洲甚至有一座高地以他名字命名（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/501746.html"
     },
     {
       "c": "HOT",
@@ -140,25 +119,30 @@
       "t": "AI 越来越强，公司为什么还是做不快？",
       "s": "成果看起来越完整，剩下的工作越容易被误解为拖延。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8159894.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-06T11:56",
+      "t": "想改造工厂的机器人，先被工厂改造了",
+      "s": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159783.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-06T11:56",
+      "t": "10亿美金估值！好莱坞老炮为何集体投奔这家“AI原生影视公司”？",
+      "s": "可能改写行业规则的AI公司来了。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159745.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-06T11:06",
+      "t": "Manus重新独立，Agent之战换了打法",
+      "s": "如何重新估值？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8159743.html"
     }
   ],
   "timeline": [
-    [
-      "10-06 20:02",
-      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
-    ],
-    [
-      "10-06 20:02",
-      "#AI for MS"
-    ],
-    [
-      "10-06 20:02",
-      "下一代质谱软件，会不会像DeepSeek一样工作？"
-    ],
-    [
-      "10-06 20:02",
-      "提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析"
-    ],
     [
       "10-06 19:27",
       "亚马逊 Alexa Echo 智能音箱出现诡异 Bug：毫无征兆哼唱“啦啦啦”数分钟，官方承诺修复"
@@ -166,6 +150,22 @@
     [
       "10-06 19:24",
       "Mistral AI 放出预告：今日新模型可在网安等方面优于中国竞品"
+    ],
+    [
+      "10-06 18:44",
+      "刚刚，诺贝尔物理奖一人独揽！"
+    ],
+    [
+      "10-06 18:44",
+      "论AI从沙盒中逃逸的必然性"
+    ],
+    [
+      "10-06 18:44",
+      "全球AI消费调查：仅有1%超级玩家在养活AI圈"
+    ],
+    [
+      "10-06 18:32",
+      "1800 万美元，Anthropic CEO 阿莫迪 2025 年薪酬曝光"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 295822,
+      "s": 295829,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 277482,
+      "s": 277514,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 273952,
+      "s": 273963,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217178,
+      "s": 217183,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179860,
+      "s": 179859,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149567,
+      "s": 149569,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140846,
+      "s": 140848,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124201,
+      "s": 124212,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110100,
+      "s": 110105,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 101679,
+      "s": 101686,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
