@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-07T18:32:18",
+  "updated": "2026-10-07T19:02:06",
   "news": [
     {
       "c": "INDUSTRY",
@@ -21,13 +21,6 @@
       "t": "晕…这年头还有说人话的AI不",
       "s": "晕…这年头还有说人话的AI不（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501796.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-07T16:37",
-      "t": "AI制药遭重挫，晶泰控股(02228.HK)跌幅超12%",
-      "s": "AI制药遭重挫，晶泰控股(02228.HK)跌幅超12%（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7693842172902130195/"
     },
     {
       "c": "HOT",
@@ -140,6 +133,13 @@
       "t": "袋鼠数据库工具 v9.9.1 版已上线",
       "s": "袋鼠数据库工具 是一款 AI 驱动的热门数据库系统客户端(MariaDB / MongoDB / MySQL / Ora…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502849"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-07T09:05",
+      "t": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
+      "s": "三位菲尔兹奖得主：不代表认可（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/501749.html"
     }
   ],
   "timeline": [
@@ -156,16 +156,16 @@
       "晕…这年头还有说人话的AI不"
     ],
     [
-      "10-07 16:37",
-      "AI制药遭重挫，晶泰控股(02228.HK)跌幅超12%"
-    ],
-    [
       "10-07 16:28",
       "荣耀 Magic9 全系列支持红外功能，Pro Max 搭载独有「360° 红外遥控增强」技术"
     ],
     [
       "10-07 15:32",
       "谷歌推出全新 macOS 应用 AI Edge Foresight，支持离线记录会议纪要"
+    ],
+    [
+      "10-07 14:45",
+      "OpenAI 为 ChatGPT 新增自动年龄检测，未满 18 岁用户将自动开启青少年模式"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296170,
+      "s": 296179,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 278706,
+      "s": 278748,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274512,
+      "s": 274530,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179985,
+      "s": 179989,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149693,
+      "s": 149696,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124515,
+      "s": 124523,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110311,
+      "s": 110320,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102298,
+      "s": 102309,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
