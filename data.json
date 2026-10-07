@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-07T18:02:29",
+  "updated": "2026-10-07T18:32:18",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-07T18:19",
+      "t": "微软、OpenAI 遭美国多家地方媒体起诉，被指侵犯版权",
+      "s": "据科技媒体 neowin 今天报道，微软和 OpenAI 被埃默里奇报业（Emmerich Newspapers）等美国…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/257.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-07T17:42",
@@ -114,13 +121,6 @@
       "u": "https://www.leiphone.com/category/industrynews/7kLgFJjmaGU8YuBW.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-07T11:30",
-      "t": "微软 Surface Laptop Ultra 笔记本规格曝光：最高 128GB 内存，面向 AI 开发和内容创作",
-      "s": "科技媒体 Windows Central 昨日（10 月 6 日）发布博文，分享了微软 Surface Laptop U…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/178.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-07T10:59",
       "t": "AI制药产业链梳理:从技术验证到商业兑现，各环节进入业绩验证期",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-07 18:19",
+      "微软、OpenAI 遭美国多家地方媒体起诉，被指侵犯版权"
+    ],
+    [
       "10-07 17:42",
       "谁在捧杀Utopai X？"
     ],
@@ -162,10 +166,6 @@
     [
       "10-07 15:32",
       "谷歌推出全新 macOS 应用 AI Edge Foresight，支持离线记录会议纪要"
-    ],
-    [
-      "10-07 14:45",
-      "OpenAI 为 ChatGPT 新增自动年龄检测，未满 18 岁用户将自动开启青少年模式"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296161,
+      "s": 296170,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 278678,
+      "s": 278706,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274502,
+      "s": 274512,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217358,
+      "s": 217360,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179983,
+      "s": 179985,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149692,
+      "s": 149693,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124505,
+      "s": 124515,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110305,
+      "s": 110311,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102290,
+      "s": 102298,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
