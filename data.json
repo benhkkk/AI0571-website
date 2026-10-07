@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-07T21:02:23",
+  "updated": "2026-10-07T21:32:19",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-07T21:06",
+      "t": "AMD 苏姿丰承诺 2027 年大幅增加 AI 数据中心芯片供应",
+      "s": "据科技媒体 TechRadar 今天报道，AMD 首席执行官苏姿丰向外界保证，公司将于 2027 年增加 AI 数据中心…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/284.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-07T20:29",
@@ -35,6 +42,13 @@
       "t": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！",
       "s": "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501803.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-07T19:26",
+      "t": "碳硅道统《AI安全与文明治理法典》第189集｜全法典总目录索引终卷",
+      "s": "适用：法典运维中心、跨文明联合审计委员会、全体系卷宗归档、官方检索核验、所有引用与落地主体。 核心定位：本卷为碳硅道统1…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/SCYRWOQSLbEpAnGs.html"
     },
     {
       "c": "MODEL",
@@ -93,13 +107,6 @@
       "u": "https://www.qbitai.com/2026/10/501791.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-07T14:13",
-      "t": "华为徐直军回应“美国同行呼吁放缓 AI 开发”：中国模型更弱反而需要加快，不然怎么体会到风险",
-      "s": "华为官方 10 月 5 日发文，披露了在 9 月 17 日的华为全联接大会期间，华为轮值董事长徐直军、海思首席科学家廖恒…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/198.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-07T12:36",
       "t": "半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了",
@@ -133,16 +140,13 @@
       "t": "蚂蚁阿福“科学减重1亿斤”迎来“退展”：中秋国庆假期全国60万网友胖了100万斤",
       "s": "中秋国庆超长假期即将结束，更“扎心”的灵魂拷问来了：你胖了吗？健康AI蚂蚁阿福数据显示，9月25日-10月6日假期期间…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/7kLgFJjmaGU8YuBW.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-07T10:59",
-      "t": "AI制药产业链梳理:从技术验证到商业兑现，各环节进入业绩验证期",
-      "s": "AI制药产业链梳理:从技术验证到商业兑现，各环节进入业绩验证期（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7693755171628761655/"
     }
   ],
   "timeline": [
+    [
+      "10-07 21:06",
+      "AMD 苏姿丰承诺 2027 年大幅增加 AI 数据中心芯片供应"
+    ],
     [
       "10-07 20:29",
       "突发，假期利好不断!AI制药，节后或要走主升浪，新主线(附股)"
@@ -162,10 +166,6 @@
     [
       "10-07 19:34",
       "《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！"
-    ],
-    [
-      "10-07 19:02",
-      "2027 款深蓝 L06 新车官宣：定位“长续航磁流变 AI 轿跑”，搭载两只“龙虾”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296212,
+      "s": 296221,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 278898,
+      "s": 278948,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274590,
+      "s": 274611,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217370,
+      "s": 217377,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180000,
+      "s": 180006,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149710,
+      "s": 149711,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140917,
+      "s": 140921,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124547,
+      "s": 124558,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110337,
+      "s": 110345,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102398,
+      "s": 102420,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
