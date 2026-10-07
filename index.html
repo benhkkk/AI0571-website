@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-10-08T04:02', t:'3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室', s:'3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260617/921833.shtml'},
     {c:'MODEL', d:'2026-10-08T02:38', t:'微软描绘 Autopilot 全新蓝图：让 Windows AI 从“回答问题”走向“执行任务”', s:'微软今天召开 Surface 新品发布会，现场展示 Autopilot 未来方向。根据其设想，这款智能体将让 Windo…（来源：IT之家）', u:'https://www.ithome.com/1/010/321.htm'},
     {c:'MODEL', d:'2026-10-08T01:56', t:'英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存', s:'太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，英伟达发…（来源：IT之家）', u:'https://www.ithome.com/1/010/313.htm'},
     {c:'MODEL', d:'2026-10-08T01:45', t:'微软：Meta Muse 智能体将登陆 Windows 平台', s:'微软今天在 Surface 新品发布会展示了多款第三方智能体工具。其中，Perplexity 的“便携电脑”工具能够端侧…（来源：IT之家）', u:'https://www.ithome.com/1/010/310.htm'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-07T14:39', t:'Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司', s:'在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、C…（来源：量子位）', u:'https://www.qbitai.com/2026/10/501791.html'},
     {c:'HOT', d:'2026-10-07T12:36', t:'半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了', s:'郭台铭靠 AI重回中国台湾首富之位 。（来源：钛媒体）', u:'https://www.tmtpost.com/8148632.html'},
     {c:'HOT', d:'2026-10-07T12:35', t:'网球机器人火了，但好生意要从“有效付费小时”算起', s:'网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。（来源：钛媒体）', u:'https://www.tmtpost.com/8160190.html'},
+    {c:'MODEL', d:'2026-10-07T12:35', t:'Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？', s:'未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。（来源：钛媒体）', u:'https://www.tmtpost.com/8160182.html'},
   ];
   const TIMELINE = [
-    ['10-08 04:02','3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室'],
     ['10-08 02:38','微软描绘 Autopilot 全新蓝图：让 Windows AI 从“回答问题”走向“执行任务”'],
     ['10-08 01:56','英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存'],
     ['10-08 01:45','微软：Meta Muse 智能体将登陆 Windows 平台'],
     ['10-08 01:42','微软提出“混合智能”新路线，协同本地 / 云端 AI 灵活处理 Win11 用户任务'],
     ['10-08 01:24','微软重点介绍 MXC SDK，为 AI 智能体提供受控执行环境'],
+    ['10-08 01:16','纳德拉：Agent 365、Microsoft IQ 和 Copilot 将成为微软 AI 布局的关键支点'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296342, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:279365, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274826, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217416, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180040, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149752, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140933, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124631, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110385, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102671, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296347, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:279397, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274845, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217421, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180042, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149755, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140934, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124638, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110392, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102689, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
