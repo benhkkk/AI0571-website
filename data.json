@@ -1,6 +1,34 @@
 {
-  "updated": "2026-10-08T06:07:49",
+  "updated": "2026-10-08T06:31:53",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T06:26",
+      "t": "Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%",
+      "s": "Anthropic 昨日（10 月 7 日）发布博文，宣布推出 Claude Haiku 5.5 模型，称其为目前速度最…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/333.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T06:17",
+      "t": "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元",
+      "s": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，微软宣布…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/330.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T06:16",
+      "t": "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗",
+      "s": "微软 AI 首席执行官穆斯塔法 · 苏莱曼（Mustafa Suleyman）于 10 月 6 日在 X 平台发布推文…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/329.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T06:10",
+      "t": "周活超 12 亿用户：OpenAI ChatGPT 升级 GPT-6 模型，互动式 AI 教你打麻将",
+      "s": "OpenAI 今天（10 月 8 日）在 X 平台发布推文，宣布面向所有 ChatGPT 用户，推出 GPT-6 系列模…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/327.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-08T05:56",
@@ -28,34 +56,6 @@
       "t": "微软：Meta Muse 智能体将登陆 Windows 平台",
       "s": "微软今天在 Surface 新品发布会展示了多款第三方智能体工具。其中，Perplexity 的“便携电脑”工具能够端侧…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/310.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T01:42",
-      "t": "微软提出“混合智能”新路线，协同本地 / 云端 AI 灵活处理 Win11 用户任务",
-      "s": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，微软提出…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/309.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T01:24",
-      "t": "微软重点介绍 MXC SDK，为 AI 智能体提供受控执行环境",
-      "s": "据科技媒体 The Verge 报道，微软今天在 Windows 与 Surface 发布会重点介绍 MXC（ Micr…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/307.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T01:16",
-      "t": "纳德拉：Agent 365、Microsoft IQ 和 Copilot 将成为微软 AI 布局的关键支点",
-      "s": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办发布会上，微软首席执…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/306.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-07T23:19",
-      "t": "CoreWeave 落子印度，签署 240MW 数据中心容量租约",
-      "s": "人工智能云服务企业 CoreWeave 当地时间今日宣布进军印度市场：该企业与阿达尼旗下的 AdaniConneX 达成…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/300.htm"
     },
     {
       "c": "HOT",
@@ -144,28 +144,28 @@
   ],
   "timeline": [
     [
+      "10-08 06:26",
+      "Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%"
+    ],
+    [
+      "10-08 06:17",
+      "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元"
+    ],
+    [
+      "10-08 06:16",
+      "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗"
+    ],
+    [
+      "10-08 06:10",
+      "周活超 12 亿用户：OpenAI ChatGPT 升级 GPT-6 模型，互动式 AI 教你打麻将"
+    ],
+    [
       "10-08 05:56",
       "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等"
     ],
     [
       "10-08 02:38",
       "微软描绘 Autopilot 全新蓝图：让 Windows AI 从“回答问题”走向“执行任务”"
-    ],
-    [
-      "10-08 01:56",
-      "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存"
-    ],
-    [
-      "10-08 01:45",
-      "微软：Meta Muse 智能体将登陆 Windows 平台"
-    ],
-    [
-      "10-08 01:42",
-      "微软提出“混合智能”新路线，协同本地 / 云端 AI 灵活处理 Win11 用户任务"
-    ],
-    [
-      "10-08 01:24",
-      "微软重点介绍 MXC SDK，为 AI 智能体提供受控执行环境"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296369,
+      "s": 296374,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279480,
+      "s": 279497,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274897,
+      "s": 274903,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217429,
+      "s": 217435,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180051,
+      "s": 180052,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149763,
+      "s": 149765,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140936,
+      "s": 140935,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124662,
+      "s": 124665,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110403,
+      "s": 110405,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102737,
+      "s": 102747,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
