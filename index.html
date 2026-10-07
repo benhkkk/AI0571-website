@@ -459,16 +459,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-10-07T07:58', t:'AI 颠覆担忧消退，美国软件股创 2026 年阶段新高', s:'据路透社报道，受盈利预期大幅上调的推动，美国软件类股票正创出 2026 年阶段新高；多位分析师据此认为，此前市场对于人工…（来源：IT之家）', u:'https://www.ithome.com/1/010/141.htm'},
+    {c:'MODEL', d:'2026-10-07T07:42', t:'OpenAI 发布又一批 AI 数学研究成果，攻破数百个悬而未决难题', s:'OpenAI 在一批包含 722 份手稿、涵盖 372 个结果家族的文件中，公布了某款未发布的前沿模型解决的多项长期存在…（来源：IT之家）', u:'https://www.ithome.com/1/010/137.htm'},
     {c:'HOT', d:'2026-10-07T07:31', t:'落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”', s:'路透社看到的一份备忘录显示，美国司法部于当地时间周二向内部工作人员下达指示：在绝大多数场合提及这项技术时（包括法庭相关文…（来源：IT之家）', u:'https://www.ithome.com/1/010/135.htm'},
     {c:'FUNDING', d:'2026-10-07T07:24', t:'消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片', s:'据《金融时报》报道，埃隆 · 马斯克（Elon Musk）旗下的 SpaceX 正计划募资 400 亿美元（IT之家注：…（来源：IT之家）', u:'https://www.ithome.com/1/010/134.htm'},
     {c:'MODEL', d:'2026-10-07T07:19', t:'LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型', s:'如果你正在寻找一款不使用人工智能的文档编辑软件，LibreOffice 或许正是适合你的选择。开发这款开源文档编辑软件 …（来源：IT之家）', u:'https://www.ithome.com/1/010/132.htm'},
     {c:'MODEL', d:'2026-10-07T06:50', t:'已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型', s:'据路透社报道，Anthropic 正在扩大一项计划，允许经过审核的网络安全专业人员在更少安全防护的情况下测试其最强大的人…（来源：IT之家）', u:'https://www.ithome.com/1/010/127.htm'},
     {c:'MODEL', d:'2026-10-07T06:41', t:'谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存', s:'去年谷歌推出了 EmbeddingGemma，为开发者提供轻量高质量的文本嵌入方案，下载量已超 2000 万次，广泛应用…（来源：IT之家）', u:'https://www.ithome.com/1/010/125.htm'},
     {c:'HOT', d:'2026-10-06T22:30', t:'AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产', s:'AMD 盘初涨近 3%，报 649.88 美元（IT之家注：现汇率约合 4,364 元人民币），创历史新高，市值达 1.…（来源：IT之家）', u:'https://www.ithome.com/1/010/114.htm'},
-    {c:'MODEL', d:'2026-10-06T21:56', t:'宣称“欧美最强开源模型”：Mistral AI 发布 Mistral Large 4 公开预览版，月底开放权重', s:'当地时间 10 月 6 日，法国公司 Mistral AI 正式推出 Mistral Large 4 模型的公开预览版（…（来源：IT之家）', u:'https://www.ithome.com/1/010/108.htm'},
     {c:'FUNDING', d:'2026-10-06T21:10', t:'DeepSeek被爆最新融资800亿，正为冲击IPO做准备', s:'从“拒绝资本”到千亿融资，梁文锋的态度转变背后，是一场输不起的AI竞赛（来源：钛媒体）', u:'https://www.tmtpost.com/8159961.html'},
     {c:'MEDPHARMA', d:'2026-10-06T20:20', t:'复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...', s:'复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693528468268663334/'},
-    {c:'HOT', d:'2026-10-06T19:27', t:'亚马逊 Alexa Echo 智能音箱出现诡异 Bug：毫无征兆哼唱“啦啦啦”数分钟，官方承诺修复', s:'据科技媒体 Android Authority 今天报道，部分用户反馈，亚马逊 Alexa Plus 人工智能语音助手最…（来源：IT之家）', u:'https://www.ithome.com/1/010/048.htm'},
     {c:'HOT', d:'2026-10-06T18:44', t:'刚刚，诺贝尔物理奖一人独揽！', s:'南极洲甚至有一座高地以他名字命名（来源：量子位）', u:'https://www.qbitai.com/2026/10/501746.html'},
     {c:'HOT', d:'2026-10-06T18:44', t:'论AI从沙盒中逃逸的必然性', s:'沙盒逃逸不是意外，而是必然：优化器的搜索空间永远大于防御方的约束空间，未被认识的通道迟早被撞开。文章以四起真实逃逸为据论…（来源：钛媒体）', u:'https://www.tmtpost.com/8159807.html'},
     {c:'INDUSTRY', d:'2026-10-06T18:44', t:'全球AI消费调查：仅有1%超级玩家在养活AI圈', s:'AI的流量帝国，是靠极少数人用真金白银撑起来的。（来源：钛媒体）', u:'https://www.tmtpost.com/8159928.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-06T11:56', t:'想改造工厂的机器人，先被工厂改造了', s:'Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计。（来源：钛媒体）', u:'https://www.tmtpost.com/8159783.html'},
   ];
   const TIMELINE = [
+    ['10-07 07:58','AI 颠覆担忧消退，美国软件股创 2026 年阶段新高'],
+    ['10-07 07:42','OpenAI 发布又一批 AI 数学研究成果，攻破数百个悬而未决难题'],
     ['10-07 07:31','落实特朗普行政令，美国司法部要求员工改称 AI 为“超级智能”'],
     ['10-07 07:24','消息称 SpaceX 计划募资 400 亿美元，用于采购英伟达 AI 芯片'],
     ['10-07 07:19','LibreOffice：短期内默认版本不内置 AI 功能，用户可通过扩展自行接入本地模型'],
     ['10-07 06:50','已挖出十几万漏洞，Anthropic 向更多安全团队开放其最强 Claude 模型'],
-    ['10-07 06:41','谷歌推出 EmbeddingGemma 2：支持多模态、7.4 亿参数量化手机端运行只需 191MB 内存'],
-    ['10-06 22:30','AMD 股价创历史新高！CEO 苏姿丰称 AI 芯片需求非常旺盛，将持续大幅扩产'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296007, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:278086, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274276, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217266, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179908, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149630, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140868, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124410, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110213, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102030, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296011, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:278105, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274289, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217267, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179910, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149631, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140869, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124413, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110214, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102038, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
