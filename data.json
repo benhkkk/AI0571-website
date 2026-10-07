@@ -1,12 +1,12 @@
 {
-  "updated": "2026-10-08T05:31:52",
+  "updated": "2026-10-08T06:01:51",
   "news": [
     {
-      "c": "MEDDEVICE",
-      "d": "2026-10-08T05:31",
-      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
-      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+      "c": "MODEL",
+      "d": "2026-10-08T05:56",
+      "t": "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等",
+      "s": "微软昨日（10 月 7 日）更新推出 Visual Studio Code 1.141，本次更新聚焦 AI 智能体（Ag…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/325.htm"
     },
     {
       "c": "MODEL",
@@ -59,13 +59,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-07T23:19",
-      "t": "“iPod 之父”法德尔分析 Rabbit R1 等初代 AI 设备为何失败：没能真正满足任何需求",
-      "s": "被誉为“iPod 之父”的托尼 · 法德尔最近在首届麻省理工未来节发表演讲。他上台时展示了三款曾经备受追捧的第一代 AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/299.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-07T22:10",
       "t": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
       "s": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦（来源：量子位）",
@@ -107,6 +100,13 @@
       "u": "https://www.leiphone.com/category/industrynews/SCYRWOQSLbEpAnGs.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-07T18:32",
+      "t": "突发，假期利好不断!AI制药，节后或要走主升浪，新主线(附股)",
+      "s": "突发，假期利好不断!AI制药，节后或要走主升浪，新主线(附股)（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693867057066099246/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-07T17:42",
       "t": "谁在捧杀Utopai X？",
@@ -144,8 +144,8 @@
   ],
   "timeline": [
     [
-      "10-08 05:31",
-      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+      "10-08 05:56",
+      "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等"
     ],
     [
       "10-08 02:38",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296363,
+      "s": 296368,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279446,
+      "s": 279474,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274871,
+      "s": 274890,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217428,
+      "s": 217429,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180047,
+      "s": 180050,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149759,
+      "s": 149762,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124653,
+      "s": 124659,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110402,
+      "s": 110403,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102714,
+      "s": 102733,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
