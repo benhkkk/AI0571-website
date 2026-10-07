@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-08T01:32:56",
+  "updated": "2026-10-08T02:02:55",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T01:56",
+      "t": "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存",
+      "s": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，英伟达发…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/313.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T01:45",
+      "t": "微软：Meta Muse 智能体将登陆 Windows 平台",
+      "s": "微软今天在 Surface 新品发布会展示了多款第三方智能体工具。其中，Perplexity 的“便携电脑”工具能够端侧…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/310.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T01:42",
+      "t": "微软提出“混合智能”新路线，协同本地 / 云端 AI 灵活处理 Win11 用户任务",
+      "s": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，微软提出…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/309.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-08T01:24",
@@ -37,32 +58,11 @@
       "u": "https://www.ithome.com/1/010/295.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-07T22:47",
-      "t": "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容",
-      "s": "谷歌公司昨天宣布，其 AI 生成内容检测网站 SynthID 已面向全球用户开放，用户可使用该产品检测图片、视频或音频是…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/293.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-07T22:10",
       "t": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
       "s": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501825.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-07T22:09",
-      "t": "谷歌携手 Unity 推出 AI 游戏平台 Playground：支持自然语言创作，降低开发门槛",
-      "s": "谷歌今日宣布与 Unity 达成合作，推出实验性 AI 游戏平台 Playground。用户可在此凭借简短的提示词创建游…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/289.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-07T21:06",
-      "t": "AMD 苏姿丰承诺 2027 年大幅增加 AI 数据中心芯片供应",
-      "s": "据科技媒体 TechRadar 今天报道，AMD 首席执行官苏姿丰向外界保证，公司将于 2027 年增加 AI 数据中心…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/284.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-08 01:56",
+      "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存"
+    ],
+    [
+      "10-08 01:45",
+      "微软：Meta Muse 智能体将登陆 Windows 平台"
+    ],
+    [
+      "10-08 01:42",
+      "微软提出“混合智能”新路线，协同本地 / 云端 AI 灵活处理 Win11 用户任务"
+    ],
+    [
       "10-08 01:24",
       "微软重点介绍 MXC SDK，为 AI 智能体提供受控执行环境"
     ],
@@ -154,18 +166,6 @@
     [
       "10-07 23:19",
       "CoreWeave 落子印度，签署 240MW 数据中心容量租约"
-    ],
-    [
-      "10-07 23:19",
-      "“iPod 之父”法德尔分析 Rabbit R1 等初代 AI 设备为何失败：没能真正满足任何需求"
-    ],
-    [
-      "10-07 22:58",
-      "适配大屏：Meta 推出 iPad 版 Muse AI 智能体"
-    ],
-    [
-      "10-07 22:47",
-      "谷歌 SynthID 面向全球用户开放，可检测 AI 生成内容"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296305,
+      "s": 296316,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279223,
+      "s": 279250,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274750,
+      "s": 274762,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217405,
+      "s": 217407,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180029,
+      "s": 180032,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149731,
+      "s": 149734,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124605,
+      "s": 124608,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110375,
+      "s": 110376,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102576,
+      "s": 102599,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
