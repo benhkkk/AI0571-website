@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-08T07:02:00",
+  "updated": "2026-10-08T07:32:42",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-08T07:20",
+      "t": "【钛晨报】推动体育赛事发展，国务院办公厅最新部署；SpaceX拟募资400亿美元采购英伟达芯片；中国央行连续第23个月增持黄金",
+      "s": "GLM-5.3上架Amazon，智谱打开海外收入分成通道；华为与高通宣布达成广泛专利许可协议；抖音7.5亿收购案终止；英…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8160058.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-08T07:18",
+      "t": "消息称博通拟为 OpenAI 定制 AI 芯片筹资超 500 亿美元，SpaceX 洽谈 400 亿美元融资",
+      "s": "AI 基础设施建设的资金需求，正推动一系列大规模私人债务融资交易。据《华尔街日报》及彭博社今日报道，博通近几周来一直在为…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/352.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-08T07:08",
+      "t": "原 OpenAI 安全负责人戴维 · 罗宾逊“炮轰”老东家：对待 AI 安全说一套做一套",
+      "s": "据《商业内幕》今天（8 日）凌晨报道，上周从 OpenAI 离职的安全系统团队前负责人之一戴维 · 罗宾逊认为，公司在 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/351.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-08T06:37",
@@ -42,20 +63,6 @@
       "t": "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等",
       "s": "微软昨日（10 月 7 日）更新推出 Visual Studio Code 1.141，本次更新聚焦 AI 智能体（Ag…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/325.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T02:38",
-      "t": "微软描绘 Autopilot 全新蓝图：让 Windows AI 从“回答问题”走向“执行任务”",
-      "s": "微软今天召开 Surface 新品发布会，现场展示 Autopilot 未来方向。根据其设想，这款智能体将让 Windo…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/321.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T01:56",
-      "t": "英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存",
-      "s": "太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，英伟达发…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/313.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,21 @@
       "t": "网球机器人火了，但好生意要从“有效付费小时”算起",
       "s": "网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8160190.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-07T12:35",
-      "t": "Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？",
-      "s": "未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8160182.html"
     }
   ],
   "timeline": [
+    [
+      "10-08 07:20",
+      "【钛晨报】推动体育赛事发展，国务院办公厅最新部署；SpaceX拟募资400亿美元采购英伟达芯片；中国央行连续第23个月增持黄金"
+    ],
+    [
+      "10-08 07:18",
+      "消息称博通拟为 OpenAI 定制 AI 芯片筹资超 500 亿美元，SpaceX 洽谈 400 亿美元融资"
+    ],
+    [
+      "10-08 07:08",
+      "原 OpenAI 安全负责人戴维 · 罗宾逊“炮轰”老东家：对待 AI 安全说一套做一套"
+    ],
     [
       "10-08 06:37",
       "微软重构 Copilot 图标：升级动态交互语言，可表达思考、规划与检索"
@@ -154,18 +166,6 @@
     [
       "10-08 06:17",
       "GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元"
-    ],
-    [
-      "10-08 06:16",
-      "10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗"
-    ],
-    [
-      "10-08 06:10",
-      "周活超 12 亿用户：OpenAI ChatGPT 升级 GPT-6 模型，互动式 AI 教你打麻将"
-    ],
-    [
-      "10-08 05:56",
-      "微软发布 VS Code v1.141：清理“僵尸”Agent 会话等"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296373,
+      "s": 296382,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279520,
+      "s": 279543,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274915,
+      "s": 274922,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217436,
+      "s": 217437,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149770,
+      "s": 149774,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140938,
+      "s": 140939,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124667,
+      "s": 124672,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110406,
+      "s": 110407,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102763,
+      "s": 102778,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
