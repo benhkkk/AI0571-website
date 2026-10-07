@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-07T19:32:06",
+  "updated": "2026-10-07T20:02:28",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-07T19:44",
+      "t": "谷歌 Gmail 新功能曝光：Gemini 帮你回邮件",
+      "s": "科技媒体 Android Authority 今日报道称，Gmail 应用最新版（v2026.09.28）APK 拆解显…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/279.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-07T19:02",
@@ -9,11 +16,25 @@
       "u": "https://www.ithome.com/1/010/276.htm"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-07T18:32",
+      "t": "突发，假期利好不断!AI制药，节后或要走主升浪，新主线(附股)",
+      "s": "突发，假期利好不断!AI制药，节后或要走主升浪，新主线(附股)（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693867057066099246/"
+    },
+    {
       "c": "INDUSTRY",
       "d": "2026-10-07T18:19",
       "t": "微软、OpenAI 遭美国多家地方媒体起诉，被指侵犯版权",
       "s": "据科技媒体 neowin 今天报道，微软和 OpenAI 被埃默里奇报业（Emmerich Newspapers）等美国…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/257.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-07T17:49",
+      "t": "AI制药复刻半导体时代!瓶颈交易浮现，谁是真正卖铲人",
+      "s": "AI制药复刻半导体时代!瓶颈交易浮现，谁是真正卖铲人（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693412135715471933/"
     },
     {
       "c": "MODEL",
@@ -72,13 +93,6 @@
       "u": "https://www.ithome.com/1/010/196.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-07T13:30",
-      "t": "WordPress 7.1.3 发布：修复 7 个漏洞，其中 3 个由 Anthropic 报告",
-      "s": "WordPress 昨日（10 月 6 日）更新推出 7.1.3 版本，修复平台核心中 7 个安全漏洞，并解决 4 个程…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/192.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-07T12:36",
       "t": "半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了",
@@ -126,46 +140,32 @@
       "t": "好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型",
       "s": "人们对一件事的认知，有时比客观情况更能左右决策。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8160164.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-07T09:50",
-      "t": "袋鼠数据库工具 v9.9.1 版已上线",
-      "s": "袋鼠数据库工具 是一款 AI 驱动的热门数据库系统客户端(MariaDB / MongoDB / MySQL / Ora…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502849"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-07T09:05",
-      "t": "OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来",
-      "s": "三位菲尔兹奖得主：不代表认可（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501749.html"
     }
   ],
   "timeline": [
     [
+      "10-07 19:44",
+      "谷歌 Gmail 新功能曝光：Gemini 帮你回邮件"
+    ],
+    [
       "10-07 19:02",
       "2027 款深蓝 L06 新车官宣：定位“长续航磁流变 AI 轿跑”，搭载两只“龙虾”"
+    ],
+    [
+      "10-07 18:32",
+      "突发，假期利好不断!AI制药，节后或要走主升浪，新主线(附股)"
     ],
     [
       "10-07 18:19",
       "微软、OpenAI 遭美国多家地方媒体起诉，被指侵犯版权"
     ],
     [
+      "10-07 17:49",
+      "AI制药复刻半导体时代!瓶颈交易浮现，谁是真正卖铲人"
+    ],
+    [
       "10-07 17:42",
       "谁在捧杀Utopai X？"
-    ],
-    [
-      "10-07 16:41",
-      "晕…这年头还有说人话的AI不"
-    ],
-    [
-      "10-07 16:28",
-      "荣耀 Magic9 全系列支持红外功能，Pro Max 搭载独有「360° 红外遥控增强」技术"
-    ],
-    [
-      "10-07 15:32",
-      "谷歌推出全新 macOS 应用 AI Edge Foresight，支持离线记录会议纪要"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296189,
+      "s": 296195,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 278785,
+      "s": 278811,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274546,
+      "s": 274561,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217360,
+      "s": 217363,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179992,
+      "s": 179994,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149699,
+      "s": 149705,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124530,
+      "s": 124533,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110326,
+      "s": 110330,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102334,
+      "s": 102347,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
