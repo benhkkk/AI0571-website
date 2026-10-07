@@ -459,12 +459,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-07T14:13', t:'华为徐直军回应“美国同行呼吁放缓 AI 开发”：中国模型更弱反而需要加快，不然怎么体会到风险', s:'华为官方 10 月 5 日发文，披露了在 9 月 17 日的华为全联接大会期间，华为轮值董事长徐直军、海思首席科学家廖恒…（来源：IT之家）', u:'https://www.ithome.com/1/010/198.htm'},
+    {c:'HOT', d:'2026-10-07T14:11', t:'AI 短剧爆火：制作成本仅为真人剧 1/10，平均每 36 秒诞生 1 部', s:'#看完AI短剧只想说真人短剧完了#今天（10 月 7 日）冲上微博热搜，数据显示 2026 年 AI 短剧凭借十分之一的…（来源：IT之家）', u:'https://www.ithome.com/1/010/196.htm'},
     {c:'MODEL', d:'2026-10-07T13:30', t:'WordPress 7.1.3 发布：修复 7 个漏洞，其中 3 个由 Anthropic 报告', s:'WordPress 昨日（10 月 6 日）更新推出 7.1.3 版本，修复平台核心中 7 个安全漏洞，并解决 4 个程…（来源：IT之家）', u:'https://www.ithome.com/1/010/192.htm'},
     {c:'HOT', d:'2026-10-07T12:36', t:'半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了', s:'郭台铭靠 AI重回中国台湾首富之位 。（来源：钛媒体）', u:'https://www.tmtpost.com/8148632.html'},
     {c:'HOT', d:'2026-10-07T12:35', t:'网球机器人火了，但好生意要从“有效付费小时”算起', s:'网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。（来源：钛媒体）', u:'https://www.tmtpost.com/8160190.html'},
     {c:'MODEL', d:'2026-10-07T12:35', t:'Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？', s:'未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。（来源：钛媒体）', u:'https://www.tmtpost.com/8160182.html'},
     {c:'MODEL', d:'2026-10-07T12:35', t:'OpenRouter，美版硅基流动的流水单 ——三张榜，一个正在贬值的信用', s:'太空兔匿名免费冲上OpenRouter周榜，一度压过DeepSeek和GLM，那13.9万亿Token证明的是获客不是实…（来源：钛媒体）', u:'https://www.tmtpost.com/8160102.html'},
     {c:'MEDPHARMA', d:'2026-10-07T12:32', t:'“AI 教父”辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核', s:'杰弗里 · 辛顿（Geoffrey Hinton）希望 AI 企业跨过一道制药行业早已熟悉的监管门槛。在当地时间周二播出…（来源：IT之家）', u:'https://www.ithome.com/1/010/187.htm'},
+    {c:'HOT', d:'2026-10-07T12:19', t:'Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司', s:'在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、C…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/ZKXlV8iIwXaBOpzO.html'},
+    {c:'HOT', d:'2026-10-07T12:17', t:'蚂蚁阿福“科学减重1亿斤”迎来“退展”：中秋国庆假期全国60万网友胖了100万斤', s:'中秋国庆超长假期即将结束，更“扎心”的灵魂拷问来了：你胖了吗？健康AI蚂蚁阿福数据显示，9月25日-10月6日假期期间…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/7kLgFJjmaGU8YuBW.html'},
     {c:'MODEL', d:'2026-10-07T11:30', t:'微软 Surface Laptop Ultra 笔记本规格曝光：最高 128GB 内存，面向 AI 开发和内容创作', s:'科技媒体 Windows Central 昨日（10 月 6 日）发布博文，分享了微软 Surface Laptop U…（来源：IT之家）', u:'https://www.ithome.com/1/010/178.htm'},
     {c:'FUNDING', d:'2026-10-07T11:21', t:'“非洲手机之王”传音控股拟赴港上市：最高募资 33.6 亿港元，加码 AI 研发', s:'据彭博社报道，占据非洲智能手机市场主导地位的深圳传音控股，正寻求通过香港股票发行筹集至多 33.6 亿港元（IT之家注：…（来源：IT之家）', u:'https://www.ithome.com/1/010/177.htm'},
     {c:'INDUSTRY', d:'2026-10-07T11:04', t:'三星 2026 Q3 营业利润预计同比增长近 9 倍，存储涨价放缓引担忧', s:'受人工智能领域旺盛需求的拉动，三星电子第三季度营业利润预计将增长近九倍；不过自 8 月底以来，分析师已经把该公司盈利预测…（来源：IT之家）', u:'https://www.ithome.com/1/010/173.htm'},
@@ -472,33 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDPHARMA', d:'2026-10-07T10:59', t:'AI制药产业链梳理:从技术验证到商业兑现，各环节进入业绩验证期', s:'AI制药产业链梳理:从技术验证到商业兑现，各环节进入业绩验证期（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693755171628761655/'},
     {c:'MODEL', d:'2026-10-07T10:54', t:'好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型', s:'人们对一件事的认知，有时比客观情况更能左右决策。（来源：钛媒体）', u:'https://www.tmtpost.com/8160164.html'},
     {c:'HOT', d:'2026-10-07T09:05', t:'OpenAI一夜甩出722篇数学论文！黎曼霍奇BSD全上阵，数学家：读不过来', s:'三位菲尔兹奖得主：不代表认可（来源：量子位）', u:'https://www.qbitai.com/2026/10/501749.html'},
-    {c:'MODEL', d:'2026-10-07T09:01', t:'谷歌 AI 图像模型 Nano Banana 2.1 发布，提升视觉设计、蒙版编辑、主体一致性', s:'谷歌于今日正式发布了 Nano Banana 2.1，这是该公司 AI 图像生成与编辑模型的升级版本。谷歌强调，新版 N…（来源：IT之家）', u:'https://www.ithome.com/1/010/149.htm'},
     {c:'INDUSTRY', d:'2026-10-07T08:48', t:'Edge AI Daily 早报（10月7日）', s:'Anthropic通过免费计划锁定创业生态；谷歌原生Markdown支持定义人机协作标准，同时面临波兰反垄断调查；Ope…（来源：钛媒体）', u:'https://www.tmtpost.com/8160096.html'},
     {c:'FUNDING', d:'2026-10-07T08:39', t:'派拉蒙 1100 亿美元收购时代华纳，好莱坞诞生新巨无霸；月之暗面被曝完成 500 亿美元 PreIPO 融资；微软、Meta 被曝要求员工减少使用 Claude', s:'2026 诺贝尔物理学奖揭晓：把一立方公里南极冰变成望远镜，打开「中微子天文学」 10 月 6 日，2026 年诺贝尔物…（来源：极客公园）', u:'http://www.geekpark.net/news/372089'},
-    {c:'INDUSTRY', d:'2026-10-07T07:58', t:'AI 颠覆担忧消退，美国软件股创 2026 年阶段新高', s:'据路透社报道，受盈利预期大幅上调的推动，美国软件类股票正创出 2026 年阶段新高；多位分析师据此认为，此前市场对于人工…（来源：IT之家）', u:'https://www.ithome.com/1/010/141.htm'},
     {c:'FUNDING', d:'2026-10-06T21:10', t:'DeepSeek被爆最新融资800亿，正为冲击IPO做准备', s:'从“拒绝资本”到千亿融资，梁文锋的态度转变背后，是一场输不起的AI竞赛（来源：钛媒体）', u:'https://www.tmtpost.com/8159961.html'},
-    {c:'MEDPHARMA', d:'2026-10-06T20:20', t:'复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...', s:'复刻“半导体时刻”?AI制药版的“瓶颈交易”正在成形，谁是...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693528468268663334/'},
-    {c:'HOT', d:'2026-10-06T18:44', t:'刚刚，诺贝尔物理奖一人独揽！', s:'南极洲甚至有一座高地以他名字命名（来源：量子位）', u:'https://www.qbitai.com/2026/10/501746.html'},
   ];
   const TIMELINE = [
+    ['10-07 14:13','华为徐直军回应“美国同行呼吁放缓 AI 开发”：中国模型更弱反而需要加快，不然怎么体会到风险'],
+    ['10-07 14:11','AI 短剧爆火：制作成本仅为真人剧 1/10，平均每 36 秒诞生 1 部'],
     ['10-07 13:30','WordPress 7.1.3 发布：修复 7 个漏洞，其中 3 个由 Anthropic 报告'],
     ['10-07 12:36','半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了'],
     ['10-07 12:35','网球机器人火了，但好生意要从“有效付费小时”算起'],
     ['10-07 12:35','Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？'],
-    ['10-07 12:35','OpenRouter，美版硅基流动的流水单 ——三张榜，一个正在贬值的信用'],
-    ['10-07 12:32','“AI 教父”辛顿提议 AI 行业建立 FDA 式审批机制：模型推出前需通过安全审核'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296084, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:278407, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274416, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217307, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179950, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149660, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140891, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124456, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110256, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102182, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296099, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:278436, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274421, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217315, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179958, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149662, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140894, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124457, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110258, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102197, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
