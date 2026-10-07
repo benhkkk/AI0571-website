@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-08T06:37', t:'微软重构 Copilot 图标：升级动态交互语言，可表达思考、规划与检索', s:'微软设计（Microsoft Design）博客于 10 月 5 日发布博文，介绍了新版 Copilot 图标的设计过程…（来源：IT之家）', u:'https://www.ithome.com/1/010/336.htm'},
     {c:'MODEL', d:'2026-10-08T06:26', t:'Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%', s:'Anthropic 昨日（10 月 7 日）发布博文，宣布推出 Claude Haiku 5.5 模型，称其为目前速度最…（来源：IT之家）', u:'https://www.ithome.com/1/010/333.htm'},
     {c:'MODEL', d:'2026-10-08T06:17', t:'GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元', s:'太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会中，微软宣布…（来源：IT之家）', u:'https://www.ithome.com/1/010/330.htm'},
     {c:'MODEL', d:'2026-10-08T06:16', t:'10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗', s:'微软 AI 首席执行官穆斯塔法 · 苏莱曼（Mustafa Suleyman）于 10 月 6 日在 X 平台发布推文…（来源：IT之家）', u:'https://www.ithome.com/1/010/329.htm'},
@@ -466,9 +467,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-08T05:56', t:'微软发布 VS Code v1.141：清理“僵尸”Agent 会话等', s:'微软昨日（10 月 7 日）更新推出 Visual Studio Code 1.141，本次更新聚焦 AI 智能体（Ag…（来源：IT之家）', u:'https://www.ithome.com/1/010/325.htm'},
     {c:'MODEL', d:'2026-10-08T02:38', t:'微软描绘 Autopilot 全新蓝图：让 Windows AI 从“回答问题”走向“执行任务”', s:'微软今天召开 Surface 新品发布会，现场展示 Autopilot 未来方向。根据其设想，这款智能体将让 Windo…（来源：IT之家）', u:'https://www.ithome.com/1/010/321.htm'},
     {c:'MODEL', d:'2026-10-08T01:56', t:'英伟达发布 DGX Station for Windows：本地运行 1 万亿参数 AI 模型，最高 748GB 内存', s:'太平洋时间 10 月 7 日上午 10 点（北京时间 10 月 8 日凌晨 1 点）在美国旧金山举办的发布会上，英伟达发…（来源：IT之家）', u:'https://www.ithome.com/1/010/313.htm'},
-    {c:'MODEL', d:'2026-10-08T01:45', t:'微软：Meta Muse 智能体将登陆 Windows 平台', s:'微软今天在 Surface 新品发布会展示了多款第三方智能体工具。其中，Perplexity 的“便携电脑”工具能够端侧…（来源：IT之家）', u:'https://www.ithome.com/1/010/310.htm'},
     {c:'HOT', d:'2026-10-07T22:10', t:'迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦', s:'迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦（来源：量子位）', u:'https://www.qbitai.com/2026/10/501825.html'},
-    {c:'MEDPHARMA', d:'2026-10-07T21:57', t:'中国药企卷疯了:同一个靶点用AI狂干，最后药都一样，卖成白菜价', s:'中国药企卷疯了:同一个靶点用AI狂干，最后药都一样，卖成白菜价（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693829891787129390/'},
     {c:'MEDPHARMA', d:'2026-10-07T20:17', t:'9月涨幅夺冠后，3倍大牛股提示风险:AI制药仍在起步阶段', s:'9月涨幅夺冠后，3倍大牛股提示风险:AI制药仍在起步阶段（来源：头条医药AI）', u:'https://www.toutiao.com/article/7693898907113243178/'},
     {c:'INDUSTRY', d:'2026-10-07T19:37', t:'《碳硅道统·跨域迁移治理法典》188集 总纲摘要', s:'一、法典核心定调 本法典为弱AI至AGI全周期、全行业、全文明维度的AI跨域迁移治理唯一终审基准，是国内首套从事故解剖…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/NWhDqDo0wpZbKRgp.html'},
     {c:'MODEL', d:'2026-10-07T19:34', t:'《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！', s:'《怪物史莱克》编剧也来了！这家AI影视公司，视频模型全球第二！（来源：量子位）', u:'https://www.qbitai.com/2026/10/501803.html'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-07T14:39', t:'Meshy 跻身 a16z 消费级 AI 应用月收入 Top 50，为榜单唯一 AI 3D 公司', s:'在 a16z 首份消费级 AI 应用月收入榜单中，Meshy 位列第 31 名，与 OpenAI、Anthropic、C…（来源：量子位）', u:'https://www.qbitai.com/2026/10/501791.html'},
     {c:'HOT', d:'2026-10-07T12:36', t:'半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了', s:'郭台铭靠 AI重回中国台湾首富之位 。（来源：钛媒体）', u:'https://www.tmtpost.com/8148632.html'},
     {c:'HOT', d:'2026-10-07T12:35', t:'网球机器人火了，但好生意要从“有效付费小时”算起', s:'网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。（来源：钛媒体）', u:'https://www.tmtpost.com/8160190.html'},
+    {c:'MODEL', d:'2026-10-07T12:35', t:'Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？', s:'未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。（来源：钛媒体）', u:'https://www.tmtpost.com/8160182.html'},
   ];
   const TIMELINE = [
+    ['10-08 06:37','微软重构 Copilot 图标：升级动态交互语言，可表达思考、规划与检索'],
     ['10-08 06:26','Anthropic 最快、最便宜模型：Claude Haiku 5.5 登场，运行成本较 4.5 低约 75%'],
     ['10-08 06:17','GitHub Copilot 不再纯云端 AI 模型：Surface Laptop Ultra 本地推理吞吐量最高每秒 63 词元'],
     ['10-08 06:16','10 年内预估仅 5%：诺奖经济学家背书，AI 不会大规模抢走你的饭碗'],
     ['10-08 06:10','周活超 12 亿用户：OpenAI ChatGPT 升级 GPT-6 模型，互动式 AI 教你打麻将'],
     ['10-08 05:56','微软发布 VS Code v1.141：清理“僵尸”Agent 会话等'],
-    ['10-08 02:38','微软描绘 Autopilot 全新蓝图：让 Windows AI 从“回答问题”走向“执行任务”'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296374, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:279497, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274903, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217435, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180052, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149765, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140935, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124665, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110405, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102747, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296373, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:279520, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:274915, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217436, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180055, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149770, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140938, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124667, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110406, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102763, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
