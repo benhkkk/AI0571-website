@@ -459,12 +459,14 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-08T13:25', t:'谷歌、Meta 等厂商竞逐申请 .agent 域名：OpenAI 申请.gpt、Anthropic 申请.claude', s:'互联网名称与数字地址分配机构（ICANN）公布了新一轮顶级域名（TLD）申请情况，本期共收到来自 481 个申请者的 1…（来源：IT之家）', u:'https://www.ithome.com/1/010/462.htm'},
     {c:'FUNDING', d:'2026-10-08T12:26', t:'ACEMAGIC F9A 迷你工作站 PRO 495 + 192GB + 2TB 款上市，首发价 49998 元', s:'ACEMAGIC（阿迈奇）现已在国内电商平台上架 F9A 迷你主机工作站的 AMD 锐龙 AI Max+ PRO 495…（来源：IT之家）', u:'https://www.ithome.com/1/010/452.htm'},
     {c:'MODEL', d:'2026-10-08T12:19', t:'阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择', s:'据彭博社报道，阿里巴巴集团董事会主席蔡崇信认为，欧洲要在技术上摆脱对中美的依赖，最佳选择是开源 AI。他呼吁欧洲建设自己…（来源：IT之家）', u:'https://www.ithome.com/1/010/451.htm'},
     {c:'MODEL', d:'2026-10-08T12:17', t:'数据中心，正在拆掉Token时代的旧围墙', s:'AI算力竞争开始告别堆硬件，从比拼训练爆发力转向Token产出效率。（来源：钛媒体）', u:'https://www.tmtpost.com/8160868.html'},
     {c:'MODEL', d:'2026-10-08T11:56', t:'Mistral Large 4 来了：一万亿参数、具备原生多模态能力', s:'Mistral 发布了他们史上最大的模型。不是迭代，是直接从零训的：1 万亿参数、520 亿稀疏激活的原生多模态模型，代…（来源：OSCHINA）', u:'https://www.oschina.net/news/502872/mistral-large-4'},
     {c:'HOT', d:'2026-10-08T11:44', t:'世嘉：我们对 AI 态度“非常谨慎”，不会将其用于创意工作', s:'世嘉明确表示，不会让 AI 承担游戏创意工作，并将以“非常谨慎”的态度在游戏开发中使用 AI。当地时间 6 日，世嘉高级…（来源：IT之家）', u:'https://www.ithome.com/1/010/444.htm'},
     {c:'MODEL', d:'2026-10-08T11:24', t:'谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长', s:'这个行业究竟在卖什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8160841.html'},
+    {c:'MEDPHARMA', d:'2026-10-08T11:18', t:'从「工具」到「智能体」：CARES 4.0在港发布，刘宏斌谈医疗AI如何走进临床', s:'近日，由中国科学院香港创新研究院人工智能与机器人创新中心（CAIR）主办、香港科技园公司协办的第四届香港具身智能医疗科技…（来源：雷锋网）', u:'https://www.leiphone.com/category/aihealth/93E68V91AW9aHtDb.html'},
     {c:'HOT', d:'2026-10-08T11:17', t:'从Siri到Muse，我们如何一步步把生活交给AI', s:'Siri要追赶一个由自己开启的do engine愿景。新晋的Muse们也需要经历一个不断完善可靠性、安全性和经济性的过程…（来源：钛媒体）', u:'https://www.tmtpost.com/8160467.html'},
     {c:'MODEL', d:'2026-10-08T11:06', t:'阶跃终端首款大模型原生智能体手机 STEPX Neo 发布定档：10 月 13 日见', s:'阶跃终端官微今天（8 日）上午宣布，阶跃终端首款大模型原生智能体手机 STEPX Neo 将于 10 月 13 日 19…（来源：IT之家）', u:'https://www.ithome.com/1/010/416.htm'},
     {c:'HOT', d:'2026-10-08T11:04', t:'荣耀 CEO 李健：Magic9 系列国庆 7 天稳居安卓旗舰第一', s:'荣耀终端股份有限公司 CEO 李健今日发文，宣布 Magic9 系列在国庆 7 天时间，稳居安卓旗舰第一。荣耀全球首席营…（来源：IT之家）', u:'https://www.ithome.com/1/010/415.htm'},
@@ -476,29 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-08T10:29', t:'吴佳俊 IROS 2026 演讲：结构化表征不是答案， 是机器人学会推理的脚手架 | IROS 2026', s:'从结构化表征到无演示学习之路。 作者丨吴思梦 编辑丨岑 峰 一个盘子，一只水龙头，一小团蓝色的洗洁精。吴佳俊用这样一个几…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/Hd5ntJGqUoFVY1PJ.html'},
     {c:'MODEL', d:'2026-10-08T10:27', t:'对话如祺出行COO韩锋：世界模型越强，真实数据才是真壁垒', s:'过去一年，“物理AI”几乎成了自动驾驶、车企共同争夺的下一张船票。世界模型、具身大模型、机器人数据……众多公司从不同切入…（来源：雷锋网）', u:'https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html'},
     {c:'HOT', d:'2026-10-08T10:15', t:'警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己', s:'据《商业内幕》报道，曾在 Anthropic 和 OpenAI 任职的研究员雅各布 · 考克森警告，AI 很快就能自主开…（来源：IT之家）', u:'https://www.ithome.com/1/010/394.htm'},
-    {c:'MODEL', d:'2026-10-08T09:51', t:'GPT-6全球上线、Claude Haiku 5.5降价，这个假期AI圈也没停', s:'成本压下来之后，下一个阶段比什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8160689.html'},
-    {c:'MEDPHARMA', d:'2026-10-08T09:51', t:'贝瑞基因涨停开盘!封单3.46亿，AI制药概念催化，总市值42.28亿', s:'贝瑞基因涨停开盘!封单3.46亿，AI制药概念催化，总市值42.28亿（来源：头条医药AI）', u:'https://www.toutiao.com/article/7694108735035195947/'},
-    {c:'HOT', d:'2026-10-08T09:49', t:'黄仁勋焦虑 AI 需求降温，曝英伟达拟再投 10 亿美元加码人形机器人企业 Figure', s:'当地时间 7 日，据 The Information 援引一名知情人士消息称，英伟达曾讨论向人形机器人制造商 Figur…（来源：IT之家）', u:'https://www.ithome.com/1/010/387.htm'},
+    {c:'HOT', d:'2026-10-08T10:04', t:'何恺明团队新作：看猫片就能学会ARC挑战', s:'何恺明团队新作：看猫片就能学会ARC挑战（来源：量子位）', u:'https://www.qbitai.com/2026/10/501913.html'},
   ];
   const TIMELINE = [
+    ['10-08 13:25','谷歌、Meta 等厂商竞逐申请 .agent 域名：OpenAI 申请.gpt、Anthropic 申请.claude'],
     ['10-08 12:26','ACEMAGIC F9A 迷你工作站 PRO 495 + 192GB + 2TB 款上市，首发价 49998 元'],
     ['10-08 12:19','阿里巴巴蔡崇信：开源是欧洲发展 AI 的最佳选择'],
     ['10-08 12:17','数据中心，正在拆掉Token时代的旧围墙'],
     ['10-08 11:56','Mistral Large 4 来了：一万亿参数、具备原生多模态能力'],
     ['10-08 11:44','世嘉：我们对 AI 态度“非常谨慎”，不会将其用于创意工作'],
-    ['10-08 11:24','谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296453, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:279930, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275034, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217477, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180080, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149801, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296461, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:279961, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275042, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217480, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180085, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149803, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140953, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124729, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110445, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102959, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124734, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110450, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:102967, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
