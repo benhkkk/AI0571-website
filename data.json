@@ -1,33 +1,26 @@
 {
-  "updated": "2026-10-08T20:31:49",
+  "updated": "2026-10-08T21:02:21",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-08T20:31",
-      "t": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术",
-      "s": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750693.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-08T20:31",
-      "t": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例",
-      "s": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750625.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-08T20:31",
-      "t": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕",
-      "s": "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260727/948346.shtml"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-10-08T20:31",
+      "d": "2026-10-08T21:02",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T20:44",
+      "t": "用鸿蒙开发鸿蒙：DevEco Studio / Code / CLI 开启华为鸿蒙 PC 公测",
+      "s": "华为官方今日宣布，DevEco Studio 今日正式上线鸿蒙 PC 并开启公测，一站式鸿蒙应用 AI 开发工具 Dev…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/696.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-08T20:04",
+      "t": "AI制药数据短板将补齐?Meta虚拟生物学计划官宣扩容 美政府机...",
+      "s": "AI制药数据短板将补齐?Meta虚拟生物学计划官宣扩容 美政府机...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7694266743849583167/"
     },
     {
       "c": "INDUSTRY",
@@ -140,24 +133,27 @@
       "t": "吉利智充技术正式发布，重塑全球补能新标杆",
       "s": "2027年底实现“县县通”（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501956.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T16:54",
+      "t": "Claude Haiku 5.5 来了：价格砍到四分之一，agent 能力从 0 跳到 39%",
+      "s": "Anthropic 拿出了目前最快的小模型，同时一口气砍了两刀价格。10 月 7 日发布的 Claude Haiku 5…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502894/anthropic-claude-haiku-5-5"
     }
   ],
   "timeline": [
     [
-      "10-08 20:31",
-      "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术"
-    ],
-    [
-      "10-08 20:31",
-      "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例"
-    ],
-    [
-      "10-08 20:31",
-      "聚智谱新篇，2028郑州启新程——第24届全国分子光谱学学术会议暨第六届光谱年会圆满落幕"
-    ],
-    [
-      "10-08 20:31",
+      "10-08 21:02",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
+    ],
+    [
+      "10-08 20:44",
+      "用鸿蒙开发鸿蒙：DevEco Studio / Code / CLI 开启华为鸿蒙 PC 公测"
+    ],
+    [
+      "10-08 20:04",
+      "AI制药数据短板将补齐?Meta虚拟生物学计划官宣扩容 美政府机..."
     ],
     [
       "10-08 19:59",
@@ -166,6 +162,10 @@
     [
       "10-08 19:47",
       "跳出游戏争当AI金主，“腾讯们”到底图啥"
+    ],
+    [
+      "10-08 19:42",
+      "Anthropic要上市了：5年公司2万亿估值，谁在为AI泡沫买单？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296601,
+      "s": 296609,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 280578,
+      "s": 280619,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275235,
+      "s": 275254,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217543,
+      "s": 217551,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180128,
+      "s": 180131,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149845,
+      "s": 149848,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140990,
+      "s": 140994,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124827,
+      "s": 124839,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110510,
+      "s": 110511,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103188,
+      "s": 103199,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
