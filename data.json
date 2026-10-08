@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-08T16:02:24",
+  "updated": "2026-10-08T16:32:07",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-08T16:02",
+      "d": "2026-10-08T16:32",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T16:15",
+      "t": "Windows 迎来 AI 时代最大更新，拉来黄仁勋跟 Mac 宣战",
+      "s": "能让你回到 Windows 阵营吗#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1683177?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-08T16:12",
+      "t": "礼来CEO:AI制药路还很长，人类可能只掌握10%的生物学知识",
+      "s": "礼来CEO:AI制药路还很长，人类可能只掌握10%的生物学知识（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7694206680750195235/"
     },
     {
       "c": "FUNDING",
@@ -37,6 +51,13 @@
       "u": "https://www.ithome.com/1/010/561.htm"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-10-08T15:10",
+      "t": "打不过就投降，保时捷裁员9000人，回归燃油车主线",
+      "s": "管理岗砍掉四成，顶级车型涨价20%卖（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/501930.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-08T15:07",
       "t": "微星尊爵 Prestige N16 Flip AI+ 发布：RTX Spark 翻转本，16 日开售",
@@ -63,13 +84,6 @@
       "t": "记录创作历史， 而不只是代码历史 —— Libra，面向 Agent 的 AI 原生扩展版本控制系统",
       "s": "Libra 是一款 AI 原生、兼容 Git 的版本控制系统，它还会记录工作是如何完成的——并把这份记忆保存在你的仓库里…（来源：OSCHINA）",
       "u": "https://www.oschina.net/p/libra-vcs"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-08T14:54",
-      "t": "当所有人都在用AI写标，差异化从哪里来？",
-      "s": "同一份招标文件，十几家投标人同时应标。评审专家要在厚厚的一摞标书中挑出“最懂需求、最贴实际”的那份。可现实是——绝大多数…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502887"
     },
     {
       "c": "MEDPHARMA",
@@ -126,26 +140,20 @@
       "t": "数据中心，正在拆掉Token时代的旧围墙",
       "s": "AI算力竞争开始告别堆硬件，从比拼训练爆发力转向Token产出效率。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8160868.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T11:56",
-      "t": "Mistral Large 4 来了：一万亿参数、具备原生多模态能力",
-      "s": "Mistral 发布了他们史上最大的模型。不是迭代，是直接从零训的：1 万亿参数、520 亿稀疏激活的原生多模态模型，代…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502872/mistral-large-4"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T11:24",
-      "t": "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
-      "s": "这个行业究竟在卖什么？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8160841.html"
     }
   ],
   "timeline": [
     [
-      "10-08 16:02",
+      "10-08 16:32",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
+    ],
+    [
+      "10-08 16:15",
+      "Windows 迎来 AI 时代最大更新，拉来黄仁勋跟 Mac 宣战"
+    ],
+    [
+      "10-08 16:12",
+      "礼来CEO:AI制药路还很长，人类可能只掌握10%的生物学知识"
     ],
     [
       "10-08 15:53",
@@ -158,14 +166,6 @@
     [
       "10-08 15:29",
       "GPT-6 全球推送，聊天回答里长出了计算器和地图"
-    ],
-    [
-      "10-08 15:27",
-      "OpenAI 奥尔特曼：世界应接受 AI 带来的部分“坏事”以换取巨大红利"
-    ],
-    [
-      "10-08 15:07",
-      "微星尊爵 Prestige N16 Flip AI+ 发布：RTX Spark 翻转本，16 日开售"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296516,
+      "s": 296527,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 280185,
+      "s": 280230,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275114,
+      "s": 275129,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217496,
+      "s": 217500,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180101,
+      "s": 180105,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149817,
+      "s": 149820,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140967,
+      "s": 140972,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124767,
+      "s": 124776,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110465,
+      "s": 110468,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103062,
+      "s": 103076,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
