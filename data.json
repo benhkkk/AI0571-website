@@ -1,9 +1,9 @@
 {
-  "updated": "2026-10-08T22:31:55",
+  "updated": "2026-10-08T23:02:10",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-08T22:31",
+      "d": "2026-10-08T23:02",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
@@ -14,6 +14,13 @@
       "t": "亚马逊发布 Alexa Tablet 平板电脑：接替 Fire Tablet，全面支持 Alexa+ AI",
       "s": "Amazon（亚马逊）当地时间今日正式发布了接替此前 Fire Tablet 系列的 Alexa Tablet 平板电脑…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/715.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-08T22:07",
+      "t": "hacked by trenggalek6etar",
+      "s": "hacked by trenggalek6etar（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/502081.html"
     },
     {
       "c": "HOT",
@@ -133,23 +140,20 @@
       "t": "毕得医药:AI制药的发展对公司业务既有机遇，也有挑战",
       "s": "毕得医药:AI制药的发展对公司业务既有机遇，也有挑战（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7694241089045250579/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T18:23",
-      "t": "搭载NVIDIA RTX Spark™ N1X超级芯片：联想YOGA Pro 15开启盲约，重塑个人生产力边界",
-      "s": "联想YOGA Pro 15 RTX Spark笔记本电脑，于10月8日9:00正式开启全网盲约。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502020.html"
     }
   ],
   "timeline": [
     [
-      "10-08 22:31",
+      "10-08 23:02",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
     ],
     [
       "10-08 22:14",
       "亚马逊发布 Alexa Tablet 平板电脑：接替 Fire Tablet，全面支持 Alexa+ AI"
+    ],
+    [
+      "10-08 22:07",
+      "hacked by trenggalek6etar"
     ],
     [
       "10-08 21:43",
@@ -162,10 +166,6 @@
     [
       "10-08 21:26",
       "AI找药，卡在量产"
-    ],
-    [
-      "10-08 21:21",
-      "谷歌云发布 Gemini Agent，定位“通用工作智能体”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296634,
+      "s": 296650,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 280745,
+      "s": 280796,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275305,
+      "s": 275325,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217564,
+      "s": 217569,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180146,
+      "s": 180148,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149856,
+      "s": 149860,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124867,
+      "s": 124877,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110519,
+      "s": 110525,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103236,
+      "s": 103248,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
