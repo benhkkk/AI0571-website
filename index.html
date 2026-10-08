@@ -459,7 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MODEL', d:'2026-10-09T05:02', t:'XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极', s:'XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261008/990044.shtml'},
+    {c:'HOT', d:'2026-10-09T05:31', t:'#机器人赛道26年数据盘点', s:'#机器人赛道26年数据盘点（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/topic-836.html'},
+    {c:'FUNDING', d:'2026-10-09T05:31', t:'2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”', s:'2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260624/925608.shtml'},
+    {c:'HOT', d:'2026-10-09T05:31', t:'狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点', s:'狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260622/923670.shtml'},
+    {c:'MODEL', d:'2026-10-09T05:31', t:'XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极', s:'XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261008/990044.shtml'},
     {c:'MODEL', d:'2026-10-08T23:37', t:'Claude Haiku 5.5 降本背后：操作能力暴涨，复杂编程为何仍差一截？', s:'模型开始按任务动态分配推理，超 10 万 Token 后，输入输出单价均涨 5 倍。 作者丨郑佳美 编辑丨岑 峰 刚刚…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/n2GjuJRnM4utgaun.html'},
     {c:'MODEL', d:'2026-10-08T23:05', t:'Epic 喜加二：《熊视眈眈》《愿景之城》游戏免费领取', s:'Epic 本周送出的游戏是《熊视眈眈》和《愿景之城》，下周送出的游戏是《Bad Cheese》以及《Agent A - …（来源：IT之家）', u:'https://www.ithome.com/1/010/735.htm'},
     {c:'FUNDING', d:'2026-10-08T23:01', t:'Waymo 获 50 亿美元贷款：未来将推动无人驾驶出租车扩张，入局欧洲、日本等市场', s:'自动驾驶技术公司 Waymo 近日宣布获得 50 亿美元（IT之家注：现汇率约合 335.62 亿元人民币）贷款，融资方…（来源：IT之家）', u:'https://www.ithome.com/1/010/734.htm'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-08T19:47', t:'跳出游戏争当AI金主，“腾讯们”到底图啥', s:'尝到高回报的甜头（来源：钛媒体）', u:'https://www.tmtpost.com/8161222.html'},
     {c:'FUNDING', d:'2026-10-08T19:42', t:'Anthropic要上市了：5年公司2万亿估值，谁在为AI泡沫买单？', s:'Anthropic要上市了：5年公司2万亿估值，谁在为AI泡沫买单？（来源：钛媒体）', u:'https://www.tmtpost.com/8161055.html'},
     {c:'MODEL', d:'2026-10-08T19:39', t:'Personal Agent 的终点不该是一个更聪明的命令行', s:'Qoni 是 Cognitive（认知）的延伸，是一个 Personal Agent 的托管基础设施，让企业开发者都能开…（来源：OSCHINA）', u:'https://my.oschina.net/u/9765709/blog/19774529'},
-    {c:'HOT', d:'2026-10-08T19:13', t:'数据中心装不下AI的全部野心了', s:'马斯克向上游造厂，微软让AI回归个人电脑。（来源：钛媒体）', u:'https://www.tmtpost.com/8161196.html'},
-    {c:'MODEL', d:'2026-10-08T18:59', t:'德国搜索引擎 Ecosia 甩了 Mistral：性能落后一整年，换中国开源模型省一半钱', s:'一个德国环保搜索引擎，当着整个欧洲的面说：你们的 AI 旗舰不行了，我用中国的。Ecosia，总部在柏林的搜索引擎和浏览…（来源：OSCHINA）', u:'https://www.oschina.net/news/502897/germany-ecosia-search-engine-mistral-china-open-source-ai'},
-    {c:'MODEL', d:'2026-10-08T18:58', t:'Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布', s:'Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）', u:'https://www.oschina.net/news/502896'},
   ];
   const TIMELINE = [
-    ['10-09 05:02','XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极'],
+    ['10-09 05:31','#机器人赛道26年数据盘点'],
+    ['10-09 05:31','2026机器人产业IPO全景盘点：46家港股排队、资本涌入的“井喷之年”'],
+    ['10-09 05:31','狂飙、遇冷、暴增1291%：人形机器人材料企业Q1业绩大盘点'],
+    ['10-09 05:31','XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极'],
     ['10-08 23:37','Claude Haiku 5.5 降本背后：操作能力暴涨，复杂编程为何仍差一截？'],
     ['10-08 23:05','Epic 喜加二：《熊视眈眈》《愿景之城》游戏免费领取'],
-    ['10-08 23:01','Waymo 获 50 亿美元贷款：未来将推动无人驾驶出租车扩张，入局欧洲、日本等市场'],
-    ['10-08 22:14','亚马逊发布 Alexa Tablet 平板电脑：接替 Fire Tablet，全面支持 Alexa+ AI'],
-    ['10-08 21:43','Alphacool 带来多款 GPU 单槽冷头，支持 NVIDIA、AMD 专业显卡'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296533, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:280925, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275303, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217414, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179985, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149705, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140807, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124729, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110574, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:103340, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296541, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:280952, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275320, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217421, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:179986, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149709, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140809, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124736, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110577, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:103346, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
