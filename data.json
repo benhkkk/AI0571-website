@@ -1,19 +1,26 @@
 {
-  "updated": "2026-10-08T10:32:06",
+  "updated": "2026-10-08T11:02:13",
   "news": [
     {
-      "c": "MEDDEVICE",
-      "d": "2026-10-08T10:32",
-      "t": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术",
-      "s": "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260828/966907.shtml"
+      "c": "INDUSTRY",
+      "d": "2026-10-08T11:02",
+      "t": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术",
+      "s": "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250109/763586.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-08T10:54",
+      "t": "mRNA 重磅BD落地，机构:AI制药有望成为AI应用发展的主要方向",
+      "s": "mRNA 重磅BD落地，机构:AI制药有望成为AI应用发展的主要方向（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7694124850519999018/"
     },
     {
       "c": "MODEL",
-      "d": "2026-10-08T10:15",
-      "t": "大模型原生智能体手机STEPX Neo将于10月13日正式发布",
-      "s": "大模型原生智能体手机STEPX Neo将于10月13日正式发布（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501915.html"
+      "d": "2026-10-08T10:43",
+      "t": "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+      "s": "国产大模型迎来90后接管时代。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8160735.html"
     },
     {
       "c": "HOT",
@@ -21,13 +28,6 @@
       "t": "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己",
       "s": "据《商业内幕》报道，曾在 Anthropic 和 OpenAI 任职的研究员雅各布 · 考克森警告，AI 很快就能自主开…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/394.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-08T10:04",
-      "t": "何恺明团队新作：看猫片就能学会ARC挑战",
-      "s": "何恺明团队新作：看猫片就能学会ARC挑战（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501913.html"
     },
     {
       "c": "MODEL",
@@ -144,20 +144,20 @@
   ],
   "timeline": [
     [
-      "10-08 10:32",
-      "重磅！科技部发布《人工智能医学影像研究伦理指引》，覆盖MRI、DR、CT、PET等技术"
+      "10-08 11:02",
+      "倍捷锐与赛桥生物达成战略合作，聚焦AI与新一代成像技术"
     ],
     [
-      "10-08 10:15",
-      "大模型原生智能体手机STEPX Neo将于10月13日正式发布"
+      "10-08 10:54",
+      "mRNA 重磅BD落地，机构:AI制药有望成为AI应用发展的主要方向"
+    ],
+    [
+      "10-08 10:43",
+      "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型"
     ],
     [
       "10-08 10:15",
       "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己"
-    ],
-    [
-      "10-08 10:04",
-      "何恺明团队新作：看猫片就能学会ARC挑战"
     ],
     [
       "10-08 09:51",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296413,
+      "s": 296424,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279726,
+      "s": 279772,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274974,
+      "s": 274984,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217458,
+      "s": 217463,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180064,
+      "s": 180065,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149790,
+      "s": 149793,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124706,
+      "s": 124710,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110426,
+      "s": 110430,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102866,
+      "s": 102890,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
