@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-08T13:31:55",
+  "updated": "2026-10-08T14:01:55",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T13:54",
+      "t": "PFN 发布 PLaMo 3 Translate 31B 模型：日语翻译表现优于 GPT-6.1 Sol",
+      "s": "日本企业 Preferred Networks (PFN) 当地时间昨日发布了其精于日语同时兼顾其它语言的翻译模型 PL…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/469.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-08T13:25",
       "t": "谷歌、Meta 等厂商竞逐申请 .agent 域名：OpenAI 申请.gpt、Anthropic 申请.claude",
-      "s": "互联网名称与数字地址分配机构（ICANN）公布了新一轮顶级域名（TLD）申请情况，本期共收到来自 481 个申请者的 1…（来源：IT之家）",
+      "s": "当地时间 10 月 7 日，互联网名称与数字地址分配机构（ICANN）公布了新一轮顶级域名（TLD）申请情况，本期（20…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/462.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-08T12:42",
+      "t": "2026年AI写标书工具怎么选？从垂直专业工具到通用辅助，一份实用选型指南",
+      "s": "进入2026年，招投标行业对效率与合规性的要求越来越高，越来越多的团队开始借助AI写标书软件分担繁重的编写工作。但“AI…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502885"
     },
     {
       "c": "FUNDING",
@@ -126,26 +140,20 @@
       "t": "对话如祺出行COO韩锋：世界模型越强，真实数据才是真壁垒",
       "s": "过去一年，“物理AI”几乎成了自动驾驶、车企共同争夺的下一张船票。世界模型、具身大模型、机器人数据……众多公司从不同切入…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/transportation/ESCXNijR4DVx6uDl.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-08T10:15",
-      "t": "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己",
-      "s": "据《商业内幕》报道，曾在 Anthropic 和 OpenAI 任职的研究员雅各布 · 考克森警告，AI 很快就能自主开…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/394.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-08T10:04",
-      "t": "何恺明团队新作：看猫片就能学会ARC挑战",
-      "s": "何恺明团队新作：看猫片就能学会ARC挑战（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501913.html"
     }
   ],
   "timeline": [
     [
+      "10-08 13:54",
+      "PFN 发布 PLaMo 3 Translate 31B 模型：日语翻译表现优于 GPT-6.1 Sol"
+    ],
+    [
       "10-08 13:25",
       "谷歌、Meta 等厂商竞逐申请 .agent 域名：OpenAI 申请.gpt、Anthropic 申请.claude"
+    ],
+    [
+      "10-08 12:42",
+      "2026年AI写标书工具怎么选？从垂直专业工具到通用辅助，一份实用选型指南"
     ],
     [
       "10-08 12:26",
@@ -158,14 +166,6 @@
     [
       "10-08 12:17",
       "数据中心，正在拆掉Token时代的旧围墙"
-    ],
-    [
-      "10-08 11:56",
-      "Mistral Large 4 来了：一万亿参数、具备原生多模态能力"
-    ],
-    [
-      "10-08 11:44",
-      "世嘉：我们对 AI 态度“非常谨慎”，不会将其用于创意工作"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296461,
+      "s": 296467,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279961,
+      "s": 279997,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275042,
+      "s": 275059,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180085,
+      "s": 180087,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149803,
+      "s": 149804,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140953,
+      "s": 140956,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124734,
+      "s": 124741,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110450,
+      "s": 110453,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102967,
+      "s": 102977,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
