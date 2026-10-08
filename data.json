@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-08T10:01:57",
+  "updated": "2026-10-08T10:07:29",
   "news": [
     {
       "c": "MODEL",
@@ -45,24 +45,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-08T09:07",
-      "t": "GPT-6今起免费用！拒答变少，话变多了",
-      "s": "ChatGPT聊天框长出界面（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501834.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-08T09:06",
       "t": "美国一男子因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元",
       "s": "美国司法部当地时间本月 6 日发布公告，表示该国北卡罗来纳州男子 Michael Smith 因利用 AI 骗取音乐版权…（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/378.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T09:04",
-      "t": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
-      "s": "小模型新守门员（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501832.html"
     },
     {
       "c": "INDUSTRY",
@@ -140,6 +126,20 @@
       "t": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦",
       "s": "迟到25年！诺贝尔化学奖揭晓，95岁法国教授圆梦（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501825.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-07T21:57",
+      "t": "中国药企卷疯了:同一个靶点用AI狂干，最后药都一样，卖成白菜价",
+      "s": "中国药企卷疯了:同一个靶点用AI狂干，最后药都一样，卖成白菜价（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693829891787129390/"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-07T20:17",
+      "t": "9月涨幅夺冠后，3倍大牛股提示风险:AI制药仍在起步阶段",
+      "s": "9月涨幅夺冠后，3倍大牛股提示风险:AI制药仍在起步阶段（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7693898907113243178/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296404,
+      "s": 296406,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279675,
+      "s": 279684,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274960,
+      "s": 274963,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217454,
+      "s": 217455,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149785,
+      "s": 149786,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124698,
+      "s": 124700,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102850,
+      "s": 102857,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
