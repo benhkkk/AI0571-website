@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-08T11:32:12",
+  "updated": "2026-10-08T12:02:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T11:56",
+      "t": "Mistral Large 4 来了：一万亿参数、具备原生多模态能力",
+      "s": "Mistral 发布了他们史上最大的模型。不是迭代，是直接从零训的：1 万亿参数、520 亿稀疏激活的原生多模态模型，代…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502872/mistral-large-4"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-08T11:44",
+      "t": "世嘉：我们对 AI 态度“非常谨慎”，不会将其用于创意工作",
+      "s": "世嘉明确表示，不会让 AI 承担游戏创意工作，并将以“非常谨慎”的态度在游戏开发中使用 AI。当地时间 6 日，世嘉高级…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/444.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T11:24",
+      "t": "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+      "s": "这个行业究竟在卖什么？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8160841.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-08T11:17",
@@ -24,10 +45,10 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-08T10:53",
+      "d": "2026-10-08T10:54",
       "t": "mRNA 重磅BD落地，机构:AI制药有望成为AI应用发展的主要方向",
       "s": "mRNA 重磅BD落地，机构:AI制药有望成为AI应用发展的主要方向（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7694124685461701155/"
+      "u": "https://www.toutiao.com/article/7694124850519999018/"
     },
     {
       "c": "MODEL",
@@ -119,30 +140,21 @@
       "t": "GPT-6今起免费用！拒答变少，话变多了",
       "s": "ChatGPT聊天框长出界面（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/501834.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T09:06",
-      "t": "美国一男子因利用 AI 骗取音乐版权收入被判 18 个月监禁并罚没 800 万美元",
-      "s": "美国司法部当地时间本月 6 日发布公告，表示该国北卡罗来纳州男子 Michael Smith 因利用 AI 骗取音乐版权…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/378.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T09:04",
-      "t": "Claude新模型发布！跑分暴击GPT-6 Luna，价格比梁文谷还便宜，OpenAI只能送重置卡挽尊",
-      "s": "小模型新守门员（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/501832.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-08T08:57",
-      "t": "优必选机器人再进车企：携手一汽-大众推进人形机器人在物流场景应用落地",
-      "s": "优必选今日发文，宣布已与一汽-大众汽车有限公司达成战略合作，双方将共同推进具身智能机器人在物流领域的应用场景开发及测试…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/376.htm"
     }
   ],
   "timeline": [
+    [
+      "10-08 11:56",
+      "Mistral Large 4 来了：一万亿参数、具备原生多模态能力"
+    ],
+    [
+      "10-08 11:44",
+      "世嘉：我们对 AI 态度“非常谨慎”，不会将其用于创意工作"
+    ],
+    [
+      "10-08 11:24",
+      "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长"
+    ],
     [
       "10-08 11:17",
       "从Siri到Muse，我们如何一步步把生活交给AI"
@@ -154,18 +166,6 @@
     [
       "10-08 11:04",
       "荣耀 CEO 李健：Magic9 系列国庆 7 天稳居安卓旗舰第一"
-    ],
-    [
-      "10-08 10:53",
-      "mRNA 重磅BD落地，机构:AI制药有望成为AI应用发展的主要方向"
-    ],
-    [
-      "10-08 10:43",
-      "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型"
-    ],
-    [
-      "10-08 10:15",
-      "警告“AI 或灭绝人类”的前 Anthropic 研究员：某种意义上，我曾研究让 AI 取代自己"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296432,
+      "s": 296440,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 279823,
+      "s": 279854,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 274997,
+      "s": 275011,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217465,
+      "s": 217473,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180069,
+      "s": 180072,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149798,
+      "s": 149799,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140950,
+      "s": 140952,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124715,
+      "s": 124721,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110432,
+      "s": 110438,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 102912,
+      "s": 102925,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
