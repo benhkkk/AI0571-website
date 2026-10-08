@@ -1,19 +1,26 @@
 {
-  "updated": "2026-10-08T21:31:52",
+  "updated": "2026-10-08T22:02:38",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-10-08T21:31",
-      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
-      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
+      "d": "2026-10-08T22:02",
+      "t": "长江也做\"大体检\" ，AI浮游生物监测技术显身手",
+      "s": "长江也做\"大体检\" ，AI浮游生物监测技术显身手（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260611/917525.shtml"
     },
     {
       "c": "MODEL",
-      "d": "2026-10-08T21:31",
+      "d": "2026-10-08T22:02",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-08T21:43",
+      "t": "Alphacool 带来多款 GPU 单槽冷头，支持 NVIDIA、AMD 专业显卡",
+      "s": "Alphacool 当地时间今日宣布扩展其 ES 1-Slot Design 系列分体式液冷显卡单槽冷头家族，为 4 款…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/709.htm"
     },
     {
       "c": "MODEL",
@@ -133,23 +140,20 @@
       "t": "微软为 Windows 讲了个新故事 —— 本地云端的 Agent 中间层，沙箱先转正",
       "s": "微软把 Windows 重新定位成了「Agent 住的地方」。10 月 7 日的官方博客《Building Window…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502895"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-08T17:30",
-      "t": "浪子回头！Manus重启北京办公室大举招聘",
-      "s": "开始和国产Agent抢人，还拿到5亿美元新融资（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502009.html"
     }
   ],
   "timeline": [
     [
-      "10-08 21:31",
-      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
+      "10-08 22:02",
+      "长江也做\"大体检\" ，AI浮游生物监测技术显身手"
     ],
     [
-      "10-08 21:31",
+      "10-08 22:02",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
+    ],
+    [
+      "10-08 21:43",
+      "Alphacool 带来多款 GPU 单槽冷头，支持 NVIDIA、AMD 专业显卡"
     ],
     [
       "10-08 21:21",
@@ -162,10 +166,6 @@
     [
       "10-08 20:44",
       "用鸿蒙开发鸿蒙：DevEco Studio / Code / CLI 开启华为鸿蒙 PC 公测"
-    ],
-    [
-      "10-08 20:43",
-      "正行创新亮相APRCE 2026，发布全球首个零售物理智能24/7服务解决方案"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296615,
+      "s": 296625,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 280662,
+      "s": 280696,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275272,
+      "s": 275288,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217558,
+      "s": 217562,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180135,
+      "s": 180141,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149849,
+      "s": 149854,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140992,
+      "s": 140994,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124848,
+      "s": 124853,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110511,
+      "s": 110515,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103216,
+      "s": 103224,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
