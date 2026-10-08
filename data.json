@@ -1,30 +1,9 @@
 {
-  "updated": "2026-10-09T06:02:05",
+  "updated": "2026-10-09T06:31:49",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-09T06:02",
-      "t": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势",
-      "s": "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260512/902073.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-09T06:02",
-      "t": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术",
-      "s": "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750693.shtml"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-09T06:02",
-      "t": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例",
-      "s": "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20241030/750625.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-09T06:02",
+      "d": "2026-10-09T06:31",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
@@ -140,23 +119,32 @@
       "t": "Personal Agent 的终点不该是一个更聪明的命令行",
       "s": "Qoni 是 Cognitive（认知）的延伸，是一个 Personal Agent 的托管基础设施，让企业开发者都能开…（来源：OSCHINA）",
       "u": "https://my.oschina.net/u/9765709/blog/19774529"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-08T19:13",
+      "t": "数据中心装不下AI的全部野心了",
+      "s": "马斯克向上游造厂，微软让AI回归个人电脑。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8161196.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T18:59",
+      "t": "德国搜索引擎 Ecosia 甩了 Mistral：性能落后一整年，换中国开源模型省一半钱",
+      "s": "一个德国环保搜索引擎，当着整个欧洲的面说：你们的 AI 旗舰不行了，我用中国的。Ecosia，总部在柏林的搜索引擎和浏览…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502897/germany-ecosia-search-engine-mistral-china-open-source-ai"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T18:58",
+      "t": "Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布",
+      "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502896"
     }
   ],
   "timeline": [
     [
-      "10-09 06:02",
-      "国产替代・智能升级・高端突破・AI 赋能 | 从2025优秀新品看仪器技术四大趋势"
-    ],
-    [
-      "10-09 06:02",
-      "北京理工大学重庆创新中心李琰：谈基于深度学习的射线检测焊缝缺陷识别技术"
-    ],
-    [
-      "10-09 06:02",
-      "东南大学网络与信息中心副主任胡轶宁：谈人工智能在无损检测领域的应用案例"
-    ],
-    [
-      "10-09 06:02",
+      "10-09 06:31",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
     ],
     [
@@ -166,6 +154,18 @@
     [
       "10-08 23:05",
       "Epic 喜加二：《熊视眈眈》《愿景之城》游戏免费领取"
+    ],
+    [
+      "10-08 23:01",
+      "Waymo 获 50 亿美元贷款：未来将推动无人驾驶出租车扩张，入局欧洲、日本等市场"
+    ],
+    [
+      "10-08 22:14",
+      "亚马逊发布 Alexa Tablet 平板电脑：接替 Fire Tablet，全面支持 Alexa+ AI"
+    ],
+    [
+      "10-08 21:43",
+      "Alphacool 带来多款 GPU 单槽冷头，支持 NVIDIA、AMD 专业显卡"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296548,
+      "s": 296551,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 280964,
+      "s": 280989,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275330,
+      "s": 275343,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217427,
+      "s": 217432,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179988,
+      "s": 179990,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149711,
+      "s": 149714,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140810,
+      "s": 140812,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124740,
+      "s": 124744,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110578,
+      "s": 110581,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103354,
+      "s": 103358,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
