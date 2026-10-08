@@ -1,12 +1,33 @@
 {
-  "updated": "2026-10-08T19:32:00",
+  "updated": "2026-10-08T20:02:11",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-08T19:31",
+      "d": "2026-10-08T20:02",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-08T19:47",
+      "t": "跳出游戏争当AI金主，“腾讯们”到底图啥",
+      "s": "尝到高回报的甜头（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8161222.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-08T19:42",
+      "t": "Anthropic要上市了：5年公司2万亿估值，谁在为AI泡沫买单？",
+      "s": "Anthropic要上市了：5年公司2万亿估值，谁在为AI泡沫买单？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8161055.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-08T19:39",
+      "t": "Personal Agent 的终点不该是一个更聪明的命令行",
+      "s": "Qoni 是 Cognitive（认知）的延伸，是一个 Personal Agent 的托管基础设施，让企业开发者都能开…（来源：OSCHINA）",
+      "u": "https://my.oschina.net/u/9765709/blog/19774529"
     },
     {
       "c": "HOT",
@@ -119,33 +140,24 @@
       "t": "礼来CEO:AI制药路还很长，人类可能只掌握10%的生物学知识",
       "s": "礼来CEO:AI制药路还很长，人类可能只掌握10%的生物学知识（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7694206680750195235/"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-08T15:53",
-      "t": "Manus 新一轮融资超 5 亿美元，成为中国估值最高的 AI Agent 公司",
-      "s": "Manus 在离开 Meta 之后，拿到了它的第一笔融资：超过 5 亿美元。母公司 Butterfly Effect 星…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502893/manus-raises-more-than-500-million-after-meta-exit"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T15:37",
-      "t": "腾讯 WorkBuddy 上线独立文件浏览器，本地文件可直呼 AI 处理",
-      "s": "腾讯今天宣布，旗下 AI 办公产品 WorkBuddy 现已正式上线独立文件浏览器。用户现在可以在文件资源管理器 / F…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/562.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T15:29",
-      "t": "GPT-6 全球推送，聊天回答里长出了计算器和地图",
-      "s": "OpenAI 这次是把 GPT-6 推给了所有人。10 月 7 日起，Plus、Pro、Business、Enterpr…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502890/openai-gpt-6-for-everyone"
     }
   ],
   "timeline": [
     [
-      "10-08 19:31",
+      "10-08 20:02",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
+    ],
+    [
+      "10-08 19:47",
+      "跳出游戏争当AI金主，“腾讯们”到底图啥"
+    ],
+    [
+      "10-08 19:42",
+      "Anthropic要上市了：5年公司2万亿估值，谁在为AI泡沫买单？"
+    ],
+    [
+      "10-08 19:39",
+      "Personal Agent 的终点不该是一个更聪明的命令行"
     ],
     [
       "10-08 19:13",
@@ -154,18 +166,6 @@
     [
       "10-08 18:59",
       "德国搜索引擎 Ecosia 甩了 Mistral：性能落后一整年，换中国开源模型省一半钱"
-    ],
-    [
-      "10-08 18:58",
-      "Skyeye 云企业级AI+零代码智能制造系统-ERP、财务、商城板块 - v4.1.7 发布"
-    ],
-    [
-      "10-08 18:46",
-      "从家电龙头到“人形机器人第一股”：质量，成为广东产业链的公共底座"
-    ],
-    [
-      "10-08 18:25",
-      "毕得医药:AI制药的发展对公司业务既有机遇，也有挑战"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296582,
+      "s": 296592,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 280490,
+      "s": 280531,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275212,
+      "s": 275218,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217524,
+      "s": 217533,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149840,
+      "s": 149844,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140987,
+      "s": 140988,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124819,
+      "s": 124825,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110496,
+      "s": 110501,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103171,
+      "s": 103179,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
