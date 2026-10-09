@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-09T20:32:05",
+  "updated": "2026-10-09T21:02:01",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-09T21:01",
+      "t": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁",
+      "s": "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260701/932224.shtml"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-10-09T20:38",
+      "t": "曙光 8000 支撑可重复使用火箭研发，为发动机群尾焰进行“超高清 CT 扫描”",
+      "s": "近日，中科曙光联合西安交通大学科研团队，依托全国产十万卡 AI 超集群曙光 8000，完成超大规模火箭尾焰高精度数值模拟…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/117.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-09T19:59",
@@ -28,6 +42,13 @@
       "t": "打折还是 MOVA 猛：P70S 活水洗地扫拖机器人 3299 → 999 元 20:00 开抢",
       "s": "【扫地机器人需联网使用，介意慎拍。】京东家居家电 10 月 9 日今晚 20:00 正式开启双十一全面抢，现在可去主会场…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/090.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-09T18:34",
+      "t": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
+      "s": "2026 年 10 月，AI 创投圈迎来一笔颇具戏剧感的融资。一家 10 人规模的神秘实验室，没产品、没名字，成了资本市…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html"
     },
     {
       "c": "HOT",
@@ -119,30 +140,17 @@
       "t": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
       "s": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/502422.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-09T16:47",
-      "t": "0.2秒急停、秒级重规划！因果智能走进真实世界",
-      "s": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502411.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-09T16:46",
-      "t": "吉利银河 TT 轿车上市 30 天交付超过 1 万台，限时先享价 12.99 万元起",
-      "s": "吉利银河今日宣布，吉利银河 TT C 级 AI 纯电运动轿车上市 30 天（9 月 10 日-10 月 9 日）交付超过…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/050.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-09T16:40",
-      "t": "华为智能门锁 2 Pro 悦享版开售：支持 AI 3D 人脸识别 3.0，补贴到手价 2124.15 元",
-      "s": "华为智能门锁 2 Pro 悦享版 10 月 9 日 10:08 正式开售，建议零售价 2699 元，补贴到手价 2124…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/046.htm"
     }
   ],
   "timeline": [
+    [
+      "10-09 21:01",
+      "揭秘CYTO2026新浪潮：多模态与AI赋能流式范式跃迁"
+    ],
+    [
+      "10-09 20:38",
+      "曙光 8000 支撑可重复使用火箭研发，为发动机群尾焰进行“超高清 CT 扫描”"
+    ],
     [
       "10-09 19:59",
       "46999 元起，极摩客 EVO-X5 Pro 迷你 AI 工作站发售"
@@ -158,14 +166,6 @@
     [
       "10-09 18:37",
       "打折还是 MOVA 猛：P70S 活水洗地扫拖机器人 3299 → 999 元 20:00 开抢"
-    ],
-    [
-      "10-09 18:21",
-      "陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸"
-    ],
-    [
-      "10-09 18:18",
-      "特斯拉供应商们，正在悄悄“造人”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296749,
+      "s": 296770,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 281985,
+      "s": 282026,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275674,
+      "s": 275683,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217625,
+      "s": 217629,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180099,
+      "s": 180101,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149818,
+      "s": 149821,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140874,
+      "s": 140878,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124891,
+      "s": 124900,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110682,
+      "s": 110687,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103637,
+      "s": 103652,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
