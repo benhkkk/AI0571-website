@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-09T07:32:34",
+  "updated": "2026-10-09T08:03:18",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-09T07:32",
+      "d": "2026-10-09T08:03",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-09T07:52",
+      "t": "阿里巴巴蔡崇信：五年后 AI 将如今天的互联网，融入社会的每个环节",
+      "s": "北京时间 10 月 7 日晚，阿里巴巴集团主席蔡崇信在意大利都灵出席国际科技与投资盛会 Wave by Vento 20…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/763.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-09T07:36",
+      "t": "3 名遭解雇 OpenAI 研究员发公开信，称公司做法或引发“寒蝉效应”",
+      "s": "上周突然被解雇的 OpenAI 三名前研究人员米基塔 · 巴莱斯尼、托梅克 · 科尔巴克和贾斯敏 · 王今天（9 日）发…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/760.htm"
     },
     {
       "c": "MODEL",
@@ -66,13 +80,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-08T21:43",
-      "t": "Alphacool 带来多款 GPU 单槽冷头，支持 NVIDIA、AMD 专业显卡",
-      "s": "Alphacool 当地时间今日宣布扩展其 ES 1-Slot Design 系列分体式液冷显卡单槽冷头家族，为 4 款…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/709.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-08T21:28",
       "t": "真香！做这个邪恶老奶版「GTA 6」，我只花了5元！",
       "s": "Vidu Q4预览版，了解一下~（来源：量子位）",
@@ -84,13 +91,6 @@
       "t": "AI找药，卡在量产",
       "s": "AI找药，卡在量产（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7694287806805426698/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T21:21",
-      "t": "谷歌云发布 Gemini Agent，定位“通用工作智能体”",
-      "s": "谷歌云今天在 Gemini at Work 2026 发布会上宣布，面向企业客户推出 Gemini 智能体（Gemini…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/706.htm"
     },
     {
       "c": "MODEL",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "10-09 07:32",
+      "10-09 08:03",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
+    ],
+    [
+      "10-09 07:52",
+      "阿里巴巴蔡崇信：五年后 AI 将如今天的互联网，融入社会的每个环节"
+    ],
+    [
+      "10-09 07:36",
+      "3 名遭解雇 OpenAI 研究员发公开信，称公司做法或引发“寒蝉效应”"
     ],
     [
       "10-09 07:31",
@@ -158,14 +166,6 @@
     [
       "10-09 07:20",
       "【钛晨报】中国人民银行发布人民币汇率的政策立场；尊界回应制动踏板支架底座断裂问题；苹果给开发者下硬规定：明年4月所有App必须适配折叠屏"
-    ],
-    [
-      "10-09 07:02",
-      "OpenAI 年化营收被曝接近 500 亿美元，比预期少了约 200 亿"
-    ],
-    [
-      "10-08 23:37",
-      "Claude Haiku 5.5 降本背后：操作能力暴涨，复杂编程为何仍差一截？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296558,
+      "s": 296562,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 281023,
+      "s": 281043,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275373,
+      "s": 275384,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217436,
+      "s": 217441,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179992,
+      "s": 179994,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149715,
+      "s": 149717,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140813,
+      "s": 140816,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124753,
+      "s": 124756,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103387,
+      "s": 103393,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
