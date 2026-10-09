@@ -459,7 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-09T12:22', t:'短短 10 个月几乎翻倍，AI 模型评测平台 Arena 估值升至 31 亿美元', s:'当地时间 8 日，AI 模型评测平台 Arena 竞技场宣布完成 2 亿美元（IT之家注：现汇率约合 13.43 亿元人…（来源：IT之家）', u:'https://www.ithome.com/1/010/899.htm'},
+    {c:'HOT', d:'2026-10-09T12:15', t:'灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」', s:'灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」（来源：量子位）', u:'https://www.qbitai.com/2026/10/502330.html'},
     {c:'HOT', d:'2026-10-09T12:00', t:'全球最大独立 AI 原生影视公司，要打造「AI 版 Disney」', s:'这家公司要把 AI 长片送进 2027 年暑期档院线#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精…（来源：爱范儿）', u:'https://www.ifanr.com/1683309?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MODEL', d:'2026-10-09T11:52', t:'清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据', s:'星动纪元选择将视频预测与动作学习分阶段训练，重点不是「视频、动作一锅炖」，而是把两者「解耦」，重新「排序」。（来源：量子位）', u:'https://www.qbitai.com/2026/10/502125.html'},
     {c:'HOT', d:'2026-10-09T11:52', t:'Markdown 是 AI 编程时代的“源代码”，应该把它提交到 /src 目录', s:'htmx 作者 Carson Gross 写了一篇随笔，主张把 Markdown 当成源代码。他不是要说「文档该用 Ma…（来源：OSCHINA）', u:'https://www.oschina.net/news/502915/markdown-in-src'},
     {c:'MODEL', d:'2026-10-09T11:45', t:'苦 Adobe 高价订阅久矣？四人团队借 AI 开发免费开源“平替”ArtCraft 套件', s:'多年来，无论是插画师、摄影师，还是设计师和视频剪辑师，都很难摆脱 Adobe 的控制。Adobe 旗下的 Creativ…（来源：IT之家）', u:'https://www.ithome.com/1/010/856.htm'},
     {c:'FUNDING', d:'2026-10-09T11:23', t:'消息称英伟达拟投资 AI 推理 ASIC 企业 d-Matrix，双方此前已达成技术合作', s:'外媒 The Information 当地时间昨日报道称，NVIDIA（英伟达）拟投资 AI 推理 ASIC 芯片初创企…（来源：IT之家）', u:'https://www.ithome.com/1/010/847.htm'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-09T10:03', t:'代码造世界，扩散绘现实：AgentGarten让智能体在实时试炼场中边玩边进化', s:'让AI反复试错的“练兵场”来了（来源：量子位）', u:'https://www.qbitai.com/2026/10/502096.html'},
     {c:'MODEL', d:'2026-10-09T09:55', t:'跳出 AI 试点陷阱：SUSE 企业级私有 AI 战略，用开源基础设施打通生产级落地', s:'AI 发展正在经历一个非常明显的分水岭：大量企业已经跑完概念验证，做过 Demo 试点，但卡在 “从实验环境迈向生产部署…（来源：OSCHINA）', u:'https://www.oschina.net/news/502904'},
     {c:'MODEL', d:'2026-10-09T09:40', t:'陶哲轩质疑 OpenAI 公司：719 篇 AI 数学证明，人类真的理解了吗？', s:'OpenAI 于 10 月公布 719 份 AI 数学解答，涵盖 372 个数学结果族，涉及数百项开放研究问题，不过发布…（来源：IT之家）', u:'https://www.ithome.com/1/010/795.htm'},
-    {c:'HOT', d:'2026-10-09T09:18', t:'黄仁勋女婿 Nico Caprez 火速晋升英伟达全球 AI 基础设施增长副总裁，曾是职业滑雪运动员', s:'据 The Information 本周报道，英伟达 CEO 黄仁勋的长女 Madison Huang（黄敏珊）最近与 …（来源：IT之家）', u:'https://www.ithome.com/1/010/788.htm'},
-    {c:'HOT', d:'2026-10-09T09:14', t:'《Artificial》奥尔特曼扮演者加菲尔德：演了这部戏，我开始怀疑 AI', s:'当地时间 8 日，据《商业内幕》报道，安德鲁 · 加菲尔德在即将上映的电影《Artificial》中饰演 OpenAI …（来源：IT之家）', u:'https://www.ithome.com/1/010/786.htm'},
-    {c:'HOT', d:'2026-10-09T09:07', t:'豆包新增“生活缴费”功能，消息称正逐步建设包括出行服务等生活场景下的办事能力', s:'据《读佳》报道，豆包新增“生活缴费”功能，用户可以在豆包 App 内通过语音或打字的方式发起水、电、燃气等生活缴费指令…（来源：IT之家）', u:'https://www.ithome.com/1/010/784.htm'},
   ];
   const TIMELINE = [
+    ['10-09 12:22','短短 10 个月几乎翻倍，AI 模型评测平台 Arena 估值升至 31 亿美元'],
+    ['10-09 12:15','灵巧操作头号玩家：Sharpa把指尖「触觉」进化到全面「体感」'],
     ['10-09 12:00','全球最大独立 AI 原生影视公司，要打造「AI 版 Disney」'],
+    ['10-09 11:52','清华具身模型登顶全球第一！突围GPT-6、英伟达，不靠外挂和额外数据'],
     ['10-09 11:52','Markdown 是 AI 编程时代的“源代码”，应该把它提交到 /src 目录'],
     ['10-09 11:45','苦 Adobe 高价订阅久矣？四人团队借 AI 开发免费开源“平替”ArtCraft 套件'],
-    ['10-09 11:23','消息称英伟达拟投资 AI 推理 ASIC 企业 d-Matrix，双方此前已达成技术合作'],
-    ['10-09 11:13','日薪120元，我给机器人当“老师”'],
-    ['10-09 10:51','尊界深夜回应“刹车踏板断裂”，懂车帝再发声'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296615, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:281312, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275470, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217491, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180020, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149746, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140838, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124781, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110608, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:103452, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296622, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:281346, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275480, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217498, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180023, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149747, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140841, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124786, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110612, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:103460, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
