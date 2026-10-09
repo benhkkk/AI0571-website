@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-09T19:59', t:'46999 元起，极摩客 EVO-X5 Pro 迷你 AI 工作站发售', s:'极摩客 (GMKtec) 现已正式开始销售 EVO-X5 Pro 桌面迷你 AI 工作站。EVO-X5 Pro 基于 A…（来源：IT之家）', u:'https://www.ithome.com/1/011/113.htm'},
+    {c:'MODEL', d:'2026-10-09T19:48', t:'华为鸿蒙电脑 9 月体验报告发布：全新沉浸光感、图库 AI 修图、小艺任务模式等', s:'华为官方今日在花粉俱乐部发布了鸿蒙电脑 9 月体验报告，公布了鸿蒙电脑今年 9 月升级多个版本后带来的新变化，包括全新沉…（来源：IT之家）', u:'https://www.ithome.com/1/011/111.htm'},
     {c:'MODEL', d:'2026-10-09T19:25', t:'懂车帝：网传内部整顿通知截图系 AI 生成，相关信息均为谣言', s:'据懂车帝企业辟谣官方账号，一张所谓以“懂车帝科技有限公司人力资源部”名义发布的内部整顿通知截图在网上流传。官方声明称：“…（来源：IT之家）', u:'https://www.ithome.com/1/011/096.htm'},
     {c:'MODEL', d:'2026-10-09T18:37', t:'打折还是 MOVA 猛：P70S 活水洗地扫拖机器人 3299 → 999 元 20:00 开抢', s:'【扫地机器人需联网使用，介意慎拍。】京东家居家电 10 月 9 日今晚 20:00 正式开启双十一全面抢，现在可去主会场…（来源：IT之家）', u:'https://www.ithome.com/1/011/090.htm'},
     {c:'HOT', d:'2026-10-09T18:21', t:'陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸', s:'数学家该怎么证明自己真的不需要 AI#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）', u:'https://www.ifanr.com/1683401?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-09T16:47', t:'0.2秒急停、秒级重规划！因果智能走进真实世界', s:'这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间（来源：量子位）', u:'https://www.qbitai.com/2026/10/502411.html'},
     {c:'FUNDING', d:'2026-10-09T16:46', t:'吉利银河 TT 轿车上市 30 天交付超过 1 万台，限时先享价 12.99 万元起', s:'吉利银河今日宣布，吉利银河 TT C 级 AI 纯电运动轿车上市 30 天（9 月 10 日-10 月 9 日）交付超过…（来源：IT之家）', u:'https://www.ithome.com/1/011/050.htm'},
     {c:'MODEL', d:'2026-10-09T16:40', t:'华为智能门锁 2 Pro 悦享版开售：支持 AI 3D 人脸识别 3.0，补贴到手价 2124.15 元', s:'华为智能门锁 2 Pro 悦享版 10 月 9 日 10:08 正式开售，建议零售价 2699 元，补贴到手价 2124…（来源：IT之家）', u:'https://www.ithome.com/1/011/046.htm'},
-    {c:'MODEL', d:'2026-10-09T16:39', t:'iBUYPOWER 发布 Pro AMD AI Halo 迷你主机：2.8L 体积，简约外观', s:'北美系统集成商 (SI) iBUYPOWER 当地时间今日发布了 Pro AMD AI Halo 迷你主机。该型号三维 …（来源：IT之家）', u:'https://www.ithome.com/1/011/045.htm'},
-    {c:'MEDDEVICE', d:'2026-10-09T16:31', t:'《人工智能医疗器械检查要点(征求意见稿)》公开征求意见', s:'《人工智能医疗器械检查要点(征求意见稿)》公开征求意见（来源：头条设备AI）', u:'https://www.toutiao.com/article/7694581661396107814/'},
   ];
   const TIMELINE = [
+    ['10-09 19:59','46999 元起，极摩客 EVO-X5 Pro 迷你 AI 工作站发售'],
+    ['10-09 19:48','华为鸿蒙电脑 9 月体验报告发布：全新沉浸光感、图库 AI 修图、小艺任务模式等'],
     ['10-09 19:25','懂车帝：网传内部整顿通知截图系 AI 生成，相关信息均为谣言'],
     ['10-09 18:37','打折还是 MOVA 猛：P70S 活水洗地扫拖机器人 3299 → 999 元 20:00 开抢'],
     ['10-09 18:21','陶哲轩转发抵制声明，数学界和OpenAI彻底撕破脸'],
     ['10-09 18:18','特斯拉供应商们，正在悄悄“造人”'],
-    ['10-09 18:18','AI家电，攻占黄金周'],
-    ['10-09 18:18','AI手机入口战：华为做深，阿里做广，字节做精，腾讯做巧'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296728, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:281917, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275649, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217614, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180087, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149806, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140862, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124881, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110669, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:103602, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296739, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:281952, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275666, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217621, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180096, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149810, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140866, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:124885, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110677, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:103618, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
