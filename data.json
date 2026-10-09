@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-10T01:32:03",
+  "updated": "2026-10-10T02:02:06",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-10-10T01:31",
-      "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
-      "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
-    },
     {
       "c": "MODEL",
       "d": "2026-10-09T22:10",
@@ -140,13 +133,16 @@
       "t": "联想天禧自研代码智能体TianxiCode斩获SWE-bench-Live全球第一",
       "s": "联想天禧AI自主研发的专业代码智能体框架TianxiCode 以71%的问题解决率登顶全球第一名（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/502422.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-09T16:47",
+      "t": "0.2秒急停、秒级重规划！因果智能走进真实世界",
+      "s": "这是一台机器人正在关闭微波炉门时，因人手突然插进来而紧急悬停的时间（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/502411.html"
     }
   ],
   "timeline": [
-    [
-      "10-10 01:31",
-      "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
-    ],
     [
       "10-09 22:10",
       "国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用"
@@ -166,6 +162,10 @@
     [
       "10-09 19:25",
       "懂车帝：网传内部整顿通知截图系 AI 生成，相关信息均为谣言"
+    ],
+    [
+      "10-09 18:37",
+      "打折还是 MOVA 猛：P70S 活水洗地扫拖机器人 3299 → 999 元 20:00 开抢"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296826,
+      "s": 296822,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 282327,
+      "s": 282339,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275803,
+      "s": 275810,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217693,
+      "s": 217688,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180138,
+      "s": 180136,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149841,
+      "s": 149842,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124956,
+      "s": 124962,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110729,
+      "s": 110727,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103791,
+      "s": 103796,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
