@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-09T08:03:18",
+  "updated": "2026-10-09T08:32:02",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-09T08:03",
+      "d": "2026-10-09T08:31",
       "t": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极",
       "s": "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261008/990044.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-09T08:05",
+      "t": "聊天机器人怂恿用户自残、挨饿，Character.AI 遭肯塔基州指控“产品存在缺陷”",
+      "s": "据路透社今天（9 日）上午报道，美国肯塔基州总检察长提交的一份新诉讼文件指控，AI 陪伴服务公司 Character.A…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/769.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-09T08:04",
+      "t": "OpenAI 推出 GPT-6.1 Sol Ultrafast 版：6 倍价格、最高 8 倍速度",
+      "s": "OpenAI Developers 官方宣布，OpenAI 正式在 API、Codex 和 ChatGPT Work 中…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/768.htm"
     },
     {
       "c": "FUNDING",
@@ -63,20 +77,6 @@
       "t": "Epic 喜加二：《熊视眈眈》《愿景之城》游戏免费领取",
       "s": "Epic 本周送出的游戏是《熊视眈眈》和《愿景之城》，下周送出的游戏是《Bad Cheese》以及《Agent A - …（来源：IT之家）",
       "u": "https://www.ithome.com/1/010/735.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-08T23:01",
-      "t": "Waymo 获 50 亿美元贷款：未来将推动无人驾驶出租车扩张，入局欧洲、日本等市场",
-      "s": "自动驾驶技术公司 Waymo 近日宣布获得 50 亿美元（IT之家注：现汇率约合 335.62 亿元人民币）贷款，融资方…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/734.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-08T22:14",
-      "t": "亚马逊发布 Alexa Tablet 平板电脑：接替 Fire Tablet，全面支持 Alexa+ AI",
-      "s": "Amazon（亚马逊）当地时间今日正式发布了接替此前 Fire Tablet 系列的 Alexa Tablet 平板电脑…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/715.htm"
     },
     {
       "c": "HOT",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "10-09 08:03",
+      "10-09 08:31",
       "XAS多模态表征加持：描述符驱动设计实现高性能无钴高镍正极"
+    ],
+    [
+      "10-09 08:05",
+      "聊天机器人怂恿用户自残、挨饿，Character.AI 遭肯塔基州指控“产品存在缺陷”"
+    ],
+    [
+      "10-09 08:04",
+      "OpenAI 推出 GPT-6.1 Sol Ultrafast 版：6 倍价格、最高 8 倍速度"
     ],
     [
       "10-09 07:52",
@@ -158,14 +166,6 @@
     [
       "10-09 07:31",
       "Anthropic 修订使用政策，首次禁止用户虐待 Claude AI 模型"
-    ],
-    [
-      "10-09 07:21",
-      "Meta 首席 AI 官汪滔：不要指望 Muse 会自动帮你赚 1 万美元"
-    ],
-    [
-      "10-09 07:20",
-      "【钛晨报】中国人民银行发布人民币汇率的政策立场；尊界回应制动踏板支架底座断裂问题；苹果给开发者下硬规定：明年4月所有App必须适配折叠屏"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296562,
+      "s": 296564,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 281043,
+      "s": 281062,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275384,
+      "s": 275390,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217441,
+      "s": 217444,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 179994,
+      "s": 179995,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149717,
+      "s": 149719,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140816,
+      "s": 140821,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124756,
+      "s": 124759,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110584,
+      "s": 110586,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103393,
+      "s": 103398,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
