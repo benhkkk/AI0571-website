@@ -1,6 +1,34 @@
 {
-  "updated": "2026-10-09T14:02:05",
+  "updated": "2026-10-09T14:31:56",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-09T14:31",
+      "t": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会",
+      "s": "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260920/981782.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-09T14:31",
+      "t": "安捷伦发布 Gen5 AI 模块，重塑细胞成像分析流程",
+      "s": "安捷伦发布 Gen5 AI 模块，重塑细胞成像分析流程（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20261009/990675.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-09T14:29",
+      "t": "Liquid AI 开源 d1 系列决策模型：单次判断仅 8 毫秒，支持图像输入",
+      "s": "Liquid AI 于 10 月 7 日发布博文，宣布推出 d1 系列两款开放权重决策模型：d1-3B 支持 31.2 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/946.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-09T14:08",
+      "t": "Anthropic 推出 OSS Scanner：用 AI 为开源软件免费扫漏洞",
+      "s": "当地时间 10 月 8 日，Anthropic 宣布正式推出面向开源软件的可选接入型漏洞检测服务 OSS Scanner…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/010/922.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-09T13:56",
@@ -112,37 +140,25 @@
       "t": "日薪120元，我给机器人当“老师”",
       "s": "有人觉得酷，有人一个月就走。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8161952.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-09T10:51",
-      "t": "尊界深夜回应“刹车踏板断裂”，懂车帝再发声",
-      "s": "江淮再度跌停（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502114.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-09T10:48",
-      "t": "$100 预算 + 四个顶级大模型，造出的 PDF 编辑器点几下就露馅",
-      "s": "一个研究 LLM for Code 的研究者，拿 400 美元做了个实验：给 Gemini 3.8 Flash、GPT …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502906/the-remaining-shortcomings-of-coding-agents"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-09T10:44",
-      "t": "大厂借钱，买断未来",
-      "s": "现金流再好，也怕AI开销。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8161979.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-09T10:40",
-      "t": "初探 Win11 新版搜索体验：离线也能即时响应，自然语言可直接更改系统设置",
-      "s": "科技媒体 NeoWin 昨日（10 月 8 日）发布博文，在 Windows 11 Build 26340.9616 预…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/010/833.htm"
     }
   ],
   "timeline": [
+    [
+      "10-09 14:31",
+      "参会指引｜智测万物·仪启未来——AI+仪器检测产业生态交流会"
+    ],
+    [
+      "10-09 14:31",
+      "安捷伦发布 Gen5 AI 模块，重塑细胞成像分析流程"
+    ],
+    [
+      "10-09 14:29",
+      "Liquid AI 开源 d1 系列决策模型：单次判断仅 8 毫秒，支持图像输入"
+    ],
+    [
+      "10-09 14:08",
+      "Anthropic 推出 OSS Scanner：用 AI 为开源软件免费扫漏洞"
+    ],
     [
       "10-09 13:56",
       "孙正义大手笔加码 AI 投资，曝软银寻求向海湾投资者募资千亿美元"
@@ -150,22 +166,6 @@
     [
       "10-09 13:37",
       "RSI“出圈”背后：AI自我进化，卡在了哪里？"
-    ],
-    [
-      "10-09 13:19",
-      "比亚迪人形机器人外观专利公布"
-    ],
-    [
-      "10-09 12:59",
-      "JetBrains 编程 AI 模型 Mellum2.1 发布：高负载推理吞吐量近 Qwen3.5-9B 两倍"
-    ],
-    [
-      "10-09 12:34",
-      "我使用国产「个人 AI 助手」的十天｜AI 上新"
-    ],
-    [
-      "10-09 12:29",
-      "不写一行 Python，不引一行 C：纯 Uya 从零实现的 CLI 编程 Agent 开源了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296643,
+      "s": 296653,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 281445,
+      "s": 281489,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275513,
+      "s": 275526,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217529,
+      "s": 217536,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180035,
+      "s": 180040,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149760,
+      "s": 149761,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140846,
+      "s": 140847,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 124801,
+      "s": 124811,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110619,
+      "s": 110626,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103471,
+      "s": 103476,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
