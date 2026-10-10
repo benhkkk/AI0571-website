@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-10T09:32:02",
+  "updated": "2026-10-10T10:02:22",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-10T10:02",
+      "t": "丹纳赫推AI自主实验室：生命科学研发效率最高提升 8 倍",
+      "s": "丹纳赫推AI自主实验室：生命科学研发效率最高提升 8 倍（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20261010/991325.shtml"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-10T09:27",
@@ -133,16 +140,13 @@
       "t": "Zentrola 1.1.0 发布：应用接入、成本核算与月度 Token 配额",
       "s": "Zentrola 是面向研发团队的 AI Coding 能力治理平台。它位于 Codex、Claude Code 等客户…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502923"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-09T18:34",
-      "t": "当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型",
-      "s": "2026 年 10 月，AI 创投圈迎来一笔颇具戏剧感的融资。一家 10 人规模的神秘实验室，没产品、没名字，成了资本市…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html"
     }
   ],
   "timeline": [
+    [
+      "10-10 10:02",
+      "丹纳赫推AI自主实验室：生命科学研发效率最高提升 8 倍"
+    ],
     [
       "10-10 09:27",
       "Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景"
@@ -162,10 +166,6 @@
     [
       "10-10 09:09",
       "Manus，没能逃出巨头的游戏"
-    ],
-    [
-      "10-10 09:08",
-      "Muse发布一个月，Personal Agent让新 BAT 集体上头"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296893,
+      "s": 296905,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 282752,
+      "s": 282797,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 275996,
+      "s": 276010,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217752,
+      "s": 217753,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180173,
+      "s": 180175,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149881,
+      "s": 149886,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 140980,
+      "s": 140982,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125040,
+      "s": 125045,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 104004,
+      "s": 104019,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

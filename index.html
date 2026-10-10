@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-10T10:02', t:'丹纳赫推AI自主实验室：生命科学研发效率最高提升 8 倍', s:'丹纳赫推AI自主实验室：生命科学研发效率最高提升 8 倍（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261010/991325.shtml'},
     {c:'FUNDING', d:'2026-10-10T09:27', t:'Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景', s:'内存等成本压力上升，2027 全球笔记本价格恐继续上涨 市场调查机构集邦咨询（Trendforce）于 10 月 8 日…（来源：极客公园）', u:'http://www.geekpark.net/news/372184'},
     {c:'HOT', d:'2026-10-10T09:13', t:'00后“戒断”AI短剧：一个月卸载了5次', s:'一场“戒毒”拉锯战。（来源：钛媒体）', u:'https://www.tmtpost.com/8163363.html'},
     {c:'HOT', d:'2026-10-10T09:11', t:'还是别太期待国产Muse了', s:'豆包手机的难题还在。（来源：钛媒体）', u:'https://www.tmtpost.com/8162951.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-10T08:10', t:'马斯克旗下 Grok Bot 新增专属邮箱，AI 助手开始拥有独立“联络点”', s:'全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceXAI 公司发布公告，为 Grok Bot 推出专属邮箱功…（来源：IT之家）', u:'https://www.ithome.com/1/011/177.htm'},
     {c:'MODEL', d:'2026-10-10T08:04', t:'字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换', s:'10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 T…（来源：IT之家）', u:'https://www.ithome.com/1/011/176.htm'},
     {c:'MODEL', d:'2026-10-09T19:50', t:'Zentrola 1.1.0 发布：应用接入、成本核算与月度 Token 配额', s:'Zentrola 是面向研发团队的 AI Coding 能力治理平台。它位于 Codex、Claude Code 等客户…（来源：OSCHINA）', u:'https://www.oschina.net/news/502923'},
-    {c:'FUNDING', d:'2026-10-09T18:34', t:'当年「字节投毒实习生」田柯宇，估值 2 亿美元，要挑战李飞飞做世界模型', s:'2026 年 10 月，AI 创投圈迎来一笔颇具戏剧感的融资。一家 10 人规模的神秘实验室，没产品、没名字，成了资本市…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/BfzpShx7bKSPT4Ul.html'},
   ];
   const TIMELINE = [
+    ['10-10 10:02','丹纳赫推AI自主实验室：生命科学研发效率最高提升 8 倍'],
     ['10-10 09:27','Jev 开发商估值已达 75 亿美元；苹果投资 AI 音频初创；传 OpenAI、Anthropic 高管私下推演 AI 灾难场景'],
     ['10-10 09:13','00后“戒断”AI短剧：一个月卸载了5次'],
     ['10-10 09:11','还是别太期待国产Muse了'],
     ['10-10 09:10','硅谷大模型不装了：Claude卷价格，GPT学豆包'],
     ['10-10 09:09','Manus，没能逃出巨头的游戏'],
-    ['10-10 09:08','Muse发布一个月，Personal Agent让新 BAT 集体上头'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296893, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:282752, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:275996, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217752, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180173, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149881, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140980, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125040, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:296905, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:282797, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:276010, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:217753, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180175, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:149886, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:140982, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125045, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:110783, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:104004, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:104019, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
