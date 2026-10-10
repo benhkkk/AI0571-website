@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-10T08:02:30",
+  "updated": "2026-10-10T08:08:05",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-10T08:04",
+      "t": "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换",
+      "s": "10 月 9 日，字节旗下 TRAE 宣布，即日起，TraeWork 和 TraeCode 将正式合并，融合为全新的 T…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/176.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-10T07:28",
@@ -56,13 +63,6 @@
       "t": "华为鸿蒙电脑 9 月体验报告发布：全新沉浸光感、图库 AI 修图、小艺任务模式等",
       "s": "华为官方今日在花粉俱乐部发布了鸿蒙电脑 9 月体验报告，公布了鸿蒙电脑今年 9 月升级多个版本后带来的新变化，包括全新沉…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/111.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-09T19:25",
-      "t": "懂车帝：网传内部整顿通知截图系 AI 生成，相关信息均为谣言",
-      "s": "据懂车帝企业辟谣官方账号，一张所谓以“懂车帝科技有限公司人力资源部”名义发布的内部整顿通知截图在网上流传。官方声明称：“…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/096.htm"
     },
     {
       "c": "FUNDING",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-10 08:04",
+      "字节 TraeWork 和 TraeCode 合并为全新 TRAE，支持 Agent / IDE 模式无缝切换"
+    ],
+    [
       "10-10 07:28",
       "决策模型 Jev 爆火，开发商 TypeSafe AI 估值已达 75 亿美元"
     ],
@@ -162,10 +166,6 @@
     [
       "10-09 22:10",
       "国务院发布《关于发展新质生产力的意见》：加快推进智能网联新能源汽车、人工智能手机和电脑、人形机器人等新一代智能终端场景应用"
-    ],
-    [
-      "10-09 20:38",
-      "曙光 8000 支撑可重复使用火箭研发，为发动机群尾焰进行“超高清 CT 扫描”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 296883,
+      "s": 296884,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 282648,
+      "s": 282652,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180162,
+      "s": 180164,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125028,
+      "s": 125029,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110775,
+      "s": 110776,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 103972,
+      "s": 103977,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
