@@ -1,16 +1,16 @@
 {
-  "updated": "2026-10-10T23:32:28",
+  "updated": "2026-10-11T00:02:36",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-10T23:32",
+      "d": "2026-10-11T00:02",
       "t": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型",
       "s": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/992018.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-10T23:32",
+      "d": "2026-10-11T00:02",
       "t": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室",
       "s": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/991852.shtml"
@@ -93,13 +93,6 @@
       "u": "https://www.oschina.net/news/502956"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-10T18:30",
-      "t": "西门子将亮相2026工博会：以软硬协同的工业全栈能力，推动物理AI加速落地",
-      "s": "西门子将以更集中、更场景化的方式，展示其工业全栈能力（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502541.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-10T18:21",
       "t": "Claude 动态多 Agent 工作流开始公测，支持庞大的工作负载",
@@ -140,15 +133,22 @@
       "t": "24 天估值暴涨 37 倍，这就是 AI 圈年度爽文",
       "s": "LLM 给人用，这个决策模型给代码用#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1683674?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-10T17:08",
+      "t": "谷歌正在内测新 AI 模型，员工称其编码能力和 Claude Opus 5.5 打平",
+      "s": "Gemini 4 还没公开，Antigravity 里已经开始出现 Argon 的身影。最新的引用显示，这个内部模型的选…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502949/google-employees-test-new-gemini-4-model-argon-barium-carbon"
     }
   ],
   "timeline": [
     [
-      "10-10 23:32",
+      "10-11 00:02",
       "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型"
     ],
     [
-      "10-10 23:32",
+      "10-11 00:02",
       "新CEO上任一周后，丹纳赫宣布自建AI自主实验室"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297128,
+      "s": 297132,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 283900,
+      "s": 283948,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 276304,
+      "s": 276311,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217969,
+      "s": 217987,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180293,
+      "s": 180296,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150009,
+      "s": 150011,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141093,
+      "s": 141095,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110882,
+      "s": 110888,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 104370,
+      "s": 104376,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
