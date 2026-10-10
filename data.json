@@ -1,19 +1,26 @@
 {
-  "updated": "2026-10-10T21:32:37",
+  "updated": "2026-10-10T22:02:30",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-10T21:32",
+      "d": "2026-10-10T22:02",
       "t": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型",
       "s": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/992018.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-10T21:32",
+      "d": "2026-10-10T22:02",
       "t": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室",
       "s": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/991852.shtml"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-10T21:46",
+      "t": "吉利银河战舰 700 上市 12 分钟定单突破 1 万台，新车限时焕新价 16.98 万元起",
+      "s": "吉利银河官方今天宣布，银河战舰 700 汽车全球上市。新车是吉利首款 AI 全地形硬核 SUV，基于 GTA 原生新能源…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/514.htm"
     },
     {
       "c": "FUNDING",
@@ -35,6 +42,13 @@
       "t": "我国食品安全法修订草案公开征求意见，涉及 AI 监管、校园食品安全等",
       "s": "据央视新闻报道，市场监管总局研究起草了《中华人民共和国食品安全法（修订草案征求意见稿）》，并向社会公开征求意见。修订的主…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/500.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-10T19:40",
+      "t": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
+      "s": "DeepSeek 的省钱杀手锏，为何成了致命盲区？ 作者丨高允毅 编辑丨岑 峰 同一个问题问 DeepSeek 两次，只…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/zm33Zeu88CNbEPMx.html"
     },
     {
       "c": "MEDDEVICE",
@@ -126,30 +140,20 @@
       "t": "Cloudflare 让决策模型打起了价格战：Clef 降价、提速、上多模态",
       "s": "Cloudflare 今天把三件事打包放出来了：一个新的多模态决策模型 Clef-omni，一个变便宜了的 Clef-f…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/502945/cloudflare-clef-faster-cheaper-multimodal"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-10T16:10",
-      "t": "AI Labels Multiply on Appliances as Overall Demand Stays Soft",
-      "s": "AI Labels Multiply on Appliances as Overall Demand…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8163749.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-10T16:03",
-      "t": "IMF：如应用得当，人工智能可以使全球经济年增速提高 0. 5 个百分点",
-      "s": "国际货币基金组织 (IMF) 总裁克里斯塔利娜 · 格奥尔基耶娃在本月 7 日的一篇题为《在持续变化世界经济的纵横激流中…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/407.htm"
     }
   ],
   "timeline": [
     [
-      "10-10 21:32",
+      "10-10 22:02",
       "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型"
     ],
     [
-      "10-10 21:32",
+      "10-10 22:02",
       "新CEO上任一周后，丹纳赫宣布自建AI自主实验室"
+    ],
+    [
+      "10-10 21:46",
+      "吉利银河战舰 700 上市 12 分钟定单突破 1 万台，新车限时焕新价 16.98 万元起"
     ],
     [
       "10-10 21:04",
@@ -162,10 +166,6 @@
     [
       "10-10 20:03",
       "我国食品安全法修订草案公开征求意见，涉及 AI 监管、校园食品安全等"
-    ],
-    [
-      "10-10 19:23",
-      "人工智能医疗器械检查要点公开征求意见"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297088,
+      "s": 297100,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 283730,
+      "s": 283782,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 276261,
+      "s": 276272,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 217902,
+      "s": 217923,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180267,
+      "s": 180276,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 149985,
+      "s": 149993,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141071,
+      "s": 141074,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125170,
+      "s": 125178,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110868,
+      "s": 110874,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 104335,
+      "s": 104341,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
