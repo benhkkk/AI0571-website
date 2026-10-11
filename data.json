@@ -1,19 +1,33 @@
 {
-  "updated": "2026-10-11T08:03:28",
+  "updated": "2026-10-11T08:33:26",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-11T08:03",
+      "d": "2026-10-11T08:33",
       "t": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型",
       "s": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/992018.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-11T08:03",
+      "d": "2026-10-11T08:33",
       "t": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室",
       "s": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/991852.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-11T08:27",
+      "t": "报告称 Claude 半年封杀 1140 万个账号，申诉后仅 4.2 万翻案",
+      "s": "太离谱了家人们！最近 Claude 疯狂大面积封号，AI 圈的开发者们直接集体破防，直呼「天塌了」。在整个假期期间，「C…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/553.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-11T08:13",
+      "t": "智元是时候看回启元了",
+      "s": "具身智能玩家该拼数采中心回本了。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8163912.html"
     },
     {
       "c": "HOT",
@@ -79,13 +93,6 @@
       "u": "https://www.ithome.com/1/011/521.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-10T21:46",
-      "t": "吉利银河战舰 700 上市 12 分钟定单突破 1 万台，新车限时焕新价 16.98 万元起",
-      "s": "吉利银河官方今天宣布，银河战舰 700 汽车全球上市。新车是吉利首款 AI 全地形硬核 SUV，基于 GTA 原生新能源…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/514.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-10T19:40",
       "t": "字节发现 DeepSeek 隐藏 Bug，加点空格，模型翻车",
@@ -133,23 +140,24 @@
       "t": "“请3休13”的黄金周，AI旅游攻略把我练成了特种兵",
       "s": "攻略精确到分钟，落地全靠腿。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8163230.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-10T17:18",
-      "t": "一边造AI，一边挖地堡，硅谷精英们在怕什么",
-      "s": "天下危险，莫此为甚（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8163367.html"
     }
   ],
   "timeline": [
     [
-      "10-11 08:03",
+      "10-11 08:33",
       "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型"
     ],
     [
-      "10-11 08:03",
+      "10-11 08:33",
       "新CEO上任一周后，丹纳赫宣布自建AI自主实验室"
+    ],
+    [
+      "10-11 08:27",
+      "报告称 Claude 半年封杀 1140 万个账号，申诉后仅 4.2 万翻案"
+    ],
+    [
+      "10-11 08:13",
+      "智元是时候看回启元了"
     ],
     [
       "10-11 07:50",
@@ -158,14 +166,6 @@
     [
       "10-11 07:45",
       "消息称字节、腾讯加速个人 AI 智能体研发，追赶 Meta Muse"
-    ],
-    [
-      "10-11 07:19",
-      "微软 CEO 纳德拉：开发者应当默认假设 AI 模型失控，思考如何强制中断任务"
-    ],
-    [
-      "10-11 06:53",
-      "亚马逊云科技向姚明发起的姚基金捐赠 100 万美元现金及云 + AI 资源，目标培养 AI + 体育复合型人才"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297231,
+      "s": 297238,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 284458,
+      "s": 284490,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 276516,
+      "s": 276531,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 218257,
+      "s": 218268,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180343,
+      "s": 180345,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150067,
+      "s": 150069,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141149,
+      "s": 141151,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125306,
+      "s": 125310,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 104507,
+      "s": 104514,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
