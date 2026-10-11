@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-12T07:03:10",
+  "updated": "2026-10-12T07:33:03",
   "news": [
     {
       "c": "FUNDING",
@@ -12,7 +12,7 @@
       "c": "HOT",
       "d": "2026-10-12T06:47",
       "t": "Scale AI 创始人汪滔谈创业管理：从亲自决定细节到学会放手，在 Meta 的任务是招揽人才",
-      "s": "Scale AI 创始人、现任 Meta 首席 AI 官亚汪滔（Alexandr Wang）当地时间 10 月 11 日…（来源：IT之家）",
+      "s": "Scale AI 创始人、现任 Meta 首席 AI 官汪滔（Alexandr Wang）当地时间 10 月 11 日在…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/717.htm"
     },
     {
@@ -93,13 +93,6 @@
       "u": "https://www.tmtpost.com/8164230.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-11T12:21",
-      "t": "中国AI，开始为算力算账",
-      "s": "模型越卖越便宜，算力投资却越烧越猛。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8164264.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-11T11:27",
       "t": "DeepSeek Bot来了！民间版，DSH装个插件就能用",
@@ -140,6 +133,13 @@
       "t": "人工智能医疗器械检查要点公开征求意见",
       "s": "人工智能医疗器械检查要点公开征求意见（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7694998089253388836/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-10T19:09",
+      "t": "被字节索赔 800 万的实习生“出道”：20 万符号造 AI 词典，打造世界模型创业公司估值 2 亿美元",
+      "s": "打进字节训练集群、污染同事的模型训练，然后被辞退、被索赔 800 万、被法院判赔 50 万——两年后，同一个人的新实验室…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502956"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297689,
+      "s": 297700,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 286141,
+      "s": 286159,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277186,
+      "s": 277201,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 218865,
+      "s": 218870,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180502,
+      "s": 180504,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150224,
+      "s": 150229,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141284,
+      "s": 141287,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125543,
+      "s": 125549,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105001,
+      "s": 105011,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
