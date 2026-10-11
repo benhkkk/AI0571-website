@@ -1,19 +1,33 @@
 {
-  "updated": "2026-10-11T10:03:36",
+  "updated": "2026-10-11T10:32:27",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-11T10:03",
+      "d": "2026-10-11T10:32",
       "t": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型",
       "s": "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/992018.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-11T10:03",
+      "d": "2026-10-11T10:32",
       "t": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室",
       "s": "新CEO上任一周后，丹纳赫宣布自建AI自主实验室（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261010/991852.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-11T10:05",
+      "t": "机械革命将推 RTX Spark 迷你主机大师之路 X10，搭载 AI SSD",
+      "s": "据消息人士 @巨炮快评 透露，机械革命 (Mechrevo) 将推出基于 NVIDIA RTX Spark 超级芯片的迷…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/563.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-11T09:53",
+      "t": "AI制药的陌生来客",
+      "s": "AI制药的陌生来客（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7695222137624019496/"
     },
     {
       "c": "HOT",
@@ -126,30 +140,24 @@
       "t": "亚马逊云科技向姚明发起的姚基金捐赠 100 万美元现金及云 + AI 资源，目标培养 AI + 体育复合型人才",
       "s": "亚马逊云科技 10 月 10 日宣布与北京姚基金公益基金会（以下简称“姚基金”）共同推出“云上篮图”体育 × 科技育人计…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/542.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-11T06:46",
-      "t": "消息称英伟达洽谈收购 / 追加投资 Reflection AI，加码开源模型",
-      "s": "据金融时报消息，知情人士透露，英伟达正就收购美国初创公司 Reflection AI 或向其追加投资展开深入谈判。Ref…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/541.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-10T22:42",
-      "t": "腾讯元器将于 11 月 9 日停止服务，所创建智能体将不再可用",
-      "s": "腾讯元器 10 月 8 日发布《关于元器平台停止服务通知》，因业务调整，元器平台将于 2026 年 11 月 9 日停止…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/530.htm"
     }
   ],
   "timeline": [
     [
-      "10-11 10:03",
+      "10-11 10:32",
       "1分钟预测12个肺癌基因靶点！钟南山团队发布肺癌基因AI模型"
     ],
     [
-      "10-11 10:03",
+      "10-11 10:32",
       "新CEO上任一周后，丹纳赫宣布自建AI自主实验室"
+    ],
+    [
+      "10-11 10:05",
+      "机械革命将推 RTX Spark 迷你主机大师之路 X10，搭载 AI SSD"
+    ],
+    [
+      "10-11 09:53",
+      "AI制药的陌生来客"
     ],
     [
       "10-11 09:36",
@@ -158,14 +166,6 @@
     [
       "10-11 09:34",
       "高通工程师质疑 Linux 系统 LTS 发行版是否过时：AI 时代也许更适合快速滚动更新补丁"
-    ],
-    [
-      "10-11 09:21",
-      "至真资本推出“AI 资本超市”，以AI助力成长型企业与资本精准高效匹配"
-    ],
-    [
-      "10-11 09:20",
-      "AI翻译赛道挤满老玩家，腾讯凭什么再开一桌？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297255,
+      "s": 297263,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 284571,
+      "s": 284604,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 276562,
+      "s": 276571,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 218314,
+      "s": 218330,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180352,
+      "s": 180356,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150075,
+      "s": 150077,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125325,
+      "s": 125327,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 110935,
+      "s": 110939,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 104535,
+      "s": 104546,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
