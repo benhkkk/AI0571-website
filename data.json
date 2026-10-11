@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-12T06:32:13",
+  "updated": "2026-10-12T07:03:10",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-12T07:01",
+      "t": "Anthropic 放弃后，消息称亚马逊洽谈收购 AI 初创公司 Decart",
+      "s": "据华尔街日报消息，据知情人士透露，亚马逊正就收购人工智能初创公司 Decart 展开谈判，该笔交易的潜在估值约为 70 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/720.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-12T06:47",
+      "t": "Scale AI 创始人汪滔谈创业管理：从亲自决定细节到学会放手，在 Meta 的任务是招揽人才",
+      "s": "Scale AI 创始人、现任 Meta 首席 AI 官亚汪滔（Alexandr Wang）当地时间 10 月 11 日…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/717.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-11T21:08",
@@ -21,13 +35,6 @@
       "t": "《VRChat》更新创作者指南：禁止使用 AI 生成误导性地图 / 角色缩略图，尚未决定上线“AI 标签”声明",
       "s": "《VRChat》开发商 VRChat Inc. 于 10 月 7 日公布了针对 AI 生成内容的应对方针，同步更新创作者…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/678.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-11T16:30",
-      "t": "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单",
-      "s": "据华为云官方消息，近日，华为公司 (华为云行业大模型团队 + 2012 应用场景创新实验室 + 小巧灵突击队) 与华东师…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/631.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,17 @@
       "t": "人工智能医疗器械检查要点公开征求意见",
       "s": "人工智能医疗器械检查要点公开征求意见（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7694998089253388836/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-10T19:09",
-      "t": "被字节索赔 800 万的实习生“出道”：20 万符号造 AI 词典，打造世界模型创业公司估值 2 亿美元",
-      "s": "打进字节训练集群、污染同事的模型训练，然后被辞退、被索赔 800 万、被法院判赔 50 万——两年后，同一个人的新实验室…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502956"
     }
   ],
   "timeline": [
+    [
+      "10-12 07:01",
+      "Anthropic 放弃后，消息称亚马逊洽谈收购 AI 初创公司 Decart"
+    ],
+    [
+      "10-12 06:47",
+      "Scale AI 创始人汪滔谈创业管理：从亲自决定细节到学会放手，在 Meta 的任务是招揽人才"
+    ],
     [
       "10-11 21:08",
       "本末科技，还没吃上具身智能这碗饭"
@@ -156,16 +164,8 @@
       "《VRChat》更新创作者指南：禁止使用 AI 生成误导性地图 / 角色缩略图，尚未决定上线“AI 标签”声明"
     ],
     [
-      "10-11 16:30",
-      "跻身全球第一梯队：华为 × 华东师大联合研发时序预测基础模型，登顶国际权威时序测评双榜单"
-    ],
-    [
       "10-11 13:23",
       "王的猜想，刚刚扩展到四维"
-    ],
-    [
-      "10-11 13:22",
-      "硅谷AI现状：谁有算力谁是爹"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297671,
+      "s": 297689,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 286127,
+      "s": 286141,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277178,
+      "s": 277186,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 218863,
+      "s": 218865,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180499,
+      "s": 180502,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150220,
+      "s": 150224,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141282,
+      "s": 141284,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125540,
+      "s": 125543,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111049,
+      "s": 111052,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 104988,
+      "s": 105001,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
