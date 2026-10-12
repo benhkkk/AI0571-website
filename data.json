@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-12T23:02:33",
+  "updated": "2026-10-12T23:32:18",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-12T23:08",
+      "t": "比亚迪与荣耀战略合作：支持 YOYO 远程控车、手机镜像等",
+      "s": "比亚迪今日宣布与荣耀战略合作，共创 AI 语音融合，A2A 打通车机与手机语音智能体，将手机 AI 能力和服务带入座舱空…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/121.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-12T22:45",
@@ -72,13 +79,6 @@
       "u": "https://www.ithome.com/1/012/066.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-12T19:12",
-      "t": "英特尔、博通 CEO 齐发预警：资金短缺可能成为 AI 发展最大瓶颈",
-      "s": "据科技媒体 CNBC 今天报道，英特尔 CEO 陈立武、博通 CEO 陈福阳警告称，尽管计算基础设施需求持续超过供应能力…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/061.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-12T17:48",
       "t": "安踏×火山引擎：下单缩至10分钟、月均建单1000+，Agent跑进全球电商业务",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-12 23:08",
+      "比亚迪与荣耀战略合作：支持 YOYO 远程控车、手机镜像等"
+    ],
+    [
       "10-12 22:45",
       "微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s"
     ],
@@ -162,10 +166,6 @@
     [
       "10-12 20:15",
       "一周 10 万星，AI「逆向一切」，但大家不要过于兴奋"
-    ],
-    [
-      "10-12 19:45",
-      "计算医学写入“十五五”，AI制药能否成为“变局者”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298042,
+      "s": 298056,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 287422,
+      "s": 287467,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277645,
+      "s": 277663,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219131,
+      "s": 219142,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180673,
+      "s": 180679,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150359,
+      "s": 150362,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141365,
+      "s": 141370,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125770,
+      "s": 125780,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111167,
+      "s": 111170,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105389,
+      "s": 105411,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
