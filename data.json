@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-12T12:32:00",
+  "updated": "2026-10-12T13:02:36",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-12T12:59",
+      "t": "海尔推出 M1 Plus 智能晾衣架：支持 AI 离线语音，689 元",
+      "s": "海尔推出了新款 M1 Plus 电动智能晾衣架，首发价 689 元起。这款产品主打 AI 离线语音控制，无需联网、无需音…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/011/857.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-12T12:15",
@@ -35,6 +42,13 @@
       "t": "Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile",
       "s": "Chinese Appliance Brands Gain in Europe, But Share…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8164986.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-12T10:51",
+      "t": "费莫一刘念邱：智驾无图的经验，也能迁移到机器人 | 物理AI 50人",
+      "s": "刘念邱很难被归进典型的具身创业者模板里。他不是从机器人实验室出来的学者，也不是过去两年才进入 Physical AI 的…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/transportation/Y6GLcnioywVn3u7K.html"
     },
     {
       "c": "MODEL",
@@ -77,13 +91,6 @@
       "t": "全球运营商最大单体智算中心扩容工程：中国移动呼和浩特智算中心总算力达 20100P，90% 服务京津冀",
       "s": "据内蒙古日报今日报道，由中建三局承建的中国移动智算中心（呼和浩特）扩容工程 —— 中国移动呼和浩特数据中心 B25、B2…（来源：IT之家）",
       "u": "https://www.ithome.com/1/011/751.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-12T09:05",
-      "t": "HPE 确认英伟达将推出 Rubin PCIe GPU",
-      "s": "根据 HPE（慧与）向 The Next Platform 等外媒分享的演示文稿，这家企业确认其 ProLiant DL…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/011/747.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,13 @@
       "t": "王的猜想，刚刚扩展到四维",
       "s": "王的猜想，刚刚扩展到四维（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/502584.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-11T13:22",
-      "t": "硅谷AI现状：谁有算力谁是爹",
-      "s": "马斯克连横A社，硅谷VC开始囤GPU（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502585.html"
     }
   ],
   "timeline": [
+    [
+      "10-12 12:59",
+      "海尔推出 M1 Plus 智能晾衣架：支持 AI 离线语音，689 元"
+    ],
     [
       "10-12 12:15",
       "宇树科技王兴兴：过去十几年我犯的最大错误就是对 AI 还不够相信"
@@ -162,10 +166,6 @@
     [
       "10-12 11:06",
       "Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile"
-    ],
-    [
-      "10-12 10:36",
-      "给 DeepSeek Harness（DSH）装上 bot 插件，把 DSH 变成 bot 系统"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297812,
+      "s": 297823,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 286535,
+      "s": 286568,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277334,
+      "s": 277343,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 218966,
+      "s": 218975,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180555,
+      "s": 180559,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150265,
+      "s": 150268,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141311,
+      "s": 141314,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111087,
+      "s": 111089,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105134,
+      "s": 105141,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
