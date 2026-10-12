@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T04:31:51",
+  "updated": "2026-10-13T05:02:08",
   "news": [
     {
       "c": "MODEL",
@@ -42,6 +42,13 @@
       "t": "小鹏今年底实现人形机器人量产，2027 年上半年开启交付",
       "s": "小鹏汽车今日亮相巴黎车展，除了推出小鹏 G9L 车型，小鹏还公布了自动驾驶、人形机器人等消息。在人形机器人领域，近期，小…（来源：IT之家）",
       "u": "https://www.ithome.com/1/012/094.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-12T20:21",
+      "t": "hacked by trenggalek6etar",
+      "s": "hacked by trenggalek6etar（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/502764.html"
     },
     {
       "c": "MODEL",
@@ -121,25 +128,18 @@
       "u": "https://www.tmtpost.com/8164863.html"
     },
     {
+      "c": "HOT",
+      "d": "2026-10-12T16:27",
+      "t": "2026没过完，已有480亿美元投进了物理AI",
+      "s": "日均10亿元流入（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/502741.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-12T16:27",
       "t": "【Fintech 周报】浙商大佬仇建平3.25亿元入股网商银行；46岁数学博士AI炒股登上富豪榜",
       "s": "证监会就公募基金运作管理办法及配套规则征求意见；财险产品开发管理新规发布；金融领域严重失信主体名单规定10月1日起施行…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8165230.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-12T16:13",
-      "t": "反对Agent，反对RSI，杨立昆新模型反对当下一切AI叙事",
-      "s": "Agent和RSI全错了？杨立昆：分层推理才是下一代（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8165030.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-12T16:09",
-      "t": "China’s AI Boom Moves From Model Prices to Power Bills and Depreciation",
-      "s": "China’s AI Boom Moves From Model Prices to Power B…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8165235.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298150,
+      "s": 298156,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 287784,
+      "s": 287811,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277797,
+      "s": 277817,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219212,
+      "s": 219218,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180716,
+      "s": 180720,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150406,
+      "s": 150411,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141402,
+      "s": 141403,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125844,
+      "s": 125851,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111213,
+      "s": 111217,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105540,
+      "s": 105553,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
