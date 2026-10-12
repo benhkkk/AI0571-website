@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-12T21:29', t:'小鹏今年底实现人形机器人量产，2027 年上半年开启交付', s:'小鹏汽车今日亮相巴黎车展，除了推出小鹏 G9L 车型，小鹏还公布了自动驾驶、人形机器人等消息。在人形机器人领域，近期，小…（来源：IT之家）', u:'https://www.ithome.com/1/012/094.htm'},
     {c:'MODEL', d:'2026-10-12T20:15', t:'一周 10 万星，AI「逆向一切」，但大家不要过于兴奋', s:'头图图片来源：REA头图来源：CyberSecurityNews「在应用里看到一个想加入自己产品的功能？让智能体去帮你调…（来源：极客公园）', u:'http://www.geekpark.net/news/372263'},
     {c:'MEDPHARMA', d:'2026-10-12T19:45', t:'计算医学写入“十五五”，AI制药能否成为“变局者”', s:'计算医学写入“十五五”，AI制药能否成为“变局者”（来源：头条医药AI）', u:'https://www.toutiao.com/article/7695746055819837962/'},
     {c:'MODEL', d:'2026-10-12T19:42', t:'Linus 把 Claude Code 写的内核补丁推送到个人仓库', s:'Linus Torvalds 在自己 Linux 仓库里推了一个叫 noref-filemap-read-with-ll…（来源：OSCHINA）', u:'https://www.oschina.net/news/502978/linus-torvalds-used-claude-code'},
@@ -473,7 +474,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-12T17:44', t:'给 AI 一块 1980 年代的国产 CPU，它 5 分钟写模拟器，一个下午复现了 BASIC', s:'有人让 AI 逆向了一颗国产 CPU，全程没写一行代码。微博博主 EE_Archeology 晒出全过程：主角是一块来路…（来源：OSCHINA）', u:'https://www.oschina.net/news/502976'},
     {c:'HOT', d:'2026-10-12T17:35', t:'一位55岁应届生，带着AI进入秋招季', s:'“50岁，也可以是一个新的30岁”（来源：钛媒体）', u:'https://www.tmtpost.com/8164982.html'},
     {c:'MODEL', d:'2026-10-12T17:34', t:'英特尔 CEO 陈立武：中国前沿 AI 模型普及速度非常快', s:'据路透社报道，英特尔首席执行官陈立武周一表示，中国前沿 AI 模型的 Token（词元）成本较低，且普及速度一直非常快…（来源：IT之家）', u:'https://www.ithome.com/1/012/013.htm'},
-    {c:'MODEL', d:'2026-10-12T17:26', t:'华为鸿蒙 HarmonyOS 7 小艺 AI 快捷栏功能上线时间公布，预计 10 月底分批推送', s:'在今年 9 月 7 日的 HarmonyOS 7 | HUAWEI Mate XT 2 及全场景新品发布会上，鸿蒙 7 …（来源：IT之家）', u:'https://www.ithome.com/1/012/006.htm'},
     {c:'INDUSTRY', d:'2026-10-12T16:46', t:'人形机器人出货暴增4倍，钱被谁赚走了？', s:'便宜机型贡献7成销量，贵机器撑起8成收入。（来源：钛媒体）', u:'https://www.tmtpost.com/8164863.html'},
     {c:'MODEL', d:'2026-10-12T16:27', t:'【Fintech 周报】浙商大佬仇建平3.25亿元入股网商银行；46岁数学博士AI炒股登上富豪榜', s:'证监会就公募基金运作管理办法及配套规则征求意见；财险产品开发管理新规发布；金融领域严重失信主体名单规定10月1日起施行…（来源：钛媒体）', u:'https://www.tmtpost.com/8165230.html'},
     {c:'MODEL', d:'2026-10-12T16:13', t:'反对Agent，反对RSI，杨立昆新模型反对当下一切AI叙事', s:'Agent和RSI全错了？杨立昆：分层推理才是下一代（来源：钛媒体）', u:'https://www.tmtpost.com/8165030.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-12T15:35', t:'华人“接管”全球AI核心圈，已到了什么程度？', s:'黄仁勋讲"五层蛋糕"，本意是讲英伟达的全栈布局。但它同时提供了一把意外的尺子。沿这五层逐层看下去，会发现华人掌控了四层的…（来源：钛媒体）', u:'https://www.tmtpost.com/8164740.html'},
   ];
   const TIMELINE = [
+    ['10-12 21:29','小鹏今年底实现人形机器人量产，2027 年上半年开启交付'],
     ['10-12 20:15','一周 10 万星，AI「逆向一切」，但大家不要过于兴奋'],
     ['10-12 19:45','计算医学写入“十五五”，AI制药能否成为“变局者”'],
     ['10-12 19:42','Linus 把 Claude Code 写的内核补丁推送到个人仓库'],
     ['10-12 19:39','安克 AI 会议耳机飞书版开售：支持线上线下全场景录音，1799 元'],
     ['10-12 19:28','微软详解 Edge 浏览器全新 AI 故障排查功能：整体类似聊天机器人，经用户同意后才会收集诊断数据'],
-    ['10-12 19:20','阿里千问发布 QwenGyre，面向超长程智能体任务的在线强化学习框架'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:297994, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:287273, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277575, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219098, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180654, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150338, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141355, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125729, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111153, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105328, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298005, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:287317, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277590, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219106, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180656, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150347, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141356, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125736, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111158, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105337, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
