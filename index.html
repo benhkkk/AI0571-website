@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-12T12:15', t:'宇树科技王兴兴：过去十几年我犯的最大错误就是对 AI 还不够相信', s:'第二十六届中国国际工业博览会于 2026 年 10 月 12 日至 16 日在国家会展中心（上海）举办。据第一财经报道…（来源：IT之家）', u:'https://www.ithome.com/1/011/850.htm'},
+    {c:'FUNDING', d:'2026-10-12T12:08', t:'无问芯穹完成 23 亿元 C 轮融资，单轮及累计融资额均创中国 AI 原生基础设施赛道最高纪录', s:'据证券时报消息，人工智能基础设施（AI Infra）企业无问芯穹已完成 23 亿元的 C 轮融资，其成立以来的累计融资额…（来源：IT之家）', u:'https://www.ithome.com/1/011/849.htm'},
     {c:'MODEL', d:'2026-10-12T11:26', t:'DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战', s:'在很多人的印象里，大模型接入数据库（Data Agent / Text-to-SQL）往往等同于企业级只读 ChatBI…（来源：OSCHINA）', u:'https://www.oschina.net/news/502970'},
     {c:'MODEL', d:'2026-10-12T11:15', t:'丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合', s:'据北京日报报道，10 月 11 日，丘成桐数学与人工智能实验室联盟在清华大学成立，将向数学科学专用大模型研发、AI 辅助…（来源：IT之家）', u:'https://www.ithome.com/1/011/814.htm'},
     {c:'HOT', d:'2026-10-12T11:06', t:'Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile', s:'Chinese Appliance Brands Gain in Europe, But Share…（来源：钛媒体）', u:'https://www.tmtpost.com/8164986.html'},
@@ -469,8 +471,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDPHARMA', d:'2026-10-12T09:27', t:'计算医学写入“十五五”，AI制药能否成为“变局者”', s:'计算医学写入“十五五”，AI制药能否成为“变局者”（来源：头条医药AI）', u:'https://www.toutiao.com/article/7695586809815843368/'},
     {c:'HOT', d:'2026-10-12T09:11', t:'全球运营商最大单体智算中心扩容工程：中国移动呼和浩特智算中心总算力达 20100P，90% 服务京津冀', s:'据内蒙古日报今日报道，由中建三局承建的中国移动智算中心（呼和浩特）扩容工程 —— 中国移动呼和浩特数据中心 B25、B2…（来源：IT之家）', u:'https://www.ithome.com/1/011/751.htm'},
     {c:'MODEL', d:'2026-10-12T09:05', t:'HPE 确认英伟达将推出 Rubin PCIe GPU', s:'根据 HPE（慧与）向 The Next Platform 等外媒分享的演示文稿，这家企业确认其 ProLiant DL…（来源：IT之家）', u:'https://www.ithome.com/1/011/747.htm'},
-    {c:'MODEL', d:'2026-10-12T08:57', t:'越障高度 40mm：小米米家扫拖机器人 6 水箱版 1779 元、上下水版 2089 元', s:'小米旗下米家扫拖机器人 6 标准版发售于 2026 年 4 月，该机器人提供 28000Pa 吸力，其中水箱版本定价 2…（来源：IT之家）', u:'https://www.ithome.com/1/011/746.htm'},
-    {c:'HOT', d:'2026-10-12T08:46', t:'纸质书《终焉路独行》出现 AI 提示词，策划团队致歉称系误将校对软件提示词当正文处理所致', s:'有读者近日在社交平台分享，称自己在阅读《终焉路独行》这本书时，正文内容横插了一句话：“需要我再微调部分语句，让整体文风更…（来源：IT之家）', u:'https://www.ithome.com/1/011/740.htm'},
     {c:'HOT', d:'2026-10-12T08:42', t:'Edge AI Daily 早报（10月12日）', s:'亚马逊与微软相继放弃数据中心谈判NDA，回应逾300个市镇限制令与1300亿美元项目搁置，社区信任成为AI扩张的新约束…（来源：钛媒体）', u:'https://www.tmtpost.com/8164715.html'},
     {c:'MODEL', d:'2026-10-12T08:12', t:'早报｜我们跟库克聊了聊iPhone Duo/继QClaw后，腾讯再关停一个Agent/SpaceXAI改名SpaceXSI', s:'· 曝苹果与 ADT 合作，为家居中枢提供安装服务 · 蔚来广东换电站达到 500 座，六城同步新增第五代站 · 苹果 …（来源：爱范儿）', u:'https://www.ifanr.com/1683302?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-10-12T08:02', t:'尊界：11 月起陆续升级踏板；iPhone 折叠屏国内预约超 200 万；6 个月，超千万 Claude 账户被封杀｜极客早知道', s:'陶哲轩提出「数学 2.0」：AI 解题之外，还要帮助人理解证明 10 月 11 日，数学家陶哲轩公开了在加州理工学院的演…（来源：极客公园）', u:'http://www.geekpark.net/news/372218'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-11T13:22', t:'硅谷AI现状：谁有算力谁是爹', s:'马斯克连横A社，硅谷VC开始囤GPU（来源：量子位）', u:'https://www.qbitai.com/2026/10/502585.html'},
   ];
   const TIMELINE = [
+    ['10-12 12:15','宇树科技王兴兴：过去十几年我犯的最大错误就是对 AI 还不够相信'],
+    ['10-12 12:08','无问芯穹完成 23 亿元 C 轮融资，单轮及累计融资额均创中国 AI 原生基础设施赛道最高纪录'],
     ['10-12 11:26','DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战'],
     ['10-12 11:15','丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合'],
     ['10-12 11:06','Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile'],
     ['10-12 10:36','给 DeepSeek Harness（DSH）装上 bot 插件，把 DSH 变成 bot 系统'],
-    ['10-12 10:22','小米推出米家扫拖机器人 7 Max：50℃ 热水喷淋定点拖地，4999 元起'],
-    ['10-12 09:46','马化腾带 28 岁青年与广东省委书记黄坤明座谈：腾讯首席 AI 科学家姚顺雨露面'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:297802, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:286510, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277326, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:218958, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180551, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150261, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141308, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125604, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111082, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105120, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:297812, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:286535, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277334, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:218966, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180555, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150265, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141311, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125606, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111087, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105134, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
