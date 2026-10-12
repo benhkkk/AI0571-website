@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-12T11:26', t:'DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战', s:'在很多人的印象里，大模型接入数据库（Data Agent / Text-to-SQL）往往等同于企业级只读 ChatBI…（来源：OSCHINA）', u:'https://www.oschina.net/news/502970'},
     {c:'MODEL', d:'2026-10-12T11:15', t:'丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合', s:'据北京日报报道，10 月 11 日，丘成桐数学与人工智能实验室联盟在清华大学成立，将向数学科学专用大模型研发、AI 辅助…（来源：IT之家）', u:'https://www.ithome.com/1/011/814.htm'},
     {c:'HOT', d:'2026-10-12T11:06', t:'Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile', s:'Chinese Appliance Brands Gain in Europe, But Share…（来源：钛媒体）', u:'https://www.tmtpost.com/8164986.html'},
     {c:'MODEL', d:'2026-10-12T10:36', t:'给 DeepSeek Harness（DSH）装上 bot 插件，把 DSH 变成 bot 系统', s:'DeepSeek Harness 有了一个把它『Bot 化』的插件 —— DeepSeek Bot（DS Bot）做的事…（来源：OSCHINA）', u:'https://www.oschina.net/news/502968'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-11T13:57', t:'全能 Go Agent 框架 covonaut v1.1.5 发布：改进检查点、Token用量与缓存', s:'covonaut 是一款面向 Go 的生产级 Agent 框架，提供完整的 LLM-工具循环、上下文压缩、重试与故障转移…（来源：OSCHINA）', u:'https://www.oschina.net/news/502958'},
     {c:'HOT', d:'2026-10-11T13:23', t:'王的猜想，刚刚扩展到四维', s:'王的猜想，刚刚扩展到四维（来源：量子位）', u:'https://www.qbitai.com/2026/10/502584.html'},
     {c:'HOT', d:'2026-10-11T13:22', t:'硅谷AI现状：谁有算力谁是爹', s:'马斯克连横A社，硅谷VC开始囤GPU（来源：量子位）', u:'https://www.qbitai.com/2026/10/502585.html'},
-    {c:'MODEL', d:'2026-10-11T13:18', t:'下架8个月，GPT-4o的拯救行动居然还在继续', s:'初代4o的API快照进入停用倒计时（来源：量子位）', u:'https://www.qbitai.com/2026/10/502550.html'},
   ];
   const TIMELINE = [
+    ['10-12 11:26','DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战'],
     ['10-12 11:15','丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合'],
     ['10-12 11:06','Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile'],
     ['10-12 10:36','给 DeepSeek Harness（DSH）装上 bot 插件，把 DSH 变成 bot 系统'],
     ['10-12 10:22','小米推出米家扫拖机器人 7 Max：50℃ 热水喷淋定点拖地，4999 元起'],
     ['10-12 09:46','马化腾带 28 岁青年与广东省委书记黄坤明座谈：腾讯首席 AI 科学家姚顺雨露面'],
-    ['10-12 09:32','消息称创维集团内部孵化一款外骨骼产品：主打老年助行场景，不使用创维品牌'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:297782, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:286437, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277311, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:218944, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180544, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:297789, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:286459, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277317, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:218948, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180545, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150255, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141304, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125592, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111076, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105096, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141306, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125598, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111078, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105105, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

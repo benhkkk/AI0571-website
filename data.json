@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-12T11:17:58",
+  "updated": "2026-10-12T11:32:38",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-12T11:26",
+      "t": "DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战",
+      "s": "在很多人的印象里，大模型接入数据库（Data Agent / Text-to-SQL）往往等同于企业级只读 ChatBI…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502970"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-12T11:15",
@@ -133,16 +140,13 @@
       "t": "硅谷AI现状：谁有算力谁是爹",
       "s": "马斯克连横A社，硅谷VC开始囤GPU（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/502585.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-11T13:18",
-      "t": "下架8个月，GPT-4o的拯救行动居然还在继续",
-      "s": "初代4o的API快照进入停用倒计时（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/502550.html"
     }
   ],
   "timeline": [
+    [
+      "10-12 11:26",
+      "DatI 0.7.2 发布：在 Agent 中记录国庆假期行程与花费实战"
+    ],
     [
       "10-12 11:15",
       "丘成桐数学与人工智能实验室联盟在清华大学成立，推动 AI 与数学深度融合"
@@ -162,10 +166,6 @@
     [
       "10-12 09:46",
       "马化腾带 28 岁青年与广东省委书记黄坤明座谈：腾讯首席 AI 科学家姚顺雨露面"
-    ],
-    [
-      "10-12 09:32",
-      "消息称创维集团内部孵化一款外骨骼产品：主打老年助行场景，不使用创维品牌"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 297782,
+      "s": 297789,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 286437,
+      "s": 286459,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277311,
+      "s": 277317,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 218944,
+      "s": 218948,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180544,
+      "s": 180545,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141304,
+      "s": 141306,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125592,
+      "s": 125598,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111076,
+      "s": 111078,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105096,
+      "s": 105105,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
