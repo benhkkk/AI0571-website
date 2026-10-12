@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-12T22:02:24",
+  "updated": "2026-10-12T22:32:02",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-12T22:27",
+      "t": "AMD 发布新一代锐龙 AI Halo 开发者平台，升级 Max+ PRO 495 与至高 192GB 内存",
+      "s": "AMD 当地时间今日正式发布了基于锐龙 AI Max+ PRO 495 处理器的新一代锐龙 AI Halo 开发者平台…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/104.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-12T22:17",
+      "t": "AMD 发布智能体 AI 计算机架 Helion，纯 CPU 版本可扩展至 32,768 核心",
+      "s": "AMD 当地时间今日宣布推出面向代理式人工智能计算负载的 Helion 机架解决方案。这一机架基于 OCP 设计规范和 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/103.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-12T21:29",
@@ -79,13 +93,6 @@
       "u": "https://www.tmtpost.com/8165026.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-12T17:44",
-      "t": "消息称腾讯将推出“元宝助手”App，布局 Personal Agent 赛道",
-      "s": "据《读佳》从知情人士处获知，腾讯元宝正在开发一款 Personal Agent 产品“元宝助手”，并计划推出独立 App…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/026.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-12T17:44",
       "t": "给 AI 一块 1980 年代的国产 CPU，它 5 分钟写模拟器，一个下午复现了 BASIC",
@@ -98,13 +105,6 @@
       "t": "一位55岁应届生，带着AI进入秋招季",
       "s": "“50岁，也可以是一个新的30岁”（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8164982.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-12T17:34",
-      "t": "英特尔 CEO 陈立武：中国前沿 AI 模型普及速度非常快",
-      "s": "据路透社报道，英特尔首席执行官陈立武周一表示，中国前沿 AI 模型的 Token（词元）成本较低，且普及速度一直非常快…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/013.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-12 22:27",
+      "AMD 发布新一代锐龙 AI Halo 开发者平台，升级 Max+ PRO 495 与至高 192GB 内存"
+    ],
+    [
+      "10-12 22:17",
+      "AMD 发布智能体 AI 计算机架 Helion，纯 CPU 版本可扩展至 32,768 核心"
+    ],
+    [
       "10-12 21:29",
       "小鹏今年底实现人形机器人量产，2027 年上半年开启交付"
     ],
@@ -158,14 +166,6 @@
     [
       "10-12 19:42",
       "Linus 把 Claude Code 写的内核补丁推送到个人仓库"
-    ],
-    [
-      "10-12 19:39",
-      "安克 AI 会议耳机飞书版开售：支持线上线下全场景录音，1799 元"
-    ],
-    [
-      "10-12 19:28",
-      "微软详解 Edge 浏览器全新 AI 故障排查功能：整体类似聊天机器人，经用户同意后才会收集诊断数据"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298016,
+      "s": 298028,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 287348,
+      "s": 287385,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277600,
+      "s": 277621,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219115,
+      "s": 219119,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180659,
+      "s": 180663,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150348,
+      "s": 150355,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141360,
+      "s": 141363,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125749,
+      "s": 125758,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111160,
+      "s": 111163,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105356,
+      "s": 105374,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
