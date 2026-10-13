@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-13T13:31:41",
+  "updated": "2026-10-13T14:02:14",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-13T14:00",
+      "t": "德晟达英特尔 B960 / Q970 主板 M26-NVLS-ATX09 现身",
+      "s": "嵌入式与 AI 算力硬件企业德晟达 (Decenta) 已在官网公开了基于英特尔 FCLGA1954 平台的 M26-N…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/330.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-13T13:17",
@@ -133,16 +140,13 @@
       "t": "AI 也要“反虐待”：全球首富马斯克推荐用户不要“折磨”超级智能 SI",
       "s": "在 Anthropic 更新使用政策，禁止用户对 AI 模型持续且无明确目的的辱骂或残忍行为后，全球首富埃隆 · 马斯克…（来源：IT之家）",
       "u": "https://www.ithome.com/1/012/204.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T10:34",
-      "t": "MiniMax 入驻天猫开设其首家官方旗舰店，开卖 Token 套餐",
-      "s": "国产头部大模型厂商 MiniMax 已正式入驻天猫，开设其首家品牌官方旗舰店。目前，店铺已经上架的 M Plan 订阅套…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/198.htm"
     }
   ],
   "timeline": [
+    [
+      "10-13 14:00",
+      "德晟达英特尔 B960 / Q970 主板 M26-NVLS-ATX09 现身"
+    ],
     [
       "10-13 13:17",
       "微软调整 Win10/Win11 新版 Outlook AI 功能，10 月全球停用 Copilot 主题"
@@ -162,10 +166,6 @@
     [
       "10-13 11:54",
       "智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源"
-    ],
-    [
-      "10-13 11:48",
-      "国内首家，字节 Seed 设立单独的大模型安全与对齐部门"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298302,
+      "s": 298321,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288269,
+      "s": 288307,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278047,
+      "s": 278063,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219296,
+      "s": 219300,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180775,
+      "s": 180783,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150485,
+      "s": 150489,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141447,
+      "s": 141452,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125931,
+      "s": 125940,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111280,
+      "s": 111282,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105755,
+      "s": 105766,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
