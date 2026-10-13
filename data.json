@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T18:02:22",
+  "updated": "2026-10-13T18:31:31",
   "news": [
     {
       "c": "MODEL",
@@ -42,6 +42,13 @@
       "t": "审计者与卖方：Anthropic 免费给开源世界扫漏洞，账单开给谁",
       "s": "Anthropic 免费给开源项目扫漏洞，替关键基础设施守门。报告不经人工审核、补丁随件直送——全世界最完整的未修补漏洞…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8166715.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-13T17:20",
+      "t": "独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司",
+      "s": "SUAVE 目前已有 demo，产品计划 2027 年初上市。作者丨黄艳冰编辑丨董子博雷峰网·鲸犀独家获悉，AI 音乐生…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/weiwu/i0pZU5QKhkvoVvig.html"
     },
     {
       "c": "FUNDING",
@@ -133,13 +140,6 @@
       "t": "曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能",
       "s": "据报道，DeepSeek 创始人梁文锋近期密集关注具身智能领域，并与多位该领域创业者交流，探讨机器人、大模型与现实世界交…（来源：IT之家）",
       "u": "https://www.ithome.com/1/012/419.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-13T16:07",
-      "t": "Zentrola 1.2.0：AI 编程请求也能智能路由和负载均衡了",
-      "s": "服务商故障，不应该打断员工手头的 AI 编程工作。请求需要自动转向可用服务商；故障恢复后，原服务商也应能重新参与选路。员…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/502998"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298402,
+      "s": 298415,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288680,
+      "s": 288713,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278173,
+      "s": 278179,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219347,
+      "s": 219350,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180820,
+      "s": 180824,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150528,
+      "s": 150533,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141486,
+      "s": 141491,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126008,
+      "s": 126014,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111326,
+      "s": 111333,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105877,
+      "s": 105894,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
