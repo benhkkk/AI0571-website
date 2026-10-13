@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-13T22:31:59",
+  "updated": "2026-10-13T23:02:12",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-13T22:35",
+      "t": "自动驾驶公司 Applied Intuition 获得投资邀约，估值达 300 亿美元",
+      "s": "据 The Information 今天报道，自动驾驶初创公司 Applied Intuition 已收到多份投资邀约…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/584.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-13T22:32",
+      "t": "“中国刻蚀机之父”尹志尧：AI 有可能会出现泡沫，这点大家需要多加留意",
+      "s": "第 26 届中国国际工业博览会昨日于上海开幕。在当日下午举行的集成电路高峰论坛上，中微公司董事长兼总经理尹志尧在分析行业…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/583.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T21:46",
+      "t": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
+      "s": "在德意志银行表示该公司从长远来看有望在代理型商业中大获成功后，Shopify股价上涨。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8167702.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-13T21:26",
@@ -52,24 +73,10 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-13T19:32",
-      "t": "员工用 AI 辅助办公遭辞退，法院认定公司违法解约",
-      "s": "据央视总台中国之声今日报道，北京市朝阳区人民法院近日审结一起因员工使用 AI 辅助办公被解除劳动合同引发的劳动争议案，一…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/546.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-13T19:31",
       "t": "拾趣 Magpie：macOS 划词 AI 工具",
       "s": "macOS 划词 AI 工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503004"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T19:26",
-      "t": "德国 16 岁少女疑遭机器人骚扰：相关过程被直播，嫌疑人手机已被警方扣押",
-      "s": "德国科隆警方当地时间 10 月 12 日发布通报，称当地一名 16 岁少女疑似遭到人形机器人的性骚扰。警方已扣押涉事机器…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/544.htm"
     },
     {
       "c": "MODEL",
@@ -91,13 +98,6 @@
       "t": "AI闯入好莱坞：一家公司如何改写百年规则",
       "s": "“全球最大独立AI影视公司”Utopai Studios坐上好莱坞大厂的牌桌。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8166842.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-13T18:23",
-      "t": "云深处IPO：不表演的机器人，靠什么放量？",
-      "s": "窄门走深之后。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8167181.html"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-13 22:35",
+      "自动驾驶公司 Applied Intuition 获得投资邀约，估值达 300 亿美元"
+    ],
+    [
+      "10-13 22:32",
+      "“中国刻蚀机之父”尹志尧：AI 有可能会出现泡沫，这点大家需要多加留意"
+    ],
+    [
+      "10-13 21:46",
+      "Shopify有望凭借AI智能体大获成功，但这可能需要时间"
+    ],
+    [
       "10-13 21:26",
       "苹果：Siri AI 将支持 Apple TV 4K 第二代、第三代"
     ],
@@ -154,18 +166,6 @@
     [
       "10-13 21:02",
       "苹果 HomePod mini 2 智能音箱发布：五种配色可选，海外支持 Siri AI，1099 元"
-    ],
-    [
-      "10-13 20:33",
-      "阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布"
-    ],
-    [
-      "10-13 20:18",
-      "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起"
-    ],
-    [
-      "10-13 20:02",
-      "爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298495,
+      "s": 298504,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289040,
+      "s": 289075,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278315,
+      "s": 278332,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219405,
+      "s": 219408,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180857,
+      "s": 180861,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150579,
+      "s": 150586,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141527,
+      "s": 141535,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126070,
+      "s": 126077,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111388,
+      "s": 111394,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106005,
+      "s": 106021,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

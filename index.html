@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-10-13T22:35', t:'自动驾驶公司 Applied Intuition 获得投资邀约，估值达 300 亿美元', s:'据 The Information 今天报道，自动驾驶初创公司 Applied Intuition 已收到多份投资邀约…（来源：IT之家）', u:'https://www.ithome.com/1/012/584.htm'},
+    {c:'INDUSTRY', d:'2026-10-13T22:32', t:'“中国刻蚀机之父”尹志尧：AI 有可能会出现泡沫，这点大家需要多加留意', s:'第 26 届中国国际工业博览会昨日于上海开幕。在当日下午举行的集成电路高峰论坛上，中微公司董事长兼总经理尹志尧在分析行业…（来源：IT之家）', u:'https://www.ithome.com/1/012/583.htm'},
+    {c:'MODEL', d:'2026-10-13T21:46', t:'Shopify有望凭借AI智能体大获成功，但这可能需要时间', s:'在德意志银行表示该公司从长远来看有望在代理型商业中大获成功后，Shopify股价上涨。（来源：钛媒体）', u:'https://www.tmtpost.com/8167702.html'},
     {c:'MODEL', d:'2026-10-13T21:26', t:'苹果：Siri AI 将支持 Apple TV 4K 第二代、第三代', s:'苹果今天宣布推出第四代 Apple TV 4K，采用 A19 芯片，支持 Siri AI。IT之家注意到，苹果今天还为老…（来源：IT之家）', u:'https://www.ithome.com/1/012/573.htm'},
     {c:'MODEL', d:'2026-10-13T21:06', t:'苹果新款 Apple TV 4K 发布：2399 港元，A19 芯片、Siri AI、内置麦克风', s:'苹果新款 Apple TV 4K 今日正式发布。该产品将于 11 月 13 日起正式发售，售价 2,399 港元（IT之…（来源：IT之家）', u:'https://www.ithome.com/1/012/569.htm'},
     {c:'MODEL', d:'2026-10-13T21:02', t:'苹果 HomePod mini 2 智能音箱发布：五种配色可选，海外支持 Siri AI，1099 元', s:'苹果在今天的活动中正式推出了 HomePod mini 2 音箱，该产品将于 10 月 30 日发售，定价 1099 元…（来源：IT之家）', u:'https://www.ithome.com/1/012/568.htm'},
@@ -466,13 +469,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-13T20:18', t:'阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起', s:'阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版今晚正式发布，搭载骁龙 8 系芯片，采用 16GB+256G…（来源：IT之家）', u:'https://www.ithome.com/1/012/556.htm'},
     {c:'MODEL', d:'2026-10-13T20:02', t:'爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低', s:'爱芯元智今日在 2026 中国国际工业博览会上正式发布 AX8860 系列大算力 AI 芯片，定位为专为大模型在边缘和端…（来源：IT之家）', u:'https://www.ithome.com/1/012/551.htm'},
     {c:'MEDPHARMA', d:'2026-10-13T19:38', t:'比尔盖茨押注的AI制药，关停了', s:'比尔盖茨押注的AI制药，关停了（来源：头条医药AI）', u:'https://www.toutiao.com/article/7696115367236469258/'},
-    {c:'HOT', d:'2026-10-13T19:32', t:'员工用 AI 辅助办公遭辞退，法院认定公司违法解约', s:'据央视总台中国之声今日报道，北京市朝阳区人民法院近日审结一起因员工使用 AI 辅助办公被解除劳动合同引发的劳动争议案，一…（来源：IT之家）', u:'https://www.ithome.com/1/012/546.htm'},
     {c:'HOT', d:'2026-10-13T19:31', t:'拾趣 Magpie：macOS 划词 AI 工具', s:'macOS 划词 AI 工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian…（来源：OSCHINA）', u:'https://www.oschina.net/news/503004'},
-    {c:'MODEL', d:'2026-10-13T19:26', t:'德国 16 岁少女疑遭机器人骚扰：相关过程被直播，嫌疑人手机已被警方扣押', s:'德国科隆警方当地时间 10 月 12 日发布通报，称当地一名 16 岁少女疑似遭到人形机器人的性骚扰。警方已扣押涉事机器…（来源：IT之家）', u:'https://www.ithome.com/1/012/544.htm'},
     {c:'MODEL', d:'2026-10-13T19:05', t:'魔法原子具身Agent框架拿下MolmoSpaces全球第一', s:'让VLA从“演示可用”逼近“产线可用”（来源：量子位）', u:'https://www.qbitai.com/2026/10/503107.html'},
     {c:'MEDPHARMA', d:'2026-10-13T18:50', t:'AI制药狂奔之后，突然踩下刹车', s:'AI制药狂奔之后，突然踩下刹车（来源：头条医药AI）', u:'https://www.toutiao.com/article/7696103021197017600/'},
     {c:'HOT', d:'2026-10-13T18:25', t:'AI闯入好莱坞：一家公司如何改写百年规则', s:'“全球最大独立AI影视公司”Utopai Studios坐上好莱坞大厂的牌桌。（来源：钛媒体）', u:'https://www.tmtpost.com/8166842.html'},
-    {c:'FUNDING', d:'2026-10-13T18:23', t:'云深处IPO：不表演的机器人，靠什么放量？', s:'窄门走深之后。（来源：钛媒体）', u:'https://www.tmtpost.com/8167181.html'},
     {c:'MODEL', d:'2026-10-13T17:33', t:'梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑', s:'梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑（来源：量子位）', u:'https://www.qbitai.com/2026/10/503093.html'},
     {c:'FUNDING', d:'2026-10-13T17:20', t:'独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司', s:'SUAVE 目前已有 demo，产品计划 2027 年初上市。作者丨黄艳冰编辑丨董子博雷峰网·鲸犀独家获悉，AI 音乐生…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/i0pZU5QKhkvoVvig.html'},
     {c:'MODEL', d:'2026-10-13T16:57', t:'倒计时3天！1016GOPS2026・上海站，参会指南请收好！', s:'第 30 届智能体驱动的 GOPS 全球运维大会暨研运数智化峰会【1016~17】即将在上海火热开启，我们带着满满的诚意…（来源：OSCHINA）', u:'https://www.oschina.net/news/503001'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-13T16:42', t:'16个获奖名额，总奖池33万，“地心飞行”AIGC大赛全网征集创意视频', s:'如果硬盘里正好躺着一部做完的超现实题材片子，或者你一直想用 AI 拍一段扣人心弦的冒险，现在有一场大赛正在等你的作品。 …（来源：OSCHINA）', u:'https://www.oschina.net/news/502999'},
   ];
   const TIMELINE = [
+    ['10-13 22:35','自动驾驶公司 Applied Intuition 获得投资邀约，估值达 300 亿美元'],
+    ['10-13 22:32','“中国刻蚀机之父”尹志尧：AI 有可能会出现泡沫，这点大家需要多加留意'],
+    ['10-13 21:46','Shopify有望凭借AI智能体大获成功，但这可能需要时间'],
     ['10-13 21:26','苹果：Siri AI 将支持 Apple TV 4K 第二代、第三代'],
     ['10-13 21:06','苹果新款 Apple TV 4K 发布：2399 港元，A19 芯片、Siri AI、内置麦克风'],
     ['10-13 21:02','苹果 HomePod mini 2 智能音箱发布：五种配色可选，海外支持 Siri AI，1099 元'],
-    ['10-13 20:33','阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布'],
-    ['10-13 20:18','阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起'],
-    ['10-13 20:02','爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298495, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:289040, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278315, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219405, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180857, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150579, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141527, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126070, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111388, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:106005, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298504, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:289075, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278332, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219408, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180861, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150586, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141535, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126077, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111394, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:106021, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
