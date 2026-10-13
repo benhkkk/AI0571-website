@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-13T20:31:56",
+  "updated": "2026-10-13T21:02:09",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T20:33",
+      "t": "阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布",
+      "s": "《晚点 LatePost》今日报道称，阿里旗下 AI 办公产品“千问办公”正在开发一个面向多平台商家的电商版本，计划于双…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/558.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-13T20:18",
@@ -14,6 +21,13 @@
       "t": "爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低",
       "s": "爱芯元智今日在 2026 中国国际工业博览会上正式发布 AX8860 系列大算力 AI 芯片，定位为专为大模型在边缘和端…（来源：IT之家）",
       "u": "https://www.ithome.com/1/012/551.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-13T19:38",
+      "t": "比尔盖茨押注的AI制药，关停了",
+      "s": "比尔盖茨押注的AI制药，关停了（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7696115367236469258/"
     },
     {
       "c": "HOT",
@@ -86,25 +100,11 @@
       "u": "https://www.ithome.com/1/012/493.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-13T17:43",
-      "t": "亚马逊“机器人员工”数量突破 100 万台，人类员工数量超 150 万人",
-      "s": "据 Ars Technica 今日报道，亚马逊仓库机器人数量已超过 100 万台，并正进一步扩大生产和部署规模。不过，随…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/490.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-13T17:33",
       "t": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
       "s": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/503093.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T17:29",
-      "t": "Tencent Scraps Early Desktop Agent as Platforms Narrow the Field",
-      "s": "Tencent Scraps Early Desktop Agent as Platforms Na…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8167231.html"
     },
     {
       "c": "FUNDING",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-13 20:33",
+      "阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布"
+    ],
+    [
       "10-13 20:18",
       "阶跃终端首款大模型原生智能体手机 STEPX Neo 先行版发布：骁龙 8 系芯片，全栈价 3999 元起"
     ],
@@ -152,20 +156,16 @@
       "爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低"
     ],
     [
+      "10-13 19:38",
+      "比尔盖茨押注的AI制药，关停了"
+    ],
+    [
       "10-13 19:32",
       "员工用 AI 辅助办公遭辞退，法院认定公司违法解约"
     ],
     [
       "10-13 19:31",
       "拾趣 Magpie：macOS 划词 AI 工具"
-    ],
-    [
-      "10-13 19:26",
-      "德国 16 岁少女疑遭机器人骚扰：相关过程被直播，嫌疑人手机已被警方扣押"
-    ],
-    [
-      "10-13 19:05",
-      "魔法原子具身Agent框架拿下MolmoSpaces全球第一"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298457,
+      "s": 298468,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288861,
+      "s": 288899,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278240,
+      "s": 278256,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219383,
+      "s": 219389,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180841,
+      "s": 180844,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150557,
+      "s": 150559,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141508,
+      "s": 141516,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126040,
+      "s": 126046,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111361,
+      "s": 111369,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105947,
+      "s": 105961,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
