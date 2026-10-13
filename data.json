@@ -1,6 +1,69 @@
 {
-  "updated": "2026-10-13T11:32:01",
+  "updated": "2026-10-13T12:02:40",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T11:54",
+      "t": "智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源",
+      "s": "智谱今天发了个叫 GLM-Legal 的模型，主打法律。官方介绍很直白：基于轻量级的 GLM-5.3-Flash 底座…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502993/z-ai-glm-legal"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T11:48",
+      "t": "国内首家，字节 Seed 设立单独的大模型安全与对齐部门",
+      "s": "据新浪科技今日报道，字节跳动 Seed 近日发出内部邮件，宣布将成立“Seed Model-Alignment Prep…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/270.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-13T11:45",
+      "t": "晶泰控股五日跌逾两成，AI制药高位回调考验估值锚",
+      "s": "晶泰控股五日跌逾两成，AI制药高位回调考验估值锚（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7695993542033342995/"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-13T11:44",
+      "t": "复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界",
+      "s": "大模型融资还在继续，新的押注转向了能边听、边看、边说的 AI。作者｜Li Yuan编辑｜郑玄想象这样一个家庭场景。孩子正…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372278"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-13T11:33",
+      "t": "华为哈勃投资参投，视塔机器人完成天使轮融资",
+      "s": "据投中网今日报道，深圳视塔机器人科技有限公司完成天使轮融资，投资方包括华为旗下哈勃投资、深高新投旗下基金及高轩投资等，多…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/265.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-13T11:33",
+      "t": "ETF盘中资讯|AI制药突发大跌，什么情况?金斯瑞盘中急跌18%，...",
+      "s": "ETF盘中资讯|AI制药突发大跌，什么情况?金斯瑞盘中急跌18%，...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7695990496849625651/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T11:32",
+      "t": "Anthropic 推出新防护措施，模型蒸馏攻击窃取数据量最高降低 99%",
+      "s": "Anthropic 于当地时间周一表示，该公司推出了多项新防护措施，旨在防止竞争对手复刻 Claude AI 模型的能力…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/264.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-13T11:29",
+      "t": "当AI开始替品牌“胡说八道”，谁在为失控的算法买单？",
+      "s": "你以为的AI降本，正在变成品牌的“隐形炸弹”。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8166502.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-13T11:24",
+      "t": "AI剪辑混战，钱从剪辑师流向了谁？",
+      "s": "剪辑变便宜了，钱却流向了算力。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8166491.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-13T11:07",
@@ -77,95 +140,32 @@
       "t": "王兴兴最新预判：具身智能的转折点，一到两年内就会来",
       "s": "GPT-7或打穿具身智能，人形机器人商业化分场景落地。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8166189.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-13T10:21",
-      "t": "AI制药赛道前9月融资157.65亿元;BMS玛伐凯泰拟纳入优先审评",
-      "s": "AI制药赛道前9月融资157.65亿元;BMS玛伐凯泰拟纳入优先审评（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7695968522886742568/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-13T10:15",
-      "t": "华为徐松余：麒麟 9050 Pro 马良 GPU 性能提升 40%，搭载业界首个 2 亿高像素融合 ISP",
-      "s": "10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/186.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T10:12",
-      "t": "AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计",
-      "s": "英伟达昨日（10 月 12 日）发布公告，在开放计算项目（OCP）全球峰会上，英伟达宣布开放 Vera Rubin 机架…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/120.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T10:12",
-      "t": "Muse Wonder肘击Astra，Meta杀回模型前沿",
-      "s": "Llama4之后，Meta终于拿出了新旗舰。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8166180.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-13T10:10",
-      "t": "人均代码产出提升 14.6%，亚信科技万人 AI Coding 跃迁之路",
-      "s": "亚信科技深耕通信行业 30 余年，面临核心系统复杂、海量知识难以复用的挑战。通过引入 Qoder，将隐性专家经验转化为显…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8164914.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T09:59",
-      "t": "华为徐松余：麒麟 9050 系列开启未来 10 年新征程，实现业界首个 30B MoE 大模型入端",
-      "s": "10 月 13 日现场消息，华为今日（10 月 13 日）在上海练秋湖举办 2026 麒麟媒体沟通会，华为半导体业务无线…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/176.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-13T09:00",
-      "t": "AI制药:管线兑现与卖铲人两条主线，真正吃到红利的不是AI公司!",
-      "s": "AI制药:管线兑现与卖铲人两条主线，真正吃到红利的不是AI公司!（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7695746260195607095/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T08:27",
-      "t": "曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道",
-      "s": "曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能 据报道，DeepSeek 创始人梁文锋近期密集关注具身…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372264"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T08:17",
-      "t": "早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能",
-      "s": "· 博通 CEO：晶圆与内存短缺正在缓解，AI 扩张更受资金约束 · 9 月乘用车零售同比下降 28%，新能源渗透率升至…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
-      "10-13 11:07",
-      "TikTok’s Chief Sees AI Unlocking Science Within Three Years"
+      "10-13 11:54",
+      "智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源"
     ],
     [
-      "10-13 11:06",
-      "阿里千问升级个人 AI 助理，Personal Agent“千问 Go！”即将发布"
+      "10-13 11:48",
+      "国内首家，字节 Seed 设立单独的大模型安全与对齐部门"
     ],
     [
-      "10-13 10:57",
-      "AI 让代码量涨了 30%，软件产出却纹丝不动 —— 瓶颈卡在人类 Code Review"
+      "10-13 11:45",
+      "晶泰控股五日跌逾两成，AI制药高位回调考验估值锚"
     ],
     [
-      "10-13 10:42",
-      "“大模型时代的谷歌，可能永远不会出现”"
+      "10-13 11:44",
+      "复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界"
     ],
     [
-      "10-13 10:38",
-      "AI 也要“反虐待”：全球首富马斯克推荐用户不要“折磨”超级智能 SI"
+      "10-13 11:33",
+      "华为哈勃投资参投，视塔机器人完成天使轮融资"
     ],
     [
-      "10-13 10:34",
-      "MiniMax 入驻天猫开设其首家官方旗舰店，开卖 Token 套餐"
+      "10-13 11:33",
+      "ETF盘中资讯|AI制药突发大跌，什么情况?金斯瑞盘中急跌18%，..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298264,
+      "s": 298274,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288156,
+      "s": 288192,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277990,
+      "s": 278010,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219279,
+      "s": 219284,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180761,
+      "s": 180765,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150465,
+      "s": 150469,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141444,
+      "s": 141447,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125916,
+      "s": 125921,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111261,
+      "s": 111268,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105718,
+      "s": 105723,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
