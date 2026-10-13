@@ -459,6 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-13T17:35', t:'TCL 展示 X5 智慧 CPE：峰值下行速率可达 7Gbps，支持本地多智能体调度', s:'TCL 当地时间今日在奥地利维也纳举行的 Network X 2026 大会上展示了其旗舰 CPE 设备 X5。TCL …（来源：IT之家）', u:'https://www.ithome.com/1/012/488.htm'},
+    {c:'MODEL', d:'2026-10-13T17:29', t:'Tencent Scraps Early Desktop Agent as Platforms Narrow the Field', s:'Tencent Scraps Early Desktop Agent as Platforms Na…（来源：钛媒体）', u:'https://www.tmtpost.com/8167231.html'},
+    {c:'HOT', d:'2026-10-13T17:29', t:'日赚1.7亿，46岁数学博士搞AI，变英国第8大富豪', s:'数学博士创办AI交易公司，身家破千亿。（来源：钛媒体）', u:'https://www.tmtpost.com/8167097.html'},
+    {c:'MODEL', d:'2026-10-13T17:28', t:'审计者与卖方：Anthropic 免费给开源世界扫漏洞，账单开给谁', s:'Anthropic 免费给开源项目扫漏洞，替关键基础设施守门。报告不经人工审核、补丁随件直送——全世界最完整的未修补漏洞…（来源：钛媒体）', u:'https://www.tmtpost.com/8166715.html'},
     {c:'FUNDING', d:'2026-10-13T17:20', t:'融资数亿，却先把机器人送进养老院', s:'3亿老人的床边，成了具身智能最现实的考场。（来源：钛媒体）', u:'https://www.tmtpost.com/8167175.html'},
     {c:'MODEL', d:'2026-10-13T17:12', t:'面壁智能发布新一代端侧多模态大模型 MiniCPM-V 4.7，仅 3GB 内存可实现 13+ token/s 解码速度', s:'面壁智能今天宣布推出新一代端侧多模态大模型 MiniCPM-V 4.7，提供 35B-A3B 和 1B 两种规格，其中 …（来源：IT之家）', u:'https://www.ithome.com/1/012/483.htm'},
     {c:'MODEL', d:'2026-10-13T17:05', t:'哀牢山迎来首位“机器人科考队员”，云深处山猫 M20S 拍到“冥界之花”', s:'凤凰网国际今日发布视频，联合中国科学探险协会走进哀牢山，还带上了首位“机器人科考队员”。视频显示，机器狗替人探路、延伸观…（来源：IT之家）', u:'https://www.ithome.com/1/012/482.htm'},
@@ -470,35 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-13T16:51', t:'AI学会「寄生繁殖」了，Anthropic 用 15台破电视盒子养活大模型', s:'当大模型也像病毒一样传播#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1683992?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-10-13T16:42', t:'16个获奖名额，总奖池33万，“地心飞行”AIGC大赛全网征集创意视频', s:'如果硬盘里正好躺着一部做完的超现实题材片子，或者你一直想用 AI 拍一段扣人心弦的冒险，现在有一场大赛正在等你的作品。 …（来源：OSCHINA）', u:'https://www.oschina.net/news/502999'},
     {c:'MODEL', d:'2026-10-13T16:42', t:'谷歌给Agent发工牌：企业AI的下一站不是AGI，是"标准主权"', s:'企业Agent市场的注意力都在模型强弱上，这是共识性误读。10月8日谷歌云发布企业级Gemini Agent，动的不是模…（来源：钛媒体）', u:'https://www.tmtpost.com/8166905.html'},
-    {c:'INDUSTRY', d:'2026-10-13T16:42', t:'《柳叶刀》警告 ：AI比核武器更可能毁灭人类', s:'《柳叶刀》最新报告称，2100年前AI或将导致人类灭亡。（来源：钛媒体）', u:'https://www.tmtpost.com/8166901.html'},
     {c:'HOT', d:'2026-10-13T16:22', t:'Character.AI 申请破产，同意以 2000 万美元向迪士尼出售部分资产', s:'据路透社报道，Character.AI 公司于当地时间周一表示，公司已在美国申请破产保护，同意以 2,000 万美元（I…（来源：IT之家）', u:'https://www.ithome.com/1/012/420.htm'},
     {c:'MODEL', d:'2026-10-13T16:16', t:'曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能', s:'据报道，DeepSeek 创始人梁文锋近期密集关注具身智能领域，并与多位该领域创业者交流，探讨机器人、大模型与现实世界交…（来源：IT之家）', u:'https://www.ithome.com/1/012/419.htm'},
-    {c:'FUNDING', d:'2026-10-13T16:13', t:'美的二代孵化，字节美团入股：盈合机器人何以走到破产？', s:'盈合机器人融资后交付失败走向破产，给行业留警示。（来源：钛媒体）', u:'https://www.tmtpost.com/8166890.html'},
-    {c:'HOT', d:'2026-10-13T16:12', t:'从电视到AI短剧，争夺时间的生意有什么变化？', s:'技术可以让内容源源不断地出现，却不能替我们决定，什么值得占据人生。（来源：钛媒体）', u:'https://www.tmtpost.com/8166744.html'},
     {c:'HOT', d:'2026-10-13T16:07', t:'Zentrola 1.2.0：AI 编程请求也能智能路由和负载均衡了', s:'服务商故障，不应该打断员工手头的 AI 编程工作。请求需要自动转向可用服务商；故障恢复后，原服务商也应能重新参与选路。员…（来源：OSCHINA）', u:'https://www.oschina.net/news/502998'},
     {c:'MODEL', d:'2026-10-13T15:54', t:'微软 Excel 引入 Copilot 交互式画布：AI 把零散数据变成可交互的决策看板', s:'科技媒体 NeoWin 昨日（10 月 12 日）发布博文，报道称微软为 Excel 推出 Copilot 交互式画布（…（来源：IT之家）', u:'https://www.ithome.com/1/012/410.htm'},
     {c:'INDUSTRY', d:'2026-10-13T15:48', t:'79 岁陶华碧重新执掌老干妈：引入 AI 全链路管理厂区、2025 年公司全年营收达 54 亿元创品牌新高', s:'据观点网，在贵州省质量发展大会上，老干妈常务副总、首席质量官李鑫对外披露，2025 年老干妈全年营收达到 54 亿元，创…（来源：IT之家）', u:'https://www.ithome.com/1/012/406.htm'},
-    {c:'MODEL', d:'2026-10-13T15:42', t:'DeepSeek 半年融 1500 亿冲向科创板，梁文锋开始给模型找“身体”', s:'据媒体报道，DeepSeek 有意入局具身智能领域，其创始人梁文锋最近在密集和具身智能领域的创业者见面交流，探讨方向涉及…（来源：OSCHINA）', u:'https://www.oschina.net/news/502997'},
   ];
   const TIMELINE = [
+    ['10-13 17:35','TCL 展示 X5 智慧 CPE：峰值下行速率可达 7Gbps，支持本地多智能体调度'],
+    ['10-13 17:29','Tencent Scraps Early Desktop Agent as Platforms Narrow the Field'],
+    ['10-13 17:29','日赚1.7亿，46岁数学博士搞AI，变英国第8大富豪'],
+    ['10-13 17:28','审计者与卖方：Anthropic 免费给开源世界扫漏洞，账单开给谁'],
     ['10-13 17:20','融资数亿，却先把机器人送进养老院'],
     ['10-13 17:12','面壁智能发布新一代端侧多模态大模型 MiniCPM-V 4.7，仅 3GB 内存可实现 13+ token/s 解码速度'],
-    ['10-13 17:05','哀牢山迎来首位“机器人科考队员”，云深处山猫 M20S 拍到“冥界之花”'],
-    ['10-13 16:57','倒计时3天！1016GOPS2026・上海站，参会指南请收好！'],
-    ['10-13 16:56','Palantir CTO 上电视骂 AI 安全是“邪教”，还戏称 AI 研究者靠抽烟表信仰'],
-    ['10-13 16:53','138场工业级翻车实录，企业Agent到底应该如何落地？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298388, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:288631, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278160, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298390, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:288639, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278162, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219339, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180819, u:'https://github.com/anthropics/skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180820, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150528, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141484, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126001, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141485, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126003, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111319, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105864, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105867, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
