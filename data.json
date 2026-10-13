@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T23:02:12",
+  "updated": "2026-10-13T23:32:06",
   "news": [
     {
       "c": "FUNDING",
@@ -14,13 +14,6 @@
       "t": "“中国刻蚀机之父”尹志尧：AI 有可能会出现泡沫，这点大家需要多加留意",
       "s": "第 26 届中国国际工业博览会昨日于上海开幕。在当日下午举行的集成电路高峰论坛上，中微公司董事长兼总经理尹志尧在分析行业…（来源：IT之家）",
       "u": "https://www.ithome.com/1/012/583.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T21:46",
-      "t": "Shopify有望凭借AI智能体大获成功，但这可能需要时间",
-      "s": "在德意志银行表示该公司从长远来看有望在代理型商业中大获成功后，Shopify股价上涨。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8167702.html"
     },
     {
       "c": "MODEL",
@@ -100,6 +93,13 @@
       "u": "https://www.tmtpost.com/8166842.html"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-10-13T18:23",
+      "t": "云深处IPO：不表演的机器人，靠什么放量？",
+      "s": "窄门走深之后。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8167181.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-13T17:33",
       "t": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
@@ -152,10 +152,6 @@
       "“中国刻蚀机之父”尹志尧：AI 有可能会出现泡沫，这点大家需要多加留意"
     ],
     [
-      "10-13 21:46",
-      "Shopify有望凭借AI智能体大获成功，但这可能需要时间"
-    ],
-    [
       "10-13 21:26",
       "苹果：Siri AI 将支持 Apple TV 4K 第二代、第三代"
     ],
@@ -166,6 +162,10 @@
     [
       "10-13 21:02",
       "苹果 HomePod mini 2 智能音箱发布：五种配色可选，海外支持 Siri AI，1099 元"
+    ],
+    [
+      "10-13 20:33",
+      "阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298504,
+      "s": 298511,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289075,
+      "s": 289116,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278332,
+      "s": 278353,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219408,
+      "s": 219417,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180861,
+      "s": 180864,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150586,
+      "s": 150585,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141535,
+      "s": 141538,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126077,
+      "s": 126082,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111394,
+      "s": 111398,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106021,
+      "s": 106030,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
