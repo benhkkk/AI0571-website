@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-13T21:02:09",
+  "updated": "2026-10-13T21:31:40",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T21:26",
+      "t": "苹果：Siri AI 将支持 Apple TV 4K 第二代、第三代",
+      "s": "苹果今天宣布推出第四代 Apple TV 4K，采用 A19 芯片，支持 Siri AI。IT之家注意到，苹果今天还为老…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/573.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T21:06",
+      "t": "苹果新款 Apple TV 4K 发布：2399 港元，A19 芯片、Siri AI、内置麦克风",
+      "s": "苹果新款 Apple TV 4K 今日正式发布。该产品将于 11 月 13 日起正式发售，售价 2,399 港元（IT之…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/569.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T21:02",
+      "t": "苹果 HomePod mini 2 智能音箱发布：五种配色可选，海外支持 Siri AI，1099 元",
+      "s": "苹果在今天的活动中正式推出了 HomePod mini 2 音箱，该产品将于 10 月 30 日发售，定价 1099 元…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/568.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-13T20:33",
@@ -58,25 +79,11 @@
       "u": "https://www.qbitai.com/2026/10/503107.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-13T18:51",
-      "t": "千问 AI 耳夹式耳机开售：Bose 调音，到手价 1099 元",
-      "s": "千问 AI 耳夹式耳机现已在京东开售。新品主打 Bose 大师调音，支持 AI 笔记、AI 同声传译等功能，到手价 10…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/532.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-13T18:50",
       "t": "AI制药狂奔之后，突然踩下刹车",
       "s": "AI制药狂奔之后，突然踩下刹车（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7696103021197017600/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T18:44",
-      "t": "韩国 AI 聊天服务 Zeta 陷版权争议：被指暗地允许用户生成侵权二创、将他人 VTuber 版权形象用于自家广告",
-      "s": "综合 4Gamers 报道，韩国 AI 公司 Scatter Lab 旗下 AI 聊天服务 Zeta 近期陷入版权争议…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/531.htm"
     },
     {
       "c": "HOT",
@@ -91,13 +98,6 @@
       "t": "云深处IPO：不表演的机器人，靠什么放量？",
       "s": "窄门走深之后。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8167181.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T17:50",
-      "t": "哈啰 Robotaxi 发布生成式驾驶世界模型 HelloWorld，整合场景控制、连续生成、多传感器观测与高效推理能力",
-      "s": "哈啰 Robotaxi 昨天宣布推出生成式驾驶世界模型 HelloWorld。该模型围绕按需构建驾驶数据与交互式策略测试…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/493.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-13 21:26",
+      "苹果：Siri AI 将支持 Apple TV 4K 第二代、第三代"
+    ],
+    [
+      "10-13 21:06",
+      "苹果新款 Apple TV 4K 发布：2399 港元，A19 芯片、Siri AI、内置麦克风"
+    ],
+    [
+      "10-13 21:02",
+      "苹果 HomePod mini 2 智能音箱发布：五种配色可选，海外支持 Siri AI，1099 元"
+    ],
+    [
       "10-13 20:33",
       "阿里千问办公电商版曝光：近百人团队开发中，预计双十一预售前夕发布"
     ],
@@ -154,18 +166,6 @@
     [
       "10-13 20:02",
       "爱芯元智 AX8860 系列大算力芯片发布，性能对标英伟达 DGX Spark 但价格更低"
-    ],
-    [
-      "10-13 19:38",
-      "比尔盖茨押注的AI制药，关停了"
-    ],
-    [
-      "10-13 19:32",
-      "员工用 AI 辅助办公遭辞退，法院认定公司违法解约"
-    ],
-    [
-      "10-13 19:31",
-      "拾趣 Magpie：macOS 划词 AI 工具"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298468,
+      "s": 298477,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288899,
+      "s": 288947,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278256,
+      "s": 278280,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219389,
+      "s": 219393,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180844,
+      "s": 180850,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150559,
+      "s": 150569,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141516,
+      "s": 141519,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126046,
+      "s": 126053,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111369,
+      "s": 111373,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105961,
+      "s": 105977,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
