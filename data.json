@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-13T12:02:40",
+  "updated": "2026-10-13T12:31:52",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T12:06",
+      "t": "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际",
+      "s": "比起追逐每一个新工具，更重要的是看清自己所处的象限，以及这场竞争真正的方向。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8166418.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-13T12:04",
+      "t": "彭博行业研究分析 AI 数据中心成本：1GW 容量恐超 300 亿美元",
+      "s": "Bloomberg Intelligence（彭博行业研究）近日发布了一份 AI 数据中心成本简报：综合 Cushman…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/275.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-13T11:54",
@@ -126,23 +140,17 @@
       "t": "王兴兴低估了AI，梁文锋开始重估机器人",
       "s": "具身智能还没有跨过临界点，但决定它何时跨过去的人，可能已经不只在机器人行业里。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8166052.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T10:25",
-      "t": "微软推出 Maia 300 自研 AI 芯片，明年拟部署超百万颗以降低算力成本",
-      "s": "微软于当地时间周一发布了新一代自研 AI 芯片，并计划在明年部署超百万颗该芯片，用于支撑自身内部 AI 业务。这款芯片名…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/191.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T10:22",
-      "t": "王兴兴最新预判：具身智能的转折点，一到两年内就会来",
-      "s": "GPT-7或打穿具身智能，人形机器人商业化分场景落地。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8166189.html"
     }
   ],
   "timeline": [
+    [
+      "10-13 12:06",
+      "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际"
+    ],
+    [
+      "10-13 12:04",
+      "彭博行业研究分析 AI 数据中心成本：1GW 容量恐超 300 亿美元"
+    ],
     [
       "10-13 11:54",
       "智谱发布 GLM-Legal 模型：基于轻量级底座、基准测试追平闭源"
@@ -158,14 +166,6 @@
     [
       "10-13 11:44",
       "复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界"
-    ],
-    [
-      "10-13 11:33",
-      "华为哈勃投资参投，视塔机器人完成天使轮融资"
-    ],
-    [
-      "10-13 11:33",
-      "ETF盘中资讯|AI制药突发大跌，什么情况?金斯瑞盘中急跌18%，..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298274,
+      "s": 298281,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288192,
+      "s": 288221,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278010,
+      "s": 278021,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219284,
+      "s": 219289,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180765,
+      "s": 180768,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125921,
+      "s": 125927,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111268,
+      "s": 111272,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105723,
+      "s": 105732,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
