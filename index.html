@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-13T17:50', t:'哈啰 Robotaxi 发布生成式驾驶世界模型 HelloWorld，整合场景控制、连续生成、多传感器观测与高效推理能力', s:'哈啰 Robotaxi 昨天宣布推出生成式驾驶世界模型 HelloWorld。该模型围绕按需构建驾驶数据与交互式策略测试…（来源：IT之家）', u:'https://www.ithome.com/1/012/493.htm'},
+    {c:'HOT', d:'2026-10-13T17:43', t:'亚马逊“机器人员工”数量突破 100 万台，人类员工数量超 150 万人', s:'据 Ars Technica 今日报道，亚马逊仓库机器人数量已超过 100 万台，并正进一步扩大生产和部署规模。不过，随…（来源：IT之家）', u:'https://www.ithome.com/1/012/490.htm'},
     {c:'MODEL', d:'2026-10-13T17:35', t:'TCL 展示 X5 智慧 CPE：峰值下行速率可达 7Gbps，支持本地多智能体调度', s:'TCL 当地时间今日在奥地利维也纳举行的 Network X 2026 大会上展示了其旗舰 CPE 设备 X5。TCL …（来源：IT之家）', u:'https://www.ithome.com/1/012/488.htm'},
     {c:'MODEL', d:'2026-10-13T17:29', t:'Tencent Scraps Early Desktop Agent as Platforms Narrow the Field', s:'Tencent Scraps Early Desktop Agent as Platforms Na…（来源：钛媒体）', u:'https://www.tmtpost.com/8167231.html'},
     {c:'HOT', d:'2026-10-13T17:29', t:'日赚1.7亿，46岁数学博士搞AI，变英国第8大富豪', s:'数学博士创办AI交易公司，身家破千亿。（来源：钛媒体）', u:'https://www.tmtpost.com/8167097.html'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-13T16:22', t:'Character.AI 申请破产，同意以 2000 万美元向迪士尼出售部分资产', s:'据路透社报道，Character.AI 公司于当地时间周一表示，公司已在美国申请破产保护，同意以 2,000 万美元（I…（来源：IT之家）', u:'https://www.ithome.com/1/012/420.htm'},
     {c:'MODEL', d:'2026-10-13T16:16', t:'曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能', s:'据报道，DeepSeek 创始人梁文锋近期密集关注具身智能领域，并与多位该领域创业者交流，探讨机器人、大模型与现实世界交…（来源：IT之家）', u:'https://www.ithome.com/1/012/419.htm'},
     {c:'HOT', d:'2026-10-13T16:07', t:'Zentrola 1.2.0：AI 编程请求也能智能路由和负载均衡了', s:'服务商故障，不应该打断员工手头的 AI 编程工作。请求需要自动转向可用服务商；故障恢复后，原服务商也应能重新参与选路。员…（来源：OSCHINA）', u:'https://www.oschina.net/news/502998'},
-    {c:'MODEL', d:'2026-10-13T15:54', t:'微软 Excel 引入 Copilot 交互式画布：AI 把零散数据变成可交互的决策看板', s:'科技媒体 NeoWin 昨日（10 月 12 日）发布博文，报道称微软为 Excel 推出 Copilot 交互式画布（…（来源：IT之家）', u:'https://www.ithome.com/1/012/410.htm'},
-    {c:'INDUSTRY', d:'2026-10-13T15:48', t:'79 岁陶华碧重新执掌老干妈：引入 AI 全链路管理厂区、2025 年公司全年营收达 54 亿元创品牌新高', s:'据观点网，在贵州省质量发展大会上，老干妈常务副总、首席质量官李鑫对外披露，2025 年老干妈全年营收达到 54 亿元，创…（来源：IT之家）', u:'https://www.ithome.com/1/012/406.htm'},
   ];
   const TIMELINE = [
+    ['10-13 17:50','哈啰 Robotaxi 发布生成式驾驶世界模型 HelloWorld，整合场景控制、连续生成、多传感器观测与高效推理能力'],
+    ['10-13 17:43','亚马逊“机器人员工”数量突破 100 万台，人类员工数量超 150 万人'],
     ['10-13 17:35','TCL 展示 X5 智慧 CPE：峰值下行速率可达 7Gbps，支持本地多智能体调度'],
     ['10-13 17:29','Tencent Scraps Early Desktop Agent as Platforms Narrow the Field'],
     ['10-13 17:29','日赚1.7亿，46岁数学博士搞AI，变英国第8大富豪'],
     ['10-13 17:28','审计者与卖方：Anthropic 免费给开源世界扫漏洞，账单开给谁'],
-    ['10-13 17:20','融资数亿，却先把机器人送进养老院'],
-    ['10-13 17:12','面壁智能发布新一代端侧多模态大模型 MiniCPM-V 4.7，仅 3GB 内存可实现 13+ token/s 解码速度'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298390, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:288639, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278162, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219339, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298402, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:288680, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278173, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219347, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
     {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180820, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150528, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141485, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126003, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111319, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105867, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141486, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126008, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111326, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105877, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
