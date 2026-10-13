@@ -459,7 +459,13 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-13T10:57', t:'AI 让代码量涨了 30%，软件产出却纹丝不动 —— 瓶颈卡在人类 Code Review', s:'让 AI 写代码，公司真的产出了更多软件吗？一份对超 700 家公司真实工程数据的分析给出了一个反直觉的答案：代码是多了…（来源：OSCHINA）', u:'https://www.oschina.net/news/502990/ai-coding-agents-generate-more-code-but-not-more-software'},
+    {c:'MODEL', d:'2026-10-13T10:42', t:'“大模型时代的谷歌，可能永远不会出现”', s:'但这并不等于“AI 没有垄断”。（来源：钛媒体）', u:'https://www.tmtpost.com/8166394.html'},
+    {c:'MODEL', d:'2026-10-13T10:38', t:'AI 也要“反虐待”：全球首富马斯克推荐用户不要“折磨”超级智能 SI', s:'在 Anthropic 更新使用政策，禁止用户对 AI 模型持续且无明确目的的辱骂或残忍行为后，全球首富埃隆 · 马斯克…（来源：IT之家）', u:'https://www.ithome.com/1/012/204.htm'},
+    {c:'MODEL', d:'2026-10-13T10:34', t:'MiniMax 入驻天猫开设其首家官方旗舰店，开卖 Token 套餐', s:'国产头部大模型厂商 MiniMax 已正式入驻天猫，开设其首家品牌官方旗舰店。目前，店铺已经上架的 M Plan 订阅套…（来源：IT之家）', u:'https://www.ithome.com/1/012/198.htm'},
+    {c:'HOT', d:'2026-10-13T10:34', t:'数字员工“AI大机遇”的另一面', s:'珠海金智维冲刺港交所上市，业务聚焦AI数字员工，但近三年亏损严重，财务状况不佳。（来源：钛媒体）', u:'https://www.tmtpost.com/8166174.html'},
     {c:'MODEL', d:'2026-10-13T10:27', t:'Jev 引爆决策 AI 模型新赛道，爆红后被卷入原创争议', s:'科技媒体 Tom\'s Hardware 今天（10 月 13 日）发布博文，报道称 TypeSafe 发布 Jev 模型…（来源：IT之家）', u:'https://www.ithome.com/1/012/193.htm'},
+    {c:'INDUSTRY', d:'2026-10-13T10:26', t:'王兴兴低估了AI，梁文锋开始重估机器人', s:'具身智能还没有跨过临界点，但决定它何时跨过去的人，可能已经不只在机器人行业里。（来源：钛媒体）', u:'https://www.tmtpost.com/8166052.html'},
     {c:'MODEL', d:'2026-10-13T10:25', t:'微软推出 Maia 300 自研 AI 芯片，明年拟部署超百万颗以降低算力成本', s:'微软于当地时间周一发布了新一代自研 AI 芯片，并计划在明年部署超百万颗该芯片，用于支撑自身内部 AI 业务。这款芯片名…（来源：IT之家）', u:'https://www.ithome.com/1/012/191.htm'},
     {c:'MODEL', d:'2026-10-13T10:22', t:'王兴兴最新预判：具身智能的转折点，一到两年内就会来', s:'GPT-7或打穿具身智能，人形机器人商业化分场景落地。（来源：钛媒体）', u:'https://www.tmtpost.com/8166189.html'},
     {c:'MEDPHARMA', d:'2026-10-13T10:21', t:'AI制药赛道前9月融资157.65亿元;BMS玛伐凯泰拟纳入优先审评', s:'AI制药赛道前9月融资157.65亿元;BMS玛伐凯泰拟纳入优先审评（来源：头条医药AI）', u:'https://www.toutiao.com/article/7695968522886742568/'},
@@ -471,34 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-10-13T09:47', t:'消息称 DeepSeek 将完成 1000 亿元融资，投前估值仍为约 5000 亿元', s:'据《财经》报道，多位参与本轮交易的人士透露，大模型公司 DeepSeek 的最新一轮融资已临近完成，融资金额从此前计划的…（来源：IT之家）', u:'https://www.ithome.com/1/012/172.htm'},
     {c:'HOT', d:'2026-10-13T09:47', t:'TikTok CEO 周受资的新判断：AI 将在三年内改写科学，字节的筹码是什么', s:'周受资给出了AI改写科学的三年时间表。（来源：钛媒体）', u:'https://www.tmtpost.com/8166003.html'},
     {c:'HOT', d:'2026-10-13T09:42', t:'AI喂养，正在成为一条产业链', s:'机器人还没进家门，普通人先成了“数据工人”。（来源：钛媒体）', u:'https://www.tmtpost.com/8165995.html'},
-    {c:'HOT', d:'2026-10-13T09:38', t:'消息称 OpenAI 计划“复活”Sora：换赛道进军 AI 专业影视工具', s:'科技媒体《The Information》昨日（10 月 12 日）报道，OpenAI 正与一家专注于电影制作 AI 视…（来源：IT之家）', u:'https://www.ithome.com/1/012/168.htm'},
-    {c:'HOT', d:'2026-10-13T09:32', t:'AI办公正在形成“三足鼎立”局面', s:'AI办公，热闹过了吗？（来源：钛媒体）', u:'https://www.tmtpost.com/8166000.html'},
-    {c:'HOT', d:'2026-10-13T09:23', t:'每秒钟烧1块钱，AI短剧成算力时代最大的“印钞机”', s:'AI短剧竟然是算力最大消耗者。（来源：钛媒体）', u:'https://www.tmtpost.com/8165999.html'},
-    {c:'MODEL', d:'2026-10-13T09:22', t:'谷歌对 Gemini 的用法变了', s:'模型本身越来越像同质化的商品。（来源：钛媒体）', u:'https://www.tmtpost.com/8166223.html'},
-    {c:'MODEL', d:'2026-10-13T09:18', t:'9 年前英伟达 Tesla V100 老将再战：4 GPU 集群 AI 推理跑赢 2 台 DGX Spark', s:'YouTube 频道 Jun Yamog 昨日（10 月 12 日）发布视频，测试将 4 张 Tesla V100 安装…（来源：IT之家）', u:'https://www.ithome.com/1/012/165.htm'},
     {c:'MEDPHARMA', d:'2026-10-13T09:00', t:'AI制药:管线兑现与卖铲人两条主线，真正吃到红利的不是AI公司!', s:'AI制药:管线兑现与卖铲人两条主线，真正吃到红利的不是AI公司!（来源：头条医药AI）', u:'https://www.toutiao.com/article/7695746260195607095/'},
     {c:'MODEL', d:'2026-10-13T08:27', t:'曝梁文锋密集见机器人创业者；影石出货量累计突破1000万台；Meta发布Muse Wonder模型｜极客早知道', s:'曝梁文锋密集接触具身智能创业者，DeepSeek 拟入局具身智能 据报道，DeepSeek 创始人梁文锋近期密集关注具身…（来源：极客公园）', u:'http://www.geekpark.net/news/372264'},
-    {c:'MODEL', d:'2026-10-13T08:17', t:'早报｜对话库克：Apple Watch要做「个人守护者」/华为折叠屏出货量突破2000万台/DeepSeek拟入局具身智能', s:'· 博通 CEO：晶圆与内存短缺正在缓解，AI 扩张更受资金约束 · 9 月乘用车零售同比下降 28%，新能源渗透率升至…（来源：爱范儿）', u:'https://www.ifanr.com/1683909?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['10-13 10:57','AI 让代码量涨了 30%，软件产出却纹丝不动 —— 瓶颈卡在人类 Code Review'],
+    ['10-13 10:42','“大模型时代的谷歌，可能永远不会出现”'],
+    ['10-13 10:38','AI 也要“反虐待”：全球首富马斯克推荐用户不要“折磨”超级智能 SI'],
+    ['10-13 10:34','MiniMax 入驻天猫开设其首家官方旗舰店，开卖 Token 套餐'],
+    ['10-13 10:34','数字员工“AI大机遇”的另一面'],
     ['10-13 10:27','Jev 引爆决策 AI 模型新赛道，爆红后被卷入原创争议'],
-    ['10-13 10:25','微软推出 Maia 300 自研 AI 芯片，明年拟部署超百万颗以降低算力成本'],
-    ['10-13 10:22','王兴兴最新预判：具身智能的转折点，一到两年内就会来'],
-    ['10-13 10:21','AI制药赛道前9月融资157.65亿元;BMS玛伐凯泰拟纳入优先审评'],
-    ['10-13 10:15','华为徐松余：麒麟 9050 Pro 马良 GPU 性能提升 40%，搭载业界首个 2 亿高像素融合 ISP'],
-    ['10-13 10:12','AI 工厂建设迎来统一蓝图：英伟达开放 Vera Rubin 机架设计'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298236, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:288079, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277956, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219265, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180745, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150453, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141438, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125912, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111254, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105679, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298249, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:288126, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277974, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219274, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180756, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150461, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141440, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125915, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111259, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105702, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
