@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-13T10:03:06",
+  "updated": "2026-10-13T10:09:19",
   "news": [
     {
       "c": "MODEL",
@@ -87,6 +87,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-10-13T09:12",
+      "t": "大模型是怎么决定引用哪个网页的？拆解 AI 搜索的信源采信链路",
+      "s": "背景 越来越多的人不再逐条翻搜索结果，而是直接问 AI 一个问题，拿一份整合好的答案。答案下面往往挂着几行引用来源——同…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502981"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-10-13T09:05",
       "t": "Meta 发布 Muse Wonder 模型，扎克伯格称公司已在 AI 前沿领域追上竞争对手",
       "s": "马克 · 扎克伯格表示，Meta 已经在人工智能的“前沿领域”追上竞争对手。他承诺将继续大规模投入资金，向 Anthro…（来源：IT之家）",
@@ -105,13 +112,6 @@
       "t": "AI制药:管线兑现与卖铲人两条主线，真正吃到红利的不是AI公司!",
       "s": "AI制药:管线兑现与卖铲人两条主线，真正吃到红利的不是AI公司!（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7695746260195607095/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T08:29",
-      "t": "Edge AI Daily 早报（10月13日）",
-      "s": "OpenAI公开722篇AI生成数学手稿，25位菲尔兹奖得主联名警告数学理解根基受冲击。马斯克承认编程训练数据仅Open…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8166048.html"
     },
     {
       "c": "MODEL",
@@ -136,10 +136,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-12T20:15",
-      "t": "一周 10 万星，AI「逆向一切」，但大家不要过于兴奋",
-      "s": "头图图片来源：REA头图来源：CyberSecurityNews「在应用里看到一个想加入自己产品的功能？让智能体去帮你调…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372263"
+      "d": "2026-10-12T21:39",
+      "t": "FocusAny v2.3.0 本地 AI 工具条，稳定性大扫除",
+      "s": "全局搜索、插件、大模型、MCP、工作流，都收在一个快捷键呼出的面板里。v2.3.0 没有上新功能，专心做了三件事——让崩…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/502979"
     }
   ],
   "timeline": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288047,
+      "s": 288050,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 277938,
+      "s": 277940,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219257,
+      "s": 219258,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180742,
+      "s": 180743,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150451,
+      "s": 150453,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141435,
+      "s": 141436,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105663,
+      "s": 105666,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
