@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-13T12:31:52",
+  "updated": "2026-10-13T13:01:51",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-13T12:20",
+      "t": "企业级AI离深度应用还有很多路要走丨ToB产业观察",
+      "s": "对于企业而言，AI不是一个IT项目，而是一场组织变革。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8166594.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-13T12:06",
@@ -100,6 +107,13 @@
       "u": "https://www.oschina.net/news/502990/ai-coding-agents-generate-more-code-but-not-more-software"
     },
     {
+      "c": "HOT",
+      "d": "2026-10-13T10:44",
+      "t": "1688全面接入AI电商工作台Accio",
+      "s": "10月13日，阿里旗下数字供应链平台1688宣布，即日起，平台逾1亿年度活跃买家和超100万源头厂商，均可直接开通全球电…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/geJK2UpprDrFwEMI.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-13T10:42",
       "t": "“大模型时代的谷歌，可能永远不会出现”",
@@ -126,23 +140,13 @@
       "t": "数字员工“AI大机遇”的另一面",
       "s": "珠海金智维冲刺港交所上市，业务聚焦AI数字员工，但近三年亏损严重，财务状况不佳。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8166174.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T10:27",
-      "t": "Jev 引爆决策 AI 模型新赛道，爆红后被卷入原创争议",
-      "s": "科技媒体 Tom's Hardware 今天（10 月 13 日）发布博文，报道称 TypeSafe 发布 Jev 模型…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/193.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-13T10:26",
-      "t": "王兴兴低估了AI，梁文锋开始重估机器人",
-      "s": "具身智能还没有跨过临界点，但决定它何时跨过去的人，可能已经不只在机器人行业里。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8166052.html"
     }
   ],
   "timeline": [
+    [
+      "10-13 12:20",
+      "企业级AI离深度应用还有很多路要走丨ToB产业观察"
+    ],
     [
       "10-13 12:06",
       "AI进展观察｜研发AI Agent四象限：个人与企业、国内与国际"
@@ -162,10 +166,6 @@
     [
       "10-13 11:45",
       "晶泰控股五日跌逾两成，AI制药高位回调考验估值锚"
-    ],
-    [
-      "10-13 11:44",
-      "复旦邱锡鹏团队获超 10 亿融资，成立两年，让模型感知、理解、响应变化的世界"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298281,
+      "s": 298290,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 288221,
+      "s": 288246,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278021,
+      "s": 278030,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219289,
+      "s": 219294,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180768,
+      "s": 180772,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150469,
+      "s": 150477,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 125927,
+      "s": 125928,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111272,
+      "s": 111274,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 105732,
+      "s": 105741,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
