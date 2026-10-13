@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-10-13T08:01', t:'英特尔 CEO 陈立武：未来两到三年 AI 硬件将持续短缺', s:'英特尔首席执行官陈立武（Lip-Bu Tan）认为，未来两到三年，人工智能行业仍将持续面临硬件短缺问题。陈立武在星展银行…（来源：IT之家）', u:'https://www.ithome.com/1/012/144.htm'},
     {c:'MODEL', d:'2026-10-13T07:30', t:'Meta 发布 Muse Wonder 系列旗舰 AI 模型，对标 Anthropic 与 OpenAI', s:'Meta 于当地时间周一发布了全新一代尖端旗舰人工智能模型，力图在人工智能竞赛中追赶 Anthropic、OpenAI …（来源：IT之家）', u:'https://www.ithome.com/1/012/138.htm'},
     {c:'MODEL', d:'2026-10-13T07:23', t:'消息称 Epic 为迪士尼打造的游戏推迟上线，全面改用 AI 开发', s:'Epic Games 正全力将人工智能应用于游戏开发。这家工作室一直在为迪士尼制作游戏，但有消息人士向彭博社透露，其一款…（来源：IT之家）', u:'https://www.ithome.com/1/012/136.htm'},
     {c:'INDUSTRY', d:'2026-10-13T07:11', t:'应用材料 CEO 迪克森：依托 AI 提效，未来数年营收有望翻倍，但员工数量不会同步翻倍', s:'应用材料公司计划在未来数年内实现营收翻倍，但不会同步扩招员工，原因是该公司正更多借助人工智能工具开展产品研发、质量管控等…（来源：IT之家）', u:'https://www.ithome.com/1/012/134.htm'},
@@ -466,7 +467,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-12T23:08', t:'比亚迪与荣耀战略合作：支持 YOYO 远程控车、手机镜像等', s:'比亚迪今日宣布与荣耀战略合作，共创 AI 语音融合，A2A 打通车机与手机语音智能体，将手机 AI 能力和服务带入座舱空…（来源：IT之家）', u:'https://www.ithome.com/1/012/121.htm'},
     {c:'MODEL', d:'2026-10-12T22:45', t:'微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s', s:'微软今天正式发布 Maia 300 人工智能芯片。这款产品配备 288GB HBM4 内存，带宽达到 18TB/s，FP…（来源：IT之家）', u:'https://www.ithome.com/1/012/115.htm'},
     {c:'MODEL', d:'2026-10-12T22:27', t:'AMD 发布新一代锐龙 AI Halo 开发者平台，升级 Max+ PRO 495 与至高 192GB 内存', s:'AMD 当地时间今日正式发布了基于锐龙 AI Max+ PRO 495 处理器的新一代锐龙 AI Halo 开发者平台…（来源：IT之家）', u:'https://www.ithome.com/1/012/104.htm'},
-    {c:'MODEL', d:'2026-10-12T22:17', t:'AMD 发布智能体 AI 计算机架 Helion，纯 CPU 版本可扩展至 32,768 核心', s:'AMD 当地时间今日宣布推出面向代理式人工智能计算负载的 Helion 机架解决方案。这一机架基于 OCP 设计规范和 …（来源：IT之家）', u:'https://www.ithome.com/1/012/103.htm'},
     {c:'INDUSTRY', d:'2026-10-12T22:13', t:'产业出题，科技答题：2026 IEIC国际具身智能技能大赛，用真实岗位任务考核机器人落地能力', s:'实景比拼赋能科创，助力人形机器人技术规模化落地！ 编辑丨李希 为深入贯彻落实工业和信息化部、国务院国资委《2026年度人…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/ZFAMCctM7KUw5gr3.html'},
     {c:'MODEL', d:'2026-10-12T20:15', t:'一周 10 万星，AI「逆向一切」，但大家不要过于兴奋', s:'头图图片来源：REA头图来源：CyberSecurityNews「在应用里看到一个想加入自己产品的功能？让智能体去帮你调…（来源：极客公园）', u:'http://www.geekpark.net/news/372263'},
     {c:'MEDPHARMA', d:'2026-10-12T19:45', t:'计算医学写入“十五五”，AI制药能否成为“变局者”', s:'计算医学写入“十五五”，AI制药能否成为“变局者”（来源：头条医药AI）', u:'https://www.toutiao.com/article/7695746055819837962/'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-12T16:09', t:'China’s AI Boom Moves From Model Prices to Power Bills and Depreciation', s:'China’s AI Boom Moves From Model Prices to Power B…（来源：钛媒体）', u:'https://www.tmtpost.com/8165235.html'},
   ];
   const TIMELINE = [
+    ['10-13 08:01','英特尔 CEO 陈立武：未来两到三年 AI 硬件将持续短缺'],
     ['10-13 07:30','Meta 发布 Muse Wonder 系列旗舰 AI 模型，对标 Anthropic 与 OpenAI'],
     ['10-13 07:23','消息称 Epic 为迪士尼打造的游戏推迟上线，全面改用 AI 开发'],
     ['10-13 07:11','应用材料 CEO 迪克森：依托 AI 提效，未来数年营收有望翻倍，但员工数量不会同步翻倍'],
     ['10-13 07:04','Anthropic 斥资 1 亿美元培养前沿部署工程师，聚焦五大人才特质'],
     ['10-12 23:08','比亚迪与荣耀战略合作：支持 YOYO 远程控车、手机镜像等'],
-    ['10-12 22:45','微软 Maia 300 AI 芯片发布：台积电 N2P 工艺，288GB HBM4 内存、带宽 18TB/s'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298187, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:287902, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277883, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219235, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180729, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150429, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141422, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125872, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111241, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105612, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298193, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:287929, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:277892, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219238, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180732, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150434, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141425, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:125878, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111244, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:105620, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
