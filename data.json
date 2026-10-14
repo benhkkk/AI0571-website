@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-14T13:32:00",
+  "updated": "2026-10-14T13:38:05",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T13:33",
+      "t": "苹果 iPhone Duo 国行备案新增大模型编号：Apple 智能、通义万象、通义千问",
+      "s": "据IT之家小伙伴反馈，苹果 iPhone Duo 折叠屏手机国行版（型号 A3721）在今年 9 月 2 日获得试用批文…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/814.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-14T13:13",
@@ -18,7 +25,7 @@
     {
       "c": "HOT",
       "d": "2026-10-14T12:48",
-      "t": "周鸿祎谈AI：尽头不是能源，是安全 | 钛媒体刘湘明×360集团周鸿祎",
+      "t": "周鸿祎谈AI：尽头不是能源，是安全 | 刘湘明×周鸿祎",
       "s": "AI背叛人类，并不需要等到它产生意识。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8167924.html"
     },
@@ -133,16 +140,13 @@
       "t": "所有App都在塞AI，但用户已经烦了",
       "s": "Al还没成熟，但所有App都必须上场了。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8167377.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-14T08:51",
-      "t": "Edge AI Daily 早报（10月14日）",
-      "s": "谷歌 Gemini 4 Argon 以对手半价全球开放，凭自研 TPU 与云渠道发起结构性价格战，Alphabet 当日…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8167796.html"
     }
   ],
   "timeline": [
+    [
+      "10-14 13:33",
+      "苹果 iPhone Duo 国行备案新增大模型编号：Apple 智能、通义万象、通义千问"
+    ],
     [
       "10-14 13:13",
       "从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕"
@@ -153,7 +157,7 @@
     ],
     [
       "10-14 12:48",
-      "周鸿祎谈AI：尽头不是能源，是安全 | 钛媒体刘湘明×360集团周鸿祎"
+      "周鸿祎谈AI：尽头不是能源，是安全 | 刘湘明×周鸿祎"
     ],
     [
       "10-14 12:42",
@@ -162,10 +166,6 @@
     [
       "10-14 12:26",
       "国内外大厂疯抢Muse入口，但个人Agent仍是伪命题"
-    ],
-    [
-      "10-14 12:26",
-      "机器人看人类视频，究竟能学到哪一步？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298768,
+      "s": 298769,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289994,
+      "s": 290003,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278712,
+      "s": 278714,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180976,
+      "s": 180978,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126243,
+      "s": 126246,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111546,
+      "s": 111548,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106313,
+      "s": 106315,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
