@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-14T11:31:49",
+  "updated": "2026-10-14T12:02:22",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T11:45",
+      "t": "彭博社报告：云游戏与 AI 或将终结传统游戏主机",
+      "s": "彭博社今天（14 日）发布的《深度分析：云游戏与 AI 或最终终结游戏主机》行业研究报告预测，到 2035 年，云游戏市…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/783.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-14T11:45",
+      "t": "每日图表：林德正在为AI革命提供动力",
+      "s": "林德正在落实为期多年的气体供应合同，而这些合同对先进半导体制造至关重要。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8168033.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-14T10:59",
@@ -65,6 +79,13 @@
       "u": "https://www.tmtpost.com/8166729.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-10-14T09:36",
+      "t": "腾讯WorkBuddy企业版上线「可观测中心」破解规模化用Agent四大痛点",
+      "s": "打通企业上下文或只是Agent智能体走进企业办公场景的开始，“成本效率是否可管控、安全合规是否可追溯，应用效果是否可优化…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/f1Qk7Zv1CTpAQhYX.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-14T09:02",
       "t": "所有App都在塞AI，但用户已经烦了",
@@ -93,13 +114,6 @@
       "u": "https://www.ithome.com/1/012/653.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-14T08:30",
-      "t": "黄仁勋又出手了，英伟达拟再砸 20 亿美元加码欧洲 AI",
-      "s": "据彭博社报道，英伟达 CEO 黄仁勋在欧洲访问期间宣布，公司计划追加 20 亿美元（IT之家注：现汇率约合 134.1 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/651.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-14T08:28",
       "t": "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线",
@@ -126,23 +140,17 @@
       "t": "国泰海通:AI制药迎来产业拐点 大模型入局重构行业范式",
       "s": "国泰海通:AI制药迎来产业拐点 大模型入局重构行业范式（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7696291714633302555/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-13T19:38",
-      "t": "比尔盖茨押注的AI制药，关停了",
-      "s": "比尔盖茨押注的AI制药，关停了（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7696115367236469258/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-13T19:31",
-      "t": "拾趣 Magpie：macOS 划词 AI 工具",
-      "s": "macOS 划词 AI 工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制、搜索、写入 Obsidian…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503004"
     }
   ],
   "timeline": [
+    [
+      "10-14 11:45",
+      "彭博社报告：云游戏与 AI 或将终结传统游戏主机"
+    ],
+    [
+      "10-14 11:45",
+      "每日图表：林德正在为AI革命提供动力"
+    ],
     [
       "10-14 10:59",
       "Gemini 4 Argon 全球上线，主打 Coding、企业工作流和网络安全"
@@ -158,14 +166,6 @@
     [
       "10-14 10:30",
       "企业微信和 WorkBuddy 组了个「王炸局」，AI 终于不用人伺候了"
-    ],
-    [
-      "10-14 10:22",
-      "豆包手机助手宣布陆续放开第三方应用屏幕自动化操作权限，阿里、腾讯系等 App 明确拒绝"
-    ],
-    [
-      "10-14 10:12",
-      "9 月“AI 魔改”视频治理成果：清理违规视频近 1.3 万条、处置违规账号 30 余个"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298726,
+      "s": 298743,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289894,
+      "s": 289924,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278675,
+      "s": 278686,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219535,
+      "s": 219539,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180959,
+      "s": 180969,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150684,
+      "s": 150690,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141622,
+      "s": 141626,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126226,
+      "s": 126233,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111517,
+      "s": 111525,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106278,
+      "s": 106293,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
