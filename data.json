@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-14T16:31:49",
+  "updated": "2026-10-14T17:02:12",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T16:43",
+      "t": "XBOW 借助 GPT-5.6 Sol 模型攻破 Chrome 浏览器安全沙箱，获谷歌 25 万美元奖励",
+      "s": "安全研究团队 XBOW 近期发现、构建一套 Chrome 浏览器全链路漏洞利用程序，预计影响全球约 10 亿用户。相关漏…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/963.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-14T16:28",
@@ -28,6 +35,13 @@
       "t": "史上 AI 浓度最高的晚会，字节这次不装了",
       "s": "在抖音美好奇妙夜，AI不再只是晚会的 \"后期素材供应商\"，而是变成了节目本身的 \"共创者\"。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8167935.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T16:01",
+      "t": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
+      "s": "这妥妥是个物理版Agent啊！（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/503244.html"
     },
     {
       "c": "MODEL",
@@ -114,13 +128,6 @@
       "u": "https://www.qbitai.com/2026/10/503198.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-14T14:20",
-      "t": "消息称非 BFC 后缀的英特尔 Nova Lake 处理器游戏性能和 Arrow Lake 相近",
-      "s": "消息源 @kopite7kimi 昨日（10 月 13 日）在 X 平台发布推文，爆料称英特尔非 BFC 后缀的 Nov…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/828.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-14T14:10",
       "t": "刚刚，Anthropic 宣布弃用Git，统治编程20年的工具顶不住AI了",
@@ -133,16 +140,13 @@
       "t": "腾讯AI办公再进一步，企业微信与WorkBuddy深度联合",
       "s": "10月14日，腾讯旗下两大用户规模领先的办公产品——企业微信与 WorkBuddy 联合发布新版本，实现双向深度联合。此…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/7m8YMd1LU7x6aDvM.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-14T13:51",
-      "t": "苹果 iPhone 15 Pro 及后续机型国行版备案大模型编号：Apple 智能、通义万相、通义千问",
-      "s": "据IT之家小伙伴反馈，苹果多款 iPhone 手机于 9 月 29 日国行备案换证，增加搭载的大模型备案编号：Shang…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/818.htm"
     }
   ],
   "timeline": [
+    [
+      "10-14 16:43",
+      "XBOW 借助 GPT-5.6 Sol 模型攻破 Chrome 浏览器安全沙箱，获谷歌 25 万美元奖励"
+    ],
     [
       "10-14 16:28",
       "蔚来 firefly 萤火虫 aster 紫菀 2.1.0 开启推送：新增有麦 K 歌，升级 Lumo GPT 体验"
@@ -160,12 +164,8 @@
       "史上 AI 浓度最高的晚会，字节这次不装了"
     ],
     [
-      "10-14 15:54",
-      "大眼橙联合钉钉发布可弯折 AI 听记眼镜 Q1：最轻仅 28g，定价 1299 元起"
-    ],
-    [
-      "10-14 15:31",
-      "AMD CEO 苏姿丰：今年是真正的“AI 推理之年”"
+      "10-14 16:01",
+      "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298830,
+      "s": 298842,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 290253,
+      "s": 290299,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278817,
+      "s": 278826,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219597,
+      "s": 219604,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181004,
+      "s": 181006,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150719,
+      "s": 150723,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141653,
+      "s": 141655,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126272,
+      "s": 126279,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111596,
+      "s": 111605,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106384,
+      "s": 106389,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
