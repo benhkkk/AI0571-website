@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-14T09:31:57",
+  "updated": "2026-10-14T10:02:12",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-14T09:51",
+      "t": "消息称具身智能独角兽公司智元启动新一轮融资，估值约 500 亿元",
+      "s": "据财经杂志 10 月 13 日报道，具身智能独角兽公司智元创新近期启动了新一轮融资，融资额约 10 亿元 —15 亿元…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/674.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-14T09:47",
+      "t": "当二十年老牌行情软件遇上 AI：大智慧的智能化跃迁之路",
+      "s": "对大智慧而言，这场改造的意义不只是在产品里加了一个 AI 对话框，而是重新定义了金融软件与用户的关系。从提供数据的工具变…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8166729.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-14T09:02",
@@ -79,18 +93,18 @@
       "u": "https://www.ithome.com/1/012/643.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-14T07:48",
-      "t": "扎克伯格：Meta 承诺数千亿美元豪赌 AI，却一度对能否成功完全没把握",
-      "s": "据彭博社今天（14 日）凌晨报道，Meta CEO 马克 · 扎克伯格透露，去年公司还不知道旗下 AI 产品能否成功，就…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/640.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-10-14T07:20",
       "t": "【钛晨报】“求索”4.0上线！国内首个人工智能全产业链评测基准发布；重庆市委原副书记、市政府原市长黄奇帆被查；DeepSeek据称将完成1000亿元融资",
       "s": "字节跳动Seed单设安全与对齐部门，严林负责向吴永辉汇报；尊界V800公布制动踏板第三方检测结果；智元启动新融资，估值5…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8167674.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-14T07:03",
+      "t": "国泰海通:AI制药迎来产业拐点 大模型入局重构行业范式",
+      "s": "国泰海通:AI制药迎来产业拐点 大模型入局重构行业范式（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7696291714633302555/"
     },
     {
       "c": "MEDPHARMA",
@@ -126,23 +140,17 @@
       "t": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑",
       "s": "梁文锋投了Swin Transformer作者！DeepSeek开始布局具身大脑（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/503093.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-13T17:20",
-      "t": "独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司",
-      "s": "SUAVE 目前已有 demo，产品计划 2027 年初上市。作者丨黄艳冰编辑丨董子博雷峰网·鲸犀独家获悉，AI 音乐生…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/weiwu/i0pZU5QKhkvoVvig.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T16:57",
-      "t": "倒计时3天！1016GOPS2026・上海站，参会指南请收好！",
-      "s": "第 30 届智能体驱动的 GOPS 全球运维大会暨研运数智化峰会【1016~17】即将在上海火热开启，我们带着满满的诚意…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503001"
     }
   ],
   "timeline": [
+    [
+      "10-14 09:51",
+      "消息称具身智能独角兽公司智元启动新一轮融资，估值约 500 亿元"
+    ],
+    [
+      "10-14 09:47",
+      "当二十年老牌行情软件遇上 AI：大智慧的智能化跃迁之路"
+    ],
     [
       "10-14 09:02",
       "所有App都在塞AI，但用户已经烦了"
@@ -158,14 +166,6 @@
     [
       "10-14 08:40",
       "一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁"
-    ],
-    [
-      "10-14 08:30",
-      "黄仁勋又出手了，英伟达拟再砸 20 亿美元加码欧洲 AI"
-    ],
-    [
-      "10-14 08:28",
-      "超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298684,
+      "s": 298697,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289733,
+      "s": 289773,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278627,
+      "s": 278637,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219505,
+      "s": 219510,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180935,
+      "s": 180942,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150661,
+      "s": 150663,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141604,
+      "s": 141609,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126211,
+      "s": 126212,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111493,
+      "s": 111497,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106227,
+      "s": 106238,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
