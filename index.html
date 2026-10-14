@@ -460,6 +460,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'FUNDING', d:'2026-10-14T19:51', t:'贾跃亭宣布 FFR 合并 FFAI 机器人业务独立上市，目标美股人形和仿生机器人第一股', s:'贾跃亭今日发布视频，宣布 FFR 和 FFAI 正式签署最终协议，FFR 以每股 2.246 美元（IT之家注：现汇率约…（来源：IT之家）', u:'https://www.ithome.com/1/013/079.htm'},
+    {c:'MEDPHARMA', d:'2026-10-14T19:45', t:'AI制药成长性递归', s:'AI制药成长性递归（来源：头条医药AI）', u:'https://www.toutiao.com/article/7696486700306022912/'},
     {c:'MODEL', d:'2026-10-14T19:42', t:'荣耀 MagicOS 11 十月升级功能公布：AI 随心握更新，IT之家资讯 / 圈子首页、话题页悬浮按钮支持跟手移动', s:'荣耀 MagicOS 官方今日公布了 MagicOS 十月体验升级亮点。值得一提的是，本次升级 AI 随心握功能更新，I…（来源：IT之家）', u:'https://www.ithome.com/1/013/076.htm'},
     {c:'MODEL', d:'2026-10-14T19:22', t:'戴尔 CEO：AI 需要保障措施和控制，政府应发挥作用', s:'据科技媒体 CNBC 昨天报道，戴尔首席执行官迈克尔 · 戴尔表示，AI 模型需要设置安全防护和管控措施，政府也应在其中…（来源：IT之家）', u:'https://www.ithome.com/1/013/072.htm'},
     {c:'INDUSTRY', d:'2026-10-14T18:41', t:'抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！', s:'“具身进实景，劳动最光荣”（来源：量子位）', u:'https://www.qbitai.com/2026/10/503294.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-14T15:42', t:'AI 短剧日产 1500 部：一场全员狂飙下的 「无人生还」', s:'“现在整个短剧行业就是一片混乱，每个人都很焦虑、很迷茫。”这是过去一个月里，雷峰网与多位 AI 短剧从业者交流时，听到最…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/M7t0xBzr6K3vaFwi.html'},
     {c:'MODEL', d:'2026-10-14T15:18', t:'爱诗科技香港办公室正式开幕，落地数码港共建香港AI枢纽', s:'香港，2026年10月13日——全球领先的AI视频大模型公司爱诗科技（AIsphere）今日宣布其香港办公室在香港数码港…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/K1JlUdh4evr88zDa.html'},
     {c:'INDUSTRY', d:'2026-10-14T15:12', t:'智能不出彩的「领克」，刚靠一次坠崖事故出圈了', s:'汽车竞争正在回归汽车本身（来源：量子位）', u:'https://www.qbitai.com/2026/10/503231.html'},
-    {c:'HOT', d:'2026-10-14T15:03', t:'《变形计》综艺赛博复活，AI版MrBeast爆火，LibTV下场「造星」了', s:'从创意到成本，AI正在重写综艺的生产逻辑（来源：量子位）', u:'https://www.qbitai.com/2026/10/503211.html'},
   ];
   const TIMELINE = [
     ['10-14 19:51','贾跃亭宣布 FFR 合并 FFAI 机器人业务独立上市，目标美股人形和仿生机器人第一股'],
+    ['10-14 19:45','AI制药成长性递归'],
     ['10-14 19:42','荣耀 MagicOS 11 十月升级功能公布：AI 随心握更新，IT之家资讯 / 圈子首页、话题页悬浮按钮支持跟手移动'],
     ['10-14 19:22','戴尔 CEO：AI 需要保障措施和控制，政府应发挥作用'],
     ['10-14 18:41','抢先盘点2026全球开发者先锋大会暨国际具身智能技能大赛十大亮点！'],
     ['10-14 18:35','药明康德，成功打入AI制药'],
-    ['10-14 18:30','万元级人形机器人，只是“赛博玩具”？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298916, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:290505, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278912, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219646, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181044, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150753, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298926, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:290542, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278928, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219654, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181050, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150754, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141674, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126324, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111664, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:106460, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126337, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111676, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:106472, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
