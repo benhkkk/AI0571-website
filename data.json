@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-14T08:45:00",
+  "updated": "2026-10-14T09:02:52",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T08:53",
+      "t": "OPPO 与 Manus 达成合作，Find X10 系列将首发搭载下一代 AI 智能体",
+      "s": "OPPO 昨日宣布与 AI 智能体平台 Manus 达成合作，将在其智能手机上带来下一代智能体人工智能体验。本次合作会把…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/656.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T08:51",
+      "t": "Edge AI Daily 早报（10月14日）",
+      "s": "谷歌 Gemini 4 Argon 以对手半价全球开放，凭自研 TPU 与云渠道发起结构性价格战，Alphabet 当日…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8167796.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-14T08:40",
@@ -65,18 +79,18 @@
       "u": "https://www.ithome.com/1/012/640.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-14T07:44",
-      "t": "AI 长视频时代来临：OpenAI GPT-6 Astra 助力生成时长从 1 分钟提升到 10 分钟",
-      "s": "OpenAI 公司今天（10 月 14 日）发布公告，宣布和 AI 视频生成平台 Higgsfield 达成最新合作进展…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/639.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-10-14T07:20",
       "t": "【钛晨报】“求索”4.0上线！国内首个人工智能全产业链评测基准发布；重庆市委原副书记、市政府原市长黄奇帆被查；DeepSeek据称将完成1000亿元融资",
       "s": "字节跳动Seed单设安全与对齐部门，严林负责向吴永辉汇报；尊界V800公布制动踏板第三方检测结果；智元启动新融资，估值5…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8167674.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T04:55",
+      "t": "iPhone断网跑35B多模态！国产开源新模型，只占3G内存",
+      "s": "面壁开源MiniCPM-V 4.7（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/503109.html"
     },
     {
       "c": "MODEL",
@@ -126,23 +140,17 @@
       "t": "独家丨字节最早天使投资人，投了一家 AI 音乐硬件公司",
       "s": "SUAVE 目前已有 demo，产品计划 2027 年初上市。作者丨黄艳冰编辑丨董子博雷峰网·鲸犀独家获悉，AI 音乐生…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/weiwu/i0pZU5QKhkvoVvig.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-13T16:57",
-      "t": "倒计时3天！1016GOPS2026・上海站，参会指南请收好！",
-      "s": "第 30 届智能体驱动的 GOPS 全球运维大会暨研运数智化峰会【1016~17】即将在上海火热开启，我们带着满满的诚意…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503001"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-10-13T16:56",
-      "t": "Palantir CTO 上电视骂 AI 安全是“邪教”，还戏称 AI 研究者靠抽烟表信仰",
-      "s": "Palantir 首席技术官 Shyam Sankar 在 CBS《Face the Nation》上抛出了几个惹火的判…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503000"
     }
   ],
   "timeline": [
+    [
+      "10-14 08:53",
+      "OPPO 与 Manus 达成合作，Find X10 系列将首发搭载下一代 AI 智能体"
+    ],
+    [
+      "10-14 08:51",
+      "Edge AI Daily 早报（10月14日）"
+    ],
     [
       "10-14 08:40",
       "一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁"
@@ -158,14 +166,6 @@
     [
       "10-14 08:16",
       "印度软件巨头印孚瑟斯董事长尼勒卡尼：AI 正推动业务增长，就业担忧纯属无稽之谈"
-    ],
-    [
-      "10-14 08:11",
-      "德勤调查：英国过半大企业未来一年打算用 AI 替代打工人"
-    ],
-    [
-      "10-14 08:08",
-      "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298668,
+      "s": 298677,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289672,
+      "s": 289693,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278600,
+      "s": 278609,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219494,
+      "s": 219502,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 180927,
+      "s": 180928,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150653,
+      "s": 150656,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141599,
+      "s": 141601,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126201,
+      "s": 126206,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111487,
+      "s": 111491,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106206,
+      "s": 106216,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
