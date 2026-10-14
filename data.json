@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-14T08:32:00",
+  "updated": "2026-10-14T08:45:00",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T08:40",
+      "t": "一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁",
+      "s": "美国司法部昨日（10 月 13 日）发布公告，称 OpenAI 一名沙特籍工程师因涉嫌在旧金山办公室高管会议室安装隐藏录…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/012/653.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-14T08:30",
@@ -63,13 +70,6 @@
       "t": "AI 长视频时代来临：OpenAI GPT-6 Astra 助力生成时长从 1 分钟提升到 10 分钟",
       "s": "OpenAI 公司今天（10 月 14 日）发布公告，宣布和 AI 视频生成平台 Higgsfield 达成最新合作进展…（来源：IT之家）",
       "u": "https://www.ithome.com/1/012/639.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-14T07:30",
-      "t": "谷歌 Play Store 新功能：用户用 AI 搓的 App 不用上架商店，可仅限自己使用",
-      "s": "谷歌于当地时间周二宣布，用户通过氛围编码（vibe-coded）制作的应用，如今可以直接在安卓智能手机上运行，无需先在谷…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/635.htm"
     },
     {
       "c": "FUNDING",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-14 08:40",
+      "一名 OpenAI 工程师被捕：涉嫌秘密录制高管会议，最高面临 5 年监禁"
+    ],
+    [
       "10-14 08:30",
       "黄仁勋又出手了，英伟达拟再砸 20 亿美元加码欧洲 AI"
     ],
@@ -162,10 +166,6 @@
     [
       "10-14 08:08",
       "早报｜苹果发布十多款「果家」新品/Gemini 4来了，写代码更省心/3999元，阶跃智能体手机发布"
-    ],
-    [
-      "10-14 08:05",
-      "苹果官网新线索，全尺寸 HomePod 有望支持 Siri AI"
     ]
   ],
   "skills": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 289662,
+      "s": 289672,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278599,
+      "s": 278600,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219492,
+      "s": 219494,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150652,
+      "s": 150653,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126199,
+      "s": 126201,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111484,
+      "s": 111487,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106203,
+      "s": 106206,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
