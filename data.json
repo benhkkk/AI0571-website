@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-14T18:02:08",
+  "updated": "2026-10-14T18:31:54",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T18:09",
+      "t": "AI 挖掘的漏洞报告存在误报，华为终端安全奖励计划要求提交前进行人工分析和验证",
+      "s": "华为安全应急响应中心今日发布华为终端安全奖励计划关于后续漏洞报告处置规则的公告。官方表示，今年收到了大量利用 AI 工具…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/013/049.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-14T18:00",
@@ -86,25 +93,11 @@
       "u": "https://www.ithome.com/1/012/929.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-14T16:04",
-      "t": "8000张GPU推文删了，账还在：一半收入来自卖电脑，软通动力为什么把AI生意做重了？",
-      "s": "软通动力一半收入来自卖电脑和服务器。上半年收入多了28亿，毛利只多1.1亿，还亏了2.65亿。买硬件换来了AI项目的入口…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8167902.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-14T16:01",
       "t": "阶跃终端首款「Agent手机」STEPX Neo正式发布，创客先行",
       "s": "这妥妥是个物理版Agent啊！（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/503244.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-14T15:54",
-      "t": "大眼橙联合钉钉发布可弯折 AI 听记眼镜 Q1：最轻仅 28g，定价 1299 元起",
-      "s": "大眼橙于 10 月 13 日联合钉钉发布可弯折 AI 听记眼镜 Q1，定价 1,299 元起。佩戴体验上，产品采用轻量化…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/012/925.htm"
     },
     {
       "c": "INDUSTRY",
@@ -140,9 +133,20 @@
       "t": "STEPX首款大模型原生智能体手机STEPX Neo正式发布",
       "s": "2026年10月13日，大模型原生AI终端品牌STEPX（阶跃终端）旗下首款大模型原生智能体手机STEPX Neo正式发…（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/503201.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-14T14:31",
+      "t": "千问办公发布电商版，开启邀测",
+      "s": "10月14日，千问办公发布针对电商行业的AI生产力工具——千问办公电商版，助力商家运营方式升级。目前，千问办公电商版已开…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/eg8S5cDorgtGnzPy.html"
     }
   ],
   "timeline": [
+    [
+      "10-14 18:09",
+      "AI 挖掘的漏洞报告存在误报，华为终端安全奖励计划要求提交前进行人工分析和验证"
+    ],
     [
       "10-14 18:00",
       "荣耀 MagicOS11 系统 10 月更新今晚推送，第二批内测机型报名通道重新开放"
@@ -162,10 +166,6 @@
     [
       "10-14 17:16",
       "信仰加速，估值刹车：具身智能最后一道题，王兴兴凭什么交给 GPT-7"
-    ],
-    [
-      "10-14 17:16",
-      "账上躺着2000亿现金，腾讯、字节为啥还要借钱？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 298865,
+      "s": 298875,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 290374,
+      "s": 290411,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 278850,
+      "s": 278862,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219617,
+      "s": 219627,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181018,
+      "s": 181024,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150736,
+      "s": 150741,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141661,
+      "s": 141664,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126289,
+      "s": 126298,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 111621,
+      "s": 111629,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106403,
+      "s": 106422,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
