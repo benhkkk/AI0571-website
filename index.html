@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-14T13:13', t:'从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕', s:'10 月 22—24 日，来自阿里巴巴、腾讯、字节跳动、美团、小红书、蚂蚁集团、无问芯穹、阶跃星辰、快手、百度、网易、微…（来源：OSCHINA）', u:'https://www.oschina.net/event/8598415'},
     {c:'MODEL', d:'2026-10-14T12:50', t:'豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆', s:'今日豆包工作宣布上线数据导入与同步功能，支持用户将已有对话、技能和记忆迁移至豆包工作继续使用。用户可一键导入任务偏好指令…（来源：IT之家）', u:'https://www.ithome.com/1/012/807.htm'},
     {c:'HOT', d:'2026-10-14T12:48', t:'周鸿祎谈AI：尽头不是能源，是安全 | 钛媒体刘湘明×360集团周鸿祎', s:'AI背叛人类，并不需要等到它产生意识。（来源：钛媒体）', u:'https://www.tmtpost.com/8167924.html'},
     {c:'HOT', d:'2026-10-14T12:42', t:'一群东亚做题家，用 AI 反向输出 "卷"：韩国第一、越南第一、北美前五', s:'当一套被本土内卷折磨了几十年的方法论，遇上 AI 的冲击与重组，会发生什么商业变局？ 答案是 —— 它不再内耗，而是开始…（来源：钛媒体）', u:'https://www.tmtpost.com/8167704.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-14T09:36', t:'腾讯WorkBuddy企业版上线「可观测中心」破解规模化用Agent四大痛点', s:'打通企业上下文或只是Agent智能体走进企业办公场景的开始，“成本效率是否可管控、安全合规是否可追溯，应用效果是否可优化…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/f1Qk7Zv1CTpAQhYX.html'},
     {c:'HOT', d:'2026-10-14T09:02', t:'所有App都在塞AI，但用户已经烦了', s:'Al还没成熟，但所有App都必须上场了。（来源：钛媒体）', u:'https://www.tmtpost.com/8167377.html'},
     {c:'MODEL', d:'2026-10-14T08:51', t:'Edge AI Daily 早报（10月14日）', s:'谷歌 Gemini 4 Argon 以对手半价全球开放，凭自研 TPU 与云渠道发起结构性价格战，Alphabet 当日…（来源：钛媒体）', u:'https://www.tmtpost.com/8167796.html'},
-    {c:'MODEL', d:'2026-10-14T08:28', t:'超越抖音，传红果短剧日均时长 125 分钟；299 美元，苹果推 Siri AI 带屏音箱；谷歌最强模型 Gemini 4 正式上线', s:'谷歌最强 AI 模型：Gemini 4 Argon 上线，输出词元上限 100 万个、专攻最棘手难题 10 月 14 日…（来源：极客公园）', u:'http://www.geekpark.net/news/372304'},
   ];
   const TIMELINE = [
+    ['10-14 13:13','从 Agent 到 Loop：AI 正如何重构软件工程？｜QCon 上海 2026 即将开幕'],
     ['10-14 12:50','豆包工作上线数据导入与同步功能：支持从 ChatGPT 等一键导入对话与记忆'],
     ['10-14 12:48','周鸿祎谈AI：尽头不是能源，是安全 | 钛媒体刘湘明×360集团周鸿祎'],
     ['10-14 12:42','一群东亚做题家，用 AI 反向输出 "卷"：韩国第一、越南第一、北美前五'],
     ['10-14 12:26','国内外大厂疯抢Muse入口，但个人Agent仍是伪命题'],
     ['10-14 12:26','机器人看人类视频，究竟能学到哪一步？'],
-    ['10-14 11:45','彭博社报告：云游戏与 AI 或将终结传统游戏主机'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298752, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:289961, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278704, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219546, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180972, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150687, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141630, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126241, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111538, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:106307, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:298768, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:289994, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:278712, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:219553, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:180976, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:150689, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141638, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:126243, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:111546, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:106313, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
