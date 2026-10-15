@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-16T03:02:23",
+  "updated": "2026-10-16T03:31:57",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-16T03:02",
+      "d": "2026-10-16T03:31",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-16T03:02",
+      "d": "2026-10-16T03:31",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-16T03:02",
+      "d": "2026-10-16T03:31",
       "t": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程",
       "s": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995304.shtml"
@@ -128,31 +128,31 @@
       "u": "https://www.toutiao.com/article/7696853331133694515/"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-15T19:11",
+      "t": "医药行业大事追踪:全球AI制药市场规模2035年有望突破460亿美元",
+      "s": "医药行业大事追踪:全球AI制药市场规模2035年有望突破460亿美元（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7696850660439966249/"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-15T19:01",
       "t": "100万+ 内部GPU+免费午饭，盛大想把“超级个体”弹射上天",
       "s": "给AI创业者发100万，盛大的算盘是什么？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8170112.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-15T18:40",
-      "t": "微信、淘宝、美团等151款APP拒绝豆包手机助手GUI自动化代操作；对标字节红果，腾讯上线绿泡泡短剧；OpenAI 一工程师被捕，涉嫌窃听机密",
-      "s": "要闻提示1.上演“窃听风云”？OpenAI 一工程师被捕，高管会议室惊现窃听器2.微信、淘宝、DeepSeek等在列，1…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/VMod1gHtw3lRoiXd.html"
     }
   ],
   "timeline": [
     [
-      "10-16 03:02",
+      "10-16 03:31",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-16 03:02",
+      "10-16 03:31",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
-      "10-16 03:02",
+      "10-16 03:31",
       "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 299728,
+      "s": 299739,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 292583,
+      "s": 292612,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 280163,
+      "s": 280182,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220044,
+      "s": 220047,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181355,
+      "s": 181362,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151044,
+      "s": 151046,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141866,
+      "s": 141868,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126836,
+      "s": 126845,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112372,
+      "s": 112389,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106976,
+      "s": 106986,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
