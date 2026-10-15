@@ -1,26 +1,40 @@
 {
-  "updated": "2026-10-15T18:32:02",
+  "updated": "2026-10-15T19:02:32",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-15T18:31",
+      "d": "2026-10-15T19:02",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T18:31",
+      "d": "2026-10-15T19:02",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T18:31",
+      "d": "2026-10-15T19:02",
       "t": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程",
       "s": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995304.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-15T18:38",
+      "t": "DeepSeek 服务故障近 5 小时，官方把用户一周的 API 消费全退了",
+      "s": "DeepSeek 今早崩了近 5 个小时，官方直接把用户近一周的 API 消费全额退回来了。 故障发生在北京时间 10 …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503040"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-15T18:22",
+      "t": "OPPO决定 把 AI“外包” 给 Manus",
+      "s": "ColorOS 7.7亿用户，养不出一个原生Agent？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8168726.html"
     },
     {
       "c": "HOT",
@@ -126,46 +140,32 @@
       "t": "库克：苹果智能 Apple Intelligence 月底在华发布测试版本，但不包括 Siri AI",
       "s": "苹果董事会执行主席蒂姆 · 库克今日在上海接受澎湃新闻、界面新闻等媒体采访时确认，苹果智能（Apple Intellig…（来源：IT之家）",
       "u": "https://www.ithome.com/1/013/478.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-15T16:47",
-      "t": "OpenCode 宣布 DeepSeek V4.1 Flash 免费提供，但仅支持 200K 上下文",
-      "s": "OpenCode 刚刚宣布，DeepSeek V4.1 Flash 现已免费提供，免费版实测支持 200K 上下文窗口…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/013/475.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-15T16:32",
-      "t": "155款App向豆包手机说“不”，智能体为什么翻不过互联网的围墙？",
-      "s": "协议是体面的，但利益是赤裸的。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8169608.html"
     }
   ],
   "timeline": [
     [
-      "10-15 18:31",
+      "10-15 19:02",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-15 18:31",
+      "10-15 19:02",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
-      "10-15 18:31",
+      "10-15 19:02",
       "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程"
+    ],
+    [
+      "10-15 18:38",
+      "DeepSeek 服务故障近 5 小时，官方把用户一周的 API 消费全退了"
+    ],
+    [
+      "10-15 18:22",
+      "OPPO决定 把 AI“外包” 给 Manus"
     ],
     [
       "10-15 18:21",
       "“机器人之眼”收入成谜，股东套现7.8亿，奥比中光278倍PE谁在买单？"
-    ],
-    [
-      "10-15 18:21",
-      "AI搞科研，到底在替谁打工？"
-    ],
-    [
-      "10-15 18:20",
-      "人形机器人最尴尬的事：长了一双腿，却只能定住干活"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 299394,
+      "s": 299411,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 292002,
+      "s": 292022,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 279811,
+      "s": 279826,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219942,
+      "s": 219945,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181263,
+      "s": 181267,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150963,
+      "s": 150969,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141811,
+      "s": 141815,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126685,
+      "s": 126691,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112026,
+      "s": 112039,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106841,
+      "s": 106844,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
