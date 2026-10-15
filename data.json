@@ -1,40 +1,40 @@
 {
-  "updated": "2026-10-15T19:49:49",
+  "updated": "2026-10-15T20:02:35",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-15T19:49",
-      "t": "生死局：AI正将仪器厂商逼向“产业链上游”的角落",
-      "s": "生死局：AI正将仪器厂商逼向“产业链上游”的角落（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260121/871203.shtml"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-15T19:49",
-      "t": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解",
-      "s": "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260119/870376.shtml"
-    },
-    {
       "c": "MEDPHARMA",
-      "d": "2026-10-15T19:49",
+      "d": "2026-10-15T20:02",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T19:49",
+      "d": "2026-10-15T20:02",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T19:49",
+      "d": "2026-10-15T20:02",
       "t": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程",
       "s": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995304.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-15T20:00",
+      "t": "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本",
+      "s": "纳德拉和老黄，能盘活 Windows on Arm 吗？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1684442?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-15T19:55",
+      "t": "TOPC TXA2 \"Gorgon Halo\" 迷你 AI 工作站上市，192GB + 2TB 售 45999 元",
+      "s": "TOPC 今日开售 TXA2 迷你 AI 工作站。这一型号基于 AMD 锐龙 AI Max+ PRO 495 处理器，配…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/013/618.htm"
     },
     {
       "c": "HOT",
@@ -144,24 +144,24 @@
   ],
   "timeline": [
     [
-      "10-15 19:49",
-      "生死局：AI正将仪器厂商逼向“产业链上游”的角落"
-    ],
-    [
-      "10-15 19:49",
-      "机械手臂轨迹离线编程怎么获取点位？扫描仪推荐：思看科技扫描生成点云引导机器人路径方案详解"
-    ],
-    [
-      "10-15 19:49",
+      "10-15 20:02",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-15 19:49",
+      "10-15 20:02",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
-      "10-15 19:49",
+      "10-15 20:02",
       "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程"
+    ],
+    [
+      "10-15 20:00",
+      "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本"
+    ],
+    [
+      "10-15 19:55",
+      "TOPC TXA2 \"Gorgon Halo\" 迷你 AI 工作站上市，192GB + 2TB 售 45999 元"
     ],
     [
       "10-15 19:29",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 299455,
+      "s": 299465,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 292080,
+      "s": 292100,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 279863,
+      "s": 279872,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219956,
+      "s": 219960,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181273,
+      "s": 181276,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150982,
+      "s": 150984,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141820,
+      "s": 141821,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126709,
+      "s": 126714,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112070,
+      "s": 112080,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106853,
+      "s": 106854,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
