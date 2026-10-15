@@ -1,33 +1,33 @@
 {
-  "updated": "2026-10-16T06:32:11",
+  "updated": "2026-10-16T06:46:45",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-10-16T06:32",
-      "t": "如何用Deepseek组装测序仪？",
-      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
-    },
-    {
       "c": "MEDPHARMA",
-      "d": "2026-10-16T06:32",
+      "d": "2026-10-16T06:46",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-16T06:32",
+      "d": "2026-10-16T06:46",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-16T06:32",
+      "d": "2026-10-16T06:46",
       "t": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程",
       "s": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995304.shtml"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-16T06:43",
+      "t": "对抗超级细菌新武器：谷歌 Antigravity 用 AI 加速抗菌肽发现",
+      "s": "当前抗生素耐药性问题不断加剧，全球迫切需要新型抗生素，但新药研发往往缓慢且过程繁琐。谷歌推出的 Google Antig…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/013/684.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -107,13 +107,6 @@
       "u": "https://www.oschina.net/news/503042"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-15T20:05",
-      "t": "极米记得 AI 眼镜 MemoMind One 预售：无摄像头，首发 2699 元",
-      "s": "极米科技今日宣布，极米记得 AI 显示眼镜 MemoMind One 今日正式开启预售，零售价 2999 元，首发价 2…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/013/622.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-15T20:00",
       "t": "Surface Laptop Ultra 首发体验：是最强 Windows 笔记本，也是 AI 时代的全能本",
@@ -140,24 +133,31 @@
       "t": "100万+ 内部GPU+免费午饭，盛大想把“超级个体”弹射上天",
       "s": "给AI创业者发100万，盛大的算盘是什么？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8170112.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-15T18:40",
+      "t": "微信、淘宝、美团等151款APP拒绝豆包手机助手GUI自动化代操作；对标字节红果，腾讯上线绿泡泡短剧；OpenAI 一工程师被捕，涉嫌窃听机密",
+      "s": "要闻提示1.上演“窃听风云”？OpenAI 一工程师被捕，高管会议室惊现窃听器2.微信、淘宝、DeepSeek等在列，1…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/zaobao/VMod1gHtw3lRoiXd.html"
     }
   ],
   "timeline": [
     [
-      "10-16 06:32",
-      "如何用Deepseek组装测序仪？"
-    ],
-    [
-      "10-16 06:32",
+      "10-16 06:46",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-16 06:32",
+      "10-16 06:46",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
-      "10-16 06:32",
+      "10-16 06:46",
       "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程"
+    ],
+    [
+      "10-16 06:43",
+      "对抗超级细菌新武器：谷歌 Antigravity 用 AI 加速抗菌肽发现"
     ],
     [
       "10-16 02:27",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 299829,
+      "s": 299833,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 292766,
+      "s": 292777,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 280292,
+      "s": 280298,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220081,
+      "s": 220084,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126889,
+      "s": 126891,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112479,
+      "s": 112486,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107025,
+      "s": 107026,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
