@@ -1,23 +1,23 @@
 {
-  "updated": "2026-10-15T20:32:13",
+  "updated": "2026-10-15T21:02:11",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-15T20:32",
+      "d": "2026-10-15T21:02",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T20:32",
+      "d": "2026-10-15T21:02",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T20:32",
+      "d": "2026-10-15T21:02",
       "t": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程",
       "s": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995304.shtml"
@@ -101,6 +101,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-10-15T18:40",
+      "t": "微信、淘宝、美团等151款APP拒绝豆包手机助手GUI自动化代操作；对标字节红果，腾讯上线绿泡泡短剧；OpenAI 一工程师被捕，涉嫌窃听机密",
+      "s": "要闻提示1.上演“窃听风云”？OpenAI 一工程师被捕，高管会议室惊现窃听器2.微信、淘宝、DeepSeek等在列，1…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/zaobao/VMod1gHtw3lRoiXd.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-10-15T18:38",
       "t": "DeepSeek 服务故障近 5 小时，官方把用户一周的 API 消费全退了",
       "s": "DeepSeek 今早崩了近 5 个小时，官方直接把用户近一周的 API 消费全额退回来了。 故障发生在北京时间 10 …（来源：OSCHINA）",
@@ -133,26 +140,19 @@
       "t": "AI搞科研，到底在替谁打工？",
       "s": "AI 在科研里到底替谁打工？替博士生打工，替教授打工，替药企的现金流打工，也替人类文明里最贵的东西打工——时间。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8170092.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-15T18:20",
-      "t": "人形机器人最尴尬的事：长了一双腿，却只能定住干活",
-      "s": "作者｜Li Yuan 编辑｜郑玄 长得像人，但是只能跳舞表演，根本没法真正干活。 这大概是过去几年人形机器人最尴尬的一幕…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372420"
     }
   ],
   "timeline": [
     [
-      "10-15 20:32",
+      "10-15 21:02",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-15 20:32",
+      "10-15 21:02",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
-      "10-15 20:32",
+      "10-15 21:02",
       "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 299486,
+      "s": 299511,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 292133,
+      "s": 292176,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 279889,
+      "s": 279907,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219964,
+      "s": 219971,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181281,
+      "s": 181283,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 150989,
+      "s": 150996,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141826,
+      "s": 141833,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126723,
+      "s": 126727,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112103,
+      "s": 112127,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106868,
+      "s": 106875,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
