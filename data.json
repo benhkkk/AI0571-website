@@ -1,26 +1,33 @@
 {
-  "updated": "2026-10-15T23:32:16",
+  "updated": "2026-10-15T23:58:35",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-15T23:32",
+      "d": "2026-10-15T23:58",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T23:32",
+      "d": "2026-10-15T23:58",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-15T23:32",
+      "d": "2026-10-15T23:58",
       "t": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程",
       "s": "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995304.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-15T23:38",
+      "t": "全球首家 AI 眼镜无人自助体验店登陆中国香港，乐奇 Rokid 打造",
+      "s": "AI+AR 智能眼镜品牌乐奇 Rokid 今日宣布，全球首家 AI 眼镜无人自助体验店于中国香港尖沙咀海港城正式开幕。这…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/013/680.htm"
     },
     {
       "c": "MODEL",
@@ -100,13 +107,6 @@
       "u": "https://www.ithome.com/1/013/618.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-15T19:29",
-      "t": "英伟达黄仁勋盛赞 OpenClaw 助力机器人技术发展，但权限管控必须得有",
-      "s": "据科技媒体 TechRadar 今天报道，英伟达首席执行官黄仁勋近期在伦敦的 Build a Claw 活动认为，Ope…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/013/610.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-15T19:27",
       "t": "TypeSafe 发布 Jev 1.14，支持看图做决策、以及更长上下文",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
-      "10-15 23:32",
+      "10-15 23:58",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-15 23:32",
+      "10-15 23:58",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
-      "10-15 23:32",
+      "10-15 23:58",
       "为显微镜装上\"AI大脑\"，中科显影发力高端显微成像国产化替代进程"
+    ],
+    [
+      "10-15 23:38",
+      "全球首家 AI 眼镜无人自助体验店登陆中国香港，乐奇 Rokid 打造"
     ],
     [
       "10-15 23:19",
@@ -162,10 +166,6 @@
     [
       "10-15 23:00",
       "Epic 喜加二：《烂奶酪》《Agent A - 伪装游戏》游戏免费领取"
-    ],
-    [
-      "10-15 22:42",
-      "Anthropic 抛弃 Git，选择自研版本控制系统 Scion"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 299608,
+      "s": 299630,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 292358,
+      "s": 292389,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 280007,
+      "s": 280028,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 219999,
+      "s": 220002,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181307,
+      "s": 181321,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151017,
+      "s": 151021,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141850,
+      "s": 141854,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126766,
+      "s": 126783,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112240,
+      "s": 112269,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 106919,
+      "s": 106930,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
