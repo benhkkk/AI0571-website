@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-10-17T05:31', t:'JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效', s:'JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260115/869495.shtml'},
     {c:'MODEL', d:'2026-10-16T22:47', t:'FADU 发布全球首款文件语义固态硬盘，支持加速器直接访问', s:'韩国固态硬盘主控与方案企业 FADU 在 2026 OCP 全球峰会上发布了世界首款 FS-SSD（文件语义固态硬盘）…（来源：IT之家）', u:'https://www.ithome.com/1/014/182.htm'},
     {c:'INDUSTRY', d:'2026-10-16T19:58', t:'三星携手 Reality Defender，面向新加坡企业用户开发端侧 AI 深度伪造检测方案', s:'三星宣布联合深度伪造检测公司 Reality Defender 合作，开发面向企业用户的端侧 AI 深度伪造检测方案。该…（来源：IT之家）', u:'https://www.ithome.com/1/014/144.htm'},
     {c:'HOT', d:'2026-10-16T19:50', t:'GOTC 系列活动 || 在 AI Native 时代，招募 200 位少年一起来创造！', s:'Technology Anchors the Future Sailing Toward the Stars and t…（来源：OSCHINA）', u:'https://www.oschina.net/news/503065'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-16T17:00', t:'苹果为「家」开场，果然家庭 AI 还是绕不开「语音+屏幕」', s:'家庭正在重新变成科技公司寻找下一个 AI 落点的地方#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精…（来源：爱范儿）', u:'https://www.ifanr.com/1684640?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-10-16T16:58', t:'硅谷AI杀疯了，DeepSeek们的性价比还剩多少？', s:'硅谷羊毛薅爽了，国产大模型贵得“烧心”？（来源：钛媒体）', u:'https://www.tmtpost.com/8170871.html'},
     {c:'HOT', d:'2026-10-16T16:58', t:'被半个互联网拒绝，豆包手机有解吗？', s:'谁也不想被AI绕过。（来源：钛媒体）', u:'https://www.tmtpost.com/8170908.html'},
+    {c:'INDUSTRY', d:'2026-10-16T16:39', t:'商用机器人公司值得更高估值', s:'机器人产业存在商业化成熟与早期初创公司估值差异，商业化好的公司估值低，早期公司却能快速飞升，资本裂缝仍存。（来源：钛媒体）', u:'https://www.tmtpost.com/8170590.html'},
   ];
   const TIMELINE = [
-    ['10-17 05:31','JPM2026|瑞孚迪关键词：28亿美元、AI、市场拓展与运营提效'],
     ['10-16 22:47','FADU 发布全球首款文件语义固态硬盘，支持加速器直接访问'],
     ['10-16 19:58','三星携手 Reality Defender，面向新加坡企业用户开发端侧 AI 深度伪造检测方案'],
     ['10-16 19:50','GOTC 系列活动 || 在 AI Native 时代，招募 200 位少年一起来创造！'],
     ['10-16 19:49','社交平台 Bluesky 扩展旗下 Attie AI 工具功能：支持创建小游戏、投票等社交应用'],
     ['10-16 19:33','推翻一切！Nick Cammarata 万字长文宣告，AI 不是黑箱，99% 神经元清晰可见'],
+    ['10-16 19:22','从"会用工具"到"能创造工具"，中国—中亚"校长π圆桌"，共话AI时代科技人才培养'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:300615, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:293981, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:281378, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220345, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181585, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:151228, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142022, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127235, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113050, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107358, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:300627, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:293992, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:281392, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220348, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181588, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:151230, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142023, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127236, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113049, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107366, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
