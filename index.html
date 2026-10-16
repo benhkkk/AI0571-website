@@ -459,9 +459,12 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-10-16T17:31', t:'AI服务器PCB可靠性如何破局？这场直播给你答案！', s:'AI服务器PCB可靠性如何破局？这场直播给你答案！（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261016/996137.shtml'},
-    {c:'MEDPHARMA', d:'2026-10-16T17:31', t:'商务部、科技部拟增列40项技术出口管制，涉及AI、生物医药、光伏三大领域', s:'商务部、科技部拟增列40项技术出口管制，涉及AI、生物医药、光伏三大领域（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261016/996135.shtml'},
-    {c:'MODEL', d:'2026-10-16T17:31', t:'先河环保繁星洞察智能体平台入选！2026年度人工智能赋能大气污染防治实践应用案例公布', s:'先河环保繁星洞察智能体平台入选！2026年度人工智能赋能大气污染防治实践应用案例公布（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261016/995991.shtml'},
+    {c:'HOT', d:'2026-10-16T17:59', t:'AI服务器PCB可靠性如何破局？这场直播给你答案！', s:'AI服务器PCB可靠性如何破局？这场直播给你答案！（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261016/996137.shtml'},
+    {c:'MEDPHARMA', d:'2026-10-16T17:59', t:'商务部、科技部拟增列40项技术出口管制，涉及AI、生物医药、光伏三大领域', s:'商务部、科技部拟增列40项技术出口管制，涉及AI、生物医药、光伏三大领域（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261016/996135.shtml'},
+    {c:'MODEL', d:'2026-10-16T17:59', t:'先河环保繁星洞察智能体平台入选！2026年度人工智能赋能大气污染防治实践应用案例公布', s:'先河环保繁星洞察智能体平台入选！2026年度人工智能赋能大气污染防治实践应用案例公布（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20261016/995991.shtml'},
+    {c:'INDUSTRY', d:'2026-10-16T17:50', t:'特斯拉都飞了，还要自动驾驶？', s:'马斯克用一台不依赖盈利、不依赖监管、纯靠物理奇观的车，抢回 "技术先锋" 的定义权。他亲口说的 "最后几辆人类驾驶汽车中…（来源：钛媒体）', u:'https://www.tmtpost.com/8171034.html'},
+    {c:'HOT', d:'2026-10-16T17:35', t:'新旧物种交手，机器人小店“吃”掉便利店的黄金周', s:'节后能否活下去才是真正的考验（来源：钛媒体）', u:'https://www.tmtpost.com/8171361.html'},
+    {c:'MODEL', d:'2026-10-16T17:33', t:'Muse能带火国内个人AI智能体吗？', s:'穿不透的墙太多了。（来源：钛媒体）', u:'https://www.tmtpost.com/8171318.html'},
     {c:'HOT', d:'2026-10-16T17:00', t:'苹果为「家」开场，果然家庭 AI 还是绕不开「语音+屏幕」', s:'家庭正在重新变成科技公司寻找下一个 AI 落点的地方#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精…（来源：爱范儿）', u:'https://www.ifanr.com/1684640?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-10-16T16:58', t:'硅谷AI杀疯了，DeepSeek们的性价比还剩多少？', s:'硅谷羊毛薅爽了，国产大模型贵得“烧心”？（来源：钛媒体）', u:'https://www.tmtpost.com/8170871.html'},
     {c:'HOT', d:'2026-10-16T16:58', t:'被半个互联网拒绝，豆包手机有解吗？', s:'谁也不想被AI绕过。（来源：钛媒体）', u:'https://www.tmtpost.com/8170908.html'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-16T15:55', t:'消息称 DeepSeek 将 Harness、Web、App、Platform 团队整合成立“产品部”', s:'据澎湃新闻今日报道，有消息称 DeepSeek 最近将 Harness 团队以及 Web、App、Platform 团队…（来源：IT之家）', u:'https://www.ithome.com/1/013/970.htm'},
     {c:'MODEL', d:'2026-10-16T15:55', t:'印度首次通报“失控智能体”：AI 模型测试时，擅自入侵企业业务系统', s:'据路透社今天（16 日）下午报道，印度计算机应急响应小组（CERT-In）披露，部分 AI 模型在测试期间擅自入侵印度多…（来源：IT之家）', u:'https://www.ithome.com/1/013/969.htm'},
     {c:'HOT', d:'2026-10-16T15:52', t:'海尔云溪 4.0 Pro 洗烘套装 8888 → 5488 元官方直降，AI 直驱 Pro 变频电机', s:'海尔云溪 4.0Pro 洗烘套装 75DW 日常售价 8888 元，今日京东官方旗舰店直降至 5498 元。另外咨询客服…（来源：IT之家）', u:'https://www.ithome.com/1/013/966.htm'},
-    {c:'MODEL', d:'2026-10-16T15:46', t:'Agent落地风电，将带来哪些改变？', s:'在新能源从补充能源变成主力能源的过程中，AI设备需要超越单点工具，突出系统协同价值。（来源：钛媒体）', u:'https://www.tmtpost.com/8171142.html'},
-    {c:'MODEL', d:'2026-10-16T15:36', t:'日租金跌至几百元，人形机器人的“打工时代”来了', s:'实用经济的序幕正式拉开（来源：钛媒体）', u:'https://www.tmtpost.com/8170280.html'},
-    {c:'HOT', d:'2026-10-16T15:36', t:'OpenAI入局，全球具身智能变天，中国企业如何打响资源整合反击战？', s:'谁还能留在牌桌上？（来源：钛媒体）', u:'https://www.tmtpost.com/8170706.html'},
   ];
   const TIMELINE = [
-    ['10-16 17:31','AI服务器PCB可靠性如何破局？这场直播给你答案！'],
-    ['10-16 17:31','商务部、科技部拟增列40项技术出口管制，涉及AI、生物医药、光伏三大领域'],
-    ['10-16 17:31','先河环保繁星洞察智能体平台入选！2026年度人工智能赋能大气污染防治实践应用案例公布'],
-    ['10-16 17:00','苹果为「家」开场，果然家庭 AI 还是绕不开「语音+屏幕」'],
-    ['10-16 16:58','硅谷AI杀疯了，DeepSeek们的性价比还剩多少？'],
-    ['10-16 16:58','被半个互联网拒绝，豆包手机有解吗？'],
+    ['10-16 17:59','AI服务器PCB可靠性如何破局？这场直播给你答案！'],
+    ['10-16 17:59','商务部、科技部拟增列40项技术出口管制，涉及AI、生物医药、光伏三大领域'],
+    ['10-16 17:59','先河环保繁星洞察智能体平台入选！2026年度人工智能赋能大气污染防治实践应用案例公布'],
+    ['10-16 17:50','特斯拉都飞了，还要自动驾驶？'],
+    ['10-16 17:35','新旧物种交手，机器人小店“吃”掉便利店的黄金周'],
+    ['10-16 17:33','Muse能带火国内个人AI智能体吗？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:300275, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:293388, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:280755, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220193, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181474, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:151152, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141948, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127053, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:112901, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107187, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:300298, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:293415, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:280783, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220198, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181480, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:151158, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:141950, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127060, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:112916, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107197, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
