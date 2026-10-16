@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-16T15:01:44",
+  "updated": "2026-10-16T15:31:29",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-16T15:01",
+      "d": "2026-10-16T15:31",
       "t": "库克确认苹果AI智能在华获批，计划12月上线",
       "s": "库克确认苹果AI智能在华获批，计划12月上线（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261016/995772.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-16T15:20",
+      "t": "AI 建站平台 Studio 遭黑客入侵：用户账号信息、外部服务 API 密钥泄露",
+      "s": "据外媒 ITMedia 报道，AI 网站制作平台 Studio 遭黑客入侵，平台所有注册用户的信息均被泄露，涉及用户账号…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/013/935.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-16T14:59",
+      "t": "禾盛新材1.9亿加码智算，主业难撑AI加速转型",
+      "s": "此次定增虽有助于推进AI布局、缓解资金压力，但尚无法覆盖已披露的全部资金需求。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8171133.html"
     },
     {
       "c": "MODEL",
@@ -65,13 +79,6 @@
       "u": "https://www.ithome.com/1/013/848.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-16T12:30",
-      "t": "AI概念股正在下跌，不妨看看这些板块来对冲风险",
-      "s": "由于对人工智能的担忧，投资者正纷纷撤离科技股。不过，市场上的许多其他板块看起来仍是不错的投资选择。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8170928.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-16T12:26",
       "t": "手机厂商的麻烦，AI背不了锅",
@@ -107,13 +114,6 @@
       "u": "https://www.oschina.net/news/503053"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-16T11:34",
-      "t": "微软完成 SOTA 基模 MAI-Base-2 预训练，性能强于所有参测开源权重模型",
-      "s": "Microsoft（微软）当地时间昨日宣布，其已经完成了新一代 SOTA 基础模型 MAI-Base-2 的预训练工作…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/013/835.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-16T11:21",
       "t": "双十一的AI经济学",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
-      "10-16 15:01",
+      "10-16 15:31",
       "库克确认苹果AI智能在华获批，计划12月上线"
+    ],
+    [
+      "10-16 15:20",
+      "AI 建站平台 Studio 遭黑客入侵：用户账号信息、外部服务 API 密钥泄露"
+    ],
+    [
+      "10-16 14:59",
+      "禾盛新材1.9亿加码智算，主业难撑AI加速转型"
     ],
     [
       "10-16 14:54",
@@ -158,14 +166,6 @@
     [
       "10-16 14:41",
       "苹果和 Meta 和好了，是 AI 逼的"
-    ],
-    [
-      "10-16 14:30",
-      "马斯克：第二代 Roadster 将是最后一款“人工驾驶”特斯拉车型"
-    ],
-    [
-      "10-16 14:14",
-      "丹麦最高法院裁定：AI 生成儿童色情内容同样获刑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 300161,
+      "s": 300183,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 293211,
+      "s": 293241,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 280642,
+      "s": 280669,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220154,
+      "s": 220159,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181448,
+      "s": 181454,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151123,
+      "s": 151129,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141927,
+      "s": 141929,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127011,
+      "s": 127018,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112797,
+      "s": 112817,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107135,
+      "s": 107144,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
