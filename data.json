@@ -1,30 +1,30 @@
 {
-  "updated": "2026-10-16T13:01:41",
+  "updated": "2026-10-16T13:17:37",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-10-16T13:01",
+      "d": "2026-10-16T13:17",
       "t": "库克确认苹果AI智能在华获批，计划12月上线",
       "s": "库克确认苹果AI智能在华获批，计划12月上线（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261016/995772.shtml"
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-10-16T13:01",
+      "d": "2026-10-16T13:17",
       "t": "生物医药顶层设计落地下的科学仪器与AI制药新机遇",
       "s": "生物医药顶层设计落地下的科学仪器与AI制药新机遇（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995370.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-16T13:01",
+      "d": "2026-10-16T13:17",
       "t": "你的资讯为什么没人看？AI写稿+一键润色10分钟提升专业度！",
       "s": "你的资讯为什么没人看？AI写稿+一键润色10分钟提升专业度！（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995367.shtml"
     },
     {
       "c": "HOT",
-      "d": "2026-10-16T13:01",
+      "d": "2026-10-16T13:17",
       "t": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革",
       "s": "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革（来源：仪器信息网）",
       "u": "https://www.instrument.com.cn/news/20261015/995364.shtml"
@@ -42,13 +42,6 @@
       "t": "腾讯 WorkBuddy 和 CodeBuddy 宣布 DeepSeek 服务故障用户 7 天内积分全额返还，额外送 500 积分",
       "s": "DeepSeek 网页 / API 服务 10 月 15 日早间出现服务问题，经过近 5 个小时的修复恢复正常。对此，D…（来源：IT之家）",
       "u": "https://www.ithome.com/1/013/848.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-16T12:30",
-      "t": "AI概念股正在下跌，不妨看看这些板块来对冲风险",
-      "s": "由于对人工智能的担忧，投资者正纷纷撤离科技股。不过，市场上的许多其他板块看起来仍是不错的投资选择。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8170928.html"
     },
     {
       "c": "MODEL",
@@ -140,23 +133,30 @@
       "t": "Kling 4.0正式上线：10-bit HDR、30秒原生直出 刷新视频模型新基准",
       "s": "10月15日，可灵AI新一代视频生成模型 Kling 4.0 正式上线。真实、可控、专业，是这一代模型升级的核心方向。K…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/1GERVRJ72xJKmsus.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-16T10:36",
+      "t": "阿里千问上车宝马iX3",
+      "s": "在2026宝马集团中国创新日上，宝马宣布新世代BMW iX3将搭载专为中国市场打造的座舱AI能力。该能力由宝马与阿里巴巴…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/1zjGZ4srbO3kyVEw.html"
     }
   ],
   "timeline": [
     [
-      "10-16 13:01",
+      "10-16 13:17",
       "库克确认苹果AI智能在华获批，计划12月上线"
     ],
     [
-      "10-16 13:01",
+      "10-16 13:17",
       "生物医药顶层设计落地下的科学仪器与AI制药新机遇"
     ],
     [
-      "10-16 13:01",
+      "10-16 13:17",
       "你的资讯为什么没人看？AI写稿+一键润色10分钟提升专业度！"
     ],
     [
-      "10-16 13:01",
+      "10-16 13:17",
       "丹纳赫牵手英伟达共建自主科学体系，AI 闭环加速科研范式变革"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 300077,
+      "s": 300084,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 293106,
+      "s": 293117,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 280569,
+      "s": 280577,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220126,
+      "s": 220128,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151104,
+      "s": 151106,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 141905,
+      "s": 141909,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 126977,
+      "s": 126982,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 112718,
+      "s": 112732,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107106,
+      "s": 107108,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
