@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-18T02:01:53",
+  "updated": "2026-10-18T02:31:43",
   "news": [
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-18T02:01",
-      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
-      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
-    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-17T22:11",
@@ -140,13 +133,16 @@
       "t": "AI 撬动量子计算：Anthropic 称 Claude 设计的量子电路超越顶尖现有方案",
       "s": "Anthropic 于 10 月 16 日发布研究称，其 AI 模型 Claude 在几乎无需人工干预的情况下，针对 8…（来源：IT之家）",
       "u": "https://www.ithome.com/1/014/317.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-17T15:38",
+      "t": "夹在字节缝隙中的AI融资明星们",
+      "s": "即梦、小云雀传出合并，AI视频公司如何在字节焦虑中上市。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8171535.html"
     }
   ],
   "timeline": [
-    [
-      "10-18 02:01",
-      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
-    ],
     [
       "10-17 22:11",
       "中信建投:AI加速重塑制药传统研发范式"
@@ -166,6 +162,10 @@
     [
       "10-17 20:06",
       "Claude半小时解开密码学悬案，学界集体走偏20年"
+    ],
+    [
+      "10-17 19:56",
+      "华硕推出旗下首款英特尔 Arc Pro B70 显卡：32GB ECC 显存，AI 算力达 367 TOPS"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301092,
+      "s": 301106,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 294849,
+      "s": 294885,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 282204,
+      "s": 282234,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220566,
+      "s": 220570,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181740,
+      "s": 181746,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151545,
+      "s": 151566,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142116,
+      "s": 142120,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127633,
+      "s": 127657,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113232,
+      "s": 113239,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107741,
+      "s": 107756,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
