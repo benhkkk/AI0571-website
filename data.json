@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-17T13:01:14",
+  "updated": "2026-10-17T13:31:08",
   "news": [
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-17T13:01",
-      "t": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平",
-      "s": "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平（来源：仪器信息网）",
-      "u": "https://www.instrument.com.cn/news/20250529/787176.shtml"
+      "c": "HOT",
+      "d": "2026-10-17T13:31",
+      "t": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室",
+      "s": "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260617/921833.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-17T13:31",
+      "t": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君",
+      "s": "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260513/902237.shtml"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-17T13:18",
+      "t": "AI开始接管毛孩子的“终身大事”",
+      "s": "智能养宠，从单品走向长期服务（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8171403.html"
     },
     {
       "c": "HOT",
@@ -126,26 +140,20 @@
       "t": "Jync v1.7.5 AI 配置接入本地模型（Ollama 预设 + 深度思考档位）",
       "s": "Jync 捷同 是一个异构数据库实时同步工具。在异构数据库之间实时同步结构与数据的开箱即用 Web 应用：单个 jar …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503068/jync-1-7-5-released"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-16T22:25",
-      "t": "划词 AI 工具拾趣 Magpie Release v0.1.14，重磅发布 Windows 版",
-      "s": "Magpie拾趣：跨平台沉浸式自定义AI 划词工具 文本提取 · 内容翻译 · 信息整理 划选或双击，浮动条随即弹出：翻…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503067/magpie-0-1-14-released-windows-ver"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-16T22:09",
-      "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
-      "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503066/nocobase-updated"
     }
   ],
   "timeline": [
     [
-      "10-17 13:01",
-      "近两成营收投入研发，以‘技术+全球+AI’锻造硬核护城河——访皖仪科技战略运营中心总经理胡爱平"
+      "10-17 13:31",
+      "3i海洋头条|首个AI-原生海洋生物智造闭环系统|丹纳赫联手鹭江创新实验室"
+    ],
+    [
+      "10-17 13:31",
+      "跳出“替代”思维，聚焦AI与多维的光谱解题思路——访谱光慧联总经理任祺君"
+    ],
+    [
+      "10-17 13:18",
+      "AI开始接管毛孩子的“终身大事”"
     ],
     [
       "10-17 12:19",
@@ -158,14 +166,6 @@
     [
       "10-17 11:30",
       "行业首个基于确定性网络的智能体互联平台 AXP 在南京发布：支持百万级智能体注册接入、十万级智能体同时运行"
-    ],
-    [
-      "10-17 10:55",
-      "微软发布法律版 Copilot：律师的 AI 新同事，整合审查合同等超 20 项技能"
-    ],
-    [
-      "10-17 10:42",
-      "“台积电的获利能力没有上限”，魏哲家称 AI 需求持续升温、供需缺口仍大"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 300765,
+      "s": 300771,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 294240,
+      "s": 294254,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 281649,
+      "s": 281666,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220401,
+      "s": 220403,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181633,
+      "s": 181636,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151277,
+      "s": 151281,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142045,
+      "s": 142050,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127302,
+      "s": 127312,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113091,
+      "s": 113093,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107465,
+      "s": 107476,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
