@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-17T15:31:10",
+  "updated": "2026-10-17T16:01:34",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-17T15:42",
+      "t": "AI 撬动量子计算：Anthropic 称 Claude 设计的量子电路超越顶尖现有方案",
+      "s": "Anthropic 于 10 月 16 日发布研究称，其 AI 模型 Claude 在几乎无需人工干预的情况下，针对 8…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/317.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-17T15:38",
+      "t": "夹在字节缝隙中的AI融资明星们",
+      "s": "即梦、小云雀传出合并，AI视频公司如何在字节焦虑中上市。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8171535.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-17T15:28",
@@ -59,13 +73,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-17T13:39",
-      "t": "英伟达黄仁勋称 AI 现在不是泡沫，安全不应成为减速理由",
-      "s": "英国当地时间 10 月 14 日在伦敦接受彭博记者 Emily Chang 采访时，英伟达首席执行官黄仁勋表示当前 AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/274.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-17T13:36",
       "t": "我被AI诈骗盯上了",
       "s": "当诈骗用上AI，照片、声音、视频都不是真的。（来源：钛媒体）",
@@ -84,13 +91,6 @@
       "t": "AI开始接管毛孩子的“终身大事”",
       "s": "智能养宠，从单品走向长期服务（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8171403.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-17T11:09",
-      "t": "公用事业股高股息，而且比其他AI概念股更稳",
-      "s": "该板块在经历了表现平平的一年后，目前估值颇具吸引力，并提供可观的股息以及强劲的盈利增长。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8171902.html"
     },
     {
       "c": "MODEL",
@@ -121,13 +121,6 @@
       "u": "https://www.ifanr.com/1684782?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-10-17T08:22",
-      "t": "iPhone Duo 一秒售罄，发货排到明年；马斯克：考虑自建电商平台；谷歌创始人：AI 正开始自己造自己",
-      "s": "苹果官网 2026 年的 iPhone Duo 已售罄！发货日期排到明年 1 月 22 日 10 月 16 日，苹果首款…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372488"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-16T23:54",
       "t": "Jync v1.7.5 AI 配置接入本地模型（Ollama 预设 + 深度思考档位）",
@@ -140,9 +133,24 @@
       "t": "划词 AI 工具拾趣 Magpie Release v0.1.14，重磅发布 Windows 版",
       "s": "Magpie拾趣：跨平台沉浸式自定义AI 划词工具 文本提取 · 内容翻译 · 信息整理 划选或双击，浮动条随即弹出：翻…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503067/magpie-0-1-14-released-windows-ver"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-16T22:09",
+      "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
+      "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503066/nocobase-updated"
     }
   ],
   "timeline": [
+    [
+      "10-17 15:42",
+      "AI 撬动量子计算：Anthropic 称 Claude 设计的量子电路超越顶尖现有方案"
+    ],
+    [
+      "10-17 15:38",
+      "夹在字节缝隙中的AI融资明星们"
+    ],
     [
       "10-17 15:28",
       "Anthropic 宣布 10 月 29 日从模型选项中移除 Claude Haiku 4.5"
@@ -158,14 +166,6 @@
     [
       "10-17 14:36",
       "DeepSeek 上线网页搜索与抓取 API、API 短暂出现 V4.1 Flash-1017 快照、Harness v0.2.1-rc1 发布"
-    ],
-    [
-      "10-17 14:32",
-      "我国首个全自主可控气象 AI 集合预报系统“风清”正式投入业务运行"
-    ],
-    [
-      "10-17 14:29",
-      "AI 的下一个前沿在哪里？数百位创业者在上海给出了这些答案"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 300843,
+      "s": 300859,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 294333,
+      "s": 294360,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 281739,
+      "s": 281764,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220420,
+      "s": 220427,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181645,
+      "s": 181649,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151299,
+      "s": 151301,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142063,
+      "s": 142066,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127350,
+      "s": 127362,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113108,
+      "s": 113120,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107511,
+      "s": 107532,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
