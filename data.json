@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-17T09:31:22",
+  "updated": "2026-10-17T10:02:03",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-17T09:38",
+      "t": "论人情世故，腾讯这批闯祸的Agent上大分了",
+      "s": "为了看一眼高德地图的数据，腾讯Agent用尽无数方法，最后还不忘说“谢谢啊！”（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8171428.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-17T09:29",
@@ -133,16 +140,13 @@
       "t": "Muse能带火国内个人AI智能体吗？",
       "s": "穿不透的墙太多了。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8171318.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-16T17:05",
-      "t": "3天310.6亿元!阿斯利康、吉利德争相下注AI制药",
-      "s": "3天310.6亿元!阿斯利康、吉利德争相下注AI制药（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7697189122628174374/"
     }
   ],
   "timeline": [
+    [
+      "10-17 09:38",
+      "论人情世故，腾讯这批闯祸的Agent上大分了"
+    ],
     [
       "10-17 09:29",
       "AI 数秒写完代码，初级程序员如何成长？微软推出 PRAISE 为程序员指明出路"
@@ -162,10 +166,6 @@
     [
       "10-17 08:43",
       "223 道题、2651 条标准：阿里 Qwen 开源 BlenderWorld，给 AI 出了一套 3D 建模大考"
-    ],
-    [
-      "10-17 08:31",
-      "ChatGPT 能替你操作谷歌 Chrome 浏览器了：读网页、网购比价、发消息等"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 300687,
+      "s": 300701,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 294109,
+      "s": 294126,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 281535,
+      "s": 281559,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220371,
+      "s": 220377,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181609,
+      "s": 181614,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151253,
+      "s": 151258,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142026,
+      "s": 142030,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127263,
+      "s": 127269,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113066,
+      "s": 113071,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107411,
+      "s": 107415,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
