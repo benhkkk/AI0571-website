@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-18T17:02:11",
+  "updated": "2026-10-18T17:31:58",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-18T17:31",
+      "t": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限",
+      "s": "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260625/927385.shtml"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-18T16:44",
@@ -86,13 +93,6 @@
       "u": "https://www.oschina.net/news/503072"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-18T10:06",
-      "t": "贝莱德的债券大师正在以下3个领域寻找收益",
-      "s": "他目前看好人工智能超大规模云服务商的债务以及新兴市场债券的投资机会。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172244.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-18T09:57",
       "t": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
@@ -121,6 +121,13 @@
       "u": "https://www.tmtpost.com/8172188.html"
     },
     {
+      "c": "HOT",
+      "d": "2026-10-18T09:57",
+      "t": "从假靳东到AI小海：变脸的AI，不变的生意",
+      "s": "这个孩子不必长大，只需要不停地遇上麻烦（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8172140.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-18T08:39",
       "t": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
@@ -133,16 +140,13 @@
       "t": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
       "s": "Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503070"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-17T22:11",
-      "t": "中信建投:AI加速重塑制药传统研发范式",
-      "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7697639034067223083/"
     }
   ],
   "timeline": [
+    [
+      "10-18 17:31",
+      "3i奖-优秀新品专访|全自动机器人平行高压反应釜：让危险实验归于智能·让科研效率突破极限"
+    ],
     [
       "10-18 16:44",
       "消息称“AI 玩具”赛道火热：市场高速增长但投资大幅降温，同质化高、退货问题凸显"
@@ -162,10 +166,6 @@
     [
       "10-18 15:51",
       "高通中国区董事长孟樸：终端侧 AI 正发挥重要作用，智能体的发展进一步加速这一趋势"
-    ],
-    [
-      "10-18 15:43",
-      "Anthropic 与律所商讨 AI 代理谈判规则：可替用户砍价、处理纠纷或谈薪资"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301361,
+      "s": 301368,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 295475,
+      "s": 295503,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 282830,
+      "s": 282849,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220773,
+      "s": 220783,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181850,
+      "s": 181856,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152165,
+      "s": 152174,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127963,
+      "s": 127976,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113348,
+      "s": 113355,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107965,
+      "s": 107975,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
