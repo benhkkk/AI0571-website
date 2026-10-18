@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-18T23:02:12",
+  "updated": "2026-10-18T23:31:58",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-18T23:16",
+      "t": "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿",
+      "s": "据科技媒体 TechSpot 今天报道，索尼最近申请一项专利，描绘以下场景：让 AI 在 GPU 完成渲染前预测下一帧画…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/615.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-18T22:37",
@@ -65,13 +72,6 @@
       "u": "https://www.ithome.com/1/014/574.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-18T18:36",
-      "t": "硬件设计解谜游戏《绘芯：造出你的第一颗 GPU》试玩版上线 Steam，游戏明年第一季度发售",
-      "s": "硬件设计解谜游戏《绘芯：造出你的第一颗 GPU》试玩版现已登陆 Steam 平台，目前可免费下载体验，游戏完整版本预计 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/573.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-18T15:55",
       "t": "美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生",
@@ -100,6 +100,13 @@
       "u": "https://www.oschina.net/news/503072"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-10-18T10:06",
+      "t": "贝莱德的债券大师正在以下3个领域寻找收益",
+      "s": "他目前看好人工智能超大规模云服务商的债务以及新兴市场债券的投资机会。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8172244.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-18T09:57",
       "t": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
@@ -112,13 +119,6 @@
       "t": "当地方政府成为机器人的第一大客户",
       "s": "数采中心的本质，是政府对具身智能的补贴形式从现金补贴改成了采购订单。这在产业史上不新鲜——光伏、新能源车、AI四小龙都走…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8172207.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-18T09:57",
-      "t": "小红书的AI，开始和自己的生意算账",
-      "s": "AI开始重构小红书的流量、广告与创作者生意。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172205.html"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-18 23:16",
+      "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿"
+    ],
+    [
       "10-18 22:37",
       "中美AI竞争的新变量：开源、算力与产业生态"
     ],
@@ -162,10 +166,6 @@
     [
       "10-18 20:21",
       "研究人员让 6 款 AI 智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险"
-    ],
-    [
-      "10-18 19:59",
-      "DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301495,
+      "s": 301505,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 295820,
+      "s": 295842,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283036,
+      "s": 283055,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220871,
+      "s": 220881,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181922,
+      "s": 181924,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142197,
+      "s": 142201,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128146,
+      "s": 128158,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113403,
+      "s": 113407,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108057,
+      "s": 108064,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
