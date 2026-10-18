@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-18T19:02:02",
+  "updated": "2026-10-18T19:28:35",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-18T19:28",
+      "t": "如何用Deepseek组装测序仪？",
+      "s": "如何用Deepseek组装测序仪？（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20250326/774491.shtml"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-18T19:26",
+      "t": "数毛社：《GTA6》发售预告片并未采用 QSSR 技术，游戏原始剪辑素材应为 1440P 分辨率",
+      "s": "索尼在本月初为标准版 PS5 游戏主机推出基于人工智能的超分辨率 QSSR。该技术率先在《漫威金刚狼》《羊蹄山之魂》上得…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/580.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-18T19:10",
+      "t": "世界银行：小型 AI 有望改变发展中国家",
+      "s": "据《卫报》今天报道，世界银行正敦促发展中国家开发小型 AI 模型。这类模型可在网络连接条件较差的地区，通过端侧模式运行于…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/577.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-18T18:42",
@@ -49,20 +70,6 @@
       "t": "美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生",
       "s": "独特的“美国与东亚二象性”（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8172334.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-18T15:51",
-      "t": "高通中国区董事长孟樸：终端侧 AI 正发挥重要作用，智能体的发展进一步加速这一趋势",
-      "s": "据新浪科技今日报道，2026 东北亚（沈阳）人才交流大会暨人工智能赋能产业发展大会在沈阳开幕。高通公司中国区董事长孟樸出…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/522.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-18T15:43",
-      "t": "Anthropic 与律所商讨 AI 代理谈判规则：可替用户砍价、处理纠纷或谈薪资",
-      "s": "据《金融时报》今日报道，Anthropic 正与律所等法律机构磋商，以解决一个全新难题：AI 智能体应当如何谈判，为人类…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/519.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,21 @@
       "t": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
       "s": "Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503070"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-17T22:11",
-      "t": "中信建投:AI加速重塑制药传统研发范式",
-      "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7697639034067223083/"
     }
   ],
   "timeline": [
+    [
+      "10-18 19:28",
+      "如何用Deepseek组装测序仪？"
+    ],
+    [
+      "10-18 19:26",
+      "数毛社：《GTA6》发售预告片并未采用 QSSR 技术，游戏原始剪辑素材应为 1440P 分辨率"
+    ],
+    [
+      "10-18 19:10",
+      "世界银行：小型 AI 有望改变发展中国家"
+    ],
     [
       "10-18 18:42",
       "微软取消 AI 相关合作，英国本土数据中心企业 Nscale 遭遇重大挫折"
@@ -154,18 +166,6 @@
     [
       "10-18 18:33",
       "京东京造推出 G70Pro 双摄掌静脉智能门锁：支持 AI 语音对话，1882 元（国补后 1599 元）"
-    ],
-    [
-      "10-18 16:44",
-      "消息称“AI 玩具”赛道火热：市场高速增长但投资大幅降温，同质化高、退货问题凸显"
-    ],
-    [
-      "10-18 16:36",
-      "京东：未来 5 年将创造超 10 万个机器人维修工程师就业岗位"
-    ],
-    [
-      "10-18 16:32",
-      "王腾分享“从小米离职一年以来心路历程”：还是非常感谢小米、感谢雷总"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301396,
+      "s": 301405,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 295576,
+      "s": 295601,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 282920,
+      "s": 282936,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220809,
+      "s": 220814,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181873,
+      "s": 181880,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152198,
+      "s": 152203,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142170,
+      "s": 142172,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128004,
+      "s": 128015,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113367,
+      "s": 113368,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107996,
+      "s": 108002,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
