@@ -459,9 +459,13 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-18T12:31', t:'如何用Deepseek组装测序仪？', s:'如何用Deepseek组装测序仪？（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20250326/774491.shtml'},
+    {c:'HOT', d:'2026-10-18T12:27', t:'Anthropic 联合创始人：到 2030 年 AI 有望推动美国 GDP 增长近 50%', s:'Anthropic 联合创始人杰克 · 克拉克（Jack Clark）于当地时间周六表示，人工智能能力的快速进步，将推动…（来源：IT之家）', u:'https://www.ithome.com/1/014/483.htm'},
+    {c:'MODEL', d:'2026-10-18T12:20', t:'Huggingface发榜，中国模型StartLux稳居决策模型SOTA', s:'当 AI 从“生成内容”迈向“执行任务”，一个能够控制计算成本、理解关键细节并准确表达不确定性的决策中枢，将成为智能体和…（来源：钛媒体）', u:'https://www.tmtpost.com/8172283.html'},
     {c:'HOT', d:'2026-10-18T11:43', t:'李未可 X-AI 记忆眼镜预售：能持续录音 12 小时、支持 128 种语言实时翻译，699 元起', s:'李未可 Lawaken X-AI 记忆眼镜现已预售，预售到手价 699 元起：枪色经典圈丝框：699 元深灰板材圆框：8…（来源：IT之家）', u:'https://www.ithome.com/1/014/477.htm'},
     {c:'MODEL', d:'2026-10-18T10:07', t:'AIGCPanel v2.6.0 照片直接生成数字人形象，语音合成参数可调', s:'做数字人形象不用录视频了，一张自拍就行。语音合成参数改到生成时微调、任务调度补上兜底，也都在这一版里。 📷 一张照片，就…（来源：OSCHINA）', u:'https://www.oschina.net/news/503072'},
     {c:'INDUSTRY', d:'2026-10-18T10:06', t:'“能装一个宇宙”：我国首个十万卡 AI 超集群真机亮相', s:'据央视新闻报道，正在深圳举行的 2026 全国高性能计算学术大会上，今年刚刚建成的我国首个全国产十万卡 AI 超集群真机…（来源：IT之家）', u:'https://www.ithome.com/1/014/456.htm'},
+    {c:'FUNDING', d:'2026-10-18T10:06', t:'贝莱德的债券大师正在以下3个领域寻找收益', s:'他目前看好人工智能超大规模云服务商的债务以及新兴市场债券的投资机会。（来源：钛媒体）', u:'https://www.tmtpost.com/8172244.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家', s:'AI叙事转向重视投入回报，进入财务纪律驱动新阶段（来源：钛媒体）', u:'https://www.tmtpost.com/8171909.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'当地方政府成为机器人的第一大客户', s:'数采中心的本质，是政府对具身智能的补贴形式从现金补贴改成了采购订单。这在产业史上不新鲜——光伏、新能源车、AI四小龙都走…（来源：钛媒体）', u:'https://www.tmtpost.com/8172207.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'小红书的AI，开始和自己的生意算账', s:'AI开始重构小红书的流量、广告与创作者生意。（来源：钛媒体）', u:'https://www.tmtpost.com/8172205.html'},
@@ -470,35 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-18T09:57', t:'为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”', s:'为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”（来源：钛媒体）', u:'https://www.tmtpost.com/8172155.html'},
     {c:'HOT', d:'2026-10-18T09:52', t:'充电 9 分钟可工作 90 分钟，Agility Robotics 为 Digit 5 人形机器人搭载 Nyobolt 快充电池', s:'Agility Robotics 的下一代人形机器人，设计目标是把一天中更多时间用于搬运货物，减少插电充电的时间。据IT…（来源：IT之家）', u:'https://www.ithome.com/1/014/454.htm'},
     {c:'MODEL', d:'2026-10-18T09:22', t:'Anthropic 报告：AI 重塑公司用工结构，初级技术岗招聘明显收缩', s:'Anthropic 于当地时间周五发布的一份报告显示，过去一年里，公司员工构成与业务工作形态都发生了显著变化。Anthr…（来源：IT之家）', u:'https://www.ithome.com/1/014/450.htm'},
-    {c:'MODEL', d:'2026-10-18T09:00', t:'Edge AI Daily 早报（10月18日）', s:'OpenAI宣称AI完成纳维-斯托克斯证明引发数学界审查，并从xAI挖角销售负责人、以Chrome扩展将ChatGPT嵌…（来源：钛媒体）', u:'https://www.tmtpost.com/8172210.html'},
     {c:'HOT', d:'2026-10-18T08:56', t:'特斯拉延长奥斯汀 Robotaxi 运营时间至午夜，FSD v15 将支持全天候运营', s:'特斯拉再次延长奥斯汀地区自动驾驶出租车（Robotaxi）的运营时间。X 平台用户伊桑 · 麦肯纳（ethanmckan…（来源：IT之家）', u:'https://www.ithome.com/1/014/444.htm'},
     {c:'HOT', d:'2026-10-18T08:42', t:'极夜公布 AI 双卡工作站 DeskOne A1，基于英特尔酷睿 Ultra 9 处理器 275HX', s:'极夜 (TOPFEEL) 昨日公布了其 AI 双卡工作站 DeskOne A1。这一型号基于英特尔酷睿 Ultra 9 …（来源：IT之家）', u:'https://www.ithome.com/1/014/440.htm'},
     {c:'MODEL', d:'2026-10-18T08:39', t:'DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道', s:'DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真 10 月 17 日，DeepSeek V4.1 …（来源：极客公园）', u:'http://www.geekpark.net/news/372512'},
     {c:'INDUSTRY', d:'2026-10-18T08:35', t:'科乐美社长早川英树谈 AI 对游戏开发的影响：最重要的依然是“人”，是“创作者”', s:'据日本游戏媒体“电击 ONLINE”报道，科乐美（Konami）社长早川英树谈及了人工智能对游戏行业带来的影响。早川英树…（来源：IT之家）', u:'https://www.ithome.com/1/014/439.htm'},
-    {c:'MODEL', d:'2026-10-18T08:29', t:'魅族 22 手机推送 Flyme AIOS 12.7.0.0A 稳定版升级，更新「超级 Aicy」助手等功能', s:'FlymeAIOS 在 10 月 16 日宣布，个人事务 AI 智能体超级 Aicy 开放首批内测名额，10 月 16 …（来源：IT之家）', u:'https://www.ithome.com/1/014/438.htm'},
     {c:'MODEL', d:'2026-10-18T00:40', t:'Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒', s:'Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）', u:'https://www.oschina.net/news/503070'},
-    {c:'MEDPHARMA', d:'2026-10-17T22:11', t:'中信建投:AI加速重塑制药传统研发范式', s:'中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）', u:'https://www.toutiao.com/article/7697639034067223083/'},
-    {c:'MODEL', d:'2026-10-17T20:21', t:'突发！DeepSeek新模型发布，超级性价比斩杀一切', s:'新版本V4.1-Flash-1017，还开放了自研搜索API（来源：量子位）', u:'https://www.qbitai.com/2026/10/504067.html'},
   ];
   const TIMELINE = [
+    ['10-18 12:31','如何用Deepseek组装测序仪？'],
+    ['10-18 12:27','Anthropic 联合创始人：到 2030 年 AI 有望推动美国 GDP 增长近 50%'],
+    ['10-18 12:20','Huggingface发榜，中国模型StartLux稳居决策模型SOTA'],
     ['10-18 11:43','李未可 X-AI 记忆眼镜预售：能持续录音 12 小时、支持 128 种语言实时翻译，699 元起'],
     ['10-18 10:07','AIGCPanel v2.6.0 照片直接生成数字人形象，语音合成参数可调'],
     ['10-18 10:06','“能装一个宇宙”：我国首个十万卡 AI 超集群真机亮相'],
-    ['10-18 09:57','当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家'],
-    ['10-18 09:57','当地方政府成为机器人的第一大客户'],
-    ['10-18 09:57','小红书的AI，开始和自己的生意算账'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:301271, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:295230, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:282625, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220697, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181815, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:151850, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142148, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127853, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113323, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107890, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:301280, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:295250, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:282648, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220703, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181817, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:151869, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142149, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127861, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113325, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107895, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
