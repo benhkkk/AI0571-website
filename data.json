@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T00:31:34",
+  "updated": "2026-10-19T01:01:54",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-19T01:01",
+      "t": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案",
+      "s": "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案（来源：仪器信息网）",
+      "u": "https://www.instrument.com.cn/news/20260113/868798.shtml"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-18T23:16",
@@ -133,16 +140,13 @@
       "t": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
       "s": "Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503070"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-17T22:11",
-      "t": "中信建投:AI加速重塑制药传统研发范式",
-      "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7697639034067223083/"
     }
   ],
   "timeline": [
+    [
+      "10-19 01:01",
+      "米瑞博与CMP达成战略合作，开发AI驱动CE-MS解决方案"
+    ],
     [
       "10-18 23:16",
       "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿"
@@ -162,10 +166,6 @@
     [
       "10-18 20:37",
       "科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）"
-    ],
-    [
-      "10-18 20:21",
-      "研究人员让 6 款 AI 智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301521,
+      "s": 301531,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 295900,
+      "s": 295924,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283073,
+      "s": 283083,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220892,
+      "s": 220895,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181936,
+      "s": 181939,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152225,
+      "s": 152229,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128192,
+      "s": 128213,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113413,
+      "s": 113418,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108083,
+      "s": 108090,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
