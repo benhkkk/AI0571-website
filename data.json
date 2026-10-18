@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T06:31:47",
+  "updated": "2026-10-19T07:02:11",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-19T06:52",
+      "t": "Anthropic 拟设立“公共利益”基金，初始注入 5% 股份",
+      "s": "当地时间 10 月 18 日，Anthropic 宣布，在获得股东批准的前提下，公司计划将 5% 的股份划入新设立的公共…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/622.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-18T23:16",
@@ -63,13 +70,6 @@
       "t": "世界银行：小型 AI 有望改变发展中国家",
       "s": "据《卫报》今天报道，世界银行正敦促发展中国家开发小型 AI 模型。这类模型可在网络连接条件较差的地区，通过端侧模式运行于…（来源：IT之家）",
       "u": "https://www.ithome.com/1/014/577.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-18T18:42",
-      "t": "微软取消 AI 相关合作，英国本土数据中心企业 Nscale 遭遇重大挫折",
-      "s": "据《每日电讯报》今天报道，微软已取消的与英国本土数据中心企业 Nscale 的一项合作协议，后者价值数十亿美元的上市计划…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/574.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-19 06:52",
+      "Anthropic 拟设立“公共利益”基金，初始注入 5% 股份"
+    ],
+    [
       "10-18 23:16",
       "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿"
     ],
@@ -162,10 +166,6 @@
     [
       "10-18 20:37",
       "科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）"
-    ],
-    [
-      "10-18 20:21",
-      "研究人员让 6 款 AI 智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301625,
+      "s": 301634,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296127,
+      "s": 296146,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283240,
+      "s": 283258,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220949,
+      "s": 220952,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181983,
+      "s": 181988,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152248,
+      "s": 152249,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128381,
+      "s": 128389,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113462,
+      "s": 113465,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108180,
+      "s": 108184,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
