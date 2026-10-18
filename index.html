@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-18T18:31', t:'#AI for MS', s:'#AI for MS（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/topic-755.html'},
+    {c:'MEDDEVICE', d:'2026-10-18T18:31', t:'下一代质谱软件，会不会像DeepSeek一样工作？', s:'下一代质谱软件，会不会像DeepSeek一样工作？（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20260714/940118.shtml'},
+    {c:'MODEL', d:'2026-10-18T18:31', t:'提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析', s:'提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析（来源：仪器信息网）', u:'https://www.instrument.com.cn/news/20251205/858901.shtml'},
     {c:'FUNDING', d:'2026-10-18T16:44', t:'消息称“AI 玩具”赛道火热：市场高速增长但投资大幅降温，同质化高、退货问题凸显', s:'据“Tech 星球”报道，近期“AI 玩具”火热，参考工信部数据，2025 年中国 AI 玩具市场规模达 290 亿元…（来源：IT之家）', u:'https://www.ithome.com/1/014/540.htm'},
     {c:'MODEL', d:'2026-10-18T16:36', t:'京东：未来 5 年将创造超 10 万个机器人维修工程师就业岗位', s:'据京东黑板报，在京东推出机器人维修售后服务一年之际，京东已经与智元、云深处、众擎、松延动力等近百家机器人企业达成售后维修…（来源：IT之家）', u:'https://www.ithome.com/1/014/537.htm'},
     {c:'MODEL', d:'2026-10-18T16:32', t:'王腾分享“从小米离职一年以来心路历程”：还是非常感谢小米、感谢雷总', s:'王腾创立的 ISHO 今日宜休 AI 健康科学团队近期正式对外亮相。借此契机，王腾接受媒体“界面新闻”采访，分享了从小米…（来源：IT之家）', u:'https://www.ithome.com/1/014/529.htm'},
@@ -471,34 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-18T12:20', t:'Huggingface发榜，中国模型StartLux稳居决策模型SOTA', s:'当 AI 从“生成内容”迈向“执行任务”，一个能够控制计算成本、理解关键细节并准确表达不确定性的决策中枢，将成为智能体和…（来源：钛媒体）', u:'https://www.tmtpost.com/8172283.html'},
     {c:'HOT', d:'2026-10-18T11:43', t:'李未可 X-AI 记忆眼镜预售：能持续录音 12 小时、支持 128 种语言实时翻译，699 元起', s:'李未可 Lawaken X-AI 记忆眼镜现已预售，预售到手价 699 元起：枪色经典圈丝框：699 元深灰板材圆框：8…（来源：IT之家）', u:'https://www.ithome.com/1/014/477.htm'},
     {c:'MODEL', d:'2026-10-18T10:07', t:'AIGCPanel v2.6.0 照片直接生成数字人形象，语音合成参数可调', s:'做数字人形象不用录视频了，一张自拍就行。语音合成参数改到生成时微调、任务调度补上兜底，也都在这一版里。 📷 一张照片，就…（来源：OSCHINA）', u:'https://www.oschina.net/news/503072'},
+    {c:'FUNDING', d:'2026-10-18T10:06', t:'贝莱德的债券大师正在以下3个领域寻找收益', s:'他目前看好人工智能超大规模云服务商的债务以及新兴市场债券的投资机会。（来源：钛媒体）', u:'https://www.tmtpost.com/8172244.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家', s:'AI叙事转向重视投入回报，进入财务纪律驱动新阶段（来源：钛媒体）', u:'https://www.tmtpost.com/8171909.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'当地方政府成为机器人的第一大客户', s:'数采中心的本质，是政府对具身智能的补贴形式从现金补贴改成了采购订单。这在产业史上不新鲜——光伏、新能源车、AI四小龙都走…（来源：钛媒体）', u:'https://www.tmtpost.com/8172207.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'小红书的AI，开始和自己的生意算账', s:'AI开始重构小红书的流量、广告与创作者生意。（来源：钛媒体）', u:'https://www.tmtpost.com/8172205.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'动辄千集的AI短剧，越长越赚钱？', s:'AI提高了制作效率，长篇网文则为持续开发提供了充足的故事。有漫剧从业者估算，单季爆款收入约在100万至200万元之间，十…（来源：钛媒体）', u:'https://www.tmtpost.com/8172188.html'},
-    {c:'HOT', d:'2026-10-18T09:57', t:'从假靳东到AI小海：变脸的AI，不变的生意', s:'这个孩子不必长大，只需要不停地遇上麻烦（来源：钛媒体）', u:'https://www.tmtpost.com/8172140.html'},
-    {c:'MODEL', d:'2026-10-18T08:39', t:'DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道', s:'DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真 10 月 17 日，DeepSeek V4.1 …（来源：极客公园）', u:'http://www.geekpark.net/news/372512'},
-    {c:'MODEL', d:'2026-10-18T00:40', t:'Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒', s:'Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）', u:'https://www.oschina.net/news/503070'},
-    {c:'MEDPHARMA', d:'2026-10-17T22:11', t:'中信建投:AI加速重塑制药传统研发范式', s:'中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）', u:'https://www.toutiao.com/article/7697639034067223083/'},
   ];
   const TIMELINE = [
+    ['10-18 18:31','#AI for MS'],
+    ['10-18 18:31','下一代质谱软件，会不会像DeepSeek一样工作？'],
+    ['10-18 18:31','提升6万倍！首个反向脂质组学AI模型，1.68亿谱库赋能精准解析'],
     ['10-18 16:44','消息称“AI 玩具”赛道火热：市场高速增长但投资大幅降温，同质化高、退货问题凸显'],
     ['10-18 16:36','京东：未来 5 年将创造超 10 万个机器人维修工程师就业岗位'],
     ['10-18 16:32','王腾分享“从小米离职一年以来心路历程”：还是非常感谢小米、感谢雷总'],
-    ['10-18 15:55','美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生'],
-    ['10-18 15:51','高通中国区董事长孟樸：终端侧 AI 正发挥重要作用，智能体的发展进一步加速这一趋势'],
-    ['10-18 15:43','Anthropic 与律所商讨 AI 代理谈判规则：可替用户砍价、处理纠纷或谈薪资'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:301373, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:295524, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:282872, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220790, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181860, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152182, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142165, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127984, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113361, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107984, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:301386, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:295550, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:282899, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220803, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181867, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152193, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142166, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:127994, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113363, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:107992, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
