@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-19T05:01:44",
+  "updated": "2026-10-19T05:31:52",
   "news": [
     {
       "c": "INDUSTRY",
@@ -49,6 +49,13 @@
       "t": "DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
       "s": "DeepSeek 今日发布公告，DeepSeek API 现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次…（来源：IT之家）",
       "u": "https://www.ithome.com/1/014/587.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-18T19:49",
+      "t": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "s": "让人人都能自由创造并体验可交互世界（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504136.html"
     },
     {
       "c": "MODEL",
@@ -133,13 +140,6 @@
       "t": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
       "s": "Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503070"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-17T22:11",
-      "t": "中信建投:AI加速重塑制药传统研发范式",
-      "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7697639034067223083/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301604,
+      "s": 301610,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296080,
+      "s": 296098,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283196,
+      "s": 283211,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220931,
+      "s": 220938,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181971,
+      "s": 181976,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152244,
+      "s": 152246,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142214,
+      "s": 142216,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128343,
+      "s": 128357,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113452,
+      "s": 113457,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108158,
+      "s": 108171,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
