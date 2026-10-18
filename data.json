@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-18T14:31:55",
+  "updated": "2026-10-18T15:02:09",
   "news": [
     {
       "c": "HOT",
@@ -51,13 +51,6 @@
       "u": "https://www.ithome.com/1/014/456.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-18T10:06",
-      "t": "贝莱德的债券大师正在以下3个领域寻找收益",
-      "s": "他目前看好人工智能超大规模云服务商的债务以及新兴市场债券的投资机会。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172244.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-18T09:57",
       "t": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
@@ -94,6 +87,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-10-18T09:57",
+      "t": "为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”",
+      "s": "为AI这碟醋，腾讯包上了“绿泡泡”这盘“饺子”（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8172155.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-10-18T09:52",
       "t": "充电 9 分钟可工作 90 分钟，Agility Robotics 为 Digit 5 人形机器人搭载 Nyobolt 快充电池",
       "s": "Agility Robotics 的下一代人形机器人，设计目标是把一天中更多时间用于搬运货物，减少插电充电的时间。据IT…（来源：IT之家）",
@@ -122,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-18T08:39",
-      "t": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
-      "s": "DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真 10 月 17 日，DeepSeek V4.1 …（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372512"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-18T00:40",
       "t": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
       "s": "Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）",
@@ -140,6 +133,13 @@
       "t": "中信建投:AI加速重塑制药传统研发范式",
       "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7697639034067223083/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-17T20:21",
+      "t": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "s": "新版本V4.1-Flash-1017，还开放了自研搜索API（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504067.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301316,
+      "s": 301326,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 295339,
+      "s": 295367,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 282716,
+      "s": 282739,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220739,
+      "s": 220747,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181833,
+      "s": 181836,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151996,
+      "s": 152064,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142156,
+      "s": 142160,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127899,
+      "s": 127921,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107926,
+      "s": 107934,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
