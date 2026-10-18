@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-18T22:37', t:'中美AI竞争的新变量：开源、算力与产业生态', s:'开源与闭源因此不再只是工程师之间的技术路线之争。对企业而言，它关系到商业模式和客户控制权；对产业而言，它决定模型能以多低…（来源：钛媒体）', u:'https://www.tmtpost.com/8172534.html'},
     {c:'MODEL', d:'2026-10-18T21:59', t:'DeepSeek成立产品部！1.3亿人免费用的AI，变现模式会参考ChatGPT订阅吗？', s:'DeepSeek成立产品部，是想要把1.30亿免费用户变成一份招股书里讲得清楚的变现路线图。（来源：钛媒体）', u:'https://www.tmtpost.com/8172203.html'},
     {c:'MODEL', d:'2026-10-18T21:25', t:'英伟达优化 Kimi K3 模型推理速度，提升 1.68 倍', s:'调研机构 SemiAnalysis 今日发文称，英伟达通过一项上游 vLLM 优化，让 2.8 万亿参数量的 Kimi …（来源：IT之家）', u:'https://www.ithome.com/1/014/595.htm'},
     {c:'MODEL', d:'2026-10-18T20:37', t:'科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）', s:'科大讯飞现已在京东上架起点联名阅读器 Pro，该产品配备一块 7 英寸 Carta 1300 面板，定价为 1899 元…（来源：IT之家）', u:'https://www.ithome.com/1/014/590.htm'},
@@ -475,30 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-18T09:57', t:'当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家', s:'AI叙事转向重视投入回报，进入财务纪律驱动新阶段（来源：钛媒体）', u:'https://www.tmtpost.com/8171909.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'当地方政府成为机器人的第一大客户', s:'数采中心的本质，是政府对具身智能的补贴形式从现金补贴改成了采购订单。这在产业史上不新鲜——光伏、新能源车、AI四小龙都走…（来源：钛媒体）', u:'https://www.tmtpost.com/8172207.html'},
     {c:'HOT', d:'2026-10-18T09:57', t:'小红书的AI，开始和自己的生意算账', s:'AI开始重构小红书的流量、广告与创作者生意。（来源：钛媒体）', u:'https://www.tmtpost.com/8172205.html'},
-    {c:'HOT', d:'2026-10-18T09:57', t:'动辄千集的AI短剧，越长越赚钱？', s:'AI提高了制作效率，长篇网文则为持续开发提供了充足的故事。有漫剧从业者估算，单季爆款收入约在100万至200万元之间，十…（来源：钛媒体）', u:'https://www.tmtpost.com/8172188.html'},
     {c:'MODEL', d:'2026-10-18T08:39', t:'DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道', s:'DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真 10 月 17 日，DeepSeek V4.1 …（来源：极客公园）', u:'http://www.geekpark.net/news/372512'},
     {c:'MODEL', d:'2026-10-18T00:40', t:'Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒', s:'Termexo v0.10.14 已发布。Termexo 是一个面向 Windows 的本地优先 AI 编程工作台，用于…（来源：OSCHINA）', u:'https://www.oschina.net/news/503070'},
     {c:'MEDPHARMA', d:'2026-10-17T22:11', t:'中信建投:AI加速重塑制药传统研发范式', s:'中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）', u:'https://www.toutiao.com/article/7697639034067223083/'},
   ];
   const TIMELINE = [
+    ['10-18 22:37','中美AI竞争的新变量：开源、算力与产业生态'],
     ['10-18 21:59','DeepSeek成立产品部！1.3亿人免费用的AI，变现模式会参考ChatGPT订阅吗？'],
     ['10-18 21:25','英伟达优化 Kimi K3 模型推理速度，提升 1.68 倍'],
     ['10-18 20:37','科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）'],
     ['10-18 20:21','研究人员让 6 款 AI 智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险'],
     ['10-18 19:59','DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元'],
-    ['10-18 19:26','数毛社：《GTA6》发售预告片并未采用 QSSR 技术，游戏原始剪辑素材应为 1440P 分辨率'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:301488, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:295805, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:283027, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220863, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181918, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152218, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142195, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:128138, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113396, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:108051, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:301495, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:295820, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:283036, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:220871, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:181922, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152222, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142197, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:128146, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113403, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:108057, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
