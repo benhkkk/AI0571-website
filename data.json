@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-18T13:31:54",
+  "updated": "2026-10-18T14:02:07",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-18T13:38",
+      "t": "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年",
+      "s": "据 Axios 于当地时间 10 月 16 日报道，亚马逊云科技（AWS）首席财务官约翰 · 费尔顿（John Felt…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/488.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-18T12:27",
@@ -121,13 +128,6 @@
       "u": "http://www.geekpark.net/news/372512"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-18T08:35",
-      "t": "科乐美社长早川英树谈 AI 对游戏开发的影响：最重要的依然是“人”，是“创作者”",
-      "s": "据日本游戏媒体“电击 ONLINE”报道，科乐美（Konami）社长早川英树谈及了人工智能对游戏行业带来的影响。早川英树…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/439.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-18T00:40",
       "t": "Termexo v0.10.14 发布：接入 Pi Agent，改进 Agent 安装、更新与提醒",
@@ -143,6 +143,10 @@
     }
   ],
   "timeline": [
+    [
+      "10-18 13:38",
+      "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年"
+    ],
     [
       "10-18 12:27",
       "Anthropic 联合创始人：到 2030 年 AI 有望推动美国 GDP 增长近 50%"
@@ -162,10 +166,6 @@
     [
       "10-18 10:06",
       "“能装一个宇宙”：我国首个十万卡 AI 超集群真机亮相"
-    ],
-    [
-      "10-18 09:57",
-      "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301300,
+      "s": 301308,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 295286,
+      "s": 295317,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 282684,
+      "s": 282700,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220722,
+      "s": 220733,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181827,
+      "s": 181829,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 151920,
+      "s": 151946,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 127881,
+      "s": 127893,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113329,
+      "s": 113331,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 107910,
+      "s": 107922,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
