@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-19T15:02:32",
+  "updated": "2026-10-19T15:32:04",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-19T15:25",
+      "t": "Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能",
+      "s": "头部 OSAT 企业 Amkor（安靠）当地时间今日在其韩国光州工厂举行扩建项目奠基仪式。该项目将服务于 AI / HP…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/850.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-19T15:08",
+      "t": "游戏公司未成年退款多退三万元，对方拒不返还、AI 伪造录音被当庭训诫",
+      "s": "据央视新闻报道，在陕西西安雁塔法院审结的一起“不当得利纠纷”案中，游戏公司在返还未成年人充值退款后，却因为转账时操作失误…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/836.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-19T14:59",
@@ -66,20 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-19T11:58",
-      "t": "山姆投诉举报恶意攻击及 AI 虚假营销信息：部分账号编造“山姆下架好物”引流牟利",
-      "s": "山姆会员商店今日（10 月 19 日）发布声明称，近期多个社交媒体平台集中出现数千条针对山姆的恶意攻击及虚假营销信息。部…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/754.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-19T11:57",
-      "t": "六小龄童谈孙悟空、林黛玉 AI 魔改“圣黛 CP”：创意很好玩，但改编不能逾越政策法规和观众红线",
-      "s": "据新黄河报道，86 版《西游记》孙悟空饰演者六小龄童昨日现身山东济南，在接受采访时谈及了近日很火的“圣黛 CP”（指孙悟…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/753.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-19T11:42",
       "t": "Skyeye 云企业级AI+零代码智能制造系统-财务板块 - v4.1.8发布",
       "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
@@ -128,21 +128,29 @@
       "u": "https://www.oschina.net/news/503080"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-19T09:45",
+      "t": "1亿美元完成新药研发?“给虚拟人喂电子药”改写制药逻辑",
+      "s": "1亿美元完成新药研发?“给虚拟人喂电子药”改写制药逻辑（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7698189010758156800/"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-19T09:40",
       "t": "特斯拉飞行汽车被质疑是噱头！网友：若是国内厂商，分分钟被骂到退市；王自如称「想与罗永浩和解」 ；OpenAI透露人形机器人项目进展",
       "s": "要闻提示1.特斯拉飞行汽车被质疑是噱头！网友：若是国内厂商，分分钟被骂到退市2.加价大几千买iPhone Duo消费者发…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/zaobao/DlLESyleeLkyq5Dy.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-19T09:18",
-      "t": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
-      "s": "OpenAI 三个神秘模型曝光10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372514"
     }
   ],
   "timeline": [
+    [
+      "10-19 15:25",
+      "Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能"
+    ],
+    [
+      "10-19 15:08",
+      "游戏公司未成年退款多退三万元，对方拒不返还、AI 伪造录音被当庭训诫"
+    ],
     [
       "10-19 14:59",
       "腾讯 AI 管家 Marvis（马维斯）上架麒麟软件商店，深度适配国产操作系统"
@@ -158,14 +166,6 @@
     [
       "10-19 13:08",
       "研究发现：AI 可篡改人类记忆，植入从未发生的虚假事件"
-    ],
-    [
-      "10-19 12:51",
-      "因阻拦配送机器人，美国费城一女子被警方逮捕"
-    ],
-    [
-      "10-19 12:30",
-      "220亿机器人明星项目，打五折卖不出去"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301765,
+      "s": 301772,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296563,
+      "s": 296596,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283478,
+      "s": 283496,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221036,
+      "s": 221041,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182062,
+      "s": 182069,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152299,
+      "s": 152300,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142251,
+      "s": 142252,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128591,
+      "s": 128606,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113526,
+      "s": 113528,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108307,
+      "s": 108322,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
