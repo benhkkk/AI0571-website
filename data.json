@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T08:18:29",
+  "updated": "2026-10-19T08:32:01",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T08:27",
+      "t": "演员吴越被 AI 生成虚假带货视频，微信视频号回应称涉事账号已永久封禁、内容清空",
+      "s": "演员吴越昨天发文，曝光微信视频号“花姐美肤日记”利用 AI 生成她的虚假带货视频。吴越公布的录屏显示，账号“花姐美肤日记…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/638.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-19T08:09",
@@ -56,13 +63,6 @@
       "t": "消息称 AI 云厂商 Nscale IPO 估值目标遭投资者反对：砍半才有人买单",
       "s": "据彭博社报道，知情人士透露，在人工智能公司遭遇一系列市场挫折后，Nscale 公司的首次公开募股所追求的估值目标正面临阻…（来源：IT之家）",
       "u": "https://www.ithome.com/1/014/623.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-19T06:52",
-      "t": "Anthropic 拟设立“公共利益”基金，初始注入 5% 股份",
-      "s": "当地时间 10 月 18 日，Anthropic 宣布，在获得股东批准的前提下，公司计划将 5% 的股份划入新设立的公共…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/622.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-19 08:27",
+      "演员吴越被 AI 生成虚假带货视频，微信视频号回应称涉事账号已永久封禁、内容清空"
+    ],
+    [
       "10-19 08:09",
       "Character.AI 申请破产后续：绝大部分员工有望被迪士尼雇佣，前三年总计可获 1.8 亿美元薪酬"
     ],
@@ -162,10 +166,6 @@
     [
       "10-19 07:34",
       "再也不是固定台词，AI 模组 NPCTalk 让《GTA 5》NPC 实现实时无脚本语音对话"
-    ],
-    [
-      "10-19 07:22",
-      "AI 系统 RFdiffusion3 能从原子层面设计蛋白质，可在实验中实现预期功能"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301647,
+      "s": 301649,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296195,
+      "s": 296202,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283277,
+      "s": 283281,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220964,
+      "s": 220966,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181997,
+      "s": 181998,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152254,
+      "s": 152255,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128423,
+      "s": 128425,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113473,
+      "s": 113474,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108203,
+      "s": 108206,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
