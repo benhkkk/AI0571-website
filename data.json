@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-19T18:02:28",
+  "updated": "2026-10-19T18:32:23",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-19T18:13",
+      "t": "国产 AI 历史模拟新游《崇祯模拟器 Demo》上架 Steam，免费试玩",
+      "s": "个人开发者 ZHANG HANLIANG 制作的国产历史策略模拟游戏《崇祯模拟器 Demo》现已登陆 Steam 平台开…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/977.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-19T18:10",
+      "t": "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了",
+      "s": "过去几年，AI 行业热衷于比参数、拼算力、讲融资。但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露？设备能不能…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372578"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-19T18:09",
+      "t": "苹果第一个 AI 机器人，可能是个能动的 HomeView",
+      "s": "给屏幕装上脖子#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1684921?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "HOT",
       "d": "2026-10-19T17:38",
@@ -100,13 +121,6 @@
       "u": "https://www.ithome.com/1/014/856.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-19T15:25",
-      "t": "Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能",
-      "s": "头部 OSAT 企业 Amkor（安靠）当地时间今日在其韩国光州工厂举行扩建项目奠基仪式。该项目将服务于 AI / HP…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/850.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-19T14:48",
       "t": "光量子计算，距离真正的产业化还有多远？",
@@ -126,23 +140,21 @@
       "t": "Git 被换掉，LLM 被替代：AI 编码开始反噬传统工具链？",
       "s": "Anthropic 代码量暴涨，GitHub 密钥扫描又慢又贵，两家被迫改造系统。 作者丨郑佳美 编辑丨岑 峰 Git …（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/ai/wHcf2tZUiQkXGM0i.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-19T11:42",
-      "t": "Skyeye 云企业级AI+零代码智能制造系统-财务板块 - v4.1.8发布",
-      "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503085"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-19T10:53",
-      "t": "实测 Lovart 2.0 ，设计 AI 进入个人助理时代",
-      "s": "你下班了，Arti 还能继续工作#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1684840?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "10-19 18:13",
+      "国产 AI 历史模拟新游《崇祯模拟器 Demo》上架 Steam，免费试玩"
+    ],
+    [
+      "10-19 18:10",
+      "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了"
+    ],
+    [
+      "10-19 18:09",
+      "苹果第一个 AI 机器人，可能是个能动的 HomeView"
+    ],
     [
       "10-19 17:38",
       "China’s AI Push Hits the Hard Part: Showing Returns"
@@ -154,18 +166,6 @@
     [
       "10-19 17:18",
       "Tencent Taps Long Bonds as AI Capex Reshapes Its Balance Sheet"
-    ],
-    [
-      "10-19 17:13",
-      "美国造车新势力 Rivian 推出点到点辅助驾驶，年底开放测试"
-    ],
-    [
-      "10-19 16:55",
-      "Anthropic拿出3208亿，这是为AI灭世论“买单”吗？"
-    ],
-    [
-      "10-19 16:55",
-      "豆包当\"主干\"的两个月：四条Agent线归队，暴露的不是入口野心"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301839,
+      "s": 301848,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296773,
+      "s": 296815,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283578,
+      "s": 283595,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221069,
+      "s": 221077,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182099,
+      "s": 182110,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152318,
+      "s": 152320,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142269,
+      "s": 142273,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128683,
+      "s": 128696,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113555,
+      "s": 113563,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108391,
+      "s": 108400,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
