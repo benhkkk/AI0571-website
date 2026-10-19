@@ -1,12 +1,33 @@
 {
-  "updated": "2026-10-19T19:31:09",
+  "updated": "2026-10-19T20:01:58",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T19:37",
+      "t": "AMD 锐龙 AI 7 HX 455 处理器曝光：8 核 CPU，16CU GPU",
+      "s": "消息人士 @金猪升级包 稍早前曝光了 AMD 尚未推出的锐龙 AI 7 HX 455 处理器。从规格上来看，该型号应该基…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/006.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-19T19:35",
+      "t": "苹果收购 AI 音频编辑公司 Samplab，有望为 Logic Pro 引入更精细的音频编辑功能",
+      "s": "据外媒 Appleinsider 报道，苹果已收购瑞士苏黎世 AI 音频编辑公司 Samplab，根据收购交易清单，苹果…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/005.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-19T19:25",
       "t": "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台",
       "s": "国务院新闻办公室今日举行新闻发布会，介绍加快推进科技兴商有关情况，并答记者问。会上介绍，具身智能是人工智能从“数字世界”…（来源：IT之家）",
       "u": "https://www.ithome.com/1/015/002.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T19:20",
+      "t": "开源数据智能 Agent：YOLO Data Agent v1.0.2 发布",
+      "s": "你有没有遇到过这种尴尬：业务方问“上个月华东区 GMV”，AI 答得头头是道，结果和报表对不上；换个问法再问一次，数字又…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503098"
     },
     {
       "c": "INDUSTRY",
@@ -119,33 +140,24 @@
       "t": "阿里速卖通联合天猫推出全球增长计划，将投资 AI 硬件新品牌",
       "s": "据中证网今日报道，2026 阿里速卖通年度峰会暨双 11 商家大会今日在深圳举行，超 1.5 万名商家参会。会上，速卖通…（来源：IT之家）",
       "u": "https://www.ithome.com/1/014/870.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-19T16:07",
-      "t": "科大讯飞 2026 年三季度归母净利润 2.26 亿元，同比增长 31.05%",
-      "s": "科大讯飞今日发布 2026 年三季度（2026 年 7 月～2026 年 9 月）报告：营业总收入：65.65 亿元，同…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/868.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-19T16:02",
-      "t": "Arena 公布 2026 年第 42 周 AI 大模型周榜：国产模型多领域站稳中上游， kimi-k3-max 杀入代码榜前十",
-      "s": "Arena（arena.ai）平台发布 2026 年第 42 周（ 2026-10-12 ~ 2026-10-18 ）A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/865.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-19T14:48",
-      "t": "光量子计算，距离真正的产业化还有多远？",
-      "s": "导语：产业化落地，光量子计算的新考场记者：郭思编辑：包永刚 摩尔定律走到红利尽头，AI、新药研发、新材料探索对算力的需求…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/1LbhTsMb0OyPhsw6.html"
     }
   ],
   "timeline": [
     [
+      "10-19 19:37",
+      "AMD 锐龙 AI 7 HX 455 处理器曝光：8 核 CPU，16CU GPU"
+    ],
+    [
+      "10-19 19:35",
+      "苹果收购 AI 音频编辑公司 Samplab，有望为 Logic Pro 引入更精细的音频编辑功能"
+    ],
+    [
       "10-19 19:25",
       "今年上半年我国人形机器人产量超 4 万台，预计全年将突破 10 万台"
+    ],
+    [
+      "10-19 19:20",
+      "开源数据智能 Agent：YOLO Data Agent v1.0.2 发布"
     ],
     [
       "10-19 19:03",
@@ -154,18 +166,6 @@
     [
       "10-19 19:03",
       "Kimi和DeepSeek，差异越来越明显"
-    ],
-    [
-      "10-19 18:57",
-      "Cue一周实测：给AI配了身份证，却还做不到“随时可用”"
-    ],
-    [
-      "10-19 18:57",
-      "千次5元、搜不到不收钱：DeepSeek给Agent装上自研搜索，价格只有Tavily的零头"
-    ],
-    [
-      "10-19 18:41",
-      "让“洋Agent”逛中国互联网，我成了它们的助理"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301873,
+      "s": 301886,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296872,
+      "s": 296900,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283629,
+      "s": 283648,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221090,
+      "s": 221095,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182125,
+      "s": 182126,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152347,
+      "s": 152365,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142277,
+      "s": 142280,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128739,
+      "s": 128759,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113570,
+      "s": 113575,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108414,
+      "s": 108420,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
