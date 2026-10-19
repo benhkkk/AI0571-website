@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T23:01:27",
+  "updated": "2026-10-19T23:31:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T23:03",
+      "t": "四个谷歌 Gemini 4 Argon 智能体成功击败末影龙通关《我的世界》，耗时 27 小时",
+      "s": "谷歌研究人员近日发布论文称，他们使用四个 Gemini 4 Argon 智能体成功通关《我的世界》，仅用 27 小时就成…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/048.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-19T22:44",
@@ -35,6 +42,13 @@
       "t": "华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026",
       "s": "来源：多模态信息融合文章链接：https://mp.weixin.qq.com/s/SVr9DmtPyzORLYad-t…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/private/QgMWStz8hCPsFf68.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-19T20:38",
+      "t": "不急着造药，先造“数字人”:AI制药转向，中美都在抢跑",
+      "s": "不急着造药，先造“数字人”:AI制药转向，中美都在抢跑（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7698357414298419754/"
     },
     {
       "c": "FUNDING",
@@ -114,35 +128,25 @@
       "u": "https://www.tmtpost.com/8173604.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-19T18:13",
-      "t": "国产 AI 历史模拟新游《崇祯模拟器 Demo》上架 Steam，免费试玩",
-      "s": "个人开发者 ZHANG HANLIANG 制作的国产历史策略模拟游戏《崇祯模拟器 Demo》现已登陆 Steam 平台开…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/977.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-19T18:10",
-      "t": "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了",
-      "s": "过去几年，AI 行业热衷于比参数、拼算力、讲融资。但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露？设备能不能…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372578"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-19T18:09",
-      "t": "苹果第一个 AI 机器人，可能是个能动的 HomeView",
-      "s": "给屏幕装上脖子#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1684921?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
       "c": "MODEL",
-      "d": "2026-10-19T17:21",
-      "t": "我向新版 DeepSeek 许了个愿，4 块钱让特斯拉飞起来",
-      "s": "好用到原地「起飞」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1684880?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-10-19T18:27",
+      "t": "2026物理AI与世界模型大会医疗健康世界模型分会场在南京举行",
+      "s": "2026年10月19日下午，医疗健康世界模型分会场在南京国际博览中心钟山厅举行（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504266.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-19T18:15",
+      "t": "全栈自研！国产高端互连芯片，稳了!",
+      "s": "六年蛰伏出货80万颗（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504225.html"
     }
   ],
   "timeline": [
+    [
+      "10-19 23:03",
+      "四个谷歌 Gemini 4 Argon 智能体成功击败末影龙通关《我的世界》，耗时 27 小时"
+    ],
     [
       "10-19 22:44",
       "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元"
@@ -162,10 +166,6 @@
     [
       "10-19 20:47",
       "华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026"
-    ],
-    [
-      "10-19 20:04",
-      "平台做天使投资：速卖通把品牌争夺战，打到了品牌诞生前"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301966,
+      "s": 301979,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 297076,
+      "s": 297105,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283779,
+      "s": 283797,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221137,
+      "s": 221145,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182158,
+      "s": 182161,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152434,
+      "s": 152448,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142296,
+      "s": 142295,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128870,
+      "s": 128888,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113603,
+      "s": 113608,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108481,
+      "s": 108493,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
