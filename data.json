@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T03:31:10",
+  "updated": "2026-10-20T04:01:45",
   "news": [
     {
       "c": "MODEL",
@@ -14,13 +14,6 @@
       "t": "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元",
       "s": "RISC-V AI 计算企业 Tenstorrent 美国当地时间今日宣布完成总额达 15 亿美元（IT之家注：现汇率约…（来源：IT之家）",
       "u": "https://www.ithome.com/1/015/045.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-19T21:57",
-      "t": "AI 里没有答案的问题，需要一场「深谈」",
-      "s": "去年，极客公园创新大会第一次办起「小场深谈」。场子都不大，百人左右围坐在一起。 有些瞬间仍然记忆犹新。 在「超级个体」专…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372579"
     },
     {
       "c": "HOT",
@@ -42,6 +35,13 @@
       "t": "华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026",
       "s": "来源：多模态信息融合文章链接：https://mp.weixin.qq.com/s/SVr9DmtPyzORLYad-t…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/private/QgMWStz8hCPsFf68.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-19T20:38",
+      "t": "不急着造药，先造“数字人”:AI制药转向，中美都在抢跑",
+      "s": "不急着造药，先造“数字人”:AI制药转向，中美都在抢跑（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7698357414298419754/"
     },
     {
       "c": "FUNDING",
@@ -128,18 +128,18 @@
       "u": "https://www.ithome.com/1/014/977.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-19T18:10",
-      "t": "客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了",
-      "s": "过去几年，AI 行业热衷于比参数、拼算力、讲融资。但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露？设备能不能…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372578"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-19T18:09",
       "t": "苹果第一个 AI 机器人，可能是个能动的 HomeView",
       "s": "给屏幕装上脖子#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1684921?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T17:21",
+      "t": "我向新版 DeepSeek 许了个愿，4 块钱让特斯拉飞起来",
+      "s": "好用到原地「起飞」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1684880?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
@@ -152,10 +152,6 @@
       "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元"
     ],
     [
-      "10-19 21:57",
-      "AI 里没有答案的问题，需要一场「深谈」"
-    ],
-    [
       "10-19 21:39",
       "古尔曼：苹果正研发室内摄像头，依靠 AI 分析环境"
     ],
@@ -166,6 +162,10 @@
     [
       "10-19 20:47",
       "华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026"
+    ],
+    [
+      "10-19 20:38",
+      "不急着造药，先造“数字人”:AI制药转向，中美都在抢跑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302061,
+      "s": 302066,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 297311,
+      "s": 297333,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283931,
+      "s": 283962,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221181,
+      "s": 221184,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182198,
+      "s": 182202,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152544,
+      "s": 152557,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142315,
+      "s": 142318,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 129032,
+      "s": 129048,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113649,
+      "s": 113650,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108556,
+      "s": 108561,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
