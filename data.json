@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T22:31:10",
+  "updated": "2026-10-19T23:01:27",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-19T22:44",
+      "t": "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元",
+      "s": "RISC-V AI 计算企业 Tenstorrent 美国当地时间今日宣布完成总额达 15 亿美元（IT之家注：现汇率约…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/045.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-19T21:57",
@@ -21,6 +28,13 @@
       "t": "纽娲机器人杨睿刚：无人配送跑了十年，机器人为何还到不了家门？",
       "s": "难题集中在几笔容易被低估的事件上：新场地的部署、既有设施的改造，以及异常发生时的人工兜底。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8171183.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T20:47",
+      "t": "华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026",
+      "s": "来源：多模态信息融合文章链接：https://mp.weixin.qq.com/s/SVr9DmtPyzORLYad-t…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/private/QgMWStz8hCPsFf68.html"
     },
     {
       "c": "FUNDING",
@@ -126,23 +140,13 @@
       "t": "我向新版 DeepSeek 许了个愿，4 块钱让特斯拉飞起来",
       "s": "好用到原地「起飞」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1684880?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-19T17:13",
-      "t": "美国造车新势力 Rivian 推出点到点辅助驾驶，年底开放测试",
-      "s": "据汽车媒体 Motor1 今天报道，美国造车新势力 Rivian 最近启动自动驾驶早期体验计划，邀请小部分车主体验点对点…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/934.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-19T16:51",
-      "t": "AI 引爆 BAT「薪酬倒挂」潮，老员工：人麻了",
-      "s": "大厂正在收紧招聘，但对 AI 人才的争夺并没有停止。“所有大厂目前都处于 HC（招聘名额）收缩状态，人才招聘是优中选优”…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/uCsyLxONvXeV9qXc.html"
     }
   ],
   "timeline": [
+    [
+      "10-19 22:44",
+      "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元"
+    ],
     [
       "10-19 21:57",
       "AI 里没有答案的问题，需要一场「深谈」"
@@ -156,16 +160,12 @@
       "纽娲机器人杨睿刚：无人配送跑了十年，机器人为何还到不了家门？"
     ],
     [
+      "10-19 20:47",
+      "华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026"
+    ],
+    [
       "10-19 20:04",
       "平台做天使投资：速卖通把品牌争夺战，打到了品牌诞生前"
-    ],
-    [
-      "10-19 19:37",
-      "AMD 锐龙 AI 7 HX 455 处理器曝光：8 核 CPU，16CU GPU"
-    ],
-    [
-      "10-19 19:35",
-      "苹果收购 AI 音频编辑公司 Samplab，有望为 Logic Pro 引入更精细的音频编辑功能"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301954,
+      "s": 301966,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 297040,
+      "s": 297076,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283755,
+      "s": 283779,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221131,
+      "s": 221137,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182155,
+      "s": 182158,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152416,
+      "s": 152434,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128847,
+      "s": 128870,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113598,
+      "s": 113603,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108476,
+      "s": 108481,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
