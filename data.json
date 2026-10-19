@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-19T12:02:18",
+  "updated": "2026-10-19T12:32:01",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T12:11",
+      "t": "AI 公司 HUMXN 免费上门修水电、通管道，只为录像收集数据训练 AI 机器人",
+      "s": "一家专注于采集真实世界数据的 AI 实验室计划与房主合作，录制技术工人的作业过程，用来训练 AI 机器人。这家名为 HU…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/758.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-19T11:58",
@@ -100,13 +107,6 @@
       "u": "https://www.ithome.com/1/014/685.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-19T09:52",
-      "t": "饭山 PC 推出 AMD 锐龙 AI 7 450 迷你主机：提供指纹识别、SD 读卡器",
-      "s": "日本企业 Unitcom 当地时间本月 16 日发布了 iiyama PC（饭山 PC）品牌迷你主机新品。该型号基于 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/667.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-19T09:40",
       "t": "特斯拉飞行汽车被质疑是噱头！网友：若是国内厂商，分分钟被骂到退市；王自如称「想与罗永浩和解」 ；OpenAI透露人形机器人项目进展",
@@ -128,21 +128,25 @@
       "u": "https://www.tmtpost.com/8172547.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-19T08:58",
-      "t": "换电模式会催生一个比机器人本体更大规模的生意——能源银行",
-      "s": "由专业的\"能源银行\"持有电池，企业按月租赁使用，大幅降低初期投入。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172579.html"
+      "c": "MODEL",
+      "d": "2026-10-18T19:49",
+      "t": "VAST开源实时世界模型EdenLive！单消费级显卡、720P超24FPS",
+      "s": "让人人都能自由创造并体验可交互世界（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504136.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-19T08:50",
-      "t": "Edge AI Daily 早报（10月19日）",
-      "s": "Anthropic 以捐出5%股份设公共利益基金、并用通胀情境预测美国GDP 2030年或达44万亿美元，同时将律师引入…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172585.html"
+      "c": "MODEL",
+      "d": "2026-10-18T17:47",
+      "t": "XXL-AI v1.2.0 发布 | AI 应用开发平台",
+      "s": "Release Note： 1、【新增】Memory（云版）：支持Agent长期记忆，多维度、跨会话长期记忆主动沉淀，以…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503073"
     }
   ],
   "timeline": [
+    [
+      "10-19 12:11",
+      "AI 公司 HUMXN 免费上门修水电、通管道，只为录像收集数据训练 AI 机器人"
+    ],
     [
       "10-19 11:58",
       "山姆投诉举报恶意攻击及 AI 虚假营销信息：部分账号编造“山姆下架好物”引流牟利"
@@ -162,10 +166,6 @@
     [
       "10-19 11:32",
       "研究人员开发 AI 系统：可通过 Wi‑Fi 信号识别隐藏手枪"
-    ],
-    [
-      "10-19 11:30",
-      "豆包刘星回应“国内超一半算力在造爽剧”：字节总算力中，只有约 10% 用于视频生成模型的训练和推理"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301711,
+      "s": 301719,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296396,
+      "s": 296419,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283391,
+      "s": 283409,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221001,
+      "s": 221007,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182031,
+      "s": 182035,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152278,
+      "s": 152282,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142238,
+      "s": 142240,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128510,
+      "s": 128521,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113500,
+      "s": 113502,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108261,
+      "s": 108266,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
