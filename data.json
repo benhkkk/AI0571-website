@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-19T12:32:01",
+  "updated": "2026-10-19T12:59:41",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-19T12:51",
+      "t": "因阻拦配送机器人，美国费城一女子被警方逮捕",
+      "s": "美国费城女子卡罗琳 · 马文（Carolyn Marvin）因阻拦优步配送机器人通行、拒不避让，被警方逮捕并指控行为不检…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/764.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-19T12:30",
+      "t": "220亿机器人明星项目，打五折卖不出去",
+      "s": "去年抢着求购的机器人老股，今年打了五折也难脱手。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8173088.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-19T12:27",
+      "t": "AI，别欺数学家太甚",
+      "s": "收手吧，OpenAI们，外面都是数学家的抗议。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8173028.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-19T12:11",
@@ -94,20 +115,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-19T10:24",
-      "t": "小红书让AI先给答案，创作者的生意怎么办？",
-      "s": "AI要替用户省时间，社区却靠占用户的时间赚钱。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172746.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-19T10:15",
-      "t": "今年前三季度国内生产总值同比增长 4.6%，工业机器人产量同比增长 29.1%",
-      "s": "据央视新闻报道，国务院新闻办今日召开新闻发布会，国家统计局公布了今年前三季度经济数据。前三季度，我国国民经济顶住压力保持…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/685.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-19T09:40",
       "t": "特斯拉飞行汽车被质疑是噱头！网友：若是国内厂商，分分钟被骂到退市；王自如称「想与罗永浩和解」 ；OpenAI透露人形机器人项目进展",
       "s": "要闻提示1.特斯拉飞行汽车被质疑是噱头！网友：若是国内厂商，分分钟被骂到退市2.加价大几千买iPhone Duo消费者发…（来源：雷锋网）",
@@ -119,13 +126,6 @@
       "t": "OpenAI 三个神秘模型曝光；DeepSeek 开放搜索与网页抓取 API；智界将获独立造车资格，公司计划上市 ｜ 极客早知道",
       "s": "OpenAI 三个神秘模型曝光10 月 18 日，有开发者发现，OpenAI 的 API 模型列表中突然出现了三个陌生名…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372514"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-19T09:10",
-      "t": "AI 人想成精，先别乱脸红",
-      "s": "你有过人的体温吗？你有过心跳吗？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172547.html"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-19 12:51",
+      "因阻拦配送机器人，美国费城一女子被警方逮捕"
+    ],
+    [
+      "10-19 12:30",
+      "220亿机器人明星项目，打五折卖不出去"
+    ],
+    [
+      "10-19 12:27",
+      "AI，别欺数学家太甚"
+    ],
+    [
       "10-19 12:11",
       "AI 公司 HUMXN 免费上门修水电、通管道，只为录像收集数据训练 AI 机器人"
     ],
@@ -154,18 +166,6 @@
     [
       "10-19 11:57",
       "六小龄童谈孙悟空、林黛玉 AI 魔改“圣黛 CP”：创意很好玩，但改编不能逾越政策法规和观众红线"
-    ],
-    [
-      "10-19 11:41",
-      "什么是乌兰察布？"
-    ],
-    [
-      "10-19 11:36",
-      "新江湖演义——当AI代理参战，竞争变成什么？"
-    ],
-    [
-      "10-19 11:32",
-      "研究人员开发 AI 系统：可通过 Wi‑Fi 信号识别隐藏手枪"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301719,
+      "s": 301721,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296419,
+      "s": 296438,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283409,
+      "s": 283421,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221007,
+      "s": 221010,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182035,
+      "s": 182041,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142240,
+      "s": 142242,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128521,
+      "s": 128529,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113502,
+      "s": 113507,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108266,
+      "s": 108272,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
