@@ -1,6 +1,34 @@
 {
-  "updated": "2026-10-19T07:32:16",
+  "updated": "2026-10-19T08:03:13",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T07:55",
+      "t": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
+      "s": "“IT早报”时间，大家好，现在是 2026 年 10 月 19 日星期一，今天的重要科技资讯有：1. DeepSeek …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/632.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-19T07:52",
+      "t": "受 AI 冲击，游戏反编译平台 decomp.dev 宣布关停",
+      "s": "AI 氛围编码在模组圈子里的应用本就争议不断，如今这类前所未有的新浪潮，也让专门的平台陷入慌乱。热门平台 decomp.…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/631.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-19T07:39",
+      "t": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
+      "s": "据央视财经援引英国《金融时报》16 日报道，美国人工智能企业 Anthropic 正在以超过 10% 的收益率，吸引黑石…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/628.htm"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-10-19T07:34",
+      "t": "再也不是固定台词，AI 模组 NPCTalk 让《GTA 5》NPC 实现实时无脚本语音对话",
+      "s": "一款名为 NPCTalk 的全新 AI 模组工具，为《侠盗猎车手 5》（GTA 5）带来了无脚本的实时对话功能。玩家可以…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/014/627.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-10-19T07:22",
@@ -51,34 +79,6 @@
       "u": "https://www.tmtpost.com/8172203.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-18T21:25",
-      "t": "英伟达优化 Kimi K3 模型推理速度，提升 1.68 倍",
-      "s": "调研机构 SemiAnalysis 今日发文称，英伟达通过一项上游 vLLM 优化，让 2.8 万亿参数量的 Kimi …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/595.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-18T20:37",
-      "t": "科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）",
-      "s": "科大讯飞现已在京东上架起点联名阅读器 Pro，该产品配备一块 7 英寸 Carta 1300 面板，定价为 1899 元…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/590.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-18T20:21",
-      "t": "研究人员让 6 款 AI 智能体尝试“追回火车票退款”，暴露模型使用激进方式执行任务风险",
-      "s": "独立 AI 安全研究人员 Matilda Glynn-Henley 近期针对 6 款 AI 智能体进行安全测试，让相应模…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/589.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-18T19:59",
-      "t": "DeepSeek API 已支持网页搜索和抓取，单价为每 1000 次成功请求 5 元",
-      "s": "DeepSeek 今日发布公告，DeepSeek API 现已支持网页搜索与抓取，按请求次数计费，单价为每 1000 次…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/014/587.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-18T15:55",
       "t": "美光崛起背后：美国内存“独苗”的生存战、资本博弈与AI重生",
@@ -107,18 +107,25 @@
       "u": "https://www.oschina.net/news/503072"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-18T10:06",
-      "t": "贝莱德的债券大师正在以下3个领域寻找收益",
-      "s": "他目前看好人工智能超大规模云服务商的债务以及新兴市场债券的投资机会。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172244.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-18T09:57",
       "t": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
       "s": "AI叙事转向重视投入回报，进入财务纪律驱动新阶段（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8171909.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-18T09:57",
+      "t": "当地方政府成为机器人的第一大客户",
+      "s": "数采中心的本质，是政府对具身智能的补贴形式从现金补贴改成了采购订单。这在产业史上不新鲜——光伏、新能源车、AI四小龙都走…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8172207.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-18T08:39",
+      "t": "DeepSeek 新模型上线，价格更低能力更强；传华为将推新品牌「星芒」主打性价比；天文学家发现第一颗绿色恒星｜极客早知道",
+      "s": "DeepSeek V4.1 Flash 新版本上线：许愿式编程一键成真 10 月 17 日，DeepSeek V4.1 …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372512"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,25 @@
       "t": "中信建投:AI加速重塑制药传统研发范式",
       "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7697639034067223083/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-17T20:21",
-      "t": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
-      "s": "新版本V4.1-Flash-1017，还开放了自研搜索API（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/504067.html"
     }
   ],
   "timeline": [
+    [
+      "10-19 07:55",
+      "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国…"
+    ],
+    [
+      "10-19 07:52",
+      "受 AI 冲击，游戏反编译平台 decomp.dev 宣布关停"
+    ],
+    [
+      "10-19 07:39",
+      "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%"
+    ],
+    [
+      "10-19 07:34",
+      "再也不是固定台词，AI 模组 NPCTalk 让《GTA 5》NPC 实现实时无脚本语音对话"
+    ],
     [
       "10-19 07:22",
       "AI 系统 RFdiffusion3 能从原子层面设计蛋白质，可在实验中实现预期功能"
@@ -150,22 +166,6 @@
     [
       "10-19 07:20",
       "【钛晨报】央行就《银行间债券市场债券发行管理规则》公开征求意见；智界将获独立造车资质，内部人士确认公司计划上市；英伟达辟谣RTX5090停产：只是产能不足，不会…"
-    ],
-    [
-      "10-19 07:09",
-      "消息称 AI 云厂商 Nscale IPO 估值目标遭投资者反对：砍半才有人买单"
-    ],
-    [
-      "10-19 06:52",
-      "Anthropic 拟设立“公共利益”基金，初始注入 5% 股份"
-    ],
-    [
-      "10-18 23:16",
-      "索尼新专利曝光：AI 可在 GPU 渲染完成前预测下一帧画面，减少游戏卡顿"
-    ],
-    [
-      "10-18 22:37",
-      "中美AI竞争的新变量：开源、算力与产业生态"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301641,
+      "s": 301647,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296162,
+      "s": 296187,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283261,
+      "s": 283268,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220957,
+      "s": 220963,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181992,
+      "s": 181994,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152252,
+      "s": 152253,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142219,
+      "s": 142220,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128400,
+      "s": 128413,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113468,
+      "s": 113472,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108190,
+      "s": 108200,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
