@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-19T08:32:01",
+  "updated": "2026-10-19T09:02:34",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-19T08:50",
+      "t": "Edge AI Daily 早报（10月19日）",
+      "s": "Anthropic 以捐出5%股份设公共利益基金、并用通胀情境预测美国GDP 2030年或达44万亿美元，同时将律师引入…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8172585.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-19T08:30",
+      "t": "烧钱已成过去式，AI竞赛方向有变化？",
+      "s": "烧钱本身不再是通行证，烧出什么东西来才是。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8172463.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-19T08:27",
@@ -86,39 +100,11 @@
       "u": "https://www.tmtpost.com/8172334.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-18T14:06",
-      "t": "AI让服饰下单转化率提升近20%，2026天猫双11将开启AI电商元年？",
-      "s": "价格已经不再是双11大促的看点，AI和旗舰店才是是今年天猫双11的关键词。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172255.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-18T12:20",
-      "t": "Huggingface发榜，中国模型StartLux稳居决策模型SOTA",
-      "s": "当 AI 从“生成内容”迈向“执行任务”，一个能够控制计算成本、理解关键细节并准确表达不确定性的决策中枢，将成为智能体和…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172283.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-18T10:07",
       "t": "AIGCPanel v2.6.0 照片直接生成数字人形象，语音合成参数可调",
       "s": "做数字人形象不用录视频了，一张自拍就行。语音合成参数改到生成时微调、任务调度补上兜底，也都在这一版里。 📷 一张照片，就…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503072"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-18T09:57",
-      "t": "当烧钱不再是通行证：微软、Meta踩刹车，苹果成了AI赢家",
-      "s": "AI叙事转向重视投入回报，进入财务纪律驱动新阶段（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8171909.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-18T09:57",
-      "t": "当地方政府成为机器人的第一大客户",
-      "s": "数采中心的本质，是政府对具身智能的补贴形式从现金补贴改成了采购订单。这在产业史上不新鲜——光伏、新能源车、AI四小龙都走…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8172207.html"
     },
     {
       "c": "MODEL",
@@ -140,9 +126,31 @@
       "t": "中信建投:AI加速重塑制药传统研发范式",
       "s": "中信建投:AI加速重塑制药传统研发范式（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7697639034067223083/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-17T20:21",
+      "t": "突发！DeepSeek新模型发布，超级性价比斩杀一切",
+      "s": "新版本V4.1-Flash-1017，还开放了自研搜索API（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504067.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-17T20:13",
+      "t": "智谱新模型，懂法方面全球第一了",
+      "s": "AI的风还是刮到了法律圈（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/503965.html"
     }
   ],
   "timeline": [
+    [
+      "10-19 08:50",
+      "Edge AI Daily 早报（10月19日）"
+    ],
+    [
+      "10-19 08:30",
+      "烧钱已成过去式，AI竞赛方向有变化？"
+    ],
     [
       "10-19 08:27",
       "演员吴越被 AI 生成虚假带货视频，微信视频号回应称涉事账号已永久封禁、内容清空"
@@ -158,14 +166,6 @@
     [
       "10-19 07:52",
       "受 AI 冲击，游戏反编译平台 decomp.dev 宣布关停"
-    ],
-    [
-      "10-19 07:39",
-      "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%"
-    ],
-    [
-      "10-19 07:34",
-      "再也不是固定台词，AI 模组 NPCTalk 让《GTA 5》NPC 实现实时无脚本语音对话"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 301649,
+      "s": 301657,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 296202,
+      "s": 296225,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 283281,
+      "s": 283297,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 220966,
+      "s": 220969,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 181998,
+      "s": 182001,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152255,
+      "s": 152258,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142222,
+      "s": 142224,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 128425,
+      "s": 128432,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113474,
+      "s": 113479,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108206,
+      "s": 108209,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
