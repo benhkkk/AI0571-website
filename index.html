@@ -459,14 +459,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-20T08:23', t:'Edge AI Daily 早报（10月20日）', s:'AI基础设施进入重资产验证期：微软、Alphabet、亚马逊、Meta四大巨头资本开支预计6000亿至7000亿美元，而…（来源：钛媒体）', u:'https://www.tmtpost.com/8174059.html'},
+    {c:'HOT', d:'2026-10-20T08:16', t:'IT早报 1020：苹果官宣 10 月 29 日举行特别活动；特斯拉官方声明“没有速成车”；小米行政豪华旗舰 SU9 LUX 商标首曝；豆包辟谣国内超一半算力在造爽剧...', s:'“IT早报”时间，大家好，现在是 2026 年 10 月 20 日星期二，今天的重要科技资讯有：1. 苹果官宣北京时间 …（来源：IT之家）', u:'https://www.ithome.com/1/015/081.htm'},
+    {c:'MODEL', d:'2026-10-20T08:07', t:'早报｜苹果定档下周发布新品，触屏MacBook Pro或将亮相/华为苹果拿下中国手机四成份额/杨立昆锐评特斯拉飞车，马斯克：放屁', s:'· OpenAI 为 OpenCode 受攻击用户退还被消耗的 API 额度 · 王腾宣布今日宜休将于 10 月 29 …（来源：爱范儿）', u:'https://www.ifanr.com/1684957?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MEDPHARMA', d:'2026-10-20T07:56', t:'新 AI 工具问世：仅凭一张面部照片即可预测癌症患者生存几率', s:'据彭博社报道，研究人员开发出一款人工智能工具，仅凭一张面部照片就能预测癌症患者的生存几率。该工具可以补充医生的临床经验判…（来源：IT之家）', u:'https://www.ithome.com/1/015/079.htm'},
     {c:'FUNDING', d:'2026-10-20T07:51', t:'赶在 Anthropic 上市前：消息称 OpenAI 加速新一轮融资进程，估值或超 1.4 万亿美元', s:'据路透社报道，两位知情人士称，OpenAI 正争分夺秒地争取投资者承诺，力求在竞争对手 Anthropic 预计于 11…（来源：IT之家）', u:'https://www.ithome.com/1/015/078.htm'},
     {c:'FUNDING', d:'2026-10-20T07:47', t:'消息称谷歌前 CEO 施密特持有 Anthropic 1% 股份，将因后者 IPO 收获巨额回报', s:'据彭博社报道，知情人士透露，谷歌前首席执行官埃里克 · 施密特（Eric Schmidt）凭借对初创公司 Anthrop…（来源：IT之家）', u:'https://www.ithome.com/1/015/077.htm'},
     {c:'MODEL', d:'2026-10-20T07:39', t:'日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音', s:'随着生成式 AI 给各行各业创作者带来越来越多的困扰，日本配音演员正在寻找属于自己的方式，抵制他人未经授权使用他们的声音…（来源：IT之家）', u:'https://www.ithome.com/1/015/074.htm'},
     {c:'HOT', d:'2026-10-20T07:25', t:'Steam 新品节充斥低质 AI 游戏，玩家呼吁平台新增 AI 内容筛选功能', s:'Valve 面向独立游戏与试玩版的活动 Steam 新品节（Steam Next Fest）已经开幕，尽管历届新品节都会…（来源：IT之家）', u:'https://www.ithome.com/1/015/072.htm'},
     {c:'MODEL', d:'2026-10-20T07:13', t:'微软警示前沿 AI 模型不可信：AI 智能体堪比内部威胁，推出 Guardian Agents 防护方案', s:'微软于当地时间周一推出了多项全新安全功能，旨在帮助企业抵御日益严峻的智能体带来的安全威胁。发布该产品之际，微软持续向企业…（来源：IT之家）', u:'https://www.ithome.com/1/015/069.htm'},
-    {c:'MODEL', d:'2026-10-20T02:35', t:'苹果 macOS 27.2 RC 发布：扩展 Siri AI 语言，更新亮度 / 音量滑块等', s:'苹果今日向 Mac 电脑用户推送了 macOS 27.2 RC 更新（内部版本号：26B118），本次更新距离上次发布 …（来源：IT之家）', u:'https://www.ithome.com/1/015/063.htm'},
-    {c:'MODEL', d:'2026-10-20T02:35', t:'苹果 iOS / iPadOS 27.2 RC 发布：Siri AI 再添 5 种语言、Apple Music 启用新视觉', s:'【点此直达升级教程】IT之家 10 月 20 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / i…（来源：IT之家）', u:'https://www.ithome.com/1/015/062.htm'},
+    {c:'HOT', d:'2026-10-20T03:31', t:'英伟达黄仁勋：AI 是新工具，你的专业知识不会被取代', s:'在柏林对话德国总理弗里德里希 · 默茨（Friedrich Merz）时，英伟达首席执行官黄仁勋表示 AI 不只是聊天工…（来源：IT之家）', u:'https://www.ithome.com/1/015/066.htm'},
     {c:'INDUSTRY', d:'2026-10-19T21:57', t:'AI 里没有答案的问题，需要一场「深谈」', s:'去年，极客公园创新大会第一次办起「小场深谈」。场子都不大，百人左右围坐在一起。 有些瞬间仍然记忆犹新。 在「超级个体」专…（来源：极客公园）', u:'http://www.geekpark.net/news/372579'},
     {c:'HOT', d:'2026-10-19T21:02', t:'纽娲机器人杨睿刚：无人配送跑了十年，机器人为何还到不了家门？', s:'难题集中在几笔容易被低估的事件上：新场地的部署、既有设施的改造，以及异常发生时的人工兜底。（来源：钛媒体）', u:'https://www.tmtpost.com/8171183.html'},
     {c:'MODEL', d:'2026-10-19T20:47', t:'华中师大 CoReFuse-Med：先净化再融合，让低质模态不再拖后腿｜ACM MM 2026', s:'来源：多模态信息融合文章链接：https://mp.weixin.qq.com/s/SVr9DmtPyzORLYad-t…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/QgMWStz8hCPsFf68.html'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-19T19:03', t:'Kimi和DeepSeek，差异越来越明显', s:'趋同是表象。分岔，才是正在发生的事实。（来源：钛媒体）', u:'https://www.tmtpost.com/8172461.html'},
     {c:'HOT', d:'2026-10-19T18:57', t:'Cue一周实测：给AI配了身份证，却还做不到“随时可用”', s:'出走、回购与Cue，Manus的Personal AI“本土化”大考。（来源：钛媒体）', u:'https://www.tmtpost.com/8173445.html'},
     {c:'MODEL', d:'2026-10-19T18:57', t:'千次5元、搜不到不收钱：DeepSeek给Agent装上自研搜索，价格只有Tavily的零头', s:'搜索按次收费，失败不收钱。（来源：钛媒体）', u:'https://www.tmtpost.com/8173434.html'},
-    {c:'MODEL', d:'2026-10-19T18:41', t:'让“洋Agent”逛中国互联网，我成了它们的助理', s:'Muse和Dot的日常打工实录。（来源：钛媒体）', u:'https://www.tmtpost.com/8173460.html'},
-    {c:'FUNDING', d:'2026-10-19T18:10', t:'客户为什么愿意为端侧 AI 买单？五位一线操盘手讲透了', s:'过去几年，AI 行业热衷于比参数、拼算力、讲融资。但模型一旦离开展台，客户的问题立刻具体起来：数据会不会泄露？设备能不能…（来源：极客公园）', u:'http://www.geekpark.net/news/372578'},
   ];
   const TIMELINE = [
+    ['10-20 08:23','Edge AI Daily 早报（10月20日）'],
+    ['10-20 08:16','IT早报 1020：苹果官宣 10 月 29 日举行特别活动；特斯拉官方声明“没有速成车”；小米行政豪华旗舰 SU9 LUX 商标首曝；豆包辟谣国内超一半算力在…'],
+    ['10-20 08:07','早报｜苹果定档下周发布新品，触屏MacBook Pro或将亮相/华为苹果拿下中国手机四成份额/杨立昆锐评特斯拉飞车，马斯克：放屁'],
     ['10-20 07:56','新 AI 工具问世：仅凭一张面部照片即可预测癌症患者生存几率'],
     ['10-20 07:51','赶在 Anthropic 上市前：消息称 OpenAI 加速新一轮融资进程，估值或超 1.4 万亿美元'],
     ['10-20 07:47','消息称谷歌前 CEO 施密特持有 Anthropic 1% 股份，将因后者 IPO 收获巨额回报'],
-    ['10-20 07:39','日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音'],
-    ['10-20 07:25','Steam 新品节充斥低质 AI 游戏，玩家呼吁平台新增 AI 内容筛选功能'],
-    ['10-20 07:13','微软警示前沿 AI 模型不可信：AI 智能体堪比内部威胁，推出 Guardian Agents 防护方案'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302123, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:297472, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:284129, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221222, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182231, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152637, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142327, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:129157, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302131, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:297486, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:284134, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221227, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182236, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152646, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142328, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:129167, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113673, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:108622, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:108628, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
