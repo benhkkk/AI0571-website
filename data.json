@@ -1,6 +1,34 @@
 {
-  "updated": "2026-10-20T07:32:13",
+  "updated": "2026-10-20T08:03:10",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-20T07:56",
+      "t": "新 AI 工具问世：仅凭一张面部照片即可预测癌症患者生存几率",
+      "s": "据彭博社报道，研究人员开发出一款人工智能工具，仅凭一张面部照片就能预测癌症患者的生存几率。该工具可以补充医生的临床经验判…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/079.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-20T07:51",
+      "t": "赶在 Anthropic 上市前：消息称 OpenAI 加速新一轮融资进程，估值或超 1.4 万亿美元",
+      "s": "据路透社报道，两位知情人士称，OpenAI 正争分夺秒地争取投资者承诺，力求在竞争对手 Anthropic 预计于 11…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/078.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-20T07:47",
+      "t": "消息称谷歌前 CEO 施密特持有 Anthropic 1% 股份，将因后者 IPO 收获巨额回报",
+      "s": "据彭博社报道，知情人士透露，谷歌前首席执行官埃里克 · 施密特（Eric Schmidt）凭借对初创公司 Anthrop…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/077.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-20T07:39",
+      "t": "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音",
+      "s": "随着生成式 AI 给各行各业创作者带来越来越多的困扰，日本配音演员正在寻找属于自己的方式，抵制他人未经授权使用他们的声音…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/074.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-20T07:25",
@@ -30,32 +58,11 @@
       "u": "https://www.ithome.com/1/015/062.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-19T23:03",
-      "t": "四个谷歌 Gemini 4 Argon 智能体成功击败末影龙通关《我的世界》，耗时 27 小时",
-      "s": "谷歌研究人员近日发布论文称，他们使用四个 Gemini 4 Argon 智能体成功通关《我的世界》，仅用 27 小时就成…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/048.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-19T22:44",
-      "t": "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元",
-      "s": "RISC-V AI 计算企业 Tenstorrent 美国当地时间今日宣布完成总额达 15 亿美元（IT之家注：现汇率约…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/045.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-19T21:57",
       "t": "AI 里没有答案的问题，需要一场「深谈」",
       "s": "去年，极客公园创新大会第一次办起「小场深谈」。场子都不大，百人左右围坐在一起。 有些瞬间仍然记忆犹新。 在「超级个体」专…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372579"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-19T21:39",
-      "t": "古尔曼：苹果正研发室内摄像头，依靠 AI 分析环境",
-      "s": "彭博社记者马克 · 古尔曼在最新一期《Power On》通讯中提到，苹果正在研发一款室内摄像头，内部代号 J450，可利…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/023.htm"
     },
     {
       "c": "HOT",
@@ -84,13 +91,6 @@
       "t": "平台做天使投资：速卖通把品牌争夺战，打到了品牌诞生前",
       "s": "平台做天使投资，在电商行业还是头一回。这两年，AI硬件行业吸引了大量机构的投资资金。从录音设备、智能眼镜到陪伴机器人，创…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/prCErk1x9AsQgxw1.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-19T19:37",
-      "t": "AMD 锐龙 AI 7 HX 455 处理器曝光：8 核 CPU，16CU GPU",
-      "s": "消息人士 @金猪升级包 稍早前曝光了 AMD 尚未推出的锐龙 AI 7 HX 455 处理器。从规格上来看，该型号应该基…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/006.htm"
     },
     {
       "c": "MODEL",
@@ -144,28 +144,28 @@
   ],
   "timeline": [
     [
+      "10-20 07:56",
+      "新 AI 工具问世：仅凭一张面部照片即可预测癌症患者生存几率"
+    ],
+    [
+      "10-20 07:51",
+      "赶在 Anthropic 上市前：消息称 OpenAI 加速新一轮融资进程，估值或超 1.4 万亿美元"
+    ],
+    [
+      "10-20 07:47",
+      "消息称谷歌前 CEO 施密特持有 Anthropic 1% 股份，将因后者 IPO 收获巨额回报"
+    ],
+    [
+      "10-20 07:39",
+      "日本演员工会发布 AI 语音使用准则，龙珠悟空配音演员怒批 AI 盗用其声音"
+    ],
+    [
       "10-20 07:25",
       "Steam 新品节充斥低质 AI 游戏，玩家呼吁平台新增 AI 内容筛选功能"
     ],
     [
       "10-20 07:13",
       "微软警示前沿 AI 模型不可信：AI 智能体堪比内部威胁，推出 Guardian Agents 防护方案"
-    ],
-    [
-      "10-20 02:35",
-      "苹果 macOS 27.2 RC 发布：扩展 Siri AI 语言，更新亮度 / 音量滑块等"
-    ],
-    [
-      "10-20 02:35",
-      "苹果 iOS / iPadOS 27.2 RC 发布：Siri AI 再添 5 种语言、Apple Music 启用新视觉"
-    ],
-    [
-      "10-19 23:03",
-      "四个谷歌 Gemini 4 Argon 智能体成功击败末影龙通关《我的世界》，耗时 27 小时"
-    ],
-    [
-      "10-19 22:44",
-      "Tenstorrent 完成 15 亿美元 E 轮融资，投后估值 62 亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302117,
+      "s": 302123,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 297455,
+      "s": 297472,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 284111,
+      "s": 284129,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221213,
+      "s": 221222,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182225,
+      "s": 182231,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152631,
+      "s": 152637,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 129146,
+      "s": 129157,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113669,
+      "s": 113673,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108615,
+      "s": 108622,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
