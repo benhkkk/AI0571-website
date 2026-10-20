@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-20T23:01:20",
+  "updated": "2026-10-20T23:28:54",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-20T23:11",
+      "t": "英伟达黄仁勋劝诫欧洲各国：别再对 AI 过度犹疑，否则将被时代甩在身后",
+      "s": "据《商业内幕》今天报道，英伟达首席执行官黄仁勋过去一周访欧期间，向欧洲各国领导人传递了明确信号：必须摆脱束缚大胆行动，否…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/603.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-20T22:54",
@@ -21,13 +28,6 @@
       "t": "Waymo 计划明年进军西班牙市场，在该国首都马德里推出自动驾驶网约车服务",
       "s": "Waymo 今天宣布，公司计划 2027 年在西班牙推出完全自动驾驶网约车服务，首站定在该国首都马德里。Waymo 表示…（来源：IT之家）",
       "u": "https://www.ithome.com/1/015/574.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-20T19:50",
-      "t": "小米 MiMo-V2.6-Pro 正式上线 WorkBuddy，支持 1M 超长上下文多智能体分工协作等",
-      "s": "小米技术官方今日宣布，Xiaomi MiMo-V2.6-Pro 正式上线 WorkBuddy。据介绍，Xiaomi Mi…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/533.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-20 23:11",
+      "英伟达黄仁勋劝诫欧洲各国：别再对 AI 过度犹疑，否则将被时代甩在身后"
+    ],
+    [
       "10-20 22:54",
       "Adobe Lightroom 移动版新增“睁眼”AI 修图，一键修复闭眼照片"
     ],
@@ -154,10 +158,6 @@
     [
       "10-20 21:34",
       "Waymo 计划明年进军西班牙市场，在该国首都马德里推出自动驾驶网约车服务"
-    ],
-    [
-      "10-20 19:50",
-      "小米 MiMo-V2.6-Pro 正式上线 WorkBuddy，支持 1M 超长上下文多智能体分工协作等"
     ],
     [
       "10-20 18:39",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302455,
+      "s": 302469,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 298275,
+      "s": 298310,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 284572,
+      "s": 284586,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221418,
+      "s": 221422,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182417,
+      "s": 182425,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152890,
+      "s": 152896,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142390,
+      "s": 142391,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 129751,
+      "s": 129775,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113790,
+      "s": 113793,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108850,
+      "s": 108853,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
