@@ -459,12 +459,15 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-21T07:22', t:'OpenAI 为 ChatGPT 推出聊天上锁功能，通过 PIN 码、生物识别保护敏感对话', s:'OpenAI 于当地时间周二宣布，用户现在可以为 ChatGPT 对话上锁。当其他人有可能看到屏幕或使用自己设备时，这项…（来源：IT之家）', u:'https://www.ithome.com/1/015/629.htm'},
+    {c:'MODEL', d:'2026-10-21T07:20', t:'【钛晨报】工信部：正研究起草新一代智能制造政策，推动“AI+制造”；新央企国家数据集团成立，董事长、总经理亮相；DeepSeek宣布全面开源内部推理框架', s:'宇树科技：人形机器人行业尚处于商业化早期；多家银行取消积存金手续费；宁德时代第三季度净利润212.46亿元，同比增长14…（来源：钛媒体）', u:'https://www.tmtpost.com/8175144.html'},
+    {c:'INDUSTRY', d:'2026-10-21T07:17', t:'AI 需求旺盛致内存供应紧张，集邦咨询预估 2026Q4 DRAM 合约价环比涨 20%', s:'市场调查机构集邦咨询（TrendForce）援引多方报道称，预估 2026 年第四季度 DRAM 合约价格环比上涨约 2…（来源：IT之家）', u:'https://www.ithome.com/1/015/627.htm'},
+    {c:'MODEL', d:'2026-10-21T07:14', t:'谷歌开源 TorchTPU，挑战英伟达 AI 生态主导地位', s:'谷歌于当地时间周二宣布，面向谷歌 TPU 的原生 PyTorch 框架 TorchTPU 现已在 GitHub 上开源…（来源：IT之家）', u:'https://www.ithome.com/1/015/626.htm'},
     {c:'MODEL', d:'2026-10-21T06:57', t:'谷歌为车载 Gemini 新增个人智能功能，可跨 Gmail、日历、地图调取数据', s:'谷歌正在为已搭载在数百万辆轿车、卡车与 SUV 上的 Gemini 人工智能助手增添更强的个性化能力，这一举措或将进一步…（来源：IT之家）', u:'https://www.ithome.com/1/015/623.htm'},
     {c:'FUNDING', d:'2026-10-21T06:51', t:'OpenAI 宣布收购 AI 生物科技初创企业 Orchestra Bio', s:'OpenAI 于当地时间周二宣布，收购成立四年的人工智能生物科技软件初创企业 Orchestra Bio，相关消息由该公…（来源：IT之家）', u:'https://www.ithome.com/1/015/621.htm'},
     {c:'HOT', d:'2026-10-20T23:11', t:'英伟达黄仁勋劝诫欧洲各国：别再对 AI 过度犹疑，否则将被时代甩在身后', s:'据《商业内幕》今天报道，英伟达首席执行官黄仁勋过去一周访欧期间，向欧洲各国领导人传递了明确信号：必须摆脱束缚大胆行动，否…（来源：IT之家）', u:'https://www.ithome.com/1/015/603.htm'},
     {c:'HOT', d:'2026-10-20T22:54', t:'Adobe Lightroom 移动版新增“睁眼”AI 修图，一键修复闭眼照片', s:'Adobe 公司昨日宣布，Lightroom 移动版修图软件已经支持“睁眼”AI 修图功能，用户只需要点一下，就能修复照…（来源：IT之家）', u:'https://www.ithome.com/1/015/601.htm'},
     {c:'MODEL', d:'2026-10-20T22:40', t:'智能电视广告引不满，部分用户借助 Claude 等 AI 智能体清理广告和预装应用', s:'据 TechCrunch、Mashable 当地时间 10 月 19 日报道，部分开发者和普通用户开始借助 Claude…（来源：IT之家）', u:'https://www.ithome.com/1/015/598.htm'},
-    {c:'MODEL', d:'2026-10-20T21:34', t:'Waymo 计划明年进军西班牙市场，在该国首都马德里推出自动驾驶网约车服务', s:'Waymo 今天宣布，公司计划 2027 年在西班牙推出完全自动驾驶网约车服务，首站定在该国首都马德里。Waymo 表示…（来源：IT之家）', u:'https://www.ithome.com/1/015/574.htm'},
     {c:'MODEL', d:'2026-10-20T21:29', t:'国模Agent第一！MiniMax爆改Flash战力，全时段大肥鱼谷价', s:'兔皮底下，竟然是MiniMax！（来源：量子位）', u:'https://www.qbitai.com/2026/10/504517.html'},
     {c:'MODEL', d:'2026-10-20T20:50', t:'RSI三块关键拼图，MemT 1.0从模型层补上「记忆」', s:'把记忆原生焊进Transformer（来源：量子位）', u:'https://www.qbitai.com/2026/10/504456.html'},
     {c:'MODEL', d:'2026-10-20T18:39', t:'停止加薪！大众计划冻结全球大量员工薪酬至2030年；突发！美国发布DeepSeek禁令；马斯克：明年向全美儿童赠送SpaceX股票', s:'要闻提示1.停止加薪！大众计划冻结员工薪酬至2030年，涉及全球大量员工2.突发！美国发布DeepSeek禁令3.花钱之…（来源：雷锋网）', u:'https://www.leiphone.com/category/zaobao/Y7039p8HsmmeQClm.html'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-20T17:29', t:'OpenCode陷入“密钥泄露”风波，AI时代如何守住安全红线？', s:'AI给黑客带来的便利，远大于对安全防护措施的助益。（来源：钛媒体）', u:'https://www.tmtpost.com/8174735.html'},
     {c:'MODEL', d:'2026-10-20T17:13', t:'技术赋能全球化深耕 比亚迪携多品牌亮相2026巴黎车展', s:'当地时间10月12日，2026巴黎国际车展正式启幕。（来源：量子位）', u:'https://www.qbitai.com/2026/10/504435.html'},
     {c:'HOT', d:'2026-10-20T16:40', t:'做了10年影视制片人，现在我每天陪老板搓“AI玩具”', s:'做了10年影视制片人，现在我每天陪老板搓“AI玩具”（来源：钛媒体）', u:'https://www.tmtpost.com/8174207.html'},
-    {c:'HOT', d:'2026-10-20T16:39', t:'这届年轻人，花钱“手搓”AI人设', s:'聊天框变虚拟片场（来源：钛媒体）', u:'https://www.tmtpost.com/8174252.html'},
-    {c:'HOT', d:'2026-10-20T16:39', t:'对话Dyna Robotics：被部署教训了300天后，找到机器人Scaling Law', s:'“世界上最无聊”的机器人公司？（来源：钛媒体）', u:'https://www.tmtpost.com/8174365.html'},
-    {c:'MODEL', d:'2026-10-20T16:39', t:'具身智能，卡在哪——王兴兴的"一两年"到底承诺了什么', s:'具身智能的时间表随GPT版本号前移，市场把模型进步误读为具身进度。模型是翻译官，Agent是场景决策者，物理载体是手脚…（来源：钛媒体）', u:'https://www.tmtpost.com/8174435.html'},
   ];
   const TIMELINE = [
+    ['10-21 07:22','OpenAI 为 ChatGPT 推出聊天上锁功能，通过 PIN 码、生物识别保护敏感对话'],
+    ['10-21 07:20','【钛晨报】工信部：正研究起草新一代智能制造政策，推动“AI+制造”；新央企国家数据集团成立，董事长、总经理亮相；DeepSeek宣布全面开源内部推理框架'],
+    ['10-21 07:17','AI 需求旺盛致内存供应紧张，集邦咨询预估 2026Q4 DRAM 合约价环比涨 20%'],
+    ['10-21 07:14','谷歌开源 TorchTPU，挑战英伟达 AI 生态主导地位'],
     ['10-21 06:57','谷歌为车载 Gemini 新增个人智能功能，可跨 Gmail、日历、地图调取数据'],
     ['10-21 06:51','OpenAI 宣布收购 AI 生物科技初创企业 Orchestra Bio'],
-    ['10-20 23:11','英伟达黄仁勋劝诫欧洲各国：别再对 AI 过度犹疑，否则将被时代甩在身后'],
-    ['10-20 22:54','Adobe Lightroom 移动版新增“睁眼”AI 修图，一键修复闭眼照片'],
-    ['10-20 22:40','智能电视广告引不满，部分用户借助 Claude 等 AI 智能体清理广告和预装应用'],
-    ['10-20 21:34','Waymo 计划明年进军西班牙市场，在该国首都马德里推出自动驾驶网约车服务'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302580, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:298609, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:284874, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221522, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182486, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152645, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142420, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:130170, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113851, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:108973, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302586, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:298624, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:284885, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221526, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182491, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152648, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142422, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:130192, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113855, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:108980, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
