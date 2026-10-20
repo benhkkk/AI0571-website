@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-20T21:01:24",
+  "updated": "2026-10-20T21:31:33",
   "news": [
     {
       "c": "MODEL",
@@ -42,20 +42,6 @@
       "t": "喊出300万张订单，英伟达RTX PRO 5500为何遭到提前疯抢？",
       "s": "在AI算力市场，等风声传开再下注，往往已经慢了半拍。早在8月份，服务器产品经理夏寅卿已经开始向客户推介还未面世的RTX …（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/chips/STx9ZzfDNh5W80Bm.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-20T18:24",
-      "t": "微软设计师也开始借助 AI 编写 Win11 代码，加速修复界面不一致问题",
-      "s": "据科技媒体 Windows Latest 今天报道，微软 Win11 拥有支持深色模式的现代化“设置”应用，但部分选项仍…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/493.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-20T18:18",
-      "t": "华硕 a 豆 14 Air 2026 笔记本新增 16GB + 1TB 存储版：AMD AI 9 H 465 处理器，6999 元起",
-      "s": "华硕 a 豆 14 Air 2026 新推出了一款搭载 AMD AI 9 H 465 处理器、16GB 内存、1TB 固…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/490.htm"
     },
     {
       "c": "HOT",
@@ -140,6 +126,20 @@
       "t": "设计师的第一个 Personal Agent，可能就是 Lovart 2.0 的 Arti 了",
       "s": "2025 年，Lovart 作为全球首款设计 Agent 开始出现在各大设计师社区。第一次用 AI 能力把整个设计流程串…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372612"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-20T12:22",
+      "t": "新石器完成近4亿美元新一轮融资，加速全球化与规模化商业落地",
+      "s": "10月20日，全球领先的自动驾驶科技公司新石器（Neolix）宣布正式完成E轮近4亿美元融资。本轮融资由博裕投资与某国家…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/eSrgjx3nGEGMMePm.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-20T12:06",
+      "t": "启元机器人新进展：北大董豪团队推出 HIL-UMI，让后训练摆脱「真机依赖」",
+      "s": "继无本体之后，具身后训练范式有了新进展。 作者丨齐铖湧 编辑丨岑 峰 最近，具身行业讨论“无本体进行后训练的可能性”的热…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/XgCxObsqu8pc44px.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302414,
+      "s": 302424,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 298154,
+      "s": 298179,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 284490,
+      "s": 284501,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221387,
+      "s": 221395,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182391,
+      "s": 182399,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152878,
+      "s": 152882,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142380,
+      "s": 142382,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 129593,
+      "s": 129641,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113774,
+      "s": 113779,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108813,
+      "s": 108817,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
