@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T14:01:56",
+  "updated": "2026-10-21T14:11:27",
   "news": [
     {
       "c": "HOT",
@@ -63,6 +63,13 @@
       "t": "Spotify 一年从推荐流中移除超 5000 万首低质 AI 音乐，调整推荐系统优先展示人类创作者作品",
       "s": "Spotify 当地时间周二发布公告称，过去一年，平台已从用户推荐流中移除超过 5000 万首被认定为 AI 生成的低质…（来源：IT之家）",
       "u": "https://www.ithome.com/1/015/804.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T12:09",
+      "t": "大肥鱼遇劲敌：MiniMax M3.1 Flash 拿下 Agent 任务第一，我们实测了",
+      "s": "MiniMax 把 DeepSeek 的低谷价变成了全天价，Flash 价格战又卷起来了。 作者丨吴海明 李娜 编辑丨李…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/IMOE7FfuhC0qGxZk.html"
     },
     {
       "c": "MODEL",
@@ -133,13 +140,6 @@
       "t": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
       "s": "先看真实问题解决力（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/504608.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-21T09:59",
-      "t": "AI时代，神话并未消失：人类正在创造新的“数字神明”",
-      "s": "一、引言：当算法开始回答神谕式问题 在过去的几年里，一个越来越常见的场景开始出现：当人们面对复杂的人生问题或难以理解的世…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503123"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302690,
+      "s": 302693,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 298926,
+      "s": 298940,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285037,
+      "s": 285042,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221594,
+      "s": 221597,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 130555,
+      "s": 130566,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113906,
+      "s": 113910,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109061,
+      "s": 109065,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
