@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-21T20:20', t:'首批 L3 级自动驾驶“证”规军，深蓝 SL03 汽车“小蓝灯”持证上岗', s:'深蓝汽车董事长邓承浩今日宣布，深蓝 SL03 汽车的“小蓝灯”持证上岗。他表示，该车是首批 L3 级自动驾驶“证”规军…（来源：IT之家）', u:'https://www.ithome.com/1/016/102.htm'},
+    {c:'MODEL', d:'2026-10-21T20:15', t:'Visa 发布三项商业支付能力：开启 AI 智能体支付试点，预测 B2B 虚拟卡价值 2029 年将达 14.6 万亿美元', s:'Visa 今日宣布推出三项面向商业支付的新能力，分别指向商业卡增长、虚拟卡安全与 AI 支付。这三项举措共同的前提是：企…（来源：IT之家）', u:'https://www.ithome.com/1/016/101.htm'},
     {c:'MODEL', d:'2026-10-21T18:56', t:'谷歌 CEO：与苹果合作的市场反馈很好，愿意继续深化合作', s:'谷歌 CEO 桑达尔 · 皮查伊今日出席 YouTube 频道 Alex Kantrowitz，谈到最新的 Gemini…（来源：IT之家）', u:'https://www.ithome.com/1/016/076.htm'},
     {c:'MODEL', d:'2026-10-21T18:39', t:'8GB 显存即可运行：5.6B 图像生成模型 FLUX 3 Image Klein 发布', s:'视觉人工智能实验室 Black Forest Labs 当地时间本月 15 日以开放权重的形式发布了 FLUX 3 Im…（来源：IT之家）', u:'https://www.ithome.com/1/016/062.htm'},
     {c:'MODEL', d:'2026-10-21T18:35', t:'Meta Muse 分享对话可被陌生人找到：标题写进 URL、一次 DNS 查询全暴露', s:'Meta 的 AI 助手 Muse 刚上线就撞上隐私问题：用户分享的对话，能被陌生人轻易找到。Meta 已经暂停了分享功…（来源：OSCHINA）', u:'https://www.oschina.net/news/503140/meta-muse-exposes-users-personal-when-they-share-conversations'},
@@ -469,8 +471,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-21T17:49', t:'AI 泡沫监测·之一：债务层已经先动了', s:'判断 AI 泡沫别盯股价，盯债：CoreWeave 债券 76 美分，甲骨文 CDS 创历史新高，私募信贷在挤兑——债务…（来源：钛媒体）', u:'https://www.tmtpost.com/8175985.html'},
     {c:'MODEL', d:'2026-10-21T17:48', t:'奇瑞旗下墨甲机器人首款消费级家庭陪伴人形机器人“墨宝”发布：身高 0.9 米，22 个自由度支持行走与身体表达', s:'2026 墨甲机器人全球发布会今日在安徽芜湖举行。墨甲机器人总经理张贵兵表示，墨甲机器人全球销量已超过 3000 台，覆…（来源：IT之家）', u:'https://www.ithome.com/1/016/037.htm'},
     {c:'INDUSTRY', d:'2026-10-21T17:46', t:'华为靳玉志：以真实数据建立用户信任，是自动驾驶规模化商用落地的关键', s:'在 2026 世界智能网联汽车大会上，华为公司高级副总裁、引望公司 CEO 靳玉志表示，智能化下半场正呈现三大趋势：产业…（来源：IT之家）', u:'https://www.ithome.com/1/016/031.htm'},
-    {c:'MODEL', d:'2026-10-21T17:41', t:'Synaptics 推出 Astra SR200 MCU：内置谷歌 Coral NPU，集成高带宽定制 DRAM', s:'边缘 AI 芯片企业 Synaptics（新突思）美国当地时间 20 日宣布推出 Astra SR200 系列 xMCU…（来源：IT之家）', u:'https://www.ithome.com/1/016/027.htm'},
-    {c:'INDUSTRY', d:'2026-10-21T17:40', t:'小鹏汽车董事长何小鹏称 L3 安全性没有变好，自动驾驶应该跳过 L3', s:'据第一财经报道，小鹏集团董事长、CEO 何小鹏今日在世界智能网联汽车大会上表示，自动驾驶应该跳过 L3。L3 模式下安全…（来源：IT之家）', u:'https://www.ithome.com/1/016/025.htm'},
     {c:'HOT', d:'2026-10-21T17:36', t:'数字造星时代来临，流水线式AI艺人能挣到谁的钱？', s:'观众究竟为什么要为一张AI脸买单？（来源：钛媒体）', u:'https://www.tmtpost.com/8176501.html'},
     {c:'MODEL', d:'2026-10-21T17:36', t:'智能体手机加速爆发？换机困境、端侧AI与下一代入口之争', s:'手机需要“新故事”。（来源：钛媒体）', u:'https://www.tmtpost.com/8176382.html'},
     {c:'HOT', d:'2026-10-21T17:36', t:'电商巨头的AI战略分野：阿里抢算力，京东抢扳手', s:'阿里和京东的分野，表面是技术路线不同，实际是两家公司各自从最熟悉的资产出发。（来源：钛媒体）', u:'https://www.tmtpost.com/8176414.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-21T12:09', t:'大肥鱼遇劲敌：MiniMax M3.1 Flash 拿下 Agent 任务第一，我们实测了', s:'MiniMax 把 DeepSeek 的低谷价变成了全天价，Flash 价格战又卷起来了。 作者丨吴海明 李娜 编辑丨李…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/IMOE7FfuhC0qGxZk.html'},
   ];
   const TIMELINE = [
+    ['10-21 20:20','首批 L3 级自动驾驶“证”规军，深蓝 SL03 汽车“小蓝灯”持证上岗'],
+    ['10-21 20:15','Visa 发布三项商业支付能力：开启 AI 智能体支付试点，预测 B2B 虚拟卡价值 2029 年将达 14.6 万亿美元'],
     ['10-21 18:56','谷歌 CEO：与苹果合作的市场反馈很好，愿意继续深化合作'],
     ['10-21 18:39','8GB 显存即可运行：5.6B 图像生成模型 FLUX 3 Image Klein 发布'],
     ['10-21 18:35','Meta Muse 分享对话可被陌生人找到：标题写进 URL、一次 DNS 查询全暴露'],
     ['10-21 18:29','Open Inference Code Narrows the Gap Between Rival AI Chips'],
-    ['10-21 18:25','英伟达黄仁勋称未来电信运营商都将提供 AI 算力，电信基站有望发展成分布式 AI 网络'],
-    ['10-21 18:20','蔚来李斌：用户不愿意付钱，自动驾驶讲得再好也没有真正创造用户价值'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302870, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:299285, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:285215, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221696, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182630, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152673, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142483, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:130912, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113996, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109148, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302881, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:299300, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:285226, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221706, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182636, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152679, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142489, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:130935, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114004, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109153, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
