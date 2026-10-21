@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-21T12:30:58",
+  "updated": "2026-10-21T13:01:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T12:53",
+      "t": "Spotify 一年从推荐流中移除超 5000 万首低质 AI 音乐，调整推荐系统优先展示人类创作者作品",
+      "s": "Spotify 当地时间周二发布公告称，过去一年，平台已从用户推荐流中移除超过 5000 万首被认定为 AI 生成的低质…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/804.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-21T12:08",
@@ -87,6 +94,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-10-21T10:37",
+      "t": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
+      "s": "先看真实问题解决力（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504608.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-10-21T10:31",
       "t": "消息称亚马逊 AWS 面临数据中心供电瓶颈，AI 算力机架无法按时启用",
       "s": "外媒 Business Inside 北京时间本月 19 日报道称，亚马逊云科技 (AWS) 旗下部分数据中心面临供电能…（来源：IT之家）",
@@ -107,13 +121,6 @@
       "u": "https://www.ithome.com/1/015/696.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-21T10:17",
-      "t": "王腾创业首款产品：ISHO Ring 今日宜休智能戒指配置曝光，全球首发同品类性能最强 MCU",
-      "s": "王腾创业公司 —— 今日宜休的首场发布会“ISHO 今日宜休 AI 睡眠科技生态产品发布会”定档 10 月 29 日 1…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/695.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-21T10:02",
       "t": "OpenAI 曾说只做大脑，如今招了 27 个制造身体的员工",
@@ -128,21 +135,18 @@
       "u": "https://www.oschina.net/news/503123"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-21T08:37",
-      "t": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
-      "s": "DeepSeek 开源大规模云服务推理框架 10 月 20 日下午，DeepSeek 宣布，在此前开源一系列大模型、Ti…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372650"
-    },
-    {
       "c": "HOT",
-      "d": "2026-10-21T08:21",
-      "t": "早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并",
-      "s": "· 车灯国标征求意见：拟限 L3 及以上车辆安装 ADS 标志灯 · Anthropic 上半年亏损超 800 亿美元…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1685079?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-10-21T09:04",
+      "t": "理想宣布：电池自燃报废赔新车！自研6年后有底气了",
+      "s": "电池、电驱、超充一把梭，冬天多跑30公里（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/504551.html"
     }
   ],
   "timeline": [
+    [
+      "10-21 12:53",
+      "Spotify 一年从推荐流中移除超 5000 万首低质 AI 音乐，调整推荐系统优先展示人类创作者作品"
+    ],
     [
       "10-21 12:08",
       "微软升级 OneDrive，支持直接在线编辑 HTML 与 Markdown 文件"
@@ -162,10 +166,6 @@
     [
       "10-21 11:33",
       "算力已经不再是最大的挑战，互连才是"
-    ],
-    [
-      "10-21 11:26",
-      "台积电Q3的信号：大幅加码成熟度更高的3nm制程，对AI的投入更趋理性"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302674,
+      "s": 302677,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 298858,
+      "s": 298871,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 284997,
+      "s": 285012,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221576,
+      "s": 221582,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182538,
+      "s": 182540,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152673,
+      "s": 152677,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142452,
+      "s": 142453,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 130466,
+      "s": 130503,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113897,
+      "s": 113901,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109038,
+      "s": 109048,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

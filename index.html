@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-21T12:53', t:'Spotify 一年从推荐流中移除超 5000 万首低质 AI 音乐，调整推荐系统优先展示人类创作者作品', s:'Spotify 当地时间周二发布公告称，过去一年，平台已从用户推荐流中移除超过 5000 万首被认定为 AI 生成的低质…（来源：IT之家）', u:'https://www.ithome.com/1/015/804.htm'},
     {c:'MODEL', d:'2026-10-21T12:08', t:'微软升级 OneDrive，支持直接在线编辑 HTML 与 Markdown 文件', s:'在今天举办的 OneDrive + Copilot 主题活动中，微软宣布用户今后可以在 OneDrive 中直接编辑 H…（来源：IT之家）', u:'https://www.ithome.com/1/015/792.htm'},
     {c:'MODEL', d:'2026-10-21T12:04', t:'DeepSeek 与华为合作设计 AI 芯片，训练环节彻底“去英伟达化”', s:'DeepSeek 和华为的关系，已经远远超出了「芯片供应商—大模型客户」的边界。两家中国公司正在做的，是一起重新定义「A…（来源：OSCHINA）', u:'https://www.oschina.net/news/503127'},
     {c:'MODEL', d:'2026-10-21T11:45', t:'看面相断生死，AI居然真做到了？', s:'模型评出的122名极高风险患者，64人在90天内去世。（来源：钛媒体）', u:'https://www.tmtpost.com/8175722.html'},
@@ -471,34 +472,33 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-21T10:58', t:'OpenAI CEO 奥尔特曼被妹妹指控性虐待，案件遭法官驳回', s:'美国地区法官扎卡里・布卢斯通（Zachary Bluestone）于当地时间周二驳回了安・奥尔特曼（Ann Altman…（来源：IT之家）', u:'https://www.ithome.com/1/015/710.htm'},
     {c:'MODEL', d:'2026-10-21T10:55', t:'小米 MiMo-V2.5-Pro 模型今日下线，替换为 V2.6-Pro 后将支持多模态理解', s:'据小米 MiMo 文档公布，随着 MiMo 模型的持续迭代，新版本在效果与性能上已全面超越旧版本，mimo-v2.5-p…（来源：IT之家）', u:'https://www.ithome.com/1/015/709.htm'},
     {c:'MODEL', d:'2026-10-21T10:41', t:'Momenta 曹旭东：2028 年有望迎来 L4 自动驾驶规模化拐点', s:'据新华网报道，在本周的 2026 物理 AI 与世界模型大会上，Momenta CEO 曹旭东指出世界模型正加速智驾摩尔…（来源：IT之家）', u:'https://www.ithome.com/1/015/704.htm'},
+    {c:'HOT', d:'2026-10-21T10:37', t:'飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人', s:'先看真实问题解决力（来源：量子位）', u:'https://www.qbitai.com/2026/10/504608.html'},
     {c:'HOT', d:'2026-10-21T10:31', t:'消息称亚马逊 AWS 面临数据中心供电瓶颈，AI 算力机架无法按时启用', s:'外媒 Business Inside 北京时间本月 19 日报道称，亚马逊云科技 (AWS) 旗下部分数据中心面临供电能…（来源：IT之家）', u:'https://www.ithome.com/1/015/702.htm'},
     {c:'FUNDING', d:'2026-10-21T10:25', t:'机器人的身体，不值钱了', s:'5 亿美元估值的明星机器人公司破产清算，这个赛道的融资额却翻了一倍。钱去了哪里？（来源：钛媒体）', u:'https://www.tmtpost.com/8174288.html'},
     {c:'HOT', d:'2026-10-21T10:18', t:'微软优化 Win11 文件管理器 OneDrive 右键菜单：统一 AI 访问入口', s:'在 MC1515940 公告中，微软宣布将于下月（2026 年 11 月）中旬开始，优化 Windows 11 文件管理…（来源：IT之家）', u:'https://www.ithome.com/1/015/696.htm'},
-    {c:'MODEL', d:'2026-10-21T10:17', t:'王腾创业首款产品：ISHO Ring 今日宜休智能戒指配置曝光，全球首发同品类性能最强 MCU', s:'王腾创业公司 —— 今日宜休的首场发布会“ISHO 今日宜休 AI 睡眠科技生态产品发布会”定档 10 月 29 日 1…（来源：IT之家）', u:'https://www.ithome.com/1/015/695.htm'},
     {c:'HOT', d:'2026-10-21T10:02', t:'OpenAI 曾说只做大脑，如今招了 27 个制造身体的员工', s:'五年前，因为"没有数据"解散了自己的机器人团队。 五年后用一座 14000 安培 的仓库、50 万美元的年薪待遇，和一颗…（来源：钛媒体）', u:'https://www.tmtpost.com/8175282.html'},
     {c:'HOT', d:'2026-10-21T09:59', t:'AI时代，神话并未消失：人类正在创造新的“数字神明”', s:'一、引言：当算法开始回答神谕式问题 在过去的几年里，一个越来越常见的场景开始出现：当人们面对复杂的人生问题或难以理解的世…（来源：OSCHINA）', u:'https://www.oschina.net/news/503123'},
-    {c:'MODEL', d:'2026-10-21T08:37', t:'曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具', s:'DeepSeek 开源大规模云服务推理框架 10 月 20 日下午，DeepSeek 宣布，在此前开源一系列大模型、Ti…（来源：极客公园）', u:'http://www.geekpark.net/news/372650'},
-    {c:'HOT', d:'2026-10-21T08:21', t:'早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并', s:'· 车灯国标征求意见：拟限 L3 及以上车辆安装 ADS 标志灯 · Anthropic 上半年亏损超 800 亿美元…（来源：爱范儿）', u:'https://www.ifanr.com/1685079?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'HOT', d:'2026-10-21T09:04', t:'理想宣布：电池自燃报废赔新车！自研6年后有底气了', s:'电池、电驱、超充一把梭，冬天多跑30公里（来源：量子位）', u:'https://www.qbitai.com/2026/10/504551.html'},
   ];
   const TIMELINE = [
+    ['10-21 12:53','Spotify 一年从推荐流中移除超 5000 万首低质 AI 音乐，调整推荐系统优先展示人类创作者作品'],
     ['10-21 12:08','微软升级 OneDrive，支持直接在线编辑 HTML 与 Markdown 文件'],
     ['10-21 12:04','DeepSeek 与华为合作设计 AI 芯片，训练环节彻底“去英伟达化”'],
     ['10-21 11:45','看面相断生死，AI居然真做到了？'],
     ['10-21 11:38','腾讯领跑、百度第二，AI办公远未定局'],
     ['10-21 11:33','算力已经不再是最大的挑战，互连才是'],
-    ['10-21 11:26','台积电Q3的信号：大幅加码成熟度更高的3nm制程，对AI的投入更趋理性'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302674, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:298858, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:284997, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221576, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182538, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152673, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142452, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:130466, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113897, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109038, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:302677, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:298871, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:285012, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:221582, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182540, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152677, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142453, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:130503, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:113901, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109048, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
