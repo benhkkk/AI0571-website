@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-21T19:31:53",
+  "updated": "2026-10-21T20:02:05",
   "news": [
     {
       "c": "MODEL",
@@ -42,6 +42,13 @@
       "t": "蔚来李斌：用户不愿意付钱，自动驾驶讲得再好也没有真正创造用户价值",
       "s": "今日，蔚来创始人、董事长、CEO 李斌在 2026 世界智能网联汽车大会的对话环节中提出，自动驾驶进入“下半场”后，衡量…（来源：IT之家）",
       "u": "https://www.ithome.com/1/016/054.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T18:00",
+      "t": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "s": "大模型训练过程，开始更多地出现在公众视野中。此前，小米MiMo负责人罗福莉公开了MiMo-V2.6强化学习阶段的训练进展…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/kgEaqVuNRRnvxpfp.html"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "大肥鱼遇劲敌：MiniMax M3.1 Flash 拿下 Agent 任务第一，我们实测了",
       "s": "MiniMax 把 DeepSeek 的低谷价变成了全天价，Flash 价格战又卷起来了。 作者丨吴海明 李娜 编辑丨李…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/yanxishe/IMOE7FfuhC0qGxZk.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-21T12:04",
-      "t": "DeepSeek 与华为合作设计 AI 芯片，训练环节彻底“去英伟达化”",
-      "s": "DeepSeek 和华为的关系，已经远远超出了「芯片供应商—大模型客户」的边界。两家中国公司正在做的，是一起重新定义「A…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503127"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302852,
+      "s": 302865,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 299257,
+      "s": 299280,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285190,
+      "s": 285209,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221689,
+      "s": 221695,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182625,
+      "s": 182629,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152666,
+      "s": 152672,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142482,
+      "s": 142483,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 130877,
+      "s": 130906,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113990,
+      "s": 113996,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109137,
+      "s": 109146,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
