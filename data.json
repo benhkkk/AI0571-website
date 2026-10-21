@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-21T09:02:07",
+  "updated": "2026-10-21T09:08:19",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T09:01",
+      "t": "总台曝光二手平台“破解版 AI”：几块钱就能享受高阶会员，豆包、Kimi 回应",
+      "s": "据中央广播电视总台中国之声今日报道，最近在一些二手交易平台上，有不少卖家做起了 AI 大模型付费服务的“灰色生意”，打着…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/015/651.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-21T08:51",
@@ -14,6 +21,13 @@
       "t": "番茄小说决定杀死AI",
       "s": "领跑者困境。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8175060.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T08:37",
+      "t": "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具",
+      "s": "DeepSeek 开源大规模云服务推理框架 10 月 20 日下午，DeepSeek 宣布，在此前开源一系列大模型、Ti…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372650"
     },
     {
       "c": "FUNDING",
@@ -80,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-21T07:14",
-      "t": "谷歌开源 TorchTPU，挑战英伟达 AI 生态主导地位",
-      "s": "谷歌于当地时间周二宣布，面向谷歌 TPU 的原生 PyTorch 框架 TorchTPU 现已在 GitHub 上开源…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/015/626.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-20T18:39",
       "t": "停止加薪！大众计划冻结全球大量员工薪酬至2030年；突发！美国发布DeepSeek禁令；马斯克：明年向全美儿童赠送SpaceX股票",
       "s": "要闻提示1.停止加薪！大众计划冻结员工薪酬至2030年，涉及全球大量员工2.突发！美国发布DeepSeek禁令3.花钱之…（来源：雷锋网）",
@@ -133,16 +140,13 @@
       "t": "做了10年影视制片人，现在我每天陪老板搓“AI玩具”",
       "s": "做了10年影视制片人，现在我每天陪老板搓“AI玩具”（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8174207.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-20T16:39",
-      "t": "这届年轻人，花钱“手搓”AI人设",
-      "s": "聊天框变虚拟片场（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8174252.html"
     }
   ],
   "timeline": [
+    [
+      "10-21 09:01",
+      "总台曝光二手平台“破解版 AI”：几块钱就能享受高阶会员，豆包、Kimi 回应"
+    ],
     [
       "10-21 08:51",
       "Edge AI Daily 早报（10月21日）"
@@ -152,20 +156,16 @@
       "番茄小说决定杀死AI"
     ],
     [
+      "10-21 08:37",
+      "曝高通启动全球裁员；上线 40 天，Muse 下载量突破 1000 万次；ChatGPT 上线幻灯片工具"
+    ],
+    [
       "10-21 08:23",
       "持续加码 AI，Salesforce 宣布以约 56.6 亿美元收购 AI 企业 Braze"
     ],
     [
       "10-21 08:21",
       "早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并"
-    ],
-    [
-      "10-21 08:17",
-      "消息称 Anthropic 今年上半年净亏损超 800 亿美元，IPO 估值遭投资者审视"
-    ],
-    [
-      "10-21 07:56",
-      "为博流量渲染末日叙事，Hugging Face CEO 吐槽 Netflix《AI 失控》纪录片"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 302607,
+      "s": 302612,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 298685,
+      "s": 298691,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 284919,
+      "s": 284922,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221538,
+      "s": 221540,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182501,
+      "s": 182503,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142431,
+      "s": 142432,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 130248,
+      "s": 130257,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 113864,
+      "s": 113865,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 108992,
+      "s": 108993,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
