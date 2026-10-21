@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-22T06:33:21",
+  "updated": "2026-10-22T07:02:05",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T06:44",
+      "t": "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI",
+      "s": "Anthropic 昨日（10 月 21 日）宣布以研究预览版形式，推出全新应用 Claude Duet，定位为可主动工…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/169.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-21T23:10",
@@ -59,13 +66,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-21T20:46",
-      "t": "主动限制金融类应用操作能力，豆包手机助手更新拒绝操作应用清单",
-      "s": "豆包手机助手官网今日更新了最新拒绝操作应用清单，主动对金融类应用限制了相关的操作能力，范围包括但不限于银行、信托服务、支…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/108.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-21T18:35",
       "t": "Meta Muse 分享对话可被陌生人找到：标题写进 URL、一次 DNS 查询全暴露",
       "s": "Meta 的 AI 助手 Muse 刚上线就撞上隐私问题：用户分享的对话，能被陌生人轻易找到。Meta 已经暂停了分享功…（来源：OSCHINA）",
@@ -77,6 +77,13 @@
       "t": "Open Inference Code Narrows the Gap Between Rival AI Chips",
       "s": "Open Inference Code Narrows the Gap Between Rival …（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8176740.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T18:00",
+      "t": "生数科技Motubrain团队将直播Physical AI训练全流程，持续半个月",
+      "s": "大模型训练过程，开始更多地出现在公众视野中。此前，小米MiMo负责人罗福莉公开了MiMo-V2.6强化学习阶段的训练进展…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/kgEaqVuNRRnvxpfp.html"
     },
     {
       "c": "HOT",
@@ -115,34 +122,31 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-21T12:04",
-      "t": "DeepSeek 与华为合作设计 AI 芯片，训练环节彻底“去英伟达化”",
-      "s": "DeepSeek 和华为的关系，已经远远超出了「芯片供应商—大模型客户」的边界。两家中国公司正在做的，是一起重新定义「A…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503127"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-21T09:59",
-      "t": "AI时代，神话并未消失：人类正在创造新的“数字神明”",
-      "s": "一、引言：当算法开始回答神谕式问题 在过去的几年里，一个越来越常见的场景开始出现：当人们面对复杂的人生问题或难以理解的世…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503123"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-21T08:21",
-      "t": "早报｜小天才回应封闭社交争议/车灯新规拟禁止显示文字/马斯克回应SpaceX与特斯拉合并",
-      "s": "· 车灯国标征求意见：拟限 L3 及以上车辆安装 ADS 标志灯 · Anthropic 上半年亏损超 800 亿美元…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1685079?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-10-21T14:53",
+      "t": "真机实干，产训一体：具身智能的下一座基础设施，为什么是“实景实训平台”？",
+      "s": "机器人在哪里练，练成后用在哪里？越来越多的探索指向同一个答案：把训练放进真实的工位，这就是“实景实训平台”。据中国信息通…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/uxVZGVMwc8JuD0Px.html"
     },
     {
       "c": "MODEL",
-      "d": "2026-10-20T22:05",
-      "t": "Zentrola 1.2.1 发布：模型目录同步、Claude 订阅额度与计费修复",
-      "s": "Zentrola 1.2.1 已发布。Zentrola 是面向研发团队的开源 AI Coding 能力治理平台：开发者继…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503119"
+      "d": "2026-10-21T14:29",
+      "t": "一次抓取背后：读懂智能的“计量”，Token经济学如何聚合“算力、模型、语料”？",
+      "s": "质检线上，一台人形机器人从料框里取出平板，送进检测柜；完成检测后，再将成品分流。抓取入柜、多项目质检、成品分拣，机器人与…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/me3CuOBHyOqL14Pd.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-21T14:14",
+      "t": "当Agent“有工号”：从一人一工具到一人一团队，组织如何做好AI时代的分工与协作？",
+      "s": "智能体也开始领“工号”了。8月31日，张江科学之门模力社区，智能体身份码节点管理平台正式上线，30家单位参与节点发放。越…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/wiMNbdfLr54ciVBE.html"
     }
   ],
   "timeline": [
+    [
+      "10-22 06:44",
+      "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI"
+    ],
     [
       "10-21 23:10",
       "腾讯内测 AI 互动社区“懂了鸭”：一句话生成可玩的动态课件与 3D 演示"
@@ -162,10 +166,6 @@
     [
       "10-21 22:16",
       "OpenAI 联手 PerturbAI：让近 2000 个 AI 智能体一起搞科研，加速新药研发"
-    ],
-    [
-      "10-21 21:49",
-      "英伟达联合思灵推出人形机器人参考平台 Agile ONE SN，计划 2027 年初上市"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303135,
+      "s": 303142,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 299802,
+      "s": 299820,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285663,
+      "s": 285683,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221931,
+      "s": 221934,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182748,
+      "s": 182750,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152743,
+      "s": 152744,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 131546,
+      "s": 131566,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114119,
+      "s": 114121,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109319,
+      "s": 109321,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
