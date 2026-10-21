@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-22T07:02:05",
+  "updated": "2026-10-22T07:31:48",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T07:17",
+      "t": "通用汽车安吉星服务将全面升级：引入 AI 助手，还能帮你控车、排障",
+      "s": "据外媒 motor1 今天（22 日）凌晨报道，通用汽车将对旗下安吉星车联网服务进行全面升级，引入 AI 助手，让车主能…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/175.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T07:11",
+      "t": "影响约 70% 网站：PHP 高危漏洞被修复，OpenAI 牵头协调全球发现 / 修复",
+      "s": "OpenAI 公司昨日（10 月 21 日）发布博文，宣布通过其“修补地球”（Patch the Planet）计划，协…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/173.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T07:04",
+      "t": "沃尔玛推出自有智能体网关，AI 可代用户下单购物",
+      "s": "沃尔玛于当地时间周三宣布，正式推出自有智能体网关，用于处理交易，并上线多项面向使用 AI 智能体的消费者的新功能，以此布…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/172.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-22T06:44",
@@ -35,27 +56,6 @@
       "t": "谷歌 CEO 桑达尔 · 皮查伊：公司正牺牲云业务短期收入支持前沿 AI 研发，2027 年算力难以锁定",
       "s": "谷歌首席执行官桑达尔 · 皮查伊今日表示，公司正将部分算力从云业务转向前沿 AI 研发，以全力支持前沿 AI 发展。对谷…（来源：IT之家）",
       "u": "https://www.ithome.com/1/016/137.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-21T22:16",
-      "t": "OpenAI 联手 PerturbAI：让近 2000 个 AI 智能体一起搞科研，加速新药研发",
-      "s": "北京时间 10 月 21 日，生物技术公司 PerturbAI 宣布与 OpenAI 合作的最新进展。双方联合斯克里普斯…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/134.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-21T21:49",
-      "t": "英伟达联合思灵推出人形机器人参考平台 Agile ONE SN，计划 2027 年初上市",
-      "s": "英伟达当地时间 10 月 21 日在 GTC 柏林大会上宣布扩展 Isaac 开放机器人开发平台，新增人形机器人参考平台…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/128.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-21T21:43",
-      "t": "黄仁勋 GTC 柏林反驳 AI 终结软件论：工具公司将迎来更多使用者",
-      "s": "北京时间 10 月 21 日，英伟达创始人兼 CEO 黄仁勋在 GTC 柏林大会上表示，AI 的发展将增加软件工具的使用…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/125.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-22 07:17",
+      "通用汽车安吉星服务将全面升级：引入 AI 助手，还能帮你控车、排障"
+    ],
+    [
+      "10-22 07:11",
+      "影响约 70% 网站：PHP 高危漏洞被修复，OpenAI 牵头协调全球发现 / 修复"
+    ],
+    [
+      "10-22 07:04",
+      "沃尔玛推出自有智能体网关，AI 可代用户下单购物"
+    ],
+    [
       "10-22 06:44",
       "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI"
     ],
@@ -154,18 +166,6 @@
     [
       "10-21 23:10",
       "确认延期：华为鸿蒙 HarmonyOS 7 小艺 AI 快捷栏功能预计 11 月初分批推送"
-    ],
-    [
-      "10-21 22:36",
-      "黄仁勋发布 AI“预制工厂”DSX POD：最快 14 天部署投产，英伟达计划 2027 年初全球交付"
-    ],
-    [
-      "10-21 22:31",
-      "谷歌 CEO 桑达尔 · 皮查伊：公司正牺牲云业务短期收入支持前沿 AI 研发，2027 年算力难以锁定"
-    ],
-    [
-      "10-21 22:16",
-      "OpenAI 联手 PerturbAI：让近 2000 个 AI 智能体一起搞科研，加速新药研发"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303142,
+      "s": 303145,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 299820,
+      "s": 299831,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285683,
+      "s": 285693,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221934,
+      "s": 221937,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182750,
+      "s": 182752,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152744,
+      "s": 152747,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142525,
+      "s": 142527,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 131566,
+      "s": 131578,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114121,
+      "s": 114126,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109321,
+      "s": 109322,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
