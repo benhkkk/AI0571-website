@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MEDDEVICE', d:'2026-10-23T06:48', t:'英特尔 CTO 称前沿晶圆产量最多翻倍，AI 算力扩张遭遇供应链天花板', s:'在接受 Dwarkesh 播客时，英特尔首席技术官（CTO）普什卡 · 拉纳德（Pushkar Ranade）表示：即便…（来源：IT之家）', u:'https://www.ithome.com/1/016/761.htm'},
+    {c:'INDUSTRY', d:'2026-10-23T06:41', t:'欧洲 AI，等来了黄仁勋', s:'GTC 柏林开幕前的两周，半导体板块走得并不顺，费城半导体指数出现了 2008 年以来最长的一轮连跌。市场在反复算同一笔…（来源：极客公园）', u:'http://www.geekpark.net/news/372763'},
     {c:'HOT', d:'2026-10-22T23:48', t:'极米记得 AI 记忆手环 L1 上架：两种形态自由切换，全天候 AI 录音', s:'极米记得 AI 记忆手环 L1 今日上架，提供黑色、米色配色，售价信息暂未公布。据介绍，该产品支持两种形态自由切换，腕上…（来源：IT之家）', u:'https://www.ithome.com/1/016/753.htm'},
     {c:'HOT', d:'2026-10-22T23:38', t:'黑石集团总裁反驳 AI 泡沫论，称需求呈“抛物线式”增长', s:'据彭博社今日消息，黑石集团总裁乔恩 · 格雷（Jon Gray）发话，反驳亿万富豪肯 · 格里芬前几天关于 AI 存在泡…（来源：IT之家）', u:'https://www.ithome.com/1/016/752.htm'},
     {c:'HOT', d:'2026-10-22T22:55', t:'比尔 · 盖茨：人们要为 AI 带来的二十年颠覆性变革做好准备', s:'微软联合创始人、亿万富翁慈善家比尔 · 盖茨今日接受外媒 The Verge 采访。他表示，人们要为 AI 带来的二十年…（来源：IT之家）', u:'https://www.ithome.com/1/016/742.htm'},
@@ -466,7 +468,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-22T22:31', t:'极米记得 AI 记忆眼镜 G1 上架：轻至 17.9g，自动整理纪要', s:'极米记得 AI 记忆眼镜 G1 今日在京东等平台上架，价格信息暂未公布。IT之家从商品页面获悉，该产品是全球首款钛金属 …（来源：IT之家）', u:'https://www.ithome.com/1/016/723.htm'},
     {c:'MODEL', d:'2026-10-22T21:52', t:'AMD 为下一代 Medusa APU 提前铺路，HIP-RT 3.2.0 新增三款 GPU 目标', s:'Phoronix 发现，AMD 已发布 HIP-RT 3.2.0 光线追踪库更新，为下一代 Medusa APU 添加了…（来源：IT之家）', u:'https://www.ithome.com/1/016/702.htm'},
     {c:'FUNDING', d:'2026-10-22T21:20', t:'Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺', s:'过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬…（来源：极客公园）', u:'http://www.geekpark.net/news/372762'},
-    {c:'MODEL', d:'2026-10-22T20:09', t:'小鹏 IRON 人形机器人能力升级：每 0.2 秒重新推理一次，可预测 6 秒内动作变化', s:'小鹏汽车今日宣布，上个月，第二代 VLA 开始理解“时间”；这个月，它来到小鹏 IRON 身上理解“你的下一步”。依赖同…（来源：IT之家）', u:'https://www.ithome.com/1/016/667.htm'},
     {c:'INDUSTRY', d:'2026-10-22T20:06', t:'亚马逊云科技Ozgur Tohumcu：决定物理AI规模化落地速度的，往往不是技术本身', s:'大量企业的AI项目停留在概念验证阶段，没有真正走向量产与工业化落地。（来源：钛媒体）', u:'https://www.tmtpost.com/8177096.html'},
     {c:'INDUSTRY', d:'2026-10-22T20:03', t:'百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径', s:'企业AI转型正在走向深水区，从单点工具和业务场景提效，向系统性的组织重构延伸。麦肯锡曾在《组织状态报告2026》中指出…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/vv6pTluWIUjUHMbi.html'},
     {c:'HOT', d:'2026-10-22T19:56', t:'宇树 10 周年，王兴兴：我劝你相信 AI', s:'10 月 22 日，杭州国际博览中心热闹非常，不仅人多，而且机器人也特别多。 这是 2026 年宇树科技举办的世界物理 …（来源：极客公园）', u:'http://www.geekpark.net/news/372759'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-22T17:31', t:'Flowtica Rian：硬件的旧规律没变，新机会是做好Memory丨未来创新50人', s:'大疆想收编的云台团队，十年做了四个硬件品类，现在押注 AI Memory。作者丨吴优编辑丨董子博Plaud 爆火之后，国…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/Sni49oUOM9rbTR7h.html'},
     {c:'MODEL', d:'2026-10-22T17:04', t:'黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？', s:'PC的兴起得益于将CPU、内存、存储和软件都集中在一台轻巧机器上带来的便利，但Agent恰恰不需要这种集中式结构。（来源：钛媒体）', u:'https://www.tmtpost.com/8177566.html'},
     {c:'HOT', d:'2026-10-22T17:00', t:'Accio成双11商家生意加速器：蓄水期缩短半个月、15分钟全网爆款调优', s:'激战正酣的2026 双11商家，正在迎来AI agent的全面实战助力。 来自阿里旗下全球电商AI工作台Accio的消息…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/wZadstkZcVlLudqv.html'},
-    {c:'INDUSTRY', d:'2026-10-22T16:20', t:'AI 漫剧越做越快，赚钱却没那么容易了', s:'「一个创作者加上 IP 和 AI 工具，就能完成漫剧创作全流程。」 在上周举行的阅文创作大会上，阅文集团 CEO 侯晓楠…（来源：极客公园）', u:'http://www.geekpark.net/news/372746'},
   ];
   const TIMELINE = [
+    ['10-23 06:48','英特尔 CTO 称前沿晶圆产量最多翻倍，AI 算力扩张遭遇供应链天花板'],
+    ['10-23 06:41','欧洲 AI，等来了黄仁勋'],
     ['10-22 23:48','极米记得 AI 记忆手环 L1 上架：两种形态自由切换，全天候 AI 录音'],
     ['10-22 23:38','黑石集团总裁反驳 AI 泡沫论，称需求呈“抛物线式”增长'],
     ['10-22 22:55','比尔 · 盖茨：人们要为 AI 带来的二十年颠覆性变革做好准备'],
     ['10-22 22:43','我国今年前 8 个月手术机器人出口 6.72 亿元同比增长 272.92%，广东、上海全国领跑'],
-    ['10-22 22:31','极米记得 AI 记忆眼镜 G1 上架：轻至 17.9g，自动整理纪要'],
-    ['10-22 21:52','AMD 为下一代 Medusa APU 提前铺路，HIP-RT 3.2.0 新增三款 GPU 目标'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303706, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300839, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286475, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222499, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183021, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303716, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300851, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286492, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222504, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183025, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152910, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142721, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132873, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114394, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109643, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142722, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132888, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114397, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109645, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
