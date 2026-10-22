@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-22T18:22', t:'3899 → 2399 元：石头 P20 Ultra 活水版扫拖机器人官方新低', s:'石头扫地机器人 P20 Ultra 活水版今年 1 月 20 日开售，水箱版上市价 3899 元，上下水版 4299 元…（来源：IT之家）', u:'https://www.ithome.com/1/016/636.htm'},
+    {c:'MODEL', d:'2026-10-22T18:18', t:'荣耀 MagicOS 11 第三批内测 log 版本今晚推送，覆盖 Robot Phone、Magic5 系列等 28 款机型', s:'荣耀产品维护与升级 @荣耀小芳哥 刚刚发布推送预告，宣布第三批内测 log 版本今日推送、第二批内测机型开启升级尝鲜（升…（来源：IT之家）', u:'https://www.ithome.com/1/016/635.htm'},
     {c:'MODEL', d:'2026-10-22T17:39', t:'Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准', s:'在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 A…（来源：OSCHINA）', u:'https://www.oschina.net/news/503159/claude-duet'},
     {c:'MODEL', d:'2026-10-22T17:19', t:'米哈游联合清华北大等高校发布开源 GameScaling 游戏模型，覆盖 0.8B 至 27B 参数规模', s:'有用户发现，米哈游崩坏 AI 研发团队、清华大学、北京大学、中国科学院大学、香港大学、新加坡国立大学等机构联合推出了 G…（来源：IT之家）', u:'https://www.ithome.com/1/016/575.htm'},
     {c:'MODEL', d:'2026-10-22T17:04', t:'黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？', s:'PC的兴起得益于将CPU、内存、存储和软件都集中在一台轻巧机器上带来的便利，但Agent恰恰不需要这种集中式结构。（来源：钛媒体）', u:'https://www.tmtpost.com/8177566.html'},
@@ -468,6 +470,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-22T16:20', t:'AI 漫剧越做越快，赚钱却没那么容易了', s:'「一个创作者加上 IP 和 AI 工具，就能完成漫剧创作全流程。」 在上周举行的阅文创作大会上，阅文集团 CEO 侯晓楠…（来源：极客公园）', u:'http://www.geekpark.net/news/372746'},
     {c:'MODEL', d:'2026-10-22T16:17', t:'中层不会消失，只是换成了Agent', s:'为防AI出内鬼，微软让一部分Agent当监工。（来源：钛媒体）', u:'https://www.tmtpost.com/8177643.html'},
     {c:'MODEL', d:'2026-10-22T16:15', t:'大模型内卷之后，AI 竞争进入搜索基础设施时代', s:'头图来源：元宝搜索 过去一年，AI 行业的战场正在悄悄发生位移。 当 Agent 从概念快速渗透进办公、内容、金融等真实…（来源：极客公园）', u:'http://www.geekpark.net/news/372743'},
+    {c:'MODEL', d:'2026-10-22T16:14', t:'千问AI硬件：一副眼镜的「越界」，与一个Agent的野心', s:'一副44g的眼镜能做什么？会议开始前自动录音，骑行时根据心率提醒你调整呼吸，在咖啡店看一眼外文菜单就知道你想问哪道菜，甚…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html'},
     {c:'HOT', d:'2026-10-22T16:04', t:'万播收益低至5元，AI短剧的生意为何越做越亏？', s:'98.7%的AI短剧都在赔钱，可钱究竟被谁赚走了？（来源：钛媒体）', u:'https://www.tmtpost.com/8177437.html'},
     {c:'HOT', d:'2026-10-22T16:03', t:'谁在养活 Anthropic？', s:'让我们一起抵达Anthropic的营业现场。（来源：钛媒体）', u:'https://www.tmtpost.com/8177367.html'},
     {c:'HOT', d:'2026-10-22T16:03', t:'腾讯姚顺宇的 AI “加班论”', s:'AI牌桌上，情绪正在变得极度焦灼。（来源：钛媒体）', u:'https://www.tmtpost.com/8177215.html'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-22T16:01', t:'科大讯飞董事长刘庆峰：国产算力对标全球还有两代左右差距，一定会有并跑甚至领跑的一天', s:'2026 科大讯飞全球 1024 开发者节于今日（10 月 22 日）14 时启幕，本届开发者节以“解放生产力，释放想象…（来源：IT之家）', u:'https://www.ithome.com/1/016/493.htm'},
     {c:'MODEL', d:'2026-10-22T15:48', t:'打通Dots与核心Infra团队，慢一步的小红书会加快AI进程吗？', s:'从2023年开始至今，大模型行业已经百模大战，深入到Agent、生态比拼。而进度算不上快的小红书，将走向何方？（来源：钛媒体）', u:'https://www.tmtpost.com/8177297.html'},
     {c:'MODEL', d:'2026-10-22T15:23', t:'被迫下场，Anthropic 推出个人 AI 助理 Claude Duet', s:'作者｜桦林舞王 编辑｜靖宇 用过各种 AI 助手的人大概都有过同一种疲劳：你不开口，它就装死；你一旦开口，它又把所有选择…（来源：极客公园）', u:'http://www.geekpark.net/news/372740'},
-    {c:'INDUSTRY', d:'2026-10-22T15:22', t:'宇树科技王兴兴：我很害怕浪费每一天，这代人有希望把人形机器人生产力提升到下一个台阶', s:'据新浪科技今日消息，宇树科技创始人王兴兴在 2026 世界物理 AI 大会上发表演讲，回顾公司一年来的进展并分享物理 A…（来源：IT之家）', u:'https://www.ithome.com/1/016/475.htm'},
-    {c:'INDUSTRY', d:'2026-10-22T15:14', t:'特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先', s:'FSD一年增长70万付费用户（来源：量子位）', u:'https://www.qbitai.com/2026/10/504841.html'},
-    {c:'MODEL', d:'2026-10-22T15:11', t:'既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布', s:'中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent（来源：量子位）', u:'https://www.qbitai.com/2026/10/504832.html'},
   ];
   const TIMELINE = [
+    ['10-22 18:22','3899 → 2399 元：石头 P20 Ultra 活水版扫拖机器人官方新低'],
+    ['10-22 18:18','荣耀 MagicOS 11 第三批内测 log 版本今晚推送，覆盖 Robot Phone、Magic5 系列等 28 款机型'],
     ['10-22 17:39','Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准'],
     ['10-22 17:19','米哈游联合清华北大等高校发布开源 GameScaling 游戏模型，覆盖 0.8B 至 27B 参数规模'],
     ['10-22 17:04','黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？'],
     ['10-22 16:52','王兴兴明确宇树未来三大布局方向，将每年投入数千万元举办世界物理 AI 大赛'],
-    ['10-22 16:51','ACEMAGIC W1 迷你主机 AMD 锐龙 3 5400U 款上市，1599 元起'],
-    ['10-22 16:26','刷新上海办公楼租赁史最大单笔纪录，机器人头部企业智元拿下超 22 万平方米办公面积'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303366, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300317, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286023, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222174, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182871, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152826, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142611, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132172, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114251, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109457, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303378, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300338, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286040, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222189, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182872, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152828, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142614, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132200, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114257, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109460, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

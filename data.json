@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-22T18:02:08",
+  "updated": "2026-10-22T18:31:49",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-22T18:22",
+      "t": "3899 → 2399 元：石头 P20 Ultra 活水版扫拖机器人官方新低",
+      "s": "石头扫地机器人 P20 Ultra 活水版今年 1 月 20 日开售，水箱版上市价 3899 元，上下水版 4299 元…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/636.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T18:18",
+      "t": "荣耀 MagicOS 11 第三批内测 log 版本今晚推送，覆盖 Robot Phone、Magic5 系列等 28 款机型",
+      "s": "荣耀产品维护与升级 @荣耀小芳哥 刚刚发布推送预告，宣布第三批内测 log 版本今日推送、第二批内测机型开启升级尝鲜（升…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/635.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-22T17:39",
@@ -65,6 +79,13 @@
       "u": "http://www.geekpark.net/news/372743"
     },
     {
+      "c": "MODEL",
+      "d": "2026-10-22T16:14",
+      "t": "千问AI硬件：一副眼镜的「越界」，与一个Agent的野心",
+      "s": "一副44g的眼镜能做什么？会议开始前自动录音，骑行时根据心率提醒你调整呼吸，在咖啡店看一眼外文菜单就知道你想问哪道菜，甚…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-22T16:04",
       "t": "万播收益低至5元，AI短剧的生意为何越做越亏？",
@@ -119,30 +140,17 @@
       "t": "被迫下场，Anthropic 推出个人 AI 助理 Claude Duet",
       "s": "作者｜桦林舞王 编辑｜靖宇 用过各种 AI 助手的人大概都有过同一种疲劳：你不开口，它就装死；你一旦开口，它又把所有选择…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372740"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-22T15:22",
-      "t": "宇树科技王兴兴：我很害怕浪费每一天，这代人有希望把人形机器人生产力提升到下一个台阶",
-      "s": "据新浪科技今日消息，宇树科技创始人王兴兴在 2026 世界物理 AI 大会上发表演讲，回顾公司一年来的进展并分享物理 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/475.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-22T15:14",
-      "t": "特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先",
-      "s": "FSD一年增长70万付费用户（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/504841.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-22T15:11",
-      "t": "既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布",
-      "s": "中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/504832.html"
     }
   ],
   "timeline": [
+    [
+      "10-22 18:22",
+      "3899 → 2399 元：石头 P20 Ultra 活水版扫拖机器人官方新低"
+    ],
+    [
+      "10-22 18:18",
+      "荣耀 MagicOS 11 第三批内测 log 版本今晚推送，覆盖 Robot Phone、Magic5 系列等 28 款机型"
+    ],
     [
       "10-22 17:39",
       "Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准"
@@ -158,14 +166,6 @@
     [
       "10-22 16:52",
       "王兴兴明确宇树未来三大布局方向，将每年投入数千万元举办世界物理 AI 大赛"
-    ],
-    [
-      "10-22 16:51",
-      "ACEMAGIC W1 迷你主机 AMD 锐龙 3 5400U 款上市，1599 元起"
-    ],
-    [
-      "10-22 16:26",
-      "刷新上海办公楼租赁史最大单笔纪录，机器人头部企业智元拿下超 22 万平方米办公面积"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303366,
+      "s": 303378,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300317,
+      "s": 300338,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286023,
+      "s": 286040,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222174,
+      "s": 222189,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182871,
+      "s": 182872,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152826,
+      "s": 152828,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142611,
+      "s": 142614,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 132172,
+      "s": 132200,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114251,
+      "s": 114257,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109457,
+      "s": 109460,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
