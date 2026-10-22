@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-22T17:39', t:'Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准', s:'在 Codex、ChatGPT 们把 AI Agent 卷成日常工具之后，Anthropic 终于发布了自己的常驻型 A…（来源：OSCHINA）', u:'https://www.oschina.net/news/503159/claude-duet'},
     {c:'MODEL', d:'2026-10-22T17:19', t:'米哈游联合清华北大等高校发布开源 GameScaling 游戏模型，覆盖 0.8B 至 27B 参数规模', s:'有用户发现，米哈游崩坏 AI 研发团队、清华大学、北京大学、中国科学院大学、香港大学、新加坡国立大学等机构联合推出了 G…（来源：IT之家）', u:'https://www.ithome.com/1/016/575.htm'},
     {c:'MODEL', d:'2026-10-22T17:04', t:'黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？', s:'PC的兴起得益于将CPU、内存、存储和软件都集中在一台轻巧机器上带来的便利，但Agent恰恰不需要这种集中式结构。（来源：钛媒体）', u:'https://www.tmtpost.com/8177566.html'},
     {c:'INDUSTRY', d:'2026-10-22T16:52', t:'王兴兴明确宇树未来三大布局方向，将每年投入数千万元举办世界物理 AI 大赛', s:'据证券时报报道，2026 世界物理 AI 大会暨宇树合作伙伴生态大会今日在浙江杭州举行，宇树科技董事长、总经理兼首席技术…（来源：IT之家）', u:'https://www.ithome.com/1/016/514.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-22T15:22', t:'宇树科技王兴兴：我很害怕浪费每一天，这代人有希望把人形机器人生产力提升到下一个台阶', s:'据新浪科技今日消息，宇树科技创始人王兴兴在 2026 世界物理 AI 大会上发表演讲，回顾公司一年来的进展并分享物理 A…（来源：IT之家）', u:'https://www.ithome.com/1/016/475.htm'},
     {c:'INDUSTRY', d:'2026-10-22T15:14', t:'特斯拉利润腰斩，一夜跌没“通用汽车”！马斯克：FSD在中国也会遥遥领先', s:'FSD一年增长70万付费用户（来源：量子位）', u:'https://www.qbitai.com/2026/10/504841.html'},
     {c:'MODEL', d:'2026-10-22T15:11', t:'既能“做选择题”，也能“做填空题”——星辰意图理解模型Xing4.0-29B-Intent发布', s:'中电信人工智能科技有限公司星辰通用人工智能实验室正式发布并开源意图理解专用模型 Xing4.0-29B-Intent（来源：量子位）', u:'https://www.qbitai.com/2026/10/504832.html'},
-    {c:'INDUSTRY', d:'2026-10-22T15:09', t:'英伟达与 6 家上游供应商合作，提升 AI 基础设施产能', s:'NVIDIA（英伟达）当地时间本月 21 日宣布与六家供应链合作伙伴一道扩大全球制造能力，以满足市场对其加速计算和全栈人…（来源：IT之家）', u:'https://www.ithome.com/1/016/457.htm'},
   ];
   const TIMELINE = [
+    ['10-22 17:39','Anthropic 推出“主动式 AI Agent” Claude Duet——无需等你开口就干活、关键操作先问批准'],
     ['10-22 17:19','米哈游联合清华北大等高校发布开源 GameScaling 游戏模型，覆盖 0.8B 至 27B 参数规模'],
     ['10-22 17:04','黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？'],
     ['10-22 16:52','王兴兴明确宇树未来三大布局方向，将每年投入数千万元举办世界物理 AI 大赛'],
     ['10-22 16:51','ACEMAGIC W1 迷你主机 AMD 锐龙 3 5400U 款上市，1599 元起'],
     ['10-22 16:26','刷新上海办公楼租赁史最大单笔纪录，机器人头部企业智元拿下超 22 万平方米办公面积'],
-    ['10-22 16:20','AI 漫剧越做越快，赚钱却没那么容易了'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303354, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300284, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286010, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222161, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182863, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152821, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142604, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132140, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114239, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109452, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303366, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300317, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286023, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222174, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182871, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152826, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142611, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132172, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114251, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109457, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
