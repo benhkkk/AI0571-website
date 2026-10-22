@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-22T21:31:54",
+  "updated": "2026-10-22T22:02:15",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T21:52",
+      "t": "AMD 为下一代 Medusa APU 提前铺路，HIP-RT 3.2.0 新增三款 GPU 目标",
+      "s": "Phoronix 发现，AMD 已发布 HIP-RT 3.2.0 光线追踪库更新，为下一代 Medusa APU 添加了…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/702.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-22T21:20",
@@ -101,13 +108,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-22T17:19",
-      "t": "米哈游联合清华北大等高校发布开源 GameScaling 游戏模型，覆盖 0.8B 至 27B 参数规模",
-      "s": "有用户发现，米哈游崩坏 AI 研发团队、清华大学、北京大学、中国科学院大学、香港大学、新加坡国立大学等机构联合推出了 G…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/575.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-22T17:04",
       "t": "黄仁勋押注新一轮“PC革命”，Agent找到了“最佳宿主”吗？",
       "s": "PC的兴起得益于将CPU、内存、存储和软件都集中在一台轻巧机器上带来的便利，但Agent恰恰不需要这种集中式结构。（来源：钛媒体）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-22 21:52",
+      "AMD 为下一代 Medusa APU 提前铺路，HIP-RT 3.2.0 新增三款 GPU 目标"
+    ],
+    [
       "10-22 21:20",
       "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺"
     ],
@@ -162,10 +166,6 @@
     [
       "10-22 19:42",
       "Anthropic 平台工程团队全面采用 Claude 编码，工程师转向系统设计与验证"
-    ],
-    [
-      "10-22 19:24",
-      "“卡比之父”樱井政博：AI 催生大量模仿游戏，真正具备创造力的开发者将变得更加重要"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303465,
+      "s": 303488,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300488,
+      "s": 300517,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286137,
+      "s": 286161,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222277,
+      "s": 222291,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182925,
+      "s": 182932,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152856,
+      "s": 152859,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142642,
+      "s": 142645,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 132382,
+      "s": 132421,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114291,
+      "s": 114298,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109505,
+      "s": 109518,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
