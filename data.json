@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-22T10:27:57",
+  "updated": "2026-10-22T10:31:48",
   "news": [
     {
       "c": "HOT",
@@ -39,7 +39,7 @@
     {
       "c": "HOT",
       "d": "2026-10-22T09:45",
-      "t": "美光预计 2028 年带来计算芯片垂直堆叠 HBM 与边缘推理 vEIM",
+      "t": "美光预计 2028 年带来计算芯片垂直堆叠 vHBM 与边缘推理 vEIM",
       "s": "Micron（美光）当地时间昨日举行了 2026 年度技术网络研讨会，对 DRAM、泛 HBM、NAND 与 SSD 进…（来源：IT之家）",
       "u": "https://www.ithome.com/1/016/214.htm"
     },
@@ -136,10 +136,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-21T17:36",
-      "t": "智能体手机加速爆发？换机困境、端侧AI与下一代入口之争",
-      "s": "手机需要“新故事”。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8176382.html"
+      "d": "2026-10-21T15:31",
+      "t": "Mistral 发布 Voxtral 3，支持 50 多种语言的语音 Agent SDK",
+      "s": "Mistral 发布了 Voxtral 3，一套语音 Agent SDK 加语音模型，支持 50 多种语言。官方给的演示…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503136/mistral-ai-voxtral-3"
     }
   ],
   "timeline": [
@@ -165,7 +165,7 @@
     ],
     [
       "10-22 09:45",
-      "美光预计 2028 年带来计算芯片垂直堆叠 HBM 与边缘推理 vEIM"
+      "美光预计 2028 年带来计算芯片垂直堆叠 vHBM 与边缘推理 vEIM"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303192,
+      "s": 303195,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 299947,
+      "s": 299948,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285773,
+      "s": 285774,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 221984,
+      "s": 221986,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142538,
+      "s": 142537,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 131745,
+      "s": 131749,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114155,
+      "s": 114157,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109349,
+      "s": 109348,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
