@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-22T13:32:02",
+  "updated": "2026-10-22T14:02:08",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-22T13:58",
+      "t": "PHP爆雷引发全球紧急「拔网线」，别指望 AI 拯救互联网",
+      "s": "网站被攻破后，数据、密码和令牌都可能受到影响#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1685446?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-22T11:40",
@@ -133,16 +140,13 @@
       "t": "飞书豆包工作AI先锋未来人才大赛：企业正在争抢会用AI做成事的人",
       "s": "先看真实问题解决力（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/504608.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-21T09:59",
-      "t": "AI时代，神话并未消失：人类正在创造新的“数字神明”",
-      "s": "一、引言：当算法开始回答神谕式问题 在过去的几年里，一个越来越常见的场景开始出现：当人们面对复杂的人生问题或难以理解的世…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503123"
     }
   ],
   "timeline": [
+    [
+      "10-22 13:58",
+      "PHP爆雷引发全球紧急「拔网线」，别指望 AI 拯救互联网"
+    ],
     [
       "10-22 11:40",
       "DeepSeek 融了 150 亿美元 —— 宁德时代和腾讯领投，目标两次上调"
@@ -162,10 +166,6 @@
     [
       "10-22 09:27",
       "PHP 漏洞惊动日本首相：拖了两年的 OOM 问题，在 AI 时代爆发"
-    ],
-    [
-      "10-22 08:48",
-      "微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303246,
+      "s": 303256,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300075,
+      "s": 300099,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285868,
+      "s": 285885,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222040,
+      "s": 222056,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182819,
+      "s": 182820,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152782,
+      "s": 152792,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142558,
+      "s": 142561,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 131905,
+      "s": 131932,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114178,
+      "s": 114183,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109385,
+      "s": 109387,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
