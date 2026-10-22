@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-22T14:54', t:'AI冲进双十一，算盘打得比人响？', s:'4款购物AI，谁能给出“完美攻略”？（来源：钛媒体）', u:'https://www.tmtpost.com/8177056.html'},
+    {c:'MODEL', d:'2026-10-22T14:40', t:'讯飞星火 X2.6 端云一体大模型发布，首次基于全国产算力实现代码和智能体能力突破', s:'在今日下午的科大讯飞全球 1024 开发者节活动中，讯飞星火 X2.6 端云一体大模型正式发布。讯飞星火 X2.6 宣称…（来源：IT之家）', u:'https://www.ithome.com/1/016/403.htm'},
+    {c:'FUNDING', d:'2026-10-22T14:32', t:'软银股价较 6 月高点接近腰斩，AI 投资烧钱模式遭市场质疑', s:'据彭博社报道，随着融资成本不断上升，投资者开始质疑软银集团能否持续投入巨额资金发展人工智能，软银市值可能较 6 月高点腰…（来源：IT之家）', u:'https://www.ithome.com/1/016/383.htm'},
     {c:'MODEL', d:'2026-10-22T14:27', t:'撬开万亿 AI 硬件市场，一副普通眼镜刚刚好', s:'算力可以租，模型可以开源，芯片可以买——AI 产业里，第一次出现了钱买不到的东西。（来源：钛媒体）', u:'https://www.tmtpost.com/8177459.html'},
     {c:'MODEL', d:'2026-10-22T14:17', t:'Claude推出主动型Agent Duet，满脑子还是上班', s:'不用提问，主动干活，Anthropic也推出个人Agent了（来源：钛媒体）', u:'https://www.tmtpost.com/8177295.html'},
     {c:'HOT', d:'2026-10-22T14:15', t:'AI 到处挖漏洞一整年，终于给人类爆了个大的', s:'头图图片来源：Wiz10 月 21 日晚，如果你有在社交媒体冲浪的习惯，可能会发现一个奇怪的网站关闭潮：几乎是在同一时间…（来源：极客公园）', u:'http://www.geekpark.net/news/372731'},
@@ -470,35 +473,32 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-22T11:52', t:'王腾详解今日宜休 ISHO iFlow AI 温控系统：无感监测、智能控温、双区独立', s:'今天（22 日）上午，今日宜休科技公司创始人 @王腾Thomas 发文详细介绍了今日宜休的第二款产品 ——ISHO iF…（来源：IT之家）', u:'https://www.ithome.com/1/016/324.htm'},
     {c:'MODEL', d:'2026-10-22T11:44', t:'英伟达黄仁勋：GPU 寿命可达 8 年以上，AI 正在改写硬件折旧规则', s:'科技媒体 Wccftech 昨日（10 月 21 日）发布博文，报道称在 GTC 柏林大会上，英伟达首席执行官黄仁勋表示…（来源：IT之家）', u:'https://www.ithome.com/1/016/322.htm'},
     {c:'FUNDING', d:'2026-10-22T11:40', t:'DeepSeek 融了 150 亿美元 —— 宁德时代和腾讯领投，目标两次上调', s:'DeepSeek 融到了 150 亿美元，跻身中国最大规模的融资之一。据 Bloomberg 报道，这家杭州公司在最新一…（来源：OSCHINA）', u:'https://www.oschina.net/news/503150/deepseek-raises-15-billion-in-challenge-to-leading-us-labs'},
-    {c:'FUNDING', d:'2026-10-22T11:12', t:'曾暴涨 7 倍，大模型企业 MiniMax 股价跌破 IPO 发行价', s:'MiniMax 的股价已经回吐自今年 1 月上市以来的全部涨幅。激烈的行业竞争，迫使投资者重新评估这家大模型企业。IT之…（来源：IT之家）', u:'https://www.ithome.com/1/016/269.htm'},
-    {c:'FUNDING', d:'2026-10-22T11:00', t:'向硅谷巨头发起挑战，消息称 DeepSeek 最新一轮融资筹集近千亿元', s:'今天（22 日）上午，彭博社援引知情人士消息称，DeepSeek 在最新一轮融资中筹集了约 1000 亿元人民币，成为中…（来源：IT之家）', u:'https://www.ithome.com/1/016/263.htm'},
     {c:'INDUSTRY', d:'2026-10-22T10:27', t:'靳玉志：自动驾驶将重构新的出行方式', s:'10月21日，2026世界智能网联汽车大会在北京举行。华为公司高级副总裁、引望公司CEO靳玉志出席巅峰对话环节，围绕智能…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/PlEsyIhjrOGsxbYo.html'},
     {c:'HOT', d:'2026-10-22T10:19', t:'具身记忆赛道持续升温，长记忆迎来新 SOTA', s:'IROS 2026 最佳论文启示录：没有长记忆的机器人，终将被淘汰。 作者丨邓哲敏 编辑丨齐铖湧 本月初在匹兹堡闭幕的 …（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/jvyFCFgqJxJtOvjo.html'},
     {c:'MODEL', d:'2026-10-22T09:55', t:'拾趣 (Magpie) v0.1.16 发布，二级菜单交互升级，新增 7 家翻译服务', s:'拾趣 (Magpie) v0.1.16 发布，二级菜单交互升级，新增 7 家翻译服务，并支持 OpenAI Respon…（来源：OSCHINA）', u:'https://www.oschina.net/news/503148'},
     {c:'MODEL', d:'2026-10-22T09:27', t:'PHP 漏洞惊动日本首相：拖了两年的 OOM 问题，在 AI 时代爆发', s:'日本首相高市早苗昨晚在 X 上向国民发出「大至急」请求，内容是 PHP 的两个重大漏洞——一个开源语言的漏洞，让一国首相…（来源：OSCHINA）', u:'https://www.oschina.net/news/503146'},
     {c:'MODEL', d:'2026-10-22T08:48', t:'微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨', s:'24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI…（来源：极客公园）', u:'http://www.geekpark.net/news/372711'},
     {c:'INDUSTRY', d:'2026-10-22T08:44', t:'Edge AI Daily 早报（10月22日）', s:'Anthropic招股书披露上半年营收163亿美元、净亏807亿，算力承诺逾7500亿；Meta增设无投票权股票为AI融…（来源：钛媒体）', u:'https://www.tmtpost.com/8177010.html'},
-    {c:'MEDPHARMA', d:'2026-10-22T08:41', t:'从“卖分子”到“卖平台”：这单BD改了中国AI制药的站位', s:'这既是礼来首次押注AI驱动的脂质纳米颗粒技术，也是国内首个生成式AI-LNP出海大单、全球规模领先的肝外靶向LNP平台合…（来源：钛媒体）', u:'https://www.tmtpost.com/8176585.html'},
   ];
   const TIMELINE = [
+    ['10-22 14:54','AI冲进双十一，算盘打得比人响？'],
+    ['10-22 14:40','讯飞星火 X2.6 端云一体大模型发布，首次基于全国产算力实现代码和智能体能力突破'],
+    ['10-22 14:32','软银股价较 6 月高点接近腰斩，AI 投资烧钱模式遭市场质疑'],
     ['10-22 14:27','撬开万亿 AI 硬件市场，一副普通眼镜刚刚好'],
     ['10-22 14:17','Claude推出主动型Agent Duet，满脑子还是上班'],
     ['10-22 14:15','AI 到处挖漏洞一整年，终于给人类爆了个大的'],
-    ['10-22 14:03','谷歌 Google Cloud 计划部署至多 96 万块 GPU 的英伟达 Vera Rubin 平台'],
-    ['10-22 13:58','PHP爆雷引发全球紧急「拔网线」，别指望 AI 拯救互联网'],
-    ['10-22 12:51','工信部郭守刚：L3 级自动驾驶产品第二批准入试点工作正在进行'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303272, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300119, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:285907, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222068, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182825, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152791, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142563, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:131959, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114190, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109394, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303288, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300141, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:285923, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222088, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182838, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152793, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142569, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:131992, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114201, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109403, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
