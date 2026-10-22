@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-22T15:31:52",
+  "updated": "2026-10-22T15:49:57",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-22T15:31",
+      "t": "字节正在构建一套完整的AI视频工具生态",
+      "s": "两个月时间，字节跳动在AI视频工具上的布局动作不断，已在多个赛道落子。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8176915.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-22T15:23",
+      "t": "被迫下场，Anthropic 推出个人 AI 助理 Claude Duet",
+      "s": "作者｜桦林舞王 编辑｜靖宇 用过各种 AI 助手的人大概都有过同一种疲劳：你不开口，它就装死；你一旦开口，它又把所有选择…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372740"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-22T15:22",
@@ -126,23 +140,17 @@
       "t": "拾趣 (Magpie) v0.1.16 发布，二级菜单交互升级，新增 7 家翻译服务",
       "s": "拾趣 (Magpie) v0.1.16 发布，二级菜单交互升级，新增 7 家翻译服务，并支持 OpenAI Respon…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503148"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-22T09:27",
-      "t": "PHP 漏洞惊动日本首相：拖了两年的 OOM 问题，在 AI 时代爆发",
-      "s": "日本首相高市早苗昨晚在 X 上向国民发出「大至急」请求，内容是 PHP 的两个重大漏洞——一个开源语言的漏洞，让一国首相…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503146"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-22T08:48",
-      "t": "微软员工数十年来首次下降；沃尔玛/山姆推出 Agent 购物接口；推动 SpaceX 和特斯拉合并，马斯克财富有望暴涨",
-      "s": "24 小时为你在线打工：Anthropic 推出 Claude Duet AI 智能体，迎战 Meta 和 OpenAI…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372711"
     }
   ],
   "timeline": [
+    [
+      "10-22 15:31",
+      "字节正在构建一套完整的AI视频工具生态"
+    ],
+    [
+      "10-22 15:23",
+      "被迫下场，Anthropic 推出个人 AI 助理 Claude Duet"
+    ],
     [
       "10-22 15:22",
       "宇树科技王兴兴：我很害怕浪费每一天，这代人有希望把人形机器人生产力提升到下一个台阶"
@@ -158,14 +166,6 @@
     [
       "10-22 15:03",
       "华为 AI 眼镜获 HarmonyOS 6.0.0.159 SP5 升级：新增头动支付等功能，连续录像时长提升至 5 分钟"
-    ],
-    [
-      "10-22 15:02",
-      "科大讯飞首发星火语音基座大模型 SparkAudio 1.0：中英文任意切换、说话人实时识别，输入法里就能用"
-    ],
-    [
-      "10-22 14:54",
-      "AI冲进双十一，算盘打得比人响？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303308,
+      "s": 303315,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300170,
+      "s": 300186,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 285939,
+      "s": 285947,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222103,
+      "s": 222115,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182841,
+      "s": 182846,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152799,
+      "s": 152801,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142575,
+      "s": 142581,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 132020,
+      "s": 132032,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114212,
+      "s": 114217,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109410,
+      "s": 109416,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
