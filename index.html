@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-10-22T21:20', t:'Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺', s:'过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬…（来源：极客公园）', u:'http://www.geekpark.net/news/372762'},
     {c:'MODEL', d:'2026-10-22T20:09', t:'小鹏 IRON 人形机器人能力升级：每 0.2 秒重新推理一次，可预测 6 秒内动作变化', s:'小鹏汽车今日宣布，上个月，第二代 VLA 开始理解“时间”；这个月，它来到小鹏 IRON 身上理解“你的下一步”。依赖同…（来源：IT之家）', u:'https://www.ithome.com/1/016/667.htm'},
     {c:'INDUSTRY', d:'2026-10-22T20:06', t:'亚马逊云科技Ozgur Tohumcu：决定物理AI规模化落地速度的，往往不是技术本身', s:'大量企业的AI项目停留在概念验证阶段，没有真正走向量产与工业化落地。（来源：钛媒体）', u:'https://www.tmtpost.com/8177096.html'},
     {c:'HOT', d:'2026-10-22T19:56', t:'宇树 10 周年，王兴兴：我劝你相信 AI', s:'10 月 22 日，杭州国际博览中心热闹非常，不仅人多，而且机器人也特别多。 这是 2026 年宇树科技举办的世界物理 …（来源：极客公园）', u:'http://www.geekpark.net/news/372759'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-22T16:20', t:'AI 漫剧越做越快，赚钱却没那么容易了', s:'「一个创作者加上 IP 和 AI 工具，就能完成漫剧创作全流程。」 在上周举行的阅文创作大会上，阅文集团 CEO 侯晓楠…（来源：极客公园）', u:'http://www.geekpark.net/news/372746'},
     {c:'MODEL', d:'2026-10-22T16:17', t:'中层不会消失，只是换成了Agent', s:'为防AI出内鬼，微软让一部分Agent当监工。（来源：钛媒体）', u:'https://www.tmtpost.com/8177643.html'},
     {c:'MODEL', d:'2026-10-22T16:15', t:'大模型内卷之后，AI 竞争进入搜索基础设施时代', s:'头图来源：元宝搜索 过去一年，AI 行业的战场正在悄悄发生位移。 当 Agent 从概念快速渗透进办公、内容、金融等真实…（来源：极客公园）', u:'http://www.geekpark.net/news/372743'},
-    {c:'MODEL', d:'2026-10-22T16:14', t:'千问AI硬件：一副眼镜的「越界」，与一个Agent的野心', s:'一副44g的眼镜能做什么？会议开始前自动录音，骑行时根据心率提醒你调整呼吸，在咖啡店看一眼外文菜单就知道你想问哪道菜，甚…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html'},
   ];
   const TIMELINE = [
+    ['10-22 21:20','Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺'],
     ['10-22 20:09','小鹏 IRON 人形机器人能力升级：每 0.2 秒重新推理一次，可预测 6 秒内动作变化'],
     ['10-22 20:06','亚马逊云科技Ozgur Tohumcu：决定物理AI规模化落地速度的，往往不是技术本身'],
     ['10-22 19:56','宇树 10 周年，王兴兴：我劝你相信 AI'],
     ['10-22 19:42','Anthropic 平台工程团队全面采用 Claude 编码，工程师转向系统设计与验证'],
     ['10-22 19:24','“卡比之父”樱井政博：AI 催生大量模仿游戏，真正具备创造力的开发者将变得更加重要'],
-    ['10-22 19:15','OpenAI 发现 PHP「世纪漏洞」，全球 70% 网站都危险了'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303461, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300473, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286127, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222266, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182923, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152851, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142640, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132365, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114286, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109501, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:303465, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:300488, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:286137, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222277, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:182925, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:152856, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142642, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:132382, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114291, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109505, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

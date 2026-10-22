@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-22T21:19:13",
+  "updated": "2026-10-22T21:31:54",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-22T21:20",
+      "t": "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺",
+      "s": "过去两年多，在智能硬件领域，投资人和创业者都热衷于为 AI 寻找一个个物理世界里的新「容器」，各种新形态的 AI 原生硬…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/372762"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-22T20:09",
@@ -133,16 +140,13 @@
       "t": "大模型内卷之后，AI 竞争进入搜索基础设施时代",
       "s": "头图来源：元宝搜索 过去一年，AI 行业的战场正在悄悄发生位移。 当 Agent 从概念快速渗透进办公、内容、金融等真实…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372743"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-22T16:14",
-      "t": "千问AI硬件：一副眼镜的「越界」，与一个Agent的野心",
-      "s": "一副44g的眼镜能做什么？会议开始前自动录音，骑行时根据心率提醒你调整呼吸，在咖啡店看一眼外文菜单就知道你想问哪道菜，甚…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/weiwu/ft2h4iM9MlbukXOj.html"
     }
   ],
   "timeline": [
+    [
+      "10-22 21:20",
+      "Token 成本降到每年 1 元，AI 家电这事就能成了 | 对话博联刘宗孺"
+    ],
     [
       "10-22 20:09",
       "小鹏 IRON 人形机器人能力升级：每 0.2 秒重新推理一次，可预测 6 秒内动作变化"
@@ -162,10 +166,6 @@
     [
       "10-22 19:24",
       "“卡比之父”樱井政博：AI 催生大量模仿游戏，真正具备创造力的开发者将变得更加重要"
-    ],
-    [
-      "10-22 19:15",
-      "OpenAI 发现 PHP「世纪漏洞」，全球 70% 网站都危险了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303461,
+      "s": 303465,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300473,
+      "s": 300488,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286127,
+      "s": 286137,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222266,
+      "s": 222277,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 182923,
+      "s": 182925,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152851,
+      "s": 152856,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142640,
+      "s": 142642,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 132365,
+      "s": 132382,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114286,
+      "s": 114291,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109501,
+      "s": 109505,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
