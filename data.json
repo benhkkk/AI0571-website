@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-23T15:01:50",
+  "updated": "2026-10-23T15:31:49",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T15:17",
+      "t": "Anthropic 平台工程团队 200 人的代码，全是 Claude 写的",
+      "s": "\"我们团队所有代码都是 Claude 写的。真的，全部。\" 这是 Anthropic 平台工程团队负责人 Katelyn…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503177"
+    },
     {
       "c": "HOT",
       "d": "2026-10-23T14:57",
       "t": "芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树",
       "s": "英国《卫报》昨日（10 月 22 日）报道，谷歌为了在芬兰北部穆霍斯（Muhos）建设数据中心，清除了约 330 公顷（…（来源：IT之家）",
       "u": "https://www.ithome.com/1/017/025.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-23T14:51",
+      "t": "动词算子体系中，何为名词？",
+      "s": "动词算子体系中，何为名词？ 动词算子体系中存在名词 名词是一个域对象 但比普通的域对象有更多语义约束 现有实现中唯一的名…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503175"
     },
     {
       "c": "FUNDING",
@@ -126,26 +140,20 @@
       "t": "对话虚幻引擎创始人：我曾质疑AI对游戏开发的意义，但现在是时候了",
       "s": "游戏行业的“世纪机会”。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8178776.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T12:06",
-      "t": "红魔 RedMagicOS 12 适配机型公布：11 Pro / 11S Pro 系列手机 12 月升级",
-      "s": "红魔游戏手机官方今日发布了 RedMagicOS 12 版本升级公告。计划陆续适配的机型如下：2026 年 12 月：红…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/905.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-23T11:59",
-      "t": "从乌镇叙事到水乡新貌，桐乡AI产业进化样本",
-      "s": "桐乡不仅有在全国县市一级最完整的智能汽车产业链及“车路云一体化”试点加持，它正从乌镇峰会的“AI叙事”转变成一个工业水乡…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8178456.html"
     }
   ],
   "timeline": [
     [
+      "10-23 15:17",
+      "Anthropic 平台工程团队 200 人的代码，全是 Claude 写的"
+    ],
+    [
       "10-23 14:57",
       "芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树"
+    ],
+    [
+      "10-23 14:51",
+      "动词算子体系中，何为名词？"
     ],
     [
       "10-23 14:43",
@@ -158,14 +166,6 @@
     [
       "10-23 14:34",
       "qKnow 专业版 v3.1.5 发布：扩容工作流编排调用能力，上线Text2SQL插件，拓宽数据类智能应用构建边界"
-    ],
-    [
-      "10-23 14:26",
-      "惠普战 99 Ultra \"Gorgon Halo\" 移动工作站上架，标价 59999 元"
-    ],
-    [
-      "10-23 14:18",
-      "“AI 教父”辛顿再抛悲观论：AI 已经拥有意识，人类必须与其友好相处"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303875,
+      "s": 303881,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 301166,
+      "s": 301189,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286698,
+      "s": 286723,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222620,
+      "s": 222632,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183118,
+      "s": 183120,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152943,
+      "s": 152944,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142754,
+      "s": 142753,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 133314,
+      "s": 133345,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114467,
+      "s": 114475,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109732,
+      "s": 109742,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
