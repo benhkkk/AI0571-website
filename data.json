@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-23T20:31:33",
+  "updated": "2026-10-23T21:01:56",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T20:37",
+      "t": "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛名单公布",
+      "s": "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 10 …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503189"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T18:57",
+      "t": "Kimi K3.1 泄露：3D 成本仅有 GPT-6 Astra 的 1/14！横扫海外视觉三巨头",
+      "s": "15 分钟交付工业级可交互3D 资产，重写视觉大模型的“理科生法则” 作者丨高允毅 编辑丨岑 峰 刚刚，Kimi 官方发…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/PZo9w14YeFSo4jmf.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-23T18:30",
@@ -108,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-23T16:31",
-      "t": "日本数字厅旗下部分利用 AI 搭建的网站遭黑客入侵，超 1.3 万条隐私信息泄露",
-      "s": "日本数字厅昨日发布通告，称由于旗下部分使用 AI 建站平台 Studio 打造的网站遭黑客入侵，导致 13323 条隐私…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/090.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-23T15:59",
       "t": "【AI 智能运维平台】本周更新：WorkBuddy技能市场上线「BK-Lite运维助手」，支持对接平台获取数据加入AI分析",
       "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
@@ -133,16 +140,17 @@
       "t": "百度世界2026前瞻：10+重磅分论坛，全面解码AI时代的智能组织进化路径",
       "s": "10月21日，百度官方公众号发文披露了百度世界2026分论坛的更多议程信息。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/504901.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T15:17",
-      "t": "Anthropic 平台工程团队 200 人的代码，全是 Claude 写的",
-      "s": "\"我们团队所有代码都是 Claude 写的。真的，全部。\" 这是 Anthropic 平台工程团队负责人 Katelyn…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503177"
     }
   ],
   "timeline": [
+    [
+      "10-23 20:37",
+      "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛名单公布"
+    ],
+    [
+      "10-23 18:57",
+      "Kimi K3.1 泄露：3D 成本仅有 GPT-6 Astra 的 1/14！横扫海外视觉三巨头"
+    ],
     [
       "10-23 18:30",
       "热潮、分歧与落地：世界模型需要一场真实场景赛 ｜第五届琶洲算法大赛世界模型生态合作赛决赛开启"
@@ -158,14 +166,6 @@
     [
       "10-23 18:19",
       "谁在押注 Personal AI，谁又在害怕 Personal AI？"
-    ],
-    [
-      "10-23 18:18",
-      "别再争谁是“中国版Duet”了，卖铲子的ICT厂商先赚到了钱"
-    ],
-    [
-      "10-23 18:15",
-      "覆盖存、拣、运全场景，海康机器人2026移动机器人新品发布会举行"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303999,
+      "s": 304009,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 301422,
+      "s": 301448,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286949,
+      "s": 286963,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222741,
+      "s": 222747,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183182,
+      "s": 183187,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152973,
+      "s": 152975,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 133568,
+      "s": 133578,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114532,
+      "s": 114536,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109803,
+      "s": 109810,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
