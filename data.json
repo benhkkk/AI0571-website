@@ -1,12 +1,26 @@
 {
-  "updated": "2026-10-23T13:31:49",
+  "updated": "2026-10-23T14:02:20",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-10-23T13:35",
+      "t": "网络攻击愈发猖獗，防御方能否用AI扳回一城？",
+      "s": "在最新研究中， Claude模型找到了一些曾历经数万亿次测试仍未被发现的bug，还首次在生产软件中跑通了大规模的形式化验…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8178797.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-23T13:29",
       "t": "2027 款极狐阿尔法 S5 纯电宽体轿跑预售：标配激光雷达，12.18 万元起",
       "s": "2027 款极狐阿尔法 S5 车型今日宣布开启预售，定位“AI 高性能宽体轿跑”可选三个版本，预售价 12.18 万元起…（来源：IT之家）",
       "u": "https://www.ithome.com/1/016/969.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T13:27",
+      "t": "Termexo v0.10.15 发布：工作区树、账号登录方式与模型升级建议",
+      "s": "Termexo v0.10.15 已发布。它是 MIT 开源的 Windows 本地多 Agent 工作台，用于组织项目…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503172"
     },
     {
       "c": "INDUSTRY",
@@ -79,13 +93,6 @@
       "u": "https://www.tmtpost.com/8178456.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-23T11:58",
-      "t": "前千寻具身智能负责人解浚源北美创业，成立具身数采公司 gi labs",
-      "s": "产品预计11月初陆续量产（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8178785.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-23T11:51",
       "t": "报告称 2026 年国内大模型均价翻倍，每秒吞吐量也翻倍",
@@ -133,19 +140,20 @@
       "t": "Linus 使用 Claude 辅助对内核进行迟到已久的历史清理",
       "s": "Linus Torvalds 对 Linux Kernel 进行了一个「迟到已久的清理」：把 __get_user() …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503166"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T09:35",
-      "t": "DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控",
-      "s": "软件简介 DatI (Data Intelligence) 是连接 AI Agent 与企业数据库的轻量级语义网关。用户…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503165"
     }
   ],
   "timeline": [
     [
+      "10-23 13:35",
+      "网络攻击愈发猖獗，防御方能否用AI扳回一城？"
+    ],
+    [
       "10-23 13:29",
       "2027 款极狐阿尔法 S5 纯电宽体轿跑预售：标配激光雷达，12.18 万元起"
+    ],
+    [
+      "10-23 13:27",
+      "Termexo v0.10.15 发布：工作区树、账号登录方式与模型升级建议"
     ],
     [
       "10-23 12:55",
@@ -158,14 +166,6 @@
     [
       "10-23 12:30",
       "跑步上岗的具身智能：谁在赚吆喝，谁在算细账"
-    ],
-    [
-      "10-23 12:19",
-      "什么？一个人就能训练大模型，指标还能硬刚K3V4？"
-    ],
-    [
-      "10-23 12:19",
-      "旧金山AI数据包装游戏：6美分买GitHub星标，两周订单吹成全年ARR"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303836,
+      "s": 303847,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 301084,
+      "s": 301115,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286664,
+      "s": 286676,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222597,
+      "s": 222601,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183099,
+      "s": 183104,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152936,
+      "s": 152939,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142749,
+      "s": 142753,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 133206,
+      "s": 133237,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114460,
+      "s": 114464,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109714,
+      "s": 109724,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
