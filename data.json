@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-23T11:02:04",
+  "updated": "2026-10-23T11:31:48",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-23T11:20",
+      "t": "人形机器人租金暴跌，厂商为什么还在铺渠道？",
+      "s": "更多门店只能让更多人看见机器人，不能让机器人自动获得工作。机器人渠道真正成熟的标志，不是又开出多少家4S店，而是每多交付…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8177860.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-23T11:03",
+      "t": "被AI改造的内容行业：焦虑、效率和新机会",
+      "s": "电商、游戏、广告、短剧、直播……AI正在进入真实商业。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8177399.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-23T11:03",
+      "t": "马斯克的算力生意一年回本，Meta的Muse遥遥无期",
+      "s": "长期的AI故事要讲，短期的账更得算。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8178416.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-23T10:55",
@@ -14,13 +35,6 @@
       "t": "Linus 使用 Claude 辅助对内核进行迟到已久的历史清理",
       "s": "Linus Torvalds 对 Linux Kernel 进行了一个「迟到已久的清理」：把 __get_user() …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503166"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-23T10:21",
-      "t": "当Token成为一门生意，企业该算算AI这笔账了",
-      "s": "算清每个Token的价值，是AI落地的分水岭。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8178287.html"
     },
     {
       "c": "MODEL",
@@ -126,23 +140,21 @@
       "t": "宇树 10 周年，王兴兴：我劝你相信 AI",
       "s": "10 月 22 日，杭州国际博览中心热闹非常，不仅人多，而且机器人也特别多。 这是 2026 年宇树科技举办的世界物理 …（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372759"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-22T19:15",
-      "t": "OpenAI 发现 PHP「世纪漏洞」，全球 70% 网站都危险了",
-      "s": "大的还在后面#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1685507?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-22T18:37",
-      "t": "2026 上海开源软件应用创新大赛「AI+工业软件赛道」决赛名单公布",
-      "s": "2026 上海开源软件应用创新大赛「AI+工业软件赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 10 月…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503162"
     }
   ],
   "timeline": [
+    [
+      "10-23 11:20",
+      "人形机器人租金暴跌，厂商为什么还在铺渠道？"
+    ],
+    [
+      "10-23 11:03",
+      "被AI改造的内容行业：焦虑、效率和新机会"
+    ],
+    [
+      "10-23 11:03",
+      "马斯克的算力生意一年回本，Meta的Muse遥遥无期"
+    ],
     [
       "10-23 10:55",
       "谷歌推出 ACE 服务：为 AI 智能体配“独立工位”，空闲时自动下班 / 唤醒不到 500 毫秒"
@@ -152,20 +164,8 @@
       "Linus 使用 Claude 辅助对内核进行迟到已久的历史清理"
     ],
     [
-      "10-23 10:21",
-      "当Token成为一门生意，企业该算算AI这笔账了"
-    ],
-    [
       "10-23 10:04",
       "拿铁熊猫推出 Sigma 2 单板计算机，搭载英特尔酷睿 Ultra X7 处理器 358H"
-    ],
-    [
-      "10-23 09:55",
-      "商务部：前三季度重点平台外骨骼助力器销售额增长 46.4%，具身智能机器人增长 22.6%"
-    ],
-    [
-      "10-23 09:35",
-      "DatI 新版发布：将数据库发布为语义感知的MCP服务，支持 Schema 级权限管控"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303787,
+      "s": 303803,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300974,
+      "s": 301002,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286596,
+      "s": 286616,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222563,
+      "s": 222568,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183070,
+      "s": 183074,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 152928,
+      "s": 152930,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142744,
+      "s": 142745,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 133080,
+      "s": 133113,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114437,
+      "s": 114444,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109681,
+      "s": 109689,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
