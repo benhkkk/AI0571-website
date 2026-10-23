@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-24T06:31:38",
+  "updated": "2026-10-24T07:02:37",
   "news": [
     {
       "c": "MEDPHARMA",
@@ -94,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-23T17:44",
-      "t": "深圳将发布海洋标准体系建设指南、水下机器人标准体系",
-      "s": "10 月 22 日至 24 日，由自然资源部和广东省人民政府共同主办的中国海洋经济博览会（以下简称“海博会”）在深圳举办…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/169.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-23T16:32",
       "t": "从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地",
       "s": "在企业网 D1net 主办的 2026 秋季央国企 CIO 及数科公司高管峰会（第 19 届）上，硅基流动解决方案总监唐…（来源：雷锋网）",
@@ -140,6 +133,13 @@
       "t": "Anthropic 平台工程团队 200 人的代码，全是 Claude 写的",
       "s": "\"我们团队所有代码都是 Claude 写的。真的，全部。\" 这是 Anthropic 平台工程团队负责人 Katelyn…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503177"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-23T15:16",
+      "t": "融资10亿+元，亿铸科技加速通用存算一体产业化",
+      "s": "国内首家通用存算一体架构（GP-IMC®）AI大算力芯片公司亿铸科技完成10亿+元融资。随着AI算力需求持续增长，通用存…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/ADXEXKrCVSzoJ36i.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304220,
+      "s": 304228,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 301779,
+      "s": 301787,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 287277,
+      "s": 287290,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222905,
+      "s": 222912,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183284,
+      "s": 183287,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153165,
+      "s": 153167,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142816,
+      "s": 142815,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 133873,
+      "s": 133884,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114620,
+      "s": 114626,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109901,
+      "s": 109908,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
