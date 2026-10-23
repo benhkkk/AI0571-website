@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-23T09:02:46",
+  "updated": "2026-10-23T09:31:57",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T09:30",
+      "t": "AI 智能体的“说明书”转为社区共治：Anthropic 捐赠 Agent Skills 开放标准",
+      "s": "Anthropic 昨日（10 月 22 日）发布公告，宣布向 Linux 基金会旗下的 Agentic AI Foun…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/811.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T09:08",
+      "t": "MiniMax M3.1 Flash 开源模型权重，总参数 428B",
+      "s": "MiniMax 稀宇科技今日宣布开源 MiniMax M3.1 Flash 的模型权重，总参数 428B，激活参数 23…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/800.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-23T09:07",
+      "t": "“现代史上最大规模财富捐赠”：Anthropic 等 AI 三巨头拟投入近 3000 亿美元做慈善",
+      "s": "《华盛顿邮报》昨日（10 月 22 日）发布博文，报道称 Anthropic、OpenAI 和 SpaceXSI 三家 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/016/799.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-23T08:58",
@@ -56,27 +77,6 @@
       "t": "早报｜微信回应未适配iPhone Duo/比亚迪：L3有望2028年落地/乐奇彩显AI眼镜意外曝光",
       "s": "· 奥迪中国换帅，前奇瑞高管张俊将接任总裁 · 特斯拉三季度净利降 43%，管理层仍强调 FSD 技术领先 · 王兴兴：…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1685530?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T07:55",
-      "t": "IT早报 1023：神木交警再回应问界碰撞起火事故；武汉通回应苹果免费开卡安卓端收费 15 元；大模型 MiniMax 港股跌破发行价；微软 Win11 给 8GB 内存电脑减负...",
-      "s": "“IT早报”时间，大家好，现在是 2026 年 10 月 23 日星期五，今天的重要科技资讯有：1. 陕西神木市交管大队…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/773.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T07:54",
-      "t": "让你安心用 AI 网购 / 订票 / 点外卖：1Password 推出智能体密码授权功能",
-      "s": "密码管理服务商 1Password 昨日（10 月 22 日）发布博文，宣布推出 1Password for Agent…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/772.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T07:48",
-      "t": "OpenAI 宣布全面开放决策 API：基于 GPT‑6 Luna，每百万 token 输入 0.1 美元",
-      "s": "当地时间 10 月 22 日，OpenAI 宣布全面开放决策 API（Decisions API）。据介绍，该 API …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/016/771.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-23 09:30",
+      "AI 智能体的“说明书”转为社区共治：Anthropic 捐赠 Agent Skills 开放标准"
+    ],
+    [
+      "10-23 09:08",
+      "MiniMax M3.1 Flash 开源模型权重，总参数 428B"
+    ],
+    [
+      "10-23 09:07",
+      "“现代史上最大规模财富捐赠”：Anthropic 等 AI 三巨头拟投入近 3000 亿美元做慈善"
+    ],
+    [
       "10-23 08:58",
       "DeepSeek、MiniMax 已顺利履行登记手续，完成开源和海外授权使用"
     ],
@@ -154,18 +166,6 @@
     [
       "10-23 08:49",
       "DeepSeek 据悉完成 1000 亿元新一轮融资；特斯拉三季度利润大跌 43%；微信称已完成适配 iPhone Duo | 极客早知道"
-    ],
-    [
-      "10-23 08:44",
-      "Edge AI Daily 早报（10月23日）"
-    ],
-    [
-      "10-23 08:31",
-      "通用汽车：目标让旗下最畅销皮卡和 SUV 实现“脱眼”自动驾驶"
-    ],
-    [
-      "10-23 08:21",
-      "消息称 OpenAI 融资磋商进入尾声，估值目标下调至 1.25 万亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 303749,
+      "s": 303761,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 300901,
+      "s": 300913,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 286548,
+      "s": 286559,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222539,
+      "s": 222544,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183042,
+      "s": 183046,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142731,
+      "s": 142733,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 132962,
+      "s": 132989,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114417,
+      "s": 114419,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 109659,
+      "s": 109666,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
