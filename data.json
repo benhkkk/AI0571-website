@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T06:01:46",
+  "updated": "2026-10-25T06:06:58",
   "news": [
     {
       "c": "MODEL",
@@ -86,6 +86,13 @@
       "u": "http://www.geekpark.net/news/372858"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-24T07:23",
+      "t": "巨头们的新战役:抬高AI制药，抢占AI4S",
+      "s": "巨头们的新战役:抬高AI制药，抢占AI4S（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7700005516864537138/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-23T23:16",
       "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
@@ -133,13 +140,6 @@
       "t": "热潮、分歧与落地：世界模型需要一场真实场景赛 ｜第五届琶洲算法大赛世界模型生态合作赛决赛开启",
       "s": "这并非一个普通的地方性赛事，相反，其在业内的知名度很高。琶洲算法大赛创办于 2022 年，由广州市人民政府主办。办到今年…（来源：OSCHINA）",
       "u": "https://my.oschina.net/u/4518156/blog/19781504"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-23T18:15",
-      "t": "覆盖存、拣、运全场景，海康机器人2026移动机器人新品发布会举行",
-      "s": "深耕制造业一线十余年，海康机器人以AI为全业务基座，业务覆盖机器视觉、移动机器人、关节机器人与具身机器人，通过1000余…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/robot/h4vGHMyQ6b8drzy6.html"
     }
   ],
   "timeline": [
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 302475,
+      "s": 302477,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288029,
+      "s": 288033,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223356,
+      "s": 223359,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 134389,
+      "s": 134392,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114807,
+      "s": 114808,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110191,
+      "s": 110193,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
