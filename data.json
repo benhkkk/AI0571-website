@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-24T13:01:53",
+  "updated": "2026-10-24T13:12:59",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-24T13:07",
+      "t": "微软“邮件革命”仅一年就退场：Outlook 收件箱 AI 整理 Prioritize My Inbox 功能下周起停用",
+      "s": "科技媒体 Windows Central 昨日（10 月 23 日）发布博文，报道称微软已宣布将于 2026 年 10 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/362.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-24T12:56",
@@ -129,13 +136,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-24T08:14",
-      "t": "华为官宣 Mate 90 系列手机上线全新睿影 XMAGE 影像服务，图库升级支持 AI 一键成片等功能",
-      "s": "华为官方昨日宣布，Mate 90 系列手机上线全新睿影 XMAGE 影像服务，宣称“人像柔光更出彩”。另外，新机图库升级…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/295.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-23T20:37",
       "t": "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛名单公布",
       "s": "2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 10 …（来源：OSCHINA）",
@@ -143,6 +143,10 @@
     }
   ],
   "timeline": [
+    [
+      "10-24 13:07",
+      "微软“邮件革命”仅一年就退场：Outlook 收件箱 AI 整理 Prioritize My Inbox 功能下周起停用"
+    ],
     [
       "10-24 12:56",
       "亿万富翁投资人马克 · 库班：抵御失控智能体就像防蟑螂，可以用 AI“喷药”"
@@ -162,10 +166,6 @@
     [
       "10-24 12:09",
       "AI到底有多烧钱，Meta用8250亿美元的“账单”回答了"
-    ],
-    [
-      "10-24 12:00",
-      "双11购物车里的AI暗战"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304308,
+      "s": 304311,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 301917,
+      "s": 301922,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 287439,
+      "s": 287441,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 222986,
+      "s": 222988,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183339,
+      "s": 183343,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153194,
+      "s": 153195,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142839,
+      "s": 142841,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 133977,
+      "s": 133983,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114662,
+      "s": 114663,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },

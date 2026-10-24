@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-24T13:07', t:'微软“邮件革命”仅一年就退场：Outlook 收件箱 AI 整理 Prioritize My Inbox 功能下周起停用', s:'科技媒体 Windows Central 昨日（10 月 23 日）发布博文，报道称微软已宣布将于 2026 年 10 …（来源：IT之家）', u:'https://www.ithome.com/1/017/362.htm'},
     {c:'FUNDING', d:'2026-10-24T12:56', t:'亿万富翁投资人马克 · 库班：抵御失控智能体就像防蟑螂，可以用 AI“喷药”', s:'对于 AI 时代的网络安全问题，亿万富翁、企业家兼投资人马克 · 库班提出了一套颇有意思的“灭虫”思路。据《商业内幕》今…（来源：IT之家）', u:'https://www.ithome.com/1/017/347.htm'},
     {c:'HOT', d:'2026-10-24T12:40', t:'数采会成为具身智能的“牺牲品”吗？', s:'挤泡沫的时候到了？（来源：钛媒体）', u:'https://www.tmtpost.com/8180292.html'},
     {c:'HOT', d:'2026-10-24T12:34', t:'宫本茂：即使 AI 最终什么都能做，人类设计师也始终会有用武之地', s:'当地时间 23 日，据外媒 VGC 报道，曾参与打造《超级马力欧》和《塞尔达传说》等经典游戏系列的任天堂知名设计师、创意…（来源：IT之家）', u:'https://www.ithome.com/1/017/344.htm'},
@@ -477,27 +478,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-24T09:51', t:'亚马逊 CEO 贾西：要让 AI 广泛应用于企业软件，成本需降至目前十分之一', s:'亚马逊 CEO 安迪 · 贾西认为，AI 推理成本仍然太高，要让 AI 广泛应用于企业软件，成本还需要降至目前的约十分之…（来源：IT之家）', u:'https://www.ithome.com/1/017/313.htm'},
     {c:'HOT', d:'2026-10-24T08:59', t:'英国将砸 6 亿英镑应对潜在 AI 风险，还计划建 AI 生物安全实验室', s:'据路透社报道，当地时间 24 日，英国政府宣布将投入约 6 亿英镑（IT之家注：现汇率约合 53.6 亿元人民币），重点…（来源：IT之家）', u:'https://www.ithome.com/1/017/304.htm'},
     {c:'MODEL', d:'2026-10-24T08:34', t:'iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道', s:'苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhon…（来源：极客公园）', u:'http://www.geekpark.net/news/372858'},
-    {c:'MODEL', d:'2026-10-24T08:14', t:'华为官宣 Mate 90 系列手机上线全新睿影 XMAGE 影像服务，图库升级支持 AI 一键成片等功能', s:'华为官方昨日宣布，Mate 90 系列手机上线全新睿影 XMAGE 影像服务，宣称“人像柔光更出彩”。另外，新机图库升级…（来源：IT之家）', u:'https://www.ithome.com/1/017/295.htm'},
     {c:'MODEL', d:'2026-10-23T20:37', t:'2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛名单公布', s:'2026 上海开源软件应用创新大赛「开源 AI 工具赛道」决赛入围名单今日公布，以下 10 支队伍成功晋级，将于 10 …（来源：OSCHINA）', u:'https://www.oschina.net/news/503189'},
   ];
   const TIMELINE = [
+    ['10-24 13:07','微软“邮件革命”仅一年就退场：Outlook 收件箱 AI 整理 Prioritize My Inbox 功能下周起停用'],
     ['10-24 12:56','亿万富翁投资人马克 · 库班：抵御失控智能体就像防蟑螂，可以用 AI“喷药”'],
     ['10-24 12:40','数采会成为具身智能的“牺牲品”吗？'],
     ['10-24 12:34','宫本茂：即使 AI 最终什么都能做，人类设计师也始终会有用武之地'],
     ['10-24 12:19','打工人，开始“表演”AI提效'],
     ['10-24 12:09','AI到底有多烧钱，Meta用8250亿美元的“账单”回答了'],
-    ['10-24 12:00','双11购物车里的AI暗战'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304308, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:301917, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:287439, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222986, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183339, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153194, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142839, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:133977, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114662, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304311, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:301922, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:287441, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222988, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183343, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153195, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142841, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:133983, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114663, u:'https://github.com/JuliusBrussee/caveman', new:false},
     {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109963, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
