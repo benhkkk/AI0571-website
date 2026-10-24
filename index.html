@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-24T14:45', t:'瑞典政府办公厅出手，禁止办公电脑直接访问 ChatGPT、Claude', s:'当地时间 23 日，据瑞典国家公共广播公司 Sveriges Radio 报道，瑞典政府办公厅将从下周一起禁止工作人员通…（来源：IT之家）', u:'https://www.ithome.com/1/017/385.htm'},
+    {c:'MODEL', d:'2026-10-24T14:44', t:'网传宇树科技机器人侧空翻表演甩断腿，系新发布的 H2-X 人形机器人', s:'据新浪科技报道，在宇树科技“2026 世界物理 AI 大会暨宇树合作伙伴生态大会”现场，一段机器人侧空翻失误的视频引发热…（来源：IT之家）', u:'https://www.ithome.com/1/017/383.htm'},
+    {c:'HOT', d:'2026-10-24T14:40', t:'智元在山东济南组织 110 台人形机器人同时跳舞，创下吉尼斯世界纪录', s:'据齐鲁晚报，智元机器人今天在山东济南黄河国际会展中心组织 110 台远征 A3 全尺寸人形机器人同场群舞，成功创下“最多…（来源：IT之家）', u:'https://www.ithome.com/1/017/382.htm'},
     {c:'MODEL', d:'2026-10-24T14:16', t:'Anthropic 亮出未发布 AI 模型：能力比 Mythos 5.1 更强，也更“守规矩”', s:'Anthropic 昨日（10 月 23 日）发布博文，联合英国人工智能安全研究所（AISI），发布了一起 AI 网络测…（来源：IT之家）', u:'https://www.ithome.com/1/017/375.htm'},
     {c:'MODEL', d:'2026-10-24T13:07', t:'微软“邮件革命”仅一年就退场：Outlook 收件箱 AI 整理 Prioritize My Inbox 功能下周起停用', s:'科技媒体 Windows Central 昨日（10 月 23 日）发布博文，报道称微软已宣布将于 2026 年 10 …（来源：IT之家）', u:'https://www.ithome.com/1/017/362.htm'},
     {c:'FUNDING', d:'2026-10-24T12:56', t:'亿万富翁投资人马克 · 库班：抵御失控智能体就像防蟑螂，可以用 AI“喷药”', s:'对于 AI 时代的网络安全问题，亿万富翁、企业家兼投资人马克 · 库班提出了一套颇有意思的“灭虫”思路。据《商业内幕》今…（来源：IT之家）', u:'https://www.ithome.com/1/017/347.htm'},
@@ -469,36 +472,33 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-24T12:00', t:'双11购物车里的AI暗战', s:'淘天抖音造入口，京东多多促交易。（来源：钛媒体）', u:'https://www.tmtpost.com/8180252.html'},
     {c:'HOT', d:'2026-10-24T12:00', t:'博纳闯AI赛道，失败了三次', s:'令人羡慕的勇气。（来源：钛媒体）', u:'https://www.tmtpost.com/8180263.html'},
     {c:'MODEL', d:'2026-10-24T11:48', t:'美国拟推新规：自动驾驶汽车要用青绿色灯光“自报家门”', s:'科技媒体 The Verge 昨日（10 月 23 日）发布博文，报道称美国国家公路交通安全管理局（NHTSA）正推动新…（来源：IT之家）', u:'https://www.ithome.com/1/017/334.htm'},
-    {c:'MODEL', d:'2026-10-24T10:56', t:'英伟达黄仁勋开炮：“AI 毁灭人类”纯属捏造，是博眼球的廉价炒作', s:'法新社于 10 月 22 日发布博文，报道称在柏林举行的公司会议上，英伟达首席执行官黄仁勋再度抨击“AI 毁灭人类”言论…（来源：IT之家）', u:'https://www.ithome.com/1/017/326.htm'},
-    {c:'MODEL', d:'2026-10-24T10:54', t:'悉尼一男子告诉 Claude“自己想枪击托儿所”，被警方逮捕', s:'澳大利亚悉尼一名男子戴维 · 兰 · 萨克雷向 Anthropic 的聊天机器人 Claude 透露，自己想杀害住所附近…（来源：IT之家）', u:'https://www.ithome.com/1/017/325.htm'},
     {c:'INDUSTRY', d:'2026-10-24T10:44', t:'iRTE2026：对话 AI 如何迈向 AGI？声网CEO赵斌给出五级对话能力框架', s:'10月23日，iRTE2026实时智能大会在北京举行。声网创始人兼 CEO 赵斌在主论坛发表题为《对话 AGI：实时互动…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html'},
     {c:'HOT', d:'2026-10-24T10:07', t:'实测 Kimi K3.1 Pro，国模终于继续卷旗舰', s:'大而美的 Kimi 回来了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-10-24T10:06', t:'国产具身智能出海开启“减重计划”', s:'出口爆单，售后拖垮。（来源：钛媒体）', u:'https://www.tmtpost.com/8179676.html'},
     {c:'HOT', d:'2026-10-24T10:01', t:'L3将至，华地魔三巨头同台：自动驾驶下半场的生存哲学', s:'智驾供应商下半场的三种答案。（来源：钛媒体）', u:'https://www.tmtpost.com/8179664.html'},
     {c:'HOT', d:'2026-10-24T09:53', t:'博纳花两年、投千万，趟出第一部AI院线长片', s:'国内首部AI院线电影诞生记。（来源：钛媒体）', u:'https://www.tmtpost.com/8179389.html'},
-    {c:'HOT', d:'2026-10-24T09:51', t:'亚马逊 CEO 贾西：要让 AI 广泛应用于企业软件，成本需降至目前十分之一', s:'亚马逊 CEO 安迪 · 贾西认为，AI 推理成本仍然太高，要让 AI 广泛应用于企业软件，成本还需要降至目前的约十分之…（来源：IT之家）', u:'https://www.ithome.com/1/017/313.htm'},
     {c:'MODEL', d:'2026-10-24T08:34', t:'iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道', s:'苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhon…（来源：极客公园）', u:'http://www.geekpark.net/news/372858'},
     {c:'MODEL', d:'2026-10-23T23:16', t:'🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase', s:'汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）', u:'https://www.oschina.net/news/503191'},
   ];
   const TIMELINE = [
+    ['10-24 14:45','瑞典政府办公厅出手，禁止办公电脑直接访问 ChatGPT、Claude'],
+    ['10-24 14:44','网传宇树科技机器人侧空翻表演甩断腿，系新发布的 H2-X 人形机器人'],
+    ['10-24 14:40','智元在山东济南组织 110 台人形机器人同时跳舞，创下吉尼斯世界纪录'],
     ['10-24 14:16','Anthropic 亮出未发布 AI 模型：能力比 Mythos 5.1 更强，也更“守规矩”'],
     ['10-24 13:07','微软“邮件革命”仅一年就退场：Outlook 收件箱 AI 整理 Prioritize My Inbox 功能下周起停用'],
     ['10-24 12:56','亿万富翁投资人马克 · 库班：抵御失控智能体就像防蟑螂，可以用 AI“喷药”'],
-    ['10-24 12:40','数采会成为具身智能的“牺牲品”吗？'],
-    ['10-24 12:34','宫本茂：即使 AI 最终什么都能做，人类设计师也始终会有用武之地'],
-    ['10-24 12:19','打工人，开始“表演”AI提效'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304328, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:301957, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:287464, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223004, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183352, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153200, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142848, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:134010, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114668, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109979, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304338, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:301970, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:287482, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223011, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183356, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153201, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142850, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:134016, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114670, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109981, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
