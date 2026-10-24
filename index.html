@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-24T08:34', t:'iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道', s:'苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhon…（来源：极客公园）', u:'http://www.geekpark.net/news/372858'},
+    {c:'FUNDING', d:'2026-10-24T08:31', t:'美女投资人违规被罚，26岁掌舵百亿PE，曾押中GPU四小龙', s:'从10亿元重仓GPU四小龙到七项违规。（来源：钛媒体）', u:'https://www.tmtpost.com/8179715.html'},
     {c:'HOT', d:'2026-10-24T08:26', t:'188天就退场，大厂AI 产品正在加速洗牌', s:'八家公司、十条赛道，一边密集上新，一边整合与退场。（来源：钛媒体）', u:'https://www.tmtpost.com/8179714.html'},
     {c:'HOT', d:'2026-10-24T08:24', t:'央视新闻谈 AI 魔改视频和二创区别：问题关键在“魔”，消解经典的同时也伤害文化根本', s:'据央视新闻今早报道，日前，部分重点网络视听平台公布了“AI 魔改”视频专项治理工作 9 月的处置情况，共清理违规视频近 …（来源：IT之家）', u:'https://www.ithome.com/1/017/298.htm'},
     {c:'MODEL', d:'2026-10-24T08:14', t:'华为官宣 Mate 90 系列手机上线全新睿影 XMAGE 影像服务，图库升级支持 AI 一键成片等功能', s:'华为官方昨日宣布，Mate 90 系列手机上线全新睿影 XMAGE 影像服务，宣称“人像柔光更出彩”。另外，新机图库升级…（来源：IT之家）', u:'https://www.ithome.com/1/017/295.htm'},
@@ -475,30 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-23T18:30', t:'热潮、分歧与落地：世界模型需要一场真实场景赛 ｜第五届琶洲算法大赛世界模型生态合作赛决赛开启', s:'这并非一个普通的地方性赛事，相反，其在业内的知名度很高。琶洲算法大赛创办于 2022 年，由广州市人民政府主办。办到今年…（来源：OSCHINA）', u:'https://my.oschina.net/u/4518156/blog/19781504'},
     {c:'MODEL', d:'2026-10-23T18:30', t:'AI 智能体疯狂入侵人类系统：十几起漏洞依次排开，AI真正攻破了哪一层?', s:'从漏洞被找到，到它被大规模利用，中间只剩几个小时。（来源：钛媒体）', u:'https://www.tmtpost.com/8179406.html'},
     {c:'FUNDING', d:'2026-10-23T18:19', t:'智元两年投出47笔融资，多数投给了自家机器人的上游', s:'智元铺生态投上游谋上市，待市场验证成败。（来源：钛媒体）', u:'https://www.tmtpost.com/8178163.html'},
-    {c:'MODEL', d:'2026-10-23T18:19', t:'谁在押注 Personal AI，谁又在害怕 Personal AI？', s:'Personal Agent 的争夺战。（来源：钛媒体）', u:'https://www.tmtpost.com/8179361.html'},
     {c:'MODEL', d:'2026-10-23T18:15', t:'覆盖存、拣、运全场景，海康机器人2026移动机器人新品发布会举行', s:'深耕制造业一线十余年，海康机器人以AI为全业务基座，业务覆盖机器视觉、移动机器人、关节机器人与具身机器人，通过1000余…（来源：雷锋网）', u:'https://www.leiphone.com/category/robot/h4vGHMyQ6b8drzy6.html'},
     {c:'MODEL', d:'2026-10-23T16:32', t:'从“算力”到“Token 生产力”，硅基流动助力央国企大模型规模化落地', s:'在企业网 D1net 主办的 2026 秋季央国企 CIO 及数科公司高管峰会（第 19 届）上，硅基流动解决方案总监唐…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/DVoE94j80j6cboxE.html'},
-    {c:'HOT', d:'2026-10-23T16:31', t:'为什么说奇瑞是一家AI公司？', s:'奇瑞为什么是AI公司？它用AI重造了自己造车的方式，把这层能力做成可复用的底座，并让它长出了汽车之外的新物种。作者 | …（来源：雷锋网）', u:'https://www.leiphone.com/category/transportation/j8cK1UDhub9VuCpu.html'},
   ];
   const TIMELINE = [
+    ['10-24 08:34','iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道'],
+    ['10-24 08:31','美女投资人违规被罚，26岁掌舵百亿PE，曾押中GPU四小龙'],
     ['10-24 08:26','188天就退场，大厂AI 产品正在加速洗牌'],
     ['10-24 08:24','央视新闻谈 AI 魔改视频和二创区别：问题关键在“魔”，消解经典的同时也伤害文化根本'],
     ['10-24 08:14','华为官宣 Mate 90 系列手机上线全新睿影 XMAGE 影像服务，图库升级支持 AI 一键成片等功能'],
     ['10-24 08:14','Agent、机器人与制药，谁先被GPT-6 Astra改写？'],
-    ['10-24 08:08','扎克伯格的 AI 新版图：买下 Sundial 让数据分析变成“聊天”那么简单'],
-    ['10-24 07:49','IT早报 1024：月之暗面发布 Kimi K3.1 Pro；诋毁嘲讽尊界 S800 自媒体博主向尊界道歉；华为 Pura90 Plus 开启预订；iPhone…'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304237, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:301815, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:287326, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222925, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183297, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153173, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142819, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:133905, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114632, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109918, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304239, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:301820, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:287336, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:222929, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183298, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153174, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142820, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:133911, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114633, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:109919, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
