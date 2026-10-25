@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-25T11:01:31",
+  "updated": "2026-10-25T11:31:34",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-25T11:28",
+      "t": "三名被解雇的 OpenAI 安全研究员否认泄密，怀疑因推动 AI 透明度被针对",
+      "s": "三名因涉嫌泄密被解雇的 OpenAI 安全研究员道出了他们一方的说辞。托梅克 · 科尔巴克（Tomek Korbak）…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/563.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-25T11:06",
+      "t": "AI 智能体闯进银行，美国大行开始准备“灾后预案”",
+      "s": "对 AI 末日的悲观预判，早已不再只是少数科技富豪的危言耸听。如今，那些主导全球资本流向的美国大型银行，也开始警惕失控 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/562.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-25T11:03",
+      "t": "为给数据中心腾出电网容量，谷歌付费让家庭、企业减少用电",
+      "s": "AI 数据中心的用电需求持续增长，科技公司却越来越难找到足够的电力。为解决供电难题，谷歌选择了另一条路：通过付费的方式间…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/561.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-25T10:29",
@@ -42,27 +63,6 @@
       "t": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
       "s": "到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉 苹果首款折叠屏手机 iPhone Duo 刚开售就…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/372860"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-25T08:42",
-      "t": "澳国脚授权 AI 数字分身，运动员开启肖像权 AI 商业化",
-      "s": "澳大利亚国家男子足球队球星走在宽敞的中庭里，目光直视镜头，足球鞋踩在光洁的混凝土地面上，脚步声在四周回荡。突然间，他变出…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/542.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-25T07:19",
-      "t": "BBC《蓝色星球 3》刻意保留瑕疵镜头，和 AI“完美影像”划清界限",
-      "s": "英国广播公司（BBC）的《蓝色星球 3》纪录片打算保留那些不算完美的镜头，以此证明内容的真实性。该系列前作的标志性特点是…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/527.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-25T07:09",
-      "t": "开源项目 GPU Unlock 可释放英伟达 RTX 30 系列显卡隐藏 AI 算力，实际性能提升可达 60%",
-      "s": "英伟达已经上市一段时间的 GeForce RTX 30 系列（代号安培，Ampere）显卡，显然还有大量尚未释放的计算潜…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/525.htm"
     },
     {
       "c": "MODEL",
@@ -128,21 +128,33 @@
       "u": "http://www.geekpark.net/news/372858"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-24T07:23",
+      "t": "巨头们的新战役:抬高AI制药，抢占AI4S",
+      "s": "巨头们的新战役:抬高AI制药，抢占AI4S（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7700005516864537138/"
+    },
+    {
       "c": "MEDDEVICE",
       "d": "2026-10-24T07:22",
       "t": "深读:中办、国办《意见》:「人工智能+」行动全面实施",
       "s": "深读:中办、国办《意见》:「人工智能+」行动全面实施（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7700007724360139298/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-24T00:01",
-      "t": "AI 蛋白设计，AI制药逻辑切换，CRO、试剂、合成赛道迎新机遇",
-      "s": "AI 蛋白设计，AI制药逻辑切换，CRO、试剂、合成赛道迎新机遇（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7699050843693269558/"
     }
   ],
   "timeline": [
+    [
+      "10-25 11:28",
+      "三名被解雇的 OpenAI 安全研究员否认泄密，怀疑因推动 AI 透明度被针对"
+    ],
+    [
+      "10-25 11:06",
+      "AI 智能体闯进银行，美国大行开始准备“灾后预案”"
+    ],
+    [
+      "10-25 11:03",
+      "为给数据中心腾出电网容量，谷歌付费让家庭、企业减少用电"
+    ],
     [
       "10-25 10:29",
       "Block 推出全双工 AI 语音模型 Dessa：真人感拉满，支持苹果 MacBook 本地运行"
@@ -154,18 +166,6 @@
     [
       "10-25 09:58",
       "软银投资的农业无人机创企极飞科技：希望让每个农民都有自己的机器人"
-    ],
-    [
-      "10-25 09:42",
-      "荣耀平板 MagicOS 11 升级亮点公布：支持 PC 桌面、液态玻璃、无边笔记等"
-    ],
-    [
-      "10-25 09:37",
-      "亚马逊 CEO 贾西： 2027 年 AWS 算力基本售罄，部分订单锁定到 2028 年"
-    ],
-    [
-      "10-25 08:52",
-      "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304664,
+      "s": 304668,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 302579,
+      "s": 302589,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288151,
+      "s": 288164,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223420,
+      "s": 223421,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183534,
+      "s": 183536,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142961,
+      "s": 142962,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 134513,
+      "s": 134522,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114840,
+      "s": 114841,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110236,
+      "s": 110240,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
