@@ -459,15 +459,17 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-10-25T09:58', t:'软银投资的农业无人机创企极飞科技：希望让每个农民都有自己的机器人', s:'据英国《金融时报》今天（25 日）上午报道，获得软银投资的中国农业无人机企业极飞科技，希望让“每个农民都有自己的机器人”…（来源：IT之家）', u:'https://www.ithome.com/1/017/552.htm'},
+    {c:'MODEL', d:'2026-10-25T09:42', t:'荣耀平板 MagicOS 11 升级亮点公布：支持 PC 桌面、液态玻璃、无边笔记等', s:'荣耀产品维护与升级 @荣耀小芳哥 总结了荣耀平板 MagicOS 11 的升级亮点，包括 UX 焕新、PC 桌面办公效率…（来源：IT之家）', u:'https://www.ithome.com/1/017/550.htm'},
+    {c:'HOT', d:'2026-10-25T09:37', t:'亚马逊 CEO 贾西： 2027 年 AWS 算力基本售罄，部分订单锁定到 2028 年', s:'亚马逊首席执行官安迪・贾西（Andy Jassy）当地时间周五表示，受 AI 基础设施需求持续走高的推动，亚马逊云科技（…（来源：IT之家）', u:'https://www.ithome.com/1/017/549.htm'},
     {c:'FUNDING', d:'2026-10-25T08:52', t:'苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机', s:'到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉 苹果首款折叠屏手机 iPhone Duo 刚开售就…（来源：极客公园）', u:'http://www.geekpark.net/news/372860'},
     {c:'HOT', d:'2026-10-25T08:42', t:'澳国脚授权 AI 数字分身，运动员开启肖像权 AI 商业化', s:'澳大利亚国家男子足球队球星走在宽敞的中庭里，目光直视镜头，足球鞋踩在光洁的混凝土地面上，脚步声在四周回荡。突然间，他变出…（来源：IT之家）', u:'https://www.ithome.com/1/017/542.htm'},
     {c:'HOT', d:'2026-10-25T07:19', t:'BBC《蓝色星球 3》刻意保留瑕疵镜头，和 AI“完美影像”划清界限', s:'英国广播公司（BBC）的《蓝色星球 3》纪录片打算保留那些不算完美的镜头，以此证明内容的真实性。该系列前作的标志性特点是…（来源：IT之家）', u:'https://www.ithome.com/1/017/527.htm'},
     {c:'MODEL', d:'2026-10-25T07:09', t:'开源项目 GPU Unlock 可释放英伟达 RTX 30 系列显卡隐藏 AI 算力，实际性能提升可达 60%', s:'英伟达已经上市一段时间的 GeForce RTX 30 系列（代号安培，Ampere）显卡，显然还有大量尚未释放的计算潜…（来源：IT之家）', u:'https://www.ithome.com/1/017/525.htm'},
     {c:'MODEL', d:'2026-10-24T22:41', t:'中国信通院：6 月国内词元日均消耗量约 500 万亿，是 2025 年 12 月的近 4 倍', s:'据中国信通院，随着大模型技术的迅速迭代，词元（Token）服务成为从技术走向应用的关键点，我国日均词元调用量持续攀升，2…（来源：IT之家）', u:'https://www.ithome.com/1/017/518.htm'},
     {c:'HOT', d:'2026-10-24T22:39', t:'研究人员通过 DNS 数据库发现数千个公开的 Muse 聊天记录分享链接，Meta 已修复', s:'Meta 旗下个人 AI 助手 Muse 的对话分享功能被曝存在隐私风险。网络安全研究团队 Claroc 于 10 月 …（来源：IT之家）', u:'https://www.ithome.com/1/017/517.htm'},
-    {c:'MODEL', d:'2026-10-24T19:39', t:'Anthropic Claude 付款页面新增中国及港澳台地区选项，支持银联卡支付', s:'近日有用户反馈称 Anthropic 旗下 Claude 的升级支付页面出现了新的地区选项变化。IT之家实测发现，中国大…（来源：IT之家）', u:'https://www.ithome.com/1/017/490.htm'},
-    {c:'HOT', d:'2026-10-24T18:59', t:'消息称字节跳动 AI 短剧产品内部整合：小云雀并入即梦，仍保留独立入口', s:'据 36 氪今日报道，字节跳动内部近期完成了一次业务整合，AI 短剧创作平台小云雀并入智能创作平台即梦，产品仍保留独立入…（来源：IT之家）', u:'https://www.ithome.com/1/017/480.htm'},
     {c:'MODEL', d:'2026-10-24T18:10', t:'一位开发者让电视服用了 Claude，这是它系统发生的变化', s:'欢迎来到「大逆向时代」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MEDDEVICE', d:'2026-10-24T18:02', t:'探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭', s:'探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭（来源：头条设备AI）', u:'https://www.toutiao.com/article/7700172504467407379/'},
     {c:'MODEL', d:'2026-10-24T16:49', t:'支付宝AI支付发起年度黑客松大赛，邀开发者把AI创意变成生意', s:'从 Vibe Coding 到 Skill、Agent，AI 正打开新一轮创业窗口：一个人也能打造应用，一项技能也能成为…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/ykWM8XAjpHi0biY1.html'},
     {c:'MODEL', d:'2026-10-24T16:43', t:'“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务', s:'10月21日，支付宝车载助手亮相科大讯飞智能汽车产品技术发布会，宣布与讯飞星火智慧座舱战略合作升级，正式启动「讯宝计划」…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/WOl6u17gkYoV3PVr.html'},
     {c:'MODEL', d:'2026-10-24T16:37', t:'行业第一！百度健康AI服务MAU超5000万，发布好医矩阵和健康相机', s:'10月24日，百度健康宣布升级文心健康管家，发布「好医矩阵」和「健康相机」。其中好医矩阵包括“好医答、好医加号、好医说…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html'},
@@ -475,30 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-24T10:44', t:'iRTE2026：对话 AI 如何迈向 AGI？声网CEO赵斌给出五级对话能力框架', s:'10月23日，iRTE2026实时智能大会在北京举行。声网创始人兼 CEO 赵斌在主论坛发表题为《对话 AGI：实时互动…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/nwy00TZXQdwJcSka.html'},
     {c:'HOT', d:'2026-10-24T10:07', t:'实测 Kimi K3.1 Pro，国模终于继续卷旗舰', s:'大而美的 Kimi 回来了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1685684?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-10-24T08:34', t:'iPhone Duo正式交付；Kimi K3.1 Pro 、Seedance 2.5 4K正式发布；红果短剧上线防沉迷｜极客早知道', s:'苹果首款折叠屏手机 iPhone Duo 正式交付用户 部分订单预计明年 1 月才能送达 苹果首款折叠屏手机 iPhon…（来源：极客公园）', u:'http://www.geekpark.net/news/372858'},
-    {c:'MEDPHARMA', d:'2026-10-24T07:23', t:'巨头们的新战役:抬高AI制药，抢占AI4S', s:'巨头们的新战役:抬高AI制药，抢占AI4S（来源：头条医药AI）', u:'https://www.toutiao.com/article/7700005516864537138/'},
     {c:'MEDDEVICE', d:'2026-10-24T07:22', t:'深读:中办、国办《意见》:「人工智能+」行动全面实施', s:'深读:中办、国办《意见》:「人工智能+」行动全面实施（来源：头条设备AI）', u:'https://www.toutiao.com/article/7700007724360139298/'},
     {c:'MEDPHARMA', d:'2026-10-24T00:01', t:'AI 蛋白设计，AI制药逻辑切换，CRO、试剂、合成赛道迎新机遇', s:'AI 蛋白设计，AI制药逻辑切换，CRO、试剂、合成赛道迎新机遇（来源：头条医药AI）', u:'https://www.toutiao.com/article/7699050843693269558/'},
-    {c:'MODEL', d:'2026-10-23T23:16', t:'🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase', s:'汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）', u:'https://www.oschina.net/news/503191'},
   ];
   const TIMELINE = [
+    ['10-25 09:58','软银投资的农业无人机创企极飞科技：希望让每个农民都有自己的机器人'],
+    ['10-25 09:42','荣耀平板 MagicOS 11 升级亮点公布：支持 PC 桌面、液态玻璃、无边笔记等'],
+    ['10-25 09:37','亚马逊 CEO 贾西： 2027 年 AWS 算力基本售罄，部分订单锁定到 2028 年'],
     ['10-25 08:52','苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机'],
     ['10-25 08:42','澳国脚授权 AI 数字分身，运动员开启肖像权 AI 商业化'],
     ['10-25 07:19','BBC《蓝色星球 3》刻意保留瑕疵镜头，和 AI“完美影像”划清界限'],
-    ['10-25 07:09','开源项目 GPU Unlock 可释放英伟达 RTX 30 系列显卡隐藏 AI 算力，实际性能提升可达 60%'],
-    ['10-24 22:41','中国信通院：6 月国内词元日均消耗量约 500 万亿，是 2025 年 12 月的近 4 倍'],
-    ['10-24 22:39','研究人员通过 DNS 数据库发现数千个公开的 Muse 聊天记录分享链接，Meta 已修复'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304649, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:302539, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:288114, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223410, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183521, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153292, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304659, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:302549, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:288123, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223412, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183526, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153294, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142957, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:134487, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114833, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110227, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:134495, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114838, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110230, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
