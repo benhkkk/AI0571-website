@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-25T14:31:48",
+  "updated": "2026-10-25T15:01:48",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-25T14:55",
+      "t": "赛力斯赛豆科技 AIVA 全球首家 AI 生活实验室今日开幕，店内展出 ME7 实车",
+      "s": "由重庆市沙坪坝区与赛力斯共同投资的赛豆科技 AIVA 首款量产车 —— ME7 已于今年 9 月在法国巴黎尚普拉特勒城堡…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/602.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-25T14:34",
+      "t": "特斯拉确认正自研 AI 地图，将随 FSD v15 逐步推送",
+      "s": "在最新的特斯拉财报电话会议上，特斯拉副总裁阿肖克 · 埃卢斯瓦米（Ashok Elluswamy）宣布，特斯拉正在自研一…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/597.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-25T14:06",
@@ -65,32 +79,11 @@
       "u": "https://www.ithome.com/1/017/557.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-25T10:07",
-      "t": "不能逆向一切了？Anthropic 被曝悄悄限制 Claude Opus 5.5 逆向工程能力",
-      "s": "很多人把近期一波靠“氛围编码（vibe-coding）”完成的游戏反编译、重编译热潮，归功于 Anthropic 在 9…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/554.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-25T09:58",
-      "t": "软银投资的农业无人机创企极飞科技：希望让每个农民都有自己的机器人",
-      "s": "据英国《金融时报》今天（25 日）上午报道，获得软银投资的中国农业无人机企业极飞科技，希望让“每个农民都有自己的机器人”…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/552.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-25T09:54",
       "t": "拉上英伟达硬刚苹果，微软的高端AI PC赌局",
       "s": "AI PC的竞争，早已不再停留在有没有NPU的浅层比拼。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8180842.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-25T09:49",
-      "t": "日本加入数据中心热潮，这些股票可能从中受益",
-      "s": "日本在一项为期15年的战略投资计划中，将人工智能基础设施列为优先发展事项。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8180930.html"
     },
     {
       "c": "MODEL",
@@ -140,9 +133,24 @@
       "t": "支付宝AI支付发起年度黑客松大赛，邀开发者把AI创意变成生意",
       "s": "从 Vibe Coding 到 Skill、Agent，AI 正打开新一轮创业窗口：一个人也能打造应用，一项技能也能成为…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/ykWM8XAjpHi0biY1.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-24T16:43",
+      "t": "“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务",
+      "s": "10月21日，支付宝车载助手亮相科大讯飞智能汽车产品技术发布会，宣布与讯飞星火智慧座舱战略合作升级，正式启动「讯宝计划」…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/WOl6u17gkYoV3PVr.html"
     }
   ],
   "timeline": [
+    [
+      "10-25 14:55",
+      "赛力斯赛豆科技 AIVA 全球首家 AI 生活实验室今日开幕，店内展出 ME7 实车"
+    ],
+    [
+      "10-25 14:34",
+      "特斯拉确认正自研 AI 地图，将随 FSD v15 逐步推送"
+    ],
     [
       "10-25 14:06",
       "网络安全专家：AI 发现的漏洞，很快或将引发新的安全隐患"
@@ -158,14 +166,6 @@
     [
       "10-25 11:28",
       "三名被解雇的 OpenAI 安全研究员否认泄密，怀疑因推动 AI 透明度被针对"
-    ],
-    [
-      "10-25 11:27",
-      "2 亿美元入局，AI 制药开始赌结果"
-    ],
-    [
-      "10-25 11:10",
-      "单季净赚212亿，两天跌去近15%：AI行情到底在杀什么？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304718,
+      "s": 304727,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 302659,
+      "s": 302673,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288259,
+      "s": 288271,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223452,
+      "s": 223457,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183561,
+      "s": 183570,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153317,
+      "s": 153319,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142974,
+      "s": 142977,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114861,
+      "s": 114863,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110268,
+      "s": 110273,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
