@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-25T13:02:26",
+  "updated": "2026-10-25T13:31:33",
   "news": [
     {
       "c": "MODEL",
@@ -72,13 +72,6 @@
       "u": "https://www.tmtpost.com/8180842.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-25T09:49",
-      "t": "日本加入数据中心热潮，这些股票可能从中受益",
-      "s": "日本在一项为期15年的战略投资计划中，将人工智能基础设施列为优先发展事项。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8180930.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-25T09:42",
       "t": "荣耀平板 MagicOS 11 升级亮点公布：支持 PC 桌面、液态玻璃、无边笔记等",
@@ -140,6 +133,13 @@
       "t": "“更懂你、会办事”，支付宝携手科大讯飞升级智能座舱服务",
       "s": "10月21日，支付宝车载助手亮相科大讯飞智能汽车产品技术发布会，宣布与讯飞星火智慧座舱战略合作升级，正式启动「讯宝计划」…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/WOl6u17gkYoV3PVr.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-24T16:37",
+      "t": "行业第一！百度健康AI服务MAU超5000万，发布好医矩阵和健康相机",
+      "s": "10月24日，百度健康宣布升级文心健康管家，发布「好医矩阵」和「健康相机」。其中好医矩阵包括“好医答、好医加号、好医说…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/RRFr9U8GKWjNNxfH.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304694,
+      "s": 304702,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 302616,
+      "s": 302632,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288212,
+      "s": 288228,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223436,
+      "s": 223441,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183551,
+      "s": 183554,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153307,
+      "s": 153309,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 134556,
+      "s": 134569,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114847,
+      "s": 114855,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110256,
+      "s": 110260,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
