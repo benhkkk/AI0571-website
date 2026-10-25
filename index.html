@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-25T19:59', t:'谷歌 DeepMind 高管：终身学习者将在 AI 职场中占据优势', s:'据《商业内幕》今天报道，谷歌 DeepMind 高管莱拉 · 易卜拉欣（Lila Ibrahim）近期表示，公司越来越看…（来源：IT之家）', u:'https://www.ithome.com/1/017/681.htm'},
+    {c:'INDUSTRY', d:'2026-10-25T19:58', t:'解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款', s:'以“星闪 AI · 智合万物”为主题的 CEIC2026 暨国际星闪联盟产业峰会在深圳会展中心（福田）举行。上海机动车检…（来源：IT之家）', u:'https://www.ithome.com/1/017/680.htm'},
+    {c:'HOT', d:'2026-10-25T19:34', t:'3399 → 2299 元：小天鹅小乌梅 3.0 高奢版 12kg 洗衣机官方直降', s:'小天鹅 SC28MAX 小乌梅 3.0 高奢版洗衣机 12kg 支纯平全嵌，超微气泡水 + 水魔方护色护形 + AI 智…（来源：IT之家）', u:'https://www.ithome.com/1/017/675.htm'},
     {c:'MODEL', d:'2026-10-25T19:18', t:'启元机器人第 5000 台个人机器人下线，日产能提升至 200 余台', s:'启元机器人今天宣布，公司第 5000 台个人机器人正式下线。IT之家从启元机器人公众号获悉，该公司 9 月 20 日正式…（来源：IT之家）', u:'https://www.ithome.com/1/017/672.htm'},
     {c:'HOT', d:'2026-10-25T18:50', t:'连夜蹬了K3.1 pro之后，我觉得Kimi可能真的要做具身智能了', s:'终于不用等那么久了。（来源：钛媒体）', u:'https://www.tmtpost.com/8180725.html'},
     {c:'HOT', d:'2026-10-25T18:49', t:'网络安全研究员称三星电视利用 AI 录制音频、截屏投放广告', s:'据科技媒体 Tom\'s Hardware 今天报道，网络安全研究员 log4j 近日发现，自己家里的三星电视，推送出来的…（来源：IT之家）', u:'https://www.ithome.com/1/017/670.htm'},
@@ -468,9 +471,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-10-25T17:29', t:'【数智周报】MiniMax港股破发；DeepSeek开源推理框架DeepInfer并披露收入账本；美国国土安全部正式下令禁采DeepSeek……', s:'（10月19日-10月24日）DeepSeek拟在最新一轮融资中筹得约1000亿元；Today AI累计完成超2亿美元融…（来源：钛媒体）', u:'https://www.tmtpost.com/8181051.html'},
     {c:'FUNDING', d:'2026-10-25T17:17', t:'软银孙正义计划在马来西亚投资 500 亿美元，押注 AI、数据中心', s:'据彭博社今天报道，马来西亚总理安瓦尔宣布，软银集团创办人兼社长孙正义计划在马来西亚投资 500 亿美元（IT之家注：现汇…（来源：IT之家）', u:'https://www.ithome.com/1/017/637.htm'},
     {c:'MODEL', d:'2026-10-25T16:05', t:'阿里 AI 智能体“千问 Go！”上线“我的应用”功能：可帮助用户搭建长期、可分享的专属应用', s:'阿里宣布旗下 AI 智能体“千问 Go！”上线“我的应用”功能。用户无需编程，只要说出需求，就能搭建用于生活、工作和学习…（来源：IT之家）', u:'https://www.ithome.com/1/017/625.htm'},
-    {c:'FUNDING', d:'2026-10-25T15:57', t:'野村证券：存储芯片需求在 2028 年前仍将快速增长，AI 投资前景被过度担忧', s:'据韩媒 Chosunbiz 报道，野村证券 20 日发布乐观预测，认为尽管 AI 企业营收增速放缓、融资前景引发担忧，全…（来源：IT之家）', u:'https://www.ithome.com/1/017/622.htm'},
-    {c:'MODEL', d:'2026-10-25T15:53', t:'星闪 3.0 标准成果发布：华为、中国移动、联想等共建，面向全场景智能物联，瞄准 AI、无源、毫米波等方向', s:'以“星闪 AI · 智合万物”为主题的 CEIC2026 暨国际星闪联盟产业峰会已于 10 月 22 日在深圳会展中心（…（来源：IT之家）', u:'https://www.ithome.com/1/017/620.htm'},
-    {c:'HOT', d:'2026-10-25T15:41', t:'AI 云厂商 Nscale“摊上事了”，被前工程师指控报复性解雇、违法使用分包人员', s:'据彭博社 23 日报道，英国 AI 基础设施企业 Nscale 遭到一名工程师起诉。这名工程师曾在 Nscale 位于挪…（来源：IT之家）', u:'https://www.ithome.com/1/017/618.htm'},
     {c:'MEDDEVICE', d:'2026-10-25T11:50', t:'从厂长的角度和医疗器械创始人的角度看AI带给我们机遇与风险', s:'从厂长的角度和医疗器械创始人的角度看AI带给我们机遇与风险（来源：头条设备AI）', u:'https://www.toutiao.com/article/7700447655847150123/'},
     {c:'MEDPHARMA', d:'2026-10-25T11:27', t:'2 亿美元入局，AI 制药开始赌结果', s:'2 亿美元入局，AI 制药开始赌结果（来源：头条医药AI）', u:'https://www.toutiao.com/article/7700441758747984422/'},
     {c:'HOT', d:'2026-10-25T11:10', t:'单季净赚212亿，两天跌去近15%：AI行情到底在杀什么？', s:'AI股连跌四周、业绩却集体爆表，股票型ETF同期净流入近700亿：这轮调整杀的是估值不是业绩。（来源：钛媒体）', u:'https://www.tmtpost.com/8179663.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDDEVICE', d:'2026-10-24T18:02', t:'探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭', s:'探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭（来源：头条设备AI）', u:'https://www.toutiao.com/article/7700172504467407379/'},
   ];
   const TIMELINE = [
+    ['10-25 19:59','谷歌 DeepMind 高管：终身学习者将在 AI 职场中占据优势'],
+    ['10-25 19:58','解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款'],
+    ['10-25 19:34','3399 → 2299 元：小天鹅小乌梅 3.0 高奢版 12kg 洗衣机官方直降'],
     ['10-25 19:18','启元机器人第 5000 台个人机器人下线，日产能提升至 200 余台'],
     ['10-25 18:50','连夜蹬了K3.1 pro之后，我觉得Kimi可能真的要做具身智能了'],
     ['10-25 18:49','网络安全研究员称三星电视利用 AI 录制音频、截屏投放广告'],
-    ['10-25 18:40','AI制药公司也焦虑'],
-    ['10-25 18:38','阿里千问蒋冠军谈个人 AI 智能体技术框架：需要模型、记忆与生态协同推进'],
-    ['10-25 18:37','AI大模型狂飙，面板行业也扛不住了'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304796, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:302825, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:288382, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223525, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183635, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153333, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142992, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:134713, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114910, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110337, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:304811, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:302846, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:288403, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223536, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183637, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153337, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:142991, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:134722, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:114916, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110341, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
