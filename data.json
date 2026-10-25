@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-25T20:31:49",
+  "updated": "2026-10-25T21:01:39",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-25T20:50",
+      "t": "价值判断：涨停板的投资机会和风险提示（10月23日）｜上市公司观察",
+      "s": "本期入选的六只标的因此呈两头分布：三只首次涨停且估值大幅低于济安定价，来自电动工具与机器人集成、集成电路测试、电力造价软…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8181241.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-25T19:59",
@@ -115,13 +122,6 @@
     },
     {
       "c": "FUNDING",
-      "d": "2026-10-25T09:49",
-      "t": "日本加入数据中心热潮，这些股票可能从中受益",
-      "s": "日本在一项为期15年的战略投资计划中，将人工智能基础设施列为优先发展事项。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8180930.html"
-    },
-    {
-      "c": "FUNDING",
       "d": "2026-10-25T08:52",
       "t": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
       "s": "到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉 苹果首款折叠屏手机 iPhone Duo 刚开售就…（来源：极客公园）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-25 20:50",
+      "价值判断：涨停板的投资机会和风险提示（10月23日）｜上市公司观察"
+    ],
+    [
       "10-25 19:59",
       "谷歌 DeepMind 高管：终身学习者将在 AI 职场中占据优势"
     ],
@@ -162,10 +166,6 @@
     [
       "10-25 18:50",
       "连夜蹬了K3.1 pro之后，我觉得Kimi可能真的要做具身智能了"
-    ],
-    [
-      "10-25 18:49",
-      "网络安全研究员称三星电视利用 AI 录制音频、截屏投放广告"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304827,
+      "s": 304835,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 302868,
+      "s": 302877,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288419,
+      "s": 288442,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223543,
+      "s": 223555,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183645,
+      "s": 183647,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153337,
+      "s": 153341,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 142993,
+      "s": 142995,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 134738,
+      "s": 134755,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114919,
+      "s": 114924,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110342,
+      "s": 110351,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
