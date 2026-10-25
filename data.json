@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T01:43:43",
+  "updated": "2026-10-26T02:01:40",
   "news": [
     {
       "c": "HOT",
@@ -35,13 +35,6 @@
       "t": "技嘉上线工作站主板 WRX90 AI TOP：7 条 PCIe + 2 个 MCIO，集成 BMC",
       "s": "技嘉 (GIGABYTE) 近日正式在官网上线了 WRX90 AI TOP 工作站主板。这一型号搭载 Socket sT…（来源：IT之家）",
       "u": "https://www.ithome.com/1/017/694.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-25T21:02",
-      "t": "何伟文：AI投资勃兴驱动中国和世界贸易剧增 | 巴伦独家",
-      "s": "全球 AI 相关产品贸易的爆发式扩张推高中国外贸增速，这套新的产业分工图景，推翻了外界对中国贸易顺差的 “产能过剩” 单…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8181271.html"
     },
     {
       "c": "FUNDING",
@@ -140,6 +133,13 @@
       "t": "一位开发者让电视服用了 Claude，这是它系统发生的变化",
       "s": "欢迎来到「大逆向时代」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-10-24T18:02",
+      "t": "探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭",
+      "s": "探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7700172504467407379/"
     }
   ],
   "timeline": [
@@ -164,8 +164,8 @@
       "技嘉上线工作站主板 WRX90 AI TOP：7 条 PCIe + 2 个 MCIO，集成 BMC"
     ],
     [
-      "10-25 21:02",
-      "何伟文：AI投资勃兴驱动中国和世界贸易剧增 | 巴伦独家"
+      "10-25 20:50",
+      "价值判断：涨停板的投资机会和风险提示（10月23日）｜上市公司观察"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304939,
+      "s": 304945,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303064,
+      "s": 303073,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288641,
+      "s": 288651,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223696,
+      "s": 223701,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183706,
+      "s": 183711,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153346,
+      "s": 153348,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143019,
+      "s": 143023,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 134968,
+      "s": 134977,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114978,
+      "s": 114983,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110430,
+      "s": 110433,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
