@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-26T03:01:37",
+  "updated": "2026-10-26T03:31:26",
   "news": [
     {
       "c": "HOT",
@@ -93,6 +93,13 @@
       "u": "https://www.tmtpost.com/8181051.html"
     },
     {
+      "c": "MEDDEVICE",
+      "d": "2026-10-25T11:50",
+      "t": "从厂长的角度和医疗器械创始人的角度看AI带给我们机遇与风险",
+      "s": "从厂长的角度和医疗器械创始人的角度看AI带给我们机遇与风险（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7700447655847150123/"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-10-25T11:27",
       "t": "2 亿美元入局，AI 制药开始赌结果",
@@ -133,13 +140,6 @@
       "t": "探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭",
       "s": "探访医博会丨植发、理疗、循经治疗……一大批医疗机器人来袭（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7700172504467407379/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-24T16:49",
-      "t": "支付宝AI支付发起年度黑客松大赛，邀开发者把AI创意变成生意",
-      "s": "从 Vibe Coding 到 Skill、Agent，AI 正打开新一轮创业窗口：一个人也能打造应用，一项技能也能成为…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/ykWM8XAjpHi0biY1.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 304967,
+      "s": 304977,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303105,
+      "s": 303124,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288695,
+      "s": 288721,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223734,
+      "s": 223745,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183721,
+      "s": 183725,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153337,
+      "s": 153341,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143030,
+      "s": 143032,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135017,
+      "s": 135049,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 114996,
+      "s": 115008,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110444,
+      "s": 110453,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
