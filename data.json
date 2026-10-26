@@ -1,13 +1,6 @@
 {
-  "updated": "2026-10-27T02:02:07",
+  "updated": "2026-10-27T02:31:27",
   "news": [
-    {
-      "c": "FUNDING",
-      "d": "2026-10-27T00:06",
-      "t": "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司",
-      "s": "地球最富兄妹俩堂堂来袭！7名联创仍紧握50.1%总投票权（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/505551.html"
-    },
     {
       "c": "FUNDING",
       "d": "2026-10-26T22:24",
@@ -114,39 +107,42 @@
       "u": "https://www.ithome.com/1/018/075.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-26T17:46",
-      "t": "AI时代，一个人能有多大能量？天禧AI × 观猹大会现场实测个人AI跨端协同新体验",
-      "s": "10月23日至25日，以“见证超能发生”为主题的“天禧AI × 观猹大会”在杭州茶叶博览会会议会展中心启幕。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/505539.html"
+      "c": "MODEL",
+      "d": "2026-10-26T17:23",
+      "t": "开源中国「AI新生派」走进山东大学软件学院：从技术认知到动手实战，探索 AI 时代开发者成长路径",
+      "s": "10月23日，开源中国「AI新生派」走进山东大学软件学院。本次活动由开源中国联合学新社主办，Gitee、模力方舟、ope…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503219"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-26T16:41",
+      "t": "AI制药的风吹向哪里?",
+      "s": "AI制药的风吹向哪里?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7700893901384581666/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-26T15:42",
+      "t": "地铁里的 AI 伪人广告，正在集体霸凌人类",
+      "s": "唯有诚意与创意不可辜负#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1685809?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
       "c": "MODEL",
-      "d": "2026-10-26T17:37",
-      "t": "OpenAI开始断网训练最强模型：“安全起见”",
-      "s": "模型开始利用GPU缓存聊天？（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/505529.html"
+      "d": "2026-10-26T14:58",
+      "t": "DeepSeek 开源看家算子的同一周，AI 超过了它",
+      "s": "国产大模型的竞争，正从模型层延伸到算力层：再强的模型，最终都要基于算子在芯片上执行。同一个模型、同一块芯片，换一套更优的…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/IaMw7vRrTCadlbCY.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-26T17:35",
-      "t": "A社联创演讲：AI奇点已来",
-      "s": "所谓奇点，或许是AI跃过人类的那个点。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/505521.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-26T17:31",
-      "t": "NeoLab第一个商业模式：转售GPU",
-      "s": "从冲刺AGI到转售GPU。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/505478.html"
+      "c": "MEDPHARMA",
+      "d": "2026-10-26T13:54",
+      "t": "制药巨头BMS密集押注AI制药，港股创新药ETF博时(520690)跟踪...",
+      "s": "制药巨头BMS密集押注AI制药，港股创新药ETF博时(520690)跟踪...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7700850965997453867/"
     }
   ],
   "timeline": [
-    [
-      "10-27 00:06",
-      "刚刚，Anthropic公开335页招股书：史上最大IPO，史上最亏AI公司"
-    ],
     [
       "10-26 22:24",
       "半年亏掉807亿美元，Anthropic公开递交招股书：它凭什么值2万亿？"
@@ -166,6 +162,10 @@
     [
       "10-26 22:09",
       "腾讯混元同声传译大模型 Hy-SimulMT 开源，响应时间仅 3 秒超人类译员"
+    ],
+    [
+      "10-26 21:29",
+      "Anthropic 提交纳斯达克 IPO 申请，股票代码为“ANT”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305493,
+      "s": 305506,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303922,
+      "s": 303936,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 289578,
+      "s": 289603,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 224389,
+      "s": 224417,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183940,
+      "s": 183943,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153449,
+      "s": 153452,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143141,
+      "s": 143144,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135957,
+      "s": 135969,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115245,
+      "s": 115252,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110734,
+      "s": 110737,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
