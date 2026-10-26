@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-26T08:32:12",
+  "updated": "2026-10-26T08:52:15",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-26T08:49",
+      "t": "马斯克唱衰新云厂商：200 余家相关公司面临生存危机",
+      "s": "埃隆 · 马斯克（Elon Musk）近日向 AI 新云厂商发难。这类云服务商主打 GPU 即服务与 AI 推理算力租赁…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/746.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-26T08:24",
+      "t": "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代",
+      "s": "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7700765206691037722/"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-26T08:22",
@@ -65,13 +79,6 @@
       "u": "https://www.ithome.com/1/017/720.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-25T23:36",
-      "t": "国内首部 AI 院线长片《三星堆：未来往事》，票房过百万",
-      "s": "猫眼专业版数据显示，《三星堆：未来往事》电影票房已达到 116.2 万。据IT之家了解，《三星堆：未来往事》是国内首部获…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/719.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-10-25T20:50",
       "t": "价值判断：涨停板的投资机会和风险提示（10月23日）｜上市公司观察",
@@ -107,6 +114,13 @@
       "u": "https://www.tmtpost.com/8181051.html"
     },
     {
+      "c": "MEDDEVICE",
+      "d": "2026-10-25T11:50",
+      "t": "从厂长的角度和医疗器械创始人的角度看AI带给我们机遇与风险",
+      "s": "从厂长的角度和医疗器械创始人的角度看AI带给我们机遇与风险（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7700447655847150123/"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-10-25T11:27",
       "t": "2 亿美元入局，AI 制药开始赌结果",
@@ -126,23 +140,17 @@
       "t": "生命科学服务:AI制药的卖水人",
       "s": "生命科学服务:AI制药的卖水人（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7700417348582392374/"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-25T08:52",
-      "t": "苹果首批折叠屏遭集中投诉；英国宣布超过 6 亿英镑 AI 投资计划；刘慈欣监制《三体·大史》年内开机",
-      "s": "到手 6 小时、开合不到 20 次屏幕就裂：苹果首批折叠屏遭集中投诉 苹果首款折叠屏手机 iPhone Duo 刚开售就…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/372860"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-24T18:10",
-      "t": "一位开发者让电视服用了 Claude，这是它系统发生的变化",
-      "s": "欢迎来到「大逆向时代」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1685473?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "10-26 08:49",
+      "马斯克唱衰新云厂商：200 余家相关公司面临生存危机"
+    ],
+    [
+      "10-26 08:24",
+      "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代"
+    ],
     [
       "10-26 08:22",
       "Epic CEO 斯维尼再批 Steam AI 公示政策，称会导致极端群体攻击开发者"
@@ -158,14 +166,6 @@
     [
       "10-26 07:53",
       "猫王音乐版权方起诉 Anthropic，指控其未经授权用 274 首歌曲训练 AI 模型"
-    ],
-    [
-      "10-26 07:30",
-      "马斯克的 Grok 发布 AI 版《奥德赛》前 7 分钟内容，被指缺乏艺术感染力"
-    ],
-    [
-      "10-26 07:21",
-      "AI“专属保险”：全国首个人工智能应用风险综合保障方案正式发布"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305044,
+      "s": 305049,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303236,
+      "s": 303248,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288858,
+      "s": 288865,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223839,
+      "s": 223848,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183758,
+      "s": 183760,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153354,
+      "s": 153356,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143047,
+      "s": 143049,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135246,
+      "s": 135255,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115050,
+      "s": 115051,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110508,
+      "s": 110509,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
