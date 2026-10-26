@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-26T20:01:53",
+  "updated": "2026-10-26T20:31:34",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-26T20:26",
+      "t": "Meta 宣布至多 950 亿美元重大融资计划，为人工智能等业务筹集资金",
+      "s": "Meta 美国当地时间今日宣布了总额至多 950 亿美元（IT之家注：现汇率约合 6,343.57 亿元人民币）的重大融…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/144.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-26T20:19",
+      "t": "端到端推理时延降低 15%：京东广告联合鲲鹏超节点，探索生成式广告行业新路径",
+      "s": "京东广告面临生成式推荐带来的千倍算力需求与300毫秒时延红线之间的尖锐矛盾，真正的瓶颈在通算侧而非GPU。为此，京东与华…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8181692.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-26T19:44",
@@ -28,6 +42,13 @@
       "t": "起底AI制药股市版图:两只涨超100%，谁是赛道真龙头?",
       "s": "起底AI制药股市版图:两只涨超100%，谁是赛道真龙头?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7700927171824517682/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-26T18:25",
+      "t": "即梦推出 “短剧工作室”，打造更全能的 AI 内容创作平台",
+      "s": "10月26日，即梦AI上线全新功能“短剧工作室”。作为即梦面向短剧创作场景推出的一站式AI工具，“短剧工作室”将剧本整理…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/x7VWhGaTdbidkwsa.html"
     },
     {
       "c": "MODEL",
@@ -107,13 +128,6 @@
       "u": "https://www.ithome.com/1/017/938.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-26T15:46",
-      "t": "研究：人类更喜好拟人形象 AI 智能体，但也存在“性别”偏见",
-      "s": "爱尔兰利默里克大学研究人员在本月初发布的一篇研究论文中指出，在一项涉及 189 位知识工作者的实验中，人类更喜好拟人形象…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/937.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-26T15:42",
       "t": "地铁里的 AI 伪人广告，正在集体霸凌人类",
@@ -126,23 +140,17 @@
       "t": "DeepSeek 开源看家算子的同一周，AI 超过了它",
       "s": "国产大模型的竞争，正从模型层延伸到算力层：再强的模型，最终都要基于算子在芯片上执行。同一个模型、同一块芯片，换一套更优的…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/IaMw7vRrTCadlbCY.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-26T13:49",
-      "t": "JimuReport v2.5.5 发布，填报增强与 Word 导出专项修复",
-      "s": "项目介绍 真正的 AI 报表来了，一句话描述需求，AI 自动生成报表与数据大屏，支持对话式修改报表；同时提供类 Exce…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503217"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-10-26T13:46",
-      "t": "医疗器械板块逆势拉升，医疗器械指数底部逐步抬高",
-      "s": "医疗器械板块逆势拉升，医疗器械指数底部逐步抬高（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7700848797924016674/"
     }
   ],
   "timeline": [
+    [
+      "10-26 20:26",
+      "Meta 宣布至多 950 亿美元重大融资计划，为人工智能等业务筹集资金"
+    ],
+    [
+      "10-26 20:19",
+      "端到端推理时延降低 15%：京东广告联合鲲鹏超节点，探索生成式广告行业新路径"
+    ],
     [
       "10-26 19:44",
       "Kimi K3.1 Pro 发布：代码超 GPT-6 Astra、开放权重版主动移除网络攻防能力"
@@ -158,14 +166,6 @@
     [
       "10-26 18:50",
       "起底AI制药股市版图:两只涨超100%，谁是赛道真龙头?"
-    ],
-    [
-      "10-26 18:16",
-      "Kimi 发布 K3.1 Pro，加量降价挑战 Opus 5.5"
-    ],
-    [
-      "10-26 18:06",
-      "Counterpoint：英伟达引领人形机器人 AI 加速器市场，高通、英特尔、特斯拉、小鹏逐步崛起"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305343,
+      "s": 305365,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303674,
+      "s": 303700,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 289229,
+      "s": 289251,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 224137,
+      "s": 224157,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183880,
+      "s": 183889,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153421,
+      "s": 153423,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143101,
+      "s": 143102,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135725,
+      "s": 135745,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115165,
+      "s": 115173,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110642,
+      "s": 110648,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
