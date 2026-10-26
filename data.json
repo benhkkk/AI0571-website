@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-26T09:02:26",
+  "updated": "2026-10-26T09:31:54",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-26T09:18",
+      "t": "网友成功将一加 Ace 5 刷入真 · 纯血鸿蒙 6 系统：机型显示华为 Mate 80 Pro，实现 GPU 完美修复",
+      "s": "B站网友 @RryanLyu 昨晚发布视频，分享了自己的最新刷机成果 —— 为一台一加 Ace 5 手机成功刷入了鸿蒙 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/017/753.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-26T09:00",
@@ -9,18 +16,18 @@
       "u": "https://www.ithome.com/1/017/747.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-10-26T08:54",
+      "t": "Edge AI Daily 早报（10月26日）",
+      "s": "苹果终结二十年触控抵制，首款触屏OLED MacBook Pro定档发布，成为特努斯接任CEO后首个硬件答卷；Meta自…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8181352.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-26T08:49",
       "t": "马斯克唱衰新云厂商：200 余家相关公司面临生存危机",
       "s": "埃隆 · 马斯克（Elon Musk）近日向 AI 新云厂商发难。这类云服务商主打 GPU 即服务与 AI 推理算力租赁…（来源：IT之家）",
       "u": "https://www.ithome.com/1/017/746.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-26T08:24",
-      "t": "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代",
-      "s": "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7700765206691037722/"
     },
     {
       "c": "INDUSTRY",
@@ -72,13 +79,6 @@
       "u": "https://www.tmtpost.com/8181200.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-26T07:10",
-      "t": "Kimi 就会员使用 K3.1 Pro 出现限流等问题致歉，为所有订阅会员进行重置",
-      "s": "Kimi 智能助手今日凌晨发文，就近期 K3.1 Pro 使用体验问题进行致歉，并公布了相关补偿。IT之家附官方原文如下…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/723.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-10-25T21:02",
       "t": "何伟文：AI投资勃兴驱动中国和世界贸易剧增 | 巴伦独家",
@@ -114,11 +114,11 @@
       "u": "https://www.tmtpost.com/8180986.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-25T17:29",
-      "t": "【数智周报】MiniMax港股破发；DeepSeek开源推理框架DeepInfer并披露收入账本；美国国土安全部正式下令禁采DeepSeek……",
-      "s": "（10月19日-10月24日）DeepSeek拟在最新一轮融资中筹得约1000亿元；Today AI累计完成超2亿美元融…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8181051.html"
+      "c": "HOT",
+      "d": "2026-10-25T18:13",
+      "t": "10 MB 的桌面 AI 客户端：用仓颉 + 系统 WebView 替代 Electron",
+      "s": "我用华为仓颉写了个桌面框架，产物 4.7–10 MB. 项目：cj-tauri（仓颉版 Tauri），MIT 仓库：ht…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503196"
     },
     {
       "c": "MEDDEVICE",
@@ -144,16 +144,20 @@
   ],
   "timeline": [
     [
+      "10-26 09:18",
+      "网友成功将一加 Ace 5 刷入真 · 纯血鸿蒙 6 系统：机型显示华为 Mate 80 Pro，实现 GPU 完美修复"
+    ],
+    [
       "10-26 09:00",
       "德国普鲁士电力与英伟达合作，评估停运核电站改建 AI 工厂可行性"
     ],
     [
-      "10-26 08:49",
-      "马斯克唱衰新云厂商：200 余家相关公司面临生存危机"
+      "10-26 08:54",
+      "Edge AI Daily 早报（10月26日）"
     ],
     [
-      "10-26 08:24",
-      "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代"
+      "10-26 08:49",
+      "马斯克唱衰新云厂商：200 余家相关公司面临生存危机"
     ],
     [
       "10-26 08:22",
@@ -162,10 +166,6 @@
     [
       "10-26 08:16",
       "早报｜iPhone Duo破发/企业微信回应色情引流信息/曝触屏MacBook Pro周四登场"
-    ],
-    [
-      "10-26 07:56",
-      "Anthropic Claude 被曝绕过付费墙，调取美国佐治亚州选民数据"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305051,
+      "s": 305061,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303253,
+      "s": 303260,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288870,
+      "s": 288892,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223851,
+      "s": 223865,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183761,
+      "s": 183767,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153357,
+      "s": 153359,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143050,
+      "s": 143054,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135262,
+      "s": 135279,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115053,
+      "s": 115056,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110510,
+      "s": 110518,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
