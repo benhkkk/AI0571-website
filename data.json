@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-26T13:01:52",
+  "updated": "2026-10-26T13:31:41",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-26T13:09",
+      "t": "AI制药的订单下来了，猴子这一段排到了明年",
+      "s": "AI制药的订单下来了，猴子这一段排到了明年（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7700838866337251866/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-26T13:03",
+      "t": "Kimi认错，杨植麟还是得学梁文锋",
+      "s": "月之暗面发公告称返还25%额度，但K3.1 Pro的额度还是太少。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8181728.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-26T12:59",
@@ -126,23 +140,17 @@
       "t": "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代",
       "s": "【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7700765206691037722/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-26T08:16",
-      "t": "早报｜iPhone Duo破发/企业微信回应色情引流信息/曝触屏MacBook Pro周四登场",
-      "s": "· OpenAI 给 AI 建「离线世界」，隔离模型仍用 CPU 缓存传话 · Reddit 开源社区禁止 AI 项目…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1685755?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-25T18:40",
-      "t": "AI制药公司也焦虑",
-      "s": "AI制药公司也焦虑（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7700553356648923682/"
     }
   ],
   "timeline": [
+    [
+      "10-26 13:09",
+      "AI制药的订单下来了，猴子这一段排到了明年"
+    ],
+    [
+      "10-26 13:03",
+      "Kimi认错，杨植麟还是得学梁文锋"
+    ],
     [
       "10-26 12:59",
       "Gartner 调研显示：44% 的 CEO 难以证明 AI 的财务回报"
@@ -158,14 +166,6 @@
     [
       "10-26 12:30",
       "阿波罗首席经济学家：除科技七巨头外，AI 还没帮美国企业赚到真金白银"
-    ],
-    [
-      "10-26 11:30",
-      "AI制药能改变创新药“三个十定律”吗"
-    ],
-    [
-      "10-26 11:26",
-      "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305149,
+      "s": 305163,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303380,
+      "s": 303393,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 288977,
+      "s": 288990,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 223950,
+      "s": 223963,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183806,
+      "s": 183813,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153377,
+      "s": 153380,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135428,
+      "s": 135444,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115092,
+      "s": 115097,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110556,
+      "s": 110559,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MEDPHARMA', d:'2026-10-26T13:09', t:'AI制药的订单下来了，猴子这一段排到了明年', s:'AI制药的订单下来了，猴子这一段排到了明年（来源：头条医药AI）', u:'https://www.toutiao.com/article/7700838866337251866/'},
+    {c:'HOT', d:'2026-10-26T13:03', t:'Kimi认错，杨植麟还是得学梁文锋', s:'月之暗面发公告称返还25%额度，但K3.1 Pro的额度还是太少。（来源：钛媒体）', u:'https://www.tmtpost.com/8181728.html'},
     {c:'HOT', d:'2026-10-26T12:59', t:'Gartner 调研显示：44% 的 CEO 难以证明 AI 的财务回报', s:'商业与技术洞察公司 Gartner 调研显示，44% 的首席执行官（CEO）难以向利益相关方证明 AI 带来的财务回报…（来源：IT之家）', u:'https://www.ithome.com/1/017/843.htm'},
     {c:'MODEL', d:'2026-10-26T12:53', t:'小米开源硬件 HachimoDock 亮相，150 元就能复刻万能 AI 桌宠', s:'10 月 26 日中午消息，2026 观猹大会期间，由小米技术委创新产品团队孵化的开源 AI 硬件 HachimoDoc…（来源：IT之家）', u:'https://www.ithome.com/1/017/842.htm'},
     {c:'HOT', d:'2026-10-26T12:43', t:'AI眼镜乱战，风口上过着苦日子｜钛媒体深度', s:'工厂爆单、资本撤退、产业失血，一场没有赢家的狂欢。（来源：钛媒体）', u:'https://www.tmtpost.com/8084252.html'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-26T10:08', t:'ToolForge v0.2.2 正式发布：AI Agent 也能调用工具了！支持 MCP、CLI 与插件级权限管理', s:'最近一直在持续完善自己的开源项目 ToolForge，今天正式发布 v0.2.2！ ToolForge 是一款基于 Ru…（来源：OSCHINA）', u:'https://www.oschina.net/news/503201'},
     {c:'MODEL', d:'2026-10-26T09:43', t:':fire::fire::fire: Claude Code 工程最佳实践 | 主数据平台 1.7.0 发布，移动端上线', s:'更新版本：V1.7.0 升级简介： 新增权限组申请与审核（开发者自助申请、运营逐组审批）；开放平台接口在线调试；Feig…（来源：OSCHINA）', u:'https://www.oschina.net/news/503199'},
     {c:'MEDPHARMA', d:'2026-10-26T08:24', t:'【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代', s:'【硅基经济】AI个性化制药:Moderna mRNA疫苗开启一人一药时代（来源：头条医药AI）', u:'https://www.toutiao.com/article/7700765206691037722/'},
-    {c:'MODEL', d:'2026-10-26T08:16', t:'早报｜iPhone Duo破发/企业微信回应色情引流信息/曝触屏MacBook Pro周四登场', s:'· OpenAI 给 AI 建「离线世界」，隔离模型仍用 CPU 缓存传话 · Reddit 开源社区禁止 AI 项目…（来源：爱范儿）', u:'https://www.ifanr.com/1685755?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MEDPHARMA', d:'2026-10-25T18:40', t:'AI制药公司也焦虑', s:'AI制药公司也焦虑（来源：头条医药AI）', u:'https://www.toutiao.com/article/7700553356648923682/'},
   ];
   const TIMELINE = [
+    ['10-26 13:09','AI制药的订单下来了，猴子这一段排到了明年'],
+    ['10-26 13:03','Kimi认错，杨植麟还是得学梁文锋'],
     ['10-26 12:59','Gartner 调研显示：44% 的 CEO 难以证明 AI 的财务回报'],
     ['10-26 12:53','小米开源硬件 HachimoDock 亮相，150 元就能复刻万能 AI 桌宠'],
     ['10-26 12:43','AI眼镜乱战，风口上过着苦日子｜钛媒体深度'],
     ['10-26 12:30','阿波罗首席经济学家：除科技七巨头外，AI 还没帮美国企业赚到真金白银'],
-    ['10-26 11:30','AI制药能改变创新药“三个十定律”吗'],
-    ['10-26 11:26','英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:305149, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:303380, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:288977, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223950, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183806, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153377, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:305163, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:303393, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:288990, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:223963, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183813, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153380, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143070, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:135428, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115092, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110556, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:135444, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115097, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110559, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
