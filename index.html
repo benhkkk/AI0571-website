@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-10-26T20:42', t:'SpaceX 达成史上最大规模 GPU 融资安排，协议总额约 400 亿美元', s:'SpaceX 当地时间今日正式公布了其与另类资产管理巨头 Apollo 达成的融资安排。根据双方间的有约束力承诺，Spa…（来源：IT之家）', u:'https://www.ithome.com/1/018/150.htm'},
     {c:'FUNDING', d:'2026-10-26T20:26', t:'Meta 宣布至多 950 亿美元重大融资计划，为人工智能等业务筹集资金', s:'Meta 美国当地时间今日宣布了总额至多 950 亿美元（IT之家注：现汇率约合 6,343.57 亿元人民币）的重大融…（来源：IT之家）', u:'https://www.ithome.com/1/018/144.htm'},
     {c:'MODEL', d:'2026-10-26T20:19', t:'端到端推理时延降低 15%：京东广告联合鲲鹏超节点，探索生成式广告行业新路径', s:'京东广告面临生成式推荐带来的千倍算力需求与300毫秒时延红线之间的尖锐矛盾，真正的瓶颈在通算侧而非GPU。为此，京东与华…（来源：钛媒体）', u:'https://www.tmtpost.com/8181692.html'},
     {c:'MODEL', d:'2026-10-26T19:44', t:'Kimi K3.1 Pro 发布：代码超 GPT-6 Astra、开放权重版主动移除网络攻防能力', s:'月之暗面发布了 Kimi K3.1 Pro，3 万亿级参数、100 万上下文，K3 系列第一个正式版本。官方给它的定位是…（来源：OSCHINA）', u:'https://www.oschina.net/news/503221'},
@@ -476,29 +477,28 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDPHARMA', d:'2026-10-26T16:41', t:'AI制药的风吹向哪里?', s:'AI制药的风吹向哪里?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7700893901384581666/'},
     {c:'MODEL', d:'2026-10-26T16:27', t:'智元发布重载具身机器人精灵 G2 Max，双臂额定负载 40kg', s:'智元今日发布安规级重载具身机器人精灵 G2 Max，面向拆码垛、物料转运及产线供料等工业场景。该产品单臂负载 20kg…（来源：IT之家）', u:'https://www.ithome.com/1/017/951.htm'},
     {c:'MODEL', d:'2026-10-26T16:07', t:'荣耀MagicOS 11 一碰传新增支持分享高德地图驾车路线、百度网盘文件等', s:'据荣耀产品维护与升级 @荣耀小芳哥 今日透露，MagicOS 11 一碰传功能本月又打通了几个常用场景，现在支持一碰传分…（来源：IT之家）', u:'https://www.ithome.com/1/017/942.htm'},
-    {c:'HOT', d:'2026-10-26T15:52', t:'Seedance 核心研发负责人周畅被曝离职？接近字节人士否认', s:'据澎湃新闻消息，近日有传闻称，字节 Seed AI 研发核心负责人之一周畅已经提出离职。消息人士称，周畅将会开启创业，或…（来源：IT之家）', u:'https://www.ithome.com/1/017/938.htm'},
     {c:'HOT', d:'2026-10-26T15:42', t:'地铁里的 AI 伪人广告，正在集体霸凌人类', s:'唯有诚意与创意不可辜负#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1685809?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-10-26T14:58', t:'DeepSeek 开源看家算子的同一周，AI 超过了它', s:'国产大模型的竞争，正从模型层延伸到算力层：再强的模型，最终都要基于算子在芯片上执行。同一个模型、同一块芯片，换一套更优的…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/IaMw7vRrTCadlbCY.html'},
   ];
   const TIMELINE = [
+    ['10-26 20:42','SpaceX 达成史上最大规模 GPU 融资安排，协议总额约 400 亿美元'],
     ['10-26 20:26','Meta 宣布至多 950 亿美元重大融资计划，为人工智能等业务筹集资金'],
     ['10-26 20:19','端到端推理时延降低 15%：京东广告联合鲲鹏超节点，探索生成式广告行业新路径'],
     ['10-26 19:44','Kimi K3.1 Pro 发布：代码超 GPT-6 Astra、开放权重版主动移除网络攻防能力'],
     ['10-26 19:29','小米做了个150元的AI硬件，想让普通人也能玩转Vibe Coding'],
     ['10-26 19:19','从75亿到2000亿!AI制药不是"试水"，OpenAI、英伟达同时下注'],
-    ['10-26 18:50','起底AI制药股市版图:两只涨超100%，谁是赛道真龙头?'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:305365, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:303700, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:289251, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:224157, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183889, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153423, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143102, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:135745, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115173, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110648, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:305375, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:303718, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:289287, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:224181, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:183894, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153427, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143104, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:135767, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115180, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:110656, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

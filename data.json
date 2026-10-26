@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-26T20:31:34",
+  "updated": "2026-10-26T21:01:46",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-26T20:42",
+      "t": "SpaceX 达成史上最大规模 GPU 融资安排，协议总额约 400 亿美元",
+      "s": "SpaceX 当地时间今日正式公布了其与另类资产管理巨头 Apollo 达成的融资安排。根据双方间的有约束力承诺，Spa…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/150.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-26T20:26",
@@ -122,13 +129,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-10-26T15:52",
-      "t": "Seedance 核心研发负责人周畅被曝离职？接近字节人士否认",
-      "s": "据澎湃新闻消息，近日有传闻称，字节 Seed AI 研发核心负责人之一周畅已经提出离职。消息人士称，周畅将会开启创业，或…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/017/938.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-10-26T15:42",
       "t": "地铁里的 AI 伪人广告，正在集体霸凌人类",
       "s": "唯有诚意与创意不可辜负#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
@@ -143,6 +143,10 @@
     }
   ],
   "timeline": [
+    [
+      "10-26 20:42",
+      "SpaceX 达成史上最大规模 GPU 融资安排，协议总额约 400 亿美元"
+    ],
     [
       "10-26 20:26",
       "Meta 宣布至多 950 亿美元重大融资计划，为人工智能等业务筹集资金"
@@ -162,10 +166,6 @@
     [
       "10-26 19:19",
       "从75亿到2000亿!AI制药不是\"试水\"，OpenAI、英伟达同时下注"
-    ],
-    [
-      "10-26 18:50",
-      "起底AI制药股市版图:两只涨超100%，谁是赛道真龙头?"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305365,
+      "s": 305375,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 303700,
+      "s": 303718,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 289251,
+      "s": 289287,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 224157,
+      "s": 224181,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 183889,
+      "s": 183894,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153423,
+      "s": 153427,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143102,
+      "s": 143104,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 135745,
+      "s": 135767,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115173,
+      "s": 115180,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110648,
+      "s": 110656,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
