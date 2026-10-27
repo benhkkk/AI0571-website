@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T22:31:38",
+  "updated": "2026-10-27T23:03:15",
   "news": [
     {
       "c": "MODEL",
@@ -121,25 +121,25 @@
       "u": "https://www.tmtpost.com/8183528.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-27T17:56",
-      "t": "Muse之后，灵光2.0让Personal Agent接手中国式日常",
-      "s": "机票和酒店订好，还是忍不住隔几天查查价格。降了，算算退改费用，看要不要重订；没降，过两天再看。花不了多少时间，却总得惦记…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html"
+      "c": "MEDPHARMA",
+      "d": "2026-10-27T17:14",
+      "t": "AI制药，有没有未来?",
+      "s": "AI制药，有没有未来?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7701273453092946482/"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-27T17:54",
-      "t": "铭瑄将“深度参与”英特尔 GPU D 系列项目研发制造，规划三形态产品",
-      "s": "铭瑄 (MAXSUN) 在其 2026 英特尔 LOEM 峰会新闻稿中提到，该企业将“深度参与”英特尔 GPU D 系列…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/560.htm"
+      "c": "MEDPHARMA",
+      "d": "2026-10-27T16:01",
+      "t": "闯过临床前 AI制药依旧“关山难越”",
+      "s": "闯过临床前 AI制药依旧“关山难越”（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7701254552607031846/"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-27T17:34",
-      "t": "长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求；Anthropic公开上市申请，最快11月中旬上市；周畅被曝离职？接近字节人士回应",
-      "s": "要闻提示1.长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求2.Seedance 核心研发负责人周畅被曝离职？接近字节人…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html"
+      "c": "HOT",
+      "d": "2026-10-27T15:51",
+      "t": "Cloudflare 披露 KV cache 暴露事故，全部发生在超长上下文的 prompt 上",
+      "s": "Cloudflare 昨天公开了一起租户隔离事故：8 月 27 日到 9 月 9 日期间，Workers AI 平台上的…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503242/cloudflare-glm-kv-cache-exposure-remediation"
     }
   ],
   "timeline": [
@@ -171,82 +171,82 @@
   "skills": [
     {
       "n": 1,
-      "r": "affaan-m/ECC",
-      "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290462,
-      "u": "https://github.com/affaan-m/ECC",
+      "r": "obra/superpowers",
+      "d": "An agentic skills framework & software development methodology that works.",
+      "s": 306063,
+      "u": "https://github.com/obra/superpowers",
       "new": false
     },
     {
       "n": 2,
-      "r": "multica-ai/andrej-karpathy-skills",
-      "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225251,
-      "u": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "r": "mattpocock/skills",
+      "d": "Skills for Real Engineers. Straight from my .agents directory.",
+      "s": 304633,
+      "u": "https://github.com/mattpocock/skills",
       "new": false
     },
     {
       "n": 3,
-      "r": "anthropics/skills",
-      "d": "Public repository for Agent Skills",
-      "s": 184153,
-      "u": "https://github.com/anthropics/skills",
+      "r": "affaan-m/ECC",
+      "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
+      "s": 290484,
+      "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
     {
       "n": 4,
-      "r": "anthropics/claude-code",
-      "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153550,
-      "u": "https://github.com/anthropics/claude-code",
+      "r": "anthropics/skills",
+      "d": "Public repository for Agent Skills",
+      "s": 184159,
+      "u": "https://github.com/anthropics/skills",
       "new": false
     },
     {
       "n": 5,
-      "r": "Shubhamsaboo/awesome-llm-apps",
-      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143217,
-      "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "r": "anthropics/claude-code",
+      "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
+      "s": 153555,
+      "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
     {
       "n": 6,
-      "r": "addyosmani/agent-skills",
-      "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111003,
-      "u": "https://github.com/addyosmani/agent-skills",
+      "r": "Shubhamsaboo/awesome-llm-apps",
+      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "s": 143221,
+      "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
     {
       "n": 7,
-      "r": "coreyhaines31/marketingskills",
-      "d": "Marketing skills for Claude Code and AI agents. CRO, copywriting, SEO, analytics, and grow…",
-      "s": 56826,
-      "u": "https://github.com/coreyhaines31/marketingskills",
+      "r": "JuliusBrussee/caveman",
+      "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
+      "s": 115463,
+      "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
     {
       "n": 8,
-      "r": "hesreallyhim/awesome-claude-code",
-      "d": "A hand-picked collection of the finest of resources for the most awesome of agents, Claude…",
-      "s": 56651,
-      "u": "https://github.com/hesreallyhim/awesome-claude-code",
+      "r": "addyosmani/agent-skills",
+      "d": "Production-grade engineering skills for AI coding agents.",
+      "s": 111011,
+      "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     },
     {
       "n": 9,
-      "r": "Imbad0202/academic-research-skills",
-      "d": "Academic Research Skills for Claude Code: research → write → review → revise → finalize",
-      "s": 54146,
-      "u": "https://github.com/Imbad0202/academic-research-skills",
+      "r": "Leonxlnx/taste-skill",
+      "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
+      "s": 103449,
+      "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     },
     {
       "n": 10,
-      "r": "sickn33/agentic-awesome-skills",
-      "d": "AAS Core is the local, agent-first control plane for complete catalog discovery, agent-own…",
-      "s": 48592,
-      "u": "https://github.com/sickn33/agentic-awesome-skills",
+      "r": "tt-a1i/archify",
+      "d": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for …",
+      "s": 90255,
+      "u": "https://github.com/tt-a1i/archify",
       "new": false
     }
   ]
