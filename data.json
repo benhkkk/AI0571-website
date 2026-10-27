@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T02:31:41",
+  "updated": "2026-10-28T02:47:42",
   "news": [
     {
       "c": "HOT",
@@ -28,6 +28,13 @@
       "t": "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线",
       "s": "苹果公司今日宣布为 Apple 创作坊带来重大更新，为创作者带来专业级工具。Mac 版 Final Cut Pro 现内…（来源：IT之家）",
       "u": "https://www.ithome.com/1/018/666.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-27T20:57",
+      "t": "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法",
+      "s": "人形机器人全套图纸开源！从关节到算法，下载就能自己造。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/505865.html"
     },
     {
       "c": "INDUSTRY",
@@ -79,6 +86,13 @@
       "u": "https://www.tmtpost.com/8183550.html"
     },
     {
+      "c": "HOT",
+      "d": "2026-10-27T18:40",
+      "t": "印奇把4D雷达也端到端了",
+      "s": "毫米波雷达，AI算力10TOPS（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/505852.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-27T18:23",
       "t": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案",
@@ -121,25 +135,11 @@
       "u": "https://www.tmtpost.com/8183513.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-27T17:56",
-      "t": "Muse之后，灵光2.0让Personal Agent接手中国式日常",
-      "s": "机票和酒店订好，还是忍不住隔几天查查价格。降了，算算退改费用，看要不要重订；没降，过两天再看。花不了多少时间，却总得惦记…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-27T17:34",
-      "t": "长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求；Anthropic公开上市申请，最快11月中旬上市；周畅被曝离职？接近字节人士回应",
-      "s": "要闻提示1.长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求2.Seedance 核心研发负责人周畅被曝离职？接近字节人…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-27T17:14",
-      "t": "AI制药，有没有未来?",
-      "s": "AI制药，有没有未来?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7701273453092946482/"
+      "c": "INDUSTRY",
+      "d": "2026-10-27T18:19",
+      "t": "港交所AI指数来了，南方基金先上桌：这张牌有多重？",
+      "s": "指数落地+ETF授权，港股AI与半导体迎来新的配置工具与资金入口.（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8183528.html"
     }
   ],
   "timeline": [
@@ -160,12 +160,12 @@
       "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线"
     ],
     [
-      "10-27 20:22",
-      "文远知行启动全球保险合作计划，为 L4 级自动驾驶护航"
+      "10-27 20:57",
+      "不藏了！人形机器人全开源动真格，从机械结构一路拆到运动算法"
     ],
     [
-      "10-27 20:11",
-      "AI制药走到哪一步了?多位基金经理把脉"
+      "10-27 20:22",
+      "文远知行启动全球保险合作计划，为 L4 级自动驾驶护航"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306228,
+      "s": 306236,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304744,
+      "s": 304757,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290639,
+      "s": 290652,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225359,
+      "s": 225361,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184200,
+      "s": 184201,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 136824,
+      "s": 136832,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115489,
+      "s": 115488,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111073,
+      "s": 111075,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
