@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-28T07:02:26",
+  "updated": "2026-10-28T07:31:57",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-28T07:23",
+      "t": "火狐 Firefox 浏览器整合“网页变化雷达”，帮你盯商品降价和补货",
+      "s": "Mozilla 昨日（10 月 27 日）宣布扩展火狐 Firefox 浏览器的 AI 浏览功能“智能窗口”（Smart…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/715.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-28T07:20",
+      "t": "【钛晨报】多项智能出行国际标准发布；Anthropic降价引爆调用量，知名投资人：1000亿美元级年终ARR再成可能；东山精密：最终发售价为每股86.8港元，国际发售获3.17倍认购",
+      "s": "年收入逼近400亿元？红果短剧回应：不实；并入火山近百日后，飞书首席战略官史志隽将卸任转顾问；马斯克称SpaceX移动网…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8183890.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-28T06:37",
@@ -73,13 +87,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-27T19:37",
-      "t": "Anthropic 重申：我们永远不会在 Claude 对话中展示广告",
-      "s": "Anthropic 公司昨日向美国证券交易委员会提交 S-1 注册文件，计划首次公开发行 A 类普通股，并申请在纳斯达克…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/641.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-27T18:42",
       "t": "“跑高分”不等于“能交付”：AI排行榜正在经历一场信用重估",
       "s": "旧榜跑分逼近满分，新榜实战却集体不及格。当大模型评测本身变成生意，企业选型正从看排名转向算成本账。（来源：钛媒体）",
@@ -128,13 +135,6 @@
       "u": "https://www.tmtpost.com/8183513.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-27T18:19",
-      "t": "港交所AI指数来了，南方基金先上桌：这张牌有多重？",
-      "s": "指数落地+ETF授权，港股AI与半导体迎来新的配置工具与资金入口.（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8183528.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-27T17:56",
       "t": "Muse之后，灵光2.0让Personal Agent接手中国式日常",
@@ -143,6 +143,14 @@
     }
   ],
   "timeline": [
+    [
+      "10-28 07:23",
+      "火狐 Firefox 浏览器整合“网页变化雷达”，帮你盯商品降价和补货"
+    ],
+    [
+      "10-28 07:20",
+      "【钛晨报】多项智能出行国际标准发布；Anthropic降价引爆调用量，知名投资人：1000亿美元级年终ARR再成可能；东山精密：最终发售价为每股86.8港元，国…"
+    ],
     [
       "10-28 06:37",
       "刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来"
@@ -158,14 +166,6 @@
     [
       "10-27 22:25",
       "Anthropic 确认其内部系统遭访问：客户对话、模型权重未受影响"
-    ],
-    [
-      "10-27 22:08",
-      "继英伟达 30 亿美元之后：AMD 也宣布向 Meta 投资 10 亿美元深化 AI 基础设施合作，覆盖 EPYC、Instinct GPU、ROCm 软件"
-    ],
-    [
-      "10-27 21:19",
-      "苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306387,
+      "s": 306399,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304843,
+      "s": 304859,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290837,
+      "s": 290848,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225461,
+      "s": 225469,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184235,
+      "s": 184244,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153598,
+      "s": 153602,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143241,
+      "s": 143243,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 136937,
+      "s": 136946,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115531,
+      "s": 115535,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111120,
+      "s": 111124,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
