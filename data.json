@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-27T15:02:00",
+  "updated": "2026-10-27T15:31:41",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-10-27T15:23",
+      "t": "投资 30 亿美元：英伟达与 Meta 扩大 Muse 智能助手合作",
+      "s": "英伟达今天宣布与 Meta 扩大 Muse 智能助手方向的合作，满足市场对 AI 智能体日益增长的需求。IT之家从官方新…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/441.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-27T14:47",
@@ -93,13 +100,6 @@
       "u": "https://www.qbitai.com/2026/10/505580.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-27T11:09",
-      "t": "Anthropic 上市文件披露：当今 AI 产业严重依赖天然气",
-      "s": "据外媒 The Verge 今天（27 日）早间报道，准备上市的 Anthropic 在 S-1 注册文件中，揭示了生成…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/270.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-27T10:57",
       "t": "Anthropic冲刺纳斯达克：AI的造富神话，到了验收时刻",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-27 15:23",
+      "投资 30 亿美元：英伟达与 Meta 扩大 Muse 智能助手合作"
+    ],
+    [
       "10-27 14:47",
       "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化"
     ],
@@ -162,10 +166,6 @@
     [
       "10-27 13:02",
       "中国版Muse能管事！我把宠物保单、双11算价和周末旅行全交给了灵光2.0"
-    ],
-    [
-      "10-27 13:00",
-      "刚刚，GPT-6.1 Terra 骨折价发布，Agent 时代的打工模型来了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305752,
+      "s": 305769,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304303,
+      "s": 304319,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,64 +189,64 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290094,
+      "s": 290109,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
     {
       "n": 4,
-      "r": "multica-ai/andrej-karpathy-skills",
-      "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 224925,
-      "u": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "new": false
-    },
-    {
-      "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184059,
+      "s": 184065,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
     {
-      "n": 6,
+      "n": 5,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153504,
+      "s": 153505,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
     {
-      "n": 7,
+      "n": 6,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143190,
+      "s": 143192,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
     {
-      "n": 8,
-      "r": "Graphify-Labs/graphify",
-      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 136380,
-      "u": "https://github.com/Graphify-Labs/graphify",
-      "new": false
-    },
-    {
-      "n": 9,
+      "n": 7,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115380,
+      "s": 115385,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
     {
-      "n": 10,
+      "n": 8,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110885,
+      "s": 110892,
       "u": "https://github.com/addyosmani/agent-skills",
+      "new": false
+    },
+    {
+      "n": 9,
+      "r": "Leonxlnx/taste-skill",
+      "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
+      "s": 103194,
+      "u": "https://github.com/Leonxlnx/taste-skill",
+      "new": false
+    },
+    {
+      "n": 10,
+      "r": "tt-a1i/archify",
+      "d": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for …",
+      "s": 90021,
+      "u": "https://github.com/tt-a1i/archify",
       "new": false
     }
   ]
