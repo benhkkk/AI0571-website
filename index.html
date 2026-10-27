@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-28T06:37', t:'刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来', s:'AI 的下一个目标是模拟现实#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1686234?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-10-28T06:30', t:'别学编程了！Anthropic CEO 直言：代码工作快速消失，人类应该学弹钢琴', s:'如果说，当今世界有人能看清人类未来十年的走向，Dario Amodei 绝对是其中之一。他曾接受了一场非常深入的访谈。在…（来源：IT之家）', u:'https://www.ithome.com/1/018/708.htm'},
     {c:'HOT', d:'2026-10-27T23:27', t:'Meta AI 负责人罗希特 · 帕特尔离职创业，打造微软 Office 替代方案 Ndoc', s:'据科技媒体 TechCrunch 今天报道，Meta 人工智能负责人罗希特 · 帕特尔（Rohit Patel）已经离开…（来源：IT之家）', u:'https://www.ithome.com/1/018/696.htm'},
     {c:'MODEL', d:'2026-10-27T22:25', t:'Anthropic 确认其内部系统遭访问：客户对话、模型权重未受影响', s:'据《华盛顿邮报》当地时间 10 月 26 日报道，网络安全初创公司 Cathedral 称，其研究人员利用 AI 智能体…（来源：IT之家）', u:'https://www.ithome.com/1/018/683.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-27T18:19', t:'Anthropic 的硅谷往事', s:'硅谷下一轮洗牌，或许就从这里开始。（来源：钛媒体）', u:'https://www.tmtpost.com/8183513.html'},
     {c:'MODEL', d:'2026-10-27T17:56', t:'Muse之后，灵光2.0让Personal Agent接手中国式日常', s:'机票和酒店订好，还是忍不住隔几天查查价格。降了，算算退改费用，看要不要重订；没降，过两天再看。花不了多少时间，却总得惦记…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html'},
     {c:'FUNDING', d:'2026-10-27T17:34', t:'长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求；Anthropic公开上市申请，最快11月中旬上市；周畅被曝离职？接近字节人士回应', s:'要闻提示1.长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求2.Seedance 核心研发负责人周畅被曝离职？接近字节人…（来源：雷锋网）', u:'https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html'},
-    {c:'MEDPHARMA', d:'2026-10-27T17:14', t:'AI制药，有没有未来?', s:'AI制药，有没有未来?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7701273453092946482/'},
   ];
   const TIMELINE = [
+    ['10-28 06:37','刚刚，谷歌 Genie 4 发布，120 秒的世界却让我看见 AI 的未来'],
     ['10-28 06:30','别学编程了！Anthropic CEO 直言：代码工作快速消失，人类应该学弹钢琴'],
     ['10-27 23:27','Meta AI 负责人罗希特 · 帕特尔离职创业，打造微软 Office 替代方案 Ndoc'],
     ['10-27 22:25','Anthropic 确认其内部系统遭访问：客户对话、模型权重未受影响'],
     ['10-27 22:08','继英伟达 30 亿美元之后：AMD 也宣布向 Meta 投资 10 亿美元深化 AI 基础设施合作，覆盖 EPYC、Instinct GPU、ROCm 软件'],
     ['10-27 21:19','苹果 Apple 创作坊新增 AI 功能和更多创意工具，11 月免费更新上线'],
-    ['10-27 20:22','文远知行启动全球保险合作计划，为 L4 级自动驾驶护航'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:306371, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:304836, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:290818, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:225450, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184231, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:306376, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:304840, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:290825, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:225457, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184233, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153597, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143239, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:136931, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115529, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111113, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143240, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:136935, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115530, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111116, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
