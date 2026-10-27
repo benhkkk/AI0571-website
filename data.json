@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-27T21:31:37",
+  "updated": "2026-10-27T22:02:19",
   "news": [
     {
       "c": "INDUSTRY",
@@ -100,6 +100,13 @@
       "u": "https://www.tmtpost.com/8183528.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-10-27T17:56",
+      "t": "Muse之后，灵光2.0让Personal Agent接手中国式日常",
+      "s": "机票和酒店订好，还是忍不住隔几天查查价格。降了，算算退改费用，看要不要重订；没降，过两天再看。花不了多少时间，却总得惦记…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/PubkEap5yOtdT59V.html"
+    },
+    {
       "c": "INDUSTRY",
       "d": "2026-10-27T17:54",
       "t": "铭瑄将“深度参与”英特尔 GPU D 系列项目研发制造，规划三形态产品",
@@ -107,11 +114,11 @@
       "u": "https://www.ithome.com/1/018/560.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-27T17:31",
-      "t": "南非女作家借 AI 约 20 个月出版 371 本书引争议，自称年收入超百万美元",
-      "s": "南非女作家珂拉尔 · 哈特（笔名 Coral Hart）借助 AI 在约 20 个月内出版了 371 本书，累计销量超过…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/540.htm"
+      "c": "FUNDING",
+      "d": "2026-10-27T17:34",
+      "t": "长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求；Anthropic公开上市申请，最快11月中旬上市；周畅被曝离职？接近字节人士回应",
+      "s": "要闻提示1.长鑫拒绝苹果等海外订单，优先保障国内存储芯片需求2.Seedance 核心研发负责人周畅被曝离职？接近字节人…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/zaobao/9LHYVcJC8iwgwnhk.html"
     },
     {
       "c": "MEDPHARMA",
@@ -121,25 +128,18 @@
       "u": "https://www.toutiao.com/article/7701273453092946482/"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-27T16:55",
-      "t": "看了招股书，我终于知道为什么 Anthropic 不在乎用户了",
-      "s": "大的，终于来了。 10 月 26 日，Anthropic 向美国证监会公开递交了 S-1 招股书，准备在纳斯达克全球精选…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373006"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-10-27T16:46",
-      "t": "启元机器人第 5000 台下线，从规模化量产迈向商业化验证",
-      "s": "10 月 25 日，启元机器人第 5000 台个人机器人正式下线。从 9 月 20 日发售启元 Q1、T1 两款个人机器…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373003"
+      "c": "MODEL",
+      "d": "2026-10-27T17:03",
+      "t": "千问办公接入乐奇AI眼镜，一句话发起任务",
+      "s": "10月27日，在乐奇AI眼镜新品发布会上，乐奇Rokid和千问办公宣布达成合作，千问办公正式接入乐奇AI眼镜。用户在“R…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/NDbYUsVKbYZZxXil.html"
     },
     {
       "c": "MODEL",
-      "d": "2026-10-27T16:42",
-      "t": "帮用户抢 iPhone 折叠屏的 Agent，正在塑造 AI 时代电商的形状",
-      "s": "Shopify AI 交易订单增长了 13 倍。 10 月 16 日清晨，苹果第一款折叠屏手机 iPhone Duo 开…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373002"
+      "d": "2026-10-27T17:00",
+      "t": "超1800支参赛队伍创纪录，蚂蚁灵波具身模型挑战赛即将决赛",
+      "s": "10月27日，由蚂蚁灵波科技主办的首届“蚂蚁灵波具身大模型挑战赛”线上初赛正式落下帷幕。官方数据显示：大赛共吸引了海内外…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/g4nk653U5p12RMpR.html"
     }
   ],
   "timeline": [
@@ -171,82 +171,82 @@
   "skills": [
     {
       "n": 1,
-      "r": "mattpocock/skills",
-      "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304568,
-      "u": "https://github.com/mattpocock/skills",
+      "r": "obra/superpowers",
+      "d": "An agentic skills framework & software development methodology that works.",
+      "s": 306002,
+      "u": "https://github.com/obra/superpowers",
       "new": false
     },
     {
       "n": 2,
-      "r": "affaan-m/ECC",
-      "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290421,
-      "u": "https://github.com/affaan-m/ECC",
+      "r": "mattpocock/skills",
+      "d": "Skills for Real Engineers. Straight from my .agents directory.",
+      "s": 304594,
+      "u": "https://github.com/mattpocock/skills",
       "new": false
     },
     {
       "n": 3,
-      "r": "multica-ai/andrej-karpathy-skills",
-      "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225220,
-      "u": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "r": "affaan-m/ECC",
+      "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
+      "s": 290441,
+      "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
     {
       "n": 4,
-      "r": "anthropics/skills",
-      "d": "Public repository for Agent Skills",
-      "s": 184142,
-      "u": "https://github.com/anthropics/skills",
+      "r": "multica-ai/andrej-karpathy-skills",
+      "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
+      "s": 225240,
+      "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
     {
       "n": 5,
-      "r": "anthropics/claude-code",
-      "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153540,
-      "u": "https://github.com/anthropics/claude-code",
+      "r": "anthropics/skills",
+      "d": "Public repository for Agent Skills",
+      "s": 184149,
+      "u": "https://github.com/anthropics/skills",
       "new": false
     },
     {
       "n": 6,
-      "r": "Shubhamsaboo/awesome-llm-apps",
-      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143213,
-      "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+      "r": "anthropics/claude-code",
+      "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
+      "s": 153546,
+      "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
     {
       "n": 7,
-      "r": "Graphify-Labs/graphify",
-      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 136630,
-      "u": "https://github.com/Graphify-Labs/graphify",
+      "r": "Shubhamsaboo/awesome-llm-apps",
+      "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
+      "s": 143216,
+      "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
     {
       "n": 8,
-      "r": "JuliusBrussee/caveman",
-      "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115442,
-      "u": "https://github.com/JuliusBrussee/caveman",
+      "r": "Graphify-Labs/graphify",
+      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
+      "s": 136652,
+      "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
     {
       "n": 9,
-      "r": "tt-a1i/archify",
-      "d": "Turn any idea, plan, or codebase into a beautiful interactive diagram. An agent skill for …",
-      "s": 90207,
-      "u": "https://github.com/tt-a1i/archify",
+      "r": "JuliusBrussee/caveman",
+      "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
+      "s": 115445,
+      "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
     {
       "n": 10,
-      "r": "ComposioHQ/awesome-claude-skills",
-      "d": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI wo…",
-      "s": 78061,
-      "u": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "r": "addyosmani/agent-skills",
+      "d": "Production-grade engineering skills for AI coding agents.",
+      "s": 110994,
+      "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
   ]
