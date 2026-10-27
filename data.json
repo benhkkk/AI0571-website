@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-27T14:31:52",
+  "updated": "2026-10-27T15:02:00",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-27T14:47",
+      "t": "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化",
+      "s": "今日智元正式发布具身 Agent 框架 Genie Master，让机器人在上岗的过程中边解锁新技能。据悉，搭载该框架的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/423.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-27T14:37",
+      "t": "Anthropic“史上最大 IPO”在即，或为澳大利亚最大银行带来数十亿澳元意外之财",
+      "s": "据彭博社今天（27 日）午间报道，随着 Anthropic 估值飙升，澳大利亚联邦银行有望借其首次公开募股（IPO），套…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/417.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-27T14:22",
@@ -28,13 +42,6 @@
       "t": "刚刚，GPT-6.1 Terra 骨折价发布，Agent 时代的打工模型来了",
       "s": "OpenAI 又卷起了大模型的性价比。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1686080?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-27T13:00",
-      "t": "*ST康乐盘中涨超10%，AI制药产业持续推进",
-      "s": "*ST康乐盘中涨超10%，AI制药产业持续推进（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7701207929701057051/"
     },
     {
       "c": "HOT",
@@ -93,13 +100,6 @@
       "u": "https://www.ithome.com/1/018/270.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-27T11:00",
-      "t": "2026 胡润百富榜发布：张一鸣 6700 亿元刷新中国首富财富纪录、DeepSeek 梁文锋首次上榜位列第七",
-      "s": "胡润研究院发布《2026 胡润百富榜》。今年共有 1529 位个人财富 50 亿元以上的企业家登上胡润百富榜，较去年增加…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/268.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-27T10:57",
       "t": "Anthropic冲刺纳斯达克：AI的造富神话，到了验收时刻",
@@ -112,13 +112,6 @@
       "t": "微软为6万员工提供买断计划",
       "s": "微软推自愿离职计划，为AI算力开支优化人力。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8183150.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-27T10:51",
-      "t": "黑客借助 AI 发现 PS5 高危漏洞，获索尼 5 万美元奖励",
-      "s": "近期出现了不少针对 PS5 的破解尝试。得益于生成式 AI，PS5 游戏在 PC 端的模拟器开发进度推进得很快。现在还有…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/266.htm"
     },
     {
       "c": "MODEL",
@@ -140,9 +133,24 @@
       "t": "AI制药交易提速 临床验证成下一关口",
       "s": "AI制药交易提速 临床验证成下一关口（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7701171164076392970/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-27T10:32",
+      "t": "机器人集合店：有流量，钱难赚",
+      "s": "四类玩家开店，围观的人多、下单的人少。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8182455.html"
     }
   ],
   "timeline": [
+    [
+      "10-27 14:47",
+      "智元发布具身 Agent 框架 Genie Master：机器人能边工作边进化"
+    ],
+    [
+      "10-27 14:37",
+      "Anthropic“史上最大 IPO”在即，或为澳大利亚最大银行带来数十亿澳元意外之财"
+    ],
     [
       "10-27 14:22",
       "曝台积电先进封装拟涨价最高 20%，因 AI 需求急剧攀升、产能持续吃紧"
@@ -158,14 +166,6 @@
     [
       "10-27 13:00",
       "刚刚，GPT-6.1 Terra 骨折价发布，Agent 时代的打工模型来了"
-    ],
-    [
-      "10-27 13:00",
-      "*ST康乐盘中涨超10%，AI制药产业持续推进"
-    ],
-    [
-      "10-27 12:57",
-      "王的猜想，被 AI 一夜通关"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 305739,
+      "s": 305752,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304274,
+      "s": 304303,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290076,
+      "s": 290094,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 224897,
+      "s": 224925,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184054,
+      "s": 184059,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153502,
+      "s": 153504,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143186,
+      "s": 143190,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 136349,
+      "s": 136380,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115372,
+      "s": 115380,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 110879,
+      "s": 110885,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
