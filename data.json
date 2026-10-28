@@ -1,12 +1,33 @@
 {
-  "updated": "2026-10-28T09:55:13",
+  "updated": "2026-10-28T10:02:11",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-28T10:01",
+      "t": "OpenAI 公示 GPT-6.1 Terra 安全测试：整体风险下降，破坏性行为上升",
+      "s": "科技媒体 bleepingcomputer 昨日（10 月 27 日）发布博文，报道称基于 OpenAI 最新公示的安全…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/755.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-28T09:59",
+      "t": "消息称 OpenAI 计划正式导入谷歌 TPU：已在招募领导模型适配优化的工程师",
+      "s": "外媒 The Information 当地时间昨日报道称，OpenAI 计划正式导入谷歌 Google Cloud 的 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/754.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-28T09:49",
       "t": "菲尔兹奖得主博尔彻兹取消计分家庭作业：AI 作弊泛滥，仅线下考试可行",
       "s": "加州大学伯克利分校（UC Berkeley）一名教授宣布，不再给学生布置计分家庭作业，原因是人工智能（AI）的滥用让这类…（来源：IT之家）",
       "u": "https://www.ithome.com/1/018/752.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-28T09:43",
+      "t": "基层演员，AI刀下第一鬼",
+      "s": "2026年，AI进入院线，演员行业面临洗牌，AI冲击下表演艺术与标准化劳动对立，从业者承受压力。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8184110.html"
     },
     {
       "c": "HOT",
@@ -58,25 +79,11 @@
       "u": "https://www.ithome.com/1/018/735.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-28T08:55",
-      "t": "OpenAI 开放 ChatGPT 新插件：苹果用户授权后可充当 AI 管家，管理 iCloud 邮件、日程等",
-      "s": "OpenAI 昨日（10 月 27 日）发布博文，宣布面向所有 ChatGPT 套餐用户，开放 iCloud Mail …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/734.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-10-28T08:40",
       "t": "Edge AI Daily 早报（10月28日）",
       "s": "Meta启动史上最大约950亿美元股权融资，英伟达、AMD分别以30亿、10亿美元入股绑定算力合作，AI竞争由算法转向资…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8184055.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-28T08:20",
-      "t": "甲骨文扩大与英伟达的芯片供应合作，同时引入谷歌 TPU 和 Cerebras 芯片",
-      "s": "甲骨文（Oracle）当地时间周二表示，将扩大与英伟达（Nvidia）的云端 AI 芯片合作，同时进一步推进供应多元化…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/728.htm"
     },
     {
       "c": "MODEL",
@@ -133,19 +140,24 @@
       "t": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案",
       "s": "10月27日，乐奇Rokid推出AI眼镜Rokid Glasses 2、全彩AI眼镜Rokid Color和交互戒指Ro…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8183616.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-27T18:19",
-      "t": "AI短剧：流水线上的打工人不得不说的秘密",
-      "s": "投身AI短剧的人，没有梦想，只有对于流量的饥渴（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8183174.html"
     }
   ],
   "timeline": [
     [
+      "10-28 10:01",
+      "OpenAI 公示 GPT-6.1 Terra 安全测试：整体风险下降，破坏性行为上升"
+    ],
+    [
+      "10-28 09:59",
+      "消息称 OpenAI 计划正式导入谷歌 TPU：已在招募领导模型适配优化的工程师"
+    ],
+    [
       "10-28 09:49",
       "菲尔兹奖得主博尔彻兹取消计分家庭作业：AI 作弊泛滥，仅线下考试可行"
+    ],
+    [
+      "10-28 09:43",
+      "基层演员，AI刀下第一鬼"
     ],
     [
       "10-28 09:38",
@@ -154,18 +166,6 @@
     [
       "10-28 09:31",
       "AI Floods China’s Ad Feeds—and Platforms Fight Back With AI"
-    ],
-    [
-      "10-28 09:25",
-      "Oracle 打造多样化 AI 算力组合，引入 SambaNova SN50 RDU"
-    ],
-    [
-      "10-28 09:21",
-      "特斯拉计划用 Optimus 人形机器人给 Robotaxi 插拔充电枪，终极目标是无线充电"
-    ],
-    [
-      "10-28 09:10",
-      "弃用 AI 改称 SI：特斯拉车主手册更新 FSD 计算机名称"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306474,
+      "s": 306479,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304913,
+      "s": 304919,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290925,
+      "s": 290931,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225524,
+      "s": 225529,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153614,
+      "s": 153615,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143251,
+      "s": 143252,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137023,
+      "s": 137031,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115552,
+      "s": 115554,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111165,
+      "s": 111170,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
