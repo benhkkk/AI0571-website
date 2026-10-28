@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-28T11:31:42",
+  "updated": "2026-10-28T12:02:04",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-28T12:00",
+      "t": "豆包工作功能上新：支持将“录制电脑操作”保存为技能",
+      "s": "今天（28 日）上午，豆包通过公众号宣布，豆包工作操作电脑能力整体升级，屏幕点击精度、速度提升，更准、更快。继此前支持跨…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/860.htm"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-10-28T11:38",
+      "t": "医疗AI诊断:为什么很难成为一门独立生意?",
+      "s": "医疗AI诊断:为什么很难成为一门独立生意?（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7701557998283424284/"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-28T11:28",
@@ -21,13 +35,6 @@
       "t": "消息称百度近期披露世界模型研发进展，有望率先用于自动驾驶",
       "s": "《科创板日报》独家获悉，百度计划近日披露世界模型的研发进展与成果。据了解，世界模型是当前 AI 领域的热门方向之一，其核…（来源：IT之家）",
       "u": "https://www.ithome.com/1/018/815.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-28T11:08",
-      "t": "医疗AI诊断：为什么很难成为一门独立生意？",
-      "s": "医疗AI应用现状、政策与商业卡点、以及破局思考（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8184268.html"
     },
     {
       "c": "MODEL",
@@ -94,13 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-28T10:09",
-      "t": "谷歌更新 Android Bench 榜单：自家 Gemini 4 Argon 编程能力大幅落后于 Claude 与 GPT",
-      "s": "谷歌更新了用于评估 AI 模型安卓编程辅助能力的 Android Bench 榜单，Gemini 4 Argon 的成绩…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/757.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-28T10:08",
       "t": "Rokid Glasses 2：想每天戴的 AI 眼镜",
       "s": "AI 眼镜既要好看好戴，也要拍得好、够聪明，刚刚发布的 Rokid Glasses 2 就做到了，显示清晰、戴着好看、画…（来源：爱范儿）",
@@ -135,14 +135,22 @@
       "u": "https://www.tmtpost.com/8184159.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-28T09:11",
-      "t": "微软向6万员工发出自愿离职邀请，补偿至少N+2；身家2800亿的梁文锋，被曝长期在北京租房；苹果否认iPhone Duo为赶产能放宽质检",
-      "s": "要闻提示1.加码AI精简人力！微软向 6 万员工发出自愿离职邀请，补偿至少N+22.DeepSeek大举扩充团队！梁文锋…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/SXb4aJpFWlpTjfkN.html"
+      "c": "HOT",
+      "d": "2026-10-28T09:03",
+      "t": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
+      "s": "“未完成接入的小程序，将无法被微信 AI 推荐及调用。”（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8183962.html"
     }
   ],
   "timeline": [
+    [
+      "10-28 12:00",
+      "豆包工作功能上新：支持将“录制电脑操作”保存为技能"
+    ],
+    [
+      "10-28 11:38",
+      "医疗AI诊断:为什么很难成为一门独立生意?"
+    ],
     [
       "10-28 11:28",
       "美国总统特朗普称将在相关文件中“正式禁用”AI 人工智能一词，改称为“SI 超级智能”"
@@ -157,15 +165,7 @@
     ],
     [
       "10-28 11:08",
-      "医疗AI诊断：为什么很难成为一门独立生意？"
-    ],
-    [
-      "10-28 11:08",
       "Claude 的账单，金主先看不下去了"
-    ],
-    [
-      "10-28 11:04",
-      "AI 推高元器件成本，消息称惠普、华硕、宏碁将部分 PC 产能迁回中国"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306558,
+      "s": 306585,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304975,
+      "s": 304999,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290998,
+      "s": 291015,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225560,
+      "s": 225574,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184287,
+      "s": 184290,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153630,
+      "s": 153633,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143259,
+      "s": 143264,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137083,
+      "s": 137097,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115563,
+      "s": 115571,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111197,
+      "s": 111204,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
