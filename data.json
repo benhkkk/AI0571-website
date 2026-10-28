@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-29T04:01:48",
+  "updated": "2026-10-29T04:31:34",
   "news": [
     {
       "c": "MODEL",
@@ -115,6 +115,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-10-28T18:17",
+      "t": "具身智能军备竞赛，胜负手在工程生态",
+      "s": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨邓哲敏 编辑丨齐铖湧 一个模型在论文中取得好成绩，距…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-10-28T18:13",
       "t": "qOntology 本体工程平台开源版正式亮相：把本体工程从文档和脚本带到统一工作台",
       "s": "qOntology 本体工程平台现已开源。项目主要面向企业本体建模与语义管理场景，当前围绕建模目标、术语与枚举、对象类型…（来源：OSCHINA）",
@@ -133,13 +140,6 @@
       "t": "当上下文成为产业共识，金蝶灵基把ERP变成Agent的认知底座",
       "s": "产品发布仅五个月，客户价值的可信度、人机交互的边界等，需要靠工程能力与客户校验共同推进。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8184285.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T17:22",
-      "t": "短剧的通胀危机：为何AI没有让内容生意更好赚钱？",
-      "s": "在淘金热里卖水始终是好生意，但最好的生意是拥有金矿，或者拥有那条河。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8184741.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307309,
+      "s": 307321,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305650,
+      "s": 305664,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291637,
+      "s": 291650,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225900,
+      "s": 225912,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184489,
+      "s": 184493,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153729,
+      "s": 153731,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143338,
+      "s": 143339,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137690,
+      "s": 137708,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115761,
+      "s": 115764,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111421,
+      "s": 111432,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
