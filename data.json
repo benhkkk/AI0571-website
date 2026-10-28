@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-29T04:31:34",
+  "updated": "2026-10-29T05:01:56",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T04:51",
+      "t": "谷歌最强 AI 模型：Gemini 4 Carbon 登顶全球智能指数榜首，“专职”做网络安全",
+      "s": "谷歌正式发布新一代前沿大模型 Gemini 4 Carbon，主打业界顶尖的网络安全能力与长程任务处理能力。谷歌称其为目…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/240.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T04:38",
+      "t": "谷歌 2026Q3 财报暴露 AI 变现焦虑，股价盘后暴跌逾 7%",
+      "s": "谷歌母公司 Alphabet 今日发布 2026 财年（2026 年 1 月～2026 年 12 月）前三季度报（202…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/261.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-29T02:42",
@@ -42,20 +56,6 @@
       "t": "《雷曼：传奇再叙》游戏将与《宇宙机器人》联动，PS5 版玩家可获独占服装道具",
       "s": "索尼今天在 PlayStation Blog 宣布，育碧新作《雷曼：传奇再叙》将与 Team ASOBI 开发的《宇宙机…（来源：IT之家）",
       "u": "https://www.ithome.com/1/019/221.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T22:50",
-      "t": "极米记得 AI 记忆眼镜 G1 / 手环 L1 开售，首发价 1299 元 / 599 元起",
-      "s": "极米记得 AI 记忆眼镜 G 1 和 AI 记忆手环 L 1 今日开售，首发价 1299 元 / 599 元起，均提供标…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/210.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T22:46",
-      "t": "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标",
-      "s": "据科技媒体 TechRadar 今天报道，尽管许多企业预计 AI 将带来深远影响，不惜为此砸下重金。但 Gartner …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/207.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-29 04:51",
+      "谷歌最强 AI 模型：Gemini 4 Carbon 登顶全球智能指数榜首，“专职”做网络安全"
+    ],
+    [
+      "10-29 04:38",
+      "谷歌 2026Q3 财报暴露 AI 变现焦虑，股价盘后暴跌逾 7%"
+    ],
+    [
       "10-29 02:42",
       "最高 128GB 统一内存：苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型"
     ],
@@ -158,14 +166,6 @@
     [
       "10-28 23:45",
       "亚马逊 AWS 与国际汽联达成新合作，让 AI 和云计算参与下一代 F1 赛车技术规则制定"
-    ],
-    [
-      "10-28 23:34",
-      "从 AI 服务器 PCB 到五轴机床，国产工业母机订单已排到明年二季度"
-    ],
-    [
-      "10-28 23:11",
-      "《雷曼：传奇再叙》游戏将与《宇宙机器人》联动，PS5 版玩家可获独占服装道具"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307321,
+      "s": 307339,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305664,
+      "s": 305681,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291650,
+      "s": 291666,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225912,
+      "s": 225924,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184493,
+      "s": 184496,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153731,
+      "s": 153734,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143339,
+      "s": 143341,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137708,
+      "s": 137723,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115764,
+      "s": 115766,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111432,
+      "s": 111436,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
