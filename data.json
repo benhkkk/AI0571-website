@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-29T02:31:53",
+  "updated": "2026-10-29T03:01:38",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T02:42",
+      "t": "最高 128GB 统一内存：苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型",
+      "s": "苹果公司今天（10 月 29 日）发布配备 PROLED XDR 显示屏的首款触控 MacBook Pro，其核心卖点之…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/251.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-29T01:53",
@@ -73,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-28T20:10",
-      "t": "亚马逊发布五款新 Alexa 智能家居设备：Echo Show 16 售 499.99 美元起",
-      "s": "亚马逊今晚发布了一系列新品，涵盖智能音箱、智能闹钟、数码相框和智能显示屏，并进一步将 Alexa+ 的 AI 能力与家庭…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/164.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-28T19:58",
       "t": "当DeepSeek成为一种亚文化",
       "s": "流量虽好，别学微博（来源：钛媒体）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-29 02:42",
+      "最高 128GB 统一内存：苹果首款触控 MacBook Pro 可本地运行数千亿参数 AI 模型"
+    ],
+    [
       "10-29 01:53",
       "苹果首度为 Mac 引入灵动岛：支持显示音乐播放、实时活动等，Siri AI 多了个入口"
     ],
@@ -162,10 +166,6 @@
     [
       "10-28 23:11",
       "《雷曼：传奇再叙》游戏将与《宇宙机器人》联动，PS5 版玩家可获独占服装道具"
-    ],
-    [
-      "10-28 22:50",
-      "极米记得 AI 记忆眼镜 G1 / 手环 L1 开售，首发价 1299 元 / 599 元起"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307252,
+      "s": 307269,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305606,
+      "s": 305613,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291587,
+      "s": 291600,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225875,
+      "s": 225886,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184475,
+      "s": 184478,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153719,
+      "s": 153724,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143332,
+      "s": 143335,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137637,
+      "s": 137656,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115749,
+      "s": 115751,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111404,
+      "s": 111410,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
