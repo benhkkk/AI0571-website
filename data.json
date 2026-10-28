@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-28T18:31:41",
+  "updated": "2026-10-28T19:01:49",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-28T18:51",
+      "t": "美国银行警告客户：切勿将网银密码交给 AI 助手",
+      "s": "据科技媒体 Android Authority 今天报道，美国银行（BofA）已开始向客户发送电子邮件，提醒他们不要将网…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/146.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-28T18:42",
+      "t": "第六届数字经济投融资机构川渝行在蓉举行，释放融资需求超10亿元",
+      "s": "聚焦AI赛道。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8185010.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-28T18:21",
@@ -93,11 +107,11 @@
       "u": "https://www.ifanr.com/1686281?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-10-28T17:06",
-      "t": "抖音整治 AI 恶意营销号，近一月处置违规账号 50.7 万个",
-      "s": "据抖音黑板报，AI 工具的普及，使内容创作门槛进一步降低，为广大创作者提供了更多便捷的创作方式与表达可能。然而，部分以流…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/001.htm"
+      "c": "MEDPHARMA",
+      "d": "2026-10-28T16:10",
+      "t": "AI制药的新故事:前高盛分析师撑起一人药企，Anthropic出手收购",
+      "s": "AI制药的新故事:前高盛分析师撑起一人药企，Anthropic出手收购（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7701628093303095871/"
     },
     {
       "c": "MODEL",
@@ -105,20 +119,6 @@
       "t": "当即梦把剧本、导演和剪辑放进同一个工作室，我们看到了视频生成的下一步",
       "s": "对于短剧创作者来说，最不缺的可能就是新的故事灵感。 在日常创作中，一个新的人物设定、一段有冲突的情节，甚至刷到的一条社会…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/373066"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-28T15:58",
-      "t": "模态缺失、噪声干扰怎么办？天津大学张长青：给多模态融合加上「可信度量尺」| CNCC 2026",
-      "s": "真正的挑战，是让模型保留有效信息、识别可靠证据，并适应新的任务。 作者丨张 璐 编辑丨马晓宁 在具身智能、自动驾驶和智慧…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/private/L0riZpWS688dpXnN.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-28T15:00",
-      "t": "豆包工作能力升级：操作电脑可录制成技能，锁屏后也能继续任务",
-      "s": "近期，豆包工作电脑操作能力升级，屏幕点击精度、速度提升，更准、更快。直接在对话中提出操作电脑的相关需求，经用户授权后，豆…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/MYDTBZqQkhfVtkte.html"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "10-28 18:51",
+      "美国银行警告客户：切勿将网银密码交给 AI 助手"
+    ],
+    [
+      "10-28 18:42",
+      "第六届数字经济投融资机构川渝行在蓉举行，释放融资需求超10亿元"
+    ],
+    [
       "10-28 18:21",
       "这机器人从嘴里钻进人体，居然是来救命的"
     ],
@@ -158,14 +166,6 @@
     [
       "10-28 18:13",
       "qOntology 本体工程平台开源版正式亮相：把本体工程从文档和脚本带到统一工作台"
-    ],
-    [
-      "10-28 18:08",
-      "Anthropic 工程经理把传统编程面试砍了，“它不再提供有效信号”"
-    ],
-    [
-      "10-28 17:55",
-      "软件定义汽车：大众 CEA 架构计划明年覆盖更多国产插电混动及燃油车、2029 年赋能 L4 自动驾驶开发"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306870,
+      "s": 306890,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305236,
+      "s": 305255,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291277,
+      "s": 291294,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225714,
+      "s": 225720,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184375,
+      "s": 184378,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153668,
+      "s": 153669,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143282,
+      "s": 143285,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137302,
+      "s": 137321,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115651,
+      "s": 115654,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111286,
+      "s": 111295,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
