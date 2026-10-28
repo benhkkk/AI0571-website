@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-28T12:31:57",
+  "updated": "2026-10-28T13:01:44",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-28T12:54",
+      "t": "小鹏集团副总裁顾捷：IRON 机器人固态电池已小批量量产",
+      "s": "综合第一财经、新浪汽车报道，小鹏集团副总裁顾捷在今日的 SAECCE 年会上表示，小鹏 IRON 机器人固态电池已小批量…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/884.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-28T12:31",
@@ -37,6 +44,13 @@
       "u": "https://www.ithome.com/1/018/860.htm"
     },
     {
+      "c": "MEDDEVICE",
+      "d": "2026-10-28T11:38",
+      "t": "医疗AI诊断:为什么很难成为一门独立生意?",
+      "s": "医疗AI诊断:为什么很难成为一门独立生意?（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7701557998283424284/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-10-28T11:28",
       "t": "美国总统特朗普称将在相关文件中“正式禁用”AI 人工智能一词，改称为“SI 超级智能”",
@@ -58,25 +72,11 @@
       "u": "https://www.ithome.com/1/018/815.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-28T11:08",
-      "t": "医疗AI诊断：为什么很难成为一门独立生意？",
-      "s": "医疗AI应用现状、政策与商业卡点、以及破局思考（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8184268.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-28T11:08",
       "t": "Claude 的账单，金主先看不下去了",
       "s": "Anthropic 已经演示了它的天花板在哪（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8183902.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T11:04",
-      "t": "AI 推高元器件成本，消息称惠普、华硕、宏碁将部分 PC 产能迁回中国",
-      "s": "据《日经亚洲》报道，惠普、华硕、宏碁等主流个人电脑厂商正应对零部件成本暴涨的压力，将部分产能从泰国、越南迁回中国，同时和…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/779.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-28 12:54",
+      "小鹏集团副总裁顾捷：IRON 机器人固态电池已小批量量产"
+    ],
+    [
       "10-28 12:31",
       "全球首展：高通 6G 终端原型机将在第九届进博会正式亮相"
     ],
@@ -162,10 +166,6 @@
     [
       "10-28 12:00",
       "豆包工作功能上新：支持将“录制电脑操作”保存为技能"
-    ],
-    [
-      "10-28 11:28",
-      "美国总统特朗普称将在相关文件中“正式禁用”AI 人工智能一词，改称为“SI 超级智能”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306604,
+      "s": 306615,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305008,
+      "s": 305018,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291033,
+      "s": 291045,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225583,
+      "s": 225592,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184294,
+      "s": 184300,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137109,
+      "s": 137122,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115576,
+      "s": 115580,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111213,
+      "s": 111221,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
