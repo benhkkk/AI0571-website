@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-28T20:31:36",
+  "updated": "2026-10-28T21:01:51",
   "news": [
     {
       "c": "MODEL",
@@ -80,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-28T18:17",
-      "t": "具身智能军备竞赛，胜负手在工程生态",
-      "s": "开源工程底座 FluxVLA Engine 技术报告全解读。 作者丨邓哲敏 编辑丨齐铖湧 一个模型在论文中取得好成绩，距…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/ai/D4SlkV6zQ4ill9MG.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-28T18:16",
       "t": "摩尔线程开源 Megatron-MUSA-Titan，聚焦万卡级集群的万亿参数 MoE 模型训练",
       "s": "摩尔线程今日宣布开源大模型训练基础设施项目 Megatron-MUSA-Titan。该项目基于摩尔线程全功能 GPU，聚…（来源：IT之家）",
@@ -140,6 +133,13 @@
       "t": "短剧的通胀危机：为何AI没有让内容生意更好赚钱？",
       "s": "在淘金热里卖水始终是好生意，但最好的生意是拥有金矿，或者拥有那条河。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8184741.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-28T17:18",
+      "t": "实测讯飞输入法 16.0，我发现它是我最实在的 AI「赛博嘴替」",
+      "s": "人负责表达意图，键盘负责整理一切#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1686281?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306950,
+      "s": 306972,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305316,
+      "s": 305344,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291350,
+      "s": 291367,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225755,
+      "s": 225766,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184396,
+      "s": 184398,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153678,
+      "s": 153682,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143294,
+      "s": 143296,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137373,
+      "s": 137384,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115672,
+      "s": 115675,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111317,
+      "s": 111324,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
