@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-28T22:41:44",
+  "updated": "2026-10-28T23:02:07",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-28T22:50",
+      "t": "极米记得 AI 记忆眼镜 G1 / 手环 L1 开售，首发价 1299 元 / 599 元起",
+      "s": "极米记得 AI 记忆眼镜 G 1 和 AI 记忆手环 L 1 今日开售，首发价 1299 元 / 599 元起，均提供标…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/210.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-28T22:46",
+      "t": "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标",
+      "s": "据科技媒体 TechRadar 今天报道，尽管许多企业预计 AI 将带来深远影响，不惜为此砸下重金。但 Gartner …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/207.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-28T21:21",
@@ -122,20 +136,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-28T17:49",
-      "t": "Liquid AI 发布 LFM3 模型家族，首批多款均基于 LFM3-1.7B-Base",
-      "s": "人工智能实验室 Liquid AI 当地时间 27 日发布了 LFM3 模型家族。其基于全新的三混合层架构，在 22T …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/099.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T17:36",
-      "t": "苹果诉 OpenAI 案新进展：法官允许苹果扩大取证范围",
-      "s": "据科技媒体 9To5Mac 今天报道，苹果起诉 OpenAI 案近期取得进展，法官已批准苹果扩大取证范围。IT之家从原报…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/089.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-28T17:28",
       "t": "当上下文成为产业共识，金蝶灵基把ERP变成Agent的认知底座",
       "s": "产品发布仅五个月，客户价值的可信度、人机交互的边界等，需要靠工程能力与客户校验共同推进。（来源：钛媒体）",
@@ -143,6 +143,14 @@
     }
   ],
   "timeline": [
+    [
+      "10-28 22:50",
+      "极米记得 AI 记忆眼镜 G1 / 手环 L1 开售，首发价 1299 元 / 599 元起"
+    ],
+    [
+      "10-28 22:46",
+      "Gartner 调研：仅 3% 企业通过 AI 实现节约成本、提高生产力目标"
+    ],
     [
       "10-28 21:21",
       "Anthropic巨亏背后，藏着行业什么秘密？"
@@ -158,14 +166,6 @@
     [
       "10-28 20:10",
       "亚马逊发布五款新 Alexa 智能家居设备：Echo Show 16 售 499.99 美元起"
-    ],
-    [
-      "10-28 19:58",
-      "当DeepSeek成为一种亚文化"
-    ],
-    [
-      "10-28 19:32",
-      "EVEngine - 面向 AI Agent 的轻量游戏引擎"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307061,
+      "s": 307087,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305418,
+      "s": 305432,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291425,
+      "s": 291439,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225796,
+      "s": 225805,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184414,
+      "s": 184420,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143303,
+      "s": 143306,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137461,
+      "s": 137478,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115696,
+      "s": 115705,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111350,
+      "s": 111354,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
