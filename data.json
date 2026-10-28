@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-28T09:31:30",
+  "updated": "2026-10-28T09:55:13",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-28T09:49",
+      "t": "菲尔兹奖得主博尔彻兹取消计分家庭作业：AI 作弊泛滥，仅线下考试可行",
+      "s": "加州大学伯克利分校（UC Berkeley）一名教授宣布，不再给学生布置计分家庭作业，原因是人工智能（AI）的滥用让这类…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/752.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-28T09:38",
+      "t": "马斯克坚定看好内存需求，称机器人所需内存将超过其他任何领域",
+      "s": "特斯拉 CEO 埃隆 · 马斯克于 10 月 27 日在社交平台 X 上表示，机器人对内存的需求将超过地球上其他所有一切…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/018/748.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-28T09:31",
+      "t": "AI Floods China’s Ad Feeds—and Platforms Fight Back With AI",
+      "s": "AI Floods China’s Ad Feeds—and Platforms Fight Bac…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8184159.html"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-28T09:25",
@@ -58,25 +79,11 @@
       "u": "https://www.ithome.com/1/018/728.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-10-28T08:09",
-      "t": "英伟达投资印度初创公司 Simplismart，助力企业用更少 GPU 运行 AI 模型",
-      "s": "随着人工智能热潮持续挤占计算资源，英伟达（Nvidia）参与了印度初创公司 Simplismart 的 1,400 万美…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/726.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-28T08:07",
       "t": "早报｜15999起，苹果发布M6 MacBook Pro/张一鸣以6700亿元登顶胡润百富榜/电视新规：不得播放开机广告",
       "s": "· IDC：中国手机 Q3 出货下滑 15.2%，折叠屏连续四季度下降 · 邓煜：AI 公司应公开证明思路，让用户决定数…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1686109?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T08:02",
-      "t": "Anthropic 创始人阿莫迪兄妹：“7 人共同创业”是公司成功的关键",
-      "s": "据《商业内幕》27 日报道，Anthropic CEO 达里奥 · 阿莫迪和妹妹、公司总裁丹妮拉 · 阿莫迪当初决定与另…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/018/724.htm"
     },
     {
       "c": "FUNDING",
@@ -133,16 +140,21 @@
       "t": "AI短剧：流水线上的打工人不得不说的秘密",
       "s": "投身AI短剧的人，没有梦想，只有对于流量的饥渴（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8183174.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-27T18:19",
-      "t": "Kimi额度的问题，Anthropic找到了解决办法",
-      "s": "你的额度为什么不经用？大半都在给子Agent“开无效会议”（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8183235.html"
     }
   ],
   "timeline": [
+    [
+      "10-28 09:49",
+      "菲尔兹奖得主博尔彻兹取消计分家庭作业：AI 作弊泛滥，仅线下考试可行"
+    ],
+    [
+      "10-28 09:38",
+      "马斯克坚定看好内存需求，称机器人所需内存将超过其他任何领域"
+    ],
+    [
+      "10-28 09:31",
+      "AI Floods China’s Ad Feeds—and Platforms Fight Back With AI"
+    ],
     [
       "10-28 09:25",
       "Oracle 打造多样化 AI 算力组合，引入 SambaNova SN50 RDU"
@@ -154,18 +166,6 @@
     [
       "10-28 09:10",
       "弃用 AI 改称 SI：特斯拉车主手册更新 FSD 计算机名称"
-    ],
-    [
-      "10-28 09:03",
-      "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI"
-    ],
-    [
-      "10-28 08:55",
-      "通用汽车做自动驾驶不放弃雷达，高管称坚持纯视觉是无视物理规律"
-    ],
-    [
-      "10-28 08:55",
-      "OpenAI 开放 ChatGPT 新插件：苹果用户授权后可充当 AI 管家，管理 iCloud 邮件、日程等"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306462,
+      "s": 306474,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 304905,
+      "s": 304913,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 290910,
+      "s": 290925,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225513,
+      "s": 225524,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184263,
+      "s": 184266,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153610,
+      "s": 153614,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143249,
+      "s": 143251,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137008,
+      "s": 137023,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115549,
+      "s": 115552,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111155,
+      "s": 111165,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
