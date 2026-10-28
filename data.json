@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-28T19:01:49",
+  "updated": "2026-10-28T19:31:41",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-28T19:26",
+      "t": "菲尔兹奖得主邓煜提醒：人类不能放弃自主思考给 AI 当狗",
+      "s": "据界面新闻报道，菲尔兹奖得主、芝加哥大学教授邓煜近日在一场论坛上阐述了他对 AI 时代数学研究的思考。邓煜引用帕斯卡“人…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/155.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-28T19:01",
+      "t": "苹果最赚钱的生意，正被Siri亲手拆掉？",
+      "s": "谁控制应用分发，谁就能够影响移动互联网的流量和交易规则。 然而，AI正在尝试改变这种关系。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8184537.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-28T18:51",
@@ -95,16 +109,23 @@
     {
       "c": "HOT",
       "d": "2026-10-28T17:18",
-      "t": "央视实测 AI 可复原被打码的二维码，专家给出防破解技巧",
-      "s": "据央视新闻今日报道，有网友发现，一张在二维码处打了马赛克的兑换券截图，经 AI 图片工具修复后，居然可以扫码读取信息。这…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/043.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T17:18",
       "t": "实测讯飞输入法 16.0，我发现它是我最实在的 AI「赛博嘴替」",
       "s": "人负责表达意图，键盘负责整理一切#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1686281?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-28T17:16",
+      "t": "字节辟谣\"群演数据喂大模型\"：严重失实！",
+      "s": "近日，有网络传言称\"横店与字节合作，将15万名群演的肖像和声音喂给字节大模型\"。字节豆包公关负责人刘星今日通过微博作出回…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/kw1tPKZvQauDl4UJ.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-28T16:43",
+      "t": "华为群英传之刘睿：AI助手要告别聊天框，从“被动响应”走向“主动服务”",
+      "s": "在商汤没做成的技术，登上了华为发布会。作者：李秋悦编辑：吴彤2022年6月，刘睿港中文博士毕业，赶上的却是一个“坏时候”…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/Ep3M1c7RboyafpOS.html"
     },
     {
       "c": "MEDPHARMA",
@@ -119,30 +140,17 @@
       "t": "当即梦把剧本、导演和剪辑放进同一个工作室，我们看到了视频生成的下一步",
       "s": "对于短剧创作者来说，最不缺的可能就是新的故事灵感。 在日常创作中，一个新的人物设定、一段有冲突的情节，甚至刷到的一条社会…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/373066"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-28T14:46",
-      "t": "跑代码易，做任务难：AI编程迎来交付能力大考",
-      "s": "在真实的软件工程中，生成代码只是起点。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8184564.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-28T14:29",
-      "t": "百度开源“文心 Unlimited OCR 2”，全球首次实现任意页数文档解析",
-      "s": "百度正式发布并开源文心 Unlimited OCR 2，宣称\"全球首次实现任意页数文档解析\"——把 OCR 的处理上界从…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503269"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-28T14:13",
-      "t": "涌进中小学的机器人草台班子",
-      "s": "智能化进校，到底是不是一件有意义的事？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8184425.html"
     }
   ],
   "timeline": [
+    [
+      "10-28 19:26",
+      "菲尔兹奖得主邓煜提醒：人类不能放弃自主思考给 AI 当狗"
+    ],
+    [
+      "10-28 19:01",
+      "苹果最赚钱的生意，正被Siri亲手拆掉？"
+    ],
     [
       "10-28 18:51",
       "美国银行警告客户：切勿将网银密码交给 AI 助手"
@@ -158,14 +166,6 @@
     [
       "10-28 18:19",
       "大众计划 2027 年实现 L3 级自动驾驶功能就绪，正研发最高支持 L4 级能力系统级芯片 C7H"
-    ],
-    [
-      "10-28 18:16",
-      "摩尔线程开源 Megatron-MUSA-Titan，聚焦万卡级集群的万亿参数 MoE 模型训练"
-    ],
-    [
-      "10-28 18:13",
-      "qOntology 本体工程平台开源版正式亮相：把本体工程从文档和脚本带到统一工作台"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 306890,
+      "s": 306909,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305255,
+      "s": 305272,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291294,
+      "s": 291313,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 225720,
+      "s": 225731,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184378,
+      "s": 184386,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153669,
+      "s": 153674,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143285,
+      "s": 143288,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137321,
+      "s": 137333,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115654,
+      "s": 115658,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111295,
+      "s": 111299,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
