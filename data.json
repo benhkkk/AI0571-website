@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-29T15:02:50",
+  "updated": "2026-10-29T15:31:31",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T15:15",
+      "t": "Epic 高管瓦斯默：相比外界对 AI 的质疑，我们更担心进度落后的风险",
+      "s": "据外媒 Eurogamer 今天（29 日）凌晨报道，Epic Games 确认将进一步扩大生成式 AI 的应用范围，从…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/528.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-29T15:03",
+      "t": "不认字的 AI，却很会说话",
+      "s": "机器为什么不能先说话，再认字？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1686124?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-29T14:53",
@@ -72,11 +86,11 @@
       "u": "https://www.tmtpost.com/8185820.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-29T13:21",
-      "t": "韩国政府将投入 5 万亿韩元，支持中小企业普及物理 AI",
-      "s": "据韩媒《电子新闻》今天（29 日）午间报道，韩国政府计划到 2030 年投入至少 5 万亿韩元（IT之家注：现汇率约合 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/421.htm"
+      "c": "MODEL",
+      "d": "2026-10-29T13:16",
+      "t": "TRAE上线开发者个人助理“TRAE宝”",
+      "s": "10月29日，AI开发产品TRAE正式上线开发者个人助理“TRAE宝”。与此前围绕单次任务展开的Agent对话不同，TR…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/VtaDCTK8rnfs2sSX.html"
     },
     {
       "c": "MODEL",
@@ -126,23 +140,17 @@
       "t": "Anthropic 平台负责人：多 Agent 跑起来之后，还有四个工程难题无法解决",
       "s": "\"很多软件工程师正在经历一场身份危机。这份工作变了很多。有人沮丧，有人正玩得开心。\" 写这段话的是 Anthropic …（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503288/new-problems-for-engineers-to-solve"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-29T11:27",
-      "t": "文远知行001号员工带队，景烁科技首轮融资数千万美元",
-      "s": "10月29日，文远知行披露旗下子公司景烁科技首次融资进展（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/506281.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T11:21",
-      "t": "Cursor 把创造 Agent 的那套工序做成了产品",
-      "s": "Cursor 把自己的家底掏出来了。10 月 20 日发布的 Agent SDK，就是他们构建 Bugbot、Secur…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503287/cursor-agent-sdk"
     }
   ],
   "timeline": [
+    [
+      "10-29 15:15",
+      "Epic 高管瓦斯默：相比外界对 AI 的质疑，我们更担心进度落后的风险"
+    ],
+    [
+      "10-29 15:03",
+      "不认字的 AI，却很会说话"
+    ],
     [
       "10-29 14:53",
       "留给具身智能的时间不多了"
@@ -158,14 +166,6 @@
     [
       "10-29 14:34",
       "Instagram 负责人莫塞里承认公众普遍反感 AI，预计未来情况还将继续恶化"
-    ],
-    [
-      "10-29 14:32",
-      "Claude Code 2.1.311 上线新环境变量，AI 智能体删文件可以不再问你"
-    ],
-    [
-      "10-29 14:15",
-      "这届中产父母的AI焦虑，标价13800元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307679,
+      "s": 307697,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305974,
+      "s": 305994,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292002,
+      "s": 292022,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226088,
+      "s": 226100,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184588,
+      "s": 184596,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143365,
+      "s": 143368,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138077,
+      "s": 138090,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115878,
+      "s": 115881,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111532,
+      "s": 111537,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
