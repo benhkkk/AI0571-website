@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T00:02:17",
+  "updated": "2026-10-30T00:31:15",
   "news": [
     {
       "c": "MODEL",
@@ -42,6 +42,27 @@
       "t": "华为制药军团总裁樊杰明确“华为不做药”，希望成为 AI 制药产业技术底座",
       "s": "据中国医药创新促进会分享，10 月 24 日，由该会与香港交易所主办的第十一届医药创新与投资大会在南京召开。华为制药军团…（来源：IT之家）",
       "u": "https://www.ithome.com/1/019/780.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-29T22:23",
+      "t": "别再盯着 800 亿美元亏损了，Anthropic 的 AI 造 AI 已推进到 26%！",
+      "s": "AI 已接管 90% 代码编写，甚至为了完成任务开始“越狱”。 作者丨郑佳美 编辑丨岑 峰 刚刚，Anthropic 在…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T22:22",
+      "t": "拉爆游戏引擎？深度拆解 Genie 4，从视频生成到世界控制，Google 要跨越什么？",
+      "s": "动态条件注入、因果核验与异步协作的三大技术挑战，暴露出哪些致命的技术死角？ 作者丨郑佳美 编辑丨岑 峰 刚刚，Googl…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T22:14",
+      "t": "DeepSeek 又一开源重器！深挖 DeepInfer 究竟藏着多少技术狠活？",
+      "s": "单集群日处理约 155 万亿 Token，推理优化争夺毫秒。 作者丨郑佳美 编辑丨岑 峰 昨天，DeepSeek 又在 …（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/HecXToP0EHbPjPd0.html"
     },
     {
       "c": "MODEL",
@@ -114,32 +135,11 @@
       "u": "https://www.tmtpost.com/8186403.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-29T18:10",
-      "t": "云厂商“三兄弟”业绩放榜，AI吞金兽继续发威",
-      "s": "市场反倒“奖励”克制的投入行为。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8186340.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-29T17:48",
       "t": "OpenAI 隔离的 AI agent 通过 CPU 缓存互相通信",
       "s": "OpenAI 做了个测试：把两个 agent 放进完全隔离的环境，跑在同一套硬件上，没有网络、没有共享文件，命令它们互相…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503303/openai-securing-our-frontier-model-training-environment"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T17:21",
-      "t": "Neton 1.0.0 正式发布：面向 AI 原生开发的 Kotlin/Native 服务端应用框架",
-      "s": "Neton Framework 1.0.0 正式发布，现已上线 Maven Central。 这是 Neton 的第一个…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503302"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T17:03",
-      "t": "国家超算互联网调价：降低AI研发、调试成本",
-      "s": "近日，国家超算互联网宣布最新价格调整，新用户可享DeepSeek-V4.1-Flash-1017、GLM-5.3-Fla…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308147,
+      "s": 308168,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306345,
+      "s": 306364,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292413,
+      "s": 292440,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226287,
+      "s": 226298,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184695,
+      "s": 184704,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153835,
+      "s": 153837,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143412,
+      "s": 143416,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138403,
+      "s": 138424,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115994,
+      "s": 116002,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111648,
+      "s": 111656,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
