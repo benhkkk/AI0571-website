@@ -459,17 +459,17 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MEDDEVICE', d:'2026-10-29T16:00', t:'智元稚晖君：很多跳舞机器人本质上是闭着眼睛的动作模仿，实时感知响应是靠遥控器无法做到的', s:'据澎湃新闻消息，智元联合创始人、总裁兼 CTO 彭志辉（网名“稚晖君”）今日表示，很多跳舞机器人本质上都是闭着眼睛的动作…（来源：IT之家）', u:'https://www.ithome.com/1/019/566.htm'},
+    {c:'MODEL', d:'2026-10-29T15:58', t:'专为大模型设计：新芯航途 X7 Ultra 芯片中国首发量产 Armv9 车规级 CPU', s:'10 月 29 日现场消息，在今天的发布会上，XHEART 新芯航途 CEO 李宗霖正式发布全新 X7 Ultra 大模…（来源：IT之家）', u:'https://www.ithome.com/1/019/564.htm'},
+    {c:'MODEL', d:'2026-10-29T15:52', t:'“四处碰壁”的Agent，如何敲开互联网大门？', s:'Agent规模化元年已至，但传统互联网生态尚未做好准备。（来源：钛媒体）', u:'https://www.tmtpost.com/8186041.html'},
+    {c:'MODEL', d:'2026-10-29T15:32', t:'新芯航途 X7 Ultra 大模型芯片亮相：700 TOPS 算力，量产模型实测 99.99% 对齐', s:'10 月 29 日现场消息，在今天的 XHEART 新芯航途发布会上，X7 Ultra 大模型芯片亮相。XHEART 新…（来源：IT之家）', u:'https://www.ithome.com/1/019/551.htm'},
+    {c:'MODEL', d:'2026-10-29T15:31', t:'英伟达开源最强转录 AI 模型 Nemotron 3.5 Transcribe：支持 40 种语言，8 人抢话也能精准转录', s:'英伟达昨日（10 月 28 日）宣布推出开放权重语音转录模型 Nemotron 3.5 Transcribe，并同步公开…（来源：IT之家）', u:'https://www.ithome.com/1/019/545.htm'},
     {c:'MODEL', d:'2026-10-29T15:15', t:'Epic 高管瓦斯默：相比外界对 AI 的质疑，我们更担心进度落后的风险', s:'据外媒 Eurogamer 今天（29 日）凌晨报道，Epic Games 确认将进一步扩大生成式 AI 的应用范围，从…（来源：IT之家）', u:'https://www.ithome.com/1/019/528.htm'},
     {c:'HOT', d:'2026-10-29T15:03', t:'不认字的 AI，却很会说话', s:'机器为什么不能先说话，再认字？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）', u:'https://www.ifanr.com/1686124?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'FUNDING', d:'2026-10-29T14:53', t:'留给具身智能的时间不多了', s:'当下的具身智能，早已不是物理世界 AI 革命的沃土，而是资本内卷的修罗场。“优先融资、优先演示、服务叙事而非落地” 的特…（来源：钛媒体）', u:'https://www.tmtpost.com/8185866.html'},
     {c:'HOT', d:'2026-10-29T14:46', t:'AI 冲击初级编程岗位需求，美高校计算机专业入学人数大幅下滑', s:'据彭博社报道，今年秋季，美国高校的计算机与信息科学专业出现了学生大量流失的情况，本科项目入学人数下滑超 12%，研究生项…（来源：IT之家）', u:'https://www.ithome.com/1/019/516.htm'},
     {c:'MODEL', d:'2026-10-29T14:41', t:'小米 MiMo Desktop 会员权益升级：额度加量不加价、新增 DeepSeek 等第三方模型', s:'小米 MiMo 官方今日宣布，Xiaomi MiMo Desktop 会员权益升级。会员额度提升为提升大家的使用体验，我…（来源：IT之家）', u:'https://www.ithome.com/1/019/502.htm'},
-    {c:'HOT', d:'2026-10-29T14:34', t:'Instagram 负责人莫塞里承认公众普遍反感 AI，预计未来情况还将继续恶化', s:'Instagram 负责人亚当 · 莫塞里承认，反感 AI 的人远不止年轻人和创意工作者。在介绍 Instagram 推…（来源：IT之家）', u:'https://www.ithome.com/1/019/481.htm'},
-    {c:'MODEL', d:'2026-10-29T14:32', t:'Claude Code 2.1.311 上线新环境变量，AI 智能体删文件可以不再问你', s:'科技媒体 The Register 昨日（10 月 28 日）发布博文，报道称在 v2.1.311 版 Claude C…（来源：IT之家）', u:'https://www.ithome.com/1/019/476.htm'},
     {c:'INDUSTRY', d:'2026-10-29T14:15', t:'这届中产父母的AI焦虑，标价13800元', s:'2026年研学旅游市场规模预计2422亿元，同比涨13.6%，其中AI主题研学订单同比增长370%。（来源：钛媒体）', u:'https://www.tmtpost.com/8185944.html'},
-    {c:'HOT', d:'2026-10-29T14:09', t:'Altera 公布 Agilex 2X 系列 FPGA，支持边缘物理 AI 应用', s:'FPGA（现场可编程门阵列）企业 Altera 美国当地时间 28 日公布了其全新产品组合 Agilex 2X。这一系列…（来源：IT之家）', u:'https://www.ithome.com/1/019/438.htm'},
-    {c:'MODEL', d:'2026-10-29T14:08', t:'给 AI 芯片“退烧”：国内首款 12 英寸多晶碳化硅衬底在长沙问世，通过台积电认证测试、并给三星送样', s:'湖南泰坦未来科技有限公司本月发布新闻稿，宣布推出国内首款 12 英寸多晶碳化硅衬底，瞄准 AI 芯片与先进封装的散热瓶颈…（来源：IT之家）', u:'https://www.ithome.com/1/019/437.htm'},
-    {c:'MODEL', d:'2026-10-29T13:34', t:'腾讯与 Visa 宣布战略合作，包含跨境支付、企业级 AI、智能体支付等领域', s:'腾讯与 Visa 今日宣布已签署合作备忘录，将探索更广泛的合作，升级腾讯生态的全球支付和商务体验。在服务来华国际访客的既…（来源：IT之家）', u:'https://www.ithome.com/1/019/425.htm'},
     {c:'HOT', d:'2026-10-29T13:28', t:'Suning NEXT首店亮相，新店打造AI消费新入口', s:'从一份盈利改善的三季报，到山西路上一个热气腾腾的未来空间，苏宁易购正以主动求变求新的姿态“踏准节奏”更“带动节奏”，在A…（来源：钛媒体）', u:'https://www.tmtpost.com/8185820.html'},
     {c:'MODEL', d:'2026-10-29T13:16', t:'TRAE上线开发者个人助理“TRAE宝”', s:'10月29日，AI开发产品TRAE正式上线开发者个人助理“TRAE宝”。与此前围绕单次任务展开的Agent对话不同，TR…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/VtaDCTK8rnfs2sSX.html'},
     {c:'MODEL', d:'2026-10-29T13:05', t:'我只说了 15 句“哪里不对”，OpenAgents 就帮我做出了一个鹈鹕骑行 3D 游戏', s:'我只说了15句“哪里不对”，OpenAgents就帮我做出了一个鹈鹕骑行3D游戏 本文所用的作品、全部渲染截图与制作过程…（来源：OSCHINA）', u:'https://www.oschina.net/news/503291'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-29T11:52', t:'Anthropic 平台负责人：多 Agent 跑起来之后，还有四个工程难题无法解决', s:'"很多软件工程师正在经历一场身份危机。这份工作变了很多。有人沮丧，有人正玩得开心。" 写这段话的是 Anthropic …（来源：OSCHINA）', u:'https://www.oschina.net/news/503288/new-problems-for-engineers-to-solve'},
   ];
   const TIMELINE = [
+    ['10-29 16:00','智元稚晖君：很多跳舞机器人本质上是闭着眼睛的动作模仿，实时感知响应是靠遥控器无法做到的'],
+    ['10-29 15:58','专为大模型设计：新芯航途 X7 Ultra 芯片中国首发量产 Armv9 车规级 CPU'],
+    ['10-29 15:52','“四处碰壁”的Agent，如何敲开互联网大门？'],
+    ['10-29 15:32','新芯航途 X7 Ultra 大模型芯片亮相：700 TOPS 算力，量产模型实测 99.99% 对齐'],
+    ['10-29 15:31','英伟达开源最强转录 AI 模型 Nemotron 3.5 Transcribe：支持 40 种语言，8 人抢话也能精准转录'],
     ['10-29 15:15','Epic 高管瓦斯默：相比外界对 AI 的质疑，我们更担心进度落后的风险'],
-    ['10-29 15:03','不认字的 AI，却很会说话'],
-    ['10-29 14:53','留给具身智能的时间不多了'],
-    ['10-29 14:46','AI 冲击初级编程岗位需求，美高校计算机专业入学人数大幅下滑'],
-    ['10-29 14:41','小米 MiMo Desktop 会员权益升级：额度加量不加价、新增 DeepSeek 等第三方模型'],
-    ['10-29 14:34','Instagram 负责人莫塞里承认公众普遍反感 AI，预计未来情况还将继续恶化'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:307697, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:305994, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292022, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226100, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184596, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153779, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143368, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138090, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115881, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111537, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:307728, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306011, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292046, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226116, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184601, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153784, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143372, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138108, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115888, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111546, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
