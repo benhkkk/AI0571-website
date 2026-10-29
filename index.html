@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-10-29T20:29', t:'借钱搞 AI：消息称微软计划通过美国债券发行至少筹资 250 亿美元', s:'据彭博社报道，微软公司计划发行美国投资级债券，至少募资 250 亿美元（IT之家注：现汇率约合 1,670.13 亿元人…（来源：IT之家）', u:'https://www.ithome.com/1/019/753.htm'},
+    {c:'MODEL', d:'2026-10-29T20:17', t:'小米 REDMI K100 Pro Max 手机惊喜“现身”王腾今日宜休发布会', s:'10 月 29 日现场消息，ISHO 今日宜休 AI 睡眠科技生态产品发布会正在进行中，目前正在介绍 ISHO iFlo…（来源：IT之家）', u:'https://www.ithome.com/1/019/749.htm'},
+    {c:'MODEL', d:'2026-10-29T20:05', t:'今日宜休 ISHO Ring 智能戒指发布：一体化机身内集成 116 个元器件，1799 元起', s:'在今晚的 ISHO 今日宜休 AI 睡眠科技生态产品发布会上，公司创始人王腾率先发布了 ISHO Ring 智能戒指，售…（来源：IT之家）', u:'https://www.ithome.com/1/019/746.htm'},
     {c:'INDUSTRY', d:'2026-10-29T19:53', t:'长盈精密前三季度转亏0.66亿元，具身智能收入大增532%仍未撑起利润 | 看财报', s:'具身智能是否能撑起第三曲线有待观察（来源：钛媒体）', u:'https://www.tmtpost.com/8186722.html'},
     {c:'MEDPHARMA', d:'2026-10-29T19:50', t:'王腾：今日宜休聚焦精准监测、科学干预与精力恢复，计划一年内采集超 1000 例金标准临床 PSG 数据', s:'10 月 29 日现场消息，在今晚的 ISHO 今日宜休 AI 睡眠科技生态产品发布会上，公司创始人王腾首次发布会公布公…（来源：IT之家）', u:'https://www.ithome.com/1/019/737.htm'},
     {c:'MODEL', d:'2026-10-29T19:42', t:'今日宜休王腾：睡眠健康问题是困扰国民的关键问题，中国约 2.76 亿人睡眠质量不佳', s:'10 月 29 日现场消息，在今晚的 ISHO 今日宜休 AI 睡眠科技生态产品发布会上，今日宜休科技公司创始人王腾登台…（来源：IT之家）', u:'https://www.ithome.com/1/019/734.htm'},
@@ -472,33 +475,30 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-29T17:48', t:'OpenAI 隔离的 AI agent 通过 CPU 缓存互相通信', s:'OpenAI 做了个测试：把两个 agent 放进完全隔离的环境，跑在同一套硬件上，没有网络、没有共享文件，命令它们互相…（来源：OSCHINA）', u:'https://www.oschina.net/news/503303/openai-securing-our-frontier-model-training-environment'},
     {c:'HOT', d:'2026-10-29T17:47', t:'美国纽约州新法令禁止向未成年人提供不安全 AI 聊天机器人服务', s:'美国纽约州州长 Kathy Hochul（凯西 · 霍楚尔）当地时间 28 日签署一项法令，禁止向未成年人提供不安全 A…（来源：IT之家）', u:'https://www.ithome.com/1/019/627.htm'},
     {c:'HOT', d:'2026-10-29T17:44', t:'华为 WATCH 5 系列开推 HarmonyOS 7 花粉 Beta 版，新增 AI 通话降噪、同步手机地震预警消息等', s:'华为官网最新显示，HUAWEI WATCH 5 系列智能手表开启了鸿蒙 HarmonyOS 7 系统花粉 Beta 版升…（来源：IT之家）', u:'https://www.ithome.com/1/019/619.htm'},
-    {c:'MODEL', d:'2026-10-29T17:34', t:'X more thing：新芯航途 XHEART X9 大模型芯片计划 2027 年推出，算力提升至 3000 TOPS', s:'10 月 29 日现场消息，在今天发布会的最后，XHEART 新芯航途带来了“X more thing”。XHEART …（来源：IT之家）', u:'https://www.ithome.com/1/019/609.htm'},
-    {c:'MODEL', d:'2026-10-29T17:24', t:'新芯航途智驾大模型芯片 X7 Ultra 发布：700 TOPS 大模型算力，中国首发量产 Armv9 车规级 CPU', s:'10 月 29 日现场消息，XHEART 新芯航途今日正式发布大模型芯片 X7 Ultra，以“大模型定义芯片”为核心理…（来源：IT之家）', u:'https://www.ithome.com/1/019/603.htm'},
-    {c:'MODEL', d:'2026-10-29T17:21', t:'微软 AI 高管拉曼纳推动 Office 与 Copilot 组织扁平化，核心员工每周需到办公室四天', s:'微软负责 Copilot 平台、智能体以及如今 Office 业务的高管正在兑现他重塑团队工作方式的承诺。Charles…（来源：IT之家）', u:'https://www.ithome.com/1/019/601.htm'},
     {c:'MODEL', d:'2026-10-29T17:21', t:'Neton 1.0.0 正式发布：面向 AI 原生开发的 Kotlin/Native 服务端应用框架', s:'Neton Framework 1.0.0 正式发布，现已上线 Maven Central。 这是 Neton 的第一个…（来源：OSCHINA）', u:'https://www.oschina.net/news/503302'},
-    {c:'HOT', d:'2026-10-29T17:08', t:'百度AI云重整阵型：阮瑜轮岗负责小度，阵型收缩为“两层”', s:'留给参赛者调整姿势的时间，真的不多了。（来源：钛媒体）', u:'https://www.tmtpost.com/8185155.html'},
     {c:'MODEL', d:'2026-10-29T17:03', t:'国家超算互联网调价：降低AI研发、调试成本', s:'近日，国家超算互联网宣布最新价格调整，新用户可享DeepSeek-V4.1-Flash-1017、GLM-5.3-Fla…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html'},
     {c:'MODEL', d:'2026-10-29T17:01', t:'豆包工作向企业客户开放配置三方模型', s:'为支持企业需求，豆包工作今日向客户开放三方大模型服务，首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSe…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html'},
+    {c:'MODEL', d:'2026-10-29T16:54', t:'蚂蚁灵光2.0打通钉钉、支付宝等数十项服务，加速走向“能管事”', s:'AI从“会聊天”走向“能管事”，接入真实工作流是落地关键。继蚂蚁集团10月27日发布灵光2.0后，记者今日体验发现，新版…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/eigNbrwrLkMYpiwN.html'},
   ];
   const TIMELINE = [
+    ['10-29 20:29','借钱搞 AI：消息称微软计划通过美国债券发行至少筹资 250 亿美元'],
+    ['10-29 20:17','小米 REDMI K100 Pro Max 手机惊喜“现身”王腾今日宜休发布会'],
+    ['10-29 20:05','今日宜休 ISHO Ring 智能戒指发布：一体化机身内集成 116 个元器件，1799 元起'],
     ['10-29 19:53','长盈精密前三季度转亏0.66亿元，具身智能收入大增532%仍未撑起利润 | 看财报'],
     ['10-29 19:50','王腾：今日宜休聚焦精准监测、科学干预与精力恢复，计划一年内采集超 1000 例金标准临床 PSG 数据'],
     ['10-29 19:42','今日宜休王腾：睡眠健康问题是困扰国民的关键问题，中国约 2.76 亿人睡眠质量不佳'],
-    ['10-29 19:34','豆包工作向企业客户推出第三方模型服务：含 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等'],
-    ['10-29 19:19','深兰科技联合华为，发布全球首款大模型智能体工作手机 Wowoker'],
-    ['10-29 18:49','钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:307913, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306180, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292208, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226204, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184639, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153811, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143387, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138241, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115933, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111593, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:307942, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306201, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292226, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226209, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184644, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153812, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143389, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138257, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115941, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111604, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
