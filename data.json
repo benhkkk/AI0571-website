@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-29T16:02:26",
+  "updated": "2026-10-29T16:31:28",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T16:05",
+      "t": "Anthropic 推出 Claude 智能报告工具，可监控员工使用 AI 的情况与开销",
+      "s": "Anthropic 推出了全新的 Claude 统计报告工具，企业管理者可以借此清楚查看员工使用这款 AI 工具的方式与…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/568.htm"
+    },
     {
       "c": "MEDDEVICE",
       "d": "2026-10-29T16:00",
@@ -65,18 +72,18 @@
       "u": "https://www.ithome.com/1/019/516.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-29T14:41",
-      "t": "小米 MiMo Desktop 会员权益升级：额度加量不加价、新增 DeepSeek 等第三方模型",
-      "s": "小米 MiMo 官方今日宣布，Xiaomi MiMo Desktop 会员权益升级。会员额度提升为提升大家的使用体验，我…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/502.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-29T14:15",
       "t": "这届中产父母的AI焦虑，标价13800元",
       "s": "2026年研学旅游市场规模预计2422亿元，同比涨13.6%，其中AI主题研学订单同比增长370%。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8185944.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T14:01",
+      "t": "20人9个月，《不问凡尘》用AI搓出26万玩家买单的超写实互动作品",
+      "s": "上线仅三周，《不问凡尘》就在 Steam 拿到87%的好评率，预估近千万流水，超26万玩家走进这个AI生成的修仙世界。支…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/fk4nWrM8On84S6FB.html"
     },
     {
       "c": "HOT",
@@ -133,16 +140,13 @@
       "t": "AI制药进入“实战期”，产业创新与监管探索同步推进|BIO-FOR...",
       "s": "AI制药进入“实战期”，产业创新与监管探索同步推进|BIO-FOR...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7701934885874844203/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T11:52",
-      "t": "Anthropic 平台负责人：多 Agent 跑起来之后，还有四个工程难题无法解决",
-      "s": "\"很多软件工程师正在经历一场身份危机。这份工作变了很多。有人沮丧，有人正玩得开心。\" 写这段话的是 Anthropic …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503288/new-problems-for-engineers-to-solve"
     }
   ],
   "timeline": [
+    [
+      "10-29 16:05",
+      "Anthropic 推出 Claude 智能报告工具，可监控员工使用 AI 的情况与开销"
+    ],
     [
       "10-29 16:00",
       "智元稚晖君：很多跳舞机器人本质上是闭着眼睛的动作模仿，实时感知响应是靠遥控器无法做到的"
@@ -162,10 +166,6 @@
     [
       "10-29 15:31",
       "英伟达开源最强转录 AI 模型 Nemotron 3.5 Transcribe：支持 40 种语言，8 人抢话也能精准转录"
-    ],
-    [
-      "10-29 15:15",
-      "Epic 高管瓦斯默：相比外界对 AI 的质疑，我们更担心进度落后的风险"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307728,
+      "s": 307755,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306011,
+      "s": 306030,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292046,
+      "s": 292064,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226116,
+      "s": 226130,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184601,
+      "s": 184605,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153784,
+      "s": 153791,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143372,
+      "s": 143374,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138108,
+      "s": 138124,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115888,
+      "s": 115890,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111546,
+      "s": 111552,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
