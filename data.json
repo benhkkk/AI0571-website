@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-29T21:31:14",
+  "updated": "2026-10-29T22:01:53",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T21:32",
+      "t": "百度集团副总裁吴甜离职，知情人士称文心模型下周将有新进展",
+      "s": "针对百度集团副总裁、百度研究院副院长吴甜离职的传闻，百度公关经理在朋友圈作出回应，确认吴甜已结束在百度的任职。她表示，百…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/769.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-29T21:06",
@@ -66,10 +73,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-29T19:42",
-      "t": "今日宜休王腾：睡眠健康问题是困扰国民的关键问题，中国约 2.76 亿人睡眠质量不佳",
-      "s": "10 月 29 日现场消息，在今晚的 ISHO 今日宜休 AI 睡眠科技生态产品发布会上，今日宜休科技公司创始人王腾登台…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/734.htm"
+      "d": "2026-10-29T19:38",
+      "t": "31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知「完全没必要担心」；美国一公司招人遛机器狗：时薪20美元，不用铲屎但得扛狗回来",
+      "s": "要闻提示1.31岁女工程师猝死，其生前按ChatGPT指示减药，还被告知“完全没有必要担心”2.网友发视频称“医生用豆包…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/zaobao/ZWf8n2mgF0X5Rkfj.html"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,13 @@
       "t": "国家超算互联网调价：降低AI研发、调试成本",
       "s": "近日，国家超算互联网宣布最新价格调整，新用户可享DeepSeek-V4.1-Flash-1017、GLM-5.3-Fla…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T17:01",
-      "t": "豆包工作向企业客户开放配置三方模型",
-      "s": "为支持企业需求，豆包工作今日向客户开放三方大模型服务，首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSe…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html"
     }
   ],
   "timeline": [
+    [
+      "10-29 21:32",
+      "百度集团副总裁吴甜离职，知情人士称文心模型下周将有新进展"
+    ],
     [
       "10-29 21:06",
       "今日宜休发布行业首套弹性调休方案「好状态」计划：员工精力指数低于 60 分，可自主申请调休"
@@ -162,10 +166,6 @@
     [
       "10-29 20:29",
       "借钱搞 AI：消息称微软计划通过美国债券发行至少筹资 250 亿美元"
-    ],
-    [
-      "10-29 20:17",
-      "小米 REDMI K100 Pro Max 手机惊喜“现身”王腾今日宜休发布会"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308003,
+      "s": 308032,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306236,
+      "s": 306257,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292275,
+      "s": 292312,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226236,
+      "s": 226245,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184657,
+      "s": 184669,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153818,
+      "s": 153823,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143394,
+      "s": 143396,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138305,
+      "s": 138322,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115960,
+      "s": 115968,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111620,
+      "s": 111626,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
