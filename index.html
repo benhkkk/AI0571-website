@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-10-29T12:53', t:'AI裁员背后：消失的不只是工作，还有年轻人的机会', s:'企业用AI省下的人工成本已经写进财报，但裁员公告远远装不下这场变化。那些没有被招聘的人、逐渐消失的职业入口，以及技术收益…（来源：钛媒体）', u:'https://www.tmtpost.com/8185164.html'},
+    {c:'HOT', d:'2026-10-29T12:44', t:'人形机器人，要出大结果了', s:'AI正在长出手脚，美国的优势在于更聪明的大脑，中国则拥有最强最完善的身体。（来源：钛媒体）', u:'https://www.tmtpost.com/8185839.html'},
+    {c:'INDUSTRY', d:'2026-10-29T12:37', t:'摩尔线程单季扣非净利润首次转正，国产GPU生意走到哪一步了？', s:'从综合毛利率看，摩尔线程在国产AI芯片厂商中处于较高水平，2026年上半年，其综合毛利率为56.95%。（来源：钛媒体）', u:'https://www.tmtpost.com/8185837.html'},
     {c:'MODEL', d:'2026-10-29T12:24', t:'腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座', s:'在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。IT…（来源：IT之家）', u:'https://www.ithome.com/1/019/412.htm'},
     {c:'MODEL', d:'2026-10-29T12:01', t:'“智启未来·AI科普千校计划”滨州正式启动，开源中国捐赠 500 万教育服务资源', s:'10月28日，“智启未来 AI 科普千校计划（山东站）”公益项目在滨州正式启动。本次项目旨在推进人工智能教育普及，提升山…（来源：OSCHINA）', u:'https://www.oschina.net/news/503290'},
     {c:'MEDPHARMA', d:'2026-10-29T12:01', t:'AI制药进入“实战期”，产业创新与监管探索同步推进|BIO-FOR...', s:'AI制药进入“实战期”，产业创新与监管探索同步推进|BIO-FOR...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7701934885874844203/'},
@@ -470,10 +473,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-10-29T11:14', t:'七年变迁与终局推演：你刷手机的时间，2028年就到头了', s:'AI，是时间的吞噬者还是节省者？（来源：钛媒体）', u:'https://www.tmtpost.com/8185425.html'},
     {c:'MEDPHARMA', d:'2026-10-29T11:09', t:'药企的钱，开始往芯片和AI那边挪了', s:'钱变紧了，药也就没那么好投了。（来源：钛媒体）', u:'https://www.tmtpost.com/8185448.html'},
     {c:'MODEL', d:'2026-10-29T11:08', t:'巴慕达推出 AI 个性化电台“Good Morning Radio”，可根据用户生活习惯与兴趣生成 10 分钟每日播客', s:'巴慕达（BALMUDA）宣布推出 AI 个性化电台服务 BALMUDA Good Morning Radio，计划于 2…（来源：IT之家）', u:'https://www.ithome.com/1/019/368.htm'},
-    {c:'HOT', d:'2026-10-29T10:51', t:'“字节时间”之争：超级巨头的体量与边界', s:'字节跃升为AI时代中国互联网超级巨头，面临边界命题。（来源：钛媒体）', u:'https://www.tmtpost.com/8185156.html'},
     {c:'MODEL', d:'2026-10-29T10:49', t:'告别拖拉拽！敲敲云零代码上线 AI Skills：开源免费，一句话搭建 CRM、进销存、OA 系统', s:'零代码，为什么还是这么累？ 零代码平台喊了很多年 "人人都是开发者"，可真正上手过的人都知道：拖一个字段、点一下属性、再…（来源：OSCHINA）', u:'https://www.oschina.net/news/503285'},
-    {c:'HOT', d:'2026-10-29T10:47', t:'果链企业的AI时代', s:'在AI时代再做大一次。（来源：钛媒体）', u:'https://www.tmtpost.com/8185509.html'},
-    {c:'INDUSTRY', d:'2026-10-29T10:39', t:'AI芯片，逼近掩模极限', s:'先进封装正在逼近掩模尺寸极限，CoWoS-L与EMIB也由此展开新一轮竞争。（来源：钛媒体）', u:'https://www.tmtpost.com/8184899.html'},
     {c:'FUNDING', d:'2026-10-29T10:18', t:'韩芯片创企 FuriosaAI 挑战英伟达：新一轮融资后估值翻两番至 29 亿美元', s:'据彭博社 28 日报道，韩国 AI 芯片初创公司 FuriosaAI 完成新一轮融资，估值增至 29 亿美元（IT之家注…（来源：IT之家）', u:'https://www.ithome.com/1/019/329.htm'},
     {c:'MODEL', d:'2026-10-29T10:18', t:'首次引入视觉理解，腾讯混元 Hy4 、Hy4 flash AI 模型即将发布', s:'据科创板日报在腾讯全球数字生态大会上获悉，腾讯集团高级执行副总裁、云与智慧产业事业群 CEO 汤道生现场宣布，Hy4 即…（来源：IT之家）', u:'https://www.ithome.com/1/019/328.htm'},
     {c:'INDUSTRY', d:'2026-10-29T10:00', t:'上海：拟依法有序推动自动驾驶技术在出租汽车行业的应用', s:'近日，《上海市出租汽车条例》公开征求意见。其中提出，依法有序推动自动驾驶技术在出租汽车行业的安全应用。交通、公安等部门依…（来源：IT之家）', u:'https://www.ithome.com/1/019/319.htm'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-29T09:16', t:'首批风云卫星极端天气 AI 模型发布，27 秒就能生成台风“体检报告”', s:'据央视新闻报道，10 月 29 日，首批风云气象卫星极端天气人工智能模型在 2026 年风云卫星用户大会上正式发布，推动…（来源：IT之家）', u:'https://www.ithome.com/1/019/303.htm'},
   ];
   const TIMELINE = [
+    ['10-29 12:53','AI裁员背后：消失的不只是工作，还有年轻人的机会'],
+    ['10-29 12:44','人形机器人，要出大结果了'],
+    ['10-29 12:37','摩尔线程单季扣非净利润首次转正，国产GPU生意走到哪一步了？'],
     ['10-29 12:24','腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座'],
     ['10-29 12:01','“智启未来·AI科普千校计划”滨州正式启动，开源中国捐赠 500 万教育服务资源'],
     ['10-29 12:01','AI制药进入“实战期”，产业创新与监管探索同步推进|BIO-FOR...'],
-    ['10-29 11:58','部分 GPU 算力合同延期，微软下调 2026 年资本开支预期至 1700 亿美元'],
-    ['10-29 11:52','Anthropic 平台负责人：多 Agent 跑起来之后，还有四个工程难题无法解决'],
-    ['10-29 11:32','Optimus的第一份工作是插枪：人形机器人的主战场，从来不在工厂'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:307584, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:305884, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:291896, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226042, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184558, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153771, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:307599, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:305897, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:291911, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226048, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184562, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153772, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143360, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:137983, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115861, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111500, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:137996, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:115866, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111503, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

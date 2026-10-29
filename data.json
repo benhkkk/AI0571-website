@@ -1,6 +1,27 @@
 {
-  "updated": "2026-10-29T12:32:02",
+  "updated": "2026-10-29T13:01:46",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-29T12:53",
+      "t": "AI裁员背后：消失的不只是工作，还有年轻人的机会",
+      "s": "企业用AI省下的人工成本已经写进财报，但裁员公告远远装不下这场变化。那些没有被招聘的人、逐渐消失的职业入口，以及技术收益…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8185164.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-29T12:44",
+      "t": "人形机器人，要出大结果了",
+      "s": "AI正在长出手脚，美国的优势在于更聪明的大脑，中国则拥有最强最完善的身体。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8185839.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-29T12:37",
+      "t": "摩尔线程单季扣非净利润首次转正，国产GPU生意走到哪一步了？",
+      "s": "从综合毛利率看，摩尔线程在国产AI芯片厂商中处于较高水平，2026年上半年，其综合毛利率为56.95%。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8185837.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-29T12:24",
@@ -79,32 +100,11 @@
       "u": "https://www.ithome.com/1/019/368.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-29T10:51",
-      "t": "“字节时间”之争：超级巨头的体量与边界",
-      "s": "字节跃升为AI时代中国互联网超级巨头，面临边界命题。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8185156.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-29T10:49",
       "t": "告别拖拉拽！敲敲云零代码上线 AI Skills：开源免费，一句话搭建 CRM、进销存、OA 系统",
       "s": "零代码，为什么还是这么累？ 零代码平台喊了很多年 \"人人都是开发者\"，可真正上手过的人都知道：拖一个字段、点一下属性、再…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503285"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-29T10:47",
-      "t": "果链企业的AI时代",
-      "s": "在AI时代再做大一次。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8185509.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-29T10:39",
-      "t": "AI芯片，逼近掩模极限",
-      "s": "先进封装正在逼近掩模尺寸极限，CoWoS-L与EMIB也由此展开新一轮竞争。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8184899.html"
     },
     {
       "c": "FUNDING",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "10-29 12:53",
+      "AI裁员背后：消失的不只是工作，还有年轻人的机会"
+    ],
+    [
+      "10-29 12:44",
+      "人形机器人，要出大结果了"
+    ],
+    [
+      "10-29 12:37",
+      "摩尔线程单季扣非净利润首次转正，国产GPU生意走到哪一步了？"
+    ],
+    [
       "10-29 12:24",
       "腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座"
     ],
@@ -154,18 +166,6 @@
     [
       "10-29 12:01",
       "AI制药进入“实战期”，产业创新与监管探索同步推进|BIO-FOR..."
-    ],
-    [
-      "10-29 11:58",
-      "部分 GPU 算力合同延期，微软下调 2026 年资本开支预期至 1700 亿美元"
-    ],
-    [
-      "10-29 11:52",
-      "Anthropic 平台负责人：多 Agent 跑起来之后，还有四个工程难题无法解决"
-    ],
-    [
-      "10-29 11:32",
-      "Optimus的第一份工作是插枪：人形机器人的主战场，从来不在工厂"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307584,
+      "s": 307599,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 305884,
+      "s": 305897,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 291896,
+      "s": 291911,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226042,
+      "s": 226048,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184558,
+      "s": 184562,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153771,
+      "s": 153772,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 137983,
+      "s": 137996,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115861,
+      "s": 115866,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111500,
+      "s": 111503,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
