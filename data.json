@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-29T21:01:57",
+  "updated": "2026-10-29T21:31:14",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-29T21:06",
+      "t": "今日宜休发布行业首套弹性调休方案「好状态」计划：员工精力指数低于 60 分，可自主申请调休",
+      "s": "10 月 29 日现场消息，ISHO 今日宜休 AI 睡眠科技生态产品发布会已告一段落。今日宜休科技公司创始人王腾今晚发…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/757.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-29T20:54",
@@ -66,13 +73,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-29T19:34",
-      "t": "豆包工作向企业客户推出第三方模型服务：含 Kimi 3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等",
-      "s": "豆包工作今日宣布向企业客户开放第三方模型服务，首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSeek V…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/733.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-29T19:19",
       "t": "深兰科技联合华为，发布全球首款大模型智能体工作手机 Wowoker",
       "s": "10月29日，深兰科技举办新品发布会，正式推出全球首款大模型 AI 智能体工作手机 Wowoker。这是继豆包发布AI手…（来源：钛媒体）",
@@ -128,21 +128,25 @@
       "u": "https://www.oschina.net/news/503302"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-10-29T15:04",
-      "t": "对话英矽智能首席执行官任峰:AI制药进入下半场，科技巨头入...",
-      "s": "对话英矽智能首席执行官任峰:AI制药进入下半场，科技巨头入...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7701982051624419866/"
+      "c": "MODEL",
+      "d": "2026-10-29T17:03",
+      "t": "国家超算互联网调价：降低AI研发、调试成本",
+      "s": "近日，国家超算互联网宣布最新价格调整，新用户可享DeepSeek-V4.1-Flash-1017、GLM-5.3-Fla…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/tZQilZ5sagKCk1Sm.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-29T15:03",
-      "t": "不认字的 AI，却很会说话",
-      "s": "机器为什么不能先说话，再认字？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1686124?utm_source=rss&utm_medium=rss&utm_campaign="
+      "c": "MODEL",
+      "d": "2026-10-29T17:01",
+      "t": "豆包工作向企业客户开放配置三方模型",
+      "s": "为支持企业需求，豆包工作今日向客户开放三方大模型服务，首批将接入 Kimi 3.1 Pro、GLM 5.3、DeepSe…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/bMidAUlVn5zmruyD.html"
     }
   ],
   "timeline": [
+    [
+      "10-29 21:06",
+      "今日宜休发布行业首套弹性调休方案「好状态」计划：员工精力指数低于 60 分，可自主申请调休"
+    ],
     [
       "10-29 20:54",
       "王腾发布会公开向小米、雷军致谢：真心实意感激过往这段经历，学到许多"
@@ -162,10 +166,6 @@
     [
       "10-29 20:17",
       "小米 REDMI K100 Pro Max 手机惊喜“现身”王腾今日宜休发布会"
-    ],
-    [
-      "10-29 20:05",
-      "今日宜休 ISHO Ring 智能戒指发布：一体化机身内集成 116 个元器件，1799 元起"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 307973,
+      "s": 308003,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306225,
+      "s": 306236,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292254,
+      "s": 292275,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226226,
+      "s": 226236,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184652,
+      "s": 184657,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153816,
+      "s": 153818,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143392,
+      "s": 143394,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138280,
+      "s": 138305,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 115947,
+      "s": 115960,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111613,
+      "s": 111620,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
