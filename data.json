@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-30T07:31:47",
+  "updated": "2026-10-30T08:01:46",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-30T07:57",
+      "t": "IT早报 1030：华为制药军团称不做药定位 AI 赋能药企；国产游戏《影之刃零》首发登顶 Steam 全球畅销榜；谷歌盘中跌超 13% 创历史最大单日跌幅...",
+      "s": "“IT早报”时间，大家好，现在是 2026 年 10 月 30 日星期五，今天的重要科技资讯有：1. 华为制药军团总裁樊…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/839.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-30T07:22",
@@ -49,13 +56,6 @@
       "t": "华为制药军团总裁樊杰明确“华为不做药”，希望成为 AI 制药产业技术底座",
       "s": "据中国医药创新促进会分享，10 月 24 日，由该会与香港交易所主办的第十一届医药创新与投资大会在南京召开。华为制药军团…（来源：IT之家）",
       "u": "https://www.ithome.com/1/019/780.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T21:32",
-      "t": "百度集团副总裁吴甜离职，知情人士称文心模型下周将有新进展",
-      "s": "针对百度集团副总裁、百度研究院副院长吴甜离职的传闻，百度公关经理在朋友圈作出回应，确认吴甜已结束在百度的任职。她表示，百…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/769.htm"
     },
     {
       "c": "MODEL",
@@ -121,6 +121,13 @@
       "u": "https://www.oschina.net/news/503302"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-29T15:04",
+      "t": "对话英矽智能首席执行官任峰:AI制药进入下半场，科技巨头入...",
+      "s": "对话英矽智能首席执行官任峰:AI制药进入下半场，科技巨头入...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7701982051624419866/"
+    },
+    {
       "c": "HOT",
       "d": "2026-10-29T15:03",
       "t": "不认字的 AI，却很会说话",
@@ -133,16 +140,13 @@
       "t": "我只说了 15 句“哪里不对”，OpenAgents 就帮我做出了一个鹈鹕骑行 3D 游戏",
       "s": "我只说了15句“哪里不对”，OpenAgents就帮我做出了一个鹈鹕骑行3D游戏 本文所用的作品、全部渲染截图与制作过程…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503291"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T12:01",
-      "t": "“智启未来·AI科普千校计划”滨州正式启动，开源中国捐赠 500 万教育服务资源",
-      "s": "10月28日，“智启未来 AI 科普千校计划（山东站）”公益项目在滨州正式启动。本次项目旨在推进人工智能教育普及，提升山…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503290"
     }
   ],
   "timeline": [
+    [
+      "10-30 07:57",
+      "IT早报 1030：华为制药军团称不做药定位 AI 赋能药企；国产游戏《影之刃零》首发登顶 Steam 全球畅销榜；谷歌盘中跌超 13% 创历史最大单日跌幅..…"
+    ],
     [
       "10-30 07:22",
       "智元发布具身模型 GO-3 Preview：能做煎饼果子、在便利店上岗，登顶三大榜单"
@@ -162,10 +166,6 @@
     [
       "10-29 22:27",
       "月之暗面 Kimi 接入谷歌 Gmail、云端硬盘和日历"
-    ],
-    [
-      "10-29 22:27",
-      "微软发布自 2018 年以来最大 DirectX 光追升级：AMD RX 9070 示例性能提升约 66 倍"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308505,
+      "s": 308519,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306594,
+      "s": 306602,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292680,
+      "s": 292694,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226416,
+      "s": 226423,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184789,
+      "s": 184796,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153867,
+      "s": 153869,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143439,
+      "s": 143441,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138651,
+      "s": 138664,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116092,
+      "s": 116098,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111738,
+      "s": 111745,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
