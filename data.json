@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-30T09:04:27",
+  "updated": "2026-10-30T09:26:47",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-30T09:12",
+      "t": "星巴克考虑将 AI 技术引入得来速，提升点餐准确率与出餐速度",
+      "s": "据彭博社报道，星巴克公司正考虑在得来速车道引入人工智能技术。这家咖啡连锁品牌的首席执行官布莱恩 · 尼科尔（Brian …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/866.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-30T09:09",
+      "t": "Mistral AI 开放 Large 4 模型权重：1T 参数，编程智能体更省 Token",
+      "s": "当地时间 10 月 29 日，法国公司 Mistral AI 正式开放 Mistral Large 4（简称 ML4，代…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/019/865.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-10-30T08:52",
@@ -65,20 +79,6 @@
       "u": "https://www.ithome.com/1/019/843.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-10-30T07:57",
-      "t": "IT早报 1030：华为制药军团称不做药定位 AI 赋能药企；国产游戏《影之刃零》首发登顶 Steam 全球畅销榜；谷歌盘中跌超 13% 创历史最大单日跌幅...",
-      "s": "“IT早报”时间，大家好，现在是 2026 年 10 月 30 日星期五，今天的重要科技资讯有：1. 华为制药军团总裁樊…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/839.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-30T07:22",
-      "t": "智元发布具身模型 GO-3 Preview：能做煎饼果子、在便利店上岗，登顶三大榜单",
-      "s": "10 月 29 日，智元正式推出预训练 / 后训练 / 部署后实现全链路规模化学习的具身模型 —— GO-3 Previ…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/806.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-29T22:23",
       "t": "别再盯着 800 亿美元亏损了，Anthropic 的 AI 造 AI 已推进到 26%！",
@@ -107,6 +107,13 @@
       "u": "https://www.tmtpost.com/8186405.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-10-29T20:34",
+      "t": "VibeVoice-ASR-BitNet 实测：AIGCPanel 上 CPU 实时转写",
+      "s": "微软把语音识别模型从 4.62GB 压到 1.58GB，AIGCPanel 把它做成了一键运行包。 过去想在本地跑出能用…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503305"
+    },
+    {
       "c": "INDUSTRY",
       "d": "2026-10-29T19:53",
       "t": "长盈精密前三季度转亏0.66亿元，具身智能收入大增532%仍未撑起利润 | 看财报",
@@ -133,16 +140,17 @@
       "t": "钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？",
       "s": "申报通道已开启，可通过海报下方「立即自荐」提交（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8185865.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T18:45",
-      "t": "Agentic Cloud，阿里云如何接住模型之后的生意",
-      "s": "阿里云因此把能力建设延伸到模型训练与推理，智能体的构建与运行，以及企业数据的组织和使用，相比采购一项产品，企业得到的是一…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8182516.html"
     }
   ],
   "timeline": [
+    [
+      "10-30 09:12",
+      "星巴克考虑将 AI 技术引入得来速，提升点餐准确率与出餐速度"
+    ],
+    [
+      "10-30 09:09",
+      "Mistral AI 开放 Large 4 模型权重：1T 参数，编程智能体更省 Token"
+    ],
     [
       "10-30 08:52",
       "Omdia 预估 2027 年 AI PC 将占 60% 出货，69% 打工人愿为 AI 电脑多花钱"
@@ -158,14 +166,6 @@
     [
       "10-30 08:30",
       "闪迪公布强劲业绩，2027 财年第一财季营收 110 亿美元环比增长 23%"
-    ],
-    [
-      "10-30 08:29",
-      "刚刚，ChatGPT Pro 额度官宣翻倍，但免费重置可能要没了"
-    ],
-    [
-      "10-30 08:28",
-      "Edge AI Daily 早报（10月30日）"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308555,
+      "s": 308574,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306626,
+      "s": 306638,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292721,
+      "s": 292731,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226445,
+      "s": 226458,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184803,
+      "s": 184804,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138704,
+      "s": 138723,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116109,
+      "s": 116113,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111754,
+      "s": 111757,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
