@@ -459,12 +459,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-30T13:05', t:'当企业们都戴上AI的“帽子”', s:'理智与盲目跟风的区别（来源：钛媒体）', u:'https://www.tmtpost.com/8186955.html'},
+    {c:'HOT', d:'2026-10-30T13:05', t:'AI红利究竟被谁吃了？', s:'所有人都在等回报，但钱哪去了？（来源：钛媒体）', u:'https://www.tmtpost.com/8187355.html'},
     {c:'MODEL', d:'2026-10-30T12:38', t:'Meta 悄悄推出穿搭应用 Style Sketch：AI 帮你搭衣服，还能虚拟试穿', s:'Meta 悄悄推出了 AI 穿搭应用 Style Sketch，用户可以借助这款软件，利用自己已有的衣物搭配出穿搭方案…（来源：IT之家）', u:'https://www.ithome.com/1/020/029.htm'},
     {c:'FUNDING', d:'2026-10-30T12:28', t:'Anthropic上市前夜，大模型生意如何算账？', s:'一家模型公司的增长与代价（来源：钛媒体）', u:'https://www.tmtpost.com/8186936.html'},
     {c:'MODEL', d:'2026-10-30T12:25', t:'新研究称 AI 模型使用成本受不同语种影响，Token 消耗量最高可相差 17 倍', s:'使用人数较少的语言的用户，使用 AI 服务时，可能需要支付比英语及其他主流语言用户更高的费用。当地时间 28 日，据外媒…（来源：IT之家）', u:'https://www.ithome.com/1/020/026.htm'},
     {c:'HOT', d:'2026-10-30T11:58', t:'Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫', s:'Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。R…（来源：IT之家）', u:'https://www.ithome.com/1/019/988.htm'},
+    {c:'INDUSTRY', d:'2026-10-30T11:48', t:'从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径', s:'让机器人成为彼此的“老师”（来源：量子位）', u:'https://www.qbitai.com/2026/10/506662.html'},
     {c:'INDUSTRY', d:'2026-10-30T11:48', t:'禾赛的具身二胎', s:'具身行业不欢迎独生子。（来源：钛媒体）', u:'https://www.tmtpost.com/8186657.html'},
     {c:'HOT', d:'2026-10-30T11:48', t:'OpenAI健康板块负责人：AI医疗健康的上限和下限', s:'从救人到越界，只有一步之遥。（来源：钛媒体）', u:'https://www.tmtpost.com/8186695.html'},
+    {c:'MODEL', d:'2026-10-30T11:40', t:'前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位', s:'前排围观！MEET2027报名通道正式开启，首批重磅嘉宾已就位（来源：量子位）', u:'https://www.qbitai.com/2026/10/506609.html'},
     {c:'MODEL', d:'2026-10-30T11:19', t:'苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI', s:'Anthropic 官方 @claudeai 账号昨日（10 月 29 日）在 X 平台发布系列推文，宣布升级其移动应用…（来源：IT之家）', u:'https://www.ithome.com/1/019/966.htm'},
     {c:'MODEL', d:'2026-10-30T11:12', t:'Pico CSS 停止维护，作者解释称“AI 能直接生成它要做的事”', s:'Pico CSS 停在 v2.1.1 了。这个以"给语义化 HTML 用的极简 CSS 框架"出名的项目，在 GitHu…（来源：OSCHINA）', u:'https://www.oschina.net/news/503309'},
     {c:'MODEL', d:'2026-10-30T11:10', t:'推出不到两年，谷歌 AI 编程助手 Jules 将逐步停止服务', s:'谷歌正在逐步停用其人工智能编程助手 Jules。该公司于 2024 年 12 月推出了 Jules，将其定位为一款能完成…（来源：IT之家）', u:'https://www.ithome.com/1/019/963.htm'},
@@ -475,30 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-10-30T10:30', t:'谷歌暴跌、亚马逊失血、微软发债：AI 基建竞赛进入分水岭', s:'三大云巨头算力售罄排到 2028 年，却同时交出多年首见的负自由现金流，这一轮 AI 竞赛的分水岭，是市场开始只为回报付…（来源：钛媒体）', u:'https://www.tmtpost.com/8187079.html'},
     {c:'INDUSTRY', d:'2026-10-30T10:29', t:'AI 推理引爆全球 NAND 需求：闪迪称“客户低估闪存容量需求”，长单排至 2030 年', s:'在 2027 财年第一财季（2026 年 7 月 4 日至 2026 年 10 月 2 日）财报电话会议上，闪迪（San…（来源：IT之家）', u:'https://www.ithome.com/1/019/924.htm'},
     {c:'FUNDING', d:'2026-10-30T10:23', t:'科大讯飞回应高管薪资质疑：董事长、总裁主动降薪，双双少领超 2000 万', s:'近期有投资者就公司高管薪酬集体上涨与同行接轨等问题，在互动平台向科大讯飞提问：“2026 年集团高管集体涨薪依据是啥？是…（来源：IT之家）', u:'https://www.ithome.com/1/019/912.htm'},
-    {c:'HOT', d:'2026-10-30T10:18', t:'智元创新日：从卖机器人到卖Worken', s:'Worken（有效智能工时）＝活跃机器人数量 × 自主工作时长 × 产出效能比。（来源：钛媒体）', u:'https://www.tmtpost.com/8187159.html'},
-    {c:'MEDPHARMA', d:'2026-10-30T09:25', t:'只有一个人的制药公司，被Anthropic在IPO前收购了', s:'Anthropic也开始自己做药了。（来源：钛媒体）', u:'https://www.tmtpost.com/8186498.html'},
-    {c:'MODEL', d:'2026-10-30T08:29', t:'刚刚，ChatGPT Pro 额度官宣翻倍，但免费重置可能要没了', s:'Plus 用户：为我发声#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1686830?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'INDUSTRY', d:'2026-10-30T08:28', t:'Edge AI Daily 早报（10月30日）', s:'Alphabet第三季资本支出激增至514亿美元、自由现金流连续两季转负，单日市值蒸发约5000亿美元，与英特尔财报后暴…（来源：钛媒体）', u:'https://www.tmtpost.com/8187034.html'},
   ];
   const TIMELINE = [
+    ['10-30 13:05','当企业们都戴上AI的“帽子”'],
+    ['10-30 13:05','AI红利究竟被谁吃了？'],
     ['10-30 12:38','Meta 悄悄推出穿搭应用 Style Sketch：AI 帮你搭衣服，还能虚拟试穿'],
     ['10-30 12:28','Anthropic上市前夜，大模型生意如何算账？'],
     ['10-30 12:25','新研究称 AI 模型使用成本受不同语种影响，Token 消耗量最高可相差 17 倍'],
     ['10-30 11:58','Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫'],
-    ['10-30 11:48','禾赛的具身二胎'],
-    ['10-30 11:48','OpenAI健康板块负责人：AI医疗健康的上限和下限'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:308750, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306761, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292826, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226520, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184844, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:308770, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306766, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292836, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226529, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184848, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153892, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143455, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138846, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116150, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111794, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143456, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138861, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116151, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111796, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
