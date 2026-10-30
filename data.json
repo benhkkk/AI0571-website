@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-30T12:31:28",
+  "updated": "2026-10-30T13:02:38",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-30T12:38",
+      "t": "Meta 悄悄推出穿搭应用 Style Sketch：AI 帮你搭衣服，还能虚拟试穿",
+      "s": "Meta 悄悄推出了 AI 穿搭应用 Style Sketch，用户可以借助这款软件，利用自己已有的衣物搭配出穿搭方案…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/029.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-10-30T12:28",
@@ -73,6 +80,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-10-30T10:43",
+      "t": "瞬恒智能自研灵巧操作人形机器人SynDexy C1首次实现小批量交付",
+      "s": "今日，瞬恒智能（SynDexy）宣布，自研灵巧操作人形机器人SynDexy C1完成首次小批量交付，产品正式从研发验证迈…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/CLO1sIKJzw59DmrI.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-10-30T10:33",
       "t": "Anthropic赌万亿未来，智谱算眼前毛利，谁能活过AI下半场？",
       "s": "当大洋彼岸的Anthropic带着上万亿美元的估值预期叩响华尔街大门时，以智谱为代表的中国大模型厂商，正低头在财报里一分…（来源：钛媒体）",
@@ -107,13 +121,6 @@
       "u": "https://www.tmtpost.com/8187159.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-30T10:16",
-      "t": "OpenAI 更新 AI 模型规范，将忠于人类意图作为核心准则",
-      "s": "OpenAI 于当地时间周四更新了其模型规范（Model Spec）文档，这是一份用于明确其 AI 模型行为准则的公开路…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/019/898.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-10-30T09:25",
       "t": "只有一个人的制药公司，被Anthropic在IPO前收购了",
@@ -133,16 +140,13 @@
       "t": "Edge AI Daily 早报（10月30日）",
       "s": "Alphabet第三季资本支出激增至514亿美元、自由现金流连续两季转负，单日市值蒸发约5000亿美元，与英特尔财报后暴…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8187034.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-30T08:15",
-      "t": "Google 母集团市值蒸发 5000 亿美元创纪录；苹果高管回应新 iPad mini 60Hz 刷新率；因电池问题，理想 MEGA 退一赔一｜极客早知道",
-      "s": "谷歌市值创纪录蒸发 5000 亿美元 AI 侵蚀营收 Alphabet Inc 股价一度下跌逾 13%，市值蒸发逾 50…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373154"
     }
   ],
   "timeline": [
+    [
+      "10-30 12:38",
+      "Meta 悄悄推出穿搭应用 Style Sketch：AI 帮你搭衣服，还能虚拟试穿"
+    ],
     [
       "10-30 12:28",
       "Anthropic上市前夜，大模型生意如何算账？"
@@ -162,10 +166,6 @@
     [
       "10-30 11:48",
       "OpenAI健康板块负责人：AI医疗健康的上限和下限"
-    ],
-    [
-      "10-30 11:19",
-      "苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308732,
+      "s": 308750,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306742,
+      "s": 306761,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292812,
+      "s": 292826,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226513,
+      "s": 226520,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184838,
+      "s": 184844,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153889,
+      "s": 153892,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143452,
+      "s": 143455,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138828,
+      "s": 138846,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116144,
+      "s": 116150,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111789,
+      "s": 111794,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
