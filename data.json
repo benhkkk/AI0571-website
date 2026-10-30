@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-30T20:02:42",
+  "updated": "2026-10-30T20:31:34",
   "news": [
     {
       "c": "MODEL",
@@ -56,6 +56,13 @@
       "t": "DeepSeek千亿融资曝光：估值达6155亿元",
       "s": "DeepSeek的融资故事讲到这里，真正的考验也才刚刚开始。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8187857.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-30T18:55",
+      "t": "从“制造”到“智造”:新华医疗以AI驱动制药装备升级",
+      "s": "从“制造”到“智造”:新华医疗以AI驱动制药装备升级（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7702412691708723747/"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "科大讯飞董事长与总裁主动降薪，两人均少领超2000万；阿维塔回应会议视频被吐槽「演的太尬」：是摆拍，但事是真的；百度副总裁吴甜已离职",
       "s": "要闻提示1.科大讯飞回应高管薪资质疑：董事长与总裁主动降薪，两人均少领超2000万2.内部会议视频被吐槽演的太尬！阿维塔…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/zaobao/zRRabO7xif7QiyjK.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-30T16:30",
-      "t": "谁能成为中国AI制药之王?",
-      "s": "谁能成为中国AI制药之王?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7702375372343509530/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309084,
+      "s": 309100,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307009,
+      "s": 307028,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293043,
+      "s": 293055,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226644,
+      "s": 226645,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184948,
+      "s": 184963,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153920,
+      "s": 153919,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139103,
+      "s": 139119,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116221,
+      "s": 116228,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111869,
+      "s": 111877,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
