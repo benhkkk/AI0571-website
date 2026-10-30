@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-10-30T19:45', t:'极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元', s:'极空间官方今日宣布推出全新四盘位 AI NAS 产品 Z4Air，将于 20:00 正式开售，京东显示为 2099 元…（来源：IT之家）', u:'https://www.ithome.com/1/020/318.htm'},
     {c:'MODEL', d:'2026-10-30T19:25', t:'荣耀 MagicOS 系统 11 月升级预告发布：新增双卡信号堆叠、通透模式效果增强开关等', s:'荣耀产品维护与升级 @荣耀小芳哥 今日发布 MagicOS 系统 11 月升级预告。本月更新亮点包括：双卡信号堆叠、流畅…（来源：IT之家）', u:'https://www.ithome.com/1/020/312.htm'},
     {c:'MODEL', d:'2026-10-30T19:10', t:'聚力开源向实 赋能产业创新——2026 上海开源软件应用创新大赛总决赛暨创新增长大会圆满落幕', s:'10月29日至30日，2026上海开源软件应用创新大赛总决赛暨创新增长大会在上海张江人工智能创新小镇举行。本届大赛由开源…（来源：OSCHINA）', u:'https://www.oschina.net/news/503320'},
     {c:'FUNDING', d:'2026-10-30T19:01', t:'具身智能患上了焦虑症', s:'具身智能投资，正从狂热到冷静（来源：钛媒体）', u:'https://www.tmtpost.com/8187761.html'},
@@ -468,6 +469,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-10-30T18:56', t:'DeepSeek千亿融资曝光：估值达6155亿元', s:'DeepSeek的融资故事讲到这里，真正的考验也才刚刚开始。（来源：钛媒体）', u:'https://www.tmtpost.com/8187857.html'},
     {c:'HOT', d:'2026-10-30T17:59', t:'49999 元起，惠普战 99 Ultra 移动工作站 "Gorgon Halo" 版发售', s:'HP（惠普）即将于今晚 20:00 发售战 99 Ultra (ZHAN99 Ultra 16 G3a AI) 移动工作…（来源：IT之家）', u:'https://www.ithome.com/1/020/256.htm'},
     {c:'MEDDEVICE', d:'2026-10-30T17:53', t:'药监局新规落地!AI 辅助诊断拟划为 Ⅲ 类最高风险器械!', s:'药监局新规落地!AI 辅助诊断拟划为 Ⅲ 类最高风险器械!（来源：头条设备AI）', u:'https://www.toutiao.com/article/7702394949739807251/'},
+    {c:'MEDPHARMA', d:'2026-10-30T17:51', t:'在代谢酶网络里，默达生物找到了一个让坏细胞「吃不饱饭」的开关', s:'“相较于复杂的生物学预测，我们目前更看重AI在海量筛选方面的应用价值。” 作者丨周蕾 编辑丨岑峰 【编者按】被誉为"医药…（来源：雷锋网）', u:'https://www.leiphone.com/category/aihealth/zzOQHx9piL86TXHJ.html'},
     {c:'HOT', d:'2026-10-30T17:34', t:'Anthropic会成为人类历史上最值钱的公司吗？', s:'Anthropic会成为人类历史上最值钱的公司吗？（来源：钛媒体）', u:'https://www.tmtpost.com/8187623.html'},
     {c:'INDUSTRY', d:'2026-10-30T17:23', t:'AI 算力激增或致美国电力行业碳排放 5 年涨 42%，抵消 15 年减排成果', s:'Sierra Club 的一份最新分析显示，为满足数据中心用电需求而新建大量化石能源基础设施，可能会让美国电力行业 20…（来源：IT之家）', u:'https://www.ithome.com/1/020/232.htm'},
     {c:'MODEL', d:'2026-10-30T17:14', t:'豆包再次面向用户推出免费额度活动：累计签到 30 天可得 8800 额度、新用户免费领一个月订阅', s:'豆包宣布再次面向用户推出免费额度活动：所有用户每日签到即可获取更多额度，累计签到 30 天可得 8800 额度；新用户还…（来源：IT之家）', u:'https://www.ithome.com/1/020/224.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-30T16:50', t:'AI写的代码，人类来不及审：英伟达1.2万行代码优化Kimi K3，另开新战场？', s:'多数报道只关注 Kimi K3 提速 1.68 倍，却忽略 vLLM 博客关键警示：AI 生成推理代码已快到人类来不及逐…（来源：钛媒体）', u:'https://www.tmtpost.com/8184634.html'},
     {c:'HOT', d:'2026-10-30T16:42', t:'科大讯飞董事长与总裁主动降薪，两人均少领超2000万；阿维塔回应会议视频被吐槽「演的太尬」：是摆拍，但事是真的；百度副总裁吴甜已离职', s:'要闻提示1.科大讯飞回应高管薪资质疑：董事长与总裁主动降薪，两人均少领超2000万2.内部会议视频被吐槽演的太尬！阿维塔…（来源：雷锋网）', u:'https://www.leiphone.com/category/zaobao/zRRabO7xif7QiyjK.html'},
     {c:'MEDPHARMA', d:'2026-10-30T16:30', t:'谁能成为中国AI制药之王?', s:'谁能成为中国AI制药之王?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7702375372343509530/'},
-    {c:'MEDPHARMA', d:'2026-10-30T16:24', t:'Moderna总裁:AI制药最大的想象力是“一人一药”', s:'Moderna总裁:AI制药最大的想象力是“一人一药”（来源：头条医药AI）', u:'https://www.toutiao.com/article/7702373611428725263/'},
-    {c:'MODEL', d:'2026-10-30T16:13', t:'让触觉像视觉一样可规模化，哥大李昀烛团队 FlexiTac 的开源实践 | IROS 2026', s:'FlexiTac压阻式传感器可兼顾柔性、低成本与一致性。 作者丨向欣 编辑丨岑峰 机器人的视觉能力正快速增强，但触觉仍然…（来源：雷锋网）', u:'https://www.leiphone.com/category/robot/sRmmVes4DwBoIeRm.html'},
   ];
   const TIMELINE = [
+    ['10-30 19:45','极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元'],
     ['10-30 19:25','荣耀 MagicOS 系统 11 月升级预告发布：新增双卡信号堆叠、通透模式效果增强开关等'],
     ['10-30 19:10','聚力开源向实 赋能产业创新——2026 上海开源软件应用创新大赛总决赛暨创新增长大会圆满落幕'],
     ['10-30 19:01','具身智能患上了焦虑症'],
     ['10-30 19:00','跨境电商的AI真相：进入更易，胜出更难'],
     ['10-30 19:00','OpenAI又出数学大结果，陶哲轩：数学不该被AI“掠夺式开采”'],
-    ['10-30 18:56','DeepSeek 千亿融资名单曝光，国资占比从 2% 跳到 27%'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:309070, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306991, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:293031, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226635, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184934, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153921, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143475, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:139091, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:309084, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:307009, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:293043, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226644, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184948, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153920, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143477, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:139103, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116221, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111864, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111869, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
