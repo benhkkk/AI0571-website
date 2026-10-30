@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-30T09:26:47",
+  "updated": "2026-10-30T09:31:51",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-30T09:25",
+      "t": "只有一个人的制药公司，被Anthropic在IPO前收购了",
+      "s": "Anthropic也开始自己做药了。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8186498.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-30T09:12",
@@ -133,16 +140,13 @@
       "t": "深兰科技联合华为，发布全球首款大模型智能体工作手机 Wowoker",
       "s": "10月29日，深兰科技举办新品发布会，正式推出全球首款大模型 AI 智能体工作手机 Wowoker。这是继豆包发布AI手…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8186683.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-29T18:49",
-      "t": "钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？",
-      "s": "申报通道已开启，可通过海报下方「立即自荐」提交（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8185865.html"
     }
   ],
   "timeline": [
+    [
+      "10-30 09:25",
+      "只有一个人的制药公司，被Anthropic在IPO前收购了"
+    ],
     [
       "10-30 09:12",
       "星巴克考虑将 AI 技术引入得来速，提升点餐准确率与出餐速度"
@@ -162,10 +166,6 @@
     [
       "10-30 08:34",
       "OpenAI“服软”：ChatGPT Pro 订阅用量翻倍，取消 Pro 200 砍半计划"
-    ],
-    [
-      "10-30 08:30",
-      "闪迪公布强劲业绩，2027 财年第一财季营收 110 亿美元环比增长 23%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308574,
+      "s": 308580,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306638,
+      "s": 306640,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292731,
+      "s": 292733,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138723,
+      "s": 138729,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111757,
+      "s": 111759,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
