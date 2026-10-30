@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-31T07:02:15",
+  "updated": "2026-10-31T07:22:28",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-31T07:20",
+      "t": "可免费生成粤语歌，香港自研 AI 助手“港话通”推出 AI 音乐功能",
+      "s": "由香港生成式人工智能研发中心（HKGAI）研发的本地 AI 智能助理“港话通”（HKChat）于 10 月 30 日迎来…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/396.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-31T07:09",
+      "t": "OpenAI 称 ChatGPT 可自动终止表现出暴力执念的对话，并承诺定期发布社区安全报告",
+      "s": "OpenAI 于当地时间 10 月 30 日发布博文表示，维护社区安全始终是 OpenAI 的重中之重。其日常工作包括主…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/394.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-31T06:34",
@@ -49,13 +63,6 @@
       "t": "苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局",
       "s": "根据欧盟委员会网站最新公示，苹果公司今年早些时候收购了美国数据工程技术公司 Ascend.io。这笔交易涉及相关知识产权…（来源：IT之家）",
       "u": "https://www.ithome.com/1/020/354.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-30T21:15",
-      "t": "小米开源 0.8B 参数 OCR 小模型：打通文档解析与视觉问答，支持 Markdown 与 JSON 输出",
-      "s": "小米官方今日宣布开源轻量级文档理解模型 Xiaomi-OCR-0，模型权重与推理代码已同步上线 Hugging Face…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/346.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,17 @@
       "t": "沙钢接入千问办公，已将Agent落地核心业务场景",
       "s": "近日，江苏沙钢钢铁有限公司（以下简称“沙钢”）正式接入千问办公，已将Agent落地到电炉冶炼复盘、变压器状态评估、财务经…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/mxLii4LkfIz829iH.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-10-30T17:53",
-      "t": "药监局新规落地!AI 辅助诊断拟划为 Ⅲ 类最高风险器械!",
-      "s": "药监局新规落地!AI 辅助诊断拟划为 Ⅲ 类最高风险器械!（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7702394949739807251/"
     }
   ],
   "timeline": [
+    [
+      "10-31 07:20",
+      "可免费生成粤语歌，香港自研 AI 助手“港话通”推出 AI 音乐功能"
+    ],
+    [
+      "10-31 07:09",
+      "OpenAI 称 ChatGPT 可自动终止表现出暴力执念的对话，并承诺定期发布社区安全报告"
+    ],
     [
       "10-31 06:34",
       "iPhone 国行 AI 真的来了，千问成为 Siri 新搭档"
@@ -158,14 +166,6 @@
     [
       "10-30 22:04",
       "梦想不灭：开发者拒绝 Windows Phone 死亡，利用 AI 辅助为微软 Lumia 640 开发新应用"
-    ],
-    [
-      "10-30 21:50",
-      "奥尔特曼回应 AI 冲击：理解数学家的处境，但 OpenAI 不会停止研究"
-    ],
-    [
-      "10-30 21:43",
-      "地平线创始人余凯吐槽智驾芯片 PPT 算力虚标：英伟达按稠密算力两倍标，而业界已经吹到 6-7 倍"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309391,
+      "s": 309400,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307429,
+      "s": 307441,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293375,
+      "s": 293384,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226836,
+      "s": 226839,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185269,
+      "s": 185276,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153974,
+      "s": 153977,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139441,
+      "s": 139450,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116323,
+      "s": 116325,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111987,
+      "s": 111993,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
