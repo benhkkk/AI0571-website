@@ -1,6 +1,34 @@
 {
-  "updated": "2026-10-30T15:31:26",
+  "updated": "2026-10-30T16:02:01",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-30T15:54",
+      "t": "小红书全资拿下圆周旅迹，AI行程工具能补全种草闭环吗？",
+      "s": "不再只靠图文笔记承载信息，而是用 AI 把零散的 UGC 内容结构化、可执行化。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8186386.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-30T15:50",
+      "t": "DeepSeek 官网代码曝光 Cyber 网安独立模型：分企业版与个人版，小范围灰度中",
+      "s": "今日有大量开发者在 DeepSeek 官网的前端代码中发现了一组与“Cyber”网络安全模型相关的申请入口与接口逻辑。从…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/154.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-30T15:48",
+      "t": "曝印度 AI 企业 AM Intelligence 寻求 30 亿美元融资，用于订购英伟达芯片",
+      "s": "今天（30 日）上午，据彭博社援引知情人士消息称，印度 AI 基础设施企业 AM Intelligence 计划融资最多…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/152.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-30T15:42",
+      "t": "Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令",
+      "s": "据说是 Anthropic 的 AGI#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1686874?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "HOT",
       "d": "2026-10-30T15:10",
@@ -51,20 +79,6 @@
       "u": "https://www.ithome.com/1/020/083.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-30T14:17",
-      "t": "百度开源发布文心 Unlimited OCR 2 文档解析模型，支持“无限”页数",
-      "s": "百度 (Baidu) 本月 27 日正式发布并开源文心 Unlimited OCR 2 模型。其将文档解析的上限从数十页…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/061.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-30T14:12",
-      "t": "Qwenputer 问世：把 RISC-V CPU 指令集塞进模型，AI 算数不再靠外部工具",
-      "s": "开发者 Divyansh Agrawal 于 10 月 22 日发布实验性模型 Qwenputer，基于阿里 Qwen3…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/059.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-30T14:02",
       "t": "AI接管代码，程序员如何另寻出路？",
@@ -84,13 +98,6 @@
       "t": "Claude新模型曝光：新Fable，新Opus…",
       "s": "Claude新模型曝光：新Fable，新Opus…（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/506674.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-30T13:49",
-      "t": "TRAE 开发者个人助理，打响 AI Coding 的下半场",
-      "s": "作者｜Cynthia 编辑｜郑玄 过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒。 一句话…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373190"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,25 @@
       "t": "从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径",
       "s": "让机器人成为彼此的“老师”（来源：量子位）",
       "u": "https://www.qbitai.com/2026/10/506662.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-30T11:48",
-      "t": "禾赛的具身二胎",
-      "s": "具身行业不欢迎独生子。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8186657.html"
     }
   ],
   "timeline": [
+    [
+      "10-30 15:54",
+      "小红书全资拿下圆周旅迹，AI行程工具能补全种草闭环吗？"
+    ],
+    [
+      "10-30 15:50",
+      "DeepSeek 官网代码曝光 Cyber 网安独立模型：分企业版与个人版，小范围灰度中"
+    ],
+    [
+      "10-30 15:48",
+      "曝印度 AI 企业 AM Intelligence 寻求 30 亿美元融资，用于订购英伟达芯片"
+    ],
+    [
+      "10-30 15:42",
+      "Fable 5.5测试曝光，Claude每次回答后，还会执行一条你看不到的指令"
+    ],
     [
       "10-30 15:10",
       "乌克兰战场 AI 机枪炮塔投入实战，可精准拦截高速无人机"
@@ -150,22 +166,6 @@
     [
       "10-30 15:07",
       "【AI 智能运维平台】本周更新：全新上线 RUM 模块，从真实用户视角了解网站访问与使用体验"
-    ],
-    [
-      "10-30 14:59",
-      "曝 DeepSeek 第二轮融资 1055 亿元：估值 6155 亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo 等参与"
-    ],
-    [
-      "10-30 14:55",
-      "海信大圣“G5 PRO AI 款”27 英寸显示器上架：2K 200Hz，1299 元"
-    ],
-    [
-      "10-30 14:54",
-      "全球规模最大的编程问答网站 Stack Overflow 每月提问数暴跌，从 20 万个到现在不足 1000 个"
-    ],
-    [
-      "10-30 14:39",
-      "村田制作所计划五年投入 1 万亿日元，将 MLCC 电容销售额翻倍以满足 AI 需求"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 308879,
+      "s": 308915,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 306835,
+      "s": 306853,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 292904,
+      "s": 292915,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226567,
+      "s": 226577,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 184870,
+      "s": 184879,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143468,
+      "s": 143469,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 138948,
+      "s": 138963,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116177,
+      "s": 116179,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 111811,
+      "s": 111816,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
