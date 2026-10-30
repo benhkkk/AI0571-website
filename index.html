@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-30T11:58', t:'Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫', s:'Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。R…（来源：IT之家）', u:'https://www.ithome.com/1/019/988.htm'},
+    {c:'INDUSTRY', d:'2026-10-30T11:48', t:'禾赛的具身二胎', s:'具身行业不欢迎独生子。（来源：钛媒体）', u:'https://www.tmtpost.com/8186657.html'},
+    {c:'HOT', d:'2026-10-30T11:48', t:'OpenAI健康板块负责人：AI医疗健康的上限和下限', s:'从救人到越界，只有一步之遥。（来源：钛媒体）', u:'https://www.tmtpost.com/8186695.html'},
     {c:'MODEL', d:'2026-10-30T11:19', t:'苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI', s:'Anthropic 官方 @claudeai 账号昨日（10 月 29 日）在 X 平台发布系列推文，宣布升级其移动应用…（来源：IT之家）', u:'https://www.ithome.com/1/019/966.htm'},
     {c:'MODEL', d:'2026-10-30T11:12', t:'Pico CSS 停止维护，作者解释称“AI 能直接生成它要做的事”', s:'Pico CSS 停在 v2.1.1 了。这个以"给语义化 HTML 用的极简 CSS 框架"出名的项目，在 GitHu…（来源：OSCHINA）', u:'https://www.oschina.net/news/503309'},
     {c:'MODEL', d:'2026-10-30T11:10', t:'推出不到两年，谷歌 AI 编程助手 Jules 将逐步停止服务', s:'谷歌正在逐步停用其人工智能编程助手 Jules。该公司于 2024 年 12 月推出了 Jules，将其定位为一款能完成…（来源：IT之家）', u:'https://www.ithome.com/1/019/963.htm'},
@@ -472,33 +475,30 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-30T10:16', t:'OpenAI 更新 AI 模型规范，将忠于人类意图作为核心准则', s:'OpenAI 于当地时间周四更新了其模型规范（Model Spec）文档，这是一份用于明确其 AI 模型行为准则的公开路…（来源：IT之家）', u:'https://www.ithome.com/1/019/898.htm'},
     {c:'MODEL', d:'2026-10-30T09:41', t:'谷歌 Gemini 升级：生成的文档、表格可在聊天中直接修改', s:'现在用户可以直接在谷歌 Gemini 内生成、预览并编辑 PDF、谷歌文档、谷歌表格、幻灯片、Markdown 文件、T…（来源：IT之家）', u:'https://www.ithome.com/1/019/878.htm'},
     {c:'MEDPHARMA', d:'2026-10-30T09:25', t:'只有一个人的制药公司，被Anthropic在IPO前收购了', s:'Anthropic也开始自己做药了。（来源：钛媒体）', u:'https://www.tmtpost.com/8186498.html'},
-    {c:'HOT', d:'2026-10-30T09:12', t:'星巴克考虑将 AI 技术引入得来速，提升点餐准确率与出餐速度', s:'据彭博社报道，星巴克公司正考虑在得来速车道引入人工智能技术。这家咖啡连锁品牌的首席执行官布莱恩 · 尼科尔（Brian …（来源：IT之家）', u:'https://www.ithome.com/1/019/866.htm'},
     {c:'MODEL', d:'2026-10-30T08:29', t:'刚刚，ChatGPT Pro 额度官宣翻倍，但免费重置可能要没了', s:'Plus 用户：为我发声#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1686830?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'INDUSTRY', d:'2026-10-30T08:28', t:'Edge AI Daily 早报（10月30日）', s:'Alphabet第三季资本支出激增至514亿美元、自由现金流连续两季转负，单日市值蒸发约5000亿美元，与英特尔财报后暴…（来源：钛媒体）', u:'https://www.tmtpost.com/8187034.html'},
-    {c:'INDUSTRY', d:'2026-10-30T08:15', t:'Google 母集团市值蒸发 5000 亿美元创纪录；苹果高管回应新 iPad mini 60Hz 刷新率；因电池问题，理想 MEGA 退一赔一｜极客早知道', s:'谷歌市值创纪录蒸发 5000 亿美元 AI 侵蚀营收 Alphabet Inc 股价一度下跌逾 13%，市值蒸发逾 50…（来源：极客公园）', u:'http://www.geekpark.net/news/373154'},
     {c:'MEDPHARMA', d:'2026-10-30T00:01', t:'AI制药进入临床候选的药物比例仅10%，发展瓶颈在哪?对话百图...', s:'AI制药进入临床候选的药物比例仅10%，发展瓶颈在哪?对话百图...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7702120413748314658/'},
     {c:'HOT', d:'2026-10-29T22:23', t:'别再盯着 800 亿美元亏损了，Anthropic 的 AI 造 AI 已推进到 26%！', s:'AI 已接管 90% 代码编写，甚至为了完成任务开始“越狱”。 作者丨郑佳美 编辑丨岑 峰 刚刚，Anthropic 在…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/t2cIBqBZVfpYPhPg.html'},
     {c:'MODEL', d:'2026-10-29T22:22', t:'拉爆游戏引擎？深度拆解 Genie 4，从视频生成到世界控制，Google 要跨越什么？', s:'动态条件注入、因果核验与异步协作的三大技术挑战，暴露出哪些致命的技术死角？ 作者丨郑佳美 编辑丨岑 峰 刚刚，Googl…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/F3FpQlhpT7u7ekyU.html'},
   ];
   const TIMELINE = [
+    ['10-30 11:58','Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫'],
+    ['10-30 11:48','禾赛的具身二胎'],
+    ['10-30 11:48','OpenAI健康板块负责人：AI医疗健康的上限和下限'],
     ['10-30 11:19','苹果 CarPlay 现接入 Claude，用户开车也能语音问 AI'],
     ['10-30 11:12','Pico CSS 停止维护，作者解释称“AI 能直接生成它要做的事”'],
     ['10-30 11:10','推出不到两年，谷歌 AI 编程助手 Jules 将逐步停止服务'],
-    ['10-30 10:59','豪掷 7500 亿美元押注 AI 遇挑战，美国科技巨头核心业务增速放缓'],
-    ['10-30 10:57','MiniMax Code 团队把自己每天用的 16 个 Agent 技能开源了'],
-    ['10-30 10:33','Anthropic赌万亿未来，智谱算眼前毛利，谁能活过AI下半场？'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:308692, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306708, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292784, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226499, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184825, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153878, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143446, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138791, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116131, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111776, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:308712, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306729, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292795, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226509, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184829, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153888, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143449, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138816, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116138, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111785, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
