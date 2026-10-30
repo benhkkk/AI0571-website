@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-10-30T15:10', t:'乌克兰战场 AI 机枪炮塔投入实战，可精准拦截高速无人机', s:'据 Business Insider 报道，乌克兰正在战场上使用由人工智能控制的机枪炮塔，实战效果良好，基辅方面希望加快…（来源：IT之家）', u:'https://www.ithome.com/1/020/131.htm'},
+    {c:'MODEL', d:'2026-10-30T15:07', t:'【AI 智能运维平台】本周更新：全新上线 RUM 模块，从真实用户视角了解网站访问与使用体验', s:'Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）', u:'https://www.oschina.net/news/503312'},
     {c:'FUNDING', d:'2026-10-30T14:59', t:'曝 DeepSeek 第二轮融资 1055 亿元：估值 6155 亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo 等参与', s:'《The Information》今日曝光了 DeepSeek 第二轮融资规模及部分投资方名单。最早是在当地时间 10 …（来源：IT之家）', u:'https://www.ithome.com/1/020/121.htm'},
     {c:'HOT', d:'2026-10-30T14:55', t:'海信大圣“G5 PRO AI 款”27 英寸显示器上架：2K 200Hz，1299 元', s:'海信现已在京东上架“海信大圣 G5 PRO AI 款”显示器，该机主打 2K 200Hz，定价为 1299 元，部分地区…（来源：IT之家）', u:'https://www.ithome.com/1/020/115.htm'},
     {c:'HOT', d:'2026-10-30T14:54', t:'全球规模最大的编程问答网站 Stack Overflow 每月提问数暴跌，从 20 万个到现在不足 1000 个', s:'本周 Hacker News 的一条讨论帖称，全球规模最大的编程问答网站 Stack Overflow 在 AI 工具面…（来源：IT之家）', u:'https://www.ithome.com/1/020/114.htm'},
@@ -468,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-30T14:12', t:'Qwenputer 问世：把 RISC-V CPU 指令集塞进模型，AI 算数不再靠外部工具', s:'开发者 Divyansh Agrawal 于 10 月 22 日发布实验性模型 Qwenputer，基于阿里 Qwen3…（来源：IT之家）', u:'https://www.ithome.com/1/020/059.htm'},
     {c:'HOT', d:'2026-10-30T14:02', t:'AI接管代码，程序员如何另寻出路？', s:'超过四分之一的程序员正在考虑换工作。（来源：钛媒体）', u:'https://www.tmtpost.com/8187429.html'},
     {c:'MODEL', d:'2026-10-30T13:52', t:'RSI立大功！国产开源登顶全球第一，1.3B OXR重塑OCR', s:'解析一切（来源：量子位）', u:'https://www.qbitai.com/2026/10/506686.html'},
-    {c:'MODEL', d:'2026-10-30T13:51', t:'告别知识截止日：谷歌让 AI 学会“睡觉”，边用边学还不忘旧知识', s:'谷歌研究团队于 10 月 27 日发布博文，介绍一项名为“睡眠框架”（Sleep Framework）的持续学习研究成果…（来源：IT之家）', u:'https://www.ithome.com/1/020/044.htm'},
     {c:'MODEL', d:'2026-10-30T13:50', t:'Claude新模型曝光：新Fable，新Opus…', s:'Claude新模型曝光：新Fable，新Opus…（来源：量子位）', u:'https://www.qbitai.com/2026/10/506674.html'},
     {c:'MODEL', d:'2026-10-30T13:49', t:'TRAE 开发者个人助理，打响 AI Coding 的下半场', s:'作者｜Cynthia 编辑｜郑玄 过去两年，AI Coding 最令人兴奋的时刻，大基本止步于代码生成的那一秒。 一句话…（来源：极客公园）', u:'http://www.geekpark.net/news/373190'},
     {c:'MODEL', d:'2026-10-30T13:33', t:'从个人提效到组织生产力：腾讯的上下文解法', s:'企业落地Agent最大的问题，不是模型不够强，而是断点太多。（来源：钛媒体）', u:'https://www.tmtpost.com/8187338.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-30T12:18', t:'阿里云发布新版飞天企业版，支持海外客户升级企业级AI能力', s:'阿里云在国际云栖大会上发布面向国际市场的新版飞天企业版（Apsara Stack International v3.18…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/52mMRkhA2aqlY1FL.html'},
     {c:'INDUSTRY', d:'2026-10-30T11:48', t:'从学习人类到学习机器人同伴，清华大学联合无问芯穹、智元提出具身智能规模化落地新路径', s:'让机器人成为彼此的“老师”（来源：量子位）', u:'https://www.qbitai.com/2026/10/506662.html'},
     {c:'INDUSTRY', d:'2026-10-30T11:48', t:'禾赛的具身二胎', s:'具身行业不欢迎独生子。（来源：钛媒体）', u:'https://www.tmtpost.com/8186657.html'},
-    {c:'HOT', d:'2026-10-30T11:48', t:'OpenAI健康板块负责人：AI医疗健康的上限和下限', s:'从救人到越界，只有一步之遥。（来源：钛媒体）', u:'https://www.tmtpost.com/8186695.html'},
   ];
   const TIMELINE = [
+    ['10-30 15:10','乌克兰战场 AI 机枪炮塔投入实战，可精准拦截高速无人机'],
+    ['10-30 15:07','【AI 智能运维平台】本周更新：全新上线 RUM 模块，从真实用户视角了解网站访问与使用体验'],
     ['10-30 14:59','曝 DeepSeek 第二轮融资 1055 亿元：估值 6155 亿元，腾讯、宁德时代、长鑫存储、中芯国际、美团、vivo 等参与'],
     ['10-30 14:55','海信大圣“G5 PRO AI 款”27 英寸显示器上架：2K 200Hz，1299 元'],
     ['10-30 14:54','全球规模最大的编程问答网站 Stack Overflow 每月提问数暴跌，从 20 万个到现在不足 1000 个'],
     ['10-30 14:39','村田制作所计划五年投入 1 万亿日元，将 MLCC 电容销售额翻倍以满足 AI 需求'],
-    ['10-30 14:33','AI 悄悄“带偏”专家：研究显示人类可能把机器观点误认为自己的判断'],
-    ['10-30 14:17','百度开源发布文心 Unlimited OCR 2 文档解析模型，支持“无限”页数'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:308855, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306808, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292887, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226555, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184863, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153898, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143464, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138928, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116172, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111810, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:308872, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:306828, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:292898, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226567, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:184869, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153899, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143467, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:138943, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116175, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:111811, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
