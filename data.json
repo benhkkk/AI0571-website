@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-31T17:31:49",
+  "updated": "2026-10-31T18:01:34",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-10-31T17:31",
+      "t": "理想 AI 眼镜 Livis 10 月 OTA 升级，个人 Agent 新增接入 Hermes",
+      "s": "理想汽车今日宣布理想 AI 眼镜 Livis 10 月 OTA 重磅升级，运动健康分析报告进一步提升；视觉问答独家接入小…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/553.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-31T17:09",
@@ -58,13 +65,6 @@
       "u": "https://www.ithome.com/1/020/470.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-31T13:36",
-      "t": "11 小时影响约 5000 开发者：AI 编程工具 Cursor 官方商城出现恶意 Claude Code 插件",
-      "s": "科技媒体 bleepingcomputer 昨日（10 月 30 日）发布博文，报道称 AI 编程工具 Cursor 的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/466.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-31T13:17",
       "t": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
@@ -100,13 +100,6 @@
       "u": "https://www.tmtpost.com/8188331.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-10-31T11:31",
-      "t": "智能驾驶进入物理AI时代？7位行业嘉宾给出最新判断",
-      "s": "10月26日，第八届智能驾驶大会暨2026环秀湖物理AI产业发展推介会在苏州相城举行。上一届，车路云一体化、智能驾驶出海…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-31T11:11",
       "t": "摩尔线程2026年三季报点评｜公司点评",
@@ -114,18 +107,18 @@
       "u": "https://www.tmtpost.com/8188359.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-10-31T10:34",
+      "t": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升",
+      "s": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7702654763107680818/"
+    },
+    {
       "c": "FUNDING",
       "d": "2026-10-31T08:14",
       "t": "早报｜iPhone国行AI官宣！千问接入Siri/DeepSeek千亿融资曝光/于东来建议支持「消费入座」",
       "s": "· 特斯拉推出 5 年零息方案，Model 3 / Y 首付 3.99 万元起 · 开发者在 Surface Duo 2…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1686979?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-31T08:03",
-      "t": "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道",
-      "s": "国行 Apple 智能确定上线时间：11 月开放测试，千问接入 Siri 10 月 31 日，苹果宣布，国行 Apple…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373220"
     },
     {
       "c": "HOT",
@@ -140,9 +133,20 @@
       "t": "汽车工业的下一条流水线，开始由 AI 来安排",
       "s": "从司机乘客，到汽车工厂，再到整个产业。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1686953?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-30T20:58",
+      "t": "榜一，拿来吧你！智元这波双模型杀穿多榜榜单",
+      "s": "xs，还要给机器人打绩效（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/506819.html"
     }
   ],
   "timeline": [
+    [
+      "10-31 17:31",
+      "理想 AI 眼镜 Livis 10 月 OTA 升级，个人 Agent 新增接入 Hermes"
+    ],
     [
       "10-31 17:09",
       "押注睡着的8小时，前小米王腾闯入千亿AI睡眠赛道"
@@ -162,10 +166,6 @@
     [
       "10-31 14:54",
       "AI 热潮降温？消息称 OpenAI 最新融资目标缩水 100 亿美元，降幅 33%"
-    ],
-    [
-      "10-31 14:40",
-      "OpenCode 启动 Cheepseek 第四阶段：10 美元订阅享 100 美元 DeepSeek V4.1 Flash 额度"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309654,
+      "s": 309662,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307760,
+      "s": 307775,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293620,
+      "s": 293634,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227086,
+      "s": 227098,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185594,
+      "s": 185619,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154010,
+      "s": 154011,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143550,
+      "s": 143552,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139675,
+      "s": 139705,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116409,
+      "s": 116412,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112069,
+      "s": 112075,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
