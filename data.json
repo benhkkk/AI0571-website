@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-01T06:38:56",
+  "updated": "2026-11-01T07:02:54",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-01T06:56",
+      "t": "美国白宫科学与技术顾问会议主席：Anthropic 很可能成为资本主义历史最伟大企业",
+      "s": "美国白宫科学与技术顾问会议主席戴维 · 奥利弗 · 萨克斯（David Oliver Sacks）最近出席 All-In…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/633.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-10-31T23:56",
@@ -35,6 +42,13 @@
       "t": "上汽荣威家越 07 明日开启全国交付：首搭豆包座舱助手，限时权益价 11.98 万元起",
       "s": "上汽集团宣布荣威家越 07 将于 11 月 1 日开启全国交付。荣威家越 07 于 10 月 23 日上市，包含四款车型…（来源：IT之家）",
       "u": "https://www.ithome.com/1/020/618.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-31T21:49",
+      "t": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "s": "AI已经自己找到Bug并提交PR（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/506904.html"
     },
     {
       "c": "FUNDING",
@@ -77,13 +91,6 @@
       "t": "老干妈给所有想用AI的企业“上”了一课",
       "s": "情绪宣泄，究竟能改变什么？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8188545.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-31T20:13",
-      "t": "无界动力与京东达成战略合作，机器人 K15 上岗七鲜咖啡",
-      "s": "10 月 31 日，无界动力宣布与京东正式签署战略合作协议，围绕零售场景应用、商业化平台与生态渠道、产业资源协同等多个维…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/598.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,13 @@
       "t": "从“懂回答”到“能执行”：Zoho如何让AI走进企业业务",
       "s": "10月20日，在以“助力中国企业全球化成长”为主题的Zoho北京媒体沟通会上， Zoho不仅向外界展示了其最新的企业级A…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/00recUTGoMQ1JRh4.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-31T13:17",
-      "t": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
-      "s": "苹果“牛奶倒河里”式操作翻红（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/506884.html"
     }
   ],
   "timeline": [
+    [
+      "11-01 06:56",
+      "美国白宫科学与技术顾问会议主席：Anthropic 很可能成为资本主义历史最伟大企业"
+    ],
     [
       "10-31 23:56",
       "AI 基建掀起军备竞赛：微软、谷歌、甲骨文等巨头承诺投入超 3 万亿美元"
@@ -162,10 +166,6 @@
     [
       "10-31 21:55",
       "上汽荣威家越 07 明日开启全国交付：首搭豆包座舱助手，限时权益价 11.98 万元起"
-    ],
-    [
-      "10-31 21:46",
-      "数据显示，“存储五巨头”上季度营业利润及净利总额首超美国科技五巨头"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310020,
+      "s": 310029,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308312,
+      "s": 308326,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294020,
+      "s": 294027,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227459,
+      "s": 227468,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185844,
+      "s": 185858,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154083,
+      "s": 154086,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143595,
+      "s": 143597,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140004,
+      "s": 140009,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112228,
+      "s": 112238,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
