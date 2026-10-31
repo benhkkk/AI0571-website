@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-31T22:31:16",
+  "updated": "2026-10-31T23:01:30",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-31T22:53",
+      "t": "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山",
+      "s": "当地时间 30 日。据美国 CNBC 报道，鸿海计划进一步扩大 AI 服务器业务，并加大在美国的生产布局。董事长刘扬伟表…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/627.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-31T21:59",
@@ -86,13 +93,6 @@
       "u": "https://www.tmtpost.com/8188470.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-10-31T19:57",
-      "t": "号称全球首创：香港公司 Arrowmax 推出 AI 电动螺丝刀 S1，能用摄像头识别螺丝类型",
-      "s": "据外媒 TechSpot 今天（31 日）晚间报道，香港工具品牌 Arrowmax 在 Kickstarter 推出了一…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/593.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-10-31T19:57",
       "t": "预测失效的那刻，存储行业撞见物理AI的边界",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "10-31 22:53",
+      "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山"
+    ],
+    [
       "10-31 21:59",
       "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活"
     ],
@@ -162,10 +166,6 @@
     [
       "10-31 21:36",
       "DeepSeek 提出 Super-agent 架构设计：Router 与 Worker 双层架构，探索更自主的 Agent 系统"
-    ],
-    [
-      "10-31 21:15",
-      "透视A股三季报：AI算力领跑，材料量价齐升，地产和消费寻底｜看财报"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309794,
+      "s": 309812,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307979,
+      "s": 308005,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293756,
+      "s": 293772,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227246,
+      "s": 227265,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185736,
+      "s": 185746,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154033,
+      "s": 154037,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143560,
+      "s": 143564,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139827,
+      "s": 139834,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116456,
+      "s": 116463,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112111,
+      "s": 112117,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
