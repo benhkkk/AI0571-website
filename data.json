@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-31T09:31:26",
+  "updated": "2026-10-31T10:02:20",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-10-31T09:36",
+      "t": "Edge AI Daily 早报（10月31日）",
+      "s": "谷歌单日暴跌12.6%，四大云厂商2026年AI资本支出约7500亿美元、自由现金流集体转负，CDS利差与债务风险同步重…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8188149.html"
+    },
     {
       "c": "HOT",
       "d": "2026-10-31T08:59",
@@ -94,24 +101,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-10-30T19:32",
-      "t": "一天造300万个沙盒，10万张卡自己写系统：2026年国产 RSI 到底有多野？",
-      "s": "国产 RSI 的真实水位：没人敢真动模型权重，但所有人都在改 \"造 AI 的机器\"。 作者丨高允毅 编辑丨岑 峰 RSI…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/UIbgVZxTjEoMswaE.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-10-30T19:10",
       "t": "聚力开源向实 赋能产业创新——2026 上海开源软件应用创新大赛总决赛暨创新增长大会圆满落幕",
       "s": "10月29日至30日，2026上海开源软件应用创新大赛总决赛暨创新增长大会在上海张江人工智能创新小镇举行。本届大赛由开源…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503320"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-30T19:08",
-      "t": "全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州",
-      "s": "产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨幸丽娟 编辑丨岑 峰 训练一个可用的具身智能模型，需要千万…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html"
     },
     {
       "c": "FUNDING",
@@ -140,9 +133,20 @@
       "t": "DeepSeek 千亿融资名单曝光，国资占比从 2% 跳到 27%",
       "s": "DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503318"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-30T18:56",
+      "t": "DeepSeek千亿融资曝光：估值达6155亿元",
+      "s": "DeepSeek的融资故事讲到这里，真正的考验也才刚刚开始。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8187857.html"
     }
   ],
   "timeline": [
+    [
+      "10-31 09:36",
+      "Edge AI Daily 早报（10月31日）"
+    ],
     [
       "10-31 08:59",
       "揭露“女版乔布斯”骗局的人警告：AI 热潮或催生下一个 Theranos"
@@ -162,10 +166,6 @@
     [
       "10-31 08:14",
       "早报｜iPhone国行AI官宣！千问接入Siri/DeepSeek千亿融资曝光/于东来建议支持「消费入座」"
-    ],
-    [
-      "10-31 08:03",
-      "苹果官宣 Apple 智能接入阿里千问；DeepSeek 完成第二轮 1055 亿元融资，估值达 6155 亿元；英特尔股价开盘跌超 30%｜极客早知道"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309450,
+      "s": 309464,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307500,
+      "s": 307516,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293424,
+      "s": 293436,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226877,
+      "s": 226891,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185335,
+      "s": 185351,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153985,
+      "s": 153986,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143520,
+      "s": 143521,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139490,
+      "s": 139504,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116336,
+      "s": 116339,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112009,
+      "s": 112013,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
