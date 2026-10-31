@@ -461,6 +461,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const NEWS = [
     {c:'FUNDING', d:'2026-10-31T11:25', t:'Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节', s:'Anthropic 近日提交 IPO 招股文件，有望成为人类史上最大 IPO。据彭博社今日报道，招股文件显示，Anthr…（来源：IT之家）', u:'https://www.ithome.com/1/020/444.htm'},
     {c:'HOT', d:'2026-10-31T11:11', t:'摩尔线程2026年三季报点评｜公司点评', s:'尽管公司在人工智能产业的强劲需求下实现了高速增长，但持续的现金流出与存货激增，已成为制约其估值与经营稳健性的关键因素。（来源：钛媒体）', u:'https://www.tmtpost.com/8188359.html'},
+    {c:'MEDPHARMA', d:'2026-10-31T10:34', t:'深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升', s:'深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升（来源：头条医药AI）', u:'https://www.toutiao.com/article/7702654763107680818/'},
     {c:'HOT', d:'2026-10-31T10:10', t:'快充红利耗尽，氮化镓能跟上AI浪潮吗', s:'转型之路同时面临技术、可靠性、商业化的多重考验。（来源：钛媒体）', u:'https://www.tmtpost.com/8187765.html'},
     {c:'HOT', d:'2026-10-31T08:59', t:'揭露“女版乔布斯”骗局的人警告：AI 热潮或催生下一个 Theranos', s:'北京时间 10 月 31 日，曾参与揭露美国血液检测公司 Theranos 造假丑闻的泰勒 · 舒尔茨（Tyler Sh…（来源：IT之家）', u:'https://www.ithome.com/1/020/415.htm'},
     {c:'MODEL', d:'2026-10-31T08:33', t:'绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验', s:'《连线》（Wired）昨日（10 月 30 日）发布博文，采访了苹果现任首席执行官约翰 · 特努斯（John Ternu…（来源：IT之家）', u:'https://www.ithome.com/1/020/409.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-10-30T19:10', t:'聚力开源向实 赋能产业创新——2026 上海开源软件应用创新大赛总决赛暨创新增长大会圆满落幕', s:'10月29日至30日，2026上海开源软件应用创新大赛总决赛暨创新增长大会在上海张江人工智能创新小镇举行。本届大赛由开源…（来源：OSCHINA）', u:'https://www.oschina.net/news/503320'},
     {c:'MODEL', d:'2026-10-30T19:08', t:'全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州', s:'产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨幸丽娟 编辑丨岑 峰 训练一个可用的具身智能模型，需要千万…（来源：雷锋网）', u:'https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html'},
     {c:'FUNDING', d:'2026-10-30T18:56', t:'DeepSeek 千亿融资名单曝光，国资占比从 2% 跳到 27%', s:'DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资…（来源：OSCHINA）', u:'https://www.oschina.net/news/503318'},
-    {c:'MEDPHARMA', d:'2026-10-30T18:55', t:'从“制造”到“智造”:新华医疗以AI驱动制药装备升级', s:'从“制造”到“智造”:新华医疗以AI驱动制药装备升级（来源：头条医药AI）', u:'https://www.toutiao.com/article/7702412691708723747/'},
   ];
   const TIMELINE = [
     ['10-31 11:25','Anthropic 未来“隐性债务”规模近 9000 亿美元，人类史上最大 IPO 招股文件暗藏细节'],
     ['10-31 11:11','摩尔线程2026年三季报点评｜公司点评'],
+    ['10-31 10:34','深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升'],
     ['10-31 10:10','快充红利耗尽，氮化镓能跟上AI浪潮吗'],
     ['10-31 08:59','揭露“女版乔布斯”骗局的人警告：AI 热潮或催生下一个 Theranos'],
     ['10-31 08:33','绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验'],
-    ['10-31 08:27','消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:309497, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:307562, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:293460, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226921, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:185401, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:309510, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:307585, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:293474, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:226932, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:185412, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:153993, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143524, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:139534, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116348, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112018, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143527, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:139548, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116353, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112027, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

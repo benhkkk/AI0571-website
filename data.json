@@ -1,5 +1,5 @@
 {
-  "updated": "2026-10-31T11:31:38",
+  "updated": "2026-10-31T12:02:17",
   "news": [
     {
       "c": "FUNDING",
@@ -14,6 +14,13 @@
       "t": "摩尔线程2026年三季报点评｜公司点评",
       "s": "尽管公司在人工智能产业的强劲需求下实现了高速增长，但持续的现金流出与存货激增，已成为制约其估值与经营稳健性的关键因素。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8188359.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-31T10:34",
+      "t": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升",
+      "s": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7702654763107680818/"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "DeepSeek 千亿融资名单曝光，国资占比从 2% 跳到 27%",
       "s": "DeepSeek 第二轮融资拿下了 1055 亿元人民币，约 158 亿美元。The Information 拿到了出资…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503318"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-10-30T18:55",
-      "t": "从“制造”到“智造”:新华医疗以AI驱动制药装备升级",
-      "s": "从“制造”到“智造”:新华医疗以AI驱动制药装备升级（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7702412691708723747/"
     }
   ],
   "timeline": [
@@ -152,6 +152,10 @@
       "摩尔线程2026年三季报点评｜公司点评"
     ],
     [
+      "10-31 10:34",
+      "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升"
+    ],
+    [
       "10-31 10:10",
       "快充红利耗尽，氮化镓能跟上AI浪潮吗"
     ],
@@ -162,10 +166,6 @@
     [
       "10-31 08:33",
       "绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验"
-    ],
-    [
-      "10-31 08:27",
-      "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309497,
+      "s": 309510,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307562,
+      "s": 307585,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293460,
+      "s": 293474,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226921,
+      "s": 226932,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185401,
+      "s": 185412,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143524,
+      "s": 143527,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139534,
+      "s": 139548,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116348,
+      "s": 116353,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112018,
+      "s": 112027,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
