@@ -1,6 +1,20 @@
 {
-  "updated": "2026-10-31T21:01:51",
+  "updated": "2026-10-31T21:31:40",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-10-31T21:15",
+      "t": "透视A股三季报：AI算力领跑，材料量价齐升，地产和消费寻底｜看财报",
+      "s": "新旧动能加速切换。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8188863.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-10-31T21:10",
+      "t": "史上最大 IPO 前夕，黑石突然改口称 Anthropic 或无法获得投资级信用评级",
+      "s": "据英国《金融时报》30 日报道，黑石集团向投资者透露，Anthropic 上市后可能暂时拿不到投资级信用评级。这一预期与…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/610.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-10-31T20:18",
@@ -72,13 +86,6 @@
       "u": "https://www.tmtpost.com/8188282.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-10-31T18:48",
-      "t": "大江东丨走近科学大咖①AI制药冲进三期临床，泡沫还是功德?...",
-      "s": "大江东丨走近科学大咖①AI制药冲进三期临床，泡沫还是功德?...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7702781933171802634/"
-    },
-    {
       "c": "HOT",
       "d": "2026-10-31T17:55",
       "t": "从“懂回答”到“能执行”：Zoho如何让AI走进企业业务",
@@ -98,20 +105,6 @@
       "t": "全球首富马斯克预言：2029 年太空 AI 算力将远超地面算力",
       "s": "全球首富埃隆 · 马斯克（Elon Musk）今天（10 月 31 日）在 X 平台发布推文，预言 2029 年部署到近…（来源：IT之家）",
       "u": "https://www.ithome.com/1/020/499.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-31T15:23",
-      "t": "跌掉一个 SpaceX？AI 投资回报引投资者担忧，纳斯达克本月或蒸发 2 万亿美元市值",
-      "s": "据路透社 30 日报道，纳斯达克 100 指数 10 月市值恐蒸发超过 2 万亿美元（IT之家注：现汇率约合 13.34…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/488.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-31T15:05",
-      "t": "OpenAI 奥尔特曼谈内存短缺：全球 DRAM 应优先供给数据中心，闲置在玩家 PC 里是浪费",
-      "s": "OpenAI CEO 萨姆・奥尔特曼昨日在接受 YouTube 播客节目 Cheeky Pint 采访时论证了降低计算成…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/483.htm"
     },
     {
       "c": "HOT",
@@ -140,9 +133,24 @@
       "t": "智能驾驶进入物理AI时代？7位行业嘉宾给出最新判断",
       "s": "10月26日，第八届智能驾驶大会暨2026环秀湖物理AI产业发展推介会在苏州相城举行。上一届，车路云一体化、智能驾驶出海…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/transportation/pqEtZnYepE5D1PzD.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-31T10:34",
+      "t": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升",
+      "s": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7702654763107680818/"
     }
   ],
   "timeline": [
+    [
+      "10-31 21:15",
+      "透视A股三季报：AI算力领跑，材料量价齐升，地产和消费寻底｜看财报"
+    ],
+    [
+      "10-31 21:10",
+      "史上最大 IPO 前夕，黑石突然改口称 Anthropic 或无法获得投资级信用评级"
+    ],
     [
       "10-31 20:18",
       "让AI拼我用了12天完成的1000片“纯白地狱”，它五小时就崩溃了"
@@ -158,14 +166,6 @@
     [
       "10-31 20:10",
       "存储芯片短缺加剧之际，OpenAI 奥尔特曼赴韩与约 50 名三星高管会面"
-    ],
-    [
-      "10-31 20:02",
-      "AI电影，正在将电影院逼进“死胡同”"
-    ],
-    [
-      "10-31 19:57",
-      "号称全球首创：香港公司 Arrowmax 推出 AI 电动螺丝刀 S1，能用摄像头识别螺丝类型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309736,
+      "s": 309755,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307913,
+      "s": 307939,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293705,
+      "s": 293723,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227211,
+      "s": 227221,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185701,
+      "s": 185713,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154025,
+      "s": 154027,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139779,
+      "s": 139793,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116440,
+      "s": 116448,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112099,
+      "s": 112102,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
