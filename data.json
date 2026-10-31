@@ -1,6 +1,13 @@
 {
-  "updated": "2026-10-31T10:35:02",
+  "updated": "2026-10-31T11:02:08",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-31T10:34",
+      "t": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升",
+      "s": "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7702654763107680818/"
+    },
     {
       "c": "HOT",
       "d": "2026-10-31T10:10",
@@ -133,16 +140,13 @@
       "t": "全行业两年攒下百万小时数据，影溯想 1 个月生产完：全国首个具身仿真数采中心落地杭州",
       "s": "产能公式从“人×小时”，变成“环境配置数×并行算力”。 作者丨幸丽娟 编辑丨岑 峰 训练一个可用的具身智能模型，需要千万…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/academic/xPVWQgBN3Foj7fo5.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-30T19:01",
-      "t": "具身智能患上了焦虑症",
-      "s": "具身智能投资，正从狂热到冷静（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8187761.html"
     }
   ],
   "timeline": [
+    [
+      "10-31 10:34",
+      "深度|AI制药正站在泡沫与验证的十字路口:资金涌入、估值抬升"
+    ],
     [
       "10-31 10:10",
       "快充红利耗尽，氮化镓能跟上AI浪潮吗"
@@ -162,10 +166,6 @@
     [
       "10-31 08:33",
       "绝不为了 AI 而做 AI：苹果 CEO 特努斯产品宣言，AI 应隐身于体验"
-    ],
-    [
-      "10-31 08:27",
-      "消息称字节 Seed 核心负责人周畅离职创业，方向为物理 AI"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 309479,
+      "s": 309487,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 307538,
+      "s": 307546,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 293446,
+      "s": 293449,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 226901,
+      "s": 226909,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185373,
+      "s": 185388,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 153989,
+      "s": 153991,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143523,
+      "s": 143524,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 139523,
+      "s": 139529,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116343,
+      "s": 116345,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112016,
+      "s": 112017,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
