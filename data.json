@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-01T20:01:47",
+  "updated": "2026-11-01T20:31:25",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-01T20:04",
+      "t": "赫拉利深度访谈：真正的 AI 危机来了！",
+      "s": "《人类简史》作者尤瓦尔・赫拉利在最新访谈中告诉我们，真正的危机，根本不是电影里那一套，它正在现实世界中上演。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8189151.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-01T20:00",
@@ -28,6 +35,27 @@
       "t": "斯坦福学霸预言:AI制药就像造火箭，下一家SpaceX将诞生在生...",
       "s": "斯坦福学霸预言:AI制药就像造火箭，下一家SpaceX将诞生在生...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7703144977810932243/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T18:03",
+      "t": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+      "s": "作者｜汤一涛 编辑｜靖宇 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373249"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T17:57",
+      "t": "DeepSeek，怎么就变成了一条「大肥鱼」",
+      "s": "作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373248"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T17:46",
+      "t": "Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成",
+      "s": "近日，Pika 发布 MiniMax H3 衍生模型 Pika H3 Flex，并开放适配器权重与推理代码。该模型通过六…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html"
     },
     {
       "c": "MODEL",
@@ -112,37 +140,13 @@
       "t": "AI 简历泛滥之下，Z 世代求职者开始担心自己“看起来像 AI”过不了初筛",
       "s": "据科技媒体 TechRadar 今天报道，如今求职正变得越来越困难。应聘者不仅要应对 AI 初筛，还要努力让自己的遣词看…（来源：IT之家）",
       "u": "https://www.ithome.com/1/020/747.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-01T12:18",
-      "t": "Jev新成果，再次引爆开源",
-      "s": "再次“性价比屠夫”（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/506922.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-01T11:32",
-      "t": "【数智周报】张一鸣以6700亿元登顶中国首富，刷新中国首富财富纪录；阿里巴巴与Apple达成合作，将千问集成至Apple智能；Anthropic提交IPO注册文件，拟以“ANT”为代码在纳斯达克上市",
-      "s": "（10 月 26 日-31 日）OpenAI据称将新一轮融资目标下调100亿美元，拟以1.25万亿美元估值融资200亿美…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188997.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-01T11:10",
-      "t": "人形机器人的第一份公账，Agility Robotics 上市前夜的深度解析",
-      "s": "Agility Robotics 将于 11 月 5 日以「AGLT」登陆纳斯达克。全球首家在美股挂牌、且拥有真实商用人…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188901.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-01T10:57",
-      "t": "具身智能的钱，流向机器人的“皮肤”",
-      "s": "下一个将崛起的百亿级赛道（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188790.html"
     }
   ],
   "timeline": [
+    [
+      "11-01 20:04",
+      "赫拉利深度访谈：真正的 AI 危机来了！"
+    ],
     [
       "11-01 20:00",
       "Qt 推出零代码嵌入式界面设计工具 Clate，设计成果可直接导出 QML 代码"
@@ -160,12 +164,8 @@
       "斯坦福学霸预言:AI制药就像造火箭，下一家SpaceX将诞生在生..."
     ],
     [
-      "11-01 17:23",
-      "首届 CMG 世界机器人登泰山大赛明日进行，央视揭秘机器人如何认路、探路、见招拆招"
-    ],
-    [
-      "11-01 17:13",
-      "Agent改写算力账本，CPU不再是AI服务器的配角？"
+      "11-01 18:03",
+      "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310335,
+      "s": 310345,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308861,
+      "s": 308876,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294387,
+      "s": 294405,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227732,
+      "s": 227747,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186095,
+      "s": 186107,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154123,
+      "s": 154131,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143635,
+      "s": 143634,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140269,
+      "s": 140284,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116605,
+      "s": 116609,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
