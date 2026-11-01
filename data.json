@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-01T11:01:59",
+  "updated": "2026-11-01T11:31:31",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-01T11:10",
+      "t": "人形机器人的第一份公账，Agility Robotics 上市前夜的深度解析",
+      "s": "Agility Robotics 将于 11 月 5 日以「AGLT」登陆纳斯达克。全球首家在美股挂牌、且拥有真实商用人…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8188901.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-01T10:57",
+      "t": "具身智能的钱，流向机器人的“皮肤”",
+      "s": "下一个将崛起的百亿级赛道（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8188790.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-01T10:13",
@@ -107,6 +121,13 @@
       "u": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
+      "c": "MODEL",
+      "d": "2026-10-31T21:49",
+      "t": "刚刚，DeepSeek重磅开源：Agent底座架构！",
+      "s": "AI已经自己找到Bug并提交PR（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/10/506904.html"
+    },
+    {
       "c": "INDUSTRY",
       "d": "2026-10-31T21:15",
       "t": "透视A股三季报：AI算力领跑，材料量价齐升，地产和消费寻底｜看财报",
@@ -119,30 +140,17 @@
       "t": "让AI拼我用了12天完成的1000片“纯白地狱”，它五小时就崩溃了",
       "s": "我耗时 12 天拼完 1000 片纯白地狱拼图，尝试交给大模型挑战，它 5 小时便陷入崩溃。不是 AI 不能拼，而是擅长…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8188396.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-31T20:18",
-      "t": "老干妈给所有想用AI的企业“上”了一课",
-      "s": "情绪宣泄，究竟能改变什么？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188545.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-31T20:02",
-      "t": "AI电影，正在将电影院逼进“死胡同”",
-      "s": "AI电影上院线，观众似乎还不想掏钱。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188470.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-10-31T19:57",
-      "t": "预测失效的那刻，存储行业撞见物理AI的边界",
-      "s": "先锚定具身智能想要抵达的终局，再反向推导底层基础设施需要具备怎样的能力上限。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188551.html"
     }
   ],
   "timeline": [
+    [
+      "11-01 11:10",
+      "人形机器人的第一份公账，Agility Robotics 上市前夜的深度解析"
+    ],
+    [
+      "11-01 10:57",
+      "具身智能的钱，流向机器人的“皮肤”"
+    ],
     [
       "11-01 10:13",
       "L4需要更大的模型，芯片得换个造法了"
@@ -158,14 +166,6 @@
     [
       "11-01 09:41",
       "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新"
-    ],
-    [
-      "11-01 09:23",
-      "Edge AI Daily 早报（11月1日）"
-    ],
-    [
-      "11-01 08:40",
-      "Roblox 平台 AI 游戏突破 7 万款，排名前 100 作品超 80% 使用 AI 辅助开发"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310112,
+      "s": 310127,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308493,
+      "s": 308511,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294122,
+      "s": 294132,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227541,
+      "s": 227549,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185926,
+      "s": 185939,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154083,
+      "s": 154087,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140068,
+      "s": 140076,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116544,
+      "s": 116551,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112275,
+      "s": 112276,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
