@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-01T18:31:24",
+  "updated": "2026-11-01T19:02:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T18:46",
+      "t": "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿",
+      "s": "据央视新闻今日报道，中国电子信息产业发展研究院（简称“赛迪研究院”，英文缩写 CCID）昨日发布的《新域新质创新发展十大…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/809.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-01T18:03",
@@ -46,7 +53,7 @@
     {
       "c": "MODEL",
       "d": "2026-11-01T16:33",
-      "t": "上下水版 4599 → 1066 元：科沃斯 T50 PRO 扫拖机器人国补 2 折新低，81mm 纤薄机身",
+      "t": "上下水版 4599 → 1108 元：科沃斯 T50 PRO 扫拖机器人国补 2 折清仓，81mm 纤薄机身",
       "s": "【京东活动可能随时变更，需以实付款为准】科沃斯 T50 PRO 扫拖机器人发布于 2024 年 9 月，该款扫拖机器人拥…（来源：IT之家）",
       "u": "https://www.ithome.com/1/020/760.htm"
     },
@@ -108,13 +115,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-01T15:27",
-      "t": "网传“新疆禾木景区野生猴群下山抢手机”，官方回应“系 AI 生成，当地不存在猴群栖息活动”",
-      "s": "据央视新闻报道，近期网传所谓新疆“禾木野生猴群下山抢手机”图文、视频，引发公众关注，经新疆布尔津县委网信办联合当地林业和…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/739.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-01T12:18",
       "t": "Jev新成果，再次引爆开源",
       "s": "再次“性价比屠夫”（来源：量子位）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-01 18:46",
+      "工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿"
+    ],
+    [
       "11-01 18:03",
       "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新"
     ],
@@ -162,10 +166,6 @@
     [
       "11-01 17:03",
       "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等"
-    ],
-    [
-      "11-01 17:03",
-      "奥海推出 PD3.2 智显屏充电器：2C+1A，支持 200W 超频输出，369 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310301,
+      "s": 310321,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308805,
+      "s": 308822,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294339,
+      "s": 294361,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227703,
+      "s": 227709,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186069,
+      "s": 186079,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154115,
+      "s": 154120,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143628,
+      "s": 143630,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140226,
+      "s": 140246,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116595,
+      "s": 116598,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112377,
+      "s": 112388,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
