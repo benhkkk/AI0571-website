@@ -1,13 +1,6 @@
 {
-  "updated": "2026-11-01T12:02:34",
+  "updated": "2026-11-01T12:31:09",
   "news": [
-    {
-      "c": "HOT",
-      "d": "2026-11-01T12:01",
-      "t": "天数智芯天垓300实测对标H200，国产GPU接下来拼什么？",
-      "s": "天数智芯天垓300实测对标H200，国产GPU接下来拼什么？（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/748GRHfg9VPRbp7x.html"
-    },
     {
       "c": "MODEL",
       "d": "2026-11-01T11:48",
@@ -114,20 +107,6 @@
       "u": "https://www.ithome.com/1/020/642.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-01T07:16",
-      "t": "微信支付智慧经营机器人首次进店：支持迎宾、导购、点单等，基于腾讯混元打造",
-      "s": "10 月 29 日，广东 7-ELEVEN 第 2000 家门店在深圳腾讯总部园区开业。当天，一台印有微信支付标识的智慧…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/637.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-01T07:12",
-      "t": "消息称 Meta 与中国企业傅利叶打造人形机器人原型，号称 Muse 模型的物理化身",
-      "s": "据 The Information 昨天报道，Meta 最近与中国企业傅利叶（Fourier）合作，打造一款名为 Max…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/636.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-31T21:59",
       "t": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
@@ -140,13 +119,30 @@
       "t": "透视A股三季报：AI算力领跑，材料量价齐升，地产和消费寻底｜看财报",
       "s": "新旧动能加速切换。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8188863.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-10-31T20:18",
+      "t": "让AI拼我用了12天完成的1000片“纯白地狱”，它五小时就崩溃了",
+      "s": "我耗时 12 天拼完 1000 片纯白地狱拼图，尝试交给大模型挑战，它 5 小时便陷入崩溃。不是 AI 不能拼，而是擅长…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8188396.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-10-31T18:48",
+      "t": "大江东丨走近科学大咖①AI制药冲进三期临床，泡沫还是功德?...",
+      "s": "大江东丨走近科学大咖①AI制药冲进三期临床，泡沫还是功德?...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7702781933171802634/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-10-31T17:55",
+      "t": "从“懂回答”到“能执行”：Zoho如何让AI走进企业业务",
+      "s": "10月20日，在以“助力中国企业全球化成长”为主题的Zoho北京媒体沟通会上， Zoho不仅向外界展示了其最新的企业级A…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/00recUTGoMQ1JRh4.html"
     }
   ],
   "timeline": [
-    [
-      "11-01 12:01",
-      "天数智芯天垓300实测对标H200，国产GPU接下来拼什么？"
-    ],
     [
       "11-01 11:48",
       "荣耀 Magic9 系列手机“电话接通 / 挂断振动”功能回归，更新“115SP8”版本可用"
@@ -166,6 +162,10 @@
     [
       "11-01 10:13",
       "L4需要更大的模型，芯片得换个造法了"
+    ],
+    [
+      "11-01 10:00",
+      "跟AI谈恋爱，年轻人图什么？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310139,
+      "s": 310149,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308533,
+      "s": 308544,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294149,
+      "s": 294162,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227565,
+      "s": 227572,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185947,
+      "s": 185962,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154088,
+      "s": 154089,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143607,
+      "s": 143609,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140083,
+      "s": 140092,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116552,
+      "s": 116555,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112279,
+      "s": 112282,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
