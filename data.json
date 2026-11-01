@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-01T08:03:10",
+  "updated": "2026-11-01T08:32:31",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-01T08:31",
+      "t": "被 AI 假学生薅了 2 亿美元贷款羊毛，美国司法部紧急调查",
+      "s": "美国司法部（DOJ）于当地时间 10 月 31 日公布了“Operation Ghostbusters”行动的结果，该行…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/649.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T08:29",
+      "t": "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人",
+      "s": "DeepSeek 发布全新 Agent 架构 10 月 31 日晚间，DeepSeek Harness 团队在官方公众号…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373243"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T08:12",
+      "t": "消息称 Spotify 计划于明年初推出 AI 音乐混音服务，用户可自制歌曲混音与翻唱版本",
+      "s": "据金融时报 FT 消息，Spotify 正在积极推进版权授权谈判，并努力说服音乐人拥抱新技术。Spotify 计划在 2…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/647.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-01T07:58",
@@ -44,32 +65,11 @@
       "u": "https://www.ithome.com/1/020/632.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-10-31T22:53",
-      "t": "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山",
-      "s": "当地时间 30 日。据美国 CNBC 报道，鸿海计划进一步扩大 AI 服务器业务，并加大在美国的生产布局。董事长刘扬伟表…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/627.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-10-31T21:59",
       "t": "DeepSeek 重磅发布全新 Agent 架构：AI 开始指挥 AI 干活",
       "s": "AI Agent 的下一个瓶颈，可能是人类自己#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1687026?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-10-31T21:56",
-      "t": "上市价 4699 元 → 国补后 2800 元：石头扫拖机器人 P20 Max 上下水版新低",
-      "s": "【各地补贴力度不同，价格会有小幅波动。】石头 P20 Max 自清洁扫拖机器人今年 2 月上市，水箱版 4299 元，上…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/619.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-10-31T21:49",
-      "t": "刚刚，DeepSeek重磅开源：Agent底座架构！",
-      "s": "AI已经自己找到Bug并提交PR（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/506904.html"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "11-01 08:31",
+      "被 AI 假学生薅了 2 亿美元贷款羊毛，美国司法部紧急调查"
+    ],
+    [
+      "11-01 08:29",
+      "DeepSeek 公布 Super Agent 架构；苹果超越英伟达，重回市值第一；传 Meta 与傅利叶打造 Muse 机器人"
+    ],
+    [
+      "11-01 08:12",
+      "消息称 Spotify 计划于明年初推出 AI 音乐混音服务，用户可自制歌曲混音与翻唱版本"
+    ],
+    [
       "11-01 07:58",
       "OpenAI：12 月起，ChatGPT 将与 Codex 共享额度"
     ],
@@ -154,18 +166,6 @@
     [
       "11-01 07:16",
       "微信支付智慧经营机器人首次进店：支持迎宾、导购、点单等，基于腾讯混元打造"
-    ],
-    [
-      "11-01 07:12",
-      "消息称 Meta 与中国企业傅利叶打造人形机器人原型，号称 Muse 模型的物理化身"
-    ],
-    [
-      "11-01 06:56",
-      "美国白宫科学与技术顾问会议主席：Anthropic 很可能成为资本主义历史最伟大企业"
-    ],
-    [
-      "10-31 23:56",
-      "AI 基建掀起军备竞赛：微软、谷歌、甲骨文等巨头承诺投入超 3 万亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310046,
+      "s": 310059,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308355,
+      "s": 308376,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294057,
+      "s": 294069,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227481,
+      "s": 227488,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 185875,
+      "s": 185887,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154091,
+      "s": 154074,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140027,
+      "s": 140033,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112252,
+      "s": 112251,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
