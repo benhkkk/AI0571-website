@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-01T15:31:50",
+  "updated": "2026-11-01T16:01:50",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-01T15:58",
+      "t": "消息称 AMD 拟计划本月再调涨 GPU + D6 显存套料供货成本",
+      "s": "据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，AMD“将针对 GPU + D6 显存套料的供货成本再…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/749.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-01T15:46",
+      "t": "AI 简历泛滥之下，Z 世代求职者开始担心自己“看起来像 AI”过不了初筛",
+      "s": "据科技媒体 TechRadar 今天报道，如今求职正变得越来越困难。应聘者不仅要应对 AI 初筛，还要努力让自己的遣词看…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/747.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-01T15:28",
@@ -126,23 +140,17 @@
       "t": "大江东丨走近科学大咖①AI制药冲进三期临床，泡沫还是功德?...",
       "s": "大江东丨走近科学大咖①AI制药冲进三期临床，泡沫还是功德?...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7702781933171802634/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-31T17:55",
-      "t": "从“懂回答”到“能执行”：Zoho如何让AI走进企业业务",
-      "s": "10月20日，在以“助力中国企业全球化成长”为主题的Zoho北京媒体沟通会上， Zoho不仅向外界展示了其最新的企业级A…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/00recUTGoMQ1JRh4.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-10-31T13:17",
-      "t": "你的8G iPad里有12G内存！库克走了但他的刀法追着我砍",
-      "s": "苹果“牛奶倒河里”式操作翻红（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/10/506884.html"
     }
   ],
   "timeline": [
+    [
+      "11-01 15:58",
+      "消息称 AMD 拟计划本月再调涨 GPU + D6 显存套料供货成本"
+    ],
+    [
+      "11-01 15:46",
+      "AI 简历泛滥之下，Z 世代求职者开始担心自己“看起来像 AI”过不了初筛"
+    ],
     [
       "11-01 15:28",
       "上市两月 2068 → 1288 元：小米米家扫拖机器人 7C 新低，支持滚筒活水增压拖地"
@@ -158,14 +166,6 @@
     [
       "11-01 14:11",
       "响应欧盟 AI 法案，Grok 模型生成的文本将添加隐形水印"
-    ],
-    [
-      "11-01 11:48",
-      "荣耀 Magic9 系列手机“电话接通 / 挂断振动”功能回归，更新“115SP8”版本可用"
-    ],
-    [
-      "11-01 11:32",
-      "【数智周报】张一鸣以6700亿元登顶中国首富，刷新中国首富财富纪录；阿里巴巴与Apple达成合作，将千问集成至Apple智能；Anthropic提交IPO注册文…"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310226,
+      "s": 310244,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 308663,
+      "s": 308676,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294246,
+      "s": 294265,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227635,
+      "s": 227647,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186023,
+      "s": 186031,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154104,
+      "s": 154105,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140154,
+      "s": 140165,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116578,
+      "s": 116583,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112322,
+      "s": 112333,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
