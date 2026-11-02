@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-02T13:31:33",
+  "updated": "2026-11-02T14:02:33",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-02T14:01",
+      "t": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
+      "s": "据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/970.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-02T13:40",
+      "t": "2026 款奔驰 E 300 L 改款轿车上市：首次搭载中国团队开发的 AI 座舱，起售价下调 1.6 万元",
+      "s": "2026 款奔驰 E 300 L 改款轿车今日正式上市，建议零售价格 42.38 万元至 50.98 万元，相比之前的版…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/944.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-02T13:32",
+      "t": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
+      "s": "远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行，成为全球首套在大型 AI …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/942.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-02T13:14",
@@ -80,13 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-02T10:27",
-      "t": "算力不再是AI Agent的天花板，生态围墙才是？",
-      "s": "移动互联网筑起的从来不是技术围墙，而是商业围墙。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8189554.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-02T10:16",
       "t": "贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台",
       "s": "贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出…（来源：IT之家）",
@@ -126,23 +140,21 @@
       "t": "一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了",
       "s": "全球基模大战，疯狂 11 月正式开场#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1687071?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-02T09:18",
-      "t": "美团龙猫发布 LongCat-2.5 原生多模态 AI 模型：1.6T 参数，面向长程智能体任务",
-      "s": "美团龙猫今日发布面向长程智能体任务的原生多模态模型 LongCat-2.5，模型总参数量为 1.6 万亿，每个 toke…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/873.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-02T09:03",
-      "t": "novel-plus v6.3.2 发布，原创文学 CMS 系统",
-      "s": "novel-plus v6.3.2 发布了，v6.3.0 – v6.3.2 主要改变如下： 创作数据看板 + AI 解读…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503333"
     }
   ],
   "timeline": [
+    [
+      "11-02 14:01",
+      "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量"
+    ],
+    [
+      "11-02 13:40",
+      "2026 款奔驰 E 300 L 改款轿车上市：首次搭载中国团队开发的 AI 座舱，起售价下调 1.6 万元"
+    ],
+    [
+      "11-02 13:32",
+      "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行"
+    ],
     [
       "11-02 13:14",
       "美国资本在买“大脑”，中国资本在催机器人出货？"
@@ -154,18 +166,6 @@
     [
       "11-02 13:00",
       "AI治不了CEO的大病"
-    ],
-    [
-      "11-02 12:56",
-      "Kimi 半年三次道歉：模型越强，生意却越难做？"
-    ],
-    [
-      "11-02 12:54",
-      "43 分 41 秒，首届 CMG 世界机器人登泰山大赛足式竞速冠军产生"
-    ],
-    [
-      "11-02 12:52",
-      "AI制药:设计提速 验证堵在哪"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310758,
+      "s": 310766,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 309403,
+      "s": 309418,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294936,
+      "s": 294946,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228118,
+      "s": 228130,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186444,
+      "s": 186456,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154195,
+      "s": 154198,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143689,
+      "s": 143690,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140667,
+      "s": 140676,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116752,
+      "s": 116760,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112602,
+      "s": 112606,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
