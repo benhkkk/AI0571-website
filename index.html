@@ -461,7 +461,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const NEWS = [
     {c:'MODEL', d:'2026-11-02T23:40', t:'消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”', s:'据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。这款设备传闻被称作“Home…（来源：IT之家）', u:'https://www.ithome.com/1/021/280.htm'},
     {c:'FUNDING', d:'2026-11-02T23:02', t:'Anthropic 第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大 IPO', s:'Anthropic PBC 披露，截至 9 月 30 日的第三季度营收接近 170 亿美元（IT之家注：现汇率约合 1,…（来源：IT之家）', u:'https://www.ithome.com/1/021/277.htm'},
-    {c:'HOT', d:'2026-11-02T22:48', t:'这些股票有足够的实力为AI提供动力，值得再关注一次', s:'“股票已经遭到抛售，但门槛并没有改变。”（来源：钛媒体）', u:'https://www.tmtpost.com/8190967.html'},
     {c:'HOT', d:'2026-11-02T22:21', t:'OpenAI CEO 奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀', s:'萨姆 · 奥尔特曼近期关于内存的言论引发越来越多人反对，埃隆 · 马斯克也加入了这场声讨。上周，这位 OpenAI 首席…（来源：IT之家）', u:'https://www.ithome.com/1/021/274.htm'},
     {c:'HOT', d:'2026-11-02T21:38', t:'马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继', s:'埃隆 · 马斯克称，AI 富足时代终将到来，但眼下，Grok Bot 还做不到不限量使用。这位 SpaceX 首席执行官…（来源：IT之家）', u:'https://www.ithome.com/1/021/271.htm'},
     {c:'HOT', d:'2026-11-02T21:36', t:'顶级AI翻车的活儿，被这个新出的免费国产AI接住了！', s:'商汤SenseNova 6.8 Flash（来源：量子位）', u:'https://www.qbitai.com/2026/11/507277.html'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-02T17:41', t:'破解智能体跨端协同办事难题，支付宝AHA方案获世界互联网大会“新耀”场景奖', s:'11月2日，2026年世界互联网大会乌镇峰会开幕。支付宝AHA（Agent Hub Access）智能体多端互联方案获“…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/oPrDWg9bNg1Dgy4a.html'},
     {c:'MODEL', d:'2026-11-02T17:31', t:'AI眼镜，找寻下一个隘口', s:'Personal Agent，能拯救AI眼镜吗？（来源：钛媒体）', u:'https://www.tmtpost.com/8190286.html'},
     {c:'HOT', d:'2026-11-02T17:31', t:'苹果 AI，谁笑到了最后？', s:'用户不买账，厂商当成宝。（来源：钛媒体）', u:'https://www.tmtpost.com/8190325.html'},
+    {c:'INDUSTRY', d:'2026-11-02T17:26', t:'阿里Qoder获世界互联网大会领先科技奖，已服务超800万用户、10万家企业', s:'11月2日，2026世界互联网大会颁奖典礼在浙江乌镇举行，全球共20项成果入选，涵盖量子计算、芯片、具身智能及AI应用等…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/JrXpr0xuLSNA9sOY.html'},
   ];
   const TIMELINE = [
     ['11-02 23:40','消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”'],
     ['11-02 23:02','Anthropic 第三季度营收 170 亿美元同比暴涨 11 倍，冲刺史上最大 IPO'],
-    ['11-02 22:48','这些股票有足够的实力为AI提供动力，值得再关注一次'],
     ['11-02 22:21','OpenAI CEO 奥尔特曼称个人电脑浪费内存遭全网声讨，马斯克也来补刀'],
     ['11-02 21:38','马斯克回应 Grok Bot 额度消耗过快：服务成本高到难以为继'],
     ['11-02 21:36','顶级AI翻车的活儿，被这个新出的免费国产AI接住了！'],
+    ['11-02 21:16','亿咖通科技与 Arm 签署合作备忘录，共同开发面向出行领域及跨行业场景的下一代高性能 AI 计算平台'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311068, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:309958, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:295374, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228429, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186671, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311079, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:309984, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:295398, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228444, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186684, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154269, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143746, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:140972, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116876, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112735, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:140991, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116880, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112743, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
