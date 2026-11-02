@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-02T12:01:57",
+  "updated": "2026-11-02T12:31:18",
   "news": [
     {
       "c": "MODEL",
@@ -49,6 +49,13 @@
       "t": "优必选 Thinker-Sim 具身智能仿真平台发布，为机器人能力评测提供一站式体系",
       "s": "优必选科技今天发布具身智能仿真平台 Thinker-Sim，构建覆盖真实场景数字化、规模化仿真数据合成、机器人能力评测的…（来源：IT之家）",
       "u": "https://www.ithome.com/1/020/888.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-02T09:54",
+      "t": "2026 全球 AI 新云 NeoCloud：考验基本功的时候到了",
+      "s": "10月19日，一张全球AI新云（NeoCloud）产业图谱引发行业关注。CoreWeave、Nebius以GPU云服务为…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/uZRzXBZy6pdl88Uf.html"
     },
     {
       "c": "FUNDING",
@@ -133,13 +140,6 @@
       "t": "XXL-AI v1.4.0 发布｜AI 应用开发平台",
       "s": "Release Notes 【本地版（Desk 桌面端）】 1、【新增】人机交互流程统一：Agent执行任务过程中需要用…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503331"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-01T21:28",
-      "t": "三年前布局，今年爆火丨西湖大学成立新中心",
-      "s": "西湖世界模型研究中心成立（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/507076.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310724,
+      "s": 310733,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 309379,
+      "s": 309385,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294897,
+      "s": 294911,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228087,
+      "s": 228100,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186426,
+      "s": 186434,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154190,
+      "s": 154193,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143683,
+      "s": 143685,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140634,
+      "s": 140643,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116738,
+      "s": 116742,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112587,
+      "s": 112590,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
