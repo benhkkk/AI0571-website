@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-02T09:32:06",
+  "updated": "2026-11-02T10:02:03",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-02T09:51",
+      "t": "英伟达向韩国互联网巨头 Naver 投资 10 亿美元，将超越创始人成为第三大股东",
+      "s": "据韩国经济日报报道，为加速全球 AI 布局，Naver 创始人兼董事会主席李海珍（Lee Hae-jin）借 10 亿美…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/884.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-02T09:51",
+      "t": "一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了",
+      "s": "全球基模大战，疯狂 11 月正式开场#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1687071?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-02T09:28",
+      "t": "反神话：当人工智能危机来临，人类如何应对？",
+      "s": "面对突飞猛进发展的人工智能，只有将选择的权利和责任掌握在人类手里，人类最后才不会默默而心甘情愿地走向一条通往奴役之路。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8189371.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-02T09:18",
@@ -72,13 +93,6 @@
       "u": "https://www.ithome.com/1/020/859.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-02T08:27",
-      "t": "传苹果逐步淘汰非触控 MacBook Pro；谷歌 AI 被指正切断互联网流量；赛力斯：问界全面进入欧洲市场",
-      "s": "苹果 CEO：不会为了做 AI 而做产品 苹果 CEO 约翰·特努斯近日接受采访时，为苹果当前在人工智能领域的布局进行辩…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373252"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-02T08:18",
       "t": "美国特拉华州拟允许 AI 智能体创办、运营企业",
@@ -108,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-02T07:36",
-      "t": "微软 AI 负责人苏莱曼：AI 模型没有意识，我们应确保它永远如此",
-      "s": "微软 AI 负责人（Mustafa Suleyman）昨天在 X 平台发布长文，称目前的 AI 模型并不具备意识，人们应…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/848.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-02T07:20",
       "t": "【钛晨报】事关股市，央行、金融监管总局、证监会今日将召开会议；中国国新、中国诚通，各获大行新增千亿级股票回购增持贷款额度；小鹏、小米10月交付量首超5万，鸿蒙智行同比腰斩",
       "s": "沪深上市公司前三季度净利润超5万亿元，创四年新高；DeepSeek发布全新Agent架构；英伟达展示下一代CPO方案；阿…（来源：钛媒体）",
@@ -133,16 +140,21 @@
       "t": "XXL-AI v1.4.0 发布｜AI 应用开发平台",
       "s": "Release Notes 【本地版（Desk 桌面端）】 1、【新增】人机交互流程统一：Agent执行任务过程中需要用…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503331"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-01T21:28",
-      "t": "三年前布局，今年爆火丨西湖大学成立新中心",
-      "s": "西湖世界模型研究中心成立（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/507076.html"
     }
   ],
   "timeline": [
+    [
+      "11-02 09:51",
+      "英伟达向韩国互联网巨头 Naver 投资 10 亿美元，将超越创始人成为第三大股东"
+    ],
+    [
+      "11-02 09:51",
+      "一夜之间，GPT-6.2 Astra 和 Fable 5.5 双双曝光，AI 圈疯狂 11 月要来了"
+    ],
+    [
+      "11-02 09:28",
+      "反神话：当人工智能危机来临，人类如何应对？"
+    ],
     [
       "11-02 09:18",
       "美团龙猫发布 LongCat-2.5 原生多模态 AI 模型：1.6T 参数，面向长程智能体任务"
@@ -154,18 +166,6 @@
     [
       "11-02 09:03",
       "借着帕累托曲线，大模型重新定义性价比？"
-    ],
-    [
-      "11-02 09:01",
-      "谷歌的AI生意越做越大，华尔街为什么不买帐"
-    ],
-    [
-      "11-02 09:00",
-      "消息称三星首款 AI 眼镜 12 月中旬登陆韩国、美国，要和 Meta 抢市场？"
-    ],
-    [
-      "11-02 09:00",
-      "今年双十一，开始“纯过日子”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310645,
+      "s": 310656,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 309270,
+      "s": 309294,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294823,
+      "s": 294840,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228010,
+      "s": 228017,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186377,
+      "s": 186388,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154174,
+      "s": 154176,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143679,
+      "s": 143681,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140557,
+      "s": 140568,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116709,
+      "s": 116713,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112566,
+      "s": 112569,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
