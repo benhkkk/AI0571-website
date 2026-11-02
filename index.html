@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-02T15:21', t:'OpenAI CEO 奥尔特曼密访韩国，深化与三星、SK 集团 AI 芯片与数据中心合作', s:'OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）于上周末对韩国进行了一次未提前对外公布的访问。他与三星…（来源：IT之家）', u:'https://www.ithome.com/1/021/058.htm'},
+    {c:'HOT', d:'2026-11-02T15:10', t:'韩国公布该国史上最大规模预算案，重点投向人工智能与半导体', s:'韩国总统李在明于当地时间周一公布了该国史上规模最大的预算案，承诺将“大胆投入人工智能与未来增长引擎领域”。李在明周一在国…（来源：IT之家）', u:'https://www.ithome.com/1/021/051.htm'},
+    {c:'MODEL', d:'2026-11-02T15:04', t:'韩国第 6 代国家超级计算机“汉江”投运，算力可跻身 TOP500 前十', s:'韩国科学技术信息通信部当地时间今日宣布，该国第 6 代国家超级计算机“汉江”正式投运。这台超算采用 CPU + GPU …（来源：IT之家）', u:'https://www.ithome.com/1/021/047.htm'},
     {c:'INDUSTRY', d:'2026-11-02T14:34', t:'Meta 与中国企业合作开发人形机器人？傅利叶：暂不方便回复', s:'近日有传闻称，Meta 已与中国机器人公司傅利叶合作，在大约三个月内打造出一款人形机器人原型 Max，其身高接近 1.5…（来源：IT之家）', u:'https://www.ithome.com/1/021/004.htm'},
     {c:'HOT', d:'2026-11-02T14:11', t:'曾毓群全英文发言：宁德时代也在用 AI 进行技术创新，可在短时间筛选千种化合物', s:'据科技日报今日报道，在 2026 世界顶尖科学家论坛现场，宁德时代创始人曾毓群全英文发言，分享了宁德时代以 AI 加速能…（来源：IT之家）', u:'https://www.ithome.com/1/020/989.htm'},
     {c:'MEDPHARMA', d:'2026-11-02T14:11', t:'央视严选「中国AI创业十骏」:唯一AI制药公司是清华系', s:'央视严选「中国AI创业十骏」:唯一AI制药公司是清华系（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703451818923278884/'},
@@ -471,34 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-02T13:09', t:'资本抢投、大厂押注，AI眼镜最大赢家是售价50的华强北？', s:'出货量不到手机零头，AI眼镜的“iPhone时刻”还有多远？（来源：钛媒体）', u:'https://www.tmtpost.com/8189773.html'},
     {c:'HOT', d:'2026-11-02T13:00', t:'AI治不了CEO的大病', s:'资本已经开始重新算账，打工人早就看懂了这套剧本。剩下的悬念，留给那些还沉浸幻想的 CEO：当影子人力越来越多、团队人人自…（来源：钛媒体）', u:'https://www.tmtpost.com/8189832.html'},
     {c:'MODEL', d:'2026-11-02T12:56', t:'Kimi 半年三次道歉：模型越强，生意却越难做？', s:'Kimi这次为何栽在“烧额度”上？（来源：钛媒体）', u:'https://www.tmtpost.com/8189784.html'},
-    {c:'HOT', d:'2026-11-02T12:54', t:'43 分 41 秒，首届 CMG 世界机器人登泰山大赛足式竞速冠军产生', s:'据央视新闻报道，世界机器人登泰山大赛于今日（11 月 2 日）在山东泰安举行。大赛以“登高望远智竞泰山”为主题，赛道全程…（来源：IT之家）', u:'https://www.ithome.com/1/020/938.htm'},
     {c:'MEDPHARMA', d:'2026-11-02T12:52', t:'AI制药:设计提速 验证堵在哪', s:'AI制药:设计提速 验证堵在哪（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703432412482634275/'},
     {c:'MODEL', d:'2026-11-02T12:28', t:'GPT-6.2 Astra开启灰测！Claude Mythos 5.5同日曝光', s:'HuggingFace疑似泄露权重已被下5000次（来源：量子位）', u:'https://www.qbitai.com/2026/11/507082.html'},
     {c:'MODEL', d:'2026-11-02T10:53', t:'超智融合如何决定下一个十年科技发展丨ToB产业观察', s:'让HPC与AI在同一个平台里协同工作，让智能体成为科研的默认操作系统。（来源：钛媒体）', u:'https://www.tmtpost.com/8189540.html'},
     {c:'MODEL', d:'2026-11-02T10:39', t:'DeepSeek 团队把 Agent 设计成“操作系统”：多任务的上限不该是人的注意力', s:'DeepSeek Harness 团队发了一篇架构长文，讲他们怎么做出一个"永远在线"的 Agent。文章有一句话很精辟…（来源：OSCHINA）', u:'https://www.oschina.net/news/503338/deepseek-harness-super-agent'},
     {c:'MODEL', d:'2026-11-02T10:28', t:'Postgres 19 迟到了，原因是 LLM 找出了太多老 bug', s:'PostgreSQL 19 要迟到了，大概率拖到 11 月才发。过去十年它的发布节奏准得像钟表——不早于 9 月中，不晚…（来源：OSCHINA）', u:'https://www.oschina.net/news/503336/postgres-19-is-late-and-its-ais-fault'},
-    {c:'MODEL', d:'2026-11-02T10:16', t:'贾跃亭：FFR 机器人 10 月销量超 351 台，累计首次破千台', s:'贾跃亭今天发布新一期周报，宣称 FFR 机器人本体 10 月销售及出货量为 351 台，再次刷新单月纪录，已累计销售及出…（来源：IT之家）', u:'https://www.ithome.com/1/020/894.htm'},
-    {c:'MODEL', d:'2026-11-02T10:07', t:'首届 CMG 世界机器人登泰山大赛今日开赛，记者一路小跑跟不上', s:'首届 CMG 世界机器人登泰山大赛于今日（11 月 2 日）在山东泰安正式开赛，各类机器人齐聚泰山脚下，在红门至中天门（…（来源：IT之家）', u:'https://www.ithome.com/1/020/890.htm'},
   ];
   const TIMELINE = [
+    ['11-02 15:21','OpenAI CEO 奥尔特曼密访韩国，深化与三星、SK 集团 AI 芯片与数据中心合作'],
+    ['11-02 15:10','韩国公布该国史上最大规模预算案，重点投向人工智能与半导体'],
+    ['11-02 15:04','韩国第 6 代国家超级计算机“汉江”投运，算力可跻身 TOP500 前十'],
     ['11-02 14:34','Meta 与中国企业合作开发人形机器人？傅利叶：暂不方便回复'],
     ['11-02 14:11','曾毓群全英文发言：宁德时代也在用 AI 进行技术创新，可在短时间筛选千种化合物'],
     ['11-02 14:11','央视严选「中国AI创业十骏」:唯一AI制药公司是清华系'],
-    ['11-02 14:08','小米开源了个150元的AI小玩意，火到配件都涨价了'],
-    ['11-02 14:01','三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量'],
-    ['11-02 13:53','2800万用户，养不活一个AI陪伴应用'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:310793, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:309453, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:294971, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228156, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186471, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154205, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143697, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:140694, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116772, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112616, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:310804, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:309477, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:294988, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228171, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186482, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154209, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143704, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:140705, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116779, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112623, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
