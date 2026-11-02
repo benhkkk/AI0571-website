@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-02T18:02:11",
+  "updated": "2026-11-02T18:17:13",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-02T18:10",
+      "t": "蓝皮书:应建立人工智能医疗器械全生命周期监管机制",
+      "s": "蓝皮书:应建立人工智能医疗器械全生命周期监管机制（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7703514391928439315/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-02T18:03",
+      "t": "宇树机器人 G1 因过热退出登泰山大赛，被担架抬下山",
+      "s": "据极目新闻报道，11 月 2 日，首届 CMG 世界机器人登泰山大赛在山东泰安开赛。随着裁判员一声令下，各机器人按照顺序…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/222.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-02T17:46",
@@ -93,13 +107,6 @@
       "u": "https://www.ifanr.com/1687094?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-11-02T15:57",
-      "t": "巴西两名律师试图通过隐藏提示词操纵法院 AI，被罚 1.6 万美元",
-      "s": "巴西一家劳工法院在发现两名律师的最新提交文件中包含试图影响其人工智能工具的隐藏文本后，对这两名律师处以了罚款。巴西利亚大…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/079.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-02T15:47",
       "t": "从“能调用”到“敢托付”：仪电智算云 Token 工厂的三重可信",
@@ -133,16 +140,17 @@
       "t": "美团发布LongCat-2.5大模型，“国芯国模”实现新突破",
       "s": "11月2日，美团发布新一代大模型LongCat-2.5，这是一款面向长程智能体任务的原生多模态模型，总参数1.6万亿。L…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/mUPVr3RF0MHNmn3t.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-02T15:09",
-      "t": "阿里云发布AI投研工作台Qovest，给专业投资者配一个“AI研究员”",
-      "s": "11月2日，阿里云正式发布面向专业机构投资者的AI投研工作台Qovest。用户用一句话提出研究需求，Qovest就会自动…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/MFtJXmU8YNMGMig6.html"
     }
   ],
   "timeline": [
+    [
+      "11-02 18:10",
+      "蓝皮书:应建立人工智能医疗器械全生命周期监管机制"
+    ],
+    [
+      "11-02 18:03",
+      "宇树机器人 G1 因过热退出登泰山大赛，被担架抬下山"
+    ],
     [
       "11-02 17:46",
       "Anthropic 以“蚂蚁”为代号冲刺 IPO，昆虫学者有话要说"
@@ -158,14 +166,6 @@
     [
       "11-02 17:10",
       "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信"
-    ],
-    [
-      "11-02 16:58",
-      "可灵 4.0 实测：「零」真人出镜手搓探展视频，AI 离“一站成片”还有多远？"
-    ],
-    [
-      "11-02 16:44",
-      "6370亿算力账单背后：AI上演铁路剧本，谁会死在通车前"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310883,
+      "s": 310891,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 309592,
+      "s": 309600,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 295071,
+      "s": 295084,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228236,
+      "s": 228238,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186544,
+      "s": 186551,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143712,
+      "s": 143715,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140784,
+      "s": 140790,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116809,
+      "s": 116812,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112649,
+      "s": 112650,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
