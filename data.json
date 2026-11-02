@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-02T07:32:05",
+  "updated": "2026-11-02T08:03:12",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-02T07:36",
+      "t": "微软 AI 负责人苏莱曼：AI 模型没有意识，我们应确保它永远如此",
+      "s": "微软 AI 负责人（Mustafa Suleyman）昨天在 X 平台发布长文，称目前的 AI 模型并不具备意识，人们应…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/020/848.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-02T07:20",
@@ -73,6 +80,20 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-11-01T18:03",
+      "t": "个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新",
+      "s": "作者｜汤一涛 编辑｜靖宇 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373249"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-01T17:57",
+      "t": "DeepSeek，怎么就变成了一条「大肥鱼」",
+      "s": "作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373248"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-11-01T17:46",
       "t": "Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成",
       "s": "近日，Pika 发布 MiniMax H3 衍生模型 Pika H3 Flex，并开放适配器权重与推理代码。该模型通过六…（来源：雷锋网）",
@@ -91,20 +112,6 @@
       "t": "Agent改写算力账本，CPU不再是AI服务器的配角？",
       "s": "AI算力的投入逻辑正在从只采购加速卡，转向搭配一整套均衡的算力机柜（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8189082.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-01T17:03",
-      "t": "阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等",
-      "s": "阿里旗下千问 AI 眼镜今日迎来 OTA 升级，新增通话翻译、媒体翻译等，抗噪能力再升级。IT之家整理如下：新增通话翻译…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/768.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-01T17:03",
-      "t": "奥海推出 PD3.2 智显屏充电器：2C+1A，支持 200W 超频输出，369 元",
-      "s": "奥海宣布推出一款 170W PD3.2 智显屏 AI 充电器，该产品采用 2C+1A 设计，支持超频至 200W 输出…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/020/767.htm"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,13 @@
       "t": "清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考",
       "s": "让AI像牛顿一样思考（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/507031.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-01T15:50",
-      "t": "老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子",
-      "s": "这事还是想得太简单了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/506990.html"
     }
   ],
   "timeline": [
+    [
+      "11-02 07:36",
+      "微软 AI 负责人苏莱曼：AI 模型没有意识，我们应确保它永远如此"
+    ],
     [
       "11-02 07:20",
       "【钛晨报】事关股市，央行、金融监管总局、证监会今日将召开会议；中国国新、中国诚通，各获大行新增千亿级股票回购增持贷款额度；小鹏、小米10月交付量首超5万，鸿蒙智…"
@@ -162,10 +166,6 @@
     [
       "11-01 21:09",
       "Claude紧急叫停！暗改Harness禁止逆向游戏"
-    ],
-    [
-      "11-01 20:04",
-      "赫拉利深度访谈：真正的 AI 危机来了！"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 310618,
+      "s": 310625,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 309221,
+      "s": 309225,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 294771,
+      "s": 294790,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 227974,
+      "s": 227982,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186351,
+      "s": 186357,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154167,
+      "s": 154169,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 140517,
+      "s": 140526,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116694,
+      "s": 116698,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112549,
+      "s": 112551,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

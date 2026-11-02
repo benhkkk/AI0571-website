@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-02T07:36', t:'微软 AI 负责人苏莱曼：AI 模型没有意识，我们应确保它永远如此', s:'微软 AI 负责人（Mustafa Suleyman）昨天在 X 平台发布长文，称目前的 AI 模型并不具备意识，人们应…（来源：IT之家）', u:'https://www.ithome.com/1/020/848.htm'},
     {c:'MODEL', d:'2026-11-02T07:20', t:'【钛晨报】事关股市，央行、金融监管总局、证监会今日将召开会议；中国国新、中国诚通，各获大行新增千亿级股票回购增持贷款额度；小鹏、小米10月交付量首超5万，鸿蒙智行同比腰斩', s:'沪深上市公司前三季度净利润超5万亿元，创四年新高；DeepSeek发布全新Agent架构；英伟达展示下一代CPO方案；阿…（来源：钛媒体）', u:'https://www.tmtpost.com/8189217.html'},
     {c:'HOT', d:'2026-11-02T06:58', t:'OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”', s:'据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。OpenAI 首席全…（来源：IT之家）', u:'https://www.ithome.com/1/020/844.htm'},
     {c:'MODEL', d:'2026-11-01T22:19', t:'OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准', s:'OpenAI、谷歌、微软以及 Anthropic 近日宣布将采用一项新标准，内容发布方可以借助该标准选择拒绝 AI 抓取…（来源：IT之家）', u:'https://www.ithome.com/1/020/837.htm'},
@@ -469,36 +470,35 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-01T19:17', t:'拾趣 (Magpie) v0.1.19 发布，AI 更智能，内容识别更精准', s:'拾趣 (Magpie) v0.1.19 发布，AI 更智能，内容识别更精准 拾趣 (Magpie)是一款跨平台沉浸式自定…（来源：OSCHINA）', u:'https://www.oschina.net/news/503329'},
     {c:'MODEL', d:'2026-11-01T18:46', t:'工信部赛迪研究院：我国人工智能推理数据量首超训练数据量，截至 6 月日均词元调用量超 175 万亿', s:'据央视新闻今日报道，中国电子信息产业发展研究院（简称“赛迪研究院”，英文缩写 CCID）昨日发布的《新域新质创新发展十大…（来源：IT之家）', u:'https://www.ithome.com/1/020/809.htm'},
     {c:'MEDPHARMA', d:'2026-11-01T18:16', t:'斯坦福学霸预言:AI制药就像造火箭，下一家SpaceX将诞生在生...', s:'斯坦福学霸预言:AI制药就像造火箭，下一家SpaceX将诞生在生...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703144977810932243/'},
+    {c:'MODEL', d:'2026-11-01T18:03', t:'个人灵光 2.0 实测：个人 AI 助理的机会和门槛｜AI 上新', s:'作者｜汤一涛 编辑｜靖宇 10 月 21 日的 Meta 财报会上，扎克伯格披露了一组关于个人智能体 Muse 的关键数…（来源：极客公园）', u:'http://www.geekpark.net/news/373249'},
+    {c:'MODEL', d:'2026-11-01T17:57', t:'DeepSeek，怎么就变成了一条「大肥鱼」', s:'作者｜Moonshot 编辑｜靖宇 最近，B 站评论区闹起了「鱼灾」。 先是有人开了个「Claude 大小姐在运营」的账…（来源：极客公园）', u:'http://www.geekpark.net/news/373248'},
     {c:'MODEL', d:'2026-11-01T17:46', t:'Pika 基于 MiniMax H3 开源 H3 Flex，六步实现音视频联合生成', s:'近日，Pika 发布 MiniMax H3 衍生模型 Pika H3 Flex，并开放适配器权重与推理代码。该模型通过六…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/MK1z0js4sqcp1xca.html'},
     {c:'MODEL', d:'2026-11-01T17:23', t:'首届 CMG 世界机器人登泰山大赛明日进行，央视揭秘机器人如何认路、探路、见招拆招', s:'首届 CMG 世界机器人登泰山大赛将于明天（11 月 2 日）在山东泰安正式开赛，各类机器人齐聚泰山脚下，在红门至中天门…（来源：IT之家）', u:'https://www.ithome.com/1/020/773.htm'},
     {c:'MODEL', d:'2026-11-01T17:13', t:'Agent改写算力账本，CPU不再是AI服务器的配角？', s:'AI算力的投入逻辑正在从只采购加速卡，转向搭配一整套均衡的算力机柜（来源：钛媒体）', u:'https://www.tmtpost.com/8189082.html'},
-    {c:'MODEL', d:'2026-11-01T17:03', t:'阿里千问 AI 眼镜 OTA 升级：新增通话翻译、媒体翻译等', s:'阿里旗下千问 AI 眼镜今日迎来 OTA 升级，新增通话翻译、媒体翻译等，抗噪能力再升级。IT之家整理如下：新增通话翻译…（来源：IT之家）', u:'https://www.ithome.com/1/020/768.htm'},
-    {c:'MODEL', d:'2026-11-01T17:03', t:'奥海推出 PD3.2 智显屏充电器：2C+1A，支持 200W 超频输出，369 元', s:'奥海宣布推出一款 170W PD3.2 智显屏 AI 充电器，该产品采用 2C+1A 设计，支持超频至 200W 输出…（来源：IT之家）', u:'https://www.ithome.com/1/020/767.htm'},
     {c:'MODEL', d:'2026-11-01T16:26', t:'详解Super Agent：会主动干活，更懂何时闭嘴', s:'既强大又有边界感，就是费额度。（来源：钛媒体）', u:'https://www.tmtpost.com/8189032.html'},
     {c:'MODEL', d:'2026-11-01T16:26', t:'从效率到效能，真正的AI组织', s:'现在全网都在热炒“AI原生组织”和“智能组织”，以为给各部门配几个大模型、放几个Multi-Agent自由博弈，组织就进…（来源：钛媒体）', u:'https://www.tmtpost.com/8188900.html'},
     {c:'HOT', d:'2026-11-01T16:26', t:'修补“漏水船”：腾讯AI的B端转向', s:'B端战场面临真实阻力（来源：钛媒体）', u:'https://www.tmtpost.com/8186131.html'},
     {c:'MODEL', d:'2026-11-01T16:02', t:'清华姚期智团队新作：代数世界模型，让AI像牛顿一样思考', s:'让AI像牛顿一样思考（来源：量子位）', u:'https://www.qbitai.com/2026/11/507031.html'},
-    {c:'HOT', d:'2026-11-01T15:50', t:'老牌便利店机器人售货折戟：实验室锤炼上万次，货架前还是摔瓶子', s:'这事还是想得太简单了（来源：量子位）', u:'https://www.qbitai.com/2026/11/506990.html'},
   ];
   const TIMELINE = [
+    ['11-02 07:36','微软 AI 负责人苏莱曼：AI 模型没有意识，我们应确保它永远如此'],
     ['11-02 07:20','【钛晨报】事关股市，央行、金融监管总局、证监会今日将召开会议；中国国新、中国诚通，各获大行新增千亿级股票回购增持贷款额度；小鹏、小米10月交付量首超5万，鸿蒙智…'],
     ['11-02 06:58','OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”'],
     ['11-01 22:19','OpenAI、谷歌、微软和 Anthropic 联手推行 AI 数据抓取退出标准'],
     ['11-01 21:28','三年前布局，今年爆火丨西湖大学成立新中心'],
     ['11-01 21:09','Claude紧急叫停！暗改Harness禁止逆向游戏'],
-    ['11-01 20:04','赫拉利深度访谈：真正的 AI 危机来了！'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:310618, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:309221, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:294771, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:227974, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186351, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154167, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:310625, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:309225, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:294790, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:227982, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186357, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154169, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143673, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:140517, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116694, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112549, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:140526, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116698, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112551, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
