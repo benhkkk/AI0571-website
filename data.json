@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-03T08:31:59",
+  "updated": "2026-11-03T09:02:01",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-03T08:57",
+      "t": "搭载百度文心大模型：小度 AI 手表 Fit 国补 138 元探底，轻薄大屏无感佩戴",
+      "s": "7 月 27 日小度 AI 智能手表 Fit 正式发布，定价为 198 元，国补价 159.8 元。天猫双 11 狂促报…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/316.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-03T08:47",
+      "t": "怀柔黑科技补上AI制药关键短板，实验结果可全程溯源",
+      "s": "怀柔黑科技补上AI制药关键短板，实验结果可全程溯源（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7703740454647185929/"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-03T08:45",
+      "t": "“存储通胀”中的传音控股：囤芯失血、H股遇冷与AI求生 |深度",
+      "s": "“非洲手机之王”传音控股，以低端手机做到全球新兴市场销量第一的消费电子企业，也成为中国消费电子出海最成功的样板之一。20…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8190090.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-03T08:25",
@@ -73,13 +94,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-03T06:43",
-      "t": "Anthropic 高付费客户超 1.19 万家，净收入留存率达 900%",
-      "s": "Anthropic 于当地时间 11 月 2 日披露的数据显示，截至 2026 年 9 月 30 日，公司净收入留存率（…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/285.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-11-02T21:36",
       "t": "顶级AI翻车的活儿，被这个新出的免费国产AI接住了！",
       "s": "商汤SenseNova 6.8 Flash（来源：量子位）",
@@ -126,23 +140,21 @@
       "t": "具身下半场怎么打？智元用一场发布会，给出了自己的答案",
       "s": "GPT-6之后，机器人公司还有价值吗？智元用2万台出货量背后的“Worken”算力账本回应。 作者丨齐铖湧 编辑丨岑 峰…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/ai/d2myOaWdKKFW23lm.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-02T18:14",
-      "t": "从产品幕后到用户故事，极米记得AI新品全阵容亮相INNO100首「硬」礼",
-      "s": "11 月 1 日，极米记得AI新品全阵容亮相INNO100首「硬」礼 。极米智能眼镜业务CPO邵子鉴、蔡司光学中国区 X…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/weiwu/AfQerzZ1HwVzZ2yZ.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-02T18:10",
-      "t": "蓝皮书:应建立人工智能医疗器械全生命周期监管机制",
-      "s": "蓝皮书:应建立人工智能医疗器械全生命周期监管机制（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7703514391928439315/"
     }
   ],
   "timeline": [
+    [
+      "11-03 08:57",
+      "搭载百度文心大模型：小度 AI 手表 Fit 国补 138 元探底，轻薄大屏无感佩戴"
+    ],
+    [
+      "11-03 08:47",
+      "怀柔黑科技补上AI制药关键短板，实验结果可全程溯源"
+    ],
+    [
+      "11-03 08:45",
+      "“存储通胀”中的传音控股：囤芯失血、H股遇冷与AI求生 |深度"
+    ],
     [
       "11-03 08:25",
       "苹果下架 19 款 App：宠物写真等应用被曝暗藏另一张“面孔”"
@@ -154,18 +166,6 @@
     [
       "11-03 08:15",
       "Edge AI Daily 早报（11月3日）"
-    ],
-    [
-      "11-03 08:06",
-      "日本拟修订汽车安全认证标准，为 L4、L5 级自动驾驶车辆量产铺路"
-    ],
-    [
-      "11-03 07:59",
-      "IT早报 1103：奥尔特曼称个人电脑浪费内存遭全网声讨；苹果 2026 财年净利润 1321 亿美元；美团称外卖 15 元以下订单数量减半；世界机器人登泰山大…"
-    ],
-    [
-      "11-03 07:44",
-      "科技股暴跌拖累 Anthropic“史上最大 IPO”估值，预期已从 2 万亿美元降至 1.5 万亿区间"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311241,
+      "s": 311251,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 310219,
+      "s": 310231,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 295663,
+      "s": 295675,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228542,
+      "s": 228545,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 186769,
+      "s": 186774,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154301,
+      "s": 154303,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143756,
+      "s": 143757,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141190,
+      "s": 141199,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 116942,
+      "s": 116944,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112831,
+      "s": 112835,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
