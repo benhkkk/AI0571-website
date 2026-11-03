@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-03T22:31:29",
+  "updated": "2026-11-03T23:01:33",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-03T22:36",
+      "t": "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权",
+      "s": "据路透社报道，欧洲最高法院的一名顾问周二表示，谷歌旗下 Gemini 聊天机器人在回答互联网用户提问时使用新闻报道，在特…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/835.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-03T21:57",
+      "t": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
+      "s": "AI接管调度运营，仓库越干越聪明（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/507507.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-03T21:47",
@@ -100,13 +114,6 @@
       "u": "https://www.ithome.com/1/021/776.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-03T18:29",
-      "t": "渣打银行 CEO 温特斯谈 AI 冲击就业：恐惧客观存在，培训是解药",
-      "s": "人工智能可能正威胁着数十万个工作岗位，但渣打银行首席执行官想给心怀焦虑的员工传递这样一句话：我们曾经经历过类似的阶段。周…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/766.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-11-03T18:13",
       "t": "从消费互联网到AI，迪拜投资人寻找中国新标的｜出海参考",
@@ -133,16 +140,17 @@
       "t": "Transsion Under Memory Inflation: Stockpiles, a Cold H-Share, and an AI Bet",
       "s": "Transsion Under Memory Inflation: Stockpiles, a Co…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8191938.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-03T17:38",
-      "t": "实控人IPO前套现2.5 亿，董秘临阵离职，科大智能赴港上市为了“国际化”？",
-      "s": "电网独大、机器人式微。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8191028.html"
     }
   ],
   "timeline": [
+    [
+      "11-03 22:36",
+      "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权"
+    ],
+    [
+      "11-03 21:57",
+      "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓"
+    ],
     [
       "11-03 21:47",
       "Itch.io 出手整治低质量 AI 游戏，数 TB 内容被删除"
@@ -158,14 +166,6 @@
     [
       "11-03 20:57",
       "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池"
-    ],
-    [
-      "11-03 20:55",
-      "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相"
-    ],
-    [
-      "11-03 20:52",
-      "联亚药业:公司目前暂未在AI制药方向进行布局"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311628,
+      "s": 311641,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 310969,
+      "s": 310994,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296202,
+      "s": 296228,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228894,
+      "s": 228908,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187000,
+      "s": 187006,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154387,
+      "s": 154394,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143810,
+      "s": 143814,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141598,
+      "s": 141607,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117104,
+      "s": 117109,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112956,
+      "s": 112963,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
