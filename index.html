@@ -459,10 +459,13 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-03T13:27', t:'YC 掌门人加里 · 谭每年至少 10 万美元用 AI：连 20 年前的隐私都交给它', s:'北京时间 11 月 3 日，据科技媒体 TechCrunch 报道，硅谷知名创业孵化器 Y Combinator（YC）…（来源：IT之家）', u:'https://www.ithome.com/1/021/507.htm'},
+    {c:'MODEL', d:'2026-11-03T13:24', t:'报告称红果免费短剧用户量超越豆包，成为抖音集团第二大应用', s:'QuestMobile 今日发布 2026 中国移动互联网秋季大报告，截止到 2026 年 9 月，移动互联网月活用户规…（来源：IT之家）', u:'https://www.ithome.com/1/021/502.htm'},
     {c:'MODEL', d:'2026-11-03T12:37', t:'阿里蔡崇信：只有开源才能推动 AI 普及，千问开源模型已超 470 款', s:'2026 年世界互联网大会于今日（11 月 3 日）在浙江乌镇开幕。据界面新闻报道，阿里巴巴集团联合创始人及董事会主席蔡…（来源：IT之家）', u:'https://www.ithome.com/1/021/495.htm'},
     {c:'HOT', d:'2026-11-03T12:12', t:'思科给一个 27 岁工程师无限 token，让他重写 98% 的遗留代码', s:'Cisco 总裁兼首席产品官 Jeetu Patel 给了一个 27 岁工程师无限量的 AI token。原话是在一场小…（来源：OSCHINA）', u:'https://www.oschina.net/news/503367/cisco-unlimited-ai-tokens-rewrite-legacy-code'},
     {c:'HOT', d:'2026-11-03T12:09', t:'苹果的一切都在变贵，全怪 AI', s:'赚得多，花得更狠#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1687259?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-03T11:50', t:'男子用 AI 破解 AI 平台接口：400 多万个账号薅积分、偷算力卖钱，被判刑 3 年缓刑 3 年', s:'据上海法治报 11 月 2 日报道，上海市首例利用 AI 伪造签名、盗用大模型算力案于近日宣判。2025 年 12 月…（来源：IT之家）', u:'https://www.ithome.com/1/021/484.htm'},
+    {c:'HOT', d:'2026-11-03T11:41', t:'A社紧急修改招股书！RSI我们快要控制不住了', s:'单季狂揽1130亿人民币，但...（来源：量子位）', u:'https://www.qbitai.com/2026/11/507382.html'},
     {c:'MEDPHARMA', d:'2026-11-03T11:32', t:'AI制药公司“同构实验室”总裁贾德伯格大胆预测:未来所有药...', s:'AI制药公司“同构实验室”总裁贾德伯格大胆预测:未来所有药...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703783020305596978/'},
     {c:'MODEL', d:'2026-11-03T11:23', t:'国家发改委：强化对 AI 就业替代风险监测预警，做好兜底性、普惠性社会保障', s:'国家发展改革委今日召开奋进“十五五”系列新闻发布会，介绍培育壮大新动能有关情况。国家发展改革委创新和高技术发展司副司长王…（来源：IT之家）', u:'https://www.ithome.com/1/021/475.htm'},
     {c:'HOT', d:'2026-11-03T11:16', t:'模拟计算进入矩阵时代！北大联手硅谷IBM，写下新定义', s:'GPU迭代一百次的事，它一步做完（来源：量子位）', u:'https://www.qbitai.com/2026/11/507367.html'},
@@ -470,35 +473,32 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-03T11:13', t:'不与大模型对抗，星尘智能想用AOS接住通用智能的红利', s:'投降or对抗？星尘智能决定选第三条路：保持开放，既要又要。（来源：钛媒体）', u:'https://www.tmtpost.com/8191171.html'},
     {c:'INDUSTRY', d:'2026-11-03T11:12', t:'高通：高通 AI Hub 现已面向中国开发者开放', s:'Qualcomm（高通）今日宣布，其高通 AI Hub 现已面向中国开发者开放。合作伙伴与开发者可借助该平台加速打造终端…（来源：IT之家）', u:'https://www.ithome.com/1/021/453.htm'},
     {c:'MODEL', d:'2026-11-03T11:05', t:'苹果 CEO 特努斯：Siri 每日处理超过 25 亿次请求，部分高级 AI 功能将收费', s:'科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上，苹果首席执行官约翰 ·…（来源：IT之家）', u:'https://www.ithome.com/1/021/400.htm'},
-    {c:'MODEL', d:'2026-11-03T10:58', t:'REA「逆向一切」实测：Gemini 4 Argon和GLM 5.3 复刻故宫名画记，细节决定还原度', s:'逆向工具可以帮模型找出软件的结构与行为，但哪些功能该保留、哪些细节不能省，仍要由模型判断。 作者丨吴海明 编辑丨李娜 岑…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/LJRGX1IzRWZl6XsT.html'},
-    {c:'HOT', d:'2026-11-03T10:57', t:'美国“最年轻”前陆军部长德里斯科尔加入 OpenAI，出任国家安全与现代化事务高级顾问', s:'OpenAI 聘请美国前陆军部长丹尼尔 · 德里斯科尔担任顾问，协助推动人工智能在国家安全和网络安全领域的应用。德里斯科…（来源：IT之家）', u:'https://www.ithome.com/1/021/382.htm'},
-    {c:'MEDDEVICE', d:'2026-11-03T10:53', t:'深圳市医疗器械产业发展研究报告(2026)', s:'深圳市医疗器械产业发展研究报告(2026)（来源：头条设备AI）', u:'https://www.toutiao.com/article/7703771370894803466/'},
-    {c:'MODEL', d:'2026-11-03T10:32', t:'OpenAI 下一代 GPT-6.2 Astra 正灰度测试，Codex 用量统计中已单独列出', s:'经大量用户反馈，OpenAI 下一代模型 GPT-6.2 Astra 疑似已进入小范围测试，部分 Codex 用户的使用…（来源：IT之家）', u:'https://www.ithome.com/1/021/352.htm'},
     {c:'HOT', d:'2026-11-03T10:03', t:'AI Subscriptions Hit a Wall as Smarter Models Burn Quotas Faster', s:'AI Subscriptions Hit a Wall as Smarter Models Burn…（来源：钛媒体）', u:'https://www.tmtpost.com/8191236.html'},
     {c:'MEDDEVICE', d:'2026-11-03T10:02', t:'B站举办2026超级科学晚，脑机接口、人造太阳等前沿科技齐亮相', s:'10月31日，2026年bilibili超级科学晚（以下简称“B站科学晚”）在北京如期举行。（来源：量子位）', u:'https://www.qbitai.com/2026/11/507339.html'},
-    {c:'MODEL', d:'2026-11-03T10:00', t:'世界互联网大会聚焦智能体安全，360作为核心成员单位持续推动AI安全治理', s:'11月2日，世界互联网大会人工智能专业委员会2026年全体会议及第三次主任委员会议在浙江乌镇召开。360集团首席科学家…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/z4pIQvELeZ9lYfrG.html'},
     {c:'MODEL', d:'2026-11-03T09:57', t:'MIT：GPT-6 Astra能直接修改Qwen权重，数学能力暴涨6倍', s:'指令执行能力也同步提升（来源：量子位）', u:'https://www.qbitai.com/2026/11/507322.html'},
     {c:'MODEL', d:'2026-11-03T09:46', t:'爱诗科技PixVerse 与 OpenAI 共同推出产品集成和创作者教育计划，高效打通 AI 创意全流程', s:'近日，爱诗科技（AIsphere）旗下模型和开放平台PixVerse 与 OpenAI 宣布开启深度合作（来源：量子位）', u:'https://www.qbitai.com/2026/11/507313.html'},
+    {c:'MEDPHARMA', d:'2026-11-03T08:47', t:'怀柔黑科技补上AI制药关键短板，实验结果可全程溯源', s:'怀柔黑科技补上AI制药关键短板，实验结果可全程溯源（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703740454647185929/'},
+    {c:'INDUSTRY', d:'2026-11-03T08:45', t:'“存储通胀”中的传音控股：囤芯失血、H股遇冷与AI求生 |深度', s:'“非洲手机之王”传音控股，以低端手机做到全球新兴市场销量第一的消费电子企业，也成为中国消费电子出海最成功的样板之一。20…（来源：钛媒体）', u:'https://www.tmtpost.com/8190090.html'},
   ];
   const TIMELINE = [
+    ['11-03 13:27','YC 掌门人加里 · 谭每年至少 10 万美元用 AI：连 20 年前的隐私都交给它'],
+    ['11-03 13:24','报告称红果免费短剧用户量超越豆包，成为抖音集团第二大应用'],
     ['11-03 12:37','阿里蔡崇信：只有开源才能推动 AI 普及，千问开源模型已超 470 款'],
     ['11-03 12:12','思科给一个 27 岁工程师无限 token，让他重写 98% 的遗留代码'],
     ['11-03 12:09','苹果的一切都在变贵，全怪 AI'],
     ['11-03 11:50','男子用 AI 破解 AI 平台接口：400 多万个账号薅积分、偷算力卖钱，被判刑 3 年缓刑 3 年'],
-    ['11-03 11:32','AI制药公司“同构实验室”总裁贾德伯格大胆预测:未来所有药...'],
-    ['11-03 11:23','国家发改委：强化对 AI 就业替代风险监测预警，做好兜底性、普惠性社会保障'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311341, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:310424, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:295795, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228635, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186839, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311350, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:310449, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:295819, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228647, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186848, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154328, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143772, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141324, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116986, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112861, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143774, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141335, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:116989, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112863, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
