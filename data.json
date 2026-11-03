@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-04T00:01:53",
+  "updated": "2026-11-04T00:31:06",
   "news": [
     {
       "c": "MODEL",
@@ -14,6 +14,13 @@
       "t": "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权",
       "s": "据路透社报道，欧洲最高法院的一名顾问周二表示，谷歌旗下 Gemini 聊天机器人在回答互联网用户提问时使用新闻报道，在特…（来源：IT之家）",
       "u": "https://www.ithome.com/1/021/835.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-03T21:59",
+      "t": "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”",
+      "s": "“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html"
     },
     {
       "c": "HOT",
@@ -58,13 +65,6 @@
       "u": "https://www.qbitai.com/2026/11/507473.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-03T20:55",
-      "t": "用 AI 教 AI 开车，百度 Apollo World 世界模型亮相",
-      "s": "今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/808.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-03T20:52",
       "t": "联亚药业:公司目前暂未在AI制药方向进行布局",
@@ -77,13 +77,6 @@
       "t": "TrendForce：AI 网络与互连持续接近翻倍增长，2027 年产值 2798 亿美元",
       "s": "TrendForce（集邦）昨日发布预测，AI 网络与互连产值在 2027 年有望达到 2,798 亿美元（IT之家注：…（来源：IT之家）",
       "u": "https://www.ithome.com/1/021/796.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-03T19:50",
-      "t": "AI 训练 AI！百度首次披露 Apollo World 世界模型，让无人驾驶突破“不可能三角”",
-      "s": "“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503374"
     },
     {
       "c": "HOT",
@@ -140,6 +133,13 @@
       "t": "实控人IPO前套现2.5 亿，董秘临阵离职，科大智能赴港上市为了“国际化”？",
       "s": "电网独大、机器人式微。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8191028.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-03T17:38",
+      "t": "DeepSeek不满足于模型，还要让AI自己干活",
+      "s": "DeepSeek开源Super-agent原型，探索自主智能体架构。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8190971.html"
     }
   ],
   "timeline": [
@@ -152,6 +152,10 @@
       "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权"
     ],
     [
+      "11-03 21:59",
+      "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”"
+    ],
+    [
       "11-03 21:57",
       "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓"
     ],
@@ -162,10 +166,6 @@
     [
       "11-03 21:41",
       "中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇"
-    ],
-    [
-      "11-03 21:33",
-      "九赴进博，西门子把工业 AI 推上产线"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311675,
+      "s": 311695,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311054,
+      "s": 311077,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296267,
+      "s": 296286,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 228928,
+      "s": 228937,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187011,
+      "s": 187017,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154398,
+      "s": 154400,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143816,
+      "s": 143821,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141637,
+      "s": 141650,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117122,
+      "s": 117125,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 112972,
+      "s": 112979,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
