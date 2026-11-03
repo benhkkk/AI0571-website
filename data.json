@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-04T04:01:40",
+  "updated": "2026-11-04T04:31:18",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T04:27",
+      "t": "苹果 iOS 27.3 扩展 Siri AI：支持繁体中文、覆盖 15 款 App 操作，能管理文件 / 定时发送信息等",
+      "s": "科技媒体 MacRumors 今天（11 月 4 日）发布博文，报道称在今天推送的 iOS 27.3 首个 Beta 开…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/866.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-04T03:17",
@@ -133,16 +140,13 @@
       "t": "香港大学发布全球首个KYA报告关注智能体信任建设，九类企业实践获收录",
       "s": "11月3日，香港大学副校长汪扬教授与香港大学经管学院杨宏副教授代表香港大学KYA课题组，在2026年香港金融科技周 x …（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/KkjVOHcQ55GyhDLv.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-03T18:03",
-      "t": "最高288核的至强6+，为了Agent高密度部署还下了哪些「云功夫」？",
-      "s": "作者 | 陈悦琳编辑 | 包永刚 一个智能体能顺利完成任务，不代表成百上千个智能体就能同时高效运行。 对于承载大量智能体…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/GQisGLfVBnbQVxVo.html"
     }
   ],
   "timeline": [
+    [
+      "11-04 04:27",
+      "苹果 iOS 27.3 扩展 Siri AI：支持繁体中文、覆盖 15 款 App 操作，能管理文件 / 定时发送信息等"
+    ],
     [
       "11-04 03:17",
       "苹果推送 macOS 27.3 首个开发者预览版：Siri AI 有望扩展支持繁体中文"
@@ -162,10 +166,6 @@
     [
       "11-03 22:36",
       "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权"
-    ],
-    [
-      "11-03 21:59",
-      "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311776,
+      "s": 311787,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311252,
+      "s": 311268,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296417,
+      "s": 296440,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229007,
+      "s": 229011,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187058,
+      "s": 187063,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154407,
+      "s": 154413,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143831,
+      "s": 143832,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141751,
+      "s": 141760,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117173,
+      "s": 117176,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113020,
+      "s": 113023,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
