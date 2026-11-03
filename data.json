@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-04T06:25:53",
+  "updated": "2026-11-04T06:31:22",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T06:29",
+      "t": "全球最大视频平台 YouTube 推广 AI 配乐工具，帮创作者化解音频版权纠纷",
+      "s": "全球最大视频平台 YouTube 今天（11 月 4 日）发布博文，宣布面向全球内容创作者，推广 YouTube Stu…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/877.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-04T04:59",
@@ -63,13 +70,6 @@
       "t": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
       "s": "AI接管调度运营，仓库越干越聪明（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/507507.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-03T21:47",
-      "t": "Itch.io 出手整治低质量 AI 游戏，数 TB 内容被删除",
-      "s": "据外媒 Kotaku 今天报道，独立游戏分发平台 Itch.io 最近几个月面临着 AI 游戏激增问题。最近几个月，该平…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/824.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-04 06:29",
+      "全球最大视频平台 YouTube 推广 AI 配乐工具，帮创作者化解音频版权纠纷"
+    ],
+    [
       "11-04 04:59",
       "Siri AI 将实现跨 App 办事：苹果开放“应用技能”，一句话串联多个应用任务"
     ],
@@ -162,10 +166,6 @@
     [
       "11-04 00:06",
       "英伟达称 AI 重塑芯片工厂：仿真提速最高 35 倍，工程师决策从数天缩至数分钟"
-    ],
-    [
-      "11-03 23:07",
-      "我国人工智能发展速度及应用规模全球领先"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311831,
+      "s": 311832,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311360,
+      "s": 311362,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296513,
+      "s": 296515,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229060,
+      "s": 229061,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187089,
+      "s": 187092,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141813,
+      "s": 141814,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113037,
+      "s": 113039,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
