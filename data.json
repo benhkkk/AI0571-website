@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-04T06:31:22",
+  "updated": "2026-11-04T07:01:51",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T06:47",
+      "t": "谷歌调整 K-12 教育 AI 政策：Gemini、搜索等服务默认关闭",
+      "s": "当地时间 11 月 3 日，谷歌宣布将从 2027 年起调整面向 K-12（幼儿园至高中）教育用户的人工智能功能管理政策…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/880.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T06:39",
+      "t": "OpenAI ChatGPT 最新数据：周活跃用户达 12 亿，两个月新增 2 亿",
+      "s": "当地时间 11 月 2 日 OpenAI 消费者产品负责人 Adam Fry 在纽约举行的一场 OpenAI 活动期间接…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/021/878.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-04T06:29",
@@ -42,20 +56,6 @@
       "t": "英伟达称 AI 重塑芯片工厂：仿真提速最高 35 倍，工程师决策从数天缩至数分钟",
       "s": "英伟达于 11 月 3 日发布文章称，人工智能正在推动半导体晶圆厂进入“AI 定义工厂”阶段：通过加速仿真、学习型物理模…（来源：IT之家）",
       "u": "https://www.ithome.com/1/021/857.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-03T23:07",
-      "t": "我国人工智能发展速度及应用规模全球领先",
-      "s": "据央视新闻今日报道，国家发展改革委今天（3 日）举行了“奋进‘十五五’”系列新闻发布会。会上提到，当前，我国人工智能发展…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/840.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-03T22:36",
-      "t": "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权",
-      "s": "据路透社报道，欧洲最高法院的一名顾问周二表示，谷歌旗下 Gemini 聊天机器人在回答互联网用户提问时使用新闻报道，在特…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/021/835.htm"
     },
     {
       "c": "MODEL",
@@ -107,13 +107,6 @@
       "u": "https://www.oschina.net/news/503374"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-03T19:16",
-      "t": "药物研发有了AI助手，显微镜会认细胞，AI让湖南生物医药产业...",
-      "s": "药物研发有了AI助手，显微镜会认细胞，AI让湖南生物医药产业...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7703902463568380416/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-03T19:13",
       "t": "模型谁都买得到，拉开差距的是AI生产力系统",
@@ -140,9 +133,24 @@
       "t": "香港大学发布全球首个KYA报告关注智能体信任建设，九类企业实践获收录",
       "s": "11月3日，香港大学副校长汪扬教授与香港大学经管学院杨宏副教授代表香港大学KYA课题组，在2026年香港金融科技周 x …（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/KkjVOHcQ55GyhDLv.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-03T18:03",
+      "t": "最高288核的至强6+，为了Agent高密度部署还下了哪些「云功夫」？",
+      "s": "作者 | 陈悦琳编辑 | 包永刚 一个智能体能顺利完成任务，不代表成百上千个智能体就能同时高效运行。 对于承载大量智能体…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/GQisGLfVBnbQVxVo.html"
     }
   ],
   "timeline": [
+    [
+      "11-04 06:47",
+      "谷歌调整 K-12 教育 AI 政策：Gemini、搜索等服务默认关闭"
+    ],
+    [
+      "11-04 06:39",
+      "OpenAI ChatGPT 最新数据：周活跃用户达 12 亿，两个月新增 2 亿"
+    ],
     [
       "11-04 06:29",
       "全球最大视频平台 YouTube 推广 AI 配乐工具，帮创作者化解音频版权纠纷"
@@ -158,14 +166,6 @@
     [
       "11-04 03:17",
       "苹果推送 macOS 27.3 首个开发者预览版：Siri AI 有望扩展支持繁体中文"
-    ],
-    [
-      "11-04 01:19",
-      "提速抗癌药物研发：谷歌 Antigravity 上线“AI 炼丹师”，1 小时筛完数千种化合物"
-    ],
-    [
-      "11-04 00:06",
-      "英伟达称 AI 重塑芯片工厂：仿真提速最高 35 倍，工程师决策从数天缩至数分钟"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311832,
+      "s": 311839,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311362,
+      "s": 311386,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296515,
+      "s": 296522,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229061,
+      "s": 229066,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187092,
+      "s": 187096,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154423,
+      "s": 154426,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143838,
+      "s": 143841,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141814,
+      "s": 141822,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117197,
+      "s": 117200,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113039,
+      "s": 113042,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
