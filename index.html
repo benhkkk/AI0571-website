@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-03T20:55', t:'用 AI 教 AI 开车，百度 Apollo World 世界模型亮相', s:'今天，在深圳举行的百度 AI Day·Apollo 专场上，百度 Apollo 首次披露面向物理 AI 的智能体驱动全模…（来源：IT之家）', u:'https://www.ithome.com/1/021/808.htm'},
+    {c:'MEDPHARMA', d:'2026-11-03T20:52', t:'联亚药业:公司目前暂未在AI制药方向进行布局', s:'联亚药业:公司目前暂未在AI制药方向进行布局（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703927164748284456/'},
     {c:'MODEL', d:'2026-11-03T20:00', t:'TrendForce：AI 网络与互连持续接近翻倍增长，2027 年产值 2798 亿美元', s:'TrendForce（集邦）昨日发布预测，AI 网络与互连产值在 2027 年有望达到 2,798 亿美元（IT之家注：…（来源：IT之家）', u:'https://www.ithome.com/1/021/796.htm'},
     {c:'MODEL', d:'2026-11-03T19:50', t:'AI 训练 AI！百度首次披露 Apollo World 世界模型，让无人驾驶突破“不可能三角”', s:'“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度…（来源：OSCHINA）', u:'https://www.oschina.net/news/503374'},
     {c:'HOT', d:'2026-11-03T19:16', t:'华为鸿蒙电脑应用数突破 2.1 万款，覆盖办公、AI、娱乐、创作等核心场景', s:'华为官方账号“智慧办公产品经理”宣布，鸿蒙电脑应用数突破 2.1 万款。从宣传海报来看，鸿蒙电脑应用已覆盖办公、AI、教…（来源：IT之家）', u:'https://www.ithome.com/1/021/782.htm'},
@@ -476,29 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-03T17:38', t:'DeepSeek不满足于模型，还要让AI自己干活', s:'DeepSeek开源Super-agent原型，探索自主智能体架构。（来源：钛媒体）', u:'https://www.tmtpost.com/8190971.html'},
     {c:'MODEL', d:'2026-11-03T17:15', t:'要更真实，还是更动人？AI视频生成走到了分岔口 | CNCC 2026', s:'从5大视角，看AI视频的挑战与风险在哪。 作者丨徐晓飞 编辑丨刘 伟 当下，视频生成的竞争焦点，正在从“像不像”转移到“…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/Huxl5GuqzEUo9CL9.html'},
     {c:'MODEL', d:'2026-11-03T17:08', t:'经典线上 VR 社交游戏《VRChat》拒绝为 AI 生成内容添加标识，引发用户众怒', s:'据外媒 Road to VR 报道，经典线上 VR 社交游戏《VRChat》近期因决定“不为 AI 生成内容添加专门标识…（来源：IT之家）', u:'https://www.ithome.com/1/021/651.htm'},
-    {c:'MODEL', d:'2026-11-03T17:06', t:'DeepSeek 网页 / API 服务出现部分中断，官方正在排查', s:'据IT之家小伙伴反馈，DeepSeek 今日下午出现服务故障，提示“服务器繁忙，请稍后重试”。DeepSeek 官方状态…（来源：IT之家）', u:'https://www.ithome.com/1/021/648.htm'},
     {c:'MODEL', d:'2026-11-03T15:56', t:'小米斩获乌镇峰会双料大奖：小米集团获“杰出贡献奖”，小米具身基座模型获“领先科技奖”', s:'11月3日，小米方面披露，小米集团获得2026世界互联网大会“杰出贡献奖”创新突破类奖项，该奖项旨在表彰全球互联网相关领…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/VVyx6DK55x5rIlQ4.html'},
-    {c:'HOT', d:'2026-11-03T15:23', t:'当三体IP开始连接 AI 和硬科技，到底在探索什么？', s:'“不要回答！不要回答！！不要回答！！！”《三体》中，来自宇宙深处的信号曾让人类面临重大抉择，二十年后，当 AI 可以理解…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/5N5x4IScrkNgAuVK.html'},
   ];
   const TIMELINE = [
+    ['11-03 20:55','用 AI 教 AI 开车，百度 Apollo World 世界模型亮相'],
+    ['11-03 20:52','联亚药业:公司目前暂未在AI制药方向进行布局'],
     ['11-03 20:00','TrendForce：AI 网络与互连持续接近翻倍增长，2027 年产值 2798 亿美元'],
     ['11-03 19:50','AI 训练 AI！百度首次披露 Apollo World 世界模型，让无人驾驶突破“不可能三角”'],
     ['11-03 19:16','华为鸿蒙电脑应用数突破 2.1 万款，覆盖办公、AI、娱乐、创作等核心场景'],
     ['11-03 19:13','模型谁都买得到，拉开差距的是AI生产力系统'],
-    ['11-03 19:03','联想开天推出首款信创 AI 主机：兆芯 KX-7000 处理器 + 后摩智能力擎 LQ50 NPU'],
-    ['11-03 19:00','推理时代，算力产业需要换一套账本丨ToB产业观察'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311557, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:310835, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296123, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228836, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186972, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154373, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143805, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141546, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117084, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112937, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311572, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:310865, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296143, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:228853, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:186981, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154375, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143807, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141559, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117092, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:112943, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
