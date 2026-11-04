@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T06:59:47",
+  "updated": "2026-11-05T07:01:56",
   "news": [
     {
       "c": "MODEL",
@@ -108,6 +108,13 @@
     },
     {
       "c": "MEDPHARMA",
+      "d": "2026-11-04T18:19",
+      "t": "刚刚，一家中国AI制药开源大模型，性能反超Anthropic!",
+      "s": "刚刚，一家中国AI制药开源大模型，性能反超Anthropic!（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7704258728727462419/"
+    },
+    {
+      "c": "MEDPHARMA",
       "d": "2026-11-04T18:17",
       "t": "中国人寿出手!晶泰孵化的AI制药，再融数亿元",
       "s": "中国人寿出手!晶泰孵化的AI制药，再融数亿元（来源：头条医药AI）",
@@ -133,13 +140,6 @@
       "t": "42亿GPU采购背后，游族网络跨界AI算力生意",
       "s": "采购金额相当于去年营收三倍，游戏公司转型面临资金与交付考验。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8193553.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-04T18:04",
-      "t": "Personal Agent，蚂蚁想让灵光不止一闪",
-      "s": "从灵光一闪到灵光常驻，蚂蚁还差多远。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8193625.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 313233,
+      "s": 313234,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 297216,
+      "s": 297217,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117508,
+      "s": 117510,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
