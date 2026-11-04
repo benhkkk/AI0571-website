@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-04T21:40', t:'字节旗下 AI 开发平台“扣子”：推进企业级服务产品整合升级，现售企业版将先暂停新售', s:'字节跳动旗下 AI 开发平台“扣子（Coze）”发布公告，正在推进企业级服务的产品整合升级，并规划后续可供企业客户选择的…（来源：IT之家）', u:'https://www.ithome.com/1/022/432.htm'},
     {c:'MODEL', d:'2026-11-04T21:24', t:'开源项目通过 NPU 而非 GPU 渲染 Win11 桌面：目前刷新率仅 2-3Hz，目标 30Hz', s:'开发者团队 labscommunity 发布了一款面向 Windows 11 的原型驱动程序，尝试使用 NPU 而非系统…（来源：IT之家）', u:'https://www.ithome.com/1/022/430.htm'},
     {c:'MODEL', d:'2026-11-04T20:53', t:'魔芯科技发布基于华为昇腾原生的 4D 世界模型 MoWorld 2.0，场景可互动、编辑、调用', s:'在今日举行的世界互联网大会“发展新质生产力强劲增量看 AI”主题论坛上，魔芯科技正式发布基于华为昇腾原生的 4D 世界模…（来源：IT之家）', u:'https://www.ithome.com/1/022/424.htm'},
     {c:'MODEL', d:'2026-11-04T20:42', t:'蔚来李斌：现在出货量最多的具身智能体就是智能电动汽车', s:'在今天的 2026 年世界互联网大会乌镇峰会互联网企业家论坛，蔚来创始人、董事长、CEO 李斌分享了自己对行业的看法。李…（来源：IT之家）', u:'https://www.ithome.com/1/022/423.htm'},
@@ -469,36 +470,35 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-04T18:44', t:'大模型时代，智驾芯片的算力赢学失效了', s:'玩不过通用芯片，就玩定制芯片。（来源：钛媒体）', u:'https://www.tmtpost.com/8193596.html'},
     {c:'MODEL', d:'2026-11-04T18:44', t:'为什么大家都学腾讯，把对手的模型请进来？', s:'这又牵出AI办公竞争的另一面：公司要如何围绕任务协同，重组自身的能力与资源。（来源：钛媒体）', u:'https://www.tmtpost.com/8192671.html'},
     {c:'HOT', d:'2026-11-04T18:34', t:'Anthropic微微发力，AI中转站的天就要塌了？', s:'就像发邮件加上数字签名一样#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1687702?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'INDUSTRY', d:'2026-11-04T18:19', t:'京东披露具身智能数采进展：覆盖百余细分场景、采集超 10 万真实作业任务', s:'今日在 2026 年世界互联网大会乌镇峰会机器人与具身智能论坛上，京东集团技术委员会主席曹鹏发表演讲，分享了京东推动 A…（来源：IT之家）', u:'https://www.ithome.com/1/022/356.htm'},
     {c:'MEDPHARMA', d:'2026-11-04T18:19', t:'刚刚，一家中国AI制药开源大模型，性能反超Anthropic!', s:'刚刚，一家中国AI制药开源大模型，性能反超Anthropic!（来源：头条医药AI）', u:'https://www.toutiao.com/article/7704258728727462419/'},
     {c:'MEDPHARMA', d:'2026-11-04T18:17', t:'中国人寿出手!晶泰孵化的AI制药，再融数亿元', s:'中国人寿出手!晶泰孵化的AI制药，再融数亿元（来源：头条医药AI）', u:'https://www.toutiao.com/article/7704258389974516275/'},
     {c:'MEDPHARMA', d:'2026-11-04T18:17', t:'英伟达清仓，木头姐持续增持!这家AI制药交出关键数据', s:'英伟达清仓，木头姐持续增持!这家AI制药交出关键数据（来源：头条医药AI）', u:'https://www.toutiao.com/article/7704258406864929316/'},
     {c:'MODEL', d:'2026-11-04T18:08', t:'不靠堆砌数据，让机器人看懂真实物理世界 | 招商局狮子山实验室发布「驭物™ Lion-ER-35B-A3B」具身推理模型', s:'仅激活3B参数，十项基准全线提升！（来源：量子位）', u:'https://www.qbitai.com/2026/11/507586.html'},
     {c:'INDUSTRY', d:'2026-11-04T18:04', t:'42亿GPU采购背后，游族网络跨界AI算力生意', s:'采购金额相当于去年营收三倍，游戏公司转型面临资金与交付考验。（来源：钛媒体）', u:'https://www.tmtpost.com/8193553.html'},
     {c:'MODEL', d:'2026-11-04T18:04', t:'Personal Agent，蚂蚁想让灵光不止一闪', s:'从灵光一闪到灵光常驻，蚂蚁还差多远。（来源：钛媒体）', u:'https://www.tmtpost.com/8193625.html'},
-    {c:'MODEL', d:'2026-11-04T17:57', t:'虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上', s:'11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。鲸锐AI平台聚焦AI视频制作过程精准可…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/vxZxNvbxdDFhYp55.html'},
-    {c:'MODEL', d:'2026-11-04T17:44', t:'智能体身份注册与解析平台在乌镇发布，蚂蚁参与首批运行平台建设', s:'11月4日，2026年世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新——携手构建智能互联网论坛”在乌镇举行，智…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/KStlwPyruE6hJ107.html'},
-    {c:'MODEL', d:'2026-11-04T17:42', t:'360参与发起《智能体发展自律公约》，助力构建可信智能体生态', s:'11月4日，在2026年世界互联网大会乌镇峰会“智能体互信互联互操作全球合作创新”论坛上，中国信息通信研究院、360、华…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/UB25ocDFu1ntNMtz.html'},
+    {c:'HOT', d:'2026-11-04T17:01', t:'奥运赛事首次来到非洲，AI 也学着「入乡随俗」', s:'用最硬核的技术，给在地文化最充分的尊重#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间…（来源：爱范儿）', u:'https://www.ifanr.com/1687242?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'HOT', d:'2026-11-04T16:59', t:'超维动力全栈矩阵亮相2026香港金融科技周，具身智能硬科技引爆全场', s:'一场别开生面的具身智能科技盛宴（来源：量子位）', u:'https://www.qbitai.com/2026/11/507574.html'},
+    {c:'MODEL', d:'2026-11-04T16:49', t:'虎鲸文娱“鲸锐AI”平台正式上线，AI视频单分钟成本节省30%以上', s:'11月4日，虎鲸文娱集团打造的行业首个AI影视制作与管理平台“鲸锐AI”正式上线。（来源：量子位）', u:'https://www.qbitai.com/2026/11/507567.html'},
   ];
   const TIMELINE = [
+    ['11-04 21:40','字节旗下 AI 开发平台“扣子”：推进企业级服务产品整合升级，现售企业版将先暂停新售'],
     ['11-04 21:24','开源项目通过 NPU 而非 GPU 渲染 Win11 桌面：目前刷新率仅 2-3Hz，目标 30Hz'],
     ['11-04 20:53','魔芯科技发布基于华为昇腾原生的 4D 世界模型 MoWorld 2.0，场景可互动、编辑、调用'],
     ['11-04 20:42','蔚来李斌：现在出货量最多的具身智能体就是智能电动汽车'],
     ['11-04 19:46','首个：华为云智果 AgentArts 获中国信通院最高等级评级'],
     ['11-04 19:28','OpenAI CEO 奥尔特曼回应内存言论争议：遭断章取义，希望扩大内存产能'],
-    ['11-04 19:16','现代汽车展示自动加氢机器人，以及高耐久性燃料电池系统'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:312373, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:312188, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296898, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229325, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187285, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154505, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:312434, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:312204, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296912, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229335, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187291, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154508, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143875, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:142158, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117398, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113174, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:142178, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117410, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113183, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
