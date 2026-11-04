@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-04T08:32:12",
+  "updated": "2026-11-04T09:01:39",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T08:49",
+      "t": "Edge AI Daily 早报（11月4日）",
+      "s": "OpenAI ChatGPT周活达12亿、搜索查询约为谷歌五分之一，GPT-6.2 Astra静默灰度；Anthropi…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8192355.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-04T08:38",
+      "t": "AI制药进入“验证时刻”:AI生成分子几小时，实验室验证几个月",
+      "s": "AI制药进入“验证时刻”:AI生成分子几小时，实验室验证几个月（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7704109162338304531/"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-04T08:26",
@@ -65,25 +79,11 @@
       "u": "https://www.ithome.com/1/021/866.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-03T21:59",
-      "t": "AI教AI开车！百度Apollo World世界模型叩开无人驾驶产业“AGI时刻”",
-      "s": "“世界模型，重点不是渲染的画质是否好看，而是模拟器是否能忠实还原现实物理规律和行为的因果”。11月3日，在深圳举行的百度…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/NVxn28w1vAG2qbFy.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-03T21:57",
       "t": "机器人干活，AI当厂长！这家巨头要造下一代自主智能仓",
       "s": "AI接管调度运营，仓库越干越聪明（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/507507.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-03T21:41",
-      "t": "中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇",
-      "s": "11月2日至5日，2026年世界互联网大会乌镇峰会在浙江乌镇举行，本届峰会的主题为“开源开放 共建共享——携手构建网络空…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html"
     },
     {
       "c": "INDUSTRY",
@@ -114,13 +114,6 @@
       "u": "https://www.oschina.net/news/503374"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-03T19:16",
-      "t": "药物研发有了AI助手，显微镜会认细胞，AI让湖南生物医药产业...",
-      "s": "药物研发有了AI助手，显微镜会认细胞，AI让湖南生物医药产业...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7703902463568380416/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-03T19:13",
       "t": "模型谁都买得到，拉开差距的是AI生产力系统",
@@ -140,9 +133,24 @@
       "t": "从消费互联网到AI，迪拜投资人寻找中国新标的｜出海参考",
       "s": "迪拜投资人寻找的不只是中国技术，更是能将技术优势转化为当地生意的企业。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8191572.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-03T17:46",
+      "t": "Transsion Under Memory Inflation: Stockpiles, a Cold H-Share, and an AI Bet",
+      "s": "Transsion Under Memory Inflation: Stockpiles, a Co…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8191938.html"
     }
   ],
   "timeline": [
+    [
+      "11-04 08:49",
+      "Edge AI Daily 早报（11月4日）"
+    ],
+    [
+      "11-04 08:38",
+      "AI制药进入“验证时刻”:AI生成分子几小时，实验室验证几个月"
+    ],
     [
       "11-04 08:26",
       "早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token"
@@ -158,14 +166,6 @@
     [
       "11-04 07:16",
       "OpenAI 证实：ChatGPT 搜索查询量已达谷歌 20%"
-    ],
-    [
-      "11-04 06:47",
-      "谷歌调整 K-12 教育 AI 政策：Gemini、搜索等服务默认关闭"
-    ],
-    [
-      "11-04 06:39",
-      "OpenAI ChatGPT 最新数据：周活跃用户达 12 亿，两个月新增 2 亿"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311858,
+      "s": 311865,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311444,
+      "s": 311468,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296558,
+      "s": 296564,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229094,
+      "s": 229102,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187110,
+      "s": 187115,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154431,
+      "s": 154432,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141848,
+      "s": 141866,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117214,
+      "s": 117220,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113052,
+      "s": 113054,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
