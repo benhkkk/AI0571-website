@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-04T09:32:04",
+  "updated": "2026-11-04T10:02:13",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-04T09:24",
+      "t": "千亿AI PCB龙头单季净利腰斩，因投资合作伙伴“吃大亏”？",
+      "s": "胜宏科技三季度归母净利润腰斩，“投资浮亏”近7亿。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8190912.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-04T09:12",
@@ -133,16 +140,13 @@
       "t": "智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池",
       "s": "两位CTO，关起门来吵架（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/507473.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-03T20:52",
-      "t": "联亚药业:公司目前暂未在AI制药方向进行布局",
-      "s": "联亚药业:公司目前暂未在AI制药方向进行布局（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7703927164748284456/"
     }
   ],
   "timeline": [
+    [
+      "11-04 09:24",
+      "千亿AI PCB龙头单季净利腰斩，因投资合作伙伴“吃大亏”？"
+    ],
     [
       "11-04 09:12",
       "曝字节将大面积限制员工在内部自费使用 Claude、Codex 等"
@@ -162,10 +166,6 @@
     [
       "11-04 08:38",
       "AI制药进入“验证时刻”:AI生成分子几小时，实验室验证几个月"
-    ],
-    [
-      "11-04 08:28",
-      "国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311881,
+      "s": 311896,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311497,
+      "s": 311519,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296577,
+      "s": 296588,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229108,
+      "s": 229119,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187122,
+      "s": 187137,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154437,
+      "s": 154442,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143844,
+      "s": 143849,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141876,
+      "s": 141885,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117224,
+      "s": 117233,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113057,
+      "s": 113060,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

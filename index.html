@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-11-04T09:24', t:'千亿AI PCB龙头单季净利腰斩，因投资合作伙伴“吃大亏”？', s:'胜宏科技三季度归母净利润腰斩，“投资浮亏”近7亿。（来源：钛媒体）', u:'https://www.tmtpost.com/8190912.html'},
     {c:'MODEL', d:'2026-11-04T09:12', t:'曝字节将大面积限制员工在内部自费使用 Claude、Codex 等', s:'据大厂日爆 11 月 3 日爆料，字节迎来新规，将大面积限制 Claude、Codex 等个人账号的内部使用。爆料称，本…（来源：IT之家）', u:'https://www.ithome.com/1/021/917.htm'},
     {c:'HOT', d:'2026-11-04T09:12', t:'00后男生勇闯AI圈：保研清华失利后，我靠AI创业年入百万', s:'人类依旧在时代的浪潮中，起起伏伏。（来源：钛媒体）', u:'https://www.tmtpost.com/8192090.html'},
     {c:'HOT', d:'2026-11-04T09:06', t:'实测：灵光和Today AI，谁才是中国版Muse？', s:'5天实测，拆解Muse的中国化答案。（来源：钛媒体）', u:'https://www.tmtpost.com/8192213.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-03T21:41', t:'中国开源走向物理世界，蚂蚁灵波携机器人通用大脑亮相乌镇', s:'11月2日至5日，2026年世界互联网大会乌镇峰会在浙江乌镇举行，本届峰会的主题为“开源开放 共建共享——携手构建网络空…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/ADcxxdwtaojQvzhp.html'},
     {c:'INDUSTRY', d:'2026-11-03T21:33', t:'九赴进博，西门子把工业 AI 推上产线', s:'本届进博会上，西门子将持续聚焦以工业AI为引领的数智化、低碳化技术创新，重点展示高增长行业应用（数据中心、人形机器人等）…（来源：钛媒体）', u:'https://www.tmtpost.com/8192212.html'},
     {c:'MEDDEVICE', d:'2026-11-03T20:57', t:'智己LS8纯电版背后：8年研发底盘，两大厂联合开发电池', s:'两位CTO，关起门来吵架（来源：量子位）', u:'https://www.qbitai.com/2026/11/507473.html'},
-    {c:'MEDPHARMA', d:'2026-11-03T20:52', t:'联亚药业:公司目前暂未在AI制药方向进行布局', s:'联亚药业:公司目前暂未在AI制药方向进行布局（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703927164748284456/'},
   ];
   const TIMELINE = [
+    ['11-04 09:24','千亿AI PCB龙头单季净利腰斩，因投资合作伙伴“吃大亏”？'],
     ['11-04 09:12','曝字节将大面积限制员工在内部自费使用 Claude、Codex 等'],
     ['11-04 09:12','00后男生勇闯AI圈：保研清华失利后，我靠AI创业年入百万'],
     ['11-04 09:06','实测：灵光和Today AI，谁才是中国版Muse？'],
     ['11-04 08:49','Edge AI Daily 早报（11月4日）'],
     ['11-04 08:38','AI制药进入“验证时刻”:AI生成分子几小时，实验室验证几个月'],
-    ['11-04 08:28','国行版苹果 AI 开始测试；ChatGPT 搜索量已达到谷歌 20%；Seedance 被曝五成收入来自海外｜极客早知道'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311881, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:311497, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296577, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229108, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187122, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154437, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143844, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141876, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117224, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113057, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311896, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:311519, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296588, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229119, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187137, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154442, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143849, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141885, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117233, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113060, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
