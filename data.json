@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-05T03:02:55",
+  "updated": "2026-11-05T03:31:21",
   "news": [
     {
       "c": "HOT",
@@ -7,20 +7,6 @@
       "t": "实测 iPhone 国行 AI：有亮点有槽点，还有一个惊喜点",
       "s": "这次你一定要用上 Apple 智能！#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1687733?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-05T00:38",
-      "t": "独家 | 腾讯前高级研究员获数千万投资，锚定物理AI接触智能",
-      "s": "力合资本、合肥创新投等机构投资，Lux 系列视触觉传感器已实现规模化交付。作者丨董子博编辑丨张贤雷峰网·鲸犀独家获悉，触…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/30nTa8g0yzQmZGys.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-05T00:30",
-      "t": "独家丨预测引擎 Prophetlab 获数千万种子轮，常春藤资本等机构联合投资",
-      "s": "用 AI 通用地预测世界，或正成为资本关注的下一个大模型创业方向。作者丨董子博编辑丨张贤雷峰网·鲸犀独家获悉，AI 预测…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/5gyZIVYyxDzi67wu.html"
     },
     {
       "c": "MODEL",
@@ -108,6 +94,13 @@
     },
     {
       "c": "MEDPHARMA",
+      "d": "2026-11-04T18:19",
+      "t": "刚刚，一家中国AI制药开源大模型，性能反超Anthropic!",
+      "s": "刚刚，一家中国AI制药开源大模型，性能反超Anthropic!（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7704258728727462419/"
+    },
+    {
+      "c": "MEDPHARMA",
       "d": "2026-11-04T18:17",
       "t": "中国人寿出手!晶泰孵化的AI制药，再融数亿元",
       "s": "中国人寿出手!晶泰孵化的AI制药，再融数亿元（来源：头条医药AI）",
@@ -140,20 +133,19 @@
       "t": "Personal Agent，蚂蚁想让灵光不止一闪",
       "s": "从灵光一闪到灵光常驻，蚂蚁还差多远。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8193625.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-04T17:01",
+      "t": "奥运赛事首次来到非洲，AI 也学着「入乡随俗」",
+      "s": "用最硬核的技术，给在地文化最充分的尊重#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1687242?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
     [
       "11-05 01:30",
       "实测 iPhone 国行 AI：有亮点有槽点，还有一个惊喜点"
-    ],
-    [
-      "11-05 00:38",
-      "独家 | 腾讯前高级研究员获数千万投资，锚定物理AI接触智能"
-    ],
-    [
-      "11-05 00:30",
-      "独家丨预测引擎 Prophetlab 获数千万种子轮，常春藤资本等机构联合投资"
     ],
     [
       "11-05 00:13",
@@ -166,6 +158,14 @@
     [
       "11-04 22:20",
       "陶哲轩警告：人类把思考交给 AI，危险可能很快到来"
+    ],
+    [
+      "11-04 21:40",
+      "字节旗下 AI 开发平台“扣子”：推进企业级服务产品整合升级，现售企业版将先暂停新售"
+    ],
+    [
+      "11-04 21:24",
+      "开源项目通过 NPU 而非 GPU 渲染 Win11 桌面：目前刷新率仅 2-3Hz，目标 30Hz"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 312944,
+      "s": 312983,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 312342,
+      "s": 312354,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 297107,
+      "s": 297123,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229421,
+      "s": 229429,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187367,
+      "s": 187369,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154527,
+      "s": 154531,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143888,
+      "s": 143890,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 142317,
+      "s": 142329,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117476,
+      "s": 117480,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113236,
+      "s": 113241,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
