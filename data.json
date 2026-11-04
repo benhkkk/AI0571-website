@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-04T16:01:38",
+  "updated": "2026-11-04T16:31:32",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-04T16:15",
+      "t": "电网接入周期漫长，AI 数据中心改装飞机发动机自主发电",
+      "s": "由于接入电网和新建发电机组需要排队等待数年，一些 AI 数据中心开始改造退役喷气式飞机发动机，将其用作发电设备。据《纽约…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/022/243.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-04T16:15",
+      "t": "China’s Internet Giants Are Rewiring Themselves Around AI Workbenches",
+      "s": "China’s Internet Giants Are Rewiring Themselves Ar…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8193321.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T16:04",
+      "t": "Anthropic 正开发 FlashProve 开源系统：用密码学证明 AI 输出来自哪个模型",
+      "s": "Anthropic 正在开发一套开源系统，用于验证某一 AI 输出究竟由哪个模型生成。根据该公司周二发布的一篇博客文章…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/022/231.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-04T15:40",
@@ -44,13 +65,6 @@
       "u": "https://www.ithome.com/1/022/137.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-04T14:23",
-      "t": "CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体",
-      "s": "当地时间 3 日，据美国 CNBC 报道，网络安全公司 CrowdStrike 的 CEO 乔治 · 库尔茨宣称，公司推…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/022/112.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-04T13:33",
       "t": "六大科创龙头密集发声，谁在狂赚，谁在抢占下一轮风口",
@@ -63,13 +77,6 @@
       "t": "AI视频的下一场竞争",
       "s": "生成容易，交付不易。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8192972.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-04T13:18",
-      "t": "谷歌调整美国中小学账户设置：要么开放 AI 搜索，要么彻底禁用搜索",
-      "s": "据彭博社报道，当地时间 3 日，谷歌宣布调整面向美国中小学的服务权限。今后，学校如果想让学生使用谷歌搜索，必须由管理员主…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/022/039.htm"
     },
     {
       "c": "MODEL",
@@ -114,13 +121,6 @@
       "u": "https://www.tmtpost.com/8192734.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-04T12:03",
-      "t": "AI被“催收”的财报季，腾讯、阿里开启智力产能重估",
-      "s": "AI的资本狂热退烧。但有意思的是，随着AI资本开支扩张担忧被消化，港股先一步出现了利好催化的估值修复迹象。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8192640.html"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-04T12:00",
       "t": "医药产业迎来颠覆变革!AI制药开启全新黄金时代",
@@ -129,20 +129,32 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-04T11:57",
-      "t": "拆掉“楚门”之后：百度AI的旧引擎与新建制",
-      "s": "百度AI转型承压，组织与商业化双重待破局。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8188512.html"
-    },
-    {
-      "c": "HOT",
       "d": "2026-11-04T11:56",
       "t": "哪里电便宜，算力就往哪里跑？没那么简单",
       "s": "候鸟迁徙，是为了追逐适宜生存的气候。一项AI计算任务的迁徙，则可能因为另一座数据中心拥有更充足、更便宜的电力，被送往数百…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T11:22",
+      "t": "当10万个智能体已在运行，安全防线到底在哪？｜CNCC 2026专家激辩智能体安全挑战",
+      "s": "2026年，智能体从概念走向了生产系统。蚂蚁集团3万多名员工背后，已有10万余个智能体在运行。华为内部同样部署了成千上万…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/tT9FskgaSMm7y4Ao.html"
     }
   ],
   "timeline": [
+    [
+      "11-04 16:15",
+      "电网接入周期漫长，AI 数据中心改装飞机发动机自主发电"
+    ],
+    [
+      "11-04 16:15",
+      "China’s Internet Giants Are Rewiring Themselves Around AI Workbenches"
+    ],
+    [
+      "11-04 16:04",
+      "Anthropic 正开发 FlashProve 开源系统：用密码学证明 AI 输出来自哪个模型"
+    ],
     [
       "11-04 15:40",
       "OpenAI 展示员工“副业”硬件成果：一周出图、一月出样，外壳、电路板、固件 AI 全包办"
@@ -154,18 +166,6 @@
     [
       "11-04 14:57",
       "AI 时代下 Steam 游戏提交量显著增加，Valve 近期审核最长需 12 个工作日"
-    ],
-    [
-      "11-04 14:53",
-      "借助 AI 铺路：开发者成功在微软 Win10 Mobile 15063 及更高版本运行 Android 应用，无需子系统"
-    ],
-    [
-      "11-04 14:47",
-      "华为、阿里、腾讯、小米、百度、火山引擎等 20 家单位共同起草发布《智能体发展自律公约》，抵制利用智能体实施算法压榨、黑灰产等行为"
-    ],
-    [
-      "11-04 14:42",
-      "苹果警告：AI 智能体行为或难以预测，恐引发诉讼、损害公司声誉"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 312038,
+      "s": 312049,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311871,
+      "s": 311913,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296740,
+      "s": 296753,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229223,
+      "s": 229236,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187209,
+      "s": 187214,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154462,
+      "s": 154465,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143864,
+      "s": 143866,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 142015,
+      "s": 142039,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117316,
+      "s": 117321,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113121,
+      "s": 113127,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
