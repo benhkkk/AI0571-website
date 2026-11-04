@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-04T14:01:57",
+  "updated": "2026-11-04T14:31:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T14:23",
+      "t": "CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体",
+      "s": "当地时间 3 日，据美国 CNBC 报道，网络安全公司 CrowdStrike 的 CEO 乔治 · 库尔茨宣称，公司推…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/022/112.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-04T13:33",
@@ -115,34 +122,31 @@
     },
     {
       "c": "HOT",
+      "d": "2026-11-04T11:56",
+      "t": "哪里电便宜，算力就往哪里跑？没那么简单",
+      "s": "候鸟迁徙，是为了追逐适宜生存的气候。一项AI计算任务的迁徙，则可能因为另一座数据中心拥有更充足、更便宜的电力，被送往数百…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-11-04T11:51",
       "t": "6 台智元机器人直播在便利店 24 小时打工，4 台成功“转正”",
       "s": "智元 11 月 2 日发起机器人直播在便利店“打工”挑战，6 台精灵 G2 机器人连续 24 小时在岗。11 月 3 日…（来源：IT之家）",
       "u": "https://www.ithome.com/1/022/015.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-04T11:22",
-      "t": "AI制药商业化提速，港股通医疗ETF易方达(520850)标的指数盘...",
-      "s": "AI制药商业化提速，港股通医疗ETF易方达(520850)标的指数盘...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7704151336832614912/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-04T10:49",
-      "t": "让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落",
-      "s": "长视频记忆精度飙升，问答时延最高降97%（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/507533.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-04T10:09",
-      "t": "Skyeye 云企业级AI+零代码智能制造系统-AI应用 - v4.1.10发布",
-      "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503380"
+      "c": "MEDDEVICE",
+      "d": "2026-11-04T11:46",
+      "t": "AI赋能医疗强化临床应用交流大会暨‘真健康’卫生产业数智化...",
+      "s": "AI赋能医疗强化临床应用交流大会暨‘真健康’卫生产业数智化...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7704157671573717539/"
     }
   ],
   "timeline": [
+    [
+      "11-04 14:23",
+      "CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体"
+    ],
     [
       "11-04 13:33",
       "六大科创龙头密集发声，谁在狂赚，谁在抢占下一轮风口"
@@ -162,10 +166,6 @@
     [
       "11-04 12:44",
       "Anthropic 工程师警告：AI 越准人类越容易丧失独立思考能力，越依赖越难保持警惕"
-    ],
-    [
-      "11-04 12:34",
-      "Claude 开始拒绝抄游戏，但可能已经太晚了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311996,
+      "s": 312001,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311730,
+      "s": 311761,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296685,
+      "s": 296702,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229195,
+      "s": 229197,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187181,
+      "s": 187185,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154449,
+      "s": 154448,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141968,
+      "s": 141979,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117289,
+      "s": 117298,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113105,
+      "s": 113107,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

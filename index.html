@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-04T14:23', t:'CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体', s:'当地时间 3 日，据美国 CNBC 报道，网络安全公司 CrowdStrike 的 CEO 乔治 · 库尔茨宣称，公司推…（来源：IT之家）', u:'https://www.ithome.com/1/022/112.htm'},
     {c:'HOT', d:'2026-11-04T13:33', t:'六大科创龙头密集发声，谁在狂赚，谁在抢占下一轮风口', s:'三季报业绩分化，AI算力与半导体增长强劲。（来源：钛媒体）', u:'https://www.tmtpost.com/8193040.html'},
     {c:'MODEL', d:'2026-11-04T13:23', t:'AI视频的下一场竞争', s:'生成容易，交付不易。（来源：钛媒体）', u:'https://www.tmtpost.com/8192972.html'},
     {c:'HOT', d:'2026-11-04T13:18', t:'谷歌调整美国中小学账户设置：要么开放 AI 搜索，要么彻底禁用搜索', s:'据彭博社报道，当地时间 3 日，谷歌宣布调整面向美国中小学的服务权限。今后，学校如果想让学生使用谷歌搜索，必须由管理员主…（来源：IT之家）', u:'https://www.ithome.com/1/022/039.htm'},
@@ -475,30 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-11-04T12:03', t:'AI被“催收”的财报季，腾讯、阿里开启智力产能重估', s:'AI的资本狂热退烧。但有意思的是，随着AI资本开支扩张担忧被消化，港股先一步出现了利好催化的估值修复迹象。（来源：钛媒体）', u:'https://www.tmtpost.com/8192640.html'},
     {c:'MEDPHARMA', d:'2026-11-04T12:00', t:'医药产业迎来颠覆变革!AI制药开启全新黄金时代', s:'医药产业迎来颠覆变革!AI制药开启全新黄金时代（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703738378281419298/'},
     {c:'HOT', d:'2026-11-04T11:57', t:'拆掉“楚门”之后：百度AI的旧引擎与新建制', s:'百度AI转型承压，组织与商业化双重待破局。（来源：钛媒体）', u:'https://www.tmtpost.com/8188512.html'},
+    {c:'HOT', d:'2026-11-04T11:56', t:'哪里电便宜，算力就往哪里跑？没那么简单', s:'候鸟迁徙，是为了追逐适宜生存的气候。一项AI计算任务的迁徙，则可能因为另一座数据中心拥有更充足、更便宜的电力，被送往数百…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/pXuAy8TH7q2u0Q9T.html'},
     {c:'HOT', d:'2026-11-04T11:51', t:'6 台智元机器人直播在便利店 24 小时打工，4 台成功“转正”', s:'智元 11 月 2 日发起机器人直播在便利店“打工”挑战，6 台精灵 G2 机器人连续 24 小时在岗。11 月 3 日…（来源：IT之家）', u:'https://www.ithome.com/1/022/015.htm'},
-    {c:'MEDPHARMA', d:'2026-11-04T11:22', t:'AI制药商业化提速，港股通医疗ETF易方达(520850)标的指数盘...', s:'AI制药商业化提速，港股通医疗ETF易方达(520850)标的指数盘...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7704151336832614912/'},
-    {c:'MODEL', d:'2026-11-04T10:49', t:'让Agent首次拥有“视听双流记忆”：openJiuwen Agent-Memory看懂长视频，关键事件一个不落', s:'长视频记忆精度飙升，问答时延最高降97%（来源：量子位）', u:'https://www.qbitai.com/2026/11/507533.html'},
-    {c:'MODEL', d:'2026-11-04T10:09', t:'Skyeye 云企业级AI+零代码智能制造系统-AI应用 - v4.1.10发布', s:'Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）', u:'https://www.oschina.net/news/503380'},
+    {c:'MEDDEVICE', d:'2026-11-04T11:46', t:'AI赋能医疗强化临床应用交流大会暨‘真健康’卫生产业数智化...', s:'AI赋能医疗强化临床应用交流大会暨‘真健康’卫生产业数智化...（来源：头条设备AI）', u:'https://www.toutiao.com/article/7704157671573717539/'},
   ];
   const TIMELINE = [
+    ['11-04 14:23','CrowdStrike 造出“终止开关”，宣称能立即阻止失控 AI 智能体'],
     ['11-04 13:33','六大科创龙头密集发声，谁在狂赚，谁在抢占下一轮风口'],
     ['11-04 13:23','AI视频的下一场竞争'],
     ['11-04 13:18','谷歌调整美国中小学账户设置：要么开放 AI 搜索，要么彻底禁用搜索'],
     ['11-04 12:59','腾讯混元 Hy4 正式版发布，号称首次跻身最强开源模型之列、为真实生产力而生'],
     ['11-04 12:44','Anthropic 工程师警告：AI 越准人类越容易丧失独立思考能力，越依赖越难保持警惕'],
-    ['11-04 12:34','Claude 开始拒绝抄游戏，但可能已经太晚了'],
   ];
   const SKILLS = [
-    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:311996, u:'https://github.com/obra/superpowers', new:false},
-    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:311730, u:'https://github.com/mattpocock/skills', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296685, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229195, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187181, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154449, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:312001, u:'https://github.com/obra/superpowers', new:false},
+    {n:2, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:311761, u:'https://github.com/mattpocock/skills', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:296702, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229197, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187185, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154448, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143860, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141968, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117289, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113105, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:141979, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117298, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113107, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
