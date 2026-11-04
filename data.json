@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-04T08:02:20",
+  "updated": "2026-11-04T08:32:12",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-04T08:26",
+      "t": "早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token",
+      "s": "· GPT 爆改 Qwen 权重，团队测试数学成绩提升约 6 倍 · 盗用 AI 平台算力，上海一男子获刑三年 · 中兴…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1687477?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "HOT",
       "d": "2026-11-04T08:00",
@@ -133,16 +140,13 @@
       "t": "从消费互联网到AI，迪拜投资人寻找中国新标的｜出海参考",
       "s": "迪拜投资人寻找的不只是中国技术，更是能将技术优势转化为当地生意的企业。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8191572.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-03T18:09",
-      "t": "香港大学发布全球首个KYA报告关注智能体信任建设，九类企业实践获收录",
-      "s": "11月3日，香港大学副校长汪扬教授与香港大学经管学院杨宏副教授代表香港大学KYA课题组，在2026年香港金融科技周 x …（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/KkjVOHcQ55GyhDLv.html"
     }
   ],
   "timeline": [
+    [
+      "11-04 08:26",
+      "早报｜国行苹果AI开测，Siri接入千问/中兴否认出售手机业务传闻/多所高校免费发Token"
+    ],
     [
       "11-04 08:00",
       "OpenAI 高管会议室发现“窃听”设备后，知情人士称员工多年不断反映安全漏洞"
@@ -162,10 +166,6 @@
     [
       "11-04 06:39",
       "OpenAI ChatGPT 最新数据：周活跃用户达 12 亿，两个月新增 2 亿"
-    ],
-    [
-      "11-04 06:29",
-      "全球最大视频平台 YouTube 推广 AI 配乐工具，帮创作者化解音频版权纠纷"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 311854,
+      "s": 311858,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 311419,
+      "s": 311444,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 296544,
+      "s": 296558,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229085,
+      "s": 229094,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187104,
+      "s": 187110,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143841,
+      "s": 143843,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 141839,
+      "s": 141848,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117211,
+      "s": 117214,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113049,
+      "s": 113052,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
