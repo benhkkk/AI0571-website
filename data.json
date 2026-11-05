@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-05T16:02:31",
+  "updated": "2026-11-05T16:31:34",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-05T16:21",
+      "t": "百度文心开源发布 ERNIE 5.5 Flash Base 高效基座模型，总参数 280B",
+      "s": "百度文心大模型今日发布 ERNIE-5.5-Flash-Base，开放 ERNIE 5.5 Flash 预训练终点的权重…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/022/785.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-05T16:01",
@@ -38,6 +45,20 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-11-05T15:15",
+      "t": "百度开源文心5.5 Flash Base，多基准测试刷新同尺寸模型 SOTA",
+      "s": "11月5日，百度正式开源最新基座模型文心5.5 Flash Base（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/507787.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-05T15:10",
+      "t": "MIT神作被锤：Astra爆改Qwen权重？就吹吧！",
+      "s": "spaCy作者长文炮轰（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/507782.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-11-05T15:10",
       "t": "Uber 高管：目前几乎没人使用 AI 智能体叫车",
       "s": "目前使用个人 AI 智能体预约 Uber 出行的用户寥寥无几。在当地时间周三举行的第三季度财报电话会议上，Uber 表示…（来源：IT之家）",
@@ -49,13 +70,6 @@
       "t": "OpenAI 宣布收购 Pierre，扩充 Codex 第一方代码编写、理解、审查工具",
       "s": "OpenAI 当地时间本月 4 日宣布将收购企业 Pierre。该公司开发了 Code Storage 大规模分布式存储…（来源：IT之家）",
       "u": "https://www.ithome.com/1/022/758.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-05T14:54",
-      "t": "消息称微软放弃扩大与 Nscale 的算力租赁合同，后者 IPO 前夕遭遇新考验",
-      "s": "据英国《金融时报》报道，英国估值最高的人工智能初创公司 Nscale 在争取 350 亿美元（IT之家注：现汇率约合 2…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/022/753.htm"
     },
     {
       "c": "HOT",
@@ -126,23 +140,13 @@
       "t": "2000万人用灵光，灵光2.0上线一周托管超116万项事务",
       "s": "蚂蚁集团旗下AI助手灵光公布最新数据：自今年10月27日灵光2.0上线，一周内已帮助用户管理超116万项事务，执行超36…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/rJ5oXEPsUlwSPneA.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-05T11:24",
-      "t": "DSH Sessivra 0.3.0-dev.26 发布：拖拽会话即可分屏",
-      "s": "DSH Sessivra 是 DeepSeek Harness 的非官方开源协作插件。0.3.0-dev.26 已发布到…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503406"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-05T10:52",
-      "t": "AI时代的云计算，少数派繁荣",
-      "s": "AI云平台成为企业核心，推动云计算从资源供给转向智能输出，重塑产业格局。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8194260.html"
     }
   ],
   "timeline": [
+    [
+      "11-05 16:21",
+      "百度文心开源发布 ERNIE 5.5 Flash Base 高效基座模型，总参数 280B"
+    ],
     [
       "11-05 16:01",
       "中国长安汽车首例涂装视觉 AI 刷胶机器人上线，风险识别检出率与报送准确率均超 99.5%"
@@ -162,10 +166,6 @@
     [
       "11-05 15:19",
       "Meta 收购 AI 编程初创公司 Conductor，加码智能体编程赛道"
-    ],
-    [
-      "11-05 15:10",
-      "Uber 高管：目前几乎没人使用 AI 智能体叫车"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 313812,
+      "s": 313855,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 312599,
+      "s": 312618,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 297435,
+      "s": 297447,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 229615,
+      "s": 229620,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187526,
+      "s": 187535,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154588,
+      "s": 154592,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 143925,
+      "s": 143926,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 142605,
+      "s": 142619,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117586,
+      "s": 117592,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113342,
+      "s": 113347,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
