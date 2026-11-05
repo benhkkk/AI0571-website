@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-06T07:48', t:'联发科组建“封装梦之队”：招募 37 年经验前英特尔老将，双线布局 AI 芯片 CoWoS+EMIB 战略', s:'集邦咨询（TrendForce）今天（11 月 6 日）发布博文，报道称前英特尔高管纳维德 · 沙赫里亚里（Navid …（来源：IT之家）', u:'https://www.ithome.com/1/023/041.htm'},
     {c:'MODEL', d:'2026-11-06T07:30', t:'英伟达破局 AI 内存瓶颈：HBM 仅增约 3%，每美元智能体吞吐量最高提升 30 倍', s:'英伟达昨日（11 月 5 日）发布技术解读，指出随着大模型参数规模、上下文长度和智能体应用快速增长，GPU 显存正面临前…（来源：IT之家）', u:'https://www.ithome.com/1/023/025.htm'},
     {c:'MODEL', d:'2026-11-06T07:22', t:'OpenAI 最强网安 AI 模型：GPT-6 Cyber 登场，性能提高 51%、发现火狐 Firefox 浏览器 81 个新漏洞', s:'OpenAI 昨日（11 月 5 日）发布博文，宣布推出发布网络安全专用模型 GPT-6 Cyber，官方宣称在发现、验…（来源：IT之家）', u:'https://www.ithome.com/1/023/038.htm'},
     {c:'FUNDING', d:'2026-11-06T07:20', t:'【钛晨报】国务院关于金融工作情况的报告；OpenAI总裁称公司大部分收入已来自企业业务， 预计2027年具备上市条件；国内航线燃油附加费11月5日起上调', s:'华为发布首个国产化率100%的电脑；芯原股份：在手订单达185.69亿元，预计2027年经调整归母净利润转正；联想集团任…（来源：钛媒体）', u:'https://www.tmtpost.com/8195163.html'},
@@ -467,7 +468,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-05T23:11', t:'被网站“断粮”，Anthropic 首次掏钱买新闻内容授权', s:'Anthropic 在美国中期选举前夕，与一家新闻出版机构达成了首份内容授权协议。据《Adweek》援引两名知情人士的消…（来源：IT之家）', u:'https://www.ithome.com/1/023/015.htm'},
     {c:'MODEL', d:'2026-11-05T22:48', t:'DeepSeek Harness：日活跃用户达 154 万、日消耗 Token 约 92 万亿，将建设官方插件市场', s:'DeepSeek Harness 官方今晚公布了 DeepSeek Harness 产品与社区的进展，并介绍了面向插件作…（来源：IT之家）', u:'https://www.ithome.com/1/023/011.htm'},
     {c:'FUNDING', d:'2026-11-05T22:29', t:'云存储服务提供商 Dropbox 计划收购 Tigris Data，拓展企业开发者 AI 存储服务', s:'云存储服务提供商 Dropbox 今日宣布计划收购分布式对象存储平台 Tigris Data，加速拓展面向企业开发者的 …（来源：IT之家）', u:'https://www.ithome.com/1/023/004.htm'},
-    {c:'HOT', d:'2026-11-05T21:29', t:'等径八齿嵌合设计边刷：科沃斯擦窗机器人 W2S PLUS 基站款 1553 元国补新低', s:'科沃斯 · 窗宝 W2S PLUS 擦窗机器人基站款 2026 年 5 月开售，官方定价 1799 元。京东 11.11…（来源：IT之家）', u:'https://www.ithome.com/1/022/987.htm'},
     {c:'MODEL', d:'2026-11-05T19:39', t:'百度发布最新基座模型 ERNIE 5.5 Flash Base：效率、开源、高性价比', s:'11 月 5 日，百度正式开源最新基座模型文心 5.5 Flash Base（ERNIE 5.5 Flash Base）…（来源：OSCHINA）', u:'https://www.oschina.net/news/503429/ernie-5-5-flash-base'},
     {c:'MODEL', d:'2026-11-05T18:52', t:'用 AI 写后端，为什么还是在造轮子？', s:'很多人已经习惯让 AI 写代码： 生成一个 CRUD 接口、补一段 SQL、写一个工具类，效率确实比手敲高。 但真正落到…（来源：OSCHINA）', u:'https://www.oschina.net/news/503428'},
     {c:'HOT', d:'2026-11-05T18:31', t:'具身智能，变天了', s:'数采爆单，具身大脑公司慌了。（来源：钛媒体）', u:'https://www.tmtpost.com/8194393.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-05T17:15', t:'一个人用得好 AI，为什么一家公司却用不好？', s:'作者｜老 S 编辑｜郑玄 今天的 Agent，已经能够独立完成不少具体的工作。 写方案、写代码、做分析报告，过去可能需要…（来源：极客公园）', u:'http://www.geekpark.net/news/373541'},
   ];
   const TIMELINE = [
+    ['11-06 07:48','联发科组建“封装梦之队”：招募 37 年经验前英特尔老将，双线布局 AI 芯片 CoWoS+EMIB 战略'],
     ['11-06 07:30','英伟达破局 AI 内存瓶颈：HBM 仅增约 3%，每美元智能体吞吐量最高提升 30 倍'],
     ['11-06 07:22','OpenAI 最强网安 AI 模型：GPT-6 Cyber 登场，性能提高 51%、发现火狐 Firefox 浏览器 81 个新漏洞'],
     ['11-06 07:20','【钛晨报】国务院关于金融工作情况的报告；OpenAI总裁称公司大部分收入已来自企业业务， 预计2027年具备上市条件；国内航线燃油附加费11月5日起上调'],
     ['11-06 07:09','AI 时代最强“芯脏”：英伟达实测 Vera CPU，较最快 x86 CPU 每瓦多跑 60% 智能体'],
     ['11-06 06:44','AI 视频模型卷出新高度：谷歌 Gemini Omni 1.2 Flash 发布，原生 15 秒生成、较 1.1 降价 30%'],
-    ['11-05 23:11','被网站“断粮”，Anthropic 首次掏钱买新闻内容授权'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:315162, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:313000, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:297854, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229864, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187750, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154667, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143970, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:142966, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117762, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113511, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:315172, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:313001, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:297856, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:229870, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:187751, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154669, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:143971, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:142970, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117767, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113510, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
