@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-06T20:02:18",
+  "updated": "2026-11-06T20:19:20",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-06T20:13",
+      "t": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
+      "s": "作者｜Wildcard 编辑｜靖宇11 月 5 日，OpenAI 前 CTO Mira Murati 创立的 Think…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373637"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-06T20:09",
+      "t": "AI 时代没有标准答案的问题，我们面对面聊",
+      "s": "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾。 今天，再来揭晓「小场深谈」的最新进展。 10 月底，我们在「小场…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373636"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-11-06T18:58",
@@ -126,23 +140,17 @@
       "t": "QQ 鸿蒙版 App 发布 9.2.80 正式版更新：空间相册支持 AI 修复、简洁模式上线",
       "s": "QQ 鸿蒙版 App 今日在华为应用市场（App Gallery）发布了 9.2.80 (3592) 正式版更新。IT之…（来源：IT之家）",
       "u": "https://www.ithome.com/1/023/411.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-06T15:57",
-      "t": "李佳琦卖出万份Token，天猫的AI生意才刚开场",
-      "s": "Token正在成为AI时代的“流量包”。（雷峰网雷峰网雷峰网）11月2日晚，李佳琦直播间上架AI千问办公的Token算力…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/h454rlPtg41JIuFd.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-06T15:48",
-      "t": "2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛名单公布",
-      "s": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛入围名单今日公布，以下 10…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503451"
     }
   ],
   "timeline": [
+    [
+      "11-06 20:13",
+      "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对"
+    ],
+    [
+      "11-06 20:09",
+      "AI 时代没有标准答案的问题，我们面对面聊"
+    ],
     [
       "11-06 18:58",
       "AI制药、量子真随机数、水下机器人等前沿科技“抢滩”粤北"
@@ -158,14 +166,6 @@
     [
       "11-06 18:21",
       "爱彼迎 Airbnb 计划明年推出 AI 智能体，帮助用户规划旅行"
-    ],
-    [
-      "11-06 18:09",
-      "智元发布灵犀 X2 焕新版机器人，可用于展馆文旅、导览导购、服务零售、文娱商演等场景"
-    ],
-    [
-      "11-06 18:09",
-      "Waymo不想再当“技术供应商”了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 316109,
+      "s": 316127,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 313308,
+      "s": 313317,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 298204,
+      "s": 298212,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230078,
+      "s": 230087,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187972,
+      "s": 187977,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154745,
+      "s": 154747,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144006,
+      "s": 144007,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 143249,
+      "s": 143257,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117906,
+      "s": 117909,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113618,
+      "s": 113623,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
