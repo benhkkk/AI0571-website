@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-07T03:00', t:'李佳琦卖出万份Token，天猫的AI生意才刚开场', s:'李佳琦卖出万份Token，天猫的AI生意才刚开场（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/h454rlPtg41JIuFd.html'},
     {c:'HOT', d:'2026-11-06T23:13', t:'OpenAI CEO 奥尔特曼警示：未来人类可能无法从 AI 手中夺回控制权', s:'OpenAI 首席执行官萨姆 · 奥尔特曼（IT之家注：Sam Altman）最近出席 Raj Shamani 播客时表…（来源：IT之家）', u:'https://www.ithome.com/1/023/596.htm'},
     {c:'FUNDING', d:'2026-11-06T23:05', t:'最高投资 100 亿美元：SK 海力士设立美国 AI 投资子公司 Hyaico，崔泰源掌舵', s:'美国监管机构披露文件显示，SK 海力士已在美国成立 AI 投资子公司 Hyaico Corp，SK 集团会长崔泰源担任董…（来源：IT之家）', u:'https://www.ithome.com/1/023/584.htm'},
     {c:'HOT', d:'2026-11-06T23:04', t:'聚焦内容创作和传播推广两方面突出问题，广电总局开启新一轮微短剧专项治理', s:'据央视新闻今日报道，近日，国家广播电视总局在巩固前期微短剧低俗有害和侵权盗版专项治理成效的基础上，针对 AI 微短剧质量…（来源：IT之家）', u:'https://www.ithome.com/1/023/579.htm'},
@@ -475,30 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-06T17:33', t:'Claude Code华人一姐，闪电跳槽到OpenAI，大厂为何留不住人才？', s:'AI圈顶级人才，开始扎堆跳槽了！ 11月5日，硅谷爆出一则重磅人事变动：前一天刚宣布告别Anthropic的王牌产品掌门…（来源：钛媒体）', u:'https://www.tmtpost.com/8196354.html'},
     {c:'INDUSTRY', d:'2026-11-06T17:33', t:'AI开始收费，租号灰产崛起：一月流水30万', s:'不愿包月的几亿用户，撑起了AI会员的二手市场。（来源：钛媒体）', u:'https://www.tmtpost.com/8196254.html'},
     {c:'MODEL', d:'2026-11-06T17:28', t:'Agent，“重做”数据库', s:'数据库不但要存，还要能“懂”。（来源：钛媒体）', u:'https://www.tmtpost.com/8196378.html'},
-    {c:'HOT', d:'2026-11-06T17:28', t:'炒菜机器人“接管”后厨，也有力所不逮', s:'上限在哪里？（来源：钛媒体）', u:'https://www.tmtpost.com/8193766.html'},
+    {c:'HOT', d:'2026-11-06T17:11', t:'OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位', s:'Tibo 不发糖了？因为Open AI 的内部安全烂透了 作者丨高允毅 编辑丨岑 峰 OpenAI 的“赛博义父”好像换…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html'},
+    {c:'HOT', d:'2026-11-06T16:29', t:'豆包工作个人版取消5小时额度限制', s:'11月6日起，豆包工作个人版取消5小时额度限制。调整后，个人用户不再受到5小时短周期额度限制，可以在周额度范围内，根据实…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/Ii6W43GghzJA7V1u.html'},
     {c:'MODEL', d:'2026-11-06T15:48', t:'2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛名单公布', s:'第四届开放原子大赛 · 2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛入围名单今日公布，以下 10…（来源：OSCHINA）', u:'https://www.oschina.net/news/503451'},
-    {c:'MEDDEVICE', d:'2026-11-06T15:45', t:'AI 器械注册审查新规:五项新增内容，一项须写入产品说明书', s:'AI 器械注册审查新规:五项新增内容，一项须写入产品说明书（来源：头条设备AI）', u:'https://www.toutiao.com/article/7704961439135466024/'},
-    {c:'MEDPHARMA', d:'2026-11-06T15:10', t:'拟与艾凯生物共同打造AI原生自体细胞制药公司', s:'拟与艾凯生物共同打造AI原生自体细胞制药公司（来源：头条医药AI）', u:'https://www.toutiao.com/article/7704952416277365284/'},
   ];
   const TIMELINE = [
+    ['11-07 03:00','李佳琦卖出万份Token，天猫的AI生意才刚开场'],
     ['11-06 23:13','OpenAI CEO 奥尔特曼警示：未来人类可能无法从 AI 手中夺回控制权'],
     ['11-06 23:05','最高投资 100 亿美元：SK 海力士设立美国 AI 投资子公司 Hyaico，崔泰源掌舵'],
     ['11-06 23:04','聚焦内容创作和传播推广两方面突出问题，广电总局开启新一轮微短剧专项治理'],
     ['11-06 22:58','美股 AI 硬件股集体反弹，费城半导体指数涨 6.5%'],
     ['11-06 22:41','Day-0 支持：摩尔线程完成 3 万亿级参数 Kimi-K3.1 Pro 适配，支持文本与图片推理'],
-    ['11-06 22:06','11 月 18 日起，字节 TRAE 账号将自动升级为豆包飞书账号'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:316461, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:313488, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:298420, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230199, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:188100, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154784, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144026, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:143418, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117970, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113688, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:316482, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:313500, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:298435, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230212, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:188108, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154786, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144027, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:143435, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:117973, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113694, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
