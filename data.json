@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-06T21:01:58",
+  "updated": "2026-11-06T21:31:18",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-06T21:29",
+      "t": "《星闪短距与具身智能技术需求蓝皮书》正式上线，华为、中兴、鼎桥等参编",
+      "s": "国际星闪联盟今日宣布，11 月 6 日，《星闪短距与具身智能技术需求蓝皮书》已在国际星闪联盟官网正式上线。据介绍，蓝皮书…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/546.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-11-06T20:47",
@@ -14,6 +21,20 @@
       "t": "曝 OPPO 明年产品策略更聚焦：手机发力阔形态，代号「扶摇」的云台相机将至",
       "s": "博主 @数码闲聊站 今日发文透露，某厂 2027 年的产品策略更聚焦了，手机发力阔形态，AI 和阔形态上应该能做出新东西…（来源：IT之家）",
       "u": "https://www.ithome.com/1/023/538.htm"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-06T20:13",
+      "t": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
+      "s": "作者｜Wildcard 编辑｜靖宇11 月 5 日，OpenAI 前 CTO Mira Murati 创立的 Think…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373637"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-06T20:09",
+      "t": "AI 时代没有标准答案的问题，我们面对面聊",
+      "s": "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾。 今天，再来揭晓「小场深谈」的最新进展。 10 月底，我们在「小场…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373636"
     },
     {
       "c": "MODEL",
@@ -119,30 +140,13 @@
       "t": "阿里巴巴发布《2026 AI向善行动报告》 AI数据中心可持续发展成年度亮点",
       "s": "11月5日，阿里巴巴发布《2026 AI向善行动报告》（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/508165.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-06T17:11",
-      "t": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
-      "s": "Tibo 不发糖了？因为Open AI 的内部安全烂透了 作者丨高允毅 编辑丨岑 峰 OpenAI 的“赛博义父”好像换…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-06T17:02",
-      "t": "Pangram 正式发布其 AI 图像检测模型，准确率达 99.96%",
-      "s": "Pangram Labs 是一家专注人工智能生成内容识别的 AI 实验室。其在本月 4 日正式发布了 Pangram I…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/419.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-06T16:57",
-      "t": "豆包工作个人版取消 5 小时额度限制",
-      "s": "据时代财经报道，11 月 6 日起，豆包工作个人版取消 5 小时额度限制。调整后，个人用户不再受到 5 小时短周期额度限…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/414.htm"
     }
   ],
   "timeline": [
+    [
+      "11-06 21:29",
+      "《星闪短距与具身智能技术需求蓝皮书》正式上线，华为、中兴、鼎桥等参编"
+    ],
     [
       "11-06 20:47",
       "MegaStream亮相2026国际生物计算创新峰会，共话AI制药新未来"
@@ -152,20 +156,16 @@
       "曝 OPPO 明年产品策略更聚焦：手机发力阔形态，代号「扶摇」的云台相机将至"
     ],
     [
+      "11-06 20:13",
+      "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对"
+    ],
+    [
+      "11-06 20:09",
+      "AI 时代没有标准答案的问题，我们面对面聊"
+    ],
+    [
       "11-06 18:46",
       "荣耀 MagicOS 系统 11 月更新内容公布，YOYO 建议与灵动胶囊新增寄件码提醒"
-    ],
-    [
-      "11-06 18:21",
-      "爱彼迎 Airbnb 计划明年推出 AI 智能体，帮助用户规划旅行"
-    ],
-    [
-      "11-06 18:09",
-      "智元发布灵犀 X2 焕新版机器人，可用于展馆文旅、导览导购、服务零售、文娱商演等场景"
-    ],
-    [
-      "11-06 18:09",
-      "Waymo不想再当“技术供应商”了"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 316163,
+      "s": 316197,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 313335,
+      "s": 313343,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 298232,
+      "s": 298250,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230096,
+      "s": 230106,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 187995,
+      "s": 188004,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154755,
+      "s": 154756,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 143274,
+      "s": 143286,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 117913,
+      "s": 117918,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113629,
+      "s": 113633,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
