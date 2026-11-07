@@ -459,6 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-07T17:40', t:'苹果披露人形机器人 HALO 系统：6 个未建图环境测试 360 次单项任务，平均成功率 91%', s:'当地时间 11 月 4 日，苹果研究团队在预印本平台 arXiv 提交论文《Perceptive Humanoid Mo…（来源：IT之家）', u:'https://www.ithome.com/1/023/767.htm'},
+    {c:'HOT', d:'2026-11-07T17:33', t:'当芯片抢着上太空，半导体下一轮增量有了？', s:'巨头争建太空机房，算力竞赛再度提速。（来源：钛媒体）', u:'https://www.tmtpost.com/8197078.html'},
+    {c:'HOT', d:'2026-11-07T17:32', t:'风口浪尖的数据中心，开始放低姿态', s:'OpenAI公布新社区承诺。（来源：钛媒体）', u:'https://www.tmtpost.com/8197100.html'},
+    {c:'HOT', d:'2026-11-07T17:32', t:'AI面试逼疯打工人', s:'企业用AI筛人，求职者用AI练习。（来源：钛媒体）', u:'https://www.tmtpost.com/8197213.html'},
     {c:'MODEL', d:'2026-11-07T17:29', t:'中国科普作家协会发布 2026 年度十大科普热词，AI 相关占据七席', s:'中国科普作家协会今天（7 日）发布了 2026 年度十大科普热词，人工智能相关占据七席，包括“人工智能 +”“人机协同”…（来源：IT之家）', u:'https://www.ithome.com/1/023/766.htm'},
     {c:'INDUSTRY', d:'2026-11-07T17:28', t:'【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步退出甲骨文云协议', s:'（11月2日~11月7日）OpenAI与Cathedral Systems达成网络安全合作；2026年世界互联网大会乌镇…（来源：钛媒体）', u:'https://www.tmtpost.com/8197131.html'},
     {c:'MODEL', d:'2026-11-07T17:16', t:'谷歌在美国遭家长起诉：Gemini 被指协助 13 岁女孩制定轻生计划', s:'据彭博社报道，美国北卡罗来纳州的一对夫妇起诉谷歌。此前，其 13 岁的女儿在学校配发的 Chromebook 笔记本电脑…（来源：IT之家）', u:'https://www.ithome.com/1/023/765.htm'},
@@ -470,35 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-07T16:02', t:'“超视距安全预警”可识别结冰等危险路况并提示，吉利发布首个车道级气象环境监测大模型', s:'11 月 5 日，吉利汽车集团与中国气象局地球系统数值预报中心正式签署战略合作框架协议。双方联合推出行业首个“智象-星睿…（来源：IT之家）', u:'https://www.ithome.com/1/023/749.htm'},
     {c:'MODEL', d:'2026-11-07T15:40', t:'Meta 推出基于 Muse Wonder 训练的现有模型专用版本，主动记忆与专注能力下放', s:'Meta 在上月发布了 Muse Wonder 系列模型。当地时间 11 月 6 日，Meta 宣布推出基于 Muse …（来源：IT之家）', u:'https://www.ithome.com/1/023/744.htm'},
     {c:'MODEL', d:'2026-11-07T15:39', t:'奔驰承认 L3 自动驾驶推进得“太超前”：当下专心搞 L2、未来直接上 L4', s:'作为最早一批在美国推出 L3 级自动驾驶的车企，奔驰近期的动作却略显反常 —— 登陆当地市场的最新款 S 级没有配备这项…（来源：IT之家）', u:'https://www.ithome.com/1/023/737.htm'},
-    {c:'MODEL', d:'2026-11-07T15:18', t:'DeepSeek 网页 / API 服务突发部分中断，提示“服务器暂时不可用”', s:'据多位IT之家网友反馈，DeepSeek 今日突发出现服务问题，对话提示“服务器暂时不可用”。此外，DeepSeek 官…（来源：IT之家）', u:'https://www.ithome.com/1/023/697.htm'},
     {c:'INDUSTRY', d:'2026-11-07T13:56', t:'机器人行业卸下租赁“缓冲垫”', s:'日租跌穿千元，平台却纷纷下场（来源：钛媒体）', u:'https://www.tmtpost.com/8196810.html'},
-    {c:'HOT', d:'2026-11-07T13:56', t:'2026年，腾讯疯狂“补课”', s:'腾讯的AI之路（来源：钛媒体）', u:'https://www.tmtpost.com/8196720.html'},
     {c:'MODEL', d:'2026-11-07T13:01', t:'抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？', s:'苦单Session久矣，两大Agent玩家不谋而合。（来源：量子位）', u:'https://www.qbitai.com/2026/11/508264.html'},
     {c:'HOT', d:'2026-11-07T11:43', t:'AGENTS.MD，危险危险危险！！！', s:'全新的电脑病毒（来源：量子位）', u:'https://www.qbitai.com/2026/11/508244.html'},
     {c:'HOT', d:'2026-11-07T11:35', t:'博世用豆包工作：让工程师少搬信息，多解问题', s:'头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾…（来源：极客公园）', u:'http://www.geekpark.net/news/373643'},
     {c:'MODEL', d:'2026-11-07T11:31', t:'办公提效之后，企业级 Agent 开始对经营结果负责', s:'头图来源：腾讯云 过去一年，智能体是 AI 行业最受关注的方向之一。 从查资料、写文档到处理日常办公事务，桌面办公智能体…（来源：极客公园）', u:'http://www.geekpark.net/news/373642'},
-    {c:'HOT', d:'2026-11-07T11:23', t:'Jeff Dean李飞飞最新对谈：全是RSI非共识', s:'RSI不可能无限快（来源：量子位）', u:'https://www.qbitai.com/2026/11/508196.html'},
-    {c:'MEDPHARMA', d:'2026-11-07T10:40', t:'百图生科与11家伙伴战略合作，AI生物计算覆盖医药研发及农业育种', s:'活动焦点：· 百图生科主办、港投公司支持的第三届峰会2026年11月6日开幕，汇聚约300名科研、产业及投资界代表，探讨…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/X7HwwQTEXJhiVVzK.html'},
   ];
   const TIMELINE = [
+    ['11-07 17:40','苹果披露人形机器人 HALO 系统：6 个未建图环境测试 360 次单项任务，平均成功率 91%'],
+    ['11-07 17:33','当芯片抢着上太空，半导体下一轮增量有了？'],
+    ['11-07 17:32','风口浪尖的数据中心，开始放低姿态'],
+    ['11-07 17:32','AI面试逼疯打工人'],
     ['11-07 17:29','中国科普作家协会发布 2026 年度十大科普热词，AI 相关占据七席'],
     ['11-07 17:28','【数智周报】 2026年世界互联网大会乌镇峰会举办；摩根大通副董事长：AI板块估值仍高，预计将出现回调；游族网络拟42亿买GPU；微软收缩AI算力租赁，据称逐步…'],
-    ['11-07 17:16','谷歌在美国遭家长起诉：Gemini 被指协助 13 岁女孩制定轻生计划'],
-    ['11-07 16:48','DeepSeek 网页 / API 服务恢复正常，今天下午一度中断 45 分钟'],
-    ['11-07 16:36','双十一，把购物交给了 AI 们，结果居然集体翻车？'],
-    ['11-07 16:36','“不想打工”的人形机器人，在仓库里吃灰 | 潮向'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:317062, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:313786, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:298782, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230406, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:188299, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154843, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:317082, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:313802, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:298794, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230413, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:188306, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154844, u:'https://github.com/anthropics/claude-code', new:false},
     {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144072, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:143699, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118069, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113793, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:143719, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118075, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113799, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
