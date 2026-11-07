@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-07T10:02:07",
+  "updated": "2026-11-07T10:31:57",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-07T10:27",
+      "t": "AI 热潮撞上资源争议，微软荷兰在建数据中心遭抗议",
+      "s": "路透社最新发布博文，报道称荷兰当地时间昨日（11 月 6 日）百余名活动人士聚集并闯入微软在建的数据中心工地，抗议 AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/650.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-07T09:36",
@@ -65,20 +72,6 @@
       "u": "https://www.ithome.com/1/023/610.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-07T07:02",
-      "t": "AI 编程工具 Amp 推出 Spaces：你的 AI 项目经理上线，自主编排 / 协调 Agent 干活",
-      "s": "AI 编程协作工具 Amp 昨日（11 月 6 日）宣布推出 Spaces，希望构建面向 AI 智能体（Agent）和团…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/609.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-06T23:21",
-      "t": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
-      "s": "Dario刚喊减速…（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508184.html"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-06T20:47",
       "t": "MegaStream亮相2026国际生物计算创新峰会，共话AI制药新未来",
@@ -136,13 +129,24 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-06T17:25",
-      "t": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
-      "s": "PPIO 沙箱，把“云电脑”做成开箱即用的 API（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508174.html"
+      "d": "2026-11-06T15:48",
+      "t": "2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛名单公布",
+      "s": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛入围名单今日公布，以下 10…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503451"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-06T15:45",
+      "t": "AI 器械注册审查新规:五项新增内容，一项须写入产品说明书",
+      "s": "AI 器械注册审查新规:五项新增内容，一项须写入产品说明书（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7704961439135466024/"
     }
   ],
   "timeline": [
+    [
+      "11-07 10:27",
+      "AI 热潮撞上资源争议，微软荷兰在建数据中心遭抗议"
+    ],
     [
       "11-07 09:36",
       "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵"
@@ -162,10 +166,6 @@
     [
       "11-07 08:28",
       "Edge AI Daily 早报（11月7日）"
-    ],
-    [
-      "11-07 07:40",
-      "Planet AI 邀你“向地球提问”：超 10 年卫星影像变化，一句话就能查"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 316763,
+      "s": 316786,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 313630,
+      "s": 313652,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 298611,
+      "s": 298624,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230305,
+      "s": 230313,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 188189,
+      "s": 188201,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154808,
+      "s": 154810,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144049,
+      "s": 144048,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 143573,
+      "s": 143589,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118022,
+      "s": 118025,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113740,
+      "s": 113744,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
