@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-07T09:32:16",
+  "updated": "2026-11-07T10:02:07",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-07T09:36",
+      "t": "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵",
+      "s": "路透社昨日（11 月 6 日）发布博文，报道称 AI 公司 Anthropic 的首次公开募股（IPO）计划面临投资者估…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/640.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-07T09:21",
@@ -66,10 +73,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-07T06:48",
-      "t": "谷歌母公司 Alphabet 斥资约 5.48 亿美元建仓高通，押注 AI 芯片新赛道",
-      "s": "路透社今天（11 月 7 日）发布博文，报道称谷歌母公司 Alphabet 在第三季度首次买入芯片巨头高通约 297.7…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/607.htm"
+      "d": "2026-11-06T23:21",
+      "t": "A\\三大内部模型曝光！领先Opus5.5三个月，RSI缩短80%实验时间",
+      "s": "Dario刚喊减速…（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508184.html"
     },
     {
       "c": "MEDPHARMA",
@@ -129,20 +136,17 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-06T17:28",
-      "t": "Agent，“重做”数据库",
-      "s": "数据库不但要存，还要能“懂”。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8196378.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-06T17:11",
-      "t": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
-      "s": "Tibo 不发糖了？因为Open AI 的内部安全烂透了 作者丨高允毅 编辑丨岑 峰 OpenAI 的“赛博义父”好像换…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/yanxishe/u5N6lCUT0bEfanp1.html"
+      "d": "2026-11-06T17:25",
+      "t": "为什么每个 Personal Agent 背后，都必须配备一台“云电脑”？",
+      "s": "PPIO 沙箱，把“云电脑”做成开箱即用的 API（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508174.html"
     }
   ],
   "timeline": [
+    [
+      "11-07 09:36",
+      "“史上最大 IPO”遇挑战：Anthropic 上市估值存分歧，1.5 万亿美元仍被嫌贵"
+    ],
     [
       "11-07 09:21",
       "AI基建预期生变，万盛股份2.85亿溢价并购遭上交所三问"
@@ -162,10 +166,6 @@
     [
       "11-07 07:40",
       "Planet AI 邀你“向地球提问”：超 10 年卫星影像变化，一句话就能查"
-    ],
-    [
-      "11-07 07:25",
-      "Anthropic 研究称 Claude AI 智能体可以靠“做梦”变得更聪明"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 316745,
+      "s": 316763,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 313619,
+      "s": 313630,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 298603,
+      "s": 298611,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230296,
+      "s": 230305,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 188183,
+      "s": 188189,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154807,
+      "s": 154808,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144048,
+      "s": 144049,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 143565,
+      "s": 143573,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118019,
+      "s": 118022,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113735,
+      "s": 113740,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
