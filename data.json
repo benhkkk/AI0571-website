@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-07T21:31:20",
+  "updated": "2026-11-07T22:01:56",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-07T21:50",
+      "t": "消息称因台积电产能吃紧，英伟达提供数十亿美元支持日月光扩产 CoWoS 先进封装",
+      "s": "据路透社报道，一场构建 AI 基础设施的全球竞速，正推动数十亿美元巨资涌入先进封装领域。这一过去并不起眼的技术环节，如今…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/814.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-07T21:48",
+      "t": "印度 IT 行业领袖警告：AI 或致应届毕业生更难进入科技行业",
+      "s": "据日经亚洲 6 日报道，印度最大科技行业协会 —— 印度全国软件与服务公司协会会长拉杰什 · 南比亚尔警告，随着 AI …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/813.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-07T18:40",
@@ -30,9 +44,9 @@
       "u": "https://www.ithome.com/1/023/786.htm"
     },
     {
-      "c": "HOT",
+      "c": "MODEL",
       "d": "2026-11-07T17:40",
-      "t": "苹果披露人形机器人 HALO 系统：6 个未建图环境测试 360 次单项任务，平均成功率 91%",
+      "t": "苹果披露人形机器人 HALO 系统：调用千问模型在宇树 G1 上验证，单项任务平均成功率 91%",
       "s": "当地时间 11 月 4 日，苹果研究团队在预印本平台 arXiv 提交论文《Perceptive Humanoid Mo…（来源：IT之家）",
       "u": "https://www.ithome.com/1/023/767.htm"
     },
@@ -79,27 +93,6 @@
       "u": "https://www.tmtpost.com/8197131.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-07T17:16",
-      "t": "谷歌在美国遭家长起诉：Gemini 被指协助 13 岁女孩制定轻生计划",
-      "s": "据彭博社报道，美国北卡罗来纳州的一对夫妇起诉谷歌。此前，其 13 岁的女儿在学校配发的 Chromebook 笔记本电脑…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/765.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-07T16:57",
-      "t": "AI制药进入二期",
-      "s": "AI制药进入二期（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7705288858434306588/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-07T16:48",
-      "t": "DeepSeek 网页 / API 服务恢复正常，今天下午一度中断 45 分钟",
-      "s": "今天（7 日）下午，多名IT之家网友反馈 DeepSeek 突发服务问题，对话提示“服务器暂时不可用”。目前，DeepS…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/758.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-07T16:36",
       "t": "双十一，把购物交给了 AI 们，结果居然集体翻车？",
@@ -140,9 +133,24 @@
       "t": "AI巨头集体进入生物制药，他们到底要对医药，动什么“手脚”?",
       "s": "AI巨头集体进入生物制药，他们到底要对医药，动什么“手脚”?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7703911591762231842/"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-07T13:56",
+      "t": "机器人行业卸下租赁“缓冲垫”",
+      "s": "日租跌穿千元，平台却纷纷下场（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8196810.html"
     }
   ],
   "timeline": [
+    [
+      "11-07 21:50",
+      "消息称因台积电产能吃紧，英伟达提供数十亿美元支持日月光扩产 CoWoS 先进封装"
+    ],
+    [
+      "11-07 21:48",
+      "印度 IT 行业领袖警告：AI 或致应届毕业生更难进入科技行业"
+    ],
     [
       "11-07 18:40",
       "马斯克“御用”律师斯皮罗：AI 有望让案件尽快和解或直接走上法庭"
@@ -158,14 +166,6 @@
     [
       "11-07 18:05",
       "张艺谋谈 AI 冲击电影行业：AI 短视频产值已到几百亿，是很大的挑战"
-    ],
-    [
-      "11-07 17:40",
-      "苹果披露人形机器人 HALO 系统：6 个未建图环境测试 360 次单项任务，平均成功率 91%"
-    ],
-    [
-      "11-07 17:38",
-      "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 317234,
+      "s": 317262,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 313886,
+      "s": 313898,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 298893,
+      "s": 298906,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230475,
+      "s": 230487,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 188388,
+      "s": 188403,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154868,
+      "s": 154869,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144083,
+      "s": 144086,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 143779,
+      "s": 143788,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118096,
+      "s": 118100,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113832,
+      "s": 113836,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
