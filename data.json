@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-07T07:53:12",
+  "updated": "2026-11-07T08:02:01",
   "news": [
     {
       "c": "MODEL",
@@ -65,20 +65,6 @@
       "u": "https://www.toutiao.com/article/7705039279973712420/"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-06T20:13",
-      "t": "估值 400 亿美元，美国公司，终于做出了中国开源模型的竞对",
-      "s": "作者｜Wildcard 编辑｜靖宇11 月 5 日，OpenAI 前 CTO Mira Murati 创立的 Think…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373637"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-06T20:09",
-      "t": "AI 时代没有标准答案的问题，我们面对面聊",
-      "s": "我们刚刚官宣了极客公园创新大会 2027 的首批嘉宾。 今天，再来揭晓「小场深谈」的最新进展。 10 月底，我们在「小场…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373636"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-06T18:09",
       "t": "Waymo不想再当“技术供应商”了",
@@ -115,6 +101,13 @@
     },
     {
       "c": "HOT",
+      "d": "2026-11-06T17:28",
+      "t": "炒菜机器人“接管”后厨，也有力所不逮",
+      "s": "上限在哪里？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8193766.html"
+    },
+    {
+      "c": "HOT",
       "d": "2026-11-06T17:11",
       "t": "OpenAI 「重置大神」换人了？Tibo 去救火，Andrew 上位",
       "s": "Tibo 不发糖了？因为Open AI 的内部安全烂透了 作者丨高允毅 编辑丨岑 峰 OpenAI 的“赛博义父”好像换…（来源：雷锋网）",
@@ -140,6 +133,13 @@
       "t": "2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛名单公布",
       "s": "第四届开放原子大赛 · 2026 开源行业解决方案创新赛「“地心飞行”AIGC创作赛道」决赛入围名单今日公布，以下 10…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503451"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-06T15:45",
+      "t": "AI 器械注册审查新规:五项新增内容，一项须写入产品说明书",
+      "s": "AI 器械注册审查新规:五项新增内容，一项须写入产品说明书（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7704961439135466024/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 316686,
+      "s": 316688,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 313597,
+      "s": 313598,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 298569,
+      "s": 298573,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230276,
+      "s": 230277,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113726,
+      "s": 113727,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
