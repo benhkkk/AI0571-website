@@ -1,19 +1,26 @@
 {
-  "updated": "2026-11-08T16:31:40",
+  "updated": "2026-11-08T17:02:02",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-08T16:48",
+      "t": "三名男子涉嫌利用 AI 冒充企业高管和律师行骗，涉案金额超 1 亿美元",
+      "s": "当地时间 6 日，据英国《卫报》报道，美国司法部近日公布的一份起诉书显示，三名外国男子涉嫌利用 AI 冒充企业 CEO …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/925.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-08T16:26",
+      "t": "AI制药进入下半场，MegaStream以双原生驱动创新药研发",
+      "s": "AI制药进入下半场，MegaStream以双原生驱动创新药研发（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7705714077569434139/"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-08T16:21",
       "t": "物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录",
       "s": "据临港集团，11 月 7 日，第九届中国国际进口博览会迎来物理智能领域全球首秀。来自美国加州硅谷、学术底座源自加州大学伯…（来源：IT之家）",
       "u": "https://www.ithome.com/1/023/920.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-08T16:19",
-      "t": "AI制药进入下半场，MegaStream以双原生驱动创新药研发",
-      "s": "AI制药进入下半场，MegaStream以双原生驱动创新药研发（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7705712325055824434/"
     },
     {
       "c": "MODEL",
@@ -63,13 +70,6 @@
       "t": "先锋推出“米家 AI 智能石墨烯电热油汀”：接入小米米家 App，2500W 功率，499 元",
       "s": "先锋现已在有品上架一款“米家 AI 智能石墨烯电热油汀”（点此访问），该产品支持小米米家 App，定价为 499 元。该…（来源：IT之家）",
       "u": "https://www.ithome.com/1/023/893.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-08T14:28",
-      "t": "量产一个月，上纬新材旗下启元机器人第 10000 台下线",
-      "s": "据界面新闻今日，上纬新材启元机器人第 10000 台个人机器人正式下线。继今年 10 月 25 日第 5000 台下线后…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/891.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -135,21 +135,25 @@
       "u": "https://www.qbitai.com/2026/11/508449.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-07T16:57",
-      "t": "AI制药进入二期",
-      "s": "AI制药进入二期（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7705288858434306588/"
+      "c": "FUNDING",
+      "d": "2026-11-07T16:11",
+      "t": "OpenAI新融资到账110亿美元，不及原计划一半",
+      "s": "融资缩水，硅谷投资人也谨慎了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508344.html"
     }
   ],
   "timeline": [
     [
-      "11-08 16:21",
-      "物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录"
+      "11-08 16:48",
+      "三名男子涉嫌利用 AI 冒充企业高管和律师行骗，涉案金额超 1 亿美元"
     ],
     [
-      "11-08 16:19",
+      "11-08 16:26",
       "AI制药进入下半场，MegaStream以双原生驱动创新药研发"
+    ],
+    [
+      "11-08 16:21",
+      "物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录"
     ],
     [
       "11-08 16:02",
@@ -162,10 +166,6 @@
     [
       "11-08 15:14",
       "伯恩斯坦：OpenAI 至 2030 年算力基础设施支出或达 6140 亿美元，低于此前 7500 亿美元传闻"
-    ],
-    [
-      "11-08 15:11",
-      "消息称广汽人形机器人预计 2029 年形成万台产能"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318014,
+      "s": 318030,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314274,
+      "s": 314290,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299337,
+      "s": 299353,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230706,
+      "s": 230717,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189004,
+      "s": 189020,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154937,
+      "s": 154935,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144142,
+      "s": 144144,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144126,
+      "s": 144139,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118214,
+      "s": 118218,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113963,
+      "s": 113970,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
