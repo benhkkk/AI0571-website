@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T03:31:05",
+  "updated": "2026-11-09T04:01:15",
   "news": [
     {
       "c": "MODEL",
@@ -35,6 +35,13 @@
       "t": "上海交大构建 AI 原生科学实验室 AutoDNA 装置：实现自主分子生物学实验操作，成果登《自然》",
       "s": "上海交通大学计算机学院 IPADS 实验室陈海波、王肇国团队与化学化工学院、变革性分子前沿科学中心樊春海、王飞团队合作…（来源：IT之家）",
       "u": "https://www.ithome.com/1/024/001.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-08T21:11",
+      "t": "腾讯的 Agent 布局，不止 WorkBuddy",
+      "s": "大家对腾讯Agent的认识，还不够完整。 作者丨胡敏 编辑丨刘伟 今年上半年，但凡聊腾讯 AI，那必然会聊到 Workb…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html"
     },
     {
       "c": "MEDDEVICE",
@@ -107,18 +114,18 @@
       "u": "https://www.toutiao.com/article/7705767388570075683/"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-08T17:52",
-      "t": "为什么「陪伴」，注定是 Personal AI 的核心",
-      "s": "作者｜宇航猿 编辑｜靖宇 最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。 整个体…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373653"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-08T16:26",
       "t": "AI制药进入下半场，MegaStream以双原生驱动创新药研发",
       "s": "AI制药进入下半场，MegaStream以双原生驱动创新药研发（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705714077569434139/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-08T15:54",
+      "t": "终端侧AI：从单点应用走向智能体体验",
+      "s": "发言人：高通公司AI产品技术中国区负责人 万卫星2026年11月7日，上海 终端侧AI发展到了什么阶段？终端侧AI经过过…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "走出外包式合作，AI开始进入创新药企的骨架里",
       "s": "走出外包式合作，AI开始进入创新药企的骨架里（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705659603903693354/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-08T12:09",
-      "t": "资本正在撤离“世界模型”",
-      "s": "没有永远的夏天（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508466.html"
     }
   ],
   "timeline": [
@@ -164,8 +164,8 @@
       "上海交大构建 AI 原生科学实验室 AutoDNA 装置：实现自主分子生物学实验操作，成果登《自然》"
     ],
     [
-      "11-08 20:54",
-      "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?..."
+      "11-08 21:11",
+      "腾讯的 Agent 布局，不止 WorkBuddy"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318389,
+      "s": 318402,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314505,
+      "s": 314515,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299594,
+      "s": 299608,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230877,
+      "s": 230884,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189442,
+      "s": 189464,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154984,
+      "s": 154985,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144398,
+      "s": 144411,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144191,
+      "s": 144195,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118318,
+      "s": 118325,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114073,
+      "s": 114079,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
