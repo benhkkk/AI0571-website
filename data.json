@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-08T07:31:04",
+  "updated": "2026-11-08T08:01:27",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-08T07:51",
+      "t": "埃森哲报告被曝存在虚假引用案例，公司否认系 AI 幻觉所致",
+      "s": "埃森哲（Accenture）被指发布了一份充斥人工智能“幻觉”的研究报告，其中不仅包含大量虚假信息，还出现了多处疑似捏造…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/845.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-07T22:57",
@@ -49,13 +56,6 @@
       "t": "比尔 · 盖茨谈“亿万富翁税”：贫富差距不能指望靠“慈善捐赠”解决",
       "s": "据《财富》杂志 6 日报道，微软联合创始人比尔 · 盖茨认为，向富豪征收类似加州“亿万富翁税”的税款，或许是 AI 时代…（来源：IT之家）",
       "u": "https://www.ithome.com/1/023/787.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-07T18:05",
-      "t": "张艺谋谈 AI 冲击电影行业：AI 短视频产值已到几百亿，是很大的挑战",
-      "s": "据电影频道融媒体中心报道，第 39 届中国电影金鸡奖金鸡・国际电影节展对话在厦门开讲，张艺谋以主嘉宾身份分享了自己对 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/786.htm"
     },
     {
       "c": "HOT",
@@ -136,13 +136,17 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-07T11:35",
-      "t": "博世用豆包工作：让工程师少搬信息，多解问题",
-      "s": "头图来源：豆包工作 客户在群里抛出一个问题，到工程师真正坐下来分析故障，中间隔着多少工作？ 在博世的某研发事业部，答案曾…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373643"
+      "d": "2026-11-07T11:23",
+      "t": "Jeff Dean李飞飞最新对谈：全是RSI非共识",
+      "s": "RSI不可能无限快（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508196.html"
     }
   ],
   "timeline": [
+    [
+      "11-08 07:51",
+      "埃森哲报告被曝存在虚假引用案例，公司否认系 AI 幻觉所致"
+    ],
     [
       "11-07 22:57",
       "Claude Max 订阅套餐使用额度被指“虚标”，Anthropic 辩词未获法官采纳"
@@ -162,10 +166,6 @@
     [
       "11-07 18:40",
       "马斯克“御用”律师斯皮罗：AI 有望让案件尽快和解或直接走上法庭"
-    ],
-    [
-      "11-07 18:26",
-      "谷歌 AI 新研究：无需袖带利用消费级智能手表检测高血压，成果登 Nature"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 317670,
+      "s": 317686,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314103,
+      "s": 314110,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299164,
+      "s": 299174,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230613,
+      "s": 230617,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 188754,
+      "s": 188770,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154911,
+      "s": 154910,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 143981,
+      "s": 143992,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118171,
+      "s": 118169,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113896,
+      "s": 113900,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
