@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T00:01:31",
+  "updated": "2026-11-09T00:31:22",
   "news": [
     {
       "c": "MODEL",
@@ -114,11 +114,11 @@
       "u": "https://www.toutiao.com/article/7705767388570075683/"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-08T19:05",
-      "t": "终端侧AI：从单点应用走向智能体体验",
-      "s": "高通在第九届进博会展出端侧MoE智能体（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508478.html"
+      "c": "HOT",
+      "d": "2026-11-08T17:52",
+      "t": "为什么「陪伴」，注定是 Personal AI 的核心",
+      "s": "作者｜宇航猿 编辑｜靖宇 最近这一波 Personal AI 实在太火了，我也注册了一个 Muse 体验了一下。 整个体…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373653"
     },
     {
       "c": "MEDPHARMA",
@@ -128,18 +128,18 @@
       "u": "https://www.toutiao.com/article/7705714077569434139/"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-08T15:54",
+      "t": "终端侧AI：从单点应用走向智能体体验",
+      "s": "发言人：高通公司AI产品技术中国区负责人 万卫星2026年11月7日，上海 终端侧AI发展到了什么阶段？终端侧AI经过过…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-08T14:55",
       "t": "从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”",
       "s": "AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8194549.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-08T12:09",
-      "t": "资本正在撤离“世界模型”",
-      "s": "没有永远的夏天（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508466.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318267,
+      "s": 318292,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314442,
+      "s": 314449,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299504,
+      "s": 299517,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230824,
+      "s": 230833,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189294,
+      "s": 189318,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154972,
+      "s": 154975,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144326,
+      "s": 144334,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144171,
+      "s": 144175,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118299,
+      "s": 118301,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
