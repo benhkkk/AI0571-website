@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-08T16:21', t:'物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录', s:'据临港集团，11 月 7 日，第九届中国国际进口博览会迎来物理智能领域全球首秀。来自美国加州硅谷、学术底座源自加州大学伯…（来源：IT之家）', u:'https://www.ithome.com/1/023/920.htm'},
+    {c:'MEDPHARMA', d:'2026-11-08T16:19', t:'AI制药进入下半场，MegaStream以双原生驱动创新药研发', s:'AI制药进入下半场，MegaStream以双原生驱动创新药研发（来源：头条医药AI）', u:'https://www.toutiao.com/article/7705712325055824434/'},
+    {c:'MODEL', d:'2026-11-08T16:02', t:'上纬新材刘东方：当前启元机器人的月活超过 98%，平均每位用户每天交互 100 多次', s:'上纬新材启元机器人第 10,000 台个人机器人正式下线。上纬新材启元机器人联席总裁、Q 业务部总裁刘东方介绍：当前启元…（来源：IT之家）', u:'https://www.ithome.com/1/023/917.htm'},
     {c:'MODEL', d:'2026-11-08T15:29', t:'前 Rockstar 技术总监：爱好者“AI 移植游戏潮”或迫使官方加速发布《GTA6》PC 版', s:'前 Rockstar 技术总监 Obbe Vermeij 近日接受外媒《Rock Paper Shotgun》采访时表示…（来源：IT之家）', u:'https://www.ithome.com/1/023/908.htm'},
     {c:'INDUSTRY', d:'2026-11-08T15:14', t:'伯恩斯坦：OpenAI 至 2030 年算力基础设施支出或达 6140 亿美元，低于此前 7500 亿美元传闻', s:'据智通财经报道，伯恩斯坦分析师 MarkMoerdler 估算，OpenAI 已披露的算力合作协议对应的基础设施支出，到…（来源：IT之家）', u:'https://www.ithome.com/1/023/905.htm'},
     {c:'MODEL', d:'2026-11-08T15:11', t:'消息称广汽人形机器人预计 2029 年形成万台产能', s:'11 月 5 日，广东慧仑科技有限公司与广汽集团动力业务单元（“广汽动力 BU”）正式签署具身智能机器人生产合作协议。据…（来源：IT之家）', u:'https://www.ithome.com/1/023/902.htm'},
@@ -466,39 +469,36 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-08T14:55', t:'从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”', s:'AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周…（来源：钛媒体）', u:'https://www.tmtpost.com/8194549.html'},
     {c:'MODEL', d:'2026-11-08T14:37', t:'先锋推出“米家 AI 智能石墨烯电热油汀”：接入小米米家 App，2500W 功率，499 元', s:'先锋现已在有品上架一款“米家 AI 智能石墨烯电热油汀”（点此访问），该产品支持小米米家 App，定价为 499 元。该…（来源：IT之家）', u:'https://www.ithome.com/1/023/893.htm'},
     {c:'MODEL', d:'2026-11-08T14:28', t:'量产一个月，上纬新材旗下启元机器人第 10000 台下线', s:'据界面新闻今日，上纬新材启元机器人第 10000 台个人机器人正式下线。继今年 10 月 25 日第 5000 台下线后…（来源：IT之家）', u:'https://www.ithome.com/1/023/891.htm'},
-    {c:'HOT', d:'2026-11-08T13:42', t:'索尼全球首发“语义慧行”系统：可透视被遮挡的道路信息，并呈现于车机屏幕', s:'11 月 5 日，索尼（中国）有限公司（下称“索尼”）在第九届中国国际进口博览会上，全球首发“语义慧行”可透视车联网预警…（来源：IT之家）', u:'https://www.ithome.com/1/023/887.htm'},
-    {c:'MODEL', d:'2026-11-08T13:21', t:'Menlo Ventures 报告：中国 AI 模型占全球开源模型企业支出 89%，Kimi、DeepSeek、GLM 位列前三', s:'据《南华早报》前天报道，一项新研究显示，以月之暗面 Kimi 系列为代表的中国 AI 模型，在全球企业开源模型支出的占比…（来源：IT之家）', u:'https://www.ithome.com/1/023/885.htm'},
     {c:'MEDPHARMA', d:'2026-11-08T12:54', t:'走出外包式合作，AI开始进入创新药企的骨架里', s:'走出外包式合作，AI开始进入创新药企的骨架里（来源：头条医药AI）', u:'https://www.toutiao.com/article/7705659603903693354/'},
+    {c:'MODEL', d:'2026-11-08T12:09', t:'资本正在撤离“世界模型”', s:'没有永远的夏天（来源：量子位）', u:'https://www.qbitai.com/2026/11/508466.html'},
     {c:'HOT', d:'2026-11-08T11:35', t:'被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原', s:'磁带在 AI 时代迎来了第二春。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）', u:'https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'FUNDING', d:'2026-11-08T10:19', t:'AI泡沫监测·之二：第三个定价器上牌桌', s:'四张考卷对账：没有一家说放缓，但融资结构先说了话。11月5日纳指暴跌5.52%，导火索是选票——监管不从华盛顿下来，从县…（来源：钛媒体）', u:'https://www.tmtpost.com/8197365.html'},
     {c:'HOT', d:'2026-11-08T10:17', t:'宇树跟红杉都不想自己“努力”了？', s:'AI时代，VC越来越依赖产业方？（来源：钛媒体）', u:'https://www.tmtpost.com/8197415.html'},
     {c:'MODEL', d:'2026-11-08T09:17', t:'🔥🔥🔥 拾趣 (Magpie) v0.1.21 发布：解锁图片识别新模式，优化使用体验', s:'拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词工具 划选或双击，浮动条随即弹出：翻译、解释、总结实时呈现；复制…（来源：OSCHINA）', u:'https://www.oschina.net/news/503468'},
     {c:'FUNDING', d:'2026-11-08T08:58', t:'Edge AI Daily 早报（11月8日）', s:'AI资本重定价：OpenAI首笔融资110亿美元、估值1.25万亿美元但目标缩减，Anthropic IPO估值下修；科…（来源：钛媒体）', u:'https://www.tmtpost.com/8197405.html'},
     {c:'MODEL', d:'2026-11-08T01:15', t:'Cordonix 0.4.1 发布：每日后台更新，完善全部 MCP 工具说明', s:'Cordonix 0.4.1 已发布。Cordonix（简称 cdx）是一款面向 AI 编程智能体的原生执行与文件工作区…（来源：OSCHINA）', u:'https://www.oschina.net/news/503467'},
+    {c:'FUNDING', d:'2026-11-07T17:38', t:'GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞', s:'AI写代码太快，基础设施跟不上了（来源：量子位）', u:'https://www.qbitai.com/2026/11/508449.html'},
     {c:'MEDPHARMA', d:'2026-11-07T16:57', t:'AI制药进入二期', s:'AI制药进入二期（来源：头条医药AI）', u:'https://www.toutiao.com/article/7705288858434306588/'},
-    {c:'MEDPHARMA', d:'2026-11-07T15:09', t:'AI巨头集体进入生物制药，他们到底要对医药，动什么“手脚”?', s:'AI巨头集体进入生物制药，他们到底要对医药，动什么“手脚”?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7703911591762231842/'},
-    {c:'MODEL', d:'2026-11-07T13:01', t:'抢跑DeepSeek！硅谷华人把下一代Agent Harness造出来了！？', s:'苦单Session久矣，两大Agent玩家不谋而合。（来源：量子位）', u:'https://www.qbitai.com/2026/11/508264.html'},
-    {c:'HOT', d:'2026-11-07T11:43', t:'AGENTS.MD，危险危险危险！！！', s:'全新的电脑病毒（来源：量子位）', u:'https://www.qbitai.com/2026/11/508244.html'},
   ];
   const TIMELINE = [
+    ['11-08 16:21','物理智能开源平台 Hitch Open 在进博会发布，142 拍刷新 AI 机器人乒乓对打世界纪录'],
+    ['11-08 16:19','AI制药进入下半场，MegaStream以双原生驱动创新药研发'],
+    ['11-08 16:02','上纬新材刘东方：当前启元机器人的月活超过 98%，平均每位用户每天交互 100 多次'],
     ['11-08 15:29','前 Rockstar 技术总监：爱好者“AI 移植游戏潮”或迫使官方加速发布《GTA6》PC 版'],
     ['11-08 15:14','伯恩斯坦：OpenAI 至 2030 年算力基础设施支出或达 6140 亿美元，低于此前 7500 亿美元传闻'],
     ['11-08 15:11','消息称广汽人形机器人预计 2029 年形成万台产能'],
-    ['11-08 15:05','OpenAI GPT-6.1 Sol 参与活体小鼠脑手术：连续操作三次，定位误差减半'],
-    ['11-08 14:55','从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”'],
-    ['11-08 14:37','先锋推出“米家 AI 智能石墨烯电热油汀”：接入小米米家 App，2500W 功率，499 元'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:317992, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:314257, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:299322, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230696, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:188983, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:318014, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:314274, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:299337, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230706, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:189004, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154937, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144141, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:144118, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118211, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113957, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144142, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:8, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:144126, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118214, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:113963, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
