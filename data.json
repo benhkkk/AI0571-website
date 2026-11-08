@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-08T20:31:18",
+  "updated": "2026-11-08T21:02:10",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-08T20:54",
+      "t": "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...",
+      "s": "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7705783123107201574/"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-08T20:41",
+      "t": "支持米家：80°C 热水洗地 + 20000Pa 大吸力，友望 U280 扫拖机器人 1069 元新低",
+      "s": "友望 U280 扫拖机器人官方定价 4199 元，支持 80°C 热水洗地 *，280R/min + 18N 下压力大力…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/995.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-08T20:29",
@@ -93,13 +107,6 @@
       "u": "https://www.ithome.com/1/023/954.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-08T17:53",
-      "t": "中国移动云公司与智谱签署合作协议，围绕国产算力、大模型服务和 AI 商业化合作",
-      "s": "11 月 6 日，中国移动云公司与北京智谱华章科技股份有限公司正式签署合作协议，在 Token 技术创新、模型服务、产品…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/937.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-08T17:52",
       "t": "为什么「陪伴」，注定是 Personal AI 的核心",
@@ -133,16 +140,17 @@
       "t": "走出外包式合作，AI开始进入创新药企的骨架里",
       "s": "走出外包式合作，AI开始进入创新药企的骨架里（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705659603903693354/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-08T12:09",
-      "t": "资本正在撤离“世界模型”",
-      "s": "没有永远的夏天（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508466.html"
     }
   ],
   "timeline": [
+    [
+      "11-08 20:54",
+      "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?..."
+    ],
+    [
+      "11-08 20:41",
+      "支持米家：80°C 热水洗地 + 20000Pa 大吸力，友望 U280 扫拖机器人 1069 元新低"
+    ],
     [
       "11-08 20:29",
       "消息称字节跳动拟扩大巴西数据中心项目"
@@ -158,14 +166,6 @@
     [
       "11-08 20:13",
       "华为、OpenAI、字节等科技巨头为何都要插手制药？"
-    ],
-    [
-      "11-08 20:13",
-      "字节跳动正在巴西扩建数据中心"
-    ],
-    [
-      "11-08 20:13",
-      "刘庆峰交出科大讯飞半张AI答卷"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318145,
+      "s": 318159,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314368,
+      "s": 314379,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299429,
+      "s": 299435,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230767,
+      "s": 230772,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189139,
+      "s": 189162,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144220,
+      "s": 144228,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144155,
+      "s": 144156,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118257,
+      "s": 118264,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114008,
+      "s": 114012,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
