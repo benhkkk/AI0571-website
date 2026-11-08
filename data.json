@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-08T17:02:02",
+  "updated": "2026-11-08T17:31:27",
   "news": [
     {
       "c": "HOT",
@@ -93,6 +93,13 @@
       "u": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-08T10:40",
+      "t": "创业者做 Personal Agent，有没有一线生机？",
+      "s": "最近一阶段，Personal Agent 很热。有趣的是，这个概念迅速火爆又迅速有了一个共识，几波讨论下来大家的观点似乎…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373650"
+    },
+    {
       "c": "FUNDING",
       "d": "2026-11-08T10:19",
       "t": "AI泡沫监测·之二：第三个定价器上牌桌",
@@ -121,25 +128,18 @@
       "u": "https://www.tmtpost.com/8197405.html"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-11-08T08:57",
+      "t": "收购 EA 后，银湖资本与沙特基金 250 亿美元报价 Unity；超10万款应用已适配iPhone Duo；美国再发生 NVIDIA AI 设备失窃案",
+      "s": "收购 EA 之后，银湖资本与沙特公共投资基金据报出价 250 亿美元收购 Unity 据路透社援引未具名知情人士的消息报…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373649"
+    },
+    {
       "c": "MODEL",
       "d": "2026-11-08T01:15",
       "t": "Cordonix 0.4.1 发布：每日后台更新，完善全部 MCP 工具说明",
       "s": "Cordonix 0.4.1 已发布。Cordonix（简称 cdx）是一款面向 AI 编程智能体的原生执行与文件工作区…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503467"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-07T17:38",
-      "t": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "s": "AI写代码太快，基础设施跟不上了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508449.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-07T16:11",
-      "t": "OpenAI新融资到账110亿美元，不及原计划一半",
-      "s": "融资缩水，硅谷投资人也谨慎了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508344.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318030,
+      "s": 318047,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314290,
+      "s": 314300,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299353,
+      "s": 299358,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230717,
+      "s": 230728,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189020,
+      "s": 189037,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,12 +213,20 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154935,
+      "s": 154939,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
     {
       "n": 7,
+      "r": "Graphify-Labs/graphify",
+      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
+      "s": 144154,
+      "u": "https://github.com/Graphify-Labs/graphify",
+      "new": false
+    },
+    {
+      "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
       "s": 144144,
@@ -226,18 +234,10 @@
       "new": false
     },
     {
-      "n": 8,
-      "r": "Graphify-Labs/graphify",
-      "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144139,
-      "u": "https://github.com/Graphify-Labs/graphify",
-      "new": false
-    },
-    {
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118218,
+      "s": 118227,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113970,
+      "s": 113972,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
