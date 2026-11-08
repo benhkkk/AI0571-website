@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-08T14:25:07",
+  "updated": "2026-11-08T14:31:20",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-08T14:28",
+      "t": "量产一个月，上纬新材旗下启元机器人第 10000 台下线",
+      "s": "据界面新闻今日，上纬新材启元机器人第 10000 台个人机器人正式下线。继今年 10 月 25 日第 5000 台下线后…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/023/891.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-08T13:42",
@@ -21,13 +28,6 @@
       "t": "走出外包式合作，AI开始进入创新药企的骨架里",
       "s": "走出外包式合作，AI开始进入创新药企的骨架里（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705659603903693354/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-08T12:09",
-      "t": "资本正在撤离“世界模型”",
-      "s": "没有永远的夏天（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508466.html"
     },
     {
       "c": "MODEL",
@@ -115,24 +115,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-08T07:51",
-      "t": "埃森哲报告被曝存在虚假引用案例，公司否认系 AI 幻觉所致",
-      "s": "埃森哲（Accenture）被指发布了一份充斥人工智能“幻觉”的研究报告，其中不仅包含大量虚假信息，还出现了多处疑似捏造…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/023/845.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-08T01:15",
       "t": "Cordonix 0.4.1 发布：每日后台更新，完善全部 MCP 工具说明",
       "s": "Cordonix 0.4.1 已发布。Cordonix（简称 cdx）是一款面向 AI 编程智能体的原生执行与文件工作区…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503467"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-07T17:38",
-      "t": "GitHub不堪重负！OpenAI收购替代品，A社原地自研，马斯克也要搞",
-      "s": "AI写代码太快，基础设施跟不上了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508449.html"
     },
     {
       "c": "HOT",
@@ -140,9 +126,27 @@
       "t": "当芯片抢着上太空，半导体下一轮增量有了？",
       "s": "巨头争建太空机房，算力竞赛再度提速。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8197078.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-07T17:32",
+      "t": "风口浪尖的数据中心，开始放低姿态",
+      "s": "OpenAI公布新社区承诺。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8197100.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-07T17:32",
+      "t": "AI面试逼疯打工人",
+      "s": "企业用AI筛人，求职者用AI练习。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8197213.html"
     }
   ],
   "timeline": [
+    [
+      "11-08 14:28",
+      "量产一个月，上纬新材旗下启元机器人第 10000 台下线"
+    ],
     [
       "11-08 13:42",
       "索尼全球首发“语义慧行”系统：可透视被遮挡的道路信息，并呈现于车机屏幕"
@@ -154,10 +158,6 @@
     [
       "11-08 12:54",
       "走出外包式合作，AI开始进入创新药企的骨架里"
-    ],
-    [
-      "11-08 12:09",
-      "资本正在撤离“世界模型”"
     ],
     [
       "11-08 11:55",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 317924,
+      "s": 317927,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314211,
+      "s": 314214,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299285,
+      "s": 299287,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230682,
+      "s": 230683,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 188933,
+      "s": 188935,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 154929,
+      "s": 154930,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 113945,
+      "s": 113946,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
