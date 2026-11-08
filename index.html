@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-08T22:47', t:'蚂蚁集团：旗下 AI 助手灵光用户数量已突破 2000 万，2.0 版本上线一周已帮助用户管理超 116 万项事务', s:'蚂蚁集团旗下 AI 助手灵光宣布：自今年 10 月 27 日灵光 2.0 上线以来，一周内已帮助用户管理超 116 万项…（来源：IT之家）', u:'https://www.ithome.com/1/024/010.htm'},
     {c:'MEDPHARMA', d:'2026-11-08T21:23', t:'上海交大构建 AI 原生科学实验室 AutoDNA 装置：实现自主分子生物学实验操作，成果登《自然》', s:'上海交通大学计算机学院 IPADS 实验室陈海波、王肇国团队与化学化工学院、变革性分子前沿科学中心樊春海、王飞团队合作…（来源：IT之家）', u:'https://www.ithome.com/1/024/001.htm'},
     {c:'MEDDEVICE', d:'2026-11-08T20:54', t:'手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...', s:'手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...（来源：头条设备AI）', u:'https://www.toutiao.com/article/7705783123107201574/'},
     {c:'HOT', d:'2026-11-08T20:41', t:'支持米家：80°C 热水洗地 + 20000Pa 大吸力，友望 U280 扫拖机器人 1069 元新低', s:'友望 U280 扫拖机器人官方定价 4199 元，支持 80°C 热水洗地 *，280R/min + 18N 下压力大力…（来源：IT之家）', u:'https://www.ithome.com/1/023/995.htm'},
@@ -474,31 +475,30 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-08T19:51', t:'AI 公司迄今最大发电设备采购订单：曝 Anthropic 砸 34 亿美元买燃气发电机', s:'据英国《金融时报》今天（8 日）晚间报道，Anthropic 签下了一份大额数据中心燃气发电机组采购订单。随着发电设备供…（来源：IT之家）', u:'https://www.ithome.com/1/023/989.htm'},
     {c:'MODEL', d:'2026-11-08T19:05', t:'终端侧AI：从单点应用走向智能体体验', s:'高通在第九届进博会展出端侧MoE智能体（来源：量子位）', u:'https://www.qbitai.com/2026/11/508478.html'},
     {c:'MODEL', d:'2026-11-08T18:35', t:'24G+1T 版 12499 元，华硕灵耀 16 Air 骁龙版笔记本上架', s:'华硕灵耀 16 Air 骁龙版 AI 超轻薄本现已在电商平台上架，24GB+1TB 版本定价为 12499 元。京东华硕…（来源：IT之家）', u:'https://www.ithome.com/1/023/982.htm'},
-    {c:'HOT', d:'2026-11-08T18:09', t:'得物 App 宣布接入苹果国行 Apple 智能，利用 iPhone 拍摄商品即可 AI 快速查信息', s:'得物 App 宣布接入国行苹果 Apple 智能，用户通过 iPhone 相机拍摄感兴趣的商品，即可在得物搜索相关商品…（来源：IT之家）', u:'https://www.ithome.com/1/023/971.htm'},
     {c:'MEDPHARMA', d:'2026-11-08T16:26', t:'AI制药进入下半场，MegaStream以双原生驱动创新药研发', s:'AI制药进入下半场，MegaStream以双原生驱动创新药研发（来源：头条医药AI）', u:'https://www.toutiao.com/article/7705714077569434139/'},
     {c:'HOT', d:'2026-11-08T14:55', t:'从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”', s:'AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周…（来源：钛媒体）', u:'https://www.tmtpost.com/8194549.html'},
     {c:'MEDPHARMA', d:'2026-11-08T12:54', t:'走出外包式合作，AI开始进入创新药企的骨架里', s:'走出外包式合作，AI开始进入创新药企的骨架里（来源：头条医药AI）', u:'https://www.toutiao.com/article/7705659603903693354/'},
     {c:'MODEL', d:'2026-11-08T12:09', t:'资本正在撤离“世界模型”', s:'没有永远的夏天（来源：量子位）', u:'https://www.qbitai.com/2026/11/508466.html'},
   ];
   const TIMELINE = [
+    ['11-08 22:47','蚂蚁集团：旗下 AI 助手灵光用户数量已突破 2000 万，2.0 版本上线一周已帮助用户管理超 116 万项事务'],
     ['11-08 21:23','上海交大构建 AI 原生科学实验室 AutoDNA 装置：实现自主分子生物学实验操作，成果登《自然》'],
     ['11-08 20:54','手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...'],
     ['11-08 20:41','支持米家：80°C 热水洗地 + 20000Pa 大吸力，友望 U280 扫拖机器人 1069 元新低'],
     ['11-08 20:29','消息称字节跳动拟扩大巴西数据中心项目'],
     ['11-08 20:20','日本富士电视台将在所有真人剧集制作中使用 AI，可省七至八成特效制作工序'],
-    ['11-08 20:15','腾讯姚顺雨谈“AI 模型公司护城河”：更多存在于产品层，而不是模型层'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:318215, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:314409, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:299464, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230801, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:189231, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154957, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:144270, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144165, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118280, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114026, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:318229, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:314420, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:299477, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:230809, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:189252, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:154965, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:144286, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144168, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118293, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114034, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
