@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T23:33:37",
+  "updated": "2026-11-10T00:02:09",
   "news": [
     {
       "c": "FUNDING",
@@ -115,31 +115,31 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-09T16:24",
-      "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
-      "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503485"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-09T15:56",
-      "t": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
-      "s": "终于不是后空翻、跳舞、跑步了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-11-09T16:57",
+      "t": "“AI毁了我的计算机学位”",
+      "s": "教授也用Claude糊弄…（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508706.html"
     },
     {
       "c": "MODEL",
-      "d": "2026-11-09T15:01",
-      "t": "Vue 可视化 AI 表单设计器 FcDesigner v3.6 版本发布，支持导出 SQL 功能!",
-      "s": "FcDesigner 是基于 Vue 的低代码可视化 AI 表单设计器。用自然语言描述业务即可生成表单结构，也可以拖拽组…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503482"
+      "d": "2026-11-09T16:44",
+      "t": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
+      "s": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/507843.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-09T14:15",
-      "t": "从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状",
-      "s": "从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7706051363393782306/"
+      "c": "MODEL",
+      "d": "2026-11-09T16:34",
+      "t": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
+      "s": "11月9日，千问办公发布2.0版本（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508694.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-09T16:26",
+      "t": "叙事奔涌，何以为锚?丨第 20 届中国投资年会·有限合伙人峰会即将启幕",
+      "s": "厘清故事与现实的边界，回归投资与产业的底层逻辑。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508690.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319333,
+      "s": 319362,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314914,
+      "s": 314936,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300010,
+      "s": 300033,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231204,
+      "s": 231214,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190423,
+      "s": 190467,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155064,
+      "s": 155063,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144841,
+      "s": 144858,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144271,
+      "s": 144274,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118544,
+      "s": 118559,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114399,
+      "s": 114406,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
