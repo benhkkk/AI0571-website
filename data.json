@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-09T20:01:30",
+  "updated": "2026-11-09T20:31:19",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T20:14",
+      "t": "教授法学教授尝试利用 Anthropic 更新讲义页码，反被 AI 删除全年课堂笔记",
+      "s": "美国宪法领域知名学者、芝加哥大学法学院教授 William Baude（威廉 · 鲍德）日前分享了一起 AI 操作失误事…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/515.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-09T20:01",
+      "t": "实测 Seedream5.5，豆包想把 AI 作图接进整条工作流",
+      "s": "还有改图 100 轮都不糊#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
     {
       "c": "MODEL",
       "d": "2026-11-09T19:43",
@@ -72,11 +86,11 @@
       "u": "https://www.ithome.com/1/024/393.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-09T17:54",
-      "t": "三星 One UI 9.5 有望将 Bixby 打造成 AI 智能体，真正“代你办事”",
-      "s": "外媒 Sammobile 今天（9 日）晚间公布了有关 One UI 9.5 的最新发现：三星准备对 Bixby 进行大…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/386.htm"
+      "c": "INDUSTRY",
+      "d": "2026-11-09T18:03",
+      "t": "阿里云获中国专利金奖：破解AI时代的超大规模智能算力调度难题",
+      "s": "11月6日，第二十六届中国专利奖颁奖大会在无锡举行，阿里云提交的专利\"一种用户请求的处理方法和装置\"荣获中国专利金奖，这…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/ljc6ifIFxCUD6DYG.html"
     },
     {
       "c": "MODEL",
@@ -91,13 +105,6 @@
       "t": "🔥🔥ApiGo 5.5 发布，新增数据行列级权限",
       "s": "ApiGo 是面向企业的 AI Agent 受控数据服务网关与 API 与 MCP 构建平台，通过WorkBuddy、千…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503488"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-09T17:28",
-      "t": "10家没上市的AI制药公司，要来路演了",
-      "s": "10家没上市的AI制药公司，要来路演了（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7706101081100648994/"
     },
     {
       "c": "HOT",
@@ -133,16 +140,17 @@
       "t": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满",
       "s": "腾讯混元跻身最强开源模型！一手实测Hy4：搭配WorkBuddy，多模态Agent交付力拉满（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/507843.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-09T16:34",
-      "t": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
-      "s": "11月9日，千问办公发布2.0版本（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508694.html"
     }
   ],
   "timeline": [
+    [
+      "11-09 20:14",
+      "教授法学教授尝试利用 Anthropic 更新讲义页码，反被 AI 删除全年课堂笔记"
+    ],
+    [
+      "11-09 20:01",
+      "实测 Seedream5.5，豆包想把 AI 作图接进整条工作流"
+    ],
     [
       "11-09 19:43",
       "韩国 2026 年高考开考在即：将有专人查 AI 眼镜，任何电子设备禁止进入考场"
@@ -158,14 +166,6 @@
     [
       "11-09 19:08",
       "索尼注册新专利：利用 AI 识别老玩家开新号伪装新手“炸鱼”"
-    ],
-    [
-      "11-09 19:00",
-      "AI进不了相亲相爱一家人，怎么办？"
-    ],
-    [
-      "11-09 19:00",
-      "黄仁勋婚外情背后：黄乐的神秘履历、48亿美元芯片生意与美国政策博弈"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319129,
+      "s": 319162,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314824,
+      "s": 314836,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299924,
+      "s": 299932,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231145,
+      "s": 231149,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190144,
+      "s": 190184,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155069,
+      "s": 155070,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144764,
+      "s": 144778,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144253,
+      "s": 144258,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118500,
+      "s": 118503,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114329,
+      "s": 114339,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
