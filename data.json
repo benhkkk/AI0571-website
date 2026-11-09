@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T23:01:54",
+  "updated": "2026-11-09T23:33:37",
   "news": [
     {
       "c": "FUNDING",
@@ -101,27 +101,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-09T18:32",
-      "t": "无预警！ChatGPT突然大规模封号，包括付费用户；圆通总裁心疼儿子Tim：他比大多数人想象的辛苦；英伟达遭大劫案，价值超7千万元货物失踪",
-      "s": "要闻提示1.无预警！曝ChatGPT突然大规模封号，包括付费用户2.圆通总裁心疼儿子Tim：他真的比大多数人想象的辛苦3…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/zaobao/Z2uc8AJRp0PQO7Kb.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-09T18:03",
-      "t": "阿里云获中国专利金奖：破解AI时代的超大规模智能算力调度难题",
-      "s": "11月6日，第二十六届中国专利奖颁奖大会在无锡举行，阿里云提交的专利\"一种用户请求的处理方法和装置\"荣获中国专利金奖，这…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/ljc6ifIFxCUD6DYG.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-09T17:41",
-      "t": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦",
-      "s": "11 月 9 日，字节跳动正式发布豆包图像创作模型 Seedream 5.5。相较上一代 Seedream 5.0 Pr…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/CoJod8Z9X1pDj1sv.html"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-09T17:29",
       "t": "🔥🔥ApiGo 5.5 发布，新增数据行列级权限",
       "s": "ApiGo 是面向企业的 AI Agent 受控数据服务网关与 API 与 MCP 构建平台，通过WorkBuddy、千…（来源：OSCHINA）",
@@ -136,10 +115,31 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-09T17:18",
-      "t": "百度文心首次披露RSI进展：ERNIE Evolve已用于最新模型研发，文心5.5 Flash 或将近期发布",
-      "s": "11月9日，百度文心首次披露 RSI 最新进展，公布参与文心 5.5 Flash 研发的自动研究系统 ERNIE Evo…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/FO9Dx6HKj5Bvno5y.html"
+      "d": "2026-11-09T16:24",
+      "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
+      "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503485"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-09T15:56",
+      "t": "苹果罕见公布人形机器人进展，宇树 G1 背着一台跑千问的 Mac mini",
+      "s": "终于不是后空翻、跳舞、跑步了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1688485?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T15:01",
+      "t": "Vue 可视化 AI 表单设计器 FcDesigner v3.6 版本发布，支持导出 SQL 功能!",
+      "s": "FcDesigner 是基于 Vue 的低代码可视化 AI 表单设计器。用自然语言描述业务即可生成表单结构，也可以拖拽组…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503482"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-09T14:15",
+      "t": "从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状",
+      "s": "从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7706051363393782306/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319305,
+      "s": 319333,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314904,
+      "s": 314914,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300000,
+      "s": 300010,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231197,
+      "s": 231204,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190381,
+      "s": 190423,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155079,
+      "s": 155064,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144861,
+      "s": 144841,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144270,
+      "s": 144271,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118538,
+      "s": 118544,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114394,
+      "s": 114399,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
