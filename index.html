@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-09T14:30', t:'方飞：荣耀 700 全系搭载 AI 灵动背屏', s:'荣耀终端股份有限公司产品线总裁方飞今日发文，正式公布荣耀 700 系列的全新设计，并宣布该系列将全系搭载 AI 灵动背屏…（来源：IT之家）', u:'https://www.ithome.com/1/024/249.htm'},
     {c:'MODEL', d:'2026-11-09T14:22', t:'微软 CEO 纳德拉畅想：未来可能有 2000 万个 AI 智能体与 20 万名员工协同工作', s:'近期，一段微软 CEO 萨蒂亚 · 纳德拉接受领英联合创始人里德 · 霍夫曼的视频在外网流传。当时，一名博主声称纳德拉说…（来源：IT之家）', u:'https://www.ithome.com/1/024/243.htm'},
     {c:'MEDPHARMA', d:'2026-11-09T14:15', t:'从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状', s:'从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706051363393782306/'},
     {c:'INDUSTRY', d:'2026-11-09T14:10', t:'网约车平台曹操出行联合蚂蚁集团，在杭州厦门重庆三地落地司机之家 AI 驿站', s:'曹操出行宣布联合蚂蚁集团旗下 AI 健康应用蚂蚁阿福，在杭州、厦门、重庆三地司机之家分批落地 AI 健康驿站。其中杭州站…（来源：IT之家）', u:'https://www.ithome.com/1/024/241.htm'},
@@ -467,11 +468,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-09T13:08', t:'IDC：2026 年全球灵巧手出货量约 2.5 万台，中国厂商占比超 85%', s:'IDC 今日发布报告，随着人形机器人与具身智能产业发展，灵巧手的竞争已从自由度、抓握力等硬件参数，延伸至精细操作、感知控…（来源：IT之家）', u:'https://www.ithome.com/1/024/146.htm'},
     {c:'HOT', d:'2026-11-09T12:00', t:'微信 AI 录音笔体验：手机都能装的办公神器，免费！', s:'又能摸鱼了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688410?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-09T11:57', t:'实测 HY4：腾讯最「夯」大模型，离一线还有多远？', s:'头图来源：腾讯混元 11 月 4 日，混元 Hy4 正式发布，模型权重将在近期开源，主打性价比的轻量版 Hy4 flas…（来源：极客公园）', u:'http://www.geekpark.net/news/373644'},
-    {c:'INDUSTRY', d:'2026-11-09T11:43', t:'第八届世界浙商大会举行AI专题活动 支付宝分享惠企政策与AI办事实践', s:'11月6日，第八届世界浙商大会在杭州开幕。大会由浙江省委、省政府主办，省委统战部、省工商联、浙商总会承办，开幕式展示了近…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/41xBwd2JagAdaaxT.html'},
+    {c:'INDUSTRY', d:'2026-11-09T11:43', t:'第八届世界浙商大会举行AI专题活动支付宝分享A办事实践', s:'11月6日，第八届世界浙商大会在杭州开幕。大会由浙江省委、省政府主办，省委统战部、省工商联、浙商总会承办，开幕式展示了近…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/41xBwd2JagAdaaxT.html'},
     {c:'MODEL', d:'2026-11-09T11:41', t:'Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作', s:'Anthropic 近日发布研究报告，显示科学家主要将 Claude 用于数据分析和写作，收集数据、生成研究假设则较少使…（来源：IT之家）', u:'https://www.ithome.com/1/024/111.htm'},
     {c:'MODEL', d:'2026-11-09T10:58', t:'黄仁勋承认「婚外情」，英伟达启动调查；ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃；腾讯姚顺雨谈「AI 公司护城河」：在产品层，而不是模型层', s:'黄仁勋承认「婚外情」，英伟达启动调查 11 月 9 日消息，英伟达 CEO 黄仁勋当地时间 8 日于公司官网发布致全员公…（来源：极客公园）', u:'http://www.geekpark.net/news/373687'},
-    {c:'INDUSTRY', d:'2026-11-09T10:43', t:'特朗普称 AI 风险可控，但不介意设置监管护栏', s:'据路透社今日报道，美国总统唐纳德 · 特朗普表示，AI 带来的风险是可控的，但其对监管措施持开放态度，他“不介意设置护栏…（来源：IT之家）', u:'https://www.ithome.com/1/024/071.htm'},
-    {c:'MODEL', d:'2026-11-09T10:39', t:'LG AI 研究院宣布对外免费开放 K-EXAONE 2.5 模型 API', s:'LG AI 研究院韩国当地时间今日宣布，对外免费开放其 K-EXAONE 2.5 模型的 API。包括开发者、企业、研究…（来源：IT之家）', u:'https://www.ithome.com/1/024/069.htm'},
     {c:'MEDPHARMA', d:'2026-11-09T10:29', t:'中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流...', s:'中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7705993333872542235/'},
     {c:'MODEL', d:'2026-11-09T10:25', t:'基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代', s:'11月5日，基元律动（TokenRhythm）发布Agent原生模型NeoHorse-1.5-Flash Preview…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/tLk5dflVBL8euzAW.html'},
     {c:'HOT', d:'2026-11-09T10:23', t:'当 AI 在加速狂奔，什么反而应该“慢”下来？', s:'加速时代的悖论：当“你的 AI”开始对“我的 AI”说话2026 年，人工智能正在经历一次深刻的角色跨越：从过去几年的“…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/zGBfQTDDCpSCfYIK.html'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-09T09:50', t:'“X-Day”西丽湖路演社亚太数智创新专场成功举办 共探AI硬件出海新机遇', s:'2026年11月5日下午，“X-Day”西丽湖路演社亚太数智创新专场在深圳大学城国际会议中心成功举办。活动以“拥抱数智…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/ZpO4WNiF4Go9XTtQ.html'},
     {c:'INDUSTRY', d:'2026-11-09T09:48', t:'不拿地方国资、全靠市场化巨头抢筹：「猿声科技」凭什么让五源、线性与拓普同时掏钱？', s:'如果把今年市面上冒出来的几十家具身触觉初创公司拉一张表，会发现一个颇为残酷的供需倒挂：下游全球人形机器人的年度真实出货量…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/B48XPbz6KLvCe9jk.html'},
     {c:'INDUSTRY', d:'2026-11-09T09:28', t:'Edge AI Daily 早报（11月9日）', s:'中期选举后美国46项数据中心公投否决扩张，AI基建进入许可时代；纳指单日跌5.5%、费半跌12%，亚洲市场熔断。Anth…（来源：钛媒体）', u:'https://www.tmtpost.com/8197806.html'},
+    {c:'INDUSTRY', d:'2026-11-09T09:20', t:'AI会撞上的下一堵墙可能是水', s:'世界经济论坛的报告估计，全球约45%的数据中心设施位于高水压力地区（来源：钛媒体）', u:'https://www.tmtpost.com/8197774.html'},
   ];
   const TIMELINE = [
+    ['11-09 14:30','方飞：荣耀 700 全系搭载 AI 灵动背屏'],
     ['11-09 14:22','微软 CEO 纳德拉畅想：未来可能有 2000 万个 AI 智能体与 20 万名员工协同工作'],
     ['11-09 14:15','从算法迭代走向临床验证，富国基金观察 AI 制药产业发展现状'],
     ['11-09 14:10','网约车平台曹操出行联合蚂蚁集团，在杭州厦门重庆三地落地司机之家 AI 驿站'],
     ['11-09 13:59','英伟达在韩举办 AI Day 活动，韩国政府、三星、LG 电子、现代汽车集团等排队合作'],
     ['11-09 13:58','日本人工智能独角兽 Sakana AI 正在开发其首款移动 App'],
-    ['11-09 13:08','IDC：2026 年全球灵巧手出货量约 2.5 万台，中国厂商占比超 85%'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:318822, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:314698, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:299809, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231038, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:189917, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155039, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:144614, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144234, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118439, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114242, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:318858, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:314710, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:299815, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231050, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:189937, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155040, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:144627, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144237, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118447, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114251, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
