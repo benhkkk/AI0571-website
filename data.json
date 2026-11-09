@@ -1,12 +1,19 @@
 {
-  "updated": "2026-11-10T06:31:39",
+  "updated": "2026-11-10T07:01:17",
   "news": [
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-10T06:17",
-      "t": "用人工智能技术回应健康需求",
-      "s": "用人工智能技术回应健康需求（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7706299225239274022/"
+      "c": "MODEL",
+      "d": "2026-11-10T06:58",
+      "t": "Meta 旗下 AI 助手 Muse 登陆苹果 Apple Watch",
+      "s": "据科技媒体 MacRumors 昨天报道，Meta 现已更新 iOS 版 Muse 应用，新增 Apple Watch …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/571.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T06:54",
+      "t": "刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5",
+      "s": "全球最强模型再次易主#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
       "c": "MODEL",
@@ -86,13 +93,6 @@
       "u": "https://www.ithome.com/1/024/525.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-09T20:14",
-      "t": "美国一法学教授尝试利用 Anthropic 更新讲义页码，反被 AI 删除全年课堂笔记",
-      "s": "美国宪法领域知名学者、芝加哥大学法学院教授 William Baude（威廉 · 鲍德）日前分享了一起 AI 操作失误事…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/515.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-09T20:01",
       "t": "实测 Seedream5.5，豆包想把 AI 作图接进整条工作流",
@@ -144,8 +144,12 @@
   ],
   "timeline": [
     [
-      "11-10 06:17",
-      "用人工智能技术回应健康需求"
+      "11-10 06:58",
+      "Meta 旗下 AI 助手 Muse 登陆苹果 Apple Watch"
+    ],
+    [
+      "11-10 06:54",
+      "刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5"
     ],
     [
       "11-09 23:27",
@@ -162,10 +166,6 @@
     [
       "11-09 22:16",
       "美团龙猫开源 LongCat-2.5 模型：总参数 1.6 万亿，支持百万上下文"
-    ],
-    [
-      "11-09 22:10",
-      "179 → 123 元：小米智能摄像机 3 国补新低，500 万像素、6 种 AI 灵敏检测"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319667,
+      "s": 319680,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315114,
+      "s": 315119,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300201,
+      "s": 300209,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231336,
+      "s": 231342,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190860,
+      "s": 190886,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144997,
+      "s": 145009,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144297,
+      "s": 144299,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118635,
+      "s": 118640,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114548,
+      "s": 114556,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
