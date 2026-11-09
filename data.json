@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-09T19:31:03",
+  "updated": "2026-11-09T20:01:30",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T19:43",
+      "t": "韩国 2026 年高考开考在即：将有专人查 AI 眼镜，任何电子设备禁止进入考场",
+      "s": "据新华社报道，今年的韩国大学修学能力考试（即高考）定于本月 19 日举行。韩国教育部 9 日发布“考生注意事项指南”，明…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/502.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T19:32",
+      "t": "国行 iPad、MacBook 用上“Apple 智能”在望，相关生成式 AI 服务完成备案",
+      "s": "据“网信上海”公众号，根据《生成式人工智能服务管理暂行办法》相关要求，“Apple 智能”生成式人工智能服务新增苹果平板…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/499.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-09T19:25",
@@ -65,11 +79,11 @@
       "u": "https://www.ithome.com/1/024/386.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-09T17:46",
-      "t": "消息称 Sakana AI 最早 2027 秋 IPO，有望开日本人工智能实验室先河",
-      "s": "《日经亚洲》当地时间今日报道称，日本人工智能实验室 Sakana AI 最早将于 2027 年秋季进行 IPO。该企业近…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/383.htm"
+      "c": "MODEL",
+      "d": "2026-11-09T17:41",
+      "t": "字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦",
+      "s": "11 月 9 日，字节跳动正式发布豆包图像创作模型 Seedream 5.5。相较上一代 Seedream 5.0 Pr…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/CoJod8Z9X1pDj1sv.html"
     },
     {
       "c": "MODEL",
@@ -79,11 +93,11 @@
       "u": "https://www.oschina.net/news/503488"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-09T17:27",
-      "t": "Shizuku AI 公布全双工模型 Shizuku-Duplex，为 AI 伴侣开发奠基",
-      "s": "日本人工智能实验室 Shizuku（雫）AI 当地时间昨日公布了其开发的 Shizuku-Duplex，宣称其是继 GP…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/377.htm"
+      "c": "MEDPHARMA",
+      "d": "2026-11-09T17:28",
+      "t": "10家没上市的AI制药公司，要来路演了",
+      "s": "10家没上市的AI制药公司，要来路演了（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7706101081100648994/"
     },
     {
       "c": "HOT",
@@ -126,23 +140,17 @@
       "t": "千问办公2.0发布，首个支持多人与Agent协作的Team Agent来了",
       "s": "11月9日，千问办公发布2.0版本（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/508694.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-09T16:26",
-      "t": "叙事奔涌，何以为锚?丨第 20 届中国投资年会·有限合伙人峰会即将启幕",
-      "s": "厘清故事与现实的边界，回归投资与产业的底层逻辑。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/508690.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-09T16:24",
-      "t": "🔥 优化及缺陷修复：开源 AI 无代码平台 NocoBase",
-      "s": "汇总一周产品更新日志，最新发布可前往我们的博客查看。 NocoBase 目前更新包括三个分支： main、next 和 …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503485"
     }
   ],
   "timeline": [
+    [
+      "11-09 19:43",
+      "韩国 2026 年高考开考在即：将有专人查 AI 眼镜，任何电子设备禁止进入考场"
+    ],
+    [
+      "11-09 19:32",
+      "国行 iPad、MacBook 用上“Apple 智能”在望，相关生成式 AI 服务完成备案"
+    ],
     [
       "11-09 19:25",
       "挪威出手限制高耗能数据中心扩张，暂停为新建项目预留电网接入容量"
@@ -158,14 +166,6 @@
     [
       "11-09 19:00",
       "黄仁勋婚外情背后：黄乐的神秘履历、48亿美元芯片生意与美国政策博弈"
-    ],
-    [
-      "11-09 19:00",
-      "AI带得动这届双十一吗？"
-    ],
-    [
-      "11-09 18:26",
-      "Google AI 主管展示将《塞尔达传说：时之笛重制版》移植到苹果 iPhone Duo 上运行，招致版权争议最终删帖"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319102,
+      "s": 319129,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314810,
+      "s": 314824,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299901,
+      "s": 299924,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231135,
+      "s": 231145,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190100,
+      "s": 190144,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155067,
+      "s": 155069,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144742,
+      "s": 144764,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144251,
+      "s": 144253,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118493,
+      "s": 118500,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114325,
+      "s": 114329,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
