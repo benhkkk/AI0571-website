@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T12:02:01",
+  "updated": "2026-11-09T12:31:41",
   "news": [
     {
       "c": "HOT",
@@ -49,6 +49,20 @@
       "t": "中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流...",
       "s": "中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705993333872542235/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T10:25",
+      "t": "基元律动发布NeoHorse-1.5-Flash Preview，Agent模型RSI进入第二轮迭代",
+      "s": "11月5日，基元律动（TokenRhythm）发布Agent原生模型NeoHorse-1.5-Flash Preview…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/tLk5dflVBL8euzAW.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-09T10:23",
+      "t": "当 AI 在加速狂奔，什么反而应该“慢”下来？",
+      "s": "加速时代的悖论：当“你的 AI”开始对“我的 AI”说话2026 年，人工智能正在经历一次深刻的角色跨越：从过去几年的“…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/zGBfQTDDCpSCfYIK.html"
     },
     {
       "c": "MODEL",
@@ -126,20 +140,6 @@
       "t": "早报｜曝特努斯要求加快AI研发/Win 11优化8GB内存电脑流畅度/马斯克：SpaceX明年12月年化营收或超5000亿美元",
       "s": "· 苹果称超 10 万款应用已适配 iPhone Duo · Anthropic 拟于本周启动 IPO 路演 · 比亚迪…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1688379?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-08T21:11",
-      "t": "腾讯的 Agent 布局，不止 WorkBuddy",
-      "s": "大家对腾讯Agent的认识，还不够完整。 作者丨胡敏 编辑丨刘伟 今年上半年，但凡聊腾讯 AI，那必然会聊到 Workb…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-08T20:54",
-      "t": "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...",
-      "s": "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7705783123107201574/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318695,
+      "s": 318712,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314649,
+      "s": 314663,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299762,
+      "s": 299774,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230999,
+      "s": 231006,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189802,
+      "s": 189827,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144571,
+      "s": 144583,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118412,
+      "s": 118415,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114192,
+      "s": 114197,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
