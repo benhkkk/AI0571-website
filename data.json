@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-09T08:01:23",
+  "updated": "2026-11-09T08:31:36",
   "news": [
     {
       "c": "MODEL",
@@ -51,11 +51,11 @@
       "u": "https://www.ithome.com/1/024/001.htm"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-08T20:54",
-      "t": "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...",
-      "s": "手术机器人更“聪明”，检查设备更智能!出院以后AI接手管理?...（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7705783123107201574/"
+      "c": "MODEL",
+      "d": "2026-11-08T21:11",
+      "t": "腾讯的 Agent 布局，不止 WorkBuddy",
+      "s": "大家对腾讯Agent的认识，还不够完整。 作者丨胡敏 编辑丨刘伟 今年上半年，但凡聊腾讯 AI，那必然会聊到 Workb…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/oxR5pn9S7tI1IfF5.html"
     },
     {
       "c": "HOT",
@@ -114,6 +114,13 @@
       "u": "https://www.toutiao.com/article/7705714077569434139/"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-08T15:54",
+      "t": "终端侧AI：从单点应用走向智能体体验",
+      "s": "发言人：高通公司AI产品技术中国区负责人 万卫星2026年11月7日，上海 终端侧AI发展到了什么阶段？终端侧AI经过过…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/chips/aOKsujJpdDvRKj5S.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-08T14:55",
       "t": "从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”",
@@ -133,13 +140,6 @@
       "t": "资本正在撤离“世界模型”",
       "s": "没有永远的夏天（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/508466.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-08T11:35",
-      "t": "被年轻人遗忘的磁带，正在 AI 时代闷声发大财 原",
-      "s": "磁带在 AI 时代迎来了第二春。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1688364?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318491,
+      "s": 318513,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314588,
+      "s": 314591,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299701,
+      "s": 299708,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230936,
+      "s": 230943,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189605,
+      "s": 189630,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155003,
+      "s": 155006,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144497,
+      "s": 144503,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144216,
+      "s": 144217,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118370,
+      "s": 118375,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114119,
+      "s": 114126,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
