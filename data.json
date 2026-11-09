@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-09T22:31:14",
+  "updated": "2026-11-09T23:01:54",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-09T22:32",
+      "t": "美国知名风险投资家科斯拉看好 AI 重塑互联网：能让网站“有生命”",
+      "s": "据《商业内幕》今天（9）日晚间报道，美国知名亿万富翁风险投资家维诺德 · 科斯拉认为，所有访客看到相同网页的时代即将过去…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/559.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-09T22:16",
@@ -72,13 +79,6 @@
       "u": "https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-09T19:43",
-      "t": "韩国 2026 年高考开考在即：将有专人查 AI 眼镜，任何电子设备禁止进入考场",
-      "s": "据新华社报道，今年的韩国大学修学能力考试（即高考）定于本月 19 日举行。韩国教育部 9 日发布“考生注意事项指南”，明…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/502.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-09T19:00",
       "t": "AI进不了相亲相爱一家人，怎么办？",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-09 22:32",
+      "美国知名风险投资家科斯拉看好 AI 重塑互联网：能让网站“有生命”"
+    ],
+    [
       "11-09 22:16",
       "美团龙猫开源 LongCat-2.5 模型：总参数 1.6 万亿，支持百万上下文"
     ],
@@ -162,10 +166,6 @@
     [
       "11-09 21:32",
       "研究显示 OpenAI ChatGPT 占全球 AI 聊天机器人流量超 81%，断层领跑"
-    ],
-    [
-      "11-09 21:21",
-      "公司目前是否有布局AI制药?汉森制药回应"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319279,
+      "s": 319305,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314892,
+      "s": 314904,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299986,
+      "s": 300000,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231187,
+      "s": 231197,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190341,
+      "s": 190381,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144852,
+      "s": 144861,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144268,
+      "s": 144270,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118533,
+      "s": 118538,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114383,
+      "s": 114394,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
