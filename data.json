@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-09T15:02:12",
+  "updated": "2026-11-09T15:31:11",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T15:26",
+      "t": "荣耀 MagicOS 11 系统第三批内测报名通道重新开放，覆盖 Robot Phone、Magic5 系列等 28 款机型",
+      "s": "荣耀产品维护与升级 @荣耀小芳哥 今日宣布，MagicOS 11 系统第三批内测报名通道重新开放，覆盖 Robot Ph…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/308.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-09T15:23",
+      "t": "微软申请新专利：AI 实时修改直播说话内容并同步嘴型",
+      "s": "微软近日提交了一项专利申请，计划利用人工智能技术，在直播及其他实时视频节目中近乎实时地修改人物说出的内容。更特别的是，这…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/305.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-09T14:30",
@@ -67,16 +81,9 @@
     {
       "c": "INDUSTRY",
       "d": "2026-11-09T11:43",
-      "t": "第八届世界浙商大会举行AI专题活动支付宝分享A办事实践",
+      "t": "第八届世界浙商大会举行AI专题活动支付宝分享AI办事实践",
       "s": "11月6日，第八届世界浙商大会在杭州开幕。大会由浙江省委、省政府主办，省委统战部、省工商联、浙商总会承办，开幕式展示了近…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/41xBwd2JagAdaaxT.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-09T11:41",
-      "t": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作",
-      "s": "Anthropic 近日发布研究报告，显示科学家主要将 Claude 用于数据分析和写作，收集数据、生成研究假设则较少使…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/111.htm"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,17 @@
       "t": "Edge AI Daily 早报（11月9日）",
       "s": "中期选举后美国46项数据中心公投否决扩张，AI基建进入许可时代；纳指单日跌5.5%、费半跌12%，亚洲市场熔断。Anth…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8197806.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-09T09:20",
-      "t": "AI会撞上的下一堵墙可能是水",
-      "s": "世界经济论坛的报告估计，全球约45%的数据中心设施位于高水压力地区（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8197774.html"
     }
   ],
   "timeline": [
+    [
+      "11-09 15:26",
+      "荣耀 MagicOS 11 系统第三批内测报名通道重新开放，覆盖 Robot Phone、Magic5 系列等 28 款机型"
+    ],
+    [
+      "11-09 15:23",
+      "微软申请新专利：AI 实时修改直播说话内容并同步嘴型"
+    ],
     [
       "11-09 14:30",
       "方飞：荣耀 700 全系搭载 AI 灵动背屏"
@@ -158,14 +166,6 @@
     [
       "11-09 14:10",
       "网约车平台曹操出行联合蚂蚁集团，在杭州厦门重庆三地落地司机之家 AI 驿站"
-    ],
-    [
-      "11-09 13:59",
-      "英伟达在韩举办 AI Day 活动，韩国政府、三星、LG 电子、现代汽车集团等排队合作"
-    ],
-    [
-      "11-09 13:58",
-      "日本人工智能独角兽 Sakana AI 正在开发其首款移动 App"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318858,
+      "s": 318887,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314710,
+      "s": 314722,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299815,
+      "s": 299821,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231050,
+      "s": 231056,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189937,
+      "s": 189948,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155040,
+      "s": 155041,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144627,
+      "s": 144641,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144237,
+      "s": 144239,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118447,
+      "s": 118451,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114251,
+      "s": 114258,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
