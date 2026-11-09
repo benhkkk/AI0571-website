@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-10T07:14', t:'8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20%', s:'Anthropic 昨日（11 月 9 日）官宣推出 Claude Fable 5.2 和 Claude Mythos …（来源：IT之家）', u:'https://www.ithome.com/1/024/573.htm'},
+    {c:'MEDDEVICE', d:'2026-11-10T07:01', t:'用人工智能技术回应健康需求', s:'用人工智能技术回应健康需求（来源：头条设备AI）', u:'https://www.toutiao.com/article/7706310608148251145/'},
     {c:'MODEL', d:'2026-11-10T06:58', t:'Meta 旗下 AI 助手 Muse 登陆苹果 Apple Watch', s:'据科技媒体 MacRumors 昨天报道，Meta 现已更新 iOS 版 Muse 应用，新增 Apple Watch …（来源：IT之家）', u:'https://www.ithome.com/1/024/571.htm'},
     {c:'MODEL', d:'2026-11-10T06:54', t:'刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5', s:'全球最强模型再次易主#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688605?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-09T23:27', t:'云深处发布全新四足机器人 实现50Kg大负载、复杂地形作业', s:'11月6日，云深处科技正式发布四足机器人新产品——绝影X50。它通过“感控融合”全新升级，搭配高刚性高响应关节系统，实现…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/EihvEi3hKb9icG62.html'},
@@ -471,34 +473,32 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-09T21:32', t:'研究显示 OpenAI ChatGPT 占全球 AI 聊天机器人流量超 81%，断层领跑', s:'今年早些时候，随着谷歌和 Anthropic 等竞争对手势头渐起，ChatGPT 在 AI 市场的主导地位一度显现出松动…（来源：IT之家）', u:'https://www.ithome.com/1/024/542.htm'},
     {c:'MEDPHARMA', d:'2026-11-09T21:21', t:'公司目前是否有布局AI制药?汉森制药回应', s:'公司目前是否有布局AI制药?汉森制药回应（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706161176408801843/'},
     {c:'MEDPHARMA', d:'2026-11-09T21:14', t:'AI制药下半场告别“生成竞赛” 干湿闭环3.0时代已开启', s:'AI制药下半场告别“生成竞赛” 干湿闭环3.0时代已开启（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706159442580013606/'},
-    {c:'MODEL', d:'2026-11-09T20:43', t:'谷歌扩充 TPU 芯片阵容，推出 8tx/8i Max 两款新品挑战英伟达', s:'据彭博社报道，Alphabet 旗下谷歌正在扩大人工智能芯片产品阵容，希望借助自身在 AI 芯片市场的快速崛起，进一步挑…（来源：IT之家）', u:'https://www.ithome.com/1/024/525.htm'},
     {c:'HOT', d:'2026-11-09T20:01', t:'实测 Seedream5.5，豆包想把 AI 作图接进整条工作流', s:'还有改图 100 轮都不糊#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688447?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-11-09T19:00', t:'AI进不了相亲相爱一家人，怎么办？', s:'微信不妨学一学？（来源：钛媒体）', u:'https://www.tmtpost.com/8198165.html'},
     {c:'INDUSTRY', d:'2026-11-09T19:00', t:'黄仁勋婚外情背后：黄乐的神秘履历、48亿美元芯片生意与美国政策博弈', s:'接下来，英伟达要查清这段关系有没有越过公司的制度边界；华盛顿则会借这场风波，重新计算黄仁勋、英伟达与美国AI政策之间的距…（来源：钛媒体）', u:'https://www.tmtpost.com/8198370.html'},
     {c:'HOT', d:'2026-11-09T19:00', t:'AI带得动这届双十一吗？', s:'AI省下的效率，还没换来电商对等的增长。（来源：钛媒体）', u:'https://www.tmtpost.com/8198668.html'},
     {c:'MODEL', d:'2026-11-09T18:32', t:'无预警！ChatGPT突然大规模封号，包括付费用户；圆通总裁心疼儿子Tim：他比大多数人想象的辛苦；英伟达遭大劫案，价值超7千万元货物失踪', s:'要闻提示1.无预警！曝ChatGPT突然大规模封号，包括付费用户2.圆通总裁心疼儿子Tim：他真的比大多数人想象的辛苦3…（来源：雷锋网）', u:'https://www.leiphone.com/category/zaobao/Z2uc8AJRp0PQO7Kb.html'},
     {c:'INDUSTRY', d:'2026-11-09T18:03', t:'阿里云获中国专利金奖：破解AI时代的超大规模智能算力调度难题', s:'11月6日，第二十六届中国专利奖颁奖大会在无锡举行，阿里云提交的专利"一种用户请求的处理方法和装置"荣获中国专利金奖，这…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/ljc6ifIFxCUD6DYG.html'},
-    {c:'MODEL', d:'2026-11-09T17:41', t:'字节跳动发布Seedream 5.5，上线豆包、豆包工作、即梦', s:'11 月 9 日，字节跳动正式发布豆包图像创作模型 Seedream 5.5。相较上一代 Seedream 5.0 Pr…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/CoJod8Z9X1pDj1sv.html'},
   ];
   const TIMELINE = [
+    ['11-10 07:14','8 天从零搓出操作系统：Anthropic 最强 Claude Fable / Mythos 5.2 AI 模型登场，API 调用费下降 20%'],
+    ['11-10 07:01','用人工智能技术回应健康需求'],
     ['11-10 06:58','Meta 旗下 AI 助手 Muse 登陆苹果 Apple Watch'],
     ['11-10 06:54','刚刚，Claude Fable 5.2 登顶世界第一，一夜斩杀 Opus 5.5'],
     ['11-09 23:27','云深处发布全新四足机器人 实现50Kg大负载、复杂地形作业'],
     ['11-09 22:32','美国知名风险投资家科斯拉看好 AI 重塑互联网：能让网站“有生命”'],
-    ['11-09 22:16','千问办公2.0，补上了办公Agent最关键的「短板」'],
-    ['11-09 22:16','美团龙猫开源 LongCat-2.5 模型：总参数 1.6 万亿，支持百万上下文'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:319680, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315119, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300209, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231342, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:190886, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155085, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145009, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144299, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118640, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114556, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:319697, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315130, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300216, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231346, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:190901, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155088, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145016, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144298, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118643, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114562, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
