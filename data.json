@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-09T11:01:33",
+  "updated": "2026-11-09T11:31:07",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T10:58",
+      "t": "黄仁勋承认「婚外情」，英伟达启动调查；ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃；腾讯姚顺雨谈「AI 公司护城河」：在产品层，而不是模型层",
+      "s": "黄仁勋承认「婚外情」，英伟达启动调查 11 月 9 日消息，英伟达 CEO 黄仁勋当地时间 8 日于公司官网发布致全员公…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373687"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-09T10:43",
@@ -21,6 +28,13 @@
       "t": "中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流...",
       "s": "中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705993333872542235/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-09T10:18",
+      "t": "具身智能，也到了 API 时刻？",
+      "s": "具身智能的 API 时刻意味着部分具身模型已经开始具备跨本体迁移、在一定范围内适应新任务的能力。作者｜Li Yuan编辑…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373683"
     },
     {
       "c": "MODEL",
@@ -121,28 +135,18 @@
       "u": "https://www.tmtpost.com/8197516.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-08T20:09",
-      "t": "中石油60%控股，与宇树、泛界合设公司，油气机器人“验收权”不能交给外部厂商",
-      "s": "中石油控股三方合营，锚定油气具身机器人标准定义。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8197535.html"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-08T19:54",
       "t": "一款药也没有，谷歌的AI制药公司又要融50亿美元",
       "s": "一款药也没有，谷歌的AI制药公司又要融50亿美元（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7705767388570075683/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-08T16:26",
-      "t": "AI制药进入下半场，MegaStream以双原生驱动创新药研发",
-      "s": "AI制药进入下半场，MegaStream以双原生驱动创新药研发（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7705714077569434139/"
     }
   ],
   "timeline": [
+    [
+      "11-09 10:58",
+      "黄仁勋承认「婚外情」，英伟达启动调查；ChatGPT 突现封号风波，200 美元 Pro 用户也遭殃；腾讯姚顺雨谈「AI 公司护城河」：在产品层，而不是模型层"
+    ],
     [
       "11-09 10:43",
       "特朗普称 AI 风险可控，但不介意设置监管护栏"
@@ -156,16 +160,12 @@
       "中国 AI 制药变局:字节控股分拆，大厂高管下场，六成资金流..."
     ],
     [
+      "11-09 10:18",
+      "具身智能，也到了 API 时刻？"
+    ],
+    [
       "11-09 09:53",
       "2027 款领克 08 EM-P 将支持选装 EVA 实体机器人，年内更新 FlymeAuto 2.5.0"
-    ],
-    [
-      "11-09 09:44",
-      "马斯克回应黄仁勋出轨风波，同意其对美国 AI 产业不可或缺"
-    ],
-    [
-      "11-09 09:28",
-      "Edge AI Daily 早报（11月9日）"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 318643,
+      "s": 318666,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314633,
+      "s": 314641,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299749,
+      "s": 299754,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 230984,
+      "s": 230993,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 189756,
+      "s": 189778,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155018,
+      "s": 155021,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144549,
+      "s": 144558,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118401,
+      "s": 118407,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114174,
+      "s": 114183,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
