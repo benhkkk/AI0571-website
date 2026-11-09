@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-09T18:01:51",
+  "updated": "2026-11-09T18:31:23",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-09T18:26",
+      "t": "Google AI 主管展示将《塞尔达传说：时之笛重制版》移植到苹果 iPhone Duo 上运行，招致版权争议最终删帖",
+      "s": "Google AI Studio 产品与设计主管 Ammaar Reshi 近期在 X 平台发文，展示其利用 AI 成功…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/433.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-09T18:19",
+      "t": "瑞银 CEO 安思杰：过去数周 AI 概念股大幅回调，源于投资者此前过高期望",
+      "s": "瑞银集团 CEO 安思杰今天（9 日）在悉尼举行的瑞银会议上指出，AI 概念股过去几周大幅回调，是因为投资者此前对 AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/432.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-09T18:04",
+      "t": "美国 AI 数据中心反对声浪高涨，软银考虑转向其他国家寻找增长机会",
+      "s": "据彭博社今天（9 日）下午报道，面对美国 AI 数据中心需求可能放缓的局面，软银集团旗下的电信运营商软银公司 CEO 宫…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/024/393.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-09T17:54",
@@ -52,20 +73,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-09T17:06",
-      "t": "消息称三星 Galaxy AI 将收费：每月 4.99 美元，免费功能也设使用上限",
-      "s": "自三星首次推出 Galaxy AI 以来，相关功能一直免费提供，但三星始终留有一个附加条件：未来可能会对这些功能收费。如…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/371.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-09T17:01",
-      "t": "铭凡带来 T5 Max-388 紧凑型台式机：板载 48GB LPDDR5-6400 内存",
-      "s": "MINISFORUM（铭凡）现已在其官网上线 T5 Max-388 紧凑型台式机。其基于 AMD 锐龙 AI Max+ …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/370.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-09T16:57",
       "t": "“AI毁了我的计算机学位”",
       "s": "教授也用Claude糊弄…（来源：量子位）",
@@ -91,13 +98,6 @@
       "t": "叙事奔涌，何以为锚?丨第 20 届中国投资年会·有限合伙人峰会即将启幕",
       "s": "厘清故事与现实的边界，回归投资与产业的底层逻辑。（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/508690.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-09T16:25",
-      "t": "“星云星座计划”发布，覆盖从国产算力芯片到卫星应用的全产业链条",
-      "s": "据央视新闻报道，在今天（9 日）举办的 2026 太空云产业生态大会上，“星云星座计划”等我国太空云产业化成果发布，标志…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/354.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "11-09 18:26",
+      "Google AI 主管展示将《塞尔达传说：时之笛重制版》移植到苹果 iPhone Duo 上运行，招致版权争议最终删帖"
+    ],
+    [
+      "11-09 18:19",
+      "瑞银 CEO 安思杰：过去数周 AI 概念股大幅回调，源于投资者此前过高期望"
+    ],
+    [
+      "11-09 18:04",
+      "美国 AI 数据中心反对声浪高涨，软银考虑转向其他国家寻找增长机会"
+    ],
+    [
       "11-09 17:54",
       "三星 One UI 9.5 有望将 Bixby 打造成 AI 智能体，真正“代你办事”"
     ],
@@ -154,18 +166,6 @@
     [
       "11-09 17:29",
       "🔥🔥ApiGo 5.5 发布，新增数据行列级权限"
-    ],
-    [
-      "11-09 17:27",
-      "Shizuku AI 公布全双工模型 Shizuku-Duplex，为 AI 伴侣开发奠基"
-    ],
-    [
-      "11-09 17:19",
-      "谁家 AI 这么听劝？Seedream 5.5 爆改 iPhone Duo 界面，精准到像素级"
-    ],
-    [
-      "11-09 17:16",
-      "科技大佬分享育儿经：奥尔特曼靠 ChatGPT，纳德拉会看孩子电脑使用情况"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 319032,
+      "s": 319061,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 314776,
+      "s": 314788,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 299875,
+      "s": 299882,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231116,
+      "s": 231123,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 190040,
+      "s": 190061,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155059,
+      "s": 155061,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 144693,
+      "s": 144704,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144249,
+      "s": 144250,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118478,
+      "s": 118482,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114299,
+      "s": 114309,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
