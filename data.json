@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-10T22:01:20",
+  "updated": "2026-11-10T22:31:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T22:27",
+      "t": "Adobe Creative Cloud 向第三方智能体大开城门，未来让 AI 帮你本地修图剪片",
+      "s": "在今天（10 日）于迈阿密举行的 Adobe MAX 大会上，Adobe 公布了一系列新功能：第三方 AI 智能体能直接…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/177.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-10T22:09",
+      "t": "西门子 CEO 博乐仁：AI 不会取代人类，会用 AI 的人却能取代不会用 AI 的人",
+      "s": "据日经亚洲今天（10 日）下午报道，西门子 CEO 博乐仁认为，AI 不会直接取代人类，但会使用 AI 的人将越来越多地…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/170.htm"
+    },
     {
       "c": "MEDDEVICE",
       "d": "2026-11-10T21:35",
@@ -49,20 +63,6 @@
       "t": "硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内",
       "s": "硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7706504817211982379/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T19:24",
-      "t": "号称行业首个具身全模态端到端交互大模型，智元发布 WITA-Omni",
-      "s": "“智元 AGIBOT”公众号今天（10 日）晚间发文宣布，智元正式发布 WITA-Omni（硅光动语全模态大模型）。根据…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/122.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T19:22",
-      "t": "华为：鸿蒙电脑应用数量已突破 2.1 万款，通用办公基本盘稳固、多款专业软件已完成适配",
-      "s": "华为宣布旗下鸿蒙电脑应用数量已正式突破 2.1 万款，通用办公基本盘稳固，AI 赛道快速崛起，多款专业电脑应用也逐步向鸿…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/121.htm"
     },
     {
       "c": "MEDDEVICE",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-10 22:27",
+      "Adobe Creative Cloud 向第三方智能体大开城门，未来让 AI 帮你本地修图剪片"
+    ],
+    [
+      "11-10 22:09",
+      "西门子 CEO 博乐仁：AI 不会取代人类，会用 AI 的人却能取代不会用 AI 的人"
+    ],
+    [
       "11-10 21:35",
       "谷歌 DeepMind 用 AI 完成 Signal 协议形式化验证，数学证明其端到端加密可靠性"
     ],
@@ -158,14 +166,6 @@
     [
       "11-10 20:31",
       "Figure AI 招聘夜班管理员照看人形机器人，时薪最高 45 美元"
-    ],
-    [
-      "11-10 20:25",
-      "Anthropic IPO 每股定价区间 70-78 美元，剑指 1.4 万亿美元完全摊薄估值"
-    ],
-    [
-      "11-10 19:40",
-      "曝 Anthropic 拟通过 IPO 筹集最多 644 亿美元，上市推介启动在即"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 320413,
+      "s": 320449,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315461,
+      "s": 315473,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300535,
+      "s": 300554,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231681,
+      "s": 231696,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 191853,
+      "s": 191881,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155169,
+      "s": 155172,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145389,
+      "s": 145406,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144345,
+      "s": 144347,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118797,
+      "s": 118804,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114837,
+      "s": 114852,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
