@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-11T07:01:42",
+  "updated": "2026-11-11T07:31:53",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T07:29",
+      "t": "技嘉推出 RTX Spark 迷你主机 AI Top Aero，最高 128GB 统一内存",
+      "s": "技嘉今日推出 AI TOP AERO 迷你主机，采用英伟达 RTX Spark 平台。这款产品拥有 Blackwell …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/213.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-11T07:08",
+      "t": "Anthropic 发布 IPO 路演视频正式启动最高 643.5 亿美元募资计划，估值约在 1~1.4 万亿美元",
+      "s": "当地时间 11 月 10 日，Anthropic 正式宣布启动首次公开募股（IPO）路演，并公布股票发行计划。根据公告…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/209.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-11T06:55",
@@ -58,32 +72,18 @@
       "u": "https://www.ifanr.com/1688790?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-10T23:17",
-      "t": "高盛预计 Anthropic 2030 年营收突破 6000 亿美元，并跻身全球营收最高企业之列",
-      "s": "据英国《金融时报》今天（10 日）晚间报道，作为 Anthropic 上市牵头投行的高盛，对 Anthropic 的未来…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/190.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T22:27",
-      "t": "Adobe Creative Cloud 向第三方智能体大开城门，未来让 AI 帮你本地修图剪片",
-      "s": "在今天（10 日）于迈阿密举行的 Adobe MAX 大会上，Adobe 公布了一系列新功能：第三方 AI 智能体能直接…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/177.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-10T20:01",
-      "t": "AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...",
-      "s": "AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7706511819845763619/"
-    },
-    {
       "c": "MEDDEVICE",
       "d": "2026-11-10T19:35",
       "t": "硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内",
       "s": "硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7706504817211982379/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T18:35",
+      "t": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
+      "s": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/509032.html"
     },
     {
       "c": "MEDDEVICE",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-11 07:29",
+      "技嘉推出 RTX Spark 迷你主机 AI Top Aero，最高 128GB 统一内存"
+    ],
+    [
+      "11-11 07:08",
+      "Anthropic 发布 IPO 路演视频正式启动最高 643.5 亿美元募资计划，估值约在 1~1.4 万亿美元"
+    ],
+    [
       "11-11 06:55",
       "OpenAI 扩展 ChatGPT 商业功能：企业可认领资料并创建 AI 智能体，为 Business Agent 投放广告"
     ],
@@ -158,14 +166,6 @@
     [
       "11-11 06:43",
       "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程"
-    ],
-    [
-      "11-11 06:43",
-      "谷歌迄今最强模型 Gemini 4 Carbon 登场：主打复杂编程、科学研究与网络安全"
-    ],
-    [
-      "11-11 06:43",
-      "OpenAI 收购旅游初创公司 Odessia，探索 AI 旅行智能体业务"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 320853,
+      "s": 320871,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315734,
+      "s": 315740,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300772,
+      "s": 300789,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231848,
+      "s": 231855,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192260,
+      "s": 192272,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155204,
+      "s": 155205,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145622,
+      "s": 145632,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144370,
+      "s": 144371,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118878,
+      "s": 118880,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115111,
+      "s": 115125,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
