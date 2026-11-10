@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-11-10T18:44', t:'投资者担心 AI 编译、反编译助长盗版游戏，泽尔尼克表态 Take-Two 会加强防范', s:'在今天举行的 2027 财年第二季度财报电话会议上，Take-Two CEO 施特劳斯 · 泽尔尼克回答了投资者的提问…（来源：IT之家）', u:'https://www.ithome.com/1/025/057.htm'},
+    {c:'HOT', d:'2026-11-10T18:39', t:'《汽车总动员》照进现实？迪士尼测试 AI 停车机器人', s:'下一次去迪士尼乐园，停车体验可能会有所不同。华特迪士尼公司（The Walt Disney Company）近日透露，公…（来源：IT之家）', u:'https://www.ithome.com/1/025/044.htm'},
     {c:'FUNDING', d:'2026-11-10T18:13', t:'Take-Two CEO 泽尔尼克谈 AI：信任开发者创造力，打造爆款游戏仍是人类职责', s:'在今天举行的 2027 财年第二季度财报电话会议上，Take-Two CEO 施特劳斯 · 泽尔尼克回答了投资者的提问…（来源：IT之家）', u:'https://www.ithome.com/1/025/014.htm'},
     {c:'MEDDEVICE', d:'2026-11-10T18:08', t:'10x 工程师变成 100x 了，普通工程师还是那么普通', s:'一位 CTO 用反证法证明：我们还没被 AI 取代，但理由可能和你想的不一样。 shaharglazner 是 keep…（来源：OSCHINA）', u:'https://www.oschina.net/news/503514'},
     {c:'INDUSTRY', d:'2026-11-10T18:07', t:'管窥AI游戏的产业现状，从Roblox这份“意外”的财报', s:'方兴未艾，暗流涌动。（来源：钛媒体）', u:'https://www.tmtpost.com/8199114.html'},
@@ -470,35 +472,33 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-10T17:02', t:'豆包图片设计能力升级，官宣接入全新图像创作模型 Seedream 5.5', s:'豆包官方今日宣布，豆包图片设计能力升级，正式接入全新图像创作模型 Seedream 5.5。据IT之家昨日报道，字节跳动…（来源：IT之家）', u:'https://www.ithome.com/1/024/896.htm'},
     {c:'MODEL', d:'2026-11-10T16:45', t:'官方正在修复：Claude Code 被爆把密码写进项目文件，GitHub 上发现 2539 个真实凭据', s:'科技媒体 Ars Technica 昨日（11 月 9 日）发布博文，指出 AI 编程智能体 Claude Code 正…（来源：IT之家）', u:'https://www.ithome.com/1/024/888.htm'},
     {c:'FUNDING', d:'2026-11-10T16:44', t:'泰国给数据中心戴上“紧箍咒”：噪音限 70 分贝，温升不超 2 摄氏度', s:'据彭博社报道，随着人工智能投资热潮推动数据中心建设迅速扩张，泰国出台了针对数据中心噪音、热量和用水的新规定，为这一快速发…（来源：IT之家）', u:'https://www.ithome.com/1/024/887.htm'},
+    {c:'HOT', d:'2026-11-10T16:41', t:'灵光接入什么值得买，AI助理开始帮用户“盯好价”', s:'从商品推荐到价格追踪，个人AI助理进一步深入日常消费场景。11月10日消息，蚂蚁集团旗下个人AI助理灵光接入消费内容平台…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/Z3dOHYCNYfPNwijf.html'},
     {c:'MODEL', d:'2026-11-10T16:34', t:'AI的收费站正在搬家：端侧抢的不是算力，是云端的收银台', s:'11月4日，信通院联合20家单位在乌镇发布《智能体发展自律公约》，同日，端侧芯片公司后摩智能宣布数十亿元B轮。两件事被分…（来源：钛媒体）', u:'https://www.tmtpost.com/8199775.html'},
     {c:'FUNDING', d:'2026-11-10T16:33', t:'从芯片到千比特整机，超导量子计算还有一场硬仗', s:'近亿元融资刚刚落袋（来源：量子位）', u:'https://www.qbitai.com/2026/11/509017.html'},
     {c:'HOT', d:'2026-11-10T16:30', t:'太空建造迈出关键一步：机器人首次在太空自主组装天线桁架，未来或建造千米级结构', s:'将大型设备送入地球轨道并不容易。如果先把大量小型零部件送上太空，再在轨道上将它们组装成大型结构，难度可能更低，但传统方案…（来源：IT之家）', u:'https://www.ithome.com/1/024/880.htm'},
-    {c:'MODEL', d:'2026-11-10T16:15', t:'日本肯德基用 AI 制作商品宣传图，引发网友质疑', s:'据日媒 ITmedia 今天报道，部分网友发现，日本肯德基在商品宣传图片制作中使用了生成式 AI。据报道，日本肯德基最近…（来源：IT之家）', u:'https://www.ithome.com/1/024/873.htm'},
-    {c:'MODEL', d:'2026-11-10T16:12', t:'高通 1.2 万人洞察：AI 智能体将成可穿戴核心卖点，约 70% 期待协同管设备、办事情', s:'高通公司上月（2026 年 10 月）发布报告，调查全球 6 个市场、超过 12,000 名可穿戴设备用户及潜在购买者…（来源：IT之家）', u:'https://www.ithome.com/1/024/868.htm'},
     {c:'MODEL', d:'2026-11-10T15:57', t:'从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型', s:'11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch（来源：量子位）', u:'https://www.qbitai.com/2026/11/508996.html'},
     {c:'MODEL', d:'2026-11-10T15:56', t:'Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架', s:'让每一次任务，都成为下一次进步的起点（来源：量子位）', u:'https://www.qbitai.com/2026/11/508998.html'},
     {c:'FUNDING', d:'2026-11-10T15:50', t:'成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线', s:'TensorWorld物原科技在一个月内已拿到过亿美元融资（来源：量子位）', u:'https://www.qbitai.com/2026/11/508991.html'},
-    {c:'INDUSTRY', d:'2026-11-10T15:33', t:'达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动', s:'加速东部城市型智算中心向E-AIDC演进（来源：量子位）', u:'https://www.qbitai.com/2026/11/508985.html'},
   ];
   const TIMELINE = [
+    ['11-10 18:44','投资者担心 AI 编译、反编译助长盗版游戏，泽尔尼克表态 Take-Two 会加强防范'],
+    ['11-10 18:39','《汽车总动员》照进现实？迪士尼测试 AI 停车机器人'],
     ['11-10 18:13','Take-Two CEO 泽尔尼克谈 AI：信任开发者创造力，打造爆款游戏仍是人类职责'],
     ['11-10 18:08','10x 工程师变成 100x 了，普通工程师还是那么普通'],
     ['11-10 18:07','管窥AI游戏的产业现状，从Roblox这份“意外”的财报'],
     ['11-10 18:05','美女陪打LOL，腾讯入局AI游戏陪伴，会走米哈游的老路吗？'],
-    ['11-10 17:30','特努斯施压 Siri 掌门人，苹果 AI 不能再等了'],
-    ['11-10 17:30','有「眼力」，也有「洁癖」，戴森智能扫拖机器人改变了什么？'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320238, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315375, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300442, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231624, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:191679, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155150, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145288, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144334, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118765, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114747, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320258, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315380, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300450, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231628, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:191712, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155153, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145297, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144336, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118766, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114757, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
