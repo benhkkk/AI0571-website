@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-10T13:56', t:'300 元卖掉你的脸，下一秒就成为 AI 短剧主角', s:'那张脸一旦离开镜头，去向就不再由她们决定。（来源：钛媒体）', u:'https://www.tmtpost.com/8199587.html'},
     {c:'MODEL', d:'2026-11-10T13:52', t:'全球最强 AI 模型：Claude Fable 5.2 登场，编程超 GPT-6 Astra、登顶多项基准', s:'Anthropic 今天（11 月 10 日）发布 Claude Fable 5.2 与 Claude Mythos 5…（来源：IT之家）', u:'https://www.ithome.com/1/024/796.htm'},
     {c:'MODEL', d:'2026-11-10T13:37', t:'消息称荣耀 Magic9 系列累计销量超 50 万台，后续将推出红色等新配色', s:'据博主 @数码闲聊站 今日爆料，荣耀 Magic9 系列累计销量超 50 万台，是目前安卓冠军（预计指安卓旗舰），后面还…（来源：IT之家）', u:'https://www.ithome.com/1/024/760.htm'},
     {c:'MEDPHARMA', d:'2026-11-10T13:29', t:'叙事主权之争："AI十年治愈大多数疾病"言论，遭制药业集中反驳', s:'真相是什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8199554.html'},
@@ -468,7 +469,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-10T12:33', t:'陈建斌谈 AI 替代：不好的演员在任何时代都会失业，好演员永远不会失业', s:'据新浪电影今日报道，演员陈建斌今日在金鸡电影论坛 · 编导演论坛上发言：不好的演员在任何时代都会失业，好演员永远不会失业…（来源：IT之家）', u:'https://www.ithome.com/1/024/750.htm'},
     {c:'HOT', d:'2026-11-10T12:21', t:'原今日头条 CEO 陈林首次公开承认离职，筹备 AI 教育创业', s:'原今日头条 CEO 陈林昨日在个人公众号发表文章《我为什么还要做教育？》，谈到离职字节、筹备 AI 教育创业等事。IT之…（来源：IT之家）', u:'https://www.ithome.com/1/024/748.htm'},
     {c:'HOT', d:'2026-11-10T12:01', t:'今年双 11，一批新品牌从小需求做到了天猫TOP10', s:'过去一年，仅在AI硬件赛道就有300个新品牌在天猫扎根，诞生了超过2000款AI创新新品；变形家具、设计师服饰等赛道，大…（来源：钛媒体）', u:'https://www.tmtpost.com/8199214.html'},
-    {c:'MEDPHARMA', d:'2026-11-10T11:53', t:'AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...', s:'AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706385966654554687/'},
     {c:'MODEL', d:'2026-11-10T11:37', t:'Anthropic 发布 Fable 5.2 与 Mythos 5.2，声称“8 天写出一个能开机的操作系统”', s:'Anthropic 在 11 月 9 日发布了 Claude Fable 5.2 和 Claude Mythos 5.2…（来源：OSCHINA）', u:'https://www.oschina.net/news/503499/claude-fable-and-mythos-5-2'},
     {c:'MODEL', d:'2026-11-10T11:26', t:'Adobe 与迪士尼达成多年战略合作，将 AI 工具推广至迪士尼乐园、内容制作领域', s:'Adobe 公司昨日宣布与华特迪士尼公司达成一项为期多年的战略合作协议，为迪士尼业务开发定制 AI 模型，计划将 AI …（来源：IT之家）', u:'https://www.ithome.com/1/024/731.htm'},
     {c:'HOT', d:'2026-11-10T11:16', t:'美股AI巨震，如何把握港A的AI产业链分化机遇？', s:'美国中期选举的选情，正在为全球AI估值体系增添新的变数。（来源：钛媒体）', u:'https://www.tmtpost.com/8198218.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-10T09:19', t:'Codex 游戏掌机突然开卖，网友却在催更 GPT-6.2', s:'人类的快乐却还是如此朴素。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688678?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['11-10 13:56','300 元卖掉你的脸，下一秒就成为 AI 短剧主角'],
     ['11-10 13:52','全球最强 AI 模型：Claude Fable 5.2 登场，编程超 GPT-6 Astra、登顶多项基准'],
     ['11-10 13:37','消息称荣耀 Magic9 系列累计销量超 50 万台，后续将推出红色等新配色'],
     ['11-10 13:29','叙事主权之争："AI十年治愈大多数疾病"言论，遭制药业集中反驳'],
     ['11-10 13:19','苹果 Siri AI 调度规则曝光：约 2% 英文请求走本地 AI 模型，覆盖定时等高频操作'],
     ['11-10 12:53','短剧的钱都让谁赚走了？AI把短剧成本压至5000元，做剧的收入却停滞了'],
-    ['11-10 12:52','千问办公押注 Team Agent，企业 AI 的流水线时刻真的来了'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:319979, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315269, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300336, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231497, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:191329, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155121, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145140, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144321, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118719, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114653, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320007, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315285, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300345, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231510, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:191367, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155122, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145157, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144320, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118722, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114665, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
