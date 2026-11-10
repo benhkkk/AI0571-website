@@ -459,15 +459,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-10T21:14', t:'国补后 2899 → 1085 元：小米智能门锁 4 Pro 双摄版破冰新低，AI 掌静脉识别技术、天地双摄大屏猫眼', s:'【京东活动可能随时变更，需以实付款为准】小米智能门锁 4 Pro 双摄版 2025 年 10 月开售，主打“AI 掌静脉…（来源：IT之家）', u:'https://www.ithome.com/1/025/152.htm'},
     {c:'HOT', d:'2026-11-10T20:31', t:'Figure AI 招聘夜班管理员照看人形机器人，时薪最高 45 美元', s:'硅谷正在招聘一种新型“保姆”：机器人夜班管理员。人形机器人初创公司 Figure AI 正在美国加利福尼亚州圣克拉拉市招…（来源：IT之家）', u:'https://www.ithome.com/1/025/140.htm'},
     {c:'FUNDING', d:'2026-11-10T20:25', t:'Anthropic IPO 每股定价区间 70-78 美元，剑指 1.4 万亿美元完全摊薄估值', s:'据美国 CNBC 今天（10 日）晚间报道，Anthropic 最新更新的上市申请文件显示，公司计划通过首次公开募股（I…（来源：IT之家）', u:'https://www.ithome.com/1/025/139.htm'},
+    {c:'MEDPHARMA', d:'2026-11-10T20:01', t:'AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...', s:'AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706511819845763619/'},
     {c:'FUNDING', d:'2026-11-10T19:40', t:'曝 Anthropic 拟通过 IPO 筹集最多 644 亿美元，上市推介启动在即', s:'据路透社今天（10 日）晚间公布的最新招股说明书草案，Anthropic 计划通过首次公开募股（IPO）筹集最多 644…（来源：IT之家）', u:'https://www.ithome.com/1/025/127.htm'},
     {c:'MEDDEVICE', d:'2026-11-10T19:35', t:'硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内', s:'硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内（来源：头条设备AI）', u:'https://www.toutiao.com/article/7706504817211982379/'},
     {c:'MODEL', d:'2026-11-10T19:24', t:'号称行业首个具身全模态端到端交互大模型，智元发布 WITA-Omni', s:'“智元 AGIBOT”公众号今天（10 日）晚间发文宣布，智元正式发布 WITA-Omni（硅光动语全模态大模型）。根据…（来源：IT之家）', u:'https://www.ithome.com/1/025/122.htm'},
     {c:'MODEL', d:'2026-11-10T19:22', t:'华为：鸿蒙电脑应用数量已突破 2.1 万款，通用办公基本盘稳固、多款专业软件已完成适配', s:'华为宣布旗下鸿蒙电脑应用数量已正式突破 2.1 万款，通用办公基本盘稳固，AI 赛道快速崛起，多款专业电脑应用也逐步向鸿…（来源：IT之家）', u:'https://www.ithome.com/1/025/121.htm'},
     {c:'FUNDING', d:'2026-11-10T18:44', t:'投资者担心 AI 编译、反编译助长盗版游戏，泽尔尼克表态 Take-Two 会加强防范', s:'在今天举行的 2027 财年第二季度财报电话会议上，Take-Two CEO 施特劳斯 · 泽尔尼克回答了投资者的提问…（来源：IT之家）', u:'https://www.ithome.com/1/025/057.htm'},
     {c:'HOT', d:'2026-11-10T18:39', t:'《汽车总动员》照进现实？迪士尼测试 AI 停车机器人', s:'下一次去迪士尼乐园，停车体验可能会有所不同。华特迪士尼公司（The Walt Disney Company）近日透露，公…（来源：IT之家）', u:'https://www.ithome.com/1/025/044.htm'},
-    {c:'FUNDING', d:'2026-11-10T18:13', t:'Take-Two CEO 泽尔尼克谈 AI：信任开发者创造力，打造爆款游戏仍是人类职责', s:'在今天举行的 2027 财年第二季度财报电话会议上，Take-Two CEO 施特劳斯 · 泽尔尼克回答了投资者的提问…（来源：IT之家）', u:'https://www.ithome.com/1/025/014.htm'},
     {c:'MEDDEVICE', d:'2026-11-10T18:08', t:'10x 工程师变成 100x 了，普通工程师还是那么普通', s:'一位 CTO 用反证法证明：我们还没被 AI 取代，但理由可能和你想的不一样。 shaharglazner 是 keep…（来源：OSCHINA）', u:'https://www.oschina.net/news/503514'},
     {c:'INDUSTRY', d:'2026-11-10T18:07', t:'管窥AI游戏的产业现状，从Roblox这份“意外”的财报', s:'方兴未艾，暗流涌动。（来源：钛媒体）', u:'https://www.tmtpost.com/8199114.html'},
     {c:'INDUSTRY', d:'2026-11-10T18:05', t:'美女陪打LOL，腾讯入局AI游戏陪伴，会走米哈游的老路吗？', s:'行业长期趋势看，AI陪伴赛道已经告别“只要有好看数字人、会聊天就能吸引用户”的早期幻想。（来源：钛媒体）', u:'https://www.tmtpost.com/8199749.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-10T16:34', t:'AI的收费站正在搬家：端侧抢的不是算力，是云端的收银台', s:'11月4日，信通院联合20家单位在乌镇发布《智能体发展自律公约》，同日，端侧芯片公司后摩智能宣布数十亿元B轮。两件事被分…（来源：钛媒体）', u:'https://www.tmtpost.com/8199775.html'},
     {c:'FUNDING', d:'2026-11-10T16:33', t:'从芯片到千比特整机，超导量子计算还有一场硬仗', s:'近亿元融资刚刚落袋（来源：量子位）', u:'https://www.qbitai.com/2026/11/509017.html'},
     {c:'MODEL', d:'2026-11-10T15:57', t:'从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型', s:'11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch（来源：量子位）', u:'https://www.qbitai.com/2026/11/508996.html'},
-    {c:'MODEL', d:'2026-11-10T15:56', t:'Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架', s:'让每一次任务，都成为下一次进步的起点（来源：量子位）', u:'https://www.qbitai.com/2026/11/508998.html'},
   ];
   const TIMELINE = [
+    ['11-10 21:14','国补后 2899 → 1085 元：小米智能门锁 4 Pro 双摄版破冰新低，AI 掌静脉识别技术、天地双摄大屏猫眼'],
     ['11-10 20:31','Figure AI 招聘夜班管理员照看人形机器人，时薪最高 45 美元'],
     ['11-10 20:25','Anthropic IPO 每股定价区间 70-78 美元，剑指 1.4 万亿美元完全摊薄估值'],
+    ['11-10 20:01','AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...'],
     ['11-10 19:40','曝 Anthropic 拟通过 IPO 筹集最多 644 亿美元，上市推介启动在即'],
     ['11-10 19:35','硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内'],
-    ['11-10 19:24','号称行业首个具身全模态端到端交互大模型，智元发布 WITA-Omni'],
-    ['11-10 19:22','华为：鸿蒙电脑应用数量已突破 2.1 万款，通用办公基本盘稳固、多款专业软件已完成适配'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320363, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315438, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300505, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231653, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:191808, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155163, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145356, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320390, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315452, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300518, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231662, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:191819, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155165, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145371, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144344, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118792, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114812, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118795, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:114820, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
