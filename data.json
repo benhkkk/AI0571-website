@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-10T18:31:30",
+  "updated": "2026-11-10T18:37:06",
   "news": [
     {
       "c": "FUNDING",
@@ -86,6 +86,13 @@
       "u": "https://www.tmtpost.com/8199775.html"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-11-10T16:33",
+      "t": "从芯片到千比特整机，超导量子计算还有一场硬仗",
+      "s": "近亿元融资刚刚落袋（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/509017.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-10T16:30",
       "t": "太空建造迈出关键一步：机器人首次在太空自主组装天线桁架，未来或建造千米级结构",
@@ -108,38 +115,31 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-10T15:26",
-      "t": "开源新生力：一群中学生登上 GOTC 主会场",
-      "s": "上个周末，「百格成城」少年开源 AI 黑客松在北京亦庄实验中学收官。短短两天，同学们拿出的项目都很接地气：有人只用普通摄…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503507"
+      "d": "2026-11-10T15:57",
+      "t": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
+      "s": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508996.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T15:56",
+      "t": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+      "s": "让每一次任务，都成为下一次进步的起点（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508998.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-10T15:50",
+      "t": "成立四个月，融资过亿美金：TensorWorld物原科技要跑通“物理真实”路线",
+      "s": "TensorWorld物原科技在一个月内已拿到过亿美元融资（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508991.html"
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-11-10T15:23",
-      "t": "四维图新创想大会 | 以数据与算力为基，SEEWAY.AI驶向新一站",
-      "s": "11月6日，四维图新在上海举办2026 EVOLUTION创想大会。CEO 程鹏全面解读穿越 “极点” 的破局方向，以数…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/dZrtBnDtC720JWGW.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T14:49",
-      "t": "Fable 5.2 “撞车”蚂蚁灵波触觉模型，CEO 朱兴：两类模型协同将加速具身产业成熟",
-      "s": "11 月 10 日，Claude Fable 5.2 发布同日，蚂蚁灵波科技开源触觉基础模型 LingBot-Touch…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/Qhv28gnFkgFPCbXV.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T13:02",
-      "t": "从众筹爆款到现货开售，妙动科技Beni机器人开创影像新视角",
-      "s": "2026 年 11 月 10 日，消费级机器人公司妙动科技宣布，旗下全球首款多地形跟拍机器人 Beni 正式开启现货发售…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/Hh7kHix5gWd00cEC.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-10T11:53",
-      "t": "AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...",
-      "s": "AI制药闯关!分子设计成功率升至近八成 挑战“反摩尔定律”还...（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7706385966654554687/"
+      "d": "2026-11-10T15:33",
+      "t": "达卯科技与浦东环保能源战略合作，黎明智算中心算电协同平台启动",
+      "s": "加速东部城市型智算中心向E-AIDC演进（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508985.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 320233,
+      "s": 320238,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315374,
+      "s": 315375,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300440,
+      "s": 300442,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231621,
+      "s": 231624,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 191670,
+      "s": 191679,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155149,
+      "s": 155150,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145286,
+      "s": 145288,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114746,
+      "s": 114747,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
