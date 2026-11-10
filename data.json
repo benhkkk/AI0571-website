@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T07:31:53",
+  "updated": "2026-11-11T07:37:01",
   "news": [
     {
       "c": "MODEL",
@@ -7,6 +7,13 @@
       "t": "技嘉推出 RTX Spark 迷你主机 AI Top Aero，最高 128GB 统一内存",
       "s": "技嘉今日推出 AI TOP AERO 迷你主机，采用英伟达 RTX Spark 平台。这款产品拥有 Blackwell …（来源：IT之家）",
       "u": "https://www.ithome.com/1/025/213.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-11T07:20",
+      "t": "【钛晨报】李强签署国务院令，公布修订后的《基金会管理条例》；阿里拟分拆平头哥独立赴港上市；Anthropic IPO定价区间确定，目标市值约1万亿美元低于预期",
+      "s": "i茅台将从“抢购”模式逐步转为日常售卖；台积电批准409亿美元资本预算，用于长期产能扩张；华为新型存储系统即将启动试商用…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8200471.html"
     },
     {
       "c": "FUNDING",
@@ -79,13 +86,6 @@
       "u": "https://www.toutiao.com/article/7706504817211982379/"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-10T18:35",
-      "t": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天",
-      "s": "英伟达机器人开源撞上Fable 5.2发布！Jim Fan：不是寒冬是夏天（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/509032.html"
-    },
-    {
       "c": "MEDDEVICE",
       "d": "2026-11-10T18:08",
       "t": "10x 工程师变成 100x 了，普通工程师还是那么普通",
@@ -121,13 +121,6 @@
       "u": "https://www.ifanr.com/1688755?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-10T17:27",
-      "t": "4.12亿分红刚落袋又拟募资10亿，宏达电子定增抢AI器件窗口",
-      "s": "上一轮定增募投项目三度延期、产能利用率不足四成。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8199771.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-10T16:41",
       "t": "灵光接入什么值得买，AI助理开始帮用户“盯好价”",
@@ -140,12 +133,23 @@
       "t": "从芯片到千比特整机，超导量子计算还有一场硬仗",
       "s": "近亿元融资刚刚落袋（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/509017.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T15:57",
+      "t": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
+      "s": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508996.html"
     }
   ],
   "timeline": [
     [
       "11-11 07:29",
       "技嘉推出 RTX Spark 迷你主机 AI Top Aero，最高 128GB 统一内存"
+    ],
+    [
+      "11-11 07:20",
+      "【钛晨报】李强签署国务院令，公布修订后的《基金会管理条例》；阿里拟分拆平头哥独立赴港上市；Anthropic IPO定价区间确定，目标市值约1万亿美元低于预期"
     ],
     [
       "11-11 07:08",
@@ -162,10 +166,6 @@
     [
       "11-11 06:48",
       "谷歌联合 Artificial Analysis 推出 MKA 基准测试：Gemini 4 Carbon 多模态知识工作测试获第二，任务成本仅为第一名六分之一"
-    ],
-    [
-      "11-11 06:43",
-      "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 320871,
+      "s": 320872,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315740,
+      "s": 315741,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300789,
+      "s": 300792,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192272,
+      "s": 192273,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145632,
+      "s": 145633,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
