@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-10T19:01:40",
+  "updated": "2026-11-10T19:31:42",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T19:24",
+      "t": "号称行业首个具身全模态端到端交互大模型，智元发布 WITA-Omni",
+      "s": "“智元 AGIBOT”公众号今天（10 日）晚间发文宣布，智元正式发布 WITA-Omni（硅光动语全模态大模型）。根据…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/122.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T19:22",
+      "t": "华为：鸿蒙电脑应用数量已突破 2.1 万款，通用办公基本盘稳固、多款专业软件已完成适配",
+      "s": "华为宣布旗下鸿蒙电脑应用数量已正式突破 2.1 万款，通用办公基本盘稳固，AI 赛道快速崛起，多款专业电脑应用也逐步向鸿…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/121.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-10T18:44",
@@ -86,13 +100,6 @@
       "u": "https://www.ithome.com/1/024/888.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-10T16:44",
-      "t": "泰国给数据中心戴上“紧箍咒”：噪音限 70 分贝，温升不超 2 摄氏度",
-      "s": "据彭博社报道，随着人工智能投资热潮推动数据中心建设迅速扩张，泰国出台了针对数据中心噪音、热量和用水的新规定，为这一快速发…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/887.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-10T16:41",
       "t": "灵光接入什么值得买，AI助理开始帮用户“盯好价”",
@@ -112,13 +119,6 @@
       "t": "从芯片到千比特整机，超导量子计算还有一场硬仗",
       "s": "近亿元融资刚刚落袋（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/509017.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-10T16:30",
-      "t": "太空建造迈出关键一步：机器人首次在太空自主组装天线桁架，未来或建造千米级结构",
-      "s": "将大型设备送入地球轨道并不容易。如果先把大量小型零部件送上太空，再在轨道上将它们组装成大型结构，难度可能更低，但传统方案…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/024/880.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-10 19:24",
+      "号称行业首个具身全模态端到端交互大模型，智元发布 WITA-Omni"
+    ],
+    [
+      "11-10 19:22",
+      "华为：鸿蒙电脑应用数量已突破 2.1 万款，通用办公基本盘稳固、多款专业软件已完成适配"
+    ],
+    [
       "11-10 18:44",
       "投资者担心 AI 编译、反编译助长盗版游戏，泽尔尼克表态 Take-Two 会加强防范"
     ],
@@ -158,14 +166,6 @@
     [
       "11-10 18:08",
       "10x 工程师变成 100x 了，普通工程师还是那么普通"
-    ],
-    [
-      "11-10 18:07",
-      "管窥AI游戏的产业现状，从Roblox这份“意外”的财报"
-    ],
-    [
-      "11-10 18:05",
-      "美女陪打LOL，腾讯入局AI游戏陪伴，会走米哈游的老路吗？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 320258,
+      "s": 320284,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315380,
+      "s": 315398,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300450,
+      "s": 300463,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231628,
+      "s": 231633,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 191712,
+      "s": 191740,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155153,
+      "s": 155155,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145297,
+      "s": 145311,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144336,
+      "s": 144338,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118766,
+      "s": 118773,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 114757,
+      "s": 114770,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
