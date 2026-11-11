@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-11T10:30', t:'AMD 推出企业级 AI 辅助编程平台 Instinct Coder 355，支持本地运行 GLM-5.3', s:'AMD 当地时间本月 9 日宣布携手 Spectro Cloud 推出企业级 AI 辅助编程平台 Instinct Co…（来源：IT之家）', u:'https://www.ithome.com/1/025/305.htm'},
+    {c:'MODEL', d:'2026-11-11T10:10', t:'阿里全新一代千问大模型 Qwen4 即将发布，预览版已首发上线', s:'阿里巴巴今日官宣，全新一代千问大模型 Qwen4 即将发布：知识理解更深入，世界感知更立体，Coding 与 Agent…（来源：IT之家）', u:'https://www.ithome.com/1/025/301.htm'},
     {c:'MODEL', d:'2026-11-11T09:56', t:'Day-0 支持：摩尔线程完成 MiniMax H3-Image 图像生成模型适配', s:'摩尔线程今天宣布，公司旗下 AI 训推一体智算卡 MTT S5000 及 MUSA 软件栈，已在昨天（开源当日）适配 M…（来源：IT之家）', u:'https://www.ithome.com/1/025/296.htm'},
     {c:'MODEL', d:'2026-11-11T09:54', t:'成都第五代贡嘎人形机器人发布，宣称拥有“全球最领先人形机器人大脑核心技术”', s:'成都人形机器人创新中心今日发布了第五代贡嘎人形机器人，宣称拥有“全球最领先人形机器人大脑核心技术”。作为成都人形机器人创…（来源：IT之家）', u:'https://www.ithome.com/1/025/295.htm'},
     {c:'MODEL', d:'2026-11-11T09:52', t:'Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI', s:'Arm 昨日（11 月 10 日）发布公告，宣布推出 Cortex-M42 处理器，并将其纳入 Flexible Acc…（来源：IT之家）', u:'https://www.ithome.com/1/025/294.htm'},
@@ -469,9 +471,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-11T09:23', t:'亚洲出口，正按AI产业链位置重新排座次', s:'亚洲制造的胜负手，被AI卡了位。（来源：钛媒体）', u:'https://www.tmtpost.com/8194238.html'},
     {c:'MODEL', d:'2026-11-11T08:56', t:'谷歌更新安卓 AI 开发基准榜单：Kimi K3.1 Pro / DeepSeek V4.1 Flash 成绩揭晓', s:'谷歌官方账号 Android Developers（@AndroidDev）昨日（11 月 10 日）在 X 平台发布推…（来源：IT之家）', u:'https://www.ithome.com/1/025/232.htm'},
     {c:'HOT', d:'2026-11-11T08:34', t:'Edge AI Daily 早报（11月11日）', s:'Anthropic以发行8.25亿股、70—78美元定价冲刺纳斯达克（代码ANT），含七家芯片与云巨头260亿美元私募配…（来源：钛媒体）', u:'https://www.tmtpost.com/8200609.html'},
-    {c:'MODEL', d:'2026-11-11T08:27', t:'挑战微软 Win11：原生 AI 系统 KORA 登场，将率先适配高通骁龙 X2 Elite 芯片', s:'KORA Systems 昨日（11 月 10 日）发布公告，宣布推出全新操作系统 KORA OS，宣称这是首个“自下而…（来源：IT之家）', u:'https://www.ithome.com/1/025/226.htm'},
     {c:'MODEL', d:'2026-11-11T08:26', t:'今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上', s:'非付费用户什么时候能用上？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688883?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'HOT', d:'2026-11-11T08:25', t:'苹果子公司 Claris 正测试「Harbor」应用：将 Mac 变身本地 AI 服务器', s:'苹果全资子公司 Claris 正在测试 Harbor 应用程序。这款 App 可以将苹果芯片的 Mac 变身本地 AI …（来源：IT之家）', u:'https://www.ithome.com/1/025/225.htm'},
     {c:'FUNDING', d:'2026-11-11T07:20', t:'【钛晨报】李强签署国务院令，公布修订后的《基金会管理条例》；阿里拟分拆平头哥独立赴港上市；Anthropic IPO定价区间确定，目标市值约1万亿美元低于预期', s:'i茅台将从“抢购”模式逐步转为日常售卖；台积电批准409亿美元资本预算，用于长期产能扩张；华为新型存储系统即将启动试商用…（来源：钛媒体）', u:'https://www.tmtpost.com/8200471.html'},
     {c:'MODEL', d:'2026-11-11T01:13', t:'OwnCoder 0.2.0 发布，面向开发者的桌面端 AI 编程工具', s:'修复了一些bug，优化了效果。 有时候我们总想多做点什么，告诉LLM要怎么做，最后发现，什么都不说，让LLM自行判断才是…（来源：OSCHINA）', u:'https://www.oschina.net/news/503518'},
     {c:'MEDPHARMA', d:'2026-11-11T00:08', t:'皮尔法伯携手晶泰科技布局AI制药，聚焦肿瘤领域难成药靶点', s:'皮尔法伯携手晶泰科技布局AI制药，聚焦肿瘤领域难成药靶点（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706575267162784307/'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDDEVICE', d:'2026-11-10T19:35', t:'硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内', s:'硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内（来源：头条设备AI）', u:'https://www.toutiao.com/article/7706504817211982379/'},
   ];
   const TIMELINE = [
+    ['11-11 10:30','AMD 推出企业级 AI 辅助编程平台 Instinct Coder 355，支持本地运行 GLM-5.3'],
+    ['11-11 10:10','阿里全新一代千问大模型 Qwen4 即将发布，预览版已首发上线'],
     ['11-11 09:56','Day-0 支持：摩尔线程完成 MiniMax H3-Image 图像生成模型适配'],
     ['11-11 09:54','成都第五代贡嘎人形机器人发布，宣称拥有“全球最领先人形机器人大脑核心技术”'],
     ['11-11 09:52','Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI'],
     ['11-11 09:51','Anthropic 宣布额度免费重置：Pro、Max、Ultra 和 Team 用户可领，Claude 支持更多 MCP Apps 扩展'],
-    ['11-11 09:42','2026，AI应用的钱都流向了哪里？'],
-    ['11-11 09:40','平头哥要上市，阿里AI的第一个“大结果”'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320989, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315778, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300836, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231897, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:192382, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:321005, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315781, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300844, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231901, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:192401, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155215, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145673, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144380, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118910, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:115210, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145682, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144382, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118915, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:115230, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
