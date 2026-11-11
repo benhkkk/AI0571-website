@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-11T12:01:49",
+  "updated": "2026-11-11T12:31:35",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T12:18",
+      "t": "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据",
+      "s": "消息源 @itspdfu 今天（11 月 11 日）在 X 平台发布推文，爆料称在 iOS 27.3 首个开发者预览版 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/392.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-11T11:44",
@@ -51,18 +58,18 @@
       "u": "https://www.ithome.com/1/025/301.htm"
     },
     {
+      "c": "HOT",
+      "d": "2026-11-11T10:02",
+      "t": "独家丨清华系团队创业做 AI 眼镜，拿下传统眼镜厂商种子轮",
+      "s": "清目创始团队均为清华背景，成员背景涵盖XREAL、荣耀、阿里等。作者丨黄艳冰编辑丨姚单雷峰网·鲸犀独家获悉，智能眼镜初创…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/weiwu/Lfff1nBYqpWoqgMF.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-11-11T09:56",
       "t": "Day-0 支持：摩尔线程完成 MiniMax H3-Image 图像生成模型适配",
       "s": "摩尔线程今天宣布，公司旗下 AI 训推一体智算卡 MTT S5000 及 MUSA 软件栈，已在昨天（开源当日）适配 M…（来源：IT之家）",
       "u": "https://www.ithome.com/1/025/296.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-11T09:54",
-      "t": "成都第五代贡嘎人形机器人发布，宣称拥有“全球最领先人形机器人大脑核心技术”",
-      "s": "成都人形机器人创新中心今日发布了第五代贡嘎人形机器人，宣称拥有“全球最领先人形机器人大脑核心技术”。作为成都人形机器人创…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/295.htm"
     },
     {
       "c": "HOT",
@@ -84,6 +91,13 @@
       "t": "亚洲出口，正按AI产业链位置重新排座次",
       "s": "亚洲制造的胜负手，被AI卡了位。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8194238.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-11T08:34",
+      "t": "Anthropic 启动 IPO 路演，创始人将套现 17.5 亿美元；谷歌最强 AI 模型正式开放；任天堂招新：经典游戏保存员",
+      "s": "英伟达董事会聘请前美国联邦检察官，调查 CEO 黄仁勋相关事件 11 月 11 日消息，英伟达发布公告，宣布已聘请美国前…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373796"
     },
     {
       "c": "HOT",
@@ -126,23 +140,13 @@
       "t": "实测 MiniMax H3 Image：GPT 的效果加上 MJ 的审美，居然被它开源了",
       "s": "4K 像素最快 10 秒生成#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1688790?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T22:33",
-      "t": "phimint v0.8.0 发布：模型选择跨重启生效、终端贴图、长输出不再消失",
-      "s": "phimint v0.8.0 已发布（2026-11-09） phimint 是一个用 Rust 写的终端 AI 编码 …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503517"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-10T20:25",
-      "t": "YuanQi（UIEIP）低代码平台 v1.0 开源：一个 Go 单文件，装下建模、表单、权限、流程与 AI 知识库（MIT）",
-      "s": "做企业后台这些年，最耗人的从来不是业务逻辑本身。 一个能用的后台管理系统，业务代码通常只占 20%，剩下 80% 全是公…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503516"
     }
   ],
   "timeline": [
+    [
+      "11-11 12:18",
+      "iOS 27.3 将补齐苹果 Siri AI 生态拼图：看懂你的健康信息，覆盖 92 种数据"
+    ],
     [
       "11-11 11:44",
       "华为麒麟 9050 系列芯片官宣搭载新一代达芬奇架构 NPU，业界首个 30B MoE 大模型入端"
@@ -162,10 +166,6 @@
     [
       "11-11 10:47",
       "微软 Auto SR 正式登场：兼容华硕 ROG Xbox Ally X 掌机及部分 AMD 锐龙机型，帧率最高 120 FPS"
-    ],
-    [
-      "11-11 10:30",
-      "AMD 推出企业级 AI 辅助编程平台 Instinct Coder 355，支持本地运行 GLM-5.3"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321091,
+      "s": 321111,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315815,
+      "s": 315827,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300867,
+      "s": 300874,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231921,
+      "s": 231927,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192478,
+      "s": 192504,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155221,
+      "s": 155222,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145731,
+      "s": 145735,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118934,
+      "s": 118938,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115274,
+      "s": 115289,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
