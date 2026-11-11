@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-12T06:31:00",
+  "updated": "2026-11-12T07:01:18",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-12T06:59",
+      "t": "Nothing CEO 裴宇展示公司首款 AI 设备，预计采用无屏幕设计",
+      "s": "Nothing CEO 裴宇前天在 X 平台发文，展示公司首款 AI 设备的外观。IT之家注意到，这款设备配备绿色、红色…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/832.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-12T06:49",
+      "t": "苹果 CarPlay 接入谷歌 Gemini：车里也能和 AI 自然聊天",
+      "s": "谷歌昨日（11 月 11 日）发布博文，宣布推进苹果车联服务 CarPlay 接入其 AI 应用 Gemini，即日起面…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/831.htm"
+    },
     {
       "c": "MEDDEVICE",
       "d": "2026-11-11T22:36",
@@ -56,27 +70,6 @@
       "t": "统信桌面操作系统 V25（2500u2）发布：新增防卡死保护，AI 助手变身“小 U 同学”",
       "s": "统信桌面操作系统 V25（2500u2）正式发布。本次版本为质量提升更新，围绕系统稳定与性能、智能体验、国产生态适配三大…（来源：IT之家）",
       "u": "https://www.ithome.com/1/025/762.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-11T19:26",
-      "t": "Anthropic Claude 仅用 3 天完成 AI 模型适配 AMD GPU，英伟达 CUDA 护城河遇挑战",
-      "s": "英伟达 CUDA 生态系统的领先优势，可能正在受到越来越大的挑战。Anthropic IPO 路演材料中的一张幻灯片显示…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/736.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-11T19:18",
-      "t": "不能再随便用：高盛、思科等企业开始对员工 AI 使用设限",
-      "s": "据《商业内幕》报道，在过去几年不断鼓励员工拥抱 AI 技术之后，包括高盛、思科和摩根大通在内的企业，正开始采取更有针对性…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/734.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-11T18:29",
-      "t": "和大疆抢食，这家公司做了台桌面摄影机器人",
-      "s": "一个美食创作者想把镜头从餐桌全景慢慢推到一碗面上。这个动作不难，难的是他没有第二个人帮他推，也没有空间在桌上架一条滑轨…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/weiwu/7us3N77Jwt0jzWda.html"
     },
     {
       "c": "MODEL",
@@ -140,9 +133,24 @@
       "t": "中国55%的Token烧在短剧，美国58%烧在代码：Token的流向，暴露了AI的两种“活法”",
       "s": "本文通过核验 GitHub Copilot 用户与付费订阅数据、AI 短剧算力成本，厘清行业容易混淆的两组关键数字，对比…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8198782.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-11T14:27",
+      "t": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
+      "s": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/509088.html"
     }
   ],
   "timeline": [
+    [
+      "11-12 06:59",
+      "Nothing CEO 裴宇展示公司首款 AI 设备，预计采用无屏幕设计"
+    ],
+    [
+      "11-12 06:49",
+      "苹果 CarPlay 接入谷歌 Gemini：车里也能和 AI 自然聊天"
+    ],
     [
       "11-11 22:36",
       "《人工智能医疗器械检查要点》发布"
@@ -158,14 +166,6 @@
     [
       "11-11 21:46",
       "沐曦和优必选联姻造具身芯片，消息称合资公司曦选创智融资 5 亿元"
-    ],
-    [
-      "11-11 21:42",
-      "AI 提升飓风预报精度，人类气象专家仍不可替代"
-    ],
-    [
-      "11-11 21:08",
-      "大水冲了龙王庙？AI 编程工具 Grok Build 漏洞导致 SpaceXSI 敏感资料暴露"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321961,
+      "s": 321981,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316264,
+      "s": 316280,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 301336,
+      "s": 301344,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232200,
+      "s": 232205,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 193087,
+      "s": 193098,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155340,
+      "s": 155342,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 146134,
+      "s": 146143,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144434,
+      "s": 144436,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119125,
+      "s": 119126,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115880,
+      "s": 115892,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
