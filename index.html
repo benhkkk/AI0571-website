@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-11T08:56', t:'谷歌更新安卓 AI 开发基准榜单：Kimi K3.1 Pro / DeepSeek V4.1 Flash 成绩揭晓', s:'谷歌官方账号 Android Developers（@AndroidDev）昨日（11 月 10 日）在 X 平台发布推…（来源：IT之家）', u:'https://www.ithome.com/1/025/232.htm'},
+    {c:'HOT', d:'2026-11-11T08:34', t:'Edge AI Daily 早报（11月11日）', s:'Anthropic以发行8.25亿股、70—78美元定价冲刺纳斯达克（代码ANT），含七家芯片与云巨头260亿美元私募配…（来源：钛媒体）', u:'https://www.tmtpost.com/8200609.html'},
     {c:'MODEL', d:'2026-11-11T08:27', t:'挑战微软 Win11：原生 AI 系统 KORA 登场，将率先适配高通骁龙 X2 Elite 芯片', s:'KORA Systems 昨日（11 月 10 日）发布公告，宣布推出全新操作系统 KORA OS，宣称这是首个“自下而…（来源：IT之家）', u:'https://www.ithome.com/1/025/226.htm'},
     {c:'MODEL', d:'2026-11-11T08:26', t:'今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上', s:'非付费用户什么时候能用上？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688883?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-11-11T08:25', t:'苹果子公司 Claris 正测试「Harbor」应用：将 Mac 变身本地 AI 服务器', s:'苹果全资子公司 Claris 正在测试 Harbor 应用程序。这款 App 可以将苹果芯片的 Mac 变身本地 AI …（来源：IT之家）', u:'https://www.ithome.com/1/025/225.htm'},
@@ -468,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-11T07:29', t:'技嘉推出 RTX Spark 迷你主机 AI Top Aero，最高 128GB 统一内存', s:'技嘉今日推出 AI TOP AERO 迷你主机，采用英伟达 RTX Spark 平台。这款产品拥有 Blackwell …（来源：IT之家）', u:'https://www.ithome.com/1/025/213.htm'},
     {c:'FUNDING', d:'2026-11-11T07:20', t:'【钛晨报】李强签署国务院令，公布修订后的《基金会管理条例》；阿里拟分拆平头哥独立赴港上市；Anthropic IPO定价区间确定，目标市值约1万亿美元低于预期', s:'i茅台将从“抢购”模式逐步转为日常售卖；台积电批准409亿美元资本预算，用于长期产能扩张；华为新型存储系统即将启动试商用…（来源：钛媒体）', u:'https://www.tmtpost.com/8200471.html'},
     {c:'FUNDING', d:'2026-11-11T07:08', t:'Anthropic 发布 IPO 路演视频正式启动最高 643.5 亿美元募资计划，估值约在 1~1.4 万亿美元', s:'当地时间 11 月 10 日，Anthropic 正式宣布启动首次公开募股（IPO）路演，并公布股票发行计划。根据公告…（来源：IT之家）', u:'https://www.ithome.com/1/025/209.htm'},
-    {c:'MODEL', d:'2026-11-11T06:55', t:'OpenAI 扩展 ChatGPT 商业功能：企业可认领资料并创建 AI 智能体，为 Business Agent 投放广告', s:'当地时间 11 月 10 日，OpenAI 宣布推出 ChatGPT Businesses 测试版，为企业提供商家信息认…（来源：IT之家）', u:'https://www.ithome.com/1/025/206.htm'},
     {c:'MEDPHARMA', d:'2026-11-11T00:08', t:'皮尔法伯携手晶泰科技布局AI制药，聚焦肿瘤领域难成药靶点', s:'皮尔法伯携手晶泰科技布局AI制药，聚焦肿瘤领域难成药靶点（来源：头条医药AI）', u:'https://www.toutiao.com/article/7706575267162784307/'},
     {c:'MODEL', d:'2026-11-11T00:04', t:'实测 MiniMax H3 Image：GPT 的效果加上 MJ 的审美，居然被它开源了', s:'4K 像素最快 10 秒生成#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688790?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MEDDEVICE', d:'2026-11-10T19:35', t:'硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内', s:'硬核突破!我国牵头25项医疗器械国际标准，AI领域也在内（来源：头条设备AI）', u:'https://www.toutiao.com/article/7706504817211982379/'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-10T17:30', t:'特努斯施压 Siri 掌门人，苹果 AI 不能再等了', s:'油门焊死#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1688570?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-11-10T17:30', t:'有「眼力」，也有「洁癖」，戴森智能扫拖机器人改变了什么？', s:'在习以为常的将就里，戴森的执拗是一种稀缺的浪漫#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容…（来源：爱范儿）', u:'https://www.ifanr.com/1688755?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-11-10T16:41', t:'灵光接入什么值得买，AI助理开始帮用户“盯好价”', s:'从商品推荐到价格追踪，个人AI助理进一步深入日常消费场景。11月10日消息，蚂蚁集团旗下个人AI助理灵光接入消费内容平台…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/Z3dOHYCNYfPNwijf.html'},
-    {c:'FUNDING', d:'2026-11-10T16:33', t:'从芯片到千比特整机，超导量子计算还有一场硬仗', s:'近亿元融资刚刚落袋（来源：量子位）', u:'https://www.qbitai.com/2026/11/509017.html'},
   ];
   const TIMELINE = [
+    ['11-11 08:56','谷歌更新安卓 AI 开发基准榜单：Kimi K3.1 Pro / DeepSeek V4.1 Flash 成绩揭晓'],
+    ['11-11 08:34','Edge AI Daily 早报（11月11日）'],
     ['11-11 08:27','挑战微软 Win11：原生 AI 系统 KORA 登场，将率先适配高通骁龙 X2 Elite 芯片'],
     ['11-11 08:26','今天起，Gemini 4 Carbon 正式上线，但不是所有人都用得上'],
     ['11-11 08:25','苹果子公司 Claris 正测试「Harbor」应用：将 Mac 变身本地 AI 服务器'],
     ['11-11 08:24','IT早报 1111：Anthropic 启动最高 643.5 亿美元 IPO；全球最强模型 Claude Fable 5.2 登场；董明珠称因铜涨价致格力业绩下…'],
-    ['11-11 07:53','微软游说美国政府放弃中国光模块进口限制，担忧拖慢 AI 数据中心建设'],
-    ['11-11 07:51','Anthropic 七名联合创始人拟在 IPO 中各套现 2.5 亿美元'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320898, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315755, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300809, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231864, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:192309, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155212, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145647, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144373, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118890, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:115154, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:320923, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315765, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300817, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231873, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:192337, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155213, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145656, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144375, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118895, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:115171, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
