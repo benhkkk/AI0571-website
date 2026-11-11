@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-11T21:01:35",
+  "updated": "2026-11-11T21:31:29",
   "news": [
     {
       "c": "HOT",
-      "d": "2026-11-11T19:52",
-      "t": "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」",
-      "s": "豆包走出屏幕#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1689016?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-11-11T21:08",
+      "t": "大水冲了龙王庙？AI 编程工具 Grok Build 漏洞导致 SpaceXSI 敏感资料暴露",
+      "s": "网络安全公司 Claroc 发现，SpaceXSI 旗下的 AI 编程工具 Grok Build 存在安全漏洞，导致数千…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/790.htm"
     },
     {
       "c": "MODEL",
@@ -66,13 +66,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-11T17:41",
-      "t": "人民空军成立 77 周年：AI 微电影《明日之翼》首播，空天母舰等未来空战装备集群亮相",
-      "s": "今天是人民空军成立 77 周年，AI 微电影《明日之翼》正式播出。IT之家查询获悉，影片采用实拍与 AIGC 深度融合的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/624.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-11T16:42",
       "t": "Kimi开始\"出租\"数字员工：Agent计价锚点，正从软件预算滑向人力预算",
       "s": "月之暗面发布托管智能体，市场多解读为\"功能升级\"。本文判断：这不是产品迭代，是用工形态重构——AI厂商正从\"卖token…（来源：钛媒体）",
@@ -114,13 +107,6 @@
       "u": "https://www.tmtpost.com/8201130.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-11T15:03",
-      "t": "10 亿 Token 开源万只假鸟， AI 伪科普正在「污染」下一代的常识",
-      "s": "人不能、至少不应该把严谨的自然科学当成 AI 技能大赛现场#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr）…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1688897?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
       "c": "FUNDING",
       "d": "2026-11-11T14:55",
       "t": "中国AI，越来越烧钱",
@@ -140,12 +126,26 @@
       "t": "中国55%的Token烧在短剧，美国58%烧在代码：Token的流向，暴露了AI的两种“活法”",
       "s": "本文通过核验 GitHub Copilot 用户与付费订阅数据、AI 短剧算力成本，厘清行业容易混淆的两组关键数字，对比…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8198782.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-11T14:27",
+      "t": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
+      "s": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/509088.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T14:18",
+      "t": "卷起来了！11月11日，大模型厂商在天猫打5折",
+      "s": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/509085.html"
     }
   ],
   "timeline": [
     [
-      "11-11 19:52",
-      "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」"
+      "11-11 21:08",
+      "大水冲了龙王庙？AI 编程工具 Grok Build 漏洞导致 SpaceXSI 敏感资料暴露"
     ],
     [
       "11-11 19:40",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321529,
+      "s": 321551,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316030,
+      "s": 316041,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 301061,
+      "s": 301075,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232087,
+      "s": 232092,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192822,
+      "s": 192839,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145925,
+      "s": 145939,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144404,
+      "s": 144409,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119017,
+      "s": 119023,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115582,
+      "s": 115603,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
