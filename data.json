@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-11T22:31:20",
+  "updated": "2026-11-11T23:02:11",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-11T22:36",
+      "t": "《人工智能医疗器械检查要点》发布",
+      "s": "《人工智能医疗器械检查要点》发布（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7706922555747172906/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T22:32",
+      "t": "Adobe 公布四项 AI 实验项目：照片秒变 3D 场景，还能通过聊天设计 AI 角色",
+      "s": "每年举办的 Adobe MAX 大会上，Adobe 展示的最令人印象深刻的技术之一，往往是那些仍处于实验阶段、尚未正式推…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/815.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-11T22:06",
@@ -56,13 +70,6 @@
       "t": "不能再随便用：高盛、思科等企业开始对员工 AI 使用设限",
       "s": "据《商业内幕》报道，在过去几年不断鼓励员工拥抱 AI 技术之后，包括高盛、思科和摩根大通在内的企业，正开始采取更有针对性…（来源：IT之家）",
       "u": "https://www.ithome.com/1/025/734.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-11T18:51",
-      "t": "彭博测算：AI 贡献英国今年约四分之一经济增长",
-      "s": "据彭博经济研究（Bloomberg Economics）经济学家测算，人工智能今年推动了英国约四分之一的经济增长。这也意…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/729.htm"
     },
     {
       "c": "HOT",
@@ -133,16 +140,17 @@
       "t": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
       "s": "价格、门槛全打穿（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/509146.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-11T14:35",
-      "t": "中国55%的Token烧在短剧，美国58%烧在代码：Token的流向，暴露了AI的两种“活法”",
-      "s": "本文通过核验 GitHub Copilot 用户与付费订阅数据、AI 短剧算力成本，厘清行业容易混淆的两组关键数字，对比…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8198782.html"
     }
   ],
   "timeline": [
+    [
+      "11-11 22:36",
+      "《人工智能医疗器械检查要点》发布"
+    ],
+    [
+      "11-11 22:32",
+      "Adobe 公布四项 AI 实验项目：照片秒变 3D 场景，还能通过聊天设计 AI 角色"
+    ],
     [
       "11-11 22:06",
       "DeepL 推出旗下最逼真语音 AI 翻译模型 Aure，实时复现说话者语气起伏、情绪流转等"
@@ -158,14 +166,6 @@
     [
       "11-11 21:08",
       "大水冲了龙王庙？AI 编程工具 Grok Build 漏洞导致 SpaceXSI 敏感资料暴露"
-    ],
-    [
-      "11-11 19:52",
-      "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」"
-    ],
-    [
-      "11-11 19:40",
-      "统信桌面操作系统 V25（2500u2）发布：新增防卡死保护，AI 助手变身“小 U 同学”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321605,
+      "s": 321632,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316067,
+      "s": 316080,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 301098,
+      "s": 301115,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232112,
+      "s": 232116,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192871,
+      "s": 192882,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155273,
+      "s": 155277,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145966,
+      "s": 145977,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144414,
+      "s": 144418,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119036,
+      "s": 119045,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115631,
+      "s": 115649,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
