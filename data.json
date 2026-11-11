@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-11T07:37:01",
+  "updated": "2026-11-11T08:01:31",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-11T07:53",
+      "t": "微软游说美国政府放弃中国光模块进口限制，担忧拖慢 AI 数据中心建设",
+      "s": "11 月 11 日，据路透社报道，微软正游说特朗普政府放弃限制进口中国新型号光收发器的计划。微软与其他科技企业及行业组织…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/218.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-11T07:51",
+      "t": "Anthropic 七名联合创始人拟在 IPO 中各套现 2.5 亿美元",
+      "s": "11 月 11 日，据 TechCrunch 报道，Anthropic 当地时间 11 月 10 日更新招股书，披露七名…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/217.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-11T07:29",
@@ -49,20 +63,6 @@
       "t": "Anthropic 升级 AI 办公套件：从头脑风暴到数据看板，Claude 想承包团队协作全流程",
       "s": "Anthropic 今日开始推出 Claude Whiteboards（白板）、Claude Sheets（表格）和 C…（来源：IT之家）",
       "u": "https://www.ithome.com/1/025/204.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-11T06:43",
-      "t": "谷歌迄今最强模型 Gemini 4 Carbon 登场：主打复杂编程、科学研究与网络安全",
-      "s": "当地时间 11 月 10 日，谷歌宣布正式开放 Gemini 4 Carbon 模型，面向开发者、企业、科研人员和消费者…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/203.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-11T06:43",
-      "t": "OpenAI 收购旅游初创公司 Odessia，探索 AI 旅行智能体业务",
-      "s": "Odessia 创始人弗朗西斯 · 戴维森（Francis Davidson）今天宣布，OpenAI 已收购 AI 旅行…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/202.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -121,13 +121,6 @@
       "u": "https://www.ifanr.com/1688755?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-11-10T16:41",
-      "t": "灵光接入什么值得买，AI助理开始帮用户“盯好价”",
-      "s": "从商品推荐到价格追踪，个人AI助理进一步深入日常消费场景。11月10日消息，蚂蚁集团旗下个人AI助理灵光接入消费内容平台…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/Z3dOHYCNYfPNwijf.html"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-11-10T16:33",
       "t": "从芯片到千比特整机，超导量子计算还有一场硬仗",
@@ -140,9 +133,24 @@
       "t": "从“一脑多机”到“一脑多手”，蚂蚁灵波开源LingBot-Touch触觉基础模型",
       "s": "11月10日，蚂蚁灵波科技开源触觉基础模型LingBot-Touch（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/508996.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-10T15:56",
+      "t": "Agent自演进驶入“双轨时代”！openJiuwen首发TTSE经验学习框架",
+      "s": "让每一次任务，都成为下一次进步的起点（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/508998.html"
     }
   ],
   "timeline": [
+    [
+      "11-11 07:53",
+      "微软游说美国政府放弃中国光模块进口限制，担忧拖慢 AI 数据中心建设"
+    ],
+    [
+      "11-11 07:51",
+      "Anthropic 七名联合创始人拟在 IPO 中各套现 2.5 亿美元"
+    ],
     [
       "11-11 07:29",
       "技嘉推出 RTX Spark 迷你主机 AI Top Aero，最高 128GB 统一内存"
@@ -158,14 +166,6 @@
     [
       "11-11 06:55",
       "OpenAI 扩展 ChatGPT 商业功能：企业可认领资料并创建 AI 智能体，为 Business Agent 投放广告"
-    ],
-    [
-      "11-11 06:54",
-      "谷歌最强 VLA 机器人模型：Gemini Robotics 2.5 登场，会系蝴蝶结、已在奔驰生产线上岗"
-    ],
-    [
-      "11-11 06:48",
-      "谷歌联合 Artificial Analysis 推出 MKA 基准测试：Gemini 4 Carbon 多模态知识工作测试获第二，任务成本仅为第一名六分之一"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 320872,
+      "s": 320880,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315741,
+      "s": 315746,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300792,
+      "s": 300800,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231855,
+      "s": 231856,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192273,
+      "s": 192285,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155205,
+      "s": 155207,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145633,
+      "s": 145637,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144371,
+      "s": 144372,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118880,
+      "s": 118884,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115125,
+      "s": 115136,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
