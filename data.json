@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-11T20:01:14",
+  "updated": "2026-11-11T20:31:29",
   "news": [
     {
       "c": "HOT",
@@ -87,6 +87,13 @@
     },
     {
       "c": "MEDDEVICE",
+      "d": "2026-11-11T15:42",
+      "t": "AI医疗器械检查要点(中):考卷用第二遍，就不算考卷",
+      "s": "AI医疗器械检查要点(中):考卷用第二遍，就不算考卷（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7706815225894273599/"
+    },
+    {
+      "c": "MEDDEVICE",
       "d": "2026-11-11T15:38",
       "t": "AI 医疗器械检查要点(上):生产记录只有一行",
       "s": "AI 医疗器械检查要点(上):生产记录只有一行（来源：头条设备AI）",
@@ -114,13 +121,6 @@
       "u": "https://www.tmtpost.com/8201106.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-11T14:41",
-      "t": "双11直播间爆改AI秀场，罗永浩上手TRAE，秒变AI Coding的大众嘴替",
-      "s": "价格、门槛全打穿（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/509146.html"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-11-11T14:35",
       "t": "中国55%的Token烧在短剧，美国58%烧在代码：Token的流向，暴露了AI的两种“活法”",
@@ -128,18 +128,18 @@
       "u": "https://www.tmtpost.com/8198782.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-11T14:27",
-      "t": "从“卖Token”到“卖结果” | 科技有「联想」沙龙激辩Token经济三大议题",
-      "s": "10月30日，“科技有「联想」·Token畅想曲”线下沙龙在京举行。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/509088.html"
+      "c": "MODEL",
+      "d": "2026-11-11T13:43",
+      "t": "灵光2.0上线两周，累计托管事务量突破300万",
+      "s": "11月11日，蚂蚁集团旗下个人AI助理灵光公布最新数据：自10月27日灵光2.0上线以来，累计托管事务量突破300万项…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/588lnnPVveccwufm.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-11T14:18",
-      "t": "卷起来了！11月11日，大模型厂商在天猫打5折",
-      "s": "大模型厂商智谱、MiniMax、千问办公、阿里云、Qoder都在天猫打5折。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/509085.html"
+      "c": "HOT",
+      "d": "2026-11-11T13:23",
+      "t": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
+      "s": "作者｜Techno 之王 编辑｜靖宇 2026 年 11 月 4 日，美国中期选举结果落定后的第二天上午，OpenAI …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/373816"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321481,
+      "s": 321505,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316009,
+      "s": 316020,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 301034,
+      "s": 301045,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232066,
+      "s": 232073,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192794,
+      "s": 192806,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155254,
+      "s": 155260,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145903,
+      "s": 145911,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119010,
+      "s": 119013,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115549,
+      "s": 115565,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
