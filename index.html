@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-11T11:44', t:'华为麒麟 9050 系列芯片官宣搭载新一代达芬奇架构 NPU，业界首个 30B MoE 大模型入端', s:'华为麒麟官方公众号今日发文，详细介绍了首款「逻辑折叠」技术 τ 芯片 —— 麒麟 9050 系列的新一代达芬奇架构 NP…（来源：IT之家）', u:'https://www.ithome.com/1/025/331.htm'},
     {c:'MODEL', d:'2026-11-11T11:05', t:'Reddit 将推出 AI 汇总商品评价系统，引发用户担忧', s:'据科技媒体 CNET 昨天报道，网络论坛 Reddit 正在测试 Reviews 功能。可通过 AI 汇总用户评论，分析…（来源：IT之家）', u:'https://www.ithome.com/1/025/318.htm'},
     {c:'MODEL', d:'2026-11-11T10:53', t:'马斯克 SpaceX 备战太空 AI 算力：锁定 100GW 设备产能，约为 4.4 座三峡电站总装机容量', s:'全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司今天（11 月 11 日）发布公告，宣布与德国太阳…（来源：IT之家）', u:'https://www.ithome.com/1/025/314.htm'},
     {c:'MODEL', d:'2026-11-11T10:47', t:'微软 Auto SR 正式登场：兼容华硕 ROG Xbox Ally X 掌机及部分 AMD 锐龙机型，帧率最高 120 FPS', s:'当地时间 11 月 10 日，微软宣布旗下 AI 超分辨率技术 Automatic Super Resolution 正…（来源：IT之家）', u:'https://www.ithome.com/1/025/311.htm'},
@@ -466,7 +467,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-11T10:10', t:'阿里全新一代千问大模型 Qwen4 即将发布，预览版已首发上线', s:'阿里巴巴今日官宣，全新一代千问大模型 Qwen4 即将发布：知识理解更深入，世界感知更立体，Coding 与 Agent…（来源：IT之家）', u:'https://www.ithome.com/1/025/301.htm'},
     {c:'MODEL', d:'2026-11-11T09:56', t:'Day-0 支持：摩尔线程完成 MiniMax H3-Image 图像生成模型适配', s:'摩尔线程今天宣布，公司旗下 AI 训推一体智算卡 MTT S5000 及 MUSA 软件栈，已在昨天（开源当日）适配 M…（来源：IT之家）', u:'https://www.ithome.com/1/025/296.htm'},
     {c:'MODEL', d:'2026-11-11T09:54', t:'成都第五代贡嘎人形机器人发布，宣称拥有“全球最领先人形机器人大脑核心技术”', s:'成都人形机器人创新中心今日发布了第五代贡嘎人形机器人，宣称拥有“全球最领先人形机器人大脑核心技术”。作为成都人形机器人创…（来源：IT之家）', u:'https://www.ithome.com/1/025/295.htm'},
-    {c:'MODEL', d:'2026-11-11T09:52', t:'Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI', s:'Arm 昨日（11 月 10 日）发布公告，宣布推出 Cortex-M42 处理器，并将其纳入 Flexible Acc…（来源：IT之家）', u:'https://www.ithome.com/1/025/294.htm'},
     {c:'HOT', d:'2026-11-11T09:42', t:'2026，AI应用的钱都流向了哪里？', s:'视频、图像和3D拿走大头。（来源：钛媒体）', u:'https://www.tmtpost.com/8200663.html'},
     {c:'FUNDING', d:'2026-11-11T09:40', t:'平头哥要上市，阿里AI的第一个“大结果”', s:'大厂芯片再加速。（来源：钛媒体）', u:'https://www.tmtpost.com/8200714.html'},
     {c:'HOT', d:'2026-11-11T09:23', t:'亚洲出口，正按AI产业链位置重新排座次', s:'亚洲制造的胜负手，被AI卡了位。（来源：钛媒体）', u:'https://www.tmtpost.com/8194238.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-10T20:25', t:'YuanQi（UIEIP）低代码平台 v1.0 开源：一个 Go 单文件，装下建模、表单、权限、流程与 AI 知识库（MIT）', s:'做企业后台这些年，最耗人的从来不是业务逻辑本身。 一个能用的后台管理系统，业务代码通常只占 20%，剩下 80% 全是公…（来源：OSCHINA）', u:'https://www.oschina.net/news/503516'},
   ];
   const TIMELINE = [
+    ['11-11 11:44','华为麒麟 9050 系列芯片官宣搭载新一代达芬奇架构 NPU，业界首个 30B MoE 大模型入端'],
     ['11-11 11:05','Reddit 将推出 AI 汇总商品评价系统，引发用户担忧'],
     ['11-11 10:53','马斯克 SpaceX 备战太空 AI 算力：锁定 100GW 设备产能，约为 4.4 座三峡电站总装机容量'],
     ['11-11 10:47','微软 Auto SR 正式登场：兼容华硕 ROG Xbox Ally X 掌机及部分 AMD 锐龙机型，帧率最高 120 FPS'],
     ['11-11 10:30','AMD 推出企业级 AI 辅助编程平台 Instinct Coder 355，支持本地运行 GLM-5.3'],
     ['11-11 10:10','阿里全新一代千问大模型 Qwen4 即将发布，预览版已首发上线'],
-    ['11-11 09:56','Day-0 支持：摩尔线程完成 MiniMax H3-Image 图像生成模型适配'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:321064, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315803, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300860, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231912, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:192452, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:321074, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:315808, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:300863, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:231915, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:192465, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155218, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145719, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144382, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118927, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:115262, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:145723, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144384, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:118930, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:115267, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
