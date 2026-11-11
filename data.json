@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-11T17:31:20",
+  "updated": "2026-11-11T18:01:53",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T17:41",
+      "t": "人民空军成立 77 周年：AI 微电影《明日之翼》首播，空天母舰等未来空战装备集群亮相",
+      "s": "今天是人民空军成立 77 周年，AI 微电影《明日之翼》正式播出。IT之家查询获悉，影片采用实拍与 AIGC 深度融合的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/624.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-11T17:28",
@@ -65,25 +72,11 @@
       "u": "https://www.ithome.com/1/025/588.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-11T16:24",
-      "t": "我国加快推进“人工智能+自然资源”深度融合，计划 2030 年集成打造智能化国土空间治理基础平台",
-      "s": "据央视新闻今日报道，自然资源部、国家发展改革委近日发布关于“人工智能 + 自然资源”的实施意见，加快推动人工智能在自然资…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/575.htm"
-    },
-    {
       "c": "MEDDEVICE",
       "d": "2026-11-11T15:46",
       "t": "AI医疗器械检查要点(下):代码没改，也算变更",
       "s": "AI医疗器械检查要点(下):代码没改，也算变更（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7706816220586082852/"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-11T15:42",
-      "t": "AI医疗器械检查要点(中):考卷用第二遍，就不算考卷",
-      "s": "AI医疗器械检查要点(中):考卷用第二遍，就不算考卷（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7706815225894273599/"
     },
     {
       "c": "MEDDEVICE",
@@ -135,14 +128,25 @@
       "u": "https://www.leiphone.com/category/industrynews/588lnnPVveccwufm.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-11T13:23",
-      "t": "当美国无法建设数据中心，会对 AI 产生怎样的冲击",
-      "s": "作者｜Techno 之王 编辑｜靖宇 2026 年 11 月 4 日，美国中期选举结果落定后的第二天上午，OpenAI …（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373816"
+      "c": "MODEL",
+      "d": "2026-11-11T13:22",
+      "t": "文心 5.5 Flash Preview发布！编程、3D 建模、知识工作、内容创作等全面升级",
+      "s": "11月11日，百度最新基础模型文心 5.5 Flash Preview正式发布。文心 5.5 Flash Preview…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/sqz0hf4DoTPX5mqI.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-11T10:56",
+      "t": "天士力数智中医药签约华为AI制药生态合作伙伴",
+      "s": "天士力数智中医药签约华为AI制药生态合作伙伴（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7706741651443597824/"
     }
   ],
   "timeline": [
+    [
+      "11-11 17:41",
+      "人民空军成立 77 周年：AI 微电影《明日之翼》首播，空天母舰等未来空战装备集群亮相"
+    ],
     [
       "11-11 17:28",
       "神龙科技与字节火山引擎全面战略合作，全新新能源车型将搭载最新一代 AI 座舱解决方案"
@@ -162,10 +166,6 @@
     [
       "11-11 16:54",
       "微信鸿蒙版 App 获 8.0.23.37 邀测升级，小微 AI 助手更多功能灰度中"
-    ],
-    [
-      "11-11 16:42",
-      "Kimi开始\"出租\"数字员工：Agent计价锚点，正从软件预算滑向人力预算"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321372,
+      "s": 321399,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315950,
+      "s": 315966,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300982,
+      "s": 300991,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232020,
+      "s": 232028,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192729,
+      "s": 192742,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155241,
+      "s": 155244,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145851,
+      "s": 145865,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118988,
+      "s": 118993,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115465,
+      "s": 115482,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
