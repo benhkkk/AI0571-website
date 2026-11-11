@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-11T10:31:40",
+  "updated": "2026-11-11T11:01:50",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T10:53",
+      "t": "马斯克 SpaceX 备战太空 AI 算力：锁定 100GW 设备产能，约为 4.4 座三峡电站总装机容量",
+      "s": "全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司今天（11 月 11 日）发布公告，宣布与德国太阳…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/314.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-11T10:47",
+      "t": "微软 Auto SR 正式登场：兼容华硕 ROG Xbox Ally X 掌机及部分 AMD 锐龙机型，帧率最高 120 FPS",
+      "s": "当地时间 11 月 10 日，微软宣布旗下 AI 超分辨率技术 Automatic Super Resolution 正…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/311.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-11T10:30",
@@ -58,25 +72,11 @@
       "u": "https://www.tmtpost.com/8200714.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-11T09:23",
-      "t": "微软正式发布 .NET 11：开发更省时，AI 工具更齐全",
-      "s": "昨日（11 月 10 日）召开的.NET Conf 2026 线上大会上，微软正式发布 .NET 11，围绕运行性能、开…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/246.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-11T09:23",
       "t": "亚洲出口，正按AI产业链位置重新排座次",
       "s": "亚洲制造的胜负手，被AI卡了位。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8194238.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-11T08:56",
-      "t": "谷歌更新安卓 AI 开发基准榜单：Kimi K3.1 Pro / DeepSeek V4.1 Flash 成绩揭晓",
-      "s": "谷歌官方账号 Android Developers（@AndroidDev）昨日（11 月 10 日）在 X 平台发布推…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/232.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-11 10:53",
+      "马斯克 SpaceX 备战太空 AI 算力：锁定 100GW 设备产能，约为 4.4 座三峡电站总装机容量"
+    ],
+    [
+      "11-11 10:47",
+      "微软 Auto SR 正式登场：兼容华硕 ROG Xbox Ally X 掌机及部分 AMD 锐龙机型，帧率最高 120 FPS"
+    ],
+    [
       "11-11 10:30",
       "AMD 推出企业级 AI 辅助编程平台 Instinct Coder 355，支持本地运行 GLM-5.3"
     ],
@@ -158,14 +166,6 @@
     [
       "11-11 09:54",
       "成都第五代贡嘎人形机器人发布，宣称拥有“全球最领先人形机器人大脑核心技术”"
-    ],
-    [
-      "11-11 09:52",
-      "Arm 发布 Cortex-M42 处理器：向量算力最高达前代 3 倍，让更多小型设备用上本地 AI"
-    ],
-    [
-      "11-11 09:51",
-      "Anthropic 宣布额度免费重置：Pro、Max、Ultra 和 Team 用户可领，Claude 支持更多 MCP Apps 扩展"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 321005,
+      "s": 321033,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 315781,
+      "s": 315790,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 300844,
+      "s": 300851,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 231901,
+      "s": 231906,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 192401,
+      "s": 192426,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 145682,
+      "s": 145701,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144382,
+      "s": 144381,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 118915,
+      "s": 118920,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115230,
+      "s": 115244,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
