@@ -1,19 +1,33 @@
 {
-  "updated": "2026-11-12T08:31:53",
+  "updated": "2026-11-12T09:01:43",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-12T08:55",
+      "t": "谷歌推出 Gemini Decisions API 快速多模态决策，基于 Gemini Decision 1 模型",
+      "s": "谷歌昨日宣布推出 Gemini Decisions API 快速多模态决策，由全新 Gemini Decision 1 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/858.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-12T08:49",
+      "t": "“雷达一哥”也卖不动了",
+      "s": "都要指望机器人。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8201627.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-12T08:36",
+      "t": "桃色丑闻重创 AI 芯片巨头：黄仁勋第二段婚外情曝光，英伟达盘后股价重挫逾 9%",
+      "s": "英伟达股价当地时间 11 月 11 日美股盘后交易（北京时间 12 日今天早上 5 点至 9 点）中大幅下挫，跌幅一度扩…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/855.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-12T07:53",
       "t": "88% 受访开发者点头赞成：FreeBSD 组建工作组制定 AI 使用新规",
       "s": "FreeBSD 项目近日公布 2026 年第三季度工作进展报告，收录 51 项进展，涵盖 AI 辅助开发、安全合规、虚拟…（来源：IT之家）",
       "u": "https://www.ithome.com/1/025/845.htm"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-12T07:28",
-      "t": "谷歌 DeepMind 发布新一代基因组 AI 模型 AlphaGenome 2：从组织预测深入单细胞分析，识别基因表达变异能力近乎翻倍",
-      "s": "当地时间 11 月 11 日，谷歌 DeepMind 宣布推出新一代基因组 AI 模型 AlphaGenome 2，能够…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/840.htm"
     },
     {
       "c": "MODEL",
@@ -72,13 +86,6 @@
       "u": "https://www.ithome.com/1/025/810.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-11T21:46",
-      "t": "沐曦和优必选联姻造具身芯片，消息称合资公司曦选创智融资 5 亿元",
-      "s": "据 21 世纪经济报道消息，曦选创智科技（无锡）有限公司（以下简称“曦选创智”）近期完成 5 亿元人民币天使轮融资。本轮…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/807.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-11T19:52",
       "t": "曝字节要做「中国版 Muse」，给豆包造个「超级大脑」",
@@ -115,13 +122,6 @@
     },
     {
       "c": "MEDDEVICE",
-      "d": "2026-11-11T15:42",
-      "t": "AI医疗器械检查要点(中):考卷用第二遍，就不算考卷",
-      "s": "AI医疗器械检查要点(中):考卷用第二遍，就不算考卷（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7706815225894273599/"
-    },
-    {
-      "c": "MEDDEVICE",
       "d": "2026-11-11T15:38",
       "t": "AI 医疗器械检查要点(上):生产记录只有一行",
       "s": "AI 医疗器械检查要点(上):生产记录只有一行（来源：头条设备AI）",
@@ -144,12 +144,20 @@
   ],
   "timeline": [
     [
-      "11-12 07:53",
-      "88% 受访开发者点头赞成：FreeBSD 组建工作组制定 AI 使用新规"
+      "11-12 08:55",
+      "谷歌推出 Gemini Decisions API 快速多模态决策，基于 Gemini Decision 1 模型"
     ],
     [
-      "11-12 07:28",
-      "谷歌 DeepMind 发布新一代基因组 AI 模型 AlphaGenome 2：从组织预测深入单细胞分析，识别基因表达变异能力近乎翻倍"
+      "11-12 08:49",
+      "“雷达一哥”也卖不动了"
+    ],
+    [
+      "11-12 08:36",
+      "桃色丑闻重创 AI 芯片巨头：黄仁勋第二段婚外情曝光，英伟达盘后股价重挫逾 9%"
+    ],
+    [
+      "11-12 07:53",
+      "88% 受访开发者点头赞成：FreeBSD 组建工作组制定 AI 使用新规"
     ],
     [
       "11-12 07:20",
@@ -158,14 +166,6 @@
     [
       "11-12 07:14",
       "瞄住未来丨“中国让一切成真!”这位外籍CEO把AI制药“引擎”..."
-    ],
-    [
-      "11-12 07:01",
-      "全球最大 AI 聚合平台 OpenRouter 正式并入 Stripe：将优化词元路由和用量"
-    ],
-    [
-      "11-12 06:59",
-      "Nothing CEO 裴宇展示公司首款 AI 设备，预计采用无屏幕设计"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 322022,
+      "s": 322039,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316301,
+      "s": 316313,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 301368,
+      "s": 301376,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232219,
+      "s": 232225,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 193122,
+      "s": 193141,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155350,
+      "s": 155354,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 146170,
+      "s": 146179,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144435,
+      "s": 144437,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119138,
+      "s": 119139,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115936,
+      "s": 115957,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
