@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-12T09:22:54",
+  "updated": "2026-11-12T09:31:49",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-12T09:26",
+      "t": "荣耀 700 系列手机预热：9000mAh 青海湖电池、全系骁龙芯片",
+      "s": "荣耀官方今日继续预热荣耀 700 系列手机。新机将搭载背屏，支持后置自拍、AI 互动、多样主题，以及心率、血氧检测以及航…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/867.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-12T09:25",
+      "t": "华为 OSTA 星芒手机发布首个预热视频：slogan“自有光芒”，11 月 20 日首秀",
+      "s": "华为旗下全新品牌“OSTA 星芒手机”官方微博账号今日发布了其第一条内容，以一段 AI 视频正式为即将亮相的星芒品牌造势…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/025/864.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-12T09:15",
@@ -86,20 +100,6 @@
       "u": "https://www.ithome.com/1/025/833.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-12T06:59",
-      "t": "Nothing CEO 裴宇展示公司首款 AI 设备，预计采用无屏幕设计",
-      "s": "Nothing CEO 裴宇前天在 X 平台发文，展示公司首款 AI 设备的外观。IT之家注意到，这款设备配备绿色、红色…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/832.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-12T06:49",
-      "t": "苹果 CarPlay 接入谷歌 Gemini：车里也能和 AI 自然聊天",
-      "s": "谷歌昨日（11 月 11 日）发布博文，宣布推进苹果车联服务 CarPlay 接入其 AI 应用 Gemini，即日起面…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/025/831.htm"
-    },
-    {
       "c": "MEDDEVICE",
       "d": "2026-11-11T22:36",
       "t": "《人工智能医疗器械检查要点》发布",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-12 09:26",
+      "荣耀 700 系列手机预热：9000mAh 青海湖电池、全系骁龙芯片"
+    ],
+    [
+      "11-12 09:25",
+      "华为 OSTA 星芒手机发布首个预热视频：slogan“自有光芒”，11 月 20 日首秀"
+    ],
+    [
       "11-12 09:15",
       "生图又快又便宜，MiniMax为什么还是没赢GPT？"
     ],
@@ -158,14 +166,6 @@
     [
       "11-12 09:02",
       "瞄准后智能手机时代：OpenAI 奥尔特曼有意联合三星打造下一代 AI 设备，让 AI 主动管理现实与数字生活"
-    ],
-    [
-      "11-12 08:55",
-      "谷歌推出 Gemini Decisions API 快速多模态决策，基于 Gemini Decision 1 模型"
-    ],
-    [
-      "11-12 08:50",
-      "Edge AI Daily 早报（11月12日）"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 322055,
+      "s": 322059,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 301390,
+      "s": 301396,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232230,
+      "s": 232233,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 193155,
+      "s": 193157,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 146184,
+      "s": 146187,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144438,
+      "s": 144437,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119143,
+      "s": 119144,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 115966,
+      "s": 115972,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
