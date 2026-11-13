@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-13T18:01:52",
+  "updated": "2026-11-13T18:31:39",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-13T17:56",
+      "t": "Anthropic想给算力债“找下家”",
+      "s": "为了5180亿美元的“算力房租”，Anthropic冲击史上最大IPO。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8203967.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-13T17:52",
+      "t": "微软 XBOX 25 周年，CEO 夏尔马称个人将能掌握过去需“举国之力”获得的能力",
+      "s": "当地时间 12 日下午，微软 XBOX 负责人阿莎 · 夏尔马发布了一份备忘录，暗示未来可能利用生成式 AI 辅助游戏开…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/885.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-11-13T17:02",
@@ -93,18 +107,11 @@
       "u": "https://www.ifanr.com/1689182?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-11-13T12:52",
-      "t": "李彦宏的考题，发给了所有CEO",
-      "s": "人工智能是新电能，智能组织就是AI时代的新厂房，是生产力真正发生的地方。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8203972.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-13T12:32",
-      "t": "Cookiy Labs创始人董有超：AI掌控生产之后，企业为什么还要向真人咨询？",
-      "s": "让AI在需要人类经验时能够找到人，让提供经验的人获得授权和回报，让企业在做决定之前看到真实的人如何反应。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8201722.html"
+      "c": "FUNDING",
+      "d": "2026-11-13T14:03",
+      "t": "三年亏5.7亿的“太空AI第一股”，上市首日破发了",
+      "s": "高增长的卫星赛道，能否支撑起一只持续失血的百亿独角兽？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8204205.html"
     },
     {
       "c": "MODEL",
@@ -112,13 +119,6 @@
       "t": "独家丨腾讯 AI 李牧青离职，出任 AI 公司联席 CEO",
       "s": "雷峰网独家获悉，近日，腾讯云 AI 全球业务负责人李牧青，正式出任教育 AI 科技公司启鸣达人联席 CEO。雷峰网了解到…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/xfpQo71RiPDWJHvS.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-13T11:33",
-      "t": "Cheap AI Tracks Are Crowding Human Arrangers Out of China’s Playlist Economy",
-      "s": "Cheap AI Tracks Are Crowding Human Arrangers Out o…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8204075.html"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-13 17:56",
+      "Anthropic想给算力债“找下家”"
+    ],
+    [
+      "11-13 17:52",
+      "微软 XBOX 25 周年，CEO 夏尔马称个人将能掌握过去需“举国之力”获得的能力"
+    ],
+    [
       "11-13 17:02",
       "我国科学家提出肺结节 AI 辅助诊断新方法：模拟医生看片子流程，判断更准确"
     ],
@@ -158,14 +166,6 @@
     [
       "11-13 16:01",
       "国际中文教育垂直大模型亮相，为全球中文学习者等群体提供智能化服务"
-    ],
-    [
-      "11-13 15:40",
-      "中大梁小丹团队，GeoThinker 两项研究成果，破除空间推理「几何信息用不好、计算开销大」难题"
-    ],
-    [
-      "11-13 15:37",
-      "演示时连续 2 次撞墙：亚马逊 Ring 安防无人机取消手动控制，让 AI 全权接管"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323337,
+      "s": 323358,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316980,
+      "s": 316991,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302176,
+      "s": 302187,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232653,
+      "s": 232661,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 193895,
+      "s": 193912,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155504,
+      "s": 155506,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 146952,
+      "s": 146965,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144538,
+      "s": 144540,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119555,
+      "s": 119562,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 116944,
+      "s": 116957,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
