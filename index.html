@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-14T00:50', t:'浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人', s:'八年研究，两个落地系统，超六万GitHub Stars。 作者丨李秋悦 编辑丨吴 彤 一支女团跳舞，镜头不必再听导演安排…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html'},
     {c:'MODEL', d:'2026-11-13T23:49', t:'让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet', s:'OpenAI 今天（13 日）宣布推出支付功能 ChatGPT Wallet，让旗下 dot AI 智能体代替用户购物…（来源：IT之家）', u:'https://www.ithome.com/1/026/994.htm'},
     {c:'FUNDING', d:'2026-11-13T22:50', t:'鸿蒙智行问界新 M8 旗舰 SUV 上市 2 小时大定破 4600 台，37.98 万元起', s:'今天下午，鸿蒙智行问界新 M8 旗舰 SUV 正式上市，采用面向 L3 级自动驾驶架构设计，搭载华为乾崑智驾 ADS 5…（来源：IT之家）', u:'https://www.ithome.com/1/026/966.htm'},
     {c:'FUNDING', d:'2026-11-13T22:50', t:'黄仁勋辞任英伟达 CEO，或给 Anthropic 下周“史上最大 IPO”添变数', s:'当地时间 12 日，据《财富》杂志报道，AI 初创企业 Anthropic 即将迎来史上最受瞩目的 IPO 之一。然而…（来源：IT之家）', u:'https://www.ithome.com/1/026/965.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-11-13T16:51', t:'独家｜石头前国内销售负责人李明加入追觅，出任中国区核心高管', s:'国内扫地机器人市场竞争持续白热化（来源：钛媒体）', u:'https://www.tmtpost.com/8204378.html'},
     {c:'HOT', d:'2026-11-13T16:41', t:'黄仁勋辞职，英伟达失去的不是一个CEO', s:'黄仁勋用了三十多年，把英伟达从一家游戏显卡公司带到了AI产业中心。（来源：钛媒体）', u:'https://www.tmtpost.com/8203637.html'},
     {c:'HOT', d:'2026-11-13T15:51', t:'MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！', s:'12.9 北京，来MEET2027现场（来源：量子位）', u:'https://www.qbitai.com/2026/11/509827.html'},
-    {c:'MEDPHARMA', d:'2026-11-13T15:43', t:'中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了', s:'250名国内顶尖三甲医院医生联合评测（来源：量子位）', u:'https://www.qbitai.com/2026/11/509796.html'},
   ];
   const TIMELINE = [
+    ['11-14 00:50','浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人'],
     ['11-13 23:49','让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet'],
     ['11-13 22:50','鸿蒙智行问界新 M8 旗舰 SUV 上市 2 小时大定破 4600 台，37.98 万元起'],
     ['11-13 22:50','黄仁勋辞任英伟达 CEO，或给 Anthropic 下周“史上最大 IPO”添变数'],
     ['11-13 22:41','再次延期：华为 HarmonyOS 7 小艺 AI 快捷栏 11 月中旬开推，首批含 Pura X View 等'],
     ['11-13 22:30','SpaceXAI 资源向 AI 编程工具与 Grok Bot 倾斜，消息称裁减约 60 名 Grok Imagine 员工'],
-    ['11-13 22:29','DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:323680, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:317160, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:302367, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:232790, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:194064, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155546, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:147174, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144567, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:119654, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:117076, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:323694, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:317167, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:302376, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:232800, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:194072, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155551, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:147181, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144571, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:119657, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:117081, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

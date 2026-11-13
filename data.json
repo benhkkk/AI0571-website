@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-14T02:38:03",
+  "updated": "2026-11-14T03:02:26",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-14T00:50",
+      "t": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
+      "s": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨李秋悦 编辑丨吴 彤 一支女团跳舞，镜头不必再听导演安排…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/lpK3LQWqmpZP8jcG.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-13T23:49",
@@ -133,16 +140,13 @@
       "t": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
       "s": "12.9 北京，来MEET2027现场（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/509827.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-13T15:43",
-      "t": "中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了",
-      "s": "250名国内顶尖三甲医院医生联合评测（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/509796.html"
     }
   ],
   "timeline": [
+    [
+      "11-14 00:50",
+      "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人"
+    ],
     [
       "11-13 23:49",
       "让智能体帮你购物，OpenAI 推出支付功能 ChatGPT Wallet"
@@ -162,10 +166,6 @@
     [
       "11-13 22:30",
       "SpaceXAI 资源向 AI 编程工具与 Grok Bot 倾斜，消息称裁减约 60 名 Grok Imagine 员工"
-    ],
-    [
-      "11-13 22:29",
-      "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323680,
+      "s": 323694,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317160,
+      "s": 317167,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302367,
+      "s": 302376,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232790,
+      "s": 232800,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194064,
+      "s": 194072,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155546,
+      "s": 155551,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147174,
+      "s": 147181,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144567,
+      "s": 144571,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119654,
+      "s": 119657,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117076,
+      "s": 117081,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
