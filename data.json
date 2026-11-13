@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-14T07:01:31",
+  "updated": "2026-11-14T07:31:23",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-14T07:17",
+      "t": "要让 GPT-6 Astra 等通用 AI 当机器人“大脑”：OpenAI 宣布重组具身智能团队",
+      "s": "《财富》昨日（11 月 13 日）发布博文，爆料称 OpenAI 已解散独立机器人团队，并将相关人员调至公司其他部门。O…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/004.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-14T00:50",
@@ -56,13 +63,6 @@
       "t": "AI 助力复活尘封 15 年废案，iOS 4 时代苹果卡片后台界面曝光",
       "s": "据外媒 AppleInsider 今天（13 日）晚间报道，借助 AI 和模拟器技术，一套尘封超过 15 年、从未正式发…（来源：IT之家）",
       "u": "https://www.ithome.com/1/026/959.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-13T22:08",
-      "t": "韩国拟采购无线电探测设备，防范国家资格考试“AI 作弊”",
-      "s": "据新华社报道，由于担心考生利用 AI 眼镜等高科技设备在国家资格考试中作弊，韩国正考虑采取应对措施。韩国最大在野党国民力…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/026/958.htm"
     },
     {
       "c": "MEDDEVICE",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-14 07:17",
+      "要让 GPT-6 Astra 等通用 AI 当机器人“大脑”：OpenAI 宣布重组具身智能团队"
+    ],
+    [
       "11-14 00:50",
       "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人"
     ],
@@ -162,10 +166,6 @@
     [
       "11-13 22:41",
       "再次延期：华为 HarmonyOS 7 小艺 AI 快捷栏 11 月中旬开推，首批含 Pura X View 等"
-    ],
-    [
-      "11-13 22:30",
-      "SpaceXAI 资源向 AI 编程工具与 Grok Bot 倾斜，消息称裁减约 60 名 Grok Imagine 员工"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323786,
+      "s": 323795,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317217,
+      "s": 317223,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302439,
+      "s": 302447,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232865,
+      "s": 232867,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194115,
+      "s": 194125,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155566,
+      "s": 155567,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147267,
+      "s": 147274,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144580,
+      "s": 144582,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119691,
+      "s": 119692,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117127,
+      "s": 117130,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
