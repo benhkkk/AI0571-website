@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-13T08:52', t:'黄仁勋最激进 AI 赌局的“刹车手”：英伟达临时 CEO 克雷斯曾力阻削减 2500 亿美元 OpenAI 豪赌', s:'科技媒体 The Information 昨日（11 月 12 日）发布博文，援引知情人士消息，英伟达临时 CEO 科莱…（来源：IT之家）', u:'https://www.ithome.com/1/026/478.htm'},
+    {c:'HOT', d:'2026-11-13T08:30', t:'夹缝中的Momenta：争名分、留后路｜深度', s:'三年前，Momenta 悄悄招揽哲库芯片团队，成立一家不挂自己名字的芯片公司。算法与硬件捆绑销售，上市前夕却紧急切割口径…（来源：钛媒体）', u:'https://www.tmtpost.com/8203647.html'},
     {c:'MODEL', d:'2026-11-13T08:13', t:'33 年执掌英伟达生涯戛然而止，黄仁勋的约 90 亿美元慈善版图恐面临巨变', s:'《纽约时报》昨日（11 月 12 日）发布博文，报道称黄仁勋辞去英伟达 CEO 一职，不仅震动全球 AI 芯片产业，也令…（来源：IT之家）', u:'https://www.ithome.com/1/026/472.htm'},
     {c:'HOT', d:'2026-11-13T08:04', t:'贾跃亭法拉第未来 FFR 机器人业务 2026 年前九个月收入约 230 万美元，计划 2027 年一季度进入芝加哥和达拉斯', s:'法拉第未来（Faraday Future，简称 FF）旗下具身智能与机器人业务实体 FF EAI Robotics Ec…（来源：IT之家）', u:'https://www.ithome.com/1/026/471.htm'},
     {c:'MODEL', d:'2026-11-13T08:00', t:'早报｜黄仁勋仍为英伟达最大个人股东/豆包工作接入多款第三方模型/微信「看一看」测试短剧入口', s:'· 接近腾讯人士称「裁员 50%」传闻不实，管理层提出两条 AI 转型路线 · 张雪：今年已经挣到了「一个小目标」 · …（来源：爱范儿）', u:'https://www.ifanr.com/1689292?utm_source=rss&utm_medium=rss&utm_campaign='},
@@ -467,38 +469,36 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-13T07:33', t:'Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利', s:'当地时间 11 月 12 日，美国公司 Flinn Artificial Intelligence (AI) Techn…（来源：IT之家）', u:'https://www.ithome.com/1/026/464.htm'},
     {c:'MODEL', d:'2026-11-13T07:11', t:'刚刚，Gemini 4 新模型叒来了，终于人人可用', s:'更快更便宜还更聪明#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-11-13T06:52', t:'超 740 亿美元砸向 AI：马斯克的 SpaceX 不光造火箭，还要建超级算力帝国', s:'全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司昨日（11 月 12 日）宣布，计划在得克萨斯州和…（来源：IT之家）', u:'https://www.ithome.com/1/026/455.htm'},
+    {c:'MODEL', d:'2026-11-13T05:00', t:'Argus v0.5.0 发布：纯 Rust 与 GPU 原生绘制的现代 Windows 任务管理器（已获 1.4k Star）', s:'开源现代 Windows 任务管理器 Argus 现已正式发布 v0.5.0 版本。目前项目在 GitHub 上已获得超…（来源：OSCHINA）', u:'https://www.oschina.net/news/503550'},
     {c:'MODEL', d:'2026-11-13T02:17', t:'谷歌发布 Gemini 4 Hydrogen 模型：主打日常编程与智能体工作流，百万 Token 输入 1.5 美元', s:'谷歌正式推出 Gemini 4 Hydrogen 模型，主打快速执行与高效运行，面向日常编码和智能体工作流场景，将 Ge…（来源：IT之家）', u:'https://www.ithome.com/1/026/446.htm'},
     {c:'MEDPHARMA', d:'2026-11-12T23:31', t:'从买管线资产转向“买能力”，AI制药平台型合作将成主流?', s:'从买管线资产转向“买能力”，AI制药平台型合作将成主流?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7707307943288390179/'},
     {c:'HOT', d:'2026-11-12T21:42', t:'Chinese Workers Are Paying Their Own AI Bills to Stay Productive', s:'Chinese Workers Are Paying Their Own AI Bills to S…（来源：钛媒体）', u:'https://www.tmtpost.com/8203536.html'},
     {c:'MODEL', d:'2026-11-12T21:23', t:'今天起，豆包工作接入更多模型了', s:'11月12日，豆包工作宣布正式接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash …（来源：钛媒体）', u:'https://www.tmtpost.com/8202629.html'},
     {c:'MODEL', d:'2026-11-12T21:23', t:'实测百度文心5.5 Flash Preview：审美依然在线，编程全力争先', s:'百度发布最新基础模型，编程、3D 建模、知识工作、内容创作等表现突出。（来源：钛媒体）', u:'https://www.tmtpost.com/8202831.html'},
-    {c:'MODEL', d:'2026-11-12T19:58', t:'上下水版 2999 → 678 元：科沃斯全能基站扫拖机器人“地宝 mini2”破冰新低', s:'科沃斯 2025 年 4 月发布了科沃斯地宝 mini 2，水箱版定价 2199 元，上下水版定价 2999 元。今日上…（来源：IT之家）', u:'https://www.ithome.com/1/026/367.htm'},
     {c:'MODEL', d:'2026-11-12T19:36', t:'多模态“源神”！MiniMax开源SOTA生图模型，原生4K，一张两毛', s:'「CAD拆解」（来源：量子位）', u:'https://www.qbitai.com/2026/11/509440.html'},
     {c:'MODEL', d:'2026-11-12T18:47', t:'iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？| 附开通指南', s:'这是一个更好的 Siri，但还不是一个合格的 Agent#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更…（来源：爱范儿）', u:'https://www.ifanr.com/1688980?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-12T18:45', t:'从通用大模型到学习过程智能，AI如何真正进入课堂？', s:'银河智学首席科学家邓澍军博士发表主题演讲（来源：量子位）', u:'https://www.qbitai.com/2026/11/509404.html'},
     {c:'HOT', d:'2026-11-12T18:36', t:'00后华人女孩们，成硅谷AI新贵', s:'名校退学、大厂离职， 5位华人女孩拿下600亿估值。（来源：钛媒体）', u:'https://www.tmtpost.com/8203090.html'},
-    {c:'HOT', d:'2026-11-12T18:22', t:'两城双子星，正在完成中国AI产业闭环。', s:'谁能提供真正的"超级接口“（来源：钛媒体）', u:'https://www.tmtpost.com/8202784.html'},
-    {c:'FUNDING', d:'2026-11-12T18:11', t:'Anthropic启动IPO路演，估值已缩水6000亿美元', s:'全世界都在踩刹车，达里奥一个人踩油门（来源：量子位）', u:'https://www.qbitai.com/2026/11/509381.html'},
   ];
   const TIMELINE = [
+    ['11-13 08:52','黄仁勋最激进 AI 赌局的“刹车手”：英伟达临时 CEO 克雷斯曾力阻削减 2500 亿美元 OpenAI 豪赌'],
+    ['11-13 08:30','夹缝中的Momenta：争名分、留后路｜深度'],
     ['11-13 08:13','33 年执掌英伟达生涯戛然而止，黄仁勋的约 90 亿美元慈善版图恐面临巨变'],
     ['11-13 08:04','贾跃亭法拉第未来 FFR 机器人业务 2026 年前九个月收入约 230 万美元，计划 2027 年一季度进入芝加哥和达拉斯'],
     ['11-13 08:00','早报｜黄仁勋仍为英伟达最大个人股东/豆包工作接入多款第三方模型/微信「看一看」测试短剧入口'],
     ['11-13 07:56','Hugging Face CEO 哀叹黄仁勋从英伟达离职：“令人无比难过的一天”，承诺继续力挺开源 AI'],
-    ['11-13 07:46','边警告 AI 风险边开发先进模型：OpenAI、Anthropic、谷歌等五家 AI 巨头遭起诉，被要求叫停 ChatGPT、Claude、Gemini'],
-    ['11-13 07:33','Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:323005, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:316768, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:302021, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:232546, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:193697, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155447, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:146754, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:323017, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:316776, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:302025, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:232551, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:193700, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155451, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:146764, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144516, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:119428, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:116663, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:119436, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:116674, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
