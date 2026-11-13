@@ -1,12 +1,19 @@
 {
-  "updated": "2026-11-13T07:32:14",
+  "updated": "2026-11-13T08:01:50",
   "news": [
     {
       "c": "MODEL",
-      "d": "2026-11-13T07:11",
-      "t": "刚刚，Gemini 4 新模型叒来了，终于人人可用",
-      "s": "更快更便宜还更聪明#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1689267?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-11-13T07:46",
+      "t": "边警告 AI 风险边开发先进模型：OpenAI、Anthropic、谷歌等五家 AI 巨头遭起诉，被要求叫停 ChatGPT、Gemini、Claude",
+      "s": "当地时间 11 月 12 日，四家非营利组织向旧金山高等法院提起诉讼，将 OpenAI、Anthropic、谷歌、Met…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/466.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-13T07:33",
+      "t": "Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利",
+      "s": "当地时间 11 月 12 日，美国公司 Flinn Artificial Intelligence (AI) Techn…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/464.htm"
     },
     {
       "c": "HOT",
@@ -87,13 +94,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-12T18:47",
-      "t": "iPhone Siri AI 体验：距离真正的 AI Phone，苹果还有多远？| 附开通指南",
-      "s": "这是一个更好的 Siri，但还不是一个合格的 Agent#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1688980?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-12T18:45",
       "t": "从通用大模型到学习过程智能，AI如何真正进入课堂？",
       "s": "银河智学首席科学家邓澍军博士发表主题演讲（来源：量子位）",
@@ -129,23 +129,27 @@
     },
     {
       "c": "FUNDING",
-      "d": "2026-11-12T17:47",
-      "t": "10个月融资20轮，第三方AI Infra为何越有争议越抢手？",
-      "s": "海外Neocloud（新云厂商）的融资模式遭到质疑，国内第三方AI Infra企业的融资却在加速。上月，无问芯穹、清程极…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/ouA8GvSp9LIhZPmp.html"
-    },
-    {
-      "c": "FUNDING",
       "d": "2026-11-12T17:42",
       "t": "机器人泡沫在老股市场漏了气",
       "s": "具身智能融资仍热，星尘智能新一轮 10 亿、估值 150 亿；但部分老股东按上轮估值六五至八折出让老股，买家谨慎。新资金…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8203031.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-12T17:34",
+      "t": "让AI真正懂业务：璇玑如何成为企业AI的语义基础设施",
+      "s": "企业 AI 的难题，不只是模型够不够强（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/509349.html"
     }
   ],
   "timeline": [
     [
-      "11-13 07:11",
-      "刚刚，Gemini 4 新模型叒来了，终于人人可用"
+      "11-13 07:46",
+      "边警告 AI 风险边开发先进模型：OpenAI、Anthropic、谷歌等五家 AI 巨头遭起诉，被要求叫停 ChatGPT、Gemini、Claude"
+    ],
+    [
+      "11-13 07:33",
+      "Anthropic、OpenAI 遭专利诉讼，被指侵犯五项神经网络技术专利"
     ],
     [
       "11-13 06:52",
@@ -162,10 +166,6 @@
     [
       "11-12 23:31",
       "从买管线资产转向“买能力”，AI制药平台型合作将成主流?"
-    ],
-    [
-      "11-12 21:42",
-      "Chinese Workers Are Paying Their Own AI Bills to Stay Productive"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 322989,
+      "s": 322999,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 316756,
+      "s": 316760,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302009,
+      "s": 302017,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232540,
+      "s": 232544,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 193688,
+      "s": 193694,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155441,
+      "s": 155443,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 146740,
+      "s": 146747,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144514,
+      "s": 144515,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119420,
+      "s": 119424,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 116645,
+      "s": 116656,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
