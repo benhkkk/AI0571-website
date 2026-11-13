@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-13T21:30', t:'韩企雄心勃勃规划吉瓦级数据中心，但目前仅有兆瓦级规模设施落地', s:'据韩媒 The Elec 今天（13 日）晚间报道，为满足日益增长的 AI 需求，KT、SK 电讯、Naver 和 NH…（来源：IT之家）', u:'https://www.ithome.com/1/026/951.htm'},
+    {c:'MODEL', d:'2026-11-13T21:10', t:'Anthropic 连发多条故障通报：微软服务中断波及 Claude', s:'微软 Microsoft 365 遭遇了近年来最严重的服务故障之一，Exchange Online、Outlook、Sh…（来源：IT之家）', u:'https://www.ithome.com/1/026/948.htm'},
     {c:'MODEL', d:'2026-11-13T19:07', t:'Gentle Monster / Warby Parker 将于下月推出 Android XR 智能眼镜：均搭载高通 AR1 芯片，接入谷歌 Gemini', s:'知名眼镜品牌 Gentle Monster 和 Warby Parker 各自宣布将于下月推出首款基于 Android …（来源：IT之家）', u:'https://www.ithome.com/1/026/931.htm'},
     {c:'MODEL', d:'2026-11-13T18:52', t:'Blackmagic Ambisonic Microphone 专业麦克风发布：内置 108 个 MEMS 单元，主打空间音频采集，1695 美元', s:'Blackmagic Design 今日发布了一款面向专业影视制作领域的全新麦克风 Blackmagic Ambison…（来源：IT之家）', u:'https://www.ithome.com/1/026/929.htm'},
     {c:'HOT', d:'2026-11-13T18:52', t:'China’s Internet Giants Are Listing AI Units Because the Parent Stock Will Not Price Them', s:'China’s Internet Giants Are Listing AI Units Becau…（来源：钛媒体）', u:'https://www.tmtpost.com/8204635.html'},
@@ -468,37 +470,35 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-13T18:31', t:'Claude 出现大量报错，Anthropic 官方公告称正在调查', s:'根据 Claude Status 网站，网友反馈 claude.ai、Claude Code 和 platform.cl…（来源：IT之家）', u:'https://www.ithome.com/1/026/905.htm'},
     {c:'HOT', d:'2026-11-13T18:22', t:'BBC 曝光英国“房源照骗”现象：有中介、卖家开始用 AI 伪造或美化房屋', s:'房源照片是网上售房信息中最重要的内容之一。买家通常会先看照片，再判断房屋是否符合自己的需求和购房预期。但随着 AI 技术…（来源：IT之家）', u:'https://www.ithome.com/1/026/904.htm'},
     {c:'HOT', d:'2026-11-13T17:56', t:'Anthropic想给算力债“找下家”', s:'为了5180亿美元的“算力房租”，Anthropic冲击史上最大IPO。（来源：钛媒体）', u:'https://www.tmtpost.com/8203967.html'},
-    {c:'MODEL', d:'2026-11-13T17:52', t:'微软 XBOX 25 周年，CEO 夏尔马称个人将能掌握过去需“举国之力”获得的能力', s:'当地时间 12 日下午，微软 XBOX 负责人阿莎 · 夏尔马发布了一份备忘录，暗示未来可能利用生成式 AI 辅助游戏开…（来源：IT之家）', u:'https://www.ithome.com/1/026/885.htm'},
     {c:'MODEL', d:'2026-11-13T17:32', t:'通用代码生成器光船，特默尔尝鲜版二，人工智能设置项目会话', s:'通用代码生成器光船，特默尔尝鲜版二，人工智能设置项目会话 通用代码生成器光船已发布1.1.0特默尔尝鲜版二。特默尔尝鲜版…（来源：OSCHINA）', u:'https://www.oschina.net/news/503572'},
     {c:'INDUSTRY', d:'2026-11-13T17:05', t:'中金公司与蚂蚁集团达成战略合作 共探AI赋能财富管理', s:'11月13日，中国国际金融股份有限公司（简称“中金公司”）与蚂蚁科技集团股份有限公司（简称“蚂蚁集团”）签署战略合作协议…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/U7WtbV9kyb90UuZ0.html'},
     {c:'FUNDING', d:'2026-11-13T17:04', t:'独家丨一家主动灭火的智慧消防公司，融资超千万', s:'把 AI 用在“水火之间”——菲思拓的整体方案，已接入超三万家单位。作者丨陈玘凡编辑丨吴优雷峰网·鲸犀独家获悉，做主动灭…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/c3euXbtYsl0O6fm2.html'},
-    {c:'MEDPHARMA', d:'2026-11-13T17:02', t:'我国科学家提出肺结节 AI 辅助诊断新方法：模拟医生看片子流程，判断更准确', s:'中国科学院合肥物质院健康所 / 合肥肿瘤医院科研团队近期联合国内外多家单位，在肺癌诊断研究方面取得进展，发展了一种基于胸…（来源：IT之家）', u:'https://www.ithome.com/1/026/860.htm'},
+    {c:'HOT', d:'2026-11-13T17:02', t:'黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿', s:'一个时代结束了（来源：量子位）', u:'https://www.qbitai.com/2026/11/509995.html'},
     {c:'INDUSTRY', d:'2026-11-13T16:51', t:'独家｜石头前国内销售负责人李明加入追觅，出任中国区核心高管', s:'国内扫地机器人市场竞争持续白热化（来源：钛媒体）', u:'https://www.tmtpost.com/8204378.html'},
     {c:'HOT', d:'2026-11-13T16:41', t:'黄仁勋辞职，英伟达失去的不是一个CEO', s:'黄仁勋用了三十多年，把英伟达从一家游戏显卡公司带到了AI产业中心。（来源：钛媒体）', u:'https://www.tmtpost.com/8203637.html'},
+    {c:'HOT', d:'2026-11-13T15:51', t:'MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！', s:'12.9 北京，来MEET2027现场（来源：量子位）', u:'https://www.qbitai.com/2026/11/509827.html'},
+    {c:'MEDPHARMA', d:'2026-11-13T15:43', t:'中国AI突破复杂肺癌诊疗！中美医疗圈集体坐不住了', s:'250名国内顶尖三甲医院医生联合评测（来源：量子位）', u:'https://www.qbitai.com/2026/11/509796.html'},
     {c:'MODEL', d:'2026-11-13T15:40', t:'中大梁小丹团队，GeoThinker 两项研究成果，破除空间推理「几何信息用不好、计算开销大」难题', s:'不再实时调用外部三维几何编码器，视觉语言模型空间推理提速约 3.6 倍。 作者丨张岂萍 编辑丨幸丽娟 给视觉语言模型多塞…（来源：雷锋网）', u:'https://www.leiphone.com/category/academic/FpJFXrs9xGOOewKA.html'},
-    {c:'INDUSTRY', d:'2026-11-13T15:27', t:'京博控股集团与千问办公达成战略合作，共创化工行业AI Native标杆', s:'近日，京博控股集团与千问办公达成战略合作，明确全集团将基于千问办公打造AI Native组织。后续双方将围绕科研创新、生…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/TVkq6K4xkcX9zKSN.html'},
-    {c:'HOT', d:'2026-11-13T14:54', t:'李彦宏，为什么要建一座AI时代的新厂房？', s:'“智能组织”，从哪儿改？（来源：钛媒体）', u:'https://www.tmtpost.com/8203362.html'},
-    {c:'HOT', d:'2026-11-13T14:34', t:'AI 时代，公司的「新厂房」长什么样？', s:'真正决定公司未来十年身位的，是谁先动手重建那座名叫「智能组织」的新厂房。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：…（来源：爱范儿）', u:'https://www.ifanr.com/1689182?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['11-13 21:30','韩企雄心勃勃规划吉瓦级数据中心，但目前仅有兆瓦级规模设施落地'],
+    ['11-13 21:10','Anthropic 连发多条故障通报：微软服务中断波及 Claude'],
     ['11-13 19:07','Gentle Monster / Warby Parker 将于下月推出 Android XR 智能眼镜：均搭载高通 AR1 芯片，接入谷歌 Gemini'],
     ['11-13 18:52','Blackmagic Ambisonic Microphone 专业麦克风发布：内置 108 个 MEMS 单元，主打空间音频采集，1695 美元'],
     ['11-13 18:52','China’s Internet Giants Are Listing AI Units Because the Parent Stock Will Not P…'],
     ['11-13 18:51','韩国有关部门：黄仁勋离任 CEO 不影响英伟达 26 万块 GPU 供应计划'],
-    ['11-13 18:47','开源欧拉 openEuler 发布面向 Agentic Infra 的操作系统，国内累计装机量预计超 2200 万套'],
-    ['11-13 18:42','大厂搞AI的尽头，是拆家上市？'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:323438, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:317035, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:302244, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:232701, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:193953, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155519, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:147023, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144552, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:119592, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:116989, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:323465, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:317042, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:302259, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:232705, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:193960, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155523, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:147039, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144555, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:119598, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:116998, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
