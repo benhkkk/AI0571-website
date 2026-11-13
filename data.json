@@ -1,6 +1,34 @@
 {
-  "updated": "2026-11-13T22:31:41",
+  "updated": "2026-11-13T23:01:29",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-13T22:30",
+      "t": "SpaceXAI 资源向 AI 编程工具与 Grok Bot 倾斜，消息称裁减约 60 名 Grok Imagine 员工",
+      "s": "据 The Information 引述知情人士消息，SpaceXAI 已对旗下视频与图像生成 AI 工具 Grok I…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/961.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-13T22:29",
+      "t": "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App",
+      "s": "今天（13 日）晚间，DeepSeek 宣布正式开放全家桶应用 API：在原有 API 中开启对应参数，即可获得深度思考…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/960.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-13T22:23",
+      "t": "AI 助力复活尘封 15 年废案，iOS 4 时代苹果卡片后台界面曝光",
+      "s": "据外媒 AppleInsider 今天（13 日）晚间报道，借助 AI 和模拟器技术，一套尘封超过 15 年、从未正式发…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/959.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-13T22:08",
+      "t": "韩国拟采购无线电探测设备，防范国家资格考试“AI 作弊”",
+      "s": "据新华社报道，由于担心考生利用 AI 眼镜等高科技设备在国家资格考试中作弊，韩国正考虑采取应对措施。韩国最大在野党国民力…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/026/958.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-13T21:30",
@@ -37,39 +65,11 @@
       "u": "https://www.tmtpost.com/8204635.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-13T18:51",
-      "t": "韩国有关部门：黄仁勋离任 CEO 不影响英伟达 26 万块 GPU 供应计划",
-      "s": "据路透社报道，韩国科学技术信息通信部部长裴庆勋表示，英伟达确认将按计划向韩国供应 26 万块先进 GPU，履行此前作出的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/026/927.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-13T18:47",
-      "t": "开源欧拉 openEuler 发布面向 Agentic Infra 的操作系统，国内累计装机量预计超 2200 万套",
-      "s": "在今日举行的 Agentic Infra 操作系统大会 & openEuler Summit 2026 上，开源欧拉 o…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/026/911.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-11-13T18:42",
       "t": "大厂搞AI的尽头，是拆家上市？",
       "s": "不是谷歌学不起，拆开卖更有性价比（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8204039.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-13T18:31",
-      "t": "Claude 出现大量报错，Anthropic 官方公告称正在调查",
-      "s": "根据 Claude Status 网站，网友反馈 claude.ai、Claude Code 和 platform.cl…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/026/905.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-13T18:22",
-      "t": "BBC 曝光英国“房源照骗”现象：有中介、卖家开始用 AI 伪造或美化房屋",
-      "s": "房源照片是网上售房信息中最重要的内容之一。买家通常会先看照片，再判断房屋是否符合自己的需求和购房预期。但随着 AI 技术…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/026/904.htm"
     },
     {
       "c": "HOT",
@@ -144,28 +144,28 @@
   ],
   "timeline": [
     [
+      "11-13 22:30",
+      "SpaceXAI 资源向 AI 编程工具与 Grok Bot 倾斜，消息称裁减约 60 名 Grok Imagine 员工"
+    ],
+    [
+      "11-13 22:29",
+      "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App"
+    ],
+    [
+      "11-13 22:23",
+      "AI 助力复活尘封 15 年废案，iOS 4 时代苹果卡片后台界面曝光"
+    ],
+    [
+      "11-13 22:08",
+      "韩国拟采购无线电探测设备，防范国家资格考试“AI 作弊”"
+    ],
+    [
       "11-13 21:30",
       "韩企雄心勃勃规划吉瓦级数据中心，但目前仅有兆瓦级规模设施落地"
     ],
     [
       "11-13 21:10",
       "Anthropic 连发多条故障通报：微软服务中断波及 Claude"
-    ],
-    [
-      "11-13 19:07",
-      "Gentle Monster / Warby Parker 将于下月推出 Android XR 智能眼镜：均搭载高通 AR1 芯片，接入谷歌 Gemini"
-    ],
-    [
-      "11-13 18:52",
-      "Blackmagic Ambisonic Microphone 专业麦克风发布：内置 108 个 MEMS 单元，主打空间音频采集，1695 美元"
-    ],
-    [
-      "11-13 18:52",
-      "China’s Internet Giants Are Listing AI Units Because the Parent Stock Will Not P…"
-    ],
-    [
-      "11-13 18:51",
-      "韩国有关部门：黄仁勋离任 CEO 不影响英伟达 26 万块 GPU 供应计划"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323507,
+      "s": 323536,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317078,
+      "s": 317090,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302283,
+      "s": 302286,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232722,
+      "s": 232736,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 193986,
+      "s": 193999,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155527,
+      "s": 155531,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147074,
+      "s": 147085,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144560,
+      "s": 144563,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119617,
+      "s": 119619,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117018,
+      "s": 117024,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
