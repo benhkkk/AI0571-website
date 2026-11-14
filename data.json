@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-14T08:31:49",
+  "updated": "2026-11-14T09:01:37",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-14T08:51",
+      "t": "Edge AI Daily 早报（11月14日）",
+      "s": "英伟达黄仁勋辞任触发治理与出口审查重估，股价盘中跌破4万亿美元后修复；微软365全球中断暴露云集中化单点风险。Anthr…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8204969.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-14T08:14",
@@ -73,13 +80,6 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-13T19:26",
-      "t": "招商证券:AI制药竞争转向数据与研发闭环",
-      "s": "招商证券:AI制药竞争转向数据与研发闭环（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7707615932142617130/"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-11-13T19:06",
       "t": "英矽智能与罗欣药业达成AI制药长期战略合作",
       "s": "英矽智能与罗欣药业达成AI制药长期战略合作（来源：头条医药AI）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-14 08:51",
+      "Edge AI Daily 早报（11月14日）"
+    ],
+    [
       "11-14 08:14",
       "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型"
     ],
@@ -162,10 +166,6 @@
     [
       "11-13 22:50",
       "鸿蒙智行问界新 M8 旗舰 SUV 上市 2 小时大定破 4600 台，37.98 万元起"
-    ],
-    [
-      "11-13 22:50",
-      "黄仁勋辞任英伟达 CEO，或给 Anthropic 下周“史上最大 IPO”添变数"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323820,
+      "s": 323834,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317234,
+      "s": 317240,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302459,
+      "s": 302469,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232877,
+      "s": 232879,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194139,
+      "s": 194145,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147293,
+      "s": 147294,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144581,
+      "s": 144583,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119695,
+      "s": 119700,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117141,
+      "s": 117148,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
