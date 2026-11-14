@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-14T08:01:45",
+  "updated": "2026-11-14T08:03:05",
   "news": [
     {
       "c": "MODEL",
@@ -73,13 +73,6 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-13T19:26",
-      "t": "招商证券:AI制药竞争转向数据与研发闭环",
-      "s": "招商证券:AI制药竞争转向数据与研发闭环（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7707615932142617130/"
-    },
-    {
-      "c": "MEDPHARMA",
       "d": "2026-11-13T19:06",
       "t": "英矽智能与罗欣药业达成AI制药长期战略合作",
       "s": "英矽智能与罗欣药业达成AI制药长期战略合作（来源：头条医药AI）",
@@ -140,6 +133,13 @@
       "t": "独家｜石头前国内销售负责人李明加入追觅，出任中国区核心高管",
       "s": "国内扫地机器人市场竞争持续白热化（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8204378.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-13T16:41",
+      "t": "黄仁勋辞职，英伟达失去的不是一个CEO",
+      "s": "黄仁勋用了三十多年，把英伟达从一家游戏显卡公司带到了AI产业中心。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8203637.html"
     }
   ],
   "timeline": [
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194131,
+      "s": 194132,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117137,
+      "s": 117136,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
