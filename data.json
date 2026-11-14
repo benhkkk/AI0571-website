@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-14T14:31:20",
+  "updated": "2026-11-14T14:49:07",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-14T14:33",
+      "t": "想用AI造芯片？芯片工程师笑了",
+      "s": "AI芯片设计的冷与热。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8205198.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-14T13:31",
@@ -133,16 +140,13 @@
       "t": "黄仁勋辞职，英伟达33年首换帅，市值蒸发超3万亿",
       "s": "一个时代结束了（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/509995.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-13T15:51",
-      "t": "MEET2027含金量再加码：AI4S/量子计算/AI Infra…第二批嘉宾强势来袭！",
-      "s": "12.9 北京，来MEET2027现场（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/509827.html"
     }
   ],
   "timeline": [
+    [
+      "11-14 14:33",
+      "想用AI造芯片？芯片工程师笑了"
+    ],
     [
       "11-14 13:31",
       "谷歌高管借 Gemini AI 成功让苹果 iPhone Duo 运行微软 Win11"
@@ -162,10 +166,6 @@
     [
       "11-14 11:30",
       "Outlook 等服务故障期间征集 AI 技巧，微软推文变成网友吐槽现场"
-    ],
-    [
-      "11-14 11:25",
-      "这只AI广告股迎史上最强单日表现，分析师称其股价可能翻倍"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323959,
+      "s": 323971,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317324,
+      "s": 317327,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302555,
+      "s": 302561,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232941,
+      "s": 232945,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194234,
+      "s": 194237,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155598,
+      "s": 155600,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147380,
+      "s": 147383,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119735,
+      "s": 119737,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117238,
+      "s": 117243,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
