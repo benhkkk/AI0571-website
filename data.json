@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-14T13:31:37",
+  "updated": "2026-11-14T14:01:49",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-14T13:31",
+      "t": "谷歌高管借 Gemini AI 成功让苹果 iPhone Duo 运行微软 Win11",
+      "s": "谷歌 AI Studio 产品与设计负责人阿马尔 · 雷希（Ammaar Reshi）于 11 月 12 日在 X 平台…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/118.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-14T13:05",
@@ -73,13 +80,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-14T08:14",
-      "t": "本地推理引擎 llama.cpp 1.0.0 史诗级更新：支持超 150 种模型架构，断网也能满血跑大模型",
-      "s": "开发者 Georgi Gerganov（X 账号为 @ggerganov）昨日（11 月 13 日）在 X 平台发布推文…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/019.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-14T00:50",
       "t": "浙大彭思达：从元宇宙到具身智能，一个三维视觉研究者的八年 | 世界模型50人",
       "s": "八年研究，两个落地系统，超六万GitHub Stars。 作者丨李秋悦 编辑丨吴 彤 一支女团跳舞，镜头不必再听导演安排…（来源：雷锋网）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-14 13:31",
+      "谷歌高管借 Gemini AI 成功让苹果 iPhone Duo 运行微软 Win11"
+    ],
+    [
       "11-14 13:05",
       "微软 14 年 AI 老将离职：称创新难落地，降本研究未获认真考虑"
     ],
@@ -162,10 +166,6 @@
     [
       "11-14 10:11",
       "苹果推送 tvOS 27.2.1 更新，第二 / 第三代 Apple TV 4K 新增 Siri AI 支持"
-    ],
-    [
-      "11-14 09:58",
-      "实现“躺平式办公”：Mac 版 Perplexity 上线“AI 队友”，组建你的全天候数字员工"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 323918,
+      "s": 323938,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317306,
+      "s": 317313,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 302542,
+      "s": 302545,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 232934,
+      "s": 232936,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194208,
+      "s": 194222,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155592,
+      "s": 155596,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147361,
+      "s": 147370,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144597,
+      "s": 144599,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 119726,
+      "s": 119730,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117219,
+      "s": 117224,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
