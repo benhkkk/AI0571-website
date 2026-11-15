@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-15T17:01:57",
+  "updated": "2026-11-15T17:31:29",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-15T16:58",
+      "t": "开发者借助 Claude 开发出体积仅 97KB 水下探索模拟项目 Abyssal Garden",
+      "s": "据 XDA 报道，一位开发者 Any-Reputation8118 利用 Anthropic Claude 编写代码，开…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/406.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-15T16:39",
+      "t": "快手公益启动“启智星计划”：利用 AI 创新教育、未来三年将覆盖 2000 所乡村学校",
+      "s": "快手公益宣布启动“启智星”AI 赋能教育共建计划，将在 10 个县域各建立由教育局、学校、基金会三方协作的共建单元，为 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/400.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-15T16:21",
@@ -39,7 +53,7 @@
     {
       "c": "MODEL",
       "d": "2026-11-15T15:37",
-      "t": "智能大迁移，AI如何重写影视业的成本、资本与权力",
+      "t": "T-DEGE 2026前瞻①｜AI如何重写影视业的成本、资本与权力",
       "s": "AI改写行业，谁先交卷？钛媒体《智能大迁移》将从十个问题出发，观察AI如何从模型之争落地到千行百业。接下来我们还会整理更…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8205257.html"
     },
@@ -56,20 +70,6 @@
       "t": "爱好者将索尼 PS5 独占的 TGA 2024 年度游戏《宇宙机器人》移植到 PC 平台",
       "s": "据外媒 ComputerBase 报道，近期有爱好者 imnotsharingmyname 将索尼 PS5 独占的 TG…（来源：IT之家）",
       "u": "https://www.ithome.com/1/027/343.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-15T15:10",
-      "t": "黄仁勋辞任英伟达 CEO，AI 初创企业融资面临变局",
-      "s": "这是一场震动全球科技行业的人事变动。执掌英伟达 33 年、共同创立这家芯片巨头的首席执行官黄仁勋（Jensen Huan…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/339.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-15T14:50",
-      "t": "Stellantis 获新型电动拖车专利，利用 AI 助力让普通小车也能拖挂房车",
-      "s": "据外媒 electrek 报道，Stellantis 近期获得了一项颇具创意的电动拖车装置专利，计划通过搭载电机、电池及…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/332.htm"
     },
     {
       "c": "FUNDING",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-15 16:58",
+      "开发者借助 Claude 开发出体积仅 97KB 水下探索模拟项目 Abyssal Garden"
+    ],
+    [
+      "11-15 16:39",
+      "快手公益启动“启智星计划”：利用 AI 创新教育、未来三年将覆盖 2000 所乡村学校"
+    ],
+    [
       "11-15 16:21",
       "利用 AI 将国漫角色改成情色形象，7 名“黄图画师”获刑"
     ],
@@ -158,14 +166,6 @@
     [
       "11-15 15:56",
       "大众 ID.Buzz 变身自动驾驶出租车，May Mobility 计划到 2031 年投放 1 万辆"
-    ],
-    [
-      "11-15 15:55",
-      "韩国税务师“状元”考生 160 题仅错 1 题，利用 AI 作弊惊动青瓦台"
-    ],
-    [
-      "11-15 15:37",
-      "智能大迁移，AI如何重写影视业的成本、资本与权力"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 324658,
+      "s": 324670,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317776,
+      "s": 317781,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303400,
+      "s": 303415,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233238,
+      "s": 233244,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194840,
+      "s": 194857,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155723,
+      "s": 155725,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147981,
+      "s": 147990,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144669,
+      "s": 144670,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120232,
+      "s": 120242,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117690,
+      "s": 117698,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
