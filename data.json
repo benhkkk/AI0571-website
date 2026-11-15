@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-15T18:01:39",
+  "updated": "2026-11-15T18:31:05",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-15T18:12",
+      "t": "应对 AI 漏洞挖掘挑战：谷歌 Project Zero 计划将逐步缩短漏洞公开披露期限至 30 天",
+      "s": "自 2021 年以来，谷歌漏洞挖掘计划 Project Zero 一直奉行“90 + 30”漏洞披露政策，即允许厂商在最…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/423.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-15T18:09",
+      "t": "前 OpenAI 研究员：当前活着的人最有可能死于 AI 失控",
+      "s": "人工智能失控导致人类灭绝，听起来或许像科幻电影中的情节，但前 OpenAI 研究员保罗 · 克里斯蒂亚诺（Paul Ch…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/419.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-15T17:26",
@@ -51,25 +65,11 @@
       "u": "https://www.ithome.com/1/027/358.htm"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-15T15:55",
-      "t": "韩国税务师“状元”考生 160 题仅错 1 题，利用 AI 作弊惊动青瓦台",
-      "s": "据韩联社今日报道，韩国总统秘书室长（幕僚长）林光铉 15 日表示，针对今年税务师考试第一名利用微型摄像头和人工智能（AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/357.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-15T15:37",
       "t": "T-DEGE 2026前瞻①｜AI如何重写影视业的成本、资本与权力",
       "s": "AI改写行业，谁先交卷？钛媒体《智能大迁移》将从十个问题出发，观察AI如何从模型之争落地到千行百业。接下来我们还会整理更…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8205257.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-15T15:35",
-      "t": "消息称三星 One UI 9.5 系统将为多数自带应用带来智能体 AI 功能",
-      "s": "据科技媒体 Sammobile 昨天报道，三星 One UI 9.5 系统将为高端 Galaxy 手机和平板电脑带来系统…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/349.htm"
     },
     {
       "c": "FUNDING",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-15 18:12",
+      "应对 AI 漏洞挖掘挑战：谷歌 Project Zero 计划将逐步缩短漏洞公开披露期限至 30 天"
+    ],
+    [
+      "11-15 18:09",
+      "前 OpenAI 研究员：当前活着的人最有可能死于 AI 失控"
+    ],
+    [
       "11-15 17:26",
       "利用 Claude 辅助编程：爱好者将 Seeed Studio“电子墨水屏便利贴”改造为苹果 Apple TV 遥控器"
     ],
@@ -158,14 +166,6 @@
     [
       "11-15 16:21",
       "利用 AI 将国漫角色改成情色形象，7 名“黄图画师”获刑"
-    ],
-    [
-      "11-15 16:15",
-      "消息称 SK 海力士加快设备投资进度，进一步扩大 HBM4 产能"
-    ],
-    [
-      "11-15 16:06",
-      "当Gemini被戏称为“美国豆包”，张一鸣也活成了“中国布林”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 324686,
+      "s": 324703,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317796,
+      "s": 317806,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303430,
+      "s": 303441,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233249,
+      "s": 233255,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194886,
+      "s": 194909,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155730,
+      "s": 155732,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148004,
+      "s": 148026,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144674,
+      "s": 144677,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120255,
+      "s": 120264,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117705,
+      "s": 117712,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
