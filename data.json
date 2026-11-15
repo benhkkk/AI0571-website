@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T07:01:58",
+  "updated": "2026-11-16T07:31:41",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-15T23:07",
+      "t": "字节 AI 制药公司估值 15 亿美元:科技巨头集体押注 AI 制药",
+      "s": "字节 AI 制药公司估值 15 亿美元:科技巨头集体押注 AI 制药（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7708414594959573544/"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-15T21:42",
@@ -129,20 +136,17 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-14T21:59",
-      "t": "药企靠爆款续命，AI制药会打破这种局面吗?",
-      "s": "药企靠爆款续命，AI制药会打破这种局面吗?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7708025945395331593/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-14T18:08",
-      "t": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "s": "马斯克也签名了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/510297.html"
+      "d": "2026-11-14T23:43",
+      "t": "用第一性原理看待AI制药:AI究竟改变了药物发现的什么?",
+      "s": "用第一性原理看待AI制药:AI究竟改变了药物发现的什么?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7708053206940647970/"
     }
   ],
   "timeline": [
+    [
+      "11-15 23:07",
+      "字节 AI 制药公司估值 15 亿美元:科技巨头集体押注 AI 制药"
+    ],
     [
       "11-15 21:42",
       "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试"
@@ -162,10 +166,6 @@
     [
       "11-15 19:03",
       "澳大利亚央行研究：AI 最先冲击年轻劳动者，尤其是软件、客服岗位"
-    ],
-    [
-      "11-15 18:27",
-      "Gartner 预测：到 2030 年全球将因 AI 净增加约 170 万个工作岗位"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325130,
+      "s": 325145,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318054,
+      "s": 318060,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303811,
+      "s": 303827,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233438,
+      "s": 233446,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195331,
+      "s": 195340,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155786,
+      "s": 155792,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148397,
+      "s": 148408,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144729,
+      "s": 144731,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120446,
+      "s": 120450,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117924,
+      "s": 117933,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
