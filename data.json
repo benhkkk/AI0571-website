@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-15T10:17:08",
+  "updated": "2026-11-15T10:31:11",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-15T10:13",
+      "t": "SK 集团会长崔泰源：我们所有子公司都要蜕变为 AI 企业",
+      "s": "据韩媒《每日经济新闻》今天报道，SK 集团会长崔泰源最近表示，他们希望打破现有框架，将 SK 集团所有子公司蜕变为 AI…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/277.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-15T10:07",
+      "t": "辅助驾驶≠自动驾驶：男子载一家四口在高速启用“智驾”玩手机、躺睡被处罚",
+      "s": "据公安部交通管理局分享，近日，山东青岛。群众举报一司机在高速上驾车时双目闭合，疑借助车辆智能辅助驾驶功能行车。民警随即迅…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/276.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-15T09:09",
@@ -56,20 +70,6 @@
       "t": "借助 Claude 和 Arduino 开发板，达人让 1994 款切诺基通过加州排放检测",
       "s": "当地时间 13 日，据外媒 Tom's Hardware 报道，美国的一名 AI 爱好者穆罕默德 · 祖拉利靠着 AI …（来源：IT之家）",
       "u": "https://www.ithome.com/1/027/226.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-14T19:45",
-      "t": "前 Anthropic 研究员考克森：当今若要重新训练 Mythos，只需初始的一小部分算力",
-      "s": "曾任职于 OpenAI 和 Anthropic、因公开警告 AI 风险而受到广泛关注的研究员雅各布 · 考克森称，Ant…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/221.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-14T18:52",
-      "t": "Cursor 披露安全事件调查结果，恶意 Claude Code 扩展最多波及 5000 用户",
-      "s": "当地时间 10 月 29 日，Cursor 发布公告，称 Cursor VS Code 扩展市场中出现了一个恶意且未经授…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/215.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-15 10:13",
+      "SK 集团会长崔泰源：我们所有子公司都要蜕变为 AI 企业"
+    ],
+    [
+      "11-15 10:07",
+      "辅助驾驶≠自动驾驶：男子载一家四口在高速启用“智驾”玩手机、躺睡被处罚"
+    ],
+    [
       "11-15 09:09",
       "Edge AI Daily 早报（11月15日）"
     ],
@@ -158,14 +166,6 @@
     [
       "11-14 21:59",
       "药企靠爆款续命，AI制药会打破这种局面吗?"
-    ],
-    [
-      "11-14 21:46",
-      "智能体帮你联络商家或保险公司，Meta 旗下 Muse 上线代打电话功能"
-    ],
-    [
-      "11-14 21:03",
-      "白宫“超级智能工作组”呼吁放宽问责政策，鼓励 AI 企业报告网络安全事件"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 324525,
+      "s": 324529,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317670,
+      "s": 317672,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303131,
+      "s": 303137,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233169,
+      "s": 233170,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 194651,
+      "s": 194657,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155691,
+      "s": 155692,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 147813,
+      "s": 147820,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120096,
+      "s": 120099,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117601,
+      "s": 117603,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
