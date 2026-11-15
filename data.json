@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-15T21:01:32",
+  "updated": "2026-11-15T21:31:08",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-15T21:16",
+      "t": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
+      "s": "华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。该模型围绕 A…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/450.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-15T20:43",
@@ -49,13 +56,6 @@
       "t": "利用 Claude 辅助编程：爱好者将 Seeed Studio“电子墨水屏便利贴”改造为苹果 Apple TV 遥控器",
       "s": "据 XDA 报道，一位 Reddit 用户 Frankynov 将自己的 Seeed Studio reTerminal…（来源：IT之家）",
       "u": "https://www.ithome.com/1/027/414.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-15T16:58",
-      "t": "开发者借助 Claude 开发出体积仅 97KB 水下探索模拟项目 Abyssal Garden",
-      "s": "据 XDA 报道，一位开发者 Any-Reputation8118 利用 Anthropic Claude 编写代码，开…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/406.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-15 21:16",
+      "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级"
+    ],
+    [
       "11-15 20:43",
       "AI 版拓麻歌子来了：日常物品秒变需要被照顾的虚拟宠物"
     ],
@@ -162,10 +166,6 @@
     [
       "11-15 18:12",
       "应对 AI 漏洞挖掘挑战：谷歌 Project Zero 计划将逐步缩短漏洞公开披露期限至 30 天"
-    ],
-    [
-      "11-15 18:09",
-      "前 OpenAI 研究员：当前活着的人最有可能死于 AI 失控"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 324791,
+      "s": 324816,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 317863,
+      "s": 317877,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303508,
+      "s": 303523,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233289,
+      "s": 233301,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195028,
+      "s": 195053,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155743,
+      "s": 155744,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148091,
+      "s": 148108,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144692,
+      "s": 144694,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120329,
+      "s": 120341,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117745,
+      "s": 117759,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
