@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-17T04:31:44",
+  "updated": "2026-11-17T05:01:56",
   "news": [
     {
       "c": "MODEL",
@@ -56,6 +56,13 @@
       "t": "漫步者推出花再 Halo PixelBar AI 桌面音箱：屏幕支持显示歌词、搭载智能体人设，699 元",
       "s": "漫步者现已在京东上架花再 Halo PixelBar AI 智能桌面音箱，该产品屏幕能够显示歌词及自定义内容，支持语音点…（来源：IT之家）",
       "u": "https://www.ithome.com/1/027/928.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-16T19:32",
+      "t": "【启思•未来场首映礼】10家未上市AI制药企业，齐聚启思会",
+      "s": "【启思•未来场首映礼】10家未上市AI制药企业，齐聚启思会（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7708727730178687526/"
     },
     {
       "c": "INDUSTRY",
@@ -133,13 +140,6 @@
       "t": "豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育等21个专业场景",
       "s": "近日，豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育、创意设计等21个专业场景，让AI办公进一步走向职业化。据…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/hnSL5YwUtQjerTRK.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-16T16:45",
-      "t": "2026甲子引力年终盛典即将启幕，AI的无限游戏进入「第二序章」｜甲子引力",
-      "s": "12月1日，细数AI的未竟之问。（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/510526.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325875,
+      "s": 325885,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318633,
+      "s": 318641,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304506,
+      "s": 304526,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233700,
+      "s": 233708,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195949,
+      "s": 195963,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155904,
+      "s": 155907,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148950,
+      "s": 148961,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120734,
+      "s": 120738,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118286,
+      "s": 118291,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
