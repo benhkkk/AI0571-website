@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T09:31:46",
+  "updated": "2026-11-16T10:01:15",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-16T09:33",
+      "t": "AI泡沫监测·之三：英伟达的毛利期权——一张美国AI泡沫的层积图",
+      "s": "英伟达五万亿估值的本质，是70%以上毛利率的期权——全产业链都在替它交租。这篇把债务、选票、公司、收入、全球五层账本拼成…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8206051.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-16T09:12",
@@ -21,13 +28,6 @@
       "t": "不调用图像模型，Anthropic Claude Fable 5.2 用 Python 代码模拟真实画笔作画",
       "s": "Anthropic 于当地时间 11 月 9 日发布了最新的 Claude Fable 5.2 和 Claude Myt…（来源：IT之家）",
       "u": "https://www.ithome.com/1/027/490.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-16T08:47",
-      "t": "曝黄仁勋考虑重返英伟达担任 CEO；苹果计划明年发布首款智能眼镜；OpenAI 撤销独立机器人研究团队",
-      "s": "曝黄仁勋考虑重返英伟达担任 CEO，盟友正施压董事会 据英国《金融时报》周日报道，黄仁勋正考虑重返英伟达担任首席执行官…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/373994"
     },
     {
       "c": "HOT",
@@ -86,20 +86,6 @@
       "u": "https://www.tmtpost.com/8205257.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-15T14:19",
-      "t": "【数智周报】黄仁勋辞任英伟达CEO ，CFO克雷斯任临时CEO；阿里拟分拆平头哥港股独立上市；Anthropic启动IPO路演，估值较峰值近腰斩……",
-      "s": "（11月9日-14日） DeepSeek发布全家桶应用API；谷歌发布Gemini 4 Hydrogen；微软全球服务中…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8205592.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-15T12:19",
-      "t": "全球芯片股较峰值回撤近四成，AI泡沫破了吗？",
-      "s": "非AI板块却创了新高。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8205717.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-15T10:20",
       "t": "AI 时代，微服务不该再被\"部署复杂\"劝退 —— QuickBlue 用 3 条命令，把整套微服务装进 Docker",
@@ -140,9 +126,27 @@
       "t": "程序员集体沉迷折纸飞机！最长滞空31.2秒",
       "s": "童年的纸飞机，现在终于飞回我手里～（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/510150.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-14T17:41",
+      "t": "绿电进Token出！联想重新定义词元工厂",
+      "s": "年产2000万亿Token，成本狂降70%（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510094.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-14T12:24",
+      "t": "phimint v0.10.0 发布：卡在「等你输入」的命令上，agent 能自己接上",
+      "s": "phimint v0.10.0 已发布（2026-11-14）。phimint 是一个用 Rust 写的终端轻量AI 编…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503576"
     }
   ],
   "timeline": [
+    [
+      "11-16 09:33",
+      "AI泡沫监测·之三：英伟达的毛利期权——一张美国AI泡沫的层积图"
+    ],
     [
       "11-16 09:12",
       "汽车激光雷达厂商，又开始抢机器人关节的生意了"
@@ -154,10 +158,6 @@
     [
       "11-16 09:01",
       "不调用图像模型，Anthropic Claude Fable 5.2 用 Python 代码模拟真实画笔作画"
-    ],
-    [
-      "11-16 08:47",
-      "曝黄仁勋考虑重返英伟达担任 CEO；苹果计划明年发布首款智能眼镜；OpenAI 撤销独立机器人研究团队"
     ],
     [
       "11-16 08:47",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325202,
+      "s": 325221,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318084,
+      "s": 318090,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303873,
+      "s": 303877,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233462,
+      "s": 233466,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195382,
+      "s": 195401,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155796,
+      "s": 155795,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148443,
+      "s": 148461,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144747,
+      "s": 144756,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120470,
+      "s": 120479,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117957,
+      "s": 117967,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
