@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T18:32:12",
+  "updated": "2026-11-16T19:02:58",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-16T18:36",
+      "t": "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌",
+      "s": "本次华为云打出的三张牌，给具身智能行业带来了一些新的可能性。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8206773.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-16T18:16",
@@ -66,6 +73,13 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-11-16T16:59",
+      "t": "豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育等21个专业场景",
+      "s": "近日，豆包工作独家上线“工作台”功能，首批覆盖金融、医疗、教育、创意设计等21个专业场景，让AI办公进一步走向职业化。据…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/hnSL5YwUtQjerTRK.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-11-16T16:40",
       "t": "联想杨元庆提出“私域数据飞轮”：AI 产业竞争将从比模型参数转向比混合式 AI 落地能力",
       "s": "以“拾光同行，科技向新”为主题的 2026 联想创投 CEO 年会于 11 月 15 日至 16 日在浙江杭州举行。联想…（来源：IT之家）",
@@ -126,23 +140,13 @@
       "t": "模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型",
       "s": "11月16日，千问办公一口气上线10款模型，包括刚刚发布的Qwen4-Max，以及Kimi、GLM、DeepSeek、M…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/tDhzNl3D84AjopSh.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-16T12:00",
-      "t": "百度世界2026｜让金融AI用得起、更专业，度小满“轩辕”探索中小机构落地新路径",
-      "s": "11月12日，百度世界2026在北京举行，大会聚焦 AI 时代下如何提升组织能力。百度创始人李彦宏在开幕式上判断，人工智…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/JDoXug7VZqSjkQrQ.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-16T11:59",
-      "t": "Asahi Linux 许可证从 MIT 换成 GPL，因为有人拿 AI 洗了它的代码",
-      "s": "Asahi Linux 是今天你能在 Apple Silicon Mac 上运行 Linux 的底层。多年来，这个开源项…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503588/asahi-linux-drops-mit-for-gpl"
     }
   ],
   "timeline": [
+    [
+      "11-16 18:36",
+      "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌"
+    ],
     [
       "11-16 18:16",
       "实测千问办公电商版：3小时做完开店筹备，却栽在“生图幻觉”上"
@@ -162,10 +166,6 @@
     [
       "11-16 17:53",
       "实测腾讯 Hy4 flash：花两毛钱，就能让 AI 从零做个 3D 交互网页"
-    ],
-    [
-      "11-16 17:32",
-      "国际货币基金组织总裁警告：全球经济过度依赖 AI，相关循环融资规模超 1 万亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325538,
+      "s": 325563,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318281,
+      "s": 318295,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304087,
+      "s": 304109,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233590,
+      "s": 233599,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195618,
+      "s": 195631,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155844,
+      "s": 155848,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148684,
+      "s": 148704,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144827,
+      "s": 144830,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120591,
+      "s": 120598,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118118,
+      "s": 118125,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
