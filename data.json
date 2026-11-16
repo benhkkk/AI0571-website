@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T19:02:58",
+  "updated": "2026-11-16T19:32:17",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-16T19:08",
+      "t": "明基上架 AK900ST AI 高尔夫投影机：6000lm 亮度、短焦镜头设计，52999 元",
+      "s": "明基现已在京东上架 AK900ST“AI 高尔夫投影机”，该产品专为高尔夫模拟及多场景娱乐打造，定价为 52999 元…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/921.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-16T18:36",
@@ -128,13 +135,6 @@
       "u": "https://www.ithome.com/1/027/736.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-16T15:22",
-      "t": "智平方 7 台人形机器人进驻 2026 APEC 新闻中心，服务中外媒体记者超 5000 名",
-      "s": "据深圳新闻联播公众号，2026 年 APEC 领导人会议周期间，深圳企业智平方在大会新闻中心投放 7 台人形机器人，为参…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/735.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-16T12:08",
       "t": "模型选择自由！千问办公上线Qwen4、Kimi-K3.1、GLM-5.3等10款模型",
@@ -143,6 +143,10 @@
     }
   ],
   "timeline": [
+    [
+      "11-16 19:08",
+      "明基上架 AK900ST AI 高尔夫投影机：6000lm 亮度、短焦镜头设计，52999 元"
+    ],
     [
       "11-16 18:36",
       "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌"
@@ -162,10 +166,6 @@
     [
       "11-16 17:54",
       "主动汇报工作，Claude越来越有眼力见了"
-    ],
-    [
-      "11-16 17:53",
-      "实测腾讯 Hy4 flash：花两毛钱，就能让 AI 从零做个 3D 交互网页"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325563,
+      "s": 325591,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318295,
+      "s": 318304,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304109,
+      "s": 304122,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233599,
+      "s": 233602,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195631,
+      "s": 195642,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155848,
+      "s": 155852,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148704,
+      "s": 148712,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120598,
+      "s": 120606,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118125,
+      "s": 118131,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
