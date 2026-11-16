@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-16T20:32:01",
+  "updated": "2026-11-16T21:02:57",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-16T20:52",
+      "t": "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
+      "s": "[中国，杭州，2026年11月16日] 今天，华为云“行业AI梦工厂”发布并开源昇腾原生的具身世界模型CloudRobo…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503602"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-16T19:43",
@@ -133,16 +140,13 @@
       "t": "HCI 先驱 de Souza：当 AI 替我们阅读，谁来为知识负责？| ACM MM 2026",
       "s": "研究者需要的不只是AI生成的答案，更是审查答案、追溯来源并为知识判断负责的能力。 作者丨张 璐 编辑丨马晓宁 你有没有过…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/private/j1CWHNsD9eBM7Wwc.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-16T15:58",
-      "t": "SuperLink2026开启创投行业超级链接时刻，12月北京见",
-      "s": "2026年12月2-3日，清科控股、投资界主办的SuperLink2026将在北京启幕，汇聚创投各方，设置多场垂直专场与…（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/510493.html"
     }
   ],
   "timeline": [
+    [
+      "11-16 20:52",
+      "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2"
+    ],
     [
       "11-16 19:43",
       "漫步者推出花再 Halo PixelBar AI 桌面音箱：屏幕支持显示歌词、搭载智能体人设，699 元"
@@ -162,10 +166,6 @@
     [
       "11-16 18:36",
       "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌"
-    ],
-    [
-      "11-16 18:16",
-      "实测千问办公电商版：3小时做完开店筹备，却栽在“生图幻觉”上"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325625,
+      "s": 325634,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318326,
+      "s": 318336,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304165,
+      "s": 304177,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233615,
+      "s": 233620,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195673,
+      "s": 195685,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155855,
+      "s": 155856,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148734,
+      "s": 148751,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144837,
+      "s": 144841,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120622,
+      "s": 120631,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118145,
+      "s": 118151,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
