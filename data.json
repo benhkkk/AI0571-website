@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-16T10:32:17",
+  "updated": "2026-11-16T11:02:04",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-16T10:53",
+      "t": "奥睿科推出 FlashMem FM9800 固态硬盘，配备 pSLC AI Cache 区域",
+      "s": "ORICO（奥睿科）本月 13 日宣布推出 FlashMem FM9800 固态硬盘。这一型号基于 3D TLC NAN…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/552.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-16T10:36",
+      "t": "英伟达机器人学习工程师戴士钦宣布辞职：“黄仁勋离职让我格外失望”",
+      "s": "英伟达机器人学习工程师戴士钦（Darrell Dai）昨日发文，宣布将离开公司。戴士钦表示，他眼中的黄仁勋不只是英伟达 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/541.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-16T10:29",
+      "t": "国家统计局：10 月份我国工业机器人产量同比增长 26%，新能源汽车产量增长 17.1%",
+      "s": "据新华社报道，国家统计局新闻发言人付凌晖在 11 月 16 日举行的国新办新闻发布会上说，今年 10 月份，我国装备制造…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/027/536.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-16T10:07",
@@ -100,20 +121,6 @@
       "u": "https://www.tmtpost.com/8206064.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-16T08:44",
-      "t": "腾讯 WorkBuddy 国际版上线 Gemini 4 Carbon 大模型：支持百万 Token 上下文，暂仅限 Pro 用户使用",
-      "s": "腾讯 WorkBuddy 国际版昨日宣布，已正式上线谷歌 Gemini 4 Carbon 模型，主要面向需要更深入推理和…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/487.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-15T21:42",
-      "t": "韩国税务师考试头名 AI 作弊曝光后，政府全面调查今年国家资格考试",
-      "s": "据韩联社今日报道，由于税务师考试第一名考生存在利用人工智能进行作弊的行为被曝光，韩国政府决定对今年所有国家资格考试进行全…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/027/453.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-15T10:20",
       "t": "AI 时代，微服务不该再被\"部署复杂\"劝退 —— QuickBlue 用 3 条命令，把整套微服务装进 Docker",
@@ -133,16 +140,21 @@
       "t": "药企靠爆款续命，AI制药会打破这种局面吗?",
       "s": "药企靠爆款续命，AI制药会打破这种局面吗?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7708025945395331593/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-14T18:08",
-      "t": "英伟达上演“奥特曼2.0”，员工集体请愿：让老黄回家！",
-      "s": "马斯克也签名了（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/510297.html"
     }
   ],
   "timeline": [
+    [
+      "11-16 10:53",
+      "奥睿科推出 FlashMem FM9800 固态硬盘，配备 pSLC AI Cache 区域"
+    ],
+    [
+      "11-16 10:36",
+      "英伟达机器人学习工程师戴士钦宣布辞职：“黄仁勋离职让我格外失望”"
+    ],
+    [
+      "11-16 10:29",
+      "国家统计局：10 月份我国工业机器人产量同比增长 26%，新能源汽车产量增长 17.1%"
+    ],
     [
       "11-16 10:07",
       "2.4 万亿参数阿里通义千问 Qwen4-Max 正式上线：任务成本降低超 60%，后续将开源小尺寸模型"
@@ -154,18 +166,6 @@
     [
       "11-16 10:07",
       "谁能熬过具身寒冬？"
-    ],
-    [
-      "11-16 10:03",
-      "腾讯总办号召 AI 时代再创业，官方公布原文"
-    ],
-    [
-      "11-16 10:00",
-      "退货这件苦差事，机器人不只搬箱子了"
-    ],
-    [
-      "11-16 09:59",
-      "东吴证券:AI制药从概念验证到商业化落地 中长期关注AI平台型公司"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325238,
+      "s": 325260,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318097,
+      "s": 318110,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 303885,
+      "s": 303896,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233471,
+      "s": 233481,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 195409,
+      "s": 195428,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155797,
+      "s": 155801,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 148472,
+      "s": 148482,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144762,
+      "s": 144764,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120482,
+      "s": 120489,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 117971,
+      "s": 117985,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
