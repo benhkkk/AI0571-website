@@ -459,13 +459,14 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-17T13:01', t:'百度李彦宏警告 AI 泡沫风险：当前 AI 行业上层应用落地成效不及预期', s:'2026 年 APEC 工商领导人峰会于今日在深圳举办。在“共建开放普惠的人工智能创新生态”研讨环节，百度集团董事长兼首…（来源：IT之家）', u:'https://www.ithome.com/1/028/225.htm'},
+    {c:'MODEL', d:'2026-11-17T12:43', t:'宇树王兴兴称机器人模型泛化是当下最棘手问题：希望到千家万户能立马干活，而不用重新训练', s:'2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办，主题为“共促繁荣，共赢未来”。宇树科技…（来源：IT之家）', u:'https://www.ithome.com/1/028/220.htm'},
     {c:'MEDDEVICE', d:'2026-11-17T12:32', t:'《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...', s:'《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...（来源：头条设备AI）', u:'https://www.toutiao.com/article/7708992756328202792/'},
     {c:'HOT', d:'2026-11-17T12:03', t:'“学霸”自首AI作弊，韩国高考紧急布防', s:'地狱难度的税务师考试大翻车（来源：钛媒体）', u:'https://www.tmtpost.com/8208106.html'},
     {c:'FUNDING', d:'2026-11-17T12:03', t:'下跌周期中的MinMax：早期投资者和闫俊杰的AI畅谈', s:'中国AI的效率之战。（来源：钛媒体）', u:'https://www.tmtpost.com/8207380.html'},
     {c:'HOT', d:'2026-11-17T11:56', t:'华为麒麟 9050 系列芯片配备新一代显示 DPU，支持全彩 AI-HDR2020', s:'华为官方今日继续发文，揭秘首款「逻辑折叠」技术 τ 芯片麒麟 9050 系列的详细配置信息。据官方介绍，该系列芯片配备新…（来源：IT之家）', u:'https://www.ithome.com/1/028/159.htm'},
     {c:'HOT', d:'2026-11-17T11:46', t:'苹果中国区 App Store 开发者平台新增 AIGC 合规入口：现有应用须在 2027 年 1 月 31 日前补齐备案信息', s:'昨日有开发者反馈称，苹果在 App Store Connect 后台新增了两项面向中国大陆分发的合规必填项。有开发者发现…（来源：IT之家）', u:'https://www.ithome.com/1/028/158.htm'},
     {c:'MODEL', d:'2026-11-17T11:45', t:'DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致', s:'11 月 16 日，「DeepSeek 使用额度已达上限」冲上热搜。多名用户反馈，App 和网页端同时收紧了限制，而且一…（来源：OSCHINA）', u:'https://www.oschina.net/news/503610'},
-    {c:'MEDPHARMA', d:'2026-11-17T11:41', t:'AI蛋白质设计开始比谁的分子能用:这家AI制药公司拿到数亿元融资', s:'AI蛋白质设计开始比谁的分子能用:这家AI制药公司拿到数亿元融资（来源：头条医药AI）', u:'https://www.toutiao.com/article/7708979898542604815/'},
     {c:'MEDDEVICE', d:'2026-11-17T11:33', t:'医疗AI出海欧盟，如何应对《人工智能法案》', s:'医疗AI出海欧盟，如何应对《人工智能法案》（来源：头条设备AI）', u:'https://www.toutiao.com/article/7708977879459971619/'},
     {c:'FUNDING', d:'2026-11-17T11:32', t:'美国纳管AI算力远程获取，海外数据中心出租算力将须许可', s:'这项规则对AI投资周期意味着什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8207829.html'},
     {c:'MODEL', d:'2026-11-17T11:28', t:'中国 AI 旗舰模型集体收紧网络攻击能力，加强 AI 技术出口管制', s:'彭博社今日报道称，阿里、腾讯、月之暗面最新发布的新一代模型普遍限制了网络进攻能力，同时强化了漏洞检测与防御功能。彭博社指…（来源：IT之家）', u:'https://www.ithome.com/1/028/133.htm'},
@@ -474,31 +475,30 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-17T10:54', t:'Windows 11 在记录你用过哪个 AI 编程助手', s:'一位开发者在让 AI 帮忙翻 Windows 二进制文件时，在 MissionControlAggregator.dll…（来源：OSCHINA）', u:'https://www.oschina.net/news/503608/windows-coding-agent-telemetry'},
     {c:'MODEL', d:'2026-11-17T10:35', t:'Skyeye 云企业级 AI + 零代码智能制造系统-3D仓库 - v4.1.12 发布', s:'Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）', u:'https://www.oschina.net/news/503607'},
     {c:'HOT', d:'2026-11-17T10:23', t:'微软全球大宕机，AI 怎么又成了背锅侠', s:'微软宕机与美国航班停飞，背后都是 AI 失控吗？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内…（来源：爱范儿）', u:'https://www.ifanr.com/1689638?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MODEL', d:'2026-11-17T10:18', t:'苹果 tvOS 27.3 Beta 2 新增 Siri AI 引导界面，用户可选新旧版本', s:'消息源 @itspdfu 今天（11 月 17 日）在 X 平台发布推文，报道称在 tvOS 27.3 Beta 2 更…（来源：IT之家）', u:'https://www.ithome.com/1/028/094.htm'},
-    {c:'HOT', d:'2026-11-17T10:05', t:'苹果 2027 新品前瞻：iPhone Duo 2 等 18 款在列，首款 AI 眼镜有望亮相', s:'科技媒体 MacRumors 今天（11 月 17 日）报道，综合彭博社记者马克 · 古尔曼（Mark Gurman）及…（来源：IT之家）', u:'https://www.ithome.com/1/028/088.htm'},
     {c:'HOT', d:'2026-11-17T09:54', t:'Huang Leaves Nvidia. Chinese AI Buyers and Suppliers Feel It Next', s:'Huang Leaves Nvidia. Chinese AI Buyers and Supplie…（来源：钛媒体）', u:'https://www.tmtpost.com/8207932.html'},
     {c:'INDUSTRY', d:'2026-11-17T08:55', t:'Edge AI Daily 早报（11月17日）', s:'英伟达领导层变动、Anthropic拟上市与财报窗口，使AI交易从增长叙事转向现金流、资本效率和治理连续性验证；美国将先…（来源：钛媒体）', u:'https://www.tmtpost.com/8207785.html'},
     {c:'MEDDEVICE', d:'2026-11-17T08:05', t:'人工智能在非临床毒性病理学中的监管现状和展望', s:'人工智能在非临床毒性病理学中的监管现状和展望（来源：头条设备AI）', u:'https://www.toutiao.com/article/7708924554223157811/'},
+    {c:'MEDPHARMA', d:'2026-11-17T07:22', t:'四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点', s:'四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点（来源：头条医药AI）', u:'https://www.toutiao.com/article/7708913438759617085/'},
   ];
   const TIMELINE = [
+    ['11-17 13:01','百度李彦宏警告 AI 泡沫风险：当前 AI 行业上层应用落地成效不及预期'],
+    ['11-17 12:43','宇树王兴兴称机器人模型泛化是当下最棘手问题：希望到千家万户能立马干活，而不用重新训练'],
     ['11-17 12:32','《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...'],
     ['11-17 12:03','“学霸”自首AI作弊，韩国高考紧急布防'],
     ['11-17 12:03','下跌周期中的MinMax：早期投资者和闫俊杰的AI畅谈'],
     ['11-17 11:56','华为麒麟 9050 系列芯片配备新一代显示 DPU，支持全彩 AI-HDR2020'],
-    ['11-17 11:46','苹果中国区 App Store 开发者平台新增 AIGC 合规入口：现有应用须在 2027 年 1 月 31 日前补齐备案信息'],
-    ['11-17 11:45','DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326057, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:318768, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:304755, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:233793, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196177, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326072, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:318773, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:304770, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:233797, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196188, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155942, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149142, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144897, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:120800, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118393, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149147, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144899, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:120804, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118396, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
