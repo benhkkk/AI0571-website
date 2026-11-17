@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T03:31:39",
+  "updated": "2026-11-18T04:02:15",
   "news": [
     {
       "c": "MODEL",
@@ -37,6 +37,13 @@
       "u": "https://www.toutiao.com/article/7709153899537498658/"
     },
     {
+      "c": "FUNDING",
+      "d": "2026-11-17T22:15",
+      "t": "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎",
+      "s": "82亿美元股票，46天闪电交割（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510695.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-11-17T22:05",
       "t": "50亿美元!诺奖得主拿下AI制药史上最大融资",
@@ -70,6 +77,13 @@
       "t": "击败传统 K-pop 偶像，AI 辅助制作歌曲首次登顶韩国热门音乐排行榜",
       "s": "据日经亚洲今天（17 日）上午报道，韩国 AI 音乐项目 MEOMURU 推出的《你成为梦想中的大人了吗？》登顶 Mel…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/518.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T19:40",
+      "t": "李沐加盟的Aimotion，是一家什么AI公司？",
+      "s": "瞄准「产业级世界模型」（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510688.html"
     },
     {
       "c": "MODEL",
@@ -126,20 +140,6 @@
       "t": "“BAT 做 Personal Agent，我没那么乐观”",
       "s": "“国内大厂里面，你最看好哪家公司做 Personal Agent？”过去这一个月，自从北美那边Instinct、Muse…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T16:33",
-      "t": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
-      "s": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T16:24",
-      "t": "谁来帮助企业走向「智能组织」？",
-      "s": "上个月，雷峰网拜访过一家创业公司老板，他对我们说，他决定把公司的 AI 开销砍掉近九成。这个决定非常出乎我们的意料，因为…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/CorporateServices/Hsnbxo0xUgb2FWkB.html"
     }
   ],
   "timeline": [
@@ -164,8 +164,8 @@
       "聚焦AI制药与数智医疗，成都高新区数智医药健康产业合作恳谈..."
     ],
     [
-      "11-17 22:05",
-      "50亿美元!诺奖得主拿下AI制药史上最大融资"
+      "11-17 22:15",
+      "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326637,
+      "s": 326654,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319193,
+      "s": 319201,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305308,
+      "s": 305332,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233975,
+      "s": 233978,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196623,
+      "s": 196633,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156020,
+      "s": 156022,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149556,
+      "s": 149571,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 121018,
+      "s": 121021,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118618,
+      "s": 118620,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
