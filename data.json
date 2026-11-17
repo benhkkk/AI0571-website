@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T22:02:26",
+  "updated": "2026-11-17T22:32:03",
   "news": [
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-17T22:05",
+      "t": "50亿美元!诺奖得主拿下AI制药史上最大融资",
+      "s": "50亿美元!诺奖得主拿下AI制药史上最大融资（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7709140594819449359/"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-11-17T21:39",
@@ -44,6 +51,13 @@
       "u": "https://www.ithome.com/1/028/503.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-17T19:18",
+      "t": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
+      "s": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。作者｜Li Yuan编辑｜郑玄最大规…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374103"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-17T19:15",
       "t": "China’s AI-for-Science Boom Is Selling Speed, Not Discovery",
@@ -77,6 +91,13 @@
       "t": "Mac 收紧权限，苹果开始防着 AI 了",
       "s": "AI 越自由，人越麻烦#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-17T17:58",
+      "t": "AI，没有抛弃小城商家",
+      "s": "作者｜李苏 编辑｜郑玄 理解本地商业，是 AI 走出实验室后的新课程。 过去几年，AI 界擅长讲的故事变了。 从最开始谈…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374101"
     },
     {
       "c": "MODEL",
@@ -114,35 +135,18 @@
       "u": "https://www.tmtpost.com/8207501.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T17:07",
-      "t": "机械臂配液、AGV送样、LIMS审计追踪:AI制药的隐藏基建",
-      "s": "机械臂配液、AGV送样、LIMS审计追踪:AI制药的隐藏基建（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7709064016869491243/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-17T16:51",
       "t": "DeepSeek 不限额的用法，都在这里了 | 附指南",
       "s": "花钱接 API，导入历史记录#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1689869?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T16:51",
-      "t": "台媒:两岸迎来AI制药合作新机遇",
-      "s": "台媒:两岸迎来AI制药合作新机遇（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7709060317901816355/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T16:34",
-      "t": "“BAT 做 Personal Agent，我没那么乐观”",
-      "s": "“国内大厂里面，你最看好哪家公司做 Personal Agent？”过去这一个月，自从北美那边Instinct、Muse…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
     }
   ],
   "timeline": [
+    [
+      "11-17 22:05",
+      "50亿美元!诺奖得主拿下AI制药史上最大融资"
+    ],
     [
       "11-17 21:39",
       "Alphabet 旗下药物 AI 企业 Isomorphic Labs 完成 50 亿美元 C 轮融资"
@@ -162,10 +166,6 @@
     [
       "11-17 20:06",
       "VR 眼镜上市前，Meta 斥资 1.2 亿美元扶持第三方 VR 游戏"
-    ],
-    [
-      "11-17 19:26",
-      "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326447,
+      "s": 326462,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319014,
+      "s": 319037,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305069,
+      "s": 305094,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233909,
+      "s": 233917,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196480,
+      "s": 196494,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155996,
+      "s": 156001,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149362,
+      "s": 149387,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144934,
+      "s": 144936,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120942,
+      "s": 120951,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118542,
+      "s": 118547,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
