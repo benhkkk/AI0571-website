@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T23:31:54",
+  "updated": "2026-11-18T00:02:46",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T23:26",
+      "t": "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字",
+      "s": "快手可灵 AI 今天（17 日）深夜宣布，全新一代图像创作模型 Kling Image 4.0 正式上线，同时面向企业客…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/563.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-17T23:12",
@@ -79,20 +86,6 @@
       "u": "https://www.ithome.com/1/028/503.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-17T19:18",
-      "t": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
-      "s": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。作者｜Li Yuan编辑｜郑玄最大规…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374103"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T18:55",
-      "t": "达信：有迹象表明，黑客正利用 AI 工具和智能体寻找安全漏洞",
-      "s": "据路透社今天（17 日）晚间报道，保险经纪公司达信的数据显示，AI 让网络攻击变得更快、规模更大，企业报告的网络安全事件…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/489.htm"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-11-17T18:22",
       "t": "消费级具身，打破「次元壁」",
@@ -105,13 +98,6 @@
       "t": "Mac 收紧权限，苹果开始防着 AI 了",
       "s": "AI 越自由，人越麻烦#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T17:58",
-      "t": "AI，没有抛弃小城商家",
-      "s": "作者｜李苏 编辑｜郑玄 理解本地商业，是 AI 走出实验室后的新课程。 过去几年，AI 界擅长讲的故事变了。 从最开始谈…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374101"
     },
     {
       "c": "MODEL",
@@ -140,9 +126,27 @@
       "t": "“BAT 做 Personal Agent，我没那么乐观”",
       "s": "“国内大厂里面，你最看好哪家公司做 Personal Agent？”过去这一个月，自从北美那边Instinct、Muse…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T16:33",
+      "t": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
+      "s": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-17T16:24",
+      "t": "谁来帮助企业走向「智能组织」？",
+      "s": "上个月，雷峰网拜访过一家创业公司老板，他对我们说，他决定把公司的 AI 开销砍掉近九成。这个决定非常出乎我们的意料，因为…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/CorporateServices/Hsnbxo0xUgb2FWkB.html"
     }
   ],
   "timeline": [
+    [
+      "11-17 23:26",
+      "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字"
+    ],
     [
       "11-17 23:12",
       "靠机器人缓解成本压力，通用汽车计划到 2028 年将北美工厂自动化规模提升 20%"
@@ -162,10 +166,6 @@
     [
       "11-17 21:39",
       "Alphabet 旗下药物 AI 企业 Isomorphic Labs 完成 50 亿美元 C 轮融资"
-    ],
-    [
-      "11-17 21:00",
-      "大模型发力动态输出调度策略，我国快递业务量已连续两个月超 170 亿件"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326506,
+      "s": 326522,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319069,
+      "s": 319084,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305142,
+      "s": 305160,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233923,
+      "s": 233934,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196517,
+      "s": 196528,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156002,
+      "s": 156005,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149439,
+      "s": 149452,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144939,
+      "s": 144947,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120970,
+      "s": 120980,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118569,
+      "s": 118573,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
