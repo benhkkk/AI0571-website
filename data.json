@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T20:32:05",
+  "updated": "2026-11-17T21:02:09",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T20:33",
+      "t": "击败传统 K-pop 偶像，AI 辅助制作歌曲首次登顶韩国热门音乐排行榜",
+      "s": "据日经亚洲今天（17 日）上午报道，韩国 AI 音乐项目 MEOMURU 推出的《你成为梦想中的大人了吗？》登顶 Mel…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/518.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-17T20:06",
@@ -14,13 +21,6 @@
       "t": "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏",
       "s": "米哈游旗下《崩坏》系列 AI 研发团队现已公布通用视觉语言动作基础模型“Gamer”。该模型能够模拟真人操作方式自主游玩…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/503.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T19:18",
-      "t": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
-      "s": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。作者｜Li Yuan编辑｜郑玄最大规…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374103"
     },
     {
       "c": "HOT",
@@ -56,13 +56,6 @@
       "t": "Mac 收紧权限，苹果开始防着 AI 了",
       "s": "AI 越自由，人越麻烦#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T17:58",
-      "t": "AI，没有抛弃小城商家",
-      "s": "作者｜李苏 编辑｜郑玄 理解本地商业，是 AI 走出实验室后的新课程。 过去几年，AI 界擅长讲的故事变了。 从最开始谈…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374101"
     },
     {
       "c": "INDUSTRY",
@@ -140,9 +133,20 @@
       "t": "“BAT 做 Personal Agent，我没那么乐观”",
       "s": "“国内大厂里面，你最看好哪家公司做 Personal Agent？”过去这一个月，自从北美那边Instinct、Muse…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T16:33",
+      "t": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
+      "s": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html"
     }
   ],
   "timeline": [
+    [
+      "11-17 20:33",
+      "击败传统 K-pop 偶像，AI 辅助制作歌曲首次登顶韩国热门音乐排行榜"
+    ],
     [
       "11-17 20:06",
       "VR 眼镜上市前，Meta 斥资 1.2 亿美元扶持第三方 VR 游戏"
@@ -150,10 +154,6 @@
     [
       "11-17 19:26",
       "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏"
-    ],
-    [
-      "11-17 19:18",
-      "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？"
     ],
     [
       "11-17 19:15",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326391,
+      "s": 326407,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318956,
+      "s": 318978,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305002,
+      "s": 305023,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233880,
+      "s": 233889,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196414,
+      "s": 196435,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155983,
+      "s": 155987,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149317,
+      "s": 149333,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144923,
+      "s": 144927,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120912,
+      "s": 120923,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118517,
+      "s": 118520,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
