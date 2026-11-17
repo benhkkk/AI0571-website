@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17T08:32:42",
+  "updated": "2026-11-17T09:03:13",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-17T08:55",
+      "t": "Edge AI Daily 早报（11月17日）",
+      "s": "英伟达领导层变动、Anthropic拟上市与财报窗口，使AI交易从增长叙事转向现金流、资本效率和治理连续性验证；美国将先…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8207785.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-17T08:42",
+      "t": "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
+      "s": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职 11 月 17 日消息，CNBC 今天（11 月…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374056"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-17T08:20",
@@ -42,6 +56,13 @@
       "t": "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控",
       "s": "当地时间 11 月 16 日，美国加利福尼亚州正式起诉 OpenAI，指控该公司在开发和测试先进人工智能模型时缺乏必要的…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/028.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-17T07:22",
+      "t": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点",
+      "s": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7708913438759617085/"
     },
     {
       "c": "MODEL",
@@ -93,13 +114,6 @@
       "u": "https://www.oschina.net/news/503602"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-16T19:32",
-      "t": "【启思•未来场首映礼】10家未上市AI制药企业，齐聚启思会",
-      "s": "【启思•未来场首映礼】10家未上市AI制药企业，齐聚启思会（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7708727730178687526/"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-11-16T19:30",
       "t": "AI变量下的多线博弈，面板行业迎来新卡位战",
@@ -126,23 +140,17 @@
       "t": "睿尔曼智能郑随兵：质量、经济性、稳定性是机器人落地三大标准",
       "s": "具身智能的真正价值是“把人的经验、技能复刻出来”（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/510542.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-16T18:36",
-      "t": "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌",
-      "s": "本次华为云打出的三张牌，给具身智能行业带来了一些新的可能性。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8206773.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-16T18:16",
-      "t": "实测千问办公电商版：3小时做完开店筹备，却栽在“生图幻觉”上",
-      "s": "用AI开店，3小时省下几千块？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8195721.html"
     }
   ],
   "timeline": [
+    [
+      "11-17 08:55",
+      "Edge AI Daily 早报（11月17日）"
+    ],
+    [
+      "11-17 08:42",
+      "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚"
+    ],
     [
       "11-17 08:20",
       "卖股票必须提前 30 天写书面计划：Anthropic 上市前把“高管紧箍咒”套在了每个普通员工头上"
@@ -158,14 +166,6 @@
     [
       "11-17 07:50",
       "苹果 iOS 27.3 测试版新增 Siri AI 每日限额，付费订阅 iCloud+ 可提升 2~20 倍"
-    ],
-    [
-      "11-17 07:30",
-      "做 App 副业的最佳 AI 助手：谷歌推出系列工具，瞄准最头疼的变现环节"
-    ],
-    [
-      "11-17 07:26",
-      "美国加州正式起诉 OpenAI，指控 AI 智能体至少 80 次失控"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325955,
+      "s": 325964,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318689,
+      "s": 318694,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304646,
+      "s": 304658,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233740,
+      "s": 233746,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196047,
+      "s": 196057,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155924,
+      "s": 155926,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149043,
+      "s": 149057,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120752,
+      "s": 120756,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118333,
+      "s": 118341,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
