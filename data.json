@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T20:02:41",
+  "updated": "2026-11-17T20:32:05",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-17T20:06",
+      "t": "VR 眼镜上市前，Meta 斥资 1.2 亿美元扶持第三方 VR 游戏",
+      "s": "今年早些时候，Meta 旗下 Reality Labs 部门将战略重心转向了可穿戴设备和人工智能，叫停了多款正在开发中的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/512.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-17T19:26",
@@ -28,6 +35,13 @@
       "t": "达信：有迹象表明，黑客正利用 AI 工具和智能体寻找安全漏洞",
       "s": "据路透社今天（17 日）晚间报道，保险经纪公司达信的数据显示，AI 让网络攻击变得更快、规模更大，企业报告的网络安全事件…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/489.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-17T18:22",
+      "t": "消费级具身，打破「次元壁」",
+      "s": "消费具身的行业里，有一个话题一直被争论不休：“能真正被 C 端用户接纳的机器人，工具性和陪伴性，哪个才是第一性？”有人说…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/zEonnVT8L3iVNJkY.html"
     },
     {
       "c": "MODEL",
@@ -107,13 +121,6 @@
       "u": "https://www.tmtpost.com/8207501.html"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T17:07",
-      "t": "机械臂配液、AGV送样、LIMS审计追踪:AI制药的隐藏基建",
-      "s": "机械臂配液、AGV送样、LIMS审计追踪:AI制药的隐藏基建（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7709064016869491243/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-17T16:51",
       "t": "DeepSeek 不限额的用法，都在这里了 | 附指南",
@@ -133,16 +140,13 @@
       "t": "“BAT 做 Personal Agent，我没那么乐观”",
       "s": "“国内大厂里面，你最看好哪家公司做 Personal Agent？”过去这一个月，自从北美那边Instinct、Muse…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T16:33",
-      "t": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
-      "s": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html"
     }
   ],
   "timeline": [
+    [
+      "11-17 20:06",
+      "VR 眼镜上市前，Meta 斥资 1.2 亿美元扶持第三方 VR 游戏"
+    ],
     [
       "11-17 19:26",
       "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏"
@@ -160,12 +164,8 @@
       "达信：有迹象表明，黑客正利用 AI 工具和智能体寻找安全漏洞"
     ],
     [
-      "11-17 18:06",
-      "欧洲云服务企业 OVH 涉足 AI 模型，开源发布 Olala mini 7A1B"
-    ],
-    [
-      "11-17 18:00",
-      "Mac 收紧权限，苹果开始防着 AI 了"
+      "11-17 18:22",
+      "消费级具身，打破「次元壁」"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326365,
+      "s": 326391,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318940,
+      "s": 318956,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304979,
+      "s": 305002,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233875,
+      "s": 233880,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196403,
+      "s": 196414,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155980,
+      "s": 155983,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149310,
+      "s": 149317,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144921,
+      "s": 144923,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120905,
+      "s": 120912,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118509,
+      "s": 118517,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
