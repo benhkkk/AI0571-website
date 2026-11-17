@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-18T07:02:33",
+  "updated": "2026-11-18T07:31:48",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T07:27",
+      "t": "多语言错误率直降 50%：微软升级医患对话 AI 转录引擎，已覆盖全美 1/3 医师",
+      "s": "昨日（11 月 17 日）召开的 Ignite 2026 活动中，微软宣布其医疗 AI 产品 Dragon Copilo…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/590.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T07:06",
+      "t": "微软最具性价比网安 AI 模型 MAI Cyber 2 Flash 登场：性能比肩 GPT-6 Astra，每任务成本约为其 2%",
+      "s": "微软 AI 部门于 11 月 17 日发布全新专用安全模型 MAI Cyber 2 Flash，定位为面向企业安全团队的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/585.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-18T06:55",
@@ -42,20 +56,6 @@
       "t": "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路",
       "s": "商汤科技昨日晚间正式发布 SenseNova Loop-9B 模型。寒武纪官方宣布，已完成对商汤新发布模型日日新 Sen…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/568.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T23:26",
-      "t": "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字",
-      "s": "快手可灵 AI 今天（17 日）深夜宣布，全新一代图像创作模型 Kling Image 4.0 正式上线，同时面向企业客…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/563.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T23:12",
-      "t": "靠机器人缓解成本压力，通用汽车计划到 2028 年将北美工厂自动化规模提升 20%",
-      "s": "据路透社今天（17 日）援引两名知情人士消息称，面对劳动力成本上涨及制造业回流美国带来的成本压力，通用汽车计划到 202…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/561.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-18 07:27",
+      "多语言错误率直降 50%：微软升级医患对话 AI 转录引擎，已覆盖全美 1/3 医师"
+    ],
+    [
+      "11-18 07:06",
+      "微软最具性价比网安 AI 模型 MAI Cyber 2 Flash 登场：性能比肩 GPT-6 Astra，每任务成本约为其 2%"
+    ],
+    [
       "11-18 06:55",
       "“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶"
     ],
@@ -158,14 +166,6 @@
     [
       "11-18 06:23",
       "Anthropic 上市前夕 OpenAI 空降双模型 GPT-6.2 Astra 和 Sol：部分领域超越 Fable 5.2 且成本大降，金融、科研刷新纪录"
-    ],
-    [
-      "11-18 01:22",
-      "华为 Mate 90 系列手机 AI 快捷栏全新交互体验曝光，与星芒 OSTA O1 Pro 风格完全不同"
-    ],
-    [
-      "11-18 00:58",
-      "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326721,
+      "s": 326732,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319289,
+      "s": 319302,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305451,
+      "s": 305469,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234001,
+      "s": 234002,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196698,
+      "s": 196709,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156035,
+      "s": 156034,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149634,
+      "s": 149642,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121055,
+      "s": 121059,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118644,
+      "s": 118651,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
