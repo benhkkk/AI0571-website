@@ -1,11 +1,32 @@
 {
-  "updated": "2026-11-18T06:32:03",
+  "updated": "2026-11-18T07:02:33",
   "news": [
     {
       "c": "MODEL",
+      "d": "2026-11-18T06:55",
+      "t": "“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶",
+      "s": "微软昨日（11 月 17 日）发布推出 MAI Image 2.7 和 MAI Image 2.7 Flash 图像生成…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/582.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T06:51",
+      "t": "谷歌更新 Gemini 隐私控制，可保留聊天记录且不参与 AI 训练",
+      "s": "谷歌昨日发布公告，宣布更新 Gemini 应用程序的控制选项，允许用户自行决定是否将 Gemini 聊天记录用于 AI …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/581.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T06:42",
+      "t": "微软性价比最高编程 AI 模型：MAI Code 2 用 5% 成本达 Claude Opus 5.5 约 96% 性能",
+      "s": "在今天召开的 Ignite 2026 活动中，微软发布自研编程模型 MAI Code 2 和 MAI Code 2 Fl…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/579.htm"
+    },
+    {
+      "c": "FUNDING",
       "d": "2026-11-18T06:23",
-      "t": "OpenAI 发布 GPT-6.2 Astra 和 Sol：超越 Fable 5.2，金融、科研刷新纪录",
-      "s": "OpenAI 今日正式发布了最新的 GPT-6.2 Astra 和 GPT-6.2 Sol 模型，重点提升专业工作、编程…（来源：IT之家）",
+      "t": "Anthropic 上市前夕 OpenAI 空降双模型 GPT-6.2 Astra 和 Sol：部分领域超越 Fable 5.2 且成本大降，金融、科研刷新纪录",
+      "s": "就在 Anthropic IPO 定价前一天，OpenAI 突然毫无预兆地送上了一份“惊喜”。OpenAI 今日正式发布…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/577.htm"
     },
     {
@@ -56,27 +77,6 @@
       "t": "50亿美元!诺奖得主拿下AI制药史上最大融资",
       "s": "50亿美元!诺奖得主拿下AI制药史上最大融资（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7709140594819449359/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T21:39",
-      "t": "Alphabet 旗下药物 AI 企业 Isomorphic Labs 完成 50 亿美元 C 轮融资",
-      "s": "由诺贝尔奖得主 Demis Hassabis（戴米斯 · 哈萨比斯）领导的 Alphabet 旗下 AI 赋能药物研发企…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/533.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T21:00",
-      "t": "大模型发力动态输出调度策略，我国快递业务量已连续两个月超 170 亿件",
-      "s": "据央视新闻今日报道，国家邮政局数据显示，我国快递业务量已连续两个月超过 170 亿件。报道提到，10 月，快递行业紧扣电…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/524.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T20:59",
-      "t": "AI 冲击大学数学课堂，加州理工学院教授不再依据答案对错批改作业",
-      "s": "据《商业内幕》16 日报道，在加州理工学院任教 17 年的数学教授倪忆表示，自己不再根据学生答案的对错给作业打分，而是只…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/522.htm"
     },
     {
       "c": "MODEL",
@@ -144,8 +144,20 @@
   ],
   "timeline": [
     [
+      "11-18 06:55",
+      "“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶"
+    ],
+    [
+      "11-18 06:51",
+      "谷歌更新 Gemini 隐私控制，可保留聊天记录且不参与 AI 训练"
+    ],
+    [
+      "11-18 06:42",
+      "微软性价比最高编程 AI 模型：MAI Code 2 用 5% 成本达 Claude Opus 5.5 约 96% 性能"
+    ],
+    [
       "11-18 06:23",
-      "OpenAI 发布 GPT-6.2 Astra 和 Sol：超越 Fable 5.2，金融、科研刷新纪录"
+      "Anthropic 上市前夕 OpenAI 空降双模型 GPT-6.2 Astra 和 Sol：部分领域超越 Fable 5.2 且成本大降，金融、科研刷新纪录"
     ],
     [
       "11-18 01:22",
@@ -154,18 +166,6 @@
     [
       "11-18 00:58",
       "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路"
-    ],
-    [
-      "11-17 23:26",
-      "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字"
-    ],
-    [
-      "11-17 23:12",
-      "靠机器人缓解成本压力，通用汽车计划到 2028 年将北美工厂自动化规模提升 20%"
-    ],
-    [
-      "11-17 22:54",
-      "聚焦AI制药与数智医疗，成都高新区数智医药健康产业合作恳谈..."
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326712,
+      "s": 326721,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319271,
+      "s": 319289,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305428,
+      "s": 305451,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233997,
+      "s": 234001,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196688,
+      "s": 196698,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156032,
+      "s": 156035,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149622,
+      "s": 149634,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144962,
+      "s": 144964,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121049,
+      "s": 121055,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118643,
+      "s": 118644,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
