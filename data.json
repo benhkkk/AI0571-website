@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T19:32:12",
+  "updated": "2026-11-17T20:02:41",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T19:26",
+      "t": "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏",
+      "s": "米哈游旗下《崩坏》系列 AI 研发团队现已公布通用视觉语言动作基础模型“Gamer”。该模型能够模拟真人操作方式自主游玩…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/503.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-17T19:18",
@@ -100,6 +107,13 @@
       "u": "https://www.tmtpost.com/8207501.html"
     },
     {
+      "c": "MEDPHARMA",
+      "d": "2026-11-17T17:07",
+      "t": "机械臂配液、AGV送样、LIMS审计追踪:AI制药的隐藏基建",
+      "s": "机械臂配液、AGV送样、LIMS审计追踪:AI制药的隐藏基建（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7709064016869491243/"
+    },
+    {
       "c": "MODEL",
       "d": "2026-11-17T16:51",
       "t": "DeepSeek 不限额的用法，都在这里了 | 附指南",
@@ -126,23 +140,13 @@
       "t": "智源悟界·PhysCapBench：首个跨领域的世界模型“物理数据量尺”",
       "s": "物理AI基模的核心，是从真实经验中学习可迁移的物理规律，形成理解、预测和作用于物理世界的能力。真实世界的数据里藏着丰富的…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/aijuejinzhi/KPwGklj93OeTbkrg.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T16:31",
-      "t": "谷歌 DeepMind 核心高管再出走，首席战略官跳槽 Anthropic",
-      "s": "据科技媒体《The Information》当地时间 16 日报道，谷歌 DeepMind 首席战略官贾斯吉特・塞孔（J…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/360.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T16:30",
-      "t": "理想汽车 CEO 李想：会逐步开放马赫 M100 芯片的外供",
-      "s": "理想汽车 CEO 李想今日发文称，不少机器人企业问马赫 M100 能不能提供给他们。李想表示，会逐步开放马赫 M100 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/357.htm"
     }
   ],
   "timeline": [
+    [
+      "11-17 19:26",
+      "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏"
+    ],
     [
       "11-17 19:18",
       "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？"
@@ -162,10 +166,6 @@
     [
       "11-17 18:00",
       "Mac 收紧权限，苹果开始防着 AI 了"
-    ],
-    [
-      "11-17 17:58",
-      "AI，没有抛弃小城商家"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326342,
+      "s": 326365,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318925,
+      "s": 318940,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304953,
+      "s": 304979,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233870,
+      "s": 233875,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196385,
+      "s": 196403,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155976,
+      "s": 155980,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149289,
+      "s": 149310,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144920,
+      "s": 144921,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120901,
+      "s": 120905,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118505,
+      "s": 118509,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
