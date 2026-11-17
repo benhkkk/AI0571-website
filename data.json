@@ -1,12 +1,26 @@
 {
-  "updated": "2026-11-17T10:32:20",
+  "updated": "2026-11-17T11:01:57",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-17T10:54",
+      "t": "Windows 11 在记录你用过哪个 AI 编程助手",
+      "s": "一位开发者在让 AI 帮忙翻 Windows 二进制文件时，在 MissionControlAggregator.dll…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503608/windows-coding-agent-telemetry"
+    },
     {
       "c": "HOT",
       "d": "2026-11-17T10:23",
       "t": "微软全球大宕机，AI 怎么又成了背锅侠",
       "s": "微软宕机与美国航班停飞，背后都是 AI 失控吗？#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1689638?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T10:18",
+      "t": "苹果 tvOS 27.3 Beta 2 新增 Siri AI 引导界面，用户可选新旧版本",
+      "s": "消息源 @itspdfu 今天（11 月 17 日）在 X 平台发布推文，报道称在 tvOS 27.3 Beta 2 更…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/094.htm"
     },
     {
       "c": "HOT",
@@ -66,24 +80,10 @@
     },
     {
       "c": "INDUSTRY",
-      "d": "2026-11-17T09:03",
-      "t": "OpenAI 奥尔特曼谈黄仁勋离职：我也被解雇过，相信 AI 行业能平稳度过",
-      "s": "据彭博社今天报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，即使英伟达前 CEO 黄仁勋不再掌舵，AI 行业依然会…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/052.htm"
-    },
-    {
-      "c": "INDUSTRY",
       "d": "2026-11-17T08:55",
       "t": "Edge AI Daily 早报（11月17日）",
       "s": "英伟达领导层变动、Anthropic拟上市与财报窗口，使AI交易从增长叙事转向现金流、资本效率和治理连续性验证；美国将先…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8207785.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-17T08:42",
-      "t": "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
-      "s": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职 11 月 17 日消息，CNBC 今天（11 月…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374056"
     },
     {
       "c": "MEDDEVICE",
@@ -144,8 +144,16 @@
   ],
   "timeline": [
     [
+      "11-17 10:54",
+      "Windows 11 在记录你用过哪个 AI 编程助手"
+    ],
+    [
       "11-17 10:23",
       "微软全球大宕机，AI 怎么又成了背锅侠"
+    ],
+    [
+      "11-17 10:18",
+      "苹果 tvOS 27.3 Beta 2 新增 Siri AI 引导界面，用户可选新旧版本"
     ],
     [
       "11-17 10:05",
@@ -158,14 +166,6 @@
     [
       "11-17 09:54",
       "Huang Leaves Nvidia. Chinese AI Buyers and Suppliers Feel It Next"
-    ],
-    [
-      "11-17 09:49",
-      "OpenAI 推出儿童性虐待内容检测工具，加强儿童网络安全防护"
-    ],
-    [
-      "11-17 09:46",
-      "谷歌第七代自研 Ironwood TPU 交卷：8192 颗集群约 102 秒达标 DeepSeek-V3 预训练"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326009,
+      "s": 326020,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318721,
+      "s": 318729,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304694,
+      "s": 304701,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233759,
+      "s": 233763,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196095,
+      "s": 196115,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155931,
+      "s": 155936,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149083,
+      "s": 149094,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144883,
+      "s": 144887,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120780,
+      "s": 120784,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118359,
+      "s": 118368,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
