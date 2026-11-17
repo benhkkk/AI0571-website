@@ -459,6 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-17T17:21', t:'DeepSeek限额，C端付费的前奏？', s:'DeepSeek的AGI之路（来源：钛媒体）', u:'https://www.tmtpost.com/8207729.html'},
+    {c:'MEDPHARMA', d:'2026-11-17T17:21', t:'瑞士生物科技企业Orbis Medicines研发AI驱动高通量药物发现工艺，设计新型口服大环药物', s:'潜在化学设计空间可达10³⁰种结构组合。（来源：钛媒体）', u:'https://www.tmtpost.com/8207902.html'},
+    {c:'MODEL', d:'2026-11-17T17:21', t:'AI4S火热，离“ChatGPT时刻”还有多远？', s:'AI走进实验室，但离独立搞科研还很远。（来源：钛媒体）', u:'https://www.tmtpost.com/8207938.html'},
+    {c:'HOT', d:'2026-11-17T17:21', t:'腾讯加速挺进AI下半场', s:'腾讯正在进化成为一家AI科技公司（来源：钛媒体）', u:'https://www.tmtpost.com/8207501.html'},
     {c:'MODEL', d:'2026-11-17T16:51', t:'DeepSeek 不限额的用法，都在这里了 | 附指南', s:'花钱接 API，导入历史记录，远离白嫖党。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一…（来源：爱范儿）', u:'https://www.ifanr.com/1689869?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MEDPHARMA', d:'2026-11-17T16:51', t:'台媒:两岸迎来AI制药合作新机遇', s:'台媒:两岸迎来AI制药合作新机遇（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709060317901816355/'},
     {c:'HOT', d:'2026-11-17T16:31', t:'谷歌 DeepMind 核心高管再出走，首席战略官跳槽 Anthropic', s:'据科技媒体《The Information》当地时间 16 日报道，谷歌 DeepMind 首席战略官贾斯吉特・塞孔（J…（来源：IT之家）', u:'https://www.ithome.com/1/028/360.htm'},
@@ -475,30 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-17T14:40', t:'闲鱼亮相联合国气候变化大会：AI加速闲置流转，低碳融入日常', s:'一台上架长达923天的相机，在AI辅助调整商品信息和价格并重新发布后，仅用时约两小时便成功出售；一台屏幕损坏、看似失去使…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/fZwDw188Li4SuyQM.html'},
     {c:'MODEL', d:'2026-11-17T14:24', t:'OpenAI 和 Meta 联手，打通了 Agent 商业「最后一公里」', s:'作者｜桦林舞王 编辑｜靖宇 Agent 能进门了，也能付钱了。 Agent 替用户「消费」的时代，终于到来了。 美国时间…（来源：极客公园）', u:'http://www.geekpark.net/news/374075'},
     {c:'FUNDING', d:'2026-11-17T13:55', t:'思灵人形机器人完成 5 亿美元融资背后，真正产生收入的业务却是产线自动化？', s:'工厂才是产品。（来源：钛媒体）', u:'https://www.tmtpost.com/8208200.html'},
-    {c:'MEDDEVICE', d:'2026-11-17T12:32', t:'《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...', s:'《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...（来源：头条设备AI）', u:'https://www.toutiao.com/article/7708992756328202792/'},
-    {c:'HOT', d:'2026-11-17T12:03', t:'“学霸”自首AI作弊，韩国高考紧急布防', s:'地狱难度的税务师考试大翻车（来源：钛媒体）', u:'https://www.tmtpost.com/8208106.html'},
-    {c:'FUNDING', d:'2026-11-17T12:03', t:'下跌周期中的MinMax：早期投资者和闫俊杰的AI畅谈', s:'中国AI的效率之战。（来源：钛媒体）', u:'https://www.tmtpost.com/8207380.html'},
-    {c:'MODEL', d:'2026-11-17T11:45', t:'DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致', s:'11 月 16 日，「DeepSeek 使用额度已达上限」冲上热搜。多名用户反馈，App 和网页端同时收紧了限制，而且一…（来源：OSCHINA）', u:'https://www.oschina.net/news/503610'},
   ];
   const TIMELINE = [
+    ['11-17 17:21','DeepSeek限额，C端付费的前奏？'],
+    ['11-17 17:21','瑞士生物科技企业Orbis Medicines研发AI驱动高通量药物发现工艺，设计新型口服大环药物'],
+    ['11-17 17:21','AI4S火热，离“ChatGPT时刻”还有多远？'],
+    ['11-17 17:21','腾讯加速挺进AI下半场'],
     ['11-17 16:51','DeepSeek 不限额的用法，都在这里了 | 附指南'],
     ['11-17 16:51','台媒:两岸迎来AI制药合作新机遇'],
-    ['11-17 16:31','谷歌 DeepMind 核心高管再出走，首席战略官跳槽 Anthropic'],
-    ['11-17 16:30','理想汽车 CEO 李想：会逐步开放马赫 M100 芯片的外供'],
-    ['11-17 16:24','欧洲六国游戏工会联合呼吁玩家抵制生成式 AI 游戏，支持纯人工开发作品'],
-    ['11-17 16:21','可还原当地日常说话习惯：谷歌为移动平台 Gemini 应用推出 66 种地区语音，覆盖 7 类语言'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326228, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:318862, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:304872, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:233838, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196302, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155966, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149232, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144909, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:120861, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118466, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326248, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:318873, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:304880, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:233845, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196320, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155968, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149244, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144913, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:120866, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118473, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
