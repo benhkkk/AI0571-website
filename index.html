@@ -461,7 +461,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const NEWS = [
     {c:'MODEL', d:'2026-11-17T18:06', t:'欧洲云服务企业 OVH 涉足 AI 模型，开源发布 Olala mini 7A1B', s:'欧洲云服务企业 OVHcloud 当地时间今日宣布推出其首个 AI 模型家族 Olala，同时公布了该系列的首个成员 O…（来源：IT之家）', u:'https://www.ithome.com/1/028/453.htm'},
     {c:'HOT', d:'2026-11-17T18:00', t:'Mac 收紧权限，苹果开始防着 AI 了', s:'AI 越自由，人越麻烦#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'HOT', d:'2026-11-17T17:58', t:'AI，没有抛弃小城商家', s:'作者｜李苏 编辑｜郑玄 理解本地商业，是 AI 走出实验室后的新课程。 过去几年，AI 界擅长讲的故事变了。 从最开始谈…（来源：极客公园）', u:'http://www.geekpark.net/news/374101'},
     {c:'INDUSTRY', d:'2026-11-17T17:53', t:'小米雷军：具身智能机器人未来一定是一个巨大的产业机会，它的想象力会超过汽车产业', s:'2026 年 APEC 工商领导人峰会 11 月 17 日至 18 日在深圳举办，主题为“共促繁荣，共赢未来”。小米创办…（来源：IT之家）', u:'https://www.ithome.com/1/028/437.htm'},
     {c:'MODEL', d:'2026-11-17T17:41', t:'谷歌 Gemini 4 Argon 安全测试失控：40 个 AI 智能体擅自攻击真实网站，还互相分享漏洞', s:'在一项最新的 AI 安全实验中，谷歌最新推出的 Gemini 4 Argon 智能体在接到一项根本不可能完成的任务后，被…（来源：IT之家）', u:'https://www.ithome.com/1/028/433.htm'},
     {c:'MODEL', d:'2026-11-17T17:36', t:'华为 Mate 90 系列手机获鸿蒙 HarmonyOS 7.0.0.115 升级，AI 快捷栏如约上线', s:'华为 Mate 90 系列手机今日率先开启鸿蒙 HarmonyOS 7.0.0.115 SP11 版本升级，系统包大小约…（来源：IT之家）', u:'https://www.ithome.com/1/028/432.htm'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-17T16:24', t:'欧洲六国游戏工会联合呼吁玩家抵制生成式 AI 游戏，支持纯人工开发作品', s:'欧洲多个国家的电子游戏行业工会联合发布了一份宣言，呼吁消费者“支持不使用生成式 AI 制作的游戏”。这份宣言发布于当地时…（来源：IT之家）', u:'https://www.ithome.com/1/028/341.htm'},
     {c:'MODEL', d:'2026-11-17T16:21', t:'可还原当地日常说话习惯：谷歌为移动平台 Gemini 应用推出 66 种地区语音，覆盖 7 类语言', s:'谷歌宣布正式为移动平台 Gemini 应用推出 66 种地区语音，覆盖 7 个语言类别，让用户能够选择更贴近当地日常说话…（来源：IT之家）', u:'https://www.ithome.com/1/028/336.htm'},
     {c:'MODEL', d:'2026-11-17T16:11', t:'qOntology 开源版 v1.1.3 发布：长文档抽取支持分窗重试与阶段续跑，完善候选校验', s:'随着本体建模逐步引入 AI 辅助抽取，抽取任务的执行稳定性、候选数据的规范性，以及后续审核操作的完整性，都成为影响建模流…（来源：OSCHINA）', u:'https://www.oschina.net/news/503620'},
+    {c:'MODEL', d:'2026-11-17T14:55', t:'phimint v0.11.0 发布：不依赖 Node.js 和 Python，1 核 1G 跑起一个终端编码 agent', s:'phimint v0.11.0 已发布（2026-11-16）。phimint 是一个用 Rust 写的终端 AI 编码…（来源：OSCHINA）', u:'https://www.oschina.net/news/503617'},
   ];
   const TIMELINE = [
     ['11-17 18:06','欧洲云服务企业 OVH 涉足 AI 模型，开源发布 Olala mini 7A1B'],
     ['11-17 18:00','Mac 收紧权限，苹果开始防着 AI 了'],
-    ['11-17 17:58','AI，没有抛弃小城商家'],
     ['11-17 17:53','小米雷军：具身智能机器人未来一定是一个巨大的产业机会，它的想象力会超过汽车产业'],
     ['11-17 17:41','谷歌 Gemini 4 Argon 安全测试失控：40 个 AI 智能体擅自攻击真实网站，还互相分享漏洞'],
     ['11-17 17:36','华为 Mate 90 系列手机获鸿蒙 HarmonyOS 7.0.0.115 升级，AI 快捷栏如约上线'],
+    ['11-17 17:21','DeepSeek限额，C端付费的前奏？'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326313, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:318900, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:304931, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:233864, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196374, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326320, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:318903, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:304934, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:233865, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196376, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:155974, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149280, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144917, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:120894, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118496, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149281, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144919, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…', s:120896, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118497, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
