@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T12:32:10",
+  "updated": "2026-11-17T13:02:28",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-17T12:32",
+      "t": "《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...",
+      "s": "《人工智能医疗器械检查要点》发布 一份企业可对照自查的预...（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7708992756328202792/"
+    },
     {
       "c": "HOT",
       "d": "2026-11-17T12:03",
@@ -35,6 +42,13 @@
       "t": "DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致",
       "s": "11 月 16 日，「DeepSeek 使用额度已达上限」冲上热搜。多名用户反馈，App 和网页端同时收紧了限制，而且一…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503610"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-17T11:41",
+      "t": "AI蛋白质设计开始比谁的分子能用:这家AI制药公司拿到数亿元融资",
+      "s": "AI蛋白质设计开始比谁的分子能用:这家AI制药公司拿到数亿元融资（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7708979898542604815/"
     },
     {
       "c": "MEDDEVICE",
@@ -126,23 +140,13 @@
       "t": "人工智能在非临床毒性病理学中的监管现状和展望",
       "s": "人工智能在非临床毒性病理学中的监管现状和展望（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7708924554223157811/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T07:22",
-      "t": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点",
-      "s": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7708913438759617085/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T07:20",
-      "t": "【钛晨报】涉比亚迪、“蔚小理”、小米等，17家重点车企供应商账期将接受评估；消息人士称360市场负责人被带走调查；金饰克价较年内高点跌去530元",
-      "s": "百度三季度AI云基础设施收入同比增长94%；胖东来今年销售额已超258亿元；华为云发布并开源昇腾原生具身世界模型；胜宏科…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8207624.html"
     }
   ],
   "timeline": [
+    [
+      "11-17 12:32",
+      "《人工智能医疗器械检查要点》发布 一份企业可对照自查的预..."
+    ],
     [
       "11-17 12:03",
       "“学霸”自首AI作弊，韩国高考紧急布防"
@@ -162,10 +166,6 @@
     [
       "11-17 11:45",
       "DeepSeek 悄悄收紧免费额度，或因算力资源紧张所致"
-    ],
-    [
-      "11-17 11:33",
-      "医疗AI出海欧盟，如何应对《人工智能法案》"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326047,
+      "s": 326057,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318761,
+      "s": 318768,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304743,
+      "s": 304755,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233787,
+      "s": 233793,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196162,
+      "s": 196177,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155943,
+      "s": 155942,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149132,
+      "s": 149142,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144894,
+      "s": 144897,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120797,
+      "s": 120800,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118387,
+      "s": 118393,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
