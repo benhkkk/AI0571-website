@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-17T09:03:13",
+  "updated": "2026-11-17T09:32:31",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-17T09:04",
+      "t": "超频玩家借助 AI 修改主板 BIOS：尝试复活华擎 SkyOC BCLK 超频功能，绕过英特尔非 K 处理器限制",
+      "s": "据 Tom's Hardware 昨日报道，一名硬件超频爱好者尝试借助 AI 修改主板 BIOS，重新启用华擎此前已经取…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/053.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-17T09:03",
+      "t": "OpenAI 奥尔特曼谈黄仁勋离职：我也被解雇过，相信 AI 行业能平稳度过",
+      "s": "据彭博社今天报道，OpenAI 首席执行官萨姆 · 奥尔特曼表示，即使英伟达前 CEO 黄仁勋不再掌舵，AI 行业依然会…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/052.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-17T08:55",
@@ -58,32 +72,11 @@
       "u": "https://www.ithome.com/1/028/028.htm"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T07:22",
-      "t": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点",
-      "s": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7708913438759617085/"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-17T07:20",
       "t": "【钛晨报】涉比亚迪、“蔚小理”、小米等，17家重点车企供应商账期将接受评估；消息人士称360市场负责人被带走调查；金饰克价较年内高点跌去530元",
       "s": "百度三季度AI云基础设施收入同比增长94%；胖东来今年销售额已超258亿元；华为云发布并开源昇腾原生具身世界模型；胜宏科…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8207624.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T07:18",
-      "t": "OpenAI 扩大 ChatGPT 学术研究免费计划：11 月 23 日再开放 5 万个名额，从抽签改为先到先得",
-      "s": "OpenAI 宣布扩大面向学术研究人员的 ChatGPT 免费使用计划（ChatGPT for Academic Res…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/027.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-17T07:12",
-      "t": "OpenAI 与 Goodfire 达成 AI 安全合作，此前曾探讨超 50 亿美元收购",
-      "s": "今日，OpenAI 宣布与 Apollo Research、METR、Transluce 和 Goodfire 达成合作…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/024.htm"
     },
     {
       "c": "FUNDING",
@@ -112,6 +105,13 @@
       "t": "华为云“行业AI梦工厂”发布并开源昇腾原生具身世界模型CloudRobo-WM1.2",
       "s": "[中国，杭州，2026年11月16日] 今天，华为云“行业AI梦工厂”发布并开源昇腾原生的具身世界模型CloudRobo…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503602"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-16T19:32",
+      "t": "【启思•未来场首映礼】10家未上市AI制药企业，齐聚启思会",
+      "s": "【启思•未来场首映礼】10家未上市AI制药企业，齐聚启思会（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7708727730178687526/"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-17 09:04",
+      "超频玩家借助 AI 修改主板 BIOS：尝试复活华擎 SkyOC BCLK 超频功能，绕过英特尔非 K 处理器限制"
+    ],
+    [
+      "11-17 09:03",
+      "OpenAI 奥尔特曼谈黄仁勋离职：我也被解雇过，相信 AI 行业能平稳度过"
+    ],
+    [
       "11-17 08:55",
       "Edge AI Daily 早报（11月17日）"
     ],
@@ -158,14 +166,6 @@
     [
       "11-17 08:06",
       "英特尔 350W 新卡 D270 亮剑，金融算力较英伟达 600W 加速卡飙升 5.9 倍"
-    ],
-    [
-      "11-17 08:05",
-      "人工智能在非临床毒性病理学中的监管现状和展望"
-    ],
-    [
-      "11-17 07:50",
-      "苹果 iOS 27.3 测试版新增 Siri AI 每日限额，付费订阅 iCloud+ 可提升 2~20 倍"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 325964,
+      "s": 325979,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318694,
+      "s": 318699,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304658,
+      "s": 304668,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233746,
+      "s": 233749,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196057,
+      "s": 196073,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155926,
+      "s": 155929,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149057,
+      "s": 149065,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144879,
+      "s": 144882,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120756,
+      "s": 120766,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118341,
+      "s": 118346,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
