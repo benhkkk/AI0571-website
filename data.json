@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-18T01:02:18",
+  "updated": "2026-11-18T01:31:54",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T01:22",
+      "t": "华为 Mate 90 系列手机 AI 快捷栏全新交互体验曝光，与星芒 OSTA O1 Pro 风格完全不同",
+      "s": "华为 Mate 90 系列手机昨晚率先开启鸿蒙 HarmonyOS 7.0.0.115 SP11 版本升级，系统包大小约…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/571.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T00:58",
+      "t": "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路",
+      "s": "商汤科技昨日晚间正式发布 SenseNova Loop-9B 模型。寒武纪官方宣布，已完成对商汤新发布模型日日新 Sen…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/568.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-17T23:26",
@@ -65,25 +79,11 @@
       "u": "https://www.ithome.com/1/028/518.htm"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-17T20:06",
-      "t": "VR 眼镜上市前，Meta 斥资 1.2 亿美元扶持第三方 VR 游戏",
-      "s": "今年早些时候，Meta 旗下 Reality Labs 部门将战略重心转向了可穿戴设备和人工智能，叫停了多款正在开发中的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/512.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-17T19:40",
       "t": "李沐加盟的Aimotion，是一家什么AI公司？",
       "s": "瞄准「产业级世界模型」（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/510688.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T19:26",
-      "t": "米哈游公布通用视觉语言动作基础模型 Gamer，可自主游玩《崩坏：星穹铁道》等游戏",
-      "s": "米哈游旗下《崩坏》系列 AI 研发团队现已公布通用视觉语言动作基础模型“Gamer”。该模型能够模拟真人操作方式自主游玩…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/503.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-18 01:22",
+      "华为 Mate 90 系列手机 AI 快捷栏全新交互体验曝光，与星芒 OSTA O1 Pro 风格完全不同"
+    ],
+    [
+      "11-18 00:58",
+      "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路"
+    ],
+    [
       "11-17 23:26",
       "快手可灵全新一代图像创作模型 Kling Image 4.0 上线：首次支持原生 8K，单图内可生成 2000 字"
     ],
@@ -158,14 +166,6 @@
     [
       "11-17 22:15",
       "并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎"
-    ],
-    [
-      "11-17 22:05",
-      "50亿美元!诺奖得主拿下AI制药史上最大融资"
-    ],
-    [
-      "11-17 21:39",
-      "Alphabet 旗下药物 AI 企业 Isomorphic Labs 完成 50 亿美元 C 轮融资"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326571,
+      "s": 326590,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319114,
+      "s": 319130,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305205,
+      "s": 305225,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233945,
+      "s": 233951,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196551,
+      "s": 196567,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156011,
+      "s": 156014,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149479,
+      "s": 149501,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144949,
+      "s": 144955,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120988,
+      "s": 120997,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118581,
+      "s": 118591,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
