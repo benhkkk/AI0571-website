@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-17T13:32:04",
+  "updated": "2026-11-17T14:02:39",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-17T13:55",
+      "t": "思灵人形机器人完成 5 亿美元融资背后，真正产生收入的业务却是产线自动化？",
+      "s": "工厂才是产品。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8208200.html"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-17T13:01",
@@ -128,21 +135,18 @@
       "u": "https://www.tmtpost.com/8207785.html"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-17T08:05",
-      "t": "人工智能在非临床毒性病理学中的监管现状和展望",
-      "s": "人工智能在非临床毒性病理学中的监管现状和展望（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7708924554223157811/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T07:22",
-      "t": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点",
-      "s": "四年攻坚癌症新药!原子级AI模型实现弯道超车，AI制药赛道迎拐点（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7708913438759617085/"
+      "c": "HOT",
+      "d": "2026-11-17T08:42",
+      "t": "消息称黄仁勋回归尚未进入英伟达董事会议程；腾讯总办号召AI时代再创业；AI 演员虚假代言被罚",
+      "s": "消息称黄仁勋回归尚未进入英伟达董事会议程，已有 18 万人联署呼吁复职 11 月 17 日消息，CNBC 今天（11 月…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374056"
     }
   ],
   "timeline": [
+    [
+      "11-17 13:55",
+      "思灵人形机器人完成 5 亿美元融资背后，真正产生收入的业务却是产线自动化？"
+    ],
     [
       "11-17 13:01",
       "百度李彦宏警告 AI 泡沫风险：当前 AI 行业上层应用落地成效不及预期"
@@ -162,10 +166,6 @@
     [
       "11-17 12:03",
       "下跌周期中的MinMax：早期投资者和闫俊杰的AI畅谈"
-    ],
-    [
-      "11-17 11:56",
-      "华为麒麟 9050 系列芯片配备新一代显示 DPU，支持全彩 AI-HDR2020"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326072,
+      "s": 326088,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 318773,
+      "s": 318782,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 304770,
+      "s": 304780,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 233797,
+      "s": 233801,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196188,
+      "s": 196204,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 155942,
+      "s": 155947,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149147,
+      "s": 149157,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144899,
+      "s": 144902,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "🪨 why use many token when few token do trick. Viral skill + proxy for coding agents that c…",
-      "s": 120804,
+      "s": 120808,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118396,
+      "s": 118407,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
