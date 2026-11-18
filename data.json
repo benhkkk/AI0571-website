@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-18T11:02:59",
+  "updated": "2026-11-18T11:31:56",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T11:13",
+      "t": "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降",
+      "s": "OpenAI 在推特上发了句挺少见的开场白：「有些人一直在非常礼貌地问，有些人就只是问。」然后宣布 GPT-6.2 As…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503626/openai-gpt-6-2-astra-sol"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-18T10:49",
+      "t": "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？",
+      "s": "小红书校招沙龙，一群技术高手认真对待年轻人的野心（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510737.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-18T10:45",
+      "t": "小米雷军：“AI+ 手机”“AI+ 具身智能机器人”等有很大想象空间，未来三四年会诞生颠覆性时刻",
+      "s": "小米创办人、董事长兼 CEO 雷军 11 月 17 日出席 APEC 工商领导人峰会。今日（11 月 18 日），雷军接…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/669.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-18T10:30",
@@ -93,13 +114,6 @@
       "u": "https://www.qbitai.com/2026/11/510726.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-18T08:55",
-      "t": "Anthropic IPO尚未落地，已获“买入”评级",
-      "s": "预计 Anthropic 的股票将于周四开始交易。华尔街一家机构已率先对该股作出初始评级，给出“买入”建议。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8209054.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-18T08:52",
       "t": "微软 CEO 纳德拉称自己是“AGI 信徒”，但否认 AI 具有意识",
@@ -126,23 +140,21 @@
       "t": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
       "s": "Sol逼近旗舰性能（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/510707.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-18T08:48",
-      "t": "Edge AI Daily 早报（11月18日）",
-      "s": "Anthropic IPO由亚马逊与谷歌合计持股近三成，估值1.405万亿美元，公开市场检验现金流与算力成本。OpenA…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8208923.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-18T08:44",
-      "t": "欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元",
-      "s": "据路透社报道，法国通用机器人公司 Genesis AI 现已完成 5 亿美元（IT之家注：现汇率约合 33.4 亿元人民…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/605.htm"
     }
   ],
   "timeline": [
+    [
+      "11-18 11:13",
+      "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降"
+    ],
+    [
+      "11-18 10:49",
+      "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？"
+    ],
+    [
+      "11-18 10:45",
+      "小米雷军：“AI+ 手机”“AI+ 具身智能机器人”等有很大想象空间，未来三四年会诞生颠覆性时刻"
+    ],
     [
       "11-18 10:30",
       "Gartner 2027十大技术趋势：十项里四项与AI治理有关，窗口期只有1到6年"
@@ -154,18 +166,6 @@
     [
       "11-18 10:19",
       "戴森 Airsmooth 气流丰盈梳发布：吹干蓬松一步到位、断发减少 39%，1899 元"
-    ],
-    [
-      "11-18 10:15",
-      "刷新AI制药单笔融资纪录!Isomorphic Labs为何获明星资本青睐?"
-    ],
-    [
-      "11-18 10:14",
-      "消息称英伟达安抚机器人生态伙伴，“物理 AI”投资不会急刹车"
-    ],
-    [
-      "11-18 10:11",
-      "全球最大AI制药融资诞生!Isomorphic Labs刚刚拿下50亿美元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326834,
+      "s": 326849,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319403,
+      "s": 319424,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305607,
+      "s": 305625,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234029,
+      "s": 234033,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196791,
+      "s": 196802,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156057,
+      "s": 156058,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149707,
+      "s": 149718,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121090,
+      "s": 121097,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118687,
+      "s": 118695,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
