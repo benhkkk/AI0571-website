@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-18T07:31:48",
+  "updated": "2026-11-18T08:03:08",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-18T07:51",
+      "t": "微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍",
+      "s": "昨日（11 月 17 日）召开的 Ignite 2026 活动中，微软宣布旗下第二代自研人工智能加速器 Maia 200…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/597.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T07:42",
+      "t": "英伟达 Q3 电话会议：公司业务一切照常，不会急于寻找黄仁勋继任者",
+      "s": "北京时间 11 月 18 日，AI 芯片巨头英伟达公司今天发布了 2027 财年第三季度财报。财报发布后，英伟达临时 C…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/594.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T07:40",
+      "t": "微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini",
+      "s": "微软昨日（11 月 17 日）宣布正式推出 Microsoft-Decision-1.1 决策 AI 模型，目前已在 M…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/593.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-18T07:27",
@@ -35,27 +56,6 @@
       "t": "微软性价比最高编程 AI 模型：MAI Code 2 用 5% 成本达 Claude Opus 5.5 约 96% 性能",
       "s": "在今天召开的 Ignite 2026 活动中，微软发布自研编程模型 MAI Code 2 和 MAI Code 2 Fl…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/579.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-18T06:23",
-      "t": "Anthropic 上市前夕 OpenAI 空降双模型 GPT-6.2 Astra 和 Sol：部分领域超越 Fable 5.2 且成本大降，金融、科研刷新纪录",
-      "s": "就在 Anthropic IPO 定价前一天，OpenAI 突然毫无预兆地送上了一份“惊喜”。OpenAI 今日正式发布…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/577.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T01:22",
-      "t": "华为 Mate 90 系列手机 AI 快捷栏全新交互体验曝光，与星芒 OSTA O1 Pro 风格完全不同",
-      "s": "华为 Mate 90 系列手机昨晚率先开启鸿蒙 HarmonyOS 7.0.0.115 SP11 版本升级，系统包大小约…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/571.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T00:58",
-      "t": "寒武纪 Day 0 完成商汤 SenseNova Loop-9B 适配，打通新型循环计算架构推理链路",
-      "s": "商汤科技昨日晚间正式发布 SenseNova Loop-9B 模型。寒武纪官方宣布，已完成对商汤新发布模型日日新 Sen…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/568.htm"
     },
     {
       "c": "MEDPHARMA",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "11-18 07:51",
+      "微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍"
+    ],
+    [
+      "11-18 07:42",
+      "英伟达 Q3 电话会议：公司业务一切照常，不会急于寻找黄仁勋继任者"
+    ],
+    [
+      "11-18 07:40",
+      "微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini"
+    ],
+    [
       "11-18 07:27",
       "多语言错误率直降 50%：微软升级医患对话 AI 转录引擎，已覆盖全美 1/3 医师"
     ],
@@ -154,18 +166,6 @@
     [
       "11-18 06:55",
       "“全球第一修图 AI 模型”：微软 MAI Image 2.7 登场，用 1/5 价格击败 GPT Image 2.6 登顶"
-    ],
-    [
-      "11-18 06:51",
-      "谷歌更新 Gemini 隐私控制，可保留聊天记录且不参与 AI 训练"
-    ],
-    [
-      "11-18 06:42",
-      "微软性价比最高编程 AI 模型：MAI Code 2 用 5% 成本达 Claude Opus 5.5 约 96% 性能"
-    ],
-    [
-      "11-18 06:23",
-      "Anthropic 上市前夕 OpenAI 空降双模型 GPT-6.2 Astra 和 Sol：部分领域超越 Fable 5.2 且成本大降，金融、科研刷新纪录"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326732,
+      "s": 326741,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319302,
+      "s": 319307,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305469,
+      "s": 305483,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234002,
+      "s": 234003,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196709,
+      "s": 196720,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156034,
+      "s": 156035,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149642,
+      "s": 149652,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144964,
+      "s": 144963,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121059,
+      "s": 121062,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118651,
+      "s": 118655,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
