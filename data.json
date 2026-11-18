@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-18T15:02:07",
+  "updated": "2026-11-18T15:31:28",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-18T15:14",
+      "t": "Claude 用了三天，把模型“搬上” AMD 的 GPU",
+      "s": "Anthropic 最近在 IPO 路演里给投资人放了一张幻灯片：把自家模型跑上 AMD GPU 需要的软件工作，Cla…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503639/claude-mythos-slashed-software-work-to-onboard-amd-gpus"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-18T15:06",
+      "t": "AI 芯片拉动韩国出口向万亿美元迈进，但股市暴跌拖累内需",
+      "s": "据路透社报道，随着科技巨头依靠半导体产业为全球人工智能浪潮提供支持，韩国出口引擎正全速运转。然而，AI 市场情绪起伏不定…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/826.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-18T15:03",
+      "t": "谷歌系公司拿下AI制药最大单轮融资，AI制药已经进入临床验证...",
+      "s": "谷歌系公司拿下AI制药最大单轮融资，AI制药已经进入临床验证...（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7709403652914250276/"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-18T14:56",
@@ -58,13 +79,6 @@
       "u": "https://www.tmtpost.com/8209454.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-18T13:16",
-      "t": "AI陪伴，硬件的账该怎么算？",
-      "s": "AI陪伴核心是算清楚：硬件的增量体验，能否覆盖它带来的全部成本。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8208289.html"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-18T13:12",
       "t": "当AI开始“造药”:谷歌系公司拿下AI制药最大单轮融资",
@@ -108,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-18T12:16",
-      "t": "顶刊论文中的实验图片被质疑用 AI 生成，湖南省科技厅同步核查学术不端",
-      "s": "一篇发表于《Journal of Translational Medicine》的鼻咽癌研究论文昨日引发网友质疑，相关话…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/697.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-18T12:00",
       "t": "即梦 Seedance 2.5 大升级，AI 视频生成终于有了自己的 4K 生产线",
       "s": "从 AI 出片，走向 AI 交片#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）",
@@ -133,16 +140,21 @@
       "t": "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降",
       "s": "OpenAI 在推特上发了句挺少见的开场白：「有些人一直在非常礼貌地问，有些人就只是问。」然后宣布 GPT-6.2 As…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503626/openai-gpt-6-2-astra-sol"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-18T11:10",
-      "t": "CRO、AI制药概念震荡下挫 成都先导跌超13%",
-      "s": "CRO、AI制药概念震荡下挫 成都先导跌超13%（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7709343557047812648/"
     }
   ],
   "timeline": [
+    [
+      "11-18 15:14",
+      "Claude 用了三天，把模型“搬上” AMD 的 GPU"
+    ],
+    [
+      "11-18 15:06",
+      "AI 芯片拉动韩国出口向万亿美元迈进，但股市暴跌拖累内需"
+    ],
+    [
+      "11-18 15:03",
+      "谷歌系公司拿下AI制药最大单轮融资，AI制药已经进入临床验证..."
+    ],
     [
       "11-18 14:56",
       "微软 Office 翻开新篇章：Copilot AI 应用集成 Word 等唱主角"
@@ -154,18 +166,6 @@
     [
       "11-18 14:41",
       "互动影游新作3天流水超200万，对话一相逢互动吴志涛：互动影游的门槛，在分支、游戏用户和审核"
-    ],
-    [
-      "11-18 14:22",
-      "全国首个昇腾 950DT 词元出海算力集群在汕头启用：华为、中国电信、天亿马三方合作"
-    ],
-    [
-      "11-18 14:07",
-      "微软拟升级 Copilot，要给你的 Win11 电脑“看病”"
-    ],
-    [
-      "11-18 14:04",
-      "微软 Windows Server 2028 开放测试：原生 NVMe 默认启用并支持 ReFS 启动，新增本地 AI 推理支持"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326956,
+      "s": 326979,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319546,
+      "s": 319554,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305816,
+      "s": 305845,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234077,
+      "s": 234087,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196885,
+      "s": 196899,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156073,
+      "s": 156077,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149793,
+      "s": 149801,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121135,
+      "s": 121140,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118729,
+      "s": 118737,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
