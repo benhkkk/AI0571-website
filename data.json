@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-18T20:31:36",
+  "updated": "2026-11-18T21:02:19",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T20:33",
+      "t": "DeepSeek API 定价调整：调用模型时触发服务端搜索、网页抓取不再计费，仅按模型 Token 用量计费",
+      "s": "DeepSeek 官网显示，自北京时间 2026 年 11 月 18 日 12:00 起，调用模型时触发的服务端搜索、网…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/058.htm"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-11-18T20:21",
@@ -122,10 +129,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-18T17:23",
-      "t": "亚马逊不排除放行外部 AI 购物智能体，前提是带来优质用户体验",
-      "s": "亚马逊此前关闭了外部 AI 购物智能体在其平台上直接下单的权限，但 CEO 安迪 · 贾西（Andy Jassy）表示…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/933.htm"
+      "d": "2026-11-18T17:41",
+      "t": "Gemini新模型Neon箭在弦上，网友：遍历元素周期表？",
+      "s": "氖人寻味！（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510922.html"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,13 @@
       "t": "清华徐梦迪：预训练做再好都不够，机器人需要在部署中学习 | CoRL 2026",
       "s": "人机交互不只是目标，更是解决方案。 作者丨邓哲敏 编辑丨齐铖湧 2026 年 11 月 12 日，CoRL 2026 “…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-18T15:52",
-      "t": "做了20多年消费硬件，奥尼电子为什么去做Token工厂？",
-      "s": "“这个有什么用？怎么用起来？”一家有超20年制造经验的企业，进入AI推理算力市场后，被客户的这个问题问住了。这两年，AI…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/DNqOGFbDk2Vd5eiX.html"
     }
   ],
   "timeline": [
+    [
+      "11-18 20:33",
+      "DeepSeek API 定价调整：调用模型时触发服务端搜索、网页抓取不再计费，仅按模型 Token 用量计费"
+    ],
     [
       "11-18 20:21",
       "大江东丨走近科学大咖① AI制药冲进三期临床，泡沫还是功德?..."
@@ -162,10 +166,6 @@
     [
       "11-18 18:48",
       "腾讯公布 2026 年 Q3 财报：微信及 WeChat 合并月活跃账户数 14.49 亿，同比增长 2%"
-    ],
-    [
-      "11-18 18:45",
-      "华尔街为 Anthropic“史上最大 IPO”造势，散户争抢热情或超 SpaceX"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327155,
+      "s": 327169,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319701,
+      "s": 319721,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306050,
+      "s": 306070,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234159,
+      "s": 234168,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197005,
+      "s": 197016,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156112,
+      "s": 156115,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149922,
+      "s": 149932,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144998,
+      "s": 145000,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121194,
+      "s": 121195,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118818,
+      "s": 118832,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
