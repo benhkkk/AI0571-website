@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-18T16:52', t:'腾讯 WorkBuddy 日活跃用户数超 1000 万，成为中国大语言模型日均 Token 用量最高 AI 产品', s:'腾讯今日发布 2026 年第三季度财报，截至 11 月初，WorkBuddy 日活跃用户数超过 1000 万，日均 To…（来源：IT之家）', u:'https://www.ithome.com/1/028/914.htm'},
     {c:'HOT', d:'2026-11-18T16:27', t:'消息称黄仁勋曾力推 RTX 5080 24GB 显卡安抚游戏玩家，如今英伟达或将其取消', s:'黄仁勋突然离职后，许多玩家担心，失去黄仁勋掌舵的英伟达可能会进一步向 AI 业务倾斜，而牺牲游戏显卡业务。爆料人士 Mo…（来源：IT之家）', u:'https://www.ithome.com/1/028/908.htm'},
     {c:'FUNDING', d:'2026-11-18T16:25', t:'孙正义坦言未投资 Anthropic 是个“错误”，软银对此深感遗憾', s:'据日经亚洲报道，软银集团创始人孙正义周三表示，早年错过投资 Anthropic 的机会是他所犯的“错误”之一，并对自己在…（来源：IT之家）', u:'https://www.ithome.com/1/028/905.htm'},
     {c:'MODEL', d:'2026-11-18T16:08', t:'瑞芯微 RK1860 规格曝光：64TOPS 稠密 INT8 算力，集成至多 10GB DRAM', s:'开源硬件制造商 Radxa 此前分享了瑞芯微 (Rockchip) 端侧 AI 协处理器 RK1860 的规格信息。这一…（来源：IT之家）', u:'https://www.ithome.com/1/028/874.htm'},
@@ -469,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-18T15:23', t:'五人席位 + 每人每月 3200 AI 积分：剪映团队版会员 180 → 71 元单月发车', s:'剪映 · 团队版会员月卡日常 180 元，今日新客仅需 71 元即可入手。含五人席位 + 每人每月 3200 AI 积分…（来源：IT之家）', u:'https://www.ithome.com/1/028/835.htm'},
     {c:'FUNDING', d:'2026-11-18T15:14', t:'Claude 用了三天，把模型“搬上” AMD 的 GPU', s:'Anthropic 最近在 IPO 路演里给投资人放了一张幻灯片：把自家模型跑上 AMD GPU 需要的软件工作，Cla…（来源：OSCHINA）', u:'https://www.oschina.net/news/503639/claude-mythos-slashed-software-work-to-onboard-amd-gpus'},
     {c:'MODEL', d:'2026-11-18T15:13', t:'微软推出 Copilot Today：打工人的“全自动 AI 助理”，替你排好一天工作', s:'在昨日（11 月 17 日）召开的 Ignite 2026 大会上，微软推出全新 Copilot Today 功能，目标…（来源：IT之家）', u:'https://www.ithome.com/1/028/831.htm'},
-    {c:'INDUSTRY', d:'2026-11-18T15:06', t:'AI 芯片拉动韩国出口向万亿美元迈进，但股市暴跌拖累内需', s:'据路透社报道，随着科技巨头依靠半导体产业为全球人工智能浪潮提供支持，韩国出口引擎正全速运转。然而，AI 市场情绪起伏不定…（来源：IT之家）', u:'https://www.ithome.com/1/028/826.htm'},
     {c:'MEDPHARMA', d:'2026-11-18T15:03', t:'谷歌系公司拿下AI制药最大单轮融资，AI制药已经进入临床验证...', s:'谷歌系公司拿下AI制药最大单轮融资，AI制药已经进入临床验证...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709403652914250276/'},
     {c:'MEDPHARMA', d:'2026-11-18T14:45', t:'谷歌系AI制药公司融资50亿美元，较上轮翻倍', s:'谷歌系AI制药公司融资50亿美元，较上轮翻倍（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709399006635508243/'},
     {c:'HOT', d:'2026-11-18T14:41', t:'互动影游新作3天流水超200万，对话一相逢互动吴志涛：互动影游的门槛，在分支、游戏用户和审核', s:'面对AI的到来，是机遇也是挑战。（来源：钛媒体）', u:'https://www.tmtpost.com/8209736.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-18T12:00', t:'即梦 Seedance 2.5 大升级，AI 视频生成终于有了自己的 4K 生产线', s:'从 AI 出片，走向 AI 交片#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）', u:'https://www.ifanr.com/1690033?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['11-18 16:52','腾讯 WorkBuddy 日活跃用户数超 1000 万，成为中国大语言模型日均 Token 用量最高 AI 产品'],
     ['11-18 16:27','消息称黄仁勋曾力推 RTX 5080 24GB 显卡安抚游戏玩家，如今英伟达或将其取消'],
     ['11-18 16:25','孙正义坦言未投资 Anthropic 是个“错误”，软银对此深感遗憾'],
     ['11-18 16:08','瑞芯微 RK1860 规格曝光：64TOPS 稠密 INT8 算力，集成至多 10GB DRAM'],
     ['11-18 15:53','GPT-6.2难产！OpenAI怕了'],
     ['11-18 15:48','全球使用率最高的企业浏览器：微软 Edge for Business 进化，让 AI 替你干活'],
-    ['11-18 15:24','全球首个医疗健康AI独立评测与分析平台InclusionMed正式上线'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327034, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319612, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:305909, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234111, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196938, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156095, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149839, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144989, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121159, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118764, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327053, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319628, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:305922, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234117, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196948, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156098, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149846, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144992, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121165, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118772, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
