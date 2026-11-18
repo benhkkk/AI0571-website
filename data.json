@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T02:31:50",
+  "updated": "2026-11-19T03:02:16",
   "news": [
     {
       "c": "HOT",
@@ -35,13 +35,6 @@
       "t": "微星 RTX Spark 迷你主机 EdgeMesa N AI+ 上市：64GB + 1TB 售 33999 元",
       "s": "NVIDIA（英伟达）今日正式解禁了 RTX Spark 迷你主机的销售，而与华硕 ProArt GR1X 一道进入市场…（来源：IT之家）",
       "u": "https://www.ithome.com/1/029/111.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-18T22:13",
-      "t": "这只高波动AI股较高点已跌80%，且正发出警告信号",
-      "s": "应用光电（Applied Optoelectronics）的股价正在下跌，这可能是在为人工智能建设浪潮亮起一盏警示灯。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8210485.html"
     },
     {
       "c": "MODEL",
@@ -135,6 +128,13 @@
       "u": "https://www.ifanr.com/1690130?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
+      "c": "HOT",
+      "d": "2026-11-18T17:51",
+      "t": "第一批打工的人形机器人，有的已经失业了",
+      "s": "辞退原因是什么？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8209375.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-11-18T17:50",
       "t": "微软编程模型「MAI Code」上新，用 Claude Opus 5.5 百分之五的价格拿到 96% 的性能",
@@ -164,8 +164,8 @@
       "微星 RTX Spark 迷你主机 EdgeMesa N AI+ 上市：64GB + 1TB 售 33999 元"
     ],
     [
-      "11-18 22:13",
-      "这只高波动AI股较高点已跌80%，且正发出警告信号"
+      "11-18 21:51",
+      "消息称三星电子计划在 CES 2027 发布 2 款人形机器人"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327341,
+      "s": 327352,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319888,
+      "s": 319901,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306318,
+      "s": 306335,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197112,
+      "s": 197120,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156149,
+      "s": 156150,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150085,
+      "s": 150093,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121262,
+      "s": 121267,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118888,
+      "s": 118890,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
