@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-18T23:32:21",
+  "updated": "2026-11-19T00:02:33",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-18T23:35",
+      "t": "消息称 Anthropic 考虑扩大 IPO 规模，散户认购意向接近千亿美元",
+      "s": "北京时间今天（18 日）晚间，据美国 CNBC 援引知情人士消息称，Anthropic 考虑扩大 IPO 发行规模，并可…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/121.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-18T23:09",
@@ -37,13 +44,6 @@
       "u": "https://www.ithome.com/1/029/086.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-18T21:40",
-      "t": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
-      "s": "「基本不可用，不推荐」。 OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374175"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-18T21:31",
       "t": "腾讯高管：预计 2028 年 AI 投入产出效率改善，得益于基础设施复用、硬件降价与算力效率提升",
@@ -56,13 +56,6 @@
       "t": "始终将水瓶、文件夹误认为枪支，美国一高中停用 AI 武器探测系统",
       "s": "据外媒 TechSpot 今天（18 日）晚间报道，因屡次将普通物品误判为潜在威胁，美国宾夕法尼亚州亨普菲尔德地区高中最…（来源：IT之家）",
       "u": "https://www.ithome.com/1/029/078.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-18T21:23",
-      "t": "防止考生利用 AI 作弊，韩国临时屏蔽高考考场及周边 100 米内公共 WiFi",
-      "s": "据韩联社报道，韩国 2027 学年度大学修学能力考试（高考）开考在即，为防范考生利用人工智能技术作弊，自当地时间 18 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/075.htm"
     },
     {
       "c": "MODEL",
@@ -121,6 +114,13 @@
       "u": "https://www.tmtpost.com/8208866.html"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-18T18:01",
+      "t": "深度实测 GPT-6.2：强是真强，难用也是真难用",
+      "s": "希望国模也快快跟上啊#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1690130?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
       "c": "HOT",
       "d": "2026-11-18T17:51",
       "t": "第一批打工的人形机器人，有的已经失业了",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-18 23:35",
+      "消息称 Anthropic 考虑扩大 IPO 规模，散户认购意向接近千亿美元"
+    ],
+    [
       "11-18 23:09",
       "马斯克“怒怼”奥尔特曼：SpaceX 预计不会从 OpenAI 处获得任何收入"
     ],
@@ -162,10 +166,6 @@
     [
       "11-18 21:46",
       "张朝阳再度回应搜狐“躺平”：大模型投入太大，没资源来做这个事情"
-    ],
-    [
-      "11-18 21:40",
-      "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327259,
+      "s": 327278,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319807,
+      "s": 319815,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306215,
+      "s": 306231,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234203,
+      "s": 234210,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197059,
+      "s": 197064,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156129,
+      "s": 156132,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150000,
+      "s": 150017,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145009,
+      "s": 145010,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121235,
+      "s": 121240,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118861,
+      "s": 118866,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
