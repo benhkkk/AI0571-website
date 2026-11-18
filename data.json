@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-18T12:32:34",
+  "updated": "2026-11-18T13:02:13",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-18T12:47",
+      "t": "AI 创新加速落地CES 2027，中国企业如何应答？｜钛媒体TMTPOST CES系列活动开启",
+      "s": "TMTPOST CES 2027「Talk to the World」系列活动启动招募。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8205750.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-18T12:36",
+      "t": "AI伴侣的孤独陷阱",
+      "s": "AI伴侣的核心卖点是随叫随到的陪伴，但这种陪伴是否真正有效？斯坦福大学一项基于46万条真实聊天记录的研究发现，对于社交网…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8209348.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-18T12:32",
+      "t": "波士顿动力人形机器人首次进入半导体制造领域，Atlas 明年在格罗方德工厂测试",
+      "s": "据外媒 Interesting Engineering 昨天报道，波士顿动力 Atlas 人形机器人即将首次进入半导体制…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/700.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-18T12:25",
@@ -115,34 +136,25 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-18T10:05",
-      "t": "Claude 关联计费测试上线，第三方应用 AI 消费能“按需结算”",
-      "s": "Anthropic 昨日（11 月 17 日）更新 Claude 平台文档，宣布引入名为“关联计费”（Linked Bi…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/637.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-18T09:58",
       "t": "GPT-6.2 Astra终于上线，从PPT做到发动机",
       "s": "新模型什么活都想干，但很难伺候。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8209040.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T09:48",
-      "t": "可灵AI发布Kling Image 4.0：原生8K超高清、组图直出，刷新专业图像生成新高度",
-      "s": "11月17日晚，可灵AI全新一代图像创作模型Kling Image 4.0正式上线。真实、文字表现、指令理解和一致性，是…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/XmEGfhNbrGY3WfbT.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-18T09:13",
-      "t": "实测：我们用AI做游戏，把开发成本打到了20块",
-      "s": "人人都是制作人 。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8208805.html"
     }
   ],
   "timeline": [
+    [
+      "11-18 12:47",
+      "AI 创新加速落地CES 2027，中国企业如何应答？｜钛媒体TMTPOST CES系列活动开启"
+    ],
+    [
+      "11-18 12:36",
+      "AI伴侣的孤独陷阱"
+    ],
+    [
+      "11-18 12:32",
+      "波士顿动力人形机器人首次进入半导体制造领域，Atlas 明年在格罗方德工厂测试"
+    ],
     [
       "11-18 12:25",
       "229 元小米智能 4G 摄像机 3 开售：中国电信联通双不限 4G 免费流量，500 万像素 3K 看护 + 双向实时语音"
@@ -154,18 +166,6 @@
     [
       "11-18 12:00",
       "即梦 Seedance 2.5 大升级，AI 视频生成终于有了自己的 4K 生产线"
-    ],
-    [
-      "11-18 11:19",
-      "“童话大王”郑渊洁停更 2 年后发声：用 AI 手搓动画短片开放免费观看，祝贺 00 后赶上知识平权好时代"
-    ],
-    [
-      "11-18 11:13",
-      "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降"
-    ],
-    [
-      "11-18 11:10",
-      "CRO、AI制药概念震荡下挫 成都先导跌超13%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326881,
+      "s": 326888,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319463,
+      "s": 319484,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305682,
+      "s": 305705,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234043,
+      "s": 234050,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196818,
+      "s": 196833,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156062,
+      "s": 156063,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149739,
+      "s": 149749,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121110,
+      "s": 121118,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118702,
+      "s": 118712,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
