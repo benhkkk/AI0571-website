@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-18T12:03:06",
+  "updated": "2026-11-18T12:32:34",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T12:25",
+      "t": "229 元小米智能 4G 摄像机 3 开售：中国电信联通双不限 4G 免费流量，500 万像素 3K 看护 + 双向实时语音",
+      "s": "小米智能 4G 摄像机 3 今日正式开启抢购，京东显示为 229 元。京东小米智能 4G 摄像机 3 AI 灵敏检测 双…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/698.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T12:16",
+      "t": "顶刊论文中的实验图片被质疑用 AI 生成，湖南省科技厅同步核查学术不端",
+      "s": "一篇发表于《Journal of Translational Medicine》的鼻咽癌研究论文昨日引发网友质疑，相关话…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/697.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-18T12:00",
@@ -21,6 +35,13 @@
       "t": "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降",
       "s": "OpenAI 在推特上发了句挺少见的开场白：「有些人一直在非常礼貌地问，有些人就只是问。」然后宣布 GPT-6.2 As…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503626/openai-gpt-6-2-astra-sol"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-18T11:10",
+      "t": "CRO、AI制药概念震荡下挫 成都先导跌超13%",
+      "s": "CRO、AI制药概念震荡下挫 成都先导跌超13%（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7709343557047812648/"
     },
     {
       "c": "HOT",
@@ -107,13 +128,6 @@
       "u": "https://www.tmtpost.com/8209040.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-18T09:49",
-      "t": "韩国总统李在明公布防 AI 作弊新招：考试期间发送最高级别灾难警报，让藏匿的手机无处遁形",
-      "s": "韩国总统李在明昨日在 X 平台发文，公布韩国政府正在进行和计划的防止考试作弊政策，其中包括考试期间发送最高级别灾难警报…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/629.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-18T09:48",
       "t": "可灵AI发布Kling Image 4.0：原生8K超高清、组图直出，刷新专业图像生成新高度",
@@ -126,23 +140,17 @@
       "t": "实测：我们用AI做游戏，把开发成本打到了20块",
       "s": "人人都是制作人 。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8208805.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-18T09:03",
-      "t": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
-      "s": "英伟达公布了老黄离职后的首份财报（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/510726.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-18T08:55",
-      "t": "Anthropic IPO尚未落地，已获“买入”评级",
-      "s": "预计 Anthropic 的股票将于周四开始交易。华尔街一家机构已率先对该股作出初始评级，给出“买入”建议。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8209054.html"
     }
   ],
   "timeline": [
+    [
+      "11-18 12:25",
+      "229 元小米智能 4G 摄像机 3 开售：中国电信联通双不限 4G 免费流量，500 万像素 3K 看护 + 双向实时语音"
+    ],
+    [
+      "11-18 12:16",
+      "顶刊论文中的实验图片被质疑用 AI 生成，湖南省科技厅同步核查学术不端"
+    ],
     [
       "11-18 12:00",
       "即梦 Seedance 2.5 大升级，AI 视频生成终于有了自己的 4K 生产线"
@@ -156,16 +164,8 @@
       "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降"
     ],
     [
-      "11-18 10:49",
-      "潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？"
-    ],
-    [
-      "11-18 10:45",
-      "小米雷军：“AI+ 手机”“AI+ 具身智能机器人”等有很大想象空间，未来三四年会诞生颠覆性时刻"
-    ],
-    [
-      "11-18 10:30",
-      "Gartner 2027十大技术趋势：十项里四项与AI治理有关，窗口期只有1到6年"
+      "11-18 11:10",
+      "CRO、AI制药概念震荡下挫 成都先导跌超13%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326870,
+      "s": 326881,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319449,
+      "s": 319463,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305657,
+      "s": 305682,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234037,
+      "s": 234043,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196810,
+      "s": 196818,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156060,
+      "s": 156062,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149731,
+      "s": 149739,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144977,
+      "s": 144978,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121103,
+      "s": 121110,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
