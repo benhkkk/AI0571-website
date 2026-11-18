@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-18T09:47:40",
+  "updated": "2026-11-18T10:02:20",
   "news": [
     {
       "c": "INDUSTRY",
@@ -28,13 +28,6 @@
       "t": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
       "s": "Sol逼近旗舰性能（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/510707.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T08:48",
-      "t": "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道",
-      "s": "OpenAI 发布 GPT-6.2 Astra 和 Sol，强化编程、电脑操作与专业工作 OpenAI 正式发布 GPT…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374109"
     },
     {
       "c": "FUNDING",
@@ -107,13 +100,6 @@
       "u": "https://www.qbitai.com/2026/11/510688.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-17T19:18",
-      "t": "最大规模具身大模型挑战赛落幕，48 小时真机总决赛比出了什么？",
-      "s": "开发者围绕同一块基础模型进行实验，让模型直面成功的方法、失败的经验和真实世界的问题。作者｜Li Yuan编辑｜郑玄最大规…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374103"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-11-17T18:22",
       "t": "消费级具身，打破「次元壁」",
@@ -128,18 +114,32 @@
       "u": "https://www.ifanr.com/1689832?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "HOT",
-      "d": "2026-11-17T17:58",
-      "t": "AI，没有抛弃小城商家",
-      "s": "作者｜李苏 编辑｜郑玄 理解本地商业，是 AI 走出实验室后的新课程。 过去几年，AI 界擅长讲的故事变了。 从最开始谈…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374101"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-17T17:24",
       "t": "阿里云连续六年香港IaaS第一，企业客户AI渗透率达95%",
       "s": "阿里云在年度香港峰会上推出多项新举措，加速AI在香港各行业落地。目前，阿里云已连续六年位居香港IaaS市场份额第一，市场…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/qyieFYqM3EQhE1Hu.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T16:51",
+      "t": "DeepSeek 不限额的用法，都在这里了 | 附指南",
+      "s": "花钱接 API，导入历史记录#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1689869?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-17T16:51",
+      "t": "台媒:两岸迎来AI制药合作新机遇",
+      "s": "台媒:两岸迎来AI制药合作新机遇（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7709060317901816355/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-17T16:34",
+      "t": "“BAT 做 Personal Agent，我没那么乐观”",
+      "s": "“国内大厂里面，你最看好哪家公司做 Personal Agent？”过去这一个月，自从北美那边Instinct、Muse…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/CorporateServices/7flnC8myrlPgPbPs.html"
     }
   ],
   "timeline": [
@@ -160,12 +160,12 @@
       "GPT-6.2 Astra和Sol王炸双发！3D又危了"
     ],
     [
-      "11-18 08:48",
-      "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道"
-    ],
-    [
       "11-18 08:44",
       "欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元"
+    ],
+    [
+      "11-18 08:37",
+      "微软联合埃森哲、Adobe、万事达卡、沃尔沃等 40 多家组织推进 AI 标准：强调观察、验证和控制，覆盖闭源和开放权重模型"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326782,
+      "s": 326795,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319362,
+      "s": 319373,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305546,
+      "s": 305555,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234018,
+      "s": 234019,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196751,
+      "s": 196761,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156046,
+      "s": 156047,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149685,
+      "s": 149689,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144970,
+      "s": 144971,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121075,
+      "s": 121077,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118669,
+      "s": 118672,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
