@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-11-18T14:00', t:'Anthropic 上市，三个预测', s:'走着瞧。（来源：钛媒体）', u:'https://www.tmtpost.com/8209437.html'},
     {c:'HOT', d:'2026-11-18T13:28', t:'Anthropic的万亿定价', s:'8.25亿股与1股。（来源：钛媒体）', u:'https://www.tmtpost.com/8209454.html'},
     {c:'HOT', d:'2026-11-18T13:16', t:'AI陪伴，硬件的账该怎么算？', s:'AI陪伴核心是算清楚：硬件的增量体验，能否覆盖它带来的全部成本。（来源：钛媒体）', u:'https://www.tmtpost.com/8208289.html'},
     {c:'MEDPHARMA', d:'2026-11-18T13:12', t:'当AI开始“造药”:谷歌系公司拿下AI制药最大单轮融资', s:'当AI开始“造药”:谷歌系公司拿下AI制药最大单轮融资（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709375001014633000/'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-18T10:49', t:'潜伏小红书48h：AI时代，顶尖技术人才都在聊什么？', s:'小红书校招沙龙，一群技术高手认真对待年轻人的野心（来源：量子位）', u:'https://www.qbitai.com/2026/11/510737.html'},
     {c:'INDUSTRY', d:'2026-11-18T10:45', t:'小米雷军：“AI+ 手机”“AI+ 具身智能机器人”等有很大想象空间，未来三四年会诞生颠覆性时刻', s:'小米创办人、董事长兼 CEO 雷军 11 月 17 日出席 APEC 工商领导人峰会。今日（11 月 18 日），雷军接…（来源：IT之家）', u:'https://www.ithome.com/1/028/669.htm'},
     {c:'MODEL', d:'2026-11-18T10:30', t:'Gartner 2027十大技术趋势：十项里四项与AI治理有关，窗口期只有1到6年', s:'到2028年，25%的企业安全漏洞事件可追溯至AI智能体滥用。（来源：钛媒体）', u:'https://www.tmtpost.com/8209258.html'},
-    {c:'MODEL', d:'2026-11-18T10:28', t:'OpenCode 让 Agent 用上你的真实浏览器，连带你的登录状态', s:'OpenCode 最近发布了个新东西，叫 Browse。一句话说清：它让编程 agent 直接用你那个已经登录着各种账号…（来源：OSCHINA）', u:'https://www.oschina.net/news/503625/opencode-browse'},
   ];
   const TIMELINE = [
+    ['11-18 14:00','Anthropic 上市，三个预测'],
     ['11-18 13:28','Anthropic的万亿定价'],
     ['11-18 13:16','AI陪伴，硬件的账该怎么算？'],
     ['11-18 13:12','当AI开始“造药”:谷歌系公司拿下AI制药最大单轮融资'],
     ['11-18 13:11','董明珠 APEC 现场求合作，称格力研发机器人十几年了'],
     ['11-18 12:49','思维链一作Jason Wei离职！怎么去Meta待一年都跑路'],
-    ['11-18 12:47','AI 创新加速落地CES 2027，中国企业如何应答？｜钛媒体TMTPOST CES系列活动开启'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326918, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319509, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:305754, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234063, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196857, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156069, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149767, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144984, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121125, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118722, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326927, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319524, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:305776, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234066, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196871, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156074, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149777, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144986, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121133, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118724, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
