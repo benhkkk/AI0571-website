@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-18T09:32:14",
+  "updated": "2026-11-18T09:47:40",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-18T09:03",
+      "t": "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑",
+      "s": "英伟达公布了老黄离职后的首份财报（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510726.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-18T08:52",
@@ -14,6 +21,13 @@
       "t": "英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元",
       "s": "NVIDIA（英伟达）当地时间昨日宣布在今年 10 月宣布的合作基础上进一步深化同供应链伙伴的关系，支持人工智能基础设施…（来源：IT之家）",
       "u": "https://www.ithome.com/1/028/608.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T08:49",
+      "t": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
+      "s": "Sol逼近旗舰性能（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/510707.html"
     },
     {
       "c": "MODEL",
@@ -126,23 +140,13 @@
       "t": "阿里云连续六年香港IaaS第一，企业客户AI渗透率达95%",
       "s": "阿里云在年度香港峰会上推出多项新举措，加速AI在香港各行业落地。目前，阿里云已连续六年位居香港IaaS市场份额第一，市场…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/qyieFYqM3EQhE1Hu.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-17T16:51",
-      "t": "DeepSeek 不限额的用法，都在这里了 | 附指南",
-      "s": "花钱接 API，导入历史记录#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1689869?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-17T16:51",
-      "t": "台媒:两岸迎来AI制药合作新机遇",
-      "s": "台媒:两岸迎来AI制药合作新机遇（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7709060317901816355/"
     }
   ],
   "timeline": [
+    [
+      "11-18 09:03",
+      "黄仁勋不再沉默：我愿重掌英伟达！董事会：不考虑"
+    ],
     [
       "11-18 08:52",
       "微软 CEO 纳德拉称自己是“AGI 信徒”，但否认 AI 具有意识"
@@ -152,20 +156,16 @@
       "英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元"
     ],
     [
+      "11-18 08:49",
+      "GPT-6.2 Astra和Sol王炸双发！3D又危了"
+    ],
+    [
       "11-18 08:48",
       "OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道"
     ],
     [
       "11-18 08:44",
       "欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元"
-    ],
-    [
-      "11-18 08:37",
-      "微软联合埃森哲、Adobe、万事达卡、沃尔沃等 40 多家组织推进 AI 标准：强调观察、验证和控制，覆盖闭源和开放权重模型"
-    ],
-    [
-      "11-18 08:12",
-      "冲击人类史上最大 IPO、发行价每股 70~78 美元：Anthropic 已获准上市，代码为“ANT”"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326773,
+      "s": 326782,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319351,
+      "s": 319362,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305535,
+      "s": 305546,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196747,
+      "s": 196751,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156044,
+      "s": 156046,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149682,
+      "s": 149685,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144969,
+      "s": 144970,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121073,
+      "s": 121075,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
