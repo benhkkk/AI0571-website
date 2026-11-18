@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-18T11:31:56",
+  "updated": "2026-11-18T12:03:06",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T12:00",
+      "t": "即梦 Seedance 2.5 大升级，AI 视频生成终于有了自己的 4K 生产线",
+      "s": "从 AI 出片，走向 AI 交片#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1690033?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-18T11:19",
+      "t": "“童话大王”郑渊洁停更 2 年后发声：用 AI 手搓动画短片开放免费观看，祝贺 00 后赶上知识平权好时代",
+      "s": "中国当代知名童话作家、“童话大王”郑渊洁 11 月 17 日发声，恢复停更两年的自媒体，表示最近自己遇到了一件特别振奋和…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/028/689.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-18T11:13",
@@ -100,6 +114,13 @@
       "u": "https://www.ithome.com/1/028/629.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-18T09:48",
+      "t": "可灵AI发布Kling Image 4.0：原生8K超高清、组图直出，刷新专业图像生成新高度",
+      "s": "11月17日晚，可灵AI全新一代图像创作模型Kling Image 4.0正式上线。真实、文字表现、指令理解和一致性，是…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/XmEGfhNbrGY3WfbT.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-18T09:13",
       "t": "实测：我们用AI做游戏，把开发成本打到了20块",
@@ -114,35 +135,22 @@
       "u": "https://www.qbitai.com/2026/11/510726.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-18T08:52",
-      "t": "微软 CEO 纳德拉称自己是“AGI 信徒”，但否认 AI 具有意识",
-      "s": "据科技媒体 The Verge 今天报道，微软 CEO 萨提亚 · 纳德拉在一场圆桌讨论中表示，自己如今已成为“AGI …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/609.htm"
-    },
-    {
       "c": "FUNDING",
-      "d": "2026-11-18T08:51",
-      "t": "英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元",
-      "s": "NVIDIA（英伟达）当地时间昨日宣布在今年 10 月宣布的合作基础上进一步深化同供应链伙伴的关系，支持人工智能基础设施…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/028/608.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-18T08:50",
-      "t": "AI行业里，被高薪叙事平均掉的人",
-      "s": "加班和焦虑，跑赢了薪资涨幅。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8208844.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T08:49",
-      "t": "GPT-6.2 Astra和Sol王炸双发！3D又危了",
-      "s": "Sol逼近旗舰性能（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/510707.html"
+      "d": "2026-11-18T08:55",
+      "t": "Anthropic IPO尚未落地，已获“买入”评级",
+      "s": "预计 Anthropic 的股票将于周四开始交易。华尔街一家机构已率先对该股作出初始评级，给出“买入”建议。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8209054.html"
     }
   ],
   "timeline": [
+    [
+      "11-18 12:00",
+      "即梦 Seedance 2.5 大升级，AI 视频生成终于有了自己的 4K 生产线"
+    ],
+    [
+      "11-18 11:19",
+      "“童话大王”郑渊洁停更 2 年后发声：用 AI 手搓动画短片开放免费观看，祝贺 00 后赶上知识平权好时代"
+    ],
     [
       "11-18 11:13",
       "OpenAI 发布 GPT-6.2 Astra 和 Sol，任务成本显著下降"
@@ -158,14 +166,6 @@
     [
       "11-18 10:30",
       "Gartner 2027十大技术趋势：十项里四项与AI治理有关，窗口期只有1到6年"
-    ],
-    [
-      "11-18 10:28",
-      "OpenCode 让 Agent 用上你的真实浏览器，连带你的登录状态"
-    ],
-    [
-      "11-18 10:19",
-      "戴森 Airsmooth 气流丰盈梳发布：吹干蓬松一步到位、断发减少 39%，1899 元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 326849,
+      "s": 326870,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 319424,
+      "s": 319449,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 305625,
+      "s": 305657,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234033,
+      "s": 234037,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 196802,
+      "s": 196810,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156058,
+      "s": 156060,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 149718,
+      "s": 149731,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 144974,
+      "s": 144977,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121097,
+      "s": 121103,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118695,
+      "s": 118702,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
