@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-19T06:32:01",
+  "updated": "2026-11-19T07:02:27",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-19T06:47",
+      "t": "字节跳动被曝与微软洽谈 5 亿美元 Azure 合同，惹 OpenAI 强烈不满",
+      "s": "据《The Information》今日报道，字节跳动正与微软进行深入谈判，计划额外采购约 5 亿美元（IT之家注：现汇…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/133.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-19T06:36",
+      "t": "史上最大 IPO：Anthropic 每股定价 83 美元，预计募资 944 亿美元超 SpaceX",
+      "s": "据彭博社今日报道，Anthropic PBC 已将首次公开募股（IPO）发行价定为每股 83 美元，高于此前公布的 70…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/132.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-19T01:10",
@@ -42,20 +56,6 @@
       "t": "消息称三星电子计划在 CES 2027 发布 2 款人形机器人",
       "s": "韩媒《韩民族日报》当地时间昨日报道称，三星电子计划在明年 1 月举行的 CES 2027 消费电子展上发布 2 款人形机…（来源：IT之家）",
       "u": "https://www.ithome.com/1/029/087.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T21:46",
-      "t": "张朝阳再度回应搜狐“躺平”：大模型投入太大，没资源来做这个事情",
-      "s": "据光明日报消息，搜狐张朝阳再次回应搜狐“躺平”相关话题。对于如今外界认为搜狐“躺平”的看法，张朝阳称一个公司肯定要根据自…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/086.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-18T21:31",
-      "t": "腾讯高管：预计 2028 年 AI 投入产出效率改善，得益于基础设施复用、硬件降价与算力效率提升",
-      "s": "据科创板日报报道，腾讯高管在业绩会上表示，公司当前的资本开支主要用于 AI 基础设施建设，这类投入并非一次性消耗，而是能…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/080.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-19 06:47",
+      "字节跳动被曝与微软洽谈 5 亿美元 Azure 合同，惹 OpenAI 强烈不满"
+    ],
+    [
+      "11-19 06:36",
+      "史上最大 IPO：Anthropic 每股定价 83 美元，预计募资 944 亿美元超 SpaceX"
+    ],
+    [
       "11-19 01:10",
       "Touch ID 成功复活：“安卓版”iOS 系统实现指纹解锁功能"
     ],
@@ -158,14 +166,6 @@
     [
       "11-18 23:01",
       "SpaceXAI 在美国密西西比州的 AI 数据中心泄漏约 20m³ 丙二醇"
-    ],
-    [
-      "11-18 22:24",
-      "微星 RTX Spark 迷你主机 EdgeMesa N AI+ 上市：64GB + 1TB 售 33999 元"
-    ],
-    [
-      "11-18 21:51",
-      "消息称三星电子计划在 CES 2027 发布 2 款人形机器人"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327421,
+      "s": 327426,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 321284,
+      "s": 321291,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306443,
+      "s": 306450,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234257,
+      "s": 234261,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197178,
+      "s": 197184,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156166,
+      "s": 156167,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150139,
+      "s": 150148,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121301,
+      "s": 121303,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118926,
+      "s": 118930,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
