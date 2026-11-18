@@ -459,15 +459,15 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-18T08:52', t:'微软 CEO 纳德拉称自己是“AGI 信徒”，但否认 AI 具有意识', s:'据科技媒体 The Verge 今天报道，微软 CEO 萨提亚 · 纳德拉在一场圆桌讨论中表示，自己如今已成为“AGI …（来源：IT之家）', u:'https://www.ithome.com/1/028/609.htm'},
+    {c:'FUNDING', d:'2026-11-18T08:51', t:'英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元', s:'NVIDIA（英伟达）当地时间昨日宣布在今年 10 月宣布的合作基础上进一步深化同供应链伙伴的关系，支持人工智能基础设施…（来源：IT之家）', u:'https://www.ithome.com/1/028/608.htm'},
     {c:'MODEL', d:'2026-11-18T08:48', t:'OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道', s:'OpenAI 发布 GPT-6.2 Astra 和 Sol，强化编程、电脑操作与专业工作 OpenAI 正式发布 GPT…（来源：极客公园）', u:'http://www.geekpark.net/news/374109'},
-    {c:'MODEL', d:'2026-11-18T08:37', t:'微软联合埃森哲、Adobe、万事达卡、沃尔沃等 40 多家组织推进 AI 标准，强调观察、验证和控制，覆盖闭源和开放权重模型', s:'微软今日在 Ignite 大会上宣布启动 AI 透明度计划（AI Transparency Initiative），与埃…（来源：IT之家）', u:'https://www.ithome.com/1/028/603.htm'},
+    {c:'FUNDING', d:'2026-11-18T08:44', t:'欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元', s:'据路透社报道，法国通用机器人公司 Genesis AI 现已完成 5 亿美元（IT之家注：现汇率约合 33.4 亿元人民…（来源：IT之家）', u:'https://www.ithome.com/1/028/605.htm'},
+    {c:'MODEL', d:'2026-11-18T08:37', t:'微软联合埃森哲、Adobe、万事达卡、沃尔沃等 40 多家组织推进 AI 标准：强调观察、验证和控制，覆盖闭源和开放权重模型', s:'微软今日在 Ignite 大会上宣布启动 AI 透明度计划（AI Transparency Initiative），与埃…（来源：IT之家）', u:'https://www.ithome.com/1/028/603.htm'},
     {c:'FUNDING', d:'2026-11-18T08:12', t:'冲击人类史上最大 IPO、发行价每股 70~78 美元：Anthropic 已获准上市，代码为“ANT”', s:'根据美国证券交易委员会（SEC）昨日（11 月 17 日）公示的上市注册文件，Anthropic 的 A 类普通股已获准…（来源：IT之家）', u:'https://www.ithome.com/1/028/599.htm'},
     {c:'HOT', d:'2026-11-18T07:51', t:'微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍', s:'昨日（11 月 17 日）召开的 Ignite 2026 活动中，微软宣布旗下第二代自研人工智能加速器 Maia 200…（来源：IT之家）', u:'https://www.ithome.com/1/028/597.htm'},
     {c:'MODEL', d:'2026-11-18T07:43', t:'IT早报 1118：黄仁勋称愿重返英伟达任 CEO 董事会主席明确反对复职；中国“灵晟”蝉联全球超算榜首；GPT-6.2Astra 和 Sol 发布；苹果回应服务大规模中断...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 18 日星期三，今天的重要科技资讯有：1. 英伟达董事会主席明…（来源：IT之家）', u:'https://www.ithome.com/1/028/595.htm'},
     {c:'MODEL', d:'2026-11-18T07:42', t:'英伟达 Q3 电话会议：公司业务一切照常，不会急于寻找黄仁勋继任者', s:'北京时间 11 月 18 日，AI 芯片巨头英伟达公司今天发布了 2027 财年第三季度财报。财报发布后，英伟达临时 C…（来源：IT之家）', u:'https://www.ithome.com/1/028/594.htm'},
-    {c:'MODEL', d:'2026-11-18T07:40', t:'微软决策模型 Microsoft-Decision-1.1 登场，跑赢 GPT-6 Luna 与 Gemini', s:'微软昨日（11 月 17 日）宣布正式推出 Microsoft-Decision-1.1 决策 AI 模型，目前已在 M…（来源：IT之家）', u:'https://www.ithome.com/1/028/593.htm'},
-    {c:'MODEL', d:'2026-11-18T07:27', t:'多语言错误率直降 50%：微软升级医患对话 AI 转录引擎，已覆盖全美 1/3 医师', s:'昨日（11 月 17 日）召开的 Ignite 2026 活动中，微软宣布其医疗 AI 产品 Dragon Copilo…（来源：IT之家）', u:'https://www.ithome.com/1/028/590.htm'},
-    {c:'MODEL', d:'2026-11-18T07:06', t:'微软最具性价比网安 AI 模型 MAI Cyber 2 Flash 登场：性能比肩 GPT-6 Astra，每任务成本约为其 2%', s:'微软 AI 部门于 11 月 17 日发布全新专用安全模型 MAI Cyber 2 Flash，定位为面向企业安全团队的…（来源：IT之家）', u:'https://www.ithome.com/1/028/585.htm'},
     {c:'MEDPHARMA', d:'2026-11-17T22:54', t:'聚焦AI制药与数智医疗，成都高新区数智医药健康产业合作恳谈...', s:'聚焦AI制药与数智医疗，成都高新区数智医药健康产业合作恳谈...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709153899537498658/'},
     {c:'FUNDING', d:'2026-11-17T22:15', t:'并购完成，李飞飞正式率队加入AMD！苏妈亲自欢迎', s:'82亿美元股票，46天闪电交割（来源：量子位）', u:'https://www.qbitai.com/2026/11/510695.html'},
     {c:'MEDPHARMA', d:'2026-11-17T22:05', t:'50亿美元!诺奖得主拿下AI制药史上最大融资', s:'50亿美元!诺奖得主拿下AI制药史上最大融资（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709140594819449359/'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDPHARMA', d:'2026-11-17T16:51', t:'台媒:两岸迎来AI制药合作新机遇', s:'台媒:两岸迎来AI制药合作新机遇（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709060317901816355/'},
   ];
   const TIMELINE = [
+    ['11-18 08:52','微软 CEO 纳德拉称自己是“AGI 信徒”，但否认 AI 具有意识'],
+    ['11-18 08:51','英伟达加码供应链，向 ABF 基板制造商景硕投资超 10 亿美元'],
     ['11-18 08:48','OpenAI 发布 GPT-6.2 Astra 和 Sol；王兴兴：家用机器人或将迎来技术突破；《GTA 6》开发商批评 AI 公司放任游戏仿制行为｜极客早知道'],
-    ['11-18 08:37','微软联合埃森哲、Adobe、万事达卡、沃尔沃等 40 多家组织推进 AI 标准，强调观察、验证和控制，覆盖闭源和开放权重模型'],
+    ['11-18 08:44','欧洲机器人行业规模最大融资之一：Genesis AI 完成 5 亿美元 A 轮融资，估值 35 亿美元'],
+    ['11-18 08:37','微软联合埃森哲、Adobe、万事达卡、沃尔沃等 40 多家组织推进 AI 标准：强调观察、验证和控制，覆盖闭源和开放权重模型'],
     ['11-18 08:12','冲击人类史上最大 IPO、发行价每股 70~78 美元：Anthropic 已获准上市，代码为“ANT”'],
-    ['11-18 07:51','微软自研芯片 Maia 200 投入生产：每瓦 token 性能提升 1.7 倍'],
-    ['11-18 07:43','IT早报 1118：黄仁勋称愿重返英伟达任 CEO 董事会主席明确反对复职；中国“灵晟”蝉联全球超算榜首；GPT-6.2Astra 和 Sol 发布；苹果回应服…'],
-    ['11-18 07:42','英伟达 Q3 电话会议：公司业务一切照常，不会急于寻找黄仁勋继任者'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326759, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319335, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:305507, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234009, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196737, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156042, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149672, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144968, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121067, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118663, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:326773, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319351, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:305535, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234018, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196747, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156044, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149682, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144969, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121073, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118669, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
