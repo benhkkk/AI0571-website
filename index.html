@@ -459,12 +459,14 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MEDPHARMA', d:'2026-11-18T20:21', t:'大江东丨走近科学大咖① AI制药冲进三期临床，泡沫还是功德?...', s:'大江东丨走近科学大咖① AI制药冲进三期临床，泡沫还是功德?...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709485429619245603/'},
+    {c:'MODEL', d:'2026-11-18T20:11', t:'“未名·AI Park”正式揭牌，北大海淀共建AI创新转化高地', s:'“未名·AI Park”核心启动区选址北大西门外，构建服务北大的“一公里转化圈”，立足北大顶尖AI学科资源与海淀科创沃土…（来源：钛媒体）', u:'https://www.tmtpost.com/8210345.html'},
     {c:'HOT', d:'2026-11-18T19:00', t:'AI 引发人类身份焦虑，剑桥词典将“Human”评为 2026 年度词汇', s:'人工智能带来的担忧，让剑桥词典将目光重新投向了 15 世纪，选择一个古老词汇来概括 2026 年的时代文化特征。剑桥词典…（来源：IT之家）', u:'https://www.ithome.com/1/029/020.htm'},
     {c:'MODEL', d:'2026-11-18T18:54', t:'微信：私人 AI 助理“小微”日活跃用户数已达 3000 万，预计未来部分推理任务在设备端运行', s:'腾讯今日发布 2026 年第三季度财报，称正加速推进 AI 化变革，向 AI 引领的科技公司迈进。微信官方今日宣布，小微…（来源：IT之家）', u:'https://www.ithome.com/1/029/018.htm'},
     {c:'INDUSTRY', d:'2026-11-18T18:48', t:'腾讯公布 2026 年 Q3 财报：微信及 WeChat 合并月活跃账户数 14.49 亿，同比增长 2%', s:'腾讯今日公布了 2026 年 Q3 财报。据“微信派”公众号介绍，腾讯正加速推进 AI 化变革，向 AI 引领的科技公司…（来源：IT之家）', u:'https://www.ithome.com/1/029/017.htm'},
     {c:'FUNDING', d:'2026-11-18T18:45', t:'华尔街为 Anthropic“史上最大 IPO”造势，散户争抢热情或超 SpaceX', s:'据路透社今天（18 日）晚间报道，华尔街正为 Anthropic 可能创下纪录的 IPO 提前造势。金融机构不仅推出了挂…（来源：IT之家）', u:'https://www.ithome.com/1/029/015.htm'},
-    {c:'MEDPHARMA', d:'2026-11-18T18:35', t:'谷歌AI制药完成50亿美元融资:大厂AI制药进入军备竞赛阶段', s:'谷歌AI制药完成50亿美元融资:大厂AI制药进入军备竞赛阶段（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709456220561605154/'},
     {c:'MODEL', d:'2026-11-18T18:29', t:'零刻推出 192GB 内存版 GTR9 Pro 495 迷你主机，48999 元起', s:'零刻今日宣布推出 192GB 内存版 GTR9 Pro 495 迷你主机，搭载 AMD Ryzen AI Max+ PR…（来源：IT之家）', u:'https://www.ithome.com/1/029/011.htm'},
+    {c:'HOT', d:'2026-11-18T18:28', t:'纽娲机器人创始人杨睿刚：自动驾驶踩过的数据坑，机器人还会再踩一遍丨物理 AI 50 人', s:'做了十多年自动驾驶之后，杨睿刚决定把下一次创业的方向，从高速公路转向居民社区。在此之前，他曾在美国高校研究三维视觉，后来…（来源：雷锋网）', u:'https://www.leiphone.com/category/transportation/GLv3yGaPGK64teuS.html'},
     {c:'HOT', d:'2026-11-18T18:24', t:'大厂AI对照系：李彦宏布道，马化腾预警', s:'最早看见浪潮的人，为何没跑到最前面；后知后发的赶超者，又靠什么补课？（来源：钛媒体）', u:'https://www.tmtpost.com/8208862.html'},
     {c:'MEDPHARMA', d:'2026-11-18T18:09', t:'诺奖得主做AI制药，20个月狂揽550亿', s:'诺奖得主做AI制药，20个月狂揽550亿（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709451568218718735/'},
     {c:'HOT', d:'2026-11-18T18:07', t:'智元王闯：会干活才是人形机器人的真本事，长隆具身智能乐园已部署近 500 台机器人', s:'11 月 17 日，智元合伙人、高级副总裁、远征业务部总裁王闯在深圳举行的 APEC 财经之夜上，围绕人形机器人规模化部…（来源：IT之家）', u:'https://www.ithome.com/1/028/996.htm'},
@@ -474,31 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-18T17:51', t:'第一批打工的人形机器人，有的已经失业了', s:'辞退原因是什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8209375.html'},
     {c:'MODEL', d:'2026-11-18T17:50', t:'微软编程模型「MAI Code」上新，用 Claude Opus 5.5 百分之五的价格拿到 96% 的性能', s:'微软宣布推出新版本编程模型：MAI Code 2 和 Code 2 Flash。它给 MAI Code 2 定的核心卖点…（来源：OSCHINA）', u:'https://www.oschina.net/news/503644/ms-mai-code-2-and-mai-code-2-flash'},
     {c:'HOT', d:'2026-11-18T17:45', t:'黄仁勋归期悬而未决，买GPU的人已经不敢下单', s:'“现在都不敢订期货。”在深圳负责GPU采购的程麟，用一句话概括了今年的处境。从突然辞任，到传出回归，再到本人公开表达重返…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html'},
-    {c:'MODEL', d:'2026-11-18T17:41', t:'Gemini新模型Neon箭在弦上，网友：遍历元素周期表？', s:'氖人寻味！（来源：量子位）', u:'https://www.qbitai.com/2026/11/510922.html'},
     {c:'MODEL', d:'2026-11-18T17:23', t:'亚马逊不排除放行外部 AI 购物智能体，前提是带来优质用户体验', s:'亚马逊此前关闭了外部 AI 购物智能体在其平台上直接下单的权限，但 CEO 安迪 · 贾西（Andy Jassy）表示…（来源：IT之家）', u:'https://www.ithome.com/1/028/933.htm'},
     {c:'MODEL', d:'2026-11-18T16:28', t:'清华徐梦迪：预训练做再好都不够，机器人需要在部署中学习 | CoRL 2026', s:'人机交互不只是目标，更是解决方案。 作者丨邓哲敏 编辑丨齐铖湧 2026 年 11 月 12 日，CoRL 2026 “…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/S1vnQSfDZDVC7TWb.html'},
-    {c:'MODEL', d:'2026-11-18T15:53', t:'GPT-6.2难产！OpenAI怕了', s:'OpenAI也终于活成了2022年谷歌的样子（来源：量子位）', u:'https://www.qbitai.com/2026/11/510914.html'},
     {c:'INDUSTRY', d:'2026-11-18T15:52', t:'做了20多年消费硬件，奥尼电子为什么去做Token工厂？', s:'“这个有什么用？怎么用起来？”一家有超20年制造经验的企业，进入AI推理算力市场后，被客户的这个问题问住了。这两年，AI…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/DNqOGFbDk2Vd5eiX.html'},
   ];
   const TIMELINE = [
+    ['11-18 20:21','大江东丨走近科学大咖① AI制药冲进三期临床，泡沫还是功德?...'],
+    ['11-18 20:11','“未名·AI Park”正式揭牌，北大海淀共建AI创新转化高地'],
     ['11-18 19:00','AI 引发人类身份焦虑，剑桥词典将“Human”评为 2026 年度词汇'],
     ['11-18 18:54','微信：私人 AI 助理“小微”日活跃用户数已达 3000 万，预计未来部分推理任务在设备端运行'],
     ['11-18 18:48','腾讯公布 2026 年 Q3 财报：微信及 WeChat 合并月活跃账户数 14.49 亿，同比增长 2%'],
     ['11-18 18:45','华尔街为 Anthropic“史上最大 IPO”造势，散户争抢热情或超 SpaceX'],
-    ['11-18 18:35','谷歌AI制药完成50亿美元融资:大厂AI制药进入军备竞赛阶段'],
-    ['11-18 18:29','零刻推出 192GB 内存版 GTR9 Pro 495 迷你主机，48999 元起'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327140, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319687, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306036, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234147, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:196989, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156106, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149908, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144997, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121185, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118813, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327155, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:319701, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306050, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234159, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197005, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156112, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:149922, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:144998, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121194, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118818, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
