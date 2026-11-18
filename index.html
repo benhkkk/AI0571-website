@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-19T07:07', t:'OpenAI 发布芯片设计最新成果：AMD 旗舰 GPU PPA 最高提升 14%，自研芯片 Jalapeño 面积最高减少 13%', s:'OpenAI 于当地时间 11 月 18 日发布最新技术报告《Advancing chip design with Op…（来源：IT之家）', u:'https://www.ithome.com/1/029/135.htm'},
     {c:'HOT', d:'2026-11-19T06:47', t:'字节跳动被曝与微软洽谈 5 亿美元 Azure 合同，惹 OpenAI 强烈不满', s:'据《The Information》今日报道，字节跳动正与微软进行深入谈判，计划额外采购约 5 亿美元（IT之家注：现汇…（来源：IT之家）', u:'https://www.ithome.com/1/029/133.htm'},
     {c:'FUNDING', d:'2026-11-19T06:36', t:'史上最大 IPO：Anthropic 每股定价 83 美元，预计募资 944 亿美元超 SpaceX', s:'据彭博社今日报道，Anthropic PBC 已将首次公开募股（IPO）发行价定为每股 83 美元，高于此前公布的 70…（来源：IT之家）', u:'https://www.ithome.com/1/029/132.htm'},
     {c:'HOT', d:'2026-11-19T01:10', t:'Touch ID 成功复活：“安卓版”iOS 系统实现指纹解锁功能', s:'近期 AI 逆向实现了很多有趣的项目，让很多不少设备有了新玩法。其中，让各式各样的设备刷入苹果 iOS 系统，是当下最受…（来源：IT之家）', u:'https://www.ithome.com/1/029/126.htm'},
@@ -466,7 +467,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-11-18T23:09', t:'马斯克“怒怼”奥尔特曼：SpaceX 预计不会从 OpenAI 处获得任何收入', s:'SpaceX CEO 埃隆 · 马斯克出人意料地透露，公司在业务预测中并未考虑来自 OpenAI 的任何收入。此前，Op…（来源：IT之家）', u:'https://www.ithome.com/1/029/116.htm'},
     {c:'HOT', d:'2026-11-18T23:01', t:'SpaceXAI 在美国密西西比州的 AI 数据中心泄漏约 20m³ 丙二醇', s:'据 tom\'s hardware 报道，埃隆 · 马斯克（Elon Musk）旗下的 SpaceXAI（SpaceXSI…（来源：IT之家）', u:'https://www.ithome.com/1/029/115.htm'},
     {c:'FUNDING', d:'2026-11-18T22:24', t:'微星 RTX Spark 迷你主机 EdgeMesa N AI+ 上市：64GB + 1TB 售 33999 元', s:'NVIDIA（英伟达）今日正式解禁了 RTX Spark 迷你主机的销售，而与华硕 ProArt GR1X 一道进入市场…（来源：IT之家）', u:'https://www.ithome.com/1/029/111.htm'},
-    {c:'MODEL', d:'2026-11-18T21:51', t:'消息称三星电子计划在 CES 2027 发布 2 款人形机器人', s:'韩媒《韩民族日报》当地时间昨日报道称，三星电子计划在明年 1 月举行的 CES 2027 消费电子展上发布 2 款人形机…（来源：IT之家）', u:'https://www.ithome.com/1/029/087.htm'},
     {c:'MODEL', d:'2026-11-18T21:18', t:'豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元', s:'11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html'},
     {c:'MEDPHARMA', d:'2026-11-18T20:21', t:'大江东丨走近科学大咖① AI制药冲进三期临床，泡沫还是功德?...', s:'大江东丨走近科学大咖① AI制药冲进三期临床，泡沫还是功德?...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709485429619245603/'},
     {c:'MODEL', d:'2026-11-18T20:11', t:'“未名·AI Park”正式揭牌，北大海淀共建AI创新转化高地', s:'“未名·AI Park”核心启动区选址北大西门外，构建服务北大的“一公里转化圈”，立足北大顶尖AI学科资源与海淀科创沃土…（来源：钛媒体）', u:'https://www.tmtpost.com/8210345.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-18T17:45', t:'黄仁勋归期悬而未决，买GPU的人已经不敢下单', s:'“现在都不敢订期货。”在深圳负责GPU采购的程麟，用一句话概括了今年的处境。从突然辞任，到传出回归，再到本人公开表达重返…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/WHSLCH74nrSJW6OE.html'},
   ];
   const TIMELINE = [
+    ['11-19 07:07','OpenAI 发布芯片设计最新成果：AMD 旗舰 GPU PPA 最高提升 14%，自研芯片 Jalapeño 面积最高减少 13%'],
     ['11-19 06:47','字节跳动被曝与微软洽谈 5 亿美元 Azure 合同，惹 OpenAI 强烈不满'],
     ['11-19 06:36','史上最大 IPO：Anthropic 每股定价 83 美元，预计募资 944 亿美元超 SpaceX'],
     ['11-19 01:10','Touch ID 成功复活：“安卓版”iOS 系统实现指纹解锁功能'],
     ['11-18 23:35','消息称 Anthropic 考虑扩大 IPO 规模，散户认购意向接近千亿美元'],
     ['11-18 23:09','马斯克“怒怼”奥尔特曼：SpaceX 预计不会从 OpenAI 处获得任何收入'],
-    ['11-18 23:01','SpaceXAI 在美国密西西比州的 AI 数据中心泄漏约 20m³ 丙二醇'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327426, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321291, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306450, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234261, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197184, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156167, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150148, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145028, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121303, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118930, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327437, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321295, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306461, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234262, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197190, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156169, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150152, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145029, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121304, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118936, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
