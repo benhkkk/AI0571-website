@@ -459,6 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-19T14:44', t:'Claude Code 团队怎么让 agent 自己证明活干对了', s:'Claude Code 团队公开了一个数字：他们的代码大约 90% 由 Claude 编写和评审。 该团队工程师 Add…（来源：OSCHINA）', u:'https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification'},
+    {c:'FUNDING', d:'2026-11-19T14:37', t:'Anthropic IPO 规模达 1073 亿美元创纪录，灰市交易显示开盘涨幅或超 20%', s:'据彭博社报道，人工智能公司 Anthropic 的股票在灰市交易中显示，上市首日开盘涨幅可能达到 20% 至 26%。此…（来源：IT之家）', u:'https://www.ithome.com/1/029/290.htm'},
+    {c:'HOT', d:'2026-11-19T14:34', t:'Echo 创始人邹皓：硬件负责收集声音，AI负责创造价值', s:'真正让用户留下来的，是他们各自为 Echo 做出的差异化定义（来源：钛媒体）', u:'https://www.tmtpost.com/8210472.html'},
+    {c:'HOT', d:'2026-11-19T14:10', t:'「北美大豆包」谷歌，终于杀回 AI 牌桌中央', s:'作者｜Wildcard 编辑｜靖宇 谷歌，这次是真的回来了。 11 月 18 日，Google DeepMind 点亮了…（来源：极客公园）', u:'http://www.geekpark.net/news/374196'},
     {c:'MEDPHARMA', d:'2026-11-19T13:14', t:'1 厘米标尺竟有 12 个刻度，中南大学通报附属医院 AI 论文争议、确认存在学术不端行为', s:'中南大学 11 月 19 日发布情况通报：近日，网络上出现对湘雅二医院、湘雅医院 3 篇论文数据和图表的质疑。学校高度重…（来源：IT之家）', u:'https://www.ithome.com/1/029/270.htm'},
     {c:'MODEL', d:'2026-11-19T13:11', t:'Jync 捷同 v2.4.0 发布：内置 AI 运维助手，引入多角色权限与 Apache-2.0 开源协议', s:'Jync 捷同 v2.4.0 发布 新增 AI 运维助手：ADMIN / OPS 可用的内嵌悬浮窗，接入大模型后用自然语…（来源：OSCHINA）', u:'https://www.oschina.net/news/503660'},
     {c:'MODEL', d:'2026-11-19T13:08', t:'黄仁勋离开后，英伟达开始和 AI 云厂商讲担保条件了', s:'科技媒体 The Verge 今天（11 月 19 日）发布博文，报道称英伟达收紧“金主”（sugar daddy）模式…（来源：IT之家）', u:'https://www.ithome.com/1/029/268.htm'},
@@ -472,33 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-19T11:17', t:'AI 已经进入企业，为什么组织还没有进化？', s:'十年前看人工智能，十年后看智能组织。 作者丨成妍菁 编辑丨胡 敏 最近与AI圈子的人聊，普遍谈到一个点，人已经接受AI提…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/98sAVeAaYPhJQvgY.html'},
     {c:'MODEL', d:'2026-11-19T11:11', t:'最高 853.33% 提升：《GTA 6》PS5 Pro 画面经 AI 加持，帧率飙到 286 FPS', s:'游戏媒体 GameGPU 昨日（11 月 18 日）发布博文，测试将索尼 PS5 Pro 的 4K 输出信号接入外置采集…（来源：IT之家）', u:'https://www.ithome.com/1/029/200.htm'},
     {c:'MODEL', d:'2026-11-19T11:01', t:'范式下场做基模了！国产算力全链路训练，双模型同步亮相', s:'语言模型单张3090卡即可运行（来源：量子位）', u:'https://www.qbitai.com/2026/11/511071.html'},
-    {c:'INDUSTRY', d:'2026-11-19T10:46', t:'英伟达披露 GPU 租赁价格上涨：Hopper 最高翻倍，B300 涨超 60%', s:'英伟达在最新财报电话会议上披露，随着 AI 推理需求持续增长，公司旗下不同代际 GPU 的租赁价格均出现上涨。其中，Ho…（来源：IT之家）', u:'https://www.ithome.com/1/029/193.htm'},
     {c:'MODEL', d:'2026-11-19T10:33', t:'上海推进开源平台建设 打造“最懂开发者的城市”', s:'近年来，上海在AI产业方面的政策支持不断加码，AI产业正在成为上海的一张新名片。开源平台作为连接大模型、算力、工具链与应…（来源：OSCHINA）', u:'https://www.oschina.net/news/503653'},
     {c:'MODEL', d:'2026-11-19T10:28', t:'伏羲智能决策平台发布 v1.0.0：多智能体协作与决策运营闭环升级', s:'摘要 开源项目伏羲智能决策平台发布 v1.0.0。该版本升级多智能体编排与知识检索，完善测试提案、历史回归、业务结果回传…（来源：OSCHINA）', u:'https://www.oschina.net/news/503652'},
     {c:'MEDPHARMA', d:'2026-11-19T10:11', t:'50亿美元!AI制药最大单笔融资诞生', s:'50亿美元!AI制药最大单笔融资诞生（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709699572305625615/'},
-    {c:'MEDPHARMA', d:'2026-11-19T09:54', t:'50亿美元!AI制药再获资本重注', s:'50亿美元!AI制药再获资本重注（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709694955849876011/'},
-    {c:'INDUSTRY', d:'2026-11-19T09:05', t:'Edge AI Daily 早报（11月19日）', s:'英伟达完成创始人离任后治理重置：Q3营收1158亿美元、订单积压2.5万亿美元，停售H200并设董事会出口管制委员会；美…（来源：钛媒体）', u:'https://www.tmtpost.com/8210615.html'},
-    {c:'MODEL', d:'2026-11-19T08:36', t:'早报｜GTA6开售，评分破纪录/大疆多款相机涨价/豆包工作三个月日活破800万', s:'· Google 发布 Gemini 4 Neon，主打复杂任务与更低单次成本 · 英伟达员工大会：董事会不让黄仁勋回归…（来源：爱范儿）', u:'https://www.ifanr.com/1690255?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['11-19 14:44','Claude Code 团队怎么让 agent 自己证明活干对了'],
+    ['11-19 14:37','Anthropic IPO 规模达 1073 亿美元创纪录，灰市交易显示开盘涨幅或超 20%'],
+    ['11-19 14:34','Echo 创始人邹皓：硬件负责收集声音，AI负责创造价值'],
+    ['11-19 14:10','「北美大豆包」谷歌，终于杀回 AI 牌桌中央'],
     ['11-19 13:14','1 厘米标尺竟有 12 个刻度，中南大学通报附属医院 AI 论文争议、确认存在学术不端行为'],
     ['11-19 13:11','Jync 捷同 v2.4.0 发布：内置 AI 运维助手，引入多角色权限与 Apache-2.0 开源协议'],
-    ['11-19 13:08','黄仁勋离开后，英伟达开始和 AI 云厂商讲担保条件了'],
-    ['11-19 13:01','消息称 OpenAI 进军手机领域，富士康旗下富智康集团获组装订单'],
-    ['11-19 12:51','AI基建大潮方兴未艾，联想集团最佳财季诞生！'],
-    ['11-19 12:49','彭博社：黄仁勋离任英伟达 CEO 后，日本 AI 股首当其冲'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327608, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321473, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306744, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234326, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197344, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156205, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150275, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145041, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121368, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119014, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327630, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321491, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306754, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234332, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197352, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156209, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150287, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145042, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121369, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119024, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
