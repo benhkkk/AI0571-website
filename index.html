@@ -459,15 +459,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MEDPHARMA', d:'2026-11-20T07:21', t:'IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；中南大学通报附属医院 AI 论文争议；腾讯大幅削减元宝投入；比亚迪发布 DMS 超级混动...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 20 日星期五，今天的重要科技资讯有：1. Anthropic…（来源：IT之家）', u:'https://www.ithome.com/1/029/755.htm'},
+    {c:'MODEL', d:'2026-11-20T07:20', t:'苹果 macOS 27.3 Beta 2 公测版发布：扩展 Siri AI 能力，强化完全磁盘访问权限管理', s:'苹果于当地时间 11 月 19 日向公测版用户推送了 iOS / iPadOS 27.3 和 macOS 27.3 Be…（来源：IT之家）', u:'https://www.ithome.com/1/029/754.htm'},
+    {c:'FUNDING', d:'2026-11-20T07:20', t:'【钛晨报】《中俄美元首和平宣言》发布；31家出资主体现身，DeepSeek第二轮融资落地；比亚迪发布折叠方向盘，长鑫科技拟25亿至50亿元回购股份', s:'燧原科技：在手订单充沛，并正在与多家国内半导体产业伙伴进行合作；吴泳铭：建设超过20GW规模全球数据中心的目标可能下调…（来源：钛媒体）', u:'https://www.tmtpost.com/8211593.html'},
+    {c:'MODEL', d:'2026-11-20T07:09', t:'微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线', s:'本月召开的 Ignite 2026 活动中，微软宣布携手英伟达加速本地 AI 体验落地，让 AI 从“必须联网才能用”的…（来源：IT之家）', u:'https://www.ithome.com/1/029/747.htm'},
+    {c:'MODEL', d:'2026-11-20T07:04', t:'苹果发布 iOS 27.3 Beta 2 修订版：修复 HomeView 配对问题，Siri AI 可读取 Safari 完整网页内容', s:'苹果于当地时间 11 月 19 日面向开发者推送了 iOS 27.3 Beta 2 和 iPadOS 27.3 Beta…（来源：IT之家）', u:'https://www.ithome.com/1/029/751.htm'},
     {c:'MODEL', d:'2026-11-20T06:56', t:'苹果正自研 AI 智能体：可操控设备、浏览网页、编写代码，以期与 OpenAI、Anthropic 竞争', s:'彭博社马克 · 古尔曼（Mark Gurman）今日报道称，苹果正在开发自主 AI 智能体，计划让 AI 代替用户执行设…（来源：IT之家）', u:'https://www.ithome.com/1/029/750.htm'},
     {c:'MODEL', d:'2026-11-20T06:48', t:'谷歌 Gemini 现可直接操作苹果 Mac 电脑，可跨应用操作、制作 PPT、填写表单', s:'当地时间 11 月 19 日，谷歌宣布为 macOS 版 Gemini 应用推出全新的“电脑操控”（Computer U…（来源：IT之家）', u:'https://www.ithome.com/1/029/749.htm'},
     {c:'FUNDING', d:'2026-11-20T06:41', t:'“史上最大 IPO”：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元', s:'AI 公司 Anthropic 于当地时间 11 月 19 日在美国纳斯达克上市，首日股价以 97.17 美元（IT之家…（来源：IT之家）', u:'https://www.ithome.com/1/029/748.htm'},
     {c:'FUNDING', d:'2026-11-19T23:50', t:'Anthropic 完成史上最大规模 IPO，上市估值达 1.5 万亿美元', s:'北京时间今天（19 日）深夜，AI 初创企业 Anthropic 正式登陆美股，以 813 亿美元（IT之家注：现汇率约…（来源：IT之家）', u:'https://www.ithome.com/1/029/708.htm'},
-    {c:'MODEL', d:'2026-11-19T23:28', t:'ChatGPT 新增“实时听写”功能：对着麦克风说话，语音能即时变文字', s:'ChatGPT 今天宣布新增“实时听写”功能，用户对着麦克风说话时，语音就能同步转换成文字，不必等录音结束后再转写，让 …（来源：IT之家）', u:'https://www.ithome.com/1/029/707.htm'},
-    {c:'HOT', d:'2026-11-19T23:17', t:'Nothing 首款 AI 设备外观流出：无屏设计，形似录音笔', s:'瑞典 EDM 组合 Swedish House Mafia 成员 Sebastian Ingrosso 最近在 X 平台…（来源：IT之家）', u:'https://www.ithome.com/1/029/705.htm'},
     {c:'FUNDING', d:'2026-11-19T22:58', t:'刚刚，Anthropic 敲钟上市！史上最大IPO却让硅谷吵翻了', s:'例如，为什么就你 A 社封号这么严格#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）', u:'https://www.ifanr.com/1690375?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MODEL', d:'2026-11-19T22:47', t:'微软官方 PyPI 包 Agent Framework 遭劫持，攻击者植入窃取登录凭据的恶意软件', s:'据科技媒体 TechRadar 今天报道，微软官方在 PyPI 发布的 Agent Framework 软件包遭黑客劫持…（来源：IT之家）', u:'https://www.ithome.com/1/029/700.htm'},
-    {c:'INDUSTRY', d:'2026-11-19T22:26', t:'谷歌与蓝色起源合作，计划 2029 年发射 AI 服务器卫星', s:'谷歌与蓝色起源（Blue Origin）今天达成合作，计划将 AI 服务器卫星送上太空。IT之家了解到，蓝色起源的新格伦…（来源：IT之家）', u:'https://www.ithome.com/1/029/695.htm'},
     {c:'HOT', d:'2026-11-19T21:48', t:'从英伟达到苹果、微软：同样拥抱AI，为什么企业的财富命运截然不同？', s:'本文先讨论AI改变的四条决策前提，再借助七阶行为逻辑，观察不同领导方式可能带来的财富后果。这里讨论的是作用机制，不意味着…（来源：钛媒体）', u:'https://www.tmtpost.com/8211622.html'},
     {c:'MEDPHARMA', d:'2026-11-19T21:30', t:'AI制药行业:全流程渗透市场规模持续扩容 药企与科技企业跨界...', s:'AI制药行业:全流程渗透市场规模持续扩容 药企与科技企业跨界...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709874493774938666/'},
     {c:'MODEL', d:'2026-11-19T19:05', t:'阿里财报：国际站GMV持续双位数增长，Accio付费企业数翻倍', s:'11月19日，阿里巴巴发布2027财年第二季度财报。阿里全球B2B业务呈现跨境出海与AI商业化双线高速增长：阿里国际站G…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/c9oojTZh4VSNL1dX.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-11-19T18:05', t:'钛媒体硅谷峰会震撼开启，马斯克背后传奇投资人、Google X创始人、全球AI及投资领军者齐聚斯坦福', s:'Google X创始人、马斯克背后长期资本创始人、洛克菲勒国际主席、斯坦福顶尖科学家，哥伦比亚大学AI监管权威专家、还有…（来源：钛媒体）', u:'https://www.tmtpost.com/8210519.html'},
     {c:'HOT', d:'2026-11-19T17:18', t:'Banks Are Turning AI Compute Bills Into Working Capital', s:'Banks Are Turning AI Compute Bills Into Working Ca…（来源：钛媒体）', u:'https://www.tmtpost.com/8211189.html'},
     {c:'MODEL', d:'2026-11-19T17:08', t:'Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后', s:'Jev 拿下的 75 亿美元估值曾被质疑是一场泡沫。现在 Google 用一款多模态决策模型告诉市场：这不是泡沫，是赛道…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html'},
-    {c:'MODEL', d:'2026-11-19T17:07', t:'诺亦腾机器人入选 The Information 2026 全球最具潜力50家初创企业榜单', s:'核心要点（Key Facts）· 在 The Information 于 11 月 11 日发布的“2026 全球最具潜…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/AfdiA9NBN3TJrgDL.html'},
   ];
   const TIMELINE = [
+    ['11-20 07:21','IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；中南大学通报附属医院 AI 论文争议；腾讯大幅削减元宝投入；比亚迪发布 DMS…'],
+    ['11-20 07:20','苹果 macOS 27.3 Beta 2 公测版发布：扩展 Siri AI 能力，强化完全磁盘访问权限管理'],
+    ['11-20 07:20','【钛晨报】《中俄美元首和平宣言》发布；31家出资主体现身，DeepSeek第二轮融资落地；比亚迪发布折叠方向盘，长鑫科技拟25亿至50亿元回购股份'],
+    ['11-20 07:09','微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线'],
+    ['11-20 07:04','苹果发布 iOS 27.3 Beta 2 修订版：修复 HomeView 配对问题，Siri AI 可读取 Safari 完整网页内容'],
     ['11-20 06:56','苹果正自研 AI 智能体：可操控设备、浏览网页、编写代码，以期与 OpenAI、Anthropic 竞争'],
-    ['11-20 06:48','谷歌 Gemini 现可直接操作苹果 Mac 电脑，可跨应用操作、制作 PPT、填写表单'],
-    ['11-20 06:41','“史上最大 IPO”：Anthropic 上市首日收盘大涨 17%，市值达 1.27 万亿美元'],
-    ['11-19 23:50','Anthropic 完成史上最大规模 IPO，上市估值达 1.5 万亿美元'],
-    ['11-19 23:28','ChatGPT 新增“实时听写”功能：对着麦克风说话，语音能即时变文字'],
-    ['11-19 23:17','Nothing 首款 AI 设备外观流出：无屏设计，形似录音笔'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328129, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322037, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307258, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234483, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197686, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156334, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150619, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145089, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121547, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119170, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328141, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322045, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307264, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234489, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197690, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156336, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150626, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145090, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121549, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119173, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
