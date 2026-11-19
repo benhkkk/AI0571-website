@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-19T12:08', t:'机械革命企业桌面 AI 主机大师之路 X10 发售，32999 元起', s:'机械革命 (Mechrevo) 现已启动企业桌面 AI 主机大师之路 X10 的销售。该型号基于 NVIDIA（英伟达）…（来源：IT之家）', u:'https://www.ithome.com/1/029/262.htm'},
+    {c:'HOT', d:'2026-11-19T11:56', t:'Tencent’s Softer Profit Shows How AI Is Rewriting Big Tech’s Cost Structure', s:'Tencent’s Softer Profit Shows How AI Is Rewriting …（来源：钛媒体）', u:'https://www.tmtpost.com/8210850.html'},
+    {c:'MODEL', d:'2026-11-19T11:42', t:'英伟达回应“黄仁勋离任会打乱 AI 芯片供货”疑虑：需求仍强劲，产品按计划推进', s:'行业媒体 Digitimes 今天（11 月 19 日）发布博文，报道称在最新财报电话会议上，针对“换帅是否会打乱 AI…（来源：IT之家）', u:'https://www.ithome.com/1/029/234.htm'},
     {c:'MODEL', d:'2026-11-19T11:11', t:'最高 853.33% 提升：《GTA 6》PS5 Pro 画面经 AI 加持，帧率飙到 286 FPS', s:'游戏媒体 GameGPU 昨日（11 月 18 日）发布博文，测试将索尼 PS5 Pro 的 4K 输出信号接入外置采集…（来源：IT之家）', u:'https://www.ithome.com/1/029/200.htm'},
     {c:'MODEL', d:'2026-11-19T11:01', t:'范式下场做基模了！国产算力全链路训练，双模型同步亮相', s:'语言模型单张3090卡即可运行（来源：量子位）', u:'https://www.qbitai.com/2026/11/511071.html'},
     {c:'INDUSTRY', d:'2026-11-19T10:46', t:'英伟达披露 GPU 租赁价格上涨：Hopper 最高翻倍，B300 涨超 60%', s:'英伟达在最新财报电话会议上披露，随着 AI 推理需求持续增长，公司旗下不同代际 GPU 的租赁价格均出现上涨。其中，Ho…（来源：IT之家）', u:'https://www.ithome.com/1/029/193.htm'},
@@ -471,34 +474,31 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-11-19T09:11', t:'马斯克预警称 AI 或于 2031 年超越全人类智慧总和', s:'在接受《经济学人》采访时，全球首富埃隆 · 马斯克（Elon Musk）大胆预测，称未来约 5 年内，即约 2031 年…（来源：IT之家）', u:'https://www.ithome.com/1/029/161.htm'},
     {c:'INDUSTRY', d:'2026-11-19T09:09', t:'权志龙母公司 Galaxy 将推机器人女团，与宇树合作的 K-pop 演唱会 12 月首演', s:'据每日经济新闻 11 月 17 日报道，韩国娱乐科技公司 Galaxy Corporation 计划于明年 1 月在全球…（来源：IT之家）', u:'https://www.ithome.com/1/029/160.htm'},
     {c:'INDUSTRY', d:'2026-11-19T09:05', t:'Edge AI Daily 早报（11月19日）', s:'英伟达完成创始人离任后治理重置：Q3营收1158亿美元、订单积压2.5万亿美元，停售H200并设董事会出口管制委员会；美…（来源：钛媒体）', u:'https://www.tmtpost.com/8210615.html'},
-    {c:'INDUSTRY', d:'2026-11-19T09:00', t:'奥尔特曼称 OpenAI 没法让所有人满意，必须平衡 AI 安全与发展', s:'美国当地时间 11 月 18 日周三召开的 DealBook 峰会上，OpenAI 首席执行官萨姆 · 奥尔特曼（Sam…（来源：IT之家）', u:'https://www.ithome.com/1/029/158.htm'},
-    {c:'INDUSTRY', d:'2026-11-19T08:41', t:'微软纳德拉示警：比“千年虫”更棘手，AI 正让网络变得越来越脆弱', s:'美国当地时间 11 月 18 日在《纽约时报》DealBook 峰会上，微软首席执行官萨提亚 · 纳德拉（Satya N…（来源：IT之家）', u:'https://www.ithome.com/1/029/154.htm'},
+    {c:'MODEL', d:'2026-11-19T09:03', t:'WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道', s:'黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为…（来源：极客公园）', u:'http://www.geekpark.net/news/374177'},
     {c:'MODEL', d:'2026-11-19T08:36', t:'早报｜GTA6开售，评分破纪录/大疆多款相机涨价/豆包工作三个月日活破800万', s:'· Google 发布 Gemini 4 Neon，主打复杂任务与更低单次成本 · 英伟达员工大会：董事会不让黄仁勋回归…（来源：爱范儿）', u:'https://www.ifanr.com/1690255?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'HOT', d:'2026-11-19T08:26', t:'初中毕业烘焙师，1 人搓出单集千万播放科幻剧，中国AI长片杀疯了！', s:'国产AI工具实现「一个人就是一个剧组」（来源：量子位）', u:'https://www.qbitai.com/2026/11/510947.html'},
     {c:'MODEL', d:'2026-11-19T07:56', t:'刚刚，Gemini 4 Neon 突袭发布，性价比一夜斩杀 Opus 5.5', s:'性能更强，还更便宜#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1690235?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-18T22:14', t:'AIGCPanel v2.7.0 模型权重按需下载，直播错误看得见', s:'模型包不再带着权重一起下，直播里播不出去的那句话会告诉你是为什么。 AIGCPanel 是装在自己电脑上的 AI 数字人…（来源：OSCHINA）', u:'https://www.oschina.net/news/503648'},
-    {c:'MODEL', d:'2026-11-18T21:18', t:'豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元', s:'11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html'},
-    {c:'MODEL', d:'2026-11-18T20:11', t:'“未名·AI Park”正式揭牌，北大海淀共建AI创新转化高地', s:'“未名·AI Park”核心启动区选址北大西门外，构建服务北大的“一公里转化圈”，立足北大顶尖AI学科资源与海淀科创沃土…（来源：钛媒体）', u:'https://www.tmtpost.com/8210345.html'},
   ];
   const TIMELINE = [
+    ['11-19 12:08','机械革命企业桌面 AI 主机大师之路 X10 发售，32999 元起'],
+    ['11-19 11:56','Tencent’s Softer Profit Shows How AI Is Rewriting Big Tech’s Cost Structure'],
+    ['11-19 11:42','英伟达回应“黄仁勋离任会打乱 AI 芯片供货”疑虑：需求仍强劲，产品按计划推进'],
     ['11-19 11:11','最高 853.33% 提升：《GTA 6》PS5 Pro 画面经 AI 加持，帧率飙到 286 FPS'],
     ['11-19 11:01','范式下场做基模了！国产算力全链路训练，双模型同步亮相'],
     ['11-19 10:46','英伟达披露 GPU 租赁价格上涨：Hopper 最高翻倍，B300 涨超 60%'],
-    ['11-19 10:33','上海推进开源平台建设 打造“最懂开发者的城市”'],
-    ['11-19 10:28','伏羲智能决策平台发布 v1.0.0：多智能体协作与决策运营闭环升级'],
-    ['11-19 10:11','50亿美元!AI制药最大单笔融资诞生'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327562, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321420, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306646, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234307, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197281, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156195, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150234, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327571, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321428, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306664, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234314, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197293, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156198, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150244, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145040, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121347, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118986, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121349, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:118985, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
