@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-19T09:32:18",
+  "updated": "2026-11-19T10:01:59",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-19T09:50",
+      "t": "黄仁勋离职引发科技圈讨论：马斯克称没有人能真正取代他，微软纳德拉建议不要神化创始人",
+      "s": "OpenAI CEO 萨姆 · 奥尔特曼、Anduril 创始人帕尔默 · 拉奇、微软 CEO 萨提亚 · 纳德拉和特斯…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/174.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-19T09:11",
@@ -21,13 +28,6 @@
       "t": "Edge AI Daily 早报（11月19日）",
       "s": "英伟达完成创始人离任后治理重置：Q3营收1158亿美元、订单积压2.5万亿美元，停售H200并设董事会出口管制委员会；美…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8210615.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-19T09:03",
-      "t": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
-      "s": "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374177"
     },
     {
       "c": "INDUSTRY",
@@ -87,20 +87,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-19T07:53",
-      "t": "谷歌推出 Gemini 4 Neon 模型，编程 AI 智能体指数超 Claude Opus 5.5 排第一",
-      "s": "谷歌今天（11 月 18 日）宣布推出 AI 模型 Gemini 4 Neon，主攻复杂编程、科学研究和企业工作流程，更…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/144.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-18T21:40",
-      "t": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
-      "s": "「基本不可用，不推荐」。 OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374175"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-18T21:18",
       "t": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
       "s": "11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR…（来源：雷锋网）",
@@ -140,9 +126,27 @@
       "t": "大厂AI对照系：李彦宏布道，马化腾预警",
       "s": "最早看见浪潮的人，为何没跑到最前面；后知后发的赶超者，又靠什么补课？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8208862.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-18T18:09",
+      "t": "诺奖得主做AI制药，20个月狂揽550亿",
+      "s": "诺奖得主做AI制药，20个月狂揽550亿（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7709451568218718735/"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-18T18:07",
+      "t": "狂奔后的冷却，AI玩具能跑出下一个泡泡玛特吗？",
+      "s": "在持续的资本狂欢与市场扩容之后，AI玩具赛道的热情正在降温。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8208866.html"
     }
   ],
   "timeline": [
+    [
+      "11-19 09:50",
+      "黄仁勋离职引发科技圈讨论：马斯克称没有人能真正取代他，微软纳德拉建议不要神化创始人"
+    ],
     [
       "11-19 09:11",
       "马斯克预警称 AI 或于 2031 年超越全人类智慧总和"
@@ -154,10 +158,6 @@
     [
       "11-19 09:05",
       "Edge AI Daily 早报（11月19日）"
-    ],
-    [
-      "11-19 09:03",
-      "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道"
     ],
     [
       "11-19 09:00",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327486,
+      "s": 327500,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 321339,
+      "s": 321354,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306532,
+      "s": 306558,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234270,
+      "s": 234277,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197223,
+      "s": 197232,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156181,
+      "s": 156184,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150187,
+      "s": 150195,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145033,
+      "s": 145035,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121319,
+      "s": 121321,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118955,
+      "s": 118958,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
