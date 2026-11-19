@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-19T10:31:42",
+  "updated": "2026-11-19T11:02:02",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-19T10:33",
+      "t": "上海推进开源平台建设 打造“最懂开发者的城市”",
+      "s": "近年来，上海在AI产业方面的政策支持不断加码，AI产业正在成为上海的一张新名片。开源平台作为连接大模型、算力、工具链与应…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503653"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-19T10:28",
+      "t": "伏羲智能决策平台发布 v1.0.0：多智能体协作与决策运营闭环升级",
+      "s": "摘要 开源项目伏羲智能决策平台发布 v1.0.0。该版本升级多智能体编排与知识检索，完善测试提案、历史回归、业务结果回传…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503652"
+    },
     {
       "c": "MEDPHARMA",
       "d": "2026-11-19T10:11",
@@ -25,7 +39,7 @@
     {
       "c": "HOT",
       "d": "2026-11-19T09:50",
-      "t": "黄仁勋离职引发科技圈讨论：马斯克称没有人能真正取代他，微软纳德拉建议不要神化创始人",
+      "t": "黄仁勋离职引发科技圈讨论：马斯克称其无可替代，微软纳德拉建议不要神化创始人",
       "s": "OpenAI CEO 萨姆 · 奥尔特曼、Anduril 创始人帕尔默 · 拉奇、微软 CEO 萨提亚 · 纳德拉和特斯…（来源：IT之家）",
       "u": "https://www.ithome.com/1/029/174.htm"
     },
@@ -49,13 +63,6 @@
       "t": "Edge AI Daily 早报（11月19日）",
       "s": "英伟达完成创始人离任后治理重置：Q3营收1158亿美元、订单积压2.5万亿美元，停售H200并设董事会出口管制委员会；美…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8210615.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-19T09:03",
-      "t": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
-      "s": "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374177"
     },
     {
       "c": "INDUSTRY",
@@ -115,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-18T21:40",
-      "t": "跑分狂飙，实测翻车，刚发的 GPT-6.2 暴露了 OpenAI 的软肋",
-      "s": "「基本不可用，不推荐」。 OpenAI 新模型上线仅仅 8 分钟，硅谷知名创业者 Matt Shumer，就在社交平台上…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374175"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-18T21:18",
       "t": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
       "s": "11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR…（来源：雷锋网）",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-19 10:33",
+      "上海推进开源平台建设 打造“最懂开发者的城市”"
+    ],
+    [
+      "11-19 10:28",
+      "伏羲智能决策平台发布 v1.0.0：多智能体协作与决策运营闭环升级"
+    ],
+    [
       "11-19 10:11",
       "50亿美元!AI制药最大单笔融资诞生"
     ],
@@ -157,15 +165,7 @@
     ],
     [
       "11-19 09:50",
-      "黄仁勋离职引发科技圈讨论：马斯克称没有人能真正取代他，微软纳德拉建议不要神化创始人"
-    ],
-    [
-      "11-19 09:11",
-      "马斯克预警称 AI 或于 2031 年超越全人类智慧总和"
-    ],
-    [
-      "11-19 09:09",
-      "权志龙母公司 Galaxy 将推机器人女团，与宇树合作的 K-pop 演唱会 12 月首演"
+      "黄仁勋离职引发科技圈讨论：马斯克称其无可替代，微软纳德拉建议不要神化创始人"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327518,
+      "s": 327532,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 321372,
+      "s": 321387,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306580,
+      "s": 306605,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234284,
+      "s": 234292,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197243,
+      "s": 197254,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156187,
+      "s": 156188,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150203,
+      "s": 150212,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121334,
+      "s": 121338,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118962,
+      "s": 118969,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
