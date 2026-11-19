@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-19T19:31:39",
+  "updated": "2026-11-19T20:01:58",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-19T19:17",
+      "t": "马斯克：目前 SpaceX 每个月约新增 0.5GW 算力，明年底将提速至每月 1GW",
+      "s": "据《科创板日报》今天报道，马斯克在视频连线采访中表示，目前 SpaceX 每个月大约新增 0.5GW AI 算力。这大致…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/649.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-19T19:17",
+      "t": "国际货币基金组织总裁警告：AI 投资热情过高影响，金融市场或现进一步调整",
+      "s": "国际货币基金组织（IMF）总裁克里斯塔利娜 · 格奥尔基耶娃（Kristalina Georgieva）表示，受人工智能…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/648.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-19T19:05",
+      "t": "特斯拉 Cybercab 自动驾驶订阅费高昂，用车四年后总成本将超 Model 3",
+      "s": "特斯拉 Cybercab 看起来很便宜，但使用起来可能就不是那么回事了。这款取消方向盘设计的 Robotaxi 无人驾驶…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/647.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-19T18:59",
@@ -65,27 +86,6 @@
       "u": "https://www.ithome.com/1/029/582.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-19T17:47",
-      "t": "LG 公布 Smart Monitor Swing AI 可移动智能显示器，升级 AI 处理器",
-      "s": "LG 电子当地时间今日面向日本市场公布了新款可移动智能显示器 Smart Monitor Swing AI。这一型号搭载…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/562.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-19T17:34",
-      "t": "荣耀 MagicOS 11 第三批内测机型今启全网升级尝鲜，含 Robot Phone、Magic5 系列等",
-      "s": "荣耀产品维护与升级工作人员 @荣耀小芳哥 刚刚宣布，今天 20 点开始，MagicOS 11 第三批内测机型将开启全网升…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/549.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-19T17:26",
-      "t": "Gartner 预测：2027 年全球人工智能支出将突破 4 万亿美元",
-      "s": "机构 Gartner（高德纳）当地时间本月 12 日发布预测：全球人工智能支出将在 2027 年突破四万亿美元关口，达到…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/546.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-19T17:18",
       "t": "Banks Are Turning AI Compute Bills Into Working Capital",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "11-19 19:17",
+      "马斯克：目前 SpaceX 每个月约新增 0.5GW 算力，明年底将提速至每月 1GW"
+    ],
+    [
+      "11-19 19:17",
+      "国际货币基金组织总裁警告：AI 投资热情过高影响，金融市场或现进一步调整"
+    ],
+    [
+      "11-19 19:05",
+      "特斯拉 Cybercab 自动驾驶订阅费高昂，用车四年后总成本将超 Model 3"
+    ],
+    [
       "11-19 18:59",
       "AI 智能体擅自转账、购物谁来负责？多家银行警告用户损失可能要自己承担"
     ],
@@ -154,18 +166,6 @@
     [
       "11-19 18:58",
       "国产GPU，风浪越大鱼越贵"
-    ],
-    [
-      "11-19 18:57",
-      "二十年逆向老手：LLM 给我的好奇心装上了涡轮增压"
-    ],
-    [
-      "11-19 18:10",
-      "Anthropic IPO 发行价定了：每股 83 美元"
-    ],
-    [
-      "11-19 18:05",
-      "钛媒体硅谷峰会震撼开启，马斯克背后传奇投资人、Google X创始人、全球AI及投资领军者齐聚斯坦福"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327791,
+      "s": 327810,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 321628,
+      "s": 321652,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306903,
+      "s": 306916,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234382,
+      "s": 234386,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197485,
+      "s": 197502,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156250,
+      "s": 156257,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150381,
+      "s": 150390,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145056,
+      "s": 145059,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121422,
+      "s": 121424,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119059,
+      "s": 119068,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
