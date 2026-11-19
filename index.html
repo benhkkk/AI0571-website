@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-19T17:18', t:'Banks Are Turning AI Compute Bills Into Working Capital', s:'Banks Are Turning AI Compute Bills Into Working Ca…（来源：钛媒体）', u:'https://www.tmtpost.com/8211189.html'},
     {c:'HOT', d:'2026-11-19T16:35', t:'国内首款Gen6 SSD量产，AI存储重算经济帐', s:'PCIe 6.0 SSD量产的真正价值，不是让存储设备跑出一个更漂亮的速度数字，而是让AI基础设施有机会重新算一笔账。（来源：钛媒体）', u:'https://www.tmtpost.com/8210529.html'},
     {c:'MODEL', d:'2026-11-19T16:19', t:'微软高管：Claude 和 ChatGPT 能做的，Copilot 能做的更好且更便宜', s:'据彭博社报道，微软表示，企业客户之所以选择旗下 Copilot 人工智能助手，而不是 Anthropic 的 Claud…（来源：IT之家）', u:'https://www.ithome.com/1/029/520.htm'},
     {c:'HOT', d:'2026-11-19T16:18', t:'GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了', s:'媒体均分登顶历史第一，细节多到爆炸（来源：量子位）', u:'https://www.qbitai.com/2026/11/511180.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-19T14:57', t:'被AI赶尽杀绝的独立音乐人', s:'当AI日产百万首歌，音乐人还剩什么？（来源：钛媒体）', u:'https://www.tmtpost.com/8210473.html'},
     {c:'MODEL', d:'2026-11-19T14:55', t:'豆包实时音视频通话模型 1.0 API 全量上线，可实现边看边听边说全模态实时交互', s:'今天，火山引擎正式上线豆包实时音视频通话模型（SeedRealtime 1.0） API 服务，带来全模态交互的新体验…（来源：IT之家）', u:'https://www.ithome.com/1/029/406.htm'},
     {c:'MODEL', d:'2026-11-19T14:44', t:'因智能体入侵银行系统，美国亚利桑那州对 OpenAI 等人工智能企业展开刑事调查', s:'据路透社今天报道，美国亚利桑那州总检察长克里斯 · 梅耶斯周三表示，该州已对 OpenAI 及其他人工智能企业展开刑事调…（来源：IT之家）', u:'https://www.ithome.com/1/029/331.htm'},
-    {c:'MODEL', d:'2026-11-19T14:44', t:'Claude Code 团队怎么让 agent 自己证明活干对了', s:'Claude Code 团队公开了一个数字：他们的代码大约 90% 由 Claude 编写和评审。 该团队工程师 Add…（来源：OSCHINA）', u:'https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification'},
   ];
   const TIMELINE = [
+    ['11-19 17:18','Banks Are Turning AI Compute Bills Into Working Capital'],
     ['11-19 16:35','国内首款Gen6 SSD量产，AI存储重算经济帐'],
     ['11-19 16:19','微软高管：Claude 和 ChatGPT 能做的，Copilot 能做的更好且更便宜'],
     ['11-19 16:18','GTA6刷屏！零AI纯手搓的3A大作玩一个少一个了'],
     ['11-19 16:10','SenseNova U1 Pro获Design Arena双榜中国第一、全球第六'],
     ['11-19 16:07','12 月 10 日上市，三星 AI 眼镜 Intelligent Eyewear 预售数小时便售罄'],
-    ['11-19 15:52','一笔全球最大融资背后:资本如何定价AI制药?'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327700, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321556, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306824, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234361, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197415, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156225, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150328, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145044, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121389, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119038, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327721, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321580, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306843, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234363, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197428, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156228, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150344, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145048, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121399, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119041, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
