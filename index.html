@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-19T16:19', t:'微软高管：Claude 和 ChatGPT 能做的，Copilot 能做的更好且更便宜', s:'据彭博社报道，微软表示，企业客户之所以选择旗下 Copilot 人工智能助手，而不是 Anthropic 的 Claud…（来源：IT之家）', u:'https://www.ithome.com/1/029/520.htm'},
+    {c:'FUNDING', d:'2026-11-19T16:07', t:'12 月 10 日上市，三星 AI 眼镜 Intelligent Eyewear 预售数小时便售罄', s:'三星电子与谷歌、Gentle Monster 联合推出的人工智能眼镜“Intelligent Eyewear”，尚未正式…（来源：IT之家）', u:'https://www.ithome.com/1/029/515.htm'},
+    {c:'MEDPHARMA', d:'2026-11-19T15:52', t:'一笔全球最大融资背后:资本如何定价AI制药?', s:'一笔全球最大融资背后:资本如何定价AI制药?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7709787335516373504/'},
     {c:'MODEL', d:'2026-11-19T15:45', t:'Gemini 4 Neon 发布：Google 在最强和最便宜之间，塞进了一个中间档', s:'Gemini 4 系列现在是三个档位：Carbon 攻坚最难的长周期项目，Hydrogen 负责日常快速执行，新来的 N…（来源：OSCHINA）', u:'https://www.oschina.net/news/503675/google-gemini-4-neon'},
     {c:'FUNDING', d:'2026-11-19T15:43', t:'史上最大 IPO 带来新一轮造富神话：Anthropic 上市或催生数千名百万富翁', s:'据路透社今天（19 日）上午报道，随着 AI 初创企业 Anthropic 的上市，数千名现任和前员工有望凭借手中的公司…（来源：IT之家）', u:'https://www.ithome.com/1/029/509.htm'},
     {c:'MODEL', d:'2026-11-19T15:39', t:'微软纳德拉：AI 代劳网购将重塑互联网生意，拒绝接入的平台恐失去机会', s:'科技媒体 TechCrunch 昨日（11 月 18 日）发布博文，报道称在《纽约时报》DealBook 峰会上，微软首…（来源：IT之家）', u:'https://www.ithome.com/1/029/497.htm'},
@@ -475,30 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-19T14:44', t:'Claude Code 团队怎么让 agent 自己证明活干对了', s:'Claude Code 团队公开了一个数字：他们的代码大约 90% 由 Claude 编写和评审。 该团队工程师 Add…（来源：OSCHINA）', u:'https://www.oschina.net/news/503667/claude-dev-how-the-claude-code-team-thinks-about-verification'},
     {c:'FUNDING', d:'2026-11-19T14:37', t:'Anthropic IPO 规模达 1073 亿美元创纪录，灰市交易显示开盘涨幅或超 20%', s:'据彭博社报道，人工智能公司 Anthropic 的股票在灰市交易中显示，上市首日开盘涨幅可能达到 20% 至 26%。此…（来源：IT之家）', u:'https://www.ithome.com/1/029/290.htm'},
     {c:'HOT', d:'2026-11-19T14:34', t:'Echo 创始人邹皓：硬件负责收集声音，AI负责创造价值', s:'真正让用户留下来的，是他们各自为 Echo 做出的差异化定义（来源：钛媒体）', u:'https://www.tmtpost.com/8210472.html'},
-    {c:'HOT', d:'2026-11-19T14:10', t:'「北美大豆包」谷歌，终于杀回 AI 牌桌中央', s:'作者｜Wildcard 编辑｜靖宇 谷歌，这次是真的回来了。 11 月 18 日，Google DeepMind 点亮了…（来源：极客公园）', u:'http://www.geekpark.net/news/374196'},
-    {c:'MEDPHARMA', d:'2026-11-19T13:14', t:'1 厘米标尺竟有 12 个刻度，中南大学通报附属医院 AI 论文争议、确认存在学术不端行为', s:'中南大学 11 月 19 日发布情况通报：近日，网络上出现对湘雅二医院、湘雅医院 3 篇论文数据和图表的质疑。学校高度重…（来源：IT之家）', u:'https://www.ithome.com/1/029/270.htm'},
-    {c:'MODEL', d:'2026-11-19T13:11', t:'Jync 捷同 v2.4.0 发布：内置 AI 运维助手，引入多角色权限与 Apache-2.0 开源协议', s:'Jync 捷同 v2.4.0 发布 新增 AI 运维助手：ADMIN / OPS 可用的内嵌悬浮窗，接入大模型后用自然语…（来源：OSCHINA）', u:'https://www.oschina.net/news/503660'},
-    {c:'MODEL', d:'2026-11-19T13:08', t:'黄仁勋离开后，英伟达开始和 AI 云厂商讲担保条件了', s:'科技媒体 The Verge 今天（11 月 19 日）发布博文，报道称英伟达收紧“金主”（sugar daddy）模式…（来源：IT之家）', u:'https://www.ithome.com/1/029/268.htm'},
+    {c:'MEDPHARMA', d:'2026-11-19T14:25', t:'百图生科正式发布AI药物安全性评价系统，从虚拟细胞走向虚拟猴，为药物研发带来全新助力', s:'11月19日，百图生科正式发布AI药物安全性评价系统（以下简称“AI安评系统”），将虚拟细胞模型、毒性预测能力与非临床安…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/UlpahlWOHi0OeI7Y.html'},
   ];
   const TIMELINE = [
+    ['11-19 16:19','微软高管：Claude 和 ChatGPT 能做的，Copilot 能做的更好且更便宜'],
+    ['11-19 16:07','12 月 10 日上市，三星 AI 眼镜 Intelligent Eyewear 预售数小时便售罄'],
+    ['11-19 15:52','一笔全球最大融资背后:资本如何定价AI制药?'],
     ['11-19 15:45','Gemini 4 Neon 发布：Google 在最强和最便宜之间，塞进了一个中间档'],
     ['11-19 15:43','史上最大 IPO 带来新一轮造富神话：Anthropic 上市或催生数千名百万富翁'],
     ['11-19 15:39','微软纳德拉：AI 代劳网购将重塑互联网生意，拒绝接入的平台恐失去机会'],
-    ['11-19 15:31','韩国成为全球第四个出口额破万亿美元国家，AI 芯片旺盛需求助力'],
-    ['11-19 15:01','好清晰！最新国产AI画的8K图，放这么大大大大也不糊！'],
-    ['11-19 14:57','AI公司烧Token，烧出了一门“贷款生意”'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327672, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321528, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306802, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234346, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197389, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156213, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150308, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:327684, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:321536, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:306809, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234353, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197400, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156217, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150316, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145044, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121379, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119032, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121386, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119037, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
