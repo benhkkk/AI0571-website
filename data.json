@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-19T11:31:37",
+  "updated": "2026-11-19T12:01:15",
   "news": [
     {
       "c": "MODEL",
@@ -86,13 +86,6 @@
       "u": "https://www.tmtpost.com/8210615.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-19T09:03",
-      "t": "WorkBuddy 日活超过 1000 万；曝英伟达未投企业责任险，或因黄仁勋事件遭巨额索赔；DeepSeek 再调整 API 计费 | 极客早知道",
-      "s": "黄仁勋辞职风波升级：英伟达遭两起证券欺诈诉讼，公司自身却未投保企业责任险 11 月 18 日消息，据路透社报道，英伟达为…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374177"
-    },
-    {
       "c": "INDUSTRY",
       "d": "2026-11-19T09:00",
       "t": "奥尔特曼称 OpenAI 没法让所有人满意，必须平衡 AI 安全与发展",
@@ -135,11 +128,18 @@
       "u": "https://www.oschina.net/news/503648"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-18T22:13",
-      "t": "这只高波动AI股较高点已跌80%，且正发出警告信号",
-      "s": "应用光电（Applied Optoelectronics）的股价正在下跌，这可能是在为人工智能建设浪潮亮起一盏警示灯。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8210485.html"
+      "c": "MODEL",
+      "d": "2026-11-18T21:18",
+      "t": "豆包工作日活突破 800 万，企业客户 ARR 突破 20 亿元",
+      "s": "11月18日，豆包官方宣布，上线仅三个月的豆包工作日活跃用户数（DAU）突破 800 万，企业客户年度经常性收入（ARR…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/cC8dbvo5f5k5tgnE.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-18T20:11",
+      "t": "“未名·AI Park”正式揭牌，北大海淀共建AI创新转化高地",
+      "s": "“未名·AI Park”核心启动区选址北大西门外，构建服务北大的“一公里转化圈”，立足北大顶尖AI学科资源与海淀科创沃土…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8210345.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 327549,
+      "s": 327562,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 321399,
+      "s": 321420,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 306628,
+      "s": 306646,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234301,
+      "s": 234307,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197266,
+      "s": 197281,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156191,
+      "s": 156195,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150222,
+      "s": 150234,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145039,
+      "s": 145040,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121346,
+      "s": 121347,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 118980,
+      "s": 118986,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
