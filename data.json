@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-20T23:01:50",
+  "updated": "2026-11-20T23:31:25",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-20T22:46",
+      "t": "内存成本涨幅前所未有，Valve 坦承 Steam Machine 未来售价“无法得知”",
+      "s": "AI 热潮引发的内存危机波及几乎所有消费电子产品，Steam Machine 也未能幸免。由于需求旺盛，Valve 直到…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/273.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-20T22:30",
@@ -56,13 +63,6 @@
       "t": "开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用",
       "s": "日本开发者 kociden 近日在 GitHub 上公开了一款名为「sakurai-skill」的非官方项目，将知名游戏…（来源：IT之家）",
       "u": "https://www.ithome.com/1/030/228.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T19:51",
-      "t": "三年销售目标 700 亿，京东与华为 OSTA 星芒达成战略合作",
-      "s": "华为全新子品牌“OSTA 星芒”今日正式亮相，“首款为 AI 而生的鸿蒙手机”OSTA O1 Pro 同步发布，首发价 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/227.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-20 22:46",
+      "内存成本涨幅前所未有，Valve 坦承 Steam Machine 未来售价“无法得知”"
+    ],
+    [
       "11-20 22:30",
       "德国首家，奔驰获批在“老家”开展点到点辅助驾驶"
     ],
@@ -162,10 +166,6 @@
     [
       "11-20 21:01",
       "Take-Two 前 CEO 费德：《GTA 6》将是 AI 时代前夜最后的“传统”3A 大作"
-    ],
-    [
-      "11-20 20:21",
-      "滑雪逃离北极熊追杀：极地末日生存游戏《POLYARIS》宣布明年 1 月 20 日登陆 Steam"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328588,
+      "s": 328605,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322589,
+      "s": 322610,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307604,
+      "s": 307627,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234680,
+      "s": 234688,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197936,
+      "s": 197941,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150980,
+      "s": 150991,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145166,
+      "s": 145175,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121718,
+      "s": 121724,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119337,
+      "s": 119338,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
