@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-20T13:31:04",
+  "updated": "2026-11-20T14:01:48",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-20T13:43",
+      "t": "腾讯为AI付全款",
+      "s": "WorkBuddy日均Token消耗量超过100万亿背后，腾讯实际在以主业利润叠加新增借款支撑这轮AI投入。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8212483.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-20T13:35",
+      "t": "China’s AI Short-Drama Boom Hits a Rights Wall and a Theater Test",
+      "s": "China’s AI Short-Drama Boom Hits a Rights Wall and…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8212475.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T13:24",
+      "t": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
+      "s": "已开源Agnes Harness（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/511582.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-20T12:31",
@@ -65,13 +86,6 @@
       "u": "https://www.tmtpost.com/8211952.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-20T11:39",
-      "t": "Anthropic上市，10个值得关注的真相",
-      "s": "好莱坞也在押注AI。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8212016.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-20T11:27",
       "t": "三星自研 AI 新进展：Gauss 4 现身 One UI 9.5 代码",
@@ -126,23 +140,21 @@
       "t": "行业首次：小鹏 2026 科技日将首发「图灵 AI 共驾」，把智能辅助驾驶能力赋能人驾",
       "s": "小鹏汽车 2026 年小鹏科技日（AI DAY）已经官宣定档 11 月 25 日在广州举行，主题为“原点”（Origin…（来源：IT之家）",
       "u": "https://www.ithome.com/1/029/785.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T09:17",
-      "t": "AI Agent 元年，苹果是最后一个入局的巨头",
-      "s": "苹果急了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1690510?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T09:09",
-      "t": "qKnow 智能体构建平台专业版 v3.1.6 发布：底座组件标准化升级，主题与品牌定制能力上线",
-      "s": "随着智能体应用逐步落地，平台除了需要持续完善核心业务能力，也需要关注基础组件、系统配置和应用运行等方面的建设。对于企业私…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503689"
     }
   ],
   "timeline": [
+    [
+      "11-20 13:43",
+      "腾讯为AI付全款"
+    ],
+    [
+      "11-20 13:35",
+      "China’s AI Short-Drama Boom Hits a Rights Wall and a Theater Test"
+    ],
+    [
+      "11-20 13:24",
+      "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！"
+    ],
     [
       "11-20 12:31",
       "吉利董事长李书福：一般性的传统大学已不适应 AI 时代人才培养需求，必将诞生一批新型大学"
@@ -154,18 +166,6 @@
     [
       "11-20 11:51",
       "三星 One UI 9.5 版天气 App 酝酿 AI 升级：出发前提醒查看目的地天气"
-    ],
-    [
-      "11-20 11:51",
-      "摘掉PC单一标签，AI开始改写联想的利润表"
-    ],
-    [
-      "11-20 11:50",
-      "北汽押注千TOPS算力芯片，舱驾融合还有多远？"
-    ],
-    [
-      "11-20 11:47",
-      "腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328293,
+      "s": 328305,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322242,
+      "s": 322259,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307379,
+      "s": 307390,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234547,
+      "s": 234551,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197785,
+      "s": 197796,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156356,
+      "s": 156359,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150744,
+      "s": 150755,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145098,
+      "s": 145101,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121614,
+      "s": 121620,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119223,
+      "s": 119230,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
