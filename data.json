@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-20T14:01:48",
+  "updated": "2026-11-20T14:31:32",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T13:50",
+      "t": "迈特芯 3D-TPU 芯片 Mega188 成功点亮：垂直集成 DRAM，600GB/s 带宽",
+      "s": "国内端侧 LLM 芯片企业迈特芯 (MetaChip) 近日宣布，其 3D-TPU 芯片产品 Mega188 成功实现回…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/876.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-20T13:43",
+      "t": "高通携手 Cirrascale，启动自家推理加速器 AI200 客户评估",
+      "s": "Qualcomm（高通）当地时间本月 17 日宣布，其携手 AI 私有云企业 Cirrascale，向部分客户开放 Dr…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/874.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-20T13:43",
@@ -14,13 +28,6 @@
       "t": "China’s AI Short-Drama Boom Hits a Rights Wall and a Theater Test",
       "s": "China’s AI Short-Drama Boom Hits a Rights Wall and…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8212475.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T13:24",
-      "t": "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！",
-      "s": "已开源Agnes Harness（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/511582.html"
     },
     {
       "c": "HOT",
@@ -122,27 +129,28 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-20T10:03",
-      "t": "育碧成立 Motherbrain 专注于游戏 AI，半年员工人数减少近 1100 人",
-      "s": "VideoGamesChronicle 今日报道称，育碧成立了一家专注于游戏 AI 技术的新子公司 Motherbrai…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/795.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-11-20T10:01",
       "t": "独家丨影石研究院首度公开：字节旧将亓鲁任负责人",
       "s": "雷峰网·鲸犀独家获悉，影石创新董事亓鲁已出任影石研究院中心负责人，并兼任公司首席 AI 官。知情人士称，他将主要负责相关…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/weiwu/o4pLV3X7mPE6sfxq.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-20T09:20",
-      "t": "行业首次：小鹏 2026 科技日将首发「图灵 AI 共驾」，把智能辅助驾驶能力赋能人驾",
-      "s": "小鹏汽车 2026 年小鹏科技日（AI DAY）已经官宣定档 11 月 25 日在广州举行，主题为“原点”（Origin…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/785.htm"
+      "c": "MODEL",
+      "d": "2026-11-20T09:17",
+      "t": "AI Agent 元年，苹果是最后一个入局的巨头",
+      "s": "苹果急了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1690510?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "11-20 13:50",
+      "迈特芯 3D-TPU 芯片 Mega188 成功点亮：垂直集成 DRAM，600GB/s 带宽"
+    ],
+    [
+      "11-20 13:43",
+      "高通携手 Cirrascale，启动自家推理加速器 AI200 客户评估"
+    ],
     [
       "11-20 13:43",
       "腾讯为AI付全款"
@@ -152,20 +160,12 @@
       "China’s AI Short-Drama Boom Hits a Rights Wall and a Theater Test"
     ],
     [
-      "11-20 13:24",
-      "双系统决策+双层自进化，Agnes让Agent效率最高提速14倍，成本骤降至1/27！"
-    ],
-    [
       "11-20 12:31",
       "吉利董事长李书福：一般性的传统大学已不适应 AI 时代人才培养需求，必将诞生一批新型大学"
     ],
     [
       "11-20 11:57",
       "Google「AI Overviews」让网站的搜索流量下降四成"
-    ],
-    [
-      "11-20 11:51",
-      "三星 One UI 9.5 版天气 App 酝酿 AI 升级：出发前提醒查看目的地天气"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328305,
+      "s": 328319,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322259,
+      "s": 322285,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307390,
+      "s": 307401,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234551,
+      "s": 234559,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197796,
+      "s": 197805,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156359,
+      "s": 156363,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150755,
+      "s": 150768,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145101,
+      "s": 145102,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121620,
+      "s": 121625,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119230,
+      "s": 119239,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
