@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-20T21:01', t:'Take-Two 前 CEO 费德：《GTA 6》将是 AI 时代前夜最后的“传统”3A 大作', s:'Take-Two 前 CEO 本 · 费德认为，《GTA 6》将成为 AI 时代全面到来前最后一部采用传统开发模式打造的…（来源：IT之家）', u:'https://www.ithome.com/1/030/238.htm'},
     {c:'HOT', d:'2026-11-20T20:21', t:'滑雪逃离北极熊追杀：极地末日生存游戏《POLYARIS》宣布明年 1 月 20 日登陆 Steam', s:'独立开发团队 Magic Pie 宣布旗下开放世界生存游戏《POLYARIS》将于 2027 年 1 月 20 日登陆 …（来源：IT之家）', u:'https://www.ithome.com/1/030/233.htm'},
     {c:'HOT', d:'2026-11-20T20:14', t:'玩家在《极限竞速：地平线 6》中偶遇已故好友 Drivatar AI 车手，得以再次“并肩驾车”重温昨日时光', s:'《极限竞速：地平线 6（Forza Horizon 6）》玩家 Samohteht 近日分享了一段令人动容的游戏经历。他…（来源：IT之家）', u:'https://www.ithome.com/1/030/231.htm'},
     {c:'MODEL', d:'2026-11-20T19:55', t:'开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用', s:'日本开发者 kociden 近日在 GitHub 上公开了一款名为「sakurai-skill」的非官方项目，将知名游戏…（来源：IT之家）', u:'https://www.ithome.com/1/030/228.htm'},
@@ -472,7 +473,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-20T18:27', t:'灵掌机器人太空灵巧手亮相世界智能制造博览会', s:'11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html'},
     {c:'HOT', d:'2026-11-20T18:23', t:'“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程', s:'五一视界启动A股IPO辅导。（来源：钛媒体）', u:'https://www.tmtpost.com/8212915.html'},
     {c:'MODEL', d:'2026-11-20T18:23', t:'“DeepSeek们”都在退场：限额并非免费AI的终结？', s:'无限量免费AI撑不住了。（来源：钛媒体）', u:'https://www.tmtpost.com/8212818.html'},
-    {c:'MODEL', d:'2026-11-20T18:11', t:'小米 MiMo：Token Plan 的 Pro / Max 套餐限时支持 UltraSpeed 超高速推理模型', s:'小米 MiMo 官方文档显示，11 月 19 日起，Token Plan 限时支持 UltraSpeed 超高速旗舰推理…（来源：IT之家）', u:'https://www.ithome.com/1/030/193.htm'},
     {c:'MEDPHARMA', d:'2026-11-20T18:10', t:'谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛', s:'谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛（来源：头条医药AI）', u:'https://www.toutiao.com/article/7710194012933702180/'},
     {c:'MODEL', d:'2026-11-20T18:09', t:'解读丨智能戒指红海之外，Elah Ring 正在深入美国腹地', s:'斯坦福毕业生做的 Elah Ring，要当美国百姓的“Personal Faith Agent”。作者丨陈玘凡编辑丨吴优…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/ptAnAiMGqEOX65EI.html'},
     {c:'HOT', d:'2026-11-20T17:54', t:'Falling Prices Push AI Video Toward Platform Economics', s:'Falling Prices Push AI Video Toward Platform Econo…（来源：钛媒体）', u:'https://www.tmtpost.com/8212911.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-20T17:22', t:'Anthropic正式登陆纳斯达克：敲钟那天，账已经在另一张纸上？', s:'这场上市真正的赢家不在敲钟的那几个人里，在那七家收着算力钱又拿着股票的公司身上，它们把未来十五年的订单提前折成了今天的股…（来源：钛媒体）', u:'https://www.tmtpost.com/8212716.html'},
   ];
   const TIMELINE = [
+    ['11-20 21:01','Take-Two 前 CEO 费德：《GTA 6》将是 AI 时代前夜最后的“传统”3A 大作'],
     ['11-20 20:21','滑雪逃离北极熊追杀：极地末日生存游戏《POLYARIS》宣布明年 1 月 20 日登陆 Steam'],
     ['11-20 20:14','玩家在《极限竞速：地平线 6》中偶遇已故好友 Drivatar AI 车手，得以再次“并肩驾车”重温昨日时光'],
     ['11-20 19:55','开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用'],
     ['11-20 19:51','三年销售目标 700 亿，京东与华为 OSTA 星芒达成战略合作'],
     ['11-20 19:19','影石 Mic Pro、Wave 两款麦克风获升级，可原生接入腾讯 WorkBuddy'],
-    ['11-20 18:58','小鹏预计全年海外销量破10万辆；涂鸦智能AI Energy方案在欧洲多国部署；美团索降无人机迪拜首秀｜一周大公司出海动态'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328540, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322512, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307535, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234641, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197906, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156404, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150931, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145143, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121697, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119310, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328549, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322538, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307548, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234651, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197914, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156406, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150939, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145148, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121698, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119315, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
