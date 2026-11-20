@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-20T19:01:23",
+  "updated": "2026-11-20T19:31:02",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-20T18:58",
+      "t": "小鹏预计全年海外销量破10万辆；涂鸦智能AI Energy方案在欧洲多国部署；美团索降无人机迪拜首秀｜一周大公司出海动态",
+      "s": "一文看完本周大公司出海全全球化动态。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8213045.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-20T18:47",
+      "t": "DeepSeek 新一轮千亿级融资落地，梁文锋保留绝对控制权",
+      "s": "工商信息显示，DeepSeek 运营主体杭州深度求索人工智能基础技术研究有限公司近日完成工商变更，新增股东杭州程砚企业管…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/199.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-20T18:42",
+      "t": "自家人都看不下去了？数百谷歌员工要求公司允许中小学使用不含 AI 的谷歌搜索",
+      "s": "当地时间 19 日，据彭博社报道，超过 500 名谷歌员工和合同工联名请愿，要求公司允许中小学继续使用不含 AI 功能的…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/197.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-20T18:31",
@@ -86,13 +107,6 @@
       "u": "https://www.tmtpost.com/8212716.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-20T17:22",
-      "t": "AI这一年，倒下的APP们",
-      "s": "一年之内，上千个AI应用为何接连退场？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8212771.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-20T17:17",
       "t": "首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」",
@@ -126,23 +140,21 @@
       "t": "【AI 智能运维平台】本周更新：内置常用智能体模版，简单配置快速启用",
       "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503707"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T17:00",
-      "t": "哈佛大学研究人员：AI 编程目前的瓶颈是“Code Review”",
-      "s": "哈佛大学两位博士候选人做了一份工作论文，把 AI 编程 Agent 的真实效果算了一遍。样本是 718 家公司、7259…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-20T16:58",
-      "t": "支持华为 OSTA 星芒 O1 Pro 手机满速充电：华为 66W 冰糖全能充电器 89 元国补发车",
-      "s": "华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机现已开启预约，首发国补价 4999 元今天 18:08 开抢。京东华…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/126.htm"
     }
   ],
   "timeline": [
+    [
+      "11-20 18:58",
+      "小鹏预计全年海外销量破10万辆；涂鸦智能AI Energy方案在欧洲多国部署；美团索降无人机迪拜首秀｜一周大公司出海动态"
+    ],
+    [
+      "11-20 18:47",
+      "DeepSeek 新一轮千亿级融资落地，梁文锋保留绝对控制权"
+    ],
+    [
+      "11-20 18:42",
+      "自家人都看不下去了？数百谷歌员工要求公司允许中小学使用不含 AI 的谷歌搜索"
+    ],
     [
       "11-20 18:31",
       "阿里发布2027年Q2财报：阿里云AI收入增长53%，即时零售减亏"
@@ -154,18 +166,6 @@
     [
       "11-20 18:23",
       "“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程"
-    ],
-    [
-      "11-20 18:23",
-      "“DeepSeek们”都在退场：限额并非免费AI的终结？"
-    ],
-    [
-      "11-20 18:11",
-      "小米 MiMo：Token Plan 的 Pro / Max 套餐限时支持 UltraSpeed 超高速推理模型"
-    ],
-    [
-      "11-20 18:10",
-      "谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328486,
+      "s": 328498,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322454,
+      "s": 322470,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307489,
+      "s": 307494,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234620,
+      "s": 234624,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197873,
+      "s": 197880,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156399,
+      "s": 156402,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150867,
+      "s": 150882,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145127,
+      "s": 145134,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121670,
+      "s": 121674,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119283,
+      "s": 119289,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
