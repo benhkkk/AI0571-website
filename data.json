@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-20T19:31:02",
+  "updated": "2026-11-20T20:01:44",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T19:55",
+      "t": "开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用",
+      "s": "日本开发者 kociden 近日在 GitHub 上公开了一款名为「sakurai-skill」的非官方项目，将知名游戏…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/228.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T19:51",
+      "t": "三年销售目标 700 亿，京东与华为 OSTA 星芒达成战略合作",
+      "s": "华为全新子品牌“OSTA 星芒”今日正式亮相，“首款为 AI 而生的鸿蒙手机”OSTA O1 Pro 同步发布，首发价 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/227.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T19:19",
+      "t": "影石 Mic Pro、Wave 两款麦克风获升级，可原生接入腾讯 WorkBuddy",
+      "s": "影石官方宣布，即日起，影石 Insta360 旗下旗舰级无线麦克风 Mic Pro 与 AI 录音全向麦克风 Wave …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/221.htm"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-20T18:58",
@@ -114,35 +135,26 @@
       "u": "https://www.ifanr.com/1690642?utm_source=rss&utm_medium=rss&utm_campaign="
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-20T17:13",
-      "t": "AMD XDNA2 NPU 率先获得 Unsloth Desktop 适配，支持超百款智能体",
-      "s": "AMD 当地时间 19 日宣布，其锐龙 AI 处理器上的 \"XDNA 2\" NPU 成为首款获得 Unsloth Des…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/131.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-20T17:06",
-      "t": "Anthropic 上市当天，离职研究员考克森在其总部外呼吁禁止 AI 递归自我改进",
-      "s": "据《商业内幕》报道，今年 9 月，Anthropic 前研究员雅各布 · 考克森因担忧 AI 发展而离职，并在美国引发了…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/127.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-20T17:03",
       "t": "给 Gemini 道歉，请自觉排队",
       "s": "Gemini 4 真的越来越好用了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1690572?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T17:02",
-      "t": "【AI 智能运维平台】本周更新：内置常用智能体模版，简单配置快速启用",
-      "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503707"
     }
   ],
   "timeline": [
+    [
+      "11-20 19:55",
+      "开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用"
+    ],
+    [
+      "11-20 19:51",
+      "三年销售目标 700 亿，京东与华为 OSTA 星芒达成战略合作"
+    ],
+    [
+      "11-20 19:19",
+      "影石 Mic Pro、Wave 两款麦克风获升级，可原生接入腾讯 WorkBuddy"
+    ],
     [
       "11-20 18:58",
       "小鹏预计全年海外销量破10万辆；涂鸦智能AI Energy方案在欧洲多国部署；美团索降无人机迪拜首秀｜一周大公司出海动态"
@@ -154,18 +166,6 @@
     [
       "11-20 18:42",
       "自家人都看不下去了？数百谷歌员工要求公司允许中小学使用不含 AI 的谷歌搜索"
-    ],
-    [
-      "11-20 18:31",
-      "阿里发布2027年Q2财报：阿里云AI收入增长53%，即时零售减亏"
-    ],
-    [
-      "11-20 18:31",
-      "托举WorkBuddy登顶，腾讯AI高光藏软肋"
-    ],
-    [
-      "11-20 18:23",
-      "“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328498,
+      "s": 328512,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322470,
+      "s": 322486,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307494,
+      "s": 307507,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234624,
+      "s": 234630,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197880,
+      "s": 197887,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156402,
+      "s": 156404,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150882,
+      "s": 150902,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145134,
+      "s": 145136,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121674,
+      "s": 121682,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119289,
+      "s": 119300,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
