@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-20T23:31:25",
+  "updated": "2026-11-21T00:01:46",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T23:37",
+      "t": "AI 攻克黎曼猜想？Anthropic 数学家宣称已与 Claude 合作完成证明",
+      "s": "据《科学美国人》报道，当地时间 20 日，Anthropic 数学家莱文特 · 阿尔波格宣称，自己与 AI 模型 Cla…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/278.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-20T23:37",
+      "t": "明基 AK900ST AI 高尔夫投影机发售：6000lm 亮度、短焦镜头设计，52999 元",
+      "s": "明基旗下 AK900ST“AI 高尔夫投影机”现已在京东发售，该产品专为高尔夫模拟及多场景娱乐打造，定价为 52999 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/277.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-20T22:46",
@@ -49,20 +63,6 @@
       "t": "滑雪逃离北极熊追杀：极地末日生存游戏《POLYARIS》宣布明年 1 月 20 日登陆 Steam",
       "s": "独立开发团队 Magic Pie 宣布旗下开放世界生存游戏《POLYARIS》将于 2027 年 1 月 20 日登陆 …（来源：IT之家）",
       "u": "https://www.ithome.com/1/030/233.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-20T20:14",
-      "t": "玩家在《极限竞速：地平线 6》中偶遇已故好友 Drivatar AI 车手，得以再次“并肩驾车”重温昨日时光",
-      "s": "《极限竞速：地平线 6（Forza Horizon 6）》玩家 Samohteht 近日分享了一段令人动容的游戏经历。他…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/231.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T19:55",
-      "t": "开发者将櫻井政博游戏制作教程整合为 Skill 技能，可供各类 AI 智能体调用",
-      "s": "日本开发者 kociden 近日在 GitHub 上公开了一款名为「sakurai-skill」的非官方项目，将知名游戏…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/228.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-20 23:37",
+      "AI 攻克黎曼猜想？Anthropic 数学家宣称已与 Claude 合作完成证明"
+    ],
+    [
+      "11-20 23:37",
+      "明基 AK900ST AI 高尔夫投影机发售：6000lm 亮度、短焦镜头设计，52999 元"
+    ],
+    [
       "11-20 22:46",
       "内存成本涨幅前所未有，Valve 坦承 Steam Machine 未来售价“无法得知”"
     ],
@@ -158,14 +166,6 @@
     [
       "11-20 22:09",
       "三星电子高管：Neocloud 风险有限，AI 投资基于实际需求"
-    ],
-    [
-      "11-20 22:05",
-      "Anthropic 上市次日股价下跌 9%，AI 板块雪上加霜"
-    ],
-    [
-      "11-20 21:01",
-      "Take-Two 前 CEO 费德：《GTA 6》将是 AI 时代前夜最后的“传统”3A 大作"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328605,
+      "s": 328633,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322610,
+      "s": 322634,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307627,
+      "s": 307645,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234688,
+      "s": 234693,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197941,
+      "s": 197945,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156420,
+      "s": 156424,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150991,
+      "s": 150997,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145175,
+      "s": 145183,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121724,
+      "s": 121731,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119338,
+      "s": 119341,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
