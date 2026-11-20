@@ -459,7 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-11-20T07:21', t:'IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；中南大学通报附属医院 AI 论文争议；腾讯大幅削减元宝投入；比亚迪发布 DMS 超级混动...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 20 日星期五，今天的重要科技资讯有：1. Anthropic…（来源：IT之家）', u:'https://www.ithome.com/1/029/755.htm'},
+    {c:'FUNDING', d:'2026-11-20T07:21', t:'IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；苹果 App Store 惊现安卓虚拟机应用；比亚迪发布方向盘可折叠的方程豹钛 9...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 20 日星期五，今天的重要科技资讯有：1. Anthropic…（来源：IT之家）', u:'https://www.ithome.com/1/029/755.htm'},
     {c:'MODEL', d:'2026-11-20T07:20', t:'苹果 macOS 27.3 Beta 2 公测版发布：扩展 Siri AI 能力，强化完全磁盘访问权限管理', s:'苹果于当地时间 11 月 19 日向公测版用户推送了 iOS / iPadOS 27.3 和 macOS 27.3 Be…（来源：IT之家）', u:'https://www.ithome.com/1/029/754.htm'},
     {c:'FUNDING', d:'2026-11-20T07:20', t:'【钛晨报】《中俄美元首和平宣言》发布；31家出资主体现身，DeepSeek第二轮融资落地；比亚迪发布折叠方向盘，长鑫科技拟25亿至50亿元回购股份', s:'燧原科技：在手订单充沛，并正在与多家国内半导体产业伙伴进行合作；吴泳铭：建设超过20GW规模全球数据中心的目标可能下调…（来源：钛媒体）', u:'https://www.tmtpost.com/8211593.html'},
     {c:'MODEL', d:'2026-11-20T07:09', t:'微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线', s:'本月召开的 Ignite 2026 活动中，微软宣布携手英伟达加速本地 AI 体验落地，让 AI 从“必须联网才能用”的…（来源：IT之家）', u:'https://www.ithome.com/1/029/747.htm'},
@@ -481,7 +481,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-19T17:08', t:'Google 杀入 Jev 核心赛道：Gemini Decision 1 五项基准领先两项落后', s:'Jev 拿下的 75 亿美元估值曾被质疑是一场泡沫。现在 Google 用一款多模态决策模型告诉市场：这不是泡沫，是赛道…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/wctgzdX4CN2RVxCm.html'},
   ];
   const TIMELINE = [
-    ['11-20 07:21','IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；中南大学通报附属医院 AI 论文争议；腾讯大幅削减元宝投入；比亚迪发布 DMS…'],
+    ['11-20 07:21','IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；苹果 App Store 惊现安卓虚拟机应用；比亚迪发布方向盘可折叠的方程豹钛…'],
     ['11-20 07:20','苹果 macOS 27.3 Beta 2 公测版发布：扩展 Siri AI 能力，强化完全磁盘访问权限管理'],
     ['11-20 07:20','【钛晨报】《中俄美元首和平宣言》发布；31家出资主体现身，DeepSeek第二轮融资落地；比亚迪发布折叠方向盘，长鑫科技拟25亿至50亿元回购股份'],
     ['11-20 07:09','微软携手英伟达升级云 PC 体验：两路 4K 60 帧画面，2027 年预览上线'],
@@ -489,16 +489,16 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     ['11-20 06:56','苹果正自研 AI 智能体：可操控设备、浏览网页、编写代码，以期与 OpenAI、Anthropic 竞争'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328145, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322048, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307267, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234490, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197696, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156336, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150628, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145090, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121550, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119173, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328148, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322058, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307275, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234494, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197700, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156339, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150634, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145089, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121553, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119174, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
