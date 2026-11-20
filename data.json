@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-20T15:31:11",
+  "updated": "2026-11-20T16:02:02",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-20T15:55",
+      "t": "蚂蚁 OceanBase 团队开源 PowerContext，跨对话的 Agent 记忆服务",
+      "s": "蚂蚁 OceanBase 团队开源了名为「PowerContext」的项目，解决的问题很具体：上下文不该死在一次对话里…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503704/oceanbase-powercontex"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-20T15:02",
@@ -21,13 +28,6 @@
       "t": "李书福：吉利旗下芯位科技筹备建设芯位大学，主动对接人工智能科技",
       "s": "据上海证券报消息，11 月 20 日，李书福在三亚举行的 2026 年芯位教育论坛上透露，吉利旗下芯位科技筹备建设芯位大…（来源：IT之家）",
       "u": "https://www.ithome.com/1/029/913.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-20T14:40",
-      "t": "当AI影视遇上文化出海：优秀作品亮相第47届美国电影市场",
-      "s": "当地时间11月10日至15日，第47届美国电影市场（AFM）在洛杉矶举行。AI影视平台携中国传统文化题材作品亮相展会并达…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/sFbtCLZ06plyUxPF.html"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-20 15:55",
+      "蚂蚁 OceanBase 团队开源 PowerContext，跨对话的 Agent 记忆服务"
+    ],
+    [
       "11-20 15:02",
       "约 14MB 内存运行 2.7 亿参数模型：谷歌工程师把 AI 装进打印机，每词元耗时约 60 秒"
     ],
@@ -154,10 +158,6 @@
     [
       "11-20 14:50",
       "李书福：吉利旗下芯位科技筹备建设芯位大学，主动对接人工智能科技"
-    ],
-    [
-      "11-20 14:40",
-      "当AI影视遇上文化出海：优秀作品亮相第47届美国电影市场"
     ],
     [
       "11-20 14:33",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328349,
+      "s": 328363,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322320,
+      "s": 322339,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307415,
+      "s": 307425,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234571,
+      "s": 234578,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197813,
+      "s": 197828,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156374,
+      "s": 156376,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150774,
+      "s": 150788,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145107,
+      "s": 145108,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121634,
+      "s": 121639,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119249,
+      "s": 119252,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
