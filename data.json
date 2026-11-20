@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T01:02:08",
+  "updated": "2026-11-21T01:31:33",
   "news": [
     {
       "c": "MODEL",
@@ -63,13 +63,6 @@
       "t": "滑雪逃离北极熊追杀：极地末日生存游戏《POLYARIS》宣布明年 1 月 20 日登陆 Steam",
       "s": "独立开发团队 Magic Pie 宣布旗下开放世界生存游戏《POLYARIS》将于 2027 年 1 月 20 日登陆 …（来源：IT之家）",
       "u": "https://www.ithome.com/1/030/233.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-20T20:18",
-      "t": "美国AI音乐巨头进军视频生成，底层模型来自中国MiniMax",
-      "s": "美国AI音乐平台Suno宣布推出视觉创作工具Visuals（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/511722.html"
     },
     {
       "c": "INDUSTRY",
@@ -140,6 +133,13 @@
       "t": "Jync v2.4.3 AI 助手确认执行与启动诊断",
       "s": "Jync v2.4.3 新增 AI 运维助手可以执行运行态操作，但每一次都由人确认：启动 / 停止同步任务、立即同步一次…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503710"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-20T17:22",
+      "t": "Waymo被迫退出高速公路，无人驾驶的商业化开始碰到监管天花板",
+      "s": "自动驾驶行业一直在回答一个问题：机器能不能像人一样开车？但当Robotaxi真正走向商业化，问题开始变得复杂。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8211917.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328666,
+      "s": 328682,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322662,
+      "s": 322668,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307679,
+      "s": 307688,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234701,
+      "s": 234709,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197963,
+      "s": 197967,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156427,
+      "s": 156430,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151031,
+      "s": 151040,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145187,
+      "s": 145190,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121744,
+      "s": 121751,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119347,
+      "s": 119353,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
