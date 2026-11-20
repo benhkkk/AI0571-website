@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-20T10:02:35",
+  "updated": "2026-11-20T10:31:06",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-20T10:03",
+      "t": "育碧成立 Motherbrain 专注于游戏 AI，半年员工人数减少近 1100 人",
+      "s": "VideoGamesChronicle 今日报道称，育碧成立了一家专注于游戏 AI 技术的新子公司 Motherbrai…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/795.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-20T09:46",
@@ -65,6 +72,20 @@
       "u": "https://www.ithome.com/1/029/781.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-20T09:09",
+      "t": "qKnow 智能体构建平台专业版 v3.1.6 发布：底座组件标准化升级，主题与品牌定制能力上线",
+      "s": "随着智能体应用逐步落地，平台除了需要持续完善核心业务能力，也需要关注基础组件、系统配置和应用运行等方面的建设。对于企业私…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503689"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-20T09:07",
+      "t": "具身机器人进入真机时代，华为云CloudRobo开始组队发力了",
+      "s": "一批卡可以轮流服务多家公司，一次适配也能让更多团队受益。算力不必家家从头买，工程上的坑也不用家家重新踩。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/511426.html"
+    },
+    {
       "c": "FUNDING",
       "d": "2026-11-20T09:04",
       "t": "1.27 万亿美元，Anthropic 挂牌上市；吴泳铭：千问已在平头哥芯片训练下一代模型；苹果被曝自研 AI 智能体｜极客早知道",
@@ -119,30 +140,13 @@
       "t": "OpenAI印证了梁文锋的“预言”",
       "s": "OpenAI裁撤机器人团队，通用模型“杀死”垂直模型？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8211368.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-20T08:00",
-      "t": "商务部：1-10 月重点平台智能眼镜销售额增长 1 倍，具身智能机器人销售额增长 25.2%",
-      "s": "11 月 19 日，商务部消费促进司负责人谈 2026 年 1-10 月我国消费市场情况。今年以来，我国消费市场规模稳步…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/762.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-20T07:21",
-      "t": "IT早报 1120：Anthropic 完成 813 亿美元史上最大规模 IPO；苹果 App Store 惊现安卓虚拟机应用；比亚迪发布方向盘可折叠的方程豹钛 9...",
-      "s": "“IT早报”时间，大家好，现在是 2026 年 11 月 20 日星期五，今天的重要科技资讯有：1. Anthropic…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/755.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-19T22:58",
-      "t": "刚刚，Anthropic 敲钟上市！史上最大IPO却让硅谷吵翻了",
-      "s": "例如，为什么就你 A 社封号这么严格#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1690375?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "11-20 10:03",
+      "育碧成立 Motherbrain 专注于游戏 AI，半年员工人数减少近 1100 人"
+    ],
     [
       "11-20 09:46",
       "AI办公的“入口之战”打完了吗？"
@@ -162,10 +166,6 @@
     [
       "11-20 09:20",
       "行业首次：小鹏 2026 科技日将首发「图灵 AI 共驾」，把智能辅助驾驶能力赋能人驾"
-    ],
-    [
-      "11-20 09:20",
-      "OpenAI 邀部分 Plus 用户体验 dots AI 智能体，移动版 ChatGPT 将为其设独立标签页"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328182,
+      "s": 328196,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322124,
+      "s": 322148,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307316,
+      "s": 307324,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234511,
+      "s": 234517,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197727,
+      "s": 197738,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156343,
+      "s": 156344,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150672,
+      "s": 150686,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145091,
+      "s": 145093,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121575,
+      "s": 121584,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119193,
+      "s": 119200,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
