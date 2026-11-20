@@ -459,11 +459,15 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-20T17:33', t:'Jync v2.4.3 AI 助手确认执行与启动诊断', s:'Jync v2.4.3 新增 AI 运维助手可以执行运行态操作，但每一次都由人确认：启动 / 停止同步任务、立即同步一次…（来源：OSCHINA）', u:'https://www.oschina.net/news/503710'},
     {c:'INDUSTRY', d:'2026-11-20T17:22', t:'Waymo被迫退出高速公路，无人驾驶的商业化开始碰到监管天花板', s:'自动驾驶行业一直在回答一个问题：机器能不能像人一样开车？但当Robotaxi真正走向商业化，问题开始变得复杂。（来源：钛媒体）', u:'https://www.tmtpost.com/8211917.html'},
     {c:'MODEL', d:'2026-11-20T17:22', t:'Anthropic正式登陆纳斯达克：敲钟那天，账已经在另一张纸上？', s:'这场上市真正的赢家不在敲钟的那几个人里，在那七家收着算力钱又拿着股票的公司身上，它们把未来十五年的订单提前折成了今天的股…（来源：钛媒体）', u:'https://www.tmtpost.com/8212716.html'},
     {c:'HOT', d:'2026-11-20T17:22', t:'AI这一年，倒下的APP们', s:'一年之内，上千个AI应用为何接连退场？（来源：钛媒体）', u:'https://www.tmtpost.com/8212771.html'},
     {c:'MODEL', d:'2026-11-20T17:22', t:'50天推出4款模型，谷歌想当“造物主”了？', s:'OpenAI却有点拉了。（来源：钛媒体）', u:'https://www.tmtpost.com/8212777.html'},
+    {c:'FUNDING', d:'2026-11-20T17:21', t:'华为余承东：享界 V8 硬件具备 L3 自动驾驶能力但功能没开放，开车不能睡觉', s:'华为常务董事、产品投资委员会主任、终端 BG 董事长 @余承东 刚刚在微博发文称：“今天发布会上，有几句话讲的不准确，要…（来源：IT之家）', u:'https://www.ithome.com/1/030/132.htm'},
     {c:'MODEL', d:'2026-11-20T17:17', t:'首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」', s:'在手机里打开了一个关于 AI 的「平行宇宙」#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第…（来源：爱范儿）', u:'https://www.ifanr.com/1690642?utm_source=rss&utm_medium=rss&utm_campaign='},
+    {c:'MEDPHARMA', d:'2026-11-20T17:13', t:'AMD XDNA2 NPU 率先获得 Unsloth Desktop 适配，支持超百款智能体', s:'AMD 当地时间 19 日宣布，其锐龙 AI 处理器上的 "XDNA 2" NPU 成为首款获得 Unsloth Des…（来源：IT之家）', u:'https://www.ithome.com/1/030/131.htm'},
+    {c:'FUNDING', d:'2026-11-20T17:06', t:'Anthropic 上市当天，离职研究员考克森在其总部外呼吁禁止 AI 递归自我改进', s:'据《商业内幕》报道，今年 9 月，Anthropic 前研究员雅各布 · 考克森因担忧 AI 发展而离职，并在美国引发了…（来源：IT之家）', u:'https://www.ithome.com/1/030/127.htm'},
     {c:'MODEL', d:'2026-11-20T17:03', t:'给 Gemini 道歉，请自觉排队', s:'Gemini 4 真的越来越好用了。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为…（来源：爱范儿）', u:'https://www.ifanr.com/1690572?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-20T17:02', t:'【AI 智能运维平台】本周更新：内置常用智能体模版，简单配置快速启用', s:'Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）', u:'https://www.oschina.net/news/503707'},
     {c:'MODEL', d:'2026-11-20T17:00', t:'哈佛大学研究人员：AI 编程目前的瓶颈是“Code Review”', s:'哈佛大学两位博士候选人做了一份工作论文，把 AI 编程 Agent 的真实效果算了一遍。样本是 718 家公司、7259…（来源：OSCHINA）', u:'https://www.oschina.net/news/503706/harvard-researchers-find-ai-coding-agents-shifted'},
@@ -475,30 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-20T16:43', t:'5499 元起，“首款为 AI 而生的鸿蒙手机”华为星芒 OSTA O1 Pro 阔直板正式发布', s:'11 月 20 日现场消息，在目前正在进行的华为鸿蒙智行享界 V8 及星芒品牌发布会中，华为星芒 OSTA O1 Pro…（来源：IT之家）', u:'https://www.ithome.com/1/030/120.htm'},
     {c:'HOT', d:'2026-11-20T16:38', t:'4999 元起 18:08 开抢：华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机首发加赠 1588 元无忧礼包', s:'华为 OSTA 星芒 O1 Pro 鸿蒙 AI 手机京东现已开启预约，今天 18:08 截止预约后立即开抢。支持 12 …（来源：IT之家）', u:'https://www.ithome.com/1/030/116.htm'},
     {c:'MODEL', d:'2026-11-20T16:34', t:'鸿蒙全新版本来袭！华为星芒 OSTA O1 Pro 官宣首搭 HarmonyOS 7 AI 先锋版系统', s:'11 月 20 日现场消息，在今天下午的鸿蒙智行享界 V8 及星芒品牌发布会上，华为官方宣布，星芒开山之作 —— OST…（来源：IT之家）', u:'https://www.ithome.com/1/030/101.htm'},
-    {c:'MEDDEVICE', d:'2026-11-20T16:34', t:'AI经络诊断仪属于中医智能诊断设备 应用场景持续扩大', s:'AI经络诊断仪属于中医智能诊断设备 应用场景持续扩大（来源：头条设备AI）', u:'https://www.toutiao.com/article/7709055673430049314/'},
-    {c:'MODEL', d:'2026-11-20T16:25', t:'微软公布 USB4 多 Win11 电脑协同 AI 方案，搭积木式叠加内存 / 显卡算力跑本地模型', s:'微软昨日（11 月 19 日）发布博文，宣布以开发者预览方式，推出基于 USB4 的远程直接内存访问（RDMA）体验，实…（来源：IT之家）', u:'https://www.ithome.com/1/030/081.htm'},
-    {c:'HOT', d:'2026-11-20T16:24', t:'估值 410 亿美元，贝佐斯打造「物理世界的 OpenAI」', s:'作者｜宇航猿 编辑｜靖宇 AI 吞掉了软件，现在，它要吞掉工业了。 卸任亚马逊 CEO 五年后，杰夫·贝佐斯没忍住，又给…（来源：极客公园）', u:'http://www.geekpark.net/news/374282'},
-    {c:'MODEL', d:'2026-11-20T16:22', t:'华为全新子品牌星芒 OSTA 正式登场，余承东称目标成为 AI 时代消费者喜爱的先锋科技品牌', s:'11 月 20 日现场消息，在今天下午的鸿蒙智行享界 V8 及星芒品牌发布会上，大家期待已久的华为全新子品牌星芒 OST…（来源：IT之家）', u:'https://www.ithome.com/1/030/068.htm'},
   ];
   const TIMELINE = [
+    ['11-20 17:33','Jync v2.4.3 AI 助手确认执行与启动诊断'],
     ['11-20 17:22','Waymo被迫退出高速公路，无人驾驶的商业化开始碰到监管天花板'],
     ['11-20 17:22','Anthropic正式登陆纳斯达克：敲钟那天，账已经在另一张纸上？'],
     ['11-20 17:22','AI这一年，倒下的APP们'],
     ['11-20 17:22','50天推出4款模型，谷歌想当“造物主”了？'],
-    ['11-20 17:17','首款鸿蒙 AI 手机发布：华为全新子品牌 OSTA 星芒有一个「增援未来计划」'],
-    ['11-20 17:03','给 Gemini 道歉，请自觉排队'],
+    ['11-20 17:21','华为余承东：享界 V8 硬件具备 L3 自动驾驶能力但功能没开放，开车不能睡觉'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328434, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322403, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307454, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234594, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197844, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156386, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150835, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145117, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121651, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119267, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328459, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322420, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307463, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234601, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:197858, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156390, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:150839, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145118, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121656, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119272, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
