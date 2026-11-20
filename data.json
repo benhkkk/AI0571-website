@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-20T12:52:48",
+  "updated": "2026-11-20T13:02:14",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-20T12:31",
+      "t": "吉利董事长李书福：一般性的传统大学已不适应 AI 时代人才培养需求，必将诞生一批新型大学",
+      "s": "据新浪财经睿见 Economy 报道，吉利控股集团董事长李书福今日在 2026 芯位教育论坛上表示，AI 时代的大学生活…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/029/864.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-20T11:57",
@@ -115,13 +122,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-20T09:20",
-      "t": "OpenAI 邀部分 Plus 用户体验 dots AI 智能体，移动版 ChatGPT 将为其设独立标签页",
-      "s": "OpenAI 核心产品负责人蒂博 · 索蒂奥（Thibault Sottiaux）今天（11 月 20 日）在 X 平台…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/029/784.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-20T09:17",
       "t": "AI Agent 元年，苹果是最后一个入局的巨头",
       "s": "苹果急了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-20 12:31",
+      "吉利董事长李书福：一般性的传统大学已不适应 AI 时代人才培养需求，必将诞生一批新型大学"
+    ],
+    [
       "11-20 11:57",
       "Google「AI Overviews」让网站的搜索流量下降四成"
     ],
@@ -162,10 +166,6 @@
     [
       "11-20 11:47",
       "腾讯 Hy4 正式开源，混元 LLM 系列实现全量开放"
-    ],
-    [
-      "11-20 11:40",
-      "阿里云加速增长，平头哥走向台前 | 看财报"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328267,
+      "s": 328273,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322220,
+      "s": 322225,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307369,
+      "s": 307370,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 197769,
+      "s": 197773,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 150725,
+      "s": 150727,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121608,
+      "s": 121610,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119219,
+      "s": 119220,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
