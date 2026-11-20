@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-21T07:02:07",
+  "updated": "2026-11-21T07:31:56",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-21T06:57",
+      "t": "OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑",
+      "s": "OpenAI 今日宣布向 ChatGPT Plus 订阅用户开放 Spaces 协作空间功能。该功能此前仅面向 Pro…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/288.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-21T06:53",
+      "t": "谷歌搜索首页新增 AI 侧边栏，让你“接着聊”此前提问话题",
+      "s": "谷歌搜索产品副总裁罗比 · 斯坦（Robby Stein）昨日（11 月 20 日）在 X 平台发布推文，宣布 Goog…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/287.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-21T03:20",
@@ -49,20 +63,6 @@
       "t": "全球制药巨头披露AI成果:早期药物研发周期最多缩短一半",
       "s": "全球制药巨头披露AI成果:早期药物研发周期最多缩短一半（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7710260399152628262/"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-20T22:09",
-      "t": "三星电子高管：Neocloud 风险有限，AI 投资基于实际需求",
-      "s": "据路透社当地时间 18 日报道，三星电子两位高管在本周举行的摩根士丹利会议上表示 Neocloud（新兴 AI 云服务企…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/247.htm"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-20T22:05",
-      "t": "Anthropic 上市次日股价下跌 9%，AI 板块雪上加霜",
-      "s": "据路透社报道，当地时间 20 日，Anthropic 上市次日股价下跌，令低迷的 AI 板块雪上加霜。这场备受期待的 I…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/246.htm"
     },
     {
       "c": "INDUSTRY",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-21 06:57",
+      "OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑"
+    ],
+    [
+      "11-21 06:53",
+      "谷歌搜索首页新增 AI 侧边栏，让你“接着聊”此前提问话题"
+    ],
+    [
       "11-21 03:20",
       "独占特性确认：华为 Mate 系列旗舰机“无缘”OSTA 小星芒、AI 屏等功能"
     ],
@@ -158,14 +166,6 @@
     [
       "11-20 23:37",
       "明基 AK900ST AI 高尔夫投影机发售：6000lm 亮度、短焦镜头设计，52999 元"
-    ],
-    [
-      "11-20 22:46",
-      "内存成本涨幅前所未有，Valve 坦承 Steam Machine 未来售价“无法得知”"
-    ],
-    [
-      "11-20 22:30",
-      "德国首家，奔驰获批在“老家”开展点到点辅助驾驶"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328899,
+      "s": 328916,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322807,
+      "s": 322812,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307821,
+      "s": 307834,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234747,
+      "s": 234750,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198051,
+      "s": 198058,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156459,
+      "s": 156460,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151153,
+      "s": 151160,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121783,
+      "s": 121785,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119387,
+      "s": 119391,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }
