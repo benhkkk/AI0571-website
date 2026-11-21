@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-22T07:02:38",
+  "updated": "2026-11-22T07:31:47",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T07:28",
+      "t": "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息",
+      "s": "开源端到端加密聊天应用 Signal 近日推出 iOS / Android 版更新，默认关闭应用程序内截图功能，以阻止 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/517.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-21T22:26",
@@ -63,13 +70,6 @@
       "t": "代码显示三星正为 One UI 9.5 开发 AI 智能天气提醒功能：可根据用户作息与通勤时间推送通知",
       "s": "外媒 SammyGuru 在拆解三星最新 One UI 9.5 测试版时，发现三星正在为天气应用测试多项 AI 智能提醒…（来源：IT之家）",
       "u": "https://www.ithome.com/1/030/419.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-21T16:10",
-      "t": "韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生",
-      "s": "据《韩国先驱报》报道，韩国教育部在 2027 学年度大学修学能力考试（韩国高考）中，首次利用紧急灾难通知“0 级短信”协…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/387.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-22 07:28",
+      "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息"
+    ],
+    [
       "11-21 22:26",
       "韩国总统李在明：速度在 AI 竞赛中至关重要"
     ],
@@ -162,10 +166,6 @@
     [
       "11-21 19:19",
       "【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落…"
-    ],
-    [
-      "11-21 19:10",
-      "前英伟达 AI 应用软件产品管理总监回忆黄仁勋：作风强硬，骨子里却很温暖"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 329738,
+      "s": 329747,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323687,
+      "s": 323702,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308349,
+      "s": 308358,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234915,
+      "s": 234916,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198456,
+      "s": 198467,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156568,
+      "s": 156573,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151600,
+      "s": 151606,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121972,
+      "s": 121975,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119728,
+      "s": 119733,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
