@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-21T15:01:51",
+  "updated": "2026-11-21T15:31:37",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-21T15:03",
+      "t": "具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办",
+      "s": "为贯彻落实国务院关于推动人形机器人产业发展的决策部署，汇聚全球开发者协同创新，由北京经济技术开发区管理委员会指导的202…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503716"
+    },
     {
       "c": "INDUSTRY",
       "d": "2026-11-21T14:39",
@@ -133,16 +140,13 @@
       "t": "全球制药巨头披露AI成果:早期药物研发周期最多缩短一半",
       "s": "全球制药巨头披露AI成果:早期药物研发周期最多缩短一半（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7710260399152628262/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-20T18:27",
-      "t": "灵掌机器人太空灵巧手亮相世界智能制造博览会",
-      "s": "11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html"
     }
   ],
   "timeline": [
+    [
+      "11-21 15:03",
+      "具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办"
+    ],
     [
       "11-21 14:39",
       "手机测试产线部署智元精灵 G2 机器人，智元与蓝思科技达成战略合作"
@@ -162,10 +166,6 @@
     [
       "11-21 13:05",
       "东南亚AI中间商之死"
-    ],
-    [
-      "11-21 13:00",
-      "12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 329160,
+      "s": 329177,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322993,
+      "s": 323004,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307973,
+      "s": 307985,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234798,
+      "s": 234800,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198162,
+      "s": 198173,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156494,
+      "s": 156496,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151294,
+      "s": 151307,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145241,
+      "s": 145242,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121828,
+      "s": 121833,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119438,
+      "s": 119442,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
