@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-21T16:10', t:'韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生', s:'据《韩国先驱报》报道，韩国教育部在 2027 学年度大学修学能力考试（韩国高考）中，首次利用紧急灾难通知“0 级短信”协…（来源：IT之家）', u:'https://www.ithome.com/1/030/387.htm'},
+    {c:'HOT', d:'2026-11-21T15:55', t:'马化腾第四次改腾讯AI航道', s:'老板得付第一责任（来源：钛媒体）', u:'https://www.tmtpost.com/8213477.html'},
+    {c:'MODEL', d:'2026-11-21T15:54', t:'微软回应 To Do 待办应用明年停服，承诺帮用户“平稳过渡”', s:'科技媒体 NeoWin 今天（11 月 21 日）刊发来自微软 AI 和智能体产品总监霍华德 · 克劳（Howard C…（来源：IT之家）', u:'https://www.ithome.com/1/030/385.htm'},
     {c:'MODEL', d:'2026-11-21T15:41', t:'谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动', s:'谷歌宣布为 Gemini 上线 GIF 生成功能，相应功能由视频模型 Gemini Omni 1.2 Flash 驱动…（来源：IT之家）', u:'https://www.ithome.com/1/030/381.htm'},
     {c:'MODEL', d:'2026-11-21T15:28', t:'Nothing 首款 AI 原生硬件设备定档 12 月 8 日亮相：无屏幕设计、预计主打会议记录用途', s:'Nothing 发文，预热旗下首款 AI 原生硬件设备将于 12 月 8 日正式亮相。这款产品将采用无屏幕设计，定位为面…（来源：IT之家）', u:'https://www.ithome.com/1/030/379.htm'},
     {c:'HOT', d:'2026-11-21T15:28', t:'“大空头”迈克尔 · 伯里谈 AI 股暴跌：我早就提醒过你们了', s:'“大空头”迈克尔 · 伯里在 X 平台发文称：“CoreWeave、Nebius、英伟达，还有半导体股，我都试着提醒过大…（来源：IT之家）', u:'https://www.ithome.com/1/030/378.htm'},
@@ -468,37 +471,34 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-21T13:14', t:'黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制', s:'科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司 Anthropic 在上市后通过…（来源：IT之家）', u:'https://www.ithome.com/1/030/348.htm'},
     {c:'INDUSTRY', d:'2026-11-21T13:05', t:'锡价一周跌超10%，全球突然不缺锡了？', s:'印尼矿业政策再添变数，产能恢复与AI需求预期分歧扰动锡价。（来源：钛媒体）', u:'https://www.tmtpost.com/8213240.html'},
     {c:'HOT', d:'2026-11-21T13:05', t:'东南亚AI中间商之死', s:'算力中间商的淘金时代，结束了。（来源：钛媒体）', u:'https://www.tmtpost.com/8213274.html'},
-    {c:'MODEL', d:'2026-11-21T13:00', t:'12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元', s:'律师 u/TumbleweedNew6515 昨日（11 月 20 日）在 Reddit 社区发帖，斥资 9,450 美…（来源：IT之家）', u:'https://www.ithome.com/1/030/346.htm'},
     {c:'HOT', d:'2026-11-21T12:44', t:'阿里云，开始赚AI的钱了', s:'阿里云，开始赚AI的钱了（来源：钛媒体）', u:'https://www.tmtpost.com/8213152.html'},
     {c:'MODEL', d:'2026-11-21T12:44', t:'从《权游》到《三体》，从实体模型到AI，这位参与20000个视效镜头的大师，道出特效的终极秘密', s:'他的职业生涯，就是现代视觉特效史的缩影（来源：钛媒体）', u:'https://www.tmtpost.com/8213050.html'},
     {c:'MODEL', d:'2026-11-21T12:44', t:'清析智研王欢：大模型学完了人类知识，下一步去哪儿？', s:'AI能不能不只“掌握已有知识”，而是进入真实世界，创造新知识？（来源：钛媒体）', u:'https://www.tmtpost.com/8213250.html'},
     {c:'HOT', d:'2026-11-21T12:14', t:'AI硬件离开手机以后，先遇到了人的限制', s:'能力边界的变化，让硬件公司开始重新估算人的时间价值。过去产品争夺用户停留，新的设备反而需要证明自己在减少停留。（来源：钛媒体）', u:'https://www.tmtpost.com/8213070.html'},
     {c:'INDUSTRY', d:'2026-11-21T11:43', t:'从“刷分”打到“补缝”，机器人新竞赛升温', s:'技术有突破，落地缺接口（来源：钛媒体）', u:'https://www.tmtpost.com/8213064.html'},
-    {c:'HOT', d:'2026-11-21T11:43', t:'跑不通“快餐模式”，陪伴机器人得熬出“人情味”', s:'陪伴机器人得靠记忆与服务养出来。（来源：钛媒体）', u:'https://www.tmtpost.com/8212950.html'},
-    {c:'MODEL', d:'2026-11-21T11:24', t:'腾讯混元姚顺雨团队：Hy4 仍有很大改进空间，计划训练更大规模模型', s:'11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和团队成员，在 Reddit 进行了一场持续 12…（来源：IT之家）', u:'https://www.ithome.com/1/030/338.htm'},
     {c:'MODEL', d:'2026-11-21T10:59', t:'当 Kling Image 4.0 自己出设计方案，生图的门槛又变了！', s:'过去几年，AI 生图模型在真实感、分辨率和光影表现上不断刷新人们的认知。但当这些图片真正被用于海报、广告这些商业场景时仍…（来源：雷锋网）', u:'https://www.leiphone.com/category/yanxishe/zjw3hyGGqzhBaPj7.html'},
     {c:'MODEL', d:'2026-11-21T08:25', t:'早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验', s:'· 三星任命手机和存储业务新负责人 · 5499 元起，华为星芒发布首款阔直板手机 OSTA O1 Pro · Colo…（来源：爱范儿）', u:'https://www.ifanr.com/1690759?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MEDPHARMA', d:'2026-11-20T22:28', t:'全球制药巨头披露AI成果:早期药物研发周期最多缩短一半', s:'全球制药巨头披露AI成果:早期药物研发周期最多缩短一半（来源：头条医药AI）', u:'https://www.toutiao.com/article/7710260399152628262/'},
+    {c:'FUNDING', d:'2026-11-21T08:17', t:'林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机', s:'传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用…（来源：极客公园）', u:'http://www.geekpark.net/news/374299'},
   ];
   const TIMELINE = [
+    ['11-21 16:10','韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生'],
+    ['11-21 15:55','马化腾第四次改腾讯AI航道'],
+    ['11-21 15:54','微软回应 To Do 待办应用明年停服，承诺帮用户“平稳过渡”'],
     ['11-21 15:41','谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动'],
     ['11-21 15:28','Nothing 首款 AI 原生硬件设备定档 12 月 8 日亮相：无屏幕设计、预计主打会议记录用途'],
     ['11-21 15:28','“大空头”迈克尔 · 伯里谈 AI 股暴跌：我早就提醒过你们了'],
-    ['11-21 15:03','具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办'],
-    ['11-21 14:39','手机测试产线部署智元精灵 G2 机器人，智元与蓝思科技达成战略合作'],
-    ['11-21 13:33','达里奥 2010 年曾拒绝马斯克招揽，2016 年加入 OpenAI 后又出走创立 Anthropic'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329193, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:323030, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307996, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234803, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198179, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329208, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:323043, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:308001, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234805, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198192, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156499, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151319, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145245, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121838, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119455, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151334, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145246, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121842, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119474, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
