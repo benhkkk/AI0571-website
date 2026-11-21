@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-21T08:32:05",
+  "updated": "2026-11-21T09:01:40",
   "news": [
     {
       "c": "MODEL",
@@ -7,13 +7,6 @@
       "t": "早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验",
       "s": "· 三星任命手机和存储业务新负责人 · 5499 元起，华为星芒发布首款阔直板手机 OSTA O1 Pro · Colo…（来源：爱范儿）",
       "u": "https://www.ifanr.com/1690759?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-21T08:17",
-      "t": "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机",
-      "s": "传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374299"
     },
     {
       "c": "MEDPHARMA",
@@ -140,16 +133,19 @@
       "t": "Falling Prices Push AI Video Toward Platform Economics",
       "s": "Falling Prices Push AI Video Toward Platform Econo…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8212911.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-20T17:33",
+      "t": "Jync v2.4.3 AI 助手确认执行与启动诊断",
+      "s": "Jync v2.4.3 新增 AI 运维助手可以执行运行态操作，但每一次都由人确认：启动 / 停止同步任务、立即同步一次…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503710"
     }
   ],
   "timeline": [
     [
       "11-21 08:25",
       "早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验"
-    ],
-    [
-      "11-21 08:17",
-      "林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机"
     ],
     [
       "11-21 08:06",
@@ -166,6 +162,10 @@
     [
       "11-21 07:17",
       "匿名 AI 模型 Gestalt 登顶 Contra 前沿设计榜单：性能远超 Claude Fable 5.2、GPT-6.1 Sol，Elo 评分超越人类参考…"
+    ],
+    [
+      "11-21 06:57",
+      "OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 328938,
+      "s": 328951,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 322836,
+      "s": 322843,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 307855,
+      "s": 307860,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198065,
+      "s": 198071,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156467,
+      "s": 156468,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151181,
+      "s": 151187,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121789,
+      "s": 121790,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "addyosmani/agent-skills",
       "d": "Production-grade engineering skills for AI coding agents.",
-      "s": 119399,
+      "s": 119403,
       "u": "https://github.com/addyosmani/agent-skills",
       "new": false
     }

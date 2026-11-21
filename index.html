@@ -460,7 +460,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'MODEL', d:'2026-11-21T08:25', t:'早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验', s:'· 三星任命手机和存储业务新负责人 · 5499 元起，华为星芒发布首款阔直板手机 OSTA O1 Pro · Colo…（来源：爱范儿）', u:'https://www.ifanr.com/1690759?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'FUNDING', d:'2026-11-21T08:17', t:'林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机', s:'传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用…（来源：极客公园）', u:'http://www.geekpark.net/news/374299'},
     {c:'MEDPHARMA', d:'2026-11-21T08:06', t:'OpenAI 推出 MedChemBench 基准，评估 AI 辅助药物研发能力', s:'当地时间 11 月 20 日，OpenAI 发布 MedChemBench 基准，用于评估 AI 模型在药物化学研究中的…（来源：IT之家）', u:'https://www.ithome.com/1/030/301.htm'},
     {c:'MODEL', d:'2026-11-21T07:40', t:'黎曼猜想真被 Claude 证明了？Anthropic 数学家仅发布 Lean 代码，陶哲轩称验证仍需时间', s:'当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Levent Alpöge）宣称他与 Cl…（来源：IT之家）', u:'https://www.ithome.com/1/030/297.htm'},
     {c:'FUNDING', d:'2026-11-21T07:34', t:'440 亿美元！阿波罗与高盛完成迄今规模最大 GPU 融资定价，SpaceX 要买英伟达芯片', s:'当地时间 11 月 20 日，阿波罗全球管理公司与高盛宣布，已完成约 440 亿美元（IT之家注：现汇率约合 2,944…（来源：IT之家）', u:'https://www.ithome.com/1/030/296.htm'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDPHARMA', d:'2026-11-20T18:10', t:'谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛', s:'谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛（来源：头条医药AI）', u:'https://www.toutiao.com/article/7710194012933702180/'},
     {c:'MODEL', d:'2026-11-20T18:09', t:'解读丨智能戒指红海之外，Elah Ring 正在深入美国腹地', s:'斯坦福毕业生做的 Elah Ring，要当美国百姓的“Personal Faith Agent”。作者丨陈玘凡编辑丨吴优…（来源：雷锋网）', u:'https://www.leiphone.com/category/weiwu/ptAnAiMGqEOX65EI.html'},
     {c:'HOT', d:'2026-11-20T17:54', t:'Falling Prices Push AI Video Toward Platform Economics', s:'Falling Prices Push AI Video Toward Platform Econo…（来源：钛媒体）', u:'https://www.tmtpost.com/8212911.html'},
+    {c:'HOT', d:'2026-11-20T17:33', t:'Jync v2.4.3 AI 助手确认执行与启动诊断', s:'Jync v2.4.3 新增 AI 运维助手可以执行运行态操作，但每一次都由人确认：启动 / 停止同步任务、立即同步一次…（来源：OSCHINA）', u:'https://www.oschina.net/news/503710'},
   ];
   const TIMELINE = [
     ['11-21 08:25','早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验'],
-    ['11-21 08:17','林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机'],
     ['11-21 08:06','OpenAI 推出 MedChemBench 基准，评估 AI 辅助药物研发能力'],
     ['11-21 07:40','黎曼猜想真被 Claude 证明了？Anthropic 数学家仅发布 Lean 代码，陶哲轩称验证仍需时间'],
     ['11-21 07:34','440 亿美元！阿波罗与高盛完成迄今规模最大 GPU 融资定价，SpaceX 要买英伟达芯片'],
     ['11-21 07:17','匿名 AI 模型 Gestalt 登顶 Contra 前沿设计榜单：性能远超 Claude Fable 5.2、GPT-6.1 Sol，Elo 评分超越人类参考…'],
+    ['11-21 06:57','OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328938, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322836, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307855, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:328951, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322843, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307860, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234755, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198065, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156467, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151181, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198071, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156468, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151187, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145217, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121789, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119399, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121790, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119403, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
