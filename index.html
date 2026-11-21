@@ -459,6 +459,9 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-21T11:01', t:'外卖翻篇，阿里把钱砸向AI', s:'电商利润修复，AI投入加速。（来源：钛媒体）', u:'https://www.tmtpost.com/8213142.html'},
+    {c:'HOT', d:'2026-11-21T11:01', t:'Muse负责人首次公开对谈：七个月，从玩具到1000万下载', s:'超级AI应用概念背后的产品思考。（来源：钛媒体）', u:'https://www.tmtpost.com/8213062.html'},
+    {c:'MODEL', d:'2026-11-21T10:59', t:'拯救爆满的“下载”文件夹：微软 Win11 将推 AI 整理神器，授权后可查找 / 分类 / 移动 / 重命名文件', s:'科技媒体 Windows Latest 昨日（11 月 20 日）发布博文，报道称在 Ignite 2026 活动中，微…（来源：IT之家）', u:'https://www.ithome.com/1/030/333.htm'},
     {c:'INDUSTRY', d:'2026-11-21T10:27', t:'AI交易雪崩：纳指单日狂泻1261点，这次市场不再相信“故事”', s:'“黑色星期五”。（来源：钛媒体）', u:'https://www.tmtpost.com/8213381.html'},
     {c:'MODEL', d:'2026-11-21T10:03', t:'近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密', s:'科技媒体 Ars Technica 今天（11 月 21 日）发布博文，报道称安全公司 Dragos 首席研究官 HD …（来源：IT之家）', u:'https://www.ithome.com/1/030/322.htm'},
     {c:'MODEL', d:'2026-11-21T09:45', t:'OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%', s:'当地时间 11 月 20 日，OpenAI 发布公告介绍了针对「对抗性蒸馏」（Adversarial Distillat…（来源：IT之家）', u:'https://www.ithome.com/1/030/319.htm'},
@@ -470,35 +473,32 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-21T07:40', t:'黎曼猜想真被 Claude 证明了？Anthropic 数学家仅发布 Lean 代码，陶哲轩称验证仍需时间', s:'当地时间 11 月 20 日，Anthropic 数学家莱文特 · 阿尔珀格（Levent Alpöge）宣称他与 Cl…（来源：IT之家）', u:'https://www.ithome.com/1/030/297.htm'},
     {c:'FUNDING', d:'2026-11-21T07:34', t:'440 亿美元！阿波罗与高盛完成迄今规模最大 GPU 融资定价，SpaceX 要买英伟达芯片', s:'当地时间 11 月 20 日，阿波罗全球管理公司与高盛宣布，已完成约 440 亿美元（IT之家注：现汇率约合 2,944…（来源：IT之家）', u:'https://www.ithome.com/1/030/296.htm'},
     {c:'MODEL', d:'2026-11-21T07:17', t:'匿名 AI 模型 Gestalt 登顶 Contra 前沿设计榜单：性能远超 Claude Fable 5.2、GPT-6.1 Sol，Elo 评分超越人类参考作品', s:'Contra Labs 于当地时间 11 月 18 日发布 AI 设计能力评测榜单 Frontier Design Be…（来源：IT之家）', u:'https://www.ithome.com/1/030/291.htm'},
-    {c:'MODEL', d:'2026-11-21T06:57', t:'OpenAI 宣布向 ChatGPT Plus 用户开放 Spaces 协作空间，支持多人共同编辑', s:'OpenAI 今日宣布向 ChatGPT Plus 订阅用户开放 Spaces 协作空间功能。该功能此前仅面向 Pro…（来源：IT之家）', u:'https://www.ithome.com/1/030/288.htm'},
     {c:'MEDPHARMA', d:'2026-11-20T22:28', t:'全球制药巨头披露AI成果:早期药物研发周期最多缩短一半', s:'全球制药巨头披露AI成果:早期药物研发周期最多缩短一半（来源：头条医药AI）', u:'https://www.toutiao.com/article/7710260399152628262/'},
     {c:'INDUSTRY', d:'2026-11-20T18:58', t:'小鹏预计全年海外销量破10万辆；涂鸦智能AI Energy方案在欧洲多国部署；美团索降无人机迪拜首秀｜一周大公司出海动态', s:'一文看完本周大公司出海全全球化动态。（来源：钛媒体）', u:'https://www.tmtpost.com/8213045.html'},
     {c:'MODEL', d:'2026-11-20T18:31', t:'阿里发布2027年Q2财报：阿里云AI收入增长53%，即时零售减亏', s:'AI相关产品收入已经连续第十三个季度保持三位数同比增长，互联网、汽车、具身智能、金融、生物科技等行业客户持续扩容算力采购…（来源：钛媒体）', u:'https://www.tmtpost.com/8212798.html'},
     {c:'HOT', d:'2026-11-20T18:31', t:'托举WorkBuddy登顶，腾讯AI高光藏软肋', s:'WorkBuddy已登顶，腾讯AI待翻身。（来源：钛媒体）', u:'https://www.tmtpost.com/8212605.html'},
     {c:'HOT', d:'2026-11-20T18:27', t:'灵掌机器人太空灵巧手亮相世界智能制造博览会', s:'11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html'},
     {c:'HOT', d:'2026-11-20T18:23', t:'“物理AI第一股”冲刺A股：左手英伟达，右手摩尔线程', s:'五一视界启动A股IPO辅导。（来源：钛媒体）', u:'https://www.tmtpost.com/8212915.html'},
-    {c:'MODEL', d:'2026-11-20T18:23', t:'“DeepSeek们”都在退场：限额并非免费AI的终结？', s:'无限量免费AI撑不住了。（来源：钛媒体）', u:'https://www.tmtpost.com/8212818.html'},
-    {c:'MEDPHARMA', d:'2026-11-20T18:10', t:'谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛', s:'谷歌AI制药完成50亿美金融资:大厂AI制药军备竞赛（来源：头条医药AI）', u:'https://www.toutiao.com/article/7710194012933702180/'},
   ];
   const TIMELINE = [
+    ['11-21 11:01','外卖翻篇，阿里把钱砸向AI'],
+    ['11-21 11:01','Muse负责人首次公开对谈：七个月，从玩具到1000万下载'],
+    ['11-21 10:59','拯救爆满的“下载”文件夹：微软 Win11 将推 AI 整理神器，授权后可查找 / 分类 / 移动 / 重命名文件'],
     ['11-21 10:27','AI交易雪崩：纳指单日狂泻1261点，这次市场不再相信“故事”'],
     ['11-21 10:03','近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密'],
     ['11-21 09:45','OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%'],
-    ['11-21 09:19','Edge AI Daily 早报（11月21日）'],
-    ['11-21 08:53','“几乎所有人将永久失业”：Anthropic 研究员预测 2027 年底 AI 在几乎所有领域超越顶尖专家'],
-    ['11-21 08:25','早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329026, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322897, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307897, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234772, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198097, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156478, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151209, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145224, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121803, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119412, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329043, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322912, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307901, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234774, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198103, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156479, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151220, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145225, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121807, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119415, u:'https://github.com/addyosmani/agent-skills', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
