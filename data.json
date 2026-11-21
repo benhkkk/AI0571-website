@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-21T18:01:37",
+  "updated": "2026-11-21T18:27:34",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-21T17:57",
+      "t": "华中科技大学与阿里巴巴联合成立 AI 前沿安全研究中心，课题覆盖大模型安全攻防等",
+      "s": "华中科技大学与阿里巴巴集团于 11 月 18 日签署合作协议，聚焦 AI 安全共建“智能攻防与前沿安全联合研究中心”，首…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/423.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-21T17:22",
@@ -63,13 +70,6 @@
       "t": "具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办",
       "s": "为贯彻落实国务院关于推动人形机器人产业发展的决策部署，汇聚全球开发者协同创新，由北京经济技术开发区管理委员会指导的202…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503716"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-21T14:39",
-      "t": "手机测试产线部署智元精灵 G2 机器人，智元与蓝思科技达成战略合作",
-      "s": "智元创新（AGIBOT）与蓝思科技达成战略合作，于手机测试产线部署智元精灵 G2 机器人，数十台机器人同时进行测试工位自…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/364.htm"
     },
     {
       "c": "MODEL",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-21 17:57",
+      "华中科技大学与阿里巴巴联合成立 AI 前沿安全研究中心，课题覆盖大模型安全攻防等"
+    ],
+    [
       "11-21 17:22",
       "美参议员痛批苹果、谷歌：放任 AI 脱衣应用“野蛮生长”"
     ],
@@ -162,10 +166,6 @@
     [
       "11-21 15:54",
       "微软回应 To Do 待办应用明年停服，承诺帮用户“平稳过渡”"
-    ],
-    [
-      "11-21 15:41",
-      "谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 329262,
+      "s": 329280,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323253,
+      "s": 323256,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308031,
+      "s": 308039,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234816,
+      "s": 234817,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198222,
+      "s": 198226,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156506,
+      "s": 156509,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151367,
+      "s": 151374,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145256,
+      "s": 145257,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121858,
+      "s": 121863,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119504,
+      "s": 119511,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
