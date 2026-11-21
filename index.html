@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-21T14:39', t:'手机测试产线部署智元精灵 G2 机器人，智元与蓝思科技达成战略合作', s:'智元创新（AGIBOT）与蓝思科技达成战略合作，于手机测试产线部署智元精灵 G2 机器人，数十台机器人同时进行测试工位自…（来源：IT之家）', u:'https://www.ithome.com/1/030/364.htm'},
     {c:'HOT', d:'2026-11-21T13:33', t:'达里奥 2010 年曾拒绝马斯克招揽，2016 年加入 OpenAI 后又出走创立 Anthropic', s:'据《华尔街日报》今日报道，Anthropic CEO 达里奥 · 阿莫代伊（Dario Amodei）早在 2010 年…（来源：IT之家）', u:'https://www.ithome.com/1/030/350.htm'},
     {c:'HOT', d:'2026-11-21T13:14', t:'黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制', s:'科技媒体 Business Insider 昨日（11 月 20 日）报道，AI 公司 Anthropic 在上市后通过…（来源：IT之家）', u:'https://www.ithome.com/1/030/348.htm'},
     {c:'INDUSTRY', d:'2026-11-21T13:05', t:'锡价一周跌超10%，全球突然不缺锡了？', s:'印尼矿业政策再添变数，产能恢复与AI需求预期分歧扰动锡价。（来源：钛媒体）', u:'https://www.tmtpost.com/8213240.html'},
@@ -475,30 +476,29 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-21T10:59', t:'拯救爆满的“下载”文件夹：微软 Win11 将推 AI 整理神器，授权后可查找 / 分类 / 移动 / 重命名文件', s:'科技媒体 Windows Latest 昨日（11 月 20 日）发布博文，报道称在 Ignite 2026 活动中，微…（来源：IT之家）', u:'https://www.ithome.com/1/030/333.htm'},
     {c:'MODEL', d:'2026-11-21T10:03', t:'近 200 万条请求揭开 AI 隐私漏洞：“零数据保留”也会泄密', s:'科技媒体 Ars Technica 今天（11 月 21 日）发布博文，报道称安全公司 Dragos 首席研究官 HD …（来源：IT之家）', u:'https://www.ithome.com/1/030/322.htm'},
     {c:'MODEL', d:'2026-11-21T09:45', t:'OpenAI 公布反蒸馏防护进展：GPT-6.2 Astra 思考链提取成功率从 54% 降至 0.2%', s:'当地时间 11 月 20 日，OpenAI 发布公告介绍了针对「对抗性蒸馏」（Adversarial Distillat…（来源：IT之家）', u:'https://www.ithome.com/1/030/319.htm'},
-    {c:'INDUSTRY', d:'2026-11-21T08:53', t:'“几乎所有人将永久失业”：Anthropic 研究员预测 2027 年底 AI 在几乎所有领域超越顶尖专家', s:'11 月 15 日在接受 Palisade Research 采访时，Anthropic 公司技术团队成员 Tao Li…（来源：IT之家）', u:'https://www.ithome.com/1/030/308.htm'},
     {c:'MODEL', d:'2026-11-21T08:25', t:'早报｜曝Claude证明黎曼猜想，陶哲轩回应/余承东更正发布会表述：开车不能睡觉/五月天公布Vision Pro演唱会，Apple Store可预约体验', s:'· 三星任命手机和存储业务新负责人 · 5499 元起，华为星芒发布首款阔直板手机 OSTA O1 Pro · Colo…（来源：爱范儿）', u:'https://www.ifanr.com/1690759?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'FUNDING', d:'2026-11-21T08:17', t:'林俊旸新公司估值升至 50 亿美元；丁磊：短剧爆发冲击游戏产业；华为新品牌星芒发布首款阔直板手机', s:'传林俊旸 AI 初创公司完成新融资，估值翻倍至 50 亿美元 据彭博社报道，阿里巴巴集团前 AI 负责人林俊旸创办的语用…（来源：极客公园）', u:'http://www.geekpark.net/news/374299'},
     {c:'MEDPHARMA', d:'2026-11-20T22:28', t:'全球制药巨头披露AI成果:早期药物研发周期最多缩短一半', s:'全球制药巨头披露AI成果:早期药物研发周期最多缩短一半（来源：头条医药AI）', u:'https://www.toutiao.com/article/7710260399152628262/'},
+    {c:'HOT', d:'2026-11-20T18:27', t:'灵掌机器人太空灵巧手亮相世界智能制造博览会', s:'11月19日至21日，第十一届世界智能制造博览会（以下简称“智博会”）在南京国际博览中心举办。无锡灵掌机器人科技有限公司…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/leaIWtsEkg58zaCy.html'},
   ];
   const TIMELINE = [
+    ['11-21 14:39','手机测试产线部署智元精灵 G2 机器人，智元与蓝思科技达成战略合作'],
     ['11-21 13:33','达里奥 2010 年曾拒绝马斯克招揽，2016 年加入 OpenAI 后又出走创立 Anthropic'],
     ['11-21 13:14','黄仁勋没有的“护身符”：Anthropic 创始人手握 50.1% 投票权建立“反夺权”机制'],
     ['11-21 13:05','锡价一周跌超10%，全球突然不缺锡了？'],
     ['11-21 13:05','东南亚AI中间商之死'],
     ['11-21 13:00','12 张二手英伟达 V100：律师自建 AI 集群跑 DeepSeek，最高每秒 184 个词元'],
-    ['11-21 12:44','阿里云，开始赚AI的钱了'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329136, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322984, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307965, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234795, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198150, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156492, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151280, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145237, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121825, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'addyosmani/agent-skills', d:'Production-grade engineering skills for AI coding agents.', s:119436, u:'https://github.com/addyosmani/agent-skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329160, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:322993, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:307973, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234798, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198162, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156494, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151294, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145241, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121828, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119438, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
