@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-21T20:36', t:'欧洲央行行长拉加德：欧盟应利用公共资金，率先承担大型芯片厂、数据中心等项目首轮损失', s:'据美国 CNBC 报道，当地时间 11 月 20 日，欧洲央行行长克里斯蒂娜 · 拉加德在法兰克福欧洲银行业大会发表卸任…（来源：IT之家）', u:'https://www.ithome.com/1/030/472.htm'},
     {c:'HOT', d:'2026-11-21T19:43', t:'前英特尔 CEO 基辛格：随着 AI 需要“一万倍的效率飞跃”，渐进式芯片性能提升无法满足', s:'据 Wccftech 报道，前英特尔首席执行官帕特 · 基辛格（Pat Gelsinger）表示，随着人工智能需要“10…（来源：IT之家）', u:'https://www.ithome.com/1/030/464.htm'},
     {c:'MODEL', d:'2026-11-21T19:21', t:'2026年了，AI能有什么用？', s:'AI能批量生成，不等于能出彩（来源：钛媒体）', u:'https://www.tmtpost.com/8213527.html'},
     {c:'FUNDING', d:'2026-11-21T19:19', t:'【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落地', s:'（11 月 16 日-21 日）英伟达史上首次单季营收突破1000亿美元，净利润同比翻倍；阿里巴巴：2027财年第二季度…（来源：钛媒体）', u:'https://www.tmtpost.com/8213535.html'},
@@ -469,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-21T16:10', t:'韩国首次利用紧急灾难通知“0 级短信”打击 AI 辅助作弊行为，成功在高考中抓获 54 名违规考生', s:'据《韩国先驱报》报道，韩国教育部在 2027 学年度大学修学能力考试（韩国高考）中，首次利用紧急灾难通知“0 级短信”协…（来源：IT之家）', u:'https://www.ithome.com/1/030/387.htm'},
     {c:'HOT', d:'2026-11-21T15:55', t:'马化腾第四次改腾讯AI航道', s:'老板得付第一责任（来源：钛媒体）', u:'https://www.tmtpost.com/8213477.html'},
     {c:'MODEL', d:'2026-11-21T15:54', t:'微软回应 To Do 待办应用明年停服，承诺帮用户“平稳过渡”', s:'科技媒体 NeoWin 今天（11 月 21 日）刊发来自微软 AI 和智能体产品总监霍华德 · 克劳（Howard C…（来源：IT之家）', u:'https://www.ithome.com/1/030/385.htm'},
-    {c:'MODEL', d:'2026-11-21T15:41', t:'谷歌为 Gemini 上线 GIF 动态图片生成功能，由 Omni 1.2 Flash 模型驱动', s:'谷歌宣布为 Gemini 上线 GIF 生成功能，相应功能由视频模型 Gemini Omni 1.2 Flash 驱动…（来源：IT之家）', u:'https://www.ithome.com/1/030/381.htm'},
     {c:'INDUSTRY', d:'2026-11-21T15:03', t:'具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办', s:'为贯彻落实国务院关于推动人形机器人产业发展的决策部署，汇聚全球开发者协同创新，由北京经济技术开发区管理委员会指导的202…（来源：OSCHINA）', u:'https://www.oschina.net/news/503716'},
     {c:'MODEL', d:'2026-11-21T14:35', t:'GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍', s:'还实现可变形物体操控全球首通（来源：量子位）', u:'https://www.qbitai.com/2026/11/511779.html'},
     {c:'MODEL', d:'2026-11-21T14:32', t:'刚刚，DeepSeek V1作者创业项目曝光：开源Agent', s:'专为本地部署而生（来源：量子位）', u:'https://www.qbitai.com/2026/11/511570.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-21T12:44', t:'清析智研王欢：大模型学完了人类知识，下一步去哪儿？', s:'AI能不能不只“掌握已有知识”，而是进入真实世界，创造新知识？（来源：钛媒体）', u:'https://www.tmtpost.com/8213250.html'},
   ];
   const TIMELINE = [
+    ['11-21 20:36','欧洲央行行长拉加德：欧盟应利用公共资金，率先承担大型芯片厂、数据中心等项目首轮损失'],
     ['11-21 19:43','前英特尔 CEO 基辛格：随着 AI 需要“一万倍的效率飞跃”，渐进式芯片性能提升无法满足'],
     ['11-21 19:21','2026年了，AI能有什么用？'],
     ['11-21 19:19','【数智周报】 Anthropic敲响纳斯达克开市钟，创史上最大规模IPO纪录；美国限制远程获取AI算力，海外数据中心出租算力须许可；DeepSeek第二轮融资落…'],
     ['11-21 19:10','前英伟达 AI 应用软件产品管理总监回忆黄仁勋：作风强硬，骨子里却很温暖'],
     ['11-21 17:57','华中科技大学与阿里巴巴联合成立 AI 前沿安全研究中心，课题覆盖大模型安全攻防等'],
-    ['11-21 17:22','美参议员痛批苹果、谷歌：放任 AI 脱衣应用“野蛮生长”'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329377, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:323323, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:308091, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234834, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198256, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156517, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151408, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145268, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121878, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119542, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329394, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:323345, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:308110, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234840, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198268, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156518, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151421, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145271, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:121882, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119552, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
