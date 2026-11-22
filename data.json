@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-22T15:02:21",
+  "updated": "2026-11-22T15:31:45",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T14:46",
+      "t": "TikTok 上线 AI 深度伪造检测工具，为创造者推出“肖像检测”功能",
+      "s": "当地时间 11 月 19 日，TikTok 宣布推出两项新工具，进一步推进人工智能透明度建设，让社区用户在 TikTok…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/581.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-22T14:32",
@@ -129,13 +136,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-22T07:35",
-      "t": "OSTA 新特性放开：华为鸿蒙 HarmonyOS 7 系统更多机型小艺助理上线“小艺星芒”音色",
-      "s": "首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/519.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-21T19:21",
       "t": "2026年了，AI能有什么用？",
       "s": "AI能批量生成，不等于能出彩（来源：钛媒体）",
@@ -143,6 +143,10 @@
     }
   ],
   "timeline": [
+    [
+      "11-22 14:46",
+      "TikTok 上线 AI 深度伪造检测工具，为创造者推出“肖像检测”功能"
+    ],
     [
       "11-22 14:32",
       "腾讯 Chatterfly 输入法安卓版开启内测，支持语音转写、自动翻译等 AI 功能"
@@ -162,10 +166,6 @@
     [
       "11-22 12:18",
       "无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力"
-    ],
-    [
-      "11-22 11:21",
-      "韩国高考 AI 作弊事件发酵，教育部长引咎辞职"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 329917,
+      "s": 329932,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323878,
+      "s": 323899,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308507,
+      "s": 308519,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234958,
+      "s": 234967,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198628,
+      "s": 198640,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156608,
+      "s": 156610,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151691,
+      "s": 151700,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145338,
+      "s": 145340,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122027,
+      "s": 122028,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119820,
+      "s": 119833,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }

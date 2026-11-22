@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-22T14:46', t:'TikTok 上线 AI 深度伪造检测工具，为创造者推出“肖像检测”功能', s:'当地时间 11 月 19 日，TikTok 宣布推出两项新工具，进一步推进人工智能透明度建设，让社区用户在 TikTok…（来源：IT之家）', u:'https://www.ithome.com/1/030/581.htm'},
     {c:'MODEL', d:'2026-11-22T14:32', t:'腾讯 Chatterfly 输入法安卓版开启内测，支持语音转写、自动翻译等 AI 功能', s:'腾讯 Chatterfly 输入法安卓版现已开启内测，iOS 版目前状态为“即将发布”。据介绍，Chatterfly 输…（来源：IT之家）', u:'https://www.ithome.com/1/030/576.htm'},
     {c:'FUNDING', d:'2026-11-22T14:16', t:'Anthropic万亿上市，搅动的却是半导体江湖', s:'大买主登陆公开市场，芯片、代工与存储环节都在随之调整。（来源：钛媒体）', u:'https://www.tmtpost.com/8213769.html'},
     {c:'MODEL', d:'2026-11-22T12:42', t:'跨境收款之后，中国公司盯上智能体支付的新生意', s:'中国公司正在通过智能体支付，从赚通道费走向把经营能力捆绑进企业的日常工作流。（来源：钛媒体）', u:'https://www.tmtpost.com/8213773.html'},
@@ -477,28 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-22T09:02', t:'全球Meta一家独大，中国AI眼镜为何还在混战？', s:'中国AI眼镜，胜负未分。（来源：钛媒体）', u:'https://www.tmtpost.com/8213674.html'},
     {c:'HOT', d:'2026-11-22T08:45', t:'特锐德、LG抢跑进场，AI抢电抢到气田门口，气电先端走69%份额，真正的账单还在后面', s:'数据中心抢购稳定电力，重画美国气电定价与电网调峰；国内东数西算调峰账本同步重算，订单兑现待观察。（来源：钛媒体）', u:'https://www.tmtpost.com/8213639.html'},
     {c:'MODEL', d:'2026-11-22T08:04', t:'群联展示内置 NPU 与 64GB 内存的智能固态硬盘，可直接运行 AI 模型', s:'据科技媒体 Tom\'s Hardware 昨天报道，群联在 SC26 大会中展示两款企业级固态硬盘，专为 AI 场景设计…（来源：IT之家）', u:'https://www.ithome.com/1/030/524.htm'},
-    {c:'MODEL', d:'2026-11-22T07:35', t:'OSTA 新特性放开：华为鸿蒙 HarmonyOS 7 系统更多机型小艺助理上线“小艺星芒”音色', s:'首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）', u:'https://www.ithome.com/1/030/519.htm'},
     {c:'MODEL', d:'2026-11-21T19:21', t:'2026年了，AI能有什么用？', s:'AI能批量生成，不等于能出彩（来源：钛媒体）', u:'https://www.tmtpost.com/8213527.html'},
   ];
   const TIMELINE = [
+    ['11-22 14:46','TikTok 上线 AI 深度伪造检测工具，为创造者推出“肖像检测”功能'],
     ['11-22 14:32','腾讯 Chatterfly 输入法安卓版开启内测，支持语音转写、自动翻译等 AI 功能'],
     ['11-22 14:16','Anthropic万亿上市，搅动的却是半导体江湖'],
     ['11-22 12:42','跨境收款之后，中国公司盯上智能体支付的新生意'],
     ['11-22 12:36','小鹏交出一份增长财报，盈利拐点为何还没来？'],
     ['11-22 12:18','无需游戏引擎！马斯克称特斯拉 FSD v15 实景视图仅动用 AI4 芯片一个 TRIP 加速器一半算力'],
-    ['11-22 11:21','韩国高考 AI 作弊事件发酵，教育部长引咎辞职'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329917, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:323878, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:308507, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234958, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198628, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156608, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151691, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145338, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122027, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119820, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:329932, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:323899, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:308519, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:234967, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:198640, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156610, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:151700, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145340, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122028, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:119833, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
