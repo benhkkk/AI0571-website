@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-23T07:02:34",
+  "updated": "2026-11-23T07:19:37",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-23T06:50",
+      "t": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限",
+      "s": "当地时间于 11 月 22 日，OpenAI 首席科学家雅库布 · 帕霍茨基（Jakub Pachocki）发文，提议 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/720.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-23T06:42",
@@ -72,13 +79,6 @@
       "u": "https://www.tmtpost.com/8212870.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-22T18:54",
-      "t": "闲鱼：2026 年第二季度日活增加 23%、订单增加 29%，AI 成核心增长动力",
-      "s": "闲鱼表示，2026 年第二季度平台延续强劲增长势头，日均活跃用户同比增长 23%，订单量同比增长 29%。平台在 AI …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/692.htm"
-    },
-    {
       "c": "FUNDING",
       "d": "2026-11-22T18:15",
       "t": "特朗普表态：英伟达Blackwell芯片可对华销售，但有个条件；OpenAI被曝入局智能手机赛道；DeepSeek第二轮千亿融资落地，31家出资方入局",
@@ -91,13 +91,6 @@
       "t": "跨境收款之后，中国公司盯上智能体支付的新生意",
       "s": "中国公司正在通过智能体支付，从赚通道费走向把经营能力捆绑进企业的日常工作流。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8213773.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-22T15:40",
-      "t": "2026医疗器械GMP数智化转型大会在北京举行",
-      "s": "2026医疗器械GMP数智化转型大会在北京举行（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7710895716108911140/"
     },
     {
       "c": "MEDDEVICE",
@@ -140,9 +133,20 @@
       "t": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
       "s": "头图来源：ChatGPT 生成 11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/374301"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T09:35",
+      "t": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+      "s": "AI 恐怖如斯#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "11-23 06:50",
+      "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限"
+    ],
     [
       "11-23 06:42",
       "古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo"
@@ -162,10 +166,6 @@
     [
       "11-22 22:09",
       "从黄仁勋看AI时代的领导力：为什么有些企业能够实现指数级增长？"
-    ],
-    [
-      "11-22 22:00",
-      "签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330452,
+      "s": 330456,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324127,
+      "s": 324133,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308993,
+      "s": 308997,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235090,
+      "s": 235092,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198978,
+      "s": 198981,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152028,
+      "s": 152036,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122167,
+      "s": 122168,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120091,
+      "s": 120099,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
