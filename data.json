@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-22T09:01:46",
+  "updated": "2026-11-22T09:31:56",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-22T09:06",
+      "t": "Edge AI Daily 早报（11月22日）",
+      "s": "英伟达同时面临治理追问、加州传票与SEC调查传闻，AI芯片估值经历重估；亚马逊拟以最高75亿美元收购Decart，AWS…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8213684.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T09:02",
+      "t": "可灵为何开始发力“图片”？",
+      "s": "两家头部AI公司几乎前后脚更新图像模型。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8212803.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-22T09:02",
+      "t": "全球Meta一家独大，中国AI眼镜为何还在混战？",
+      "s": "中国AI眼镜，胜负未分。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8213674.html"
+    },
     {
       "c": "HOT",
       "d": "2026-11-22T08:45",
@@ -119,30 +140,21 @@
       "t": "锡价一周跌超10%，全球突然不缺锡了？",
       "s": "印尼矿业政策再添变数，产能恢复与AI需求预期分歧扰动锡价。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8213240.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-21T13:05",
-      "t": "东南亚AI中间商之死",
-      "s": "算力中间商的淘金时代，结束了。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8213274.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-21T12:44",
-      "t": "阿里云，开始赚AI的钱了",
-      "s": "阿里云，开始赚AI的钱了（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8213152.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-21T12:17",
-      "t": "把AI制药做成Token生意，MIT初创融了1.1亿美元",
-      "s": "把AI制药做成Token生意，MIT初创融了1.1亿美元（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7710473681935401498/"
     }
   ],
   "timeline": [
+    [
+      "11-22 09:06",
+      "Edge AI Daily 早报（11月22日）"
+    ],
+    [
+      "11-22 09:02",
+      "可灵为何开始发力“图片”？"
+    ],
+    [
+      "11-22 09:02",
+      "全球Meta一家独大，中国AI眼镜为何还在混战？"
+    ],
     [
       "11-22 08:45",
       "特锐德、LG抢跑进场，AI抢电抢到气田门口，气电先端走69%份额，真正的账单还在后面"
@@ -154,18 +166,6 @@
     [
       "11-22 07:35",
       "OSTA 新特性放开：华为鸿蒙 HarmonyOS 7 系统更多机型小艺助理上线“小艺星芒”音色"
-    ],
-    [
-      "11-22 07:31",
-      "IT早报 1122：曝其他厂商也考虑推出阔直板形态手机；Anthropic 研究员预测 2027 年底 AI 比肩顶尖专家；华为星芒 O1 Pro 定价 549…"
-    ],
-    [
-      "11-22 07:28",
-      "加密聊天应用 Signal 默认屏蔽截图，防止 AI 智能体读取用户消息"
-    ],
-    [
-      "11-21 22:26",
-      "韩国总统李在明：速度在 AI 竞赛中至关重要"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 329784,
+      "s": 329796,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323731,
+      "s": 323743,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308380,
+      "s": 308391,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234918,
+      "s": 234921,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198490,
+      "s": 198499,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156579,
+      "s": 156581,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151622,
+      "s": 151632,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145311,
+      "s": 145312,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121980,
+      "s": 121983,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119751,
+      "s": 119754,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
