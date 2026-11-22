@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-22T11:02:24",
+  "updated": "2026-11-22T11:31:42",
   "news": [
     {
       "c": "MODEL",
@@ -14,6 +14,27 @@
       "t": "Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确",
       "s": "11 月 21 日，Lean 与 Mathlib 社区发布联合声明，称莱文特・阿尔波格（Levent Alpöge）以 …（来源：IT之家）",
       "u": "https://www.ithome.com/1/030/547.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T10:03",
+      "t": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
+      "s": "头图来源：极客公园 今年以来，视频生成模型的进步肉眼可见，AI 短剧、换脸、场景合成在各个平台越来越多，但一个现实问题始…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374303"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T09:58",
+      "t": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
+      "s": "头图来源：腾讯 腾讯的 AI 故事，正在进入一个有些沉重的阶段。 11 月 18 日，腾讯发布 2026 年第三季度财报…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374302"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T09:56",
+      "t": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
+      "s": "头图来源：ChatGPT 生成 11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374301"
     },
     {
       "c": "MEDPHARMA",
@@ -119,27 +140,6 @@
       "t": "具身智创·生态共融，2026人形机器人开发者大会将于11月25日举办",
       "s": "为贯彻落实国务院关于推动人形机器人产业发展的决策部署，汇聚全球开发者协同创新，由北京经济技术开发区管理委员会指导的202…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503716"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-21T14:35",
-      "t": "GPT-6.2 Astra再次暴击具身模型：16项任务成功率较GPT-6 Astra翻倍",
-      "s": "还实现可变形物体操控全球首通（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/511779.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-21T14:32",
-      "t": "刚刚，DeepSeek V1作者创业项目曝光：开源Agent",
-      "s": "专为本地部署而生（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/511570.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-21T14:30",
-      "t": "姚顺雨和混元团队上Reddit答网友，Hy小模型已进路线图",
-      "s": "还透露了不少训练背后的秘诀（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/511757.html"
     }
   ],
   "timeline": [
@@ -152,20 +152,20 @@
       "Anthropic 数学家 AI 攻克黎曼猜想？Lean 社区通过核验，数十人报告代码库编译正确"
     ],
     [
+      "11-22 10:03",
+      "重控制、轻渲染，达瓦科技的 AI 视频工业路线"
+    ],
+    [
+      "11-22 09:58",
+      "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段"
+    ],
+    [
+      "11-22 09:56",
+      "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切"
+    ],
+    [
       "11-22 09:42",
       "试题经过大模型测试？国家中医药管理局认证中心：未与任何大模型企业合作，亦未开展测评"
-    ],
-    [
-      "11-22 09:35",
-      "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就"
-    ],
-    [
-      "11-22 09:06",
-      "Edge AI Daily 早报（11月22日）"
-    ],
-    [
-      "11-22 09:02",
-      "可灵为何开始发力“图片”？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 329818,
+      "s": 329830,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323792,
+      "s": 323799,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308415,
+      "s": 308425,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 234930,
+      "s": 234932,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198523,
+      "s": 198537,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156584,
+      "s": 156587,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151651,
+      "s": 151654,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145317,
+      "s": 145321,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 121994,
+      "s": 121995,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119772,
+      "s": 119781,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
