@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-23T06:31:49",
+  "updated": "2026-11-23T07:02:34",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-23T06:42",
+      "t": "古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo",
+      "s": "彭博社记者马克 · 古尔曼昨晚发布了最新一期 Power On 新闻通讯，分析了苹果在 AI Agent 竞争中的处境…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/719.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-23T06:19",
@@ -79,13 +86,6 @@
       "u": "https://www.leiphone.com/category/zaobao/qb1uol6hKvK6pRgF.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-22T17:58",
-      "t": "报告：美国会计行业 AI 采用率高，但技术整合成熟度不足",
-      "s": "会计师正在成为观察人工智能如何改变职场的一个意想不到的样本。据IT之家了解，由于会计工作具有流程固定、数据密集等特点，会…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/679.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-22T16:19",
       "t": "跨境收款之后，中国公司盯上智能体支付的新生意",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-23 06:42",
+      "古尔曼：苹果准备在明年 2 月至 3 月 iOS 27.4 周期中推出入门级 iPad、iPhone 18e 和全新 MacBook Neo"
+    ],
+    [
       "11-23 06:19",
       "iPhone 18 大更新，明年春天见！但苹果的挑战才刚刚开始"
     ],
@@ -162,10 +166,6 @@
     [
       "11-22 22:00",
       "签约后也能涨价：消息称 AI 服务器厂商交付前提价，涨幅最高达 45%"
-    ],
-    [
-      "11-22 19:44",
-      "B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330441,
+      "s": 330452,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324115,
+      "s": 324127,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308979,
+      "s": 308993,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235086,
+      "s": 235090,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198967,
+      "s": 198978,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156695,
+      "s": 156698,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152020,
+      "s": 152028,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145424,
+      "s": 145425,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122163,
+      "s": 122167,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120087,
+      "s": 120091,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
