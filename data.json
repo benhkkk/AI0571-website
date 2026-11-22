@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-22T22:31:29",
+  "updated": "2026-11-22T23:01:50",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-22T22:24",
+      "t": "Oracle：已确保履行与 OpenAI 合同全部所需资金",
+      "s": "Oracle（甲骨文）当地时间本月 20 日表示，该企业已在本月初筹集到了履行与 OpenAI 交易的全部所需租金，与供…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/715.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-22T22:09",
@@ -73,24 +80,10 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-22T16:47",
-      "t": "马斯克预警：AI 行业明年可能面临严重资金短缺，或需要数千亿美元额外投入",
-      "s": "深度学习领域开源项目 Keras 创始人弗朗索瓦・肖莱（François Chollet）在 X 上发文称，要么你认为 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/628.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-22T16:19",
       "t": "跨境收款之后，中国公司盯上智能体支付的新生意",
       "s": "中国公司正在通过智能体支付，从赚通道费走向把经营能力捆绑进企业的日常工作流。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8213773.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-22T15:40",
-      "t": "2026医疗器械GMP数智化转型大会在北京举行",
-      "s": "2026医疗器械GMP数智化转型大会在北京举行（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7710895716108911140/"
     },
     {
       "c": "MEDDEVICE",
@@ -114,13 +107,6 @@
       "u": "https://www.qbitai.com/2026/11/511870.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-22T12:36",
-      "t": "小鹏交出一份增长财报，盈利拐点为何还没来？",
-      "s": "小鹏三季度营收与交付量双创新高，但盈利压力犹存。海外扩张与物理AI商业化，能否成为新的增长动力？（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8213686.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-22T10:03",
       "t": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
@@ -140,9 +126,27 @@
       "t": "关于混元 4 模型、算力、刷榜与 RSI，姚顺雨回应一切",
       "s": "头图来源：ChatGPT 生成 11 月 21 日凌晨，腾讯首席 AI 科学家、混元大模型负责人姚顺雨和混元团队的研究员…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/374301"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T09:35",
+      "t": "Claude 的黎曼猜想证明获 Lean 官方认证，马斯克直呼惊人成就",
+      "s": "AI 恐怖如斯#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1690820?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-21T22:14",
+      "t": "AI给乐队现场搓MV，这是黑客松还是音乐节啊",
+      "s": "AI给乐队现场搓MV，这是黑客松还是音乐节啊（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/511855.html"
     }
   ],
   "timeline": [
+    [
+      "11-22 22:24",
+      "Oracle：已确保履行与 OpenAI 合同全部所需资金"
+    ],
     [
       "11-22 22:09",
       "从黄仁勋看AI时代的领导力：为什么有些企业能够实现指数级增长？"
@@ -162,10 +166,6 @@
     [
       "11-22 19:13",
       "纽约新音乐厅 Domino 官网闹笑话，宣传“纯手工制作”却满是 AI 生成痕迹"
-    ],
-    [
-      "11-22 19:05",
-      "拆解大厂财报：谁最舍得为AI花钱？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330157,
+      "s": 330187,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323878,
+      "s": 323898,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308690,
+      "s": 308715,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235033,
+      "s": 235037,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198799,
+      "s": 198822,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156649,
+      "s": 156655,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151829,
+      "s": 151847,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145381,
+      "s": 145385,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122101,
+      "s": 122107,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119944,
+      "s": 119951,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
