@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-22T19:32:02",
+  "updated": "2026-11-22T20:01:58",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-22T19:44",
+      "t": "B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见",
+      "s": "近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵称，使用 DeepSeek 鲸鱼娘…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/702.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-22T19:24",
@@ -72,13 +79,6 @@
       "u": "https://www.toutiao.com/article/7710895716108911140/"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-22T15:26",
-      "t": "蚂蚁集团 CEO 韩歆毅：人工智能已走到临床很多环节，相信 AI 可以成为连接医患延续照顾的可靠纽带",
-      "s": "据新浪科技今天报道，蚂蚁集团 CEO 韩歆毅今日在 2026 蚂蚁阿福医疗健康生态大会表示，AI 这几年已经走到了临床的…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/030/594.htm"
-    },
-    {
       "c": "MEDDEVICE",
       "d": "2026-11-22T14:21",
       "t": "Nature：糖尿病大鼠成功恢复正常血糖！用电刺激迷走神经控糖",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-22 19:44",
+      "B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见"
+    ],
+    [
       "11-22 19:24",
       "开发者将微型 Transformer 模型塞进软盘，让 486 老电脑也能用上 AI"
     ],
@@ -162,10 +166,6 @@
     [
       "11-22 17:58",
       "报告：美国会计行业 AI 采用率高，但技术整合成熟度不足"
-    ],
-    [
-      "11-22 17:35",
-      "菲尔兹奖得主梅纳德谈“AI 攻克黎曼猜想”：相信证明正确，但成果被人理解、才可能得到认可"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330064,
+      "s": 330075,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 323789,
+      "s": 323801,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 308609,
+      "s": 308628,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235004,
+      "s": 235009,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 198721,
+      "s": 198730,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156636,
+      "s": 156640,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 151776,
+      "s": 151789,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145363,
+      "s": 145366,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122062,
+      "s": 122069,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 119898,
+      "s": 119903,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
