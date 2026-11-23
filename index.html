@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-23T14:43', t:'法国人工智能企业 Mistral AI 在新加坡设立亚太总部，为政府开发定制 AI 模型', s:'法国人工智能企业 Mistral AI 上周（11 月 20 日）宣布在新加坡设立亚太地区总部，计划 2027 年将该区…（来源：IT之家）', u:'https://www.ithome.com/1/030/904.htm'},
+    {c:'MODEL', d:'2026-11-23T14:33', t:'我国研发的地球系统智能科研平台“ZHU·GE”推出', s:'据中国气象报社报道，11 月 23 日，在 2026 雄安气象人工智能国际研讨会上，地球系统智能科研平台“ZHU·GE”…（来源：IT之家）', u:'https://www.ithome.com/1/030/899.htm'},
     {c:'MEDPHARMA', d:'2026-11-23T14:12', t:'全球AI制药融资创新高，港股通医疗ETF易方达(520850)标的指...', s:'全球AI制药融资创新高，港股通医疗ETF易方达(520850)标的指...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711245797697831467/'},
     {c:'MODEL', d:'2026-11-23T14:07', t:'鸿蒙版醒图新版本上线：AI修图「不烧心」', s:'手边刚好有舍不得删又不好修的照片？可以先拿它试试。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩…（来源：爱范儿）', u:'https://www.ifanr.com/1690991?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-23T14:06', t:'自变量发布具身基础模型 WALL-OSS-1.0，零样本真机成功率达 55.1%', s:'自变量今日发布新一代具身基础模型 WALL-OSS-1.0。该模型将预训练本身当作智能的来源，而非后续任务微调的起点。据…（来源：IT之家）', u:'https://www.ithome.com/1/030/890.htm'},
@@ -477,28 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MEDDEVICE', d:'2026-11-23T11:32', t:'AI审评提速至1小时，二类医疗器械注册迎来人机协同新模式', s:'AI审评提速至1小时，二类医疗器械注册迎来人机协同新模式（来源：头条设备AI）', u:'https://www.toutiao.com/article/7711204616662286902/'},
     {c:'INDUSTRY', d:'2026-11-23T11:18', t:'OpenAI 首席科学家提议为 AI 开发设置“行业上限”', s:'OpenAI 首席科学家 Jakub Pachocki 写了篇论文式的文章，主张把 perplexity（困惑度，等价于…（来源：OSCHINA）', u:'https://www.oschina.net/news/503737/openai-perplexity-and-intelligence'},
     {c:'MEDPHARMA', d:'2026-11-23T11:17', t:'AI让新药研发提速50%，制药行业真的要变天了吗?', s:'AI让新药研发提速50%，制药行业真的要变天了吗?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711200343886955008/'},
-    {c:'MODEL', d:'2026-11-23T11:08', t:'蚂蚁阿福发布全新 AI 健康手环“福环”和 AI 健康戒指“福戒”', s:'11 月 23 日现场消息，在今日的蚂蚁阿福医疗健康生态大会上，蚂蚁阿福带来了两款全新的 AI 健康硬件 ——AI 健康…（来源：IT之家）', u:'https://www.ithome.com/1/030/788.htm'},
-    {c:'FUNDING', d:'2026-11-23T11:03', t:'【Fintech 周报】海南银行获批定向增资扩股；ChatGPT Wallet上线', s:'金融监管总局两司局“一把手”对调；互金协会通报两款银行App；商业银行总资产突破500万亿元；前三季度消费贷ABS同比下…（来源：钛媒体）', u:'https://www.tmtpost.com/8214380.html'},
   ];
   const TIMELINE = [
+    ['11-23 14:43','法国人工智能企业 Mistral AI 在新加坡设立亚太总部，为政府开发定制 AI 模型'],
+    ['11-23 14:33','我国研发的地球系统智能科研平台“ZHU·GE”推出'],
     ['11-23 14:12','全球AI制药融资创新高，港股通医疗ETF易方达(520850)标的指...'],
     ['11-23 14:07','鸿蒙版醒图新版本上线：AI修图「不烧心」'],
     ['11-23 14:06','自变量发布具身基础模型 WALL-OSS-1.0，零样本真机成功率达 55.1%'],
     ['11-23 13:47','联想确认拯救者 Y700 五代平板电脑《燕云十六声》定制版 12 月发布'],
-    ['11-23 13:21','辰星技术：营收扩张难掩亏损，多款机器人曾亏本销售'],
-    ['11-23 12:49','智谱 GLM-5.4 模型发布，已上线 Coding Plan'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:330735, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324374, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309151, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235161, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199132, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156740, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152157, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145452, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122220, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120263, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:330755, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324400, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309162, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235168, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199145, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156745, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152173, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145454, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122224, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120283, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
