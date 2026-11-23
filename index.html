@@ -358,7 +358,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
 <!-- ===== B. Hero ===== -->
 <section class="hero">
   <div class="container hero-inner">
-    <span class="badge mono">2026-11-23 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
+    <span class="badge mono">2026-11-24 · 今日已更新 <b id="todayCount">0</b> 条 <b id="lastCheck" style="font-weight:400;color:var(--primary)"></b></span>
     <h1 class="hero-title">洞见 AI 的每一天</h1>
     <p class="hero-sub">杭州视角 · 全球 AI 资讯速递</p>
     <div class="hero-cta">
@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-23T23:47', t:'字节，该造手机了', s:'11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望…（来源：极客公园）', u:'http://www.geekpark.net/news/374374'},
+    {c:'MODEL', d:'2026-11-23T23:15', t:'手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排', s:'首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）', u:'https://www.ithome.com/1/031/228.htm'},
     {c:'MODEL', d:'2026-11-23T22:58', t:'华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡', s:'首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）', u:'https://www.ithome.com/1/031/219.htm'},
     {c:'MODEL', d:'2026-11-23T21:27', t:'《生化危机》之父三上真司：希望 AI 彻底消失', s:'今年 3 月底，《生化危机》和《恐龙危机》系列导演三上真司（Shinji Mikami）正式宣布，其创立的游戏工作室 U…（来源：IT之家）', u:'https://www.ithome.com/1/031/204.htm'},
     {c:'HOT', d:'2026-11-23T21:15', t:'儿童权益保护组织喊话亚马逊、eBay：别卖 AI 玩具了', s:'由 155 家儿童权益保护组织组成的联盟近日向亚马逊和 eBay 首席执行官发出公开信，呼吁两家电商平台停止销售搭载人工…（来源：IT之家）', u:'https://www.ithome.com/1/031/203.htm'},
@@ -476,29 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-23T18:30', t:'智谱官宣 GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力', s:'智谱官方刚刚发布了 GLM-5.4 的技术公告，把架构、数据、能力提升，以及限制都摆出来了。 先说最硬的一个数字：GLM…（来源：OSCHINA）', u:'https://www.oschina.net/news/503756'},
     {c:'INDUSTRY', d:'2026-11-23T17:54', t:'独家解读丨苦战三个月，AI办公经得起财报检验吗？', s:'AI办公，正在进入财报检验期。过去一个季度，大厂集中火力攻克这门AI应用生意。腾讯在Q3财报及业绩电话会中披露了Work…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html'},
     {c:'HOT', d:'2026-11-23T17:53', t:'AI 降本增笑，全世界都在被迫接受审美大降级', s:'日本开始狂用 AI 了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1691079?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MODEL', d:'2026-11-23T17:48', t:'懂车帝回应“测试内容大调整”：信息多处失实，部分内容为 AI 撰写', s:'今日，有博主爆料称，懂车帝内部对公开测试发布了四项要求，包括不再开放对比类内容、想要发布公开测试类内容的账号必须有资质等…（来源：IT之家）', u:'https://www.ithome.com/1/031/091.htm'},
     {c:'MEDPHARMA', d:'2026-11-23T17:47', t:'上市药企原副总裁，到AI制药企业做CEO', s:'上市药企原副总裁，到AI制药企业做CEO（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711301362637701668/'},
-    {c:'HOT', d:'2026-11-23T17:39', t:'新鲜感之后，陪伴机器人如何被用起来？', s:'新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）', u:'https://www.tmtpost.com/8212446.html'},
   ];
   const TIMELINE = [
+    ['11-23 23:47','字节，该造手机了'],
+    ['11-23 23:15','手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排'],
     ['11-23 22:58','华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡'],
     ['11-23 21:27','《生化危机》之父三上真司：希望 AI 彻底消失'],
     ['11-23 21:15','儿童权益保护组织喊话亚马逊、eBay：别卖 AI 玩具了'],
     ['11-23 20:25','华为 × 澳门电讯联合发布 Wi-Fi 感知服务，支持动态感知并识别家庭成员活动状态'],
-    ['11-23 20:11','Docker 徽标焕新，致力于打造面向智能体的安全容器化环境'],
-    ['11-23 20:06','AI制药提速，谁在A股端坐收红利?'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:331138, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324761, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309360, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235256, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199311, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156789, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152360, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145497, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122344, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120503, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:331160, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324783, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309373, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235267, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199322, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156791, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152375, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145502, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122348, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120513, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
