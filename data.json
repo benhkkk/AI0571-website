@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-23T08:32:16",
+  "updated": "2026-11-23T09:02:47",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-23T08:57",
+      "t": "华为OSTA星芒 O1 Pro 评测：一台真正为 AI 而生的鸿蒙手机",
+      "s": "面向 AI，面向世界，面向未来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1690613?utm_source=rss&utm_medium=rss&utm_campaign="
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-23T08:48",
+      "t": "Edge AI Daily 早报（11月23日）",
+      "s": "英伟达季度营收1158亿美元、下季指引1300亿美元，市场焦点转向基建支出能否转化为可量化回报；Anthropic完成I…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8214195.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-23T08:25",
@@ -114,13 +128,6 @@
       "u": "https://www.qbitai.com/2026/11/511904.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-22T14:16",
-      "t": "Anthropic万亿上市，搅动的却是半导体江湖",
-      "s": "大买主登陆公开市场，芯片、代工与存储环节都在随之调整。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8213769.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-22T14:03",
       "t": "A社数学家用Claude又证明另一千禧难题，逼出一份写了12年的940页纯人类手稿",
@@ -133,16 +140,17 @@
       "t": "重控制、轻渲染，达瓦科技的 AI 视频工业路线",
       "s": "头图来源：极客公园 今年以来，视频生成模型的进步肉眼可见，AI 短剧、换脸、场景合成在各个平台越来越多，但一个现实问题始…（来源：极客公园）",
       "u": "http://www.geekpark.net/news/374303"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-22T09:58",
-      "t": "资本开支猛增 226%，AI 吞噬百亿利润：腾讯的 AI 故事，进入更重的阶段",
-      "s": "头图来源：腾讯 腾讯的 AI 故事，正在进入一个有些沉重的阶段。 11 月 18 日，腾讯发布 2026 年第三季度财报…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374302"
     }
   ],
   "timeline": [
+    [
+      "11-23 08:57",
+      "华为OSTA星芒 O1 Pro 评测：一台真正为 AI 而生的鸿蒙手机"
+    ],
+    [
+      "11-23 08:48",
+      "Edge AI Daily 早报（11月23日）"
+    ],
     [
       "11-23 08:25",
       "早报｜曝苹果明年下半年发布iPhone 20与智能眼镜/丘成桐：AI证明黎曼猜想，数学进入新纪元/GTA6带动主机溢价，PS5 Pro涨至近1.6万元"
@@ -158,14 +166,6 @@
     [
       "11-23 07:37",
       "苹果 Siri AI 集体诉讼案和解：符合条件的 iPhone 预计每台可获赔至少 61 美元"
-    ],
-    [
-      "11-23 07:24",
-      "IT早报 1123：菲尔兹奖得主谈“AI 攻克黎曼猜想”仍需解决关键思路；特斯拉新功能堪比 GTA6；张雪机车计划明年推外卖电摩；国漫斗破苍穹九年长篇完结..."
-    ],
-    [
-      "11-23 06:50",
-      "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330484,
+      "s": 330501,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324158,
+      "s": 324167,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309028,
+      "s": 309034,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235097,
+      "s": 235098,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199002,
+      "s": 199008,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156706,
+      "s": 156705,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152054,
+      "s": 152061,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145430,
+      "s": 145432,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122176,
+      "s": 122182,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120117,
+      "s": 120130,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
