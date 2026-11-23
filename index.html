@@ -460,7 +460,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'HOT', d:'2026-11-23T17:53', t:'AI 降本增笑，全世界都在被迫接受审美大降级', s:'日本开始狂用 AI 了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1691079?utm_source=rss&utm_medium=rss&utm_campaign='},
-    {c:'MODEL', d:'2026-11-23T17:50', t:'GLM-5.4 低调上线，新增视觉能力与更强的泛 Coding 能力', s:'智谱把 GLM-5.4 上线到了 Coding Plan，没有发布会，没有技术报告，也没有跑分——把模型名改成 glm-…（来源：OSCHINA）', u:'https://www.oschina.net/news/503752'},
     {c:'MODEL', d:'2026-11-23T17:48', t:'懂车帝回应“测试内容大调整”：信息多处失实，部分内容为 AI 撰写', s:'今日，有博主爆料称，懂车帝内部对公开测试发布了四项要求，包括不再开放对比类内容、想要发布公开测试类内容的账号必须有资质等…（来源：IT之家）', u:'https://www.ithome.com/1/031/091.htm'},
     {c:'MODEL', d:'2026-11-23T17:40', t:'动视新专利：AI 学习玩家聊天内容，生成个性化 NPC 台词', s:'《使命召唤》（Call of Duty）发行商动视（Activision）申请了一项新专利，计划利用玩家在游戏中的真实语…（来源：IT之家）', u:'https://www.ithome.com/1/031/090.htm'},
     {c:'HOT', d:'2026-11-23T17:39', t:'新鲜感之后，陪伴机器人如何被用起来？', s:'新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）', u:'https://www.tmtpost.com/8212446.html'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-23T16:14', t:'荣耀 YOYO · 豆包手机助手曝光，支持语音唤醒、连续对话、全局记忆等能力', s:'博主 @阿兴XZai 今日发布视频，分享了荣耀的 YOYO · 豆包手机助手的功能页面。画面显示，荣耀 YOYO · 豆…（来源：IT之家）', u:'https://www.ithome.com/1/030/942.htm'},
     {c:'HOT', d:'2026-11-23T16:06', t:'LG U+ 围绕 AI 调整企业业务架构，新设基础设施 / 平台部门', s:'据韩媒 The Elec 报道，LG U+ 正围绕人工智能（AI）基础设施和平台业务调整企业业务架构，计划将相关业务划分…（来源：IT之家）', u:'https://www.ithome.com/1/030/938.htm'},
     {c:'MEDPHARMA', d:'2026-11-23T16:02', t:'百普赛斯:可以预见湿实验验证能力将升级为支撑AI制药的长期...', s:'百普赛斯:可以预见湿实验验证能力将升级为支撑AI制药的长期...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711274193198875178/'},
+    {c:'MODEL', d:'2026-11-23T16:00', t:'AI 大模型周榜：谷歌 Gemini 4 Neon 新登综合第 3，阿里 Qwen4-Max 智能体首秀第 18', s:'Arena（arena.ai）现已发布第 47 周（2026 年 11 月 16 日至 22 日）周榜。本周综合榜迎来三…（来源：IT之家）', u:'https://www.ithome.com/1/030/935.htm'},
   ];
   const TIMELINE = [
     ['11-23 17:53','AI 降本增笑，全世界都在被迫接受审美大降级'],
-    ['11-23 17:50','GLM-5.4 低调上线，新增视觉能力与更强的泛 Coding 能力'],
     ['11-23 17:48','懂车帝回应“测试内容大调整”：信息多处失实，部分内容为 AI 撰写'],
     ['11-23 17:40','动视新专利：AI 学习玩家聊天内容，生成个性化 NPC 台词'],
     ['11-23 17:39','新鲜感之后，陪伴机器人如何被用起来？'],
     ['11-23 17:26','杉数完成数亿元D轮融资：十年“冷门创业”，走到AI产业的关键处'],
+    ['11-23 17:17','Epic 旗下 AI 游戏开发竞赛现讽刺一幕：纯人工制作游戏《LSD: FIH》获玩家投票榜首'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:330906, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324521, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309225, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235194, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199202, u:'https://github.com/anthropics/skills', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:330922, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324539, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309236, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235200, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199207, u:'https://github.com/anthropics/skills', new:false},
     {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156764, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152230, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152239, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145471, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122265, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120377, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122269, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120385, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

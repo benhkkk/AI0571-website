@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T18:01:55",
+  "updated": "2026-11-23T18:31:13",
   "news": [
     {
       "c": "HOT",
@@ -7,13 +7,6 @@
       "t": "AI 降本增笑，全世界都在被迫接受审美大降级",
       "s": "日本开始狂用 AI 了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
       "u": "https://www.ifanr.com/1691079?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-23T17:50",
-      "t": "GLM-5.4 低调上线，新增视觉能力与更强的泛 Coding 能力",
-      "s": "智谱把 GLM-5.4 上线到了 Coding Plan，没有发布会，没有技术报告，也没有跑分——把模型名改成 glm-…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503752"
     },
     {
       "c": "MODEL",
@@ -140,16 +133,19 @@
       "t": "百普赛斯:可以预见湿实验验证能力将升级为支撑AI制药的长期...",
       "s": "百普赛斯:可以预见湿实验验证能力将升级为支撑AI制药的长期...（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7711274193198875178/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-23T16:00",
+      "t": "AI 大模型周榜：谷歌 Gemini 4 Neon 新登综合第 3，阿里 Qwen4-Max 智能体首秀第 18",
+      "s": "Arena（arena.ai）现已发布第 47 周（2026 年 11 月 16 日至 22 日）周榜。本周综合榜迎来三…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/030/935.htm"
     }
   ],
   "timeline": [
     [
       "11-23 17:53",
       "AI 降本增笑，全世界都在被迫接受审美大降级"
-    ],
-    [
-      "11-23 17:50",
-      "GLM-5.4 低调上线，新增视觉能力与更强的泛 Coding 能力"
     ],
     [
       "11-23 17:48",
@@ -166,6 +162,10 @@
     [
       "11-23 17:26",
       "杉数完成数亿元D轮融资：十年“冷门创业”，走到AI产业的关键处"
+    ],
+    [
+      "11-23 17:17",
+      "Epic 旗下 AI 游戏开发竞赛现讽刺一幕：纯人工制作游戏《LSD: FIH》获玩家投票榜首"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330906,
+      "s": 330922,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324521,
+      "s": 324539,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309225,
+      "s": 309236,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235194,
+      "s": 235200,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199202,
+      "s": 199207,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152230,
+      "s": 152239,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122265,
+      "s": 122269,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120377,
+      "s": 120385,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
