@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T19:31:10",
+  "updated": "2026-11-23T20:01:51",
   "news": [
     {
       "c": "MODEL",
@@ -42,6 +42,13 @@
       "t": "智谱官宣 GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力",
       "s": "智谱官方刚刚发布了 GLM-5.4 的技术公告，把架构、数据、能力提升，以及限制都摆出来了。 先说最硬的一个数字：GLM…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503756"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-23T17:54",
+      "t": "独家解读丨苦战三个月，AI办公经得起财报检验吗？",
+      "s": "AI办公，正在进入财报检验期。过去一个季度，大厂集中火力攻克这门AI应用生意。腾讯在Q3财报及业绩电话会中披露了Work…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html"
     },
     {
       "c": "HOT",
@@ -133,13 +140,6 @@
       "t": "日本工业机器人制造商安川电机：AI 人形机器人将在 2030 年正式推出",
       "s": "日本工业机器人制造商安川电机 (YASAKAWA) 人工智能机器人统括部长久保田由美惠当地时间本月 20 日接受日本共同…（来源：IT之家）",
       "u": "https://www.ithome.com/1/030/954.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-23T16:27",
-      "t": "微语 5.3.0 发布 - 支持远程协助",
-      "s": "基于AI全新打造的一款开源企业级多租户团队协作工具，集成多种功能于一体：企业即时通讯IM、在线客服、知识库、客户之声、工…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503747"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330959,
+      "s": 330983,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324575,
+      "s": 324594,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309255,
+      "s": 309267,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235209,
+      "s": 235217,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199232,
+      "s": 199236,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156766,
+      "s": 156765,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152267,
+      "s": 152276,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145477,
+      "s": 145481,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122281,
+      "s": 122288,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120404,
+      "s": 120408,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
