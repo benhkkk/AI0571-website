@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-23T22:32:02",
+  "updated": "2026-11-23T23:01:29",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-23T22:58",
+      "t": "华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡",
+      "s": "首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/219.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-23T21:27",
@@ -28,6 +35,13 @@
       "t": "Docker 徽标焕新，致力于打造面向智能体的安全容器化环境",
       "s": "知名容器化工具 Docker 官方当地时间本月 19 日宣布更新徽标。新版的 Moby 鲸鱼更为抽象简洁，且以黑色为身体…（来源：IT之家）",
       "u": "https://www.ithome.com/1/031/194.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-23T20:06",
+      "t": "AI制药提速，谁在A股端坐收红利?",
+      "s": "AI制药提速，谁在A股端坐收红利?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7711275016263909928/"
     },
     {
       "c": "HOT",
@@ -121,28 +135,18 @@
       "u": "https://www.toutiao.com/article/7711301362637701668/"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-23T17:40",
-      "t": "动视新专利：AI 学习玩家聊天内容，生成个性化 NPC 台词",
-      "s": "《使命召唤》（Call of Duty）发行商动视（Activision）申请了一项新专利，计划利用玩家在游戏中的真实语…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/090.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-23T17:39",
       "t": "新鲜感之后，陪伴机器人如何被用起来？",
       "s": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8212446.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-23T17:26",
-      "t": "杉数完成数亿元D轮融资：十年“冷门创业”，走到AI产业的关键处",
-      "s": "从数学优化算法到GPU加速，再到AI原生求解器，杉数十年的技术积累有了新的时代坐标。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8214351.html"
     }
   ],
   "timeline": [
+    [
+      "11-23 22:58",
+      "华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡"
+    ],
     [
       "11-23 21:27",
       "《生化危机》之父三上真司：希望 AI 彻底消失"
@@ -160,12 +164,8 @@
       "Docker 徽标焕新，致力于打造面向智能体的安全容器化环境"
     ],
     [
-      "11-23 19:58",
-      "马斯克：星巴克咖啡师也能建 AI 数据中心，SpaceX 培训几天就能上岗"
-    ],
-    [
-      "11-23 19:50",
-      "2026医疗器械GMP数智化转型大会在北京举行"
+      "11-23 20:06",
+      "AI制药提速，谁在A股端坐收红利?"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331097,
+      "s": 331109,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324713,
+      "s": 324739,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309337,
+      "s": 309350,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235237,
+      "s": 235245,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199292,
+      "s": 199305,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156780,
+      "s": 156782,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152334,
+      "s": 152346,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145493,
+      "s": 145495,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122328,
+      "s": 122337,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120474,
+      "s": 120485,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
