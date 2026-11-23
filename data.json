@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-23T21:31:23",
+  "updated": "2026-11-23T21:52:06",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-23T21:27",
+      "t": "《生化危机》之父三上真司：希望 AI 彻底消失",
+      "s": "今年 3 月底，《生化危机》和《恐龙危机》系列导演三上真司（Shinji Mikami）正式宣布，其创立的游戏工作室 U…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/204.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-23T21:15",
+      "t": "儿童权益保护组织喊话亚马逊、eBay：别卖 AI 玩具了",
+      "s": "由 155 家儿童权益保护组织组成的联盟近日向亚马逊和 eBay 首席执行官发出公开信，呼吁两家电商平台停止销售搭载人工…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/203.htm"
+    },
     {
       "c": "MEDDEVICE",
       "d": "2026-11-23T20:25",
@@ -21,13 +35,6 @@
       "t": "AI制药提速，谁在A股端坐收红利?",
       "s": "AI制药提速，谁在A股端坐收红利?（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7711275016263909928/"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-23T20:04",
-      "t": "华为制药军团明确边界:不自研生产药品，只做行业智能底座",
-      "s": "华为制药军团明确边界:不自研生产药品，只做行业智能底座（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7711336487941308955/"
     },
     {
       "c": "HOT",
@@ -133,16 +140,17 @@
       "t": "新鲜感之后，陪伴机器人如何被用起来？",
       "s": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8212446.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-23T17:26",
-      "t": "杉数完成数亿元D轮融资：十年“冷门创业”，走到AI产业的关键处",
-      "s": "从数学优化算法到GPU加速，再到AI原生求解器，杉数十年的技术积累有了新的时代坐标。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8214351.html"
     }
   ],
   "timeline": [
+    [
+      "11-23 21:27",
+      "《生化危机》之父三上真司：希望 AI 彻底消失"
+    ],
+    [
+      "11-23 21:15",
+      "儿童权益保护组织喊话亚马逊、eBay：别卖 AI 玩具了"
+    ],
     [
       "11-23 20:25",
       "华为 × 澳门电讯联合发布 Wi-Fi 感知服务，支持动态感知并识别家庭成员活动状态"
@@ -156,16 +164,8 @@
       "AI制药提速，谁在A股端坐收红利?"
     ],
     [
-      "11-23 20:04",
-      "华为制药军团明确边界:不自研生产药品，只做行业智能底座"
-    ],
-    [
       "11-23 19:58",
       "马斯克：星巴克咖啡师也能建 AI 数据中心，SpaceX 培训几天就能上岗"
-    ],
-    [
-      "11-23 19:50",
-      "2026医疗器械GMP数智化转型大会在北京举行"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331054,
+      "s": 331070,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324663,
+      "s": 324685,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309302,
+      "s": 309314,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235226,
+      "s": 235230,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199270,
+      "s": 199277,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152313,
+      "s": 152321,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145489,
+      "s": 145490,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122315,
+      "s": 122320,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120450,
+      "s": 120464,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
