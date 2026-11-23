@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-11-23T23:47', t:'字节，该造手机了', s:'11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望…（来源：极客公园）', u:'http://www.geekpark.net/news/374374'},
     {c:'MODEL', d:'2026-11-23T23:15', t:'手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排', s:'首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）', u:'https://www.ithome.com/1/031/228.htm'},
     {c:'MODEL', d:'2026-11-23T22:58', t:'华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡', s:'首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）', u:'https://www.ithome.com/1/031/219.htm'},
     {c:'MODEL', d:'2026-11-23T21:27', t:'《生化危机》之父三上真司：希望 AI 彻底消失', s:'今年 3 月底，《生化危机》和《恐龙危机》系列导演三上真司（Shinji Mikami）正式宣布，其创立的游戏工作室 U…（来源：IT之家）', u:'https://www.ithome.com/1/031/204.htm'},
@@ -470,6 +469,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-23T19:58', t:'马斯克：星巴克咖啡师也能建 AI 数据中心，SpaceX 培训几天就能上岗', s:'SpaceX 首席执行官埃隆 · 马斯克（Elon Musk）表示，公司最优秀的数据中心建设人员，可能曾经是咖啡师，也可…（来源：IT之家）', u:'https://www.ithome.com/1/031/190.htm'},
     {c:'MEDDEVICE', d:'2026-11-23T19:50', t:'2026医疗器械GMP数智化转型大会在北京举行', s:'2026医疗器械GMP数智化转型大会在北京举行（来源：头条设备AI）', u:'https://www.toutiao.com/article/7711332851526795802/'},
     {c:'MODEL', d:'2026-11-23T19:04', t:'联想推出来酷外骨骼机器人行者 ONE 穿戴式助行设备，6999 元', s:'联想现已在京东上架来酷外骨骼机器人行者 ONE 穿戴式助行设备，将于 11 月 28 日发售，定价为 7999 元，首发…（来源：IT之家）', u:'https://www.ithome.com/1/031/160.htm'},
+    {c:'MODEL', d:'2026-11-23T19:01', t:'实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了', s:'零Token成本，断网也能自由Vibe Coding（来源：量子位）', u:'https://www.qbitai.com/2026/11/512195.html'},
     {c:'INDUSTRY', d:'2026-11-23T18:36', t:'800万对1000万，腾讯字节又在AI办公杠上了', s:'不是产品的胜负，而是存量生态的比拼（来源：钛媒体）', u:'https://www.tmtpost.com/8214502.html'},
     {c:'HOT', d:'2026-11-23T18:36', t:'禾赛的第二增长曲线，瞄准的不仅仅是机器人', s:'Kosmo 的商业化空间，不可小觑。（来源：钛媒体）', u:'https://www.tmtpost.com/8214576.html'},
     {c:'HOT', d:'2026-11-23T18:36', t:'当AI开始自己上班', s:'商业化推倒的第一块多米诺骨牌（来源：钛媒体）', u:'https://www.tmtpost.com/8214386.html'},
@@ -481,24 +481,24 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-23T17:39', t:'新鲜感之后，陪伴机器人如何被用起来？', s:'新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）', u:'https://www.tmtpost.com/8212446.html'},
   ];
   const TIMELINE = [
-    ['11-23 23:47','字节，该造手机了'],
     ['11-23 23:15','手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排'],
     ['11-23 22:58','华为星芒 OSTA O1 Pro 新机确认支持 eSIM 能力：最多四号，允许同时启用双卡'],
     ['11-23 21:27','《生化危机》之父三上真司：希望 AI 彻底消失'],
     ['11-23 21:15','儿童权益保护组织喊话亚马逊、eBay：别卖 AI 玩具了'],
     ['11-23 20:25','华为 × 澳门电讯联合发布 Wi-Fi 感知服务，支持动态感知并识别家庭成员活动状态'],
+    ['11-23 20:11','Docker 徽标焕新，致力于打造面向智能体的安全容器化环境'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:331316, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324963, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309514, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:331325, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:324975, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309527, u:'https://github.com/affaan-m/ECC', new:false},
     {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235308, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199423, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156816, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152492, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199431, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156820, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152502, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145518, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122397, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120617, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122402, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120623, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
