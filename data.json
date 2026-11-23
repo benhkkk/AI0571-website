@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-23T12:02:08",
+  "updated": "2026-11-23T12:32:33",
   "news": [
     {
       "c": "MODEL",
@@ -107,6 +107,20 @@
       "u": "https://www.ithome.com/1/030/783.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-23T10:27",
+      "t": "APEC 时刻，PHAIN 登上央视新闻，展现中国自研实力",
+      "s": "央视镜头里的PHAIN数据手套：从人手操作到机器人训练数据APEC 期间，PHAIN 梵因动力自主研发的 G03 Pro…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/HTBJLib1WgKs3OIR.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-23T10:26",
+      "t": "中通快递与阿里云伶鹊达成深度合作，智慧AI打造客服新体验",
+      "s": "近日，阿里云伶鹊与中通快递达成深度合作，为中通快递打造企业级AI客服，在小件末端配送场景中落地智能语音热线和智能语音外呼…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/MseGRLc64j2hTZxj.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-23T10:02",
       "t": "韩国防 AI 作弊新招：要求考生穿围裙考试、时隔 6 年重新收缴手机",
@@ -122,24 +136,10 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-23T08:57",
-      "t": "华为OSTA星芒 O1 Pro 评测：一台真正为 AI 而生的鸿蒙手机",
-      "s": "面向 AI，面向世界，面向未来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1690613?utm_source=rss&utm_medium=rss&utm_campaign="
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-23T08:48",
-      "t": "Edge AI Daily 早报（11月23日）",
-      "s": "英伟达季度营收1158亿美元、下季指引1300亿美元，市场焦点转向基建支出能否转化为可量化回报；Anthropic完成I…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8214195.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-23T08:25",
-      "t": "早报｜曝苹果明年下半年发布iPhone 20与智能眼镜/丘成桐：AI证明黎曼猜想，数学进入新纪元/GTA6带动主机溢价，PS5 Pro涨至近1.6万元",
-      "s": "· 曝小米汽车欧洲团队再添一名前小鹏高管 · 神舟二十四号完成发射前最后一次全区合练 · AI 服务器供应商被曝在交货前…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1690857?utm_source=rss&utm_medium=rss&utm_campaign="
+      "d": "2026-11-23T09:22",
+      "t": "OpenAI 首席科学家：AI 最早明年加速进化；B 站开始清理「大肥鱼」泛滥；瘫痪患者用脑机打 GTA6｜极客早知道",
+      "s": "OpenAI 首席科学家警告：AI 最早可能在 2027 年加速自身发展，奥尔特曼赞同为 AI 开发设限 11 月 23…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374304"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 330645,
+      "s": 330658,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 324283,
+      "s": 324290,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309090,
+      "s": 309101,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235142,
+      "s": 235143,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199081,
+      "s": 199093,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156719,
+      "s": 156724,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152116,
+      "s": 152124,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145444,
+      "s": 145443,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122199,
+      "s": 122205,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120212,
+      "s": 120221,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
