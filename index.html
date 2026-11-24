@@ -459,7 +459,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'HOT', d:'2026-11-25T08:39', t:'新鲜感之后，陪伴机器人如何被用起来？', s:'新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）', u:'https://www.tmtpost.com/8212446.html'},
     {c:'MODEL', d:'2026-11-24T22:38', t:'华为折叠机外屏伴随式 AI 新交互将至，Mate X8 升级 HarmonyOS 7.0.0.135 可用', s:'华为今日下午正式发布了 Mate X8 大折旗舰手机，并带来了小艺伴随式 AI。华为官方在发布会现场演示的伴随式 AI …（来源：IT之家）', u:'https://www.ithome.com/1/031/886.htm'},
     {c:'MODEL', d:'2026-11-24T22:15', t:'东擎发布基于英特尔酷睿 Ultra X7 处理器 358H 的整合式物理 AI 开发平台', s:'东擎 (ASRock Industrial) 今日宣布携手 Intel（英特尔），推出基于酷睿 Ultra X7 处理器…（来源：IT之家）', u:'https://www.ithome.com/1/031/880.htm'},
     {c:'MODEL', d:'2026-11-24T22:03', t:'“谷歌替代”软件开发方 Kagi 启动电子邮件服务公测', s:'Kagi 是一家致力于开发人性友好的“谷歌替代服务”的软件开发商，已推出自有搜索引擎和浏览器。而在当地时间 23 日，其…（来源：IT之家）', u:'https://www.ithome.com/1/031/876.htm'},
@@ -479,26 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-11-24T17:10', t:'具身智能48小时三笔亿元级融资：热钱全绕开了“人形整机”', s:'2026年末具身智能热钱逃离整机，转向务实赛道。（来源：钛媒体）', u:'https://www.tmtpost.com/8216201.html'},
     {c:'HOT', d:'2026-11-24T17:09', t:'在一个长期相信考试可以改变命运的社会里，AI 已经开始动摇人们对成绩的信任', s:'AI 带来的技术平权，甚至把作弊的门槛也一并打了下来#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精…（来源：爱范儿）', u:'https://www.ifanr.com/1691270?utm_source=rss&utm_medium=rss&utm_campaign='},
     {c:'MODEL', d:'2026-11-24T16:37', t:'RNOISE Prompt Forge V5.2 发布：零 LLM 确定性 AI 音乐 Prompt 编译器与 MCP 2.0 协议引擎', s:'随着 Suno V6、Udio 2.0、Sonauto V2、DiffRhythm Pro 及 Stable Audio…（来源：OSCHINA）', u:'https://www.oschina.net/news/503778'},
+    {c:'HOT', d:'2026-11-24T16:36', t:'蚂蚁OceanBase交出六年政企成绩单：服务22个省级数字政府、三分之一央企核心系统', s:'随着人工智能加速进入政务与央国企核心业务，数据底座不仅要稳定承载关键系统，也开始支撑生产级AI应用。11月24日，蚂蚁O…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html'},
   ];
   const TIMELINE = [
-    ['11-25 08:39','新鲜感之后，陪伴机器人如何被用起来？'],
     ['11-24 22:38','华为折叠机外屏伴随式 AI 新交互将至，Mate X8 升级 HarmonyOS 7.0.0.135 可用'],
     ['11-24 22:15','东擎发布基于英特尔酷睿 Ultra X7 处理器 358H 的整合式物理 AI 开发平台'],
     ['11-24 22:03','“谷歌替代”软件开发方 Kagi 启动电子邮件服务公测'],
     ['11-24 21:11','OpenAI“窃听”案更多细节浮出水面，当事沙特工程师借助 Codex 偷录重要会议'],
     ['11-24 21:09','自变量发布具身基础模型WALL-OSS-1.0，自测零样本成功率55.1%'],
+    ['11-24 20:44','谷歌 Chrome 浏览器关闭后仍占用内存，元凶竟是 Gemini 相关功能'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:332034, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:325785, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310086, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235475, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199847, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156940, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152906, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145587, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122608, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121035, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:332054, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:325803, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310101, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235481, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199857, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156942, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152917, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145586, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122612, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121044, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
