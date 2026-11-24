@@ -1,12 +1,19 @@
 {
-  "updated": "2026-11-24T09:23:24",
+  "updated": "2026-11-24T09:32:03",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-24T09:23",
+      "d": "2026-11-24T09:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-24T09:20",
+      "t": "三成门店暴毙，“酸奶贵族”靠AI续命？",
+      "s": "千店目标落空，Blueglass靠新科技能续命多久？（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8215060.html"
     },
     {
       "c": "HOT",
@@ -133,19 +140,16 @@
       "t": "禾赛的第二增长曲线，瞄准的不仅仅是机器人",
       "s": "Kosmo 的商业化空间，不可小觑。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8214576.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-23T18:36",
-      "t": "当AI开始自己上班",
-      "s": "商业化推倒的第一块多米诺骨牌（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8214386.html"
     }
   ],
   "timeline": [
     [
-      "11-24 09:23",
+      "11-24 09:31",
       "50亿美元！AI制药再获资本重注"
+    ],
+    [
+      "11-24 09:20",
+      "三成门店暴毙，“酸奶贵族”靠AI续命？"
     ],
     [
       "11-24 09:05",
@@ -162,10 +166,6 @@
     [
       "11-24 08:48",
       "美国俄勒冈州、弗吉尼亚州起诉 SpaceX，指控 Grok AI 生成儿童性虐待图像"
-    ],
-    [
-      "11-24 08:28",
-      "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331410,
+      "s": 331417,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325087,
+      "s": 325091,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309595,
+      "s": 309596,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199496,
+      "s": 199497,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152543,
+      "s": 152546,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122426,
+      "s": 122427,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120669,
+      "s": 120672,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
