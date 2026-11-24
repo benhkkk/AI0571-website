@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-24T18:03:07",
+  "updated": "2026-11-24T18:31:09",
   "news": [
     {
       "c": "HOT",
@@ -107,11 +107,25 @@
       "u": "https://www.ithome.com/1/031/540.htm"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-24T15:47",
+      "t": "华为星芒O1 Pro，如何把手机 AI 再往前努一小步",
+      "s": "随着 iOS 27.2 的更新，中国大陆用户日盼夜盼的苹果智能，终于露出了一小手，但各种原因吧，仍然是犹抱琵琶半遮面。 …（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374417"
+    },
+    {
       "c": "INDUSTRY",
       "d": "2026-11-24T15:39",
       "t": "联合国秘书长古特雷斯呼吁构建 AI 风险管理多边框架，避免技术加剧全球不平等",
       "s": "据央视新闻报道，在巴巴多斯政府和联合国共同主办的“人工智能安全布里奇敦特别峰会”上，联合国秘书长古特雷斯表示，各国应对 …（来源：IT之家）",
       "u": "https://www.ithome.com/1/031/528.htm"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-24T15:38",
+      "t": "蚂蚁OceanBase发布湖库一体AI数据平台OceanLake，CTO杨传辉解读三大能力",
+      "s": "11月24日，蚂蚁OceanBase AI数据大会在北京召开。OceanBase正式发布湖库一体AI数据平台OceanL…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/HXbRi8ascVBkUsJP.html"
     },
     {
       "c": "MODEL",
@@ -126,20 +140,6 @@
       "t": "预设音色太单调？代码显示谷歌有望支持 App 内自定义 Gemini 声音",
       "s": "外媒 Android Authority 今天（24 日）公布的最新发现显示，谷歌或在准备一种全新方案，让用户自己设计 …（来源：IT之家）",
       "u": "https://www.ithome.com/1/031/522.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-24T15:29",
-      "t": "荷兰数据保护局建议不购买 AI 摄像头眼镜：不仅易引发隐私问题，还有安全风险",
-      "s": "荷兰数据保护局 (AP) 当地时间 19 日表示，其建议消费者不要购买用于日常用途的人工智能摄像头眼镜：这类设备不仅容易…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/519.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-24T15:18",
-      "t": ":fire::fire::fire: Claude Code 工程最佳实践 | 主数据平台 1.8.0 发布，专注于单点登录",
-      "s": "更新周期：2026-10-24 ~ 2026-11-22，后端 41 次提交、前端 40 次提交 编码规则与单号生成组件…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503775"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331745,
+      "s": 331758,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325476,
+      "s": 325493,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309812,
+      "s": 309824,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235379,
+      "s": 235390,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199654,
+      "s": 199658,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156876,
+      "s": 156879,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152708,
+      "s": 152717,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145558,
+      "s": 145559,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122524,
+      "s": 122529,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120864,
+      "s": 120870,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
