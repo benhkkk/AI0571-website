@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'MODEL', d:'2026-11-24T08:28', t:'黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」', s:'黄仁勋重返英伟达 黄仁勋在美国当地时间 11 月 23 日重返英伟达总部，现场员工聚集在大厅高声欢呼，迎接这位创办人回归…（来源：极客公园）', u:'http://www.geekpark.net/news/374375'},
+    {c:'MODEL', d:'2026-11-24T07:52', t:'三星拟扩大西安工厂先进 NAND 产能、升级 V9 闪存产线，扩大面向 AI 数据中心的 eSSD 供应', s:'据《首尔经济日报》今日报道，三星电子计划将位于中国陕西西安的半导体工厂打造成面向人工智能（AI）数据中心企业级固态硬盘（…（来源：IT之家）', u:'https://www.ithome.com/1/031/258.htm'},
     {c:'MODEL', d:'2026-11-24T07:49', t:'Anthropic 推出 Claude Ship 测试版：AI 可自动审查、修复及批准代码', s:'据科技媒体 TechCrunch 昨天报道，Anthropic 现已推出 Claude Ship Beta 测试版。这是…（来源：IT之家）', u:'https://www.ithome.com/1/031/257.htm'},
     {c:'FUNDING', d:'2026-11-24T07:29', t:'Anthropic CEO 达里奥 · 阿莫代伊出售 337.8 万股股票，IPO 当天套现约 2.8 亿美元', s:'当地时间 11 月 23 日，美国证券交易委员会（SEC）披露的 Form 4 文件显示，Anthropic CEO 达…（来源：IT之家）', u:'https://www.ithome.com/1/031/253.htm'},
     {c:'MODEL', d:'2026-11-24T07:22', t:'IT早报 1124：英伟达恢复黄仁勋 CEO 职务；中国汽车在 39 国的份额超过日本汽车；3399 元起荣耀 700 系列手机发布；智谱 GLM-5.4 模型发布...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 24 日星期二，今天的重要科技资讯有：1. 英伟达董事会恢复黄…（来源：IT之家）', u:'https://www.ithome.com/1/031/252.htm'},
@@ -468,7 +470,6 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-24T07:00', t:'马斯克承认 AI 研发落后对手：出租 SpaceXSI 算力比自研 Grok 更赚钱', s:'据《纽约时报》当地时间 11 月 23 日报道，SpaceX 首席执行官埃隆・马斯克近日向员工表示，公司在人工智能（AI…（来源：IT之家）', u:'https://www.ithome.com/1/031/246.htm'},
     {c:'MODEL', d:'2026-11-24T06:37', t:'最高提速 290 倍：谷歌让 AI 智能体“开会”优化量子算法，缓解计算资源瓶颈', s:'谷歌 DeepMind 团队携手谷歌 Quantum AI 团队于昨日（11 月 23 日）发布联合研究成果，利用多组 …（来源：IT之家）', u:'https://www.ithome.com/1/031/232.htm'},
     {c:'HOT', d:'2026-11-23T23:47', t:'字节，该造手机了', s:'11 月 19 日，财联社援引供应链人士的消息称，富士康旗下的富智康已经拿到 OpenAI 手机的组装订单，首款产品有望…（来源：极客公园）', u:'http://www.geekpark.net/news/374374'},
-    {c:'MODEL', d:'2026-11-23T23:15', t:'手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排', s:'首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）', u:'https://www.ithome.com/1/031/228.htm'},
     {c:'MEDPHARMA', d:'2026-11-23T20:06', t:'AI制药提速，谁在A股端坐收红利?', s:'AI制药提速，谁在A股端坐收红利?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711275016263909928/'},
     {c:'MEDDEVICE', d:'2026-11-23T19:50', t:'2026医疗器械GMP数智化转型大会在北京举行', s:'2026医疗器械GMP数智化转型大会在北京举行（来源：头条设备AI）', u:'https://www.toutiao.com/article/7711332851526795802/'},
     {c:'MODEL', d:'2026-11-23T19:01', t:'实测：1450亿参数塞进笔记本，每秒狂飙80+Token！国产端侧大模型杀疯了', s:'零Token成本，断网也能自由Vibe Coding（来源：量子位）', u:'https://www.qbitai.com/2026/11/512195.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-23T18:36', t:'当AI接管网购，年轻人迷上外包砍价', s:'未来的购物入口藏在对话框里（来源：钛媒体）', u:'https://www.tmtpost.com/8214748.html'},
     {c:'MODEL', d:'2026-11-23T18:30', t:'智谱官宣 GLM-5.4：采用 Loop Transformer 架构、开启“泛 Coding”能力', s:'智谱官方刚刚发布了 GLM-5.4 的技术公告，把架构、数据、能力提升，以及限制都摆出来了。 先说最硬的一个数字：GLM…（来源：OSCHINA）', u:'https://www.oschina.net/news/503756'},
     {c:'INDUSTRY', d:'2026-11-23T17:54', t:'独家解读丨苦战三个月，AI办公经得起财报检验吗？', s:'AI办公，正在进入财报检验期。过去一个季度，大厂集中火力攻克这门AI应用生意。腾讯在Q3财报及业绩电话会中披露了Work…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html'},
-    {c:'HOT', d:'2026-11-23T17:53', t:'AI 降本增笑，全世界都在被迫接受审美大降级', s:'日本开始狂用 AI 了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1691079?utm_source=rss&utm_medium=rss&utm_campaign='},
   ];
   const TIMELINE = [
+    ['11-24 08:28','黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」'],
+    ['11-24 07:52','三星拟扩大西安工厂先进 NAND 产能、升级 V9 闪存产线，扩大面向 AI 数据中心的 eSSD 供应'],
     ['11-24 07:49','Anthropic 推出 Claude Ship 测试版：AI 可自动审查、修复及批准代码'],
     ['11-24 07:29','Anthropic CEO 达里奥 · 阿莫代伊出售 337.8 万股股票，IPO 当天套现约 2.8 亿美元'],
     ['11-24 07:22','IT早报 1124：英伟达恢复黄仁勋 CEO 职务；中国汽车在 39 国的份额超过日本汽车；3399 元起荣耀 700 系列手机发布；智谱 GLM-5.4 模型…'],
     ['11-24 07:20','【钛晨报】英伟达董事会一致同意恢复黄仁勋CEO职务；荣耀CEO李健：荣耀阔折叠明年3月发布｜独家；中汽协：1-10月，销量排名前十位的MPV生产企业共销售64.…'],
-    ['11-24 07:16','Nothing 首款 AI 原生硬件 Ear (note) 曝光：耳机盒内置麦克风，可录制线下会议'],
-    ['11-24 07:00','告别“重启才能修复”：OpenAI 携手思科开源 Shirudo，给 Linux 装上临时盾牌'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:331369, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:325037, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309572, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235312, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199466, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156824, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152533, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145522, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122408, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120653, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:331385, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:325058, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:309577, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235315, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:199473, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156826, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:152536, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145525, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122414, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:120661, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);

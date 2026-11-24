@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-24T08:03:19",
+  "updated": "2026-11-24T08:32:35",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-24T08:28",
+      "t": "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」",
+      "s": "黄仁勋重返英伟达 黄仁勋在美国当地时间 11 月 23 日重返英伟达总部，现场员工聚集在大厅高声欢呼，迎接这位创办人回归…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374375"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-24T07:52",
+      "t": "三星拟扩大西安工厂先进 NAND 产能、升级 V9 闪存产线，扩大面向 AI 数据中心的 eSSD 供应",
+      "s": "据《首尔经济日报》今日报道，三星电子计划将位于中国陕西西安的半导体工厂打造成面向人工智能（AI）数据中心企业级固态硬盘（…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/258.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-24T07:49",
@@ -65,13 +79,6 @@
       "u": "http://www.geekpark.net/news/374374"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-23T23:15",
-      "t": "手机只是开始：华为星芒刘赫确认 OSTA 品牌将推全场景产品，消息称小平板已安排",
-      "s": "首款为 AI 而生的鸿蒙手机 —— 华为星芒 OSTA O1 Pro 已于 11 月 20 日下午正式发布，叠加国补后 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/228.htm"
-    },
-    {
       "c": "MEDPHARMA",
       "d": "2026-11-23T20:06",
       "t": "AI制药提速，谁在A股端坐收红利?",
@@ -133,16 +140,17 @@
       "t": "独家解读丨苦战三个月，AI办公经得起财报检验吗？",
       "s": "AI办公，正在进入财报检验期。过去一个季度，大厂集中火力攻克这门AI应用生意。腾讯在Q3财报及业绩电话会中披露了Work…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/A2PIgIjrlQx63RSp.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-23T17:53",
-      "t": "AI 降本增笑，全世界都在被迫接受审美大降级",
-      "s": "日本开始狂用 AI 了#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1691079?utm_source=rss&utm_medium=rss&utm_campaign="
     }
   ],
   "timeline": [
+    [
+      "11-24 08:28",
+      "黄仁勋重返英伟达，市值涨31.48%；马斯克：AI 研发落后对手，出租算力比自研更赚钱；新一代 AI 模型更爱「爆粗口」"
+    ],
+    [
+      "11-24 07:52",
+      "三星拟扩大西安工厂先进 NAND 产能、升级 V9 闪存产线，扩大面向 AI 数据中心的 eSSD 供应"
+    ],
     [
       "11-24 07:49",
       "Anthropic 推出 Claude Ship 测试版：AI 可自动审查、修复及批准代码"
@@ -158,14 +166,6 @@
     [
       "11-24 07:20",
       "【钛晨报】英伟达董事会一致同意恢复黄仁勋CEO职务；荣耀CEO李健：荣耀阔折叠明年3月发布｜独家；中汽协：1-10月，销量排名前十位的MPV生产企业共销售64.…"
-    ],
-    [
-      "11-24 07:16",
-      "Nothing 首款 AI 原生硬件 Ear (note) 曝光：耳机盒内置麦克风，可录制线下会议"
-    ],
-    [
-      "11-24 07:00",
-      "告别“重启才能修复”：OpenAI 携手思科开源 Shirudo，给 Linux 装上临时盾牌"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331369,
+      "s": 331385,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325037,
+      "s": 325058,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309572,
+      "s": 309577,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235312,
+      "s": 235315,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199466,
+      "s": 199473,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156824,
+      "s": 156826,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152533,
+      "s": 152536,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145522,
+      "s": 145525,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122408,
+      "s": 122414,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120653,
+      "s": 120661,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
