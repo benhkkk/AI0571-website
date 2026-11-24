@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-24T21:01:51",
+  "updated": "2026-11-24T21:31:14",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-25T08:39",
+      "t": "新鲜感之后，陪伴机器人如何被用起来？",
+      "s": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8212446.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-24T21:11",
+      "t": "OpenAI“窃听”案更多细节浮出水面，当事沙特工程师借助 Codex 偷录重要会议",
+      "s": "据《商业内幕》今天（24 日）上午报道，检方披露，沙特籍 OpenAI 工程师阿卜杜勒拉赫曼 · 阿尔福赞曾试图利用氛围…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/867.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-24T21:09",
+      "t": "自变量发布具身基础模型WALL-OSS-1.0，自测零样本成功率55.1%",
+      "s": "“理解世界”与“执行动作”在同一模型中成形（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8216666.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-24T20:44",
@@ -49,13 +70,6 @@
       "t": "小米浏览器手机、Pad 官宣支持扩展程序：广告拦截、网页翻译、AI 助手、脚本管理",
       "s": "小米互联网官方微博今日宣布，小米浏览器手机、Pad 现已支持扩展程序：广告拦截、网页翻译、AI 助手、脚本管理菜单里一点…（来源：IT之家）",
       "u": "https://www.ithome.com/1/031/813.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-24T19:18",
-      "t": "消息称 OpenAI 与 Anthropic 员工警告：内部 AI 模型能力过于强大，无法安全发布",
-      "s": "据 Axios 报道，二十多名熟悉内部讨论的消息人士透露，Anthropic 和 OpenAI 正面临一个愈发紧迫的难题…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/811.htm"
     },
     {
       "c": "MODEL",
@@ -114,13 +128,6 @@
       "u": "https://www.tmtpost.com/8216201.html"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-24T17:10",
-      "t": "这些一流大模型，为什么选择不同的 Benchmark？",
-      "s": "Benchmark正成为观察各家AI战略押注的窗口之一。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8216115.html"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-24T17:09",
       "t": "在一个长期相信考试可以改变命运的社会里，AI 已经开始动摇人们对成绩的信任",
@@ -133,16 +140,21 @@
       "t": "RNOISE Prompt Forge V5.2 发布：零 LLM 确定性 AI 音乐 Prompt 编译器与 MCP 2.0 协议引擎",
       "s": "随着 Suno V6、Udio 2.0、Sonauto V2、DiffRhythm Pro 及 Stable Audio…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503778"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-24T16:36",
-      "t": "蚂蚁OceanBase交出六年政企成绩单：服务22个省级数字政府、三分之一央企核心系统",
-      "s": "随着人工智能加速进入政务与央国企核心业务，数据底座不仅要稳定承载关键系统，也开始支撑生产级AI应用。11月24日，蚂蚁O…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html"
     }
   ],
   "timeline": [
+    [
+      "11-25 08:39",
+      "新鲜感之后，陪伴机器人如何被用起来？"
+    ],
+    [
+      "11-24 21:11",
+      "OpenAI“窃听”案更多细节浮出水面，当事沙特工程师借助 Codex 偷录重要会议"
+    ],
+    [
+      "11-24 21:09",
+      "自变量发布具身基础模型WALL-OSS-1.0，自测零样本成功率55.1%"
+    ],
     [
       "11-24 20:44",
       "谷歌 Chrome 浏览器关闭后仍占用内存，元凶竟是 Gemini 相关功能"
@@ -154,18 +166,6 @@
     [
       "11-24 20:00",
       "暴涨之后迅速反转，Anthropic 盘前跌破 83 美元 IPO 发行价"
-    ],
-    [
-      "11-24 19:50",
-      "黄仁勋重掌英伟达，亚洲供应链、AI 创企信心大振"
-    ],
-    [
-      "11-24 19:46",
-      "小鹏放出 IRON 人形机器人预热视频：可自主拿起书本、倒酒、充电"
-    ],
-    [
-      "11-24 19:28",
-      "AI 指纹识别 + 9 种开锁方式：小米智能门锁 E30 星辰黑 999 → 501 元国补直降"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331855,
+      "s": 331872,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325574,
+      "s": 325596,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309900,
+      "s": 309910,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235414,
+      "s": 235417,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199711,
+      "s": 199719,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156896,
+      "s": 156900,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152767,
+      "s": 152778,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122557,
+      "s": 122563,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120925,
+      "s": 120933,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
