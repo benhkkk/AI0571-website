@@ -1,12 +1,12 @@
 {
-  "updated": "2026-11-24T20:31:10",
+  "updated": "2026-11-24T21:01:51",
   "news": [
     {
-      "c": "HOT",
-      "d": "2026-11-25T08:39",
-      "t": "新鲜感之后，陪伴机器人如何被用起来？",
-      "s": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8212446.html"
+      "c": "MODEL",
+      "d": "2026-11-24T20:44",
+      "t": "谷歌 Chrome 浏览器关闭后仍占用内存，元凶竟是 Gemini 相关功能",
+      "s": "说起吃内存大户，Chrome 常年榜上有名。谷歌对此心知肚明，于是在 2022 年的内存节省功能里，为每个标签页加入了内…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/863.htm"
     },
     {
       "c": "MODEL",
@@ -86,13 +86,6 @@
       "u": "https://www.tmtpost.com/8215280.html"
     },
     {
-      "c": "FUNDING",
-      "d": "2026-11-24T17:41",
-      "t": "AI 热潮引爆封装基板需求，韩国 7 家中型厂商合计投资 2.8 万亿韩元扩产",
-      "s": "据韩媒 The Elec 报道，受人工智能（AI）产业快速发展带动，全球半导体需求持续增长，封装基板供应紧张问题日益突出…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/715.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-24T17:36",
       "t": "MateClaw 3.1.0 发布：从执行架构升级，到技能经验与长任务可靠性完善",
@@ -140,12 +133,19 @@
       "t": "RNOISE Prompt Forge V5.2 发布：零 LLM 确定性 AI 音乐 Prompt 编译器与 MCP 2.0 协议引擎",
       "s": "随着 Suno V6、Udio 2.0、Sonauto V2、DiffRhythm Pro 及 Stable Audio…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503778"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-24T16:36",
+      "t": "蚂蚁OceanBase交出六年政企成绩单：服务22个省级数字政府、三分之一央企核心系统",
+      "s": "随着人工智能加速进入政务与央国企核心业务，数据底座不仅要稳定承载关键系统，也开始支撑生产级AI应用。11月24日，蚂蚁O…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/b7Pw487MPHsDMSyR.html"
     }
   ],
   "timeline": [
     [
-      "11-25 08:39",
-      "新鲜感之后，陪伴机器人如何被用起来？"
+      "11-24 20:44",
+      "谷歌 Chrome 浏览器关闭后仍占用内存，元凶竟是 Gemini 相关功能"
     ],
     [
       "11-24 20:26",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 331823,
+      "s": 331855,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325558,
+      "s": 325574,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 309878,
+      "s": 309900,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235412,
+      "s": 235414,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 199696,
+      "s": 199711,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156894,
+      "s": 156896,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 152753,
+      "s": 152767,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122554,
+      "s": 122557,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 120912,
+      "s": 120925,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
