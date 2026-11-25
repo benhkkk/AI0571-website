@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-25T15:02:02",
+  "updated": "2026-11-25T15:31:54",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-25T15:01",
+      "d": "2026-11-25T15:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
@@ -86,6 +86,13 @@
       "u": "https://www.ifanr.com/1691445?utm_source=rss&utm_medium=rss&utm_campaign"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-25T13:02",
+      "t": "荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走",
+      "s": "作者｜张勇毅 编辑｜郑玄 11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374462"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-11-25T12:29",
       "t": "AI制药，突破还是泡沫?",
@@ -133,18 +140,11 @@
       "t": "【Skyeye 云 V2.6.12 重磅更新】业财一体、3D仓库、AI业务、智慧门店、流程设计器等模块全面升级，效率倍增新体验",
       "s": "Skyeye 云企业级AI+零代码智能制造，智能制造一体化，采用 SpringBoot+ UNI-APP + Ant D…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503791"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-25T10:39",
-      "t": "我国医疗影像行业PEST:政策全链条支持、AI大模型重塑竞争规则",
-      "s": "我国医疗影像行业PEST:政策全链条支持、AI大模型重塑竞争规则（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7711932423721779763/"
     }
   ],
   "timeline": [
     [
-      "11-25 15:01",
+      "11-25 15:31",
       "50亿美元！AI制药再获资本重注"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332393,
+      "s": 332416,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326025,
+      "s": 326046,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310333,
+      "s": 310348,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235561,
+      "s": 235564,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200118,
+      "s": 200128,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156985,
+      "s": 156988,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153083,
+      "s": 153092,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145631,
+      "s": 145635,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122692,
+      "s": 122699,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121239,
+      "s": 121251,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
