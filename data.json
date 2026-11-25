@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T07:25:18",
+  "updated": "2026-11-26T07:31:46",
   "news": [
     {
       "c": "INDUSTRY",
@@ -10,10 +10,17 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-26T07:25",
+      "d": "2026-11-26T07:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-26T07:20",
+      "t": "【钛晨报】外媒称美国将对中国等十几个国家加征关税，外交部回应；美国10月核心PCE物价指数同比上涨3.3%，升至3年高位；小鹏机器人IRON计划2027年1月启动硬件量产",
+      "s": "中荷外长共识声明；两年来已有近30家机器人公司倒下；黄仁勋主持员工大会：英伟达不需要接班人计划；福特汽车证实与美国防部会…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8217786.html"
     },
     {
       "c": "HOT",
@@ -35,6 +42,13 @@
       "t": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
       "s": "商汤SenseNova U1.6（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/512748.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-25T23:28",
+      "t": "AI 医疗器械准备首次注册送检，先和注册服务商对齐这三件事",
+      "s": "AI 医疗器械准备首次注册送检，先和注册服务商对齐这三件事（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7712131046434783771/"
     },
     {
       "c": "HOT",
@@ -114,13 +128,6 @@
       "u": "https://www.toutiao.com/article/7712100550354928154/"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-25T20:29",
-      "t": "祥生医疗持续以人工智能赋能妇科超声",
-      "s": "祥生医疗持续以人工智能赋能妇科超声（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7712085094252544548/"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-25T19:13",
       "t": "特斯拉 FSD 欧盟审批会议推迟至 12 月 15 日举行",
@@ -133,13 +140,6 @@
       "t": "9400万参数硬刚50亿，权重显存直降98%！Loop架构被这家中国团队玩明白了",
       "s": "揭秘General Looped Model（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/512565.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T19:04",
-      "t": "元材新界发布 FrontierMat：330 道真实研发难题难住 GPT-6 Astra，自研跨尺度材料大模型登顶",
-      "s": "今年 10 月，在美国得克萨斯州的 SpaceX 测试基地，马斯克让一辆特斯拉 Roadster“飞”了起来。支撑这次腾…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/GMIW0ZLuJPyQHSR4.html"
     }
   ],
   "timeline": [
@@ -148,8 +148,12 @@
       "被红果改写的Q3财报季"
     ],
     [
-      "11-26 07:25",
+      "11-26 07:31",
       "50亿美元！AI制药再获资本重注"
+    ],
+    [
+      "11-26 07:20",
+      "【钛晨报】外媒称美国将对中国等十几个国家加征关税，外交部回应；美国10月核心PCE物价指数同比上涨3.3%，升至3年高位；小鹏机器人IRON计划2027年1月启…"
     ],
     [
       "11-26 07:07",
@@ -162,10 +166,6 @@
     [
       "11-26 00:34",
       "我以为这是摄影作品，你告诉我这是最新的国产AI？！"
-    ],
-    [
-      "11-25 22:51",
-      "丢个故事就行！直出15分钟AI短片，家里二舅也能上手"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332861,
+      "s": 332863,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326585,
+      "s": 326586,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310711,
+      "s": 310713,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235703,
+      "s": 235704,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200503,
+      "s": 200506,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153369,
+      "s": 153370,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122850,
+      "s": 122851,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121549,
+      "s": 121550,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
