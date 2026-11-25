@@ -1,12 +1,26 @@
 {
-  "updated": "2026-11-25T12:32:00",
+  "updated": "2026-11-25T13:01:54",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-25T12:31",
+      "d": "2026-11-25T13:01",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-25T12:33",
+      "t": "高盛：美国数据中心建设热潮有望持续至 2028 年，推高电力与天然气需求",
+      "s": "据智通财经报道，高盛集团表示，受人工智能热潮推动，美国数据中心电力容量的强劲增长态势有望持续至 2028 年。随着数据中…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/089.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-25T12:29",
+      "t": "AI制药，突破还是泡沫?",
+      "s": "AI制药，突破还是泡沫?（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7711961408820249098/"
     },
     {
       "c": "INDUSTRY",
@@ -100,11 +114,11 @@
       "u": "https://www.oschina.net/news/503791"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-25T10:44",
-      "t": "联想推出 1599 元来酷 AI 便携智慧屏闺蜜机：24.5 英寸 FHD 大屏、10W 双扬声器",
-      "s": "联想新推出了一款来酷 AI 便携智慧屏（闺蜜机），将于今晚 24 时开售，建议零售价 1799 元，首发 1599 元…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/970.htm"
+      "c": "MEDDEVICE",
+      "d": "2026-11-25T10:39",
+      "t": "我国医疗影像行业PEST:政策全链条支持、AI大模型重塑竞争规则",
+      "s": "我国医疗影像行业PEST:政策全链条支持、AI大模型重塑竞争规则（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7711932423721779763/"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,20 @@
       "t": "新鲜感之后，陪伴机器人如何被用起来？",
       "s": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8212446.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T08:29",
-      "t": "Edge AI Daily 早报（11月25日）",
-      "s": "OpenAI与Anthropic因安全证明暂缓前沿模型，发布转向可控性验证；Anthropic跌破发行价，AI估值进入资…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8216877.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T08:08",
-      "t": "早报｜黄仁勋复职后首开全员大会致歉/豆包推出AI个人助理「小豆」/华为鸿蒙终端突破1亿台",
-      "s": "· 华为发布 Mate X8、Mate 90 Air 和小折叠电脑 MateBook Fold S · 神舟二十四号任务…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1691400?utm_source=rss&utm_medium=rss&utm_campaign"
     }
   ],
   "timeline": [
     [
-      "11-25 12:31",
+      "11-25 13:01",
       "50亿美元！AI制药再获资本重注"
+    ],
+    [
+      "11-25 12:33",
+      "高盛：美国数据中心建设热潮有望持续至 2028 年，推高电力与天然气需求"
+    ],
+    [
+      "11-25 12:29",
+      "AI制药，突破还是泡沫?"
     ],
     [
       "11-25 12:08",
@@ -158,14 +166,6 @@
     [
       "11-25 11:57",
       "天钡带来 AMD 锐龙 AI 9 HX 470 版 WORK 迷你主机，集成 32GB LPDDR5"
-    ],
-    [
-      "11-25 11:41",
-      "OpenAI 眼中的新 AI 金矿：从写代码转向防黑客"
-    ],
-    [
-      "11-25 11:41",
-      "AI 时代，技术大会是否还需要门槛？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332305,
+      "s": 332319,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325942,
+      "s": 325952,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310275,
+      "s": 310286,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235540,
+      "s": 235542,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200063,
+      "s": 200077,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156969,
+      "s": 156970,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153049,
+      "s": 153052,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122673,
+      "s": 122676,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121195,
+      "s": 121200,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
