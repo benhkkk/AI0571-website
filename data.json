@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-25T17:01:51",
+  "updated": "2026-11-25T17:31:33",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T17:03",
+      "t": "2240 亿参数的 Hy4 flash 模型，现在能跑在 64GB 的 Mac mini 上",
+      "s": "腾讯混元在 11 月 25 日开源了 Hy4 flash 的 GGUF 量化权重和配套推理代码，工具是他们自己的压缩加速…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503813"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T16:58",
+      "t": "蔚来世界模型 NWM 3.0 发布：引入显式 + 隐式空间强化学习设计、汽车控制时延进一步降低",
+      "s": "在今天的 NIO IN 2026 蔚来创新科技日中，蔚来正式发布世界模型 NWM 3.0，该版本在模型架构、闭环训练、跨…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/345.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-25T16:33",
@@ -38,6 +52,20 @@
     },
     {
       "c": "MODEL",
+      "d": "2026-11-25T16:23",
+      "t": "Anthropic还藏着2个最强模型…",
+      "s": "Fable5.2已经很旧了。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512538.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-25T16:18",
+      "t": "完整议程！第二十一届中国IDC产业年度大典（IDCC2026）",
+      "s": "第二十一届中国IDC产业年度大典（IDCC2026）暨2026全球数字基础设施科技展即将举办（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512532.html"
+    },
+    {
+      "c": "MODEL",
       "d": "2026-11-25T16:16",
       "t": "小鹏 IRON 人形机器人官宣明年 Q2 正式对外发布，Q1 率先在小鹏国内门店实习",
       "s": "11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏集团董事长、CEO 何小鹏宣布…（来源：IT之家）",
@@ -56,6 +84,13 @@
       "t": "小鹏高阶通用人形机器人 IRON 真机亮相：再秀自然步伐，全身 76 自由度，不同部位软硬度不同",
       "s": "11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏高阶通用人形机器人 IRON …（来源：IT之家）",
       "u": "https://www.ithome.com/1/032/164.htm"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-25T15:46",
+      "t": "A社Tibo被曝加盟OpenAI！上市前离职三人组异地团圆",
+      "s": "OpenAI这下要有俩Tibo了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512515.html"
     },
     {
       "c": "MODEL",
@@ -79,11 +114,18 @@
       "u": "https://www.ithome.com/1/032/153.htm"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-25T15:30",
-      "t": "小米 CFO 林世伟：小米 AI 相关收入持续增加，今年 160 亿元投入正稳健落地",
-      "s": "据人民财讯报道，小米集团 CFO 林世伟昨晚在财报电话会上表示，小米对 AI 的投入非常坚决，今年将在 AI 领域投入 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/151.htm"
+      "c": "HOT",
+      "d": "2026-11-25T15:12",
+      "t": "从 AGI 到 ASI，DeepMind 提出让 AI 自己「开公司」、重塑组织架构，自己进化",
+      "s": "100 个 AI 联合做题竟学会「集体作弊」？谷歌抛出 ASI 演进新框架，揭示组织化进化的恐怖与隐忧。 作者丨郑佳美 …（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/12hVnzl8xc2Hblwx.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T15:01",
+      "t": "OpenAI 联手 AMD，在旗舰 GPU 中抠出 14% 物理极限",
+      "s": "不到 5 个月完成约 1 年工程进展，从自研推理芯片 Jalapeño 到商用流片，大模型正式接管前端微架构。 作者丨郑…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/9tAw4Cw8AcxtFzUm.html"
     },
     {
       "c": "HOT",
@@ -98,51 +140,17 @@
       "t": "AI能力突飞猛进，企业为何还没释放数据生产力？",
       "s": "能否像认真对待模型一样，认真对待自己的数据，正在决定一家企业AI转型的成败。过去两年，大模型能力快速跃升、调用成本持续走…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/4Q0TOJ3F8a95ZXGq.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T14:27",
-      "t": "🔥 Jync v2.4.6 · AI 运维助手与大表同步增强",
-      "s": "本版概要 v2.4.6 让 AI 运维助手可以查询逐表状态并通过确认卡调整任务参数，重做大表全量、行数核对与 CDC 基…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503802"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T14:09",
-      "t": "phimint：Rust 写的终端 AI 编程 agent — 获旋武社区「Rust 开源项目推荐」栏目刊文推荐",
-      "s": "2026-11-24，旋武社区（开放原子开源基金会旗下的 Rust 中国社区）「Rust 开源项目推荐」栏目刊文推荐了 …（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503801"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T13:21",
-      "t": "Seedance 2.5 级别，价格只要 1/10，我们实测了计划开源的 MAGI-2",
-      "s": "AI 视频「烧钱」终结者#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1691445?utm_source=rss&utm_medium=rss&utm_campaign"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-25T12:29",
-      "t": "AI制药，突破还是泡沫?",
-      "s": "AI制药，突破还是泡沫?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7711961408820249098/"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-25T11:41",
-      "t": "AI 时代，技术大会是否还需要门槛？",
-      "s": "“GOTC 办了五年，这是现场第一次出现‘10 后’。” GOTC，the Global Open-source Tec…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503797"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-25T11:32",
-      "t": "手机、汽车、AI，小米需要一场新的增长接力",
-      "s": "从手机到汽车再到AI，小米在寻找下一个增长点，但恰巧碰到了消费电子的下行周期。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8216871.html"
     }
   ],
   "timeline": [
+    [
+      "11-25 17:03",
+      "2240 亿参数的 Hy4 flash 模型，现在能跑在 64GB 的 Mac mini 上"
+    ],
+    [
+      "11-25 16:58",
+      "蔚来世界模型 NWM 3.0 发布：引入显式 + 隐式空间强化学习设计、汽车控制时延进一步降低"
+    ],
     [
       "11-25 16:33",
       "行业首次：小鹏 IRON 人形机器人将亲自主持 2026 广州车展发布会"
@@ -158,14 +166,6 @@
     [
       "11-25 16:32",
       "9520亿美元，英伟达买回一张担保函"
-    ],
-    [
-      "11-25 16:26",
-      "蔚来李斌：汽车产业，将会是体量最大的 AI 应用产业"
-    ],
-    [
-      "11-25 16:16",
-      "小鹏 IRON 人形机器人官宣明年 Q2 正式对外发布，Q1 率先在小鹏国内门店实习"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332476,
+      "s": 332504,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326115,
+      "s": 326144,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310400,
+      "s": 310411,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235584,
+      "s": 235590,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200178,
+      "s": 200184,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156994,
+      "s": 156998,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153119,
+      "s": 153128,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145643,
+      "s": 145644,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122713,
+      "s": 122716,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121283,
+      "s": 121302,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
