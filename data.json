@@ -1,12 +1,26 @@
 {
-  "updated": "2026-11-25T12:02:24",
+  "updated": "2026-11-25T12:24:06",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-25T12:02",
+      "d": "2026-11-25T12:24",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T11:57",
+      "t": "天钡带来 AMD 锐龙 AI 9 HX 470 版 WORK 迷你主机，集成 32GB LPDDR5",
+      "s": "天钡 (AOOSTAR) 昨日推出了基于 AMD 锐龙 7 H 255 处理器的 WORK H255 工作站迷你主机。而…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/014.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T11:41",
+      "t": "OpenAI 眼中的新 AI 金矿：从写代码转向防黑客",
+      "s": "科技媒体 The Information 昨日（11 月 24 日）发布博文，报道称 OpenAI 正把网络安全视为可能…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/989.htm"
     },
     {
       "c": "INDUSTRY",
@@ -107,18 +121,11 @@
       "u": "https://www.tmtpost.com/8216958.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-25T09:24",
-      "t": "陈睿谈短内容冲击：B站是 AI 时代最受益的平台之一，用户数仍会持续增加",
-      "s": "据新浪科技今天报道，哔哩哔哩（B站）董事长兼 CEO 陈睿在公司 2026 年第三季度财报中表示，社区是B站最强的特质…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/942.htm"
-    },
-    {
       "c": "MODEL",
-      "d": "2026-11-25T09:04",
-      "t": "荣耀 Magic 9 Lite+ 5G 手机曝光：9530mAh 电池、8.08 毫米厚、1.08 亿像素主摄",
-      "s": "科技媒体 91Mobile 于 11 月 23 日发布博文，分享了一组渲染图，展示了欧洲版荣耀 Magic 9 Lite…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/939.htm"
+      "d": "2026-11-25T08:44",
+      "t": "豆包个人 AI 助理「小豆」开启公测；存储承压，小米三季度经调整净利润下滑近六成；红果短剧上线时间管理功能 | 极客早知道",
+      "s": "豆包旗下 AI 个人助理「小豆」开启公测，能够帮你处理日常事务 11 月 24 日消息，豆包官方今天宣布「小豆」正式开启…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374438"
     },
     {
       "c": "HOT",
@@ -133,19 +140,20 @@
       "t": "Edge AI Daily 早报（11月25日）",
       "s": "OpenAI与Anthropic因安全证明暂缓前沿模型，发布转向可控性验证；Anthropic跌破发行价，AI估值进入资…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8216877.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T08:08",
-      "t": "早报｜黄仁勋复职后首开全员大会致歉/豆包推出AI个人助理「小豆」/华为鸿蒙终端突破1亿台",
-      "s": "· 华为发布 Mate X8、Mate 90 Air 和小折叠电脑 MateBook Fold S · 神舟二十四号任务…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1691400?utm_source=rss&utm_medium=rss&utm_campaign"
     }
   ],
   "timeline": [
     [
-      "11-25 12:02",
+      "11-25 12:24",
       "50亿美元！AI制药再获资本重注"
+    ],
+    [
+      "11-25 11:57",
+      "天钡带来 AMD 锐龙 AI 9 HX 470 版 WORK 迷你主机，集成 32GB LPDDR5"
+    ],
+    [
+      "11-25 11:41",
+      "OpenAI 眼中的新 AI 金矿：从写代码转向防黑客"
     ],
     [
       "11-25 11:41",
@@ -158,14 +166,6 @@
     [
       "11-25 11:29",
       "“人类史上最大 IPO”上市不到 1 周就破发，Anthropic 跌破 83 美元发行价"
-    ],
-    [
-      "11-25 11:24",
-      "AI制药迎强力加持?GPT-6展现蛋白质设计能力 无需调用垂直模型"
-    ],
-    [
-      "11-25 11:12",
-      "网易 AI 语音输入法“叭哥说”移动版上线：主打口语整理，承诺终身免费无广告"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332297,
+      "s": 332299,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325925,
+      "s": 325936,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310265,
+      "s": 310272,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235536,
+      "s": 235538,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200053,
+      "s": 200059,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156965,
+      "s": 156966,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153045,
+      "s": 153046,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122673,
+      "s": 122672,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121187,
+      "s": 121192,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
