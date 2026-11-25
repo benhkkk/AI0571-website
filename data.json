@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-25T17:31:33",
+  "updated": "2026-11-25T18:02:08",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T17:32",
+      "t": "AI加速酒店从标准化到\"千店千策\"，中国饭店协会联合千问办公发布酒旅行业白皮书",
+      "s": "11 月 25 日，在2026中国饭店业高质量大会上，中国饭店协会联合千问办公发布《酒旅行业白皮书——从岗位、门店到千城…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/PiVtVm8Sy8CGtTb1.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-25T17:03",
@@ -133,16 +140,13 @@
       "t": "华人计算机视觉泰斗二次创业！离开苹果下场，专注下一代空间与物理AI",
       "s": "复杂场景三维建模成本降至10美元以内（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/512498.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T14:49",
-      "t": "AI能力突飞猛进，企业为何还没释放数据生产力？",
-      "s": "能否像认真对待模型一样，认真对待自己的数据，正在决定一家企业AI转型的成败。过去两年，大模型能力快速跃升、调用成本持续走…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/4Q0TOJ3F8a95ZXGq.html"
     }
   ],
   "timeline": [
+    [
+      "11-25 17:32",
+      "AI加速酒店从标准化到\"千店千策\"，中国饭店协会联合千问办公发布酒旅行业白皮书"
+    ],
     [
       "11-25 17:03",
       "2240 亿参数的 Hy4 flash 模型，现在能跑在 64GB 的 Mac mini 上"
@@ -162,10 +166,6 @@
     [
       "11-25 16:32",
       "AI 时代的腾讯：用金扁担，挑旧粪"
-    ],
-    [
-      "11-25 16:32",
-      "9520亿美元，英伟达买回一张担保函"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332504,
+      "s": 332525,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326144,
+      "s": 326165,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310411,
+      "s": 310420,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235590,
+      "s": 235601,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200184,
+      "s": 200196,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156998,
+      "s": 157003,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153128,
+      "s": 153135,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145644,
+      "s": 145645,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122716,
+      "s": 122720,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121302,
+      "s": 121313,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
