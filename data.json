@@ -1,12 +1,19 @@
 {
-  "updated": "2026-11-25T14:01:54",
+  "updated": "2026-11-25T14:31:30",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-25T14:01",
+      "d": "2026-11-25T14:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T14:09",
+      "t": "phimint：Rust 写的终端 AI 编程 agent — 获旋武社区「Rust 开源项目推荐」栏目刊文推荐",
+      "s": "2026-11-24，旋武社区（开放原子开源基金会旗下的 Rust 中国社区）「Rust 开源项目推荐」栏目刊文推荐了 …（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503801"
     },
     {
       "c": "MODEL",
@@ -49,6 +56,13 @@
       "t": "AI 芯片挤占消费级 GPU 产能，英伟达被曝缩减 RTX 50 系列显卡供货量",
       "s": "英伟达 AI 芯片供应持续紧张，正在进一步挤压消费级显卡的供货空间。据中国台湾《工商时报》今日报道，ODM 厂商透露，英…（来源：IT之家）",
       "u": "https://www.ithome.com/1/032/097.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T13:02",
+      "t": "荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走",
+      "s": "作者｜张勇毅 编辑｜郑玄 11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374462"
     },
     {
       "c": "HOT",
@@ -94,10 +108,10 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-25T11:21",
+      "d": "2026-11-25T11:24",
       "t": "AI制药迎强力加持?GPT-6展现蛋白质设计能力 无需调用垂直模型",
       "s": "AI制药迎强力加持?GPT-6展现蛋白质设计能力 无需调用垂直模型（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7711944015356117555/"
+      "u": "https://www.toutiao.com/article/7711944838229180991/"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,16 @@
       "t": "我国医疗影像行业PEST:政策全链条支持、AI大模型重塑竞争规则",
       "s": "我国医疗影像行业PEST:政策全链条支持、AI大模型重塑竞争规则（来源：头条设备AI）",
       "u": "https://www.toutiao.com/article/7711932423721779763/"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-25T10:28",
-      "t": "千问Go全面开放免费代打电话服务，支持订餐厅、找快递、寻失物",
-      "s": "11月25日，千问Go全面开放代打电话服务，人人都能免费拥有一个帮自己打电话的专属AI助手。告知千问拨打对象和通话需求…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/L9rc3Khgc8pFgYtD.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T09:51",
-      "t": "CCF HPC 2026访谈：HPC与AI需求推动算力走向系统协同",
-      "s": "过去两年，从 ChatGPT 到国内外各路大模型百舸争流，AI 从只会聊天的机器人，一路长成了能看图、能听声、能剪视频的…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/yHCLu9wEjr4z9AgA.html"
     }
   ],
   "timeline": [
     [
-      "11-25 14:01",
+      "11-25 14:31",
       "50亿美元！AI制药再获资本重注"
+    ],
+    [
+      "11-25 14:09",
+      "phimint：Rust 写的终端 AI 编程 agent — 获旋武社区「Rust 开源项目推荐」栏目刊文推荐"
     ],
     [
       "11-25 13:58",
@@ -162,10 +166,6 @@
     [
       "11-25 13:36",
       "约 1/9 体积保留 93.7% 编程能力：Bonsai 2.5 27B AI 模型登场，手机、电脑都能跑"
-    ],
-    [
-      "11-25 13:21",
-      "Seedance 2.5 级别，价格只要 1/10，我们实测了计划开源的 MAGI-2"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332346,
+      "s": 332368,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325982,
+      "s": 326000,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310307,
+      "s": 310323,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235549,
+      "s": 235557,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200099,
+      "s": 200109,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156977,
+      "s": 156983,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153067,
+      "s": 153074,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145626,
+      "s": 145628,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122687,
+      "s": 122689,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121219,
+      "s": 121230,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
