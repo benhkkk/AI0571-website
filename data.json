@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-25T10:31:14",
+  "updated": "2026-11-25T11:02:12",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T10:58",
+      "t": "百度大模型文心 5.5 Flash Preview 正式开源",
+      "s": "百度把文心 5.5 Flash Preview 的权重开放出来了。 11 月 24 日，官方发布开源公告，称面向全球开源…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503792"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T10:32",
+      "t": "开源办公套件 LibreOffice 新规：用 AI 开发写代码，需先申请、后提交",
+      "s": "开源办公套件 LibreOffice 的维护方“文档基金会”（The Document Foundation，TDF）于…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/031/965.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-25T10:16",
@@ -94,13 +108,6 @@
     },
     {
       "c": "MODEL",
-      "d": "2026-11-25T07:20",
-      "t": "IT早报 1125：最高 883 元用一天鸿蒙奖 1 元；黄仁勋承认多段婚外情并向英伟达董事会致歉；12999 元起华为 Mate X8 折叠屏发布；曝豆包灰测购物一级入口...",
-      "s": "“IT早报”时间，大家好，现在是 2026 年 11 月 25 日星期三，今天的重要科技资讯有：1. 华为“发钱”了：鸿…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/031/912.htm"
-    },
-    {
-      "c": "MODEL",
       "d": "2026-11-24T21:09",
       "t": "自变量发布具身基础模型WALL-OSS-1.0，自测零样本成功率55.1%",
       "s": "“理解世界”与“执行动作”在同一模型中成形（来源：钛媒体）",
@@ -133,16 +140,17 @@
       "t": "黄仁勋回归，AI泡沫是否继续？",
       "s": "一场关于AI商业价值的真正考验才刚刚开始。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8215280.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-24T17:36",
-      "t": "MateClaw 3.1.0 发布：从执行架构升级，到技能经验与长任务可靠性完善",
-      "s": "MateClaw 3.1.0 发布：从执行架构升级，到技能经验与长任务可靠性完善 MateClaw 是一个开源 AI 助…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503782"
     }
   ],
   "timeline": [
+    [
+      "11-25 10:58",
+      "百度大模型文心 5.5 Flash Preview 正式开源"
+    ],
+    [
+      "11-25 10:32",
+      "开源办公套件 LibreOffice 新规：用 AI 开发写代码，需先申请、后提交"
+    ],
     [
       "11-25 10:16",
       "“AI 教父”杨立昆怒怼 Anthropic CEO 阿莫迪：炒作 AI 危险论，只是让自己掌握控制权"
@@ -158,14 +166,6 @@
     [
       "11-25 09:04",
       "荣耀 Magic 9 Lite+ 5G 手机曝光：9530mAh 电池、8.08 毫米厚、1.08 亿像素主摄"
-    ],
-    [
-      "11-25 08:44",
-      "豆包个人 AI 助理「小豆」开启公测；存储承压，小米三季度经调整净利润下滑近六成；红果短剧上线时间管理功能 | 极客早知道"
-    ],
-    [
-      "11-25 08:39",
-      "新鲜感之后，陪伴机器人如何被用起来？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332237,
+      "s": 332263,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 325876,
+      "s": 325897,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310238,
+      "s": 310246,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235528,
+      "s": 235531,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200019,
+      "s": 200035,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 156958,
+      "s": 156959,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153025,
+      "s": 153034,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145609,
+      "s": 145614,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121152,
+      "s": 121159,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
