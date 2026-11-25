@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-26T07:02:03",
+  "updated": "2026-11-26T07:25:18",
   "news": [
     {
       "c": "INDUSTRY",
@@ -10,10 +10,24 @@
     },
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-26T07:01",
+      "d": "2026-11-26T07:25",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-26T07:07",
+      "t": "美国纽约州暂停 AI 聊天玩具销售 5 年，违规厂商每日最高罚 15000 美元",
+      "s": "据 ABC7 New York 网站 11 月 25 日报道，当地时间 11 月 24 日，美国纽约州州长凯西・霍楚尔（…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/540.htm"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-26T07:07",
+      "t": "准确率从 4% 暴涨至 97%！谷歌 DeepMind 给 AI 装上“化学外挂”，解锁质谱分析技能",
+      "s": "谷歌联合分析化学家、基于社区开源工具打造了 Mass Spec Skills，面向 Google Antigravity…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/535.htm"
     },
     {
       "c": "HOT",
@@ -100,6 +114,13 @@
       "u": "https://www.toutiao.com/article/7712100550354928154/"
     },
     {
+      "c": "MEDDEVICE",
+      "d": "2026-11-25T20:29",
+      "t": "祥生医疗持续以人工智能赋能妇科超声",
+      "s": "祥生医疗持续以人工智能赋能妇科超声（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7712085094252544548/"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-25T19:13",
       "t": "特斯拉 FSD 欧盟审批会议推迟至 12 月 15 日举行",
@@ -119,27 +140,6 @@
       "t": "元材新界发布 FrontierMat：330 道真实研发难题难住 GPT-6 Astra，自研跨尺度材料大模型登顶",
       "s": "今年 10 月，在美国得克萨斯州的 SpaceX 测试基地，马斯克让一辆特斯拉 Roadster“飞”了起来。支撑这次腾…（来源：雷锋网）",
       "u": "https://www.leiphone.com/category/industrynews/GMIW0ZLuJPyQHSR4.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-25T18:56",
-      "t": "破发！但这仅仅是Anthropic要填的七个大坑之一",
-      "s": "游戏才刚刚开始（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8217094.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T18:37",
-      "t": "英伟达开放 Nemotron-Labs-Image-30B-A3B 生图 AI 模型权重：某些跑分超 GPT Image 2",
-      "s": "科技媒体 Wccftech 今天（11 月 25 日）发布博文，报道称英伟达在 Hugging Face 平台悄然公开了…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/444.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-25T18:26",
-      "t": "影石 Luna Ultra 云台相机官宣支持荣耀一碰传，已支持 Magic9 系列手机",
-      "s": "影石 Insta360 昨日宣布，拍完不用等，影石 Luna Ultra 全新支持荣耀一碰传。据介绍，在 Luna Ul…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/441.htm"
     }
   ],
   "timeline": [
@@ -148,8 +148,16 @@
       "被红果改写的Q3财报季"
     ],
     [
-      "11-26 07:01",
+      "11-26 07:25",
       "50亿美元！AI制药再获资本重注"
+    ],
+    [
+      "11-26 07:07",
+      "美国纽约州暂停 AI 聊天玩具销售 5 年，违规厂商每日最高罚 15000 美元"
+    ],
+    [
+      "11-26 07:07",
+      "准确率从 4% 暴涨至 97%！谷歌 DeepMind 给 AI 装上“化学外挂”，解锁质谱分析技能"
     ],
     [
       "11-26 00:34",
@@ -158,14 +166,6 @@
     [
       "11-25 22:51",
       "丢个故事就行！直出15分钟AI短片，家里二舅也能上手"
-    ],
-    [
-      "11-25 22:45",
-      "态度反转：消息称亚马逊与 Meta 洽谈合作，或将开放商城给 Muse AI 购物助手"
-    ],
-    [
-      "11-25 22:32",
-      "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332847,
+      "s": 332861,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326571,
+      "s": 326585,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310697,
+      "s": 310711,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235701,
+      "s": 235703,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200495,
+      "s": 200503,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157079,
+      "s": 157081,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153359,
+      "s": 153369,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145702,
+      "s": 145706,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122844,
+      "s": 122850,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121543,
+      "s": 121549,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
