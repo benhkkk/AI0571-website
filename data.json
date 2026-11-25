@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-25T19:02:14",
+  "updated": "2026-11-25T19:32:01",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-25T19:13",
+      "t": "特斯拉 FSD 欧盟审批会议推迟至 12 月 15 日举行",
+      "s": "据路透社报道，欧盟委员会一名发言人当地时间周三证实，原本将审议特斯拉自动驾驶辅助系统（FSD）在全欧盟获批申请的会议，推…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/466.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-25T18:56",
@@ -65,20 +72,6 @@
       "u": "https://www.ithome.com/1/032/404.htm"
     },
     {
-      "c": "MEDDEVICE",
-      "d": "2026-11-25T18:00",
-      "t": "医疗AI风向:从\"拿证\"到\"体系\"，两个非技术变量开始决定落地",
-      "s": "医疗AI风向:从\"拿证\"到\"体系\"，两个非技术变量开始决定落地（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7711941726331519498/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-25T17:33",
-      "t": "Plaud、影石、小红书、Looki......我们发起了一场 AI 硬件圈的年度聚会",
-      "s": "在模型飞速演进的 2026 年，硬件世界反而开始告别「爽文叙事」。 前两年聊 AI 硬件，行业里经常讨论做出一个取代智能…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374487"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-25T17:03",
       "t": "2240 亿参数的 Hy4 flash 模型，现在能跑在 64GB 的 Mac mini 上",
@@ -114,20 +107,6 @@
       "u": "https://www.tmtpost.com/8216751.html"
     },
     {
-      "c": "INDUSTRY",
-      "d": "2026-11-25T16:32",
-      "t": "9520亿美元，英伟达买回一张担保函",
-      "s": "市场定价的，或许从来不是AI泡沫，而是谁在给泡沫签字。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8216475.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-25T16:26",
-      "t": "蔚来李斌：汽车产业，将会是体量最大的 AI 应用产业",
-      "s": "今天是蔚来公司十二周年，2026 NIO IN 蔚来创新科技日正在进行中。蔚来创始人、董事长、CEO 李斌发表演讲，称汽…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/225.htm"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-25T16:23",
       "t": "Anthropic还藏着2个最强模型…",
@@ -140,9 +119,34 @@
       "t": "完整议程！第二十一届中国IDC产业年度大典（IDCC2026）",
       "s": "第二十一届中国IDC产业年度大典（IDCC2026）暨2026全球数字基础设施科技展即将举办（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/512532.html"
+    },
+    {
+      "c": "FUNDING",
+      "d": "2026-11-25T15:46",
+      "t": "A社Tibo被曝加盟OpenAI！上市前离职三人组异地团圆",
+      "s": "OpenAI这下要有俩Tibo了（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512515.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-25T15:40",
+      "t": "开源 AI 编程工具 T3 Code 被扒出“偷数据”",
+      "s": "T3 Code 近日这场风波，起点不是隐私，是商标。 11 月 20 日，中文开发者「开源小新」（账号 DDdxx666…（来源：OSCHINA）",
+      "u": "https://www.oschina.net/news/503805"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-25T15:12",
+      "t": "从 AGI 到 ASI，DeepMind 提出让 AI 自己「开公司」、重塑组织架构，自己进化",
+      "s": "100 个 AI 联合做题竟学会「集体作弊」？谷歌抛出 ASI 演进新框架，揭示组织化进化的恐怖与隐忧。 作者丨郑佳美 …（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/12hVnzl8xc2Hblwx.html"
     }
   ],
   "timeline": [
+    [
+      "11-25 19:13",
+      "特斯拉 FSD 欧盟审批会议推迟至 12 月 15 日举行"
+    ],
     [
       "11-25 18:56",
       "破发！但这仅仅是Anthropic要填的七个大坑之一"
@@ -162,10 +166,6 @@
     [
       "11-25 18:23",
       "豆包侧边栏放进购物入口：大厂AI，只做翻译，不当主人"
-    ],
-    [
-      "11-25 18:23",
-      "小米继续加码AI，MiMo靠什么回本？"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332549,
+      "s": 332559,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326196,
+      "s": 326211,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310436,
+      "s": 310448,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235609,
+      "s": 235613,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200223,
+      "s": 200231,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157008,
+      "s": 157010,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153153,
+      "s": 153160,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145652,
+      "s": 145657,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122728,
+      "s": 122734,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121335,
+      "s": 121346,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
