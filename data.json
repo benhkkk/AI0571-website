@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-26T02:02:01",
+  "updated": "2026-11-26T02:31:21",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-26T02:01",
+      "d": "2026-11-26T02:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
@@ -35,6 +35,13 @@
       "t": "态度反转：消息称亚马逊与 Meta 洽谈合作，或将开放商城给 Muse AI 购物助手",
       "s": "有消息显示，亚马逊对 Meta 旗下 AI 智能体 Muse 的态度或许正在转变。两大巨头正在洽谈一项合作，希望让 Mu…（来源：IT之家）",
       "u": "https://www.ithome.com/1/032/515.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-25T22:38",
+      "t": "被红果改写的Q3财报季",
+      "s": "二线大厂的冬天：砍成本，赌AI（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8216958.html"
     },
     {
       "c": "MODEL",
@@ -133,18 +140,11 @@
       "t": "英伟达开放 Nemotron-Labs-Image-30B-A3B 生图 AI 模型权重：某些跑分超 GPT Image 2",
       "s": "科技媒体 Wccftech 今天（11 月 25 日）发布博文，报道称英伟达在 Hugging Face 平台悄然公开了…（来源：IT之家）",
       "u": "https://www.ithome.com/1/032/444.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-25T18:26",
-      "t": "影石 Luna Ultra 云台相机官宣支持荣耀一碰传，已支持 Magic9 系列手机",
-      "s": "影石 Insta360 昨日宣布，拍完不用等，影石 Luna Ultra 全新支持荣耀一碰传。据介绍，在 Luna Ul…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/441.htm"
     }
   ],
   "timeline": [
     [
-      "11-26 02:01",
+      "11-26 02:31",
       "50亿美元！AI制药再获资本重注"
     ],
     [
@@ -164,8 +164,8 @@
       "态度反转：消息称亚马逊与 Meta 洽谈合作，或将开放商城给 Muse AI 购物助手"
     ],
     [
-      "11-25 22:32",
-      "零基础也能做开发，智元灵心平台一年孵化超3万个机器人智能体"
+      "11-25 22:38",
+      "被红果改写的Q3财报季"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332739,
+      "s": 332754,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326425,
+      "s": 326448,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310592,
+      "s": 310608,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235663,
+      "s": 235666,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200383,
+      "s": 200398,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157043,
+      "s": 157045,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153267,
+      "s": 153278,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122797,
+      "s": 122800,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121461,
+      "s": 121471,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
