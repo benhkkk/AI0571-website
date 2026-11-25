@@ -1,9 +1,16 @@
 {
-  "updated": "2026-11-26T06:01:38",
+  "updated": "2026-11-26T06:31:45",
   "news": [
     {
+      "c": "INDUSTRY",
+      "d": "2026-11-26T11:38",
+      "t": "被红果改写的Q3财报季",
+      "s": "二线大厂的冬天：砍成本，赌AI（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8216958.html"
+    },
+    {
       "c": "MEDPHARMA",
-      "d": "2026-11-26T06:01",
+      "d": "2026-11-26T06:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
@@ -14,13 +21,6 @@
       "t": "我以为这是摄影作品，你告诉我这是最新的国产AI？！",
       "s": "商汤SenseNova U1.6（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/512748.html"
-    },
-    {
-      "c": "MEDDEVICE",
-      "d": "2026-11-25T23:28",
-      "t": "AI 医疗器械准备首次注册送检，先和注册服务商对齐这三件事",
-      "s": "AI 医疗器械准备首次注册送检，先和注册服务商对齐这三件事（来源：头条设备AI）",
-      "u": "https://www.toutiao.com/article/7712131046434783771/"
     },
     {
       "c": "HOT",
@@ -100,11 +100,11 @@
       "u": "https://www.toutiao.com/article/7712100550354928154/"
     },
     {
-      "c": "MEDPHARMA",
-      "d": "2026-11-25T21:11",
-      "t": "医疗AI进医院，模型高分还不够",
-      "s": "医疗AI正在从医学知识问答和特定疾病识别，进一步进入医疗服务的实际流程。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8217765.html"
+      "c": "MEDDEVICE",
+      "d": "2026-11-25T20:29",
+      "t": "祥生医疗持续以人工智能赋能妇科超声",
+      "s": "祥生医疗持续以人工智能赋能妇科超声（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7712085094252544548/"
     },
     {
       "c": "HOT",
@@ -144,16 +144,16 @@
   ],
   "timeline": [
     [
-      "11-26 06:01",
+      "11-26 11:38",
+      "被红果改写的Q3财报季"
+    ],
+    [
+      "11-26 06:31",
       "50亿美元！AI制药再获资本重注"
     ],
     [
       "11-26 00:34",
       "我以为这是摄影作品，你告诉我这是最新的国产AI？！"
-    ],
-    [
-      "11-25 23:28",
-      "AI 医疗器械准备首次注册送检，先和注册服务商对齐这三件事"
     ],
     [
       "11-25 22:51",
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 332830,
+      "s": 332837,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326545,
+      "s": 326552,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310680,
+      "s": 310691,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235695,
+      "s": 235697,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200476,
+      "s": 200486,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157066,
+      "s": 157075,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153343,
+      "s": 153351,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145698,
+      "s": 145701,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122835,
+      "s": 122841,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121523,
+      "s": 121533,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
