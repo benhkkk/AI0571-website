@@ -459,7 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-11-25T16:01', t:'50亿美元！AI制药再获资本重注', s:'50亿美元！AI制药再获资本重注（来源：药智新闻）', u:'https://news.yaozh.com/archive/49435.html'},
+    {c:'MEDPHARMA', d:'2026-11-25T16:31', t:'50亿美元！AI制药再获资本重注', s:'50亿美元！AI制药再获资本重注（来源：药智新闻）', u:'https://news.yaozh.com/archive/49435.html'},
+    {c:'HOT', d:'2026-11-25T15:50', t:'小鹏高阶通用人形机器人 IRON 真机亮相：再秀自然步伐，全身 76 自由度，不同部位软硬度不同', s:'11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏高阶通用人形机器人 IRON …（来源：IT之家）', u:'https://www.ithome.com/1/032/164.htm'},
     {c:'MODEL', d:'2026-11-25T15:41', t:'小鹏发布图灵具身智能架构（VLA 3.0），贯通具身硬件、本能、小脑和大脑', s:'在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏正式发布「小鹏图灵具身智能架构（VLA 3.0）」，贯通 …（来源：IT之家）', u:'https://www.ithome.com/1/032/159.htm'},
     {c:'MODEL', d:'2026-11-25T15:40', t:'开源 AI 编程工具 T3 Code 被扒出“偷数据”', s:'T3 Code 近日这场风波，起点不是隐私，是商标。 11 月 20 日，中文开发者「开源小新」（账号 DDdxx666…（来源：OSCHINA）', u:'https://www.oschina.net/news/503805'},
     {c:'MODEL', d:'2026-11-25T15:32', t:'小鹏行业首发「图灵 AI 共驾」，首个落地功能 VLA 自适应减速计划 12 月推送', s:'11 月 25 日现场消息，小鹏今日在「Origin 原点」2026 小鹏科技日活动中宣布推出「图灵 AI 共驾」，首个…（来源：IT之家）', u:'https://www.ithome.com/1/032/153.htm'},
@@ -468,37 +469,36 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-25T14:58', t:'让大模型跑在个人设备上，腾讯混元开源 Hy4 flash GGUF 量化权重及配套推理代码', s:'腾讯混元今日通过大模型压缩加速工具箱 AngelSlim 开源 Hy4 flash GGUF 量化权重及配套推理代码。经…（来源：IT之家）', u:'https://www.ithome.com/1/032/131.htm'},
     {c:'MODEL', d:'2026-11-25T14:54', t:'已知首个只住深海的樽海鞘：水下机器人发现新物种，身体近乎透明', s:'科技媒体 phys 今天（11 月 25 日）发布博文，报道称美国蒙特雷湾水族馆研究所（MBARI）的研究人员借助先进水…（来源：IT之家）', u:'https://www.ithome.com/1/032/128.htm'},
     {c:'MODEL', d:'2026-11-25T14:50', t:'Sand.ai 发布视频生成模型 MAGI-2，1080P 每秒 0.5 元', s:'Sand.ai 三呆科技今日发布新一代同期参数量「480B」最大的视频生成模型 MAGI-2。MAGI-2 延续了 MA…（来源：IT之家）', u:'https://www.ithome.com/1/032/124.htm'},
-    {c:'HOT', d:'2026-11-25T14:50', t:'Anthropic、OpenAI 各自宣称证明代数复杂度猜想 VP≠VNP', s:'Anthropic、OpenAI 两家人工智能企业当地时间本月 23 日先后宣布证明代数复杂度猜想 VP≠VNP。如果相…（来源：IT之家）', u:'https://www.ithome.com/1/032/122.htm'},
     {c:'HOT', d:'2026-11-25T14:49', t:'华人计算机视觉泰斗二次创业！离开苹果下场，专注下一代空间与物理AI', s:'复杂场景三维建模成本降至10美元以内（来源：量子位）', u:'https://www.qbitai.com/2026/11/512498.html'},
     {c:'MODEL', d:'2026-11-25T14:27', t:'🔥 Jync v2.4.6 · AI 运维助手与大表同步增强', s:'本版概要 v2.4.6 让 AI 运维助手可以查询逐表状态并通过确认卡调整任务参数，重做大表全量、行数核对与 CDC 基…（来源：OSCHINA）', u:'https://www.oschina.net/news/503802'},
     {c:'MODEL', d:'2026-11-25T14:09', t:'phimint：Rust 写的终端 AI 编程 agent — 获旋武社区「Rust 开源项目推荐」栏目刊文推荐', s:'2026-11-24，旋武社区（开放原子开源基金会旗下的 Rust 中国社区）「Rust 开源项目推荐」栏目刊文推荐了 …（来源：OSCHINA）', u:'https://www.oschina.net/news/503801'},
     {c:'MODEL', d:'2026-11-25T13:21', t:'Seedance 2.5 级别，价格只要 1/10，我们实测了计划开源的 MAGI-2', s:'AI 视频「烧钱」终结者#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1691445?utm_source=rss&utm_medium=rss&utm_campaign'},
+    {c:'MODEL', d:'2026-11-25T13:02', t:'荣耀眼里的 AI 手机：前沿模型可以进来，但入口不能拿走', s:'作者｜张勇毅 编辑｜郑玄 11 月 23 日下午，荣耀在武汉发布了荣耀 700 系列，包括 700S、700 和 700…（来源：极客公园）', u:'http://www.geekpark.net/news/374462'},
     {c:'MEDPHARMA', d:'2026-11-25T12:29', t:'AI制药，突破还是泡沫?', s:'AI制药，突破还是泡沫?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711961408820249098/'},
     {c:'INDUSTRY', d:'2026-11-25T11:41', t:'AI 时代，技术大会是否还需要门槛？', s:'“GOTC 办了五年，这是现场第一次出现‘10 后’。” GOTC，the Global Open-source Tec…（来源：OSCHINA）', u:'https://www.oschina.net/news/503797'},
     {c:'HOT', d:'2026-11-25T11:32', t:'手机、汽车、AI，小米需要一场新的增长接力', s:'从手机到汽车再到AI，小米在寻找下一个增长点，但恰巧碰到了消费电子的下行周期。（来源：钛媒体）', u:'https://www.tmtpost.com/8216871.html'},
     {c:'MEDPHARMA', d:'2026-11-25T11:24', t:'AI制药迎强力加持?GPT-6展现蛋白质设计能力 无需调用垂直模型', s:'AI制药迎强力加持?GPT-6展现蛋白质设计能力 无需调用垂直模型（来源：头条医药AI）', u:'https://www.toutiao.com/article/7711944838229180991/'},
     {c:'MODEL', d:'2026-11-25T11:01', t:'SmartCall v2.0.0发布 全新LiveKit实时语音架构', s:':book: 项目简介 SmartCall 是一套基于 AI 大模型 + Asterisk 通信引擎 + LiveKit…（来源：OSCHINA）', u:'https://www.oschina.net/news/503794'},
-    {c:'MODEL', d:'2026-11-25T10:58', t:'百度大模型文心 5.5 Flash Preview 正式开源', s:'百度把文心 5.5 Flash Preview 的权重开放出来了。 11 月 24 日，官方发布开源公告，称面向全球开源…（来源：OSCHINA）', u:'https://www.oschina.net/news/503792'},
   ];
   const TIMELINE = [
-    ['11-25 16:01','50亿美元！AI制药再获资本重注'],
+    ['11-25 16:31','50亿美元！AI制药再获资本重注'],
+    ['11-25 15:50','小鹏高阶通用人形机器人 IRON 真机亮相：再秀自然步伐，全身 76 自由度，不同部位软硬度不同'],
     ['11-25 15:41','小鹏发布图灵具身智能架构（VLA 3.0），贯通具身硬件、本能、小脑和大脑'],
     ['11-25 15:40','开源 AI 编程工具 T3 Code 被扒出“偷数据”'],
     ['11-25 15:32','小鹏行业首发「图灵 AI 共驾」，首个落地功能 VLA 自适应减速计划 12 月推送'],
     ['11-25 15:30','小米 CFO 林世伟：小米 AI 相关收入持续增加，今年 160 亿元投入正稳健落地'],
-    ['11-25 15:10','小鹏图灵 AI 智驾官宣推出付费订阅服务：2027 年第二季度开始，老车主权益终身不变'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:332436, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:326074, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310367, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235574, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:200143, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156991, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153098, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145637, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122705, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121261, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:332451, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:326095, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310384, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235580, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:200160, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:156993, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153106, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145641, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122710, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121273, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
