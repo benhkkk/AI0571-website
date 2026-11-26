@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-26T16:02:21",
+  "updated": "2026-11-26T16:31:39",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-26T15:56",
+      "t": "德国一消费者保护中心起诉 OpenAI，称 ChatGPT 订阅容易取消难",
+      "s": "据科技媒体 ComputerBase 今天报道，德国勃兰登堡消费者保护中心现已对 OpenAI 提起诉讼，原因是 Cha…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/888.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-26T15:54",
+      "t": "商汤开源机器人操作视觉语言模型 SenseNova-RoboRSI-27B 正式版，RoboDojo 评测得分超 GPT-6 Astra",
+      "s": "商汤科技昨日发布面向机器人操作的视觉语言模型 SenseNova-RoboRSI-27B 正式版。据介绍，相较于 Pre…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/032/887.htm"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-26T15:36",
+      "t": "报名最后2天｜AI浪潮之中，来认识创造未来的人",
+      "s": "12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512942.html"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-26T15:36",
@@ -52,31 +73,10 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-26T15:10",
-      "t": "微软总裁史密斯警告：AI 让漏洞发现更快，开发者仓促打补丁或引发更多宕机",
-      "s": "距离一场重创全球公共和私营机构的大规模 Microsoft 365 宕机不到两周，微软总裁兼副主席布拉德 · 史密斯（B…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/798.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-26T15:05",
-      "t": "宇树王兴兴预测：5-10 年内中国机器人产量有望超汽车，年产量超 2000 万台",
-      "s": "据科创板日报报道，11 月 26 日，在北京举行的 WISE2026 大会上，宇树科技创始人、董事长王兴兴判断，5 到 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/790.htm"
-    },
-    {
-      "c": "HOT",
       "d": "2026-11-26T15:02",
       "t": "从“堆数据”到“边干边学”，具身智能正在寻找自己的Scaling Law",
       "s": "从人类示范、仿真对练，到人工接管、真实场景数据回流，具身智能一直在探索自己的成长路径，这期间，机器人积累的每一次经验，都…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8218859.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-26T14:50",
-      "t": "利润超增2933.08%!AI制药，订单拿到手软的10家公司",
-      "s": "利润超增2933.08%!AI制药，订单拿到手软的10家公司（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7712367700223230502/"
     },
     {
       "c": "HOT",
@@ -144,6 +144,18 @@
   ],
   "timeline": [
     [
+      "11-26 15:56",
+      "德国一消费者保护中心起诉 OpenAI，称 ChatGPT 订阅容易取消难"
+    ],
+    [
+      "11-26 15:54",
+      "商汤开源机器人操作视觉语言模型 SenseNova-RoboRSI-27B 正式版，RoboDojo 评测得分超 GPT-6 Astra"
+    ],
+    [
+      "11-26 15:36",
+      "报名最后2天｜AI浪潮之中，来认识创造未来的人"
+    ],
+    [
       "11-26 15:36",
       "英伟达黄仁勋的“失业 11 天”：曾想骑摩托横穿美国"
     ],
@@ -154,18 +166,6 @@
     [
       "11-26 15:26",
       "Libreboot 撤掉了自己上个月立的 AI 禁令"
-    ],
-    [
-      "11-26 15:25",
-      "曝苹果下架 MiniMax AI 聊天应用 Talkie：存在色情内容"
-    ],
-    [
-      "11-26 15:24",
-      "DeepSeek 关联公司新增增值电信业务"
-    ],
-    [
-      "11-26 15:21",
-      "Epic CEO 斯威尼怒喷 Claude 是垃圾：误判正常研究为模型蒸馏"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 333107,
+      "s": 333130,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326893,
+      "s": 326917,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310893,
+      "s": 310903,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235782,
+      "s": 235789,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200706,
+      "s": 200718,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157131,
+      "s": 157134,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153513,
+      "s": 153529,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145757,
+      "s": 145759,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122935,
+      "s": 122942,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121698,
+      "s": 121716,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
