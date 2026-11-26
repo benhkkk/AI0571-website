@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-26T20:31:26",
+  "updated": "2026-11-26T21:02:01",
   "news": [
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-26T20:53",
+      "t": "北京“十五五”期间将支持更多“全球新”药械研发上市",
+      "s": "北京“十五五”期间将支持更多“全球新”药械研发上市（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7712462449164960294/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-26T20:32",
+      "t": "消息称育碧正大力推动将生成式 AI 深度融入游戏开发流程，项目若未引入 AI 需申报原因",
+      "s": "据外媒 Vertical Slice 报道，育碧正在大力推动生成式 AI 深度融入游戏开发流程，如今公司团队在提交新游戏…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/078.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-26T19:29",
@@ -107,20 +121,6 @@
       "u": "https://www.tmtpost.com/8218302.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-26T17:04",
-      "t": "好消息，AI 可以替你打客服电话了；坏消息，电话那头也是 AI",
-      "s": "麻烦交给 AI，生活还给用户。 网上冲浪这么多年，你一定有过这样的经历：想取消一项自动续费，却怎么都找不到入口；明明是商…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374536"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-26T17:04",
-      "t": "疯魔，9周暴涨310%，“豆浆机之父”借九阳神功减持了",
-      "s": "从玄学到AI，资金硬塞剧本。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8218402.html"
-    },
-    {
       "c": "MODEL",
       "d": "2026-11-26T16:52",
       "t": "沃尔沃把人形机器人送进工厂：先学干活，明年年中正式上岗",
@@ -128,21 +128,29 @@
       "u": "https://www.ithome.com/1/032/939.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-26T16:38",
-      "t": "成本低九成、开源权重：MAGI-2 带动视频模型进入大掀桌时代",
-      "s": "2026 年的视频大模型圈子，有一个心照不宣的保留节目：无论哪家推出新模型，最终的成绩页上，永远会留一行和 Seedan…（来源：极客公园）",
-      "u": "http://www.geekpark.net/news/374532"
+      "c": "INDUSTRY",
+      "d": "2026-11-26T16:19",
+      "t": "极客公园创新大会 2027 全议程公布！",
+      "s": "今天，IF 2027 全议程揭晓。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512952.html"
     },
     {
-      "c": "HOT",
-      "d": "2026-11-26T16:32",
-      "t": "消息称三星电子成立半导体工厂机器人团队，2028 年启动内部部署",
-      "s": "韩媒 ETNEWS 当地时间今日报道称，三星电子半导体板块 —— DS（设备解决方案）部，已在其全球制造与基础设施总部下…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/032/931.htm"
+      "c": "INDUSTRY",
+      "d": "2026-11-26T15:36",
+      "t": "报名最后2天｜AI浪潮之中，来认识创造未来的人",
+      "s": "12月6日，WAIC将携手第六届“海聚英才”全球创新创业峰会，把这场关于“人”的讨论带回现场。（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/512942.html"
     }
   ],
   "timeline": [
+    [
+      "11-26 20:53",
+      "北京“十五五”期间将支持更多“全球新”药械研发上市"
+    ],
+    [
+      "11-26 20:32",
+      "消息称育碧正大力推动将生成式 AI 深度融入游戏开发流程，项目若未引入 AI 需申报原因"
+    ],
     [
       "11-26 19:29",
       "iPhone 16 AI 功能宣传涉嫌画大饼，苹果在韩国遭正式调查"
@@ -158,14 +166,6 @@
     [
       "11-26 18:52",
       "OpenAI 再度抛出重要数学成果：宣称证明矩阵乘法指数为 9/4"
-    ],
-    [
-      "11-26 18:39",
-      "阿莫迪自明本志：我本无意让AI掌权"
-    ],
-    [
-      "11-26 18:34",
-      "Anthropic上市：从Uber的预算看Claude怎么赚钱"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 333278,
+      "s": 333301,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 327059,
+      "s": 327079,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311006,
+      "s": 311021,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235841,
+      "s": 235842,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200789,
+      "s": 200803,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157160,
+      "s": 157165,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153622,
+      "s": 153634,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145781,
+      "s": 145786,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122983,
+      "s": 122987,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121800,
+      "s": 121807,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
