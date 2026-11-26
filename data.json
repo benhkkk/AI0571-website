@@ -1,9 +1,9 @@
 {
-  "updated": "2026-11-26T13:15:39",
+  "updated": "2026-11-26T13:31:31",
   "news": [
     {
       "c": "MEDPHARMA",
-      "d": "2026-11-26T13:15",
+      "d": "2026-11-26T13:31",
       "t": "50亿美元！AI制药再获资本重注",
       "s": "50亿美元！AI制药再获资本重注（来源：药智新闻）",
       "u": "https://news.yaozh.com/archive/49435.html"
@@ -94,13 +94,6 @@
     },
     {
       "c": "HOT",
-      "d": "2026-11-26T11:07",
-      "t": "巧克力、烟草与虫害防治：这些非AI标的逆势避开科技股回调",
-      "s": "随着科技股抛售进一步加剧，周三好时、奥驰亚和罗林斯股价上涨。自10月以来，必需消费品板块的表现已领先科技板块。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8218516.html"
-    },
-    {
-      "c": "HOT",
       "d": "2026-11-26T11:01",
       "t": "黎曼猜想 AI 证明代码暴砍 99.5%：只剩 7.6 万行，又是 Anthropic",
       "s": "只剩 7.6 万行了！！刚刚，轰动全网的 1740 万行黎曼猜想证明，迎来了一波史诗级大瘦身。代码量暴砍 99.56%…（来源：IT之家）",
@@ -112,13 +105,6 @@
       "t": "AICon 北京 2026 全日程揭晓｜探索 AI 应用边界，构建持续创造价值的生产体系",
       "s": "12 月 18 日—19 日，AICon 全球人工智能开发与应用大会·北京站将在北京新云南皇冠假日酒店举办。本届大会以「…（来源：OSCHINA）",
       "u": "https://www.oschina.net/event/8598428"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-26T10:55",
-      "t": "买入这只制药股，躲避AI风暴冲击",
-      "s": "艾伯维的股价目前接近历史最高点，但仍有理由预期其回报将持续强劲。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8218492.html"
     },
     {
       "c": "MODEL",
@@ -140,11 +126,25 @@
       "t": "《GTA 6》民间 PC 移植新突破：已能渲染游戏世界，帧率约 5~7 FPS",
       "s": "科技媒体 tweaktown 昨日（11 月 25 日）发布博文，报道称开源社区借助 AI 以及此前曝光的 XBOX 可…（来源：IT之家）",
       "u": "https://www.ithome.com/1/032/600.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-26T10:31",
+      "t": "ByteDance's Short-Video Platform Hongguo Forces Second-Tier Platforms to Bet on AI",
+      "s": "ByteDance's Short-Video Platform Hongguo Forces Se…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8218450.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-26T10:25",
+      "t": "Robotaxi 即将开启无人运营、机器人脱稿演讲，小鹏科技日迎来了自己的「奇点时刻」",
+      "s": "技术实力的外溢。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）",
+      "u": "https://www.ifanr.com/1695212?utm_source=rss&utm_medium=rss&utm_campaign"
     }
   ],
   "timeline": [
     [
-      "11-26 13:15",
+      "11-26 13:31",
       "50亿美元！AI制药再获资本重注"
     ],
     [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 333024,
+      "s": 333031,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 326774,
+      "s": 326780,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 310817,
+      "s": 310820,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235749,
+      "s": 235751,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200628,
+      "s": 200634,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157114,
+      "s": 157116,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153458,
+      "s": 153466,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145746,
+      "s": 145747,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 122906,
+      "s": 122909,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121644,
+      "s": 121645,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
