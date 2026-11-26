@@ -1,6 +1,27 @@
 {
-  "updated": "2026-11-26T23:02:10",
+  "updated": "2026-11-26T23:32:20",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-26T23:24",
+      "t": "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵",
+      "s": "据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/131.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-26T22:59",
+      "t": "因隐私问题，荷兰多个组织要求法院叫停 Meta 智能眼镜销售",
+      "s": "据路透社报道，荷兰多家消费者与数字权益组织于周四向法院提出申请，要求叫停 Meta 旗下 AI 智能眼镜在荷兰的销售。原…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/126.htm"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-26T22:58",
+      "t": "腾讯用 AI 挑战药物研发领域前沿难题：成果登 Nature，在减重降糖、肿瘤免疫方向完成验证",
+      "s": "腾讯今日宣布，11 月 25 日，腾讯生命科学实验室的一项 AI for Science 研究成果，正式以第一单位登上《…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/125.htm"
+    },
     {
       "c": "HOT",
       "d": "2026-11-26T21:56",
@@ -119,30 +140,21 @@
       "t": "一家100人的AI公司，凭什么被英伟达、Anthropic、亚马逊抬到75亿？",
       "s": "同样一套技术，为什么对亚马逊更值钱。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8218433.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-26T17:23",
-      "t": "中新健康|AI巨头“做药”，想治好谁的病?",
-      "s": "中新健康|AI巨头“做药”，想治好谁的病?（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7712408430075019802/"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-26T17:22",
-      "t": "手表和眼镜，如何成为AI智能体的「随身感官」？",
-      "s": "去年，Humane关闭了AI Pin的消费者云服务。这款别在衣服上的AI设备一度被寄予厚望，用户只需开口，就能完成许多原…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/chips/1tx0UpMMROQn9vCW.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-26T17:11",
-      "t": "价值判断：跌停板的投资机会和风险提示（11月24日）｜上市公司观察",
-      "s": "盘面上人形机器人与消费电子走强，工业金属与贵金属领跌。本期两只标的均为首次跌停且处高估值一端：英力特因重大资产重组复牌…（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8219199.html"
     }
   ],
   "timeline": [
+    [
+      "11-26 23:24",
+      "瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵"
+    ],
+    [
+      "11-26 22:59",
+      "因隐私问题，荷兰多个组织要求法院叫停 Meta 智能眼镜销售"
+    ],
+    [
+      "11-26 22:58",
+      "腾讯用 AI 挑战药物研发领域前沿难题：成果登 Nature，在减重降糖、肿瘤免疫方向完成验证"
+    ],
     [
       "11-26 21:56",
       "381个AI直播冲刺证明P=NP！把GitHub干崩了"
@@ -154,18 +166,6 @@
     [
       "11-26 20:52",
       "优宁维:公司对AI制药湿实验验证等新兴需求保持关注"
-    ],
-    [
-      "11-26 20:50",
-      "直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验"
-    ],
-    [
-      "11-26 20:39",
-      "AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用"
-    ],
-    [
-      "11-26 20:32",
-      "消息称育碧正大力推动将生成式 AI 深度融入游戏开发流程，项目若未引入 AI 需申报原因"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 333373,
+      "s": 333395,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 327162,
+      "s": 327178,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311087,
+      "s": 311106,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235865,
+      "s": 235870,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 200855,
+      "s": 200866,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157175,
+      "s": 157179,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153684,
+      "s": 153699,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145801,
+      "s": 145804,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123010,
+      "s": 123013,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 121857,
+      "s": 121868,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
