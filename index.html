@@ -459,7 +459,13 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'MEDPHARMA', d:'2026-11-26T13:31', t:'50亿美元！AI制药再获资本重注', s:'50亿美元！AI制药再获资本重注（来源：药智新闻）', u:'https://news.yaozh.com/archive/49435.html'},
+    {c:'MEDPHARMA', d:'2026-11-26T14:02', t:'50亿美元！AI制药再获资本重注', s:'50亿美元！AI制药再获资本重注（来源：药智新闻）', u:'https://news.yaozh.com/archive/49435.html'},
+    {c:'FUNDING', d:'2026-11-26T13:49', t:'融资遇冷，具身智能还要“烧心”多久？', s:'信用体系和估值体系的崩塌与重建。（来源：钛媒体）', u:'https://www.tmtpost.com/8218332.html'},
+    {c:'INDUSTRY', d:'2026-11-26T13:49', t:'解密奥斯汀208号展位的“幽灵事件”：OpenAI亲手解散机器人团队，机器人行业却要变天？', s:'屏幕里的AI改变的只是我们的工作方式，而一旦AI长出了手和脚，它重塑的，将是整个人类文明的物理边界。（来源：钛媒体）', u:'https://www.tmtpost.com/8218430.html'},
+    {c:'FUNDING', d:'2026-11-26T13:47', t:'AI 热钱，正在撞上拐点', s:'对投资人而言，不要简单把 AI 当成永远的避风港，也不要因为融资停摆就全盘看空 AI。真正的风险，是市场还没有给 “AI…（来源：钛媒体）', u:'https://www.tmtpost.com/8218547.html'},
+    {c:'INDUSTRY', d:'2026-11-26T13:36', t:'行业洗牌预期升温，机器人盯上零售Offer？', s:'先行者已经提供了样本参考。（来源：钛媒体）', u:'https://www.tmtpost.com/8218469.html'},
+    {c:'INDUSTRY', d:'2026-11-26T13:36', t:'税考状元舞弊、教育部长辞职：韩国高考攻防背后，AI 正在摧毁东亚千年应试秩序', s:'AI 击穿的从来不是一张试卷，而是延续千年的、以肉体脑力内卷为核心的社会竞争秩序。 而现在，我们恰好处于一个旧秩序走向瓦…（来源：钛媒体）', u:'https://www.tmtpost.com/8218473.html'},
+    {c:'HOT', d:'2026-11-26T13:36', t:'中国女首富都投了，联发科高管做芯片，干出50亿独角兽', s:'冲刺IPO的芯爱科技，能成为下一个千亿级的AI幕后赢家吗？（来源：钛媒体）', u:'https://www.tmtpost.com/8218544.html'},
     {c:'MODEL', d:'2026-11-26T12:55', t:'马斯克质疑称多数机器人演示是摆拍，Figure 接招用 41 秒视频回击', s:'人形机器人公司 Figure 于 11 月 24 日回应马斯克的“摆拍、预先编程”质疑，发布一段 41 秒视频，展示 F…（来源：IT之家）', u:'https://www.ithome.com/1/032/739.htm'},
     {c:'INDUSTRY', d:'2026-11-26T12:00', t:'铠侠与英伟达合作，探索如何将 GPU 有效显存扩展至 PB 级', s:'铠侠今日宣布与英伟达展开合作，启动面向 AI 应用的概念验证。该项目将利用英伟达 SCADA 软件，结合铠侠 SSD 的…（来源：IT之家）', u:'https://www.ithome.com/1/032/722.htm'},
     {c:'MODEL', d:'2026-11-26T11:58', t:'污染 0.1% 的预训练数据，就能给 AI 智能体埋下洗不掉的后门', s:'只污染 0.1% 的预训练数据，就能给一个 AI 智能体埋下后门。而且用完全干净的数据做微调和强化学习，也清不掉。 这是…（来源：OSCHINA）', u:'https://www.oschina.net/news/503823'},
@@ -473,32 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-26T11:22', t:'小米智能门锁 5 人脸版开售：搭载 3D 人脸 + 掌静脉 + 2K 智能猫眼，到手价 1799 元', s:'小米智能门锁 5 人脸版今日开售，支持 AI 3D 人脸 +AI 掌静脉，新品到手价 1799 元。这款智能门锁搭载 A…（来源：IT之家）', u:'https://www.ithome.com/1/032/618.htm'},
     {c:'HOT', d:'2026-11-26T11:13', t:'沈向洋刚讲了好多AI非共识啊', s:'“灵巧手是人类最后的尊严”（来源：量子位）', u:'https://www.qbitai.com/2026/11/512840.html'},
     {c:'HOT', d:'2026-11-26T11:01', t:'黎曼猜想 AI 证明代码暴砍 99.5%：只剩 7.6 万行，又是 Anthropic', s:'只剩 7.6 万行了！！刚刚，轰动全网的 1740 万行黎曼猜想证明，迎来了一波史诗级大瘦身。代码量暴砍 99.56%…（来源：IT之家）', u:'https://www.ithome.com/1/032/611.htm'},
-    {c:'INDUSTRY', d:'2026-11-26T10:59', t:'AICon 北京 2026 全日程揭晓｜探索 AI 应用边界，构建持续创造价值的生产体系', s:'12 月 18 日—19 日，AICon 全球人工智能开发与应用大会·北京站将在北京新云南皇冠假日酒店举办。本届大会以「…（来源：OSCHINA）', u:'https://www.oschina.net/event/8598428'},
-    {c:'MODEL', d:'2026-11-26T10:54', t:'480B 参数、每秒 0.5 元，MAGI-2 把 AI 视频价格压了一个数量级', s:'三呆科技（Sand.ai）11 月 24 日发布 MAGI-2，480B 参数、单次最长 30 秒 1080P 带原生音…（来源：OSCHINA）', u:'https://www.oschina.net/news/503820/sand-ai-magi-2'},
-    {c:'HOT', d:'2026-11-26T10:53', t:'AI影视高地正在北影海淀一带崛起，「一人制片厂」基建搭好了', s:'叠满海淀最强AI Buff。（来源：量子位）', u:'https://www.qbitai.com/2026/11/512828.html'},
-    {c:'MODEL', d:'2026-11-26T10:38', t:'《GTA 6》民间 PC 移植新突破：已能渲染游戏世界，帧率约 5~7 FPS', s:'科技媒体 tweaktown 昨日（11 月 25 日）发布博文，报道称开源社区借助 AI 以及此前曝光的 XBOX 可…（来源：IT之家）', u:'https://www.ithome.com/1/032/600.htm'},
-    {c:'HOT', d:'2026-11-26T10:31', t:'ByteDance\'s Short-Video Platform Hongguo Forces Second-Tier Platforms to Bet on AI', s:'ByteDance\'s Short-Video Platform Hongguo Forces Se…（来源：钛媒体）', u:'https://www.tmtpost.com/8218450.html'},
-    {c:'HOT', d:'2026-11-26T10:25', t:'Robotaxi 即将开启无人运营、机器人脱稿演讲，小鹏科技日迎来了自己的「奇点时刻」', s:'技术实力的外溢。#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内容第一时间为您奉上。（来源：爱范儿）', u:'https://www.ifanr.com/1695212?utm_source=rss&utm_medium=rss&utm_campaign'},
   ];
   const TIMELINE = [
-    ['11-26 13:31','50亿美元！AI制药再获资本重注'],
-    ['11-26 12:55','马斯克质疑称多数机器人演示是摆拍，Figure 接招用 41 秒视频回击'],
-    ['11-26 12:00','铠侠与英伟达合作，探索如何将 GPU 有效显存扩展至 PB 级'],
-    ['11-26 11:58','污染 0.1% 的预训练数据，就能给 AI 智能体埋下洗不掉的后门'],
-    ['11-26 11:55','“得Agent开发者，得天下”，70+技术大咖共探AI技术演进与生态变革，2026奇点智能技术大会圆满收官！'],
-    ['11-26 11:50','降幅约 20%~35%：报告称马斯克 SpaceX 降价出租 AI 算力'],
+    ['11-26 14:02','50亿美元！AI制药再获资本重注'],
+    ['11-26 13:49','融资遇冷，具身智能还要“烧心”多久？'],
+    ['11-26 13:49','解密奥斯汀208号展位的“幽灵事件”：OpenAI亲手解散机器人团队，机器人行业却要变天？'],
+    ['11-26 13:47','AI 热钱，正在撞上拐点'],
+    ['11-26 13:36','行业洗牌预期升温，机器人盯上零售Offer？'],
+    ['11-26 13:36','税考状元舞弊、教育部长辞职：韩国高考攻防背后，AI 正在摧毁东亚千年应试秩序'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333031, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:326780, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310820, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235751, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:200634, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157116, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153466, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333039, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:326798, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310833, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235754, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:200649, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157120, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153471, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145747, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122909, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121645, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122917, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121656, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
