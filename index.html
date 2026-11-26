@@ -460,7 +460,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
     {c:'INDUSTRY', d:'2026-11-26T11:38', t:'被红果改写的Q3财报季', s:'二线大厂的冬天：砍成本，赌AI（来源：钛媒体）', u:'https://www.tmtpost.com/8216958.html'},
-    {c:'MEDPHARMA', d:'2026-11-26T07:31', t:'50亿美元！AI制药再获资本重注', s:'50亿美元！AI制药再获资本重注（来源：药智新闻）', u:'https://news.yaozh.com/archive/49435.html'},
+    {c:'MEDPHARMA', d:'2026-11-26T08:01', t:'50亿美元！AI制药再获资本重注', s:'50亿美元！AI制药再获资本重注（来源：药智新闻）', u:'https://news.yaozh.com/archive/49435.html'},
+    {c:'MODEL', d:'2026-11-26T07:45', t:'迈出“全民隐私智能”第一步：OpenAI 开测私有推理，目标打造“零窥探 AI”', s:'OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）今天（11 月 26 日）在 X 平台发布推文，宣布已…（来源：IT之家）', u:'https://www.ithome.com/1/032/543.htm'},
+    {c:'MODEL', d:'2026-11-26T07:28', t:'韩国推出考场反作弊系统 Detect AI：靠无线电波识别 AI 智能眼镜，12 月 9 日首秀', s:'据韩联社 11 月 25 日报道，韩国东西发电于 11 月 25 日宣布，其内部创业项目孵化的无人机探测企业 SKIP（…（来源：IT之家）', u:'https://www.ithome.com/1/032/542.htm'},
+    {c:'HOT', d:'2026-11-26T07:28', t:'IT早报 1126：理想汽车宣布从一年一更调整为两年；特朗普称美政府入股英伟达犹未为晚；奥迪回应长春工厂利用率跌破 10%；首款自动驾驶摩托车广州亮相...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 26 日星期四，今天的重要科技资讯有：1. 踩刹车！李想宣布理…（来源：IT之家）', u:'https://www.ithome.com/1/032/541.htm'},
     {c:'INDUSTRY', d:'2026-11-26T07:20', t:'【钛晨报】外媒称美国将对中国等十几个国家加征关税，外交部回应；美国10月核心PCE物价指数同比上涨3.3%，升至3年高位；小鹏机器人IRON计划2027年1月启动硬件量产', s:'中荷外长共识声明；两年来已有近30家机器人公司倒下；黄仁勋主持员工大会：英伟达不需要接班人计划；福特汽车证实与美国防部会…（来源：钛媒体）', u:'https://www.tmtpost.com/8217786.html'},
     {c:'HOT', d:'2026-11-26T07:07', t:'美国纽约州暂停 AI 聊天玩具销售 5 年，违规厂商每日最高罚 15000 美元', s:'据 ABC7 New York 网站 11 月 25 日报道，当地时间 11 月 24 日，美国纽约州州长凯西・霍楚尔（…（来源：IT之家）', u:'https://www.ithome.com/1/032/540.htm'},
     {c:'MEDDEVICE', d:'2026-11-26T07:07', t:'准确率从 4% 暴涨至 97%！谷歌 DeepMind 给 AI 装上“化学外挂”，解锁质谱分析技能', s:'谷歌联合分析化学家、基于社区开源工具打造了 Mass Spec Skills，面向 Google Antigravity…（来源：IT之家）', u:'https://www.ithome.com/1/032/535.htm'},
@@ -476,29 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-11-25T21:56', t:'九章云极开放两大接口，携手伙伴共建物理AI产业生态', s:'11月25日，在2026物理AI行业峰会暨九章云极智算生态大会上，九章云极DataCanvas宣布面向物理AI开放Phy…（来源：雷锋网）', u:'https://www.leiphone.com/category/chips/omZ0PFr6zVtmUnap.html'},
     {c:'MODEL', d:'2026-11-25T21:51', t:'多模型协同落地，浙江人形 NAVIAI 提升长序列任务作业稳定性', s:'具身智能要真正走进现实世界，一个足够聪明的“大脑”还不够。与以信息处理为主的数字世界不同，物理世界充满动态变化与不确定性…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/KnGzlsg6xlU9Nnpk.html'},
     {c:'HOT', d:'2026-11-25T21:33', t:'SK 海力士计划 4 至 5 年内量产 3D DRAM，首款产品采用 100 层堆叠', s:'据 The Elec 报道，SK 海力士资深工程师崔康植（Choi Kang-sik）在首尔大学 AI 半导体论坛上透露…（来源：IT之家）', u:'https://www.ithome.com/1/032/496.htm'},
-    {c:'MEDPHARMA', d:'2026-11-25T21:28', t:'AI制药终于开始省时间了', s:'AI制药终于开始省时间了（来源：头条医药AI）', u:'https://www.toutiao.com/article/7712100550354928154/'},
-    {c:'HOT', d:'2026-11-25T19:13', t:'特斯拉 FSD 欧盟审批会议推迟至 12 月 15 日举行', s:'据路透社报道，欧盟委员会一名发言人当地时间周三证实，原本将审议特斯拉自动驾驶辅助系统（FSD）在全欧盟获批申请的会议，推…（来源：IT之家）', u:'https://www.ithome.com/1/032/466.htm'},
-    {c:'MODEL', d:'2026-11-25T19:07', t:'9400万参数硬刚50亿，权重显存直降98%！Loop架构被这家中国团队玩明白了', s:'揭秘General Looped Model（来源：量子位）', u:'https://www.qbitai.com/2026/11/512565.html'},
   ];
   const TIMELINE = [
     ['11-26 11:38','被红果改写的Q3财报季'],
-    ['11-26 07:31','50亿美元！AI制药再获资本重注'],
+    ['11-26 08:01','50亿美元！AI制药再获资本重注'],
+    ['11-26 07:45','迈出“全民隐私智能”第一步：OpenAI 开测私有推理，目标打造“零窥探 AI”'],
+    ['11-26 07:28','韩国推出考场反作弊系统 Detect AI：靠无线电波识别 AI 智能眼镜，12 月 9 日首秀'],
+    ['11-26 07:28','IT早报 1126：理想汽车宣布从一年一更调整为两年；特朗普称美政府入股英伟达犹未为晚；奥迪回应长春工厂利用率跌破 10%；首款自动驾驶摩托车广州亮相...'],
     ['11-26 07:20','【钛晨报】外媒称美国将对中国等十几个国家加征关税，外交部回应；美国10月核心PCE物价指数同比上涨3.3%，升至3年高位；小鹏机器人IRON计划2027年1月启…'],
-    ['11-26 07:07','美国纽约州暂停 AI 聊天玩具销售 5 年，违规厂商每日最高罚 15000 美元'],
-    ['11-26 07:07','准确率从 4% 暴涨至 97%！谷歌 DeepMind 给 AI 装上“化学外挂”，解锁质谱分析技能'],
-    ['11-26 00:34','我以为这是摄影作品，你告诉我这是最新的国产AI？！'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:332863, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:326586, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310713, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235704, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:200506, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157081, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153370, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145706, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122851, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121550, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:332872, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:326595, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:310726, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235710, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:200514, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157084, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153376, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145710, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:122860, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121556, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
