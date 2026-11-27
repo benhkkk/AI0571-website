@@ -459,9 +459,11 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'INDUSTRY', d:'2026-11-27T13:20', t:'金山云Q3财报：营收35亿元，增长40%，归母净亏损1.1亿元', s:'金山云Q3财报分化，AI增长但净利待验证（来源：钛媒体）', u:'https://www.tmtpost.com/8219525.html'},
     {c:'HOT', d:'2026-11-27T12:52', t:'腾讯阿里百度集体交账，AI进入兑现期', s:'AI投入热，何以要算长远账。（来源：钛媒体）', u:'https://www.tmtpost.com/8219613.html'},
     {c:'HOT', d:'2026-11-27T12:51', t:'时隔一年，小鹏机器人再登台，何小鹏又哽咽了！', s:'时隔一年，小鹏机器人再登台，何小鹏又哽咽了！（来源：钛媒体）', u:'https://www.tmtpost.com/8219499.html'},
     {c:'HOT', d:'2026-11-27T12:51', t:'实测智谱GLM5.4｜雷霆大思考：想得确实多，干活确实慢', s:'思考得像睡着了（来源：钛媒体）', u:'https://www.tmtpost.com/8219494.html'},
+    {c:'MEDPHARMA', d:'2026-11-27T12:51', t:'AI巨头“做药”，想治好谁的病?', s:'AI巨头“做药”，想治好谁的病?（来源：头条医药AI）', u:'https://www.toutiao.com/article/7712709323118199350/'},
     {c:'HOT', d:'2026-11-27T12:45', t:'月之暗面：Kimi 科研支持计划现已开放申请', s:'月之暗面今天（27 日）上午宣布，Kimi 科研支持计划开放申请，首期将面向自然科学、工程学及相关交叉学科的科研人员，入…（来源：IT之家）', u:'https://www.ithome.com/1/033/328.htm'},
     {c:'MODEL', d:'2026-11-27T12:20', t:'长城汽车发布行业首个全场景物理 AI 操作系统 Coffee AIOS 4', s:'在今天的 2026 广州车展上，长城汽车官宣发布行业首个全场景物理 AI 操作系统 —— Coffee AIOS 4。据…（来源：IT之家）', u:'https://www.ithome.com/1/033/320.htm'},
     {c:'FUNDING', d:'2026-11-27T12:05', t:'全新深蓝 L07 AI 激光版车型上市：首批搭载华为星驰辅助驾驶，限时权益价 14.99 万元起', s:'全新深蓝 L07 AI 激光版车型今日在 2026 广州车展上市，限时权益价 14.99 万元起。240 智臻 AI 激…（来源：IT之家）', u:'https://www.ithome.com/1/033/319.htm'},
@@ -476,29 +478,27 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-27T11:27', t:'一场物理AI闭门会里的三层“温差”', s:'一份调研、四道考题，和“一手托两方”的答案（来源：钛媒体）', u:'https://www.tmtpost.com/8218564.html'},
     {c:'HOT', d:'2026-11-27T11:23', t:'百亿具身独角兽破壁，玩家集体涌向它的牌桌', s:'百亿具身独角兽破壁，玩家集体涌向它的牌桌（来源：量子位）', u:'https://www.qbitai.com/2026/11/513101.html'},
     {c:'MODEL', d:'2026-11-27T11:15', t:'微软 Office 平替：Collabora Online 发现内存瘦身秘诀，内存占用最高直降 55%', s:'科技媒体 NeoWin 昨日（11 月 26 日）发布博文，报道称伴随着 AI 的深度运用，开源社区涌现了大量微软 Of…（来源：IT之家）', u:'https://www.ithome.com/1/033/236.htm'},
-    {c:'HOT', d:'2026-11-27T10:56', t:'第三批嘉宾来袭！速戳报名MEET2027，驭见AI新共识！', s:'倒计时两周，报名从速！（来源：量子位）', u:'https://www.qbitai.com/2026/11/513091.html'},
-    {c:'MODEL', d:'2026-11-27T10:54', t:'蚂蚁百灵 Ling-3.2-air 开源发布，提升编程、智能体与多模态能力', s:'蚂蚁百灵发布并开源了新一代大模型：Ling-3.2-air，1240 亿总参数，每个 token 只激活 55 亿。 先…（来源：OSCHINA）', u:'https://www.oschina.net/news/503847'},
-    {c:'MODEL', d:'2026-11-27T10:48', t:'RoboScience 机器科学发布 GenSight：如何在一个模型，搞定生成和感知？', s:'热潮褪去之后，世界模型的研究该转向何处？ 作者丨邓哲敏 编辑丨齐铖湧 今年上半年，世界模型是具身智能领域最风光的叙事。资…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/yVUjZ1Pgo80vJ5T0.html'},
+    {c:'MEDDEVICE', d:'2026-11-27T11:07', t:'江行智能基模 CTO 陈龙：当「物理 AI 大脑」进厂，如何实现可靠落地？| ACM MM 2026', s:'工业现场不需要“最聪明”的模型，够用、可靠、可验证才是硬道理。 作者丨董雨頔 编辑丨徐晓飞 在工业现场，模型识别出异常…（来源：雷锋网）', u:'https://www.leiphone.com/category/private/O7QLSVU8zvpfzY6B.html'},
   ];
   const TIMELINE = [
+    ['11-27 13:20','金山云Q3财报：营收35亿元，增长40%，归母净亏损1.1亿元'],
     ['11-27 12:52','腾讯阿里百度集体交账，AI进入兑现期'],
     ['11-27 12:51','时隔一年，小鹏机器人再登台，何小鹏又哽咽了！'],
     ['11-27 12:51','实测智谱GLM5.4｜雷霆大思考：想得确实多，干活确实慢'],
+    ['11-27 12:51','AI巨头“做药”，想治好谁的病?'],
     ['11-27 12:45','月之暗面：Kimi 科研支持计划现已开放申请'],
-    ['11-27 12:20','长城汽车发布行业首个全场景物理 AI 操作系统 Coffee AIOS 4'],
-    ['11-27 12:05','全新深蓝 L07 AI 激光版车型上市：首批搭载华为星驰辅助驾驶，限时权益价 14.99 万元起'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333720, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:327632, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311390, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235965, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201126, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157249, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153922, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145868, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123121, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:122043, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333735, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:327648, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311399, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235969, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201134, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157251, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153927, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145869, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123123, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:122052, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
