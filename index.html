@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'FUNDING', d:'2026-11-28T03:14', t:'独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资', s:'“AI算力的成本中心正在从‘计算’转向‘连接’。”雷峰网·鲸犀独家获悉，MicroLED 高速光互连芯片与光引擎研发商「…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/ilqJyKclWkhaWIps.html'},
     {c:'MODEL', d:'2026-11-27T22:11', t:'防考生利用 AI 作弊，韩国学校抢购金属探测器', s:'据央视新闻报道，为防范考生利用人工智能（AI）设备作弊，韩国教育部近日发布新规，要求所有参加校内考试的学生须在考试前后接…（来源：IT之家）', u:'https://www.ithome.com/1/033/763.htm'},
     {c:'INDUSTRY', d:'2026-11-27T22:07', t:'人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了', s:'一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。（来源：量子位）', u:'https://www.qbitai.com/2026/11/513352.html'},
     {c:'MODEL', d:'2026-11-27T21:06', t:'美团王兴：与微信小微合作按计划推进，预计明年 AI 资本开支将低于今年', s:'据每日经济新闻，对于市场关注的美团与微信小微的试点合作进展，美团 CEO 王兴在财报发布后的业绩电话会上表示，双方合作正…（来源：IT之家）', u:'https://www.ithome.com/1/033/748.htm'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-27T17:56', t:'支付宝车载助手3.0发布，助力智能座舱打造下一代可靠可信生活服务', s:'11月27日，广州车展期间，支付宝正式发布AI原生车载智能体（Agent）“支付宝车载助手3.0”，助力座舱服务从“对话…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/szJUnXEhChJQgJHZ.html'},
     {c:'MODEL', d:'2026-11-27T17:56', t:'支付宝车载助手 3.0 与 80 多家车企达成定点合作，含比亚迪、理想、奇瑞等', s:'支付宝今日发布“支付宝车载助手 3.0”，官方称其为 AI 原生车载智能体，让汽车座舱从“会聊天”升级到“能办事”。IT…（来源：IT之家）', u:'https://www.ithome.com/1/033/625.htm'},
     {c:'MODEL', d:'2026-11-27T17:45', t:'🔥 拾趣 Magpie v0.2.1 发布：多项功能细节优化', s:'🔥 拾趣 Magpie v0.2.1 发布：多项功能细节优化 拾趣 (Magpie)是一款跨平台沉浸式自定义AI 划词桌…（来源：OSCHINA）', u:'https://www.oschina.net/news/503869'},
-    {c:'MODEL', d:'2026-11-27T17:41', t:'【AI 智能运维平台】本周更新：编排中心支持将智能体生成的文件发送IM群webhook', s:'Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）', u:'https://www.oschina.net/news/503868'},
   ];
   const TIMELINE = [
+    ['11-28 03:14','独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资'],
     ['11-27 22:11','防考生利用 AI 作弊，韩国学校抢购金属探测器'],
     ['11-27 22:07','人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了'],
     ['11-27 21:06','美团王兴：与微信小微合作按计划推进，预计明年 AI 资本开支将低于今年'],
     ['11-27 20:44','微信公布 2026 年 11 月朋友圈热度谣言，含“监管要求基金公司上报全部产品 AI 敞口”等'],
     ['11-27 20:43','智元：精灵 G2 机器人在龙旗科技产线正式承担喇叭 BOX 安装任务并实现并线生产'],
-    ['11-27 19:30','AI 让“自托管”又变得好玩了'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:334204, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:328228, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311771, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:236171, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201432, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157314, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:154234, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:334214, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:328236, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311781, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:236176, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201446, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157315, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:154240, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145954, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123299, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:122298, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123303, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:122302, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
