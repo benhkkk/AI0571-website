@@ -459,7 +459,10 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
-    {c:'INDUSTRY', d:'2026-11-27T08:43', t:'智谱辟谣 GLM-5.5 延期；特斯拉和 SpaceX 冲刺年底合并；18 家平台完成算法协商，覆盖 2500 万新就业形态劳动者｜极客早知道', s:'智谱辟谣 GLM-5.5 延期：性能 Fable 级、上万张国产 AI 卡进展顺利 11 月 26 日，智谱高管杨昊翊公…（来源：极客公园）', u:'http://www.geekpark.net/news/374546'},
+    {c:'MEDPHARMA', d:'2026-11-27T09:14', t:'AI制药:科技巨头集体下注，研发从“工具外挂”奔赴临床大考...', s:'AI制药:科技巨头集体下注，研发从“工具外挂”奔赴临床大考...（来源：头条医药AI）', u:'https://www.toutiao.com/article/7712653443650929193/'},
+    {c:'FUNDING', d:'2026-11-27T09:13', t:'消息称东京电力公司拟向人工智能基础设施领域投资超 10 万亿日元', s:'《日本经济新闻》当地时间昨日报道称，东京电力公司 (TEPCO) 拟在 2,035 财年内向人工智能基础设施领域投资超 …（来源：IT之家）', u:'https://www.ithome.com/1/033/170.htm'},
+    {c:'MODEL', d:'2026-11-27T09:00', t:'Edge AI Daily 早报（11月27日）', s:'OpenAI宣称将方阵矩阵乘法渐近指数ω精确证明为9/4，谷歌以Cogentic生成6篇数学预印本，OpenAI与Ant…（来源：钛媒体）', u:'https://www.tmtpost.com/8219678.html'},
+    {c:'MEDDEVICE', d:'2026-11-27T08:58', t:'北京:到2030年推动医药健康产业规模突破1.5万亿', s:'北京:到2030年推动医药健康产业规模突破1.5万亿（来源：头条设备AI）', u:'https://www.toutiao.com/article/7712649157458133547/'},
     {c:'HOT', d:'2026-11-27T08:32', t:'欧洲央行行长拉加德：AI 是帮助欧洲抵御能源危机的因素之一', s:'据彭博社报道，欧洲央行行长克里斯蒂娜 · 拉加德认为，AI 是帮助欧洲抵御能源危机的因素之一。知情人士透露，当地时间 2…（来源：IT之家）', u:'https://www.ithome.com/1/033/159.htm'},
     {c:'MODEL', d:'2026-11-27T08:21', t:'DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额', s:'昨日起，有部分 DeepSeek 用户反馈，网页端和移动端 App 内正在灰度测试“显示本轮消耗额度”功能。用户在完成一…（来源：IT之家）', u:'https://www.ithome.com/1/033/157.htm'},
     {c:'MODEL', d:'2026-11-27T08:10', t:'微软发布 Visual Studio Code 1.148：电脑可在智能体运行时保持唤醒', s:'当地时间 25 日，微软推出 Visual Studio Code 1.148，进一步完善了应用的 AI 功能，重点优化…（来源：IT之家）', u:'https://www.ithome.com/1/033/155.htm'},
@@ -467,10 +470,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'INDUSTRY', d:'2026-11-27T07:17', t:'Anthropic 平台工程负责人莱斯：AI 改变工程师晋升标准，不再只看项目耗时', s:'在 Anthropic，AI 正在改变软件工程师的晋升标准。据《商业内幕》今天（27 日）报道，Anthropic 平台…（来源：IT之家）', u:'https://www.ithome.com/1/033/141.htm'},
     {c:'MODEL', d:'2026-11-27T06:59', t:'GPT-6.2 额度突然不耐用了？OpenAI 承认计费出错，修复后 Astra 消耗速度加快 40%、Sol 加快 25%', s:'OpenAI 已紧急修复 GPT-6.2 上线初期的一项计费错误 —— 此前该问题导致大多数用户使用 GPT-6.2 A…（来源：IT之家）', u:'https://www.ithome.com/1/033/138.htm'},
     {c:'MODEL', d:'2026-11-27T06:56', t:'彭博社：欧洲市值最高的软件公司 SAP 计划裁员超 1 万人，约占总员工 9%', s:'彭博社昨日（11 月 26 日）发布博文，报道称德国软件巨头思爱普（SAP）正考虑在一轮以人工智能为核心的重组中，裁减至…（来源：IT之家）', u:'https://www.ithome.com/1/033/137.htm'},
-    {c:'MODEL', d:'2026-11-26T23:24', t:'瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵', s:'据路透社报道，瑞士联邦网络安全局（BACS）周四通报，过去几天瑞士发生五起网络攻击，攻击者使用 AI 智能体针对企业以及…（来源：IT之家）', u:'https://www.ithome.com/1/033/131.htm'},
     {c:'HOT', d:'2026-11-26T21:56', t:'381个AI直播冲刺证明P=NP！把GitHub干崩了', s:'已跑了超过一万次会话，在Lean4里验证通过了2400多条引理（来源：量子位）', u:'https://www.qbitai.com/2026/11/513021.html'},
     {c:'MODEL', d:'2026-11-26T21:45', t:'深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效', s:'近日，钛虎机器人科技（上海）有限公司（以下简称“钛虎机器人”）正式发布面向机器人批量落地场景的轻量化关节模组Lite-1…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html'},
-    {c:'MEDPHARMA', d:'2026-11-26T20:52', t:'优宁维:公司对AI制药湿实验验证等新兴需求保持关注', s:'优宁维:公司对AI制药湿实验验证等新兴需求保持关注（来源：头条医药AI）', u:'https://www.toutiao.com/article/7712462105718342187/'},
     {c:'MODEL', d:'2026-11-26T20:50', t:'直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验', s:'聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。 作者丨齐铖湧 编辑丨岑 峰 近日，行业独角兽企…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html'},
     {c:'HOT', d:'2026-11-26T20:39', t:'AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用', s:'还得是科班尖子生（来源：量子位）', u:'https://www.qbitai.com/2026/11/512981.html'},
     {c:'INDUSTRY', d:'2026-11-26T19:20', t:'美团：预计到今年年底，妙手酒店版·既白将覆盖近40万商家', s:'11月25日，在中国饭店业高质量大会上，美团披露酒店AI经营工具的最新进展。美团预计，到2026年底，妙手酒店版·既白将…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html'},
@@ -478,27 +479,26 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'FUNDING', d:'2026-11-26T18:34', t:'Anthropic上市：从Uber的预算看Claude怎么赚钱', s:'Anthropic 在纳斯达克上市。今年前三季度，它近八成收入来自按使用量计费的业务。（来源：钛媒体）', u:'https://www.tmtpost.com/8218636.html'},
     {c:'INDUSTRY', d:'2026-11-26T18:34', t:'小米的利润，被AI拖累了？', s:'手机收缩，汽车爬坡，AI加码。（来源：钛媒体）', u:'https://www.tmtpost.com/8219233.html'},
     {c:'MODEL', d:'2026-11-26T18:21', t:'qOntology 本体工程平台开源版 V1.1.4 发布：AI 辅助建模与图谱可视化升级', s:'qOntology 本体工程平台开源版v1.1.4 本次优化： AI 辅助建模和图谱可视化进行升级 系统使用问题修复 开…（来源：OSCHINA）', u:'https://www.oschina.net/news/503836'},
-    {c:'HOT', d:'2026-11-26T18:07', t:'90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守', s:'全栈方案破解工业机器人连续作业难题（来源：量子位）', u:'https://www.qbitai.com/2026/11/512972.html'},
   ];
   const TIMELINE = [
-    ['11-27 08:43','智谱辟谣 GLM-5.5 延期；特斯拉和 SpaceX 冲刺年底合并；18 家平台完成算法协商，覆盖 2500 万新就业形态劳动者｜极客早知道'],
+    ['11-27 09:14','AI制药:科技巨头集体下注，研发从“工具外挂”奔赴临床大考...'],
+    ['11-27 09:13','消息称东京电力公司拟向人工智能基础设施领域投资超 10 万亿日元'],
+    ['11-27 09:00','Edge AI Daily 早报（11月27日）'],
+    ['11-27 08:58','北京:到2030年推动医药健康产业规模突破1.5万亿'],
     ['11-27 08:32','欧洲央行行长拉加德：AI 是帮助欧洲抵御能源危机的因素之一'],
     ['11-27 08:21','DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额'],
-    ['11-27 08:10','微软发布 Visual Studio Code 1.148：电脑可在智能体运行时保持唤醒'],
-    ['11-27 07:28','育碧：我们并没有在全公司范围强制推行 AI'],
-    ['11-27 07:17','Anthropic 平台工程负责人莱斯：AI 改变工程师晋升标准，不再只看项目耗时'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333609, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:327494, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311312, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235926, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201051, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157221, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153860, u:'https://github.com/Graphify-Labs/graphify', new:false},
-    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145845, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123090, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121984, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333618, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:327514, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311319, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235930, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201058, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157224, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153866, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145846, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123091, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121996, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
