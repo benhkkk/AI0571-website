@@ -459,6 +459,7 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-27T07:28', t:'育碧：我们并没有在全公司范围强制推行 AI', s:'此前有育碧内部人士爆料称，开发者在提出新游戏项目时，必须解释为什么不打算使用 AI。针对 Vertical Slice …（来源：IT之家）', u:'https://www.ithome.com/1/033/144.htm'},
     {c:'INDUSTRY', d:'2026-11-27T07:17', t:'Anthropic 平台工程负责人莱斯：AI 改变工程师晋升标准，不再只看项目耗时', s:'在 Anthropic，AI 正在改变软件工程师的晋升标准。据《商业内幕》今天（27 日）报道，Anthropic 平台…（来源：IT之家）', u:'https://www.ithome.com/1/033/141.htm'},
     {c:'MODEL', d:'2026-11-27T06:59', t:'GPT-6.2 额度突然不耐用了？OpenAI 承认计费出错，修复后 Astra 消耗速度加快 40%、Sol 加快 25%', s:'OpenAI 已紧急修复 GPT-6.2 上线初期的一项计费错误 —— 此前该问题导致大多数用户使用 GPT-6.2 A…（来源：IT之家）', u:'https://www.ithome.com/1/033/138.htm'},
     {c:'MODEL', d:'2026-11-27T06:56', t:'彭博社：欧洲市值最高的软件公司 SAP 计划裁员超 1 万人，约占总员工 9%', s:'彭博社昨日（11 月 26 日）发布博文，报道称德国软件巨头思爱普（SAP）正考虑在一轮以人工智能为核心的重组中，裁减至…（来源：IT之家）', u:'https://www.ithome.com/1/033/137.htm'},
@@ -466,39 +467,38 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'HOT', d:'2026-11-26T22:59', t:'因隐私问题，荷兰多个组织要求法院叫停 Meta 智能眼镜销售', s:'据路透社报道，荷兰多家消费者与数字权益组织于周四向法院提出申请，要求叫停 Meta 旗下 AI 智能眼镜在荷兰的销售。原…（来源：IT之家）', u:'https://www.ithome.com/1/033/126.htm'},
     {c:'MEDPHARMA', d:'2026-11-26T22:58', t:'腾讯用 AI 挑战药物研发领域前沿难题：成果登 Nature，在减重降糖、肿瘤免疫方向完成验证', s:'腾讯今日宣布，11 月 25 日，腾讯生命科学实验室的一项 AI for Science 研究成果，正式以第一单位登上《…（来源：IT之家）', u:'https://www.ithome.com/1/033/125.htm'},
     {c:'HOT', d:'2026-11-26T21:56', t:'381个AI直播冲刺证明P=NP！把GitHub干崩了', s:'已跑了超过一万次会话，在Lean4里验证通过了2400多条引理（来源：量子位）', u:'https://www.qbitai.com/2026/11/513021.html'},
-    {c:'MODEL', d:'2026-11-26T21:45', t:'深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效', s:'近日，钛虎机器人科技（上海）有限公司（以下简称“钛虎机器人”）正式发布面向机器人批量落地场景的轻量化关节模组Lite-1…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html'},
-    {c:'MEDDEVICE', d:'2026-11-26T20:53', t:'北京“十五五”期间将支持更多“全球新”药械研发上市', s:'北京“十五五”期间将支持更多“全球新”药械研发上市（来源：头条设备AI）', u:'https://www.toutiao.com/article/7712462449164960294/'},
     {c:'MEDPHARMA', d:'2026-11-26T20:52', t:'优宁维:公司对AI制药湿实验验证等新兴需求保持关注', s:'优宁维:公司对AI制药湿实验验证等新兴需求保持关注（来源：头条医药AI）', u:'https://www.toutiao.com/article/7712462105718342187/'},
-    {c:'MODEL', d:'2026-11-26T20:50', t:'直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验', s:'聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。 作者丨齐铖湧 编辑丨岑 峰 近日，行业独角兽企…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html'},
     {c:'HOT', d:'2026-11-26T20:39', t:'AI 3D界的“X光”来了！一图直出巴洛克雕塑，3D打印开箱即用', s:'还得是科班尖子生（来源：量子位）', u:'https://www.qbitai.com/2026/11/512981.html'},
     {c:'MODEL', d:'2026-11-26T20:32', t:'消息称育碧正大力推动将生成式 AI 深度融入游戏开发流程，项目若未引入 AI 需申报原因', s:'据外媒 Vertical Slice 报道，育碧正在大力推动生成式 AI 深度融入游戏开发流程，如今公司团队在提交新游戏…（来源：IT之家）', u:'https://www.ithome.com/1/033/078.htm'},
-    {c:'MODEL', d:'2026-11-26T19:29', t:'iPhone 16 AI 功能宣传涉嫌画大饼，苹果在韩国遭正式调查', s:'苹果在韩国正面临一项正式调查，调查指控其 iPhone 16 的广告宣传就 Apple Intelligence 功能的…（来源：IT之家）', u:'https://www.ithome.com/1/033/059.htm'},
-    {c:'INDUSTRY', d:'2026-11-26T19:20', t:'美团：预计到今年年底，妙手酒店版·既白将覆盖近40万商家', s:'11月25日，在中国饭店业高质量大会上，美团披露酒店AI经营工具的最新进展。美团预计，到2026年底，妙手酒店版·既白将…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html'},
     {c:'HOT', d:'2026-11-26T18:39', t:'阿莫迪自明本志：我本无意让AI掌权', s:'天地可鉴啊！（来源：钛媒体）', u:'https://www.tmtpost.com/8219202.html'},
     {c:'FUNDING', d:'2026-11-26T18:34', t:'Anthropic上市：从Uber的预算看Claude怎么赚钱', s:'Anthropic 在纳斯达克上市。今年前三季度，它近八成收入来自按使用量计费的业务。（来源：钛媒体）', u:'https://www.tmtpost.com/8218636.html'},
     {c:'INDUSTRY', d:'2026-11-26T18:34', t:'小米的利润，被AI拖累了？', s:'手机收缩，汽车爬坡，AI加码。（来源：钛媒体）', u:'https://www.tmtpost.com/8219233.html'},
     {c:'MODEL', d:'2026-11-26T18:21', t:'qOntology 本体工程平台开源版 V1.1.4 发布：AI 辅助建模与图谱可视化升级', s:'qOntology 本体工程平台开源版v1.1.4 本次优化： AI 辅助建模和图谱可视化进行升级 系统使用问题修复 开…（来源：OSCHINA）', u:'https://www.oschina.net/news/503836'},
     {c:'HOT', d:'2026-11-26T18:07', t:'90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守', s:'全栈方案破解工业机器人连续作业难题（来源：量子位）', u:'https://www.qbitai.com/2026/11/512972.html'},
+    {c:'HOT', d:'2026-11-26T17:56', t:'一家100人的AI公司，凭什么被英伟达、Anthropic、亚马逊抬到75亿？', s:'同样一套技术，为什么对亚马逊更值钱。（来源：钛媒体）', u:'https://www.tmtpost.com/8218433.html'},
+    {c:'MODEL', d:'2026-11-26T17:51', t:'ChatGPT即将到来的大更新，为何让老用户集体破防', s:'20 美元的会员费，养不起一个全天候工作的 AI#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内…（来源：爱范儿）', u:'https://www.ifanr.com/1695589?utm_source=rss&utm_medium=rss&utm_campaign'},
+    {c:'FUNDING', d:'2026-11-26T17:11', t:'价值判断：跌停板的投资机会和风险提示（11月24日）｜上市公司观察', s:'盘面上人形机器人与消费电子走强，工业金属与贵金属领跌。本期两只标的均为首次跌停且处高估值一端：英力特因重大资产重组复牌…（来源：钛媒体）', u:'https://www.tmtpost.com/8219199.html'},
+    {c:'INDUSTRY', d:'2026-11-26T16:19', t:'极客公园创新大会 2027 全议程公布！', s:'今天，IF 2027 全议程揭晓。（来源：量子位）', u:'https://www.qbitai.com/2026/11/512952.html'},
   ];
   const TIMELINE = [
+    ['11-27 07:28','育碧：我们并没有在全公司范围强制推行 AI'],
     ['11-27 07:17','Anthropic 平台工程负责人莱斯：AI 改变工程师晋升标准，不再只看项目耗时'],
     ['11-27 06:59','GPT-6.2 额度突然不耐用了？OpenAI 承认计费出错，修复后 Astra 消耗速度加快 40%、Sol 加快 25%'],
     ['11-27 06:56','彭博社：欧洲市值最高的软件公司 SAP 计划裁员超 1 万人，约占总员工 9%'],
     ['11-26 23:24','瑞士发生五起 AI 智能体网络攻击，电力供水通信系统遭入侵'],
     ['11-26 22:59','因隐私问题，荷兰多个组织要求法院叫停 Meta 智能眼镜销售'],
-    ['11-26 22:58','腾讯用 AI 挑战药物研发领域前沿难题：成果登 Nature，在减重降糖、肿瘤免疫方向完成验证'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333580, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:327456, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311289, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235922, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201026, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157212, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153842, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:333588, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:327473, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311292, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:235924, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201036, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157214, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:153846, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145843, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123085, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121969, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123088, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:121973, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
