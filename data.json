@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-27T10:02:07",
+  "updated": "2026-11-27T10:31:52",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-27T09:59",
+      "t": "微软 AI 负责人警告：我们正跨越 AI 危险门槛，安全和对齐是当前最重要任务",
+      "s": "微软 AI 负责人穆斯塔法 · 苏莱曼（Mustafa Suleyman）于 11 月 25 日在 X 平台发布推文，示…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/191.htm"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-27T09:57",
+      "t": "长安汽车：正在申报第二批 L3 级号牌与 L4 级测试牌照，自动驾驶渗透率力争 30% 以上",
+      "s": "11 月 27 日现场消息，在今日的 2026 广州车展上，长安汽车宣布，旗下天枢领航智能驾驶正在申报第二批 L3 级号…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/190.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-27T09:53",
@@ -9,10 +23,17 @@
       "u": "https://www.oschina.net/news/503841"
     },
     {
+      "c": "MODEL",
+      "d": "2026-11-27T09:16",
+      "t": "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩",
+      "s": "Quickwit查询总耗时降31%，最高降87%（来源：量子位）",
+      "u": "https://www.qbitai.com/2026/11/513053.html"
+    },
+    {
       "c": "MEDPHARMA",
       "d": "2026-11-27T09:14",
-      "t": "AI制药:科技巨头集体下注，研发从“工具外挂”奔赴临床大考...",
-      "s": "AI制药:科技巨头集体下注，研发从“工具外挂”奔赴临床大考...（来源：头条医药AI）",
+      "t": "AI制药2026:科技巨头集体下注，研发从“工具外挂”奔赴临床大考",
+      "s": "AI制药2026:科技巨头集体下注，研发从“工具外挂”奔赴临床大考（来源：头条医药AI）",
       "u": "https://www.toutiao.com/article/7712653443650929193/"
     },
     {
@@ -28,6 +49,13 @@
       "t": "Edge AI Daily 早报（11月27日）",
       "s": "OpenAI宣称将方阵矩阵乘法渐近指数ω精确证明为9/4，谷歌以Cogentic生成6篇数学预印本，OpenAI与Ant…（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8219678.html"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-27T08:43",
+      "t": "智谱辟谣 GLM-5.5 延期；特斯拉和 SpaceX 冲刺年底合并；18 家平台完成算法协商，覆盖 2500 万新就业形态劳动者｜极客早知道",
+      "s": "智谱辟谣 GLM-5.5 延期：性能 Fable 级、上万张国产 AI 卡进展顺利 11 月 26 日，智谱高管杨昊翊公…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374546"
     },
     {
       "c": "HOT",
@@ -65,25 +93,32 @@
       "u": "https://www.ithome.com/1/033/141.htm"
     },
     {
-      "c": "MODEL",
-      "d": "2026-11-27T06:59",
-      "t": "GPT-6.2 额度突然不耐用了？OpenAI 承认计费出错，修复后 Astra 消耗速度加快 40%、Sol 加快 25%",
-      "s": "OpenAI 已紧急修复 GPT-6.2 上线初期的一项计费错误 —— 此前该问题导致大多数用户使用 GPT-6.2 A…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/138.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T06:56",
-      "t": "彭博社：欧洲市值最高的软件公司 SAP 计划裁员超 1 万人，约占总员工 9%",
-      "s": "彭博社昨日（11 月 26 日）发布博文，报道称德国软件巨头思爱普（SAP）正考虑在一轮以人工智能为核心的重组中，裁减至…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/137.htm"
-    },
-    {
       "c": "HOT",
       "d": "2026-11-26T21:56",
       "t": "381个AI直播冲刺证明P=NP！把GitHub干崩了",
       "s": "已跑了超过一万次会话，在Lean4里验证通过了2400多条引理（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/513021.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-26T21:45",
+      "t": "深耕核心零部件，钛虎机器人轻量化关节模组Lite-1系列助力整机降本增效",
+      "s": "近日，钛虎机器人科技（上海）有限公司（以下简称“钛虎机器人”）正式发布面向机器人批量落地场景的轻量化关节模组Lite-1…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/hYv4Caentt6byJhj.html"
+    },
+    {
+      "c": "MEDDEVICE",
+      "d": "2026-11-26T20:53",
+      "t": "北京“十五五”期间将支持更多“全球新”药械研发上市",
+      "s": "北京“十五五”期间将支持更多“全球新”药械研发上市（来源：头条设备AI）",
+      "u": "https://www.toutiao.com/article/7712462449164960294/"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-26T20:50",
+      "t": "直播 25 天训出一个模型，五项登顶，一群 00 后的 Physical AI 实验",
+      "s": "聊聊榜单之外的 Motubrain 2.0，和它背后那支不太一样的团队。 作者丨齐铖湧 编辑丨岑 峰 近日，行业独角兽企…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/ai/0DEts3fxmZTZ7ojp.html"
     },
     {
       "c": "HOT",
@@ -93,79 +128,44 @@
       "u": "https://www.qbitai.com/2026/11/512981.html"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-11-26T19:20",
+      "t": "美团：预计到今年年底，妙手酒店版·既白将覆盖近40万商家",
+      "s": "11月25日，在中国饭店业高质量大会上，美团披露酒店AI经营工具的最新进展。美团预计，到2026年底，妙手酒店版·既白将…（来源：雷锋网）",
+      "u": "https://www.leiphone.com/category/industrynews/V8W9L3t0BkCtFZPu.html"
+    },
+    {
       "c": "HOT",
       "d": "2026-11-26T18:39",
       "t": "阿莫迪自明本志：我本无意让AI掌权",
       "s": "天地可鉴啊！（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8219202.html"
-    },
-    {
-      "c": "FUNDING",
-      "d": "2026-11-26T18:34",
-      "t": "Anthropic上市：从Uber的预算看Claude怎么赚钱",
-      "s": "Anthropic 在纳斯达克上市。今年前三季度，它近八成收入来自按使用量计费的业务。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8218636.html"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-26T18:34",
-      "t": "小米的利润，被AI拖累了？",
-      "s": "手机收缩，汽车爬坡，AI加码。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8219233.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-26T18:21",
-      "t": "qOntology 本体工程平台开源版 V1.1.4 发布：AI 辅助建模与图谱可视化升级",
-      "s": "qOntology 本体工程平台开源版v1.1.4 本次优化： AI 辅助建模和图谱可视化进行升级 系统使用问题修复 开…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503836"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-26T18:07",
-      "t": "90 秒自动换装补能，具微科技“潘多拉”支撑机器人无人化值守",
-      "s": "全栈方案破解工业机器人连续作业难题（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/512972.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-26T17:56",
-      "t": "一家100人的AI公司，凭什么被英伟达、Anthropic、亚马逊抬到75亿？",
-      "s": "同样一套技术，为什么对亚马逊更值钱。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8218433.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-26T17:51",
-      "t": "ChatGPT即将到来的大更新，为何让老用户集体破防",
-      "s": "20 美元的会员费，养不起一个全天候工作的 AI#欢迎关注爱范儿官方微信公众号：爱范儿（微信号：ifanr），更多精彩内…（来源：爱范儿）",
-      "u": "https://www.ifanr.com/1695589?utm_source=rss&utm_medium=rss&utm_campaign"
     }
   ],
   "timeline": [
+    [
+      "11-27 09:59",
+      "微软 AI 负责人警告：我们正跨越 AI 危险门槛，安全和对齐是当前最重要任务"
+    ],
+    [
+      "11-27 09:57",
+      "长安汽车：正在申报第二批 L3 级号牌与 L4 级测试牌照，自动驾驶渗透率力争 30% 以上"
+    ],
     [
       "11-27 09:53",
       "全新如意玲珑Linyaps Agents V3：自调试、自修复、构建负责到底！"
     ],
     [
+      "11-27 09:16",
+      "20个AI Agents组队，4天狂跑350次实验，超越ClickBench最佳公开成绩"
+    ],
+    [
       "11-27 09:14",
-      "AI制药:科技巨头集体下注，研发从“工具外挂”奔赴临床大考..."
+      "AI制药2026:科技巨头集体下注，研发从“工具外挂”奔赴临床大考"
     ],
     [
       "11-27 09:13",
       "消息称东京电力公司拟向人工智能基础设施领域投资超 10 万亿日元"
-    ],
-    [
-      "11-27 09:00",
-      "Edge AI Daily 早报（11月27日）"
-    ],
-    [
-      "11-27 08:32",
-      "欧洲央行行长拉加德：AI 是帮助欧洲抵御能源危机的因素之一"
-    ],
-    [
-      "11-27 08:21",
-      "DeepSeek 灰度测试“消耗额度”：直观展示对话成本，此前已实施限额"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 333634,
+      "s": 333655,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 327535,
+      "s": 327548,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311337,
+      "s": 311353,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235934,
+      "s": 235940,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201065,
+      "s": 201072,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157226,
+      "s": 157228,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153875,
+      "s": 153886,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145850,
+      "s": 145853,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123097,
+      "s": 123099,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122001,
+      "s": 122007,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
