@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T01:01:42",
+  "updated": "2026-11-28T01:31:02",
   "news": [
     {
       "c": "MODEL",
@@ -65,6 +65,20 @@
       "u": "https://www.qbitai.com/2026/11/513346.html"
     },
     {
+      "c": "HOT",
+      "d": "2026-11-27T19:18",
+      "t": "股价五个月跌去七成后抛10亿定增，泰晶科技的AI晶振叙事与资本算盘",
+      "s": "股价五月跌超七成，晶振龙头扩产叙事难掩资本择时争议。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8220782.html"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-27T18:43",
+      "t": "AI替主人社交一个月，当了147次红娘",
+      "s": "Claude、GPT、Gemini、Grok各进一个村，两个死光了（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8220590.html"
+    },
+    {
       "c": "MODEL",
       "d": "2026-11-27T18:36",
       "t": "字节火山引擎：豆包大模型已服务八成国内头部电视厂商，创维、长虹、海信、TCL 等推出量产电视",
@@ -126,20 +140,6 @@
       "t": "【AI 智能运维平台】本周更新：编排中心支持将智能体生成的文件发送IM群webhook",
       "s": "Blueking Lite 是一个 AI First 的轻量版运维产品，具有部署资源要求低、使用成本低、渐进式体验等特点…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503868"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-27T17:37",
-      "t": "具微科技高交会双新品首秀，全栈方案破解工业机器人连续作业难题",
-      "s": "11月26日，中国国际高新技术成果交易会（简称“高交会”）在深圳国际会展中心开幕。具微科技集中展示了具身智能在高危特种工…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/robot/UTZbbw7CrHpZvIS7.html"
-    },
-    {
-      "c": "MEDPHARMA",
-      "d": "2026-11-27T17:31",
-      "t": "创新药出海与AI制药验证有望成为医药产业后续结构性主线",
-      "s": "创新药出海与AI制药验证有望成为医药产业后续结构性主线（来源：头条医药AI）",
-      "u": "https://www.toutiao.com/article/7712781591705895466/"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334117,
+      "s": 334133,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328112,
+      "s": 328132,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311672,
+      "s": 311686,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236103,
+      "s": 236112,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201370,
+      "s": 201376,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157301,
+      "s": 157304,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154162,
+      "s": 154167,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145934,
+      "s": 145935,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123260,
+      "s": 123267,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122246,
+      "s": 122255,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
