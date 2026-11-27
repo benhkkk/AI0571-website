@@ -1,12 +1,26 @@
 {
-  "updated": "2026-11-27T14:02:13",
+  "updated": "2026-11-27T14:32:01",
   "news": [
+    {
+      "c": "FUNDING",
+      "d": "2026-11-27T13:58",
+      "t": "荣威家越 07 纯电版上市：行业首搭豆包座舱助手，13.28 万元起",
+      "s": "在今天的广州车展发布会上，荣威家越 07 纯电版正式发布，官方指导价 13.28 至 14.98 万元。该车全系标配 8…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/348.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-27T13:58",
       "t": "GPUWorks 26.12.0 发布：接入 K8s 与 Slurm，解锁更多 GPU 资源接入",
       "s": "大家好！GPUWorks 首个开源版本发布至今已有 24 天。感谢社区伙伴们的关注、试用与反馈！过去这段时间，我们连续发…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503855"
+    },
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-27T13:50",
+      "t": "何小鹏谈“IRON 人形机器人何时进入海外”：中国市场交付后一个季度，就会进入欧洲",
+      "s": "在 2026 广州车展期间，小鹏集团董事长、CEO 何小鹏与小鹏机器人 IRON 共同巡展。据新浪科技报道，何小鹏谈到“…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/344.htm"
     },
     {
       "c": "MODEL",
@@ -126,26 +140,20 @@
       "t": "全新深蓝 S07/L07 AI 激光版车型行业首批开放域端到端豆包大模型",
       "s": "11 月 27 日现场消息，在今日的 2026 广州车展上，深蓝汽车董事长邓承浩宣布，全新深蓝 S07/L07 AI 激…（来源：IT之家）",
       "u": "https://www.ithome.com/1/033/283.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T11:45",
-      "t": "腾讯混元发布 Hy3D 3.6：高模表面更整洁、结构更清晰、刻画更细腻",
-      "s": "3D生成的竞争重点正在从“能看”转向“能用”（来源：量子位）",
-      "u": "https://www.qbitai.com/2026/11/513155.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T11:44",
-      "t": "腾讯混元发布 3D 生成大模型 Hy3D 3.6：面向专业 3D 创作",
-      "s": "腾讯混元今天（27 日）正式发布最新一代 3D 大模型 Hy3D 3.6。新版本面向专业 3D 创作，重点优化了高模和 …（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/282.htm"
     }
   ],
   "timeline": [
     [
       "11-27 13:58",
+      "荣威家越 07 纯电版上市：行业首搭豆包座舱助手，13.28 万元起"
+    ],
+    [
+      "11-27 13:58",
       "GPUWorks 26.12.0 发布：接入 K8s 与 Slurm，解锁更多 GPU 资源接入"
+    ],
+    [
+      "11-27 13:50",
+      "何小鹏谈“IRON 人形机器人何时进入海外”：中国市场交付后一个季度，就会进入欧洲"
     ],
     [
       "11-27 13:32",
@@ -158,14 +166,6 @@
     [
       "11-27 13:07",
       "何小鹏带 IRON 人形机器人到 2026 广州车展小米展台互动，和李肖爽互祝大卖"
-    ],
-    [
-      "11-27 12:52",
-      "腾讯阿里百度集体交账，AI进入兑现期"
-    ],
-    [
-      "11-27 12:51",
-      "时隔一年，小鹏机器人再登台，何小鹏又哽咽了！"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 333754,
+      "s": 333769,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 327664,
+      "s": 327687,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311406,
+      "s": 311412,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 235970,
+      "s": 235975,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201144,
+      "s": 201158,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157254,
+      "s": 157255,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 153934,
+      "s": 153941,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145874,
+      "s": 145879,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123126,
+      "s": 123135,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122062,
+      "s": 122065,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
