@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T14:01:07",
+  "updated": "2026-11-28T14:31:15",
   "news": [
     {
       "c": "MODEL",
@@ -114,6 +114,13 @@
       "u": "https://www.ithome.com/1/033/798.htm"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-11-28T08:53",
+      "t": "AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作",
+      "s": "OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」 当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374621"
+    },
+    {
       "c": "FUNDING",
       "d": "2026-11-28T03:14",
       "t": "独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资",
@@ -133,13 +140,6 @@
       "t": "AI 让“自托管”又变得好玩了",
       "s": "一个玩了十几年“自托管了”的极客，最近写了篇博客说，自己对这件事的热情又回来了。 jlelse 的说法是他从没真正停下来…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503872/ai-made-self-hosting-fun-again"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T19:20",
-      "t": "微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动",
-      "s": "一袋 500g 装的咖啡豆，和两袋 250g 的组合装，外观相似、总重一样，但它们不是一个 SKU。这种差别，通用多模态…（来源：OSCHINA）",
-      "u": "https://www.oschina.net/news/503871"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334377,
+      "s": 334387,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328479,
+      "s": 328496,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311992,
+      "s": 311998,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236287,
+      "s": 236301,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201609,
+      "s": 201614,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157341,
+      "s": 157345,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154334,
+      "s": 154340,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123354,
+      "s": 123355,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122405,
+      "s": 122412,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
