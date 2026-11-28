@@ -459,6 +459,8 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
   }
   const CAT = {HOT:['热点','--hot'],MODEL:['新模型','--model'],FUNDING:['融资','--funding'],INDUSTRY:['行业动态','--industry'],MEDPHARMA:['医药AI','--medpharma'],MEDDEVICE:['设备AI','--meddevice']};
   const NEWS = [
+    {c:'HOT', d:'2026-11-28T11:22', t:'“iPod 之父”法德尔：OpenAI 曾邀乔纳森 · 艾维打造实体 AI 设备，因为苹果永远不会提供数据', s:'当地时间 26 日，据《财富》杂志报道，托尼 · 法德尔透露，萨姆 · 奥尔特曼曾邀请苹果前设计主管乔纳森 · 艾夫为 …（来源：IT之家）', u:'https://www.ithome.com/1/033/824.htm'},
+    {c:'MODEL', d:'2026-11-28T11:18', t:'Galaxy S27 系列手机专享，三星 One UI 9.5 Beta 曝光 36 项 AI 新功能', s:'科技媒体 Android Authority 昨日（11 月 27 日）发布博文，通过挖掘 One UI 9.5 首个 …（来源：IT之家）', u:'https://www.ithome.com/1/033/822.htm'},
     {c:'INDUSTRY', d:'2026-11-28T11:17', t:'AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么', s:'一场还没有完全出现在报表里的利润挤压。（来源：钛媒体）', u:'https://www.tmtpost.com/8221273.html'},
     {c:'MEDPHARMA', d:'2026-11-28T11:12', t:'医疗健康产业日报(11.27) : AI制药新突破', s:'医疗健康产业日报(11.27) : AI制药新突破（来源：头条医药AI）', u:'https://www.toutiao.com/article/7713055060556562994/'},
     {c:'HOT', d:'2026-11-28T10:53', t:'OpenAI 和 Anthropic 在招什么样的营销人才？', s:'三家公司招聘要求背后，有五种共同能力。（来源：钛媒体）', u:'https://www.tmtpost.com/8221003.html'},
@@ -467,38 +469,36 @@ footer{background:var(--layer);border-top:1px solid var(--border);padding-top:56
     {c:'MODEL', d:'2026-11-28T10:16', t:'Edge 浏览器右键菜单不加新 AI 了，微软对搁置可能造成的不便深表歉意', s:'科技媒体 NeoWin 昨日（11 月 27 日）发布博文，报道称微软已搁置为 Edge 浏览器扩展 AI 功能计划，不…（来源：IT之家）', u:'https://www.ithome.com/1/033/810.htm'},
     {c:'HOT', d:'2026-11-28T10:15', t:'爱奇艺站在悬崖之上，龚宇也有心无力？', s:'AI还不是救命稻草。（来源：钛媒体）', u:'https://www.tmtpost.com/8220926.html'},
     {c:'MEDPHARMA', d:'2026-11-28T09:04', t:'脑癌治疗新希望：加州理工学院研发纳米机器人 BrainBot，可随血液循环突破血脑屏障向脑内递药', s:'当地时间 27 日，据外媒 TechSpot 报道，加州理工学院研究人员开发出一种能够随血液循环、将药物送入大脑的纳米机…（来源：IT之家）', u:'https://www.ithome.com/1/033/798.htm'},
-    {c:'INDUSTRY', d:'2026-11-28T08:53', t:'AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作', s:'OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」 当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何…（来源：极客公园）', u:'http://www.geekpark.net/news/374621'},
     {c:'MODEL', d:'2026-11-28T08:50', t:'iOS 27.3 前瞻苹果 AI 限额：Siri AI 标准每日 20 次云端请求', s:'技术博主 @itspdfu 于 11 月 26 日在 X 平台发布长推文，通过挖掘 iOS 27.3 Beta 2 开发…（来源：IT之家）', u:'https://www.ithome.com/1/033/795.htm'},
     {c:'HOT', d:'2026-11-28T08:24', t:'IT 管理员称微软 Copilot 可擅自修改企业 OneDrive / SharePoint 文件，恐引合规风险', s:'微软一直积极推动 Copilot 融入旗下各类应用，Office 自然也不例外。然而据外媒 Neowin 当地时间 27…（来源：IT之家）', u:'https://www.ithome.com/1/033/790.htm'},
     {c:'MODEL', d:'2026-11-28T07:28', t:'IT早报 1128：DeepSeek 灰度测试“消耗额度”；有线电视与 IPTV 广告禁令生效；比亚迪海洋网旗舰 MPV 海鲸亮相；市监总局集中约谈 15 家电动自行车企业...', s:'“IT早报”时间，大家好，现在是 2026 年 11 月 28 日星期六，今天的重要科技资讯有：1. DeepSeek …（来源：IT之家）', u:'https://www.ithome.com/1/033/784.htm'},
     {c:'MODEL', d:'2026-11-28T07:12', t:'OpenAI 转守为攻：反诉苹果窃密，喊话“不公平竞争”', s:'《金融时报》昨日（11 月 27 日）发布博文，报道称在苹果公司提起的商业秘密诉讼中，OpenAI 公司已经提出反诉，指…（来源：IT之家）', u:'https://www.ithome.com/1/033/780.htm'},
-    {c:'MODEL', d:'2026-11-28T07:04', t:'全球首个：联想为部分 Win11 商用电脑预装 OpenAI ChatGPT，企业登录最高可领 100 美元优惠额度', s:'据 Windows Latest 今日报道，联想成为全球首家在部分 Windows 11 商用电脑上预装 ChatGPT…（来源：IT之家）', u:'https://www.ithome.com/1/033/777.htm'},
     {c:'FUNDING', d:'2026-11-28T03:14', t:'独家丨瞄准 AI 算力天花板，「闪科光联」完成数千万融资', s:'“AI算力的成本中心正在从‘计算’转向‘连接’。”雷峰网·鲸犀独家获悉，MicroLED 高速光互连芯片与光引擎研发商「…（来源：雷锋网）', u:'https://www.leiphone.com/category/ai/ilqJyKclWkhaWIps.html'},
-    {c:'MODEL', d:'2026-11-27T22:11', t:'防考生利用 AI 作弊，韩国学校抢购金属探测器', s:'据央视新闻报道，为防范考生利用人工智能（AI）设备作弊，韩国教育部近日发布新规，要求所有参加校内考试的学生须在考试前后接…（来源：IT之家）', u:'https://www.ithome.com/1/033/763.htm'},
     {c:'INDUSTRY', d:'2026-11-27T22:07', t:'人形机器人开发者集合！众擎开放大小脑，10亿产业级生态支持计划也来了', s:'一支团队在真机上验证的成果，可以成为下一支团队继续开发的起点。（来源：量子位）', u:'https://www.qbitai.com/2026/11/513352.html'},
     {c:'HOT', d:'2026-11-27T19:30', t:'AI 让“自托管”又变得好玩了', s:'一个玩了十几年“自托管了”的极客，最近写了篇博客说，自己对这件事的热情又回来了。 jlelse 的说法是他从没真正停下来…（来源：OSCHINA）', u:'https://www.oschina.net/news/503872/ai-made-self-hosting-fun-again'},
     {c:'MODEL', d:'2026-11-27T19:20', t:'微信开源 WeMM-Ecom：多模态基础模型家族、基于真实电商需求驱动', s:'一袋 500g 装的咖啡豆，和两袋 250g 的组合装，外观相似、总重一样，但它们不是一个 SKU。这种差别，通用多模态…（来源：OSCHINA）', u:'https://www.oschina.net/news/503871'},
     {c:'HOT', d:'2026-11-27T19:18', t:'全国首批首家！商汤大装置获Token工厂智算能力最高评级', s:'商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证（来源：量子位）', u:'https://www.qbitai.com/2026/11/513346.html'},
+    {c:'MODEL', d:'2026-11-27T18:28', t:'美团2026年三季报：营收1156亿元，AI经营工作台“妙手”已服务200万商家', s:'11月27日，美团（股票代码：3690.HK）发布2026年第三季度业绩报告。三季度，美团实现收入1156亿元，同比增长…（来源：雷锋网）', u:'https://www.leiphone.com/category/industrynews/iJ0tw7k1kHDs5zjT.html'},
   ];
   const TIMELINE = [
+    ['11-28 11:22','“iPod 之父”法德尔：OpenAI 曾邀乔纳森 · 艾维打造实体 AI 设备，因为苹果永远不会提供数据'],
+    ['11-28 11:18','Galaxy S27 系列手机专享，三星 One UI 9.5 Beta 曝光 36 项 AI 新功能'],
     ['11-28 11:17','AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么'],
     ['11-28 11:12','医疗健康产业日报(11.27) : AI制药新突破'],
     ['11-28 10:53','OpenAI 和 Anthropic 在招什么样的营销人才？'],
     ['11-28 10:36','港交所科技100指数大换血：六进七出，中国科技资产正在重新定价'],
-    ['11-28 10:33','客户不买单，具身智能的“第一”还值几个钱？'],
-    ['11-28 10:16','Edge 浏览器右键菜单不加新 AI 了，微软对搁置可能造成的不便深表歉意'],
   ];
   const SKILLS = [
-    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:334331, u:'https://github.com/mattpocock/skills', new:false},
-    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:328391, u:'https://github.com/obra/superpowers', new:false},
-    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311928, u:'https://github.com/affaan-m/ECC', new:false},
-    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:236240, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
-    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201566, u:'https://github.com/anthropics/skills', new:false},
-    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157328, u:'https://github.com/anthropics/claude-code', new:false},
-    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:154304, u:'https://github.com/Graphify-Labs/graphify', new:false},
+    {n:1, r:'mattpocock/skills', d:'Skills for Real Engineers. Straight from my .agents directory.', s:334345, u:'https://github.com/mattpocock/skills', new:false},
+    {n:2, r:'obra/superpowers', d:'An agentic skills framework & software development methodology that works.', s:328410, u:'https://github.com/obra/superpowers', new:false},
+    {n:3, r:'affaan-m/ECC', d:'The agent harness performance optimization system. Skills, instincts, memory, security, an…', s:311941, u:'https://github.com/affaan-m/ECC', new:false},
+    {n:4, r:'multica-ai/andrej-karpathy-skills', d:'A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy\'s ob…', s:236252, u:'https://github.com/multica-ai/andrej-karpathy-skills', new:false},
+    {n:5, r:'anthropics/skills', d:'Public repository for Agent Skills', s:201574, u:'https://github.com/anthropics/skills', new:false},
+    {n:6, r:'anthropics/claude-code', d:'Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…', s:157333, u:'https://github.com/anthropics/claude-code', new:false},
+    {n:7, r:'Graphify-Labs/graphify', d:'Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…', s:154310, u:'https://github.com/Graphify-Labs/graphify', new:false},
     {n:8, r:'Shubhamsaboo/awesome-llm-apps', d:'100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.', s:145977, u:'https://github.com/Shubhamsaboo/awesome-llm-apps', new:false},
-    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123337, u:'https://github.com/JuliusBrussee/caveman', new:false},
-    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:122375, u:'https://github.com/Leonxlnx/taste-skill', new:false},
+    {n:9, r:'JuliusBrussee/caveman', d:'why use many token when few token do trick. Skill + local proxy for coding agents: shorter…', s:123339, u:'https://github.com/JuliusBrussee/caveman', new:false},
+    {n:10, r:'Leonxlnx/taste-skill', d:'Agent skills that give coding agents taste: art direction, reference images and a browser …', s:122380, u:'https://github.com/Leonxlnx/taste-skill', new:false},
   ];
   const rel = iso => {
     const m = Math.floor((Date.now() - new Date(iso).getTime()) / 6e4);
