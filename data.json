@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-28T19:31:06",
+  "updated": "2026-11-28T20:01:39",
   "news": [
+    {
+      "c": "HOT",
+      "d": "2026-11-28T19:32",
+      "t": "《黑神话：悟空》制作人冯骥：AI 正在改写一条数百年未变的硬边界，智力首次脱离肉身变资本要素",
+      "s": "11 月 27 日，游戏科学创始人 / CEO、《黑神话：悟空》制作人冯骥在其个人公众号“冯骥 Yocar”发表了一篇名…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/986.htm"
+    },
+    {
+      "c": "MODEL",
+      "d": "2026-11-28T19:15",
+      "t": "我国太空数据中心在轨技术试验平台上线",
+      "s": "据北京发布今日消息，11 月 27 日，2026 太空数据中心建设工作推进大会举行，大会公布了北京太空算力工作进展，并发…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/983.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-28T18:46",
@@ -49,20 +63,6 @@
       "t": "将星闪联接、端侧 AI、超高清音视频融入开源鸿蒙，上海海思介绍 Hi-OHOS 平台",
       "s": "2026 开源鸿蒙技术大会今日在南京举行。此次大会上，上海海思重点介绍了基于开源鸿蒙构建的统一 OS 平台 —— Hi-…（来源：IT之家）",
       "u": "https://www.ithome.com/1/033/928.htm"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-28T16:54",
-      "t": "《黑神话：悟空》制作人冯骥发 8000 字长文谈“后 AI 时代”：如果有一天没有任何工作需要人了，人该怎么办？",
-      "s": "11 月 27 日，游戏科学创始人、《黑神话：悟空》制作人冯骥在其个人公众号“冯骥 Yocar”发表了一篇名为《后 AI…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/927.htm"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-28T16:15",
-      "t": "南京发布鸿蒙智能体三年行动计划：2028 年营收破千亿，集聚企业超 100 家",
-      "s": "《科创板日报》今日报道，南京市今日发布《开源鸿蒙智能体发展行动计划（2026—2028 年）》，部署九项重点任务，涵盖鸿…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/920.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,14 @@
   ],
   "timeline": [
     [
+      "11-28 19:32",
+      "《黑神话：悟空》制作人冯骥：AI 正在改写一条数百年未变的硬边界，智力首次脱离肉身变资本要素"
+    ],
+    [
+      "11-28 19:15",
+      "我国太空数据中心在轨技术试验平台上线"
+    ],
+    [
       "11-28 18:46",
       "首个开源鸿蒙社区打造的具身智能操作系统 RoboOH 2.0 正式发布"
     ],
@@ -158,14 +166,6 @@
     [
       "11-28 18:20",
       "网友反馈 OSTA O1 Pro 华为商城断货，星芒刘赫回应“在补货了，这两天整的鸡飞狗跳”"
-    ],
-    [
-      "11-28 17:58",
-      "《黑神话：悟空》制作人冯骥：从四年前开始，AI 可能已经逐渐控制了世界"
-    ],
-    [
-      "11-28 17:45",
-      "世界最高输电铁塔在江苏首次开展检修，外骨骼机器人辅助极限作业"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334497,
+      "s": 334503,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328652,
+      "s": 328669,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 312113,
+      "s": 312119,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236437,
+      "s": 236456,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201703,
+      "s": 201707,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154402,
+      "s": 154416,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 146000,
+      "s": 146002,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123419,
+      "s": 123422,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122478,
+      "s": 122485,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
