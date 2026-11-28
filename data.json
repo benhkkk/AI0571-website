@@ -1,5 +1,5 @@
 {
-  "updated": "2026-11-28T12:01:54",
+  "updated": "2026-11-28T12:31:26",
   "news": [
     {
       "c": "HOT",
@@ -72,6 +72,13 @@
       "u": "https://www.ithome.com/1/033/798.htm"
     },
     {
+      "c": "INDUSTRY",
+      "d": "2026-11-28T08:53",
+      "t": "AI 硬件竞争白热化，OpenAI 反诉苹果窃密；iPhone 18 量产再度推迟；王兴回应美团与小微试点合作",
+      "s": "OpenAI 转守为攻：反诉苹果窃密，喊话「不公平竞争」 当地时间周五（27 日），OpenAI 在美国加利福尼亚州圣何…（来源：极客公园）",
+      "u": "http://www.geekpark.net/news/374621"
+    },
+    {
       "c": "MODEL",
       "d": "2026-11-28T08:50",
       "t": "iOS 27.3 前瞻苹果 AI 限额：Siri AI 标准每日 20 次云端请求",
@@ -133,13 +140,6 @@
       "t": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
       "s": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/513346.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T18:28",
-      "t": "美团2026年三季报：营收1156亿元，AI经营工作台“妙手”已服务200万商家",
-      "s": "11月27日，美团（股票代码：3690.HK）发布2026年第三季度业绩报告。三季度，美团实现收入1156亿元，同比增长…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/iJ0tw7k1kHDs5zjT.html"
     }
   ],
   "timeline": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334345,
+      "s": 334355,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328410,
+      "s": 328426,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311941,
+      "s": 311951,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236252,
+      "s": 236262,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201574,
+      "s": 201580,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157333,
+      "s": 157336,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154310,
+      "s": 154314,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145977,
+      "s": 145979,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123339,
+      "s": 123343,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122380,
+      "s": 122384,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
