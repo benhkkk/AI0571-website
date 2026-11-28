@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-28T08:32:43",
+  "updated": "2026-11-28T09:02:45",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-28T08:53",
+      "t": "Edge AI Daily 早报（11月28日）",
+      "s": "Anthropic 发布 Claude Ship，将 GitHub PR 拆分为 Code Review、PR Stew…（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8220996.html"
+    },
+    {
+      "c": "HOT",
+      "d": "2026-11-28T08:24",
+      "t": "IT 管理员称微软 Copilot 可擅自修改企业 OneDrive / SharePoint 文件，恐引合规风险",
+      "s": "微软一直积极推动 Copilot 融入旗下各类应用，Office 自然也不例外。然而据外媒 Neowin 当地时间 27…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/790.htm"
+    },
     {
       "c": "MODEL",
       "d": "2026-11-28T07:28",
@@ -56,13 +70,6 @@
       "t": "AI 让“自托管”又变得好玩了",
       "s": "一个玩了十几年“自托管了”的极客，最近写了篇博客说，自己对这件事的热情又回来了。 jlelse 的说法是他从没真正停下来…（来源：OSCHINA）",
       "u": "https://www.oschina.net/news/503872/ai-made-self-hosting-fun-again"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T19:25",
-      "t": "网信办：我国超 64% 成年公民具备初级及以上数字素养与技能，近半数具备人工智能素养",
-      "s": "国家互联网信息办公室今日发布《全民数字素养与技能调查报告（2026 年）》。《报告》从总体情况、地区情况、群体情况等方面…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/732.htm"
     },
     {
       "c": "MODEL",
@@ -133,16 +140,17 @@
       "t": "226万亿Token，DeepSeek为何领跑？",
       "s": "中国模型包揽OpenRouter前三，开发者为何偏爱Flash？（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8220552.html"
-    },
-    {
-      "c": "HOT",
-      "d": "2026-11-27T17:20",
-      "t": "跌破1美元！爱奇艺迎来180天大考",
-      "s": "长视频增长承压，押注AI破局（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8220382.html"
     }
   ],
   "timeline": [
+    [
+      "11-28 08:53",
+      "Edge AI Daily 早报（11月28日）"
+    ],
+    [
+      "11-28 08:24",
+      "IT 管理员称微软 Copilot 可擅自修改企业 OneDrive / SharePoint 文件，恐引合规风险"
+    ],
     [
       "11-28 07:28",
       "IT早报 1128：DeepSeek 灰度测试“消耗额度”；有线电视与 IPTV 广告禁令生效；比亚迪海洋网旗舰 MPV 海鲸亮相；市监总局集中约谈 15 家电…"
@@ -158,14 +166,6 @@
     [
       "11-27 22:11",
       "防考生利用 AI 作弊，韩国学校抢购金属探测器"
-    ],
-    [
-      "11-27 21:06",
-      "美团王兴：与微信小微合作按计划推进，预计明年 AI 资本开支将低于今年"
-    ],
-    [
-      "11-27 20:44",
-      "微信公布 2026 年 11 月朋友圈热度谣言，含“监管要求基金公司上报全部产品 AI 敞口”等"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334264,
+      "s": 334277,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328309,
+      "s": 328322,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311863,
+      "s": 311871,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236202,
+      "s": 236209,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201514,
+      "s": 201523,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157326,
+      "s": 157327,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154270,
+      "s": 154275,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145964,
+      "s": 145966,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123321,
+      "s": 123324,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122336,
+      "s": 122348,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
