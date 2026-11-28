@@ -1,6 +1,13 @@
 {
-  "updated": "2026-11-28T19:01:12",
+  "updated": "2026-11-28T19:31:06",
   "news": [
+    {
+      "c": "MODEL",
+      "d": "2026-11-28T18:46",
+      "t": "首个开源鸿蒙社区打造的具身智能操作系统 RoboOH 2.0 正式发布",
+      "s": "2026 开源鸿蒙技术大会在南京举行。大会期间，开源鸿蒙具身智能操作系统 RoboOH 2.0 Release 版本正式…（来源：IT之家）",
+      "u": "https://www.ithome.com/1/033/980.htm"
+    },
     {
       "c": "FUNDING",
       "d": "2026-11-28T18:37",
@@ -56,13 +63,6 @@
       "t": "南京发布鸿蒙智能体三年行动计划：2028 年营收破千亿，集聚企业超 100 家",
       "s": "《科创板日报》今日报道，南京市今日发布《开源鸿蒙智能体发展行动计划（2026—2028 年）》，部署九项重点任务，涵盖鸿…（来源：IT之家）",
       "u": "https://www.ithome.com/1/033/920.htm"
-    },
-    {
-      "c": "INDUSTRY",
-      "d": "2026-11-28T15:52",
-      "t": "雅砻江公司与华为获联合国“全球可持续工业 AI 解决方案奖”，方案落地于全球最大水光互补电站",
-      "s": "据华为数字能源分享，在联合国工业发展组织 60 周年纪念活动期间，雅砻江流域水电开发有限公司（简称“雅砻江公司”）与华为…（来源：IT之家）",
-      "u": "https://www.ithome.com/1/033/914.htm"
     },
     {
       "c": "HOT",
@@ -144,6 +144,10 @@
   ],
   "timeline": [
     [
+      "11-28 18:46",
+      "首个开源鸿蒙社区打造的具身智能操作系统 RoboOH 2.0 正式发布"
+    ],
+    [
       "11-28 18:37",
       "【数智周报】 黄仁勋回归英伟达，恢复CEO职务；Anthropic CEO以IPO发行价出售337.8万股，套现约2.8亿美元；英伟达暂停向四个东南亚国家出货服…"
     ],
@@ -162,10 +166,6 @@
     [
       "11-28 17:45",
       "世界最高输电铁塔在江苏首次开展检修，外骨骼机器人辅助极限作业"
-    ],
-    [
-      "11-28 17:05",
-      "将星闪联接、端侧 AI、超高清音视频融入开源鸿蒙，上海海思介绍 Hi-OHOS 平台"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334487,
+      "s": 334497,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328642,
+      "s": 328652,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 312102,
+      "s": 312113,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236421,
+      "s": 236437,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154393,
+      "s": 154402,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 146003,
+      "s": 146000,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123413,
+      "s": 123419,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122474,
+      "s": 122478,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
