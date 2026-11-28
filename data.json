@@ -1,6 +1,20 @@
 {
-  "updated": "2026-11-28T11:01:49",
+  "updated": "2026-11-28T11:31:04",
   "news": [
+    {
+      "c": "INDUSTRY",
+      "d": "2026-11-28T11:17",
+      "t": "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么",
+      "s": "一场还没有完全出现在报表里的利润挤压。（来源：钛媒体）",
+      "u": "https://www.tmtpost.com/8221273.html"
+    },
+    {
+      "c": "MEDPHARMA",
+      "d": "2026-11-28T11:12",
+      "t": "医疗健康产业日报(11.27) : AI制药新突破",
+      "s": "医疗健康产业日报(11.27) : AI制药新突破（来源：头条医药AI）",
+      "u": "https://www.toutiao.com/article/7713055060556562994/"
+    },
     {
       "c": "HOT",
       "d": "2026-11-28T10:53",
@@ -35,13 +49,6 @@
       "t": "爱奇艺站在悬崖之上，龚宇也有心无力？",
       "s": "AI还不是救命稻草。（来源：钛媒体）",
       "u": "https://www.tmtpost.com/8220926.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-28T09:50",
-      "t": "DeepSeek给智能装上了电表",
-      "s": "0.000528元。（来源：钛媒体）",
-      "u": "https://www.tmtpost.com/8220986.html"
     },
     {
       "c": "MEDPHARMA",
@@ -133,16 +140,17 @@
       "t": "全国首批首家！商汤大装置获Token工厂智算能力最高评级",
       "s": "商汤大装置Token工厂获得中国信通院Token工厂智算能力评估“全栈服务型·领先级”评级认证（来源：量子位）",
       "u": "https://www.qbitai.com/2026/11/513346.html"
-    },
-    {
-      "c": "MODEL",
-      "d": "2026-11-27T18:28",
-      "t": "美团2026年三季报：营收1156亿元，AI经营工作台“妙手”已服务200万商家",
-      "s": "11月27日，美团（股票代码：3690.HK）发布2026年第三季度业绩报告。三季度，美团实现收入1156亿元，同比增长…（来源：雷锋网）",
-      "u": "https://www.leiphone.com/category/industrynews/iJ0tw7k1kHDs5zjT.html"
     }
   ],
   "timeline": [
+    [
+      "11-28 11:17",
+      "AI服务器卖爆了，但卖服务器的不赚钱了：股价跌一半，市场在清算什么"
+    ],
+    [
+      "11-28 11:12",
+      "医疗健康产业日报(11.27) : AI制药新突破"
+    ],
     [
       "11-28 10:53",
       "OpenAI 和 Anthropic 在招什么样的营销人才？"
@@ -158,14 +166,6 @@
     [
       "11-28 10:16",
       "Edge 浏览器右键菜单不加新 AI 了，微软对搁置可能造成的不便深表歉意"
-    ],
-    [
-      "11-28 10:15",
-      "爱奇艺站在悬崖之上，龚宇也有心无力？"
-    ],
-    [
-      "11-28 09:50",
-      "DeepSeek给智能装上了电表"
     ]
   ],
   "skills": [
@@ -173,7 +173,7 @@
       "n": 1,
       "r": "mattpocock/skills",
       "d": "Skills for Real Engineers. Straight from my .agents directory.",
-      "s": 334313,
+      "s": 334331,
       "u": "https://github.com/mattpocock/skills",
       "new": false
     },
@@ -181,7 +181,7 @@
       "n": 2,
       "r": "obra/superpowers",
       "d": "An agentic skills framework & software development methodology that works.",
-      "s": 328376,
+      "s": 328391,
       "u": "https://github.com/obra/superpowers",
       "new": false
     },
@@ -189,7 +189,7 @@
       "n": 3,
       "r": "affaan-m/ECC",
       "d": "The agent harness performance optimization system. Skills, instincts, memory, security, an…",
-      "s": 311914,
+      "s": 311928,
       "u": "https://github.com/affaan-m/ECC",
       "new": false
     },
@@ -197,7 +197,7 @@
       "n": 4,
       "r": "multica-ai/andrej-karpathy-skills",
       "d": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's ob…",
-      "s": 236232,
+      "s": 236240,
       "u": "https://github.com/multica-ai/andrej-karpathy-skills",
       "new": false
     },
@@ -205,7 +205,7 @@
       "n": 5,
       "r": "anthropics/skills",
       "d": "Public repository for Agent Skills",
-      "s": 201554,
+      "s": 201566,
       "u": "https://github.com/anthropics/skills",
       "new": false
     },
@@ -213,7 +213,7 @@
       "n": 6,
       "r": "anthropics/claude-code",
       "d": "Claude Code is an agentic coding tool that lives in your terminal, understands your codeba…",
-      "s": 157329,
+      "s": 157328,
       "u": "https://github.com/anthropics/claude-code",
       "new": false
     },
@@ -221,7 +221,7 @@
       "n": 7,
       "r": "Graphify-Labs/graphify",
       "d": "Turn any codebase, with its docs, SQL schemas, configs, and PDFs, into a queryable knowled…",
-      "s": 154301,
+      "s": 154304,
       "u": "https://github.com/Graphify-Labs/graphify",
       "new": false
     },
@@ -229,7 +229,7 @@
       "n": 8,
       "r": "Shubhamsaboo/awesome-llm-apps",
       "d": "100+ AI Agents, Agent Skills and RAG Apps - Free and Open Source.",
-      "s": 145976,
+      "s": 145977,
       "u": "https://github.com/Shubhamsaboo/awesome-llm-apps",
       "new": false
     },
@@ -237,7 +237,7 @@
       "n": 9,
       "r": "JuliusBrussee/caveman",
       "d": "why use many token when few token do trick. Skill + local proxy for coding agents: shorter…",
-      "s": 123333,
+      "s": 123337,
       "u": "https://github.com/JuliusBrussee/caveman",
       "new": false
     },
@@ -245,7 +245,7 @@
       "n": 10,
       "r": "Leonxlnx/taste-skill",
       "d": "Agent skills that give coding agents taste: art direction, reference images and a browser …",
-      "s": 122370,
+      "s": 122375,
       "u": "https://github.com/Leonxlnx/taste-skill",
       "new": false
     }
